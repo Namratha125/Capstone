@@ -1,0 +1,217 @@
+{
+  "task": "Symbolic Rule Engine content - Articles 21, 32, 14",
+  "author": "Shrikri (Person 1)",
+  "rules": [
+    {
+      "rule_id": "ART21_PROCEDURE_ESTABLISHED_BY_LAW",
+      "domain": "personal_liberty",
+      "applicable_statutes": ["Constitution_Art_21"],
+      "applicable_concepts": ["Due Process", "Natural Justice", "Procedural Fairness"],
+      "condition_logic": {
+        "requires": ["INVOLVES Art_21"],
+        "petitioner_argument_pattern": "absence, unfairness, or arbitrariness of the procedure depriving liberty",
+        "test": "IF a law/procedure deprives personal liberty AND that procedure is not fair, just, and reasonable THEN it fails Art 21 (post-Maneka Gandhi, read with Art 14)",
+        "contrary_pattern": "procedure exists, is prescribed by valid law, and petitioner does not contest its fairness/reasonableness - only contests outcome or quantum"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_procedure_absent_or_arbitrary",
+      "doctrinal_basis": "Maneka Gandhi v. Union of India (1978) - Arts 14, 19, 21 are not water-tight compartments; 'procedure established by law' must itself be fair, just and reasonable, not arbitrary or oppressive.",
+      "exemplar_sentences": [
+        "the procedure adopted was arbitrary and violative of natural justice",
+        "no opportunity of hearing was given before the impugned action",
+        "the impounding/impugned order was passed without following due process",
+        "the procedure is unknown to law",
+        "the action amounts to a colourable exercise of power",
+        "the order suffers from non-application of mind",
+        "the procedure, even if prescribed, is unreasonable and unfair"
+      ],
+      "layer1_keywords": ["arbitrary", "natural justice", "opportunity of hearing", "due process", "procedure unknown to law", "colourable exercise", "non-application of mind"],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute {statute_id:'Constitution_Art_21'}) OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['Due Process','Natural Justice','Procedural Fairness'] OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument)<-[:HAS_PARTY]-(p:Party {role:'Petitioner'}) RETURN c.case_id, c.outcome, collect(DISTINCT lc.name), collect(DISTINCT a.text)",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null
+    },
+    {
+      "rule_id": "ART21_RIGHT_TO_LIVE_WITH_DIGNITY",
+      "domain": "personal_liberty",
+      "applicable_statutes": ["Constitution_Art_21"],
+      "applicable_concepts": ["Right to Dignity", "Right to Livelihood", "Right to Health"],
+      "condition_logic": {
+        "requires": ["INVOLVES Art_21"],
+        "petitioner_argument_pattern": "state action or inaction deprives basic conditions necessary for a dignified human existence",
+        "test": "IF state action/inaction denies shelter, health, livelihood, or basic human dignity THEN it infringes the expanded right to life under Art 21",
+        "contrary_pattern": "petitioner claims a pure economic/contractual grievance with no nexus to survival, dignity, or bodily/mental integrity"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_basic_dignity_or_survival_condition_denied",
+      "doctrinal_basis": "Francis Coralie Mullin v. Administrator, Union Territory of Delhi (1981) - right to life under Art 21 includes right to live with human dignity and all that goes with it (adequate nutrition, shelter, facilities for expressing oneself). Extended in Olga Tellis v. Bombay Municipal Corporation (1985), which held that eviction of pavement dwellers without alternative arrangements violates the right to life/livelihood under Art 21 - this is the direct precedent for the 'eviction without alternative accommodation' exemplar below.",
+      "exemplar_sentences": [
+        "the impugned action deprives the petitioner of a means of livelihood",
+        "denial of basic medical facilities amounts to violation of the right to life",
+        "the conditions amount to a denial of human dignity",
+        "eviction without alternative accommodation violates the right to shelter",
+        "the right to life is not mere animal existence but a life of dignity",
+        "denial of adequate nutrition/health care to the detenue/petitioner"
+      ],
+      "layer1_keywords": ["human dignity", "right to livelihood", "right to health", "shelter", "adequate nutrition", "means of livelihood"],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute {statute_id:'Constitution_Art_21'}) OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['Right to Dignity','Right to Livelihood','Right to Health'] RETURN c.case_id, c.outcome, collect(DISTINCT lc.name)",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null
+    },
+    {
+      "rule_id": "ART21_ARBITRARY_PREVENTIVE_DETENTION",
+      "domain": "personal_liberty",
+      "applicable_statutes": ["Constitution_Art_21", "Constitution_Art_22"],
+      "applicable_concepts": ["Preventive Detention", "Grounds of Detention", "Subjective Satisfaction"],
+      "condition_logic": {
+        "requires": ["INVOLVES Art_21"],
+        "petitioner_argument_pattern": "detention order lacks specific/timely grounds, or detaining authority's satisfaction is not genuine",
+        "test": "IF grounds of detention are vague, stale, undisclosed, or the subjective satisfaction of the detaining authority is not bona fide THEN the detention is illegal",
+        "contrary_pattern": "grounds are specific, timely communicated, and detenue was given the statutory opportunity to make a representation"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_grounds_vague_or_satisfaction_not_bonafide",
+      "doctrinal_basis": "General preventive-detention jurisprudence under Arts 21/22, refined post-Maneka Gandhi (1978) to require genuine, communicated, specific grounds; mala fide or mechanical satisfaction vitiates detention. Note per A.K. Roy v. Union of India (1982) (NSA case): natural justice safeguards are not applied uniformly to all detention statutes - the Court weighs the circumstances and purpose of the specific Act, and upheld the NSA despite it excluding rights like legal representation and cross-examination of the detaining authority. So this rule's 'contrary_pattern' should also cover: detention under a statute whose object justifies excluding a particular natural-justice safeguard, not just cases with facially adequate grounds.",
+      "exemplar_sentences": [
+        "the grounds of detention are vague and irrelevant",
+        "there was unexplained delay in passing/executing the detention order",
+        "the detaining authority did not apply its mind independently",
+        "the satisfaction recorded is mala fide",
+        "the detenue was denied the right to make an effective representation",
+        "the grounds supplied are stale and have no live link with the object of detention"
+      ],
+      "layer1_keywords": ["grounds of detention", "mala fide", "subjective satisfaction", "detenue", "unexplained delay", "preventive detention", "vague and irrelevant"],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE s.statute_id IN ['Constitution_Art_21','Constitution_Art_22'] OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['Preventive Detention','Grounds of Detention','Subjective Satisfaction'] RETURN c.case_id, c.outcome, collect(DISTINCT lc.name)",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null
+    },
+    {
+      "rule_id": "ART32_WRIT_JURISDICTION_AS_FUNDAMENTAL_RIGHT",
+      "domain": "constitutional_remedy",
+      "applicable_statutes": ["Constitution_Art_32"],
+      "applicable_concepts": ["Right to Constitutional Remedy", "Writ Jurisdiction"],
+      "condition_logic": {
+        "requires": ["INVOLVES Art_32"],
+        "petitioner_argument_pattern": "direct approach to Supreme Court to enforce a fundamental right, without first exhausting other remedies",
+        "test": "IF a petitioner shows infringement of a fundamental right THEN Art 32 itself guarantees the remedy of moving the Supreme Court directly - the right to move under Art 32 is itself a fundamental right",
+        "contrary_pattern": "petition raises only a statutory/contractual right with no fundamental right infringement, or seeks Art 32 relief to bypass ordinary civil remedies without any FR violation"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_genuine_fundamental_right_violation_shown",
+      "doctrinal_basis": "Article 32 itself (constitutional text, clauses 1-4) - the right to move the SC for enforcement of Part III rights is itself a guaranteed fundamental right (Dr. B.R. Ambedkar called it 'the heart and soul' of the Constitution). Historical caution: in ADM Jabalpur v. Shukla (Habeas Corpus Case), decided when Art 21 was suspended during the 1975 Emergency, the Court held preventive detention orders could not even be challenged - this was legislatively reversed by the 44th Amendment (1978), which provides that Art 21 (and the Art 32 remedy for it) cannot be suspended even during an Emergency. So the rule's true doctrinal floor post-1978 is: the Art 32 remedy for Art 20/21 violations is absolute and non-suspendable; for other Part III rights, Art 32 itself can be suspended only via a formal Emergency proclamation under Art 359, not administrative action.",
+      "exemplar_sentences": [
+        "the petitioner has approached this Court under Article 32 for enforcement of fundamental rights",
+        "this Court's writ jurisdiction under Article 32 is itself a fundamental right",
+        "the impugned action infringes the fundamental rights guaranteed under Part III",
+        "the remedy under Article 32 cannot be denied merely because an alternative remedy exists, where fundamental rights are at stake"
+      ],
+      "layer1_keywords": ["Article 32", "writ jurisdiction", "fundamental right", "constitutional remedy", "alternative remedy"],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute {statute_id:'Constitution_Art_32'}) OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['Right to Constitutional Remedy','Writ Jurisdiction'] RETURN c.case_id, c.outcome, collect(DISTINCT lc.name)",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null
+    },
+    {
+      "rule_id": "ART32_PIL_LOCUS_STANDI_RELAXATION",
+      "domain": "constitutional_remedy",
+      "applicable_statutes": ["Constitution_Art_32"],
+      "applicable_concepts": ["Locus Standi", "Public Interest Litigation"],
+      "condition_logic": {
+        "requires": ["INVOLVES Art_32"],
+        "petitioner_argument_pattern": "petitioner is not personally aggrieved but acts on behalf of a class unable to approach the court itself",
+        "test": "IF the petitioner acts bona fide on behalf of persons who are poor, disabled, or otherwise unable to approach the court (or in genuine public interest) THEN strict personal locus standi is relaxed",
+        "contrary_pattern": "petition is a disguised private/publicity/political interest (busybody) litigation with no genuine public interest element"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_bonafide_representative_or_public_interest_shown",
+      "doctrinal_basis": "S.P. Gupta v. Union of India (1981) and Bandhua Mukti Morcha v. Union of India (1984) - relaxation of locus standi to allow any public-spirited person or organization to move the Court on behalf of disadvantaged classes who cannot approach it themselves. Qualified by Janata Dal v. H.S. Chowdhary (1992), which held that the relaxed locus standi rule in PIL does not extend to a 'busybody or meddlesome interloper' acting under the guise of public interest - this is the named case for the contrary_pattern below. (Ashok Kumar Pandey v. State of W.B. (2003) and Dr. B. Singh v. Union of India (2004) apply the same busybody standard and are useful secondary citations.)",
+      "exemplar_sentences": [
+        "the petitioner has filed this petition in public interest on behalf of persons unable to approach this Court",
+        "the affected class is too poor/disadvantaged to seek relief on its own",
+        "this is a bona fide public interest litigation and not motivated by personal gain",
+        "the petition seeks to espouse the cause of a class rather than an individual grievance",
+        "the petition is a busybody's litigation and an abuse of process of Article 32"
+      ],
+      "layer1_keywords": ["public interest litigation", "locus standi", "busybody", "on behalf of", "public-spirited", "espouse the cause"],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute {statute_id:'Constitution_Art_32'}) OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['Locus Standi','Public Interest Litigation'] RETURN c.case_id, c.outcome, collect(DISTINCT lc.name)",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null
+    },
+    {
+      "rule_id": "ART14_CLASSIFICATION_TEST",
+      "domain": "equality",
+      "applicable_statutes": ["Constitution_Art_14"],
+      "applicable_concepts": ["Intelligible Differentia", "Rational Nexus", "Reasonable Classification"],
+      "condition_logic": {
+        "requires": ["INVOLVES Art_14"],
+        "petitioner_argument_pattern": "a statutory/executive classification treats similarly situated persons differently without justification",
+        "test": "IF a classification lacks an intelligible differentia distinguishing grouped persons from others, OR that differentia has no rational nexus to the object of the law, THEN it violates Art 14",
+        "contrary_pattern": "the classification is based on a real and substantial distinction bearing a reasonable relation to the object sought to be achieved by the statute"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_no_intelligible_differentia_or_rational_nexus",
+      "doctrinal_basis": "State of West Bengal v. Anwar Ali Sarkar (1952) - the twin test for permissible classification: (1) intelligible differentia distinguishing persons grouped together from others left out, and (2) the differentia must have a rational nexus to the object sought to be achieved.",
+      "exemplar_sentences": [
+        "the classification has no intelligible differentia",
+        "there is no rational nexus between the classification and the object of the Act",
+        "similarly situated persons have been treated differently without any reasonable basis",
+        "the classification is discriminatory and violates the equality clause",
+        "the impugned provision singles out the petitioner without justification"
+      ],
+      "layer1_keywords": ["intelligible differentia", "rational nexus", "reasonable classification", "discriminatory", "similarly situated", "singled out"],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute {statute_id:'Constitution_Art_14'}) OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['Intelligible Differentia','Rational Nexus','Reasonable Classification'] RETURN c.case_id, c.outcome, collect(DISTINCT lc.name)",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null
+    },
+    {
+      "rule_id": "ART14_STATE_ACTION_NON_ARBITRARINESS",
+      "domain": "equality",
+      "applicable_statutes": ["Constitution_Art_14"],
+      "applicable_concepts": ["Non-Arbitrariness", "Rule of Law"],
+      "condition_logic": {
+        "requires": ["INVOLVES Art_14"],
+        "petitioner_argument_pattern": "executive/administrative action is arbitrary, capricious, or without reasonable basis, independent of any formal classification",
+        "test": "IF state action is arbitrary or unreasonable (regardless of whether a classification is even involved) THEN it violates Art 14, since equality is antithetical to arbitrariness",
+        "contrary_pattern": "the state action, though discretionary, is guided by policy/reasons and is not capricious or whimsical"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_state_action_shown_arbitrary",
+      "doctrinal_basis": "E.P. Royappa v. State of Tamil Nadu (1974), affirmed in Maneka Gandhi (1978) - equality is a dynamic concept; arbitrariness is the antithesis of equality, so Art 14 strikes at arbitrary state action even outside the classification framework.",
+      "exemplar_sentences": [
+        "the impugned action is arbitrary, capricious, and unreasonable",
+        "the decision was taken without any guiding policy or reasons",
+        "the exercise of discretion is whimsical and violates Article 14",
+        "no reasons were assigned for the differential treatment",
+        "the action smacks of malice in law"
+      ],
+      "layer1_keywords": ["arbitrary", "capricious", "whimsical", "malice in law", "no reasons assigned", "discretion"],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute {statute_id:'Constitution_Art_14'}) OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['Non-Arbitrariness','Rule of Law'] RETURN c.case_id, c.outcome, collect(DISTINCT lc.name)",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null
+    },
+    {
+      "rule_id": "ART14_MANIFEST_ARBITRARINESS_LEGISLATION",
+      "domain": "equality",
+      "applicable_statutes": ["Constitution_Art_14"],
+      "applicable_concepts": ["Manifest Arbitrariness", "Legislative Arbitrariness"],
+      "condition_logic": {
+        "requires": ["INVOLVES Art_14"],
+        "petitioner_argument_pattern": "a statute (not just executive action) is challenged as arbitrary, excessive, disproportionate, or without adequate determining principle",
+        "test": "IF a legislative provision is manifestly arbitrary - i.e. capricious, irrational, or excessive/disproportionate - THEN it can be struck down under Art 14",
+        "contrary_pattern": "the legislative classification/provision, though harsh, is grounded in a discernible policy and is not irrational or excessive on its face"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_legislation_shown_manifestly_arbitrary",
+      "doctrinal_basis": "Shayara Bano v. Union of India (2017) - extended the arbitrariness doctrine (beyond executive action) to strike down legislation itself as manifestly arbitrary under Art 14, where a provision is capricious, irrational, or excessive/disproportionate.",
+      "exemplar_sentences": [
+        "the impugned provision is manifestly arbitrary and excessive",
+        "the statutory provision lacks any adequate determining principle",
+        "the penalty/consequence prescribed is disproportionate to the object",
+        "the provision is capricious and irrational on its face",
+        "the legislation fails to satisfy the test of manifest arbitrariness"
+      ],
+      "layer1_keywords": ["manifestly arbitrary", "disproportionate", "excessive", "irrational", "determining principle", "capricious"],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute {statute_id:'Constitution_Art_14'}) OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['Manifest Arbitrariness','Legislative Arbitrariness'] RETURN c.case_id, c.outcome, collect(DISTINCT lc.name)",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null
+    }
+  ]
+}
