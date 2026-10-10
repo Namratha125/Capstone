@@ -1,0 +1,2466 @@
+{
+  "meta": {
+    "title": "Stage 4 rule content: Articles 19, 20, 22 (aligned with rules_art21_32_14.json)",
+    "version": "v5",
+    "built": "2026-10-10",
+    "owner": "Person 2",
+    "rule_count": {
+      "article_19": 11,
+      "article_20": 5,
+      "article_22": 12,
+      "total": 28
+    },
+    "supersedes": "v4 (same 28 rules, same rule_ids, same exemplars; v5 changes concept tags, Cypher output shape, and adds overlap links)",
+    "top_level_keys_unchanged": "article_19_rules, article_20_rules, article_22_rules are kept so the existing matcher merge does not break.",
+    "conventions": {
+      "statute_ids": "Graph-native, e.g. Constitution_Art_19(1)(a). Collapsed multi-clause ids such as Constitution_Art_19(1)(b)(c) and bare article nodes are matched by the Cypher; Art 190/191/192 are never matched.",
+      "argument_selection": "Petitioner arguments are selected with a.side = 'petitioner'. There is no Argument.pattern property and no Argument-Party join.",
+      "matcher_join": "Cypher returns candidate cases and petitioner_argument_ids; the argument-pattern matcher output (case_id, rule_id, similarity_score) is joined downstream on (case_id, rule_id).",
+      "requires": "condition_logic.requires is parser input for the matcher and uses shorthand (Art_19_1_a). OR means either clause; the Cypher also accepts the bare article node.",
+      "applicable_concepts": "Controlled-vocabulary names only (snake_case, e.g. preventive_detention), the same convention as rules_art21_32_14.json, so they can be matched to APPLIES_CONCEPT edges. Descriptive doctrine names that are not in the vocabulary are kept in doctrine_terms_not_in_graph. The concept signal is OPTIONAL and never filters cases; many tags are coarse (for example fundamental_rights), so the argument matcher, not the concept, separates rules.",
+      "rule_type": "petitioner_favoring | cross_cutting_doctrine | exception_carveout",
+      "evidence_level": "A = at least one authority's law-report head-note or judgment text was read; B = authorities described consistently by secondary sources only; C = no case authority attached (text or drafted inference).",
+      "calibration_fields": "argument_match_confidence, confidence_calibration and min_supporting_cases stay null until Person 4's test set exists.",
+      "statute_id_converter": "to_graph_statute_id() must be idempotent (return input unchanged if it already contains '('), otherwise graph-native ids are truncated to the bare article.",
+      "cypher_output": "Positional columns match Shrikri's templates: 1) c.case_id, 2) c.outcome, 3) matched concepts. Extra columns follow: year, matched_statutes, petitioner_argument_ids. Concept, statute and argument matches are aggregated in stages with WITH, so a case with many arguments and concepts does not multiply rows.",
+      "unverified_graph_assumption": "Templates assume LegalConcept.name holds the snake_case concept string, the same assumption flagged in Shrikri's file. If it lives only on the APPLIES_CONCEPT relationship (concept_id), change lc.name in both files. A wrong property returns empty concepts and does not break the query."
+    },
+    "graph_schema_assumed": {
+      "Case": [
+        "case_id",
+        "year",
+        "outcome",
+        "(others unused)"
+      ],
+      "Statute": [
+        "statute_id"
+      ],
+      "Argument": [
+        "argument_id",
+        "text",
+        "side ('petitioner'|'respondent')",
+        "court_accepted"
+      ],
+      "relationships": [
+        "(Case)-[:INVOLVES]->(Statute)",
+        "(Case)-[:MAKES_ARGUMENT]->(Argument)"
+      ]
+    },
+    "testing_done": {
+      "static_checks": "0 errors: schema conformance of every label, relationship, direction and property (including LegalConcept.name); every concept tag is in the 53-term controlled vocabulary; first three output columns match Shrikri's templates positionally; exemplars, keywords, tests and authorities are identical to v4; overlap targets exist in Shrikri's file; no rule_id collision with his file.",
+      "execution": "All 28 templates executed on a toy graph (Kuzu embedded engine) with LegalConcept nodes and APPLIES_CONCEPT edges, Art 190/191/220 traps, collapsed statute ids, bare article nodes, a case with no arguments and respondent arguments. 31 behavioural checks passed, including one row per case.",
+      "NOT_done": "Not run on the live Neo4j Aura graph. Kuzu is not Neo4j. LegalConcept.name is an unverified assumption (same as in Shrikri's file). Run each template once with LIMIT 5 on Aura first.",
+      "legal": "Not reviewed by a lawyer. 12 of 31 authorities were read at law-report or judgment level; the rest are confirmed through secondary sources only. See open_items_for_legal_review."
+    },
+    "verification_policy": "Case holdings were checked against law-report head-notes, judgment text or secondary legal sources as recorded in the authorities registry. This does not replace a legal reviewer reading the judgments.",
+    "open_items_for_legal_review": [
+      "Read the Himat Lal Shah judgment for the unguided-permission holding (ART19_1B_UNGUIDED_PERMISSION_REGIME).",
+      "Confirm the Vihaan Kumar (2025) holding and check whether a larger bench has since ruled (ART22_1A_GROUNDS_OF_ARREST).",
+      "State the admissibility holding for consensually obtained scientific-test results (ART20_3_SCIENTIFIC_TEST_COMPULSION).",
+      "Supply authority for the blanket Art 22(6) non-disclosure limb (ART22_6).",
+      "Add statute-specific Advisory Board rules (NSA, COFEPOSA) if the KG records the detention statute (ART22_4).",
+      "Confirm the D.K. Basu guideline list against the judgment (ART22_ARREST_MEMO_AND_INTIMATION_DK_BASU).",
+      "Decide whether to keep ART22_NON_APPLICATION_OF_MIND, ART22_MALA_FIDE_DETENTION and ART22_LIVE_LINK_STALE_GROUNDS as separate multi-label rules (recommended) or merge them.",
+      "ART20_2_DOUBLE_JEOPARDY needs an LLM verification layer for the 'same ingredients' comparison."
+    ],
+    "known_limitation": "Embedding similarity cannot detect polarity: an argument defending a provision can score highly against an exemplar attacking it. A verification layer is the fix and is out of scope for the current matcher.",
+    "controlled_concept_vocab": {
+      "source": "list supplied by the fact-layer owner (53 terms)",
+      "terms": [
+        "adverse_possession",
+        "arbitration",
+        "audi_alteram_partem",
+        "bail_jurisprudence",
+        "basic_structure",
+        "beyond_reasonable_doubt",
+        "burden_of_proof",
+        "circumstantial_evidence",
+        "consumer_protection",
+        "delegated_legislation",
+        "doctrine_of_merger",
+        "doctrine_of_severability",
+        "double_jeopardy",
+        "due_process",
+        "dying_declaration",
+        "estoppel",
+        "fair_trial",
+        "force_majeure",
+        "fundamental_rights",
+        "good_faith",
+        "habeas_corpus",
+        "hearsay_evidence",
+        "hostile_witness",
+        "judicial_review",
+        "legitimate_expectation",
+        "limitation",
+        "locus_standi",
+        "mala_fides",
+        "mens_rea",
+        "natural_justice",
+        "precedent",
+        "preventive_detention",
+        "promissory_estoppel",
+        "property_law",
+        "public_interest",
+        "quasi_judicial",
+        "reasonable_doubt",
+        "res_judicata",
+        "right_against_self_incrimination",
+        "right_to_equality",
+        "right_to_life",
+        "right_to_privacy",
+        "rule_against_bias",
+        "rule_of_law",
+        "separation_of_powers",
+        "service_law",
+        "specific_performance",
+        "stare_decisis",
+        "tax_law",
+        "ultra_vires",
+        "unjust_enrichment",
+        "vicarious_liability",
+        "writ_jurisdiction"
+      ]
+    },
+    "concept_coverage": {
+      "covered_directly": [
+        "preventive_detention",
+        "double_jeopardy",
+        "right_against_self_incrimination",
+        "mala_fides",
+        "fundamental_rights"
+      ],
+      "covered_partly": [
+        "natural_justice",
+        "judicial_review",
+        "bail_jurisprudence",
+        "habeas_corpus",
+        "due_process",
+        "right_to_life",
+        "right_to_equality"
+      ],
+      "partly_note": "natural_justice, judicial_review, bail_jurisprudence and habeas_corpus are tagged only where they appear inside a detention or reasonableness rule. due_process, right_to_life and right_to_equality are tagged only on the interlinkage and arrest-guideline rules; Shrikri's Art 14 and Art 21 rules carry them directly.",
+      "not_covered_by_design": "Civil, commercial, evidence and general administrative-law concepts are outside Arts 19, 20 and 22 and have no rule here. Concepts such as audi_alteram_partem, writ_jurisdiction, locus_standi and rule_of_law are covered by rules_art21_32_14.json where they appear.",
+      "vocabulary_gaps": "The vocabulary has no tag for ex post facto law, arrest and custody safeguards, right to counsel, free speech, assembly, association, movement, trade, proportionality, vagueness, or the Advisory Board. Rules on those rely on statute and argument matching, not concept edges."
+    },
+    "cross_team_overlap": {
+      "problem": "rules_art21_32_14.json has ART21_ARBITRARY_PREVENTIVE_DETENTION, which fires on Art 21 and Art 22 cases and so on the same cases as eight of the Art 22 preventive-detention rules here.",
+      "recommended_policy": "Treat Shrikri's rule as the umbrella parent and the Art 22 rules as specific children. Stage 4 should not count a parent and its children as independent evidence for the same case.",
+      "decision_needed_from": "Person 1 and Person 2 together, before Stage 4 evaluation is coded.",
+      "also_overlapping": [
+        "ART19_21_GOLDEN_TRIANGLE_INTERLINKAGE with ART21_PROCEDURE_ESTABLISHED_BY_LAW and ART14_STATE_ACTION_NON_ARBITRARINESS"
+      ]
+    },
+    "meta_note_on_layout": "The file keeps article_19_rules, article_20_rules and article_22_rules as list keys. It also holds two dict keys, meta and authorities. Confirm the matcher's merge loads rules by the three list keys, not by iterating every top-level value."
+  },
+  "authorities": {
+    "vg_row_1952": {
+      "id": "vg_row_1952",
+      "case": "State of Madras v. V.G. Row",
+      "citation": "[1952] SCR (page not verified)",
+      "decided": "1952",
+      "used_for": "Reasonableness of a restriction on a 19(1) freedom is judged on substance and procedure; the case concerned a society declared an unlawful association (19(1)(c)/(4)).",
+      "evidence_level": "B",
+      "source_note": "Secondary summaries; also cited by Shreya Singhal and Gurbachan Singh."
+    },
+    "gurbachan_singh_1952": {
+      "id": "gurbachan_singh_1952",
+      "case": "Gurbachan Singh v. State of Bombay",
+      "citation": "[1952] 1 SCR 737; AIR 1952 SC 221",
+      "decided": "7 May 1952",
+      "used_for": "Upheld s.27 City of Bombay Police Act externment under Art 19(5); reasonableness depends on the procedural as well as the substantive part of the law and the circumstances of each case.",
+      "evidence_level": "A",
+      "source_note": "Law-report head-note text read."
+    },
+    "kaushailiya_1963": {
+      "id": "kaushailiya_1963",
+      "case": "State of Uttar Pradesh v. Kaushailiya",
+      "citation": "AIR 1964 SC 416; 1964 (4) SCR 1002",
+      "decided": "1 Oct 1963",
+      "used_for": "Upheld s.20 Suppression of Immoral Traffic in Women and Girls Act 1956: restrictions on movement/residence imposed after judicial inquiry in the general public interest are reasonable under 19(5) and do not offend Art 14.",
+      "evidence_level": "A",
+      "source_note": "Law-report head-note and summary read."
+    },
+    "himat_lal_shah_1973": {
+      "id": "himat_lal_shah_1973",
+      "case": "Himat Lal K. Shah v. Commissioner of Police, Ahmedabad",
+      "citation": "(1973) 1 SCC 227",
+      "decided": "1972-73",
+      "used_for": "Right to hold public meetings on streets is subject to control of time and place and to public order; a rule requiring prior permission that gave unchecked discretion to the Commissioner was struck down.",
+      "evidence_level": "B",
+      "source_note": "First limb read in the Amit Sahni judgment text; the strike-down limb from a secondary summary only."
+    },
+    "amit_sahni_2020": {
+      "id": "amit_sahni_2020",
+      "case": "Amit Sahni v. Commissioner of Police (Shaheen Bagh)",
+      "citation": "Civil Appeal No. 3282 of 2020",
+      "decided": "7 Oct 2020",
+      "used_for": "Right to protest under 19(1)(a)/(b) does not extend to indefinite occupation of public ways; subject to public order and regulation.",
+      "evidence_level": "A",
+      "source_note": "Supreme Court judgment text and summary read."
+    },
+    "shreya_singhal_2015": {
+      "id": "shreya_singhal_2015",
+      "case": "Shreya Singhal v. Union of India",
+      "citation": "AIR 2015 SC 1523; (2015) 5 SCC 1; [2015] 5 SCR 963",
+      "decided": "24 Mar 2015",
+      "used_for": "s.66A IT Act struck down: open-ended, vague, overbroad, chilling effect, not within the eight heads of 19(2); discussion/advocacy is protected and 19(2) bites at incitement with proximate connection to public order.",
+      "evidence_level": "A",
+      "source_note": "SCR head-note text read."
+    },
+    "romesh_thappar_1950": {
+      "id": "romesh_thappar_1950",
+      "case": "Romesh Thappar v. State of Madras",
+      "citation": "AIR 1950 SC 124",
+      "decided": "1950",
+      "used_for": "Freedom of speech under 19(1)(a) includes propagation of ideas and freedom of circulation.",
+      "evidence_level": "B",
+      "source_note": "Secondary summary (case name truncated in the source read)."
+    },
+    "anuradha_bhasin_2020": {
+      "id": "anuradha_bhasin_2020",
+      "case": "Anuradha Bhasin v. Union of India",
+      "citation": "(2020) 3 SCC 637; [2020] 1 SCR 812",
+      "decided": "10 Jan 2020",
+      "used_for": "Speech and trade through the internet are protected by 19(1)(a) and 19(1)(g); restrictions must meet the four-part proportionality test; indefinite shutdown is impermissible.",
+      "evidence_level": "A",
+      "source_note": "SCR head-note text read."
+    },
+    "puttaswamy_ii": {
+      "id": "puttaswamy_ii",
+      "case": "K.S. Puttaswamy v. Union of India (Aadhaar judgment, 'Puttaswamy II')",
+      "citation": "citation not verified",
+      "decided": "2018-19",
+      "used_for": "Source of the four-part proportionality structure later applied to Art 19 restrictions.",
+      "evidence_level": "B",
+      "source_note": "Secondary source only."
+    },
+    "damyanti_naranga_1971": {
+      "id": "damyanti_naranga_1971",
+      "case": "Damyanti Naranga v. Union of India",
+      "citation": "(1971) 1 SCC 678; AIR 1971 SC 966",
+      "decided": "23 Feb 1971",
+      "used_for": "Right to form an association includes the right to continue it with the membership voluntarily admitted; the Hindi Sahitya Sammelan Act 1962 altering composition was struck down under 19(1)(c).",
+      "evidence_level": "A",
+      "source_note": "Judgment text and summary read; quoted in a Delhi High Court judgment."
+    },
+    "akadasi_padhan_1963": {
+      "id": "akadasi_padhan_1963",
+      "case": "Akadasi Padhan v. State of Orissa",
+      "citation": "AIR 1963 SC 1047; [1963] Supp (2) SCR 691",
+      "decided": "5 Dec 1962",
+      "used_for": "A law creating a State monopoly in a trade (Kendu leaves) in the narrow sense is valid under the later part of 19(6).",
+      "evidence_level": "A",
+      "source_note": "SCR head-note text read."
+    },
+    "maneka_gandhi_1978": {
+      "id": "maneka_gandhi_1978",
+      "case": "Maneka Gandhi v. Union of India",
+      "citation": "(1978) citation not re-verified",
+      "decided": "1978",
+      "used_for": "Arts 14, 19 and 21 are interlinked; the procedure under Art 21 must be fair, just and reasonable.",
+      "evidence_level": "B",
+      "source_note": "Checked against secondary sources earlier in the project."
+    },
+    "gopalan_1950": {
+      "id": "gopalan_1950",
+      "case": "A.K. Gopalan v. State of Madras",
+      "citation": "citation not re-verified",
+      "decided": "1950",
+      "used_for": "Earlier 'compartmentalised' reading of Arts 19, 21 and 22, later displaced.",
+      "evidence_level": "B",
+      "source_note": "Checked against secondary sources earlier in the project."
+    },
+    "kedar_nath_bajoria_1953": {
+      "id": "kedar_nath_bajoria_1953",
+      "case": "Kedar Nath Bajoria v. State of West Bengal",
+      "citation": "AIR 1953 SC 404; 1954 SCR 30",
+      "decided": "1953",
+      "used_for": "Art 20(1) bars conviction or greater penalty under a law not in force at the time of the act.",
+      "evidence_level": "B",
+      "source_note": "Secondary sources only."
+    },
+    "rattan_lal_1964": {
+      "id": "rattan_lal_1964",
+      "case": "Rattan Lal v. State of Punjab",
+      "citation": "AIR 1965 SC (page not verified)",
+      "decided": "1964-65",
+      "used_for": "Art 20(1) operates only to the accused's detriment; a retrospective beneficial change is permitted.",
+      "evidence_level": "B",
+      "source_note": "Secondary sources only."
+    },
+    "mohan_lal_rajasthan": {
+      "id": "mohan_lal_rajasthan",
+      "case": "Mohan Lal v. State of Rajasthan",
+      "citation": "citation not verified",
+      "decided": "n/v",
+      "used_for": "Art 20(1) prohibits conviction and sentence under an ex post facto law, not the trial or prosecution itself.",
+      "evidence_level": "B",
+      "source_note": "Secondary sources only."
+    },
+    "maqbool_hussain_1953": {
+      "id": "maqbool_hussain_1953",
+      "case": "Maqbool Hussain v. State of Bombay",
+      "citation": "AIR 1953 SC 325",
+      "decided": "1953",
+      "used_for": "Customs confiscation by an authority that is not a court or judicial tribunal is not 'prosecution and punishment' under Art 20(2).",
+      "evidence_level": "B",
+      "source_note": "Several secondary sources agree."
+    },
+    "sl_apte_1960": {
+      "id": "sl_apte_1960",
+      "case": "State of Bombay v. S.L. Apte",
+      "citation": "(1961) 3 SCR 107; AIR 1961 SC 578",
+      "decided": "1960",
+      "used_for": "Art 20(2) needs identical offences: compare the ingredients, not the allegations (s.409 IPC and s.105 Insurance Act held distinct).",
+      "evidence_level": "B",
+      "source_note": "Secondary sources including a quoted Supreme Court passage."
+    },
+    "mp_sharma_1954": {
+      "id": "mp_sharma_1954",
+      "case": "M.P. Sharma v. Satish Chandra",
+      "citation": "1954",
+      "decided": "1954",
+      "used_for": "Laid down the essential ingredients of the Art 20(3) protection against testimonial compulsion.",
+      "evidence_level": "B",
+      "source_note": "Secondary sources only."
+    },
+    "nandini_satpathy_1978": {
+      "id": "nandini_satpathy_1978",
+      "case": "Nandini Satpathy v. P.L. Dani",
+      "citation": "1978 (citation not verified)",
+      "decided": "1978",
+      "used_for": "Art 20(3) protection extends to the investigation stage.",
+      "evidence_level": "B",
+      "source_note": "Secondary sources only; year from general knowledge."
+    },
+    "selvi_2010": {
+      "id": "selvi_2010",
+      "case": "Selvi v. State of Karnataka",
+      "citation": "AIR 2010 SC 1974; (2010) 7 SCC 263; [2010] 5 SCR",
+      "decided": "5 May 2010",
+      "used_for": "Involuntary narcoanalysis, polygraph and BEAP testing violate Art 20(3) (and Art 21); voluntary testing only with safeguards: informed consent, access to counsel, consent recorded before a Magistrate; protection covers the investigation stage.",
+      "evidence_level": "A",
+      "source_note": "SCR head-note and Supreme Court judgment text read."
+    },
+    "joginder_kumar_1994": {
+      "id": "joginder_kumar_1994",
+      "case": "Joginder Kumar v. State of U.P.",
+      "citation": "(1994) 4 SCC 260",
+      "decided": "1994",
+      "used_for": "Arrest procedure safeguards: right to have someone informed and to consult a lawyer; power to arrest is not itself justification to arrest.",
+      "evidence_level": "B",
+      "source_note": "Secondary sources only."
+    },
+    "dk_basu_1996": {
+      "id": "dk_basu_1996",
+      "case": "D.K. Basu v. State of West Bengal",
+      "citation": "(1997) 1 SCC 416; AIR 1997 SC 610",
+      "decided": "18 Dec 1996",
+      "used_for": "Eleven binding arrest and detention guidelines, including attested arrest memo, intimation to relative or friend, medical examination, and meeting a lawyer during (not throughout) interrogation.",
+      "evidence_level": "B",
+      "source_note": "Multiple secondary sources including a reproduction of the guidelines."
+    },
+    "vihaan_kumar_2025": {
+      "id": "vihaan_kumar_2025",
+      "case": "Vihaan Kumar v. State of Haryana",
+      "citation": "2025 (citation not verified)",
+      "decided": "Feb 2025",
+      "used_for": "Art 22(1) applies to ordinary penal law; arrest without meaningful communication of the grounds is illegal and later remand or chargesheet does not cure it.",
+      "evidence_level": "B",
+      "source_note": "One secondary source; reported larger-bench reference may be pending, so check for later developments."
+    },
+    "ak_roy_1982": {
+      "id": "ak_roy_1982",
+      "case": "A.K. Roy v. Union of India",
+      "citation": "(1982) 1 SCC 271; AIR 1982 SC 710",
+      "decided": "1981-82",
+      "used_for": "Upheld the National Security Act 1980 as conforming to Art 22; Advisory Board is not a judicial body; s.3 of the 44th Amendment was not brought into force.",
+      "evidence_level": "B",
+      "source_note": "Secondary sources and later decisions applying it."
+    },
+    "icchu_devi_1980": {
+      "id": "icchu_devi_1980",
+      "case": "Icchu Devi Choraria v. Union of India",
+      "citation": "(1980) 4 SCC 531; AIR 1980 SC 1983",
+      "decided": "9 Sep 1980",
+      "used_for": "Grounds of detention must be accompanied by copies of the documents and material relied upon, subject to Art 22(6), so that an effective representation can be made.",
+      "evidence_level": "A",
+      "source_note": "Head-note text read."
+    },
+    "ashok_kumar_1988": {
+      "id": "ashok_kumar_1988",
+      "case": "Ashok Kumar v. Union of India",
+      "citation": "decided 27 Jan 1988",
+      "decided": "27 Jan 1988",
+      "used_for": "Applying Icchu Devi: documents to be furnished with the grounds or ordinarily within five days, and within fifteen days only in exceptional circumstances with reasons recorded in writing.",
+      "evidence_level": "A",
+      "source_note": "Head-note text read."
+    },
+    "jayanarayan_sukul_1970": {
+      "id": "jayanarayan_sukul_1970",
+      "case": "Jayanarayan Sukul v. State of West Bengal (Constitution Bench)",
+      "citation": "citation not verified",
+      "decided": "1970",
+      "used_for": "Undue or unexplained delay in disposing of a detenu's representation vitiates the detention.",
+      "evidence_level": "B",
+      "source_note": "Described in later Supreme Court decisions read."
+    },
+    "rajammal_1998": {
+      "id": "rajammal_1998",
+      "case": "Rajammal v. State of Tamil Nadu",
+      "citation": "[1998] Supp (3) SCR 551",
+      "decided": "1998",
+      "used_for": "Considering the representation without delay is a constitutional obligation; the number of days is not decisive, the delay must be explained.",
+      "evidence_level": "A",
+      "source_note": "SCR head-note text read."
+    },
+    "rekha_2011": {
+      "id": "rekha_2011",
+      "case": "Rekha v. State of Tamil Nadu",
+      "citation": "(2011) 5 SCC 244",
+      "decided": "5 Apr 2011",
+      "used_for": "Where ordinary criminal law can deal with the situation, preventive detention is illegal; a bare assertion that the detenu may get bail, with no reliable material, cannot sustain the order; Art 22(3)(b) power is confined to narrow limits.",
+      "evidence_level": "A",
+      "source_note": "Supreme Court judgment and head-note text read."
+    },
+    "sushanta_kumar_banik_2022": {
+      "id": "sushanta_kumar_banik_2022",
+      "case": "Sushanta Kumar Banik v. State of Tripura",
+      "citation": "Crl. Appeal No. 1708 of 2022; 2022 LiveLaw (SC) 813",
+      "decided": "30 Sep 2022",
+      "used_for": "Unexplained delay between proposal, order and arrest snaps the 'live and proximate link'; bail orders not placed before the detaining authority and vital material withheld by the sponsoring authority vitiate the satisfaction.",
+      "evidence_level": "B",
+      "source_note": "Law-reporter and news reports; later decisions applying it."
+    }
+  },
+  "article_19_rules": [
+    {
+      "rule_id": "ART19_1A_SPEECH_EXPRESSION_RESTRICTION",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "freedom_of_speech",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_19(1)(a)",
+        "Constitution_Art_19(2)"
+      ],
+      "graph_statute_filter": {
+        "article": "19",
+        "clause_groups": [
+          [
+            "1",
+            "a"
+          ],
+          [
+            "2"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Freedom of Speech and Expression",
+        "Reasonable Restriction"
+      ],
+      "constitutional_text_paraphrase": "Art 19(1)(a) guarantees citizens the freedom of speech and expression. Art 19(2) permits reasonable restrictions only in the interests of: sovereignty and integrity of India, security of the State, friendly relations with foreign States, public order, decency or morality, contempt of court, defamation, or incitement to an offence.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_19_1_a OR Art_19_2"
+        ],
+        "petitioner_argument_pattern": "the restriction on speech or expression does not fall within any of the eight heads in Art 19(2), or exceeds what is reasonable for the head relied on",
+        "test": "IF a law or executive action restricts speech or expression, THEN it is valid only if it falls within one of the eight heads of Art 19(2) AND is reasonable in nature and extent; a restriction resting on a ground outside those heads is unconstitutional.",
+        "contrary_pattern": "the restriction maps squarely onto one of the eight heads (for example a genuine threat to public order, contempt of court, or established defamation) and is narrowly tailored to it"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_restriction_outside_19_2_heads_or_disproportionate",
+      "authorities": [
+        "shreya_singhal_2015",
+        "romesh_thappar_1950"
+      ],
+      "doctrinal_basis": "Shreya Singhal (2015) struck down s.66A IT Act because it was open-ended and vague and not within any head of Art 19(2). Romesh Thappar (1950) treats propagation of ideas and freedom of circulation as part of 19(1)(a).",
+      "exemplar_sentences": [
+        "the impugned restriction does not fall within any of the grounds specified in Article 19(2)",
+        "the ban on publication is not in the interest of public order as claimed",
+        "the restriction goes beyond what is reasonably necessary to maintain public order",
+        "there is no proximate or direct nexus between the speech and any threat to public order",
+        "the action taken amounts to prior restraint on the freedom of the press",
+        "the restriction is a colourable device to suppress criticism of the government"
+      ],
+      "layer1_keywords": [
+        "freedom of speech",
+        "freedom of expression",
+        "prior restraint",
+        "public order",
+        "19(2)",
+        "censorship",
+        "press freedom",
+        "incitement"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(1)' AND s.statute_id CONTAINS '(a)') OR (s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(2)') OR s.statute_id = 'Constitution_Art_19') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": []
+    },
+    {
+      "rule_id": "ART19_1A_ADVOCACY_VS_INCITEMENT",
+      "status": "new",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "freedom_of_speech",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_19(1)(a)",
+        "Constitution_Art_19(2)"
+      ],
+      "graph_statute_filter": {
+        "article": "19",
+        "clause_groups": [
+          [
+            "1",
+            "a"
+          ],
+          [
+            "2"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Freedom of Speech and Expression",
+        "Incitement",
+        "Public Order"
+      ],
+      "constitutional_text_paraphrase": "Art 19(2) permits restriction of speech in the interests of public order and in relation to incitement to an offence; it does not list annoyance, inconvenience or offence to others as grounds.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_19_1_a OR Art_19_2"
+        ],
+        "petitioner_argument_pattern": "the speech is mere discussion or advocacy of a viewpoint, however unpopular, and has no proximate connection with public disorder or an offence",
+        "test": "IF speech is restricted or penalised, AND it amounts only to discussion or advocacy, THEN it is protected by Art 19(1)(a) and not saved by Art 19(2); the restriction is permissible only once the speech reaches incitement with a proximate connection to public order or an offence.",
+        "contrary_pattern": "the speech is shown to be incitement, with a direct and proximate link to disturbance of public order or commission of an offence"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_speech_is_advocacy_without_proximate_link_to_public_order",
+      "authorities": [
+        "shreya_singhal_2015"
+      ],
+      "doctrinal_basis": "Shreya Singhal (2015) distinguishes discussion and advocacy from incitement: Art 19(2) applies at the stage of incitement, and a provision with no tendency to cause public disorder and no proximate connection to it falls outside 19(2).",
+      "exemplar_sentences": [
+        "the publication amounts to mere discussion or advocacy of a viewpoint and does not reach the level of incitement",
+        "there is no proximate connection between the impugned speech and any disturbance of public order",
+        "annoyance, inconvenience or offence to some listeners is not a ground of restriction under Article 19(2)",
+        "the impugned provision penalises speech that has no tendency to cause public disorder",
+        "criticism of government policy cannot be treated as incitement to an offence",
+        "the speech is remote from any threat to the security of the State or to public order"
+      ],
+      "layer1_keywords": [
+        "advocacy",
+        "incitement",
+        "proximate connection",
+        "tendency to disturb",
+        "annoyance",
+        "inconvenience",
+        "public order",
+        "clear and present danger"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(1)' AND s.statute_id CONTAINS '(a)') OR (s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(2)') OR s.statute_id = 'Constitution_Art_19') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "NEW in v4: matcher exemplars must be embedded and the rule scored before use."
+      ]
+    },
+    {
+      "rule_id": "ART19_1B_ASSEMBLY_RESTRICTION",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "freedom_of_assembly",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_19(1)(b)",
+        "Constitution_Art_19(3)"
+      ],
+      "graph_statute_filter": {
+        "article": "19",
+        "clause_groups": [
+          [
+            "1",
+            "b"
+          ],
+          [
+            "3"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Freedom of Peaceful Assembly",
+        "Reasonable Restriction"
+      ],
+      "constitutional_text_paraphrase": "Art 19(1)(b) guarantees citizens the right to assemble peaceably and without arms. Art 19(3) permits reasonable restrictions in the interests of the sovereignty and integrity of India or public order.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_19_1_b OR Art_19_3"
+        ],
+        "petitioner_argument_pattern": "prohibition or dispersal of a peaceable, unarmed assembly was not necessary for public order or sovereignty, or was disproportionate (blanket, indefinite or area-wide)",
+        "test": "IF the State prohibits, restricts or disperses a peaceable, unarmed assembly, THEN the restriction is valid only if it is reasonable and directed at public order or the sovereignty and integrity of India; regulation of time and place is permissible, a blanket prohibition is not.",
+        "contrary_pattern": "the assembly was armed or violent, or involved indefinite occupation of a public way causing continuing public inconvenience, which the Supreme Court has held is not protected"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_peaceable_assembly_restricted_beyond_19_3_or_disproportionately",
+      "authorities": [
+        "himat_lal_shah_1973",
+        "amit_sahni_2020"
+      ],
+      "doctrinal_basis": "Himat Lal Shah (1973): the right to hold meetings on public streets is subject to regulation of time and place and to public order. Amit Sahni (2020): the right to protest does not extend to indefinite occupation of public ways, which is the main contrary pattern for this rule.",
+      "exemplar_sentences": [
+        "the assembly was peaceful and unarmed and thus squarely protected under Article 19(1)(b)",
+        "the blanket prohibitory order under the relevant law was not confined to any specific threat to public order",
+        "the dispersal of the gathering was disproportionate to the object of maintaining public order",
+        "the restriction imposed amounts to a total denial of the right to assemble rather than reasonable regulation",
+        "the demonstration was conducted without arms and did not incite violence"
+      ],
+      "layer1_keywords": [
+        "peaceful assembly",
+        "public meeting",
+        "prohibitory order",
+        "unlawful assembly",
+        "dispersal",
+        "protest",
+        "Section 144",
+        "assemble peaceably"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(1)' AND s.statute_id CONTAINS '(b)') OR (s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(3)') OR s.statute_id = 'Constitution_Art_19') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "Amit Sahni is fact-specific to indefinite road blockade; keep it as a contrary pattern, do not generalise."
+      ]
+    },
+    {
+      "rule_id": "ART19_1B_UNGUIDED_PERMISSION_REGIME",
+      "status": "new",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "freedom_of_assembly",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "B",
+      "applicable_statutes": [
+        "Constitution_Art_19(1)(b)",
+        "Constitution_Art_19(3)"
+      ],
+      "graph_statute_filter": {
+        "article": "19",
+        "clause_groups": [
+          [
+            "1",
+            "b"
+          ],
+          [
+            "3"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Freedom of Peaceful Assembly",
+        "Prior Restraint",
+        "Arbitrary Discretion"
+      ],
+      "constitutional_text_paraphrase": "Art 19(1)(b) with Art 19(3): a restriction on peaceable assembly must be reasonable; a licensing or permission requirement that leaves the grant of permission to unguided discretion does not meet that standard.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_19_1_b OR Art_19_3"
+        ],
+        "petitioner_argument_pattern": "a rule requires prior permission for a public meeting and vests the permitting authority with unguided, arbitrary discretion",
+        "test": "IF a rule requires prior permission to hold a peaceable public meeting AND lays down no guiding standards for granting or refusing it, THEN it is an unreasonable restriction under Art 19(3); regulation of time, place and manner by guided rules is permissible.",
+        "contrary_pattern": "the permission regime is confined by clear standards tied to public order and operates as regulation of time, place and manner rather than as a power to prohibit"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_permission_regime_vests_unguided_discretion",
+      "authorities": [
+        "himat_lal_shah_1973"
+      ],
+      "doctrinal_basis": "Himat Lal Shah (1973): a rule requiring prior permission for meetings on public streets was struck down for conferring unchecked discretion on the Commissioner of Police. (The strike-down limb rests on a secondary summary; see review flag.)",
+      "exemplar_sentences": [
+        "the rule confers unguided and arbitrary discretion on the police authority to grant or refuse permission for a public meeting",
+        "no criteria are laid down governing the grant of permission to assemble",
+        "the permission requirement operates as a prior restraint on the right to assemble peaceably",
+        "regulation of the time and place of a meeting cannot extend to a blanket power to prohibit it",
+        "the order prohibiting the meeting was not founded on any material showing a threat to public order"
+      ],
+      "layer1_keywords": [
+        "permission",
+        "prior permission",
+        "public meeting",
+        "unguided discretion",
+        "Commissioner of Police",
+        "licence",
+        "assemble peaceably",
+        "prior restraint"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(1)' AND s.statute_id CONTAINS '(b)') OR (s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(3)') OR s.statute_id = 'Constitution_Art_19') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "NEW in v4. Himat Lal strike-down holding is from a secondary summary only; read the judgment before citing.",
+        "Matcher exemplars must be embedded and the rule scored before use."
+      ]
+    },
+    {
+      "rule_id": "ART19_1C_ASSOCIATION_RESTRICTION",
+      "status": "revised",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "freedom_of_association",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_19(1)(c)",
+        "Constitution_Art_19(4)"
+      ],
+      "graph_statute_filter": {
+        "article": "19",
+        "clause_groups": [
+          [
+            "1",
+            "c"
+          ],
+          [
+            "4"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Freedom of Association",
+        "Reasonable Restriction"
+      ],
+      "constitutional_text_paraphrase": "Art 19(1)(c) guarantees citizens the right to form associations, unions or (since the Constitution (97th Amendment) Act 2011, which amended only 19(1)(c)) co-operative societies. Art 19(4) permits reasonable restrictions in the interests of the sovereignty and integrity of India, public order or morality.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_19_1_c OR Art_19_4"
+        ],
+        "petitioner_argument_pattern": "a ban on an association, denial of registration, dissolution, or forced change in its membership or composition does not correspond to a head in Art 19(4) or is disproportionate",
+        "test": "IF the State bans, dissolves, refuses registration to, or alters the composition of an association or union, THEN the action is valid only if it is a reasonable restriction within Art 19(4); the right to form an association includes the right to continue it with the members it voluntarily admits.",
+        "contrary_pattern": "the association's activities are shown to threaten sovereignty and integrity or public order and the action follows a fair procedure; the right to form an association does not by itself guarantee a right to achieve every object of the association or to compel recognition"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_action_against_association_is_outside_19_4_heads",
+      "authorities": [
+        "vg_row_1952",
+        "damyanti_naranga_1971"
+      ],
+      "doctrinal_basis": "V.G. Row (1952) examined the declaration of an association as unlawful under 19(1)(c) and 19(4) and set the substance-and-procedure approach to reasonableness. Damyanti Naranga (1971) struck down a statute that altered the composition of an association without its members' consent.",
+      "exemplar_sentences": [
+        "the denial of registration to the association is not founded on any of the grounds under Article 19(4)",
+        "the dissolution of the union amounts to an unreasonable restriction on the right to associate",
+        "the impugned provision compels a change in the composition of the association against its members' wishes",
+        "there is no material to show that the association's objects are prejudicial to public order or the sovereignty of India",
+        "the right to continue the association includes the right to decide whom it admits as members",
+        "the restriction curtails the very right to associate rather than merely regulating its exercise"
+      ],
+      "layer1_keywords": [
+        "freedom of association",
+        "unlawful association",
+        "trade union",
+        "registration",
+        "dissolution",
+        "composition",
+        "cooperative society",
+        "right to form"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(1)' AND s.statute_id CONTAINS '(c)') OR (s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(4)') OR s.statute_id = 'Constitution_Art_19') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "Exemplars changed from v3.1 (one added); re-embed.",
+        "O.K. Ghosh v. E.X. Joseph (reported as AIR 1963 SC 812) was dropped: the case name and citation pairing was not confirmed."
+      ]
+    },
+    {
+      "rule_id": "ART19_1D_1E_MOVEMENT_RESIDENCE_RESTRICTION",
+      "status": "revised",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "freedom_of_movement_and_residence",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_19(1)(d)",
+        "Constitution_Art_19(1)(e)",
+        "Constitution_Art_19(5)"
+      ],
+      "graph_statute_filter": {
+        "article": "19",
+        "clause_groups": [
+          [
+            "1",
+            "d"
+          ],
+          [
+            "1",
+            "e"
+          ],
+          [
+            "5"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights",
+        "natural_justice"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Freedom of Movement",
+        "Freedom of Residence",
+        "Reasonable Restriction"
+      ],
+      "constitutional_text_paraphrase": "Art 19(1)(d) guarantees citizens the right to move freely throughout India; 19(1)(e) the right to reside and settle in any part of India. Art 19(5) permits reasonable restrictions in the interests of the general public or for the protection of any Scheduled Tribe.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_19_1_d OR Art_19_1_e OR Art_19_5"
+        ],
+        "petitioner_argument_pattern": "an externment or other order restricting movement or residence is not in the general public interest, or the procedure under the law is unfair, or the restriction is indefinite",
+        "test": "IF an order restricts a citizen's movement or residence, THEN it is valid only as a reasonable restriction under Art 19(5); reasonableness depends on the procedural as well as the substantive part of the law and on the circumstances in which the restriction is imposed. [Drafted inference, not sourced to a verified case: vague grounds and indefinite duration weigh against reasonableness.]",
+        "contrary_pattern": "the restriction is imposed under a valid law after a judicial inquiry or with adequate procedural safeguards, in the general public interest; such laws were upheld in Gurbachan Singh (externment) and Kaushailiya (removal orders)"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_procedure_unfair_or_restriction_not_in_general_public_interest",
+      "authorities": [
+        "gurbachan_singh_1952",
+        "kaushailiya_1963"
+      ],
+      "doctrinal_basis": "Gurbachan Singh (1952) upheld s.27 of the City of Bombay Police Act and held reasonableness under 19(5) turns on procedure as well as substance. Kaushailiya (1963) upheld s.20 of the Suppression of Immoral Traffic Act, where orders follow a judicial inquiry. A petitioner therefore succeeds by showing a procedural or substantive gap, not by attacking the category of restriction.",
+      "exemplar_sentences": [
+        "the order of externment was passed without affording the petitioner an opportunity to be heard",
+        "the procedure under the impugned law does not afford a fair opportunity to meet the allegations",
+        "the restriction on movement is not in the interest of the general public",
+        "the order does not disclose particulars of the activities relied upon",
+        "the restriction on residence is of indefinite duration",
+        "the law fails the test of reasonableness as to its procedural part"
+      ],
+      "layer1_keywords": [
+        "externment",
+        "freedom of movement",
+        "right to reside",
+        "right to settle",
+        "reasonable restriction",
+        "general public",
+        "opportunity of hearing",
+        "Scheduled Tribe"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(1)' AND s.statute_id CONTAINS '(d)') OR (s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(1)' AND s.statute_id CONTAINS '(e)') OR (s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(5)') OR s.statute_id = 'Constitution_Art_19') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights', 'natural_justice'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "Exemplars changed from v3.1; re-embed.",
+        "v3.1 wrongly described Kaushailiya as an externment case; corrected here."
+      ]
+    },
+    {
+      "rule_id": "ART19_1G_PROFESSION_TRADE_RESTRICTION",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "freedom_of_occupation_and_trade",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_19(1)(g)",
+        "Constitution_Art_19(6)"
+      ],
+      "graph_statute_filter": {
+        "article": "19",
+        "clause_groups": [
+          [
+            "1",
+            "g"
+          ],
+          [
+            "6"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Freedom of Trade and Profession",
+        "Reasonable Restriction",
+        "State Monopoly"
+      ],
+      "constitutional_text_paraphrase": "Art 19(1)(g) guarantees citizens the right to practise any profession, or to carry on any occupation, trade or business. Art 19(6) permits reasonable restrictions in the interests of the general public, including laws prescribing professional or technical qualifications, and permits the State or a State-owned or controlled corporation to carry on a trade, business, industry or service to the complete or partial exclusion of citizens.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_19_1_g OR Art_19_6"
+        ],
+        "petitioner_argument_pattern": "a licensing condition, prohibition or qualification is not in the interest of the general public, or an exclusion in favour of the State is not a genuine monopoly under 19(6)",
+        "test": "IF a law restricts a profession, trade or business, THEN it is valid under 19(6) only if it is a reasonable restriction in the general public interest, OR a genuine qualification requirement, OR a State monopoly or exclusion permitted by 19(6); a restriction that is indefinite or fails proportionality is not reasonable.",
+        "contrary_pattern": "the law creates a genuine State monopoly in a trade (upheld for Kendu leaves in Akadasi Padhan), or is a uniformly applied qualification or licensing standard"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_restriction_not_in_general_public_interest_or_not_genuine_19_6_monopoly",
+      "authorities": [
+        "akadasi_padhan_1963",
+        "anuradha_bhasin_2020",
+        "vg_row_1952"
+      ],
+      "doctrinal_basis": "Akadasi Padhan (1963) upheld a State monopoly in Kendu leaves within 19(6). Anuradha Bhasin (2020) holds that trade carried on through the internet is within 19(1)(g) and that restrictions on it must be proportionate and cannot be indefinite.",
+      "exemplar_sentences": [
+        "the licensing condition imposed is arbitrary and not in the interest of the general public",
+        "the restriction on carrying on the trade amounts to a virtual prohibition rather than regulation",
+        "the qualification prescribed bears no rational connection to competence to practise the profession",
+        "the exclusion in favour of the State-owned corporation is a colourable device and not a genuine monopoly",
+        "the impugned rule imposes an unreasonable restriction disproportionate to the object of consumer protection"
+      ],
+      "layer1_keywords": [
+        "trade",
+        "occupation",
+        "profession",
+        "business",
+        "licence",
+        "prohibition",
+        "state monopoly",
+        "qualification"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(1)' AND s.statute_id CONTAINS '(g)') OR (s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(6)') OR s.statute_id = 'Constitution_Art_19') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": []
+    },
+    {
+      "rule_id": "ART19_GENERAL_REASONABLE_RESTRICTION_TEST",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "fundamental_rights_general",
+      "rule_type": "cross_cutting_doctrine",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_19"
+      ],
+      "graph_statute_filter": {
+        "article": "19",
+        "clause_groups": [],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights",
+        "judicial_review"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Reasonable Restriction",
+        "Enumerated Grounds"
+      ],
+      "constitutional_text_paraphrase": "Across Art 19(2) to (6), a restriction on a 19(1) freedom must (a) fall within a ground specified for that freedom and (b) be reasonable in nature and extent; this umbrella test applies whichever freedom is in issue.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_19"
+        ],
+        "petitioner_argument_pattern": "the restriction is disproportionate, vague, or outside the grounds listed in Art 19(2) to (6)",
+        "test": "IF a law restricts any 19(1) freedom, THEN it is valid only if it (a) falls within a ground enumerated for that freedom AND (b) is reasonable in nature and extent, judged by substance and by the fairness of the procedure.",
+        "contrary_pattern": "the restriction is narrowly tailored, falls squarely within an enumerated ground, and is imposed through a fair procedure with safeguards"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_restriction_disproportionate_or_outside_enumerated_grounds",
+      "authorities": [
+        "vg_row_1952",
+        "gurbachan_singh_1952"
+      ],
+      "doctrinal_basis": "V.G. Row (1952) sets the substance-and-procedure approach to reasonableness; Gurbachan Singh (1952) states that reasonableness depends on the procedural as well as the substantive part of the law and on the circumstances of the case.",
+      "exemplar_sentences": [
+        "the impugned provision imposes an unreasonable restriction on the petitioner's fundamental right",
+        "the restriction does not fall within any of the grounds enumerated under the relevant clause of Article 19",
+        "the measure is excessive and disproportionate to the object sought to be achieved",
+        "there is no rational nexus between the restriction imposed and the stated interest",
+        "the provision is couched in language so wide that it exceeds what is necessary for the permissible object",
+        "the restriction operates as a prohibition rather than a reasonable regulation"
+      ],
+      "layer1_keywords": [
+        "reasonable restriction",
+        "enumerated grounds",
+        "arbitrary",
+        "excessive",
+        "disproportionate",
+        "rational nexus",
+        "prohibition",
+        "regulation"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE (s.statute_id = 'Constitution_Art_19' OR s.statute_id STARTS WITH 'Constitution_Art_19(') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights', 'judicial_review'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": []
+    },
+    {
+      "rule_id": "ART19_PROPORTIONALITY_FOURFOLD_TEST",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "fundamental_rights_general",
+      "rule_type": "cross_cutting_doctrine",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_19"
+      ],
+      "graph_statute_filter": {
+        "article": "19",
+        "clause_groups": [],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights",
+        "judicial_review"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Proportionality Doctrine",
+        "Reasonable Restriction",
+        "Balancing Test"
+      ],
+      "constitutional_text_paraphrase": "A judicially developed structured test, not constitutional text, for deciding whether a restriction on a 19(1) freedom is 'reasonable' under 19(2) to (6).",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_19"
+        ],
+        "petitioner_argument_pattern": "the restriction fails one or more limbs of proportionality (legitimate aim, suitability, necessity, balancing)",
+        "test": "IF a restriction on any 19(1) freedom is challenged, THEN it must (1) serve a legitimate aim, (2) be a suitable means to that aim, (3) be necessary, meaning no less restrictive alternative of equal effectiveness exists, and (4) not impose a disproportionate burden relative to the benefit; an indefinite restriction fails the test.",
+        "contrary_pattern": "the State shows that a less restrictive alternative was genuinely considered and rejected for sound reasons, and the burden on the right is limited and time-bound"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_less_restrictive_alternative_exists_or_balancing_fails",
+      "authorities": [
+        "anuradha_bhasin_2020",
+        "puttaswamy_ii"
+      ],
+      "doctrinal_basis": "Anuradha Bhasin (2020) applied the four-part proportionality test to restrictions on speech and trade under 19(1)(a) and (g) and held an indefinite shutdown impermissible; the four-part structure derives from Puttaswamy II.",
+      "exemplar_sentences": [
+        "a less restrictive measure was available which would have achieved the same object equally effectively",
+        "the restriction fails the necessity prong of the proportionality test",
+        "the impugned measure does not strike a fair balance between the individual's right and the societal interest",
+        "there exists no rational connection between the measure adopted and the purported object",
+        "the State has not demonstrated why a narrower regulation would not have sufficed",
+        "the extent of the infringement is wholly disproportionate to the public interest claimed to be served"
+      ],
+      "layer1_keywords": [
+        "proportionality",
+        "least restrictive",
+        "legitimate aim",
+        "balancing",
+        "necessity",
+        "suitability",
+        "indefinite",
+        "less restrictive alternative"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE (s.statute_id = 'Constitution_Art_19' OR s.statute_id STARTS WITH 'Constitution_Art_19(') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights', 'judicial_review'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "v3.1 required APPLIES_CONCEPT Proportionality Doctrine, which is not in CONCEPT_VOCAB, so the rule could never fire; the requirement is removed."
+      ]
+    },
+    {
+      "rule_id": "ART19_VAGUENESS_OVERBREADTH",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "freedom_of_speech",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_19(1)(a)",
+        "Constitution_Art_19(2)"
+      ],
+      "graph_statute_filter": {
+        "article": "19",
+        "clause_groups": [
+          [
+            "1",
+            "a"
+          ],
+          [
+            "2"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Vagueness Doctrine",
+        "Overbreadth Doctrine",
+        "Chilling Effect"
+      ],
+      "constitutional_text_paraphrase": "Judicially developed doctrine: a penal or restrictive provision affecting speech must be precise; if it is so vague or broad that it sweeps in protected speech, it falls outside Art 19(2).",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_19_1_a OR Art_19_2"
+        ],
+        "petitioner_argument_pattern": "the provision is worded so broadly or vaguely that it restricts protected speech along with unprotected speech, creating a chilling effect",
+        "test": "IF a penal or restrictive provision affecting speech is undefined, open-ended, or open to subjective application, THEN it is unconstitutionally vague or overbroad and not saved by Art 19(2), whether or not it could be applied narrowly in some case.",
+        "contrary_pattern": "the terms have settled statutory or judicial meaning, apply an objective standard, and the provision can be read down to the enumerated 19(2) heads"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_provision_vague_or_overbroad_and_chills_protected_speech",
+      "authorities": [
+        "shreya_singhal_2015"
+      ],
+      "doctrinal_basis": "Shreya Singhal (2015) struck down s.66A IT Act as open-ended, vague and overbroad, holding it had a chilling effect on free speech and was outside Art 19(2).",
+      "exemplar_sentences": [
+        "the terms used in the impugned provision are so vague and undefined that they are susceptible to wholly subjective interpretation",
+        "the provision has a chilling effect on the exercise of the freedom of speech and expression",
+        "the section fails to distinguish between speech that is merely offensive or annoying and speech that incites public disorder",
+        "the impugned provision is overbroad and captures a substantial amount of protected speech within its sweep",
+        "there is no intelligible standard by which the executive can determine what falls within the ambit of the provision",
+        "the provision does not fall within any of the subject matters enumerated in Article 19(2)"
+      ],
+      "layer1_keywords": [
+        "vague",
+        "overbroad",
+        "chilling effect",
+        "undefined",
+        "subjective",
+        "arbitrary application",
+        "open-ended",
+        "19(2)"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(1)' AND s.statute_id CONTAINS '(a)') OR (s.statute_id STARTS WITH 'Constitution_Art_19(' AND s.statute_id CONTAINS '(2)') OR s.statute_id = 'Constitution_Art_19') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": []
+    },
+    {
+      "rule_id": "ART19_21_GOLDEN_TRIANGLE_INTERLINKAGE",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "fundamental_rights_general",
+      "rule_type": "cross_cutting_doctrine",
+      "evidence_level": "B",
+      "applicable_statutes": [
+        "Constitution_Art_14",
+        "Constitution_Art_19",
+        "Constitution_Art_21"
+      ],
+      "graph_statute_filter": {
+        "requires_all_of": [
+          {
+            "article": "21"
+          }
+        ],
+        "and_any_of": [
+          {
+            "article": "19"
+          },
+          {
+            "article": "14"
+          }
+        ]
+      },
+      "applicable_concepts": [
+        "fundamental_rights",
+        "due_process",
+        "right_to_life",
+        "right_to_equality"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Golden Triangle Doctrine",
+        "Interlinkage of Fundamental Rights"
+      ],
+      "constitutional_text_paraphrase": "Judicially developed doctrine: Arts 14, 19 and 21 are not water-tight compartments; State action depriving personal liberty must satisfy all three, and the procedure under Art 21 must itself be fair, just and reasonable.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_21",
+          "co-occurs-with INVOLVES Art_19 or Art_14"
+        ],
+        "petitioner_argument_pattern": "although the action is framed under another article, it must also withstand scrutiny under Arts 14, 19 and 21 together",
+        "test": "IF State action deprives a person of personal liberty (including by preventive detention or restriction of movement), THEN it must satisfy Art 21 (fair, just and reasonable procedure), Art 14 (non-arbitrariness) AND Art 19 (reasonableness of any incidental restriction); compliance with only one is not enough.",
+        "contrary_pattern": "the action independently survives scrutiny under each of Arts 14, 19 and 21"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_action_fails_scrutiny_under_any_one_of_arts_14_19_21",
+      "authorities": [
+        "maneka_gandhi_1978",
+        "gopalan_1950"
+      ],
+      "doctrinal_basis": "Maneka Gandhi (1978) displaced the compartmentalised approach of A.K. Gopalan (1950) and treated Arts 14, 19 and 21 as interlinked, requiring a fair, just and reasonable procedure.",
+      "exemplar_sentences": [
+        "the action, though framed under a different article, must also satisfy the requirements of Article 21",
+        "the procedure adopted fails the test of fairness and reasonableness required by Article 21 read with Article 14",
+        "the rights under Articles 14, 19 and 21 are not mutually exclusive and must be considered together",
+        "even assuming the order is valid under Article 22, it must still withstand scrutiny under Article 21",
+        "the compartmentalized approach rejected in Maneka Gandhi cannot be revived to insulate this action from scrutiny"
+      ],
+      "layer1_keywords": [
+        "golden triangle",
+        "interlinked",
+        "procedure established by law",
+        "fair just and reasonable",
+        "Maneka Gandhi",
+        "Article 14",
+        "Article 21",
+        "arbitrary"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s21:Statute) WHERE (s21.statute_id = 'Constitution_Art_21' OR s21.statute_id STARTS WITH 'Constitution_Art_21(') WITH c, collect(DISTINCT s21.statute_id) AS st21 MATCH (c)-[:INVOLVES]->(sx:Statute) WHERE ((sx.statute_id = 'Constitution_Art_19' OR sx.statute_id STARTS WITH 'Constitution_Art_19(') OR (sx.statute_id = 'Constitution_Art_14' OR sx.statute_id STARTS WITH 'Constitution_Art_14(')) WITH c, st21, collect(DISTINCT sx.statute_id) AS stx OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights', 'due_process', 'right_to_life', 'right_to_equality'] WITH c, st21 + stx AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "overlaps_with_other_files": [
+        {
+          "rule_id": "ART21_PROCEDURE_ESTABLISHED_BY_LAW",
+          "file": "rules_art21_32_14.json",
+          "relation": "overlapping_doctrine"
+        },
+        {
+          "rule_id": "ART14_STATE_ACTION_NON_ARBITRARINESS",
+          "file": "rules_art21_32_14.json",
+          "relation": "overlapping_doctrine"
+        }
+      ],
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": []
+    }
+  ],
+  "article_20_rules": [
+    {
+      "rule_id": "ART20_1A_NO_CONVICTION_UNDER_EX_POST_FACTO_LAW",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "criminal_procedure_protection",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "B",
+      "applicable_statutes": [
+        "Constitution_Art_20(1)"
+      ],
+      "graph_statute_filter": {
+        "article": "20",
+        "clause_groups": [
+          [
+            "1"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Ex Post Facto Law",
+        "Retrospective Criminal Liability"
+      ],
+      "constitutional_text_paraphrase": "No person shall be convicted of any offence except for violation of a law in force at the time of the commission of the act charged as an offence.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_20_1"
+        ],
+        "petitioner_argument_pattern": "conviction rests on a law that did not exist, or did not make the conduct an offence, when the act was done",
+        "test": "IF a person is convicted for an act, THEN the act must have been an offence under a law in force when it was committed; a later law cannot make past lawful conduct criminal.",
+        "contrary_pattern": "the law was in force at the time of the act; OR the change is procedural (forum, mode of trial); OR the challenge is to the trial or prosecution rather than to conviction or sentence, since Art 20(1) bars conviction and sentence under an ex post facto law, not the trial itself"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_conduct_was_not_an_offence_under_law_in_force_at_time_of_act",
+      "authorities": [
+        "kedar_nath_bajoria_1953",
+        "mohan_lal_rajasthan"
+      ],
+      "doctrinal_basis": "Kedar Nath Bajoria (1953) applies Art 20(1) against conviction under a law not in force at the time of the act. Mohan Lal v. State of Rajasthan is cited for the point that the bar is on conviction and sentence, not on trial.",
+      "exemplar_sentences": [
+        "the petitioner has been convicted under a provision that was not in force at the time the alleged act was committed",
+        "the conduct alleged was not an offence under any law in force when it occurred",
+        "the amendment operates retrospectively so as to criminalize conduct that was lawful when done",
+        "there is no law in force at the time of commission of the act which makes it a punishable offence",
+        "the retrospective application of the statute to define the offence offends Article 20(1)"
+      ],
+      "layer1_keywords": [
+        "ex post facto",
+        "retrospective",
+        "law in force at the time",
+        "not an offence when committed",
+        "Article 20(1)",
+        "retroactive",
+        "punishable offence"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_20(' AND s.statute_id CONTAINS '(1)') OR s.statute_id = 'Constitution_Art_20') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": []
+    },
+    {
+      "rule_id": "ART20_1B_NO_ENHANCED_RETROSPECTIVE_PENALTY",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "criminal_procedure_protection",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "B",
+      "applicable_statutes": [
+        "Constitution_Art_20(1)"
+      ],
+      "graph_statute_filter": {
+        "article": "20",
+        "clause_groups": [
+          [
+            "1"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Ex Post Facto Law",
+        "Retrospective Enhanced Penalty"
+      ],
+      "constitutional_text_paraphrase": "No person shall be subjected to a penalty greater than that which might have been inflicted under the law in force at the time of the commission of the offence.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_20_1"
+        ],
+        "petitioner_argument_pattern": "the sentence imposed exceeds the maximum penalty under the law in force when the offence was committed, because of a later amendment",
+        "test": "IF a penalty is imposed that exceeds what the law in force at the time of the offence prescribed, THEN the excess is barred by Art 20(1); Art 20(1) is a shield for the accused, so a later law that reduces punishment can be applied.",
+        "contrary_pattern": "the sentence does not exceed the maximum prescribed at the time of the offence, or the later amendment benefits the accused"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_penalty_exceeds_maximum_prescribed_at_time_of_offence",
+      "authorities": [
+        "rattan_lal_1964",
+        "kedar_nath_bajoria_1953"
+      ],
+      "doctrinal_basis": "Rattan Lal v. State of Punjab: retrospective operation of a beneficial law is permitted because Art 20(1) protects the accused; the bar is on greater penalty than the law at the time of the offence.",
+      "exemplar_sentences": [
+        "the enhanced punishment imposed exceeds what was prescribed by the law in force at the relevant time",
+        "the sentencing provision applied was introduced after the date of the offence and increases the quantum of punishment",
+        "the petitioner ought to be sentenced only to the extent permissible under the law as it stood at the time of the offence",
+        "the retrospective enhancement of the penalty violates the protection under Article 20(1)"
+      ],
+      "layer1_keywords": [
+        "enhanced penalty",
+        "retrospective sentence",
+        "maximum punishment",
+        "law as it stood",
+        "greater penalty",
+        "beneficial",
+        "Article 20(1)"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_20(' AND s.statute_id CONTAINS '(1)') OR s.statute_id = 'Constitution_Art_20') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": []
+    },
+    {
+      "rule_id": "ART20_2_DOUBLE_JEOPARDY",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "criminal_procedure_protection",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "B",
+      "applicable_statutes": [
+        "Constitution_Art_20(2)"
+      ],
+      "graph_statute_filter": {
+        "article": "20",
+        "clause_groups": [
+          [
+            "2"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "double_jeopardy",
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Double Jeopardy",
+        "Autrefois Convict",
+        "Prosecution and Punishment"
+      ],
+      "constitutional_text_paraphrase": "No person shall be prosecuted and punished for the same offence more than once.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_20_2"
+        ],
+        "petitioner_argument_pattern": "the accused is being prosecuted and punished again for the same offence for which they were already prosecuted and punished",
+        "test": "IF a person has already been both prosecuted AND punished for an offence before a court or judicial tribunal, THEN a second prosecution and punishment for the SAME offence is barred; sameness is decided by comparing the ingredients of the offences, not the allegations; both prosecution and punishment are needed.",
+        "contrary_pattern": "the earlier proceeding was departmental, customs or civil, not a prosecution before a court or tribunal; OR the offences have different ingredients although they arise from the same facts; OR the earlier proceeding ended in acquittal without punishment"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_second_prosecution_is_for_identical_offence_after_prior_prosecution_and_punishment",
+      "authorities": [
+        "maqbool_hussain_1953",
+        "sl_apte_1960"
+      ],
+      "doctrinal_basis": "Maqbool Hussain (1953): customs confiscation by an authority that is not a court is not prosecution and punishment. S.L. Apte (1960): the test is identity of ingredients, so s.409 IPC and s.105 Insurance Act were distinct offences.",
+      "exemplar_sentences": [
+        "the petitioner is being prosecuted a second time for the same offence for which he has already been tried and punished",
+        "the ingredients of the two offences are identical, and the second prosecution is barred by the principle of autrefois convict",
+        "the earlier proceeding culminated in a conviction and sentence before a competent court",
+        "the present prosecution arises out of the very same facts and transaction as the earlier concluded case",
+        "the doctrine of double jeopardy under Article 20(2) squarely applies to bar the present proceedings",
+        "the earlier departmental/customs proceeding does not amount to a criminal prosecution and hence does not attract Article 20(2)"
+      ],
+      "layer1_keywords": [
+        "double jeopardy",
+        "autrefois convict",
+        "same offence",
+        "prosecuted twice",
+        "prosecuted and punished",
+        "Section 300",
+        "Section 26 General Clauses"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_20(' AND s.statute_id CONTAINS '(2)') OR s.statute_id = 'Constitution_Art_20') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['double_jeopardy', 'fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "The 'same ingredients' comparison is fact-heavy; embedding similarity cannot decide it, so an LLM verification layer is needed for reliable use."
+      ]
+    },
+    {
+      "rule_id": "ART20_3_TESTIMONIAL_COMPULSION",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "criminal_procedure_protection",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_20(3)"
+      ],
+      "graph_statute_filter": {
+        "article": "20",
+        "clause_groups": [
+          [
+            "3"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "right_against_self_incrimination",
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Protection Against Self-Incrimination",
+        "Compelled Testimony"
+      ],
+      "constitutional_text_paraphrase": "No person accused of any offence shall be compelled to be a witness against himself.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_20_3"
+        ],
+        "petitioner_argument_pattern": "an accused was compelled, during investigation or trial, to give a statement or testimonial evidence against themselves, for example by coercion, threat or inducement",
+        "test": "IF a person accused of an offence is compelled, without free will, to give testimonial or communicative evidence against themselves, at any stage including investigation, THEN the compulsion and the resulting evidence violate Art 20(3); the protection is for an 'accused', and for testimonial rather than physical evidence.",
+        "contrary_pattern": "the statement was voluntary; OR the person was not an accused when questioned; OR the evidence is physical or non-testimonial (fingerprints, blood sample, handwriting exemplar); OR the proceeding is civil or administrative"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_testimonial_evidence_was_compelled_from_an_accused",
+      "authorities": [
+        "mp_sharma_1954",
+        "nandini_satpathy_1978",
+        "selvi_2010"
+      ],
+      "doctrinal_basis": "M.P. Sharma (1954) set the ingredients of Art 20(3); Nandini Satpathy (1978) and Selvi (2010) extend the protection to the investigation stage.",
+      "exemplar_sentences": [
+        "the confession was obtained under duress and without the free will of the accused",
+        "compelling the accused to make the statement amounts to testimonial compulsion prohibited under Article 20(3)",
+        "the statement relied upon was extracted through coercive interrogation and is inadmissible",
+        "there is no evidence that the accused voluntarily made the statement",
+        "the right against self-incrimination extends to the stage of police investigation and not merely to trial",
+        "the accused was threatened with adverse consequences unless he signed the statement"
+      ],
+      "layer1_keywords": [
+        "self-incrimination",
+        "compelled",
+        "coerced",
+        "witness against himself",
+        "free will",
+        "duress",
+        "Article 20(3)",
+        "testimonial"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_20(' AND s.statute_id CONTAINS '(3)') OR s.statute_id = 'Constitution_Art_20') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['right_against_self_incrimination', 'fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": []
+    },
+    {
+      "rule_id": "ART20_3_SCIENTIFIC_TEST_COMPULSION",
+      "status": "revised",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "criminal_procedure_protection",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_20(3)"
+      ],
+      "graph_statute_filter": {
+        "article": "20",
+        "clause_groups": [
+          [
+            "3"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "right_against_self_incrimination",
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Protection Against Self-Incrimination",
+        "Bodily Autonomy",
+        "Scientific Evidence"
+      ],
+      "constitutional_text_paraphrase": "Judicial application of Art 20(3) to narcoanalysis, polygraph and brain electrical activation profile (BEAP) tests, which draw testimonial responses from the subject.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_20_3"
+        ],
+        "petitioner_argument_pattern": "the accused or suspect was subjected to narcoanalysis, polygraph or BEAP testing without free and informed consent",
+        "test": "IF an accused or suspect is subjected to narcoanalysis, polygraph or BEAP testing without free and informed consent, THEN the administration of the test violates Art 20(3) (and Art 21); testing is permissible only with safeguards: informed consent, access to counsel, and consent recorded before a Magistrate.",
+        "contrary_pattern": "the subject gave free and informed consent with counsel available and the consent was recorded before a Magistrate"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_scientific_test_administered_without_free_informed_consent",
+      "authorities": [
+        "selvi_2010"
+      ],
+      "doctrinal_basis": "Selvi (2010): involuntary narcoanalysis, polygraph and BEAP testing violate Art 20(3); voluntary testing requires the stated safeguards.",
+      "exemplar_sentences": [
+        "the petitioner was subjected to narcoanalysis without free and informed consent",
+        "no lawyer was present when the polygraph test was administered to the accused",
+        "the brain mapping test was conducted without the subject's consent and its results were used against him",
+        "the involuntary administration of the scientific test amounts to testimonial compulsion under Article 20(3)",
+        "the consent was not recorded before a Magistrate as the guidelines require"
+      ],
+      "layer1_keywords": [
+        "narcoanalysis",
+        "narco",
+        "polygraph",
+        "lie detector",
+        "brain mapping",
+        "BEAP",
+        "informed consent",
+        "scientific test"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_20(' AND s.statute_id CONTAINS '(3)') OR s.statute_id = 'Constitution_Art_20') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['right_against_self_incrimination', 'fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "v3.1 stated that results of even consensual tests are inadmissible as evidence. That was not confirmed in the sources read and is removed; a legal reviewer should state the admissibility holding (including the Evidence Act s.27 discussion) before it is added back."
+      ]
+    }
+  ],
+  "article_22_rules": [
+    {
+      "rule_id": "ART22_1A_GROUNDS_OF_ARREST",
+      "status": "revised",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "arrest_and_detention",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "B",
+      "applicable_statutes": [
+        "Constitution_Art_22(1)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "1"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Grounds of Arrest"
+      ],
+      "constitutional_text_paraphrase": "No person who is arrested shall be detained in custody without being informed, as soon as may be, of the grounds for such arrest.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_1"
+        ],
+        "petitioner_argument_pattern": "the arrestee was not told, or was told only vaguely or belatedly, why they were arrested",
+        "test": "IF a person is arrested and detained in custody, THEN the grounds of arrest must be communicated as soon as may be, in a form the arrestee can understand; failure to communicate them makes the arrest illegal and, on the more recent view, a later remand or chargesheet does not cure it.",
+        "contrary_pattern": "the grounds were communicated at the earliest practicable moment in a form the arrestee could understand, with a specific and recorded reason for any short delay"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_grounds_of_arrest_not_communicated_promptly_or_intelligibly",
+      "authorities": [
+        "dk_basu_1996",
+        "joginder_kumar_1994",
+        "vihaan_kumar_2025"
+      ],
+      "doctrinal_basis": "D.K. Basu (1996) and Joginder Kumar (1994) lay down arrest safeguards under Art 22(1). Vihaan Kumar v. State of Haryana (2025) is reported to hold that Art 22(1) applies to ordinary penal law and that non-communication vitiates the arrest.",
+      "exemplar_sentences": [
+        "the petitioner was not informed of the grounds of arrest at the time of being taken into custody",
+        "the arrest memo does not disclose the reasons for arrest as mandated under Article 22(1)",
+        "there was unreasonable delay in communicating the grounds of arrest to the arrestee",
+        "the grounds communicated were too vague to enable the arrestee to understand the basis of the arrest",
+        "the grounds of arrest were not furnished to the arrestee in writing",
+        "a subsequent remand order does not cure the failure to communicate the grounds of arrest"
+      ],
+      "layer1_keywords": [
+        "grounds of arrest",
+        "informed of the grounds",
+        "arrest memo",
+        "reasons for arrest",
+        "as soon as may be",
+        "Article 22(1)",
+        "in writing"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(1)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "Exemplars changed from v3.1 (two added); re-embed.",
+        "Vihaan Kumar is from one secondary source and a larger-bench reference is reported; check for later developments before citing."
+      ]
+    },
+    {
+      "rule_id": "ART22_ARREST_MEMO_AND_INTIMATION_DK_BASU",
+      "status": "new",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "arrest_and_detention",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "B",
+      "applicable_statutes": [
+        "Constitution_Art_22(1)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "1"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights",
+        "right_to_life"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Arrest Guidelines",
+        "Custodial Safeguards"
+      ],
+      "constitutional_text_paraphrase": "Art 22(1) safeguards on arrest, operationalised by the binding guidelines in D.K. Basu: an attested arrest memo, intimation of the arrest to a relative or friend, medical examination in custody, identification of the arresting officers, and the arrestee's access to a lawyer during interrogation (though not throughout).",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_1"
+        ],
+        "petitioner_argument_pattern": "the arresting police did not follow the mandatory arrest guidelines: no attested memo of arrest, no intimation to a relative or friend, no medical examination",
+        "test": "IF a person is arrested or detained by the police, THEN the D.K. Basu guidelines must be followed: a memo of arrest attested by at least one witness, a relative or friend informed as soon as practicable, medical examination during custody, and accurate identification of the arresting officers; breach of these safeguards is a violation actionable by the courts.",
+        "contrary_pattern": "the arrest memo was prepared and attested, a relative or friend was informed, and the other guidelines were complied with"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_mandatory_arrest_guidelines_were_not_followed",
+      "authorities": [
+        "dk_basu_1996"
+      ],
+      "doctrinal_basis": "D.K. Basu (1996) laid down eleven binding guidelines on arrest and detention, derived from Arts 21 and 22, including an attested arrest memo, intimation to a relative or friend, and medical examination.",
+      "exemplar_sentences": [
+        "no memo of arrest was prepared at the time of arrest",
+        "the arrest memo was not attested by any independent witness or by a member of the arrestee's family",
+        "no friend or relative of the arrestee was informed of the arrest and the place of detention",
+        "the arrestee was not subjected to a medical examination during custody as required by the guidelines",
+        "the police officials who made the arrest did not bear accurate and visible identification",
+        "the mandatory arrest guidelines laid down by this Court were not followed"
+      ],
+      "layer1_keywords": [
+        "arrest memo",
+        "memo of arrest",
+        "D.K. Basu",
+        "guidelines",
+        "friend or relative",
+        "medical examination",
+        "custodial",
+        "attested"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(1)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights', 'right_to_life'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "NEW in v4. Guideline list taken from secondary sources; confirm against the judgment.",
+        "Matcher exemplars must be embedded and the rule scored before use."
+      ]
+    },
+    {
+      "rule_id": "ART22_1B_RIGHT_TO_COUNSEL",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "arrest_and_detention",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "B",
+      "applicable_statutes": [
+        "Constitution_Art_22(1)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "1"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Right to Legal Counsel"
+      ],
+      "constitutional_text_paraphrase": "No person who is arrested shall be denied the right to consult, and to be defended by, a legal practitioner of his choice.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_1"
+        ],
+        "petitioner_argument_pattern": "the arrestee was denied access to a lawyer of their choice, or access was made conditional or unreasonably delayed",
+        "test": "IF a person is arrested, THEN they must be allowed to consult and be defended by a legal practitioner of their choice; refusing counsel, or making access depend on confessing or cooperating, violates Art 22(1). The arrestee may meet the lawyer during interrogation, though not throughout it.",
+        "contrary_pattern": "access to counsel was allowed promptly, and any brief delay was for a genuine, recorded reason such as the lawyer's own unavailability"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_access_to_counsel_of_choice_was_denied_or_unreasonably_delayed",
+      "authorities": [
+        "joginder_kumar_1994",
+        "dk_basu_1996"
+      ],
+      "doctrinal_basis": "Joginder Kumar (1994) and D.K. Basu (1996) recognise the arrestee's right to consult a lawyer; the D.K. Basu guidelines allow a meeting during interrogation though not throughout.",
+      "exemplar_sentences": [
+        "he was denied access to a legal practitioner of his choice despite repeated requests",
+        "the accused was interrogated without being permitted to consult his counsel",
+        "no opportunity was given to the arrestee to be defended by a lawyer of his choosing at the time of arrest",
+        "access to counsel was made conditional upon the accused cooperating with the investigation"
+      ],
+      "layer1_keywords": [
+        "right to counsel",
+        "legal practitioner of his choice",
+        "denied lawyer",
+        "access to counsel",
+        "consult a lawyer",
+        "defended by"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(1)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": []
+    },
+    {
+      "rule_id": "ART22_2_PRODUCTION_WITHIN_24_HOURS",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "arrest_and_detention",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "C",
+      "applicable_statutes": [
+        "Constitution_Art_22(2)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "2"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Production Before Magistrate"
+      ],
+      "constitutional_text_paraphrase": "Every person arrested and detained in custody shall be produced before the nearest magistrate within 24 hours of arrest, excluding the time necessary for the journey from the place of arrest to the magistrate's court; no such person shall be detained beyond that period without the magistrate's authority.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_2"
+        ],
+        "petitioner_argument_pattern": "the arrestee was held beyond 24 hours (excluding travel time) without production before a magistrate or a magistrate's order authorising further detention",
+        "test": "IF a person is arrested and kept in custody, THEN they must be produced before the nearest magistrate within 24 hours of arrest, excluding journey time, and detention beyond that needs the magistrate's authority; otherwise the continued custody is illegal. Art 22(3) removes this protection for enemy aliens and for persons detained under preventive detention laws.",
+        "contrary_pattern": "production occurred within 24 hours once journey time is excluded, or further detention was authorised by a magistrate's remand within that period"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_production_before_magistrate_delayed_beyond_24_hours_without_authority",
+      "authorities": [],
+      "doctrinal_basis": "Rests on the constitutional text of Art 22(2) alone; no case authority has been attached because none was verified for this rule.",
+      "exemplar_sentences": [
+        "the petitioner was not produced before the nearest magistrate within twenty-four hours of arrest",
+        "the delay in production before the magistrate is unexplained and renders the detention illegal",
+        "no order of remand was obtained from the magistrate to justify detention beyond twenty-four hours",
+        "the time taken for the journey to the magistrate's court has been improperly used to justify the delay in production"
+      ],
+      "layer1_keywords": [
+        "24 hours",
+        "twenty-four hours",
+        "production before magistrate",
+        "nearest magistrate",
+        "remand",
+        "journey time",
+        "Article 22(2)"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(2)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "Evidence level C: no case authority attached. A legal reviewer may add one."
+      ]
+    },
+    {
+      "rule_id": "ART22_3_ORDINARY_SAFEGUARDS_NOT_APPLICABLE",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "arrest_and_detention",
+      "rule_type": "exception_carveout",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_22(3)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "3"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "preventive_detention",
+        "fundamental_rights"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Exception to Arrest Safeguards",
+        "Enemy Alien",
+        "Preventive Detention Carve-Out"
+      ],
+      "constitutional_text_paraphrase": "Clauses (1) and (2) of Art 22 do not apply to an enemy alien, or to a person arrested or detained under a law providing for preventive detention.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_3"
+        ],
+        "petitioner_argument_pattern": "the State relies on Art 22(3) to deny ordinary arrest safeguards to a person who is neither an enemy alien nor genuinely detained under a valid preventive detention law, for example an ordinary arrest relabelled as preventive detention",
+        "test": "IF the State denies Art 22(1) and (2) safeguards by invoking Art 22(3), THEN it must show the person is an enemy alien or is genuinely detained under a valid preventive detention law; a relabelled ordinary arrest does not qualify, and the ordinary safeguards apply in full. The preventive detention power is construed within narrow limits.",
+        "contrary_pattern": "the detention is genuinely and validly under a preventive detention statute, correctly invoked on its own terms"
+      },
+      "predicted_outcome_direction": "determines_which_regime_applies",
+      "authorities": [
+        "rekha_2011"
+      ],
+      "doctrinal_basis": "Rekha (2011) holds that the power of preventive detention under Art 22(3)(b) must be confined to very narrow limits, which supports testing whether the Art 22(3) carve-out is genuinely made out.",
+      "exemplar_sentences": [
+        "the detention has been mislabeled as preventive detention to deny the petitioner the ordinary safeguards under Article 22(1) and (2)",
+        "the petitioner is not an enemy alien and is not genuinely detained under any preventive detention law",
+        "the exception under Article 22(3) has been invoked as a colourable device to bypass the requirement of production before a magistrate",
+        "the detaining order does not satisfy the statutory requirements of a genuine preventive detention law"
+      ],
+      "layer1_keywords": [
+        "enemy alien",
+        "Article 22(3)",
+        "preventive detention law",
+        "colourable",
+        "mislabelled",
+        "ordinary arrest",
+        "exception"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(3)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['preventive_detention', 'fundamental_rights'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "modifies_rules": [
+        "ART22_1A_GROUNDS_OF_ARREST",
+        "ART22_ARREST_MEMO_AND_INTIMATION_DK_BASU",
+        "ART22_1B_RIGHT_TO_COUNSEL",
+        "ART22_2_PRODUCTION_WITHIN_24_HOURS"
+      ],
+      "modification_effect": "If the detention is genuinely under a preventive detention law (or of an enemy alien), the modified rules do not apply; if it is only an ordinary arrest relabelled as preventive, they apply in full and this rule favours the petitioner.",
+      "overlaps_with_other_files": [
+        {
+          "rule_id": "ART21_ARBITRARY_PREVENTIVE_DETENTION",
+          "file": "rules_art21_32_14.json",
+          "relation": "umbrella_parent"
+        }
+      ],
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "This rule modifies other rules rather than predicting an outcome: see modifies_rules."
+      ]
+    },
+    {
+      "rule_id": "ART22_4_ADVISORY_BOARD_THREE_MONTH_LIMIT",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "preventive_detention",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "B",
+      "applicable_statutes": [
+        "Constitution_Art_22(4)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "4"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "preventive_detention"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Preventive Detention",
+        "Advisory Board Review"
+      ],
+      "constitutional_text_paraphrase": "No preventive detention law shall authorise detention for longer than three months unless an Advisory Board, made up of persons who are, have been, or are qualified to be High Court judges, has reported before the three months end that there is sufficient cause; or unless the detention is under a law made by Parliament under Art 22(7). The 44th Amendment's change to this period has not been brought into force, so the three-month text applies.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_4"
+        ],
+        "petitioner_argument_pattern": "detention continued beyond three months without a timely Advisory Board report of sufficient cause, and no valid Art 22(7) law applies",
+        "test": "IF preventive detention continues beyond three months, THEN it is valid only if (a) an Advisory Board of the required composition reported sufficient cause before the three months expired, or (b) it falls under a law made by Parliament under Art 22(7); otherwise the continued detention is invalid.",
+        "contrary_pattern": "the Board reported sufficient cause within time, or the detention falls under a valid Art 22(7) law; the Board is not a judicial body and a detenu has no constitutional right to a lawyer before it, though a request may be considered"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_detention_exceeds_three_months_without_timely_board_report_or_valid_22_7_law",
+      "authorities": [
+        "ak_roy_1982"
+      ],
+      "doctrinal_basis": "A.K. Roy (1982) upheld the National Security Act as conforming to Art 22, treated the Advisory Board as not a judicial body, and left the 44th Amendment change unnotified.",
+      "exemplar_sentences": [
+        "the detention has continued beyond three months without any report from the Advisory Board",
+        "the Advisory Board's report was obtained after the expiry of the three-month period prescribed under Article 22(4)",
+        "the Advisory Board was not properly constituted with persons qualified to be High Court judges",
+        "there is no law made by Parliament under Article 22(7) authorising detention beyond three months in this class of case",
+        "the opinion of the Advisory Board that there was sufficient cause for detention was arrived at without proper application of mind"
+      ],
+      "layer1_keywords": [
+        "advisory board",
+        "three months",
+        "sufficient cause",
+        "preventive detention",
+        "High Court judge",
+        "Article 22(4)",
+        "Article 22(7)"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(4)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['preventive_detention'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "overlaps_with_other_files": [
+        {
+          "rule_id": "ART21_ARBITRARY_PREVENTIVE_DETENTION",
+          "file": "rules_art21_32_14.json",
+          "relation": "umbrella_parent"
+        }
+      ],
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "Statute-specific Advisory Board rules (NSA, COFEPOSA and others) refine this constitutional floor; the KG does not yet record which detention statute applies.",
+        "The 'no right to a lawyer before the Board' point rests on later decisions applying A.K. Roy read in secondary form; confirm."
+      ]
+    },
+    {
+      "rule_id": "ART22_5_GROUNDS_COMMUNICATION_AND_REPRESENTATION",
+      "status": "revised",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "preventive_detention",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_22(5)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "5"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "preventive_detention",
+        "natural_justice",
+        "habeas_corpus"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Communication of Grounds",
+        "Right to Representation"
+      ],
+      "constitutional_text_paraphrase": "When a person is detained under a preventive detention law, the authority shall, as soon as may be, communicate the grounds on which the order was made and shall afford the earliest opportunity of making a representation against the order.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_5"
+        ],
+        "petitioner_argument_pattern": "the grounds of detention, or the documents and material relied on, were not furnished in time or in a language the detenu understands, so no effective representation could be made",
+        "test": "IF a person is preventively detained, THEN the grounds must be communicated as soon as may be together with copies of the documents and material relied on (subject to Art 22(6)); the documents are to be supplied with the grounds or ordinarily within five days, and within fifteen days only in exceptional circumstances with reasons recorded in writing; failure vitiates the detention.",
+        "contrary_pattern": "grounds and documents were supplied in time and in a language the detenu understands, subject only to a specific Art 22(6) claim for particular sensitive facts"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_grounds_or_relied_on_documents_not_supplied_in_time",
+      "authorities": [
+        "icchu_devi_1980",
+        "ashok_kumar_1988"
+      ],
+      "doctrinal_basis": "Icchu Devi Choraria (1980) holds that copies of documents relied on must accompany the grounds, subject to Art 22(6), so that an effective representation can be made. Ashok Kumar (1988) applies it with the five-day and fifteen-day limits.",
+      "exemplar_sentences": [
+        "the grounds of detention were not communicated to the detenu as soon as may be",
+        "copies of the documents relied upon in the grounds were not supplied along with the grounds",
+        "the detenu could not make an effective representation because the material relied upon was withheld",
+        "the documents were furnished only after the period within which they ought to have been supplied",
+        "the grounds were not served in a language known to the detenu"
+      ],
+      "layer1_keywords": [
+        "grounds of detention",
+        "documents relied upon",
+        "copies",
+        "effective representation",
+        "supplied",
+        "Article 22(5)",
+        "language known to the detenu"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(5)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['preventive_detention', 'natural_justice', 'habeas_corpus'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "overlaps_with_other_files": [
+        {
+          "rule_id": "ART21_ARBITRARY_PREVENTIVE_DETENTION",
+          "file": "rules_art21_32_14.json",
+          "relation": "umbrella_parent"
+        }
+      ],
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "Narrowed in v4: delay in disposing of a representation moved to ART22_5B_REPRESENTATION_DELAY; exemplars changed, re-embed."
+      ]
+    },
+    {
+      "rule_id": "ART22_5B_REPRESENTATION_DELAY",
+      "status": "new",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "preventive_detention",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_22(5)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "5"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "preventive_detention",
+        "natural_justice",
+        "habeas_corpus"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Right to Representation",
+        "Delay in Disposal"
+      ],
+      "constitutional_text_paraphrase": "The earliest opportunity to make a representation under Art 22(5) implies that, once made, the representation must be considered promptly.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_5"
+        ],
+        "petitioner_argument_pattern": "the detenu's representation was not considered promptly and the delay is unexplained",
+        "test": "IF a detenu has made a representation against the detention order, THEN it must be considered without undue delay; unexplained delay in disposing of it vitiates the continued detention, the number of days is not decisive, and the authority must explain the delay.",
+        "contrary_pattern": "the delay was short and is satisfactorily explained; courts have accepted explained delay"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_representation_disposed_of_with_unexplained_delay",
+      "authorities": [
+        "jayanarayan_sukul_1970",
+        "rajammal_1998"
+      ],
+      "doctrinal_basis": "Jayanarayan Sukul (Constitution Bench, 1970) holds that undue or unexplained delay in disposing of a representation invalidates detention. Rajammal (1998) holds that considering it without delay is a constitutional duty and that the delay, not its length, is what must be explained.",
+      "exemplar_sentences": [
+        "there was unexplained delay in considering the representation of the detenu",
+        "the representation was not disposed of with the promptness required by Article 22(5)",
+        "the State has offered no explanation for the days that elapsed before the representation was rejected",
+        "the detenu's representation was kept pending while the file moved between departments",
+        "continued detention is vitiated because the representation was not dealt with expeditiously"
+      ],
+      "layer1_keywords": [
+        "representation",
+        "unexplained delay",
+        "detenu",
+        "disposal of representation",
+        "expeditiously",
+        "inordinate delay",
+        "Article 22(5)"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(5)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['preventive_detention', 'natural_justice', 'habeas_corpus'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "overlaps_with_other_files": [
+        {
+          "rule_id": "ART21_ARBITRARY_PREVENTIVE_DETENTION",
+          "file": "rules_art21_32_14.json",
+          "relation": "umbrella_parent"
+        }
+      ],
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "NEW in v4 (split from ART22_5). Matcher exemplars must be embedded and the rule scored before use.",
+        "Jayanarayan Sukul citation not verified; Rajammal is cited by SCR."
+      ]
+    },
+    {
+      "rule_id": "ART22_6_NONDISCLOSURE_PUBLIC_INTEREST_LIMIT",
+      "status": "revised",
+      "matcher_rerun_needed": false,
+      "layer1_keywords_changed": true,
+      "domain": "preventive_detention",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_22(6)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "6"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "preventive_detention",
+        "natural_justice"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Privilege Against Disclosure"
+      ],
+      "constitutional_text_paraphrase": "Clause (5) does not require the authority making the order to disclose facts which it considers to be against the public interest to disclose.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_6"
+        ],
+        "petitioner_argument_pattern": "facts were withheld from the detenu under a blanket or unsubstantiated claim of public interest, defeating an effective representation",
+        "test": "IF the authority withholds facts under Art 22(6), THEN the claim must be real and specific; Art 22(6) is an exception to the supply of material under Art 22(5), and a blanket withholding that leaves the detenu unable to represent effectively is not protected. [Drafted inference: no case holding verified for the 'blanket claim' limb.]",
+        "contrary_pattern": "the withheld facts are genuinely sensitive, disclosure would harm the public interest, and the detenu still has enough material to represent against the remaining grounds"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_nondisclosure_claim_is_blanket_and_forecloses_effective_representation",
+      "authorities": [
+        "icchu_devi_1980"
+      ],
+      "doctrinal_basis": "Icchu Devi Choraria (1980) states the duty to supply documents expressly 'subject to clause (6)', which confirms Art 22(6) as the limited exception.",
+      "exemplar_sentences": [
+        "material facts were withheld from the detenu under a vague and unsubstantiated claim of public interest",
+        "the withholding of the entire basis for detention under Article 22(6) effectively nullifies the right to make a representation",
+        "there is no bona fide justification for treating the withheld material as sensitive to public interest",
+        "the detenu was left with insufficient information to make any meaningful representation against the order"
+      ],
+      "layer1_keywords": [
+        "non-disclosure",
+        "public interest privilege",
+        "withheld facts",
+        "Article 22(6)",
+        "sealed cover",
+        "against public interest to disclose"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(6)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['preventive_detention', 'natural_justice'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "overlaps_with_other_files": [
+        {
+          "rule_id": "ART21_ARBITRARY_PREVENTIVE_DETENTION",
+          "file": "rules_art21_32_14.json",
+          "relation": "umbrella_parent"
+        }
+      ],
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "Test limb on blanket claims is a drafted inference, not sourced to a verified case; legal reviewer to add authority."
+      ]
+    },
+    {
+      "rule_id": "ART22_NON_APPLICATION_OF_MIND",
+      "status": "revised",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "preventive_detention",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_22(4)",
+        "Constitution_Art_22(5)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "4"
+          ],
+          [
+            "5"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "preventive_detention",
+        "judicial_review",
+        "bail_jurisprudence",
+        "habeas_corpus"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Subjective Satisfaction",
+        "Non-Application of Mind"
+      ],
+      "constitutional_text_paraphrase": "Judicial gloss on preventive detention: the authority's subjective satisfaction is not immune from review where it rests on unsupported assertions, or where vital relevant material was not before the authority.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_4 OR Art_22_5"
+        ],
+        "petitioner_argument_pattern": "the detaining authority's satisfaction rests on a bare or unsupported assertion, or relevant material such as bail orders was not placed before it, or the order is vague and omnibus",
+        "test": "IF the detention order rests on a bare assertion without reliable material (for example that the detenu may obtain bail), OR vital relevant material such as bail orders was not placed before or considered by the detaining authority, OR the grounds are vague and omnibus, THEN the satisfaction is vitiated for non-application of mind and the order is liable to be quashed.",
+        "contrary_pattern": "the order records specific, relevant material actually considered, including any bail orders, with a clear link to the apprehension of prejudicial activity"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_satisfaction_rests_on_unsupported_assertion_or_relevant_material_not_considered",
+      "authorities": [
+        "rekha_2011",
+        "sushanta_kumar_banik_2022"
+      ],
+      "doctrinal_basis": "Rekha (2011): an order resting on an unsupported assertion about bail cannot stand. Sushanta Kumar Banik (2022): bail orders not placed before the detaining authority, and vital material withheld by the sponsoring authority, affect its satisfaction.",
+      "exemplar_sentences": [
+        "the detaining authority did not consider the bail orders already granted to the detenu",
+        "vital material was withheld from the detaining authority by the sponsoring authority",
+        "the satisfaction recorded is based on a bare assertion that the detenu may secure bail, without any supporting material",
+        "the grounds are vague and omnibus and do not disclose the application of mind of the detaining authority",
+        "the order mechanically reproduces the proposal received from the sponsoring authority",
+        "there is no indication that the authority considered whether ordinary criminal law was sufficient"
+      ],
+      "layer1_keywords": [
+        "non-application of mind",
+        "subjective satisfaction",
+        "bail order",
+        "ipse dixit",
+        "sponsoring authority",
+        "dossier",
+        "vague",
+        "omnibus"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(4)') OR (s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(5)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['preventive_detention', 'judicial_review', 'bail_jurisprudence', 'habeas_corpus'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "co_fires_with": [
+        "ART22_MALA_FIDE_DETENTION",
+        "ART22_LIVE_LINK_STALE_GROUNDS"
+      ],
+      "overlaps_with_other_files": [
+        {
+          "rule_id": "ART21_ARBITRARY_PREVENTIVE_DETENTION",
+          "file": "rules_art21_32_14.json",
+          "relation": "umbrella_parent"
+        }
+      ],
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "Revised in v4: stale-material and delay limbs moved to ART22_LIVE_LINK_STALE_GROUNDS; exemplars changed, re-embed.",
+        "Overlaps in practice with ART22_MALA_FIDE_DETENTION and ART22_LIVE_LINK_STALE_GROUNDS (observed co-firing, e.g. case 1967_7b3fe98456e0). Kept separate and multi-label by design."
+      ]
+    },
+    {
+      "rule_id": "ART22_MALA_FIDE_DETENTION",
+      "status": "revised",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "preventive_detention",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "A",
+      "applicable_statutes": [
+        "Constitution_Art_22(4)",
+        "Constitution_Art_22(5)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "4"
+          ],
+          [
+            "5"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "preventive_detention",
+        "mala_fides",
+        "bail_jurisprudence",
+        "habeas_corpus"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Mala Fide Exercise of Power",
+        "Colourable Detention"
+      ],
+      "constitutional_text_paraphrase": "Judicial gloss on preventive detention: the power cannot be used as a substitute for the ordinary criminal process, or to defeat bail without reliable material.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_4 OR Art_22_5"
+        ],
+        "petitioner_argument_pattern": "the order was passed to circumvent bail, or where ordinary criminal law could deal with the situation, or for a punitive rather than a preventive purpose",
+        "test": "IF a preventive detention order is used where the ordinary criminal law (IPC and other penal statutes) can deal with the situation, OR to defeat a bail already granted or likely to be granted without reliable material supporting that apprehension, THEN the detention is illegal even if the formal steps of Art 22(4) and (5) were followed.",
+        "contrary_pattern": "reliable material shows a real possibility of release on bail and a real likelihood of continued prejudicial activity that ordinary law cannot adequately meet"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_detention_used_where_ordinary_law_suffices_or_to_circumvent_bail",
+      "authorities": [
+        "rekha_2011"
+      ],
+      "doctrinal_basis": "Rekha (2011): if the ordinary law of the land can deal with the situation, recourse to a preventive detention law is illegal; a bare assertion that the detenu may obtain bail does not justify detention.",
+      "exemplar_sentences": [
+        "the detention order was passed to circumvent the bail granted to the petitioner in the criminal case",
+        "the ordinary law of the land was adequate to deal with the alleged conduct, so resort to preventive detention is illegal",
+        "the detention order is a colourable exercise of power intended to punish rather than to prevent",
+        "the detenu was already in custody and there was no material to show a real possibility of his release on bail",
+        "preventive detention has been used as a substitute for the ordinary criminal process"
+      ],
+      "layer1_keywords": [
+        "circumvent bail",
+        "ordinary law",
+        "penal laws",
+        "colourable",
+        "mala fide",
+        "substitute",
+        "already in custody",
+        "real possibility of bail"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(4)') OR (s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(5)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['preventive_detention', 'mala_fides', 'bail_jurisprudence', 'habeas_corpus'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "co_fires_with": [
+        "ART22_NON_APPLICATION_OF_MIND",
+        "ART22_LIVE_LINK_STALE_GROUNDS"
+      ],
+      "overlaps_with_other_files": [
+        {
+          "rule_id": "ART21_ARBITRARY_PREVENTIVE_DETENTION",
+          "file": "rules_art21_32_14.json",
+          "relation": "umbrella_parent"
+        }
+      ],
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "Narrowed in v4: the live-link and time-gap limb moved to ART22_LIVE_LINK_STALE_GROUNDS and the v3.1 attribution of it to Rekha removed; exemplars changed, re-embed."
+      ]
+    },
+    {
+      "rule_id": "ART22_LIVE_LINK_STALE_GROUNDS",
+      "status": "new",
+      "matcher_rerun_needed": true,
+      "layer1_keywords_changed": true,
+      "domain": "preventive_detention",
+      "rule_type": "petitioner_favoring",
+      "evidence_level": "B",
+      "applicable_statutes": [
+        "Constitution_Art_22(4)",
+        "Constitution_Art_22(5)"
+      ],
+      "graph_statute_filter": {
+        "article": "22",
+        "clause_groups": [
+          [
+            "4"
+          ],
+          [
+            "5"
+          ]
+        ],
+        "article_level_fallback": true
+      },
+      "applicable_concepts": [
+        "preventive_detention",
+        "habeas_corpus"
+      ],
+      "doctrine_terms_not_in_graph": [
+        "Live and Proximate Link",
+        "Stale Grounds"
+      ],
+      "constitutional_text_paraphrase": "Judicial gloss on preventive detention: the grounds must have a live and proximate link with the purpose of detention; unexplained delay in passing or executing the order breaks that link.",
+      "condition_logic": {
+        "requires": [
+          "INVOLVES Art_22_4 OR Art_22_5"
+        ],
+        "petitioner_argument_pattern": "there was unexplained delay between the proposal and the order, or between the order and the arrest, or the incidents relied on are stale",
+        "test": "IF there is unreasonable and unexplained delay between the date of the proposal and the detention order, or between the order and the arrest of the detenu, OR the grounds rest on stale incidents, THEN the 'live and proximate link' between the grounds and the purpose of detention is snapped, the genuineness of the satisfaction is in doubt, and the detention is invalid.",
+        "contrary_pattern": "the delay is satisfactorily explained and the grounds remain proximate to the apprehended prejudicial activity"
+      },
+      "predicted_outcome_direction": "favor_petitioner_if_unexplained_delay_or_stale_grounds_break_the_live_and_proximate_link",
+      "authorities": [
+        "sushanta_kumar_banik_2022"
+      ],
+      "doctrinal_basis": "Sushanta Kumar Banik (2022): unexplained delay of almost five months in passing the order, and the failure to place the bail orders before the authority, vitiated the detention because the live and proximate link was snapped.",
+      "exemplar_sentences": [
+        "there is no live and proximate link between the grounds of detention and the purpose of detention",
+        "the detention order was passed after an unexplained delay of several months from the date of the proposal",
+        "the order of detention was not executed for a long time and the delay remains unexplained",
+        "the incidents relied upon are stale and have no rational connection with the present need to detain",
+        "the delay snapped the link between the alleged prejudicial activity and the necessity for detention",
+        "the sponsoring authority did not explain why the proposal remained pending for months"
+      ],
+      "layer1_keywords": [
+        "live and proximate link",
+        "stale",
+        "unexplained delay",
+        "proposal",
+        "snapped",
+        "remote in time",
+        "prejudicial activities"
+      ],
+      "cypher_template": "MATCH (c:Case)-[:INVOLVES]->(s:Statute) WHERE ((s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(4)') OR (s.statute_id STARTS WITH 'Constitution_Art_22(' AND s.statute_id CONTAINS '(5)') OR s.statute_id = 'Constitution_Art_22') WITH c, collect(DISTINCT s.statute_id) AS sts OPTIONAL MATCH (c)-[:APPLIES_CONCEPT]->(lc:LegalConcept) WHERE lc.name IN ['preventive_detention', 'habeas_corpus'] WITH c, sts AS matched_statutes, collect(DISTINCT lc.name) AS matched_concepts OPTIONAL MATCH (c)-[:MAKES_ARGUMENT]->(a:Argument) WHERE a.side = 'petitioner' RETURN c.case_id, c.outcome, matched_concepts, c.year AS year, matched_statutes, collect(DISTINCT a.argument_id) AS petitioner_argument_ids",
+      "co_fires_with": [
+        "ART22_NON_APPLICATION_OF_MIND",
+        "ART22_MALA_FIDE_DETENTION"
+      ],
+      "overlaps_with_other_files": [
+        {
+          "rule_id": "ART21_ARBITRARY_PREVENTIVE_DETENTION",
+          "file": "rules_art21_32_14.json",
+          "relation": "umbrella_parent"
+        }
+      ],
+      "argument_match_confidence": null,
+      "confidence_calibration": null,
+      "min_supporting_cases": null,
+      "review_flags": [
+        "NEW in v4 (split from ART22_MALA_FIDE_DETENTION and ART22_NON_APPLICATION_OF_MIND). Matcher exemplars must be embedded and the rule scored before use."
+      ]
+    }
+  ]
+}
