@@ -1,0 +1,977 @@
+{
+  "case_id": "7057",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This appeal arises out of an order of the Income Tax Appellate Tribunal dated 21 October 2009 for Assessment Year 200304.",
+      "predicted_label": "Issue",
+      "confidence": 0.7166,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0049,
+        "Facts": 0.2765,
+        "Issue": 0.7166,
+        "Reasoning": 0.0014
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The Revenue which is in appeal under Section 260A of the Income Tax Act, 1961 has raised the following substantial question of law A. Whether on the facts and in the circumstances of the case and in law the Tribunal was justified in holding that the deduction admissible vide Explanation (iv) to section 115JB(2) of the Income Tax Act towards profit exempt u s. 80HHC has to be quantified with reference to the profits as per accounts duly adjusted under various clauses to the Explanation of Section 115JB and not with reference to the normal computation under the chapter Profits and Gains of Business or Profession 2.",
+      "predicted_label": "Issue",
+      "confidence": 0.7784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.009,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0008,
+        "Facts": 0.1967,
+        "Issue": 0.7784,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The assessee engages in the manufacture and processing of meat and meat products and has an abattoir at Hyderabad.",
+      "predicted_label": "Facts",
+      "confidence": 0.9926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9926,
+        "Issue": 0.0045,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The assessee is both a manufacturer and an exporter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0907,
+        "Arguments of Respondent": 0.0346,
+        "Decision": 0.0006,
+        "Facts": 0.3459,
+        "Issue": 0.0094,
+        "Reasoning": 0.5187
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "For Assessment Year 200304, the assessee filed its return of income on 28 November 2003 declaring a nil income, after setting off unabsorbed depreciation of the earlier years.",
+      "predicted_label": "Facts",
+      "confidence": 0.9798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0002,
+        "Facts": 0.9798,
+        "Issue": 0.0007,
+        "Reasoning": 0.016
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The assessee computed its book profits for the purposes of Section 115JB at Rs. 55.41 lacs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9894,
+        "Issue": 0.0017,
+        "Reasoning": 0.0076
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "While computing the profits eligible for deduction under Section 80HHC, in order to compute book profits, the assessee disclosed a total turnover of Rs.141.35 Crores and a total export turnover of Rs.118.21 Crores.",
+      "predicted_label": "Facts",
+      "confidence": 0.8874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0289,
+        "Arguments of Respondent": 0.0267,
+        "Decision": 0.0001,
+        "Facts": 0.8874,
+        "Issue": 0.0006,
+        "Reasoning": 0.0564
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The adjusted turnover and adjusted export turnover was at Rs. 112.61 Crores and Rs.89.47 Crores.",
+      "predicted_label": "Facts",
+      "confidence": 0.7246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0825,
+        "Arguments of Respondent": 0.0462,
+        "Decision": 0.0004,
+        "Facts": 0.7246,
+        "Issue": 0.0033,
+        "Reasoning": 0.1429
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The eligible deduction under Section 80HHC was computed at Rs.2.14 Crores as follows Adjusted profit of the business X Adjusted Export TurnoverAdjusted Total Turnover 2,69,71,336 X 89,47,87,484 2,14,29,4331,12,61,90,011The assessee deducted from the book profits, the profits eligible for deduction under Section 80HHC of Rs.2.14 Crores.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0,
+        "Facts": 0.9949,
+        "Issue": 0.0006,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The Assessing Officer, in applying the formula prescribed under sub section (3) of Section 80HHC, for the purpose of computing the eligible profits for deduction from the book profits, adopted a figure of Rs. 4,00,75,199/as the adjusted profit of business as opposed to the aforesaid figure of Rs.2,69,71,336/adopted by the assessee.",
+      "predicted_label": "Facts",
+      "confidence": 0.9807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9807,
+        "Issue": 0.0009,
+        "Reasoning": 0.017
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "After applying the restriction of 50 as contained in sub section (1B) of Section 80HHC, the Assessing Officer computed the eligible deduction under Section 80HHC at Rs.90,46,441/.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.997,
+        "Issue": 0.0004,
+        "Reasoning": 0.0013
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The Commissioner (Appeals) noted that the Assessing Officer had while determining the profits eligible for deduction under Section 80HHC computed the deduction under the normal provisions of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9622,
+        "Issue": 0.0008,
+        "Reasoning": 0.0334
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The Commissioner accepted the contention of the assessee that while computing the profits eligible for deduction under Section 80HHC the computation had to be made with reference to the net profits in the Profit and Loss Account of the assessee and not in accordance with the profits as computed under the head of profits and gains of business or profession.",
+      "predicted_label": "Facts",
+      "confidence": 0.9681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0001,
+        "Facts": 0.9681,
+        "Issue": 0.0023,
+        "Reasoning": 0.0257
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Hence, for the purpose of computing profits eligible for deduction under clause (iv) of the Explanation to Section 115JB, the Commissioner took the view that the deduction had to be made on the basis of the net profits as disclosed in the Profit and Loss Account of the assessee and not as computed with reference to the provisions of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0001,
+        "Facts": 0.9412,
+        "Issue": 0.0011,
+        "Reasoning": 0.0441
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "In doing so, the Commissioner followed the decision in the case of the earlier assessment years.",
+      "predicted_label": "Facts",
+      "confidence": 0.9484,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0002,
+        "Facts": 0.9484,
+        "Issue": 0.0016,
+        "Reasoning": 0.0466
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The Tribunal confirmed the order of the Commissioner, following its own decision in the case of the assessee for Assessment Years 199899 and 19992000.The statutory context6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.0002,
+        "Facts": 0.9885,
+        "Issue": 0.0095,
+        "Reasoning": 0.0013
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Consequently, consistent with the contention of the Revenue the Assessing Officer adopted the figure of Rs.4,00,75,199/as the adjusted profits of the business while applying the formula under sub section 3(a) of Section 80HHC.",
+      "predicted_label": "Facts",
+      "confidence": 0.912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0002,
+        "Facts": 0.912,
+        "Issue": 0.0017,
+        "Reasoning": 0.0808
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Counsel appearing on behalf of the Revenue submitted that (i) In interpreting the provisions of clause (iv) of the Explanation to Section 115JB the emphasis is on the expression computed.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6578,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6578,
+        "Arguments of Respondent": 0.2996,
+        "Decision": 0.0004,
+        "Facts": 0.0127,
+        "Issue": 0.0008,
+        "Reasoning": 0.0287
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "What the provision requires is that while computing the amount of profits eligible for deduction under Section 80HHC the computation has to be made under subsection (3) (ii) The deeming fiction under subsection (1) of Section 115JB applies in a situation where the income tax payable on the total income as computed under the Act in the case of a company is less than ten percent of its book profits.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8354,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0759,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0002,
+        "Facts": 0.0538,
+        "Issue": 0.0004,
+        "Reasoning": 0.8354
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The consequence under the deeming fiction is that the book profit shall be deemed to be the total income and the tax payable thereon shall be at the rate of ten percent (iii) Different criteria cannot be applied to a company in whose case the income tax payable is in excess of ten percent of its book profits and a company in whose case the income tax payable is less than ten percent of the book profits.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4552,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4552,
+        "Arguments of Respondent": 0.0594,
+        "Decision": 0.0003,
+        "Facts": 0.1559,
+        "Issue": 0.0016,
+        "Reasoning": 0.3275
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 20,
+      "text": "In both cases Section 80HHC(3) has to be applied (iv) The circulars dated 4 May 1990 and 21 February 1994 upon which reliance is placed by the assessee were issued in the context of Section 115J and will not apply to the interpretation of Section 115JA or Section 115JB in which there is a material change of language (v) By the provisions of clause (iv) of Explanation 1 to Section 115JB",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9018,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9018,
+        "Arguments of Respondent": 0.0324,
+        "Decision": 0.0005,
+        "Facts": 0.0339,
+        "Issue": 0.0018,
+        "Reasoning": 0.0296
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "no additional benefit has been sought to be conferred on companies governed by the Minimum Alternate Tax (MAT).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4623,
+        "Arguments of Respondent": 0.1398,
+        "Decision": 0.003,
+        "Facts": 0.0941,
+        "Issue": 0.0005,
+        "Reasoning": 0.3002
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "All that Parliament envisaged was that the benefit of Section 80HHC should be made available to such companies in the same manner and to the same extent to which the benefit would be made available to other companies which carry on export.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0389,
+        "Arguments of Respondent": 0.028,
+        "Decision": 0.0001,
+        "Facts": 0.0377,
+        "Issue": 0.0002,
+        "Reasoning": 0.8952
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Hence, in computing the amount of profits which have to be reduced from the book profits under clause (iv) of the Explanation to Section 115JB the computation must be arrived at in accordance with the provisions of Section 80HHC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7158,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1153,
+        "Arguments of Respondent": 0.031,
+        "Decision": 0.0004,
+        "Facts": 0.137,
+        "Issue": 0.0005,
+        "Reasoning": 0.7158
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "On the other hand, it was urged on behalf of the assessee that (i) Section 115JB is a selfcontained provision which creates a deeming fiction in which the book profits constitute the total income of an assessee.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.341,
+        "Arguments of Respondent": 0.3959,
+        "Decision": 0.0003,
+        "Facts": 0.2185,
+        "Issue": 0.0015,
+        "Reasoning": 0.0428
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "The reference point is the net profit which is shown in the Profit and Loss account (ii) In the net profits of the assessee in the Profit and Loss Account, there are profits from export and those profits are eligible for deduction under Section 80HHC (iii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3623,
+        "Arguments of Respondent": 0.0709,
+        "Decision": 0.0007,
+        "Facts": 0.2256,
+        "Issue": 0.0006,
+        "Reasoning": 0.34
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "The assessee satisfies the first part of clause (iv) of the Explanation since it has profits in its books from exports and which are eligible for deduction (iv) The expression amount of profits eligible for deduction under Section 80HHC would mean profits of the business of the assessee of export, which qualify for deduction.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5578,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5578,
+        "Arguments of Respondent": 0.2855,
+        "Decision": 0.0011,
+        "Facts": 0.0877,
+        "Issue": 0.0019,
+        "Reasoning": 0.066
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Embedded in the net profits are profits from export which have to be reduced from the net profit by applying the computation in subsection (3) of Section 80HHC (v) The normal method of computation is bypassed under Section 115JB.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9364,
+        "Arguments of Respondent": 0.0252,
+        "Decision": 0.0003,
+        "Facts": 0.026,
+        "Issue": 0.0006,
+        "Reasoning": 0.0115
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The plain consequence is that the expression profits of business in the formula prescribed by subsection (3) of Section 80HHC would have to be substituted by the expression book profits.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8768,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0227,
+        "Arguments of Respondent": 0.0102,
+        "Decision": 0.0043,
+        "Facts": 0.0856,
+        "Issue": 0.0004,
+        "Reasoning": 0.8768
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The extent of the deduction from book profits would, it is submitted, increase as a result, but this is a consequence which ensues from the statutory provision.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.349,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3282,
+        "Arguments of Respondent": 0.349,
+        "Decision": 0.0005,
+        "Facts": 0.0129,
+        "Issue": 0.0003,
+        "Reasoning": 0.3092
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "In applying clause (iv) of the Explanation only the method of computation which is prescribed by subsection (3) of Section 80HHC has to be adopted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0569,
+        "Arguments of Respondent": 0.0226,
+        "Decision": 0.0007,
+        "Facts": 0.0202,
+        "Issue": 0.0004,
+        "Reasoning": 0.8992
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "But a deduction is to be worked out not with reference to the profits of the business as stated therein, but with reference to the book profits.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9535,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0002,
+        "Facts": 0.0213,
+        "Issue": 0.0003,
+        "Reasoning": 0.9535
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The Assessing Officer would not have the jurisdiction to go behind the net profits shown in the profit and loss account except to the extent provided in the Explanation to Section 115J. Consequently, the Supreme Court made it clear that while the net profit as shown in the profit and loss account duly certified could not be reopened, the Assessing Officer did have the jurisdiction to effect the increases and the reductions as provided in the Explanation.",
+      "predicted_label": "Facts",
+      "confidence": 0.6232,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0005,
+        "Facts": 0.6232,
+        "Issue": 0.0006,
+        "Reasoning": 0.362
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "Subsection (1) of Section 115JB creates a deeming fiction whereby the book profits shall be deemed to be the total income of the assessee and the tax payable by the assessee on the total income shall be the amount of income tax at the rate specified therein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1359,
+        "Arguments of Respondent": 0.0791,
+        "Decision": 0.0005,
+        "Facts": 0.3422,
+        "Issue": 0.0033,
+        "Reasoning": 0.439
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "The deeming fiction is brought into existence where in the case of a company which is an assessee, the income tax payable on the total income as computed under the Act is less than ten percent (at the relevant time) of its book profit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9042,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0432,
+        "Arguments of Respondent": 0.0151,
+        "Decision": 0.0001,
+        "Facts": 0.037,
+        "Issue": 0.0004,
+        "Reasoning": 0.9042
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The submission of the assessee is that in applying the formula which is prescribed by subsection (3) of Section 80HHC, it is not the profits of the business as computed under the head of the profits and gains of business or profession under the Act, but the net profits as reflected in the profit and loss account of the assessee that must be adopted.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6405,
+        "Arguments of Respondent": 0.2454,
+        "Decision": 0.0002,
+        "Facts": 0.012,
+        "Issue": 0.0005,
+        "Reasoning": 0.1014
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "To accept the submission of the assessee, would be to rewrite the provisions of subsection (3) of Section 80HHC which is plainly impermissible for the Court to do.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8759,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0231,
+        "Arguments of Respondent": 0.0575,
+        "Decision": 0.0003,
+        "Facts": 0.0429,
+        "Issue": 0.0001,
+        "Reasoning": 0.8759
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "That it would be impermissible for the Court to carry out such an exercise is fortified by the fundamental principle that the object of Section 115JB was not to confer an additional benefit upon assessees governed by the MAT regime.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0721,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0005,
+        "Facts": 0.007,
+        "Issue": 0.0004,
+        "Reasoning": 0.8909
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "What clause (iv) of the Explanation to Section 115JB provides is that the profits which would be eligible for deduction under Section 80HHC would be reduced from the net profits as part of the exercise of computing the book profits for the purposes of the section.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0001,
+        "Facts": 0.0273,
+        "Issue": 0.0001,
+        "Reasoning": 0.9461
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Counsel appearing on behalf of the assessee placed reliance on two circulars of the Central Board of Direct Taxes, the first of them being of 4 May 1990 and the second of 21 February 1994.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4596,
+        "Arguments of Respondent": 0.3407,
+        "Decision": 0.001,
+        "Facts": 0.1065,
+        "Issue": 0.001,
+        "Reasoning": 0.0912
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "Now when both these circulars were issued by the Board, the provisions of Section 115J held the field.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7111,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0431,
+        "Arguments of Respondent": 0.0347,
+        "Decision": 0.0002,
+        "Facts": 0.2105,
+        "Issue": 0.0003,
+        "Reasoning": 0.7111
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Clause (iii) of the Explanation to Section 115J made a reference to the amounts attributable to the business, the profits from which are eligible for deduction under Section 80HHC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5003,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1812,
+        "Arguments of Respondent": 0.1021,
+        "Decision": 0.0003,
+        "Facts": 0.2156,
+        "Issue": 0.0005,
+        "Reasoning": 0.5003
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "This was, however, made subject to the condition (the condition being evident by the use of the words so, however) that such amounts would be computed in the manner specified inter alia in subsections (3) and (3A) of Section 80HHC.",
+      "predicted_label": "Facts",
+      "confidence": 0.5038,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0209,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0001,
+        "Facts": 0.5038,
+        "Issue": 0.0008,
+        "Reasoning": 0.4604
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 43,
+      "text": "It was in the context of Section 115J as it then stood, that the circular dated 4 May 1990 provided that Section 115J as originally drafted had taken away the 100 percent exemption which was to be allowed in respect of export profits and watered down the encouragement which was to be provided to such foreign exchange earning activities.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7179,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1102,
+        "Arguments of Respondent": 0.0965,
+        "Decision": 0.0001,
+        "Facts": 0.0751,
+        "Issue": 0.0002,
+        "Reasoning": 0.7179
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The circular states that since the intention was that 100 percent of such profits should be exempt, it was decided that the profits which are exempt under Sections 80HHC and 80HHD, should be excluded from the purview of Section 115J.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.061,
+        "Arguments of Respondent": 0.0273,
+        "Decision": 0.0002,
+        "Facts": 0.1593,
+        "Issue": 0.0003,
+        "Reasoning": 0.752
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "While construing the provisions of clause (iii) of the Explanation, the circular provided that the net profit to be excluded shall be computed in the same manner as provided for in subsections (3) and (3A) of Section 80HHC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6072,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1347,
+        "Arguments of Respondent": 0.0308,
+        "Decision": 0.0003,
+        "Facts": 0.2265,
+        "Issue": 0.0005,
+        "Reasoning": 0.6072
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "The circular states that the profits exempt under Sections 80HHC and 80HHD have been excluded from the purview of section 115J. 25.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1322,
+        "Arguments of Respondent": 0.0364,
+        "Decision": 0.0002,
+        "Facts": 0.0599,
+        "Issue": 0.0001,
+        "Reasoning": 0.7712
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "According to the circular, it is only the manner of computation specified in Section 80HHC (3) or (3A) and not the amounts themselves that should be imported into Explanation (iii) under Section 115J. The circular then provided for the method by which the deduction was to be effected.",
+      "predicted_label": "Facts",
+      "confidence": 0.6267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0785,
+        "Arguments of Respondent": 0.0301,
+        "Decision": 0.0002,
+        "Facts": 0.6267,
+        "Issue": 0.0013,
+        "Reasoning": 0.2632
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "Both these circulars were in the context of Section 115J, the provisions of which were materially altered by Parliament while enacting clause (viii) of the Explanation to Section 115JA and subsequently clause (iv) of Explanation 1 to Section 115JB.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3961,
+        "Arguments of Respondent": 0.1194,
+        "Decision": 0.0004,
+        "Facts": 0.1399,
+        "Issue": 0.001,
+        "Reasoning": 0.3432
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 49,
+      "text": "In these circumstances, the provisions made in these two circulars cannot control the meaning to be ascribed to clause (iv) of the Explanation to Section 115JB.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8756,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0754,
+        "Arguments of Respondent": 0.0207,
+        "Decision": 0.0032,
+        "Facts": 0.0245,
+        "Issue": 0.0007,
+        "Reasoning": 0.8756
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "That apart, it is now evident from the provision made in clause (iv) to Explanation 1 to Section 115JB that the provisions of Section 80HHC are made applicable not only for the purposes of computation, but it is the amount of profits eligible for deduction under Section 80HHC and as computed under subsections (3) or (3A), as the case may be, that have to be reduced from the net profits of the assessee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0002,
+        "Facts": 0.0269,
+        "Issue": 0.0001,
+        "Reasoning": 0.9539
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The deeming fiction is brought into existence where in the case of a company which is an assessee the income tax payable on the total income as computed under the Act in respect of a previous year falling within the purview of the Section is less than a stipulated percentage of its book profits.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9453,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0225,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0001,
+        "Facts": 0.0213,
+        "Issue": 0.0003,
+        "Reasoning": 0.9453
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The deeming fiction is that in such a case the book profit shall be deemed to be the total income of the assessee and the tax payable by the assessee on such total income shall be the amount of the income tax at the rate stipulated in sub section (1).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8193,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0412,
+        "Arguments of Respondent": 0.021,
+        "Decision": 0.0002,
+        "Facts": 0.1177,
+        "Issue": 0.0006,
+        "Reasoning": 0.8193
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "A deeming fiction created by the law has to be given full effect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0222,
+        "Decision": 0.0001,
+        "Facts": 0.0057,
+        "Issue": 0.0002,
+        "Reasoning": 0.942
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Equally, the deeming fiction has to be applied within the parameters envisaged by the legislative body which creates the fiction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.026,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0001,
+        "Facts": 0.0072,
+        "Issue": 0.0002,
+        "Reasoning": 0.9582
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Under Section 115JB the deeming fiction is for equating the book profits with the total income of the assessee and for determining the tax payable by the assessee on such total income at the rate as provided therein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7523,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0711,
+        "Arguments of Respondent": 0.0407,
+        "Decision": 0.0002,
+        "Facts": 0.1349,
+        "Issue": 0.0008,
+        "Reasoning": 0.7523
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "For the purposes of computing the book profits every assessee has to maintain its profit and loss account in accordance with the provisions of Parts II and III of Schedule VI of the Companies Act 1956.",
+      "predicted_label": "Facts",
+      "confidence": 0.8103,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0001,
+        "Facts": 0.8103,
+        "Issue": 0.0003,
+        "Reasoning": 0.1669
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "The Assessing Officer has to accept the validity and correctness of an account duly certified in accordance with law and is not entitled to enquire into the correctness of the account maintained by the assessee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7495,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0839,
+        "Arguments of Respondent": 0.1002,
+        "Decision": 0.001,
+        "Facts": 0.0649,
+        "Issue": 0.0006,
+        "Reasoning": 0.7495
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "The Assessing Officer thereafter has the power to make increases and reductions from the net profits as maintained in the profit and loss account of the assessee in terms as provided in Explanation 1 to Section 115JB.",
+      "predicted_label": "Facts",
+      "confidence": 0.6722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0617,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0005,
+        "Facts": 0.6722,
+        "Issue": 0.0005,
+        "Reasoning": 0.2525
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "While the Assessing Officer does not have the jurisdiction to scrutinize once again or to go behind the net profit shown in the profit and loss account, he is well within his jurisdiction in effecting the increases and reductions as warranted by Explanation 1 to Section 115JB.",
+      "predicted_label": "Facts",
+      "confidence": 0.6032,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0394,
+        "Arguments of Respondent": 0.0375,
+        "Decision": 0.0023,
+        "Facts": 0.6032,
+        "Issue": 0.0008,
+        "Reasoning": 0.3169
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 60,
+      "text": "As a matter of fact, the Assessing Officer is duty bound to carry out the legislative intent by effecting the increases on the one hand and the reductions on the other as provided in Explanation 1.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0748,
+        "Arguments of Respondent": 0.0495,
+        "Decision": 0.0004,
+        "Facts": 0.0349,
+        "Issue": 0.0006,
+        "Reasoning": 0.8398
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "For the purposes of clause (iv) of Explanation 1, the extent of the reduction in respect of the deduction available under Section 80HHC has to be computed strictly in accordance with the provisions of Section 80HHC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8189,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0709,
+        "Arguments of Respondent": 0.0431,
+        "Decision": 0.0007,
+        "Facts": 0.0658,
+        "Issue": 0.0005,
+        "Reasoning": 0.8189
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "We have not accepted the submission of the assessee that in applying the formula under subsection (3) of Section 80HHC, the expression profits of the business would need to be substituted by book profits.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0006,
+        "Facts": 0.0416,
+        "Issue": 0.0003,
+        "Reasoning": 0.9377
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "Our conclusion is that the acceptance of the submission would amount to rewriting a legislative provision which would not be permissible to the Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9543,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0233,
+        "Decision": 0.0006,
+        "Facts": 0.0055,
+        "Issue": 0.0001,
+        "Reasoning": 0.9543
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "In the circumstances, while allowing the appeal, we answer the question of law by holding that the Tribunal was not justified in coming to the conclusion that the amount to be reduced under clause (iv) of Explanation 1 to Section 115JB in respect of the profits eligible for deduction under Section 80HHC has to be computed with reference to the net profits in the profit and loss account and not according to the profits of the business computed under the head of profits and gains of business or profession.",
+      "predicted_label": "Decision",
+      "confidence": 0.8071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.8071,
+        "Facts": 0.0123,
+        "Issue": 0.0008,
+        "Reasoning": 0.1785
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "The question of law is accordingly answered in favour of the Revenue and against the assessee in the aforesaid terms.",
+      "predicted_label": "Decision",
+      "confidence": 0.7477,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.7477,
+        "Facts": 0.058,
+        "Issue": 0.0007,
+        "Reasoning": 0.1917
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The appeal is disposed of.",
+      "predicted_label": "Decision",
+      "confidence": 0.9646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.9646,
+        "Facts": 0.0235,
+        "Issue": 0.0002,
+        "Reasoning": 0.0102
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "There shall be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.981,
+        "Facts": 0.0131,
+        "Issue": 0.0001,
+        "Reasoning": 0.0052
+      }
+    }
+  ]
+}

@@ -1,0 +1,1380 @@
+{
+  "case_id": "6642",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "THIS appeal seeks to challenge the order passed by a Single Judge dated 22nd April, 2002 granting the Summons for judgment taken out by the respondent herein (original plaintiff) against the appellant (original defendant) and thereby granting a decree in the Summary Suit.",
+      "predicted_label": "Issue",
+      "confidence": 0.8775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0014,
+        "Facts": 0.1198,
+        "Issue": 0.8775,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "( 2 ) THE suit claim was with respect to the unpaid lease rentals in an Agreement of Lease Finance for Equipment, the payment of which rentals was guaranteed by the appellant.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3539,
+        "Arguments of Respondent": 0.0714,
+        "Decision": 0.0024,
+        "Facts": 0.3203,
+        "Issue": 0.0239,
+        "Reasoning": 0.2281
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The outstanding principal amount due as on the date of filing of the suit was Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0006,
+        "Facts": 0.9298,
+        "Issue": 0.0053,
+        "Reasoning": 0.0543
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "43,05,960/ to which interest at the rate of 18 per annum for the unpaid period till filing of the suit (i. e. an amount of Rs. 5,49,983/) was added leading to a claim of Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8979,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0009,
+        "Facts": 0.8979,
+        "Issue": 0.0083,
+        "Reasoning": 0.0668
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The appeal was admitted on 5th July, 2002 and the impugned decree was directed to be stayed on the appellant depositing a sum of Rs. 20,00,000/in this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.8927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0041,
+        "Facts": 0.8927,
+        "Issue": 0.0319,
+        "Reasoning": 0.0466
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The appellant preferred a Special Leave Petition against this conditional order, but the same was dismissed by the Apex Court by its order dated 13th December, 2002.",
+      "predicted_label": "Facts",
+      "confidence": 0.9829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9829,
+        "Issue": 0.0071,
+        "Reasoning": 0.0062
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The Apex Court, however, observed that the High Court may consider hearing of the appeal as early as possible.",
+      "predicted_label": "Facts",
+      "confidence": 0.9611,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0019,
+        "Facts": 0.9611,
+        "Issue": 0.0016,
+        "Reasoning": 0.0332
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "Accordingly the appeal has been heard early.",
+      "predicted_label": "Facts",
+      "confidence": 0.7856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0231,
+        "Arguments of Respondent": 0.0231,
+        "Decision": 0.0201,
+        "Facts": 0.7856,
+        "Issue": 0.0557,
+        "Reasoning": 0.0924
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "( 3 ) AS can be seen from the order of the learned Single Judge, the only submission canvassed before him was that the affairs of the Company, to which the equipment was given on lease, were under investigation before the board for Industrial and Financial Reconstruction (bifr for short) and, therefore, the suit could not proceed against the guarantor (appellant) in view of the provisions of section 22 (1) of the Sick Industrial Companies (Special Provisions) act, 1985 (hereinafter referred to as sica ).",
+      "predicted_label": "Facts",
+      "confidence": 0.988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0,
+        "Facts": 0.988,
+        "Issue": 0.0019,
+        "Reasoning": 0.0029
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "However, in this appeal, it has been additionally argued that the lease finance was essentially a loan or advance granted to the industrial company and, therefore, also the suit should not have been proceed.",
+      "predicted_label": "Decision",
+      "confidence": 0.3645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1307,
+        "Arguments of Respondent": 0.0278,
+        "Decision": 0.3645,
+        "Facts": 0.1556,
+        "Issue": 0.0161,
+        "Reasoning": 0.3053
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 10,
+      "text": "Thus two points arise for our determination in this appeal, and they are as follows  (I) Whether the learned Single Judge had erred in proceeding with the suit against the appellant guarantor when the industrial company, to which the lease finance was given (and the repayment of which was guaranteed by the appellant), was before the BIFR (ii) Whether the lease finance granted by the respondent to the industrial company was in fact a loan or advance and, therefore, the suit had to be suspended in view of the provisions of section 22 (1) of SICA( 4 ) BEFORE we deal with these points, it will be necessary to refer to the few necessary facts leading to the above suit and this appeal.",
+      "predicted_label": "Issue",
+      "confidence": 0.9707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0002,
+        "Facts": 0.0176,
+        "Issue": 0.9707,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "(I)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7594,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7594,
+        "Arguments of Respondent": 0.0196,
+        "Decision": 0.0025,
+        "Facts": 0.1285,
+        "Issue": 0.0385,
+        "Reasoning": 0.0514
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The respondent is a public limited company which carries on business of manufacture, trade, purchase, sale and leasing of various assets on rental basis.",
+      "predicted_label": "Facts",
+      "confidence": 0.9787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9787,
+        "Issue": 0.0146,
+        "Reasoning": 0.0046
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The appellant is the Managing Director of one Prakash industries Ltd. , a public limited company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9826,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9826,
+        "Issue": 0.0125,
+        "Reasoning": 0.0031
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "(ii) The respondent entered into an agreement of Lease Finance on 18th March, 1994 with the said Prakash Industries Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.7033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2299,
+        "Arguments of Respondent": 0.0451,
+        "Decision": 0.0003,
+        "Facts": 0.7033,
+        "Issue": 0.004,
+        "Reasoning": 0.0174
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "As per that agreement, the respondent arranged for the finance for purchase of heavy structural rolling Mill Rolls and leased out the machinery to the said Prakash industries Ltd. , on the terms and conditions as contained in the agreement.",
+      "predicted_label": "Facts",
+      "confidence": 0.986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0,
+        "Facts": 0.986,
+        "Issue": 0.0028,
+        "Reasoning": 0.0087
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The same was to be repaid through lease rentals spread over 20 equated instalments.",
+      "predicted_label": "Facts",
+      "confidence": 0.9609,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0001,
+        "Facts": 0.9609,
+        "Issue": 0.0019,
+        "Reasoning": 0.0274
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The appellant was the Managing Director of this Prakash Industries and had guaranteed payment of these instalments in his personal capacity and for that purpose he executed a personal guarantee before a special Metropolitan Magistrate on the same day.",
+      "predicted_label": "Facts",
+      "confidence": 0.9405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0002,
+        "Facts": 0.9405,
+        "Issue": 0.0031,
+        "Reasoning": 0.0335
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Clause 4 of the agreement clearly recorded that the property in the equipment shall at all times remain solely and exclusively with the respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3154,
+      "probabilities": {
+        "Arguments of Petitioner": 0.199,
+        "Arguments of Respondent": 0.197,
+        "Decision": 0.001,
+        "Facts": 0.2868,
+        "Issue": 0.0009,
+        "Reasoning": 0.3154
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "The guarantee specifically stated that the liability thereunder was that of a principal debtor that it was a continuing guarantee and an irrevocable one and shall continue until the lessee discharges all its obligations, (iii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5383,
+        "Arguments of Respondent": 0.0773,
+        "Decision": 0.0006,
+        "Facts": 0.1424,
+        "Issue": 0.0109,
+        "Reasoning": 0.2306
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "It so happened that Prakash Industries honoured the payment of first 11 instalments whereafter it defaulted.",
+      "predicted_label": "Facts",
+      "confidence": 0.9527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0004,
+        "Facts": 0.9527,
+        "Issue": 0.0104,
+        "Reasoning": 0.0316
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "A correspondence ensued between the parties ultimately leading to the respondent filing a suit in this court against Prakash Industries bearing Suit No. 4665 of 1997 for various reliefs including recovery of the lease equipment and arrears of the lease rentals.",
+      "predicted_label": "Facts",
+      "confidence": 0.9878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0002,
+        "Facts": 0.9878,
+        "Issue": 0.0017,
+        "Reasoning": 0.0093
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "An ad interim order was passed therein on 18th february, 1998 which recorded a statement on behalf of Prakash Industries that they will not part with possession or in any way sell the property.",
+      "predicted_label": "Facts",
+      "confidence": 0.9628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0004,
+        "Facts": 0.9628,
+        "Issue": 0.0012,
+        "Reasoning": 0.0235
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Subsequently Prakash Industries lodged a reference with BIFR on 12th June, 1998.",
+      "predicted_label": "Facts",
+      "confidence": 0.9754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0001,
+        "Facts": 0.9754,
+        "Issue": 0.0028,
+        "Reasoning": 0.0159
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Consequently Suit No. 4665 of 1997 filed by the respondent was liable to be suspended under section 22 of SICA.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.2888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2095,
+        "Arguments of Respondent": 0.206,
+        "Decision": 0.0393,
+        "Facts": 0.2556,
+        "Issue": 0.0007,
+        "Reasoning": 0.2888
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "The respondent, therefore, filed Summary Suit No, 6294 of 1999 against the appellant and took out the summons for judgment.",
+      "predicted_label": "Facts",
+      "confidence": 0.9682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0002,
+        "Facts": 0.9682,
+        "Issue": 0.0075,
+        "Reasoning": 0.0181
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The appellant did not file any affidavit in reply though he was served with the summons and oral submissions were made by his Counsel before the learned single Judge.",
+      "predicted_label": "Facts",
+      "confidence": 0.9207,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0129,
+        "Decision": 0.0004,
+        "Facts": 0.9207,
+        "Issue": 0.0035,
+        "Reasoning": 0.0503
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "(iv) As stated earlier, this suit was decreed by the learned Single Judge by his impugned order dated 22nd April, 2002.",
+      "predicted_label": "Facts",
+      "confidence": 0.6099,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2253,
+        "Arguments of Respondent": 0.0365,
+        "Decision": 0.0364,
+        "Facts": 0.6099,
+        "Issue": 0.0019,
+        "Reasoning": 0.09
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "The learned Judge noted that though the defendant was served, he had not filed any reply disclosing any ground no which leave to defend could be granted.",
+      "predicted_label": "Facts",
+      "confidence": 0.9127,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0002,
+        "Facts": 0.9127,
+        "Issue": 0.004,
+        "Reasoning": 0.0753
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "He also recorded that an oral submission was made that the Company, to which equipment was leased, was before BIFR and, therefore, the appellant being the guarantor was automatically protected under section 22 of sica.",
+      "predicted_label": "Facts",
+      "confidence": 0.6837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0512,
+        "Arguments of Respondent": 0.0181,
+        "Decision": 0.0001,
+        "Facts": 0.6837,
+        "Issue": 0.0002,
+        "Reasoning": 0.2467
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "The learned Judge referred to his earlier order in the case of (Garden Finance Ltd. v. Prakash Industries Ltd.), 2002 (1) Bom. C. R. (O. O. C. J.)641 2001 (4) Mh.",
+      "predicted_label": "Facts",
+      "confidence": 0.9656,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0001,
+        "Facts": 0.9656,
+        "Issue": 0.001,
+        "Reasoning": 0.0282
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "L. J. 425, wherein the learned Judge had considered the law laid down by the Apex Court in (Patheja Brothers v. ICICI), 2000 (6) S. C. C. 545 and had held that provisions of section 22 of SICA did not apply to a case where the machinery was given on lease to a company which was before BIFR and the guarantee was sought to be invoked for payment of lease rentals.",
+      "predicted_label": "Facts",
+      "confidence": 0.8814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0249,
+        "Arguments of Respondent": 0.0234,
+        "Decision": 0.0001,
+        "Facts": 0.8814,
+        "Issue": 0.001,
+        "Reasoning": 0.0692
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "( 5 ) THE first point, which arises for our determination, is whether the moment the industrial company was before BIFR, there will be an automatic suspension of a proceeding against its guarantor.",
+      "predicted_label": "Issue",
+      "confidence": 0.9337,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0004,
+        "Facts": 0.0101,
+        "Issue": 0.9337,
+        "Reasoning": 0.0406
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "To analyse this submission, it would be necessary to refer to section 22 (1) of SICA, which is pressed into service and which reads as follows 22.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4778,
+        "Arguments of Respondent": 0.3859,
+        "Decision": 0.0003,
+        "Facts": 0.005,
+        "Issue": 0.001,
+        "Reasoning": 0.1301
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "( 6 ) IN this connection, it is material to note that this section has amended by Act No. 12 of 1994.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0881,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0006,
+        "Facts": 0.2328,
+        "Issue": 0.0035,
+        "Reasoning": 0.6491
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "The following portion, which is in the bracket as shown above, did not exist in the section under initial Act of 1985 and it came to be added by the amendment of 1994.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0795,
+        "Arguments of Respondent": 0.03,
+        "Decision": 0.0006,
+        "Facts": 0.0942,
+        "Issue": 0.0026,
+        "Reasoning": 0.793
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "and no suit for the recovery of money or for the enforcement of any security against the industrial company thus, by this amendment, it came to be specifically added that no no suit (a) for the recovery of money or (b) for the enforcement (i) of any security against an industrial company or (ii) of any guarantee in respect of any loans or advances granted to industrial company shall lie or be proceeded with except with the consent of the Board or the appellate Authority.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0393,
+        "Arguments of Respondent": 0.0305,
+        "Decision": 0.0002,
+        "Facts": 0.3322,
+        "Issue": 0.0003,
+        "Reasoning": 0.5975
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "( 7 ) MR.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.89,
+      "probabilities": {
+        "Arguments of Petitioner": 0.89,
+        "Arguments of Respondent": 0.0248,
+        "Decision": 0.0035,
+        "Facts": 0.051,
+        "Issue": 0.0063,
+        "Reasoning": 0.0243
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "Samdani, learned Counsel for the appellant, canvassed two propositions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9812,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0001,
+        "Facts": 0.0011,
+        "Issue": 0.0003,
+        "Reasoning": 0.012
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Firstly, he submitted that in view of this amendment, no suit for recovery of any money can proceed after the registration of the reference even against the guarantor and, secondly, the industrial company and the guarantor had to be treated equally in view of the judgment of the Apex Court in the case of Patheja Brothers (supra ).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6934,
+        "Arguments of Respondent": 0.2822,
+        "Decision": 0.0001,
+        "Facts": 0.0168,
+        "Issue": 0.0003,
+        "Reasoning": 0.0072
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "Mr. Coolabawala, learned Counsel for the respondent, on the other hand, submitted that both these submissions were erroneous.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9656,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.9656,
+        "Decision": 0.0001,
+        "Facts": 0.0019,
+        "Issue": 0.0001,
+        "Reasoning": 0.008
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Firstly, the amendment did not provide that no suit for recovery of money would lie against the guarantor and, secondly the judgment in Patheja brothers had not laid down any such blanket proposition of equal treatment to the guarantors in all situations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5673,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1705,
+        "Arguments of Respondent": 0.1982,
+        "Decision": 0.0005,
+        "Facts": 0.0628,
+        "Issue": 0.0006,
+        "Reasoning": 0.5673
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "He submitted that in fact the judgment in patheja Brothers had been clarified by the Apex Court in (Kailash Nathagarwal v. Pradeshiya Industrial and Investment Corporation of U. P. Ltd.), 2003 (4) S. C. C. 305, (for short picups case ).",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5769,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3741,
+        "Arguments of Respondent": 0.5769,
+        "Decision": 0.0002,
+        "Facts": 0.041,
+        "Issue": 0.0003,
+        "Reasoning": 0.0075
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "Samdani, the learned Counsel for the appellant thereafter submitted that while interpreting section 22 (1) of SICA we must keep in the object of the Act and should interpret it in a purposive manner.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8927,
+        "Arguments of Respondent": 0.0172,
+        "Decision": 0.0009,
+        "Facts": 0.0017,
+        "Issue": 0.0004,
+        "Reasoning": 0.0871
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "He contended that the words for the recovery of money appearing in the amended portion of the section which are applicable to the industrial company must also be read in the secone part of the said amended section where protections is given to the guarantor though it is only in respect of any loans or advances.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5666,
+        "Arguments of Respondent": 0.3981,
+        "Decision": 0.0004,
+        "Facts": 0.0124,
+        "Issue": 0.0004,
+        "Reasoning": 0.0222
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "It is his submission that if the section is not interpreted accordingly, the object and purpose of the section for which the legislation has been enacted will be defeated.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5883,
+        "Arguments of Respondent": 0.3827,
+        "Decision": 0.0001,
+        "Facts": 0.0022,
+        "Issue": 0.0004,
+        "Reasoning": 0.0263
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "In furtherance of the aforesaid contention he has argued that we should apply the mischief rule to prevent a mischief by interpreting the words as aforesaid to achieve the purpose and object of the Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.399,
+        "Arguments of Respondent": 0.5376,
+        "Decision": 0.0001,
+        "Facts": 0.0012,
+        "Issue": 0.0002,
+        "Reasoning": 0.0618
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "He has referred to para 22 of the judgment of the Apex Court in the case of (Bengal Immunity Co. v. State of Bihar), A. I. R. 1955 S. C. 661 to submit that the Court must see as to what was the mischief which was sought to be remedied by the particular Act and what remedy was provided.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5588,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4243,
+        "Arguments of Respondent": 0.5588,
+        "Decision": 0.0002,
+        "Facts": 0.008,
+        "Issue": 0.0001,
+        "Reasoning": 0.0087
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "He also referred to the judgment in the case of (Workmen of Dimakuchi Tea Estate v. Management of Dimakuchi Tea Estate), a. I. R. 1958 S. C. 353.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5299,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5299,
+        "Arguments of Respondent": 0.3573,
+        "Decision": 0.0002,
+        "Facts": 0.0392,
+        "Issue": 0.0002,
+        "Reasoning": 0.0733
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "That was a judgment on the definition of industrial dispute under section 2 (k) of the Industrial Disputes Act, 1947 and, while dealing with expression any person occurring in the third part of that definition, the Apex Court held in para 9 that it clearly meant a person in respect of whom the dispute had arisen.",
+      "predicted_label": "Facts",
+      "confidence": 0.5611,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0623,
+        "Arguments of Respondent": 0.1117,
+        "Decision": 0.0007,
+        "Facts": 0.5611,
+        "Issue": 0.0015,
+        "Reasoning": 0.2628
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "Samdani and Mr. Purandare, learned Counsel for the appellant, submitted in this behalf that although this agreement was styled as a Lease agreement, it was essentially an agreement for finance, i. e. for loan and, in any case, for a sort of advance.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9773,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.0053,
+        "Issue": 0.0002,
+        "Reasoning": 0.0149
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "They referred to the judgment of the Apex court in (Sundaram Finance Ltd. v. State of Kerala), A. I. R. 1966 S. C. 1178, and particularly para 24 of thereof.",
+      "predicted_label": "Facts",
+      "confidence": 0.8962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0385,
+        "Arguments of Respondent": 0.0562,
+        "Decision": 0.0001,
+        "Facts": 0.8962,
+        "Issue": 0.0013,
+        "Reasoning": 0.0076
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The judgment was in the context of Hire purchase Agreement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7228,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1396,
+        "Arguments of Respondent": 0.1162,
+        "Decision": 0.0005,
+        "Facts": 0.0197,
+        "Issue": 0.0012,
+        "Reasoning": 0.7228
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "Samdani and Mr. Purandare pointed out that the entire amount involved in the transaction was divided into 20 equated instalments and interest was payable thereon, if the lessee made any default in payment of the money or the instalment.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1227,
+        "Arguments of Respondent": 0.7728,
+        "Decision": 0.0002,
+        "Facts": 0.0045,
+        "Issue": 0.0001,
+        "Reasoning": 0.0996
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Coolabawala, learned Counsel for the respondent, on the other hand, submitted that firstly the appellant should not be heard inasmuch as he has not deposited the amount of Rs.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.9806,
+        "Decision": 0.0008,
+        "Facts": 0.0013,
+        "Issue": 0.0001,
+        "Reasoning": 0.0125
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Secondly, the appellant did not care to file any reply before the learned Single Judge and, in any case, the point which is now being canvassed was undoubtedly not canvassed before the learned Single judge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.075,
+        "Arguments of Respondent": 0.0653,
+        "Decision": 0.0012,
+        "Facts": 0.0771,
+        "Issue": 0.0012,
+        "Reasoning": 0.7802
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "Even when the appeal was preferred to challenge the condition imposed by this Court (to grant the stay while admitting this appeal), the only submission made over there, as can be seen from the order of the Apex Court, in S. L. P. No. 2290 of 2003 was that the appeal was covered by judgment of the Apex Court, namely the one in the case of Patheja Brothers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5347,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0401,
+        "Arguments of Respondent": 0.0455,
+        "Decision": 0.0107,
+        "Facts": 0.365,
+        "Issue": 0.004,
+        "Reasoning": 0.5347
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "Mr. Coolabawala, therefore, submitted at the outset that this Court should not entertain the submission with respect to nature of the lease transaction at this stage.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8823,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0951,
+        "Arguments of Respondent": 0.8823,
+        "Decision": 0.0002,
+        "Facts": 0.0012,
+        "Issue": 0.0001,
+        "Reasoning": 0.0212
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "Coolabawala then submitted in reply that as the wording of section 22 (1) itself provides, the suit, if to be suspended against the guarantor, has to be with respect to enforcement of a guarantee in respect of a loan or advance granted to the industrial company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0468,
+        "Arguments of Respondent": 0.908,
+        "Decision": 0.0003,
+        "Facts": 0.0085,
+        "Issue": 0.0001,
+        "Reasoning": 0.0364
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Similarly, it could not be considered as an advance because in an advance, the right of the financier is only in respect of money and not in the property against which the money is advanced.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3956,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2422,
+        "Arguments of Respondent": 0.1197,
+        "Decision": 0.0011,
+        "Facts": 0.2404,
+        "Issue": 0.0011,
+        "Reasoning": 0.3956
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 60,
+      "text": "( 20 ) THEREAFTER, Mr. Coolabawala drew our attention to the specific clauses of the Lease Agreement and pointed out that the document made it very clear all throughout that the property in the equipment and the ownership thereof at all material times was to remain only with the lessor.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5125,
+        "Arguments of Respondent": 0.4064,
+        "Decision": 0.0015,
+        "Facts": 0.0035,
+        "Issue": 0.0002,
+        "Reasoning": 0.0759
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 61,
+      "text": "Clause 4 of this agreement, which is of particular significance, and which is captioned ownership reads as followsownership The property in the equipment shall at all times remain solely and exclusively that of the lesser and lessee shall have no right, title or interest therein except as lessee and the lessee shall not hypothecate, sublease or subject to any form of bailment.",
+      "predicted_label": "Facts",
+      "confidence": 0.9653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9653,
+        "Issue": 0.0017,
+        "Reasoning": 0.0281
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "Mr. Coolabawala, therefore, submitted that there was no manner of doubt when one looks to the entire agrement that it was a lease document.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3837,
+        "Arguments of Respondent": 0.5776,
+        "Decision": 0.0006,
+        "Facts": 0.0022,
+        "Issue": 0.0002,
+        "Reasoning": 0.0356
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "The understanding between the respondent and the industrial company was clear, namely that it was a document of lease and not finance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0338,
+        "Arguments of Respondent": 0.0754,
+        "Decision": 0.0002,
+        "Facts": 0.2652,
+        "Issue": 0.0003,
+        "Reasoning": 0.625
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "Coolabawala then referred to an unreported detailed order of a Single.",
+      "predicted_label": "Facts",
+      "confidence": 0.6729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0722,
+        "Arguments of Respondent": 0.0711,
+        "Decision": 0.001,
+        "Facts": 0.6729,
+        "Issue": 0.0005,
+        "Reasoning": 0.1823
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "Judge (S. H. Kapadia, J. , as His Lordship then was in this Court) dated (16th September, 1998 on Notice of Motion No. 2346 of 1998 in Suit No. 3196 of 1998), filed by Development Credit Bank against the very Prakash Industries ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.7886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0011,
+        "Facts": 0.7886,
+        "Issue": 0.1685,
+        "Reasoning": 0.0329
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "In that matter also, the suit was for recovery of possession of four wind Electric Generators leased to Prakash Industries under the Lease Agreement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0833,
+        "Arguments of Respondent": 0.109,
+        "Decision": 0.0006,
+        "Facts": 0.0246,
+        "Issue": 0.0016,
+        "Reasoning": 0.7809
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "( 22 ) THEREAFTER, Mr. Coolabawala drew our attention to another unreported but detailed order passed by S. N. Variava and S. H. Kapadia, JJ.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3823,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3823,
+        "Arguments of Respondent": 0.3572,
+        "Decision": 0.0006,
+        "Facts": 0.0164,
+        "Issue": 0.0002,
+        "Reasoning": 0.2434
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 68,
+      "text": "(as Their lordships then were in this Court) dated 12th October, 1998 in Appeal No. 1055 of 1998 in Arbitration Petition No. 19 of 1998 in the case of (Parasarampuria Synthetics Ltd. v. Kotak Mahindra Finance Ltd. ).",
+      "predicted_label": "Facts",
+      "confidence": 0.5281,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0374,
+        "Arguments of Respondent": 0.0367,
+        "Decision": 0.0011,
+        "Facts": 0.5281,
+        "Issue": 0.0287,
+        "Reasoning": 0.3681
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "( 24 ) IN the present case, as stated above, we are concerned with the relationship created by the respondent with the industrial company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9536,
+      "probabilities": {
+        "Arguments of Petitioner": 0.013,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0003,
+        "Facts": 0.0172,
+        "Issue": 0.0029,
+        "Reasoning": 0.9536
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "The respondent is undoubtedly saying that it is a lease document.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8755,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0231,
+        "Arguments of Respondent": 0.0228,
+        "Decision": 0.0009,
+        "Facts": 0.0732,
+        "Issue": 0.0046,
+        "Reasoning": 0.8755
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "The industrial company has no where stated in the documents or in correspondence that it is not a lease agreement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4418,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1524,
+        "Arguments of Respondent": 0.1625,
+        "Decision": 0.0012,
+        "Facts": 0.24,
+        "Issue": 0.0022,
+        "Reasoning": 0.4418
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "When the text of the totality of the clauses and their tenor is seen, one cannot take some clauses with respect to payment of interest apart and hold that it is a finance agrement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0002,
+        "Facts": 0.0262,
+        "Issue": 0.0005,
+        "Reasoning": 0.9528
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "One has to read the agreement to provide meaning to all its clauses.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0485,
+        "Arguments of Respondent": 0.085,
+        "Decision": 0.0005,
+        "Facts": 0.0368,
+        "Issue": 0.0005,
+        "Reasoning": 0.8287
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "Any such interpretation canvassed by the appellant will render the specific clauses on ownership and return on default, identification and insurance etc. redundant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8505,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0233,
+        "Arguments of Respondent": 0.1117,
+        "Decision": 0.0004,
+        "Facts": 0.014,
+        "Issue": 0.0001,
+        "Reasoning": 0.8505
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "That cannot be permitted as held in Arul Jothis case (supra ).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8142,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0847,
+        "Arguments of Respondent": 0.0733,
+        "Decision": 0.0031,
+        "Facts": 0.0244,
+        "Issue": 0.0002,
+        "Reasoning": 0.8142
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "Besides, any such interpretation will go against the express intention of the contracting parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8796,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.0416,
+        "Decision": 0.0003,
+        "Facts": 0.0465,
+        "Issue": 0.0004,
+        "Reasoning": 0.8796
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "That also cannot be permitted as held in Roop Kumar (supra ).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.003,
+        "Facts": 0.0049,
+        "Issue": 0.0001,
+        "Reasoning": 0.962
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "The tenor of the entire agreement is clear that the respondent had purchased the particular equipment and leased it to the industrial company and it was to remain equipment owned by the respondent throughout the period of the agreement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9163,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.017,
+        "Decision": 0.0002,
+        "Facts": 0.0564,
+        "Issue": 0.0001,
+        "Reasoning": 0.9163
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "It is another matter that at the end of the period if the twenty equated instalments and the residual amount was paid, the ownership was to pass on to the industrial company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8525,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0342,
+        "Arguments of Respondent": 0.0427,
+        "Decision": 0.0005,
+        "Facts": 0.0699,
+        "Issue": 0.0002,
+        "Reasoning": 0.8525
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "That will not change the nature of the agreement during the subsistence thereof, viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0008,
+        "Facts": 0.0284,
+        "Issue": 0.0002,
+        "Reasoning": 0.9448
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "that it was an agreement of lease of equipment and not a financial agreement.",
+      "predicted_label": "Facts",
+      "confidence": 0.5594,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1066,
+        "Arguments of Respondent": 0.1328,
+        "Decision": 0.0018,
+        "Facts": 0.5594,
+        "Issue": 0.008,
+        "Reasoning": 0.1914
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "There is no scope to read the agreement as anything else as in the case of Sundaram Finance (supra ).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9252,
+      "probabilities": {
+        "Arguments of Petitioner": 0.012,
+        "Arguments of Respondent": 0.0172,
+        "Decision": 0.0006,
+        "Facts": 0.0449,
+        "Issue": 0.0002,
+        "Reasoning": 0.9252
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Similarly the principles of purposive interpretation relied upon by the appellant have no application in the present case since the amendment to section 22 is clear and unambiguous as explained in PICUP (supra ).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9505,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0313,
+        "Decision": 0.0007,
+        "Facts": 0.0086,
+        "Issue": 0.0001,
+        "Reasoning": 0.9505
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "IT is clear from the narration that it was the obligation of the industrial company to make the periodical payment and use the machines.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0281,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0005,
+        "Facts": 0.0794,
+        "Issue": 0.0002,
+        "Reasoning": 0.8729
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "The industrial company had defaulted in making the payment and, therefore, the respondent had every right to get back the machinery.",
+      "predicted_label": "Facts",
+      "confidence": 0.3942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1872,
+        "Arguments of Respondent": 0.2625,
+        "Decision": 0.0028,
+        "Facts": 0.3942,
+        "Issue": 0.0011,
+        "Reasoning": 0.1522
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 86,
+      "text": "As far as the present suit is concerned, it is with respect to the guarantee given by the appellant to fulfill the obligations of the industrial company on his own.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0239,
+        "Arguments of Respondent": 0.0201,
+        "Decision": 0.0123,
+        "Facts": 0.0476,
+        "Issue": 0.0008,
+        "Reasoning": 0.8952
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "The text of the guarantee is also very clear.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0004,
+        "Facts": 0.1731,
+        "Issue": 0.0023,
+        "Reasoning": 0.801
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "That guarantee cannot be said to be a guarantee with respect to the repayment of a loan.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1444,
+        "Arguments of Respondent": 0.0786,
+        "Decision": 0.0004,
+        "Facts": 0.0142,
+        "Issue": 0.0001,
+        "Reasoning": 0.7623
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "Similarly, as stated earlier, in an advance of money the right of the financier is only with respect to money and not in the property.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0308,
+        "Arguments of Respondent": 0.0236,
+        "Decision": 0.0002,
+        "Facts": 0.0117,
+        "Issue": 0.0008,
+        "Reasoning": 0.9329
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "In the present case, there are clear rights of the financiers in the property.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0466,
+        "Arguments of Respondent": 0.0777,
+        "Decision": 0.0009,
+        "Facts": 0.0148,
+        "Issue": 0.0003,
+        "Reasoning": 0.8596
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "That being so, it cannot be said that the lease finance given by the respondent to the industrial company was in fact a loan or an advance and which was guaranteed by the appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0182,
+        "Arguments of Respondent": 0.023,
+        "Decision": 0.0006,
+        "Facts": 0.0485,
+        "Issue": 0.0003,
+        "Reasoning": 0.9094
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "In view of this conclusion arrived at, on the second point for determination also there is no substance in the appeal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0247,
+        "Decision": 0.0944,
+        "Facts": 0.087,
+        "Issue": 0.0008,
+        "Reasoning": 0.7866
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "( 26 )",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7165,
+        "Arguments of Respondent": 0.0495,
+        "Decision": 0.0305,
+        "Facts": 0.0633,
+        "Issue": 0.0137,
+        "Reasoning": 0.1265
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "THE appeal is therefore dismissed with costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9951,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0027
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "Appeal dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9958,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0022
+      }
+    }
+  ]
+}

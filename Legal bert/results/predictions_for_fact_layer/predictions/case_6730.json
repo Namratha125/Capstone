@@ -1,0 +1,1379 @@
+{
+  "case_id": "6730",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This is an Appeal by the Principal Commissioner of Customs, Pune, impugning the final order No.A/86867/2019 dated 17th September, 2019 passed by the Customs, Excise Service Tax Appellate Tribunal, Mumbai (CESTAT) holding that the late fees charged in the adjudication order is unwarranted.",
+      "predicted_label": "Issue",
+      "confidence": 0.9384,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0022,
+        "Facts": 0.0583,
+        "Issue": 0.9384,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "2. Brief facts are that the RespondentCompany JSW Steel Ltd., and its subsidiary M s.Amba River Coke Ltd. (ARCL) both imported a total 1,10,000 metric tons Coking Coal from M s. JSW International Pty Ltd., Singapore by the same vessel MV CAPE IOANNA.",
+      "predicted_label": "Facts",
+      "confidence": 0.9916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9916,
+        "Issue": 0.0069,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "An Import General Manifest (IGM No.2161880) was filed on 6th April, 2017.",
+      "predicted_label": "Facts",
+      "confidence": 0.9762,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0002,
+        "Facts": 0.9762,
+        "Issue": 0.0099,
+        "Reasoning": 0.0082
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "ARCL imported 11,550 metric tons of Peak Down North Coking Coal under Bill of Entry No.9214268 dated 7th April, 2017 filed at Jaigad Port and was assessed provisionally.",
+      "predicted_label": "Facts",
+      "confidence": 0.949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.949,
+        "Issue": 0.0419,
+        "Reasoning": 0.004
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Respondent M s. JSW Steel Ltd., imported 98,450 metric tons of Goonyella C Coking Coal for discharge at Marmagao Port which arrived on 14th April, 2017 and Bill of Entry No. 9375854 dated 20th April, 2017 was filed at Marmagao Port for clearance which was provisionally assessed and allowed clearance on payment of duty of Rs.9,32,79,393/. 3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0003,
+        "Facts": 0.9859,
+        "Issue": 0.0123,
+        "Reasoning": 0.0005
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "At the time of clearance of import, goods of a quantity of 1,341 metric tons was found short at Marmagao Port as the same was landed at Jaigad Port.",
+      "predicted_label": "Facts",
+      "confidence": 0.8873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0009,
+        "Facts": 0.8873,
+        "Issue": 0.034,
+        "Reasoning": 0.0625
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "This quantity was not assessed at Marmagao Port and left uncleared at Jaigad Port.",
+      "predicted_label": "Facts",
+      "confidence": 0.8988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0228,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0004,
+        "Facts": 0.8988,
+        "Issue": 0.0006,
+        "Reasoning": 0.0684
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The RespondentCompany came to know of this fact from ARCL.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3427,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1353,
+        "Arguments of Respondent": 0.238,
+        "Decision": 0.0003,
+        "Facts": 0.2823,
+        "Issue": 0.0013,
+        "Reasoning": 0.3427
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "After detailed scrutiny, the RespondentCompany ascertained that the excess cargo that was unloaded at Jaigad Port was in fact Goonyella C Coking Coal and not Peak Down North Coking Coal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5545,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0373,
+        "Arguments of Respondent": 0.1501,
+        "Decision": 0.002,
+        "Facts": 0.2549,
+        "Issue": 0.0012,
+        "Reasoning": 0.5545
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The RespondentCompany, therefore, vide its letter dated 5th December, 2017, informed the Customs Authorities of the same and that the said 1,341 metric tons of Goonyella C Coking Coal which was to be discharged at Marmagao Port, Goa had been wrongly discharged at Jaigad Port for which the RespondentCompany had paid duty at Marmagao Customs, presuming that full quantity of import would be cleared at Marmagao Port.",
+      "predicted_label": "Facts",
+      "confidence": 0.9803,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0001,
+        "Facts": 0.9803,
+        "Issue": 0.0011,
+        "Reasoning": 0.0093
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The Company also requested that they may be allowed to file a Bill of Entry for a differential quantity and that the said cargo may be allowed clearance.",
+      "predicted_label": "Facts",
+      "confidence": 0.8512,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0005,
+        "Facts": 0.8512,
+        "Issue": 0.0046,
+        "Reasoning": 0.1313
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The Customs House Agent (CHA) and Shipping Agent were instructed for processing of filing of Bill of Entry after necessary reamendment to the IGM.",
+      "predicted_label": "Facts",
+      "confidence": 0.8698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.014,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0002,
+        "Facts": 0.8698,
+        "Issue": 0.002,
+        "Reasoning": 0.0984
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The Customs Authority after considering the request made by the Shipping Agent changed the IGM from Peak Down North Coking Coal to Goonyella C Coking Coal, but the same was kept in the name of ARCL.",
+      "predicted_label": "Facts",
+      "confidence": 0.778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0003,
+        "Facts": 0.778,
+        "Issue": 0.0009,
+        "Reasoning": 0.176
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Therefore, a request was made vide letter dated 15th February, 2018 by the Shipping Agent for the necessary amendments in the IGM.",
+      "predicted_label": "Facts",
+      "confidence": 0.789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0247,
+        "Decision": 0.0005,
+        "Facts": 0.789,
+        "Issue": 0.0006,
+        "Reasoning": 0.1688
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "However, despite the amendment in the IGM, the Bill of Entry could not be filed by the CHA through ICEGATE System as there was an error shown.",
+      "predicted_label": "Facts",
+      "confidence": 0.6123,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0623,
+        "Arguments of Respondent": 0.101,
+        "Decision": 0.0012,
+        "Facts": 0.6123,
+        "Issue": 0.0006,
+        "Reasoning": 0.2225
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "Finally, the amendments to the IGM were approved by the Customs Authorities on 14th March, 2018 and on the same day, the RespondentCompany filed the Bill of Entry to clear the goods.",
+      "predicted_label": "Facts",
+      "confidence": 0.463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1689,
+        "Arguments of Respondent": 0.0891,
+        "Decision": 0.0006,
+        "Facts": 0.463,
+        "Issue": 0.0034,
+        "Reasoning": 0.275
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "The Electronic Data Interchange (EDI System) of filing the Bill of Entry calculated the total amount payable as Rs.50,46,182/ which included Customs duty as well as the charges for late filing of Bill of Entry amounting to Rs.33,45,000/. The RespondentCompany thereafter, made a request in March2018 to waive off this fine late fee charge calculated by the EDI stating that the delay in filing the Bill of Entry to clear the differential quantity at Jaigad was not on account of their fault.",
+      "predicted_label": "Facts",
+      "confidence": 0.9804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0001,
+        "Facts": 0.9804,
+        "Issue": 0.0076,
+        "Reasoning": 0.0101
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The Customs Authorities vide communication dated 5th April, 2018 rejected the request of the RespondentCompany.",
+      "predicted_label": "Facts",
+      "confidence": 0.977,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0001,
+        "Facts": 0.977,
+        "Issue": 0.0025,
+        "Reasoning": 0.0168
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Paragraph 5 of the said communication is pertinent and is quoted as under 5.",
+      "predicted_label": "Facts",
+      "confidence": 0.429,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3196,
+        "Arguments of Respondent": 0.1419,
+        "Decision": 0.0002,
+        "Facts": 0.429,
+        "Issue": 0.0021,
+        "Reasoning": 0.1072
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "You have done the scrutiny of the facts and ascertained that the excess cargo belonged to M s JSW Steel Ltd. and confirmed the same vide your letter dated 05.12.2017 that the goods in excess of 1341Mts is Goonyella C Coking coal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9277,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0263,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0002,
+        "Facts": 0.9277,
+        "Issue": 0.0006,
+        "Reasoning": 0.021
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Thus from 14.04.2017 to 05.12.2017, you were unable to ascertain the ownership of the excess discharged cargo and the request to allow to file B E for this excess cargo came only on 05.12.2017 even though you were aware that the same goods are short landed at Mormugao port and excess discharged at JSW Port.",
+      "predicted_label": "Facts",
+      "confidence": 0.9462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0155,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0003,
+        "Facts": 0.9462,
+        "Issue": 0.0006,
+        "Reasoning": 0.0304
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "You have also mentioned in your letter dated 30.3.2018 that M s JSW Steel Ltd. thereafter instructed the CHA and Shipping Agent to file the Bill of Entry after necessary amendment to the IGM, which shows that you have yourself delayed the process of amendment of IGM filing B E.",
+      "predicted_label": "Facts",
+      "confidence": 0.9257,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0324,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0004,
+        "Facts": 0.9257,
+        "Issue": 0.0007,
+        "Reasoning": 0.0229
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The said instructions could have been given well in time by you.",
+      "predicted_label": "Facts",
+      "confidence": 0.5742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2275,
+        "Arguments of Respondent": 0.0303,
+        "Decision": 0.0006,
+        "Facts": 0.5742,
+        "Issue": 0.0004,
+        "Reasoning": 0.167
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "Therefore the entire responsibility for late filing of B E lies on the importer i.e. M s JSW Steel Ltd. 5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0174,
+        "Arguments of Respondent": 0.013,
+        "Decision": 0.0002,
+        "Facts": 0.9572,
+        "Issue": 0.0004,
+        "Reasoning": 0.0119
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Aggrieved by the same, the RespondentCompany filed an Appeal before the Commissioner (AppealsII), Central Tax, Pune, urging that the delay in filing the Bill of Entry was in genuine and bona fide circumstances.",
+      "predicted_label": "Facts",
+      "confidence": 0.9772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9772,
+        "Issue": 0.0096,
+        "Reasoning": 0.0104
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "It was submitted that in terms of Section 46(3) of the Customs Act, 1962, the Importer is supposed to present the Bill of Entry before the end of the next day following the day of which the vessel carrying the goods arrives at a customs station at which such goods are to be cleared for home consumption or warehousing.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.562,
+      "probabilities": {
+        "Arguments of Petitioner": 0.562,
+        "Arguments of Respondent": 0.3698,
+        "Decision": 0.0004,
+        "Facts": 0.0243,
+        "Issue": 0.0012,
+        "Reasoning": 0.0423
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "It is submitted that accordingly, Bill of Entry for home consumption was filed within a time at Marmagao.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6297,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6297,
+        "Arguments of Respondent": 0.3113,
+        "Decision": 0.0015,
+        "Facts": 0.0354,
+        "Issue": 0.0025,
+        "Reasoning": 0.0198
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "However, at the time of clearance, a quantity of 1,341 metric tons was found short as also confirmed under the Draught Survey Report and that, on enquiry, it was found that the subject goods were wrongly manifested as Peak Down North Coking Coal instead of Goonyella C Coking Coal in the name of ARCL and only on 14th March, 2018, an amended IGM and the Bill of Lading in the name of the RespondentCompany, describing the goods as Goonyella C Coking Coal were issued by the Shipping Line after obtaining permission from the Customs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0298,
+        "Decision": 0.0011,
+        "Facts": 0.8849,
+        "Issue": 0.0022,
+        "Reasoning": 0.0734
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The Bill of Entry was filed by the Importer immediately on 14th March, 2018 for clearance at Jaigad Port, that therefore no late fee was payable.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2083,
+        "Arguments of Respondent": 0.3894,
+        "Decision": 0.0055,
+        "Facts": 0.3018,
+        "Issue": 0.0032,
+        "Reasoning": 0.0918
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "After considering the submissions, the Commissioner (Appeals) while allowing the Appeal of the RespondentCompany set aside the demand of late fees made by the Assistant Commissioner Customs, inter alia observing that the Respondent Companys assessment for full quantity of 98450 metric tons in respect of Goonyella C Coking Coal at the Marmagao Port against the Bill of Entry No.9375854 dated 20th April, 2017 within the prescribed time limit clearly shows the RespondentCompanys bona fide and that the Bill of Entry filed later on 14th March, 2018 was nothing but the requirement of a system for the clearance of the short landed goods which was required to be cleared at Marmagao Port, but was cleared from Jaigad Port.",
+      "predicted_label": "Facts",
+      "confidence": 0.9879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9879,
+        "Issue": 0.0017,
+        "Reasoning": 0.0087
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The Commissioner (Appeals) also records that the Customs Authorities finally approved all the amendments in the IGM on 14th March, 2018 and the RespondentCompany filed the Bill of Entry on that very same day.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.016,
+        "Decision": 0.0003,
+        "Facts": 0.3637,
+        "Issue": 0.0011,
+        "Reasoning": 0.5909
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "The Commissioner (Appeals) held that therefore this was not a fit case to charge late fee and the RespondentCompany should not be penalized.",
+      "predicted_label": "Facts",
+      "confidence": 0.9644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0002,
+        "Facts": 0.9644,
+        "Issue": 0.0009,
+        "Reasoning": 0.0324
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The following Paragraphs of the said decision by the Commissioner (Appeals) are pertinent and are quoted as under 6.1 In the instant case, Coking Coal weighing 1,10,000 MT was imported, per vessel MV CAPE IOANNA, out of which 11,550 MT was imported by Amba River Coke Ltd. (in short ARCL, a subsidiary company of the Appellant) for discharging at Jaigad Port and the balance 98,450 MT was imported by JSW Steel Ltd. for discharging at Marmagao Port as summarized hereunder Importer Quantity (MT) B e",
+      "predicted_label": "Facts",
+      "confidence": 0.9789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0,
+        "Facts": 0.9789,
+        "Issue": 0.001,
+        "Reasoning": 0.0097
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "No. and date Port Remark Amba River Coke Ltd. 11550 9214628 dated 07042017 Jaigad Port 1,341 MT excess landed at Jaigad Port JSW Steel Ltd. 98450 9375854 dated 20042017 Marmagao Port 1,341 MT short landed at Marmagao Port Total 110000 After the arrival of the vessel at Marmagao Port, Bill of Entry No.9375854 dated 20042017 was filed at Marmagao by the Appellant and the same was assessed provisionally for entire quantity and allowed clearance on payment of duty but 1341 MT of import goods could not be cleared as the same was short landed at Marmugao Port, Goa.",
+      "predicted_label": "Facts",
+      "confidence": 0.9914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9914,
+        "Issue": 0.0004,
+        "Reasoning": 0.0057
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Subsequently, the Appellant came to know from ARCL that a qty.",
+      "predicted_label": "Facts",
+      "confidence": 0.7496,
+      "probabilities": {
+        "Arguments of Petitioner": 0.058,
+        "Arguments of Respondent": 0.0424,
+        "Decision": 0.0001,
+        "Facts": 0.7496,
+        "Issue": 0.0008,
+        "Reasoning": 0.1491
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "of 1,341 MT of imported goods left uncleared at Jaigad Port.",
+      "predicted_label": "Facts",
+      "confidence": 0.9318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0061,
+        "Facts": 0.9318,
+        "Issue": 0.0035,
+        "Reasoning": 0.0463
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "On detailed enquiry, the Appellant came to know that during the course of discharge of Cargo, the Stevedores at Jaigad Port did not follow the approved discharge sequence plan prepared by the Chief Officer of the vessel and over landed 1,341 MT of Goonyella C Coking Coal at Jaigad Port as per the report of the Master of Vessel.",
+      "predicted_label": "Facts",
+      "confidence": 0.9926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9926,
+        "Issue": 0.0003,
+        "Reasoning": 0.0057
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The Vessel reached Marmagao Port on 1404 2017 and discharged the balance quantity of 97,109 MT of Goonyella C Coking Coal as against 98,450 MT which is evident as per Statement of Facts dated 25042017 of the Vessel at Marmagao Port duly signed by Port Authorities, Agent and Master of the Vessel.",
+      "predicted_label": "Facts",
+      "confidence": 0.9377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0002,
+        "Facts": 0.9377,
+        "Issue": 0.0003,
+        "Reasoning": 0.0462
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The Appellant on learning that short landed goods are at Jaigad Port, instructed their CHA and the Shipping agent for processing of filing of Bill of Entry after necessary amendment in the IGM as the cargo was in the name of ARCL at Jaigad Port and the details therein of material imported was shown as Peak downs North Coking Coal in B L No.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0001,
+        "Facts": 0.975,
+        "Issue": 0.0008,
+        "Reasoning": 0.0197
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The Respondent considering the request made by the Shipping Agent changed the IGM from Peak Downs North Coking Coal to Goonyella C Coking Coal, however the same still remained in the name of ARCL only.",
+      "predicted_label": "Facts",
+      "confidence": 0.8816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0134,
+        "Decision": 0.0002,
+        "Facts": 0.8816,
+        "Issue": 0.0008,
+        "Reasoning": 0.089
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "As a result, the Shipping agent further requested for necessary amendment vide its letter dated 15022018.",
+      "predicted_label": "Facts",
+      "confidence": 0.9261,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0002,
+        "Facts": 0.9261,
+        "Issue": 0.0007,
+        "Reasoning": 0.0526
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Even after the amendment in the IGM, the bill of entry could not be filed by the CHA through ICEGATE system as error code 150 appeared on the screen as job submitted for section 48 Approval.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4096,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2784,
+        "Arguments of Respondent": 0.4096,
+        "Decision": 0.0009,
+        "Facts": 0.184,
+        "Issue": 0.0016,
+        "Reasoning": 0.1255
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "When the Respondent finally approved the amendments in the IGM on 14032018, the Appellant filed the Bill of Entry on that day itself and cleared the goods on payment of duty again.",
+      "predicted_label": "Facts",
+      "confidence": 0.4993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0666,
+        "Arguments of Respondent": 0.0644,
+        "Decision": 0.0004,
+        "Facts": 0.4993,
+        "Issue": 0.0067,
+        "Reasoning": 0.3625
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 43,
+      "text": "The EDI system on filing the Bill of Entry calculated the total amount payable by the Appellant as Rs.50,46,182/ including the charges for late filing of Bill of Entry of Rs.33,45,000/. The Appellant made request to waive fine late fee of Rs.33,45,000/ calculated by the EDI.",
+      "predicted_label": "Facts",
+      "confidence": 0.9357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0177,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0003,
+        "Facts": 0.9357,
+        "Issue": 0.0162,
+        "Reasoning": 0.0234
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "In this regard, I find that the Appellant filed the Bill of Entry No. 9375854 dated 20042017 at Marmugao Port within the prescribed time limit as there is no objection in this regard on record.",
+      "predicted_label": "Facts",
+      "confidence": 0.7948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0007,
+        "Facts": 0.7948,
+        "Issue": 0.0003,
+        "Reasoning": 0.1885
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "It is worthwhile to mention here that the Bill of Entry was filed for the total quantity of 98,450 MT of Goonyella C Coking Coal by the Appellant at Marmagao port.",
+      "predicted_label": "Facts",
+      "confidence": 0.6913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0009,
+        "Facts": 0.6913,
+        "Issue": 0.0028,
+        "Reasoning": 0.2963
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "It is an admitted fact that the Bill of Entry was assessed for full quantity i.e. 98,450 MT as the Respondent while submitting his cross objection, has stated in Para 8 as under The Appellants say that the duty has already been paid at Marmugao Port on the excess landed quantity at JSW Port.",
+      "predicted_label": "Facts",
+      "confidence": 0.4461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0602,
+        "Arguments of Respondent": 0.0801,
+        "Decision": 0.0013,
+        "Facts": 0.4461,
+        "Issue": 0.0015,
+        "Reasoning": 0.4108
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "The Customs has not denied the said fact.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0723,
+        "Arguments of Respondent": 0.0471,
+        "Decision": 0.0058,
+        "Facts": 0.32,
+        "Issue": 0.002,
+        "Reasoning": 0.5527
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "Thus, the total quantity was assessed against the aforesaid Bill of Entry filed within the prescribed time limit.",
+      "predicted_label": "Facts",
+      "confidence": 0.9602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0002,
+        "Facts": 0.9602,
+        "Issue": 0.0149,
+        "Reasoning": 0.0209
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "DUE TO STEVEDORES DID NOT FOLLOW THE APPROVED DISCHARGING SEQUENCE PLAN.",
+      "predicted_label": "Facts",
+      "confidence": 0.8675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.0015,
+        "Facts": 0.8675,
+        "Issue": 0.0022,
+        "Reasoning": 0.1086
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "The DRAUGHT SURVEY REPORT of the vessel M.V. CAPE IOANNA also clearly bears a remark 1341 MT OVERLANDED AT JAIGAD PORT.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7388,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.0147,
+        "Decision": 0.0029,
+        "Facts": 0.2264,
+        "Issue": 0.0003,
+        "Reasoning": 0.7388
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "After getting knowledge of the same the Appellant after requesting for required amendments in the IGM and in the System, which was finally carried out by the Customs authorities on 1403 2018, filed Bill of Entry for 1,341 MT on 14032018 itself.",
+      "predicted_label": "Facts",
+      "confidence": 0.6252,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0879,
+        "Arguments of Respondent": 0.1237,
+        "Decision": 0.0003,
+        "Facts": 0.6252,
+        "Issue": 0.0015,
+        "Reasoning": 0.1613
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "Here a question arises whether the Bill of Entry filed for the short landed quantity 1,341 MT should be treated as a fresh one when the same quantity had already been assessed under the Bill of Entry no.93758545 dated 2004 2017.",
+      "predicted_label": "Issue",
+      "confidence": 0.8149,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0014,
+        "Facts": 0.0597,
+        "Issue": 0.8149,
+        "Reasoning": 0.1143
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "I am of the considered view that the Bill of Entry filed on 14032018 cannot be treated as a fresh Bill of Entry for invoking the provision of Section 46(3) of the Customs Act, 1962 in the present situation when the said quantity was already covered in the earlier Bill of Entry dated 20042017 assessed earlier.",
+      "predicted_label": "Facts",
+      "confidence": 0.9524,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0005,
+        "Facts": 0.9524,
+        "Issue": 0.0011,
+        "Reasoning": 0.039
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "The Bill of Entry filed on 14032018 was nothing but requirement of the System for clearance of the short landed goods, which was required to be cleared at Marmagao port but in the present scenario was cleared from Jaigad Port.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2491,
+        "Arguments of Respondent": 0.1609,
+        "Decision": 0.0015,
+        "Facts": 0.1155,
+        "Issue": 0.0007,
+        "Reasoning": 0.4723
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "6.4.2 Even otherwise as the Respondent finally approved all the amendments in the IGM on 14032018 and the Appellant filed the Bill of Entry on that very day, establishes the bonafide of the Appellant in ensuring that no untoward delay is caused at their end to clear 1,341 MT of goods short landed at Marmugao Port.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0548,
+        "Arguments of Respondent": 0.0585,
+        "Decision": 0.0026,
+        "Facts": 0.1383,
+        "Issue": 0.0013,
+        "Reasoning": 0.7445
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "Keeping in mind the entire facts of the case, I find that it is not a fit case to charge late fee.",
+      "predicted_label": "Facts",
+      "confidence": 0.9312,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0007,
+        "Facts": 0.9312,
+        "Issue": 0.0008,
+        "Reasoning": 0.0584
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "Delay, if any, were beyond the realm of the Appellant for which they should not be penalized.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1768,
+        "Arguments of Respondent": 0.593,
+        "Decision": 0.0044,
+        "Facts": 0.0419,
+        "Issue": 0.0004,
+        "Reasoning": 0.1835
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "I find that the instructions issued by the Commissioners are administrative in nature, not having any binding precedence on the officers of the other commissionerate and certainly not on Commissioner (Appeals), who are bound by decisions of the higher appellate Tribunal Courts, Customs Act and Rules etc.",
+      "predicted_label": "Facts",
+      "confidence": 0.9455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0007,
+        "Facts": 0.9455,
+        "Issue": 0.0007,
+        "Reasoning": 0.047
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "These are issued for smooth functioning of the Customs administration within their respective jurisdiction only.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8543,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.0953,
+        "Decision": 0.0009,
+        "Facts": 0.0269,
+        "Issue": 0.0063,
+        "Reasoning": 0.8543
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "In view of the discussion above and keeping the entire facts of the case in mind, I hold that the late fee charged of Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.6157,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0957,
+        "Facts": 0.6157,
+        "Issue": 0.001,
+        "Reasoning": 0.2817
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 61,
+      "text": "33,45,000/ is totally unwarranted in the present circumstances.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2337,
+        "Arguments of Respondent": 0.0885,
+        "Decision": 0.07,
+        "Facts": 0.0332,
+        "Issue": 0.0035,
+        "Reasoning": 0.5713
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "Mr.Karan Adik, learned Counsel for the Appellant relies upon the communication dated 5th April, 2018 of the Customs Authorities.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9476,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9476,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0008,
+        "Facts": 0.012,
+        "Issue": 0.0004,
+        "Reasoning": 0.0366
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "He submits that there has been a delay in the filing of the Bill of Entry by the RespondentCompany from 14th April, 2017 to 5th December, 2017 and as such, there is a breach of Section 46(3) of the Customs Act, 1962 inviting levy of late filing charges and submits that the same has therefore been correctly levied.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.705,
+        "Arguments of Respondent": 0.2698,
+        "Decision": 0.0013,
+        "Facts": 0.0125,
+        "Issue": 0.0024,
+        "Reasoning": 0.009
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "Learned Standing Counsel for Revenue refers to Instruction No.12/2017Customs, dated 31st August, 2017 regarding clarification on difficulties related to recent amendments in Customs Act, 1962 and submits that the said Instruction of the Board has elaborated on the scope of sufficient cause to the satisfaction of the Officer, but the same relates only to system related faults.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3739,
+        "Arguments of Respondent": 0.5692,
+        "Decision": 0.0014,
+        "Facts": 0.0149,
+        "Issue": 0.0011,
+        "Reasoning": 0.0395
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "He submits that even though the said Instruction clarifies that the Importer should not be penalized for delay happening due to system related fault, Petitioner could not get the benefit of such Instruction inasmuch as the delay in filing the Bill of Entry is not due to system fault, but due to the omission by Petitioner.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5684,
+        "Arguments of Respondent": 0.3963,
+        "Decision": 0.0003,
+        "Facts": 0.0183,
+        "Issue": 0.0005,
+        "Reasoning": 0.0162
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "He submits that the said Instruction is available only in bona fide cases and submits that which is not the case here.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5171,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5171,
+        "Arguments of Respondent": 0.4717,
+        "Decision": 0.0003,
+        "Facts": 0.0024,
+        "Issue": 0.0002,
+        "Reasoning": 0.0083
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 67,
+      "text": "He submits that therefore the late filing charges are justified.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6308,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2988,
+        "Arguments of Respondent": 0.6308,
+        "Decision": 0.0033,
+        "Facts": 0.0184,
+        "Issue": 0.0004,
+        "Reasoning": 0.0484
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "Learned Standing Counsel also submits that the order of the Appellate Authority as well as the Tribunal ought to be set aside.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.981,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0002,
+        "Facts": 0.0017,
+        "Issue": 0.0005,
+        "Reasoning": 0.01
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "He submits that even otherwise, since the Tribunal has merely relied on the order of the Appellate Authority, it is a nonspeaking order and ought to be set aside as being without application of mind.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9413,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9413,
+        "Arguments of Respondent": 0.0504,
+        "Decision": 0.0001,
+        "Facts": 0.0017,
+        "Issue": 0.0003,
+        "Reasoning": 0.0062
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "He submits that this Court, therefore, admit the Appeal on the following substantial questions of law as proposed in the Appeal a.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5087,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5087,
+        "Arguments of Respondent": 0.4728,
+        "Decision": 0.0014,
+        "Facts": 0.0101,
+        "Issue": 0.0035,
+        "Reasoning": 0.0035
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 71,
+      "text": "Whether the Honble CESTAT, Mumbai, has erred in not taking cognizance of relevant provisions of Section 46 of the Customs Act, 1962 read with the Boards Circular No.12/2007Cus dated 31.03.2017 wherein it has been clearly stipulated that the late fees charges will be applicable on the Importer in case of delay in filing of Bill of Entry for import of goods except in the case of inability to file Bill of Entry due to system related faults b.",
+      "predicted_label": "Issue",
+      "confidence": 0.9335,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0013,
+        "Facts": 0.0581,
+        "Issue": 0.9335,
+        "Reasoning": 0.0027
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Whether the Honble CESTAT has erred in upholding the Order inAppeal and thereby wrongly presuming that the delay inability of the Importer Agent in not amending the concerned Bill of Lading IGM in time are a system related fault beyond their control.",
+      "predicted_label": "Issue",
+      "confidence": 0.848,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0017,
+        "Facts": 0.1345,
+        "Issue": 0.848,
+        "Reasoning": 0.009
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "c. Whether the Honble CESTAT, Mumbai has erred in upholding the Order inAppeal that the Bill of Entry filed for the excess quantity at Jaigad port was not a fresh one and holding the Assistant Commissioner of Mormugao Port as a Proper Officer for the Assessment of cargo discharged at Jaigad Port under Section 2(34) of the Customs Act, 1962 d.",
+      "predicted_label": "Issue",
+      "confidence": 0.8725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0011,
+        "Facts": 0.1175,
+        "Issue": 0.8725,
+        "Reasoning": 0.0022
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "Whether the Honble CESTAT, Mumbai, has erred in not appreciating and not taking cognizance of Bill of Entry (Electronic Integrated Declaration)Regulations, 2011 (as substituted vide Notification No.26/2017Cus (NT) dated 31.03.2017 which was further clarified by Boards Instructions No.12/2017Cus dated 31.08.2017 9.",
+      "predicted_label": "Issue",
+      "confidence": 0.8461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0008,
+        "Facts": 0.1478,
+        "Issue": 0.8461,
+        "Reasoning": 0.0013
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "Ms.Shareen Gupta, learned Counsel for the RespondentCompany would submit that the lower authorities ought to have considered that the RespondentCompany had already paid the payable Customs duty on the entire quantity of goods at Marmagao Port and for no fault of the Shipping Line, the Company had to pay the additional duty for the same goods at Jaigad Port also and is now being forced to incur other collateral expenses in the form of late fee at Jaigad Port.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.9859,
+        "Decision": 0.0002,
+        "Facts": 0.002,
+        "Issue": 0.0001,
+        "Reasoning": 0.0095
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "She would submit that there were sufficient genuine and bona fide causes for waiver of late filing fee.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7205,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2543,
+        "Arguments of Respondent": 0.7205,
+        "Decision": 0.0009,
+        "Facts": 0.0125,
+        "Issue": 0.0002,
+        "Reasoning": 0.0117
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "The facts are undisputed.",
+      "predicted_label": "Facts",
+      "confidence": 0.8188,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0012,
+        "Facts": 0.8188,
+        "Issue": 0.0141,
+        "Reasoning": 0.1508
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "The vessel MV CAPE IOANNA arrived at Marmagao Port and Bill of Entry No.9375854 dated 20th April, 2017 for 98,450 metric tons in respect of Goonyella Coking Coal was filed at Marmagao Port by the RespondentCompany and the same was also assessed provisionally for the entire quantity and allowed clearance on payment of duty of the said goods although, 1,341 metric tons at Jaigad Port discharged by the same vessel remained uncleared though the entire duty had been paid at Marmagao Port.",
+      "predicted_label": "Facts",
+      "confidence": 0.9475,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0003,
+        "Facts": 0.9475,
+        "Issue": 0.0302,
+        "Reasoning": 0.0146
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "It is also undisputed that after getting the knowledge, the RespondentCompany requested for the required amendments to the IGM which was finally carried out by the Customs Authorities on 14th March, 2018 after which, the Bill of Entry for 1,341 metric tons was filed on 14th March, 2018 itself undisputedly without any delay.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5308,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0348,
+        "Arguments of Respondent": 0.023,
+        "Decision": 0.0007,
+        "Facts": 0.4024,
+        "Issue": 0.0083,
+        "Reasoning": 0.5308
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 80,
+      "text": "We observe from Section 46(3) of the Act that an Importer is to present a Bill of Entry for home consumption or for warehousing in the prescribed form before the end of the next day following the day on which, the vessel carrying the goods arrives at a customs station at which such goods are to be cleared.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9517,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0227,
+        "Arguments of Respondent": 0.0132,
+        "Decision": 0.0004,
+        "Facts": 0.0112,
+        "Issue": 0.0007,
+        "Reasoning": 0.9517
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "There is a proviso which allows a period of thirty days for presentation of an advance bill of entry.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7588,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0949,
+        "Arguments of Respondent": 0.0489,
+        "Decision": 0.0011,
+        "Facts": 0.0943,
+        "Issue": 0.0019,
+        "Reasoning": 0.7588
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "The second proviso is the one we are concerned with which provides that where the Bill of Entry is not presented within the time, and the proper officer is satisfied that there was no sufficient cause for such delay, the Importer shall pay such charges for late presentation of the Bill of Entry as may be prescribed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8689,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0136,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0004,
+        "Facts": 0.1094,
+        "Issue": 0.0047,
+        "Reasoning": 0.8689
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "In the present case, we observe that the RespondentCompany had filed the Bill of Entry No.9375854 for the entire quantity on 20th April, 2017 within the prescribed time limit and as such, there was no objection to the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9064,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0224,
+        "Facts": 0.0574,
+        "Issue": 0.0006,
+        "Reasoning": 0.9064
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "It had also paid the entire duty for 98450 metric tons of Goonyella C Coking Coal, even though, 1,341 metric tons had not landed in Marmagao but had landed in Jaigad and as soon as the amendments to the IGM were approved by the Appellant on 14th March, 2018, again the RespondentCompany filed the Bill of Entry on the very same day in respect of 1,341 metric tons.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3389,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1778,
+        "Arguments of Respondent": 0.1401,
+        "Decision": 0.0013,
+        "Facts": 0.3387,
+        "Issue": 0.0033,
+        "Reasoning": 0.3389
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 85,
+      "text": "The Commissioner of Customs in its order which has been upheld by the Tribunal has observed that the RespondentCompany has demonstrated its bona fides and we agree with the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0029,
+        "Facts": 0.0628,
+        "Issue": 0.0011,
+        "Reasoning": 0.9041
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "The second proviso clearly invests a discretion on the Authorities while considering levy of late payment charges as imposed on the RespondentCompany.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9169,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0348,
+        "Arguments of Respondent": 0.0375,
+        "Decision": 0.0006,
+        "Facts": 0.0101,
+        "Issue": 0.0002,
+        "Reasoning": 0.9169
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "The satisfaction for sufficiency of cause is a subjective satisfaction which has to be exercised judiciously.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0309,
+        "Arguments of Respondent": 0.0181,
+        "Decision": 0.0003,
+        "Facts": 0.0093,
+        "Issue": 0.0001,
+        "Reasoning": 0.9412
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "The Assessing Officer has based on technicalities and without any judicious application of mind, levied the late payment charges which have been rightly set aside by the Appellate Authority and the Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6126,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2131,
+        "Arguments of Respondent": 0.1093,
+        "Decision": 0.04,
+        "Facts": 0.0245,
+        "Issue": 0.0005,
+        "Reasoning": 0.6126
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "By no stretch of imagination, it can be said that the RespondentCompany has not acted bona fide.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0302,
+        "Decision": 0.0029,
+        "Facts": 0.0599,
+        "Issue": 0.0002,
+        "Reasoning": 0.891
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "The entire confusion was due to the short landing of 1,341 metric tons of Goonyella C Coking Coal at Marmagao though full duty in respect of which has been paid by the RespondentCompany and even after it was found out that 1,341 metric tons was landed in Jaigad, the RespondentCompany has taken efforts to get the IGM amended and no sooner the the IGM was amended, the Bill of Entry in respect thereof was filed on the same day within time.",
+      "predicted_label": "Facts",
+      "confidence": 0.4575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1404,
+        "Arguments of Respondent": 0.2183,
+        "Decision": 0.0018,
+        "Facts": 0.4575,
+        "Issue": 0.0024,
+        "Reasoning": 0.1797
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "This shows the Respondent Companys eagerness to be on the right side of the law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.076,
+        "Decision": 0.0007,
+        "Facts": 0.0533,
+        "Issue": 0.0004,
+        "Reasoning": 0.8645
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "We are satisfied that the RespondentCompany has shown its bona fides by all these actions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.963,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.001,
+        "Facts": 0.0219,
+        "Issue": 0.0001,
+        "Reasoning": 0.963
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "We, therefore, do not find any fault with the order of the Appellate Authority or the Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8495,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.1005,
+        "Facts": 0.0444,
+        "Issue": 0.0006,
+        "Reasoning": 0.8495
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "In our view, the Appeal does not raise any substantial question of law and is accordingly dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.9456,
+        "Facts": 0.0073,
+        "Issue": 0.0005,
+        "Reasoning": 0.0361
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "No costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9794,
+        "Facts": 0.0163,
+        "Issue": 0.0002,
+        "Reasoning": 0.0038
+      }
+    }
+  ]
+}

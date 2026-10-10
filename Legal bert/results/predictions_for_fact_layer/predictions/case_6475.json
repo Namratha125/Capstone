@@ -1,0 +1,993 @@
+{
+  "case_id": "6475",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The appellant (hereby insurer) questions the judgment and order of the National Consumer Disputes Redressal Commission, New Delhi(Dated 11/12/2020 in Revision Petition No. 1984/ 2015)",
+      "predicted_label": "Issue",
+      "confidence": 0.9645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0008,
+        "Facts": 0.0338,
+        "Issue": 0.9645,
+        "Reasoning": 0.0004
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "(hereafter the NCDRC).",
+      "predicted_label": "Facts",
+      "confidence": 0.5277,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0158,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0026,
+        "Facts": 0.5277,
+        "Issue": 0.4362,
+        "Reasoning": 0.0117
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 2,
+      "text": "In the impugned order, the NCDRC dismissed the appellants revision petition, that challenged the order(dated 20/03/2015, in FA No. 244/2013) of the Rajasthan State Consumer Disputes Redressal Commission, Circuit Bench at Bikaner (hereafter the State Commission).",
+      "predicted_label": "Issue",
+      "confidence": 0.9637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0008,
+        "Facts": 0.0343,
+        "Issue": 0.9637,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The respondentcomplainant obtained an insurance policy(bearing policy no. 200104/31/11/0100000947) from the insurer for his Bolero car, somewhere in Punjab, though he was a resident of Sri Ganganagar, Rajasthan.",
+      "predicted_label": "Facts",
+      "confidence": 0.9817,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9817,
+        "Issue": 0.0104,
+        "Reasoning": 0.0068
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The vehicle had a temporary registration (No. PB11T5101 from 20062011 to 19072011).",
+      "predicted_label": "Facts",
+      "confidence": 0.9276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0001,
+        "Facts": 0.9276,
+        "Issue": 0.0017,
+        "Reasoning": 0.0576
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The sum insured was Rs. 6,17,800/.",
+      "predicted_label": "Facts",
+      "confidence": 0.9544,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0003,
+        "Facts": 0.9544,
+        "Issue": 0.0207,
+        "Reasoning": 0.0228
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The temporary registration of the vehicle, however, expired on 19072011.",
+      "predicted_label": "Facts",
+      "confidence": 0.9591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0002,
+        "Facts": 0.9591,
+        "Issue": 0.0022,
+        "Reasoning": 0.0307
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "As the respondent complainant was engaged in business as a private contractor, for business purposes he had to be outside the city.",
+      "predicted_label": "Facts",
+      "confidence": 0.4146,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1506,
+        "Arguments of Respondent": 0.1499,
+        "Decision": 0.0011,
+        "Facts": 0.4146,
+        "Issue": 0.0017,
+        "Reasoning": 0.282
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "On 28072011 the complainant went to Jodhpur for business purposes and stayed in Geeta Guest House at night.",
+      "predicted_label": "Facts",
+      "confidence": 0.9737,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9737,
+        "Issue": 0.0002,
+        "Reasoning": 0.0244
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Whilst there, his vehicle was parked outside the guest house premises.",
+      "predicted_label": "Facts",
+      "confidence": 0.9019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0002,
+        "Facts": 0.9019,
+        "Issue": 0.0009,
+        "Reasoning": 0.0872
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "When the respondent awoke in the morning, he found that the Bolero car had been stolen.",
+      "predicted_label": "Facts",
+      "confidence": 0.8573,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.022,
+        "Decision": 0.0005,
+        "Facts": 0.8573,
+        "Issue": 0.0009,
+        "Reasoning": 0.1149
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "He lodged a first information report (FIR) on 29072011 with PS Ratanada, Jodhpur alleging commission of offences under Section 379, IPC.",
+      "predicted_label": "Facts",
+      "confidence": 0.9944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0,
+        "Facts": 0.9944,
+        "Issue": 0.0026,
+        "Reasoning": 0.0021
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "However, on 30092011 the police lodged a final report stating that the vehicle was untraceable.",
+      "predicted_label": "Facts",
+      "confidence": 0.9548,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0208,
+        "Decision": 0.0001,
+        "Facts": 0.9548,
+        "Issue": 0.0007,
+        "Reasoning": 0.0188
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "4. The respondent claimed the loss, from the appellant insurer.",
+      "predicted_label": "Facts",
+      "confidence": 0.9859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0002,
+        "Facts": 0.9859,
+        "Issue": 0.0104,
+        "Reasoning": 0.0027
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The insurance claim, however was repudiated by order dated 23012013 on three grounds (i) Intimation of theft of vehicle was given to the insurer after delay which was in violation of the policy condition.",
+      "predicted_label": "Facts",
+      "confidence": 0.9686,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9686,
+        "Issue": 0.0161,
+        "Reasoning": 0.0123
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "(ii) The temporary registration of the vehicle expired on 19072011 and the respondent did not get the vehicle permanently registered and (iii)",
+      "predicted_label": "Facts",
+      "confidence": 0.6395,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1671,
+        "Arguments of Respondent": 0.0894,
+        "Decision": 0.0052,
+        "Facts": 0.6395,
+        "Issue": 0.0047,
+        "Reasoning": 0.0942
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "The complainant left the vehicle unattended outside the guesthouse in violation of the policy conditions.",
+      "predicted_label": "Facts",
+      "confidence": 0.7911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0005,
+        "Facts": 0.7911,
+        "Issue": 0.0006,
+        "Reasoning": 0.1594
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "5. Aggrieved by the repudiation of his claim the respondent complainant filed a complaint before the District Forum Consumer Protection, Shri Ganganagar (hereafter the District Forum) for a direction that the insurer ought to pay him the sum insured for the vehicle with rent amount of Rs.1,40,000/ and also claimed relief for mental agony and costs of litigation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0,
+        "Facts": 0.9934,
+        "Issue": 0.0054,
+        "Reasoning": 0.0006
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The insurers position before the District Forum was that till the incidence of theft, the complainants vehicle was not registered which was in violation of conditions of insurance policy the insurer therefore requested for dismissal of the complaint.",
+      "predicted_label": "Facts",
+      "confidence": 0.9662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0001,
+        "Facts": 0.9662,
+        "Issue": 0.0061,
+        "Reasoning": 0.0202
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The District Forum dismissed the complaint against the insurer while observing that on 28072011 (date of the incident) the vehicles temporary registration had expired and relying upon two previous orders of the NCDRC had concluded that if at the time of theft, the vehicle was not registered then the claim was not payable to the complainant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9808,
+        "Issue": 0.0028,
+        "Reasoning": 0.0147
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "It was held that repudiation of the claim by the insurer did not amount to deficiency in service on its part.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5654,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0323,
+        "Arguments of Respondent": 0.0304,
+        "Decision": 0.0005,
+        "Facts": 0.3558,
+        "Issue": 0.0156,
+        "Reasoning": 0.5654
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Aggrieved by the dismissal of his complaint, the respondent complainant approached the State Commission.",
+      "predicted_label": "Facts",
+      "confidence": 0.9911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0,
+        "Facts": 0.9911,
+        "Issue": 0.0019,
+        "Reasoning": 0.0057
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The State Commission set aside the order of the District Forum and allowed the appeal, and held that as the insurer had covered the complainants vehicle with particular engine and chassis number, and issued a policy during the currency of which, the vehicle was stolen it could not repudiate the insureds genuine claim on technical, petty and frivolous grounds of absence of permanent registration certificate from the competent authority and thus escape its liability to indemnify the insured for the loss of the vehicle.",
+      "predicted_label": "Facts",
+      "confidence": 0.9623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9623,
+        "Issue": 0.024,
+        "Reasoning": 0.0112
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The State Commission directed the insurer to pay to the respondent complainant an amount of Rs. 6,17,800/ (Rupees Six Lakhs Seventeen Thousand Eight Hundred Only) along with 9 interest per annum from the date of filing of the complaint and also pay to the respondent complainant Rs. 20,000/ as litigation costs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0005,
+        "Facts": 0.8754,
+        "Issue": 0.1142,
+        "Reasoning": 0.009
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The insurer preferred a revision petition before the NCDRC which was dismissed, affirming the State Commissions reasoning.",
+      "predicted_label": "Facts",
+      "confidence": 0.9305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0003,
+        "Facts": 0.9305,
+        "Issue": 0.0285,
+        "Reasoning": 0.0319
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "This Court issued notice despite service, the respondent did not cause appearance to be entered.",
+      "predicted_label": "Facts",
+      "confidence": 0.7425,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0586,
+        "Arguments of Respondent": 0.0538,
+        "Decision": 0.007,
+        "Facts": 0.7425,
+        "Issue": 0.0263,
+        "Reasoning": 0.1118
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "In the circumstances, Ms. Gauri Puri was appointed to assist the Court, as amicus curie.",
+      "predicted_label": "Facts",
+      "confidence": 0.8828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.027,
+        "Decision": 0.0008,
+        "Facts": 0.8828,
+        "Issue": 0.0033,
+        "Reasoning": 0.0637
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The Court heard the learned counsel for the petitioner Mr. Amit Singh, AOR and learned amicus.",
+      "predicted_label": "Facts",
+      "confidence": 0.4965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3062,
+        "Arguments of Respondent": 0.075,
+        "Decision": 0.001,
+        "Facts": 0.4965,
+        "Issue": 0.0095,
+        "Reasoning": 0.1118
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "It was argued by Mr. Amit Singh that the NCDRC committed an error in not appreciating the judgment of this Court in Narinder Singh",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9707,
+        "Arguments of Respondent": 0.0129,
+        "Decision": 0.0001,
+        "Facts": 0.0013,
+        "Issue": 0.0003,
+        "Reasoning": 0.0146
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "Vs. New India Assurance Co. Ltd (2014) 9 SCC 324.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3749,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3571,
+        "Arguments of Respondent": 0.3749,
+        "Decision": 0.0021,
+        "Facts": 0.0779,
+        "Issue": 0.0018,
+        "Reasoning": 0.1863
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "He also relied on a previous order of the NCDRC, i.e., Naveen Kumar Vs. National Insurance Company Ltd(RP/250/2019 decided on 26.11.2019).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4985,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4985,
+        "Arguments of Respondent": 0.4933,
+        "Decision": 0.0003,
+        "Facts": 0.0024,
+        "Issue": 0.0002,
+        "Reasoning": 0.0054
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 31,
+      "text": "It was urged that the impugned order should be set aside, since the NCDRC ignored a binding judgment of this court, and disregarded the circumstance that the vehicle in question, had no registration.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9682,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.0002,
+        "Facts": 0.0043,
+        "Issue": 0.0007,
+        "Reasoning": 0.008
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "This constituted a fundamental breach of the policy, entitling the insurer to repudiate the claims under it.",
+      "predicted_label": "Facts",
+      "confidence": 0.6263,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0524,
+        "Arguments of Respondent": 0.0196,
+        "Decision": 0.0005,
+        "Facts": 0.6263,
+        "Issue": 0.004,
+        "Reasoning": 0.2973
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "The learned amicus, on the other hand, urged that this Court should not disturb the findings of the State Commission or the NCDRC.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.9902,
+        "Decision": 0.0003,
+        "Facts": 0.0012,
+        "Issue": 0.0001,
+        "Reasoning": 0.005
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "It was argued by the learned counsel that the judgment in Narinder Singh (supra) pertained to claim for compensation for a damaged vehicle on account of accident, and not on account of theft of a vehicle, and was thus not applicable to the present case.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4283,
+        "Arguments of Respondent": 0.4709,
+        "Decision": 0.0004,
+        "Facts": 0.0045,
+        "Issue": 0.0002,
+        "Reasoning": 0.0957
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "She urged that in the present case, it could not be said that the policy holders vehicle was an unregistered one rather a temporary number had been assigned to it, but a few days after its expiry, the theft occurred.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4419,
+        "Arguments of Respondent": 0.5431,
+        "Decision": 0.0003,
+        "Facts": 0.0062,
+        "Issue": 0.0001,
+        "Reasoning": 0.0085
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 36,
+      "text": "In the given circumstances, the preclusion of liability, in the manner expressed in Narinder Singh (supra) by this court, was inapplicable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1497,
+        "Arguments of Respondent": 0.2054,
+        "Decision": 0.0075,
+        "Facts": 0.0728,
+        "Issue": 0.0005,
+        "Reasoning": 0.5642
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "What is discernible from the above narration of facts, is that the policy holder had purchased a new Bolero which had a temporary registration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0022,
+        "Facts": 0.0468,
+        "Issue": 0.0002,
+        "Reasoning": 0.9329
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "That registration lapsed on 19072011.",
+      "predicted_label": "Facts",
+      "confidence": 0.8681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0008,
+        "Facts": 0.8681,
+        "Issue": 0.0065,
+        "Reasoning": 0.1015
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The respondent complainant never alleged or proved that he applied for a permanent registration, or sought extension of the temporary registration beyond 19072011.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1815,
+        "Arguments of Respondent": 0.0254,
+        "Decision": 0.0006,
+        "Facts": 0.1119,
+        "Issue": 0.0002,
+        "Reasoning": 0.6805
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "He travelled outside his residence, to Jodhpur, in his car, and stayed overnight in a guest house.",
+      "predicted_label": "Facts",
+      "confidence": 0.7816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0382,
+        "Arguments of Respondent": 0.0147,
+        "Decision": 0.0003,
+        "Facts": 0.7816,
+        "Issue": 0.0021,
+        "Reasoning": 0.1632
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "In the morning of 28072011, he discovered that the car had been stolen, when parked outside the guest house premises in Jodhpur.",
+      "predicted_label": "Facts",
+      "confidence": 0.9778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9778,
+        "Issue": 0.0011,
+        "Reasoning": 0.0179
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "In Narinder Singh (supra), the claim was in the context of an accident, involving a vehicle, the temporary registration of which had expired.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9223,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0204,
+        "Arguments of Respondent": 0.0417,
+        "Decision": 0.0036,
+        "Facts": 0.0111,
+        "Issue": 0.0008,
+        "Reasoning": 0.9223
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "This Court held that the insurer was not liable, and observed that 12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1583,
+        "Arguments of Respondent": 0.1074,
+        "Decision": 0.0008,
+        "Facts": 0.0239,
+        "Issue": 0.0004,
+        "Reasoning": 0.7091
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "A bare perusal of Section 39 shows that no person shall drive the motor vehicle in any public place without any valid registration granted by the registering authority in accordance with the provisions of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.0009,
+        "Facts": 0.0281,
+        "Issue": 0.001,
+        "Reasoning": 0.9521
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "However, according to Section 43, the owner of the vehicle may apply to the registering authority for temporary registration and a temporary registration mark.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.77,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0531,
+        "Arguments of Respondent": 0.083,
+        "Decision": 0.0002,
+        "Facts": 0.0935,
+        "Issue": 0.0003,
+        "Reasoning": 0.77
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "If such temporary registration is granted by the authority, the same shall be valid only for a period not exceeding one month.",
+      "predicted_label": "Facts",
+      "confidence": 0.5295,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1652,
+        "Arguments of Respondent": 0.0421,
+        "Decision": 0.0012,
+        "Facts": 0.5295,
+        "Issue": 0.0031,
+        "Reasoning": 0.2589
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "The proviso to Section 43 clarified that the period of one month may be extended for such a further period by the registering authority only in a case where a temporary registration is granted in respect of chassis to which body has not been attached and the same is detained in a workshop beyond the said period of one month for being fitted with a body or unforeseen circumstances beyond the control of the owner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8148,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0329,
+        "Arguments of Respondent": 0.0307,
+        "Decision": 0.0001,
+        "Facts": 0.1211,
+        "Issue": 0.0004,
+        "Reasoning": 0.8148
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Indisputably, a temporary registration was granted in respect of the vehicle in question, which had expired on 11.1.2006 and the alleged accident took place on 2.2.2006 when the vehicle was without any registration.",
+      "predicted_label": "Facts",
+      "confidence": 0.5681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0011,
+        "Facts": 0.5681,
+        "Issue": 0.2366,
+        "Reasoning": 0.1554
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "Nothing has been brought on record by the appellant to show that before or after 11.1.2006, when the period of temporary registration expired, the appellant, owner of the vehicle either applied for permanent registration as contemplated under Section 39 of the Act or made any application for extension of period as temporary registration on the ground of some special reasons.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0011,
+        "Facts": 0.0286,
+        "Issue": 0.0006,
+        "Reasoning": 0.9553
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "In our view, therefore, using a vehicle on the public road without any registration is not only an offence punishable under Section 192 of the Motor Vehicles Act but also a fundamental breach of the terms and conditions of policy contract.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0043,
+        "Facts": 0.0553,
+        "Issue": 0.0007,
+        "Reasoning": 0.9311
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "In Naveen Kumar (supra), NCDRC decided a reference, to its bench, and held that 9.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.028,
+        "Arguments of Respondent": 0.0204,
+        "Decision": 0.0039,
+        "Facts": 0.2583,
+        "Issue": 0.0048,
+        "Reasoning": 0.6845
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "For the reasons stated hereinabove, the reference is answered in following terms (i) If a vehicle without a valid registration is or has been used driven on a public place or any other place that would constitute a fundamental breach of the terms and conditions of the contract of insurance even if the vehicle is not being driven at the time it is stolen or is damaged (ii) If a vehicle without a valid registration is used driven on a public place or any other place, it would constitute a fundamental breach of terms and conditions of the policy even if the owner of the vehicle has applied for the issuance of a registration in terms of S.41 of the Act before expiry of the temporary registration, but the regular registration has not been issued.",
+      "predicted_label": "Decision",
+      "confidence": 0.613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.613,
+        "Facts": 0.0122,
+        "Issue": 0.0014,
+        "Reasoning": 0.3693
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "In the present case, the temporary registration of the respondents vehicle had expired on 28072011.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.1896,
+        "Decision": 0.002,
+        "Facts": 0.2449,
+        "Issue": 0.0007,
+        "Reasoning": 0.542
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "Not only was the vehicle driven, but also taken to another city, where it was stationed overnight in a place other than the respondents premises.",
+      "predicted_label": "Facts",
+      "confidence": 0.5974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0901,
+        "Arguments of Respondent": 0.1137,
+        "Decision": 0.0022,
+        "Facts": 0.5974,
+        "Issue": 0.0043,
+        "Reasoning": 0.1923
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "There is nothing on record to suggest that the respondent had applied for registration or that he was awaiting registration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8257,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0177,
+        "Arguments of Respondent": 0.0314,
+        "Decision": 0.0049,
+        "Facts": 0.1199,
+        "Issue": 0.0004,
+        "Reasoning": 0.8257
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "In these circumstances, the ratio of Narinder Singh (supra) applies, in the opinion of this court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0161,
+        "Decision": 0.0013,
+        "Facts": 0.074,
+        "Issue": 0.0005,
+        "Reasoning": 0.8993
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "That Narinder Singh (supra) was in the context of an accident, is immaterial.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9442,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.0335,
+        "Decision": 0.0029,
+        "Facts": 0.0086,
+        "Issue": 0.0001,
+        "Reasoning": 0.9442
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "Despite this, the respondent plied his vehicle and took it to Jodhpur, where the theft took place.",
+      "predicted_label": "Facts",
+      "confidence": 0.8236,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0148,
+        "Arguments of Respondent": 0.0249,
+        "Decision": 0.0009,
+        "Facts": 0.8236,
+        "Issue": 0.0022,
+        "Reasoning": 0.1335
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "It is of no consequence, that the car was not plying on the road, when it was stolen the material fact is that concededly, it was driven to the place from where it was stolen, after the expiry of temporary registration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8788,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0225,
+        "Arguments of Respondent": 0.0359,
+        "Decision": 0.0025,
+        "Facts": 0.054,
+        "Issue": 0.0062,
+        "Reasoning": 0.8788
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "But for its theft, the respondent would have driven back the vehicle.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0355,
+        "Arguments of Respondent": 0.1599,
+        "Decision": 0.0122,
+        "Facts": 0.0906,
+        "Issue": 0.0024,
+        "Reasoning": 0.6994
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 61,
+      "text": "What is important is this Courts opinion of the law, that when an insurable incident that potentially results in liability occurs, there should be no fundamental breach of the conditions contained in the contract of insurance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0014,
+        "Facts": 0.0404,
+        "Issue": 0.0024,
+        "Reasoning": 0.925
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "Therefore, on the date of theft, the vehicle had been driven used without a valid registration, amounting to a clear violation of Sections 39 and 192 of the Motor Vehicles Act, 1988.",
+      "predicted_label": "Facts",
+      "confidence": 0.6019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0917,
+        "Arguments of Respondent": 0.0659,
+        "Decision": 0.0154,
+        "Facts": 0.6019,
+        "Issue": 0.0026,
+        "Reasoning": 0.2225
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "This results in a fundamental breach of the terms and conditions of the policy, as held by this Court in Narinder Singh (supra), entitling the insurer to repudiate the policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0388,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0015,
+        "Facts": 0.0094,
+        "Issue": 0.0014,
+        "Reasoning": 0.9394
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "This Court is of the opinion that the NCDRCs order cannot be sustained.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0252,
+        "Facts": 0.2844,
+        "Issue": 0.0013,
+        "Reasoning": 0.6635
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "Furthermore, the NCDRC should not have overlooked and disregarded a clear binding judgment of this Court it also should not have disregarded its ruling in Naveen Kumar (supra), as well.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1643,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0163,
+        "Facts": 0.0123,
+        "Issue": 0.0015,
+        "Reasoning": 0.7982
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "Before parting, this Court expresses its appreciation for the assistance rendered by the learned amicus, Ms. Gauri Puri. 15.",
+      "predicted_label": "Decision",
+      "confidence": 0.9842,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9842,
+        "Facts": 0.0016,
+        "Issue": 0.0002,
+        "Reasoning": 0.0131
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "For these reasons, the impugned order and the order of the State Commission are hereby set aside the respondents complaint is dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9149,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9149,
+        "Facts": 0.0488,
+        "Issue": 0.0002,
+        "Reasoning": 0.0348
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "The appeal is allowed in these terms, without order on costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9864,
+        "Facts": 0.0094,
+        "Issue": 0.0001,
+        "Reasoning": 0.0037
+      }
+    }
+  ]
+}

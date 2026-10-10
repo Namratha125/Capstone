@@ -1,0 +1,1295 @@
+{
+  "case_id": "6544",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "A claim arising out of injuries caused in a motor accident that has reached its fruition more than 20 years later before this Court, which we find extremely distressing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7578,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0841,
+        "Facts": 0.1088,
+        "Issue": 0.0406,
+        "Reasoning": 0.7578
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The original claimant and his wife, both did not survive the ordeal to see the fruits of the litigation which is now being pursued by their daughter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0219,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0398,
+        "Facts": 0.3815,
+        "Issue": 0.0173,
+        "Reasoning": 0.5097
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The facts of the case in a nutshell are that the original claimant was severely injured in a motor accident on 02.05.1999.",
+      "predicted_label": "Facts",
+      "confidence": 0.9837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9837,
+        "Issue": 0.0048,
+        "Reasoning": 0.0107
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "He filed a claim for compensation under Section 166(1)(a) of the Motor Vehicles Act, 1988 (hereinafter referred to as the Act).",
+      "predicted_label": "Facts",
+      "confidence": 0.942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.942,
+        "Issue": 0.0561,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Motor Accidents Claims Tribunal on 02.11.2006 awarded him a sum of Rs.1,00,000/ only with 9 interest.",
+      "predicted_label": "Facts",
+      "confidence": 0.8337,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.001,
+        "Facts": 0.8337,
+        "Issue": 0.1306,
+        "Reasoning": 0.0313
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Dissatisfied, the original claimant preferred an appeal before the High Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.8999,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0002,
+        "Facts": 0.8999,
+        "Issue": 0.0168,
+        "Reasoning": 0.0737
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Unfortunately, he was deceased on 06.11.2015 during the pendency of the appeal, not attributed to the injuries suffered in the accident.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1397,
+        "Arguments of Respondent": 0.0379,
+        "Decision": 0.153,
+        "Facts": 0.1457,
+        "Issue": 0.0147,
+        "Reasoning": 0.509
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The daughter of the claimant, who was an unmarried girl aged 21 years at the time of the accident, was substituted in the appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9073,
+      "probabilities": {
+        "Arguments of Petitioner": 0.009,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0009,
+        "Facts": 0.9073,
+        "Issue": 0.0071,
+        "Reasoning": 0.0735
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The High Court substantially enhanced the compensation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0652,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0057,
+        "Facts": 0.2689,
+        "Issue": 0.0457,
+        "Reasoning": 0.6029
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "Shri H. Chandra Sekhar, learned counsel on behalf of the appellant, submits that the cause of action being personal to the injured abates on his death, which was not caused due to the accident.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9918,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9918,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.0016,
+        "Issue": 0.0003,
+        "Reasoning": 0.0042
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The legal heir is entitled only to such compensation which forms part of the estate of the deceased.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9288,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0297,
+        "Decision": 0.0014,
+        "Facts": 0.0117,
+        "Issue": 0.0005,
+        "Reasoning": 0.9288
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "Loss of salary, future prospects, pain and suffering along with attendant charges do not form part of the estate of the deceased.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0656,
+        "Arguments of Respondent": 0.0545,
+        "Decision": 0.0256,
+        "Facts": 0.1072,
+        "Issue": 0.0003,
+        "Reasoning": 0.7468
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The compensation could not have been fixed by application of multiplier as it was not a case of death caused or occasioned by or due to the accident.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5921,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2334,
+        "Arguments of Respondent": 0.0478,
+        "Decision": 0.004,
+        "Facts": 0.121,
+        "Issue": 0.0018,
+        "Reasoning": 0.5921
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "The amount awarded by the Tribunal would alone form part of the estate of the deceased.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1066,
+        "Arguments of Respondent": 0.0496,
+        "Decision": 0.0231,
+        "Facts": 0.0537,
+        "Issue": 0.0006,
+        "Reasoning": 0.7665
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Reliance in support of the submissions has been placed on two Full Bench decisions of the Karnataka High Court in Kanamma vs. Deputy General Manager, ILR 1990 Karnataka 4300 , Uttam Kumar vs. Madhav and Another, ILR 2002 Karnataka 1864 , Umedchand Golcha vs. Dayaram and Others, 2002(1) MPLJ 249, Pravabati Gosh and another vs. Gautam Das and others, 2009(4) GLR 64.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4928,
+        "Arguments of Respondent": 0.4868,
+        "Decision": 0.0001,
+        "Facts": 0.0074,
+        "Issue": 0.0002,
+        "Reasoning": 0.0128
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "The respondent being a married daughter is not entitled to any claim for any other loss of estate of the deceased as she was not dependent on the deceased.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5441,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0281,
+        "Arguments of Respondent": 0.2844,
+        "Decision": 0.0645,
+        "Facts": 0.0783,
+        "Issue": 0.0006,
+        "Reasoning": 0.5441
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "It is lastly submitted that the High Court has erred in not deducting 1/3 rd of the compensation amount towards personal expenses by the deceased.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9492,
+        "Arguments of Respondent": 0.0304,
+        "Decision": 0.0001,
+        "Facts": 0.0016,
+        "Issue": 0.0003,
+        "Reasoning": 0.0185
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Shri Nikhil Goel, learned counsel on behalf of the respondent no.1, submits that no deduction towards personal expenses can be made as the deceased actually incurred expenses during his lifetime.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.988,
+        "Decision": 0.0002,
+        "Facts": 0.0014,
+        "Issue": 0.0001,
+        "Reasoning": 0.0073
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The deduction is to be made hypothetically only in a case where death has occurred, relying on Raj Kumar vs. Ajay Kumar and another, 2011(1) SCC 343.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.799,
+      "probabilities": {
+        "Arguments of Petitioner": 0.799,
+        "Arguments of Respondent": 0.1254,
+        "Decision": 0.0006,
+        "Facts": 0.0247,
+        "Issue": 0.0006,
+        "Reasoning": 0.0497
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The submission of Shri Goel is that it is only a claim for personal injuries that will abate with the death of the deceased.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.551,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1094,
+        "Arguments of Respondent": 0.551,
+        "Decision": 0.003,
+        "Facts": 0.0042,
+        "Issue": 0.0003,
+        "Reasoning": 0.3321
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "The claims such as loss of income, medical expenses etc. will survive as part of the loss to the estate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6419,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.23,
+        "Facts": 0.1156,
+        "Issue": 0.0008,
+        "Reasoning": 0.6419
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "He relies upon Surpal Singh Ladhubha Gohil vs. Raliyatbahen Mohanbhai Savlia and Ors., 2009(2) GLH 217, Munni Devi and Others vs. New India Assurance Co. Ltd., 103(2003) DLT 464 , Venkatesan vs. Kasthuri, 2014 ACJ 1621 and Maimuna Begum and others vs. Taju and Others, 1989 MhLJ 352 .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5069,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5069,
+        "Arguments of Respondent": 0.4811,
+        "Decision": 0.0002,
+        "Facts": 0.0022,
+        "Issue": 0.0001,
+        "Reasoning": 0.0096
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "Shri Goel next submits that the High Court has committed no error in awarding loss of income along with future prospects with a multiplier of 11 relying on Parmindar Singh vs. New India Assurance Co. Ltd.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9537,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.9537,
+        "Decision": 0.0004,
+        "Facts": 0.0003,
+        "Issue": 0.0001,
+        "Reasoning": 0.0068
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Ors., (2019) 7 SCC 217 and Kajal vs. Jagdish Chand Ors., (2020) 4 SCC 413 .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6555,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6555,
+        "Arguments of Respondent": 0.191,
+        "Decision": 0.0017,
+        "Facts": 0.0285,
+        "Issue": 0.0009,
+        "Reasoning": 0.1224
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "The injured had suffered 100 per cent physical disability.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4531,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0807,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.0005,
+        "Facts": 0.4407,
+        "Issue": 0.001,
+        "Reasoning": 0.4531
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "He was unable to pursue his life and career and had to leave his job and shift to his home town Punjab.",
+      "predicted_label": "Facts",
+      "confidence": 0.4535,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2855,
+        "Arguments of Respondent": 0.1162,
+        "Decision": 0.0019,
+        "Facts": 0.4535,
+        "Issue": 0.0061,
+        "Reasoning": 0.1368
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "Despite being a law graduate and professionally qualified with a Diploma in Labour Laws, he was unable to pursue any independent career thereafter because of complete physical disability.",
+      "predicted_label": "Facts",
+      "confidence": 0.8308,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0361,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0001,
+        "Facts": 0.8308,
+        "Issue": 0.0034,
+        "Reasoning": 0.1201
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The compensation as enhanced by the High Court is, therefore, not on account of personal injuries, but as loss of the estate of the deceased, and therefore, calls for no interference.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.0776,
+        "Decision": 0.0405,
+        "Facts": 0.0063,
+        "Issue": 0.0006,
+        "Reasoning": 0.8621
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The original claimant was travelling with his wife and unmarried daughter when their vehicle was hit by a lorry driven rashly and negligently on 02.05.1999.",
+      "predicted_label": "Facts",
+      "confidence": 0.9294,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0007,
+        "Facts": 0.9294,
+        "Issue": 0.0425,
+        "Reasoning": 0.025
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The claimant was taken to the Government Hospital, Trivandrum but the severity of the injuries required him to be shifted to the Apollo Hospital, Chennai the next day for professionalized management where he remained under treatment till 24.11.1999.",
+      "predicted_label": "Facts",
+      "confidence": 0.9747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0001,
+        "Facts": 0.9747,
+        "Issue": 0.0003,
+        "Reasoning": 0.0179
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "He suffered spinal shock, with cervical cord injury and quadriplegia with respiratory failure.",
+      "predicted_label": "Facts",
+      "confidence": 0.99,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.99,
+        "Issue": 0.0017,
+        "Reasoning": 0.0071
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "He was resuscitated and put on ventilator support for skull traction.",
+      "predicted_label": "Facts",
+      "confidence": 0.9392,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0003,
+        "Facts": 0.9392,
+        "Issue": 0.0002,
+        "Reasoning": 0.0484
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "His right ankle needed surgery.",
+      "predicted_label": "Facts",
+      "confidence": 0.9444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0004,
+        "Facts": 0.9444,
+        "Issue": 0.0007,
+        "Reasoning": 0.0462
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "He required further treatment for anterior decompression, disc excision and bone grafting.",
+      "predicted_label": "Facts",
+      "confidence": 0.9588,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0002,
+        "Facts": 0.9588,
+        "Issue": 0.0004,
+        "Reasoning": 0.0364
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "His physical activity was by way of wheel chair mobilisation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1251,
+        "Arguments of Respondent": 0.0853,
+        "Decision": 0.0007,
+        "Facts": 0.2348,
+        "Issue": 0.0001,
+        "Reasoning": 0.5539
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "The disability certificate dated 16.06.2000 issued to him by the Government Headquarter Hospital, Cuddalore opined 100 per cent permanent motor system disability with operative scar on the rightside neck, right ankle, healed scar on the left side forehead frontal region and parietal region and that he was unable to lift all four limbs which were vested with sensory loss present in certain places classified as quadriplegic orthopedically.",
+      "predicted_label": "Facts",
+      "confidence": 0.9747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9747,
+        "Issue": 0.0009,
+        "Reasoning": 0.0228
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The claimant was a law graduate with a Diploma in Personal Management and Labour Welfare from the Punjab University.",
+      "predicted_label": "Facts",
+      "confidence": 0.9568,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9568,
+        "Issue": 0.0173,
+        "Reasoning": 0.0201
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Because of the injuries, he found it difficult and inconvenient to continue with his job as Deputy General Manager and resigned prematurely on 30.09.2001 at the age of 53 years before his scheduled superannuation on 30.04.2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.8309,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0412,
+        "Arguments of Respondent": 0.0267,
+        "Decision": 0.0003,
+        "Facts": 0.8309,
+        "Issue": 0.0061,
+        "Reasoning": 0.0948
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "Unable to pursue his life and career with the burden of treatment and family expenses in the changed circumstances in Cuddalore, he moved this Court in T.P.(C) No. 1043 of 2003 for transfer of the claim case filed by him in Cuddalore in the year 2000 which was allowed on 25.02.2004.",
+      "predicted_label": "Facts",
+      "confidence": 0.5246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1103,
+        "Arguments of Respondent": 0.0909,
+        "Decision": 0.0057,
+        "Facts": 0.5246,
+        "Issue": 0.0607,
+        "Reasoning": 0.2077
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "The proceedings were shifted to Gurdaspur in Punjab. 8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9952,
+        "Issue": 0.0006,
+        "Reasoning": 0.0022
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "The Tribunal in a very cursory and cryptic manner awarded a compensation of Rs.1,00,000/ along with 9 interest.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.868,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0323,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0681,
+        "Facts": 0.0237,
+        "Issue": 0.0014,
+        "Reasoning": 0.868
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "The claimant then moved the High Court which has enhanced the compensation to Rs.37,81,234/ by taking into account his annual salary with future prospect applying the multiplier of 11 including pain and suffering, attendants charges.",
+      "predicted_label": "Facts",
+      "confidence": 0.5571,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0565,
+        "Arguments of Respondent": 0.0262,
+        "Decision": 0.0027,
+        "Facts": 0.5571,
+        "Issue": 0.0021,
+        "Reasoning": 0.3554
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "In case of death, the legal representatives of the deceased can pursue the claim.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.071,
+        "Arguments of Respondent": 0.048,
+        "Decision": 0.0014,
+        "Facts": 0.0325,
+        "Issue": 0.0008,
+        "Reasoning": 0.8464
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Property, under the Act, will have a much wider connotation than the conventional definition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9476,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0211,
+        "Arguments of Respondent": 0.0204,
+        "Decision": 0.0001,
+        "Facts": 0.0107,
+        "Issue": 0.0001,
+        "Reasoning": 0.9476
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "If the legal heirs can pursue claims in case of death, we see no reason why the legal representatives cannot pursue claims for loss of property akin to estate of the injured if he is deceased subsequently for reasons other than attributable to the accident or injuries under Clause 1(c) of Section 166.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0004,
+        "Facts": 0.0048,
+        "Issue": 0.0013,
+        "Reasoning": 0.9793
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "Such a claim would be completely distinct from personal injuries to the claimant and which may not be the cause of death.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0877,
+        "Arguments of Respondent": 0.0816,
+        "Decision": 0.0038,
+        "Facts": 0.026,
+        "Issue": 0.0005,
+        "Reasoning": 0.8005
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "Such claims of personal injuries would undoubtedly abate with the death of the injured.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9196,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0287,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0054,
+        "Facts": 0.0185,
+        "Issue": 0.0007,
+        "Reasoning": 0.9196
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "What would the loss of estate mean and what items would be covered by it are issues which has to engage our attention.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0096,
+        "Decision": 0.0008,
+        "Facts": 0.0396,
+        "Issue": 0.4606,
+        "Reasoning": 0.4798
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "The appellant has a statutory obligation to pay compensation in motor accident claim cases.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2083,
+        "Arguments of Respondent": 0.1205,
+        "Decision": 0.0299,
+        "Facts": 0.0853,
+        "Issue": 0.0086,
+        "Reasoning": 0.5474
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "This obligation cannot be evaded behind the defence that it was available only for personal injuries and abates on his death irrespective of the loss caused to the estate of the deceased because of the injuries.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.043,
+        "Arguments of Respondent": 0.03,
+        "Decision": 0.0016,
+        "Facts": 0.0125,
+        "Issue": 0.0009,
+        "Reasoning": 0.912
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "In Umed Chand (supra), giving a broad liberal interpretation to the provisions of the Act so that legal representatives do not suffer injustice, it was observed that the claim for personal injuries will not survive on death of the injured unrelated to the accident but the legal representatives could pursue the claim for enhancement of the claim for loss of the estate which would include expenditure on medical expenses, travelling, attendant, diet, doctors fee and reasonable monthly annual accretion to the estate for a certain period.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0005,
+        "Facts": 0.0034,
+        "Issue": 0.0003,
+        "Reasoning": 0.968
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "It is trite that the income which a person derives compositely forms part of the expenditure on himself, his family and the savings go to the estate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0004,
+        "Facts": 0.0236,
+        "Issue": 0.0002,
+        "Reasoning": 0.9507
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The unforeseen expenses as aforesaid naturally have to be met from the estate causing pecuniary loss to the estate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.079,
+        "Arguments of Respondent": 0.044,
+        "Decision": 0.0063,
+        "Facts": 0.0943,
+        "Issue": 0.0006,
+        "Reasoning": 0.776
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "In Surpal Singh (supra), Justice K.S. Radhakrishnan, C.J. (as he then was), observed that the Act was a social welfare legislation providing for compensation by award to people who sustain bodily injuries or get killed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0004,
+        "Facts": 0.0054,
+        "Issue": 0.0004,
+        "Reasoning": 0.966
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "The grant of compensation had to be expeditious as procedural technicalities could not be allowed to defeat the just purpose of the act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2057,
+        "Arguments of Respondent": 0.2089,
+        "Decision": 0.0009,
+        "Facts": 0.0546,
+        "Issue": 0.0001,
+        "Reasoning": 0.5298
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "The Courts in construing social welfare legislations had to adopt a beneficial rule of construction which fulfils the policy of the legislation favorable to those in whose interest the Act has been passed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8766,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0374,
+        "Arguments of Respondent": 0.066,
+        "Decision": 0.0001,
+        "Facts": 0.0196,
+        "Issue": 0.0004,
+        "Reasoning": 0.8766
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "Judicial discipline demanded that the words of a remedial statutes be construed so far as they reasonably admit so as to secure that relief contemplated by the statute and it shall not be denied to the class intended to be relieved.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9173,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0603,
+        "Decision": 0.0004,
+        "Facts": 0.0046,
+        "Issue": 0.0004,
+        "Reasoning": 0.9173
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "Rejecting the maxim of actio personalis moritur cum persona on the premise that it was an injury done to the person and the claim abated with his demise it was observed 11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0555,
+        "Arguments of Respondent": 0.0981,
+        "Decision": 0.0001,
+        "Facts": 0.0184,
+        "Issue": 0.0002,
+        "Reasoning": 0.8276
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "The question as to whether injury was personal or otherwise is of no significance so far as the wrong doer is concerned and he is obliged to make good the loss sustained by the injured.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0369,
+        "Arguments of Respondent": 0.0403,
+        "Decision": 0.0027,
+        "Facts": 0.0163,
+        "Issue": 0.0058,
+        "Reasoning": 0.898
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Legal heirs and legal representatives would have also suffered considerable mental pain and agony due to the accident caused to their kith and kin.",
+      "predicted_label": "Facts",
+      "confidence": 0.4954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0179,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0133,
+        "Facts": 0.4954,
+        "Issue": 0.0007,
+        "Reasoning": 0.465
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 60,
+      "text": "Possibly they might have looked after their dear ones in different circumstances, which cannot be measurable in monetary terms.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0024,
+        "Facts": 0.0518,
+        "Issue": 0.0003,
+        "Reasoning": 0.9045
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "This view has subsequently been followed in a decision authored by brother Justice M.R. Shah J., (as he then was) in Madhuben Maheshbhai Patel vs. Joseph Francis Mewan and Others, 2015 (2) GLH 499, holding as follows 12.Considering the aforesaid decision of the Division Bench of this Court in the case of Surpal Singh Ladhubha Gohil (supra) decisions of the learned Single Judge of this Court in the case of Jenabai Widow of Abdul Karim Musa (supra) and in the case of Amrishkumar Vinodbhai (supra) and aforesaid two decisions of the learned Single Judge of the Rajasthan High Court, we are of the opinion that maxim actio personalis moritur cum persona on which Section 306 of the Indian Evidence Act (sic Indian Succession Act) is based cannot have an applicability in all actions even in an case of personal injuries where damages flows from the head or under the head of loss to the estate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7157,
+      "probabilities": {
+        "Arguments of Petitioner": 0.049,
+        "Arguments of Respondent": 0.043,
+        "Decision": 0.0004,
+        "Facts": 0.1913,
+        "Issue": 0.0007,
+        "Reasoning": 0.7157
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "Therefore, even after the death of the injured claimant, claim petition does not abate and right to sue survive to his heirs and legal representatives in so far as loss to the estate is concerned, which would include personal expenses incurred on the treatment and other claim related to loss to the estate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0301,
+        "Arguments of Respondent": 0.0114,
+        "Decision": 0.0014,
+        "Facts": 0.0124,
+        "Issue": 0.0003,
+        "Reasoning": 0.9445
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "Under the circumstances, the issue referred to the Division Bench is answered accordingly.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.3462,
+        "Facts": 0.0281,
+        "Issue": 0.001,
+        "Reasoning": 0.6139
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "Consequently, it is held that no error has been committed by the learned Tribunal in permitting the heirs to be brought on record of the claim petition and permitting the heirs of the injured claimant who died subsequently to proceed further with the claim petition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.671,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.061,
+        "Facts": 0.2569,
+        "Issue": 0.0014,
+        "Reasoning": 0.671
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "However, the claim petition and even appeal for enhancement would be confine to the claim for the loss to the estate as observed hereinabove.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0237,
+        "Facts": 0.052,
+        "Issue": 0.0013,
+        "Reasoning": 0.9047
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The view taken in Kanamma (supra) and Uttam Kumar (supra) that the claim would abate is based on a narrow interpretation of the Act which does not commend to us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0052,
+        "Facts": 0.0032,
+        "Issue": 0.0003,
+        "Reasoning": 0.9845
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "The reasoning of the Gujarat High Court is more in consonance with aim, purpose and spirit of the Act and furthers its real intent and purpose which we therefore approve.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0149,
+        "Facts": 0.0072,
+        "Issue": 0.0003,
+        "Reasoning": 0.9709
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "The injuries suffered by the deceased in the accident required prolonged hospitalization for six months.",
+      "predicted_label": "Facts",
+      "confidence": 0.8968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0002,
+        "Facts": 0.8968,
+        "Issue": 0.0013,
+        "Reasoning": 0.086
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "The extent of disability suffered was assessed on 16.06.2000 as 100.",
+      "predicted_label": "Facts",
+      "confidence": 0.8391,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0002,
+        "Facts": 0.8391,
+        "Issue": 0.0174,
+        "Reasoning": 0.12
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "The extent of disability, pursuant to physiotherapy was reassessed as 75 on 08.08.2002.",
+      "predicted_label": "Facts",
+      "confidence": 0.6983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0251,
+        "Arguments of Respondent": 0.0108,
+        "Decision": 0.0004,
+        "Facts": 0.6983,
+        "Issue": 0.0041,
+        "Reasoning": 0.2614
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 71,
+      "text": "In the interregnum, the injured resigned his job on 30.09.2001 at the age of 53 years as he found movement difficult and inconvenient without an attendant as distinct from complete immobility.",
+      "predicted_label": "Facts",
+      "confidence": 0.7938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0129,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0005,
+        "Facts": 0.7938,
+        "Issue": 0.0007,
+        "Reasoning": 0.1578
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "The injured was possessing professional qualifications in labour laws and Industrial relations along with a Diploma in Personnel Management.",
+      "predicted_label": "Facts",
+      "confidence": 0.851,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0003,
+        "Facts": 0.851,
+        "Issue": 0.0007,
+        "Reasoning": 0.1198
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "He may have had to suffer some handicap in also practicing before the labour court, but cannot be held to have suffered 100 physical disability as his capacity for rendering advisory and other work coupled with movement on a wheel chair with the aid of an attendant could still facilitate a reduced earning capacity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9066,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0129,
+        "Arguments of Respondent": 0.0096,
+        "Decision": 0.0584,
+        "Facts": 0.0116,
+        "Issue": 0.0009,
+        "Reasoning": 0.9066
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "It cannot be held that the injured was completely left with no source of livelihood except to deplete his estate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1508,
+        "Arguments of Respondent": 0.1252,
+        "Decision": 0.0143,
+        "Facts": 0.137,
+        "Issue": 0.0005,
+        "Reasoning": 0.5723
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "In assessing, what has been described as a Just Compensation under the Act, all factors including possibilities have to be kept in mind.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.001,
+        "Facts": 0.0024,
+        "Issue": 0.0005,
+        "Reasoning": 0.9661
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "The Tribunal, on technicalities rejected his claim for salary, medical expenses and percentage of disability and granted a measly compensation of Rupees one lakh only by a cryptic order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8164,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1524,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0024,
+        "Facts": 0.0234,
+        "Issue": 0.0004,
+        "Reasoning": 0.8164
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "We are, therefore, of the opinion that while the claim for personal injuries may not have survived after the death of the injured unrelated to the accident or injuries, during the pendency of the appeal, but the claims for loss of estate caused was available to and could be pursued by the legal representatives of the deceased in the appeal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9483,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0334,
+        "Facts": 0.01,
+        "Issue": 0.0009,
+        "Reasoning": 0.9483
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "In Parminder Singh (supra) compensation on the basis of complete loss of income, the percentage of disability, future prospects were granted applying the relevant multiplier.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.97,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0009,
+        "Facts": 0.0047,
+        "Issue": 0.0007,
+        "Reasoning": 0.97
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "Again, in Kajal (supra) the injured was assessed as 100 per cent disabled, considering all of which compensation was awarded on the notional future prospects along with relevant multiplier.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.0005,
+        "Facts": 0.0034,
+        "Issue": 0.0004,
+        "Reasoning": 0.9646
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "The loss of income to the injured in the facts of the present case has to be assessed at 75.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9378,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0196,
+        "Facts": 0.0101,
+        "Issue": 0.0009,
+        "Reasoning": 0.9378
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "In view of Raj Kumar (supra) there shall be no deduction towards personal expenses.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.4135,
+        "Facts": 0.0293,
+        "Issue": 0.0002,
+        "Reasoning": 0.5366
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 82,
+      "text": "We see no reason to deviate from the consistent judicial view taken by more than one High Court that loss of estate would include expenditure on medicines, treatment, diet, attendant, Doctors fee, etc. including income and future prospects which would have caused reasonable accretion to the estate but for the sudden expenditure which had to be met from and depleted the estate of the injured, subsequently deceased.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0041,
+        "Facts": 0.006,
+        "Issue": 0.0003,
+        "Reasoning": 0.983
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "However, the compensation under the head pain and suffering being personal injuries is held to be unsustainable and is disallowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.5739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.5739,
+        "Facts": 0.0742,
+        "Issue": 0.0004,
+        "Reasoning": 0.3486
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "The High Court has not awarded anything towards medical expenses despite hospitalisation for six months being an admitted fact.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6022,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3345,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.0308,
+        "Facts": 0.0153,
+        "Issue": 0.001,
+        "Reasoning": 0.6022
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "We therefore award a sum of Rs.1,00,000/ towards medical expenses.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.2714,
+        "Facts": 0.0275,
+        "Issue": 0.0009,
+        "Reasoning": 0.6939
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "Hence, the reassessed total compensation would be Rs.28,42,175/, calculated hereunder TABLE 22.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6411,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0322,
+        "Arguments of Respondent": 0.0829,
+        "Decision": 0.0902,
+        "Facts": 0.1529,
+        "Issue": 0.0006,
+        "Reasoning": 0.6411
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "The appellant is therefore directed to pay to respondent no.1 within a period of four weeks Rs.28,42,175/ along with interest 9 p.a.",
+      "predicted_label": "Decision",
+      "confidence": 0.8444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.8444,
+        "Facts": 0.0301,
+        "Issue": 0.0003,
+        "Reasoning": 0.1215
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "from the date of filing of the claim petition, till its realisation.",
+      "predicted_label": "Decision",
+      "confidence": 0.6512,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.6512,
+        "Facts": 0.2121,
+        "Issue": 0.0028,
+        "Reasoning": 0.1296
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "The appeal is partly allowed to the extent indicated above.",
+      "predicted_label": "Decision",
+      "confidence": 0.9903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.9903,
+        "Facts": 0.0029,
+        "Issue": 0.0001,
+        "Reasoning": 0.0063
+      }
+    }
+  ]
+}

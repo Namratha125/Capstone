@@ -1,0 +1,3172 @@
+{
+  "case_id": "7117",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " B. BHOSALE, J. ( 1 ) THIS Letters Patent Appeal is directed against the order dated 171996 passed by the learned Single Judge in Writ Petition No. 1347 of 1996, rejecting the petition in limine.",
+      "predicted_label": "Issue",
+      "confidence": 0.5952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0013,
+        "Facts": 0.4006,
+        "Issue": 0.5952,
+        "Reasoning": 0.0019
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The writ petition was filed against the Award dated 3171995 passed by the Central Government Industrial tribunal No. II (for short, the Tribunal) in Reference No. CGIT2/55 of 1993, by which the impugned retrenchment was held to be illegal and void.",
+      "predicted_label": "Issue",
+      "confidence": 0.7311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0012,
+        "Facts": 0.2663,
+        "Issue": 0.7311,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The government of India, Ministry of Labour, by its letter dated 361993, had referred the following industrial dispute to the Tribunal for adjudication whether the action of the Management of M s DBH International Ltd is justified in retrenching S shri A. M. Ghosalkar, S. R. Parab, E. T. Deshmukh, Chiman Sawant, Baban Vethebkar, Mrs. D. D. mello and mrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0001,
+        "Facts": 0.9708,
+        "Issue": 0.0046,
+        "Reasoning": 0.0222
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "the aforesaid reference was made in pursuance of the failure report submitted by the Conciliation Officer to whom the dispute was referred pursuant to the demand notice dated 1891991 given by the Secretary of Port and Dock workers Union, Bombay (for short, the Union), which was representing the workmen before the concerned authority.",
+      "predicted_label": "Facts",
+      "confidence": 0.864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0005,
+        "Facts": 0.864,
+        "Issue": 0.1332,
+        "Reasoning": 0.0014
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "( 2 ) THE background facts sans unnecessary details are as follows m s. DBH International Ltd  the appellant in this appeal, was a Clearing and Forwarding Agent (for short, the Management) and they were holding customs House Agent Licence for the said business since 1965.",
+      "predicted_label": "Facts",
+      "confidence": 0.9971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0,
+        "Facts": 0.9971,
+        "Issue": 0.0012,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Till 1987, they conducted their business in the name and style of Dadabhoy Hornusjee and Sons Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.9887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0,
+        "Facts": 0.9887,
+        "Issue": 0.0005,
+        "Reasoning": 0.0057
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The case set.",
+      "predicted_label": "Decision",
+      "confidence": 0.8057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.8057,
+        "Facts": 0.1798,
+        "Issue": 0.0013,
+        "Reasoning": 0.0119
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "up by the Management was that in 1990, on account of steady decline in business, a Voluntary Retirement Scheme (for short, vrs) was announced by the Management in response of which few employees had availed it and left.",
+      "predicted_label": "Facts",
+      "confidence": 0.9858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0,
+        "Facts": 0.9858,
+        "Issue": 0.0003,
+        "Reasoning": 0.008
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "10 workmen only had remained in the employment consisting of the workmen named in the aforesaid reference (for short, the workmen ).",
+      "predicted_label": "Facts",
+      "confidence": 0.9435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0009,
+        "Facts": 0.9435,
+        "Issue": 0.0045,
+        "Reasoning": 0.0463
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The VRS was objected to by the Union.",
+      "predicted_label": "Facts",
+      "confidence": 0.7067,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0337,
+        "Arguments of Respondent": 0.0491,
+        "Decision": 0.0009,
+        "Facts": 0.7067,
+        "Issue": 0.0017,
+        "Reasoning": 0.2079
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The matter was carried into conciliation in which the Management was persuaded to withdraw the VRS, According to the Management, in 1991 due to national foreign exchange crisis, severe import restrictions were introduced in the Finance act, 1991 with the result their business declined even further.",
+      "predicted_label": "Facts",
+      "confidence": 0.9661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0,
+        "Facts": 0.9661,
+        "Issue": 0.0003,
+        "Reasoning": 0.018
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "By August, 1991 gross revenue earned by the Management was not even sufficient to pay the wage bill of 10 remaining workmen and, therefore, they were left with no option but to retrench the 7 workmen out of the remaining 10.",
+      "predicted_label": "Facts",
+      "confidence": 0.7498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0403,
+        "Arguments of Respondent": 0.0367,
+        "Decision": 0.0008,
+        "Facts": 0.7498,
+        "Issue": 0.0019,
+        "Reasoning": 0.1705
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "On 1691991, the retrenchment notices were offered to the concerned 7 workmen together with notice pay, retrenchment compensation, gratuity, leave encashment and salary for 16 days of September.",
+      "predicted_label": "Facts",
+      "confidence": 0.9722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0,
+        "Facts": 0.9722,
+        "Issue": 0.0005,
+        "Reasoning": 0.0251
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The workmen refused to accept the notices as well as payment offered.",
+      "predicted_label": "Facts",
+      "confidence": 0.9683,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0002,
+        "Facts": 0.9683,
+        "Issue": 0.0029,
+        "Reasoning": 0.0238
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "A notice to the Government, as required under section 25F (c) of the Industrial Disputes Act, 1947 (for short, i. D. Act), was also given.",
+      "predicted_label": "Facts",
+      "confidence": 0.9671,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9671,
+        "Issue": 0.0179,
+        "Reasoning": 0.0118
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The Union challenged the retrenchment vide their letter demand notice dated 1891991.",
+      "predicted_label": "Facts",
+      "confidence": 0.974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0001,
+        "Facts": 0.974,
+        "Issue": 0.0011,
+        "Reasoning": 0.0227
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Thus, according to the Management, the business and establishment was effectively closed down as no workmen were employed after April, 1992.",
+      "predicted_label": "Facts",
+      "confidence": 0.922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.0251,
+        "Decision": 0.0001,
+        "Facts": 0.922,
+        "Issue": 0.0006,
+        "Reasoning": 0.0322
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Against this backdrop, the aforesaid dispute was referred under section 10 (1) of the I. D. Act by the Government of India for adjudication.",
+      "predicted_label": "Facts",
+      "confidence": 0.8742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0003,
+        "Facts": 0.8742,
+        "Issue": 0.1004,
+        "Reasoning": 0.0207
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "( 3 ) THE Tribunal decided the reference vide its Award dated 3171995, holding that though the action of the Management was justified in retrenching the workmen with effect from 1691991, the action was illegal and void and, therefore, the workmen were entitled to reinstatement with full back wages and continuity in service, A categoric finding was recorded by the Tribunal that the amount tendered as retrenchment compensation was less than what ought to have been offered under section 25F (b) of the i. D. Act relying on the Judgment of this Court in (Trade Wings Limited v. Prabhakar Dattararam Phodkar), 1992 (2) Bom. C. R. 624 1992 (1) C. L. R. 480 1991 (11)",
+      "predicted_label": "Facts",
+      "confidence": 0.9965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9965,
+        "Issue": 0.0007,
+        "Reasoning": 0.0017
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "L. L. N. 500.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2268,
+        "Arguments of Respondent": 0.2516,
+        "Decision": 0.0077,
+        "Facts": 0.1386,
+        "Issue": 0.0183,
+        "Reasoning": 0.357
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 20,
+      "text": "The writ petition was, however, rejected summarily by the learned Single Judge vide order dated 171996, which is impugned in the present Letters Patent Appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.98,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.98,
+        "Issue": 0.0154,
+        "Reasoning": 0.0036
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "The order passed by the learned Single Judge (S. H. Kapadia, J.) dated 171996 reads thus in the present matter, retrenchment compensation has not been paid as per provisions of section 25F of the Industrial Disputes Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9429,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0003,
+        "Facts": 0.9429,
+        "Issue": 0.0046,
+        "Reasoning": 0.0488
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "It is true the reference made by the Government is only regarding justifiability and not illegality, but in this case, issue No. 2 indicates that parties went before the Industrial Court on both the questions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9399,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0158,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0005,
+        "Facts": 0.0337,
+        "Issue": 0.0009,
+        "Reasoning": 0.9399
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Hence, I do not wish to interfere.",
+      "predicted_label": "Facts",
+      "confidence": 0.8806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0239,
+        "Arguments of Respondent": 0.035,
+        "Decision": 0.001,
+        "Facts": 0.8806,
+        "Issue": 0.0004,
+        "Reasoning": 0.0591
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The second contentions raised by the petitioners that the case on illegality is hypertechnica because the workers have been paid under the head retrenchment Compensation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6828,
+        "Arguments of Respondent": 0.0292,
+        "Decision": 0.0012,
+        "Facts": 0.0411,
+        "Issue": 0.0072,
+        "Reasoning": 0.2386
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "The amount offered is short and there is noncompliance of section 25F. Hence Lower Court was right in its findings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0245,
+        "Arguments of Respondent": 0.2863,
+        "Decision": 0.0098,
+        "Facts": 0.3342,
+        "Issue": 0.0003,
+        "Reasoning": 0.3449
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "However, Company claims that it has closed down and, therefore, reinstatement cannot be granted.",
+      "predicted_label": "Facts",
+      "confidence": 0.7049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0607,
+        "Arguments of Respondent": 0.0456,
+        "Decision": 0.0074,
+        "Facts": 0.7049,
+        "Issue": 0.005,
+        "Reasoning": 0.1764
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "In this connection, Mr. Dharap for the workers states that if company offers the wages upto 311295 (the date on which offer was made by the workmen to accept wages) and if all other dues are paid upto date on 311295, then, he will not press for reinstatement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6086,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1876,
+        "Arguments of Respondent": 0.135,
+        "Decision": 0.0056,
+        "Facts": 0.0625,
+        "Issue": 0.0007,
+        "Reasoning": 0.6086
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "In the circumstances, if the company pays the dues upto date on the basis of cut off date being 311295 then the award will be marked satisfied.",
+      "predicted_label": "Facts",
+      "confidence": 0.5773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0733,
+        "Arguments of Respondent": 0.0638,
+        "Decision": 0.0031,
+        "Facts": 0.5773,
+        "Issue": 0.0009,
+        "Reasoning": 0.2816
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The company will comply with Award within eight weeks.",
+      "predicted_label": "Facts",
+      "confidence": 0.9754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.01,
+        "Facts": 0.9754,
+        "Issue": 0.0003,
+        "Reasoning": 0.0105
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "If the Award is not satisfied, then the workers will be free to enforce the impugned Award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0875,
+        "Arguments of Respondent": 0.1512,
+        "Decision": 0.0651,
+        "Facts": 0.065,
+        "Issue": 0.0007,
+        "Reasoning": 0.6305
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "Subject to above, Writ Petition is rejected.",
+      "predicted_label": "Facts",
+      "confidence": 0.9162,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0538,
+        "Facts": 0.9162,
+        "Issue": 0.0025,
+        "Reasoning": 0.0215
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Whether the Tribunal travelled beyond the clear terms of the order of reference, holding that the word justified included within its scope legality of the action, while dealing with the dispute referred to under section 10 of the I. D. Act as to whether the action of the management was justified in retrenching the workmen with effect from 1691991 ii) Whether the workmen had confined their allegation to justification and the employers motive in retrenching them and had never at any stage prior to the order of reference sought to challenge or even questioned the legality of the action, i. e. compliance with the regulatory requirement laid down in section 25F of the I. D. Acl If yes, whether the Tribunal was justified in examining the legality of the action iii) Whether, in the absence of the pleadings and or sufficient notice to the management in respect of the alleged short fall in the payment of retrenchment compensation, the Tribunal was justified in holding that the payment offered by the Management as retrenchment compensation under section 25F of the i. D. Act was inadequate and hence it was illegal and void and, therefore, the workmen are entitled to reinstatement m service with full back wages and continuity in service iv) While computing the retrenchment compensation under section 25F of the ID Act, the principle evolved by the Supreme Court while interpreting the provisions contained in section 4 (2 of the Payment of Gratuity act, 1990 in (Jeeiwanlal Limited v. The Appellate Authority), 1984 (65)F. J. R. 204 and which was followed by this Court in Trade Wings limited v. Prabhakar Dattaram Phodkar, 1991 (11) L. L. N. 500, could be applied to hold that there was a short payment of retrenchment compensation which is equivalent to no payment and hence the impugned retrenchment is invalid.",
+      "predicted_label": "Issue",
+      "confidence": 0.9372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0148,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0005,
+        "Facts": 0.0139,
+        "Issue": 0.9372,
+        "Reasoning": 0.0256
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "In other words, whether the retrenchment compensation under section 25F is payable on the hasis of monthly wages for 26 working days and his average rate of daily wages should be ascertained on that basis and not by taking the wages for 30 days or fixing his daily wages by dividing his monthly wages by 30 v) Whether the amount offered to in the retrenchment notice under other heads, which was not required to be offered as a condition precedent under section 25F of the ID Act. could be taken into account to make up a shortfall, if any, in paying the amount required as a condition precedent to retrenchment, fn other words, if the retrenchment was justified and that a tender of much larger amount was in fact made at the time of retrenchment, whether the Tribunal was justified in ignoring the excess amount, which was not required to be offered as condition precedent, and holding that there was a shortfall in offering the retrenchment compensation under section 25F vi) Whether the Tribunal erred in awarding reinstatement with full back wages after having accepted that all work had come to an end, merely because the question of closure was not referred to him vii)",
+      "predicted_label": "Issue",
+      "confidence": 0.6669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0005,
+        "Facts": 0.2866,
+        "Issue": 0.6669,
+        "Reasoning": 0.0362
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "Mr. Singh, learned Counsel for the Management, submitted that the Tribunal erred in holding that there was a shortfall in calculation of retrenchment compensation based on the Judgment of this Court in Trade wings Ltd. v. Prabhakar Dattaram Phodkar, 1991",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6373,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6373,
+        "Arguments of Respondent": 0.3358,
+        "Decision": 0.0003,
+        "Facts": 0.0083,
+        "Issue": 0.0001,
+        "Reasoning": 0.0181
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "(11) L. L. N. 500.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5078,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2727,
+        "Arguments of Respondent": 0.1004,
+        "Decision": 0.0031,
+        "Facts": 0.1136,
+        "Issue": 0.0025,
+        "Reasoning": 0.5078
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "According to mr. Singh, this Court in the case of Trade Wings has applied the principle evolved by the Apex Court while interpreting the provisions of section 4 (2) in the Payment of Gratuity Act, 1970 (for short, gratuity Act) in Jeewanlal limited v. The Appellate Authority, 1984 (65) F. J. R. 204 overlooking the material differences in the two statutes, i. e. I. D. Act and Gratuity Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8023,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8023,
+        "Arguments of Respondent": 0.1922,
+        "Decision": 0.0001,
+        "Facts": 0.0014,
+        "Issue": 0.0003,
+        "Reasoning": 0.0036
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "He drew our attention to paragraph 10 of the Jeewanlals case and in particular the words rate of wages used in section 4 of Gratuity Act and contended that such words have not been used in section 25F of the I. D. Act and, therefore, it cannot be said that the retrenchment compensation was payable on the basis of monthly wages for 26 working days.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4832,
+        "Arguments of Respondent": 0.4584,
+        "Decision": 0.0003,
+        "Facts": 0.0068,
+        "Issue": 0.0001,
+        "Reasoning": 0.0512
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "In support of that submission he also invited our attention to the definition of average pay in section 2 (aaa) of the i. D. Act and contended that such definition does not exist in Gratuity Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.635,
+        "Arguments of Respondent": 0.3064,
+        "Decision": 0.0004,
+        "Facts": 0.0025,
+        "Issue": 0.0002,
+        "Reasoning": 0.0555
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "He further submitted that the Court can compare the words used in two different statutes framed by the same Legislature to find out whether the words used in the earlier statute are missing in later statute and, if so, it may be fair to presume that the omission of such words in later statute or use of clearly different words was deliberate.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5148,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5148,
+        "Arguments of Respondent": 0.4705,
+        "Decision": 0.0002,
+        "Facts": 0.001,
+        "Issue": 0.0003,
+        "Reasoning": 0.0132
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "In support of that submission, he invited our attention to section 4 (2) of Gratuity Act and sections 25F and 2 (aaa) of the i. D. Act and further contended that Gratuity Act not only omits the concept of average pay and introduces a new concept of rate of wages but further the Gratuity Act was amended in 1987 to add an explanation in section 4 (2) based on Jeewanlal case.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6279,
+        "Arguments of Respondent": 0.3289,
+        "Decision": 0.0003,
+        "Facts": 0.0026,
+        "Issue": 0.0002,
+        "Reasoning": 0.0401
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "In support of his contentions, he placed reliance upon thejudgments of the Apex Court in (ESICv.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7367,
+        "Arguments of Respondent": 0.1561,
+        "Decision": 0.0002,
+        "Facts": 0.0962,
+        "Issue": 0.001,
+        "Reasoning": 0.0098
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "Tata Engineering and Locomotive Company), A. I. R. 1976 S. C. 66, and (UOI v. Raman Iron foundry), 1974 (2) S. C. C. 231 and in (MSCO v. Union of India)5, 1985 (1)S. C. C. 51 and (Sri Narakesariprakasnaw.",
+      "predicted_label": "Facts",
+      "confidence": 0.6006,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1414,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0038,
+        "Facts": 0.6006,
+        "Issue": 0.0014,
+        "Reasoning": 0.2185
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "ESIC), 1985 (1) L. L. J. 1 (Sc. ).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3521,
+        "Arguments of Respondent": 0.242,
+        "Decision": 0.0026,
+        "Facts": 0.0911,
+        "Issue": 0.0038,
+        "Reasoning": 0.3084
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "It was further submitted that even if it is assumed for the sake of argument that the amount towards the retrenchment compensation under section 25F was short, the Tribunal failed to appreciate that the total amount offered to the workmen was more than what they were required to be paid as a condition precedent under that section and hence it ought to have been treated as substantial compliance with the underlying requirement of the statute.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9741,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9741,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0001,
+        "Facts": 0.0047,
+        "Issue": 0.0008,
+        "Reasoning": 0.0126
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "In any case, according to Mr. Singh, it was not open to the workmen to raise an issue of short payment since they had refused to accept envelops without even examining their contents so as to contend that the amount tendered was short.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.279,
+        "Arguments of Respondent": 0.6944,
+        "Decision": 0.0003,
+        "Facts": 0.0026,
+        "Issue": 0.0002,
+        "Reasoning": 0.0236
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "( 7 ) ON the other hand, Mr. Dharap, learned Counsel for the Union, submitted that the Tribunal has rightly relied on the Judgment of this Court in Trade wings case which applied the principle evolved in Jeewanlals case while interpreting the provisions contained in section 4 of the Gratuity Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.9798,
+        "Decision": 0.0002,
+        "Facts": 0.0025,
+        "Issue": 0.0002,
+        "Reasoning": 0.0035
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "25F read with 2 (aaa)in I. D. Act and section 4 (2) of the Gratuity Act is different to some extent, the principle for arriving at the average pay is one and the same and, therefore, the action of retrenchment is rightly held to be illegal on the ground of short payment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7687,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0172,
+        "Arguments of Respondent": 0.091,
+        "Decision": 0.0006,
+        "Facts": 0.1208,
+        "Issue": 0.0017,
+        "Reasoning": 0.7687
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Mr. Dharap further submitted that the Judgment of this Court in Trade Wings case has not yet been set aside and it is followed by our High Court in several other cases.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8703,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8703,
+        "Arguments of Respondent": 0.1152,
+        "Decision": 0.0003,
+        "Facts": 0.0029,
+        "Issue": 0.0002,
+        "Reasoning": 0.0111
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "He took us through section 2 (aaa) and urged that independent of the Jeewanlals case, the basis for calculation and division by 26 is the correct, legal and appropriate method.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7065,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2457,
+        "Arguments of Respondent": 0.7065,
+        "Decision": 0.0005,
+        "Facts": 0.0015,
+        "Issue": 0.0001,
+        "Reasoning": 0.0458
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "In so far as the excess payment is concerned, he submitted that the provisions of section 25F (b) is imperative in character and, therefore, the requirement to comply with these provisions has been held to be mandatory before the retrenchment of a workman is given effect to in (Krishna Bahadur v, M s. Puma Theatre and Ors)7, J. T. 2004 (7) S. C. 13.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6399,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3335,
+        "Arguments of Respondent": 0.6399,
+        "Decision": 0.0003,
+        "Facts": 0.0093,
+        "Issue": 0.0002,
+        "Reasoning": 0.0168
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "He also placed reliance upon the Judgment of Orissa High Court in (Utkal asbestosv.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3944,
+        "Arguments of Respondent": 0.5936,
+        "Decision": 0.0002,
+        "Facts": 0.0053,
+        "Issue": 0.0002,
+        "Reasoning": 0.0063
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "T. S. Rao), 1991 (11) C. L. R. 941.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3467,
+        "Arguments of Respondent": 0.247,
+        "Decision": 0.0018,
+        "Facts": 0.1021,
+        "Issue": 0.002,
+        "Reasoning": 0.3004
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 53,
+      "text": "It is not disputed that in the present case the retrenchment compensation that was tendered by the Management was computed by using a divider of 30 days.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7309,
+      "probabilities": {
+        "Arguments of Petitioner": 0.032,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0006,
+        "Facts": 0.2171,
+        "Issue": 0.0021,
+        "Reasoning": 0.7309
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "00.",
+      "predicted_label": "Facts",
+      "confidence": 0.6941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0674,
+        "Arguments of Respondent": 0.0248,
+        "Decision": 0.0686,
+        "Facts": 0.6941,
+        "Issue": 0.024,
+        "Reasoning": 0.1211
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "Admittedly, the Management while tendering the retrenchment compensation had used the divider of 30 days.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6107,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0955,
+        "Arguments of Respondent": 0.0726,
+        "Decision": 0.002,
+        "Facts": 0.2177,
+        "Issue": 0.0015,
+        "Reasoning": 0.6107
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "13.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8168,
+        "Arguments of Respondent": 0.0351,
+        "Decision": 0.0033,
+        "Facts": 0.0695,
+        "Issue": 0.0095,
+        "Reasoning": 0.0659
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "( 16 )",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5194,
+        "Arguments of Respondent": 0.0445,
+        "Decision": 0.0502,
+        "Facts": 0.1785,
+        "Issue": 0.0291,
+        "Reasoning": 0.1782
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "IT is well settled that allegation which is not pleaded, even if there is evidence in support of it, cannot be examined because other side has no notice of it and, if entertained, it would be tantamount to granting an unfair advantage to the first mentioned party.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8611,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0493,
+        "Arguments of Respondent": 0.017,
+        "Decision": 0.0001,
+        "Facts": 0.0699,
+        "Issue": 0.0025,
+        "Reasoning": 0.8611
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "In other words, the rules of fair play demand that where a party seeks to establish a contention which if proved would be sufficient to deny relief to the opposite side, such a contention has to be specifically pleaded and then proved.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0522,
+        "Arguments of Respondent": 0.0357,
+        "Decision": 0.0004,
+        "Facts": 0.0159,
+        "Issue": 0.0013,
+        "Reasoning": 0.8945
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "But if there is no pleading, there is no question of proving something which is not pleaded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8123,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0937,
+        "Arguments of Respondent": 0.0658,
+        "Decision": 0.0004,
+        "Facts": 0.0251,
+        "Issue": 0.0027,
+        "Reasoning": 0.8123
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The Apex Court has reiterated the aforesaid principle in Shankar Chakaravartis case (supra ).",
+      "predicted_label": "Facts",
+      "confidence": 0.6905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0267,
+        "Arguments of Respondent": 0.0823,
+        "Decision": 0.0008,
+        "Facts": 0.6905,
+        "Issue": 0.001,
+        "Reasoning": 0.1986
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "In management of Hindustan Steel case (supra) while considering the plea of infirmity of retrenchment notice, it was observed that a general plea that the grounds of retrenchment were false, is not specific and precise enough to enable the employer to meet it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9508,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0209,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.0002,
+        "Facts": 0.0041,
+        "Issue": 0.0003,
+        "Reasoning": 0.9508
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "Keeping the proposition of law laid down by the Apex Court in the aforesaid judgments in view, we examined the pleadings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6141,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0294,
+        "Arguments of Respondent": 0.0459,
+        "Decision": 0.0032,
+        "Facts": 0.3001,
+        "Issue": 0.0073,
+        "Reasoning": 0.6141
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "( 17 )",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5214,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5214,
+        "Arguments of Respondent": 0.0482,
+        "Decision": 0.0412,
+        "Facts": 0.1695,
+        "Issue": 0.0347,
+        "Reasoning": 0.185
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "IT is true that the demand notice dated 1891991, though states that the retrenchment was illegal and unjustified, except the word illegal no illegality was alleged in the demand notice or reference to the noncompliance with regulatory requirements laid down in section 25F or any other provision of i. D. Act for that matter was made therein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0005,
+        "Facts": 0.0332,
+        "Issue": 0.0004,
+        "Reasoning": 0.953
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The failure report under section 12 (4) of I. D. Act also does not make any reference to the short payment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2179,
+        "Arguments of Respondent": 0.0888,
+        "Decision": 0.0071,
+        "Facts": 0.3347,
+        "Issue": 0.0009,
+        "Reasoning": 0.3506
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 67,
+      "text": "However, from the perusal of the statement of claim that was filed by the workmen clearly states that abrupt termination of services of seven workmen by way of retrenchment is illegal, improper, uncalled for and unjustified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8425,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0503,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0016,
+        "Facts": 0.0713,
+        "Issue": 0.0005,
+        "Reasoning": 0.8425
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "Further in paragraph ten thereof the categoric statements were made to the following effectthat the company issued retrenchment notice dated 1691991 and offered one months notice wages and retrenchment compensation as provided in Clauses (a) and (b) of section 25F of Industrial disputes Act, 1947, but the company has not clarified for how many years of service the retrenchment compensation is paid and, therefore, the said notice is defective.",
+      "predicted_label": "Facts",
+      "confidence": 0.4763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0448,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0005,
+        "Facts": 0.4763,
+        "Issue": 0.0002,
+        "Reasoning": 0.4515
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 69,
+      "text": "And, therefore, the retrenchment of the workmen is illegal.",
+      "predicted_label": "Facts",
+      "confidence": 0.4846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1725,
+        "Arguments of Respondent": 0.0944,
+        "Decision": 0.0111,
+        "Facts": 0.4846,
+        "Issue": 0.0042,
+        "Reasoning": 0.2333
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "The Union States that Clauses (a), (b) and (c) of section 25F should be complied with simultaneously before effecting retrenchment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0953,
+        "Arguments of Respondent": 0.2867,
+        "Decision": 0.0008,
+        "Facts": 0.2693,
+        "Issue": 0.0019,
+        "Reasoning": 0.3461
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 71,
+      "text": "it was further stated in the statement of claim that the Management failed to comply with the mandatory provisions of law and, therefore, the retrenchment of workmen was illegal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9179,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0001,
+        "Facts": 0.9179,
+        "Issue": 0.0014,
+        "Reasoning": 0.0697
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Per contra, what the Management in their written statement in reply to paragraph 10 had stated was that they complied with all the requirements of law including serving the notice to the Government authorities.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8403,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.0666,
+        "Decision": 0.0001,
+        "Facts": 0.0707,
+        "Issue": 0.0001,
+        "Reasoning": 0.8403
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "They had not stated anything in reply to the aforesaid averments in paragraph 10 of the statement of claim.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6204,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0292,
+        "Arguments of Respondent": 0.0362,
+        "Decision": 0.0036,
+        "Facts": 0.3104,
+        "Issue": 0.0002,
+        "Reasoning": 0.6204
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "The Management in paragraph 11 of the written statement had stated that the Court cannot go beyond justifiability or fairness of retrenchment and the Court has no jurisdiction to adjudicate upon the legality of retrenchment and further that union had no right to raise an issue of legality of retrenchment and the Tribunal ought to have confined to the terms of reference and had no power to enlarge its scope.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4629,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1032,
+        "Arguments of Respondent": 0.1628,
+        "Decision": 0.0003,
+        "Facts": 0.2704,
+        "Issue": 0.0003,
+        "Reasoning": 0.4629
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "In rejoinder filed by the Union, they had reiterated the statements made in the statement of claim and had categorically denied that the Management has complied with all the provisions of law.",
+      "predicted_label": "Facts",
+      "confidence": 0.9451,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0001,
+        "Facts": 0.9451,
+        "Issue": 0.0006,
+        "Reasoning": 0.0341
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "From the perusal of the affidavit of one of the workmen Mrs. Dammer Dmello filed before the Tribunal in lieu of her examinationinchief in paragraph 9 thereof she had stated thus 9.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6694,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1552,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0003,
+        "Facts": 0.1303,
+        "Issue": 0.0001,
+        "Reasoning": 0.6694
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "I say that the amount of retrenchment compensation offered by the company as per provisions of Industrial Disputes Act, section 25F to all the retrenched workmen is less than they are entitled.",
+      "predicted_label": "Facts",
+      "confidence": 0.6119,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0412,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0034,
+        "Facts": 0.6119,
+        "Issue": 0.0008,
+        "Reasoning": 0.3379
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 78,
+      "text": "For example, I have put in 25 years continuous service and my monthly salary was Rs. 3,044.",
+      "predicted_label": "Facts",
+      "confidence": 0.4017,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3129,
+        "Arguments of Respondent": 0.1468,
+        "Decision": 0.0006,
+        "Facts": 0.4017,
+        "Issue": 0.0006,
+        "Reasoning": 0.1373
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 79,
+      "text": "65 and, therefore, my retrenchment compensation amount should be Rs. 38,058.",
+      "predicted_label": "Facts",
+      "confidence": 0.9486,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0006,
+        "Facts": 0.9486,
+        "Issue": 0.0002,
+        "Reasoning": 0.0433
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "12",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4378,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2346,
+        "Arguments of Respondent": 0.1159,
+        "Decision": 0.0178,
+        "Facts": 0.1694,
+        "Issue": 0.0245,
+        "Reasoning": 0.4378
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "but I was offered only Rs. 33,597.",
+      "predicted_label": "Facts",
+      "confidence": 0.3678,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3534,
+        "Arguments of Respondent": 0.0445,
+        "Decision": 0.0007,
+        "Facts": 0.3678,
+        "Issue": 0.0004,
+        "Reasoning": 0.2332
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 82,
+      "text": "00.",
+      "predicted_label": "Facts",
+      "confidence": 0.6941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0674,
+        "Arguments of Respondent": 0.0248,
+        "Decision": 0.0686,
+        "Facts": 0.6941,
+        "Issue": 0.024,
+        "Reasoning": 0.1211
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "The Management in their affidavit dated 14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4253,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1097,
+        "Arguments of Respondent": 0.1599,
+        "Decision": 0.0018,
+        "Facts": 0.303,
+        "Issue": 0.0003,
+        "Reasoning": 0.4253
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 84,
+      "text": "6. 1995 filed by one Raman Mistry had stated that dues offered were offered as per the law after averaging three months salary of each workman and if there is any difference it was unintentional and the company had complied with the substantial requirement of law.",
+      "predicted_label": "Facts",
+      "confidence": 0.5459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.061,
+        "Arguments of Respondent": 0.1498,
+        "Decision": 0.0016,
+        "Facts": 0.5459,
+        "Issue": 0.0005,
+        "Reasoning": 0.2412
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "From the perusal of the aforementioned pleadings and the evidence, we are of the considered opinion, that it cannot be said that there was no pleading or no evidence was led by the parties in respect of the alleged shortfall in the amount of retrenchment compensation tendered by the Management.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0014,
+        "Facts": 0.0172,
+        "Issue": 0.0001,
+        "Reasoning": 0.9758
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "We proceed to record our reason for arriving at this conclusion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8768,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0022,
+        "Facts": 0.1076,
+        "Issue": 0.0037,
+        "Reasoning": 0.8768
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "In the statement of claim, the Union had categorically stated that the company had not clarified for how many years of service the retrenchment compensation was paid and, therefore, the said notice was defective.",
+      "predicted_label": "Facts",
+      "confidence": 0.4935,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2135,
+        "Arguments of Respondent": 0.1078,
+        "Decision": 0.0016,
+        "Facts": 0.4935,
+        "Issue": 0.0015,
+        "Reasoning": 0.1822
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 88,
+      "text": "They had further stated that Clauses (a), (b) and (c) of section 25F are mandatory and have not been complied with.",
+      "predicted_label": "Facts",
+      "confidence": 0.5701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0411,
+        "Arguments of Respondent": 0.0303,
+        "Decision": 0.0009,
+        "Facts": 0.5701,
+        "Issue": 0.001,
+        "Reasoning": 0.3567
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "Since the particulars as sought in paragraph 10 were not given by the Management, in our opinion, except the general statement that the provisions of Clause (b) of section 25F had not been complied with by the Management, the Union could not have stated anything more than what had been stated in the statement of claim.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9519,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0005,
+        "Facts": 0.0333,
+        "Issue": 0.0002,
+        "Reasoning": 0.9519
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "Had the Management given all the particulars in the retrenchment notice, probably the Union could have made positive statement to the effect that there was a short payment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0175,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0003,
+        "Facts": 0.0873,
+        "Issue": 0.0004,
+        "Reasoning": 0.8802
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "Since the retrenchment notice itself was vague which did not clarify as to for how many years of service the retrenchment compensation was offered, it was not possible to state anything more than what had been stated in the statement of claim.",
+      "predicted_label": "Facts",
+      "confidence": 0.5258,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1372,
+        "Arguments of Respondent": 0.1271,
+        "Decision": 0.0004,
+        "Facts": 0.5258,
+        "Issue": 0.0004,
+        "Reasoning": 0.2092
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 92,
+      "text": "Moreover, from the perusal of the written statement, it is clear that the Management did have sufficient notice of the stand of the Union.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0308,
+        "Arguments of Respondent": 0.029,
+        "Decision": 0.0009,
+        "Facts": 0.0628,
+        "Issue": 0.0001,
+        "Reasoning": 0.8764
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "As a matter of fact, in paragraphs 5 and 11 of the written statement, they had categorically stated that the court can only adjudicate as to the justifiability or fairness and not the legality of the notice and that it was not open for the Union to allege that the retrenchment is illegal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.085,
+        "Arguments of Respondent": 0.1033,
+        "Decision": 0.0009,
+        "Facts": 0.0657,
+        "Issue": 0.0003,
+        "Reasoning": 0.7448
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "That shows that the pleadings were absolutely clear to understand or to mean that the grievance of incorrect tendering of the amount as retrenchment compensation was made by the Union and that the parties went before the Tribunal on both the questions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.017,
+        "Decision": 0.0002,
+        "Facts": 0.0281,
+        "Issue": 0.0002,
+        "Reasoning": 0.9465
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "The evidence of D mello, one of the workmen, shows that the grievance about the short payment was made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0473,
+        "Arguments of Respondent": 0.0312,
+        "Decision": 0.0026,
+        "Facts": 0.0694,
+        "Issue": 0.0003,
+        "Reasoning": 0.8492
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "Under the circumstances, it is not open to make a grievance that the management had no opportunity and that the issue was discussed and considered by the Tribunal without any notice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0369,
+        "Arguments of Respondent": 0.0758,
+        "Decision": 0.0064,
+        "Facts": 0.0889,
+        "Issue": 0.0002,
+        "Reasoning": 0.7917
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "As a matter of fact, from the evidence of Mistry, the witness of the Management, wherein he has stated that if there is any difference, it was unintentional shows that the management was.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1034,
+        "Arguments of Respondent": 0.1129,
+        "Decision": 0.0011,
+        "Facts": 0.032,
+        "Issue": 0.0001,
+        "Reasoning": 0.7506
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "not sure as to whether the amount offered was accurate.",
+      "predicted_label": "Facts",
+      "confidence": 0.5591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0518,
+        "Arguments of Respondent": 0.0309,
+        "Decision": 0.0055,
+        "Facts": 0.5591,
+        "Issue": 0.005,
+        "Reasoning": 0.3476
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "From the contents of the written statement and the affidavit, as also the contentions advanced before the Tribunal and this Court it is clear that the objection of the Management was not as whether there existed pleadings but to the jurisdiction of the Tribunal to examine the legality by expanding the scope of the reference.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9205,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0003,
+        "Facts": 0.0459,
+        "Issue": 0.0009,
+        "Reasoning": 0.9205
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "( 18 ) THUS, it will be seen that, though, there is a definite injunction against the Court not to entertain the questions which are specifically not raised, the apex Court has permitted to raise certain questions which were directly covered by the provisions in this beneficial legislation.",
+      "predicted_label": "Facts",
+      "confidence": 0.524,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0269,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0007,
+        "Facts": 0.524,
+        "Issue": 0.0007,
+        "Reasoning": 0.4406
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 101,
+      "text": "Looking to the overall material placed before us, we are of the considered opinion that the workmen had undoubtedly raised the question of short payment and it was correctly understood by the Management and rightly entertained by the Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9862,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0024,
+        "Facts": 0.0055,
+        "Issue": 0.0003,
+        "Reasoning": 0.9862
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "Having so observed, in our opinion, the judgments relied upon by the learned Counsel for the Management are of no avail to the Management.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9667,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0019,
+        "Facts": 0.0117,
+        "Issue": 0.0001,
+        "Reasoning": 0.9667
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "( 19 ) IN so far as legal issues I and II are concerned, Mr. C. U. Singh submitted that by now it is well settled that the Tribunal cannot enlarge the scope of the reference by deciding matters not referred to it.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7777,
+        "Arguments of Respondent": 0.1969,
+        "Decision": 0.0004,
+        "Facts": 0.0039,
+        "Issue": 0.0003,
+        "Reasoning": 0.0209
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "In other words, the reference made in the instant case was only to examine as to whether the action was justified and, therefore, going into a legality of the action was wrong and amounts to enlarging the scope of the reference.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5587,
+        "Arguments of Respondent": 0.0888,
+        "Decision": 0.0013,
+        "Facts": 0.0137,
+        "Issue": 0.0003,
+        "Reasoning": 0.3372
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 105,
+      "text": "He placed heavy reliance upon the following judgments in support of his submission.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5972,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5972,
+        "Arguments of Respondent": 0.3886,
+        "Decision": 0.0001,
+        "Facts": 0.0026,
+        "Issue": 0.0001,
+        "Reasoning": 0.0113
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 106,
+      "text": "(i) (Delhi Cloth and General Mills v. Their Workmen), 1967 (1) L. L. J. 423, (ii) (Firestone Tyre and Rubber Company v. Workmen), 1981 (3) S. C. C. 451, (iii) (Pottery Mazdoor Panchayat v. Perfect Pottery Company), A. I. R. 1979 s. C. 1356, and (iv) (Sitaram Vishnu Shirodkar v. Administrator, Gout. of Goa), 1985 (1)L. L. J. 480.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1177,
+        "Arguments of Respondent": 0.0872,
+        "Decision": 0.002,
+        "Facts": 0.0306,
+        "Issue": 0.0016,
+        "Reasoning": 0.761
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "It was further submitted that legality and justifiability have always been differently understood in industrial adjudication, the former referring to compliance with regulatory provisions of the Act while latter refers to the justification for taking a decision or action against the workmen.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3716,
+        "Arguments of Respondent": 0.5994,
+        "Decision": 0.0001,
+        "Facts": 0.0055,
+        "Issue": 0.0004,
+        "Reasoning": 0.023
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 108,
+      "text": "Reliance was placed on (Agra Electric Company v. Workmen11, 1983 (1) S. C. C. 436 and (Syndicate bankv.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4336,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3006,
+        "Arguments of Respondent": 0.4336,
+        "Decision": 0.0002,
+        "Facts": 0.1641,
+        "Issue": 0.0008,
+        "Reasoning": 0.1006
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 109,
+      "text": "K. Umesh Nayak),a.",
+      "predicted_label": "Facts",
+      "confidence": 0.8366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0823,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0085,
+        "Facts": 0.8366,
+        "Issue": 0.0508,
+        "Reasoning": 0.0098
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "I. R. 1995 S. C. 319 in support of this submission.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5706,
+        "Arguments of Respondent": 0.3955,
+        "Decision": 0.0001,
+        "Facts": 0.0098,
+        "Issue": 0.0004,
+        "Reasoning": 0.0235
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 111,
+      "text": "In view of the law settled by the Apex Court in the aforesaid judgments and in several other judgments, it was not open to the Tribunal to fall back upon the dictionary meaning of the word justify or justifiable.",
+      "predicted_label": "Facts",
+      "confidence": 0.6163,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1283,
+        "Arguments of Respondent": 0.0968,
+        "Decision": 0.0012,
+        "Facts": 0.6163,
+        "Issue": 0.001,
+        "Reasoning": 0.1564
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 112,
+      "text": "Reliance was also placed on the judgment of (Workmen of Coimbatore Pioneer b Mills v. Labour Court) (1980)1 L. L. J. 503 (1979)54 F. J. R. 236 (S. C.) (Shankar kishan Nikam v. Bhide and Sons), 1983 (46) F. L. R. 95 (BomDB) (International industries v. KG.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4766,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4766,
+        "Arguments of Respondent": 0.4039,
+        "Decision": 0.0001,
+        "Facts": 0.0552,
+        "Issue": 0.0003,
+        "Reasoning": 0.064
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 113,
+      "text": "Sawant), 1984 (48) F. L. R. 376 (Bom.) and (Shiv Kumar v. State of Haryana), 1994 (4) S. C. C. 445 in support of this submission.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5049,
+        "Arguments of Respondent": 0.4645,
+        "Decision": 0.0002,
+        "Facts": 0.0102,
+        "Issue": 0.0003,
+        "Reasoning": 0.0198
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 114,
+      "text": "( 21 ) MR.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7954,
+        "Arguments of Respondent": 0.0653,
+        "Decision": 0.0159,
+        "Facts": 0.0702,
+        "Issue": 0.0032,
+        "Reasoning": 0.05
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "In other words, section 11A was introduced solely to deal with disciplinary cases and this is the manner in which the section has consistently been interpreted and applied for all these years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0908,
+        "Arguments of Respondent": 0.0808,
+        "Decision": 0.0005,
+        "Facts": 0.0091,
+        "Issue": 0.0002,
+        "Reasoning": 0.8187
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "In other words, punitive action is by way of discharge or dismissal as contemplated in section 11A and, therefore, the interpretation placed by Mr. Dharap of the provisions of section 11A is uncalled for.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1543,
+        "Arguments of Respondent": 0.1412,
+        "Decision": 0.0017,
+        "Facts": 0.0079,
+        "Issue": 0.0002,
+        "Reasoning": 0.6948
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 117,
+      "text": "Both the learned Counsel appearing for the parties placed reliance upon the few judgments of the Apex Court in support of their submissions on the provisions of section 11A of the Act to which we will make reference in the latter part of the judgment, if we find it necessary.",
+      "predicted_label": "Facts",
+      "confidence": 0.486,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0979,
+        "Arguments of Respondent": 0.1411,
+        "Decision": 0.0011,
+        "Facts": 0.486,
+        "Issue": 0.0102,
+        "Reasoning": 0.2637
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 118,
+      "text": "IT would be useful to reproduce the provisions contained in section 10 (4) of the I. D. Act, which deals with Reference of disputes to Boards, Courts or Tribunals, for better appreciation of the submissions advanced by the learned counsel appearing for the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6598,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0235,
+        "Arguments of Respondent": 0.0223,
+        "Decision": 0.0002,
+        "Facts": 0.2459,
+        "Issue": 0.0482,
+        "Reasoning": 0.6598
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 119,
+      "text": "Section 10 (4) reads thus10.",
+      "predicted_label": "Facts",
+      "confidence": 0.3813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1367,
+        "Arguments of Respondent": 0.1128,
+        "Decision": 0.0009,
+        "Facts": 0.3813,
+        "Issue": 0.0009,
+        "Reasoning": 0.3674
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 120,
+      "text": "Reference of disputes to Boards, Courts or Tribunals  (4) Where in an order referring an industrial dispute to a Labour Court, tribunal or National Tribunal under this section or in a subsequent order, the appropriate Government has specified the points of dispute for adjudication, the Labour Court or the Tribunal or the National tribunal, as the case may be, shall confine its adjudication to those points and matters incidental thereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1236,
+        "Arguments of Respondent": 0.1846,
+        "Decision": 0.0013,
+        "Facts": 0.3081,
+        "Issue": 0.0163,
+        "Reasoning": 0.366
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 121,
+      "text": "it clearly provides that an industrial dispute which has been referred to by the appropriate Government has to specify the points of dispute for adjudication and the Tribunal shall confine its adjudication to those points and the matter incidental thereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0514,
+        "Arguments of Respondent": 0.0242,
+        "Decision": 0.0001,
+        "Facts": 0.0241,
+        "Issue": 0.0007,
+        "Reasoning": 0.8995
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "This only means that the Tribunal must confine its attention to the points specifically mentioned and matter which is incidental thereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0005,
+        "Facts": 0.014,
+        "Issue": 0.0002,
+        "Reasoning": 0.9705
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "However, it would be useful to see as to how the Apex Court, while dealing with this section in (Express Newspapers (P) Ltd. v. The Workers), (1962)23 F. J. R. 1, had looked at it which observed as follows. . . . . . .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4609,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0427,
+        "Arguments of Respondent": 0.0391,
+        "Decision": 0.0002,
+        "Facts": 0.4541,
+        "Issue": 0.003,
+        "Reasoning": 0.4609
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 124,
+      "text": "Since the jurisdiction of the Industrial Tribunal in dealing with industrial disputes referred to it under section 10 is limited by section 10 (4)to the points specifically mentioned in the reference and matters incidental thereto the appropriate Government should frame the relevant orders of reference carefully and the questions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5297,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.4202,
+        "Facts": 0.0339,
+        "Issue": 0.0006,
+        "Reasoning": 0.5297
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 125,
+      "text": "which are intended to be tried by the Industrial Tribunal should be so worded as to leave no scope for ambiguity or controversy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1027,
+        "Arguments of Respondent": 0.0278,
+        "Decision": 0.0005,
+        "Facts": 0.0096,
+        "Issue": 0.0005,
+        "Reasoning": 0.8589
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "An order of reference hastily drawn or drawn in a casual manner of ten. gives.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8714,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0919,
+        "Arguments of Respondent": 0.0275,
+        "Decision": 0.0007,
+        "Facts": 0.0068,
+        "Issue": 0.0016,
+        "Reasoning": 0.8714
+      }
+    },
+    {
+      "sentence_id": 127,
+      "text": "risc to unnecessary disputes and thereby prolongs the life of industrial adjudication which must always be avoided Even so.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1635,
+        "Arguments of Respondent": 0.0512,
+        "Decision": 0.0022,
+        "Facts": 0.0155,
+        "Issue": 0.0019,
+        "Reasoning": 0.7657
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "when the qugstion of this kind is raised, before the courts the courts must attempt to construe the reference not too technically or in a pedantic manner, but fairly and reasonably. .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8309,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1046,
+        "Arguments of Respondent": 0.0456,
+        "Decision": 0.0001,
+        "Facts": 0.0179,
+        "Issue": 0.0009,
+        "Reasoning": 0.8309
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": ". . .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4762,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4762,
+        "Arguments of Respondent": 0.1992,
+        "Decision": 0.0025,
+        "Facts": 0.1924,
+        "Issue": 0.0054,
+        "Reasoning": 0.1243
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "(emphasis supplied)The appropriate Government is, thus, expected to frame the order of reference carefully and the questions, which are intended to be dealt with by the industrial Tribunal, should be worded as to leave no scope for ambiguity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0336,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0003,
+        "Facts": 0.0074,
+        "Issue": 0.0006,
+        "Reasoning": 0.9397
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "In other words, the appropriate Government, while framing the order of reference, the questions which are raised and intended to be tried by the Tribunal should be framed carefully and not in a casual manner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0375,
+        "Arguments of Respondent": 0.0716,
+        "Decision": 0.0057,
+        "Facts": 0.0224,
+        "Issue": 0.0001,
+        "Reasoning": 0.8626
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "Even if such questions are raised the Tribunal is not liable to construe them too technically and in a pedantic manner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0158,
+        "Arguments of Respondent": 0.0108,
+        "Decision": 0.003,
+        "Facts": 0.026,
+        "Issue": 0.0005,
+        "Reasoning": 0.9439
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "In the instant case, the demand notice dated 18991 given by the Union had clearly indicated that the retrenchment in question was illegal and unjustified, though particulars of illegality were not referred to in the notice of demand.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9032,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0466,
+        "Arguments of Respondent": 0.0252,
+        "Decision": 0.0014,
+        "Facts": 0.0229,
+        "Issue": 0.0007,
+        "Reasoning": 0.9032
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "However, as observed earlier, the pleadings i. e Statement of claim filed by the Union made, makes it absolutely clear that even the question of legality of the action of retrenchment was also raised by the Union and that the Management was not taken by surprise.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0114,
+        "Decision": 0.0008,
+        "Facts": 0.0211,
+        "Issue": 0.0002,
+        "Reasoning": 0.9591
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "However, the management chose to challenge the question of legality, as raised in the statement of claim, contending that the Tribunal cannot enlarge the scope of reference and it was binding on the Tribunal to decide only as to whether the action of retrenchment was justified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4896,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0799,
+        "Arguments of Respondent": 0.0856,
+        "Decision": 0.0018,
+        "Facts": 0.3427,
+        "Issue": 0.0004,
+        "Reasoning": 0.4896
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 136,
+      "text": "Therefore, in any case, the Management cannot claim that the Tribunal considered the question of legality also without giving an opportunity to the Management or that the Management was taken by surprise.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0598,
+        "Decision": 0.0037,
+        "Facts": 0.2234,
+        "Issue": 0.0004,
+        "Reasoning": 0.6794
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 137,
+      "text": "It is thus clear that the Tribunal attempted to construe the reference fairly and reasonably and in a pragmatic manner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0025,
+        "Facts": 0.0203,
+        "Issue": 0.0002,
+        "Reasoning": 0.9712
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "The Apex Court in Agra Electric Supply Company Limited (supra), while considering the terms justified and legal has clearly held that it is plain that industrial jurisprudence is an alloy of law and social justice, and one cannot be too pedantic in construing the terms of a reference respecting a dispute for industrial adjudication.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.0006,
+        "Facts": 0.0758,
+        "Issue": 0.0007,
+        "Reasoning": 0.8947
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "Undoubtedly, the Apex Court in that judgment has also observed that the words justified and legal are differently understood in the industrial jurisprudence and when the reference is comprehensive enough to cover both these concepts, it is within the jurisdiction of the Tribunal to investigate into whether the retrenchment is legal, if legal, whether it is also justified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5436,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.016,
+        "Decision": 0.0007,
+        "Facts": 0.4214,
+        "Issue": 0.0015,
+        "Reasoning": 0.5436
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 140,
+      "text": "However, what is further observed in that judgment is more relevant, which reads thus in the ordinary law of contracts, when a thing done is legal there is an end of the matter but in industrial law the rigid rules of contract do not govern the situation and an amount of flexibility in the exercise of powers taking liberties with the strict rights of parties is permitted to Tribunals.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1311,
+        "Arguments of Respondent": 0.0982,
+        "Decision": 0.0002,
+        "Facts": 0.0158,
+        "Issue": 0.0002,
+        "Reasoning": 0.7546
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "Relying on a series of decisions of this Court for this wider ambit of jurisdiction permissible in industrial adjudication, the Tribunal has held that the grievance of the workmen that their services should come to an end by way of retirement without payment of gratuity is real and substantial and that pragmatic considerations justify a direction for payment of gratuity more or less prevalent in many industries in the region.",
+      "predicted_label": "Facts",
+      "confidence": 0.9392,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0001,
+        "Facts": 0.9392,
+        "Issue": 0.0035,
+        "Reasoning": 0.0479
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "This approach is informed by social justice, and it is not for us to fault the Tribunal when it makes a direction for payment of gratuity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9695,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0003,
+        "Facts": 0.017,
+        "Issue": 0.0002,
+        "Reasoning": 0.9695
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "We read the award in a composite and comprehensive sense as an award that the retirement is justified if it is accompanied by payment of gratuity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0002,
+        "Facts": 0.0849,
+        "Issue": 0.0027,
+        "Reasoning": 0.8924
+      }
+    },
+    {
+      "sentence_id": 144,
+      "text": "The dissection attempted in the submission made by the learned Counsel is a distortion of the true intendment of the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0955,
+        "Arguments of Respondent": 0.0916,
+        "Decision": 0.0003,
+        "Facts": 0.021,
+        "Issue": 0.0003,
+        "Reasoning": 0.7913
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "In the present case, the Tribunal has considered the legality of the action holding that the grievance of the workmen was not only against the action but it was against its validity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0374,
+        "Arguments of Respondent": 0.023,
+        "Decision": 0.0048,
+        "Facts": 0.0744,
+        "Issue": 0.0021,
+        "Reasoning": 0.8583
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "Action may be justified but it was found to be illegal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0979,
+        "Arguments of Respondent": 0.073,
+        "Decision": 0.0056,
+        "Facts": 0.4092,
+        "Issue": 0.0037,
+        "Reasoning": 0.4106
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 147,
+      "text": "The Management did not make any attempt either before the Tribunal or even before this Court to justify the action as legal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0524,
+        "Arguments of Respondent": 0.0641,
+        "Decision": 0.001,
+        "Facts": 0.0431,
+        "Issue": 0.0002,
+        "Reasoning": 0.8393
+      }
+    },
+    {
+      "sentence_id": 148,
+      "text": "On the contrary, the stand of the Management all throughout was that the retrenchment compensation was rightly computed by the Management by applying a divider of 30 days.",
+      "predicted_label": "Facts",
+      "confidence": 0.4817,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0328,
+        "Arguments of Respondent": 0.0647,
+        "Decision": 0.0002,
+        "Facts": 0.4817,
+        "Issue": 0.0003,
+        "Reasoning": 0.4204
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 149,
+      "text": "We have already held that the application of divider of 30 days for computing the retrenchment compensation was not only wrong but it was patently illegal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9571,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0009,
+        "Facts": 0.0312,
+        "Issue": 0.0004,
+        "Reasoning": 0.9571
+      }
+    },
+    {
+      "sentence_id": 150,
+      "text": "We have also held that the excess payment made under other heads cannot be taken into account for making the shortfall good.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8027,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0762,
+        "Facts": 0.1006,
+        "Issue": 0.0022,
+        "Reasoning": 0.8027
+      }
+    },
+    {
+      "sentence_id": 151,
+      "text": "Thus, the tribunal was justified in considering the question of legality or validity of the action.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0566,
+        "Arguments of Respondent": 0.1308,
+        "Decision": 0.0039,
+        "Facts": 0.0517,
+        "Issue": 0.0005,
+        "Reasoning": 0.7564
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "The legality of the action touches the provisions of section 25F (a) and (b) of the I. D. Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1004,
+        "Arguments of Respondent": 0.0655,
+        "Decision": 0.0133,
+        "Facts": 0.1692,
+        "Issue": 0.0735,
+        "Reasoning": 0.5781
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 153,
+      "text": "Clause (a) mandates the Management to give a notice before termination and Clause (b) mandates the Management to offer retrenchment compensation which shall be equivalent of 15 days average pay for every completed year of continuous service or any part thereof in excess of six months.",
+      "predicted_label": "Facts",
+      "confidence": 0.7778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0002,
+        "Facts": 0.7778,
+        "Issue": 0.0003,
+        "Reasoning": 0.1923
+      }
+    },
+    {
+      "sentence_id": 154,
+      "text": "These provisions are not only mandatory but imperative in nature.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1425,
+        "Arguments of Respondent": 0.0835,
+        "Decision": 0.0023,
+        "Facts": 0.0284,
+        "Issue": 0.0014,
+        "Reasoning": 0.742
+      }
+    },
+    {
+      "sentence_id": 155,
+      "text": "It is against this backdrop the Tribunal, has held that the action was illegal.",
+      "predicted_label": "Facts",
+      "confidence": 0.6984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.016,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.0034,
+        "Facts": 0.6984,
+        "Issue": 0.0009,
+        "Reasoning": 0.2637
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 156,
+      "text": "In any case, in view of the stand of the Management that they rightly applied a divider of 30 days, they cannot now claim that they were taken by surprise and that they did not get an opportunity to meet the question of legality.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0532,
+        "Arguments of Respondent": 0.1347,
+        "Decision": 0.0028,
+        "Facts": 0.0247,
+        "Issue": 0.0002,
+        "Reasoning": 0.7844
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "The learned Single Judge has rightly observed in the impugned order while dismissing the writ petition that though the reference made by the Government is only regarding justifiability and not legality but in this case finding on Issue no. 2 indicates that the parties went before the Tribunal on both the questions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0656,
+        "Arguments of Respondent": 0.0685,
+        "Decision": 0.0031,
+        "Facts": 0.1486,
+        "Issue": 0.0004,
+        "Reasoning": 0.7139
+      }
+    },
+    {
+      "sentence_id": 158,
+      "text": "Mr. Singh, placed reliance upon several judgments of the Apex Court in support of his submission that the Tribunal enlarged the scope of the reference by entering into a question of legality of the action which, in our opinion, are of no avail to the appellant in view of the peculiar facts and circumstances of this case.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4359,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1354,
+        "Arguments of Respondent": 0.4359,
+        "Decision": 0.0004,
+        "Facts": 0.0074,
+        "Issue": 0.0002,
+        "Reasoning": 0.4207
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 159,
+      "text": "We have already held that in the facts of the present case, the tribunal was justified in entering into a question of legality also and the tribunal cannot be said to have enlarged the scope of the reference.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9686,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0017,
+        "Facts": 0.0154,
+        "Issue": 0.0016,
+        "Reasoning": 0.9686
+      }
+    },
+    {
+      "sentence_id": 160,
+      "text": "The submission made by Mr. Singh that though the words legal and justified are differently understood in industrial adjudication, does not mean that the tribunal in the present case was not justified, in entering into a question of legality of the action which ultimately was found to be patently illegal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9578,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0109,
+        "Arguments of Respondent": 0.0273,
+        "Decision": 0.0007,
+        "Facts": 0.0031,
+        "Issue": 0.0002,
+        "Reasoning": 0.9578
+      }
+    },
+    {
+      "sentence_id": 161,
+      "text": "In so far as the submission of Mr. Dharap, learned Counsel, based on section 11A of the I. D. Act is concerned, we do not propose to examine that submission, though we have our reservations about its correctness, in view of the fact we have already upheld the findings of the Tribunal and which have been affirmed by the learned Single Judge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0253,
+        "Arguments of Respondent": 0.0134,
+        "Decision": 0.0745,
+        "Facts": 0.0152,
+        "Issue": 0.001,
+        "Reasoning": 0.8705
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "( 23 )",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5579,
+        "Arguments of Respondent": 0.053,
+        "Decision": 0.0747,
+        "Facts": 0.088,
+        "Issue": 0.0164,
+        "Reasoning": 0.21
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 163,
+      "text": "THE submission of Mr. Singh that the workmen had confined their allegations to justification and the Managements motive while retrenching them is factually incorrect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0184,
+        "Arguments of Respondent": 0.0722,
+        "Decision": 0.0005,
+        "Facts": 0.0176,
+        "Issue": 0.0001,
+        "Reasoning": 0.8913
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "We have considered the pleadings in the earlier part of the judgment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0272,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.002,
+        "Facts": 0.1655,
+        "Issue": 0.0016,
+        "Reasoning": 0.7874
+      }
+    },
+    {
+      "sentence_id": 165,
+      "text": "They are absolutely clear.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8213,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0641,
+        "Arguments of Respondent": 0.044,
+        "Decision": 0.0025,
+        "Facts": 0.0668,
+        "Issue": 0.0013,
+        "Reasoning": 0.8213
+      }
+    },
+    {
+      "sentence_id": 166,
+      "text": "The Union had categorically raised an issue of legality in their pleadings and had also led evidence in support thereof.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3572,
+        "Arguments of Respondent": 0.2393,
+        "Decision": 0.0064,
+        "Facts": 0.1533,
+        "Issue": 0.0044,
+        "Reasoning": 0.2393
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 167,
+      "text": "Moreover, the Management chose not to meet the allegation of the Union in respect of legality of the action.",
+      "predicted_label": "Facts",
+      "confidence": 0.4411,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0767,
+        "Arguments of Respondent": 0.0745,
+        "Decision": 0.0021,
+        "Facts": 0.4411,
+        "Issue": 0.0007,
+        "Reasoning": 0.4049
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 168,
+      "text": "It cannot be said that the union had never at any stage prior to the order of reference sought to challenge or even question the legality of action.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.019,
+        "Decision": 0.0021,
+        "Facts": 0.0376,
+        "Issue": 0.001,
+        "Reasoning": 0.923
+      }
+    },
+    {
+      "sentence_id": 169,
+      "text": "As a matter of fact, though the illegality was not spelt out in the demand notice, the action was described as illegal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4862,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1634,
+        "Arguments of Respondent": 0.182,
+        "Decision": 0.0018,
+        "Facts": 0.1659,
+        "Issue": 0.0007,
+        "Reasoning": 0.4862
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 170,
+      "text": "In the circumstances, we have no hesitation in holding that the Tribunal was justified in examining the legality of the action.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9277,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.049,
+        "Facts": 0.0154,
+        "Issue": 0.0006,
+        "Reasoning": 0.9277
+      }
+    },
+    {
+      "sentence_id": 171,
+      "text": "( 24 )",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5913,
+        "Arguments of Respondent": 0.0582,
+        "Decision": 0.0794,
+        "Facts": 0.0554,
+        "Issue": 0.0143,
+        "Reasoning": 0.2015
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 172,
+      "text": "THIS takes us to consider the last question as to whether the Tribunal erred in awarding the reinstatement with full back wages after having accepted that all work had come to an end, merely because the question of closure was not referred to it.",
+      "predicted_label": "Issue",
+      "confidence": 0.7635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0005,
+        "Facts": 0.0109,
+        "Issue": 0.7635,
+        "Reasoning": 0.214
+      }
+    },
+    {
+      "sentence_id": 173,
+      "text": "Mr. Singh submitted that once having found that there was no business transacted after 18. 9. 1991 and even CHA Licence had also expired on 31. 12. 1993",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6504,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3407,
+        "Arguments of Respondent": 0.6504,
+        "Decision": 0.0003,
+        "Facts": 0.0012,
+        "Issue": 0.0001,
+        "Reasoning": 0.0073
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 174,
+      "text": "it was clearly not proper for the Tribunal to award reinstatement with full back wages.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9196,
+      "probabilities": {
+        "Arguments of Petitioner": 0.032,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0035,
+        "Facts": 0.0348,
+        "Issue": 0.0005,
+        "Reasoning": 0.9196
+      }
+    },
+    {
+      "sentence_id": 175,
+      "text": "He further submitted that no relief can be granted beyond the date of closure and that no industrial dispute can survive after the closure.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3631,
+        "Arguments of Respondent": 0.6134,
+        "Decision": 0.0003,
+        "Facts": 0.0062,
+        "Issue": 0.0001,
+        "Reasoning": 0.0169
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 176,
+      "text": "In support of his submission, he placed reliance upon the judgment of the apex Court in (J. K. Synthetics v. Rajasthan Trade Union Kendra), 2001 (2)S. C. C. 87.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.657,
+        "Arguments of Respondent": 0.2951,
+        "Decision": 0.0001,
+        "Facts": 0.0345,
+        "Issue": 0.0003,
+        "Reasoning": 0.0128
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 177,
+      "text": "On the other hand, Mr. Dharap submitted that the Tribunal was wrong in considering the issue of closure and by doing so it travelled beyond the scope of the reference.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9428,
+        "Arguments of Respondent": 0.0515,
+        "Decision": 0.0001,
+        "Facts": 0.0017,
+        "Issue": 0.0005,
+        "Reasoning": 0.0035
+      }
+    },
+    {
+      "sentence_id": 178,
+      "text": "He further submitted that since the action of retrenchment, under section 25F (b) was void ob initio, the workmen deemed to be continued in the employment and, therefore, they are entitled for reinstatement with full back wages.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4884,
+        "Arguments of Respondent": 0.4591,
+        "Decision": 0.0004,
+        "Facts": 0.0279,
+        "Issue": 0.0004,
+        "Reasoning": 0.0238
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 179,
+      "text": "( 25 ) THERE was no dispute that after the retrenchment of remaining three workmen on 20.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1424,
+        "Arguments of Respondent": 0.0236,
+        "Decision": 0.001,
+        "Facts": 0.1408,
+        "Issue": 0.0005,
+        "Reasoning": 0.6917
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 180,
+      "text": "4. 1992 there was a total closure of the establishment from 30. 4. 1992.",
+      "predicted_label": "Facts",
+      "confidence": 0.8952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0274,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0001,
+        "Facts": 0.8952,
+        "Issue": 0.0038,
+        "Reasoning": 0.0589
+      }
+    },
+    {
+      "sentence_id": 181,
+      "text": "It is against this backdrop, we would like to examine the issue raised by Mr. Singh.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8655,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0381,
+        "Arguments of Respondent": 0.0409,
+        "Decision": 0.0007,
+        "Facts": 0.011,
+        "Issue": 0.0438,
+        "Reasoning": 0.8655
+      }
+    },
+    {
+      "sentence_id": 182,
+      "text": "The Apex Court in J. K. Synthetics (supra) was considering the powers and jurisdiction of the Tribunal while dealing the question as to whether or not the retrenchment was justified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.029,
+        "Arguments of Respondent": 0.0696,
+        "Decision": 0.0006,
+        "Facts": 0.1065,
+        "Issue": 0.0003,
+        "Reasoning": 0.7941
+      }
+    },
+    {
+      "sentence_id": 183,
+      "text": "The company in that case was seeking justification of retrenchment of the workmen on the basis that there was a closure of section of its plant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7164,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1183,
+        "Arguments of Respondent": 0.1214,
+        "Decision": 0.0013,
+        "Facts": 0.0422,
+        "Issue": 0.0004,
+        "Reasoning": 0.7164
+      }
+    },
+    {
+      "sentence_id": 184,
+      "text": "The Tribunal, therefore, went into the question as to whether or not there was a closure for deciding the question as to the legality of retrenchment which the Apex court in that judgment held that there was no error in considering the issue of closure.",
+      "predicted_label": "Facts",
+      "confidence": 0.8837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0326,
+        "Decision": 0.0001,
+        "Facts": 0.8837,
+        "Issue": 0.0004,
+        "Reasoning": 0.067
+      }
+    },
+    {
+      "sentence_id": 185,
+      "text": "Paragraph 24 in that judgment may be useful.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0536,
+        "Arguments of Respondent": 0.0574,
+        "Decision": 0.0004,
+        "Facts": 0.0277,
+        "Issue": 0.0007,
+        "Reasoning": 0.8602
+      }
+    },
+    {
+      "sentence_id": 186,
+      "text": "Paragraph 24 reads thus 24.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2054,
+        "Arguments of Respondent": 0.0922,
+        "Decision": 0.0011,
+        "Facts": 0.1441,
+        "Issue": 0.0004,
+        "Reasoning": 0.5569
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 187,
+      "text": "Thus, in our view, the Division Bench erred in coming to the conclusion that the Tribunal could not have gone into the question of closure as it was not referred to it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0025,
+        "Facts": 0.0069,
+        "Issue": 0.0003,
+        "Reasoning": 0.9815
+      }
+    },
+    {
+      "sentence_id": 188,
+      "text": "In our view, on the disputes which have been referred, particularly Dispute No. 2 (set out hereinabove it became absolutely necessary for the Tribunal to first ascertain whether there was a closure and whether such closure was bona fide.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9586,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0014,
+        "Facts": 0.0343,
+        "Issue": 0.0002,
+        "Reasoning": 0.9586
+      }
+    },
+    {
+      "sentence_id": 189,
+      "text": "the Apex Court in yet another judgment in Hindustan Steel Works Construction ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.9261,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0149,
+        "Decision": 0.0003,
+        "Facts": 0.9261,
+        "Issue": 0.0022,
+        "Reasoning": 0.0433
+      }
+    },
+    {
+      "sentence_id": 190,
+      "text": "(supra) considered the question as to whether the reinstatement is must where retrenchment is held to be illegal and or unjustified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0212,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.0002,
+        "Facts": 0.0227,
+        "Issue": 0.0015,
+        "Reasoning": 0.9364
+      }
+    },
+    {
+      "sentence_id": 191,
+      "text": "In that case the tribunal had moulded the relief and granted compensation instead of reinstatement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0924,
+        "Arguments of Respondent": 0.0494,
+        "Decision": 0.0036,
+        "Facts": 0.0237,
+        "Issue": 0.0005,
+        "Reasoning": 0.8305
+      }
+    },
+    {
+      "sentence_id": 192,
+      "text": "The Apex Court after considering the question involved in that judgment held that the Management was groaning under the weight of surplus and excessive manpower and as such the Industrial Tribunal was entitled to mould the relief to suit the justice of the case.",
+      "predicted_label": "Facts",
+      "confidence": 0.9691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0002,
+        "Facts": 0.9691,
+        "Issue": 0.0021,
+        "Reasoning": 0.024
+      }
+    },
+    {
+      "sentence_id": 193,
+      "text": "It would be advantageous to quote paragraph 27 of the judgment which reads thus 27.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1385,
+        "Arguments of Respondent": 0.0735,
+        "Decision": 0.0006,
+        "Facts": 0.1059,
+        "Issue": 0.0007,
+        "Reasoning": 0.6809
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 194,
+      "text": "The appellants have not been able to satisfy us that the several reasons given by the Tribunal for not directing reinstatement of the appellantsworkmen are incorrect as a fact or that they are irrelevant or impermissible in law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0409,
+        "Facts": 0.0074,
+        "Issue": 0.0009,
+        "Reasoning": 0.9397
+      }
+    },
+    {
+      "sentence_id": 195,
+      "text": "The Industrial Tribunal is entitled to take note of the said fact and to mould the relief to suit the justice of the case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.05,
+        "Arguments of Respondent": 0.023,
+        "Decision": 0.0047,
+        "Facts": 0.0127,
+        "Issue": 0.0003,
+        "Reasoning": 0.9093
+      }
+    },
+    {
+      "sentence_id": 196,
+      "text": "In exercise of this Courts power under Article 136 of the Constitution, it is not open to us to substitute our opinion for that of the Industrial Tribunal unless we find that the reasons given by it in the paras aforesaid are either incorrect factually or irrelevant or impermissible in law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0066,
+        "Facts": 0.0038,
+        "Issue": 0.0008,
+        "Reasoning": 0.9822
+      }
+    },
+    {
+      "sentence_id": 197,
+      "text": "Since we are not able to say so, these appeals are dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9792,
+        "Facts": 0.0052,
+        "Issue": 0.0001,
+        "Reasoning": 0.0147
+      }
+    },
+    {
+      "sentence_id": 198,
+      "text": "The appeals filed by the Management also fail and are dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9722,
+        "Facts": 0.0081,
+        "Issue": 0.0001,
+        "Reasoning": 0.0188
+      }
+    },
+    {
+      "sentence_id": 199,
+      "text": "No costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9794,
+        "Facts": 0.0163,
+        "Issue": 0.0002,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 200,
+      "text": "therefore, in our opinion, once it is found that though the retrenchment was illegal it was justified, it is for the Tribunal to consider what relief the retrenched workers are entitled to.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.98,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0004,
+        "Facts": 0.0117,
+        "Issue": 0.0005,
+        "Reasoning": 0.98
+      }
+    },
+    {
+      "sentence_id": 201,
+      "text": "It is open for the Tribunal, in exercise of its jurisdiction, to take note of the circumstances in a particular case and decide not to grant the relief of reinstatement, but grant a relief of compensation to the workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9266,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0193,
+        "Arguments of Respondent": 0.022,
+        "Decision": 0.0226,
+        "Facts": 0.0092,
+        "Issue": 0.0004,
+        "Reasoning": 0.9266
+      }
+    },
+    {
+      "sentence_id": 202,
+      "text": "In other words, whenever retrenchment is held to be justified, though it is illegal and improper and if their reinstatement is impossible and or likely to cause great hardship on the management, then the Court can mould the relief to suit the justice and award compensation to such workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0008,
+        "Facts": 0.0117,
+        "Issue": 0.0003,
+        "Reasoning": 0.9779
+      }
+    },
+    {
+      "sentence_id": 203,
+      "text": "In the present case, we have no hesitation in holding that the Tribunal was wrong in awarding reinstatement with full back wages after having accepted that all work had come to an end inasmuch as there was a total closure of the establishment and, therefore, the order of Tribunal granting reinstatement was unjustified and liable to be set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0054,
+        "Facts": 0.0134,
+        "Issue": 0.0004,
+        "Reasoning": 0.9763
+      }
+    },
+    {
+      "sentence_id": 204,
+      "text": "( 26 ) AFTER having observed that the order of reinstatement was not justified in view of the total closure of the establishment, in our opinion, the ends of justice would be met if the relief of compensation to the workmen is granted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0035,
+        "Facts": 0.0073,
+        "Issue": 0.0004,
+        "Reasoning": 0.9829
+      }
+    },
+    {
+      "sentence_id": 205,
+      "text": "According to Mr. Singh, learned Counsel for the appellant, no business was transacted after 18. 9. 1991 and the CHA Licence also expired on 31.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.921,
+      "probabilities": {
+        "Arguments of Petitioner": 0.921,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0013,
+        "Facts": 0.0157,
+        "Issue": 0.0013,
+        "Reasoning": 0.0578
+      }
+    },
+    {
+      "sentence_id": 206,
+      "text": "12. 1993",
+      "predicted_label": "Facts",
+      "confidence": 0.3252,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1702,
+        "Arguments of Respondent": 0.136,
+        "Decision": 0.0224,
+        "Facts": 0.3252,
+        "Issue": 0.0732,
+        "Reasoning": 0.2729
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 207,
+      "text": "and, therefore, in any case the workmen are not entitled for any relief beyond the date of closure and or the date on which the licence had expired.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3886,
+        "Arguments of Respondent": 0.2963,
+        "Decision": 0.0078,
+        "Facts": 0.0976,
+        "Issue": 0.0012,
+        "Reasoning": 0.2085
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 208,
+      "text": "The learned Single Judge, however, while disposing of the writ petition, had observed that if the Management pays the dues upto date on the basis of cut off date being 31. 12.",
+      "predicted_label": "Facts",
+      "confidence": 0.7033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0404,
+        "Arguments of Respondent": 0.0217,
+        "Decision": 0.0041,
+        "Facts": 0.7033,
+        "Issue": 0.0008,
+        "Reasoning": 0.2296
+      }
+    },
+    {
+      "sentence_id": 209,
+      "text": "1995 then the Award will be marked satisfied.",
+      "predicted_label": "Facts",
+      "confidence": 0.648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0333,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.071,
+        "Facts": 0.648,
+        "Issue": 0.0006,
+        "Reasoning": 0.2316
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 210,
+      "text": "This observation was made 011 the basis of the statement of Mr. Dharap, learned Counsel for the workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0584,
+        "Arguments of Respondent": 0.0804,
+        "Decision": 0.0043,
+        "Facts": 0.1671,
+        "Issue": 0.0004,
+        "Reasoning": 0.6893
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 211,
+      "text": "Keeping the submissions advanced by the learned Counsel appearing for the parties in view and considering that this Court, while admitting the Letters Patent Appeal, had directed the management to deposit the arrears of salary upto 31. 12. 1995 in this Court, in our opinion, that amount should be paid to the workmen as compensation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0673,
+        "Facts": 0.0197,
+        "Issue": 0.0005,
+        "Reasoning": 0.8957
+      }
+    },
+    {
+      "sentence_id": 212,
+      "text": "( 27 ) IN the result, this Letters Patent Appeal is partly allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.8872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.8872,
+        "Facts": 0.0339,
+        "Issue": 0.0005,
+        "Reasoning": 0.0771
+      }
+    },
+    {
+      "sentence_id": 213,
+      "text": "The order of reinstatement is quashed and set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.8444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.8444,
+        "Facts": 0.0438,
+        "Issue": 0.0003,
+        "Reasoning": 0.1099
+      }
+    },
+    {
+      "sentence_id": 214,
+      "text": "The appellantManagement is directed to pay the amount, which they have deposited in this Court in pursuance of the order dated 591996, as compensation to the workmen.",
+      "predicted_label": "Decision",
+      "confidence": 0.9175,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.9175,
+        "Facts": 0.0088,
+        "Issue": 0.0002,
+        "Reasoning": 0.0719
+      }
+    },
+    {
+      "sentence_id": 215,
+      "text": "The Letters Patent Appeal is, accordingly, stands disposed of.",
+      "predicted_label": "Decision",
+      "confidence": 0.8058,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.8058,
+        "Facts": 0.0927,
+        "Issue": 0.0006,
+        "Reasoning": 0.0972
+      }
+    },
+    {
+      "sentence_id": 216,
+      "text": "( 28 ) MR.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7162,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7162,
+        "Arguments of Respondent": 0.0919,
+        "Decision": 0.017,
+        "Facts": 0.0886,
+        "Issue": 0.0073,
+        "Reasoning": 0.079
+      }
+    },
+    {
+      "sentence_id": 217,
+      "text": "C. U. Singh, learned Counsel for the appellant, at this stage, submitted that the interim stay granted by this Court on 591996 be continued for a period of six weeks.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7997,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0453,
+        "Facts": 0.0231,
+        "Issue": 0.0033,
+        "Reasoning": 0.1215
+      }
+    },
+    {
+      "sentence_id": 218,
+      "text": "Mr. Dharap, learned Counsel for the respondent, opposed the prayer and submitted that the workmen be allowed to withdraw atleast 50 percent of the amount deposited by the appellant.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.979,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.979,
+        "Decision": 0.0003,
+        "Facts": 0.0038,
+        "Issue": 0.0001,
+        "Reasoning": 0.014
+      }
+    },
+    {
+      "sentence_id": 219,
+      "text": "Having regard to the submissions of the learned Counsel appearing for the parties and the overall facts and circumstances of the case, the interim order granted by this Court on 591996, shall remain operative for a further period of six weeks from today.",
+      "predicted_label": "Decision",
+      "confidence": 0.5283,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.5283,
+        "Facts": 0.3143,
+        "Issue": 0.0007,
+        "Reasoning": 0.1488
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

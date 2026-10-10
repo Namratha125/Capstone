@@ -1,0 +1,1852 @@
+{
+  "case_id": "6829",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " Oral Judgment (J.N. Patel, J.)By this Letters Patent Appeal the Petitioners, employees of the respondent, have impugned the judgment and order dated 3rd March, 2006 passed by the learned Single Judge of this Court in Writ Petition No. 5845 of 1999 which came to be filed by the respondent employer challenging the decision of the Industrial Court, Pune in Complaint (ULP) No. 70 of 1999 holding that the employer had committed unfair labour practices under Item 9 of Schedule IV of the Maharashtra Recognition of Trade Unions and Prevention of Unfair Labour Practices Act, 1971 (hereinafter referred to as the MRTU PULP Act, 1971) thereby directing the employer to continue the respondents employees 1 to 40 in their services and to pay each of the respondents Rs. 1000/ towards compensation and a further sum of Rs. 1000/ each towards cost.",
+      "predicted_label": "Issue",
+      "confidence": 0.8542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.001,
+        "Facts": 0.1434,
+        "Issue": 0.8542,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The Industrial Court, inter alia, held that Petitioner and the Respondent No. 2 were functionally integrated and together employed more than 100 employees and, therefore, the provisions of Chapter VB of the Industrial Disputes Act, 1947 were applicable and as the Petitioner has failed to obtain permission of the appropriate government, it has committed unfair labour practice under Item 9 of Schedule IV of the MRTU PULP Act, 1971.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.9573,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0002,
+        "Facts": 0.9573,
+        "Issue": 0.0408,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The complainant employees had filed a complaint against the respondent employer, namely, Shekoba Auto Private Limited and Neotronics (P) Ltd., It was their case that the respondent employers have two units registered under the Factories Act, 1948 located in the same building.",
+      "predicted_label": "Facts",
+      "confidence": 0.7874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.028,
+        "Arguments of Respondent": 0.0304,
+        "Decision": 0.0002,
+        "Facts": 0.7874,
+        "Issue": 0.0022,
+        "Reasoning": 0.1519
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "Originally, the employer of the complainant employees had a manufacturing unit known as Electro Components Company in the same premises.",
+      "predicted_label": "Facts",
+      "confidence": 0.9821,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0,
+        "Facts": 0.9821,
+        "Issue": 0.0021,
+        "Reasoning": 0.0089
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "It is somewhere on or about 24th September, 1978 the said M s. Electro Components Company got bifurcated in two units and informed the employees that their services stood transferred to another unit with effect from 1st November, 1978 on the same terms and conditions without break.",
+      "predicted_label": "Facts",
+      "confidence": 0.9453,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9453,
+        "Issue": 0.0007,
+        "Reasoning": 0.0492
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "It is their case that Auto Components Company was changed to Shekoba Auto (P) Ltd., and the name of Electro Components Company was changed to Neotronics (P) Ltd., i.e., the original respondent no. 2 and the employees of Electro Components Company were absorbed in these two companies.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4712,
+        "Arguments of Respondent": 0.3028,
+        "Decision": 0.0001,
+        "Facts": 0.1943,
+        "Issue": 0.0014,
+        "Reasoning": 0.0301
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "According to the complainant employees both respondent nos.",
+      "predicted_label": "Facts",
+      "confidence": 0.9607,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0001,
+        "Facts": 0.9607,
+        "Issue": 0.0014,
+        "Reasoning": 0.0129
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "1 and 2 are very closely knit units and their production is interchangeable and the employees of respondent nos.",
+      "predicted_label": "Facts",
+      "confidence": 0.4755,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0589,
+        "Arguments of Respondent": 0.2905,
+        "Decision": 0.0017,
+        "Facts": 0.4755,
+        "Issue": 0.0007,
+        "Reasoning": 0.1727
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "1 and 2 are frequently asked to work in each others factory and the wages are adjusted in their books.",
+      "predicted_label": "Facts",
+      "confidence": 0.5052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0002,
+        "Facts": 0.5052,
+        "Issue": 0.0009,
+        "Reasoning": 0.48
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 9,
+      "text": "It is also their case that the sales and purchases are common.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4161,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1429,
+        "Arguments of Respondent": 0.1353,
+        "Decision": 0.0007,
+        "Facts": 0.3024,
+        "Issue": 0.0026,
+        "Reasoning": 0.4161
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 10,
+      "text": "The directors are also common and there is one recognised union in both the respondents i.e. Sarva Shramik Sanghatana and that the negotiations and settlements for employees of both the units are held in common meeting though separate settlements are signed and, therefore, according to the complainant employees there is functional integrality between the respondent no. 1 and 2.",
+      "predicted_label": "Facts",
+      "confidence": 0.5796,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0566,
+        "Arguments of Respondent": 0.2707,
+        "Decision": 0.0002,
+        "Facts": 0.5796,
+        "Issue": 0.0012,
+        "Reasoning": 0.0916
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "It is their case that respondent no. 1 employs 40 employees and 4 staff whereas the respondent no.",
+      "predicted_label": "Facts",
+      "confidence": 0.4987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2138,
+        "Arguments of Respondent": 0.2634,
+        "Decision": 0.0002,
+        "Facts": 0.4987,
+        "Issue": 0.008,
+        "Reasoning": 0.0159
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "2 employs 69 employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.9307,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0002,
+        "Facts": 0.9307,
+        "Issue": 0.0168,
+        "Reasoning": 0.0402
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Both of them taken together are more than 100 employees and, therefore, the provisions of Chapter VB of the Industrial Disputes Act, 1947 (hereinafter referred to as the I.D. Act) are applicable.",
+      "predicted_label": "Facts",
+      "confidence": 0.4859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0586,
+        "Arguments of Respondent": 0.0321,
+        "Decision": 0.002,
+        "Facts": 0.4859,
+        "Issue": 0.3532,
+        "Reasoning": 0.0681
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 14,
+      "text": "The respondent no. 1 i.e. Shekoba Auto (P) Ltd., issued a letter dated 17th March, 1999 to all the complainant employees retrenching the complainants from 21st march, 1999 and this led to the challenge of their retrenchment by filing a complaint of unfair labour practice under Item 9 of Schedule IV of the MRTU PULP Act, 1971.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9973,
+        "Issue": 0.0009,
+        "Reasoning": 0.0006
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "It was the case of the complainant employees that the reasons for retrenchment are patently false, the calculation of compensation, service are also incorrect.",
+      "predicted_label": "Facts",
+      "confidence": 0.9285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0076,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0004,
+        "Facts": 0.9285,
+        "Issue": 0.0003,
+        "Reasoning": 0.0523
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "No seniority list was displayed seven days prior to retrenchment so also no permission to retrench the employees under Section 25N of the Industrial Disputes Act, 1947 was obtained.",
+      "predicted_label": "Facts",
+      "confidence": 0.5746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1288,
+        "Arguments of Respondent": 0.0846,
+        "Decision": 0.0006,
+        "Facts": 0.5746,
+        "Issue": 0.0012,
+        "Reasoning": 0.2102
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "Hence there is noncompliance of the provisions of Sections 25F, 25G and 25N of the Industrial Disputes Act, 1947 and consequently there is unfair labour practice under Item 9 of Schedule IV of the MRTU PULP Act, 1971.",
+      "predicted_label": "Facts",
+      "confidence": 0.8393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1203,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.0032,
+        "Facts": 0.8393,
+        "Issue": 0.0034,
+        "Reasoning": 0.0157
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "According to the complainant employees, respondent no. 1 has sent a letter to the complainants on 19th March 1999 stating that they are stopping production and, therefore, their action is not bonafide and it is apprehended that respondent no. 1 wants to get rid of the senior employees and restart production with the help of new recruits.",
+      "predicted_label": "Facts",
+      "confidence": 0.9184,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0004,
+        "Facts": 0.9184,
+        "Issue": 0.0014,
+        "Reasoning": 0.0549
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "Therefore, the proposed retrenchment is malafide.",
+      "predicted_label": "Facts",
+      "confidence": 0.6649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1792,
+        "Arguments of Respondent": 0.082,
+        "Decision": 0.0008,
+        "Facts": 0.6649,
+        "Issue": 0.0008,
+        "Reasoning": 0.0723
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "It was also their case that the respondent no. 1 has opened another unit at Hubli manufacturing the same product and they want to shift their assets to Hubli which also shows malafides on their part.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7689,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7689,
+        "Arguments of Respondent": 0.0843,
+        "Decision": 0.0001,
+        "Facts": 0.1037,
+        "Issue": 0.0003,
+        "Reasoning": 0.0426
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Therefore, they sought a relief in the nature of declaration that the respondent nos.",
+      "predicted_label": "Facts",
+      "confidence": 0.9553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0003,
+        "Facts": 0.9553,
+        "Issue": 0.0116,
+        "Reasoning": 0.0229
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "1 and 2 have engaged in unfair labour practices and that they may be directed not to give effect to the notice of retrenchment issued to the complainant employees and continue to employ them.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9842,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0009,
+        "Facts": 0.9842,
+        "Issue": 0.0011,
+        "Reasoning": 0.0075
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "In reply, the Respondent No. 1 took the stand that the complaint is neither true nor bonafide nor it is legal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9214,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0617,
+        "Decision": 0.0001,
+        "Facts": 0.9214,
+        "Issue": 0.0009,
+        "Reasoning": 0.0108
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "It was their case that in April, 1972, a partnership concern Electro Components Company was established.",
+      "predicted_label": "Facts",
+      "confidence": 0.9489,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0138,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.0001,
+        "Facts": 0.9489,
+        "Issue": 0.0012,
+        "Reasoning": 0.0203
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Auto Components Company, a new partnership firm came into being in November, 1978.",
+      "predicted_label": "Facts",
+      "confidence": 0.9057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.0003,
+        "Facts": 0.9057,
+        "Issue": 0.0044,
+        "Reasoning": 0.0604
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Electro Components Company had decided to discontinue manufacture of auto condensers from their product line and this product was taken up by the new firm Auto Components Company and later on developed other products of its own.",
+      "predicted_label": "Facts",
+      "confidence": 0.6733,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1102,
+        "Arguments of Respondent": 0.1051,
+        "Decision": 0.0004,
+        "Facts": 0.6733,
+        "Issue": 0.0009,
+        "Reasoning": 0.11
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Majority of products of Auto Components Company were related to the automobile industry, whereas the product manufactured by Electro Components Company related to electronic industry.",
+      "predicted_label": "Facts",
+      "confidence": 0.4959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2373,
+        "Arguments of Respondent": 0.0536,
+        "Decision": 0.0006,
+        "Facts": 0.4959,
+        "Issue": 0.0038,
+        "Reasoning": 0.2089
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "Though they accepted that Auto Components Company also took over the workmen working in Auto Condenser Section of Electro Components Company, who were willing to change over, but this was pursuant to letter dated 24th September, 1978 filed by the complainants themselves which clearly indicates the change over to the new employer on their own free will and this is how the Auto Components Company took over the employees of Electro Components Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.6319,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1403,
+        "Arguments of Respondent": 0.087,
+        "Decision": 0.0002,
+        "Facts": 0.6319,
+        "Issue": 0.001,
+        "Reasoning": 0.1395
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "Electro Components Company thereafter totally discontinued manufacture of this product.",
+      "predicted_label": "Facts",
+      "confidence": 0.8005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0616,
+        "Arguments of Respondent": 0.0293,
+        "Decision": 0.0004,
+        "Facts": 0.8005,
+        "Issue": 0.0025,
+        "Reasoning": 0.1057
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "According to the respondent employer the partnership firm Auto Components was converted into a private limited company under the name and style of Shekoba Auto Private Limited on 6th June, 1985.",
+      "predicted_label": "Facts",
+      "confidence": 0.9341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0391,
+        "Decision": 0.0001,
+        "Facts": 0.9341,
+        "Issue": 0.005,
+        "Reasoning": 0.0195
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "They have taken up new employees in addition to those who were taken over from Electro Components Company and in March, 1999 the Respondent No. 1 Shekoba Auto Pvt. Ltd., has discontinued its manufacturing activities.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0002,
+        "Facts": 0.9897,
+        "Issue": 0.0005,
+        "Reasoning": 0.0019
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "As regards the claim of the complainants that the respondent Nos. 1 and 2 are very close knit and the product is interchangeable, it is the case of the respondents that the product of Respondent nos.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.61,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.61,
+        "Decision": 0.0006,
+        "Facts": 0.2237,
+        "Issue": 0.0005,
+        "Reasoning": 0.1611
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "1 and 2 are different and were not interchangeable as alleged.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3091,
+        "Arguments of Respondent": 0.2808,
+        "Decision": 0.0053,
+        "Facts": 0.1693,
+        "Issue": 0.0015,
+        "Reasoning": 0.2339
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "Their clients are separate, their rawmaterials are separate and by no stretch of imagination can the product be construed to be interchangeable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5258,
+      "probabilities": {
+        "Arguments of Petitioner": 0.071,
+        "Arguments of Respondent": 0.1196,
+        "Decision": 0.0078,
+        "Facts": 0.2746,
+        "Issue": 0.0012,
+        "Reasoning": 0.5258
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "According to them, even the directors are different and workers of Respondent Nos. 1 and 2 were not interchangeable though admittedly they are members of a common union, namely, Neotronic Pvt. Ltd., and Shekoba Auto Pvt. Ltd., Kamgar Sanghatana and that is how a common group of union activists interact with the management of both the companies.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4021,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4021,
+        "Arguments of Respondent": 0.3204,
+        "Decision": 0.0002,
+        "Facts": 0.2337,
+        "Issue": 0.0021,
+        "Reasoning": 0.0415
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 36,
+      "text": "However, the demands, etc., are submitted separately and they are discussed by the common group with the management of Respondent Nos. 1 and 2 and the settlements were arrived at separately, which goes to show that the union and the concerned Government Agencies have accepted the fact that two companies are separate legal entities and it is specifically stated that the complaint is false, frivolous and made with the sole aim of misleading the Court and there is absolutely no functional integrality as alleged as the factory licences, Central Excise registration, Sales Tax registrations, Certificate of Incorporation under the Companies Act, E.S.I., registration numbers, Provident Fund numbers, M.S.E.B., power sanction supply etc., are distinctly separate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3833,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.2462,
+        "Decision": 0.0013,
+        "Facts": 0.3441,
+        "Issue": 0.0003,
+        "Reasoning": 0.3833
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "The Respondents also denied the fact that they are together employing 130 employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.8911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0696,
+        "Decision": 0.0001,
+        "Facts": 0.8911,
+        "Issue": 0.004,
+        "Reasoning": 0.0297
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "On the other hand, it is their case that the Respondent No. 1 had 44 employees and Respondent No. 2 had 69 employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.4808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1513,
+        "Arguments of Respondent": 0.3448,
+        "Decision": 0.0002,
+        "Facts": 0.4808,
+        "Issue": 0.0023,
+        "Reasoning": 0.0206
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "Therefore, this by itself establishes the position that Chapter VB of the Industrial Court, 1947 is not applicable and hence allegation of noncompliance of Section 25N becomes baseless and without substance.6.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4046,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4046,
+        "Arguments of Respondent": 0.0695,
+        "Decision": 0.0015,
+        "Facts": 0.3398,
+        "Issue": 0.0002,
+        "Reasoning": 0.1843
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "In so far as Respondent No. 1 (i.e. Shekoba Auto (P) Ltd.,) is concerned, the manufacturing process in the factory of Respondent No. 1 has been totally discontinued and that the Respondent has used the word retrenchment instead of the word closure only because of the fact that the Respondent being a private limited company duly registered under the Companies Act, the Respondent cannot just close the doors like a private owner and the Respondent has to complete many formalities under the Companies Act and has also to complete business deals like recovery of bills and clearance of dues of suppliers, etc. and so far as the manufacturing activities and the workmen employed thereon are concerned, it is a complete closure.",
+      "predicted_label": "Facts",
+      "confidence": 0.5732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0309,
+        "Arguments of Respondent": 0.3182,
+        "Decision": 0.0012,
+        "Facts": 0.5732,
+        "Issue": 0.0006,
+        "Reasoning": 0.0759
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "In their reply to the complaint, the Respondent also placed reliance on the judgment of the Supreme Court in the case of Haryana Seeds Development Corporation Ltd., vs. Presiding Officer and another (1997 II C.L.R. 395).",
+      "predicted_label": "Facts",
+      "confidence": 0.8612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0742,
+        "Decision": 0.0001,
+        "Facts": 0.8612,
+        "Issue": 0.0006,
+        "Reasoning": 0.0604
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The Supreme Court in the aforesaid case has observed that in case of closure, the rigor imposed under Section 25 (F) of the Industrial Disputes Act, stands excluded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1257,
+        "Arguments of Respondent": 0.1067,
+        "Decision": 0.0037,
+        "Facts": 0.0962,
+        "Issue": 0.0008,
+        "Reasoning": 0.6669
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "In the alternative, it is their contention that all the requirements under Section 25(F) of the Industrial Disputes Act have been scrupulously complied with by the Respondent prior to the action of discontinuation of manufacturing process and Retrenchment of workmen engaged thereon.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.657,
+        "Arguments of Respondent": 0.2268,
+        "Decision": 0.0004,
+        "Facts": 0.0861,
+        "Issue": 0.0067,
+        "Reasoning": 0.0229
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "Paragraph 5 of the complaint in this respect is blatantly false, frivolous and mischievous and it is their case that the complainants have not been able to show how the compensation awarded to them is not correctly calculated and the documents filed by the complainants themselves would go to show that the Respondent did take into consideration the previous service of the workmen prior to their initiation in Shekoba Auto Pvt.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.598,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0583,
+        "Arguments of Respondent": 0.598,
+        "Decision": 0.0004,
+        "Facts": 0.3032,
+        "Issue": 0.0006,
+        "Reasoning": 0.0396
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "Ltd. i.e., the present Respondent No. 1 and that while calculating the compensation service of 23 years has been taken into consideration in respect of all the employees who came over to Auto Components Company in 1978.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3072,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2667,
+        "Arguments of Respondent": 0.3072,
+        "Decision": 0.0015,
+        "Facts": 0.1626,
+        "Issue": 0.0008,
+        "Reasoning": 0.2612
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 46,
+      "text": "This goes to show the bonafides of the Respondent and malafides of the complainant employees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0596,
+        "Arguments of Respondent": 0.0848,
+        "Decision": 0.007,
+        "Facts": 0.3344,
+        "Issue": 0.0007,
+        "Reasoning": 0.5134
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "It was the case of the Respondents that they have duly communicated to the Union of the complainant workmen about the stoppage of the manufacturing activities and, therefore, the claim of the employees of reemployment of retrenched workmen does not arise.",
+      "predicted_label": "Facts",
+      "confidence": 0.4431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0177,
+        "Arguments of Respondent": 0.2091,
+        "Decision": 0.0006,
+        "Facts": 0.4431,
+        "Issue": 0.0028,
+        "Reasoning": 0.3266
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "In so far as the unit of Hubli is concerned, it is submitted that they do not own any unit at Hubli.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6471,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6471,
+        "Arguments of Respondent": 0.2309,
+        "Decision": 0.0004,
+        "Facts": 0.0927,
+        "Issue": 0.0016,
+        "Reasoning": 0.0273
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "There is a partnership firm in the name and style of HiTech Products Co. which does manufacture similar items like the items produced by the Respondent No. 1 and, therefore, on this count also the complaint is unsustainable and as the complainants have failed to show how the provisions of Section 25(N) of the Industrial Disputes Act, 1947 are applicable and the Respondent has also stated that it has paid all the legal dues to the complainants including the amount payable under Section 25(F) of the Industrial Disputes Act, without deducting any dues and on the other hand, they have suffered loss of Rs. 10,000/ per day on account of wages of the workmen and, therefore, the complaint deserves to be dismissed.",
+      "predicted_label": "Facts",
+      "confidence": 0.6384,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0657,
+        "Arguments of Respondent": 0.2145,
+        "Decision": 0.0009,
+        "Facts": 0.6384,
+        "Issue": 0.002,
+        "Reasoning": 0.0785
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "The learned Member of the Industrial Court by his order dated 29th September, 1999 allowed the complaint in favour of the complainant employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.9876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9876,
+        "Issue": 0.007,
+        "Reasoning": 0.004
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The learned Member of the Industrial Court on the basis of the evidence on record arrived at a finding that the complainants have proved that the respondents have engaged in unfair labour practices under Item 9 of Schedule IV of MRTU PULP Act, 1971 and that they are entitled for the relief sought which were the two demands considered by him for adjudication.",
+      "predicted_label": "Facts",
+      "confidence": 0.9589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0003,
+        "Facts": 0.9589,
+        "Issue": 0.0028,
+        "Reasoning": 0.0334
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The order came to be challenged by preferring a writ petition in this Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4447,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0473,
+        "Arguments of Respondent": 0.0606,
+        "Decision": 0.0012,
+        "Facts": 0.42,
+        "Issue": 0.0261,
+        "Reasoning": 0.4447
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Petitioner employer raised a preliminary issue before the learned Single Judge that the compliant has been filed by the complainants under Item 9 of Schedule IV of the MRTU PULP Act, 1971 which was not maintainable and cases of termination are to be tried by the Labour Court as contemplated under Section 7 of the Act by placing reliance on the decision of the Supreme Court in the case of M s. Lokmat Newspapers Pvt. Ltd., vs. Shankarprasad (1999 II CLR 433) wherein it is laid down the proposition of law that the scope and ambit of Item 1 is extremely vide and also includes the cases of retrenchment.",
+      "predicted_label": "Facts",
+      "confidence": 0.9875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9875,
+        "Issue": 0.0022,
+        "Reasoning": 0.0052
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "It was also the case of the Petitioner employer that the issue was considered by this Court in the case of",
+      "predicted_label": "Facts",
+      "confidence": 0.8949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0896,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.8949,
+        "Issue": 0.0013,
+        "Reasoning": 0.0121
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Pepsi Co.",
+      "predicted_label": "Facts",
+      "confidence": 0.5608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0768,
+        "Arguments of Respondent": 0.0821,
+        "Decision": 0.0096,
+        "Facts": 0.5608,
+        "Issue": 0.0091,
+        "Reasoning": 0.2616
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "India Holdings Pvt. Ltd., vs. Noshir Elavia, 2002 (1) CLR 953 wherein it was held that the cases of termination of service will have to be filed under Item 1 of Schedule IV and Item 9 cannot be invoked for the said purpose.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3646,
+        "Arguments of Respondent": 0.145,
+        "Decision": 0.0009,
+        "Facts": 0.3049,
+        "Issue": 0.0017,
+        "Reasoning": 0.1829
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 57,
+      "text": "It is submitted that the same view was followed by this Court in the case of Supertex (India) Corporation vs. Radhashyam Pandey, 2001 III CLR 299 and in Dilip Wawande vs. Industrial Court, Nagpur, 1995 II CLR 897, wherein it was held that the Industrial Court cannot deal with the complaint in respect of termination of services falling under Item 1 of Schedule IV of the MRTU PULP Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5872,
+        "Arguments of Respondent": 0.3978,
+        "Decision": 0.0002,
+        "Facts": 0.0086,
+        "Issue": 0.0004,
+        "Reasoning": 0.0058
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "This preliminary issue was contested by the employees on the ground that this being the issue which goes to the root of the matter, which was not taken up before the Industrial Court and, therefore, the said question cannot be decided but the learned Single Judge negatived the contention on behalf of the employees in view of the decision rendered by the Supreme Court in the case of Chittoori Subbanna vs. Kodappa Subbanna, AIR 1965 SC 1325 wherein it was held that a pure question of law not depended upon the determination of any question of fact should be allowed to be raised even at the last stage and that it is also needless to mention that the jurisdiction of the Court cannot be conferred by the conduct of the parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.9056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0002,
+        "Facts": 0.9056,
+        "Issue": 0.0079,
+        "Reasoning": 0.0673
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Therefore, the learned Single Judge dealt with the matter on two issues.",
+      "predicted_label": "Facts",
+      "confidence": 0.9188,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0002,
+        "Facts": 0.9188,
+        "Issue": 0.0113,
+        "Reasoning": 0.0625
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "Firstly, as to whether the Industrial Court had jurisdiction to entertain the complaint and as regards the finding given by the Industrial Court in respect of functional integrality between the Petitioner and Respondent No.41 and on both the counts arrived at the finding that the Industrial Court not only lacked jurisdiction but even on merits no case has been made by the complainants and the Industrial Court has lost sight of the factual aspect while considering the provisions of the Industrial Disputes Act which do not contemplate two independent companies to be one industrial establishment or undertaking and the impugned order of the Industrial Court was found to be erroneous and was quashed and set aside.",
+      "predicted_label": "Facts",
+      "confidence": 0.4831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0878,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0016,
+        "Facts": 0.4831,
+        "Issue": 0.3479,
+        "Reasoning": 0.0756
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 61,
+      "text": "Mr. S.J. Deshmukh, the learned counsel appearing for the appellant employees submitted that the learned Single Judge failed to appreciate that by allowing the writ petition the learned Single Judge committed an error of law whereby the Respondent No. 1 without taking recourse to the provisions of Section 25O of the Industrial Disputes Act, 1947 was allowed to close down its undertaking which was an illegal closure.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.99,
+      "probabilities": {
+        "Arguments of Petitioner": 0.99,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0001,
+        "Facts": 0.0026,
+        "Issue": 0.0003,
+        "Reasoning": 0.0046
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "It is further contended that it has clearly amounted to granting of permission to Respondent No. 1 to close down its undertaking though Section 25O of the Industrial Disputes Act, 1947 was attracted.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5372,
+        "Arguments of Respondent": 0.3829,
+        "Decision": 0.0005,
+        "Facts": 0.0138,
+        "Issue": 0.0039,
+        "Reasoning": 0.0616
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "Another contention raised by Mr. Deshmukh, the learned counsel for the Appellants, is that the learned Single Judge has failed to appreciate that on the basis of evidence on record of the case it was conclusively proved that there was complete financial and functional integrality between the Petitioner and Respondent No. 41 and since the total number of employees exceeded 100, Chapter VB therefore was attracted and the Respondent No. 1 ought to have taken prior permission for closure under Section 25O of the Industrial Disputes Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9719,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0002,
+        "Facts": 0.0042,
+        "Issue": 0.0018,
+        "Reasoning": 0.0207
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "Mr. Deshmukh submitted that the preliminary issue raised before the learned Single Judge by the respondent employer as regards the jurisdiction of the Industrial Court to entertain the complaint treating as the case of termination and the same being accepted, is an apparent error on the face of record.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9789,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0002,
+        "Facts": 0.0017,
+        "Issue": 0.0002,
+        "Reasoning": 0.015
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "On the other hand, Mr. C.U. Singh, the learned Senior Counsel for Respondent No. 1, has submitted that the Industrial Court does not have the jurisdiction and a specific jurisdiction in this behalf is vested in the Labour Court.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.9824,
+        "Decision": 0.0002,
+        "Facts": 0.004,
+        "Issue": 0.0002,
+        "Reasoning": 0.0087
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "It is further contended that there is no clubbing together two different employers for the purpose of applying Section 25K and 25L of the Industrial Disputes Act, 1947.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5494,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4092,
+        "Arguments of Respondent": 0.5494,
+        "Decision": 0.0003,
+        "Facts": 0.0144,
+        "Issue": 0.002,
+        "Reasoning": 0.0246
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 67,
+      "text": "The number of workmen is to be seen, and workmen can only be those employed by the employer who is closing down or retrenching workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.107,
+        "Arguments of Respondent": 0.0405,
+        "Decision": 0.0021,
+        "Facts": 0.0387,
+        "Issue": 0.0004,
+        "Reasoning": 0.8114
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "Employees of an altogether different company can never be clubbed together as they are not the workmen of the Respondent No. 1 Company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2287,
+        "Arguments of Respondent": 0.4444,
+        "Decision": 0.0026,
+        "Facts": 0.0926,
+        "Issue": 0.0004,
+        "Reasoning": 0.2313
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "It is further contended that the findings recorded by the Industrial Court in respect of functional integrality between the Respondent No. 1 and the Respondent no. 2 are not only erroneous but are also perverse as they are contrary to the record and, therefore, the judgment is rightly set aside by the learned Single Judge.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9853,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.9853,
+        "Decision": 0.0003,
+        "Facts": 0.0038,
+        "Issue": 0.0008,
+        "Reasoning": 0.0059
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "The points which arise for our determination are whether the complaint as preferred and filed before the Industrial Court under Item 9 of Schedule IV of the MRTU PULP Act, 1971 was maintainable or not and whether the complainants had been able to establish that the provisions of Section 25O of the Industrial Disputes Act, 1947 are attracted in their case and, therefore, the retrenchment is in contravention of Section 25N of the Industrial Disputes Act.",
+      "predicted_label": "Issue",
+      "confidence": 0.9461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0006,
+        "Facts": 0.0149,
+        "Issue": 0.9461,
+        "Reasoning": 0.033
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "The learned counsel appearing for the appellants submitted that the whole approach of the learned Single Judge was misdirected as it held that complaint under Item 9 of Schedule IV of the MRTU PULP Act was not applicable in the facts of the case and that as it was the case of termination it will fall under Item 1 of Schedule IV of the MRTU PULP Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.952,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0003,
+        "Facts": 0.0183,
+        "Issue": 0.0009,
+        "Reasoning": 0.0272
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "It was, therefore, submitted that the decision rendered by the Supreme Court in the case of S.G. Chemicals and Dyes Trading Employees Union and S.G. Chemicals and Dyes Trading Limited and Another, (1986 I L.L.J. 490) clearly lays down the parameters in the matter of initiating complaint under Section 28.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2477,
+        "Arguments of Respondent": 0.6798,
+        "Decision": 0.0006,
+        "Facts": 0.0159,
+        "Issue": 0.0006,
+        "Reasoning": 0.0555
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "Item 9 of Schedule IV is attracted if there is a contravention of subsisting settlement with regard to salary and other benefits between the workmen and Management and there is a closure contravening the provisions of Section 25O of the Industrial Disputes Act, 1947 and consequent failure to implement the settlement amounts to unfair labour practice and it is submitted that the said decisions will hold the field.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2116,
+        "Arguments of Respondent": 0.1253,
+        "Decision": 0.0009,
+        "Facts": 0.027,
+        "Issue": 0.0035,
+        "Reasoning": 0.6318
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "Per contra, it is the contention of Mr. C.U. Singh, the learned Senior Counsel appearing for the respondent employer, that the Supreme Court in M s. Lokmat Newspapers Pvt. Ltd., vs. Shankarprasad (supra) after examining various clauses of item 1 has held that it leaves no room for doubt that when the Legislature used the words discharge or dismissal of the employees under circumstances enumerated in clauses (a) to (g) in item no.1 of Schedule IV, it not only contemplated dismissal orders which obviously are penal in nature but it also contemplated discharge orders which may either be penal or nonpenal in nature and still if any of the relevant clauses of item no. 1 got attracted in connection with such discharge orders they would make the employer, author of such discharge orders, answerable for the alleged unfair labour practice permeating the passing of such simplicitor discharge orders.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.974,
+        "Decision": 0.0001,
+        "Facts": 0.0019,
+        "Issue": 0.0001,
+        "Reasoning": 0.0155
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "To recapitulate, in the present case, respondents complaint is not that his discharge was by way of penalty but his complaint is that the discharge order in his case was a result of victimisation and was not passed in good faith but was passed on patently false reasons and was a result of undue haste on the part of the appellantemployer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0001,
+        "Facts": 0.0205,
+        "Issue": 0.0013,
+        "Reasoning": 0.9705
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "Mr. C.U. Singh has also placed reliance on the decision of the Pepsi Co. India vs. Noshir Elavia, (supra) wherein this Court held that although there may have been a breach of the standing orders applicable to the establishment, the result is that there has been a termination of service of the employee.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5739,
+        "Arguments of Respondent": 0.3278,
+        "Decision": 0.0006,
+        "Facts": 0.0031,
+        "Issue": 0.0002,
+        "Reasoning": 0.0943
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "Consequently, the reliefs, which can be claimed is of reinstatement with continuity of service with full back wages.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6683,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1849,
+        "Arguments of Respondent": 0.086,
+        "Decision": 0.0022,
+        "Facts": 0.0582,
+        "Issue": 0.0005,
+        "Reasoning": 0.6683
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 78,
+      "text": "This is a relief which can be granted by the Labour Court under Item 1 of Schedule IV of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0304,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0014,
+        "Facts": 0.0169,
+        "Issue": 0.0003,
+        "Reasoning": 0.9364
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "In fact, under Section 7 of the Act, all complaints relating to unfair labour practices described in Item 1 of Schedule IV of the Act are to be tried exclusively by the Labour Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0855,
+        "Arguments of Respondent": 0.0458,
+        "Decision": 0.001,
+        "Facts": 0.0947,
+        "Issue": 0.0018,
+        "Reasoning": 0.7713
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "In the instant case, the action of petitioner in terminating the services of the respondent has resulted in the petitioners claim for reinstatement which is the final relief that can be granted to the respondent, and, therefore, the complaint under Item 9 of Schedule IV of the MRTU PULP Act could not be maintainable in such a case.",
+      "predicted_label": "Facts",
+      "confidence": 0.4251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3627,
+        "Arguments of Respondent": 0.062,
+        "Decision": 0.0048,
+        "Facts": 0.4251,
+        "Issue": 0.0042,
+        "Reasoning": 0.1411
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 81,
+      "text": "It is submitted that the learned Judge while dealing with the case of",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.759,
+      "probabilities": {
+        "Arguments of Petitioner": 0.759,
+        "Arguments of Respondent": 0.1602,
+        "Decision": 0.0004,
+        "Facts": 0.0312,
+        "Issue": 0.0005,
+        "Reasoning": 0.0488
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "Pepsi Co.",
+      "predicted_label": "Facts",
+      "confidence": 0.5608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0768,
+        "Arguments of Respondent": 0.0821,
+        "Decision": 0.0096,
+        "Facts": 0.5608,
+        "Issue": 0.0091,
+        "Reasoning": 0.2616
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "India Holdings Pvt. Ltd., vs. Noshir Elavia (supra) did take into consideration the case of S.G. Chemicals and Dyes Trading Employees Union vs. S.G. Chemicals and Dyes Trading Limited and Another (supra) and found that the judgment cannot be interpreted to be that the Apex Court has given a goby to the provisions of Item 1 of Schedule IV.",
+      "predicted_label": "Facts",
+      "confidence": 0.8205,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0005,
+        "Facts": 0.8205,
+        "Issue": 0.0037,
+        "Reasoning": 0.1592
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "The provisions of Item 1 of Schedule IV are attracted when the employer discharges or dismisses employees (a) by way of victimisation, (b) not in good faith, but in the colourable exercise of the employers rights by falsely implicating an employee in a criminal case on false evidence or on concocted evidence (d) for patently false reasons (e) on untrue or trumped up allegations of absence without leave (f) in utter disregard of the principles of natural justice in the conduct of domestic enquiry or with undue haste (g) for misconduct of a minor or technical character, without having any regard to the nature of the particular misconduct or the past record of service of the employee, so as to amount to a shockingly disproportionate punishment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8141,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1153,
+        "Arguments of Respondent": 0.0257,
+        "Decision": 0.0037,
+        "Facts": 0.0273,
+        "Issue": 0.0139,
+        "Reasoning": 0.8141
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "Mr. Singh, therefore, submitted that the learned Single Judge was right in holding that the case of termination should be tried by Labour Court as contemplated under Section 7 of the MRTU PULP Act and the complaint will have to be filed under item 1 of Schedule IV and item 9 cannot be invoked for the said purpose.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7142,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2616,
+        "Arguments of Respondent": 0.7142,
+        "Decision": 0.0002,
+        "Facts": 0.0078,
+        "Issue": 0.0001,
+        "Reasoning": 0.0161
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "The Court has also relied upon the decisions which are referred to in Pepsi Co.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0332,
+        "Arguments of Respondent": 0.0489,
+        "Decision": 0.0013,
+        "Facts": 0.1867,
+        "Issue": 0.0009,
+        "Reasoning": 0.729
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "India Holdings Pvt. Ltd. (supra), Supertex (India) Corporation vs. Radhashyam Pandey, (2001 III CLR 299) and Dilip Wawande vs. Industrial Court, Nagpur, 1995 II CLR 897 in support of arriving at such a conclusion.13.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4004,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2134,
+        "Arguments of Respondent": 0.1504,
+        "Decision": 0.0007,
+        "Facts": 0.234,
+        "Issue": 0.0011,
+        "Reasoning": 0.4004
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 88,
+      "text": "In our view, the learned Single Judge was not right in holding that the case of the appellant would fall under Item 1 of Schedule IV of the MRTU PULP Act, 1971 by placing reliance on M s. Lokmat Newspapers Pvt. Ltd., and other judgments referred to in his order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8296,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0108,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0031,
+        "Facts": 0.1518,
+        "Issue": 0.0004,
+        "Reasoning": 0.8296
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "We are in agreement with Mr. Deshmukh that the facts of the case as pleaded in the complaint clearly bring the complaint within the ambit of Item 9 of Schedule IV as held in the case of S.G. Chemicals and Dyes Trading Employees Union (supra) by the Supreme Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9598,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0245,
+        "Arguments of Respondent": 0.0084,
+        "Decision": 0.0027,
+        "Facts": 0.0042,
+        "Issue": 0.0005,
+        "Reasoning": 0.9598
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "Section 7 of the Act lays down the duties of Labour Court and states as under It shall be the duty of the Labour Court to decide complaints relating to unfair labour practices described in Item 1 of Schedule IV and to try offences punishable under this Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4985,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1035,
+        "Arguments of Respondent": 0.0806,
+        "Decision": 0.0004,
+        "Facts": 0.316,
+        "Issue": 0.001,
+        "Reasoning": 0.4985
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "Item no. 1 with all its subclauses reads as under To discharge or dismiss employee(a) by way of victimisation(b) not in good faith, but in the colourable exercise of the employers rights by falsely implicating an employee in a criminal case on false evidence or on concocted evidence (e) on untrue or trumped up allegations of absence without leave(f) in utter disregard of the principles of natural justice in the conduct of domestic enquiry or with undue haste (g) for misconduct of a minor or technical character, without having any regard to the nature of the particular misconduct or the past record of service of the employee, so as to amount to a shockingly disproportionate punishment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5117,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0965,
+        "Arguments of Respondent": 0.0222,
+        "Decision": 0.0003,
+        "Facts": 0.3682,
+        "Issue": 0.0011,
+        "Reasoning": 0.5117
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 92,
+      "text": "The word discharge has wider connotations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0175,
+        "Decision": 0.0097,
+        "Facts": 0.0228,
+        "Issue": 0.0003,
+        "Reasoning": 0.9452
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "Once we consider the words discharge or dismissal as employed in the opening part of item no. 1 by the Legislature in the light of various clauses representing different situations under which such discharge or dismissal orders are said to amount to unfair labour practice on the part of the employers, it becomes at once clear that the Legislature was not contemplating only punitive discharge orders but was contemplating both types of discharge orders, namely, punitive as well as nonpunitive discharge orders.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0007,
+        "Facts": 0.0036,
+        "Issue": 0.0045,
+        "Reasoning": 0.9829
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "41.The aforesaid resume of various clauses of item no. 1 of Schedule IV leaves no room for doubt that when the Legislature used the words discharge or dismissal of the employees under circumstances enumerated in clauses (a) to (g) in item no. 1 of Schedule IV it contemplated dismissal orders which obviously are penal in nature but it also contemplated discharge orders which may either be penal or nonpenal in nature and still if any of the relevant clauses of item no. 1 got attracted in connection with such discharge orders they would make the employer, author of such discharge orders answerable for the alleged unfair labour practice permeating the passing of such simpliciter discharge orders.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.97,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0005,
+        "Facts": 0.0044,
+        "Issue": 0.0105,
+        "Reasoning": 0.97
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "To recapitulate, in the present case, respondents complainant is not that his discharge was by way of penalty but his complaint is that the discharge order in his case was a result of victimization and was not passed in good faith but was passed on patently false reasons and was a result of undue haste on the part of the appellantemployer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9668,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0001,
+        "Facts": 0.0252,
+        "Issue": 0.0011,
+        "Reasoning": 0.9668
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "The word discharge is a general word.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9659,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0024,
+        "Facts": 0.0138,
+        "Issue": 0.0006,
+        "Reasoning": 0.9659
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "It is followed by the word dismissal which contemplates only one category of cases or situations where penalty is imposed by the employer on the workmen concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.901,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0665,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0005,
+        "Facts": 0.0074,
+        "Issue": 0.0005,
+        "Reasoning": 0.901
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "The rule of ejusdem generis would have applied if the word discharge represented a particular species belonging to the genus reflected by the general word dismiss.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0151,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0004,
+        "Facts": 0.0029,
+        "Issue": 0.0002,
+        "Reasoning": 0.966
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "This is a converse case where a general word discharge is followed by the word dismiss which is of a particular nature or pertains to a limited class or category of penal situations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9388,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.005,
+        "Facts": 0.0085,
+        "Issue": 0.0037,
+        "Reasoning": 0.9388
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "Obviously, therefore, neither of them is a genus and nor of them is a species of the very same genus.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9411,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0322,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0003,
+        "Facts": 0.0125,
+        "Issue": 0.0014,
+        "Reasoning": 0.9411
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "The word discharge connotes an entirely different category of orders comprising of both simpliciter discharge orders not by way of penalty as well as discharge orders by way of penalty but not involving extremely pernicious results flowing from such orders while the word dismiss is purely an order of penalty and that too of an extreme type.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0202,
+        "Arguments of Respondent": 0.0788,
+        "Decision": 0.0032,
+        "Facts": 0.0049,
+        "Issue": 0.0005,
+        "Reasoning": 0.8925
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "Consequently, the aforesaid rule of interpretation cannot be of any avail to learned senior counsel for the appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0004,
+        "Facts": 0.0084,
+        "Issue": 0.0002,
+        "Reasoning": 0.976
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "On the contrary, as seen by us earlier, the words discharge and dismissal as employed by the Legislature in item no. 1 of Schedule IV covered different types of situations and circumstances under which they are passed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0001,
+        "Facts": 0.0027,
+        "Issue": 0.0014,
+        "Reasoning": 0.9812
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "It is, therefore, not possible to agree with the submission of learned senior counsel for the appellant that unless the respondent shows that he was discharged by way of penalty, he cannot invoke any of the clauses of item no. 1 of Schedule IV.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0013,
+        "Facts": 0.0066,
+        "Issue": 0.0005,
+        "Reasoning": 0.9723
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "India Holdings Pvt.",
+      "predicted_label": "Facts",
+      "confidence": 0.4131,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2082,
+        "Arguments of Respondent": 0.0974,
+        "Decision": 0.0122,
+        "Facts": 0.4131,
+        "Issue": 0.0187,
+        "Reasoning": 0.2503
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 106,
+      "text": "Ltd.s case the learned Single Judge while referring to S.G. Chemicals and Dyes Trading Employees Unions case distinguished the same without addressing the core issue as it observed that this judgment (S.G. Chemicals and Dyes Trading Employees Union) cannot be interpreted to mean that the Apex Court has given a goby to the provisions of tem 1 of Schedule IV which was not the ratio in the decision in S.G. Chemicals and Dyes Trading Employees Unions case.",
+      "predicted_label": "Facts",
+      "confidence": 0.9294,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0002,
+        "Facts": 0.9294,
+        "Issue": 0.0008,
+        "Reasoning": 0.0587
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "In our view, therefore, the decision on which reliance has been placed by the learned counsel for the Respondent and which led the learned Single Judge to hold that the Industrial Court will have no jurisdiction, does not appeal to reason.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9594,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0006,
+        "Facts": 0.0305,
+        "Issue": 0.0002,
+        "Reasoning": 0.9594
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "Therefore, we find that the issue of jurisdiction raised by the Respondent is baseless.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8785,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.0201,
+        "Decision": 0.0143,
+        "Facts": 0.0761,
+        "Issue": 0.0008,
+        "Reasoning": 0.8785
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "It was the case of the employer that Electro Components Company decided to discontinue manufacture of auto condensers from their product line and this product was taken over by the new firm Auto Components Company and later on developed new product of its own and tried to distinguish itself by stating that majority of products of Auto Components Company were related to automobile industry whereas the product range of Electro Components Company consisted of products or parts principally of electronic industry.",
+      "predicted_label": "Facts",
+      "confidence": 0.6159,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0548,
+        "Arguments of Respondent": 0.0502,
+        "Decision": 0.0002,
+        "Facts": 0.6159,
+        "Issue": 0.0015,
+        "Reasoning": 0.2774
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "According to them, Auto Components Company also took over workmen working in Auto Condenser Section of Electro Components Company, who were willing to change over and in support of their contention has placed reliance on a letter dated 24th September, 1978 which is placed on record by the complainants themselves and submitted that the change over to the new employer by the employees was on their own free will and thus the Auto Components Company took over the employees of Electro Components Company who were working in Auto Condenser Section of the Auto Components Company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.716,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2401,
+        "Arguments of Respondent": 0.716,
+        "Decision": 0.0001,
+        "Facts": 0.0277,
+        "Issue": 0.0003,
+        "Reasoning": 0.0159
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "Thereafter it is their case that Electro Components Company totally discontinued manufacture of its product and the firm Auto Component Company was converted into a private limited company under the name and style Shekoba Auto Private Limited on 6th June, 1985.",
+      "predicted_label": "Facts",
+      "confidence": 0.8383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0594,
+        "Arguments of Respondent": 0.0518,
+        "Decision": 0.0001,
+        "Facts": 0.8383,
+        "Issue": 0.002,
+        "Reasoning": 0.0483
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "They have taken up new employees in addition to those who were taken over from Electro Components Company and in March, 1999 this Shekoba Auto (P) Ltd., has discontinued its manufacturing activities and, therefore, according to them Neotroniks (P) Ltd., and Shekoba Auto (P) Ltd., are distinct entities.",
+      "predicted_label": "Facts",
+      "confidence": 0.3993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2372,
+        "Arguments of Respondent": 0.2965,
+        "Decision": 0.0003,
+        "Facts": 0.3993,
+        "Issue": 0.0023,
+        "Reasoning": 0.0643
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 113,
+      "text": "Mr. Deshmukh assailed the impugned judgment on this very issue and submitted that the learned Single Judge has proceeded to examine the case merely on the basis of functional integrality which is one of the tests and cited decisions to demonstrate that in a given fact situation it may assume an important role for arriving at a decision as to whether these two units were part of the same undertaking.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9839,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0,
+        "Facts": 0.0021,
+        "Issue": 0.0002,
+        "Reasoning": 0.0072
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "However, Mr. C.U. Singh, the learned senior advocate appearing for the respondent employer, submitted that the learned Single Judge has examined the matter in detail and has come to the conclusion that the evidence on record clearly proved that these were two distinct units as the petitioners products trade mark was Borger whereas the ElCiAr was the trade mark used by Respondent No. 41 i.e., the other unit Neotronics (P) Limited., and as they were producing different products, the Industrial Court has misdirected itself and has based its finding on excise certificate issued by the excise officers which also was not correct as Shekoba Auto Private Limpid was manufacturing plastic film capacitors whereas the Neotronics (P) Limited was manufacturing wire wound resistors and plastic film capacitors.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.9639,
+        "Decision": 0.0002,
+        "Facts": 0.009,
+        "Issue": 0.0002,
+        "Reasoning": 0.0209
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "What we find is that this fact has been dealt by the learned Single Judge in a very casual way by observing that in any event the excise certificate is only for revenue purpose and has nothing to do with the specific types of capacitors or the end usage of the same and as the witness for the employer has explained the line of production in his crossexamination and even if it is assumed that they were manufacturing same and similar product, it would not mean that the petitioner and the respondent no.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0182,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0005,
+        "Facts": 0.0849,
+        "Issue": 0.0003,
+        "Reasoning": 0.886
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "41 were functionally integrated.",
+      "predicted_label": "Facts",
+      "confidence": 0.3494,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1204,
+        "Arguments of Respondent": 0.1952,
+        "Decision": 0.0009,
+        "Facts": 0.3494,
+        "Issue": 0.001,
+        "Reasoning": 0.3331
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 117,
+      "text": "One important aspect of the case which has been overlooked is that when one of the original two firms was converted into two companies i.e. Shekoba and Neotronics, the workmen were absorbed in the two companies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0166,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0111,
+        "Facts": 0.0754,
+        "Issue": 0.0012,
+        "Reasoning": 0.8863
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "It has been tried to be canvassed before us that it was so done so as not to result in unemployment of the workmen and it is not necessarily indicative of the fact that the workmen were absorbed in the two companies, the two companies are part of the same establishment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8161,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0723,
+        "Arguments of Respondent": 0.043,
+        "Decision": 0.0048,
+        "Facts": 0.0624,
+        "Issue": 0.0014,
+        "Reasoning": 0.8161
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "Further, the case of the respondent employer is to be understood in the backdrop that though the respondent, particularly in respect of Shekoba Auto Private Limited claims that in substance it was a closure but they did not declare it to be so but only resorted to retrenchment of their workmen on the pretext that manufacturing of product was discontinued due to want of orders and loss suffered by the company and, therefore, it was thought proper to retrench the workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0489,
+        "Arguments of Respondent": 0.0885,
+        "Decision": 0.0008,
+        "Facts": 0.1791,
+        "Issue": 0.0004,
+        "Reasoning": 0.6822
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "Therefore, it is an admitted fact that Shekoba did not initiate any proceeding for closing down the undertaking.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5291,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0827,
+        "Arguments of Respondent": 0.0693,
+        "Decision": 0.0098,
+        "Facts": 0.3085,
+        "Issue": 0.0007,
+        "Reasoning": 0.5291
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 121,
+      "text": "The learned Single judge while dealing with the matter under Article 226 which leaves very limited scope has not given any finding to the effect that the factors considered by the member of the Industrial Court are either perverse or not germane to the issue.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9225,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0361,
+        "Arguments of Respondent": 0.0129,
+        "Decision": 0.0021,
+        "Facts": 0.0261,
+        "Issue": 0.0002,
+        "Reasoning": 0.9225
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "It is equally well settled that the decision of the Tribunal on a question of fact which it has jurisdiction to determine is not liable to be questioned in proceedings under Article 226 of the Constitution of India unless at the least it is shown to be fully unsupported by evidence.25.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0215,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0005,
+        "Facts": 0.0085,
+        "Issue": 0.0022,
+        "Reasoning": 0.9575
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "Therefore, we quash and set aside the impugned judgment and order passed by the learned Single Judge and restore the judgment of the learned Member of the Industrial Court.",
+      "predicted_label": "Decision",
+      "confidence": 0.6388,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.6388,
+        "Facts": 0.2385,
+        "Issue": 0.0006,
+        "Reasoning": 0.1194
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 124,
+      "text": "The appeal is allowed in the aforesaid terms with costs.28.",
+      "predicted_label": "Decision",
+      "confidence": 0.9921,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9921,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0059
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "The learned counsel appearing for the respondentemployer submitted that this Court may stay the effect and operation of the judgment and order so as to enable the respondent employer to approach the Supreme Court, if so advised.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.7366,
+        "Decision": 0.0196,
+        "Facts": 0.1118,
+        "Issue": 0.0018,
+        "Reasoning": 0.1221
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "The learned counsel for the appellants have no objection if the interim arrangement is continued for the said period.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3823,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3182,
+        "Arguments of Respondent": 0.0371,
+        "Decision": 0.1045,
+        "Facts": 0.1543,
+        "Issue": 0.0036,
+        "Reasoning": 0.3823
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 127,
+      "text": "Therefore, there will be stay to the effect and operation of this judgment and order for the period of eight weeks from today on the condition that they would continue to deposit the amounts as per the interim order passed by this Court during the pendency of the appeal.",
+      "predicted_label": "Decision",
+      "confidence": 0.5429,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.0175,
+        "Decision": 0.5429,
+        "Facts": 0.314,
+        "Issue": 0.0008,
+        "Reasoning": 0.1117
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

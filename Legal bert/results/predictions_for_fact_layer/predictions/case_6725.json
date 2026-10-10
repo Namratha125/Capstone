@@ -1,0 +1,3914 @@
+{
+  "case_id": "6725",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "These appeals are directed against the common judgment and order dated 21st February, 2004 passed by the learned single Judge in Writ Petition Nos.1097/2004 1160/2004 and 1702/2004, out of which two are filed by M s. Hindustan Spinning Weaving Mills Ltd. (Company appellantMill for short) and another one by Hindustan Crown Mills Siddhi Vinayak Kamgar Karmachari Sangharsha Sanghatana and others (Union for short).",
+      "predicted_label": "Issue",
+      "confidence": 0.7642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0013,
+        "Facts": 0.2329,
+        "Issue": 0.7642,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "In all these petitions Rastriya Mill Mazdoor Sangh (RMMS for short) was joined as party respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.8671,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0002,
+        "Facts": 0.8671,
+        "Issue": 0.1293,
+        "Reasoning": 0.0018
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "By the impugned order, the award of the Industrial Tribunal dated 21st February, 2004 granting and or confirming the grant of permission to close down two undertakings of the appellantMill came to be set aside with direction to grant compensation, in lieu of reinstatement, to the workmen, who did not opt for voluntary retirement until 1st March, 2004 with other reliefs referred to in the operative part of the judgment and order together with gratuity in accordance with the provisions of the Payment of Gratuity Act.",
+      "predicted_label": "Issue",
+      "confidence": 0.9099,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0012,
+        "Facts": 0.0849,
+        "Issue": 0.9099,
+        "Reasoning": 0.0033
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The factual matrix, not in dispute, taken from the impugned judgment are as under3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9951,
+        "Issue": 0.0012,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The appellant Mill is a business house of some antiquity belonging to the Thackersey family.",
+      "predicted_label": "Facts",
+      "confidence": 0.982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.982,
+        "Issue": 0.0011,
+        "Reasoning": 0.0152
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The business activities were initially commenced in 1805 as a trader and were then expanded to cover the manufacture of cotton fabrics.",
+      "predicted_label": "Facts",
+      "confidence": 0.5138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0754,
+        "Arguments of Respondent": 0.084,
+        "Decision": 0.0002,
+        "Facts": 0.5138,
+        "Issue": 0.0017,
+        "Reasoning": 0.3249
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "The Mill was incorporated in 1882 or thereabouts as a Limited Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8425,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0001,
+        "Facts": 0.8425,
+        "Issue": 0.0014,
+        "Reasoning": 0.1464
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The Crown Spinning and Manufacturing Company Ltd., which had also been incorporated in 1880, was amalgamated with the appellant Mill with effect from 1st April 1975 by an order passed by this Court on 23rd July 1976 in the exercise of its Company jurisdiction.",
+      "predicted_label": "Facts",
+      "confidence": 0.9768,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9768,
+        "Issue": 0.0043,
+        "Reasoning": 0.0153
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "After amalgamation, the Mill had four manufacturing Units in Mumbai, two units Units A and B at Jacob Circle, Mahalaxmi, the Processing House Division at Prabhadevi and the Crown Mills Division at Dadar.",
+      "predicted_label": "Facts",
+      "confidence": 0.9795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0,
+        "Facts": 0.9795,
+        "Issue": 0.0011,
+        "Reasoning": 0.0134
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "There was a general strike in the cotton textile Industry in the City of Mumbai in 1982 which substantially eroded the position of the industry.",
+      "predicted_label": "Facts",
+      "confidence": 0.9062,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0267,
+        "Decision": 0.0001,
+        "Facts": 0.9062,
+        "Issue": 0.0078,
+        "Reasoning": 0.0448
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The appellant Mill overcame the adverse effects of the textile strike by 1989 and between the years 198990 until 1997 98, a dividend of 20 was generally speaking declared by the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.7511,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0477,
+        "Arguments of Respondent": 0.0383,
+        "Decision": 0.0001,
+        "Facts": 0.7511,
+        "Issue": 0.0007,
+        "Reasoning": 0.1621
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "In addition to the issuance of bonus shares, the shareholders have received a dividend of Rs.1054 lakh.",
+      "predicted_label": "Facts",
+      "confidence": 0.507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1115,
+        "Arguments of Respondent": 0.055,
+        "Decision": 0.0031,
+        "Facts": 0.507,
+        "Issue": 0.0011,
+        "Reasoning": 0.3224
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "In 198990, the Mill altered the object clause in its Memorandum of Association so as to include inter alia, the carrying on of Real Estate business.",
+      "predicted_label": "Facts",
+      "confidence": 0.9341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0001,
+        "Facts": 0.9341,
+        "Issue": 0.0005,
+        "Reasoning": 0.0462
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Sometime in the year 199596, the Mill set up a textile unit at Karad.",
+      "predicted_label": "Facts",
+      "confidence": 0.9776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0,
+        "Facts": 0.9776,
+        "Issue": 0.0006,
+        "Reasoning": 0.019
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "In March 2002, the Mill is stated to have closed down two units at Mahalaxmi.",
+      "predicted_label": "Facts",
+      "confidence": 0.9735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0,
+        "Facts": 0.9735,
+        "Issue": 0.0008,
+        "Reasoning": 0.0222
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "On 29th December 2002, Voluntary Retirement Scheme (VRS) agreements were entered into by the Mill with Rashtriya Mill Mazdoor Sangh (RMMS) the recognised Union  in respect of Crown Mills and the Process House Division.",
+      "predicted_label": "Facts",
+      "confidence": 0.9925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0,
+        "Facts": 0.9925,
+        "Issue": 0.0012,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The VRS agreements, inter alia brought within their coverage, employees who had not completed 60 years of age as on the date of the submission of the application for voluntary retirement and who were on the muster rolls of the Mill.",
+      "predicted_label": "Facts",
+      "confidence": 0.8594,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0001,
+        "Facts": 0.8594,
+        "Issue": 0.0009,
+        "Reasoning": 0.127
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The Company agreed to issue postdated cheques but clause 3(g) laid down that in the event that the Company was unable to raise funds as visualized therein, due to unavoidable circumstances, after relieving the employees, the Company in consultation with RMMS would inform both RMMS and the employees individually, not to deposit the cheques in their Bank Accounts.",
+      "predicted_label": "Facts",
+      "confidence": 0.8632,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0002,
+        "Facts": 0.8632,
+        "Issue": 0.0003,
+        "Reasoning": 0.1214
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "In such cases, the employees would be paid interest at a rate 1 higher than what is payable by nationalized Banks for fixed deposits, on the delayed part of payment.",
+      "predicted_label": "Facts",
+      "confidence": 0.4966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0996,
+        "Arguments of Respondent": 0.0387,
+        "Decision": 0.0022,
+        "Facts": 0.4966,
+        "Issue": 0.0009,
+        "Reasoning": 0.362
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "The employees, it was provided, will not take recourse to any legal proceedings.",
+      "predicted_label": "Facts",
+      "confidence": 0.7049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.0374,
+        "Decision": 0.0004,
+        "Facts": 0.7049,
+        "Issue": 0.0011,
+        "Reasoning": 0.2361
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Clause 4(k) of VRS Agreement is material for the present purposes, for it provided that employees who will not opt for voluntary retirement, would be redeployed by the Company, if necessary, by reorganizing and restructuring manufacturing activities in any of the Industrial Units of the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.7527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.011,
+        "Decision": 0.0001,
+        "Facts": 0.7527,
+        "Issue": 0.0015,
+        "Reasoning": 0.2214
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Clause 4(k), inter alia, provided as followsThe remaining employees who will not opt for voluntary retirement under the Scheme will be redeployed and assigned work in any section, department or units of the Company without adversely affecting their service conditions.",
+      "predicted_label": "Facts",
+      "confidence": 0.9628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0001,
+        "Facts": 0.9628,
+        "Issue": 0.0002,
+        "Reasoning": 0.0312
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The employees and RMMS shall fully cooperate with the Company in the implementation of the Scheme and reorganizing and restructuring of its manufacturing activities in any of the Units, as per the requirement of the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.6129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.2006,
+        "Facts": 0.6129,
+        "Issue": 0.0007,
+        "Reasoning": 0.1662
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "The employees shall accept the work assigned to them and attend to it in the normal and peaceful manner and give the expected production every working day as per decision of the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0086,
+        "Facts": 0.9009,
+        "Issue": 0.0002,
+        "Reasoning": 0.078
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Wherever required the employees will be given necessary training by the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0596,
+        "Arguments of Respondent": 0.0207,
+        "Decision": 0.0017,
+        "Facts": 0.8467,
+        "Issue": 0.0011,
+        "Reasoning": 0.0703
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "After implementing the VRS the reorganization will be done in consultation with the RMMS.The Company, it was recorded, would be at liberty to dispose of excess or redundant plant and machinery including land and building for the purpose of raising funds for implementation of the VRS and for reorganizing and rationalizing its manufacturing activities in a more economic and viable manner.",
+      "predicted_label": "Facts",
+      "confidence": 0.6148,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0196,
+        "Arguments of Respondent": 0.0491,
+        "Decision": 0.0004,
+        "Facts": 0.6148,
+        "Issue": 0.0002,
+        "Reasoning": 0.3159
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "Immediately after the VRS agreements came to be signed, the Company by its letter dated 30th December 2002 furnished a schedule of payment to RMMS.",
+      "predicted_label": "Facts",
+      "confidence": 0.7688,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0135,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0003,
+        "Facts": 0.7688,
+        "Issue": 0.0008,
+        "Reasoning": 0.2039
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The schedule of payment provided that the payment on account of VRS, Exgratia, Encashment of Leave, Bonus for 2002 and Leave Travel Allowance would be paid in 25 installments initially between February and December 2003 when an installment of Rs.5,000/ per month would be paid.",
+      "predicted_label": "Facts",
+      "confidence": 0.9635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9635,
+        "Issue": 0.0003,
+        "Reasoning": 0.034
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Thereafter, between January 2004 and June 2004, an installment of Rs.10,000/ per month would be paid, while the balance would be paid in equal installments between August 2004 and March 2005.",
+      "predicted_label": "Facts",
+      "confidence": 0.9559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0002,
+        "Facts": 0.9559,
+        "Issue": 0.0002,
+        "Reasoning": 0.0331
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "In the event that the Company was unable to raise funds, it was stipulated, then in consultation with RMMS, the employees would be individually informed in which event they would be entitled to a higher rate of interest as provided in the agreement.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0002,
+        "Facts": 0.993,
+        "Issue": 0.0004,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The VRS agreements, as noted earlier, specifically provided that those employees who would not opt for voluntary retirement, would be redeployed and assigned work in any Section, Department or Unit of the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0302,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0003,
+        "Facts": 0.2058,
+        "Issue": 0.001,
+        "Reasoning": 0.7459
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The employees agreed to cooperate in the reorganization and restructuring of manufacturing activities.",
+      "predicted_label": "Facts",
+      "confidence": 0.7559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.0229,
+        "Decision": 0.0004,
+        "Facts": 0.7559,
+        "Issue": 0.0005,
+        "Reasoning": 0.2032
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "On 30th December 2002 at a meeting of the Board of Directors, the Chairman of the Board, informed the Board of the agreements for voluntary retirement and stated that he was hopeful that all the workmen would opt for VRS thus enabling the land development in Mumbai units as envisaged under the Draft Rehabilitation Scheme submitted to IDBI, the operating agency recently.",
+      "predicted_label": "Facts",
+      "confidence": 0.8987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0,
+        "Facts": 0.8987,
+        "Issue": 0.0003,
+        "Reasoning": 0.0894
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The Chairman stated that in the event that all the workmen at the Crown Mills Unit and the Process House Division did not opt for VRS, it would not be possible to properly reorganize or restructure the working of any unit in Mumbai with the small group of workers who may not opt for VRS and it would be impossible to run such operations except at heavy cash losses.",
+      "predicted_label": "Facts",
+      "confidence": 0.7605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0225,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.0002,
+        "Facts": 0.7605,
+        "Issue": 0.0003,
+        "Reasoning": 0.1951
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Therefore, opined the Chairman, the Company would have no alternative but to exercise an option of closure of all units in Mumbai i.e. A B Units at Mahalaxmi, C Unit at Dadar and Process House at Prabhadevi.",
+      "predicted_label": "Facts",
+      "confidence": 0.9481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0,
+        "Facts": 0.9481,
+        "Issue": 0.0003,
+        "Reasoning": 0.0359
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The Board thereupon passed a resolution authorising the making of an application for closure of the Mumbai Units under the Industrial Disputes Act, 1947.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0,
+        "Facts": 0.9936,
+        "Issue": 0.0002,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "On 10th April 2003, the Company moved applications under Section 25O of the Industrial Disputes Act, 1947 each in respect of the Crown Mills and the Process House Units before the Commissioner of Labour, Mumbai, which were treated as one application dated 2nd May, 2003 by consent of parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.9711,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0,
+        "Facts": 0.9711,
+        "Issue": 0.0002,
+        "Reasoning": 0.0203
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The annexure annexed thereto gave full particulars and details of the first appellant and the process house and Crown Division Unit as per requirement of law.",
+      "predicted_label": "Facts",
+      "confidence": 0.6056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1353,
+        "Arguments of Respondent": 0.072,
+        "Decision": 0.0017,
+        "Facts": 0.6056,
+        "Issue": 0.0005,
+        "Reasoning": 0.1849
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "These particulars included, inter aliaAnnual production for the preceding 3 years.",
+      "predicted_label": "Facts",
+      "confidence": 0.8125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0193,
+        "Arguments of Respondent": 0.0392,
+        "Decision": 0.0001,
+        "Facts": 0.8125,
+        "Issue": 0.0002,
+        "Reasoning": 0.1287
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The losses incurred by the Crown and Process House Units for the last three years.",
+      "predicted_label": "Facts",
+      "confidence": 0.4256,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1802,
+        "Arguments of Respondent": 0.0869,
+        "Decision": 0.0115,
+        "Facts": 0.4256,
+        "Issue": 0.005,
+        "Reasoning": 0.2908
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "Percentage of wages of workmen to the total cost of production.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.021,
+        "Arguments of Respondent": 0.0181,
+        "Decision": 0.0013,
+        "Facts": 0.3455,
+        "Issue": 0.0131,
+        "Reasoning": 0.6009
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "Administrative, general and selling costs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0029,
+        "Facts": 0.8905,
+        "Issue": 0.0067,
+        "Reasoning": 0.0818
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "Reasons for proposed closure.",
+      "predicted_label": "Facts",
+      "confidence": 0.7829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0012,
+        "Facts": 0.7829,
+        "Issue": 0.0191,
+        "Reasoning": 0.0632
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Attempts made by the appellant to avoid closure.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0288,
+        "Arguments of Respondent": 0.0252,
+        "Decision": 0.0005,
+        "Facts": 0.9108,
+        "Issue": 0.0001,
+        "Reasoning": 0.0346
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The respondent Union, on 1st May 2003, filed their replies to the above applications made by the appellant to the Commissioner of Labour for closure of two subject units.",
+      "predicted_label": "Facts",
+      "confidence": 0.991,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.991,
+        "Issue": 0.001,
+        "Reasoning": 0.0066
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "Similarly, respondent No.3, RMMS also filed its reply to support the said applications.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0001,
+        "Facts": 0.9885,
+        "Issue": 0.0009,
+        "Reasoning": 0.0022
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The Commissioner of Labour vide its order dated 30th June, 2003 granted permission under section 25(O)(2) of the I.D.Act for closure of two subject units for the details reasons recorded therein.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.9832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0001,
+        "Facts": 0.9832,
+        "Issue": 0.0002,
+        "Reasoning": 0.0068
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The respondent Union, on 2nd July, 2003, filed two applications for review under section 25 (O)(5) of the I.D.Act against the order dated 30th June, 2003.",
+      "predicted_label": "Facts",
+      "confidence": 0.987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.987,
+        "Issue": 0.0058,
+        "Reasoning": 0.0061
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "similarly, the appellant also filed two applications on 4th July, 2003 for review, inter alia contending that the Commissioner of Labour had exceeded its jurisdiction by putting certain onerous conditions while granting permission for closure of subject units.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.9845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0001,
+        "Facts": 0.9845,
+        "Issue": 0.0003,
+        "Reasoning": 0.0045
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The Commissioner of Labour by order dated 15th July, 2003, inter alia referred matters to the Industrial Tribunal under section 25(O)(5) of the I.D.Act.11.",
+      "predicted_label": "Facts",
+      "confidence": 0.9913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0,
+        "Facts": 0.9913,
+        "Issue": 0.0012,
+        "Reasoning": 0.0036
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "The appellant Mill filed its statement of claim wherein it stated that it was one of the oldest textile Companies in the country that had established a reputation in the domestic and export market.",
+      "predicted_label": "Facts",
+      "confidence": 0.9904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0,
+        "Facts": 0.9904,
+        "Issue": 0.0008,
+        "Reasoning": 0.0075
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The profitability is stated to have deteriorated from 199697 due to several factors beyond the control of the Company such as high labour costs, high cost of utilities such as power and water in Mumbai, unfair competition from small scale power loom sectors and various Government Policies favouring the decentralised sector.",
+      "predicted_label": "Facts",
+      "confidence": 0.5897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0982,
+        "Arguments of Respondent": 0.0842,
+        "Decision": 0.0003,
+        "Facts": 0.5897,
+        "Issue": 0.0013,
+        "Reasoning": 0.2264
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "The Company sustained net losses of Rs.9.40 crore in 199798 which increased to Rs.46.60 crore in 200001 and as of 30th September 2002, the cumulative losses were stated to be Rs.185 crore.",
+      "predicted_label": "Facts",
+      "confidence": 0.8414,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0406,
+        "Arguments of Respondent": 0.0227,
+        "Decision": 0.0001,
+        "Facts": 0.8414,
+        "Issue": 0.0006,
+        "Reasoning": 0.0947
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Company, it was stated, had to make a reference to the BIFR under the Sick Industrial Companies (Special Provisions) Act, 1985 since as of 31st March 2001 its net worth stood eroded.",
+      "predicted_label": "Facts",
+      "confidence": 0.8906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0454,
+        "Arguments of Respondent": 0.0335,
+        "Decision": 0.0002,
+        "Facts": 0.8906,
+        "Issue": 0.0028,
+        "Reasoning": 0.0277
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "The BIFR had declared the Company as a Sick Industrial Undertaking on 4th December 2002.",
+      "predicted_label": "Facts",
+      "confidence": 0.7793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0263,
+        "Arguments of Respondent": 0.0247,
+        "Decision": 0.0014,
+        "Facts": 0.7793,
+        "Issue": 0.0043,
+        "Reasoning": 0.164
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "In support of its proposal to close down the undertakings, the Company claimed that many composite mills at Mumbai including the appellant Mill had become sick and had closed down or were proposing closure due to the following reasons(a) Government policies The Company claimed that the decentralized sector has been a recipient of several concessions and exemptions in fiscal, trade and labour policies.",
+      "predicted_label": "Facts",
+      "confidence": 0.973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0,
+        "Facts": 0.973,
+        "Issue": 0.0006,
+        "Reasoning": 0.0131
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "The excise duty structure and quota policy were alleged to be biased towards the small scale and decentralized sectors(b) Attempts to rectify anomalies in Government policies were alleged not to have borne fruit.",
+      "predicted_label": "Facts",
+      "confidence": 0.7167,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1977,
+        "Arguments of Respondent": 0.0321,
+        "Decision": 0.0004,
+        "Facts": 0.7167,
+        "Issue": 0.0015,
+        "Reasoning": 0.0517
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "(c) Fiscal policies of the State Government and the Municipal Corporation were alleged to be against the interest of the textile industry in Mumbai and municipal charges for water, a major input for textile production, were stated to be highest in the world(d) Unfair competition from the unorganized sector which has enjoyed concessions and also resorted to evasive practices(e) High labour cost, low level of productivity and high input cost in Mumbai Mills(f)",
+      "predicted_label": "Facts",
+      "confidence": 0.6457,
+      "probabilities": {
+        "Arguments of Petitioner": 0.287,
+        "Arguments of Respondent": 0.0407,
+        "Decision": 0.0002,
+        "Facts": 0.6457,
+        "Issue": 0.002,
+        "Reasoning": 0.0244
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "Constraints to modernization on account of resources (g) Over capacities in the global market affecting the margins for exports(h) Increased debt burden due to interest liabilities and funding of cash losses.12.",
+      "predicted_label": "Facts",
+      "confidence": 0.7838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1185,
+        "Arguments of Respondent": 0.0572,
+        "Decision": 0.0002,
+        "Facts": 0.7838,
+        "Issue": 0.0006,
+        "Reasoning": 0.0397
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "The Company contended that it had attempted to avoid closure during the previous two or three years by discussing and trying out various alternatives in the productmix and marketing supply chain.",
+      "predicted_label": "Facts",
+      "confidence": 0.8507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.016,
+        "Arguments of Respondent": 0.0567,
+        "Decision": 0.0001,
+        "Facts": 0.8507,
+        "Issue": 0.0006,
+        "Reasoning": 0.0758
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "The Company, it was stated, attempted financial restructuring with the help of financial institutions and in order to reduce the interest burden but this could not result in improving the position.",
+      "predicted_label": "Facts",
+      "confidence": 0.7728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0742,
+        "Arguments of Respondent": 0.0979,
+        "Decision": 0.0001,
+        "Facts": 0.7728,
+        "Issue": 0.001,
+        "Reasoning": 0.054
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The promoters were stated to have brought in funds to improve liquidity and some funds were raised by development of property in Mumbai.",
+      "predicted_label": "Facts",
+      "confidence": 0.71,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1187,
+        "Arguments of Respondent": 0.0781,
+        "Decision": 0.0001,
+        "Facts": 0.71,
+        "Issue": 0.001,
+        "Reasoning": 0.0921
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "Finally, it was stated that following the VRS agreement dated 29th December 2002, 347 employees at the Crown Mills Unit and 242 employees at the Process House Unit had not opted for voluntary retirement and since the majority of the employees had opted for VRS, it was impossible to continue operations except at heavy cash losses.",
+      "predicted_label": "Facts",
+      "confidence": 0.7591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0804,
+        "Arguments of Respondent": 0.127,
+        "Decision": 0.0001,
+        "Facts": 0.7591,
+        "Issue": 0.0019,
+        "Reasoning": 0.0314
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "The Company claimed that with this small group of employees, it was not possible to properly reorganize or restructure the working of the unit and run the same viably.13.",
+      "predicted_label": "Facts",
+      "confidence": 0.9266,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0136,
+        "Arguments of Respondent": 0.0213,
+        "Decision": 0.0001,
+        "Facts": 0.9266,
+        "Issue": 0.0002,
+        "Reasoning": 0.0383
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "The respondent Union filed their written statement to the statement of claim made by the appellant Mill to oppose prayer for grant of permission under section 25(O)(2) of the I.D.Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0539,
+        "Decision": 0.0012,
+        "Facts": 0.8802,
+        "Issue": 0.0022,
+        "Reasoning": 0.059
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "The details of which are given in the later part of this judgment.14.",
+      "predicted_label": "Facts",
+      "confidence": 0.8753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0134,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0001,
+        "Facts": 0.8753,
+        "Issue": 0.0008,
+        "Reasoning": 0.1047
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "Evidence was adduced before the Industrial Tribunal both on the part of the management as well as on behalf of the Union.",
+      "predicted_label": "Facts",
+      "confidence": 0.9166,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0096,
+        "Decision": 0.0002,
+        "Facts": 0.9166,
+        "Issue": 0.0039,
+        "Reasoning": 0.0642
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "The Industrial Tribunal, directed that the closure compensation shall be paid within a period of 30 days and that workmen would be granted the closure compensation or payment due under the VRS agreement dated 29th December 2002, whichever was more beneficial.",
+      "predicted_label": "Facts",
+      "confidence": 0.7401,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0025,
+        "Facts": 0.7401,
+        "Issue": 0.0038,
+        "Reasoning": 0.2133
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "The Industrial Tribunal also directed that VRS payments due to employees, who were still to be paid, should similarly be discharged and paid within a period of 30 days.",
+      "predicted_label": "Facts",
+      "confidence": 0.9456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0002,
+        "Facts": 0.9456,
+        "Issue": 0.0035,
+        "Reasoning": 0.0442
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "Not satisfied with the aforesaid award of the Industrial Tribunal, both appellant Mill as well as Union filed writ petitions in this Court referred to in the opening part of the judgment.",
+      "predicted_label": "Facts",
+      "confidence": 0.9877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0006,
+        "Facts": 0.9877,
+        "Issue": 0.0043,
+        "Reasoning": 0.0068
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "The learned single Judge, vide his judgment and order dated 21st February, 2005, was pleased to set aside the award of the Industrial Tribunal and the petitions came to be disposed of in terms of para43 of the said judgment.",
+      "predicted_label": "Facts",
+      "confidence": 0.9909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9909,
+        "Issue": 0.0033,
+        "Reasoning": 0.0046
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "Being aggrieved by the aforesaid judgment and order of the learned single Judge, the appellant Mill filed two appeals being Appeal Nos.364/2005 and 458/2005 setting up various legal and factual challenges dealt with hereinafter, whereas respondent Union also filed an appeal bearing No.441/2005 to claim higher financial reliefs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.0001,
+        "Facts": 0.9965,
+        "Issue": 0.0021,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Mr.Rafiq Dada, learned senior counsel, appearing for the appellantMill, submitted that the learned single Judge applied the wrong test in coming to the conclusion that the closure of the two Mumbai Unit was not justified and went on to misread the judgment of the Honble Supreme Court in the case of Orissa Textiles (2002) 2 SCC 578.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.991,
+      "probabilities": {
+        "Arguments of Petitioner": 0.991,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.0049,
+        "Issue": 0.0005,
+        "Reasoning": 0.0026
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "He further submits that the Apex Court in the case of Orissa Textiles has upheld the constitutional validity of the amended section 25O of the Industrial Disputes Act, 1947 (I.D.Act for short) and further held that section 25O lays down reasonable restrictions on the right to close down a business.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4176,
+        "Arguments of Respondent": 0.5478,
+        "Decision": 0.0002,
+        "Facts": 0.0287,
+        "Issue": 0.001,
+        "Reasoning": 0.0048
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 74,
+      "text": "He further submits that the learned single Judge did not read para18 of the Orissa Textiles judgment in its proper perspective.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.675,
+        "Arguments of Respondent": 0.3064,
+        "Decision": 0.0002,
+        "Facts": 0.0078,
+        "Issue": 0.0002,
+        "Reasoning": 0.0105
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "According to him, para18 of the said judgment lays down test of impossibility to justify closure.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7038,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7038,
+        "Arguments of Respondent": 0.2758,
+        "Decision": 0.0002,
+        "Facts": 0.0062,
+        "Issue": 0.0002,
+        "Reasoning": 0.0137
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "According to him, the passage extracted by the learned single Judge, if read in the context of the immediately preceding passage of the Orissa Textiles judgment, then one has to conclude that Orissa Textiles does not lay down the impossibility test for the purpose of section 25O (1) of the I.D.Act but the said observations were made in the context of closure due to exceptional circumstances contemplated in section 25O(7) of the I.D.Act.18.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6377,
+        "Arguments of Respondent": 0.3341,
+        "Decision": 0.0001,
+        "Facts": 0.0065,
+        "Issue": 0.0001,
+        "Reasoning": 0.0215
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "Alternatively, it is urged that even if the test of impossibility was held to be correctly applied in the facts of the present case, considering the reasoning given by the learned single Judge that test has been satisfied.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5792,
+        "Arguments of Respondent": 0.3938,
+        "Decision": 0.0003,
+        "Facts": 0.0046,
+        "Issue": 0.0005,
+        "Reasoning": 0.0216
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 78,
+      "text": "In order to buttress this submission, Mr.Dada relied upon paras39, 40 and 41 of the impugned judgment wherein the learned single Judge has recorded that there has been a closure in fact, and that what remains was a shell of a textile mill.19.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6717,
+        "Arguments of Respondent": 0.3047,
+        "Decision": 0.0001,
+        "Facts": 0.0042,
+        "Issue": 0.0002,
+        "Reasoning": 0.0191
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "Mr.Dada also relied upon the observations of the learned single Judge wherein he has noted that the sanctioned scheme of the BIFR (upheld by AAIFR) contemplates that the land of the Mill at Mumbai would be sold to three Special Purpose Vehicles (SPVs for short) and the funds that would be generated, would be applied towards repayment of the dues of the secured lenders, banks and financial institutions, dues of workers and other statutory authorities.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.72,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2353,
+        "Arguments of Respondent": 0.72,
+        "Decision": 0.0004,
+        "Facts": 0.0236,
+        "Issue": 0.0004,
+        "Reasoning": 0.0204
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "He further submits that the sanctioned scheme is, in fact, in the process of being implemented three SPVs have been incorporated and the lands of the two units in Mumbai have, in fact, been transferred to the SPVs.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7433,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2421,
+        "Arguments of Respondent": 0.7433,
+        "Decision": 0.0003,
+        "Facts": 0.0079,
+        "Issue": 0.0001,
+        "Reasoning": 0.0063
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "He further submitted that in this context, the learned single Judge has noted that it is impossible to visualize a situation where the manufacturing operations in the Mumbai Mill can commence since the plant and machinery have all been sold.20.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6283,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3474,
+        "Arguments of Respondent": 0.6283,
+        "Decision": 0.0002,
+        "Facts": 0.0118,
+        "Issue": 0.0001,
+        "Reasoning": 0.0123
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "Mr.Dada also tried to encash the finding recorded by the learned single Judge in the impugned judgment wherein he has recorded that AAIFR has proceeded on the basis that the unviability of the two Mumbai units was established and that a sanctioned scheme for rehabilitation exits, which is based on the closure of the two Mumbai units.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.935,
+      "probabilities": {
+        "Arguments of Petitioner": 0.935,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0002,
+        "Facts": 0.0047,
+        "Issue": 0.0002,
+        "Reasoning": 0.0309
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "It is, in this context, that the learned single Judge has noted that restarting operations of the Mumbai units have been rendered impossible s a result of the sale of the plant and machinery.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7537,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0317,
+        "Arguments of Respondent": 0.0298,
+        "Decision": 0.0018,
+        "Facts": 0.1828,
+        "Issue": 0.0001,
+        "Reasoning": 0.7537
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "Having regard to the above findings, Mr.Dada submitted that on learned Judges own findings, the test of impossibility stands satisfied.21.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2568,
+        "Arguments of Respondent": 0.7129,
+        "Decision": 0.0004,
+        "Facts": 0.0075,
+        "Issue": 0.0001,
+        "Reasoning": 0.0222
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "Mr.Dada further urged that the learned single Judge has taken cognizance of the fact that the sanctioned scheme exists.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0813,
+        "Arguments of Respondent": 0.8724,
+        "Decision": 0.0007,
+        "Facts": 0.0154,
+        "Issue": 0.0002,
+        "Reasoning": 0.0301
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "The scheme sanctioned by the B.I.F.R. And upheld by AAIFR records the total losses of the Company, its liabilities to secured creditors and workers and finds that the existing debt burden of Rs.202 crore (i.e. Term loan and working capital only) was beyond the sustainable capacity of manufacturing operations of the appellant Mill and that the operations of the Mill at Mumbai had become inviable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5167,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0684,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0037,
+        "Facts": 0.4025,
+        "Issue": 0.0007,
+        "Reasoning": 0.5167
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 87,
+      "text": "He, thus, reiterates that the test of financial impossibility was satisfied in the facts of the present case.22.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2944,
+        "Arguments of Respondent": 0.6859,
+        "Decision": 0.0002,
+        "Facts": 0.0037,
+        "Issue": 0.0001,
+        "Reasoning": 0.0157
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 88,
+      "text": "Mr.Dada further submits that under section 25O(1), once adequate and sufficient reasons have been made out justifying closure, permission for closure should ordinarily follow unless there is overriding public interest or some other relevant factor which requires permission to be refused.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1916,
+        "Arguments of Respondent": 0.7939,
+        "Decision": 0.0003,
+        "Facts": 0.0035,
+        "Issue": 0.0002,
+        "Reasoning": 0.0104
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "In his submission, in the instant case, there was no such overriding public interest or any other relevant factor pointed out.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5336,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5336,
+        "Arguments of Respondent": 0.4429,
+        "Decision": 0.0002,
+        "Facts": 0.0029,
+        "Issue": 0.0002,
+        "Reasoning": 0.0203
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 90,
+      "text": "As such, he submits that the impugned judgment not only suffers from the error apparent on face of record but also suffers from the contradictory findings on the issue of test of impossibility.23.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9555,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9555,
+        "Arguments of Respondent": 0.0367,
+        "Decision": 0.0001,
+        "Facts": 0.0023,
+        "Issue": 0.0003,
+        "Reasoning": 0.0052
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "Mr.Dada urged that the impugned judgment records that this was a case of no evidence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8629,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8629,
+        "Arguments of Respondent": 0.0579,
+        "Decision": 0.0017,
+        "Facts": 0.0072,
+        "Issue": 0.0006,
+        "Reasoning": 0.0697
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "While taking us to the voluminous evidence on record including oral evidence and crossexamination of the VicePresident of the appellant Mill Mr.Madhav Ghaisas, he urged that it is impossible to conclude that it is a case of no evidence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8216,
+        "Arguments of Respondent": 0.1217,
+        "Decision": 0.0003,
+        "Facts": 0.0022,
+        "Issue": 0.0001,
+        "Reasoning": 0.0541
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "In his submission, the grounds leading to closure disclosed in the applications and reiterated in the statement of claim filed before the Industrial Tribunal were admitted by the respondent Union and upon acceptance of existence of such grounds tried to plead and make out that the Mill management was responsible for creating such irreversible situation, which, according to him, Union failed to establish and discharge burden which was voluntary taken upon itself by the Union.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7605,
+        "Arguments of Respondent": 0.2231,
+        "Decision": 0.0001,
+        "Facts": 0.0056,
+        "Issue": 0.0003,
+        "Reasoning": 0.0105
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "Mr.Dada submits that the applications for closure filed by the appellant Mill were in prescribed form wherein following facts were set out.(i) Annual production for the preceding 3 years(ii) Production figures, monthwise, for the preceding twelve months(iii) Workinprogress, item wise and valuewise(iv) Position of the Order book, itemwise and value wise(v) Financial position of the Appellant(vi)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9095,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0728,
+        "Arguments of Respondent": 0.9095,
+        "Decision": 0.0002,
+        "Facts": 0.0075,
+        "Issue": 0.0001,
+        "Reasoning": 0.0098
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "The losses incurred by the Crown and Process House Units for the last three years(vii) Percentage of wages of workmen to the total cost of production(viii) Administrative, general and selling costs(ix) Inventory position, itemwise and value wise(x) Annual Sales figures for the last 3 years(xi) Reasons for proposed closure and(xii)",
+      "predicted_label": "Facts",
+      "confidence": 0.7819,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0838,
+        "Arguments of Respondent": 0.0571,
+        "Decision": 0.0004,
+        "Facts": 0.7819,
+        "Issue": 0.0036,
+        "Reasoning": 0.0731
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "Attempts made by the Appellant to avoid closure.25.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7726,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0569,
+        "Arguments of Respondent": 0.0561,
+        "Decision": 0.0125,
+        "Facts": 0.1018,
+        "Issue": 0.0002,
+        "Reasoning": 0.7726
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "Mr.Dada further submits that in support of each of the fact the appellant Mill led oral evidence of Mr.Ghaisas, VicePresident of the Mill.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5059,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4679,
+        "Arguments of Respondent": 0.5059,
+        "Decision": 0.0002,
+        "Facts": 0.0102,
+        "Issue": 0.0002,
+        "Reasoning": 0.0156
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 98,
+      "text": "Mr.Dada took us through the evidence of Mr.Ghaisas in support of his submissions.26.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6429,
+      "probabilities": {
+        "Arguments of Petitioner": 0.313,
+        "Arguments of Respondent": 0.6429,
+        "Decision": 0.0002,
+        "Facts": 0.0023,
+        "Issue": 0.0001,
+        "Reasoning": 0.0415
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "Mr.Dada while proceeding with his submission also urged that the learned single Judge had no jurisdiction or power to award any VRS compensation to the workmen who had not opted for VRS.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8126,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8126,
+        "Arguments of Respondent": 0.0968,
+        "Decision": 0.0006,
+        "Facts": 0.0063,
+        "Issue": 0.0002,
+        "Reasoning": 0.0835
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "In his submission, the quantum awarded is abnormally high.27.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8525,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8525,
+        "Arguments of Respondent": 0.1232,
+        "Decision": 0.0002,
+        "Facts": 0.0032,
+        "Issue": 0.0003,
+        "Reasoning": 0.0206
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "Mr.Dada also relied upon the subsequent decision of the Division Bench of this Court in Writ Petition No.462/2005 filed by the respondentUnion challenging the decision of the AAIFR wherein the contentions of the Union were that the scheme as framed permitting the closure of the undertakings in Mumbai were only viable undertakings in as much as B.I.F.R. And AAIFR have not considered those aspects have been turned down.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8527,
+        "Arguments of Respondent": 0.1266,
+        "Decision": 0.0006,
+        "Facts": 0.0057,
+        "Issue": 0.0003,
+        "Reasoning": 0.0142
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "Mr.Dada also relied upon the findings recorded therein that B.I.F.R.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5869,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3077,
+        "Arguments of Respondent": 0.5869,
+        "Decision": 0.0014,
+        "Facts": 0.052,
+        "Issue": 0.0005,
+        "Reasoning": 0.0515
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 103,
+      "text": "Rightly declared appellantMill (respondent No.1 therein) as sick company within the meaning of the Sick Industrial Companies Act, 1985.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5044,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0972,
+        "Arguments of Respondent": 0.0617,
+        "Decision": 0.1779,
+        "Facts": 0.1451,
+        "Issue": 0.0136,
+        "Reasoning": 0.5044
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 104,
+      "text": "He further urged that the said order of the Division Bench also records that the member of the Union (petitioner therein) themselves have secured the financial benefits under the said scheme.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6954,
+        "Arguments of Respondent": 0.2737,
+        "Decision": 0.0001,
+        "Facts": 0.008,
+        "Issue": 0.0003,
+        "Reasoning": 0.0225
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 105,
+      "text": "Based on these findings, he urged that the respondent Union is estopped from challenging that the appellant mill is not a sick company and that the said order would also operate as res judicata so far as the finding of sickness of the Mill is concerned, since the said judgment and order is accepted by the Union and has become final and conclusive between the parties to that petition.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7718,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7718,
+        "Arguments of Respondent": 0.1417,
+        "Decision": 0.0001,
+        "Facts": 0.0585,
+        "Issue": 0.0008,
+        "Reasoning": 0.0271
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "Mr.Dada, thus, prayed for setting aside the impugned judgment and order of the learned single Judge and sought restoration of the order of the Industrial Tribunal.28.",
+      "predicted_label": "Facts",
+      "confidence": 0.6902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2543,
+        "Arguments of Respondent": 0.0388,
+        "Decision": 0.0006,
+        "Facts": 0.6902,
+        "Issue": 0.0011,
+        "Reasoning": 0.0151
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 107,
+      "text": "Ms. Hutoxi Tavadia appearing with Mr.Anurag Gokhale, learned counsel for the supporting union i.e. Rashtriya Mill Mazdoor Sangh tried to adopt the submissions made by Mr.Dada and in addition thereto urged that the Union acted in a bona fide manner and in interest of its members.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8204,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1737,
+        "Arguments of Respondent": 0.8204,
+        "Decision": 0.0001,
+        "Facts": 0.0016,
+        "Issue": 0.0002,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "Mr.N.M.Ganguli, learned counsel appearing for the respondent Union submits that the applications for closure were made in absence of any authorisation from the appellant Mill as such they were not backed by any authority of law.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9895,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.9895,
+        "Decision": 0.0001,
+        "Facts": 0.0016,
+        "Issue": 0.0002,
+        "Reasoning": 0.0065
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "According to him, under section 293(1)(a) of the Companies Act, the Board of Directors have no authority to decide to close down the undertakings.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4713,
+        "Arguments of Respondent": 0.458,
+        "Decision": 0.0002,
+        "Facts": 0.0445,
+        "Issue": 0.0004,
+        "Reasoning": 0.0256
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 110,
+      "text": "Permission of the shareholders and the Company was necessary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1299,
+        "Arguments of Respondent": 0.1518,
+        "Decision": 0.0021,
+        "Facts": 0.2592,
+        "Issue": 0.0005,
+        "Reasoning": 0.4565
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 111,
+      "text": "It was not obtained.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2233,
+        "Arguments of Respondent": 0.0769,
+        "Decision": 0.0096,
+        "Facts": 0.1846,
+        "Issue": 0.0063,
+        "Reasoning": 0.4993
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 112,
+      "text": "According to him, the President of the Company, who signed the applications for closure, or any other executive or director of the Company is not permitted in law to make such applications.30.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5239,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5239,
+        "Arguments of Respondent": 0.3471,
+        "Decision": 0.0002,
+        "Facts": 0.0355,
+        "Issue": 0.0002,
+        "Reasoning": 0.0931
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 113,
+      "text": "In the submission of Mr.Ganguli the applications made were vague and did not furnish particulars and proof of statements made therein.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5014,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5014,
+        "Arguments of Respondent": 0.4196,
+        "Decision": 0.0003,
+        "Facts": 0.0034,
+        "Issue": 0.0002,
+        "Reasoning": 0.0752
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 114,
+      "text": "According to him, even before the Tribunal no evidence was produced by the Company in support of the statements made in the applications.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6456,
+        "Arguments of Respondent": 0.305,
+        "Decision": 0.0001,
+        "Facts": 0.0193,
+        "Issue": 0.0001,
+        "Reasoning": 0.0299
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 115,
+      "text": "According to him the Industrial Tribunal misunderstood section 25O(2) (5) of the I.D.Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9484,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9484,
+        "Arguments of Respondent": 0.0306,
+        "Decision": 0.0001,
+        "Facts": 0.0028,
+        "Issue": 0.0002,
+        "Reasoning": 0.018
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "That the Mill management could not prove any of the allegations made in the applications including the comparative cost of production of the appellantMill visvis other mills in organized and unorganized sectors in Mumbai and elsewhere.",
+      "predicted_label": "Facts",
+      "confidence": 0.7486,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1944,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.001,
+        "Facts": 0.7486,
+        "Issue": 0.0022,
+        "Reasoning": 0.0477
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "That the appellant Mill could not establish the unviability of the units proposed to be closed.31.",
+      "predicted_label": "Facts",
+      "confidence": 0.7095,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0533,
+        "Arguments of Respondent": 0.0338,
+        "Decision": 0.001,
+        "Facts": 0.7095,
+        "Issue": 0.0002,
+        "Reasoning": 0.2022
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "In the submission of Mr.Ganguli, the documents submitted cannot be accepted as evidence by mere production thereof.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5911,
+        "Arguments of Respondent": 0.3387,
+        "Decision": 0.0004,
+        "Facts": 0.0019,
+        "Issue": 0.0002,
+        "Reasoning": 0.0677
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 119,
+      "text": "In his submission, Mr.Ghaisas, who was examined, was not the author of the documents which were referred to by him in his evidence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6248,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6248,
+        "Arguments of Respondent": 0.3019,
+        "Decision": 0.0001,
+        "Facts": 0.0271,
+        "Issue": 0.0002,
+        "Reasoning": 0.0458
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "According to Mr.Ganguli, Mr.Tidkes evidence by no means support the case of the management for closure.32.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7396,
+        "Arguments of Respondent": 0.1958,
+        "Decision": 0.0003,
+        "Facts": 0.0016,
+        "Issue": 0.0002,
+        "Reasoning": 0.0625
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "According to him, the closure of Mumbai units of the Mill was a calculated attempt to commercially exploit the real estate.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3074,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3074,
+        "Arguments of Respondent": 0.2479,
+        "Decision": 0.0002,
+        "Facts": 0.1459,
+        "Issue": 0.0002,
+        "Reasoning": 0.2985
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 122,
+      "text": "That the gradual reduction in the production of the Mumbai units was intentional, deliberate and calculated.",
+      "predicted_label": "Facts",
+      "confidence": 0.5477,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1356,
+        "Arguments of Respondent": 0.1795,
+        "Decision": 0.0004,
+        "Facts": 0.5477,
+        "Issue": 0.0002,
+        "Reasoning": 0.1366
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 123,
+      "text": "Mr.Ganguli submits that the applications for closure did not contain genuine and bona fide reasons.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7283,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7283,
+        "Arguments of Respondent": 0.2614,
+        "Decision": 0.0004,
+        "Facts": 0.002,
+        "Issue": 0.0002,
+        "Reasoning": 0.0077
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "According to him, having regard to the over all situation, the reasons for the closure given could not be said to be adequate.34.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6021,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6021,
+        "Arguments of Respondent": 0.2197,
+        "Decision": 0.0002,
+        "Facts": 0.1369,
+        "Issue": 0.0002,
+        "Reasoning": 0.0409
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 125,
+      "text": "Mr.Ganguli further submits that the witnesses examined on behalf of the workmen have stated on oath that the existing number of employees after the VRS were sufficient to run the Mill, which was not controverted by the management.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6881,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6881,
+        "Arguments of Respondent": 0.302,
+        "Decision": 0.0002,
+        "Facts": 0.0015,
+        "Issue": 0.0002,
+        "Reasoning": 0.008
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 126,
+      "text": "He submits that the closure of the Mill has rendered 600 employees unemployed as such closure was not in the public interest.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4039,
+        "Arguments of Respondent": 0.2273,
+        "Decision": 0.0011,
+        "Facts": 0.3017,
+        "Issue": 0.0009,
+        "Reasoning": 0.0652
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 127,
+      "text": "That the Mill units are more than 100 years old which alone should discourage their closure.",
+      "predicted_label": "Facts",
+      "confidence": 0.7884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0596,
+        "Arguments of Respondent": 0.0391,
+        "Decision": 0.0013,
+        "Facts": 0.7884,
+        "Issue": 0.0003,
+        "Reasoning": 0.1113
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "Mr.Ganguli submits that the learned single Judge was fully justified in holding that the closure was illegal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5081,
+      "probabilities": {
+        "Arguments of Petitioner": 0.478,
+        "Arguments of Respondent": 0.5081,
+        "Decision": 0.0004,
+        "Facts": 0.0016,
+        "Issue": 0.0003,
+        "Reasoning": 0.0118
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 129,
+      "text": "That, once the closure is held to be illegal, the consequence laid down under section 25O(6) of the I.D.Act must follow.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2354,
+        "Arguments of Respondent": 0.1315,
+        "Decision": 0.0019,
+        "Facts": 0.0555,
+        "Issue": 0.0007,
+        "Reasoning": 0.575
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "The workmen are entitled to all the benefits under the law as if the undertaking has not been closed down.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8355,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0691,
+        "Arguments of Respondent": 0.0282,
+        "Decision": 0.0026,
+        "Facts": 0.0641,
+        "Issue": 0.0006,
+        "Reasoning": 0.8355
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "In his submission, right to work is an integral part of Article 21 of the Constitution of India and condition of contract of employment.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4098,
+        "Arguments of Respondent": 0.5663,
+        "Decision": 0.0002,
+        "Facts": 0.0101,
+        "Issue": 0.0005,
+        "Reasoning": 0.0131
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 132,
+      "text": "He submits that the management should restart the Mill by bringing back the machinery and employing suitable persons including the workers affected by the closure and pay to them wages and other benefits under the law of contract of employment.36.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4394,
+        "Arguments of Respondent": 0.4298,
+        "Decision": 0.001,
+        "Facts": 0.031,
+        "Issue": 0.0001,
+        "Reasoning": 0.0987
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 133,
+      "text": "Mr.Ganguli further submits that the compensation provided under section 25O(8) is not adequate to offset the rigor of unemployment.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.809,
+        "Arguments of Respondent": 0.1576,
+        "Decision": 0.0004,
+        "Facts": 0.003,
+        "Issue": 0.0004,
+        "Reasoning": 0.0297
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "The workers are not capable of securing alternate employment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8264,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0637,
+        "Arguments of Respondent": 0.038,
+        "Decision": 0.0014,
+        "Facts": 0.0703,
+        "Issue": 0.0003,
+        "Reasoning": 0.8264
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "If the closure is illegal then the employees are entitled to full wages till their retirement under the contract of employment as if there was no closure in terms of section 25O(6) of the I.D.Act.37.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0342,
+        "Arguments of Respondent": 0.027,
+        "Decision": 0.0027,
+        "Facts": 0.047,
+        "Issue": 0.0011,
+        "Reasoning": 0.888
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "Mr.Ganguli submits that the only alternative left is to adopt the formula laid down by the Apex Court in the case of O.P.Bhandari though it is not intended for blue coloured workers having regard to the current rate of interest and other factors as such the minimum compensation required to be paid to the workers could be 150 months wages so that on investment of the balance amount, after providing for incometax and debt obligations, the worker might get amount equivalent to 50 of the wages by way of return on the investments.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6906,
+        "Arguments of Respondent": 0.2843,
+        "Decision": 0.0005,
+        "Facts": 0.0042,
+        "Issue": 0.0001,
+        "Reasoning": 0.0203
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 137,
+      "text": "That the worker should get the wages up to the date of the order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6436,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0773,
+        "Arguments of Respondent": 0.0838,
+        "Decision": 0.0126,
+        "Facts": 0.1808,
+        "Issue": 0.0019,
+        "Reasoning": 0.6436
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 138,
+      "text": "In his submission, the liability on this account is capable of being met by the Mill with soaring prices of the real estate.38.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5032,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4308,
+        "Arguments of Respondent": 0.5032,
+        "Decision": 0.0003,
+        "Facts": 0.0131,
+        "Issue": 0.0002,
+        "Reasoning": 0.0524
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 139,
+      "text": "Mr.Ganguli submits that there will be no question of any discrimination between the workers affected by closure and the workers who had opted for VRS under the agreement dated 29th December, 2002, since they have opted for VRS with their eyes open knowing fully well the consequences of the agreement and receipt paltry sums thereunder.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7288,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7288,
+        "Arguments of Respondent": 0.2616,
+        "Decision": 0.0002,
+        "Facts": 0.0011,
+        "Issue": 0.0003,
+        "Reasoning": 0.0081
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "He submits that the said workers have not only received the VRS amount but also interest thereon on account of delayed payment and Rs.25,000/ additional by way of exgratia payment (Bakshis).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5028,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5028,
+        "Arguments of Respondent": 0.392,
+        "Decision": 0.0029,
+        "Facts": 0.0692,
+        "Issue": 0.0005,
+        "Reasoning": 0.0326
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 141,
+      "text": "He, thus, submits that the appeals filed by the Mill deserve to be dismissed, whereas appeal filed by the Union deserves to be allowed with costs.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0282,
+        "Arguments of Respondent": 0.9606,
+        "Decision": 0.002,
+        "Facts": 0.0009,
+        "Issue": 0.0001,
+        "Reasoning": 0.0082
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "Statement of claim filed by the appellant mill is dated 8th September, 2003.",
+      "predicted_label": "Facts",
+      "confidence": 0.6565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0135,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0054,
+        "Facts": 0.6565,
+        "Issue": 0.0074,
+        "Reasoning": 0.3092
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 143,
+      "text": "Besides preliminary objection to the tenability of the reference (which appellant did not press at this stage), the appellantMill has stated that the Company had filed two separate applications under Form XXIVC under Section 25(01) of the Industrial Disputes Act, both dated 1042003 subsequently treated as having been made on 2nd May, 2003 seeking permission to close two subject undertakings of the Company, namely (1) Crown Mill at Gokhale Road (South) Prabhadevi, Mumbai and (2) Process House at Yadav Patil Lane, Veer Savarkar Marg, Prabhadevi, Mumbai.",
+      "predicted_label": "Facts",
+      "confidence": 0.736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0762,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0008,
+        "Facts": 0.736,
+        "Issue": 0.0003,
+        "Reasoning": 0.1763
+      }
+    },
+    {
+      "sentence_id": 144,
+      "text": "The Commissioner of Labour by common order dated 30th June, 2003 was pleased to grant permission for closure of the said two units for the reasons recorded therein.54.",
+      "predicted_label": "Facts",
+      "confidence": 0.8778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0281,
+        "Decision": 0.0001,
+        "Facts": 0.8778,
+        "Issue": 0.0003,
+        "Reasoning": 0.0844
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "The appellant Mill while placing reliance on the contents of the aforesaid two applications produced some additional documents and pleaded that when the applications for permission in the prescribed form were made the financial position was showing loss of Rs.185 crore which was further deteriorated resulting in further carry forward losses in the sum Rs.237 crore for the quarter ending 30th June, 2003.",
+      "predicted_label": "Facts",
+      "confidence": 0.9593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0002,
+        "Facts": 0.9593,
+        "Issue": 0.0001,
+        "Reasoning": 0.0302
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "55.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.837,
+        "Arguments of Respondent": 0.0591,
+        "Decision": 0.0044,
+        "Facts": 0.0063,
+        "Issue": 0.0259,
+        "Reasoning": 0.0674
+      }
+    },
+    {
+      "sentence_id": 147,
+      "text": "It was also pleaded that none of the two units could work economically.",
+      "predicted_label": "Facts",
+      "confidence": 0.9414,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0123,
+        "Decision": 0.0001,
+        "Facts": 0.9414,
+        "Issue": 0.0024,
+        "Reasoning": 0.0314
+      }
+    },
+    {
+      "sentence_id": 148,
+      "text": "An anxiety was expressed in the pleadings by the appellantMill that in the event permission to close down the aforementioned two units was not granted the Company would be required to face liquidation proceedings.",
+      "predicted_label": "Facts",
+      "confidence": 0.6604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0863,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0024,
+        "Facts": 0.6604,
+        "Issue": 0.0006,
+        "Reasoning": 0.2421
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 149,
+      "text": "That is how, the permission granted by the Commissioner of Labour dated 3062003 was sought to be supported and prayer to maintain the order granting permission to closure was made before the Industrial Tribunal through statement of claim filed by the appellant Mill.56.",
+      "predicted_label": "Facts",
+      "confidence": 0.742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0002,
+        "Facts": 0.742,
+        "Issue": 0.0003,
+        "Reasoning": 0.223
+      }
+    },
+    {
+      "sentence_id": 150,
+      "text": "But from 1st April, 1998 onwards the management stopped purchases of spare parts, particularly spares and accessories necessary for the quality production.",
+      "predicted_label": "Facts",
+      "confidence": 0.9225,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0148,
+        "Arguments of Respondent": 0.023,
+        "Decision": 0.0001,
+        "Facts": 0.9225,
+        "Issue": 0.001,
+        "Reasoning": 0.0386
+      }
+    },
+    {
+      "sentence_id": 151,
+      "text": "It is further alleged that the Mill Management started mixing cotton and polyester in the raw material with the result the quality of end product suffered.",
+      "predicted_label": "Facts",
+      "confidence": 0.9409,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0184,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.0001,
+        "Facts": 0.9409,
+        "Issue": 0.0013,
+        "Reasoning": 0.0241
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "The workers were forced to work on the machineries supplying substandard quality of the raw material.",
+      "predicted_label": "Facts",
+      "confidence": 0.5744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1231,
+        "Arguments of Respondent": 0.1274,
+        "Decision": 0.002,
+        "Facts": 0.5744,
+        "Issue": 0.0014,
+        "Reasoning": 0.1717
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 153,
+      "text": "The deteriorating quality of cloth had its immediate impact in the export market.",
+      "predicted_label": "Facts",
+      "confidence": 0.8996,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0179,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0003,
+        "Facts": 0.8996,
+        "Issue": 0.0008,
+        "Reasoning": 0.0676
+      }
+    },
+    {
+      "sentence_id": 154,
+      "text": "The inferior quality of final product is admitted but blame for the same was thrown on the Mill Management.",
+      "predicted_label": "Facts",
+      "confidence": 0.6327,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0105,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0382,
+        "Facts": 0.6327,
+        "Issue": 0.0005,
+        "Reasoning": 0.3069
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 155,
+      "text": "It is also admitted that from 1st April, 1999 onwards, the export started dwindling drastically.",
+      "predicted_label": "Facts",
+      "confidence": 0.7318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0422,
+        "Arguments of Respondent": 0.0459,
+        "Decision": 0.0006,
+        "Facts": 0.7318,
+        "Issue": 0.0012,
+        "Reasoning": 0.1783
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "That in the local market, due to unfair trade practices, company suffered heavy set back in realization of their dues.",
+      "predicted_label": "Facts",
+      "confidence": 0.546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1242,
+        "Arguments of Respondent": 0.2535,
+        "Decision": 0.0007,
+        "Facts": 0.546,
+        "Issue": 0.0007,
+        "Reasoning": 0.0749
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 157,
+      "text": "59.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5177,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5177,
+        "Arguments of Respondent": 0.1083,
+        "Decision": 0.0154,
+        "Facts": 0.0533,
+        "Issue": 0.079,
+        "Reasoning": 0.2262
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 158,
+      "text": "In export trade, the goods supplied by the Company were rejected by the foreign buyers as they were not satisfied with the quality of the product.",
+      "predicted_label": "Facts",
+      "confidence": 0.7331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0443,
+        "Arguments of Respondent": 0.0412,
+        "Decision": 0.0003,
+        "Facts": 0.7331,
+        "Issue": 0.0076,
+        "Reasoning": 0.1734
+      }
+    },
+    {
+      "sentence_id": 159,
+      "text": "The appellant, ultimately, lost heavily in the export market during the period 1st April, 1999 to December, 1999.",
+      "predicted_label": "Facts",
+      "confidence": 0.9125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0002,
+        "Facts": 0.9125,
+        "Issue": 0.0029,
+        "Reasoning": 0.0356
+      }
+    },
+    {
+      "sentence_id": 160,
+      "text": "The earning in foreign exchange on account of export of goods for the period April to December, 1999 started showing reverse trend.",
+      "predicted_label": "Facts",
+      "confidence": 0.8767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0002,
+        "Facts": 0.8767,
+        "Issue": 0.0028,
+        "Reasoning": 0.0833
+      }
+    },
+    {
+      "sentence_id": 161,
+      "text": "This fall in export earning was falsely covered up by the Directors of the Mill in their annual report by attributing adverse trading conditions which, in fact, was due to deteriorating quality of the products.",
+      "predicted_label": "Facts",
+      "confidence": 0.8817,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0166,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0001,
+        "Facts": 0.8817,
+        "Issue": 0.0015,
+        "Reasoning": 0.086
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "Here again the case of the appellant or the reasons given by them leading to adverse circumstances was admitted by the respondent Union but attempt was made to hold the appellant responsible for creating such adverse situation.60.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9381,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0254,
+        "Decision": 0.0012,
+        "Facts": 0.0231,
+        "Issue": 0.0004,
+        "Reasoning": 0.9381
+      }
+    },
+    {
+      "sentence_id": 163,
+      "text": "It was further sought to be pleaded in the defence that Karad Unit was a white elephant of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.7893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.05,
+        "Arguments of Respondent": 0.0699,
+        "Decision": 0.0001,
+        "Facts": 0.7893,
+        "Issue": 0.0008,
+        "Reasoning": 0.0899
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "According to the respondent Union, substantial part of cloth used to be sold at substantially reduced rates to M s. Ruby Mills Ltd and M s.K.Dinesh and other companies wherein the members of the Thackersey family were either directors or associated with.",
+      "predicted_label": "Facts",
+      "confidence": 0.8051,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.1199,
+        "Decision": 0.0003,
+        "Facts": 0.8051,
+        "Issue": 0.0015,
+        "Reasoning": 0.0709
+      }
+    },
+    {
+      "sentence_id": 165,
+      "text": "Liberty was sought to prove these facts during the course of trial.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.524,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1974,
+        "Arguments of Respondent": 0.1036,
+        "Decision": 0.0014,
+        "Facts": 0.1729,
+        "Issue": 0.0007,
+        "Reasoning": 0.524
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 166,
+      "text": "It was further alleged that the unbridled borrowings without any restrain whatsoever had given rise to a situation that, as on 30th September, 2002 the loan borrowed by the Mill was to the tune of Rs.17,091.52 lacs with heavy interest burden of Rs.3,793.87 lacs for the period of 15 months ending 30th September, 2002.",
+      "predicted_label": "Facts",
+      "confidence": 0.9584,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0,
+        "Facts": 0.9584,
+        "Issue": 0.0008,
+        "Reasoning": 0.0155
+      }
+    },
+    {
+      "sentence_id": 167,
+      "text": "According to the Union, the debt trap faced by the Company was its own creation.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0507,
+        "Arguments of Respondent": 0.4753,
+        "Decision": 0.0005,
+        "Facts": 0.2687,
+        "Issue": 0.0013,
+        "Reasoning": 0.2036
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 168,
+      "text": "The adverse social impact leading to closure of the Mill was sought to be high lighted.",
+      "predicted_label": "Facts",
+      "confidence": 0.4546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0828,
+        "Arguments of Respondent": 0.0476,
+        "Decision": 0.0005,
+        "Facts": 0.4546,
+        "Issue": 0.0003,
+        "Reasoning": 0.4141
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 169,
+      "text": "Here again the huge loan liability incurred by the appellant Mill resulting in heavy interest burden was admitted blaming the appellant Mill for indulging in such reckless borrowings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0235,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0001,
+        "Facts": 0.234,
+        "Issue": 0.0003,
+        "Reasoning": 0.7267
+      }
+    },
+    {
+      "sentence_id": 170,
+      "text": "62.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5779,
+        "Arguments of Respondent": 0.0937,
+        "Decision": 0.0079,
+        "Facts": 0.026,
+        "Issue": 0.1043,
+        "Reasoning": 0.1902
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 171,
+      "text": "It was thus, admitted that VRS was floated and majority of the workers opted for the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.5593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0885,
+        "Arguments of Respondent": 0.1448,
+        "Decision": 0.0008,
+        "Facts": 0.5593,
+        "Issue": 0.0008,
+        "Reasoning": 0.2058
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 172,
+      "text": "The stoppage of production of UnitB was also admitted by the Union in its written statement.63.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8182,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.029,
+        "Decision": 0.0012,
+        "Facts": 0.1365,
+        "Issue": 0.0002,
+        "Reasoning": 0.8182
+      }
+    },
+    {
+      "sentence_id": 173,
+      "text": "It was further alleged that various Departments and or Sections were closed in the Crown Mill and Process House from June, 2001 and payment of monthly wages to staff and workers were deliberately delayed by the Mill.",
+      "predicted_label": "Facts",
+      "confidence": 0.9758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0,
+        "Facts": 0.9758,
+        "Issue": 0.001,
+        "Reasoning": 0.0096
+      }
+    },
+    {
+      "sentence_id": 174,
+      "text": "So far as the recognized Union, namely R.M.M.S., is concerned they completely supported the applications moved by the appellant Mill (Management) for closure of these two units doubting their viability and urged that the closure was the only alternative.",
+      "predicted_label": "Facts",
+      "confidence": 0.8012,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.1703,
+        "Decision": 0.0002,
+        "Facts": 0.8012,
+        "Issue": 0.0003,
+        "Reasoning": 0.0185
+      }
+    },
+    {
+      "sentence_id": 175,
+      "text": "The same would be in the interest of the workers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6567,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0795,
+        "Arguments of Respondent": 0.1319,
+        "Decision": 0.0151,
+        "Facts": 0.1163,
+        "Issue": 0.0004,
+        "Reasoning": 0.6567
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 176,
+      "text": "With the above settled legal position of law, now let us examine whether any attempt was made by the respondent Union to prove their stand or defence taken by them in the written statement.",
+      "predicted_label": "Issue",
+      "confidence": 0.6152,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.0006,
+        "Facts": 0.0095,
+        "Issue": 0.6152,
+        "Reasoning": 0.3462
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 177,
+      "text": "The burden of proof was on the respondent Union since their case was that the heavy losses were incurred by the Mill because of substandard quality of finished product and that the adverse market conditions were the direct result of the misdeeds of the appellant Mill (Management) themselves.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0631,
+        "Arguments of Respondent": 0.0465,
+        "Decision": 0.0019,
+        "Facts": 0.3019,
+        "Issue": 0.0005,
+        "Reasoning": 0.5861
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 178,
+      "text": "The burden to prove these facts was incurred by the respondent Union because of their pleadings in the written statement wherein they admitted the case of the appellant but tried to hold the appellantMill responsible for creating that situation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7253,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1551,
+        "Arguments of Respondent": 0.0774,
+        "Decision": 0.0021,
+        "Facts": 0.0391,
+        "Issue": 0.001,
+        "Reasoning": 0.7253
+      }
+    },
+    {
+      "sentence_id": 179,
+      "text": "They did not prove case pleaded by the Union in its written statement wherein serious allegations of financial mismanagement, playing with quality of end product, nonreplacement of machineries or spare parts huge borrowings resulting in debt trap were made.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3124,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2246,
+        "Arguments of Respondent": 0.3124,
+        "Decision": 0.0027,
+        "Facts": 0.306,
+        "Issue": 0.001,
+        "Reasoning": 0.1533
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 180,
+      "text": "There was no whisper in the evidence of these two witnesses in this behalf.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9317,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0299,
+        "Arguments of Respondent": 0.0147,
+        "Decision": 0.0003,
+        "Facts": 0.0233,
+        "Issue": 0.0001,
+        "Reasoning": 0.9317
+      }
+    },
+    {
+      "sentence_id": 181,
+      "text": "Reading of the above evidence unequivocally show that the Union did not discharge burden of proof incurred by it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0084,
+        "Facts": 0.0432,
+        "Issue": 0.0006,
+        "Reasoning": 0.9251
+      }
+    },
+    {
+      "sentence_id": 182,
+      "text": "In the wake of failure to discharge burden of proof it is futile to say that the appellantMill failed to prove its case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9415,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0247,
+        "Facts": 0.0133,
+        "Issue": 0.0005,
+        "Reasoning": 0.9415
+      }
+    },
+    {
+      "sentence_id": 183,
+      "text": "Admission is a best evidence which binds the party giving it.78.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0278,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0004,
+        "Facts": 0.0022,
+        "Issue": 0.0004,
+        "Reasoning": 0.948
+      }
+    },
+    {
+      "sentence_id": 184,
+      "text": "He further deposed that when the applications for permission were made the financial position as given in the application was showing loss of Rs.185 crore which was further deteriorated resulting in further carry forward losses of Rs.237 crores for the period ending 30.6.2003.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0638,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0003,
+        "Facts": 0.4432,
+        "Issue": 0.0001,
+        "Reasoning": 0.4661
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 185,
+      "text": "Mr. Tidke denied all the adverse suggestions given to him in his crossexamination by the Union.",
+      "predicted_label": "Facts",
+      "confidence": 0.5463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1001,
+        "Arguments of Respondent": 0.1767,
+        "Decision": 0.0004,
+        "Facts": 0.5463,
+        "Issue": 0.0002,
+        "Reasoning": 0.1763
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 186,
+      "text": "However, case sought to be made out in the written statement by the Union making allegations against the appellant Mill was never put to Mr. Tidke when he was under crossexamination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1585,
+        "Arguments of Respondent": 0.0595,
+        "Decision": 0.0006,
+        "Facts": 0.0228,
+        "Issue": 0.0001,
+        "Reasoning": 0.7585
+      }
+    },
+    {
+      "sentence_id": 187,
+      "text": "Wherever the opponent has declined to avail himself of the opportunity to put his essential and material case in the cross examination, it must follow that he believed that the testimony could not be disputed at all.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9418,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0381,
+        "Arguments of Respondent": 0.0124,
+        "Decision": 0.0004,
+        "Facts": 0.0062,
+        "Issue": 0.0011,
+        "Reasoning": 0.9418
+      }
+    },
+    {
+      "sentence_id": 188,
+      "text": "It is wrong to think that this is essentially a technical rule of evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9105,
+      "probabilities": {
+        "Arguments of Petitioner": 0.047,
+        "Arguments of Respondent": 0.0338,
+        "Decision": 0.0002,
+        "Facts": 0.0081,
+        "Issue": 0.0005,
+        "Reasoning": 0.9105
+      }
+    },
+    {
+      "sentence_id": 189,
+      "text": "It is rule of essential justice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1716,
+        "Arguments of Respondent": 0.1425,
+        "Decision": 0.0013,
+        "Facts": 0.0654,
+        "Issue": 0.0006,
+        "Reasoning": 0.6187
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 190,
+      "text": "It has been stated on high authority of the House of Lords that this much a counsel is bound to do while crossexamining that he must put to each of his opponents witnesses in turn, so much of his own case as concerns that particular witness or in which that witness has any share.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2779,
+        "Arguments of Respondent": 0.0521,
+        "Decision": 0.0003,
+        "Facts": 0.01,
+        "Issue": 0.0004,
+        "Reasoning": 0.6593
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 191,
+      "text": "If he asks no question with regard to this, then he must be taken to have accepted the opponents case in its entirety.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0401,
+        "Arguments of Respondent": 0.0234,
+        "Decision": 0.0004,
+        "Facts": 0.0217,
+        "Issue": 0.0038,
+        "Reasoning": 0.9106
+      }
+    },
+    {
+      "sentence_id": 192,
+      "text": "It was also expected rather necessary on the part of the respondentUnion to extensively crossexamine Mr.Tidke and to challenge each and every statement made by him on oath to demonstrate its falsify and to confront him with their defence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9671,
+      "probabilities": {
+        "Arguments of Petitioner": 0.014,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0007,
+        "Facts": 0.0129,
+        "Issue": 0.0001,
+        "Reasoning": 0.9671
+      }
+    },
+    {
+      "sentence_id": 193,
+      "text": "Even no suggestions of their defence were given to Mr.Tidke.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.731,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0639,
+        "Arguments of Respondent": 0.0704,
+        "Decision": 0.0026,
+        "Facts": 0.1319,
+        "Issue": 0.0002,
+        "Reasoning": 0.731
+      }
+    },
+    {
+      "sentence_id": 194,
+      "text": "With the result, the evidence of Mr. Tidke practically went unchallenged.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4771,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0631,
+        "Arguments of Respondent": 0.021,
+        "Decision": 0.0007,
+        "Facts": 0.4348,
+        "Issue": 0.0033,
+        "Reasoning": 0.4771
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 195,
+      "text": "Mr.Ghaisas reiterated in his evidence that the financial position of the Mill had been deteriorating as set out in the applications.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5598,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0228,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0001,
+        "Facts": 0.4049,
+        "Issue": 0.0001,
+        "Reasoning": 0.5598
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 196,
+      "text": "The Companys net worth by December, 1999 was eroded to the extent of 50 and fully by March, 2001 as such Company was declared as a Sick Unit by B.I.F.R. vide its order dated 4.12.2002.",
+      "predicted_label": "Facts",
+      "confidence": 0.7405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0617,
+        "Arguments of Respondent": 0.0661,
+        "Decision": 0.0003,
+        "Facts": 0.7405,
+        "Issue": 0.0009,
+        "Reasoning": 0.1307
+      }
+    },
+    {
+      "sentence_id": 197,
+      "text": "That the company had no capacity to raise financial resources for modernization to revive the working of the units.",
+      "predicted_label": "Facts",
+      "confidence": 0.7716,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0677,
+        "Arguments of Respondent": 0.0749,
+        "Decision": 0.0007,
+        "Facts": 0.7716,
+        "Issue": 0.0018,
+        "Reasoning": 0.0832
+      }
+    },
+    {
+      "sentence_id": 198,
+      "text": "He further deposed that Karad Unit alone could not serve and pay the huge outstanding loans exceeding Rs.200 crore borrowed from the secured lenders from time to time.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3577,
+        "Arguments of Respondent": 0.1208,
+        "Decision": 0.0002,
+        "Facts": 0.2373,
+        "Issue": 0.0002,
+        "Reasoning": 0.2839
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 199,
+      "text": "He further deposed that the adverse situation could not have been allowed to continue since it was neither in the interest of workers nor the financial institutions.",
+      "predicted_label": "Facts",
+      "confidence": 0.5491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0627,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0004,
+        "Facts": 0.5491,
+        "Issue": 0.0001,
+        "Reasoning": 0.3585
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 200,
+      "text": "That is how he deposed in support of prayer for permission to close down two subject units.88.",
+      "predicted_label": "Facts",
+      "confidence": 0.4137,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2786,
+        "Arguments of Respondent": 0.0615,
+        "Decision": 0.0003,
+        "Facts": 0.4137,
+        "Issue": 0.0001,
+        "Reasoning": 0.2458
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 201,
+      "text": "The law in this behalf is well settled.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.86,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0653,
+        "Arguments of Respondent": 0.0456,
+        "Decision": 0.0006,
+        "Facts": 0.0215,
+        "Issue": 0.007,
+        "Reasoning": 0.86
+      }
+    },
+    {
+      "sentence_id": 202,
+      "text": "In the case of Ram Janki Devi v. Juggilal Kalamapat, AIR 1971 SC 2551 (para15), the contention that in absence of scribe, the account books were not proved  was held unacceptable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9321,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.0272,
+        "Decision": 0.0002,
+        "Facts": 0.0189,
+        "Issue": 0.0001,
+        "Reasoning": 0.9321
+      }
+    },
+    {
+      "sentence_id": 203,
+      "text": "One of the reasons was that the account books were shown to the witness in the crossexamination and questions were asked on the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8607,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0694,
+        "Arguments of Respondent": 0.0327,
+        "Decision": 0.0002,
+        "Facts": 0.0367,
+        "Issue": 0.0002,
+        "Reasoning": 0.8607
+      }
+    },
+    {
+      "sentence_id": 204,
+      "text": "The Supreme Court treated those account books as proved.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.031,
+        "Arguments of Respondent": 0.0226,
+        "Decision": 0.0033,
+        "Facts": 0.3645,
+        "Issue": 0.0024,
+        "Reasoning": 0.5761
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 205,
+      "text": "It is, thus, not open to the respondent Union to complain lack of proof of those documents.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8686,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0294,
+        "Arguments of Respondent": 0.0715,
+        "Decision": 0.0028,
+        "Facts": 0.0275,
+        "Issue": 0.0002,
+        "Reasoning": 0.8686
+      }
+    },
+    {
+      "sentence_id": 206,
+      "text": "All those documents were rightly read by the Industrial Tribunal in evidence.89.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0265,
+        "Decision": 0.0116,
+        "Facts": 0.004,
+        "Issue": 0.0002,
+        "Reasoning": 0.9455
+      }
+    },
+    {
+      "sentence_id": 207,
+      "text": "The legal position is well settled.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0787,
+        "Arguments of Respondent": 0.0982,
+        "Decision": 0.0014,
+        "Facts": 0.052,
+        "Issue": 0.0083,
+        "Reasoning": 0.7614
+      }
+    },
+    {
+      "sentence_id": 208,
+      "text": "A person who says house is benami must satisfy the Court of this fact.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9017,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0429,
+        "Arguments of Respondent": 0.0373,
+        "Decision": 0.0003,
+        "Facts": 0.0175,
+        "Issue": 0.0004,
+        "Reasoning": 0.9017
+      }
+    },
+    {
+      "sentence_id": 209,
+      "text": "Where a person claims right of way, he must prove that he acquired that right",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0546,
+        "Arguments of Respondent": 0.2185,
+        "Decision": 0.0123,
+        "Facts": 0.012,
+        "Issue": 0.0017,
+        "Reasoning": 0.7009
+      }
+    },
+    {
+      "sentence_id": 210,
+      "text": "and it is not for the other side to show that he does not have such right.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0445,
+        "Decision": 0.005,
+        "Facts": 0.014,
+        "Issue": 0.0015,
+        "Reasoning": 0.9201
+      }
+    },
+    {
+      "sentence_id": 211,
+      "text": "The respondentUnion alleged and desired to prove mismanagement, reckless borrowings, substandard production affecting the health of the Mill with deliberate intention to exploit real estate of the Mill but could not prove the same by cogent evidence.",
+      "predicted_label": "Facts",
+      "confidence": 0.6769,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0013,
+        "Facts": 0.6769,
+        "Issue": 0.0005,
+        "Reasoning": 0.3002
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 212,
+      "text": "The burden of proof to prove these facts was on the Union, who desired the Court believe existence of such facts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1595,
+        "Arguments of Respondent": 0.1387,
+        "Decision": 0.0026,
+        "Facts": 0.1434,
+        "Issue": 0.0017,
+        "Reasoning": 0.5542
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 213,
+      "text": "The Supreme Court in the case of Kalwa Devaderttam v. Union of India, AIR 1964 SC 880 , held that where no evidence is led on the question in dispute by the party on whom burden lies to prove certain facts then it must fail.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8745,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0345,
+        "Arguments of Respondent": 0.0313,
+        "Decision": 0.0004,
+        "Facts": 0.057,
+        "Issue": 0.0024,
+        "Reasoning": 0.8745
+      }
+    },
+    {
+      "sentence_id": 214,
+      "text": "Failure to discharge burden in this behalf left the substantive evidence in the form of unexplained and unrebutted admissions in the field binding on the maker of the admission, viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9012,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0652,
+        "Arguments of Respondent": 0.0247,
+        "Decision": 0.0005,
+        "Facts": 0.0077,
+        "Issue": 0.0006,
+        "Reasoning": 0.9012
+      }
+    },
+    {
+      "sentence_id": 215,
+      "text": "The appellant on this count alone was entitled to succeed.91.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8164,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0213,
+        "Arguments of Respondent": 0.02,
+        "Decision": 0.1327,
+        "Facts": 0.0087,
+        "Issue": 0.0009,
+        "Reasoning": 0.8164
+      }
+    },
+    {
+      "sentence_id": 216,
+      "text": "Thus, looking to the evidence of these two witnesses on the well established legal principles it is not possible for us to conclude that the appellantMill did not produce evidence to prove their case for closure of the subject units.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9786,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0012,
+        "Facts": 0.0068,
+        "Issue": 0.0001,
+        "Reasoning": 0.9786
+      }
+    },
+    {
+      "sentence_id": 217,
+      "text": "The findings recorded by the learned single Judge in this behalf are liable to be set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6718,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1646,
+        "Arguments of Respondent": 0.0138,
+        "Decision": 0.0651,
+        "Facts": 0.0831,
+        "Issue": 0.0016,
+        "Reasoning": 0.6718
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 218,
+      "text": "If the entire evidence available on record is considered in its proper perspective, the appellant Mill has made out its case for closure of the subject units.93.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9299,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0215,
+        "Facts": 0.0366,
+        "Issue": 0.0001,
+        "Reasoning": 0.9299
+      }
+    },
+    {
+      "sentence_id": 219,
+      "text": "The Tribunal found that(i) The appellant had innovated the VRS scheme and was ready to utilize the assets for paying the liabilities of the workers and other institutions and that this was a genuine reason for grant of permission.(ii)",
+      "predicted_label": "Facts",
+      "confidence": 0.9206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0002,
+        "Facts": 0.9206,
+        "Issue": 0.0006,
+        "Reasoning": 0.0674
+      }
+    },
+    {
+      "sentence_id": 220,
+      "text": "The figures which were given in the statement of Accounts and the Balance Sheets of the Appellant were figures from public documents and the figures were proved by the of the Appellant through the evidence of Mr. Ghaisas(iii) Respondent Union could not substantiate its allegations that the figures of losses are bogus.(iv)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8642,
+        "Arguments of Respondent": 0.0232,
+        "Decision": 0.002,
+        "Facts": 0.0921,
+        "Issue": 0.0005,
+        "Reasoning": 0.018
+      }
+    },
+    {
+      "sentence_id": 221,
+      "text": "Respondent Union could not suggest a concrete plan to profitably run the subject Units.(v)",
+      "predicted_label": "Facts",
+      "confidence": 0.6747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1637,
+        "Arguments of Respondent": 0.0674,
+        "Decision": 0.0111,
+        "Facts": 0.6747,
+        "Issue": 0.0006,
+        "Reasoning": 0.0826
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 222,
+      "text": "The appellant had borrowed money from financial institutions and all these financial institutions wanted to recover money.",
+      "predicted_label": "Facts",
+      "confidence": 0.5482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.247,
+        "Arguments of Respondent": 0.0732,
+        "Decision": 0.0006,
+        "Facts": 0.5482,
+        "Issue": 0.0012,
+        "Reasoning": 0.1299
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 223,
+      "text": "The public money of the financial institutions was required to be saved(vi) It was the duty of the Tribunal to consider the plus and minus factors while granting or refusing the permission.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9361,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0013,
+        "Facts": 0.0153,
+        "Issue": 0.0018,
+        "Reasoning": 0.0286
+      }
+    },
+    {
+      "sentence_id": 224,
+      "text": "The reasons given, in totality favoured grant of permission.(vii)",
+      "predicted_label": "Facts",
+      "confidence": 0.4149,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4029,
+        "Arguments of Respondent": 0.0708,
+        "Decision": 0.0808,
+        "Facts": 0.4149,
+        "Issue": 0.0017,
+        "Reasoning": 0.0289
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 225,
+      "text": "The figures of profit and losses given in the chart and the Balance Sheets and the Annual Statements of the appellant were required to be appreciated, it being the figures of the account maintained in the due course of business and there being nothing on record to disbelieve the same, as such the same could not be ignored(viii) Having given an opportunity of hearing to the appellant, the workmen and the persons interested, the genuineness and adequacy of the reasons of the closure could not be doubted(ix) Respondent Union could not offer any evidence pertaining to the profits gained by both the units(x) The evidence of respondentUnion could not contradict the reasons offered by the Appellant for closure of the Units(xi)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.554,
+      "probabilities": {
+        "Arguments of Petitioner": 0.554,
+        "Arguments of Respondent": 0.1371,
+        "Decision": 0.0007,
+        "Facts": 0.2839,
+        "Issue": 0.0004,
+        "Reasoning": 0.024
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 226,
+      "text": "The figures of the balance sheet and the annual statement were required to be accepted in its entirety(xiv)",
+      "predicted_label": "Facts",
+      "confidence": 0.5313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2837,
+        "Arguments of Respondent": 0.0332,
+        "Decision": 0.0031,
+        "Facts": 0.5313,
+        "Issue": 0.0012,
+        "Reasoning": 0.1474
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 227,
+      "text": "The production of the three accounting years prior to the date of the closure applications i.e. April 1999, December 1999, 20002001 and 200102 given by the Appellant showed that the production of both the units had gone down every month (xv) To continue with the manufacturing activities was not possible in the given situation(xvi)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7249,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7249,
+        "Arguments of Respondent": 0.1483,
+        "Decision": 0.0013,
+        "Facts": 0.117,
+        "Issue": 0.0011,
+        "Reasoning": 0.0075
+      }
+    },
+    {
+      "sentence_id": 228,
+      "text": "There was nothing wrong with the fact that the balance sheets of both the Units were not prepared separately, since a common balance sheet was prepared by the Appellant as per practice prevailing past several years(xvii)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6517,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2521,
+        "Arguments of Respondent": 0.6517,
+        "Decision": 0.0032,
+        "Facts": 0.0435,
+        "Issue": 0.0002,
+        "Reasoning": 0.0492
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 229,
+      "text": "The analysis of the Balance sheet showed that both the Units were running into losses(xviii)",
+      "predicted_label": "Facts",
+      "confidence": 0.6614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2184,
+        "Arguments of Respondent": 0.0911,
+        "Decision": 0.0043,
+        "Facts": 0.6614,
+        "Issue": 0.001,
+        "Reasoning": 0.0239
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 230,
+      "text": "The primary intention was to meet the liabilities and not to fetch the profits from the sale of the lands(xix)",
+      "predicted_label": "Facts",
+      "confidence": 0.4678,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2765,
+        "Arguments of Respondent": 0.2039,
+        "Decision": 0.0061,
+        "Facts": 0.4678,
+        "Issue": 0.001,
+        "Reasoning": 0.0448
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 231,
+      "text": "The shortage of working capital for Karad Unit could be met if the closure application was allowed(xx) Both the Units were at no return situation and Respondent Union could not establish on the record that both the Units were running profitably.(xxi)",
+      "predicted_label": "Facts",
+      "confidence": 0.345,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2159,
+        "Arguments of Respondent": 0.1956,
+        "Decision": 0.0615,
+        "Facts": 0.345,
+        "Issue": 0.0011,
+        "Reasoning": 0.1808
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 232,
+      "text": "The oral evidence of the Respondent Union showed that the witnesses produced by it did not know anything directly and that they had failed to make out a case that the closure was a camouflage and not bona fide(xxv)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6564,
+        "Arguments of Respondent": 0.108,
+        "Decision": 0.0059,
+        "Facts": 0.1779,
+        "Issue": 0.0003,
+        "Reasoning": 0.0516
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 233,
+      "text": "The Appellant had proved that continuing the manufacturing activities was not possible in the present situation(xxvi) Figures of profit and losses and the balancesheet given by the Appellant could not be disbelieved and or ignored.94.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5362,
+      "probabilities": {
+        "Arguments of Petitioner": 0.088,
+        "Arguments of Respondent": 0.2766,
+        "Decision": 0.0339,
+        "Facts": 0.0649,
+        "Issue": 0.0005,
+        "Reasoning": 0.5362
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 234,
+      "text": "Having examined the rival pleadings, rival evidence and findings recorded, it can not be said that the findings of the Tribunal in the award were based on no evidence as held by the learned Single Judge in the impugned order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0033,
+        "Facts": 0.0408,
+        "Issue": 0.0002,
+        "Reasoning": 0.9435
+      }
+    },
+    {
+      "sentence_id": 235,
+      "text": "At the meeting of the Monitoring Committee the RespondentUnion specifically informed the Monitoring Committee that these workers have no objection for going on with the process of satisfying the dues of the workers who have taken VRS, from the sale proceeds that will be received from the development of the Mahalaxmi Unit.106.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8119,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0416,
+        "Arguments of Respondent": 0.1057,
+        "Decision": 0.0075,
+        "Facts": 0.0331,
+        "Issue": 0.0001,
+        "Reasoning": 0.8119
+      }
+    },
+    {
+      "sentence_id": 236,
+      "text": "The Monitoring Committee clarified that unless the RespondentUnion obtained an order from the Court Authority, the Monitoring Committee could not accede to the request of the Respondent Union.",
+      "predicted_label": "Facts",
+      "confidence": 0.9459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0002,
+        "Facts": 0.9459,
+        "Issue": 0.0006,
+        "Reasoning": 0.0479
+      }
+    },
+    {
+      "sentence_id": 237,
+      "text": "The Monitoring Committee, however, adjourned the matter to 18th August 2004 to enable the RespondentUnion to take further appropriate steps which Union failed to take.108.",
+      "predicted_label": "Facts",
+      "confidence": 0.8467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0049,
+        "Facts": 0.8467,
+        "Issue": 0.0004,
+        "Reasoning": 0.1408
+      }
+    },
+    {
+      "sentence_id": 238,
+      "text": "Writ Petition No.462 of 2005 filed by RespondentUnion before Division Bench of this Court challenging the Order of A.A.I.F.R. dated 23rd December, 2004 confirming the order dated 1st April, 2004 sanctioning the rehabilitation scheme by the BIFR, which came to be dismissed by an order dated 1st August, 2006 i.e., subsequent to the impugned judgment of the learned Single Judge wherein learned Division Bench, interalia, noted that the steps taken by the Appellant pursuant to the said Rehabilitation Scheme, including the fact that the Appellant had made full payments to the workers of Units A B and substantial amounts to the workers of units C and D including the member workers of RespondentUnion pursuant to the said Scheme.",
+      "predicted_label": "Facts",
+      "confidence": 0.899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.02,
+        "Facts": 0.899,
+        "Issue": 0.0102,
+        "Reasoning": 0.0535
+      }
+    },
+    {
+      "sentence_id": 239,
+      "text": "The above judgment of the learned Division Bench is accepted by the respondentUnion since no further challenge to the said Judgment and order was set up by them.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.5661,
+        "Decision": 0.0008,
+        "Facts": 0.2233,
+        "Issue": 0.0026,
+        "Reasoning": 0.2012
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 240,
+      "text": "There is in the facts of this case, a closure in fact and what remains is a shell of what was a textile mill.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0435,
+        "Arguments of Respondent": 0.0236,
+        "Decision": 0.0016,
+        "Facts": 0.0121,
+        "Issue": 0.0005,
+        "Reasoning": 0.9187
+      }
+    },
+    {
+      "sentence_id": 241,
+      "text": "The findings recorded by B.I.F.R. have achieved finality and Scheme has been substantially implemented.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0649,
+        "Arguments of Respondent": 0.1397,
+        "Decision": 0.0082,
+        "Facts": 0.3293,
+        "Issue": 0.0013,
+        "Reasoning": 0.4566
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 242,
+      "text": "There is no possibility of revival at all of these two subject Units.",
+      "predicted_label": "Facts",
+      "confidence": 0.4262,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0994,
+        "Arguments of Respondent": 0.0801,
+        "Decision": 0.0052,
+        "Facts": 0.4262,
+        "Issue": 0.0005,
+        "Reasoning": 0.3886
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 243,
+      "text": "The machineries are sold.",
+      "predicted_label": "Facts",
+      "confidence": 0.5962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0232,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.0004,
+        "Facts": 0.5962,
+        "Issue": 0.0009,
+        "Reasoning": 0.3613
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 244,
+      "text": "The landed properties of the Mill are also transferred, may be partially, to other three developers as mentioned herein above.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0008,
+        "Facts": 0.3182,
+        "Issue": 0.0005,
+        "Reasoning": 0.6595
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 245,
+      "text": "In view of this scenario, both orders i.e. order of B.I.F.R. and order of learned Single Judge refusing to permit closure has resulted in creating a conflicting situation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0726,
+        "Arguments of Respondent": 0.0868,
+        "Decision": 0.0456,
+        "Facts": 0.3144,
+        "Issue": 0.0012,
+        "Reasoning": 0.4794
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 246,
+      "text": "By no means, both orders can go hand in hand.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8415,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0696,
+        "Decision": 0.0052,
+        "Facts": 0.0534,
+        "Issue": 0.0006,
+        "Reasoning": 0.8415
+      }
+    },
+    {
+      "sentence_id": 247,
+      "text": "Implementation of one order negates another.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0358,
+        "Arguments of Respondent": 0.4539,
+        "Decision": 0.01,
+        "Facts": 0.0073,
+        "Issue": 0.0003,
+        "Reasoning": 0.4928
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 248,
+      "text": "In view of this conflicting situation the order of B.I.F.R. will have the overriding effect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0633,
+        "Arguments of Respondent": 0.0308,
+        "Decision": 0.0243,
+        "Facts": 0.3426,
+        "Issue": 0.0007,
+        "Reasoning": 0.5383
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 249,
+      "text": "On this count also appellant is entitled to succeed, though the appellant has independently established their case for closure as found by us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0225,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0843,
+        "Facts": 0.029,
+        "Issue": 0.0007,
+        "Reasoning": 0.8466
+      }
+    },
+    {
+      "sentence_id": 250,
+      "text": "By no means, it can be said that in the case in hand the appellant has not made out a case for closure of subject Units under Section 25O of the I.D. Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9359,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0056,
+        "Facts": 0.044,
+        "Issue": 0.0001,
+        "Reasoning": 0.9359
+      }
+    },
+    {
+      "sentence_id": 251,
+      "text": "In view of this positive findings, it is not necessary to consider other submissions made by Mr.Dada leading to the interpretation of Section 25O (7) of the I.D. Act.116.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.1423,
+        "Facts": 0.0095,
+        "Issue": 0.0003,
+        "Reasoning": 0.839
+      }
+    },
+    {
+      "sentence_id": 252,
+      "text": "The Commissioner of Labour has also found the reasons assigned by the appellant Mill as cogent, adequate and genuine.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0006,
+        "Facts": 0.3116,
+        "Issue": 0.0005,
+        "Reasoning": 0.6613
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 253,
+      "text": "For all these reasons, it cannot be said that the decision of the appellant Mill for closure of the subject units was not bona fide and genuine.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8192,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0026,
+        "Facts": 0.1488,
+        "Issue": 0.0003,
+        "Reasoning": 0.8192
+      }
+    },
+    {
+      "sentence_id": 254,
+      "text": "No fault can be found either with the order of the Commissioner of Labour or the Industrial Tribunal granting permission for closure of the subject units under section 25O of the I.D.Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0417,
+        "Arguments of Respondent": 0.033,
+        "Decision": 0.0076,
+        "Facts": 0.2946,
+        "Issue": 0.0012,
+        "Reasoning": 0.622
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 255,
+      "text": "Since the subject units of the appellant Mill were unviable and in the light of its huge liabilities which cannot be satisfied even if the subject units are made operative, though as on date that has become impossible in view of implementation of the scheme of reconstruction made by the B.I.F.R.120.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3375,
+        "Arguments of Respondent": 0.0671,
+        "Decision": 0.0399,
+        "Facts": 0.1634,
+        "Issue": 0.0012,
+        "Reasoning": 0.3909
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 256,
+      "text": "The submission of Mr.Ganguli that the application made by the appellant Mill under section 25O of the I.D.Act seeking closure of the subject units is in violation of Article 14 and 19 (1)(g) of the Constitution of India cannot be accepted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9411,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.0009,
+        "Facts": 0.0292,
+        "Issue": 0.0001,
+        "Reasoning": 0.9411
+      }
+    },
+    {
+      "sentence_id": 257,
+      "text": "There is also no merit in the submission of Mr.Ganguli that the mismanagement of the appellantMill by its Management is a cause for bringing bad days to the subject units.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0019,
+        "Facts": 0.0136,
+        "Issue": 0.0001,
+        "Reasoning": 0.9722
+      }
+    },
+    {
+      "sentence_id": 258,
+      "text": "The implementation of scheme resulting in closure of subject units will result in generating liquidity which can be used to satisfy debts of the Mill and dues of workers and residue can be used to pump money in the Karad Unit which, after expansion, is bound to generate more employment and give more production to contribute to the national wealth.122.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8192,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0293,
+        "Arguments of Respondent": 0.0297,
+        "Decision": 0.0015,
+        "Facts": 0.1202,
+        "Issue": 0.0001,
+        "Reasoning": 0.8192
+      }
+    },
+    {
+      "sentence_id": 259,
+      "text": "The implementation of B.I.F.R. Scheme will pull out the company from its sickness and make it a viable company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5235,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1899,
+        "Arguments of Respondent": 0.1637,
+        "Decision": 0.0092,
+        "Facts": 0.1134,
+        "Issue": 0.0003,
+        "Reasoning": 0.5235
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 260,
+      "text": "It is, no doubt, true that some of the workers, who were working in subject units at Mumbai, may face problem of unemployment which they are already facing as on date but at the same time Karad Unit on generation of more employment will provide more employment opportunities to the society at large.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9247,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0205,
+        "Decision": 0.0028,
+        "Facts": 0.0343,
+        "Issue": 0.0002,
+        "Reasoning": 0.9247
+      }
+    },
+    {
+      "sentence_id": 261,
+      "text": "Sometimes, in order to make one limb safe and strong, other part of the body is required to be sacrificed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0447,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0037,
+        "Facts": 0.0296,
+        "Issue": 0.0008,
+        "Reasoning": 0.9029
+      }
+    },
+    {
+      "sentence_id": 262,
+      "text": "Therefore, while considering the question of public interest, little larger view is required to be taken into account so as to struck equitable balance between the two competing interests of the society.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0833,
+        "Arguments of Respondent": 0.1242,
+        "Decision": 0.0089,
+        "Facts": 0.0365,
+        "Issue": 0.0013,
+        "Reasoning": 0.7458
+      }
+    },
+    {
+      "sentence_id": 263,
+      "text": "Considered from this angle, no fault can be found with the order of the Industrial Tribunal granting permission for closure of the subject units.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0202,
+        "Decision": 0.0111,
+        "Facts": 0.0078,
+        "Issue": 0.0004,
+        "Reasoning": 0.9521
+      }
+    },
+    {
+      "sentence_id": 264,
+      "text": "The impugned order is, thus, liable to be set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2411,
+        "Arguments of Respondent": 0.02,
+        "Decision": 0.0837,
+        "Facts": 0.0212,
+        "Issue": 0.0011,
+        "Reasoning": 0.6329
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 265,
+      "text": "Hence the following order ORDERThe impugned order dated 21st February, 2005 passed by the learned single Judge in Writ Petition Nos.1097/2004 and 1160/2004 is set aside and Appeal Nos.364/2005 and 458/2005 are allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.5432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.5432,
+        "Facts": 0.4366,
+        "Issue": 0.0009,
+        "Reasoning": 0.0173
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 266,
+      "text": "Order of the Industrial Tribunal dated 21st February, 2004 is restored, subject to the condition that the appellant Mill shall pay to the members of the respondent Union or to the workers, who did not opt for VRS, by way of closure compensation (as offered by them) to be calculated in the following manner.(i) 36 days salary for each year of service based on last drawn salary as on 31st March, 2004, subtracting amount already paid by way of closure compensation(ii) Gratuity, leave allowances and other allowances(iii) Exgratia payment of Rs.30,000/ per worker (iv) Salary from 1st July, 2003 to 31st March, 2004 with interest on item Nos.",
+      "predicted_label": "Decision",
+      "confidence": 0.9152,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9152,
+        "Facts": 0.0265,
+        "Issue": 0.0003,
+        "Reasoning": 0.0569
+      }
+    },
+    {
+      "sentence_id": 267,
+      "text": "(i) and (ii) (supra) at the rate of 12 per annum from 1st July, 2003 till payment in full and finalThe payment of the above closure compensation as offered by the appellantMill shall be without prejudice to their rights and to those workers only who shall exercise their option to unconditionally accept it within 45 days from the date of pronouncement of this judgment and order.",
+      "predicted_label": "Decision",
+      "confidence": 0.8528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.8528,
+        "Facts": 0.1086,
+        "Issue": 0.0003,
+        "Reasoning": 0.0367
+      }
+    },
+    {
+      "sentence_id": 268,
+      "text": "The appellant Mill shall be liable to make payment of compensation to workers within 45 days from the date of receipt of their options failing which it shall carry interest thereon 12 per annum till repayment in full and final.",
+      "predicted_label": "Decision",
+      "confidence": 0.9028,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9028,
+        "Facts": 0.0263,
+        "Issue": 0.0002,
+        "Reasoning": 0.0697
+      }
+    },
+    {
+      "sentence_id": 269,
+      "text": "The respondent Union shall communicate the operative part of this order to all its members in vernacular so as to enable them to exercise their option.",
+      "predicted_label": "Decision",
+      "confidence": 0.7528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.7528,
+        "Facts": 0.1812,
+        "Issue": 0.0003,
+        "Reasoning": 0.0629
+      }
+    },
+    {
+      "sentence_id": 270,
+      "text": "The appellant Mill shall be liable to pay closure compensation in terms of section 25O of the I.D.Act to those workers who would not exercise their option to accept the offer of the appellant Mill.",
+      "predicted_label": "Decision",
+      "confidence": 0.5055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.5055,
+        "Facts": 0.3179,
+        "Issue": 0.0005,
+        "Reasoning": 0.1665
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 271,
+      "text": "All the concerned to act on an authenticated copy of this judgment.",
+      "predicted_label": "Facts",
+      "confidence": 0.8576,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0801,
+        "Facts": 0.8576,
+        "Issue": 0.0025,
+        "Reasoning": 0.0452
+      }
+    }
+  ]
+}

@@ -1,0 +1,747 @@
+{
+  "case_id": "6906",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This petition raises a rather interesting question of construction of S. 7 and S. 9, Industrial Employment (Standing Orders) Act, (Act 20 of 1946).2.",
+      "predicted_label": "Issue",
+      "confidence": 0.8735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0004,
+        "Facts": 0.1242,
+        "Issue": 0.8735,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The second respondent company applied to the Industrial Tribunal under S. 33, Industrial Disputes Act, for permission, to dismiss 27 of its employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.9739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9739,
+        "Issue": 0.0165,
+        "Reasoning": 0.0079
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Its contention was that there was an illegal strike on 11111953, of the workers of the company, that these 27 employees had participated in the illegal strike and they had also refused to obey lawful orders.",
+      "predicted_label": "Facts",
+      "confidence": 0.9646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0,
+        "Facts": 0.9646,
+        "Issue": 0.001,
+        "Reasoning": 0.0193
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "It was further the contention of the second respondent company that a proper inquiry as required by the Standing Orders had been held, that the charge of misconduct with regard to these two acts had been established and therefore under the Standing Orders the Company was entitled to inflict the penalty of dismissal upon these 27 workers.",
+      "predicted_label": "Facts",
+      "confidence": 0.701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.2558,
+        "Decision": 0.0003,
+        "Facts": 0.701,
+        "Issue": 0.0033,
+        "Reasoning": 0.0365
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Industrial Court granted permission with regard to 3 out of the 27 employees and refused permission with regard to 24, and the reason that induced the Industrial Tribunal to come to this conclusion was that the respondent company had failed to comply with the provisions of S. 9 of the Act, that no translation in Marathi of the Standing Orders had been posted on special boards and therefore the 27 employees who did not know English had no notice of the Standing Orders.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0193,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0004,
+        "Facts": 0.4403,
+        "Issue": 0.0195,
+        "Reasoning": 0.5092
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "Therefore, the Standing Orders were not binding upon those 24 employees and no proper inquiry could be deemed to have been held as required by the Standing Orders.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3501,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3501,
+        "Arguments of Respondent": 0.1436,
+        "Decision": 0.0059,
+        "Facts": 0.2356,
+        "Issue": 0.0008,
+        "Reasoning": 0.264
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "With regard to the other three employees, as they knew English, and a copy of the standing Orders had been posted on.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4063,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1155,
+        "Arguments of Respondent": 0.1085,
+        "Decision": 0.0008,
+        "Facts": 0.3682,
+        "Issue": 0.0008,
+        "Reasoning": 0.4063
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "the notice board, the Tribunal took the view that the Standing Orders were binding upon those 3 employees and gave the necessary permission to the respondent company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9174,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0002,
+        "Facts": 0.9174,
+        "Issue": 0.0032,
+        "Reasoning": 0.0757
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "It was also urged by the respondent company in the alternative that the dismissal could be justified under the ordinary law of Master and Servant.",
+      "predicted_label": "Facts",
+      "confidence": 0.7569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.1797,
+        "Decision": 0.0002,
+        "Facts": 0.7569,
+        "Issue": 0.0044,
+        "Reasoning": 0.0513
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "This contention was also rejected by the Industrial Tribunal.",
+      "predicted_label": "Facts",
+      "confidence": 0.6259,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0251,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.001,
+        "Facts": 0.6259,
+        "Issue": 0.0231,
+        "Reasoning": 0.3109
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "The employer company went in appeal to the Labour Appellate Tribunal.",
+      "predicted_label": "Facts",
+      "confidence": 0.947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0001,
+        "Facts": 0.947,
+        "Issue": 0.0065,
+        "Reasoning": 0.0418
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The Labour Appellate Tribunal did not accept the construction put by the Industrial Tribunal upon Ss. 7 and 9 of the Act and remanded the matter to the Industrial Tribunal, and the employees have now come on this petition.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9839,
+        "Issue": 0.0143,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Turning to the two relevant sections, S. 7 provides Standing Orders shall, unless an appeal is preferred under S. 6, come into operations on the expiry of thirty days from the date on which authenticated copies thereof are sent under SubS. (3) of S. 5, or where an appeal as aforesaid is preferred on the expiry of seven days from the date on which copies of the order of the appellateauthority are sent under SubS. (2) of S. 6.Now, in this case there was an appeal from the decision of the certifying officer certifying the Standing Orders u s. 5 and the copies of the appellate Courts decision, were forwarded to the Trade Unions concerned and also to the employer on 3091953, and therefore by reason of S. 7 the Standing Orders came into operation on 8101953.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0,
+        "Facts": 0.0324,
+        "Issue": 0.0004,
+        "Reasoning": 0.9383
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The illegal strike took place on 11111953.The misconduct charged against the employees was subsequent to 8101953, and it is because of this that the employer company contended that it had rightly acted under the Standing Orders i.e., held an inquiry laid down under the Standing Orders and the penalty inflicted upon the employees was a penalty permitted under the Standing Orders to the employer.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0,
+        "Facts": 0.9937,
+        "Issue": 0.0005,
+        "Reasoning": 0.0026
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "In this case it is urged with considerable force by Mr. Sule that but for the Standing Orders the effect on the workmen participating in an illegal strike have been that they would have been prosecuted and possibly convicted of an offence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3279,
+        "Arguments of Respondent": 0.2221,
+        "Decision": 0.0002,
+        "Facts": 0.0029,
+        "Issue": 0.0017,
+        "Reasoning": 0.4452
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "It was by reason of the Standing orders that participation in an illegal strike was constituted a misconduct and She workmen were liable to be dismissed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1429,
+        "Arguments of Respondent": 0.1267,
+        "Decision": 0.001,
+        "Facts": 0.0503,
+        "Issue": 0.0012,
+        "Reasoning": 0.6777
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "It is said by Mr. Sule that if the workmen had realised that participation in an illegal strike entailed such serious consequences they would have thought twice before participating in such an activity.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5769,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2563,
+        "Arguments of Respondent": 0.5769,
+        "Decision": 0.0005,
+        "Facts": 0.0023,
+        "Issue": 0.0005,
+        "Reasoning": 0.1635
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "It is therefore pointed out by Mr. Sule that the notice required under S. 7 has such an important consequence bearing upon the rights and obligations of the workers and in the absence of a notice contemplated by S. 9 the Court should not come to the conclusion that the Standing Orders became operative in the sense that they affected Uprights and obligations of the workers.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2027,
+        "Arguments of Respondent": 0.709,
+        "Decision": 0.0002,
+        "Facts": 0.002,
+        "Issue": 0.0003,
+        "Reasoning": 0.0859
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "That argument of justice and convenience cannot be accepted by us because it is in total opposition to the real aim and object of the Legislature in enacting S. 7.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0001,
+        "Facts": 0.0045,
+        "Issue": 0.0002,
+        "Reasoning": 0.9789
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "Section 7 is clear and precise in its language and it brings the Standing Orders into operation on a particular date, and in this case the date is 8101953.The result of the Standing Orders coming into operation is that it creates rights and liabilities not only in the employees but also in the employers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7116,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0585,
+        "Arguments of Respondent": 0.0975,
+        "Decision": 0.0007,
+        "Facts": 0.1308,
+        "Issue": 0.0009,
+        "Reasoning": 0.7116
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "By reason of the Standing Orders certain liabilities are imposed upon the employers and certain rights are created in favour of the employees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0257,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0004,
+        "Facts": 0.1027,
+        "Issue": 0.0004,
+        "Reasoning": 0.8566
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "It is an entirely untenable proposition in law that if a particular statute or a particular statutory order comes into operation it should have a binding effect only with regard to one party and not with regard to the other.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1064,
+        "Arguments of Respondent": 0.1111,
+        "Decision": 0.0006,
+        "Facts": 0.034,
+        "Issue": 0.0017,
+        "Reasoning": 0.7462
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The object of Standing Orders is to regulate the conditions of service between the employer and the employees and it is in our opinion impossible to contend that the Standing Orders which mutually regulate the conditions of service between the employer and employees at a particular point of time can regulate only the obligations of the employer and not the obligations of the employees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0001,
+        "Facts": 0.0167,
+        "Issue": 0.0006,
+        "Reasoning": 0.9684
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "In view of the language used by S. 7, in our opinion, even though in certain cases it may cause inconvenience or even injustice, it is impossible to give any other construction to S. 9 than that its provisions are directory and not mandatory.5.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.97,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0151,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0007,
+        "Facts": 0.0045,
+        "Issue": 0.0003,
+        "Reasoning": 0.97
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The position may be looked at from a different point of view.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9161,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.0411,
+        "Decision": 0.0019,
+        "Facts": 0.0192,
+        "Issue": 0.0016,
+        "Reasoning": 0.9161
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "If notice was the all important factor, which according to Mr. Sule, it is then it is rather surprising that under S. 9 a notice would only be given to the employees knowing English and language of the majority.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5197,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2749,
+        "Arguments of Respondent": 0.5197,
+        "Decision": 0.0003,
+        "Facts": 0.0038,
+        "Issue": 0.0011,
+        "Reasoning": 0.2002
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "What would happen to a fairly large section of the workers who may neither know English nor the regional language or the language of the majority Admittedly in this case there are employees who know neither English nor Marathi.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7173,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0257,
+        "Arguments of Respondent": 0.0144,
+        "Decision": 0.0028,
+        "Facts": 0.08,
+        "Issue": 0.1599,
+        "Reasoning": 0.7173
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "There may even be employees who may be illiterate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9117,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.0225,
+        "Decision": 0.002,
+        "Facts": 0.0238,
+        "Issue": 0.0013,
+        "Reasoning": 0.9117
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Therefore it is wrong to suggest that the absence of notice is so important and so significant in the context of this Act that that fact alone brings about a situation whereby the Standing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.0357,
+        "Decision": 0.0006,
+        "Facts": 0.0229,
+        "Issue": 0.0001,
+        "Reasoning": 0.9276
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "It is then suggested by Mr. Sule that there is a class of cases decided by this Court where it has been held that a prohibitory order, although brought into force at a particular point of time does not operate against a particular individual or institution unless the individual or institution has notice of that prohibitory order.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.209,
+        "Arguments of Respondent": 0.7565,
+        "Decision": 0.0005,
+        "Facts": 0.0005,
+        "Issue": 0.0003,
+        "Reasoning": 0.0332
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The Standing Orders do not deal with offences.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5407,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2891,
+        "Arguments of Respondent": 0.1115,
+        "Decision": 0.0007,
+        "Facts": 0.0577,
+        "Issue": 0.0003,
+        "Reasoning": 0.5407
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "They deal with civil or Industrial rights and liabilities of employer and employees, and there is no principle in law that if a statute or statutory orders create civil rights, those rights cannot come into force unless every party affected by it has special notice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.025,
+        "Arguments of Respondent": 0.0576,
+        "Decision": 0.0001,
+        "Facts": 0.0091,
+        "Issue": 0.0021,
+        "Reasoning": 0.906
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Further, participation in all illegal strike is per se an offence, and it is an illegal activity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3051,
+        "Arguments of Respondent": 0.1979,
+        "Decision": 0.0017,
+        "Facts": 0.1221,
+        "Issue": 0.0005,
+        "Reasoning": 0.3727
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 33,
+      "text": "Therefore, the employees cannot urge before us that what they were doing was something lawful which was for the first time made unlawful by the coming into operation of the Standing Orders.7.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9408,
+      "probabilities": {
+        "Arguments of Petitioner": 0.012,
+        "Arguments of Respondent": 0.0231,
+        "Decision": 0.0013,
+        "Facts": 0.0225,
+        "Issue": 0.0002,
+        "Reasoning": 0.9408
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Mr. Sule then points out that if that is the view we take of S. 9 then an employer can with impunity defy the direction given by the Legislature under S. 9 and refuse to post the translation of the Standing Orders on the notice board or negligently delay it as long as possible.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1034,
+        "Arguments of Respondent": 0.8582,
+        "Decision": 0.0005,
+        "Facts": 0.0006,
+        "Issue": 0.0003,
+        "Reasoning": 0.0371
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The Legislature wanted notice of the Standing Orders which were settled to be given to the employees in the best manner possible.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9434,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0189,
+        "Arguments of Respondent": 0.0238,
+        "Decision": 0.0001,
+        "Facts": 0.0137,
+        "Issue": 0.0001,
+        "Reasoning": 0.9434
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "It was not possible to provide for, a very language or for the possibility that some of the employees might be illiterate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1392,
+        "Arguments of Respondent": 0.0915,
+        "Decision": 0.0029,
+        "Facts": 0.0953,
+        "Issue": 0.0004,
+        "Reasoning": 0.6708
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "But dealing with the question fairly and broadly, the Legislature directed that the employer should put up the Standing Orders to the English language and in the language of the majority, and we wish to point out precisely what the effect of noncompliance by the employer of this direction in S. 9 would be.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9399,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0001,
+        "Facts": 0.0442,
+        "Issue": 0.0013,
+        "Reasoning": 0.9399
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "It may well be that noncompliance of the direction in S. 9 with regard to the Standing Orders to be put up in the language of the majority may cause prejudice to the workers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9672,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0033,
+        "Facts": 0.0073,
+        "Issue": 0.0005,
+        "Reasoning": 0.9672
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "It may be that the workers may be able to satisfy the Industrial Tribunal that they had no notice of the Standing Orders, and further, if they had notice they would not have participated in the illegal strike and risked the penalty of a dismissal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0355,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0025,
+        "Facts": 0.0157,
+        "Issue": 0.0044,
+        "Reasoning": 0.9227
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "If such a prejudice is caused and the Industrial Tribunal is satisfied, it would be the duty of the Industrial Tribunal to take this circumstance into consideration in deciding whether the application made by the employer for dismissing the employees should be granted or not.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9335,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0447,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0042,
+        "Facts": 0.0089,
+        "Issue": 0.001,
+        "Reasoning": 0.9335
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Again, there may be a case where the employers noncompliance may not be wilful or negligent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0328,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0017,
+        "Facts": 0.012,
+        "Issue": 0.0031,
+        "Reasoning": 0.9293
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "In this case Mr. Vimadalal says that the second respondent company took every step to get the Standing Orders translated into Marathi as speedily as possible.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1389,
+        "Arguments of Respondent": 0.2069,
+        "Decision": 0.0017,
+        "Facts": 0.0595,
+        "Issue": 0.0002,
+        "Reasoning": 0.5929
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "That again is a circumstance which the Industrial Tribunal will take into consideration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0125,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0284,
+        "Facts": 0.0277,
+        "Issue": 0.0003,
+        "Reasoning": 0.9209
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "Surely it cannot be suggested that where the Industrial Tribunal has a case where the employer is guilty of wilful default in failing to comply with the directions contained in S. 9 that is a factor which the Industrial Tribunal should not take into consideration in considering whether the application of the employer for dismissal of the employees, which right to the employer arose under those very Standing Orders, should be granted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9768,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0004,
+        "Facts": 0.008,
+        "Issue": 0.0005,
+        "Reasoning": 0.9768
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "Again Mr. Vimadalal points out that in this case the draft standing Orders were submitted to the Certifying Officer in 1949, that copies of the draft as required by the Act were sent to the Trade Union, that in the draft these two acts were constituted misconduct, and in fact in this respect the draft was following the Model Standing Orders, and Mr. Vimadalal says that from 1949 to 1953 the Trade Union was closely associated with this draft and throughout that period those two acts remained in the draft as constituting misconduct, and, therefore it is not likely that the employees would not have known that the ultimate Standing Orders which were settled by the Appellate Tribunal did not make these two acts misconduct.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5512,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1074,
+        "Arguments of Respondent": 0.3333,
+        "Decision": 0.0007,
+        "Facts": 0.0071,
+        "Issue": 0.0003,
+        "Reasoning": 0.5512
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "Again, in our opinion, that is a circumstance which the Industrial Tribunal will take into consideration in deciding whether the workers had notice of the Standing Orders de hors the provisions of S. 9.But these are all arguments on merits, and we agree with Mr. Sule that the absence of notice is an important circumstance which any Tribunal dealing with the merits of the application made by the employer should take into consideration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9488,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0016,
+        "Facts": 0.0035,
+        "Issue": 0.0004,
+        "Reasoning": 0.9488
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "Therefore, in our opinion, the date when the Standing Orders come into operation is fixed by the statute under S. 7 and when the Standing Orders come into operation they bind both the employer and the employees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0002,
+        "Facts": 0.0163,
+        "Issue": 0.0007,
+        "Reasoning": 0.9605
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Section 9 is merely directory and we expect the employer to carry out the provisions which the Legislature clearly enacted to be in the interest of the workers and, as we have already pointed out, noncompliance with that direction may result in the employer not succeeding in satisfying the Industrial Tribunal that it is a proper case for dismissing its employees.8.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0076,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.0014,
+        "Facts": 0.0038,
+        "Issue": 0.0016,
+        "Reasoning": 0.978
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The result is that the petition fails and must be dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9518,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.9518,
+        "Facts": 0.0159,
+        "Issue": 0.0004,
+        "Reasoning": 0.0295
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "No order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9487,
+        "Facts": 0.0379,
+        "Issue": 0.0002,
+        "Reasoning": 0.0123
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "Rule discharged.",
+      "predicted_label": "Decision",
+      "confidence": 0.9674,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9674,
+        "Facts": 0.0268,
+        "Issue": 0.0003,
+        "Reasoning": 0.0049
+      }
+    }
+  ]
+}

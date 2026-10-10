@@ -1,0 +1,826 @@
+{
+  "case_id": "6720",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "THIS writ petition under Article 226 of the Constitution of India is directed against the orders dated 1261977 and 23121978 passed by the authorities in exercise of the powers conferred on them under the Central Excises and Salt Act, 1944 (hereinafter referred to as the Act ).",
+      "predicted_label": "Facts",
+      "confidence": 0.5252,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0011,
+        "Facts": 0.5252,
+        "Issue": 0.4712,
+        "Reasoning": 0.0014
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The order of the Collector of Central Excise, Pune is at Exh. D and the order of the Member, Central board of Excise and Customs, New Delhi is at Exh.",
+      "predicted_label": "Facts",
+      "confidence": 0.5973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0354,
+        "Arguments of Respondent": 0.0574,
+        "Decision": 0.0025,
+        "Facts": 0.5973,
+        "Issue": 0.0016,
+        "Reasoning": 0.3058
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "THE petitioner is a Company incorporated under the Companies Act, 1956 and has its registered office at Bombay.",
+      "predicted_label": "Facts",
+      "confidence": 0.9733,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9733,
+        "Issue": 0.0171,
+        "Reasoning": 0.0045
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The petitioner company has got two units, one at BorivliBombay and the other at Bhor, district Pune.",
+      "predicted_label": "Facts",
+      "confidence": 0.986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0,
+        "Facts": 0.986,
+        "Issue": 0.0016,
+        "Reasoning": 0.0097
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The dispute in the present petition is restricted to the units at bhor.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5415,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0467,
+        "Arguments of Respondent": 0.0545,
+        "Decision": 0.0031,
+        "Facts": 0.3484,
+        "Issue": 0.0058,
+        "Reasoning": 0.5415
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "The petitioner company is engaged in manufacturing the product commonly known as pvc coated paper.",
+      "predicted_label": "Facts",
+      "confidence": 0.985,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.985,
+        "Issue": 0.0111,
+        "Reasoning": 0.0024
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "pvc is short form of Poly Vinyl Chloride which is a plastic raw material within the meaning of the said Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.3436,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2923,
+        "Arguments of Respondent": 0.282,
+        "Decision": 0.0012,
+        "Facts": 0.3436,
+        "Issue": 0.0048,
+        "Reasoning": 0.076
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The petitioners product is sold in the market under brand names of paplast and muralon The plant at Borivli is called Lamination plant whereas the plant at Bhor is called Coating plant.",
+      "predicted_label": "Facts",
+      "confidence": 0.8815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0918,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0001,
+        "Facts": 0.8815,
+        "Issue": 0.0007,
+        "Reasoning": 0.0231
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The classification list filed by the petitioner from time to time is at Exh. C. collectively.",
+      "predicted_label": "Facts",
+      "confidence": 0.9326,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0213,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0003,
+        "Facts": 0.9326,
+        "Issue": 0.0019,
+        "Reasoning": 0.034
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "On 1371976 the officer of the Excise department carried out a search and they opinion that the goods cleared by the petitionercompany is not the same which is reflected under the classification list.",
+      "predicted_label": "Facts",
+      "confidence": 0.9721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0003,
+        "Facts": 0.9721,
+        "Issue": 0.0011,
+        "Reasoning": 0.023
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The office of the Excise department therefore seized the goods and on 23121976 issued show cause notice (Exh. D.)",
+      "predicted_label": "Facts",
+      "confidence": 0.9934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9934,
+        "Issue": 0.0007,
+        "Reasoning": 0.0052
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "It is relevant to reproduce part of the show cause notice since the dispute centers round the validity of the show cause notice whereas it appears that M s. Bhor Industries Ltd. Bhor District Pune holder of Central excise Licence No. L4 Paper/1/73 have contravened the provisions of Rule 173Q (1) (a) and (d)read with Rule 173B, 173C, 173F and 173G (1) and 9 (1) of the Central Excise Rules, 1944 inasmuch as they did not file the classification list, did not file the price list, did not determine the duty liability in respect of PVC coated paper manufactured in their Factor and cleared the same without payment of Central Excise duty.",
+      "predicted_label": "Facts",
+      "confidence": 0.9891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9891,
+        "Issue": 0.0019,
+        "Reasoning": 0.008
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Now, therefore, M s. Bhor Industries Bhor District Pune are required to show cause to the collector of Central Excise Pune PMCs Commercial Building, Hirabaug, Tilak Road, Pune 411 002 as to why the 644 bundles 80185.",
+      "predicted_label": "Facts",
+      "confidence": 0.9662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0022,
+        "Facts": 0.9662,
+        "Issue": 0.0002,
+        "Reasoning": 0.0228
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "75 Mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.6008,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1155,
+        "Arguments of Respondent": 0.0433,
+        "Decision": 0.003,
+        "Facts": 0.6008,
+        "Issue": 0.0014,
+        "Reasoning": 0.2361
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "24292 Kgs. of PVC coated paper under seizure should not be confiscated under Rule 173Q (1) of Central Excise Rules, 1944 and why penalty should not be imposed on them under Rule 173Q (1) ibid and why duty should not be recovered under Rule 9 (2) ibid on the 1418207. 00",
+      "predicted_label": "Facts",
+      "confidence": 0.9803,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0003,
+        "Facts": 0.9803,
+        "Issue": 0.0029,
+        "Reasoning": 0.0037
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "L. Mtrs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.2734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.264,
+        "Arguments of Respondent": 0.158,
+        "Decision": 0.0138,
+        "Facts": 0.2732,
+        "Issue": 0.0176,
+        "Reasoning": 0.2734
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "(38001.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4611,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2731,
+        "Arguments of Respondent": 0.1065,
+        "Decision": 0.006,
+        "Facts": 0.1505,
+        "Issue": 0.0029,
+        "Reasoning": 0.4611
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "25 Kgs.)",
+      "predicted_label": "Facts",
+      "confidence": 0.5323,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0757,
+        "Arguments of Respondent": 0.0284,
+        "Decision": 0.0018,
+        "Facts": 0.5323,
+        "Issue": 0.0017,
+        "Reasoning": 0.3601
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "PVC coated paper removed by them without payment of duty upon 13101976.",
+      "predicted_label": "Facts",
+      "confidence": 0.9558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0007,
+        "Facts": 0.9558,
+        "Issue": 0.0043,
+        "Reasoning": 0.0121
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The petitioner company has thus contravened the provisions as indicated above.",
+      "predicted_label": "Facts",
+      "confidence": 0.4914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0642,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0078,
+        "Facts": 0.4914,
+        "Issue": 0.0007,
+        "Reasoning": 0.4232
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 20,
+      "text": "The show cause notice is substance is under Rule 9 (1) of the Central Excise Rules, 1944  hereinafter referred to as the Rules.",
+      "predicted_label": "Facts",
+      "confidence": 0.7998,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0434,
+        "Arguments of Respondent": 0.0102,
+        "Decision": 0.0035,
+        "Facts": 0.7998,
+        "Issue": 0.0308,
+        "Reasoning": 0.1124
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "( 5 ) THE Petitioner company showed the cause and explained to the Authority that the goods cleared by them are in conformity with the classification list and there is no contravention of any of the provisions of the Act and Rules.",
+      "predicted_label": "Facts",
+      "confidence": 0.7149,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1502,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.0019,
+        "Facts": 0.7149,
+        "Issue": 0.0027,
+        "Reasoning": 0.1126
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The petitioner company also urged that they are entitled for benefit of concessional rate of duty under the above notification issued under Tariff Item 17 (2).",
+      "predicted_label": "Facts",
+      "confidence": 0.9255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0351,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0004,
+        "Facts": 0.9255,
+        "Issue": 0.0185,
+        "Reasoning": 0.0196
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "No excise duty was payable in view of the said notification.",
+      "predicted_label": "Facts",
+      "confidence": 0.6934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0572,
+        "Arguments of Respondent": 0.0308,
+        "Decision": 0.0061,
+        "Facts": 0.6934,
+        "Issue": 0.0125,
+        "Reasoning": 0.2
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "Show cause notice is bad, illegal and be dismissed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9419,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.0116,
+        "Decision": 0.0025,
+        "Facts": 0.9419,
+        "Issue": 0.0009,
+        "Reasoning": 0.0186
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The Collector also pointed that the petitioner company is not entitled for the benefit of notification issued under Tariff Item 17 (2).",
+      "predicted_label": "Facts",
+      "confidence": 0.9361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0001,
+        "Facts": 0.9361,
+        "Issue": 0.0031,
+        "Reasoning": 0.042
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Consistent with these findings the Collector passed the following order Under Rule 173Q (1) of the Central Excise Rules, 1944, I imposed a penalty of Rs. 10,000/ (Rupees ten thousand only) on M s. Bhor Industries Ltd., Bhor.",
+      "predicted_label": "Facts",
+      "confidence": 0.9924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9924,
+        "Issue": 0.0006,
+        "Reasoning": 0.0059
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "I also order confiscation of the 644 packages of paper valued at Rs. 2,83,723.00 under the same Rule.",
+      "predicted_label": "Facts",
+      "confidence": 0.9734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0005,
+        "Facts": 0.9734,
+        "Issue": 0.0028,
+        "Reasoning": 0.0206
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "However, I give M s. Bhor Industries Ltd., Bhor an option to redeem the goods, within three month of the date of this order, on payment of a fine of Rs. 30,000/ (Rupees Thirty Thousand only) only.",
+      "predicted_label": "Facts",
+      "confidence": 0.9728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0105,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0002,
+        "Facts": 0.9728,
+        "Issue": 0.0002,
+        "Reasoning": 0.0105
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "I also demand from M s. Bhor Industries Ltd., Bhor under Rule 9 (2) of the Central Excise Rules, 1944 duty on the 14,18,207. 00",
+      "predicted_label": "Facts",
+      "confidence": 0.9925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9925,
+        "Issue": 0.0009,
+        "Reasoning": 0.0037
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Meters (380001.",
+      "predicted_label": "Facts",
+      "confidence": 0.8636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0593,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.0036,
+        "Facts": 0.8636,
+        "Issue": 0.0023,
+        "Reasoning": 0.0471
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "25 Kgs.)",
+      "predicted_label": "Facts",
+      "confidence": 0.5323,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0757,
+        "Arguments of Respondent": 0.0284,
+        "Decision": 0.0018,
+        "Facts": 0.5323,
+        "Issue": 0.0017,
+        "Reasoning": 0.3601
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "PVC coated paper removed by them without payment of duty upto 13101976 at the appropriate rate.",
+      "predicted_label": "Facts",
+      "confidence": 0.9437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.004,
+        "Facts": 0.9437,
+        "Issue": 0.0325,
+        "Reasoning": 0.0139
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The goods under seizure if redeemed, shall be cleared on payment of duty.",
+      "predicted_label": "Facts",
+      "confidence": 0.5828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.2959,
+        "Facts": 0.5828,
+        "Issue": 0.0005,
+        "Reasoning": 0.1055
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "( 7 ) THE petitioner Company aggrieved by the said order preferred an appeal to the Central Board of Excise and Customs, New Delhi and the learned Member of the Central Board of Excise and customs, New Delhi vide his order dated 23121978 modified the order passed by the Collector as regards the confiscation and penalty holding that it is case for leniency.",
+      "predicted_label": "Facts",
+      "confidence": 0.993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0,
+        "Facts": 0.993,
+        "Issue": 0.0006,
+        "Reasoning": 0.0048
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The learned member opinion that there is no evidence that the petitioner Company has knowingly filed a wrong classification list.",
+      "predicted_label": "Facts",
+      "confidence": 0.6495,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0357,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0048,
+        "Facts": 0.6495,
+        "Issue": 0.0026,
+        "Reasoning": 0.2975
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "the subject matter is quite controversial and the petitioner Company might very well have been under the impression that they were entitled to exemption.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6892,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0201,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.002,
+        "Facts": 0.2582,
+        "Issue": 0.0128,
+        "Reasoning": 0.6892
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "In any event it was the duty of the Assistant Collector to whom the classification list was submitted, together with necessary information about the article and to confirm or amend the classification list filed by the party.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6718,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1624,
+        "Arguments of Respondent": 0.0927,
+        "Decision": 0.0018,
+        "Facts": 0.0704,
+        "Issue": 0.0009,
+        "Reasoning": 0.6718
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "As the Board does not doubt the bonafides of the petitionercompany it orders that both the personal penalty and the confiscation may be set aside.",
+      "predicted_label": "Facts",
+      "confidence": 0.5962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0136,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.005,
+        "Facts": 0.5962,
+        "Issue": 0.0436,
+        "Reasoning": 0.3344
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "What follows is the important direction in the order and we may reproduce the same during the personal hearing it was also submitted that the clearance in this case had taken place with the knowledge of the Department and therefore Rule 173 (Q) will not apply to this case.",
+      "predicted_label": "Facts",
+      "confidence": 0.4665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0703,
+        "Arguments of Respondent": 0.048,
+        "Decision": 0.0008,
+        "Facts": 0.4665,
+        "Issue": 0.0009,
+        "Reasoning": 0.4136
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "It was contended that according to the ratio of the decision in the Elphinstone Mill Judgment the department could invoke only Rule 10 to demand this duty.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3743,
+        "Arguments of Respondent": 0.1302,
+        "Decision": 0.0013,
+        "Facts": 0.3355,
+        "Issue": 0.007,
+        "Reasoning": 0.1517
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "In view of the foregoing finding of the Board that there was no malafide on the part of the appellant and that they had submitted a classification list which should have been properly scrutinized before approval by the Assistant collector, the Board agrees with them that only Rule 10 (as amended by Rule 173J) can be invoke in this case to demand the duty.",
+      "predicted_label": "Facts",
+      "confidence": 0.6245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0011,
+        "Facts": 0.6245,
+        "Issue": 0.0019,
+        "Reasoning": 0.35
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "Subject to the above modification, the Collectors order is confirmed.",
+      "predicted_label": "Facts",
+      "confidence": 0.6559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.2267,
+        "Facts": 0.6559,
+        "Issue": 0.0005,
+        "Reasoning": 0.113
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "Mr. Petal therefore urged that the show cause notice was totally silent as regards the contravention of Rule 10 as amended by Rule 173J of the Rules and in view thereof the impugned order which is inconsistent with the show cause notice must be quashed and set aside.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9828,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0001,
+        "Facts": 0.0014,
+        "Issue": 0.0003,
+        "Reasoning": 0.0072
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "( 9 ) MR.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8924,
+        "Arguments of Respondent": 0.0275,
+        "Decision": 0.0022,
+        "Facts": 0.049,
+        "Issue": 0.0062,
+        "Reasoning": 0.0227
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "Desai appearing for the respondents, however, urged that the show cause notice at Exh.B undoubtedly refer to Rule 9 (1) of the said Rules but the substance contained therein is referable to Rule 10 as amended by Rule 173J and, therefore, there is no error on facts which would invalid the show cause notice.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.92,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.92,
+        "Decision": 0.0002,
+        "Facts": 0.0043,
+        "Issue": 0.0001,
+        "Reasoning": 0.0633
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "In support of his submission Mr. Desai drew our attention to the judgment of the Supreme Court in N. B. Sanjana, Assistant Collector of Central Excise, Bombay v. The Elphinstone Spinning and Weaving Mills Co. Ltd. 1978 (2) ELT (J 399 ).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7348,
+        "Arguments of Respondent": 0.085,
+        "Decision": 0.0013,
+        "Facts": 0.0041,
+        "Issue": 0.0002,
+        "Reasoning": 0.1746
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "In particular, he drew our attention to the first headnote which reads as under  Demand Notice  Quoting of wrong rule not invalid  If the authorities have the power to issue notice either under Rule 10a or Rule 9 (2), the fact that the notice refer specifically to a particular rule which may not be applicable, will not make the notice invalid.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.659,
+      "probabilities": {
+        "Arguments of Petitioner": 0.659,
+        "Arguments of Respondent": 0.2709,
+        "Decision": 0.0002,
+        "Facts": 0.0038,
+        "Issue": 0.0001,
+        "Reasoning": 0.066
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "Mr. Desai also drew our attention to paragraph 14 of the judgment.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7682,
+        "Arguments of Respondent": 0.0983,
+        "Decision": 0.0016,
+        "Facts": 0.0019,
+        "Issue": 0.0004,
+        "Reasoning": 0.1295
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "On careful reading of the judgment of the Supreme Court we are of the opinion that the said judgment is clearly distinguishable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9213,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0364,
+        "Arguments of Respondent": 0.0288,
+        "Decision": 0.0013,
+        "Facts": 0.0119,
+        "Issue": 0.0003,
+        "Reasoning": 0.9213
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "In the present case the show cause notice was issued under Rule 9 (1) of the rules and the contents of the said notice were based upon the requirements contemplated under the said rule.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9104,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0419,
+        "Arguments of Respondent": 0.0331,
+        "Decision": 0.0019,
+        "Facts": 0.0123,
+        "Issue": 0.0003,
+        "Reasoning": 0.9104
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The requirements as regards the show cause notice under Rule 10 read with amended Rule 173J are different.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0713,
+        "Arguments of Respondent": 0.0784,
+        "Decision": 0.0021,
+        "Facts": 0.0185,
+        "Issue": 0.0004,
+        "Reasoning": 0.8293
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Even the Central Board of Excise and Customs in its order has held that the approval by the Assistant Collector was due to inadvertence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0319,
+        "Arguments of Respondent": 0.0591,
+        "Decision": 0.0019,
+        "Facts": 0.0291,
+        "Issue": 0.0002,
+        "Reasoning": 0.8778
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "If this be so we are unable to read the contents of the show cause notice issued to the petitioner Company as if fulfilling the requirements of Rule 10 as amended by Rule 173J of the Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9442,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0012,
+        "Facts": 0.0345,
+        "Issue": 0.0002,
+        "Reasoning": 0.9442
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "( 10 ) ON this short ground, in our opinion, the petition must succeed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9402,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.024,
+        "Facts": 0.0255,
+        "Issue": 0.0004,
+        "Reasoning": 0.9402
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Rule is made absolute in terms of prayer clauses (a) (b) and (c) with a rider that the Assistant Collector may invoke rule 10 (as amended by rule 173J) if permissible in law to demand the duty.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0372,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.1147,
+        "Facts": 0.2182,
+        "Issue": 0.0044,
+        "Reasoning": 0.6209
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "No order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9487,
+        "Facts": 0.0379,
+        "Issue": 0.0002,
+        "Reasoning": 0.0123
+      }
+    }
+  ]
+}

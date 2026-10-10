@@ -1,0 +1,803 @@
+{
+  "case_id": "7056",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " P. SHAH, J. ( 1 ) BEING aggrieved by the Award, dated January 29, 1988 passed by the Motor Accident Claims Tribunal, Pune, the original claimants have filed the present appeal under Section 110A of the Motor vehicles Act, 1939.",
+      "predicted_label": "Issue",
+      "confidence": 0.5338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.001,
+        "Facts": 0.4623,
+        "Issue": 0.5338,
+        "Reasoning": 0.0017
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 1,
+      "text": "( 2 ) ON July 5, 1980, deceased Shekhar, the only son of his parents, namely, Appellant Nos. 1 and 2, was proceeding.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8253,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8253,
+        "Arguments of Respondent": 0.0796,
+        "Decision": 0.0216,
+        "Facts": 0.0505,
+        "Issue": 0.0069,
+        "Reasoning": 0.0161
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "towards Alandi on a bicycle to visit his married sister.",
+      "predicted_label": "Facts",
+      "confidence": 0.9815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9815,
+        "Issue": 0.0004,
+        "Reasoning": 0.014
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "When deceased Shekhar was near the Mariaai Gate, truck bearing no.",
+      "predicted_label": "Facts",
+      "confidence": 0.9547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0003,
+        "Facts": 0.9547,
+        "Issue": 0.0017,
+        "Reasoning": 0.0362
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "MTL 634 belonging to respondent No. 2 dashed, him which resulted in his death on the same night.",
+      "predicted_label": "Facts",
+      "confidence": 0.9746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0003,
+        "Facts": 0.9746,
+        "Issue": 0.0115,
+        "Reasoning": 0.0096
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The appellants thereafter filed an application under Section 110A of the Motor Vehicles Act, 1939 before the Motor Accident Claims tribunal, Pune against Respondent Nos. 1 and 2, who were respectively driver and owner of the truck and the Respondent No. 4 United India insurance Co. Ltd. for compensation of Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9951,
+        "Issue": 0.0021,
+        "Reasoning": 0.0023
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "One Lac on account of untimely death of deceased Shekhar.",
+      "predicted_label": "Facts",
+      "confidence": 0.7466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1395,
+        "Arguments of Respondent": 0.029,
+        "Decision": 0.0024,
+        "Facts": 0.7466,
+        "Issue": 0.01,
+        "Reasoning": 0.0725
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "( 3 ) THOUGH Respondent Nos. 1 and 2 filed separate written statements, their defence was common.",
+      "predicted_label": "Facts",
+      "confidence": 0.8692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0416,
+        "Arguments of Respondent": 0.061,
+        "Decision": 0.0004,
+        "Facts": 0.8692,
+        "Issue": 0.0016,
+        "Reasoning": 0.0263
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The Respondent Nos. 1 and 2 contended that accident occurred not on account of rashness or negligence on the part of the Respondent No. 1, but due to the negligence of deceased Shekhar, who suddenly tried to cross the road and dashed on the truck.",
+      "predicted_label": "Facts",
+      "confidence": 0.8986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.088,
+        "Decision": 0.0002,
+        "Facts": 0.8986,
+        "Issue": 0.0021,
+        "Reasoning": 0.0089
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The Respondent nos.",
+      "predicted_label": "Facts",
+      "confidence": 0.8554,
+      "probabilities": {
+        "Arguments of Petitioner": 0.012,
+        "Arguments of Respondent": 0.0813,
+        "Decision": 0.0062,
+        "Facts": 0.8554,
+        "Issue": 0.0102,
+        "Reasoning": 0.035
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "1 and 2 also contended that the claim for compensation of Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.5861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.106,
+        "Arguments of Respondent": 0.2933,
+        "Decision": 0.0003,
+        "Facts": 0.5861,
+        "Issue": 0.001,
+        "Reasoning": 0.0134
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "One lac was exorbitant and excessive.",
+      "predicted_label": "Facts",
+      "confidence": 0.5433,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0749,
+        "Arguments of Respondent": 0.0205,
+        "Decision": 0.002,
+        "Facts": 0.5433,
+        "Issue": 0.0013,
+        "Reasoning": 0.3581
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "The Respondent No. 2 contended that the truck was insured under insurance cover No. 60588 for the period from December 26, 1979 to December 25,1980.",
+      "predicted_label": "Facts",
+      "confidence": 0.9267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0571,
+        "Decision": 0.0001,
+        "Facts": 0.9267,
+        "Issue": 0.0028,
+        "Reasoning": 0.0121
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The Respondent No. 4 Insurance company in its written statements (Exhibits 126 and 112) mainly contended that the truck was not insured with the Respondent No. 4 at all.",
+      "predicted_label": "Facts",
+      "confidence": 0.8786,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0855,
+        "Decision": 0.0001,
+        "Facts": 0.8786,
+        "Issue": 0.0017,
+        "Reasoning": 0.032
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The respondent No 4 disputed the claim of the appellants that the death was caused due to negligence or rashness of the Respondent No. 1.",
+      "predicted_label": "Facts",
+      "confidence": 0.8552,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.1272,
+        "Decision": 0.0003,
+        "Facts": 0.8552,
+        "Issue": 0.002,
+        "Reasoning": 0.0134
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The respondent No. 4 also disputed the claim for compensation of Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0508,
+        "Decision": 0.0002,
+        "Facts": 0.9343,
+        "Issue": 0.002,
+        "Reasoning": 0.0109
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "One lac as excessive and exorbitant.",
+      "predicted_label": "Facts",
+      "confidence": 0.8628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0244,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0066,
+        "Facts": 0.8628,
+        "Issue": 0.002,
+        "Reasoning": 0.0953
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "In any event, the Respondent No. 4 contended that their liability should be restricted only to Rs. 50,000 as per the provisions of the Motor Vehicles Act, 1939.",
+      "predicted_label": "Facts",
+      "confidence": 0.6877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.2671,
+        "Decision": 0.0004,
+        "Facts": 0.6877,
+        "Issue": 0.002,
+        "Reasoning": 0.0228
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "( 4 ) ON appreciation of evidence led by the parties, the Tribunal, inter alia, held that deceased Shekhar died an accidental death due to rash and negligent driving of the opponent No. 1 and that the appellants are entitled to receive compensation of Rs. 35,000 from opponent Nos. 1 and 2 with Interest at the rate of 12 per annum from the date of filing of the application till recovery.",
+      "predicted_label": "Facts",
+      "confidence": 0.9941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.9941,
+        "Issue": 0.0007,
+        "Reasoning": 0.0019
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The Tribunal was pleased to dismiss the claim as against the Insurance Company on recording a finding that the truck was not insured at the time of accident.",
+      "predicted_label": "Facts",
+      "confidence": 0.9323,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0002,
+        "Facts": 0.9323,
+        "Issue": 0.0026,
+        "Reasoning": 0.0603
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "( 5 ) MR.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9077,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9077,
+        "Arguments of Respondent": 0.0248,
+        "Decision": 0.0022,
+        "Facts": 0.0341,
+        "Issue": 0.0047,
+        "Reasoning": 0.0264
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Kotak, the learned Counsel for the appellants, submits that the finding of the Tribunal that the truck was not insured is completely erroneous and perverse.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9732,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0002,
+        "Facts": 0.0039,
+        "Issue": 0.0003,
+        "Reasoning": 0.0211
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Mr. Kotak draws our attention to the entries made in the tax payments and registration books of the Respondent No. 2 and the report prepared by the Inspector of Motor Vehicles in support of the case of appellants that the truck was insured with the Respondent no. 4.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1024,
+        "Arguments of Respondent": 0.7942,
+        "Decision": 0.0007,
+        "Facts": 0.0029,
+        "Issue": 0.0003,
+        "Reasoning": 0.0995
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Mr. Kotak also relies upon the evidence of Madhukar Banke, an r. T, O. Officer and Vinayak Ghunakikar, the Inspector of Motor Vehicles to further support, the appellants claim against the Respondent No. 4.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9115,
+        "Arguments of Respondent": 0.0732,
+        "Decision": 0.0001,
+        "Facts": 0.0032,
+        "Issue": 0.0002,
+        "Reasoning": 0.0118
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Mr. Kotak also critisized the finding of the Tribunal that the appellants are entitled to a sum of Rs. 35,000 as against Rs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9036,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9036,
+        "Arguments of Respondent": 0.0754,
+        "Decision": 0.0001,
+        "Facts": 0.0021,
+        "Issue": 0.0002,
+        "Reasoning": 0.0187
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "One Lac.",
+      "predicted_label": "Facts",
+      "confidence": 0.976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0042,
+        "Facts": 0.976,
+        "Issue": 0.001,
+        "Reasoning": 0.015
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Mr. Kotak submits that the Tribunal Committed an error in fixing of the dependency at a paltry sum of Rs. 250 per month and applying multiplier of ten years.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9527,
+        "Arguments of Respondent": 0.0249,
+        "Decision": 0.0002,
+        "Facts": 0.0027,
+        "Issue": 0.0004,
+        "Reasoning": 0.0191
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The appellant No. 1 the father of the deceased has deposed that he is a tailor by profession and that the deceased, who had learnt upto VIIth Standard, was helping him in tailoring profession.",
+      "predicted_label": "Facts",
+      "confidence": 0.7897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0463,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.001,
+        "Facts": 0.7897,
+        "Issue": 0.0002,
+        "Reasoning": 0.1577
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "He has further deposed that before the deceased joined him in his profession, he was getting only Rs. 250 to rs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6083,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1378,
+        "Arguments of Respondent": 0.0351,
+        "Decision": 0.0006,
+        "Facts": 0.218,
+        "Issue": 0.0002,
+        "Reasoning": 0.6083
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "Thus, according to the appellants, the dependency was around Rs. 500 to Rs. 600 per month.",
+      "predicted_label": "Facts",
+      "confidence": 0.8638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0754,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0007,
+        "Facts": 0.8638,
+        "Issue": 0.0006,
+        "Reasoning": 0.0584
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The tribunal has taken the dependency at Rs. 250 per month On perusal of the evidence, we are of the opinion that the dependency should be fixed at Rs. 375 per month.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8629,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0313,
+        "Facts": 0.0984,
+        "Issue": 0.0009,
+        "Reasoning": 0.8629
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Considering the age of the appellants, we find that the Tribunal correctly applied the multiplier of ten years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9173,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.056,
+        "Facts": 0.0212,
+        "Issue": 0.0006,
+        "Reasoning": 0.9173
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "At the rate of Rs. 375 per month, the yearly dependency comes to Rs. 4,500.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7196,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0016,
+        "Facts": 0.2644,
+        "Issue": 0.0018,
+        "Reasoning": 0.7196
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Using the multiplier of ten years, the total amount comes to Rs. 45,000.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9266,
+      "probabilities": {
+        "Arguments of Petitioner": 0.025,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0015,
+        "Facts": 0.027,
+        "Issue": 0.0007,
+        "Reasoning": 0.9266
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The appellants have been deprived of the love and affection of their only son and, therefore, the appellants are entitled to rs. 5,000 on that count.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8174,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1074,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.0355,
+        "Facts": 0.021,
+        "Issue": 0.0008,
+        "Reasoning": 0.8174
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The respondent No. 2, however, failed to produce the insurance policy.",
+      "predicted_label": "Facts",
+      "confidence": 0.8752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.03,
+        "Decision": 0.0022,
+        "Facts": 0.8752,
+        "Issue": 0.0039,
+        "Reasoning": 0.0789
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The respondent No. 4 contended that the truck was not insured at all.",
+      "predicted_label": "Facts",
+      "confidence": 0.9108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0567,
+        "Decision": 0.0002,
+        "Facts": 0.9108,
+        "Issue": 0.0018,
+        "Reasoning": 0.0282
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Madhukar Banke, an Officer working with the R. T. O. , deposed on the basis of entries made in the record that the Respondent No. 4 was the insurer in respect of the truck under policy bearing No. 59955.",
+      "predicted_label": "Facts",
+      "confidence": 0.517,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0187,
+        "Decision": 0.0002,
+        "Facts": 0.517,
+        "Issue": 0.0002,
+        "Reasoning": 0.4566
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "for the period between December 18,1979 and December 17,1980 and that again the truck was insured for the period between December 26, 1979 and December 25, 1980 under policy bearing No. 65085.",
+      "predicted_label": "Facts",
+      "confidence": 0.8246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0001,
+        "Facts": 0.8246,
+        "Issue": 0.0035,
+        "Reasoning": 0.1524
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Vinayak Ghunakikar, the Inspector of Motor Vehicles, deposed that he examined the offending truck after the accident and prepared report (Exhibit 154 ).",
+      "predicted_label": "Facts",
+      "confidence": 0.5588,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.04,
+        "Decision": 0.0012,
+        "Facts": 0.5588,
+        "Issue": 0.0005,
+        "Reasoning": 0.3898
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "This report shows that the truck was insured with Respondent No. 4 under coyer note No. 60588.",
+      "predicted_label": "Facts",
+      "confidence": 0.7355,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0004,
+        "Facts": 0.7355,
+        "Issue": 0.0026,
+        "Reasoning": 0.2537
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "He said that he has prepared the report on the basis of the papers, which were found with the vehicle at the time of the inspection.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0538,
+        "Arguments of Respondent": 0.0557,
+        "Decision": 0.0015,
+        "Facts": 0.2607,
+        "Issue": 0.0004,
+        "Reasoning": 0.6279
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "We see no reason to disbelieve the record of the R, T. O. Office and the report of the Motor Vehicles inspector.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8677,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.004,
+        "Facts": 0.1025,
+        "Issue": 0.0003,
+        "Reasoning": 0.8677
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "It is true that there is some confusion about the exact policy number, but it is not possible to discard the evidence solely on that ground.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0124,
+        "Decision": 0.0004,
+        "Facts": 0.0151,
+        "Issue": 0.001,
+        "Reasoning": 0.955
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The owner of the vehicle, namely, Respondent No. 2 has given the correct policy number in the written statement.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4531,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0347,
+        "Arguments of Respondent": 0.4531,
+        "Decision": 0.0088,
+        "Facts": 0.1199,
+        "Issue": 0.0008,
+        "Reasoning": 0.3828
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "The R. T. O. Officer has produced original register and deposed that two numbers of cover note policy were issued by the Respondent No. 4 The Inspector of Motor Vehicles has deposed that he had inspected the vehicle and its papers after the accident and he found a policy copy issued by the Respondent No. 4.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5756,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0505,
+        "Decision": 0.0003,
+        "Facts": 0.3589,
+        "Issue": 0.0003,
+        "Reasoning": 0.5756
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "In our opinion, this evidence is sufficient to hold that the truck was insured with the Respondent No. 4 at the time of accident.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0035,
+        "Facts": 0.0283,
+        "Issue": 0.0011,
+        "Reasoning": 0.9565
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "Turning now to the evidence of Respondent No. 4.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0002,
+        "Facts": 0.0041,
+        "Issue": 0.0003,
+        "Reasoning": 0.9742
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Their Officer Prabbakar Kulkarni has deposed that a vehicle can be insured in any office of insurer and it is possible that the truck MTL634 could have been insured by any other branch of our company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6392,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.0379,
+        "Decision": 0.0009,
+        "Facts": 0.3131,
+        "Issue": 0.0014,
+        "Reasoning": 0.6392
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "it is also pertinent to note that the Respondent No. 4 has failed to produce the cover note policy in question to show that it was issued to someone other than Respondent No. 2 or for a different vehicle.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.001,
+        "Facts": 0.0089,
+        "Issue": 0.0004,
+        "Reasoning": 0.9793
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "The respondent No. 4 has not alleged or proved that they never issued a cover note policy of such number.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1776,
+        "Arguments of Respondent": 0.1021,
+        "Decision": 0.0007,
+        "Facts": 0.1237,
+        "Issue": 0.0006,
+        "Reasoning": 0.5953
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "We have, therefore, no hesitation to accept the appellants case that the truck was insured with the Respondent No. 4 at the time of accident.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9548,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.013,
+        "Facts": 0.0205,
+        "Issue": 0.0011,
+        "Reasoning": 0.9548
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "( 8 ) FOR these reasons, we allow the appeal.",
+      "predicted_label": "Decision",
+      "confidence": 0.9898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9898,
+        "Facts": 0.0042,
+        "Issue": 0.0001,
+        "Reasoning": 0.0052
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Award, dated January 29, 1988 passed by the Motor Accident Claims Tribunal, Pune is set aside and in its place the following Award is passed respondents",
+      "predicted_label": "Decision",
+      "confidence": 0.9252,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9252,
+        "Facts": 0.0482,
+        "Issue": 0.0003,
+        "Reasoning": 0.0253
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Nos. 1, 2 and 4 do pay Rs. 50,000 to the appellants with interest at the rate of 12 per annum thereon from the date of application till recovery.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.694,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.19,
+        "Facts": 0.0966,
+        "Issue": 0.0019,
+        "Reasoning": 0.694
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "Respondent Nos. 1, 2 and 4 do pay proportionate costs of the appellants and bear their own costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9828,
+        "Facts": 0.0074,
+        "Issue": 0.0003,
+        "Reasoning": 0.0091
+      }
+    }
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "case_id": "6512",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " On 31.10.2006, a complaint was filed by Md. Abdul Jalil son of Kalu Khan, resident of village Kareyia Pahar to OfficerinCharge of Police Station Jogighopa, District Bongaigaon alleging that his daughter Marzina Begum was killed by the Petitioner, who is her husband.",
+      "predicted_label": "Facts",
+      "confidence": 0.9951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.9951,
+        "Issue": 0.0006,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The Petitioner was convicted under Section 302 IPC and was sentenced to undergo rigorous imprisonment for life.",
+      "predicted_label": "Facts",
+      "confidence": 0.7214,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0005,
+        "Facts": 0.7214,
+        "Issue": 0.2599,
+        "Reasoning": 0.0119
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The appeal filed by the Petitioner challenging the conviction and sentence was dismissed by the High Court by a judgment dated 15.07.2016, aggrieved by which this Special Leave Petition is filed.",
+      "predicted_label": "Facts",
+      "confidence": 0.871,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0008,
+        "Facts": 0.871,
+        "Issue": 0.1162,
+        "Reasoning": 0.0089
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "Notice was issued on 27.07.2018, restricted to the question of propriety of specifying rigorous imprisonment while imposing life sentence.",
+      "predicted_label": "Facts",
+      "confidence": 0.6311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0356,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0129,
+        "Facts": 0.6311,
+        "Issue": 0.0963,
+        "Reasoning": 0.2104
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "We are informed by the learned Counsel for the State that the Petitioner was released on annual leave of 30 days on 17.02.2020 but he did not surrender after expiry of leave on 18.03.2020.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3678,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1164,
+        "Arguments of Respondent": 0.0991,
+        "Decision": 0.3184,
+        "Facts": 0.0886,
+        "Issue": 0.0098,
+        "Reasoning": 0.3678
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "An FIR was lodged on 19.03.2020 at Jogighopa Police Station under Section 224 IPC.",
+      "predicted_label": "Facts",
+      "confidence": 0.9458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0005,
+        "Facts": 0.9458,
+        "Issue": 0.0143,
+        "Reasoning": 0.0233
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The Petitioner surrendered on 28.05.2020 and he has undergone sentence of about nine years till date.",
+      "predicted_label": "Issue",
+      "confidence": 0.5884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1705,
+        "Arguments of Respondent": 0.0412,
+        "Decision": 0.023,
+        "Facts": 0.125,
+        "Issue": 0.5884,
+        "Reasoning": 0.0519
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "Special Leave Petition (Crl.)",
+      "predicted_label": "Decision",
+      "confidence": 0.8275,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.8275,
+        "Facts": 0.1021,
+        "Issue": 0.0589,
+        "Reasoning": 0.0085
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "No. 7110 of 2018) 4.",
+      "predicted_label": "Facts",
+      "confidence": 0.6698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.286,
+        "Arguments of Respondent": 0.028,
+        "Decision": 0.0024,
+        "Facts": 0.6698,
+        "Issue": 0.0071,
+        "Reasoning": 0.0066
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The Petitioner has filed the above SLP assailing the judgment of the High Court by which his conviction and sentence under Section 302 IPC was upheld.",
+      "predicted_label": "Facts",
+      "confidence": 0.7891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1123,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.012,
+        "Facts": 0.7891,
+        "Issue": 0.0657,
+        "Reasoning": 0.0163
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "According to the prosecution, the Petitioner killed his wife on the suspicion of her infidelity.",
+      "predicted_label": "Facts",
+      "confidence": 0.4891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1519,
+        "Arguments of Respondent": 0.1624,
+        "Decision": 0.0004,
+        "Facts": 0.4891,
+        "Issue": 0.0023,
+        "Reasoning": 0.1939
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "On 24.08.2018, notice was issued by this Court on the question of propriety of specifying rigorous imprisonment while imposing life sentence.",
+      "predicted_label": "Facts",
+      "confidence": 0.4513,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1325,
+        "Arguments of Respondent": 0.0336,
+        "Decision": 0.0158,
+        "Facts": 0.4513,
+        "Issue": 0.2426,
+        "Reasoning": 0.1241
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "6.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6065,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6065,
+        "Arguments of Respondent": 0.0453,
+        "Decision": 0.0019,
+        "Facts": 0.3234,
+        "Issue": 0.0065,
+        "Reasoning": 0.0164
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "Mr. A. Sirajudeen, learned Senior Counsel appearing for the Petitioner in SLP (Crl.)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9807,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0004,
+        "Facts": 0.0066,
+        "Issue": 0.0021,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "No.6220 of 2018, submitted that the issue is no more res integra as it is covered by a judgment of this Court in Naib Singh v. State of Punjab Ors.(1983) 2 SCC 454 .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7291,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7291,
+        "Arguments of Respondent": 0.2623,
+        "Decision": 0.0003,
+        "Facts": 0.003,
+        "Issue": 0.0011,
+        "Reasoning": 0.0042
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "7.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7413,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7413,
+        "Arguments of Respondent": 0.0512,
+        "Decision": 0.0036,
+        "Facts": 0.1653,
+        "Issue": 0.0082,
+        "Reasoning": 0.0303
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Mr. Ajay Marwah, learned counsel appearing for the Petitioner in SLP Crl.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9647,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9647,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0008,
+        "Facts": 0.0122,
+        "Issue": 0.0053,
+        "Reasoning": 0.004
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "No.7110 of 2018, made an attempt to distinguish the judgment in Naib Singh (supra).",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3372,
+        "Arguments of Respondent": 0.6071,
+        "Decision": 0.0006,
+        "Facts": 0.0155,
+        "Issue": 0.0002,
+        "Reasoning": 0.0393
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "Mr. Debojit Borkakati, learned counsel appearing for the State of Assam, relied upon the judgment of this Court in Dilpesh Balchandra Panchal v. State of Gujarat (1992) 4 SCC 172 to submit that the arguments that are advanced in these cases have been considered by this Court earlier and were rejected.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1826,
+        "Arguments of Respondent": 0.8097,
+        "Decision": 0.0002,
+        "Facts": 0.0029,
+        "Issue": 0.0002,
+        "Reasoning": 0.0045
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "In Naib Singh (supra) the Petitioner was originally sentenced to death for committing an offence of murder under Section 302 IPC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0382,
+        "Arguments of Respondent": 0.0276,
+        "Decision": 0.01,
+        "Facts": 0.0255,
+        "Issue": 0.0064,
+        "Reasoning": 0.8923
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Later, the death sentence was commuted to imprisonment for life by the Government of Punjab.",
+      "predicted_label": "Facts",
+      "confidence": 0.4167,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1403,
+        "Arguments of Respondent": 0.1546,
+        "Decision": 0.0086,
+        "Facts": 0.4167,
+        "Issue": 0.1155,
+        "Reasoning": 0.1643
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "After having undergone sentence of 22 years, Naib Singh filed a Writ Petition under Article 32 of the Constitution of India challenging his continued detention.",
+      "predicted_label": "Issue",
+      "confidence": 0.7208,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0005,
+        "Facts": 0.2642,
+        "Issue": 0.7208,
+        "Reasoning": 0.0092
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "One of the points argued by the Petitioner relates to sentence of imprisonment for life not to be equated to rigorous imprisonment for life.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6279,
+        "Arguments of Respondent": 0.0132,
+        "Decision": 0.0139,
+        "Facts": 0.02,
+        "Issue": 0.0362,
+        "Reasoning": 0.2888
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "By taking into account the earlier judgments of this Court in Pandit Kishori Lal v. King Emperor AIR 1945 PC 64 and Gopal Vinayak Godse v. State of Maharashtra 1961 3 SCR 440 , this Court in Naib Singhs case held that the sentence of imprisonment for life has to be equated to rigorous imprisonment for life.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9098,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0328,
+        "Arguments of Respondent": 0.0221,
+        "Decision": 0.002,
+        "Facts": 0.031,
+        "Issue": 0.0022,
+        "Reasoning": 0.9098
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The law laid down by this Court in Naib Singhs was followed by this Court in three judgments Dilpesh Balchandra Panchal v. State of Gujarat, Sat Pal alias Sadhu v. State of Haryana (1992) 4 SCC 172 and Mohd.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0681,
+        "Arguments of Respondent": 0.078,
+        "Decision": 0.0008,
+        "Facts": 0.2758,
+        "Issue": 0.0021,
+        "Reasoning": 0.5752
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "Munna v. Union of India (2005) 7 SCC 417 .",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2893,
+        "Arguments of Respondent": 0.3026,
+        "Decision": 0.0023,
+        "Facts": 0.1959,
+        "Issue": 0.0049,
+        "Reasoning": 0.2049
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "In view of the authoritative pronouncements of this Court on the issues that arise for consideration in these SLPs, there is no need to reexamine the limited point for which notice was issued.",
+      "predicted_label": "Facts",
+      "confidence": 0.4632,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0807,
+        "Facts": 0.4632,
+        "Issue": 0.0058,
+        "Reasoning": 0.4321
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Therefore, the Special Leave Petitions are dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.6639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.6639,
+        "Facts": 0.2901,
+        "Issue": 0.0013,
+        "Reasoning": 0.0408
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

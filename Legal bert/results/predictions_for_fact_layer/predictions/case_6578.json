@@ -1,0 +1,525 @@
+{
+  "case_id": "6578",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "In this appeal, the appellant petitioner in an Application under Section 439 of the Companies Act, 1956 challenges order dated 15.10.2015, passed by the learned Company Court in Company Petition No.11/2015.",
+      "predicted_label": "Issue",
+      "confidence": 0.7564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.003,
+        "Facts": 0.2376,
+        "Issue": 0.7564,
+        "Reasoning": 0.0018
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The petitioner has sought winding up of respondent Company on the ground that the respondent Company, is unable to pay its debt of Rs.102,26,78,728/ to it.",
+      "predicted_label": "Facts",
+      "confidence": 0.8883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0011,
+        "Facts": 0.8883,
+        "Issue": 0.0533,
+        "Reasoning": 0.0377
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Learned Company Court has by an order dated 15.10.2015, postponed consideration of the matter to 27.01.2016, on the ground that some Arbitration proceedings are pending and the same amount is also subject matter of claim before the Arbitrator.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.8741,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0008,
+        "Facts": 0.8741,
+        "Issue": 0.118,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "This Court has admitted the matter on 02.12.2015, and kept it on 12.01.2016, as the matter before the Company Court is scheduled to come up on 27.01.2016.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4101,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1384,
+        "Arguments of Respondent": 0.1946,
+        "Decision": 0.0075,
+        "Facts": 0.2451,
+        "Issue": 0.0043,
+        "Reasoning": 0.4101
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "Shri Balbir Singh, learned Senior Counsel appearing on behalf of the petitioner appellant has pointed out that the arbitration proceedings are now coming up on 16.01.2016.3.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7313,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.011,
+        "Facts": 0.2342,
+        "Issue": 0.0031,
+        "Reasoning": 0.0177
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Effort of Shri Manohar, learned Senior Counsel is to demonstrate that there is no urgency in the matter, and hence out of turn hearing is unwarranted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0377,
+        "Arguments of Respondent": 0.0869,
+        "Decision": 0.0085,
+        "Facts": 0.0408,
+        "Issue": 0.0006,
+        "Reasoning": 0.8255
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "He has also urged that the Company Court has taken adequate precaution to see that interest of appellant petitioner is not jeopardized.5.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5413,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5413,
+        "Arguments of Respondent": 0.292,
+        "Decision": 0.0014,
+        "Facts": 0.1366,
+        "Issue": 0.0005,
+        "Reasoning": 0.0281
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "Shri Balbir Singh learned Senior Counsel has invited our attention to certain judgments to urge that arbitration proceedings cannot operate as a bar to the proceedings for winding up, and hence, in absence of a comment on relevance or impact thereof, the Company Court could not have subjected request of winding up to arbitration proceedings.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8587,
+        "Arguments of Respondent": 0.1046,
+        "Decision": 0.0001,
+        "Facts": 0.0028,
+        "Issue": 0.0002,
+        "Reasoning": 0.0335
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "He contends that, winding up application cannot be treated as a suit for recovery.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.534,
+        "Arguments of Respondent": 0.4052,
+        "Decision": 0.0007,
+        "Facts": 0.0179,
+        "Issue": 0.0004,
+        "Reasoning": 0.0416
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The arbitration clause appears in a family settlement between individuals, who are members of same family and are on Board of Directors of various companies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0216,
+        "Arguments of Respondent": 0.0474,
+        "Decision": 0.0012,
+        "Facts": 0.1885,
+        "Issue": 0.0397,
+        "Reasoning": 0.7016
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "On the strength of said family settlement, the composition of companies have been altered and in accordance with the permissions given by this Court and the Calcutta High Court, merger or demerger has taken place.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1399,
+        "Arguments of Respondent": 0.2129,
+        "Decision": 0.0074,
+        "Facts": 0.2519,
+        "Issue": 0.0019,
+        "Reasoning": 0.386
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "Learned Senior Counsel submits that after demerger, its legal entity has come into existence and amount payable is by one company to other company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.432,
+        "Arguments of Respondent": 0.5466,
+        "Decision": 0.0001,
+        "Facts": 0.0057,
+        "Issue": 0.0002,
+        "Reasoning": 0.0154
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Individual claims of family members have got no bearing on it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0235,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.0038,
+        "Facts": 0.1146,
+        "Issue": 0.0007,
+        "Reasoning": 0.8398
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "He also contends that individual family members cannot upset the merger and demergers, which have legally attained finality.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4785,
+        "Arguments of Respondent": 0.5092,
+        "Decision": 0.0002,
+        "Facts": 0.0035,
+        "Issue": 0.0003,
+        "Reasoning": 0.0084
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 14,
+      "text": "He contends that in arbitration proceedings, when this amount was demanded, the respondent has come up with a case that amount is not due to any individual, but, it is payable to the appellant Company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7882,
+        "Arguments of Respondent": 0.1153,
+        "Decision": 0.0012,
+        "Facts": 0.0462,
+        "Issue": 0.0019,
+        "Reasoning": 0.0473
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "When the appellant Company demanded that amount, stand that amount is subject matter of arbitration proceedings has been taken.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.5224,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1208,
+        "Arguments of Respondent": 0.0684,
+        "Decision": 0.0069,
+        "Facts": 0.5224,
+        "Issue": 0.0016,
+        "Reasoning": 0.2799
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "In this situation, learned Senior Counsel urges that relevance of arbitration proceedings and its impact on the claim of appellant ought to have been looked into in detail.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8814,
+        "Arguments of Respondent": 0.0319,
+        "Decision": 0.0002,
+        "Facts": 0.0042,
+        "Issue": 0.0005,
+        "Reasoning": 0.0818
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Shri Manohar, learned Senior Counsel has invited our attention to the order to urge that it does not decide the winding up petition finally and it has been only adjourned to enable the arbitrator to take a decision regarding that amount.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4856,
+        "Arguments of Respondent": 0.2106,
+        "Decision": 0.001,
+        "Facts": 0.0149,
+        "Issue": 0.0006,
+        "Reasoning": 0.2873
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "He also states that though all arguments are reflected in the said order of Company Court, the Company Judge rightly did not record any finding on it, as it was found necessary to await for the decision of pending arbitration matter.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5253,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4203,
+        "Arguments of Respondent": 0.5253,
+        "Decision": 0.0004,
+        "Facts": 0.0271,
+        "Issue": 0.0002,
+        "Reasoning": 0.0267
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "He also places strong reliance upon arrangement made by the Company Judge in the said order to protect the interest of the appellant Company.10.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8092,
+        "Arguments of Respondent": 0.1473,
+        "Decision": 0.0002,
+        "Facts": 0.021,
+        "Issue": 0.0002,
+        "Reasoning": 0.0222
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "When prima facie an arbitration clause or a pending arbitration may not be an answer to the winding up petition, similarity of claim made by one individual family member against others and by a legal entity (artificial person), against other legal entity, therefore, may not have any bearing in the eyes of law, on each other.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0006,
+        "Facts": 0.0066,
+        "Issue": 0.0011,
+        "Reasoning": 0.9812
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "The Company Court has noted rival contentions and thereafter only because of conclusion that the same amount is subject matter of claim before the Arbitrator, impugned order has been passed.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3457,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1978,
+        "Arguments of Respondent": 0.3457,
+        "Decision": 0.0339,
+        "Facts": 0.1743,
+        "Issue": 0.003,
+        "Reasoning": 0.2454
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "Though the amount may be the same in figures, legality of demand or its nature varies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9552,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.0174,
+        "Decision": 0.0005,
+        "Facts": 0.0093,
+        "Issue": 0.0039,
+        "Reasoning": 0.9552
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "A Company cannot demand the amount due and payable to its Directors in his private and personal capacity.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5101,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1161,
+        "Arguments of Respondent": 0.5101,
+        "Decision": 0.004,
+        "Facts": 0.0487,
+        "Issue": 0.0002,
+        "Reasoning": 0.3209
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "Similarly, a family member who happens to be the Director cannot demand money due to his Company from other company, from other family members.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1392,
+        "Arguments of Respondent": 0.1625,
+        "Decision": 0.0005,
+        "Facts": 0.0938,
+        "Issue": 0.0001,
+        "Reasoning": 0.6039
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "As attention of learned Company Court was not invited to all these niceties, and there is no finding upon it, we do not record a conclusive and binding finding in this regard.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8689,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0151,
+        "Decision": 0.0039,
+        "Facts": 0.097,
+        "Issue": 0.0002,
+        "Reasoning": 0.8689
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "We find that only because of pending arbitration proceedings between individual family members, the winding up petition could not have been made to wait till its adjudication.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9203,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0203,
+        "Facts": 0.0484,
+        "Issue": 0.0016,
+        "Reasoning": 0.9203
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The defences available in winding up petition are well known and in absence of such defences, the petition must be prosecuted further.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7192,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0991,
+        "Arguments of Respondent": 0.1416,
+        "Decision": 0.0045,
+        "Facts": 0.0354,
+        "Issue": 0.0003,
+        "Reasoning": 0.7192
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "We therefore, quash and set aside the impugned order dated 15.10.2015.",
+      "predicted_label": "Decision",
+      "confidence": 0.6938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.6938,
+        "Facts": 0.0623,
+        "Issue": 0.0005,
+        "Reasoning": 0.2381
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "Parties shall address the learned Company Court afresh on all relevant aspects so as to enable it to pass suitable orders after considering it, as per law.17.",
+      "predicted_label": "Decision",
+      "confidence": 0.8412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.8412,
+        "Facts": 0.0567,
+        "Issue": 0.0002,
+        "Reasoning": 0.0982
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Company Appeal is thus, partly allowed and disposed of.",
+      "predicted_label": "Decision",
+      "confidence": 0.5128,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.5128,
+        "Facts": 0.3848,
+        "Issue": 0.0007,
+        "Reasoning": 0.0985
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 31,
+      "text": "No costs.18.",
+      "predicted_label": "Decision",
+      "confidence": 0.9898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9898,
+        "Facts": 0.0037,
+        "Issue": 0.0001,
+        "Reasoning": 0.006
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "At this stage, Shri Manohar, learned Senior Counsel with Shri Rahul Pande, learned Counsel appearing on behalf of respondent seeks stay of the present judgment for a period of six weeks to enable the respondent to approach the Honble Supreme Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.7792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0251,
+        "Arguments of Respondent": 0.1583,
+        "Decision": 0.0026,
+        "Facts": 0.7792,
+        "Issue": 0.0053,
+        "Reasoning": 0.0295
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The request is opposed by Shri D.V. Chauhan, learned Counsel for the appellant.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7393,
+        "Arguments of Respondent": 0.1764,
+        "Decision": 0.0008,
+        "Facts": 0.0329,
+        "Issue": 0.0022,
+        "Reasoning": 0.0484
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "However, in the interest of justice, we stay the judgment for a period of six weeks.",
+      "predicted_label": "Decision",
+      "confidence": 0.879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.879,
+        "Facts": 0.0899,
+        "Issue": 0.0006,
+        "Reasoning": 0.0268
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The same shall cease to operate after expiry of the period of six weeks from today.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6495,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0352,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0847,
+        "Facts": 0.2044,
+        "Issue": 0.0003,
+        "Reasoning": 0.6495
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

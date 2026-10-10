@@ -1,0 +1,2291 @@
+{
+  "case_id": "6848",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The Petitioner is a person with hearing disability who has acquired his disability consequent upon and during his service with Respondent No.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.8933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0011,
+        "Facts": 0.8933,
+        "Issue": 0.0409,
+        "Reasoning": 0.0557
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The Petitioner was a trained Telephone Operator working as such with Respondent No.5 for 23 years.",
+      "predicted_label": "Facts",
+      "confidence": 0.9506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0001,
+        "Facts": 0.9506,
+        "Issue": 0.0107,
+        "Reasoning": 0.0258
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Respondent No.5 are in the business of manufacturing industrial equipments and the Petitioner was posted in their factory.",
+      "predicted_label": "Facts",
+      "confidence": 0.9114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0001,
+        "Facts": 0.9114,
+        "Issue": 0.0097,
+        "Reasoning": 0.0399
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "He was not provided with a soundproof cabin.",
+      "predicted_label": "Facts",
+      "confidence": 0.6029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1276,
+        "Arguments of Respondent": 0.0548,
+        "Decision": 0.0031,
+        "Facts": 0.6029,
+        "Issue": 0.0004,
+        "Reasoning": 0.2112
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Petitioner contends that he worked under extremely noisy surroundings in the 5th Respondents factory.",
+      "predicted_label": "Facts",
+      "confidence": 0.5868,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3071,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0007,
+        "Facts": 0.5868,
+        "Issue": 0.0118,
+        "Reasoning": 0.0851
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "It is his case that due to constant loud manufacturing sounds his sense of hearing became gradually impaired and he had to undergo medical treatment ultimately leading to the termination of his services by Respondent No.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9897,
+        "Issue": 0.0012,
+        "Reasoning": 0.0058
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "His legal rights to employment under the Persons with Disabilities (Equal Opportunities, Protection of Rights and Full Participation) Act, 1995 (hereinafter, for the sake of brevity, referred to as the Act) are under consideration in this matter.2.",
+      "predicted_label": "Issue",
+      "confidence": 0.6794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.001,
+        "Facts": 0.3169,
+        "Issue": 0.6794,
+        "Reasoning": 0.0011
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The Petitioner has relied upon the Certificate of his Physician dated 29th October 1994 showing that he suffers from bilateral sensory neural loss.",
+      "predicted_label": "Facts",
+      "confidence": 0.4168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3929,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.003,
+        "Facts": 0.4168,
+        "Issue": 0.0062,
+        "Reasoning": 0.175
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "He was advised not to get exposed to noisy surroundings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5122,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1419,
+        "Arguments of Respondent": 0.1276,
+        "Decision": 0.0026,
+        "Facts": 0.2156,
+        "Issue": 0.0001,
+        "Reasoning": 0.5122
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "Thereafter, on 17th March, 1998 he has undergone an audiogram which illustrates the hearing loss in decibels as against the frequency in hertz in respect of both his ears.",
+      "predicted_label": "Facts",
+      "confidence": 0.9473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0004,
+        "Facts": 0.9473,
+        "Issue": 0.0011,
+        "Reasoning": 0.043
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The Audiologist has shown how the Petitioners hearing has been impaired.",
+      "predicted_label": "Facts",
+      "confidence": 0.4525,
+      "probabilities": {
+        "Arguments of Petitioner": 0.317,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0057,
+        "Facts": 0.4525,
+        "Issue": 0.0012,
+        "Reasoning": 0.2095
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "The right ear shows profound sensory neural loss.",
+      "predicted_label": "Facts",
+      "confidence": 0.9164,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0005,
+        "Facts": 0.9164,
+        "Issue": 0.0016,
+        "Reasoning": 0.0671
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The left ear shows severe sensory neural loss.",
+      "predicted_label": "Facts",
+      "confidence": 0.9336,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0005,
+        "Facts": 0.9336,
+        "Issue": 0.0022,
+        "Reasoning": 0.0464
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "A certificate given by another Physician dated 25th March, 1998 shows around 85 deafness.",
+      "predicted_label": "Facts",
+      "confidence": 0.4721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0401,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0091,
+        "Facts": 0.4721,
+        "Issue": 0.0014,
+        "Reasoning": 0.4673
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 14,
+      "text": "He was certified handicapped for his daytoday activities due to his deafness.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.9933,
+        "Issue": 0.0005,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "A subsequent Audiogram dated 10th June, 2000",
+      "predicted_label": "Facts",
+      "confidence": 0.8685,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0003,
+        "Facts": 0.8685,
+        "Issue": 0.0009,
+        "Reasoning": 0.1056
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "showed further impairment of his left ear.",
+      "predicted_label": "Facts",
+      "confidence": 0.941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0004,
+        "Facts": 0.941,
+        "Issue": 0.0005,
+        "Reasoning": 0.0448
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The Audiologists report showed no benefit from amplification.",
+      "predicted_label": "Facts",
+      "confidence": 0.3747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1373,
+        "Arguments of Respondent": 0.138,
+        "Decision": 0.002,
+        "Facts": 0.3747,
+        "Issue": 0.0003,
+        "Reasoning": 0.3477
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 18,
+      "text": "It was advised that the Petitioner should not be doing any job, which requires use of only auditory modality.",
+      "predicted_label": "Facts",
+      "confidence": 0.9309,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0002,
+        "Facts": 0.9309,
+        "Issue": 0.0004,
+        "Reasoning": 0.0428
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "It was further advised that Visual Auditory Modality may be a better option.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9826,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0002,
+        "Facts": 0.9826,
+        "Issue": 0.0002,
+        "Reasoning": 0.0059
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The Petitioners Advocate has explained the two Audiograms of 1998 and 2000.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5274,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5274,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0013,
+        "Facts": 0.2257,
+        "Issue": 0.0011,
+        "Reasoning": 0.2375
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "The Amplification showing the frequency in hertz is seen to have been almost complete in the right ear since 1998 itself showing profound hearing loss.",
+      "predicted_label": "Facts",
+      "confidence": 0.8043,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0346,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0009,
+        "Facts": 0.8043,
+        "Issue": 0.0011,
+        "Reasoning": 0.1492
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Severe hearing loss in the Petitioners left ear in 1998 has deteriorated to profound hearing loss in his left ear in the year 2000.",
+      "predicted_label": "Facts",
+      "confidence": 0.8252,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0974,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0005,
+        "Facts": 0.8252,
+        "Issue": 0.0014,
+        "Reasoning": 0.0725
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The later Audiogram therefore, shows both his ears almost completely damaged.",
+      "predicted_label": "Facts",
+      "confidence": 0.7706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0376,
+        "Arguments of Respondent": 0.0151,
+        "Decision": 0.0049,
+        "Facts": 0.7706,
+        "Issue": 0.0045,
+        "Reasoning": 0.1673
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The two audiograms further show that this damage has taken place over the years and whilst the Petitioner served in the factory of Respondent No.5.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0001,
+        "Facts": 0.9698,
+        "Issue": 0.0002,
+        "Reasoning": 0.0208
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The Certificate dated 11th June 2000, ExhibitE to the Petition shows that the Petitioner suffers from profound sensory hearing loss which is seen to be progressive.",
+      "predicted_label": "Facts",
+      "confidence": 0.5798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1192,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0019,
+        "Facts": 0.5798,
+        "Issue": 0.0008,
+        "Reasoning": 0.2911
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "It shows that it would be better for the Petitioner to be occupied in work which entails not merely auditory, but visual and auditory requirements.",
+      "predicted_label": "Facts",
+      "confidence": 0.576,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0333,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.003,
+        "Facts": 0.576,
+        "Issue": 0.0006,
+        "Reasoning": 0.3761
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Thus, the Petitioner can be employed to do any work which entails not merely hearing, but hearing as well as seeing requirements.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.4224,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2529,
+        "Arguments of Respondent": 0.1081,
+        "Decision": 0.0014,
+        "Facts": 0.4224,
+        "Issue": 0.0003,
+        "Reasoning": 0.215
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "The Petitioner therefore, wrote to Respondent No.5  his employer on 26th June, 2000 entreating them to transfer him to another section.",
+      "predicted_label": "Facts",
+      "confidence": 0.9861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0,
+        "Facts": 0.9861,
+        "Issue": 0.0007,
+        "Reasoning": 0.0089
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "Instead, Respondent No.5 by their letter dated 1st December 2000 terminated the services of the Petitioner as he was unfit to perform his duties as Telephone Operator without any chance of recovery of the deformity.",
+      "predicted_label": "Facts",
+      "confidence": 0.9061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0447,
+        "Arguments of Respondent": 0.0157,
+        "Decision": 0.0002,
+        "Facts": 0.9061,
+        "Issue": 0.0035,
+        "Reasoning": 0.0299
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The termination was notified to be with effect from 31st December 2000.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0,
+        "Facts": 0.9959,
+        "Issue": 0.002,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The Petitioner applied to the Disability Commissioner appointed under the Provisions of the Act for being provided a suitable alternate posting as a handicapped person.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9831,
+        "Issue": 0.0018,
+        "Reasoning": 0.0105
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The Commissioner by his order dated 12th October 2001, ExhibitN to the Petition rejected the Petitioners claim seeking such a transfer and to be given another posting on the ground that Respondent No.5employer was not covered under the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0,
+        "Facts": 0.9906,
+        "Issue": 0.0016,
+        "Reasoning": 0.0065
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "He however, made a suggestion to Respondent No.5 to reemploy the Petitioner on any other work in the Company which he can discharge since the Petitioner was handicapped only in relation to deafness but was in a position to do any other work.",
+      "predicted_label": "Facts",
+      "confidence": 0.9146,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0001,
+        "Facts": 0.9146,
+        "Issue": 0.0006,
+        "Reasoning": 0.0676
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "He observed that the Rehabilitation of Disabled is to be treated as a Social Responsibility and hence made that suggestion in his order.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.581,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0192,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0002,
+        "Facts": 0.581,
+        "Issue": 0.0004,
+        "Reasoning": 0.3926
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "Respondent No.5 have not headed the suggestion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5188,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0301,
+        "Arguments of Respondent": 0.0974,
+        "Decision": 0.0156,
+        "Facts": 0.3371,
+        "Issue": 0.001,
+        "Reasoning": 0.5188
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "The termination of the services of the Petitioner has not been set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1352,
+        "Arguments of Respondent": 0.0356,
+        "Decision": 0.0331,
+        "Facts": 0.3697,
+        "Issue": 0.0268,
+        "Reasoning": 0.3995
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "Consequently the Petitioner has filed this Petition challenging the order of the Commissioner dated 12th October 2001 and seeking reinstatement with effect from 31.12.2000.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.9808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0002,
+        "Facts": 0.9808,
+        "Issue": 0.0113,
+        "Reasoning": 0.0039
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "It is the contention of the Petitioner that Respondent No.5 is an Establishment covered under Section 2(k) of the Act and consequently in view of the protection of the Act his services cannot be dispensed with.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7399,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7399,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0007,
+        "Facts": 0.1922,
+        "Issue": 0.0134,
+        "Reasoning": 0.0501
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "He further contends that he cannot be reduced in rank since an employee who acquires the disability during his service is protected against that under Section 47 of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6688,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6688,
+        "Arguments of Respondent": 0.1758,
+        "Decision": 0.0014,
+        "Facts": 0.0861,
+        "Issue": 0.008,
+        "Reasoning": 0.06
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "The Petitioner concedes that he can be shifted to some other post in the establishment of Respondent No.5 under the proviso to Section 47 or be kept on a supernumerary post until a suitable post becomes available or until he attains the age of superannuation as per the second proviso of Section 47.11.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4112,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4112,
+        "Arguments of Respondent": 0.0148,
+        "Decision": 0.0036,
+        "Facts": 0.1681,
+        "Issue": 0.0117,
+        "Reasoning": 0.3907
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The Petitioner claims rights and remedies under the aforesaid Socio Economic Legislation.",
+      "predicted_label": "Facts",
+      "confidence": 0.7641,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0774,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0036,
+        "Facts": 0.7641,
+        "Issue": 0.092,
+        "Reasoning": 0.0589
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The Legislation has come to be passed in view of and pursuant to the Proclamation On The Full Partition and Equality of People With Disabilities In The Asian and Specific Region (hereinafter referred to as the Proclamation) to which India was a signatory and consequent upon which the aforesaid Act came to be promulgated.",
+      "predicted_label": "Facts",
+      "confidence": 0.7117,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0005,
+        "Facts": 0.7117,
+        "Issue": 0.2822,
+        "Reasoning": 0.0035
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The Petitioner therefore, seeks a reasonable and broad interpretation to be placed on the provisions of said Act with a view to advance justice under it as against a pedantry, narrow interpretation which would frustrate its provisions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8636,
+        "Arguments of Respondent": 0.0223,
+        "Decision": 0.0005,
+        "Facts": 0.0429,
+        "Issue": 0.0058,
+        "Reasoning": 0.065
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "This interpretation, it is contended, should bring Respondent No.5 within the sway of the Act, since it is the contention of Respondent No.5 that the Act does not apply to it since it is not a Government undertaking.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6059,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3064,
+        "Arguments of Respondent": 0.6059,
+        "Decision": 0.0003,
+        "Facts": 0.0063,
+        "Issue": 0.0007,
+        "Reasoning": 0.0803
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "This contention has been upheld by the Commissioner in the impugned order.12.",
+      "predicted_label": "Facts",
+      "confidence": 0.6271,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0914,
+        "Arguments of Respondent": 0.0303,
+        "Decision": 0.0003,
+        "Facts": 0.6271,
+        "Issue": 0.0013,
+        "Reasoning": 0.2496
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "The contention of Respondent No.5 is quite the contrary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5065,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0408,
+        "Arguments of Respondent": 0.4246,
+        "Decision": 0.0006,
+        "Facts": 0.0268,
+        "Issue": 0.0007,
+        "Reasoning": 0.5065
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Respondent No.5 contends that a Limited Company is not a Corporation.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0237,
+        "Arguments of Respondent": 0.8577,
+        "Decision": 0.0002,
+        "Facts": 0.0604,
+        "Issue": 0.0008,
+        "Reasoning": 0.0573
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "It is established under the Provisions of Companies Act and it is registered thereunder.",
+      "predicted_label": "Facts",
+      "confidence": 0.7723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0599,
+        "Arguments of Respondent": 0.0276,
+        "Decision": 0.001,
+        "Facts": 0.7723,
+        "Issue": 0.0129,
+        "Reasoning": 0.1263
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "It is contended on behalf of the Respondent No.5 that an entity which is incorporated under the provisions of a special Act would alone be a Corporation for example a University established under the Maharashtra Universities Act, a State Financial Corporation established under the State Financial Corporation Act etc.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9254,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.9254,
+        "Decision": 0.0002,
+        "Facts": 0.0084,
+        "Issue": 0.0002,
+        "Reasoning": 0.0613
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "Those are Statutory Corporations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8896,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0558,
+        "Arguments of Respondent": 0.0172,
+        "Decision": 0.0013,
+        "Facts": 0.035,
+        "Issue": 0.0012,
+        "Reasoning": 0.8896
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "Those are established under such specific Statutes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9141,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0367,
+        "Arguments of Respondent": 0.0313,
+        "Decision": 0.0006,
+        "Facts": 0.0161,
+        "Issue": 0.0012,
+        "Reasoning": 0.9141
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Companies Act is a general Statute which deals with all kinds of business undertakings and which provides the requirement of their formation and incorporation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8001,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1209,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0007,
+        "Facts": 0.0671,
+        "Issue": 0.0006,
+        "Reasoning": 0.8001
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "Once incorporated they are issued a Certificate of incorporation by the ROC.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0937,
+        "Arguments of Respondent": 0.1311,
+        "Decision": 0.0002,
+        "Facts": 0.3101,
+        "Issue": 0.0014,
+        "Reasoning": 0.4636
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "That apart, it is further contended on behalf of Respondent No.5 that a Company is not directly established under the Companies Act but its provisions are only enabling provisions.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.941,
+        "Decision": 0.0001,
+        "Facts": 0.0087,
+        "Issue": 0.0002,
+        "Reasoning": 0.0409
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Such contention is entirely erroneous.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2364,
+        "Arguments of Respondent": 0.2138,
+        "Decision": 0.0038,
+        "Facts": 0.0545,
+        "Issue": 0.0007,
+        "Reasoning": 0.4908
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "A Company which is a Body Corporate can be established only by strict compliance of the provisions relating to its formation and thereafter its registration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8244,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1193,
+        "Arguments of Respondent": 0.0157,
+        "Decision": 0.0005,
+        "Facts": 0.0396,
+        "Issue": 0.0005,
+        "Reasoning": 0.8244
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "Once founded and registered it becomes an Incorporated Company which is a separate Legal Entity.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.097,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.0002,
+        "Facts": 0.0318,
+        "Issue": 0.0001,
+        "Reasoning": 0.8547
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "The case of the Petitioner therefore, goes further on humanitarian grounds.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7113,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0973,
+        "Arguments of Respondent": 0.0213,
+        "Decision": 0.0114,
+        "Facts": 0.1509,
+        "Issue": 0.0078,
+        "Reasoning": 0.7113
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Having been employed in the foundry of Respondent No.5 and having had to work without a noiseproof cabin, and having had to discharge his duties as a Telephone Operator only with Auditory Modality usage, which solely caused his disability, the Petitioner deserves, even without the protection of the Act a shift in his posting after having put in about 23 years of service.",
+      "predicted_label": "Facts",
+      "confidence": 0.3516,
+      "probabilities": {
+        "Arguments of Petitioner": 0.251,
+        "Arguments of Respondent": 0.0328,
+        "Decision": 0.0154,
+        "Facts": 0.3516,
+        "Issue": 0.0767,
+        "Reasoning": 0.2726
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 60,
+      "text": "41.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8102,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8102,
+        "Arguments of Respondent": 0.0354,
+        "Decision": 0.0059,
+        "Facts": 0.0114,
+        "Issue": 0.0699,
+        "Reasoning": 0.0672
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "It can therefore be seen that the scheme of the Act encompasses measures to be taken in a wide ambit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9319,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0259,
+        "Arguments of Respondent": 0.03,
+        "Decision": 0.0005,
+        "Facts": 0.0115,
+        "Issue": 0.0002,
+        "Reasoning": 0.9319
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "It is not confined to the measures to be taken by the State alone.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1107,
+        "Arguments of Respondent": 0.0814,
+        "Decision": 0.0044,
+        "Facts": 0.0113,
+        "Issue": 0.0004,
+        "Reasoning": 0.7919
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "Depending upon the gravity and strength of the measures, the duties and responsibilities are fixed either upon the Appropriate Governments alone or upon Appropriate Governments with Local Bodies or upon all the Establishments and even all Educational Institutions.42.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0329,
+        "Arguments of Respondent": 0.0879,
+        "Decision": 0.0053,
+        "Facts": 0.0077,
+        "Issue": 0.0001,
+        "Reasoning": 0.8661
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "The interpretation of the Act which is such a beneficent Socio Economic Legislation is required to be made such as to enhance its purport and object and make it available to all the disabled persons who would be beneficiaries under the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0808,
+        "Arguments of Respondent": 0.0253,
+        "Decision": 0.0007,
+        "Facts": 0.0139,
+        "Issue": 0.0009,
+        "Reasoning": 0.8784
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "43.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8227,
+        "Arguments of Respondent": 0.0444,
+        "Decision": 0.0041,
+        "Facts": 0.0104,
+        "Issue": 0.051,
+        "Reasoning": 0.0675
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The Advocate for the Petitioner has drawn our attention to various Judgments relating to such interpretation of other Socio Economic Legislations.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6902,
+        "Arguments of Respondent": 0.011,
+        "Decision": 0.0024,
+        "Facts": 0.0333,
+        "Issue": 0.0055,
+        "Reasoning": 0.2576
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 67,
+      "text": "In the case of Workmen of American Express International Banking Corporation Vs. Management of American Express International Banking Corporation reported in A.I.R. 1986 S.C. 458, the principles of such interpretation are laid down thusWords occurring in statutes of liberal import such as a social welfare legislation and Human Rights legislation are not to be put in procrustean beds or shrunk to Lilliputian dimensions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0845,
+        "Arguments of Respondent": 0.1286,
+        "Decision": 0.0001,
+        "Facts": 0.0067,
+        "Issue": 0.0002,
+        "Reasoning": 0.7798
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "In construing these legislations the imposture of literal construction must be avoided and the prodigality of its misapplication must be recognised and reduced.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8099,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0408,
+        "Arguments of Respondent": 0.1399,
+        "Decision": 0.0004,
+        "Facts": 0.0081,
+        "Issue": 0.001,
+        "Reasoning": 0.8099
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "Judges ought to be more concerned with the colour, the content and the context of such statues.(We have borrowed the words from Lord Wilberforces opinion in Prenn Vs. Simmonds, 1971 (3) All ER 237).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8977,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0345,
+        "Arguments of Respondent": 0.0587,
+        "Decision": 0.0002,
+        "Facts": 0.0084,
+        "Issue": 0.0004,
+        "Reasoning": 0.8977
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "In the same opinion Lord Wilberforce pointed out that law is not to be left behind in some island of literal interpretation but is to enquire beyond the language, unisolated from the matrix of facts in which they are set the law is not to be interpreted purely on internal linguistic considerations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6918,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1098,
+        "Arguments of Respondent": 0.1914,
+        "Decision": 0.0003,
+        "Facts": 0.0065,
+        "Issue": 0.0003,
+        "Reasoning": 0.6918
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 71,
+      "text": "In one of the cases cited before us, that is, Surendra Kumar Verma Vs. Central Govt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9184,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0401,
+        "Arguments of Respondent": 0.0202,
+        "Decision": 0.0018,
+        "Facts": 0.0187,
+        "Issue": 0.0007,
+        "Reasoning": 0.9184
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Industrial TribunalcumLabour Court, we had occasion to say Semantic luxuries are misplaced in the interpretation of bread and butter statutes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9182,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0011,
+        "Facts": 0.0454,
+        "Issue": 0.0007,
+        "Reasoning": 0.9182
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "Welfare statutes must, of necessity, receive a broad interpretation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1176,
+        "Arguments of Respondent": 0.0755,
+        "Decision": 0.0014,
+        "Facts": 0.0138,
+        "Issue": 0.0012,
+        "Reasoning": 0.7905
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "Where legislation is designed to give relief against certain kinds of mischief, the Court is not to make inroads by making etymological excursions.44.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.012,
+        "Arguments of Respondent": 0.0386,
+        "Decision": 0.0005,
+        "Facts": 0.0021,
+        "Issue": 0.0004,
+        "Reasoning": 0.9465
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "Such liberal construction of expressions in such Statutes, as against literal construction, requires the Court to include within the definition of the term Establishment, all the Corporations which are Bodies Corporate Established either by or under either a Central, Provincial or a State Act including the Indian Companies Act I of 1956.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9254,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0478,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0001,
+        "Facts": 0.0131,
+        "Issue": 0.0002,
+        "Reasoning": 0.9254
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "It may be mentioned that only such Corporations in the Transport Sector would require to provide the facilities mentioned in Section 44 of the Act which are required to be within the limits of their economic capacity and development.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0211,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0007,
+        "Facts": 0.1085,
+        "Issue": 0.0009,
+        "Reasoning": 0.8583
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "Similarly such Corporations would be required to continue providing employment to those who were employed with them and thereafter acquired disability either in the same post or by shifting them to any other posts with the same pay scales and service benefits except if they are exempted by the Appropriate Government, regard being at to the type of work in that Corporation.45.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9568,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0005,
+        "Facts": 0.0175,
+        "Issue": 0.0001,
+        "Reasoning": 0.9568
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "The interpretation of the Dowry Prohibition Act which is also a Social Legislation has been similarly given by the Honourable Supreme Court in the case of S. Gopal Reddy Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8532,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0523,
+        "Arguments of Respondent": 0.0196,
+        "Decision": 0.0002,
+        "Facts": 0.0701,
+        "Issue": 0.0046,
+        "Reasoning": 0.8532
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "State of Andhra Pradesh reported in A.I.R. 1996 S.C.",
+      "predicted_label": "Facts",
+      "confidence": 0.5081,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3477,
+        "Arguments of Respondent": 0.0693,
+        "Decision": 0.0012,
+        "Facts": 0.5081,
+        "Issue": 0.0043,
+        "Reasoning": 0.0694
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "2184",
+      "predicted_label": "Facts",
+      "confidence": 0.3709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1883,
+        "Arguments of Respondent": 0.0992,
+        "Decision": 0.0054,
+        "Facts": 0.3709,
+        "Issue": 0.0264,
+        "Reasoning": 0.3097
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 81,
+      "text": "drawing on the observations made in the earlier Supreme Court Judgment in the case of Reserve Bank of India Vs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.077,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0003,
+        "Facts": 0.8273,
+        "Issue": 0.0027,
+        "Reasoning": 0.059
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "Peerless General Finance and Investment Co. Ltd. reported in A.I.R. 1987 Supreme Court 1023.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.2603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2603,
+        "Arguments of Respondent": 0.2423,
+        "Decision": 0.0012,
+        "Facts": 0.2548,
+        "Issue": 0.0031,
+        "Reasoning": 0.2382
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 83,
+      "text": "It was observed that the Statute is best interpreted when we know why it was enacted and when the statute is looked at without the glasses provided by the context.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8225,
+      "probabilities": {
+        "Arguments of Petitioner": 0.065,
+        "Arguments of Respondent": 0.0511,
+        "Decision": 0.0002,
+        "Facts": 0.0606,
+        "Issue": 0.0006,
+        "Reasoning": 0.8225
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "The observation quoted in that Judgment runs thus With these glasses we must look at the Act as a whole and discover what each section, each clause, each phrase and each word is meant and designed to say as to fit into the scheme of the entire Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1377,
+        "Arguments of Respondent": 0.0479,
+        "Decision": 0.0001,
+        "Facts": 0.0124,
+        "Issue": 0.0002,
+        "Reasoning": 0.8016
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "No part of a statute and no word of a statute can be construed in isolation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0434,
+        "Arguments of Respondent": 0.1451,
+        "Decision": 0.0013,
+        "Facts": 0.0242,
+        "Issue": 0.0034,
+        "Reasoning": 0.7827
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "Statutes have to be construed so that every word has a place and everything is in its place.46.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8977,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0341,
+        "Arguments of Respondent": 0.0592,
+        "Decision": 0.0003,
+        "Facts": 0.0083,
+        "Issue": 0.0003,
+        "Reasoning": 0.8977
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "For interpreting a particular word in a judgment the observations of Lord Denning in the case of",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7441,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1271,
+        "Arguments of Respondent": 0.1139,
+        "Decision": 0.0009,
+        "Facts": 0.0104,
+        "Issue": 0.0035,
+        "Reasoning": 0.7441
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "Seaford Court Estates Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.9663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.001,
+        "Facts": 0.9663,
+        "Issue": 0.0036,
+        "Reasoning": 0.0134
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 90,
+      "text": "Asher reported in 1949 to All ER 155 (CA) cited in the aforesaid Judgments (supra) deserve to be looked into.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7088,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7088,
+        "Arguments of Respondent": 0.0667,
+        "Decision": 0.0009,
+        "Facts": 0.0153,
+        "Issue": 0.0006,
+        "Reasoning": 0.2077
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "Our literature would be much the poorer if it were.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9204,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.0365,
+        "Decision": 0.0008,
+        "Facts": 0.0156,
+        "Issue": 0.0003,
+        "Reasoning": 0.9204
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "This is where the draftment of Acts of Parliament have often been unfairly criticised.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0958,
+        "Arguments of Respondent": 0.0643,
+        "Decision": 0.001,
+        "Facts": 0.0348,
+        "Issue": 0.0089,
+        "Reasoning": 0.7952
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "A Judge, believing himself to be fettered by the supposed rule that he must look to the language and nothing else, laments that the draftsmen have not provided for this or that, or have been guilty of some or other ambiguity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.026,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0001,
+        "Facts": 0.0095,
+        "Issue": 0.0007,
+        "Reasoning": 0.9464
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "It would certainly save the Judges trouble if Acts of Parliament were drafted with divine prescience and perfect clarity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9375,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.0259,
+        "Decision": 0.0002,
+        "Facts": 0.0192,
+        "Issue": 0.0026,
+        "Reasoning": 0.9375
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "In the absence of it, when a defect appears, a Judge cannot simply fold his hands and blame the draftsman.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0665,
+        "Arguments of Respondent": 0.0597,
+        "Decision": 0.0002,
+        "Facts": 0.0086,
+        "Issue": 0.0003,
+        "Reasoning": 0.8646
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "He must set work on the constructive task of finding the intention of Parliament, and he must do this not only from the language of the statute, but also from a consideration of the social conditions which gave rise to it and of the mischief which it was passed to remedy, and then he must supplement the written word so as to give force and life to the intention of the Legislature A Judge should ask himself the question how, if the makers of the Act had themselves come across this ruck in the texture of it, they would have straightened it out",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0514,
+        "Arguments of Respondent": 0.0509,
+        "Decision": 0.0001,
+        "Facts": 0.0076,
+        "Issue": 0.0026,
+        "Reasoning": 0.8873
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "He must then do so as they would have done.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9242,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0257,
+        "Arguments of Respondent": 0.0123,
+        "Decision": 0.0088,
+        "Facts": 0.0285,
+        "Issue": 0.0004,
+        "Reasoning": 0.9242
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "A Judge must not alter the material of which the Act is woven, but he can and should iron out the creases.47.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9588,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0222,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0001,
+        "Facts": 0.0032,
+        "Issue": 0.0002,
+        "Reasoning": 0.9588
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "It may be mentioned that in the above judgment in the case of S. Gopal Reddy (supra) the interpretation of the term dowry in Dowry Prohibition Act, included the giving and taking of dowry before the marriage.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9457,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0004,
+        "Facts": 0.0251,
+        "Issue": 0.001,
+        "Reasoning": 0.9457
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "The narrow interpretation that the Act did not apply until the boy and girl became the bridegroom and bride respectively was not taken.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6143,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1919,
+        "Arguments of Respondent": 0.0641,
+        "Decision": 0.0027,
+        "Facts": 0.1264,
+        "Issue": 0.0005,
+        "Reasoning": 0.6143
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 101,
+      "text": "Upon the meaning of dowry being considered as property or valuable security given or agreed to be given either directly or indirectly, it was held that the expression must be liberally construed to include demands made before and after marriage.48.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9489,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0001,
+        "Facts": 0.0294,
+        "Issue": 0.0004,
+        "Reasoning": 0.9489
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "It can therefore, be seen that the word Establishment needs to be interpreted taking into account the intention of the Legislature to provide succour and benefits not only to the few disabled who would be employed in Government services but, as per the spirit of the abovereferred Proclamation to take its Sweep to as many as disabled persons in different walks of life and requiring different treatment and facilities in the countries which were signatories to the Proclamation as ours.49.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0003,
+        "Facts": 0.006,
+        "Issue": 0.0013,
+        "Reasoning": 0.9816
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "Mr.Paralikar, learned Counsel on behalf of the Applicant, has further drawn our attention to the Judgment of the Honourable Supreme Court in the case of Regional Executive, Kerala Fishermens Welfare Fund Board Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7615,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7615,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0027,
+        "Facts": 0.2009,
+        "Issue": 0.0065,
+        "Reasoning": 0.0228
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "M s. Fancy Food and another reported in AIR 1995 Supreme Court 1620 in which the expression processing for export came up for interpretation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3776,
+        "Arguments of Respondent": 0.1449,
+        "Decision": 0.0006,
+        "Facts": 0.1637,
+        "Issue": 0.0035,
+        "Reasoning": 0.3097
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 105,
+      "text": "It was observed under the Kerala Fishermen Welfare Fund Act that the Dealer would be covered by that expression, since they were concerned with one of the steps leading to the export of fish.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8337,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0914,
+        "Arguments of Respondent": 0.0397,
+        "Decision": 0.0002,
+        "Facts": 0.0346,
+        "Issue": 0.0004,
+        "Reasoning": 0.8337
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "That Act was passed to upgrade the then traditional, miserable and pathetic condition of the downtrodden and illiterate fishermen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5177,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0415,
+        "Arguments of Respondent": 0.027,
+        "Decision": 0.0003,
+        "Facts": 0.4066,
+        "Issue": 0.0069,
+        "Reasoning": 0.5177
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 107,
+      "text": "In keeping with the object of the Act to ameliorate their bad condition one of the processes leading to export which included the function of the dealers was held to come within the purview of the expression processing for export.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0305,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0002,
+        "Facts": 0.0978,
+        "Issue": 0.0008,
+        "Reasoning": 0.8621
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "It is in the same spirit that the expression Establishment in the present statute would require coverage.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0187,
+        "Arguments of Respondent": 0.0232,
+        "Decision": 0.0003,
+        "Facts": 0.0134,
+        "Issue": 0.0003,
+        "Reasoning": 0.944
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "50.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8266,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8266,
+        "Arguments of Respondent": 0.0371,
+        "Decision": 0.0041,
+        "Facts": 0.0108,
+        "Issue": 0.0359,
+        "Reasoning": 0.0855
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "In a judgment in the case of The Chairman, Board of Mining Examination and Chief Inspector of Mines Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0408,
+        "Arguments of Respondent": 0.0417,
+        "Decision": 0.0006,
+        "Facts": 0.0701,
+        "Issue": 0.0006,
+        "Reasoning": 0.8462
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "Ramjee reported in AIR 1977 Supreme Court 965",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4411,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1723,
+        "Arguments of Respondent": 0.1384,
+        "Decision": 0.0008,
+        "Facts": 0.2417,
+        "Issue": 0.0057,
+        "Reasoning": 0.4411
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 112,
+      "text": "Honourable Justice Krishna Iyer has elucidated the opinion of the Honourable Supreme Court under the perspective of Social efficaciousness.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7294,
+      "probabilities": {
+        "Arguments of Petitioner": 0.021,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0621,
+        "Facts": 0.1266,
+        "Issue": 0.0504,
+        "Reasoning": 0.7294
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "In paragraph 5 of that Judgment whilst considering and striking down the narrow interpretation upon the procedure laid down under the Coal Mines Regulations (1957) by Madhya Pradesh High Court, it has been observed thusLaw is meant to serve the living and does not beat its abstract wings in the jural void.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1746,
+        "Arguments of Respondent": 0.0838,
+        "Decision": 0.0003,
+        "Facts": 0.0125,
+        "Issue": 0.0002,
+        "Reasoning": 0.7287
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "Its functional fulfilment as social engineering depends on its sensitized response to situation, subjectmatter and the complex of realities which require ordered control.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8202,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0004,
+        "Facts": 0.1591,
+        "Issue": 0.0008,
+        "Reasoning": 0.8202
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "A holistic understanding is simple justice to the meaning of all legislations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8434,
+      "probabilities": {
+        "Arguments of Petitioner": 0.043,
+        "Arguments of Respondent": 0.1058,
+        "Decision": 0.0005,
+        "Facts": 0.0071,
+        "Issue": 0.0002,
+        "Reasoning": 0.8434
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "Fragmentary grasp of rules can misfire or even backfire as in this case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0444,
+        "Arguments of Respondent": 0.0286,
+        "Decision": 0.0002,
+        "Facts": 0.0311,
+        "Issue": 0.0002,
+        "Reasoning": 0.8954
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "Upon considering as to how the narrow interpretation resulted in a situation so as to see the skin and miss the soul of the Regulation, it was observed that it resulted in over judicialisation which could be subversive of the justice of the law.51.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0573,
+        "Arguments of Respondent": 0.0742,
+        "Decision": 0.0016,
+        "Facts": 0.0169,
+        "Issue": 0.0002,
+        "Reasoning": 0.8499
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "It has been contended on behalf of the Respondent that the marginal note to Section 47 gives a complete answer to excluding the Petitioner from the purview of the Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8677,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.8677,
+        "Decision": 0.0002,
+        "Facts": 0.0208,
+        "Issue": 0.0009,
+        "Reasoning": 0.1012
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "It is therefore contended that the requirement of not dispensing with the services of an employee who acquires the disability is for employees in Government employment.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5391,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5391,
+        "Arguments of Respondent": 0.2886,
+        "Decision": 0.0003,
+        "Facts": 0.0275,
+        "Issue": 0.005,
+        "Reasoning": 0.1395
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "It can be seen that in this Section the marginal note is entirely out of contest.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0287,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0004,
+        "Facts": 0.0278,
+        "Issue": 0.0009,
+        "Reasoning": 0.9305
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "However, the Section itself does not begin with the expression In any employment under appropriate Government or Local Authority It deals with Establishment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0276,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0001,
+        "Facts": 0.018,
+        "Issue": 0.0015,
+        "Reasoning": 0.9385
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "It further deals with mandatory directions for persons already in employment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9116,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0353,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0002,
+        "Facts": 0.0381,
+        "Issue": 0.0005,
+        "Reasoning": 0.9116
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "The proviso of SubSection 2 of Section 47 gives power to the appropriate Government to exempt any Establishment from the provisions of that Section.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7441,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0813,
+        "Arguments of Respondent": 0.0148,
+        "Decision": 0.0004,
+        "Facts": 0.159,
+        "Issue": 0.0005,
+        "Reasoning": 0.7441
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "That proviso therefore, gives a clue to what an Establishment is  it is an undertaking which is not only a Government undertaking.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0354,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0001,
+        "Facts": 0.0278,
+        "Issue": 0.0001,
+        "Reasoning": 0.9279
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "It deals with employment of persons not only therein  otherwise the appropriate Government would exempt Government itself.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0466,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0001,
+        "Facts": 0.0401,
+        "Issue": 0.0012,
+        "Reasoning": 0.8861
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "52.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7765,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7765,
+        "Arguments of Respondent": 0.0675,
+        "Decision": 0.0037,
+        "Facts": 0.0099,
+        "Issue": 0.0472,
+        "Reasoning": 0.0953
+      }
+    },
+    {
+      "sentence_id": 127,
+      "text": "It may again be mentioned that in this light Section 47 must be contrasted with Section 33 of the Act under the Chapter of employment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0157,
+        "Decision": 0.0002,
+        "Facts": 0.0057,
+        "Issue": 0.0008,
+        "Reasoning": 0.9684
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "Hence, the mandate for reservation of the posts to the extent of 3 is only for appropriate Government.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4282,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1977,
+        "Arguments of Respondent": 0.2152,
+        "Decision": 0.0012,
+        "Facts": 0.157,
+        "Issue": 0.0006,
+        "Reasoning": 0.4282
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 129,
+      "text": "As against that, the directions for all the persons already employed is for all the Establishments under Section 47.53.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8633,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0779,
+        "Arguments of Respondent": 0.0401,
+        "Decision": 0.005,
+        "Facts": 0.0136,
+        "Issue": 0.0001,
+        "Reasoning": 0.8633
+      }
+    },
+    {
+      "sentence_id": 130,
+      "text": "The interpretation of the marginal note and its reading along with the main Section has been considered in a number of Judgments brought to our notice by Mr. Paralikar.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0678,
+        "Arguments of Respondent": 0.0191,
+        "Decision": 0.0025,
+        "Facts": 0.0046,
+        "Issue": 0.0115,
+        "Reasoning": 0.8945
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "In the earliest of those cases it was held by the Privy Council in the case of Emperor Vs.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2961,
+        "Arguments of Respondent": 0.3305,
+        "Decision": 0.0005,
+        "Facts": 0.0655,
+        "Issue": 0.0007,
+        "Reasoning": 0.3068
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 132,
+      "text": "Sadashiv Narayan Bhalerao reported in A.I.R. 1947 Privy Council page 82 relating to the marginal note titled Sedition in Rule 124(a) of Defence of India Rules 1939 it was held that it cannot restrict the contents of the Section.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3428,
+        "Arguments of Respondent": 0.1948,
+        "Decision": 0.0003,
+        "Facts": 0.0154,
+        "Issue": 0.0002,
+        "Reasoning": 0.4464
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 133,
+      "text": "It dealt with whether or not a sketch given by the Appellant Constituted a prejudicial Act within the meaning of those Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0348,
+        "Arguments of Respondent": 0.016,
+        "Decision": 0.0004,
+        "Facts": 0.147,
+        "Issue": 0.0188,
+        "Reasoning": 0.7831
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "It was held that the two were different aspects and one could not restrict another by different expressions in the Rule and its marginal note.54.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7433,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1306,
+        "Arguments of Respondent": 0.1122,
+        "Decision": 0.0002,
+        "Facts": 0.0135,
+        "Issue": 0.0001,
+        "Reasoning": 0.7433
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "Further in the case of Nalinakhya Bysack Vs. Shyam Sunder Haldar reported in A.I.R.1953 Supreme Court, page 148.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4731,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2626,
+        "Arguments of Respondent": 0.2549,
+        "Decision": 0.0005,
+        "Facts": 0.0087,
+        "Issue": 0.0001,
+        "Reasoning": 0.4731
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 136,
+      "text": "It has been held thatMarginal note cannot control the Marginal note cannot control the Marginal note cannot control the meaning of the body of the section meaning of the body of the section meaning of the body of the section if the language employed therein is clear and unambiguous.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1106,
+        "Arguments of Respondent": 0.0394,
+        "Decision": 0.0001,
+        "Facts": 0.0129,
+        "Issue": 0.0004,
+        "Reasoning": 0.8365
+      }
+    },
+    {
+      "sentence_id": 137,
+      "text": "If the language of the section is clear then it may be that there is an accidental slip in the marginal note rather than that the marginal note is correct and the accidental slip is in the body of the section itself.(Emphasis supplied)55.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0153,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0002,
+        "Facts": 0.0027,
+        "Issue": 0.0006,
+        "Reasoning": 0.9738
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "In the Constitutional Bench Judgment in the case of State of Bombay Vs. Bombay Education Society State of Bombay Vs. Bombay Education Society State of Bombay",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6189,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1289,
+        "Arguments of Respondent": 0.0817,
+        "Decision": 0.0032,
+        "Facts": 0.1663,
+        "Issue": 0.001,
+        "Reasoning": 0.6189
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 139,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 140,
+      "text": "Bombay Education Society reported in A.I.R. 1954 Supreme Court 561, the marginal note of Article 29(2) of the Constitution and its contents came up for consideration.",
+      "predicted_label": "Facts",
+      "confidence": 0.5109,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0462,
+        "Arguments of Respondent": 0.04,
+        "Decision": 0.0002,
+        "Facts": 0.5109,
+        "Issue": 0.0022,
+        "Reasoning": 0.4006
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 141,
+      "text": "It was held that though the marginal note of the said Article was Protection of Interest of Minorities, it was held that under Article 29(2) all citizens were conferred a special right for admissions into Education Institutions maintained or aided by the State.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3853,
+        "Arguments of Respondent": 0.1271,
+        "Decision": 0.0003,
+        "Facts": 0.0905,
+        "Issue": 0.0004,
+        "Reasoning": 0.3964
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 142,
+      "text": "Such a right was not available only to citizens belonging to minority groups as they would then obtain double protection.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7907,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0836,
+        "Arguments of Respondent": 0.0953,
+        "Decision": 0.0006,
+        "Facts": 0.0295,
+        "Issue": 0.0003,
+        "Reasoning": 0.7907
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "It was available to all.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7631,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0648,
+        "Arguments of Respondent": 0.0755,
+        "Decision": 0.0013,
+        "Facts": 0.0947,
+        "Issue": 0.0007,
+        "Reasoning": 0.7631
+      }
+    },
+    {
+      "sentence_id": 144,
+      "text": "56.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8047,
+        "Arguments of Respondent": 0.0695,
+        "Decision": 0.0047,
+        "Facts": 0.0097,
+        "Issue": 0.0247,
+        "Reasoning": 0.0866
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "Similarly it is seen that Section 47 interpreted as above would confer rights upon the Petitioner, notwithstanding the marginal note mentioning only Government employment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7433,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0575,
+        "Arguments of Respondent": 0.0259,
+        "Decision": 0.0029,
+        "Facts": 0.168,
+        "Issue": 0.0025,
+        "Reasoning": 0.7433
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "57.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7878,
+        "Arguments of Respondent": 0.0702,
+        "Decision": 0.0054,
+        "Facts": 0.0132,
+        "Issue": 0.0428,
+        "Reasoning": 0.0805
+      }
+    },
+    {
+      "sentence_id": 147,
+      "text": "Upon such interpretation, there can be no doubt that Respondent No.5 is an Establishment as defined under Section 2(k) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9103,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0266,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0079,
+        "Facts": 0.0328,
+        "Issue": 0.0012,
+        "Reasoning": 0.9103
+      }
+    },
+    {
+      "sentence_id": 148,
+      "text": "Consequently Respondent No.5 is enjoined not to dispense with the services of the Petitioner or to reduce him in rank upon his having acquired disability during his service (and in fact he having acquired the said disability during service.)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4703,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.303,
+        "Facts": 0.2133,
+        "Issue": 0.0011,
+        "Reasoning": 0.4703
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 149,
+      "text": "The Respondent No.5 is therefore bound to continue the services of the Petitioner or shift him to some other post with the same pay scale and service benefits in their Establishment.",
+      "predicted_label": "Facts",
+      "confidence": 0.5047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1984,
+        "Arguments of Respondent": 0.0639,
+        "Decision": 0.008,
+        "Facts": 0.5047,
+        "Issue": 0.0043,
+        "Reasoning": 0.2207
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 150,
+      "text": "The Respondent No.5 is also bound to disburse the backwages to the Petitioner from 1st January 2001, the date from which his services were dispensed with.",
+      "predicted_label": "Facts",
+      "confidence": 0.5288,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0568,
+        "Arguments of Respondent": 0.0272,
+        "Decision": 0.0473,
+        "Facts": 0.5288,
+        "Issue": 0.0021,
+        "Reasoning": 0.3378
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 151,
+      "text": "58.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7031,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7031,
+        "Arguments of Respondent": 0.0617,
+        "Decision": 0.0069,
+        "Facts": 0.0227,
+        "Issue": 0.0825,
+        "Reasoning": 0.1231
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "It may be mentioned that any such other post that may be offered to the Petitioner under the legislative mandate by Respondent NO.5 may be identified by Respondent No.5 That would meet the noble and humanist purpose and intent of the legislation which is itself in terms of the Proclamation on the Full Participation and Equality of the People with Disabilities in the Asia and Pacific Regions, which includes our Country.",
+      "predicted_label": "Facts",
+      "confidence": 0.887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0319,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0078,
+        "Facts": 0.887,
+        "Issue": 0.0023,
+        "Reasoning": 0.0633
+      }
+    },
+    {
+      "sentence_id": 153,
+      "text": "It should be as far as possible a post with equivalent pay and service conditions.59.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9334,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0213,
+        "Facts": 0.0168,
+        "Issue": 0.0004,
+        "Reasoning": 0.9334
+      }
+    },
+    {
+      "sentence_id": 154,
+      "text": "Consequently the Petition succeeds.",
+      "predicted_label": "Decision",
+      "confidence": 0.8882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.8882,
+        "Facts": 0.0395,
+        "Issue": 0.001,
+        "Reasoning": 0.0683
+      }
+    },
+    {
+      "sentence_id": 155,
+      "text": "The Judgment and Order dated 12th October 2001 passed by the Disability Commissioner (for welfare of persons with disabilities)",
+      "predicted_label": "Decision",
+      "confidence": 0.9089,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9089,
+        "Facts": 0.0792,
+        "Issue": 0.0016,
+        "Reasoning": 0.0096
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "Maharashtra State, Pune/63 in Complaint No.9/1963 is quashed and set aside.60.",
+      "predicted_label": "Decision",
+      "confidence": 0.878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.878,
+        "Facts": 0.0132,
+        "Issue": 0.0003,
+        "Reasoning": 0.1065
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "The Petitioner shall be shifted to a suitable post as identified by Respondent No.5 with the same pay scale and service benefits.",
+      "predicted_label": "Facts",
+      "confidence": 0.967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0093,
+        "Facts": 0.967,
+        "Issue": 0.0006,
+        "Reasoning": 0.0167
+      }
+    },
+    {
+      "sentence_id": 158,
+      "text": "Further the Petitioner shall be entitled to be disbursed backwages from 1st January, 2001 since his termination.",
+      "predicted_label": "Facts",
+      "confidence": 0.9104,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0369,
+        "Facts": 0.9104,
+        "Issue": 0.0004,
+        "Reasoning": 0.0419
+      }
+    },
+    {
+      "sentence_id": 159,
+      "text": "This order shall be complied within twelve weeks.61.",
+      "predicted_label": "Decision",
+      "confidence": 0.888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.888,
+        "Facts": 0.0672,
+        "Issue": 0.0002,
+        "Reasoning": 0.0429
+      }
+    }
+  ]
+}

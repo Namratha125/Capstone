@@ -1,0 +1,763 @@
+{
+  "case_id": "6433",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "2. The present appeal is directed against the judgment and order dated 24th April, 2019 passed by the National Consumer Disputes Redressal Commission, New Delhi (hereinafter referred to as the NCDRC) in Revision Petition No. 897 of 2018, whereby the NCDRC while allowing the said Revision Petition, has set aside the order passed by the State Commission and has confirmed the order passed by the District Forum.",
+      "predicted_label": "Issue",
+      "confidence": 0.9328,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0014,
+        "Facts": 0.0649,
+        "Issue": 0.9328,
+        "Reasoning": 0.0003
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The short facts giving rise to the present appeal are that Mr. Pradeep Kumar, the husband of the respondent herein (original complainant) had taken purchased a life insurance policy under the Jeevan Suraksha Yojana on 14.04.2021 from the appellantLife Insurance Corporation, under which a sum of Rs. 3,75,000/ was assured by the corporation, and in case of death by accident an additional sum of Rs. 3,75,000/ was also assured.",
+      "predicted_label": "Facts",
+      "confidence": 0.9969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.0001,
+        "Facts": 0.9969,
+        "Issue": 0.0009,
+        "Reasoning": 0.0017
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The insurance premium of the said policy was to be paid six monthly.",
+      "predicted_label": "Facts",
+      "confidence": 0.9854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.9854,
+        "Issue": 0.004,
+        "Reasoning": 0.0095
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The next premium was due to be paid by the said insured Pradeep Kumar on 14th October, 2011.",
+      "predicted_label": "Facts",
+      "confidence": 0.9858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9858,
+        "Issue": 0.0021,
+        "Reasoning": 0.0109
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "However, he committed a default.",
+      "predicted_label": "Facts",
+      "confidence": 0.6957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0207,
+        "Arguments of Respondent": 0.0124,
+        "Decision": 0.0036,
+        "Facts": 0.6957,
+        "Issue": 0.0963,
+        "Reasoning": 0.1713
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "On 06.03.2012, the said Pradeep Kumar i.e. the husband of the complainant met with an accident and succumbed to the injuries on 21.03.2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.9956,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9956,
+        "Issue": 0.002,
+        "Reasoning": 0.0018
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "In the meantime, he deposited the due premium of October, 2011 on, 09.03.2012 for reviving the policy.",
+      "predicted_label": "Facts",
+      "confidence": 0.8329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0422,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0006,
+        "Facts": 0.8329,
+        "Issue": 0.004,
+        "Reasoning": 0.0946
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The complainant after the death of her husband filed a claim before the appellantCorporation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9145,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0008,
+        "Facts": 0.9145,
+        "Issue": 0.023,
+        "Reasoning": 0.0527
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The appellant paid a sum of Rs. 3,75,000/ to the complainant, however, did not pay the additional amount of Rs. 3,75,000/ towards the Accident claim benefit.",
+      "predicted_label": "Facts",
+      "confidence": 0.9801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0004,
+        "Facts": 0.9801,
+        "Issue": 0.0042,
+        "Reasoning": 0.0141
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The complainant, therefore, approached the District Forum by filing a complaint seeking the said amount towards the Accident claim benefit.",
+      "predicted_label": "Facts",
+      "confidence": 0.8787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0004,
+        "Facts": 0.8787,
+        "Issue": 0.0023,
+        "Reasoning": 0.1099
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The said complaint was resisted by the Life Insurance Corporation contending, inter alia, that the day when the husband of the complainant met with an accident, the said policy had already lapsed on account of nonpayment of the due premium.",
+      "predicted_label": "Facts",
+      "confidence": 0.9724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9724,
+        "Issue": 0.0114,
+        "Reasoning": 0.0138
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The District Forum placing reliance upon the Ready reckoner issued by the appellantCorporation, allowed the said claim of the respondent vide its judgment and order dated 14.10.2013.",
+      "predicted_label": "Facts",
+      "confidence": 0.9917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9917,
+        "Issue": 0.0014,
+        "Reasoning": 0.0058
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The appellantCorporation being aggrieved by the same preferred an appeal before the State Consumer Disputes Redressal Commission.",
+      "predicted_label": "Facts",
+      "confidence": 0.9692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9692,
+        "Issue": 0.0172,
+        "Reasoning": 0.0104
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The State Commission allowed the said appeal and set aside the said order passed by the District Forum.",
+      "predicted_label": "Facts",
+      "confidence": 0.945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0003,
+        "Facts": 0.945,
+        "Issue": 0.0425,
+        "Reasoning": 0.0093
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The aggrieved complainant preferred a Revision Petition being no. 897 of 2008 under Section 21(B) of the Consumer Protection Act (hereinafter referred to as the said Act), before the NCDRC challenging the order passed by the State Commission.",
+      "predicted_label": "Facts",
+      "confidence": 0.9514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9514,
+        "Issue": 0.0466,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The NCDRC vide the impugned judgment dated 24.04.2019 allowed the said Revision Petition of the respondent and set aside the order passed by the State Commission.",
+      "predicted_label": "Facts",
+      "confidence": 0.9792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0004,
+        "Facts": 0.9792,
+        "Issue": 0.0171,
+        "Reasoning": 0.0026
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Hence, the present Appeal has been filed by the appellantCorporation.",
+      "predicted_label": "Facts",
+      "confidence": 0.8947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0004,
+        "Facts": 0.8947,
+        "Issue": 0.1014,
+        "Reasoning": 0.0019
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The learned counsel appearing for the appellantCorporation placing heavy reliance on the condition no. 11 of the policy submitted that the Accident claim benefit was payable only if the policy was in force on the date of accident, however, in the instant case, the policy had already lapsed in October, 2011 and the husband of the respondentcomplainant had sought to pay the premium on 09.03.2012, i.e. three days after the occurrence of accident on 06.03.2012.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9526,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0003,
+        "Facts": 0.0122,
+        "Issue": 0.0014,
+        "Reasoning": 0.0309
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "According to him, even the appellantCorporation was not informed about the said accident when the policy was sought to be revived on 09.03.2012.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.545,
+      "probabilities": {
+        "Arguments of Petitioner": 0.545,
+        "Arguments of Respondent": 0.2471,
+        "Decision": 0.0003,
+        "Facts": 0.1101,
+        "Issue": 0.0007,
+        "Reasoning": 0.0968
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "He has placed reliance on the judgments of this court in case of Vikram Greentech (I) Ltd.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5323,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4513,
+        "Arguments of Respondent": 0.5323,
+        "Decision": 0.0002,
+        "Facts": 0.0042,
+        "Issue": 0.0001,
+        "Reasoning": 0.0119
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 20,
+      "text": "Anr vs New India Assurance Co. Ltd (2009) 5 SCC 599 and in case of Life Insurance Corporation of India Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6932,
+        "Arguments of Respondent": 0.182,
+        "Decision": 0.0006,
+        "Facts": 0.0675,
+        "Issue": 0.0006,
+        "Reasoning": 0.0561
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Jaya Chandel (2008) 3 SCC 382 to submit that there is a requirement of good faith on the part of the insured in the contract of insurance.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6064,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6064,
+        "Arguments of Respondent": 0.371,
+        "Decision": 0.0001,
+        "Facts": 0.0033,
+        "Issue": 0.0005,
+        "Reasoning": 0.0186
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "However, the learned counsel appearing for the respondentcomplainant submitted that the said terms and conditions of the policy were not brought to the notice of the insured i.e. the husband of the complainant, and that the complainant was entitled to the Accident claim benefit as per the Ready reckoner.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0254,
+        "Arguments of Respondent": 0.6827,
+        "Decision": 0.0017,
+        "Facts": 0.12,
+        "Issue": 0.0007,
+        "Reasoning": 0.1694
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "He further submitted that the husband of the complainant had made payment of premium on 09.03.2012 along with the late fee charges and, therefore, the policy had stood revived before the death of the complainants husband.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3321,
+        "Arguments of Respondent": 0.6449,
+        "Decision": 0.0003,
+        "Facts": 0.0159,
+        "Issue": 0.0002,
+        "Reasoning": 0.0067
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "He also placed reliance on LIC vs. Jaya Chandel (supra) to submit that since the insurance company had issued the renewal premium receipt on 09.03.2012, it was required to be construed that the policy which had already lapsed due to nonpayment of premium on time, had stood revived.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2882,
+        "Arguments of Respondent": 0.6995,
+        "Decision": 0.0001,
+        "Facts": 0.0026,
+        "Issue": 0.0001,
+        "Reasoning": 0.0095
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "Now, so far as the facts of this case are concerned, it is not disputed that the husband of the complainant had taken the life insurance policy on 14.04.2011, that the next premium had fallen due on 14.10.2011 but was not paid by him, that the husband of the complainant met with an accident on 06.03.2012, that thereafter the premium was paid on 09.03.2012 and that he expired on 21.03.2012.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.774,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0007,
+        "Facts": 0.2169,
+        "Issue": 0.0007,
+        "Reasoning": 0.774
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "It is also not disputed that at the time of making payment of premium on 09.03.2012, it was not disclosed by the complainant or her husband to the appellantCorporation about the accident which had taken placed on 06.03.2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.5527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0011,
+        "Facts": 0.5527,
+        "Issue": 0.0066,
+        "Reasoning": 0.4161
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 27,
+      "text": "The said conduct on the part of the complainant and her husband in not disclosing about the accident to the corporation not only amounted to suppression of material fact and lacked bona fides but smacked of their mala fide intention, and therefore, the Accident benefit claim of the complainant was liable to be rejected on the said ground alone.",
+      "predicted_label": "Facts",
+      "confidence": 0.9459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.0161,
+        "Decision": 0.0002,
+        "Facts": 0.9459,
+        "Issue": 0.0007,
+        "Reasoning": 0.0208
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "It is well settled legal position that in a contract of insurance there is a requirement of Uberrima fides i.e. good faith on the part of the assured.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9192,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0314,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.0004,
+        "Facts": 0.0235,
+        "Issue": 0.0041,
+        "Reasoning": 0.9192
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The Supreme Court in case of Vikram Greentech (I) Ltd.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.128,
+        "Arguments of Respondent": 0.0951,
+        "Decision": 0.0045,
+        "Facts": 0.1778,
+        "Issue": 0.0008,
+        "Reasoning": 0.5939
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "V s New India Assurance Co. Ltd. (2009) 5 SCC 599, while dealing with the contract of insurance held as under 16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4471,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0748,
+        "Arguments of Respondent": 0.064,
+        "Decision": 0.0021,
+        "Facts": 0.4045,
+        "Issue": 0.0077,
+        "Reasoning": 0.4471
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 31,
+      "text": "An insurance contract, is a species of commercial transactions and must be construed like any other contract to its own terms and by itself.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8631,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0457,
+        "Arguments of Respondent": 0.0641,
+        "Decision": 0.0003,
+        "Facts": 0.026,
+        "Issue": 0.0009,
+        "Reasoning": 0.8631
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "In a contract of insurance, there is requirement of uberrima fides i.e. good faith on the part of the insured.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0684,
+        "Arguments of Respondent": 0.0432,
+        "Decision": 0.0002,
+        "Facts": 0.0196,
+        "Issue": 0.0017,
+        "Reasoning": 0.8669
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Except that, in other respects, there is no difference between a contract of insurance and any other contract.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9306,
+      "probabilities": {
+        "Arguments of Petitioner": 0.022,
+        "Arguments of Respondent": 0.0279,
+        "Decision": 0.0004,
+        "Facts": 0.0184,
+        "Issue": 0.0008,
+        "Reasoning": 0.9306
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The four essentials of a contract of insurance are (I) the definition of the risk, (ii) the duration of the risk, (iii) the premium, and (iv) the amount of insurance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.081,
+        "Arguments of Respondent": 0.0468,
+        "Decision": 0.0002,
+        "Facts": 0.0347,
+        "Issue": 0.0081,
+        "Reasoning": 0.8293
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Since upon issuance of the insurance policy, the insurer undertakes to indemnify the loss suffered by the insured on account of the risks covered by the insurance policy, its terms have to be strictly construed to determine the extent of liability of the insurer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.918,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0426,
+        "Arguments of Respondent": 0.0233,
+        "Decision": 0.0003,
+        "Facts": 0.014,
+        "Issue": 0.0019,
+        "Reasoning": 0.918
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The endeavour of the court must always be to interpret the words in which the contract is expressed by the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.052,
+        "Arguments of Respondent": 0.0906,
+        "Decision": 0.0001,
+        "Facts": 0.0186,
+        "Issue": 0.0049,
+        "Reasoning": 0.8338
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The court while construing the terms of policy is not expected to venture into extra liberalism that may result in rewriting the contract of substituting the terms which were not intended by the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.0261,
+        "Decision": 0.0001,
+        "Facts": 0.0114,
+        "Issue": 0.0009,
+        "Reasoning": 0.9473
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The insured cannot claim anything more than what is covered by the insurance policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.084,
+        "Arguments of Respondent": 0.1149,
+        "Decision": 0.0055,
+        "Facts": 0.0395,
+        "Issue": 0.0007,
+        "Reasoning": 0.7553
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "(General Assurance Society Ltd. v. Chandmull Jain (1966) 3",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1078,
+        "Arguments of Respondent": 0.0935,
+        "Decision": 0.0017,
+        "Facts": 0.0425,
+        "Issue": 0.0006,
+        "Reasoning": 0.7539
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "SCR 500 , Oriental Insurance Co. Ltd. v. Sony Cheriyan AIR 1999 SC 3252 and United India Insurance Co. Ltd. v. Harchand Rai Chandan Lal (2004) 8 SCC 644) .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0777,
+        "Arguments of Respondent": 0.034,
+        "Decision": 0.0022,
+        "Facts": 0.0361,
+        "Issue": 0.0018,
+        "Reasoning": 0.8482
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "From the aforestated legal position, it is clear that the terms of insurance policy have to be strictly construed, and it is not permissible to rewrite the contract while interpreting the terms of the Policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9172,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0267,
+        "Arguments of Respondent": 0.0502,
+        "Decision": 0.0003,
+        "Facts": 0.0054,
+        "Issue": 0.0004,
+        "Reasoning": 0.9172
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "In the instant case, condition no. 11 of the Policy clearly stipulated that the policy has to be in force when the accident takes place.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0766,
+        "Arguments of Respondent": 0.0275,
+        "Decision": 0.0009,
+        "Facts": 0.0332,
+        "Issue": 0.0016,
+        "Reasoning": 0.8603
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "In the instant case, the policy had lapsed on 14.10.2011 and was not in force on the date of accident i.e. on 06.03.2012.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7003,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1306,
+        "Arguments of Respondent": 0.0528,
+        "Decision": 0.0067,
+        "Facts": 0.0999,
+        "Issue": 0.0097,
+        "Reasoning": 0.7003
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "It was sought to be revived on 09.03.2012 after the accident in question, and that too without disclosing the fact of accident which had taken place on 06.03.2012.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2043,
+        "Arguments of Respondent": 0.1216,
+        "Decision": 0.0021,
+        "Facts": 0.0324,
+        "Issue": 0.0003,
+        "Reasoning": 0.6393
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "Thus, apart from the fact that the respondent complainant had not come with clean hands to claim the add on extra Accident benefit of the policy, the policy in question being not in force on the date of accident as per the condition no. 11 of the policy, the claim for extra Accident benefit was rightly rejected by the appellantCorporation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8237,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0199,
+        "Facts": 0.1294,
+        "Issue": 0.001,
+        "Reasoning": 0.8237
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "Since, clause 3 of the said terms and conditions of the policy permitted the renewal of discontinued policy, the appellantCorporation had revived the policy of the respondentcomplainant by accepting the payment of premium after the due date and paid Rs. 3,75,000/ as assured under the policy, nonetheless for the Accident benefit, the policy had to be in force for the full sum assured on the date of accident as per the said condition no. 11.",
+      "predicted_label": "Facts",
+      "confidence": 0.8133,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0331,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0017,
+        "Facts": 0.8133,
+        "Issue": 0.0038,
+        "Reasoning": 0.1377
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The said Accident benefit could have been claimed and availed of only if the accident had taken place subsequent to the renewal of the policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6696,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0552,
+        "Arguments of Respondent": 0.0431,
+        "Decision": 0.0183,
+        "Facts": 0.2116,
+        "Issue": 0.0021,
+        "Reasoning": 0.6696
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "The policy in the instant case was lying in a lapsed condition since 14th October, 2011 and, therefore, was not in force as on 06.03.2012, resultantly, the claim over Accident benefit was not payable to the respondent as per the conditions of the contract of insurance.",
+      "predicted_label": "Facts",
+      "confidence": 0.5948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.128,
+        "Arguments of Respondent": 0.0521,
+        "Decision": 0.0281,
+        "Facts": 0.5948,
+        "Issue": 0.0156,
+        "Reasoning": 0.1815
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The Court, therefore, is of the opinion that the impugned order passed by the NCDRC setting aside the order passed by the Commission and reviving the order passed by the District Forum was highly erroneous and liable to be set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0937,
+        "Facts": 0.0654,
+        "Issue": 0.0043,
+        "Reasoning": 0.824
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "In the aforesaid premises, the present appeal is allowed and the impugned order passed by the NCDRC is set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.9804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9804,
+        "Facts": 0.0049,
+        "Issue": 0.0002,
+        "Reasoning": 0.014
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The claim of the respondent towards Accident benefit stands rejected accordingly.",
+      "predicted_label": "Decision",
+      "confidence": 0.6525,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.6525,
+        "Facts": 0.156,
+        "Issue": 0.0009,
+        "Reasoning": 0.1879
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "Pending applications, if any, are disposed of.",
+      "predicted_label": "Decision",
+      "confidence": 0.9818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9818,
+        "Facts": 0.0112,
+        "Issue": 0.0001,
+        "Reasoning": 0.0064
+      }
+    }
+  ]
+}

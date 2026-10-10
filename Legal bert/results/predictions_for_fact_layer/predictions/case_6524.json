@@ -1,0 +1,1926 @@
+{
+  "case_id": "6524",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The State of Kerala, is aggrieved by the judgement of the Kerala High Court, which allowed the respondents (hereafter called the licensee) writ petition whereby he claimed for an order quashing a demand in respect of a certain amount towards the balance sought to be recovered after a country liquor license.",
+      "predicted_label": "Issue",
+      "confidence": 0.6161,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0009,
+        "Facts": 0.3806,
+        "Issue": 0.6161,
+        "Reasoning": 0.0013
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The licensee was the successful bidder for arrack shops in the state of Kerala for the year 199394 the bid amount it offered was Rs. 60 lakhs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9433,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0076,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0001,
+        "Facts": 0.9433,
+        "Issue": 0.0119,
+        "Reasoning": 0.0331
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "A permit for import of 13,00,920 litres of rectified spirit was awarded.",
+      "predicted_label": "Facts",
+      "confidence": 0.9181,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.9181,
+        "Issue": 0.0607,
+        "Reasoning": 0.0166
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The excise duty payable for the designated quantity, monthly was Rs. 3,58,162/.",
+      "predicted_label": "Facts",
+      "confidence": 0.9701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0003,
+        "Facts": 0.9701,
+        "Issue": 0.0031,
+        "Reasoning": 0.0216
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The licensee entered into an agreement with the State on 01041993.",
+      "predicted_label": "Facts",
+      "confidence": 0.9426,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0001,
+        "Facts": 0.9426,
+        "Issue": 0.0018,
+        "Reasoning": 0.0461
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Alleging that the licensee committed default in the payment of the bid amount, in not replenishing the security in a timely manner, the state issued a show cause notice on 23071993 eliciting a response as to why action should not be taken.",
+      "predicted_label": "Facts",
+      "confidence": 0.8775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0004,
+        "Facts": 0.8775,
+        "Issue": 0.002,
+        "Reasoning": 0.1038
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Later, alleging that the licensee failed to replenish the security amount, the license was cancelled by an order dated 19081993, of the state.",
+      "predicted_label": "Facts",
+      "confidence": 0.8477,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0242,
+        "Arguments of Respondent": 0.0295,
+        "Decision": 0.0002,
+        "Facts": 0.8477,
+        "Issue": 0.0031,
+        "Reasoning": 0.0954
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The licensed shops were put up for reauction on seven different dates.",
+      "predicted_label": "Facts",
+      "confidence": 0.9509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9509,
+        "Issue": 0.0098,
+        "Reasoning": 0.0351
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "However, the re auction was unsuccessful as there were no bidders.",
+      "predicted_label": "Facts",
+      "confidence": 0.8892,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0205,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0017,
+        "Facts": 0.8892,
+        "Issue": 0.0196,
+        "Reasoning": 0.0523
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "As a consequence, the shops were managed by the Department of Excise in terms of the Abkari Shops Departmental Management Rules, 1972 (hereafter the Management Rules).",
+      "predicted_label": "Facts",
+      "confidence": 0.9374,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0296,
+        "Arguments of Respondent": 0.0196,
+        "Decision": 0.0001,
+        "Facts": 0.9374,
+        "Issue": 0.002,
+        "Reasoning": 0.0113
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "A sum of Rs. 14,94,570 was collected as departmental management fee and Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9419,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0001,
+        "Facts": 0.9419,
+        "Issue": 0.003,
+        "Reasoning": 0.0442
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "16,50,971/ was collected as duty on rectified spirit for the period 13091993 to 31031994.",
+      "predicted_label": "Facts",
+      "confidence": 0.9778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0002,
+        "Facts": 0.9778,
+        "Issue": 0.0102,
+        "Reasoning": 0.0102
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The state argued that had the licensee continued operating the shop, it would have gained revenues to the tune of Rs. 1,09,87,989/. It accordingly demanded dues, from the licensee.",
+      "predicted_label": "Facts",
+      "confidence": 0.6963,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1056,
+        "Arguments of Respondent": 0.0844,
+        "Decision": 0.0003,
+        "Facts": 0.6963,
+        "Issue": 0.0007,
+        "Reasoning": 0.1126
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "The licensee preferred a writ petition for a declaration that the cancellation of the licensee for sale of country liquor for the period 01041993 to 31031994 was illegal and void and that its liability with respect to GroupII arrack shops for the year 199394 ended upon the cancellation taking place.",
+      "predicted_label": "Facts",
+      "confidence": 0.9438,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0001,
+        "Facts": 0.9438,
+        "Issue": 0.0028,
+        "Reasoning": 0.0487
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "It sought to limit its liability for the period April 1993 to 19th August 1994.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5018,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0612,
+        "Arguments of Respondent": 0.0557,
+        "Decision": 0.0019,
+        "Facts": 0.3611,
+        "Issue": 0.0184,
+        "Reasoning": 0.5018
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "The petition was dismissed by the single judge.",
+      "predicted_label": "Facts",
+      "confidence": 0.8265,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0179,
+        "Arguments of Respondent": 0.0218,
+        "Decision": 0.0016,
+        "Facts": 0.8265,
+        "Issue": 0.0294,
+        "Reasoning": 0.1028
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Aggrieved with this, the licensee preferred an appeal to the Division Bench.",
+      "predicted_label": "Facts",
+      "confidence": 0.8976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0001,
+        "Facts": 0.8976,
+        "Issue": 0.0039,
+        "Reasoning": 0.0808
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The Division Bench by a short orderimpugned in the present appeal followed its previous decision and held that since the contracts were entered into before the amendment of Rule 13, the licensee was liable to pay only the actual loss suffered by the government, in realisation of rentals and excise duty.",
+      "predicted_label": "Facts",
+      "confidence": 0.9845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9845,
+        "Issue": 0.0091,
+        "Reasoning": 0.0055
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The court directed the government to issue fresh demands in accordance with the rules and agreements executed with the licensee covering only the actual loss.",
+      "predicted_label": "Facts",
+      "confidence": 0.5082,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0177,
+        "Arguments of Respondent": 0.0193,
+        "Decision": 0.0062,
+        "Facts": 0.5082,
+        "Issue": 0.0031,
+        "Reasoning": 0.4455
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "It is argued on behalf of the state that there was no challenge to Rule 13 of the Management Rules, and as a result, the impugned order was not justified in holding that the licensee was liable only for a limited period.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6295,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6295,
+        "Arguments of Respondent": 0.2456,
+        "Decision": 0.0011,
+        "Facts": 0.0231,
+        "Issue": 0.0021,
+        "Reasoning": 0.0986
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "Pointing to the language of Rule 13, it is submitted that with effect from 23121993 an amendment was made in terms of which the question of adjustment of any liability did not arise.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5297,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4324,
+        "Arguments of Respondent": 0.5297,
+        "Decision": 0.0001,
+        "Facts": 0.0092,
+        "Issue": 0.0005,
+        "Reasoning": 0.0282
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Learned counsel contrasted this with the preexisting or old Rule 13, which permitted credit of departmental management fee and other amounts realised during the currency of the term of management by the state, as against the overall liability of the previous licensee.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5025,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5025,
+        "Arguments of Respondent": 0.4624,
+        "Decision": 0.0001,
+        "Facts": 0.0042,
+        "Issue": 0.0001,
+        "Reasoning": 0.0306
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "5.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5201,
+        "Arguments of Respondent": 0.0384,
+        "Decision": 0.0047,
+        "Facts": 0.3846,
+        "Issue": 0.0268,
+        "Reasoning": 0.0254
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "It was submitted by the state that the Division Bench fell into error in relying upon its previous judgement which had declared that licenses entered into prior to 23121993 were not covered by the amendment.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7564,
+        "Arguments of Respondent": 0.1405,
+        "Decision": 0.001,
+        "Facts": 0.0535,
+        "Issue": 0.0028,
+        "Reasoning": 0.0459
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Urging that the decision of the state was based upon its policy not to give credit, learned counsel highlighted that this was premised on its understanding of the statute.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5885,
+        "Arguments of Respondent": 0.3821,
+        "Decision": 0.0001,
+        "Facts": 0.0033,
+        "Issue": 0.0001,
+        "Reasoning": 0.0259
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "Learned counsel also submitted that it is only where resale licensees had entered the picture that the department management fee collected from the date of confirmation of the resale (of the vend or particular shop) could be given credit to reduce from resale purchases if the latter completed the security.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5229,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4669,
+        "Arguments of Respondent": 0.5229,
+        "Decision": 0.0001,
+        "Facts": 0.0027,
+        "Issue": 0.0001,
+        "Reasoning": 0.0073
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "However, the departmental management fee that could be given credit to the original contractor would be forfeited if he had not completed the security.",
+      "predicted_label": "Facts",
+      "confidence": 0.4896,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0864,
+        "Arguments of Respondent": 0.0707,
+        "Decision": 0.0006,
+        "Facts": 0.4896,
+        "Issue": 0.0011,
+        "Reasoning": 0.3517
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Relying upon this condition in the old Rule, learned counsel sought to argue that in the present case, the licensee had in fact not replenished the security the security that he originally deposited was adjusted towards the amounts due for the three months payable after the auction.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5824,
+        "Arguments of Respondent": 0.3163,
+        "Decision": 0.0001,
+        "Facts": 0.007,
+        "Issue": 0.0001,
+        "Reasoning": 0.0941
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "Thus, in August, the security had not been replenished and in these circumstances, having regard to the express terminology of the old rule, there was no question of giving any credit to the licensee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7335,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0591,
+        "Arguments of Respondent": 0.0519,
+        "Decision": 0.0006,
+        "Facts": 0.1548,
+        "Issue": 0.0002,
+        "Reasoning": 0.7335
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "It was argued that rather the entire liability sought to be recovered, was justifiably so.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4107,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4107,
+        "Arguments of Respondent": 0.2067,
+        "Decision": 0.0005,
+        "Facts": 0.0489,
+        "Issue": 0.001,
+        "Reasoning": 0.3322
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "In the case of the licensee it worked out to over Rs. 77,65,189/ with interest 18 per cent per annum.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0563,
+        "Arguments of Respondent": 0.0303,
+        "Decision": 0.0056,
+        "Facts": 0.1812,
+        "Issue": 0.0015,
+        "Reasoning": 0.725
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "6.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6065,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6065,
+        "Arguments of Respondent": 0.0453,
+        "Decision": 0.0019,
+        "Facts": 0.3234,
+        "Issue": 0.0065,
+        "Reasoning": 0.0164
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "Mr Roy Abraham, learned counsel appearing for the licensee urged this court not to interfere with the findings and order of the High Court.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.988,
+        "Decision": 0.0003,
+        "Facts": 0.0005,
+        "Issue": 0.0001,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "He relied upon the circumstance that the contract in the present case was entered into on 01041993.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5035,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4488,
+        "Arguments of Respondent": 0.5035,
+        "Decision": 0.0002,
+        "Facts": 0.0137,
+        "Issue": 0.0002,
+        "Reasoning": 0.0336
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "It was submitted that, therefore, the question of the new rule (which came into force on 23121993) applying to deny the adjustment of the amounts which were directly recovered by the Department as management fees from the overall liability, did not arise.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5504,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3374,
+        "Arguments of Respondent": 0.5504,
+        "Decision": 0.0002,
+        "Facts": 0.0536,
+        "Issue": 0.0006,
+        "Reasoning": 0.0577
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "It was emphasised that importantly, the rules were brought into force after the termination of the license, which occurred on 1908 1993.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4299,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4299,
+        "Arguments of Respondent": 0.3977,
+        "Decision": 0.0008,
+        "Facts": 0.0551,
+        "Issue": 0.0005,
+        "Reasoning": 0.116
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 36,
+      "text": "However, the rules were amended on 23121993.",
+      "predicted_label": "Facts",
+      "confidence": 0.9624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0001,
+        "Facts": 0.9624,
+        "Issue": 0.0022,
+        "Reasoning": 0.029
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Therefore, the amendments were inapplicable to a past event, i.e. the respondent, whose license had been terminated earlier.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3171,
+        "Arguments of Respondent": 0.3432,
+        "Decision": 0.0004,
+        "Facts": 0.0591,
+        "Issue": 0.0005,
+        "Reasoning": 0.2798
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "It was argued that even otherwise, the licensee cannot be made liable for nonpayment of dues for the entire period, since the department itself ran the outlets and recovered departmental management fee as well as excise duties.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4697,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4697,
+        "Arguments of Respondent": 0.3764,
+        "Decision": 0.001,
+        "Facts": 0.0332,
+        "Issue": 0.0007,
+        "Reasoning": 0.1191
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "It was also argued that the Division Bench correctly relied on its previous ruling in Lucka v State of Kerala Ors (Dated 11082000 in OP 8271/1994) where the amended Rule 13 was held inapplicable to contracts awarded or entered into previously.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0921,
+        "Arguments of Respondent": 0.8808,
+        "Decision": 0.0001,
+        "Facts": 0.0059,
+        "Issue": 0.0006,
+        "Reasoning": 0.0205
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "It was also urged that the state had issued amnesty policies in 2008 and later in 2011.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.471,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3615,
+        "Arguments of Respondent": 0.471,
+        "Decision": 0.0009,
+        "Facts": 0.112,
+        "Issue": 0.0011,
+        "Reasoning": 0.0535
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "Despite the judgment of the High Court, the respondents application for relief under the amnesty scheme of 2008 was rejected without rhyme or reason.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3556,
+        "Arguments of Respondent": 0.0292,
+        "Decision": 0.0862,
+        "Facts": 0.0434,
+        "Issue": 0.0019,
+        "Reasoning": 0.4837
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "It was also pointed out that this court permitted the respondent to deposit 50 of the admitted amount, under interim orders, in terms of the 2011 scheme.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.15,
+        "Arguments of Respondent": 0.6437,
+        "Decision": 0.0027,
+        "Facts": 0.1163,
+        "Issue": 0.0006,
+        "Reasoning": 0.0867
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "Learned counsel stated that such amounts were deposited but by then the state apparently had used its powers and taken over immovable property belonging to the respondent, which was put to auction to realize the arrears in terms of the demands, which had been quashed.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5013,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3187,
+        "Arguments of Respondent": 0.5013,
+        "Decision": 0.0008,
+        "Facts": 0.1313,
+        "Issue": 0.0006,
+        "Reasoning": 0.0473
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "The state itself bid Rs. 1 and sought to appropriate the property.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2061,
+        "Arguments of Respondent": 0.2239,
+        "Decision": 0.011,
+        "Facts": 0.0687,
+        "Issue": 0.004,
+        "Reasoning": 0.4863
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "However, when the respondent applied for interim relief, this court directed the state to maintain status quo.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.2889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.147,
+        "Arguments of Respondent": 0.232,
+        "Decision": 0.0577,
+        "Facts": 0.2705,
+        "Issue": 0.0039,
+        "Reasoning": 0.2889
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 46,
+      "text": "The facts stated shows that the licensee was a successful bidder in an auction held by the State of Kerala and had deposited a security amount, to ensure the timely payment of the amounts (kist) due in terms of the contract entered into.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0116,
+        "Arguments of Respondent": 0.0138,
+        "Decision": 0.0006,
+        "Facts": 0.3814,
+        "Issue": 0.0004,
+        "Reasoning": 0.5922
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Alleging that the licensee did not remit the kist due to the State in a timely manner, a showcause notice was issued and eventually the license was cancelled.",
+      "predicted_label": "Facts",
+      "confidence": 0.9277,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0189,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0001,
+        "Facts": 0.9277,
+        "Issue": 0.0013,
+        "Reasoning": 0.0392
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Indisputably the license entered into was effective for the period, commencing from 01041993.",
+      "predicted_label": "Facts",
+      "confidence": 0.5388,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0002,
+        "Facts": 0.5388,
+        "Issue": 0.0098,
+        "Reasoning": 0.4382
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The cancellation of license occurred by an order dated 19081993.",
+      "predicted_label": "Facts",
+      "confidence": 0.7863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0189,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0003,
+        "Facts": 0.7863,
+        "Issue": 0.0031,
+        "Reasoning": 0.1729
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "The State repeatedly put up the shops in question for auction seven times, but was unsuccessful in securing the proper bids.",
+      "predicted_label": "Facts",
+      "confidence": 0.8823,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0006,
+        "Facts": 0.8823,
+        "Issue": 0.0746,
+        "Reasoning": 0.0323
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "Therefore, it had to manage the shops which it did.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0801,
+        "Arguments of Respondent": 0.0903,
+        "Decision": 0.0014,
+        "Facts": 0.1693,
+        "Issue": 0.0004,
+        "Reasoning": 0.6585
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "The shops appear to have been reauctioned subsequently and given out in the next financial year.",
+      "predicted_label": "Facts",
+      "confidence": 0.7291,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0132,
+        "Decision": 0.0006,
+        "Facts": 0.7291,
+        "Issue": 0.0016,
+        "Reasoning": 0.2388
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "For the period 13091993 (when the State took over the possession) to 31031994 the state collected Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0,
+        "Facts": 0.967,
+        "Issue": 0.0008,
+        "Reasoning": 0.0278
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "14,94,570/ as Departmental Management Fee and Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8073,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0265,
+        "Arguments of Respondent": 0.0222,
+        "Decision": 0.0035,
+        "Facts": 0.8073,
+        "Issue": 0.002,
+        "Reasoning": 0.1385
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "16,59,771/ as Excise Duty on rectified spirit.",
+      "predicted_label": "Facts",
+      "confidence": 0.9818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0011,
+        "Facts": 0.9818,
+        "Issue": 0.0074,
+        "Reasoning": 0.0072
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "The state contended, that had the licensee continued, it would have obtained Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.3564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1516,
+        "Arguments of Respondent": 0.1502,
+        "Decision": 0.0011,
+        "Facts": 0.3564,
+        "Issue": 0.0006,
+        "Reasoning": 0.3402
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 57,
+      "text": "1,09,87,989/ 9.",
+      "predicted_label": "Facts",
+      "confidence": 0.7892,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0207,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.0038,
+        "Facts": 0.7892,
+        "Issue": 0.0001,
+        "Reasoning": 0.1648
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "The states case is that the licensee had deposited Rs. 18,00,000/ as security and Rs. 7,16,324/ by way of Excise Duty and Rs. 6,39,800/ as kist dues for April (total amount of Rs. 31,56,124/).",
+      "predicted_label": "Facts",
+      "confidence": 0.6154,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0337,
+        "Arguments of Respondent": 0.0627,
+        "Decision": 0.0008,
+        "Facts": 0.6154,
+        "Issue": 0.001,
+        "Reasoning": 0.2865
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "The departmental management fee that may be given credit to the Original, contractor shall be forfeited if he had not completed the security.",
+      "predicted_label": "Facts",
+      "confidence": 0.7127,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0677,
+        "Arguments of Respondent": 0.0352,
+        "Decision": 0.0079,
+        "Facts": 0.7127,
+        "Issue": 0.003,
+        "Reasoning": 0.1733
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "The rule was amended with effect from 23121993.",
+      "predicted_label": "Facts",
+      "confidence": 0.9413,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.9413,
+        "Issue": 0.0031,
+        "Reasoning": 0.0484
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The petitioner deposited Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9286,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0012,
+        "Facts": 0.9286,
+        "Issue": 0.0019,
+        "Reasoning": 0.0485
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "31,81,800/ being 30 of the bid amount as security deposit in terms of Rule 10 of Chapter IV of Abkari (Disposal in Auction) Rules.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4981,
+        "Arguments of Respondent": 0.2847,
+        "Decision": 0.0072,
+        "Facts": 0.1242,
+        "Issue": 0.0055,
+        "Reasoning": 0.0803
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "This constituted the cash security for due performance of the conditions of the licence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0383,
+        "Arguments of Respondent": 0.0281,
+        "Decision": 0.0005,
+        "Facts": 0.3988,
+        "Issue": 0.0003,
+        "Reasoning": 0.5341
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 64,
+      "text": "The amount was to be credited towards kist dues for the last two or more instalments as the case may be of the contract unless previously appropriated under the rules as per Rule 5(19) of the Abkari Shops (Disposal in Auction) Rules.",
+      "predicted_label": "Facts",
+      "confidence": 0.9856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0002,
+        "Facts": 0.9856,
+        "Issue": 0.0033,
+        "Reasoning": 0.0069
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "There are 10 instalments of kist.",
+      "predicted_label": "Facts",
+      "confidence": 0.6442,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0023,
+        "Facts": 0.6442,
+        "Issue": 0.0002,
+        "Reasoning": 0.3256
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "Each kist fell due on the 10th day of each and every subsequent month.",
+      "predicted_label": "Facts",
+      "confidence": 0.985,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.001,
+        "Facts": 0.985,
+        "Issue": 0.0004,
+        "Reasoning": 0.0125
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "A period of 15 days is allowed, from 10th onwards as the grace period to remit the kist instalment under Rule 6 (28) of the Abkari Disposal in Auction Rules.",
+      "predicted_label": "Decision",
+      "confidence": 0.8293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.8293,
+        "Facts": 0.069,
+        "Issue": 0.0007,
+        "Reasoning": 0.0829
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "The petitioner was to pay seven instalments of kist up to 10101992, leaving three instalments to be adjusted from security deposit, provided he had fulfilled all the conditions of the license.",
+      "predicted_label": "Facts",
+      "confidence": 0.9916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9916,
+        "Issue": 0.0003,
+        "Reasoning": 0.0065
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "This court notices that the impugned judgment relied on a previous Division Bench ruling of the High Court, which dealt with the applicability of the amended Rule 13 to preexisting contracts, and held that the condition of nonadjustability was inapplicable for contracts entered into, and vends auctioned, before it came into force.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5291,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0236,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0011,
+        "Facts": 0.4299,
+        "Issue": 0.0034,
+        "Reasoning": 0.5291
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 70,
+      "text": "In that judgment, Lucka v State of Kerala Ors (Dated 11082000 in OP 8271/1994) the High Court had to deal with a similar situation, i.e. the rules applicable in the event of cancellation of an excise liquor vend.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8533,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0371,
+        "Arguments of Respondent": 0.0289,
+        "Decision": 0.0007,
+        "Facts": 0.0787,
+        "Issue": 0.0012,
+        "Reasoning": 0.8533
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "The court held that On combined reading of the provisions of the act and rules, especially section 8 of the Act Rules 5, 10, 15 and 16 of the Abkari Shops Disposal Rule and Rule 13 of the Abkari Shops Departmental Management Rules, shows that due to the cancellation of the contract of the licensees any losses suffered by the revenue loss has to be reimbursed by the licensees.",
+      "predicted_label": "Facts",
+      "confidence": 0.7695,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0009,
+        "Facts": 0.7695,
+        "Issue": 0.002,
+        "Reasoning": 0.1892
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "While calculating the loss amount obtained by the departmental management also should be taken into account and given credit as to that amount was received by the government and only after deducting the same actual loss can be found out.",
+      "predicted_label": "Facts",
+      "confidence": 0.6088,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1061,
+        "Arguments of Respondent": 0.0925,
+        "Decision": 0.0019,
+        "Facts": 0.6088,
+        "Issue": 0.0016,
+        "Reasoning": 0.189
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "The words at the risk shows that only the actual loss suffered can be recovered from the licensees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2376,
+        "Arguments of Respondent": 0.1662,
+        "Decision": 0.0061,
+        "Facts": 0.0521,
+        "Issue": 0.0003,
+        "Reasoning": 0.5377
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "This is apart from imposing any damages by the Government, according to law or passing a discretionary or order by the excess commissioner regarding the future of departmental fee for valid reasons after issuing show cause notice at the time when licences cancelled.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9154,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0022,
+        "Facts": 0.0574,
+        "Issue": 0.0001,
+        "Reasoning": 0.9154
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "3. 1993, before the amendment of rules and admittedly amended rules are not applicable and if no damages by way of kist ordered at the time of cancellation on the basis of amended Rule 13, no recovery steps can be issued with legal contracts and licensees for the Abkari year 199293.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.2983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.262,
+        "Arguments of Respondent": 0.1859,
+        "Decision": 0.0114,
+        "Facts": 0.2395,
+        "Issue": 0.0028,
+        "Reasoning": 0.2983
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 76,
+      "text": "Other contracts and license under question in these original petitions were also entered before the amendment of the rules with effect from 1.4.1993.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6414,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0649,
+        "Arguments of Respondent": 0.0536,
+        "Decision": 0.0012,
+        "Facts": 0.2366,
+        "Issue": 0.0023,
+        "Reasoning": 0.6414
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "The amendment of Rules 13 was made on in December 1993.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4119,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1406,
+        "Arguments of Respondent": 0.1097,
+        "Decision": 0.0009,
+        "Facts": 0.3348,
+        "Issue": 0.0021,
+        "Reasoning": 0.4119
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 78,
+      "text": "Therefore, contracts, executed after the amendment of rules may be bound by it if the rules are valid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0462,
+        "Arguments of Respondent": 0.0421,
+        "Decision": 0.0002,
+        "Facts": 0.0221,
+        "Issue": 0.0005,
+        "Reasoning": 0.8888
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "But contracts covered in these years were executed prior to the amendment of the above rule.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6999,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0287,
+        "Arguments of Respondent": 0.0248,
+        "Decision": 0.0007,
+        "Facts": 0.23,
+        "Issue": 0.0159,
+        "Reasoning": 0.6999
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "In this case, it is evident that when the state initiated recovery proceedings it did not give credit of the amounts collected under the head of department management fee as was required under preexisting Rule 13.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.032,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0038,
+        "Facts": 0.01,
+        "Issue": 0.0003,
+        "Reasoning": 0.9394
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "Its main contention before this court is that amounts collected as departmental management fee were not adjustable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4489,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1003,
+        "Arguments of Respondent": 0.0647,
+        "Decision": 0.0004,
+        "Facts": 0.3602,
+        "Issue": 0.0255,
+        "Reasoning": 0.4489
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 82,
+      "text": "In view of the decision in Lucka(f.no.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0935,
+        "Arguments of Respondent": 0.0568,
+        "Decision": 0.0826,
+        "Facts": 0.374,
+        "Issue": 0.0007,
+        "Reasoning": 0.3923
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 83,
+      "text": "1), there cannot be any dispute that contracts entered into before amendment of Rule 13as in this casewere not to be treated as those transactions for which amounts were non adjustable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0005,
+        "Facts": 0.0258,
+        "Issue": 0.0015,
+        "Reasoning": 0.9366
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "There is no indication that Rule 13 applied retrospectively.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0675,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.0013,
+        "Facts": 0.009,
+        "Issue": 0.0002,
+        "Reasoning": 0.9005
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "There is profusion of judicial authority on the proposition that a rule or law cannot be construed as retrospective unless it expresses a clear or manifest intention, to the contrary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.0482,
+        "Decision": 0.0002,
+        "Facts": 0.0056,
+        "Issue": 0.0015,
+        "Reasoning": 0.906
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "In Commissioner of Income Tax v Vatika Township (2015) 1 SCC 1 this court, speaking through a Constitution Bench, observed as follows 31.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0812,
+        "Arguments of Respondent": 0.0331,
+        "Decision": 0.0002,
+        "Facts": 0.011,
+        "Issue": 0.0002,
+        "Reasoning": 0.8743
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "Of the various rules guiding how a legislation has to be interpreted, one established rule is that unless a contrary intention appears, a legislation is presumed not to be intended to have a retrospective operation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8737,
+      "probabilities": {
+        "Arguments of Petitioner": 0.024,
+        "Arguments of Respondent": 0.0937,
+        "Decision": 0.0002,
+        "Facts": 0.0062,
+        "Issue": 0.0023,
+        "Reasoning": 0.8737
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "The idea behind the rule is that a current law should govern current activities.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1092,
+        "Arguments of Respondent": 0.2319,
+        "Decision": 0.0004,
+        "Facts": 0.0133,
+        "Issue": 0.0004,
+        "Reasoning": 0.6448
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "Law passed today cannot apply to the events of the past.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3703,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2475,
+        "Arguments of Respondent": 0.2736,
+        "Decision": 0.0238,
+        "Facts": 0.0784,
+        "Issue": 0.0064,
+        "Reasoning": 0.3703
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 90,
+      "text": "If we do something today, we do it keeping in view the law of today and in force and not tomorrows backward adjustment of it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.019,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.0136,
+        "Facts": 0.0772,
+        "Issue": 0.0377,
+        "Reasoning": 0.8367
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "Our belief in the nature of the law is founded on the bed rock that every human being is entitled to arrange his affairs by relying on the existing law and should not find that his plans have been retrospectively upset.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0007,
+        "Facts": 0.0185,
+        "Issue": 0.0007,
+        "Reasoning": 0.9626
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "This principle of law is known as lex prospicit non respicit law looks forward not backward.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1597,
+        "Arguments of Respondent": 0.1507,
+        "Decision": 0.0011,
+        "Facts": 0.0151,
+        "Issue": 0.0009,
+        "Reasoning": 0.6724
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 93,
+      "text": "As was observed in Phillips vs. Eyre3, a retrospective legislation is contrary to the general principle that legislation by which the conduct of mankind is to be regulated when introduced for the first time to deal with future acts ought not to change the character of past transactions carried on upon the faith of the then existing law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0001,
+        "Facts": 0.0047,
+        "Issue": 0.0004,
+        "Reasoning": 0.9474
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "The obvious basis of the principle against retrospectivity is the principle of fairness, which must be the basis of every legal rule as was observed in the decision reported in LOffice Cherifien des Phosphates v. YamashitaShinnihon Steamship Co.Ltd4.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6425,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1155,
+        "Arguments of Respondent": 0.0918,
+        "Decision": 0.0002,
+        "Facts": 0.149,
+        "Issue": 0.0011,
+        "Reasoning": 0.6425
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 95,
+      "text": "Thus, legislations which modified accrued rights or which impose obligations or impose new duties or attach a new disability have to be treated as prospective unless the legislative intent is clearly to give the enactment a retrospective effect unless the legislation is for purpose of supplying an obvious omission in a former legislation or to explain a former legislation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9368,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0417,
+        "Decision": 0.0001,
+        "Facts": 0.0043,
+        "Issue": 0.0007,
+        "Reasoning": 0.9368
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "We need not note the cornucopia of case law available on the subject because aforesaid legal position clearly emerges from the various decisions and this legal position was conceded by the counsel for the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9299,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0195,
+        "Decision": 0.0053,
+        "Facts": 0.0145,
+        "Issue": 0.0142,
+        "Reasoning": 0.9299
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "In any case, we shall refer to few judgments containing this dicta, a little later.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8032,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0412,
+        "Arguments of Respondent": 0.0326,
+        "Decision": 0.0006,
+        "Facts": 0.121,
+        "Issue": 0.0015,
+        "Reasoning": 0.8032
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "16.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8032,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8032,
+        "Arguments of Respondent": 0.0477,
+        "Decision": 0.0028,
+        "Facts": 0.0317,
+        "Issue": 0.0101,
+        "Reasoning": 0.1045
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "The principle has been affirmed in many decisions such as Hukum Chand v Union of India (1973) 1",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.134,
+        "Arguments of Respondent": 0.1232,
+        "Decision": 0.001,
+        "Facts": 0.0289,
+        "Issue": 0.0004,
+        "Reasoning": 0.7125
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "SCR 896 , Regional Transport Officer v Associated Transport Madras (1980) 4 SCC 597 Federation of Indian Mineral Industries v Union of India (2017) 16 SCC 186 and recently, in Union of India v G.S. Chatha Rice Mills 2021 (2) SCC 209.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2953,
+        "Arguments of Respondent": 0.3829,
+        "Decision": 0.0007,
+        "Facts": 0.0515,
+        "Issue": 0.0004,
+        "Reasoning": 0.2691
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 101,
+      "text": "17.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7936,
+        "Arguments of Respondent": 0.0568,
+        "Decision": 0.0024,
+        "Facts": 0.0351,
+        "Issue": 0.0095,
+        "Reasoning": 0.1025
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "The decision in Lucka(f.no.1), therefore, correctly stated the law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8222,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.1233,
+        "Decision": 0.0341,
+        "Facts": 0.0118,
+        "Issue": 0.0004,
+        "Reasoning": 0.8222
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "In these circumstances, the amounts calculated by the state as departmental management fees for the period September 1993 to March 1994, when it actually was in charge of the vend, and carried out transactions, had to be adjusted.",
+      "predicted_label": "Facts",
+      "confidence": 0.636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0259,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.0022,
+        "Facts": 0.636,
+        "Issue": 0.0004,
+        "Reasoning": 0.3168
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 104,
+      "text": "In other words, the amounts collected could not be again recovered as department management fees.",
+      "predicted_label": "Facts",
+      "confidence": 0.3464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2667,
+        "Arguments of Respondent": 0.1581,
+        "Decision": 0.0024,
+        "Facts": 0.3464,
+        "Issue": 0.0006,
+        "Reasoning": 0.2259
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 105,
+      "text": "Likewise, it is not in dispute that during the same period, the state was able to collect revenue i.e. excise duty, as well of Rs. 16 lakhs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7484,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0266,
+        "Arguments of Respondent": 0.0123,
+        "Decision": 0.0074,
+        "Facts": 0.1865,
+        "Issue": 0.0189,
+        "Reasoning": 0.7484
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "18.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.805,
+        "Arguments of Respondent": 0.0511,
+        "Decision": 0.0032,
+        "Facts": 0.0305,
+        "Issue": 0.011,
+        "Reasoning": 0.0991
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "It appears that an amnesty scheme was introduced by the State(By an order, dated 26.5.2008), in 2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.7741,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0003,
+        "Facts": 0.7741,
+        "Issue": 0.0036,
+        "Reasoning": 0.1955
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "The respondent sought to deposit amounts in terms of the said scheme.",
+      "predicted_label": "Facts",
+      "confidence": 0.8139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.0157,
+        "Decision": 0.0008,
+        "Facts": 0.8139,
+        "Issue": 0.0078,
+        "Reasoning": 0.1517
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "However, the state rejected this request by its letter dated 25082008, contending that the department management fee could not be adjusted against arrears.",
+      "predicted_label": "Facts",
+      "confidence": 0.8064,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0228,
+        "Arguments of Respondent": 0.0565,
+        "Decision": 0.0002,
+        "Facts": 0.8064,
+        "Issue": 0.0004,
+        "Reasoning": 0.1136
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "This court permitted the respondent to deposit 50 of the amount it claimed as payable to the government, in terms of a subsequent amnesty scheme, framed in 2011.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5568,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0383,
+        "Arguments of Respondent": 0.1042,
+        "Decision": 0.0093,
+        "Facts": 0.275,
+        "Issue": 0.0164,
+        "Reasoning": 0.5568
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 111,
+      "text": "19.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7746,
+        "Arguments of Respondent": 0.0576,
+        "Decision": 0.0036,
+        "Facts": 0.0306,
+        "Issue": 0.0143,
+        "Reasoning": 0.1194
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "According to the respondent, the reduced arrears are Rs. 40,51,288 in terms of amnesty scheme issued on 26052008.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.5681,
+        "Decision": 0.0004,
+        "Facts": 0.309,
+        "Issue": 0.0004,
+        "Reasoning": 0.1159
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 113,
+      "text": "The licensee respondent had applied under the scheme however, the appellant state refused to process it on the ground that since the license was cancelled due to nonreplenishment of security, the departmental management fee collected could not be adjusted.",
+      "predicted_label": "Facts",
+      "confidence": 0.7384,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0352,
+        "Arguments of Respondent": 0.0536,
+        "Decision": 0.0006,
+        "Facts": 0.7384,
+        "Issue": 0.0015,
+        "Reasoning": 0.1706
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "This court had noticed that the Division Bench in Lucka(f.no.1), correctly reasoned that the amended Rule 13 was inapplicable to contracts previously awarded or entered into.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0458,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0012,
+        "Facts": 0.1181,
+        "Issue": 0.0025,
+        "Reasoning": 0.7987
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "The sequitur is that departmental management fee collected by the state, for the period the vend (or outlet) was in its direct management, could not be recovered again, and had to be adjusted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8403,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0505,
+        "Arguments of Respondent": 0.0333,
+        "Decision": 0.013,
+        "Facts": 0.0619,
+        "Issue": 0.001,
+        "Reasoning": 0.8403
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "Apparently, the state had preferred appeals, by special leave from the common judgment in Lucka(f.no.1).",
+      "predicted_label": "Facts",
+      "confidence": 0.6343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0197,
+        "Arguments of Respondent": 0.0293,
+        "Decision": 0.0025,
+        "Facts": 0.6343,
+        "Issue": 0.1392,
+        "Reasoning": 0.175
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 117,
+      "text": "Those appeals were ultimately dismissed on 19.2.2008.(In Civil Appeal Nos. 49764987/2002 and connected cases as well as a special leave petition (SLP (C) 19586/2007).)",
+      "predicted_label": "Facts",
+      "confidence": 0.9547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0012,
+        "Facts": 0.9547,
+        "Issue": 0.012,
+        "Reasoning": 0.0222
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "In these circumstances, and having regard to the principle that retrospectivity cannot be presumed, unless there is clear intention in the new rule or amendment, it is held that there is no infirmity with the judgment of the High Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7288,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.2593,
+        "Facts": 0.006,
+        "Issue": 0.0004,
+        "Reasoning": 0.7288
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "The findings and conclusions previously recorded would have been dispositive of the issues arising in this appeal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.667,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.204,
+        "Facts": 0.1217,
+        "Issue": 0.0003,
+        "Reasoning": 0.667
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "However, this court is mindful of the fact that the respondent had succeeded before the High Court and was thus entitled to claim adjustment of the departmental management fees, for the period after its contract was terminated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9188,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0461,
+        "Facts": 0.0177,
+        "Issue": 0.0004,
+        "Reasoning": 0.9188
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "The respondent was also entitled to claim relief under the Amnesty Scheme, which was denied to it despite having succeeded before the High Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2822,
+        "Arguments of Respondent": 0.1741,
+        "Decision": 0.0286,
+        "Facts": 0.0575,
+        "Issue": 0.003,
+        "Reasoning": 0.4546
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 122,
+      "text": "Eventually, when the Scheme was announced afresh in 2011, this Court permitted the respondent to deposit 50 of the admitted amount(The admitted amount being Rs. 40,51,288/).",
+      "predicted_label": "Facts",
+      "confidence": 0.537,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0577,
+        "Arguments of Respondent": 0.0983,
+        "Decision": 0.0023,
+        "Facts": 0.537,
+        "Issue": 0.0013,
+        "Reasoning": 0.3035
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 123,
+      "text": "Having regard to the overall circumstances, it would be in the fitness of things if the respondent is permitted to deposit the balance for which it is hereby granted two months to do so.",
+      "predicted_label": "Decision",
+      "confidence": 0.4325,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0174,
+        "Decision": 0.4325,
+        "Facts": 0.1435,
+        "Issue": 0.0004,
+        "Reasoning": 0.3995
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 124,
+      "text": "This shall be considered as closure and discharge of this liability so far as payment of amounts under the contract cancelled on 13091993, are concerned.",
+      "predicted_label": "Facts",
+      "confidence": 0.9541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0011,
+        "Facts": 0.9541,
+        "Issue": 0.0002,
+        "Reasoning": 0.0406
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "Since the respondent had approached this Court complaining that the State had sought to auction his properties, a status quo order was made, binding the parties not to take fresh steps.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.401,
+      "probabilities": {
+        "Arguments of Petitioner": 0.04,
+        "Arguments of Respondent": 0.401,
+        "Decision": 0.0035,
+        "Facts": 0.3546,
+        "Issue": 0.0007,
+        "Reasoning": 0.2001
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 126,
+      "text": "In view of the findings recorded, the State has to ensure that the property of the respondent is released from attachment and due possession is handed back to the latter within the same period of two months.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0276,
+        "Decision": 0.054,
+        "Facts": 0.0776,
+        "Issue": 0.0004,
+        "Reasoning": 0.827
+      }
+    },
+    {
+      "sentence_id": 127,
+      "text": "In the light of the above discussion, following directions are hereby given (a) Upon payment of 50 of the amount, i.e. 50 of Rs.",
+      "predicted_label": "Decision",
+      "confidence": 0.8289,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.8289,
+        "Facts": 0.12,
+        "Issue": 0.0002,
+        "Reasoning": 0.0484
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "40,51,288/ within two months from today, the respondents liabilities towards the arrears of dues for the liquor vend in issue which was cancelled by the appellant States order dated 30091993 shall stand discharged (b)",
+      "predicted_label": "Decision",
+      "confidence": 0.6522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.6522,
+        "Facts": 0.3126,
+        "Issue": 0.0003,
+        "Reasoning": 0.0315
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 129,
+      "text": "The respondent shall not be liable to pay any interest for the upheld payment or for any other reason whatsoever, on the principal amount, i.e. Rs. 40,51,288/. The State shall refrain from initiating any proceedings for its recovery towards arrears for the said period the contract was to be in operation, i.e. 199394.",
+      "predicted_label": "Decision",
+      "confidence": 0.739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.739,
+        "Facts": 0.2071,
+        "Issue": 0.0005,
+        "Reasoning": 0.0519
+      }
+    },
+    {
+      "sentence_id": 130,
+      "text": "The impugned judgment is accordingly upheld.",
+      "predicted_label": "Decision",
+      "confidence": 0.9094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.9094,
+        "Facts": 0.0282,
+        "Issue": 0.0002,
+        "Reasoning": 0.0602
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "The appeal is dismissed but in terms of the directions contained in the preceding paragraph.",
+      "predicted_label": "Decision",
+      "confidence": 0.9874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9874,
+        "Facts": 0.005,
+        "Issue": 0.0001,
+        "Reasoning": 0.0072
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "The parties are left to bear their own costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9634,
+        "Facts": 0.0191,
+        "Issue": 0.0002,
+        "Reasoning": 0.0168
+      }
+    }
+  ]
+}

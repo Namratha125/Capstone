@@ -1,0 +1,545 @@
+{
+  "case_id": "6534",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This Appeal is filed against the judgment of the Calcutta High Court by which the Appeal filed by Respondent No.3 was allowed and the Writ Application filed by the Appellant stood dismissed.",
+      "predicted_label": "Issue",
+      "confidence": 0.7873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0036,
+        "Facts": 0.2068,
+        "Issue": 0.7873,
+        "Reasoning": 0.0012
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The Appellant purchased the ground floor of a two storied building situated at 45/2/G.T. Road (West) Serampore on 14.08.2002 from Respondent No.3 by a registered deed of conveyance.",
+      "predicted_label": "Facts",
+      "confidence": 0.9953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0,
+        "Facts": 0.9953,
+        "Issue": 0.0016,
+        "Reasoning": 0.0022
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Mutation was done in the name of the Appellant on 12.03.2003.",
+      "predicted_label": "Facts",
+      "confidence": 0.6744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0743,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0012,
+        "Facts": 0.6744,
+        "Issue": 0.0009,
+        "Reasoning": 0.2336
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "According to the Appellant, Respondent No.3 who was residing on the first floor started construction on the roof of the second floor on 31.12.2003.",
+      "predicted_label": "Facts",
+      "confidence": 0.9861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9861,
+        "Issue": 0.0004,
+        "Reasoning": 0.0084
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Appellant made a complaint to the local police station and the Chairman, Board of Councilors, Serampore MunicipalityRespondent No.2 herein.",
+      "predicted_label": "Facts",
+      "confidence": 0.9868,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9868,
+        "Issue": 0.0041,
+        "Reasoning": 0.0068
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The Appellant reiterated his complaint on 14.07.2004.",
+      "predicted_label": "Facts",
+      "confidence": 0.9859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9859,
+        "Issue": 0.0006,
+        "Reasoning": 0.0112
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "As no action was being taken on the complaints preferred, the Appellant filed a Writ Petition before the High Court of Calcutta alleging inaction on the part of the Municipal Corporation in taking appropriate steps.",
+      "predicted_label": "Facts",
+      "confidence": 0.9209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0096,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0004,
+        "Facts": 0.9209,
+        "Issue": 0.0105,
+        "Reasoning": 0.0548
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The Writ Petition was disposed of by the High Court with a direction to the Board of Councilors (for short the Board of Councilors, Serampore Municipality) to consider the representations made by the Appellant on 31.12.2003 and 14.07.2004 within a period of four weeks from the date of communication of the order.",
+      "predicted_label": "Facts",
+      "confidence": 0.983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.983,
+        "Issue": 0.0116,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "In the meeting of the Board held on 14.02.2006, it was decided that the permission for construction on the second floor was obtained by Respondent No.3 on the basis of misrepresentation of facts.",
+      "predicted_label": "Facts",
+      "confidence": 0.8824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0003,
+        "Facts": 0.8824,
+        "Issue": 0.0004,
+        "Reasoning": 0.0899
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Thereafter, an order was passed by the Chairman, Board of Councilors, Serampore Municipality revoking the sanctioned plan in favour of Respondent No.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0001,
+        "Facts": 0.9852,
+        "Issue": 0.0008,
+        "Reasoning": 0.0078
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Being aggrieved by the municipal authorities in not taking action to demolish the illegal construction which was made pursuant to the revocation of the sanctioned plan, the Appellant filed another Writ Petition seeking a direction to the authorities of the municipal corporation to take appropriate action to demolish the construction.",
+      "predicted_label": "Facts",
+      "confidence": 0.9919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.0001,
+        "Facts": 0.9919,
+        "Issue": 0.0041,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The said Writ Petition was disposed of by the High Court directing the municipal corporation to initiate proceedings under Section 218 of the West Bengal Municipal Act, 1996 (for short the Act) for demolition of the illegal construction and to pass a reasoned order after giving a reasonable opportunity to all concerned.",
+      "predicted_label": "Facts",
+      "confidence": 0.9056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0002,
+        "Facts": 0.9056,
+        "Issue": 0.0923,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "By way of implementation of the order of the High Court, a letter was issued by the municipal corporation to Respondent No.3 to remove the structure on the second floor.",
+      "predicted_label": "Facts",
+      "confidence": 0.9744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0006,
+        "Facts": 0.9744,
+        "Issue": 0.0009,
+        "Reasoning": 0.0198
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "A learned Single Judge of the High Court disposed of the Writ Petition and relegated Respondent No.3 to an alternate remedy of Appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0003,
+        "Facts": 0.933,
+        "Issue": 0.0181,
+        "Reasoning": 0.0411
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Respondent No.3 filed an Appeal against the order of the learned Single Judge which was allowed by the Division Bench of the Calcutta High Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.9122,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0005,
+        "Facts": 0.9122,
+        "Issue": 0.0258,
+        "Reasoning": 0.0355
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Therefore, this Appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0002,
+        "Facts": 0.9665,
+        "Issue": 0.0311,
+        "Reasoning": 0.0015
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The High Court was of the opinion that the Board of Councilors did not hear the matter and did not take a decision as required under Section 217 of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0005,
+        "Facts": 0.8462,
+        "Issue": 0.0729,
+        "Reasoning": 0.0697
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "After perusing the records produced by the Municipal Corporation, the High Court found that the Chairman of the Board of Councilors heard the matter on 27.12.2005 in the Municipal Office when the Appellant, Respondent No.3 and two other gentlemen i.e. Shri Avijit Saha and Shri Amitava Dey were present.",
+      "predicted_label": "Facts",
+      "confidence": 0.9369,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0001,
+        "Facts": 0.9369,
+        "Issue": 0.0028,
+        "Reasoning": 0.0552
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The Board of Councilors is the competent authority under Section 217 of the Act, to decide any dispute on the issue of misrepresentation or fraudulent statement in the application seeking sanction of building plan, for the purpose of passing an appropriate order to cancel such sanction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2051,
+        "Arguments of Respondent": 0.1029,
+        "Decision": 0.0033,
+        "Facts": 0.0575,
+        "Issue": 0.0008,
+        "Reasoning": 0.6305
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "The decision of the Chairman on 14.02.2006 was held to be without jurisdiction.",
+      "predicted_label": "Facts",
+      "confidence": 0.9124,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0001,
+        "Facts": 0.9124,
+        "Issue": 0.0109,
+        "Reasoning": 0.0578
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "In consequence thereof, the decision dated 14.02.2006 was declared a nullity and set aside by the High Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.8157,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0014,
+        "Facts": 0.8157,
+        "Issue": 0.0658,
+        "Reasoning": 0.0931
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "While referring to the deed of conveyance, the High Court held that the Appellant had a right to use the roof of first floor and the roof of proposed second floor.",
+      "predicted_label": "Facts",
+      "confidence": 0.8869,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0216,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0009,
+        "Facts": 0.8869,
+        "Issue": 0.0021,
+        "Reasoning": 0.0794
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The High Court opined that the dispute raised by the Appellant cannot be decided by the municipality in terms of Section 217 of the Act and it requires adjudication by a civil court.",
+      "predicted_label": "Facts",
+      "confidence": 0.9012,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0003,
+        "Facts": 0.9012,
+        "Issue": 0.0599,
+        "Reasoning": 0.034
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "While leaving it open to the parties to approach civil court to redress their grievances, the High Court dismissed the Writ Application filed by the Appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.6986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0011,
+        "Facts": 0.6986,
+        "Issue": 0.2606,
+        "Reasoning": 0.034
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "By relying upon the Minutes of Meeting dated 27.12.2005 of the Board of Councilors, Serampore Municipality, the learned counsel for the Appellant argued that the Chairman, Vice Chairman and three other Members of the Council were present at the meeting during which a decision was taken that Respondent No.3 had obtained permission for construction on the second floor by misrepresentation and suppression of facts.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9732,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0001,
+        "Facts": 0.0077,
+        "Issue": 0.0003,
+        "Reasoning": 0.0161
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "On the other hand, learned counsel for the Respondent argued that there is no ambiguity in Section 217 of the Act by which a decision has to be taken by the municipal council and not by the Chairman of the Municipality.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9759,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.9759,
+        "Decision": 0.0001,
+        "Facts": 0.0013,
+        "Issue": 0.0001,
+        "Reasoning": 0.0144
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "We have perused the Minutes of Meeting dated 27.12.2005.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8369,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0379,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0018,
+        "Facts": 0.1013,
+        "Issue": 0.0022,
+        "Reasoning": 0.8369
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The learned counsel for the Respondent is right in submitting that the Chairman, ViceChairman and three other Members of the Municipal Corporation were present in the meeting.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0022,
+        "Facts": 0.0304,
+        "Issue": 0.0002,
+        "Reasoning": 0.9559
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "However, in the said meeting a decision was taken to recommend for appropriate action under Section 217 of the Act and for a reasoned order to be passed after the meeting of the Board of Councilors.",
+      "predicted_label": "Facts",
+      "confidence": 0.6952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0654,
+        "Arguments of Respondent": 0.1059,
+        "Decision": 0.0009,
+        "Facts": 0.6952,
+        "Issue": 0.0008,
+        "Reasoning": 0.1318
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "It is not in dispute that, thereafter, the order dated 14.02.2006 was passed by the Chairman of the Serampore Municipality.",
+      "predicted_label": "Facts",
+      "confidence": 0.6784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0232,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0004,
+        "Facts": 0.6784,
+        "Issue": 0.0073,
+        "Reasoning": 0.2781
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "The High Court is right in holding that the order dated 14.02.2006 passed by the Chairman of the Serampore Municipality is without jurisdiction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8369,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.1149,
+        "Decision": 0.0338,
+        "Facts": 0.0075,
+        "Issue": 0.0006,
+        "Reasoning": 0.8369
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "There is no error committed by the High Court in holding that the order dated 05.06.2006 by which action was directed to be initiated under Section 218 of the Act for demolition of the structure does not survive as the basis of the said order was the order dated 14.02.2006 passed by the Municipality.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.745,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.0359,
+        "Decision": 0.2024,
+        "Facts": 0.0057,
+        "Issue": 0.0019,
+        "Reasoning": 0.745
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "We have perused the sale deed dated 14.08.2002 by which the Appellant had purchased the ground floor of the property in dispute.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0313,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0048,
+        "Facts": 0.0379,
+        "Issue": 0.0078,
+        "Reasoning": 0.9055
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The conveyance relates to the ground floor of the twostoried building admeasuring a covered area of 950 square feet.",
+      "predicted_label": "Facts",
+      "confidence": 0.9488,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0003,
+        "Facts": 0.9488,
+        "Issue": 0.0031,
+        "Reasoning": 0.044
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The Appellant was permitted to use the common stair case, septic tank, open yard, separate water reservoir in common portion common passages, common drain in the ground floor along with roof right.",
+      "predicted_label": "Facts",
+      "confidence": 0.9734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0008,
+        "Facts": 0.9734,
+        "Issue": 0.0001,
+        "Reasoning": 0.0204
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The dispute pertains to the right of Respondent No.3 in making a construction on the roof of the first floor in which he resides.",
+      "predicted_label": "Issue",
+      "confidence": 0.5915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0011,
+        "Facts": 0.3391,
+        "Issue": 0.5915,
+        "Reasoning": 0.0579
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "Any dispute relating to that right has to be decided by the civil court as held correctly by the High Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0714,
+        "Arguments of Respondent": 0.4215,
+        "Decision": 0.0107,
+        "Facts": 0.0071,
+        "Issue": 0.0004,
+        "Reasoning": 0.4889
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "Therefore, the Appeal is dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9842,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.9842,
+        "Facts": 0.0061,
+        "Issue": 0.0003,
+        "Reasoning": 0.0054
+      }
+    }
+  ]
+}

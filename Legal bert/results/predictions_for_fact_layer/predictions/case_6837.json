@@ -1,0 +1,859 @@
+{
+  "case_id": "6837",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " ( 1 ) THIS is an appeal against a decision of the Judge, First Labour Court, Bombay.",
+      "predicted_label": "Facts",
+      "confidence": 0.684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0007,
+        "Facts": 0.684,
+        "Issue": 0.1374,
+        "Reasoning": 0.1652
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The Rashtriya mills Mazdoor Sangh, which is the representative upon for the cotton textile industry in Greater Bombay, made an application to the labour court in which it stated that Arjun Ramchandra, an employee in the winding department of the appellant mill company, was discharged on 13 November, 1957, giving him thirteen days wages in lieu of notice.",
+      "predicted_label": "Facts",
+      "confidence": 0.9819,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0,
+        "Facts": 0.9819,
+        "Issue": 0.0008,
+        "Reasoning": 0.0156
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "No reason was given in the discharge order, but reference was made to an inquiry made on 12 November, 1957.",
+      "predicted_label": "Facts",
+      "confidence": 0.9278,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.9278,
+        "Issue": 0.0025,
+        "Reasoning": 0.064
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The inquiry was in connexion with the employees absence on 6 November, 1957 when he had intimated by telephone to one Dongre to mark him on leave.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7258,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.0152,
+        "Decision": 0.0002,
+        "Facts": 0.2387,
+        "Issue": 0.001,
+        "Reasoning": 0.7258
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The sangh contended that the discharge order was illegal and improper.",
+      "predicted_label": "Facts",
+      "confidence": 0.8845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0197,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0005,
+        "Facts": 0.8845,
+        "Issue": 0.0005,
+        "Reasoning": 0.0815
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The company by its written statement replied that the employee was discharged with thirteen days wages in lieu of notice on 13 November, 1957 for the misconduct of absenting from work without permission, for which misconduct a chargesheet was served on him and an inquiry was held.",
+      "predicted_label": "Facts",
+      "confidence": 0.9619,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0,
+        "Facts": 0.9619,
+        "Issue": 0.0018,
+        "Reasoning": 0.034
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The manager found the employee guilty of the misconduct charged and came to the conclusion that his services should be terminated.",
+      "predicted_label": "Facts",
+      "confidence": 0.7886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0007,
+        "Facts": 0.7886,
+        "Issue": 0.0038,
+        "Reasoning": 0.1782
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "In the written statement, it was further stated assuming without admitting that the said employees father was sick, the said employee could have approached his superior officer and could have obtained leave of absence.",
+      "predicted_label": "Facts",
+      "confidence": 0.8862,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0002,
+        "Facts": 0.8862,
+        "Issue": 0.0002,
+        "Reasoning": 0.0865
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "During his past service also the said employee was found to be leaving his place of work without permission and he was warned orally.",
+      "predicted_label": "Facts",
+      "confidence": 0.7214,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0329,
+        "Arguments of Respondent": 0.0269,
+        "Decision": 0.0003,
+        "Facts": 0.7214,
+        "Issue": 0.0011,
+        "Reasoning": 0.2173
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The company submitted that the discharge order was legal and proper.",
+      "predicted_label": "Facts",
+      "confidence": 0.7115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0416,
+        "Arguments of Respondent": 0.1652,
+        "Decision": 0.0004,
+        "Facts": 0.7115,
+        "Issue": 0.0016,
+        "Reasoning": 0.0798
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "( 2 ) AT the time of hearing before the labour court, it was urge on behalf of the sangh that the allegation in the chargesheet did not amount to any misconduct as defined under standing order 21 and that absence from work after presenting the ticket was a matter covered under standing order 10, according to which the employees wages could be deducted in accordance with the provisions of the Payment of Wages Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3859,
+        "Arguments of Respondent": 0.1763,
+        "Decision": 0.0008,
+        "Facts": 0.3082,
+        "Issue": 0.0015,
+        "Reasoning": 0.1273
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "On the other hand, it was urged on behalf of the company that standing order 21 (k) was wide enough to cover absence from duty by a worker after presentation of his card to the mill.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1608,
+        "Arguments of Respondent": 0.4589,
+        "Decision": 0.0001,
+        "Facts": 0.304,
+        "Issue": 0.0013,
+        "Reasoning": 0.0749
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Standing order 21 (k) states riotous or disorderly behaviour during working hours in mill premises or any act subversive of discipline.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6488,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0251,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0004,
+        "Facts": 0.3076,
+        "Issue": 0.0002,
+        "Reasoning": 0.6488
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "On the merits, the labour judge was of the view that the managements decision to discharge the employee concerned seemed to be predetermined one that in this case there was no evidence to disbelieve the employees explanation that he had left the mill because his father was ill and that he had sent a telephone message to Dongre.",
+      "predicted_label": "Facts",
+      "confidence": 0.9697,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0,
+        "Facts": 0.9697,
+        "Issue": 0.0016,
+        "Reasoning": 0.0269
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The labour judge went on to say it was urged that no mala fides were alleged.",
+      "predicted_label": "Facts",
+      "confidence": 0.5005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0105,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0002,
+        "Facts": 0.5005,
+        "Issue": 0.0015,
+        "Reasoning": 0.4825
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "In every case mala fides need not be alleged or proved.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9198,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0379,
+        "Arguments of Respondent": 0.0225,
+        "Decision": 0.0001,
+        "Facts": 0.0193,
+        "Issue": 0.0004,
+        "Reasoning": 0.9198
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Even if mala fides were not alleged, it must be shown by the opponent mill that there was sufficient evidence to reasonably base the conclusion and if that was not shown, the case would be a fit one for the Courts interference.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0645,
+        "Arguments of Respondent": 0.0537,
+        "Decision": 0.0003,
+        "Facts": 0.0314,
+        "Issue": 0.001,
+        "Reasoning": 0.849
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "In the result, the labour court ordered reinstatement of the employee with continuity of service and awarded two months wages as compensation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9332,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0004,
+        "Facts": 0.9332,
+        "Issue": 0.0258,
+        "Reasoning": 0.0365
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "( 3 ) IN the appeal, it has been urged that the labour court was in error in ordering the reinstatement with compensation to the employee, who being a badli worker had no right to employment on any particular day that there was no necessity for holding an inquiry that it was permissible for an employer to discharge a badli worker without notice under standing order 19 (b) that since the act complained of did not amount to misconduct under standing order 31, no inquiry was necessary.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9444,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0002,
+        "Facts": 0.0395,
+        "Issue": 0.0015,
+        "Reasoning": 0.0088
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "In the course of the arguments Sri Narayanaswami urged that the provisions of the standing order relating to misconduct are not applicable to badli workers.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8794,
+        "Arguments of Respondent": 0.0196,
+        "Decision": 0.0011,
+        "Facts": 0.014,
+        "Issue": 0.0001,
+        "Reasoning": 0.0858
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "But it is seen from the standing orders that whenever distinction is made between permanent and temporary operatives it has been expressly made, e. g. , the expression, permanent employee finds place in standing orders 9, 19 (a) 20 and 25.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9257,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0222,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0003,
+        "Facts": 0.0413,
+        "Issue": 0.0002,
+        "Reasoning": 0.9257
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "In standing order 22 we do not find any such adjective as permanent or temporary before the word operative.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0293,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0002,
+        "Facts": 0.0102,
+        "Issue": 0.0003,
+        "Reasoning": 0.9509
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "It would, therefore, appear that the procedure prescribed by standing order 22 for suspension or dismissal of an operative would not be inapplicable to badli operatives, and if a badli operative commits misconduct as defined in standing order 21, the employer can dismiss him under standing order 22.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0002,
+        "Facts": 0.0179,
+        "Issue": 0.0003,
+        "Reasoning": 0.9634
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Under standing order 19 (b) the employment of a permanent operative may be terminated by payment of thirteen days wages in lieu of notice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8076,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0821,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0002,
+        "Facts": 0.0984,
+        "Issue": 0.0008,
+        "Reasoning": 0.8076
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Sri Narayanaswami has relied on a case decided by the Supreme Court, viz. , Nagpore Electric and Power Company, Ltd. , and others and shreepathi Rao 1958  II L. L. J. 9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8439,
+        "Arguments of Respondent": 0.0712,
+        "Decision": 0.0003,
+        "Facts": 0.0272,
+        "Issue": 0.0002,
+        "Reasoning": 0.0573
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": ", suspension for a period not exceeding four days and dismissal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5451,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3045,
+        "Arguments of Respondent": 0.0459,
+        "Decision": 0.0007,
+        "Facts": 0.0991,
+        "Issue": 0.0048,
+        "Reasoning": 0.5451
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "Discharge by giving thirteen days wages in lieu of notice is not a punishment prescribed by this standing order, but as stated above, standing order 19 (a) provides that the employment of any permanent operative may be terminated by fourteen days notice or by payment of thirteen days wages in lieu of notice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8284,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0254,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0002,
+        "Facts": 0.1408,
+        "Issue": 0.0005,
+        "Reasoning": 0.8284
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "We agree that a discharge under standing order 19 could be challenged if the discharge proceeded from any mala fides on the part of the company or any victimization or unfair labour practice, but no such considerations arise in this case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0174,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0021,
+        "Facts": 0.0143,
+        "Issue": 0.0026,
+        "Reasoning": 0.9577
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "A discharge under standing order 19 can, therefore, be challenged if the discharge proceeded from any mala fides on the part of the company or any victimization or unfair labour practice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9223,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0479,
+        "Arguments of Respondent": 0.015,
+        "Decision": 0.0006,
+        "Facts": 0.0133,
+        "Issue": 0.0009,
+        "Reasoning": 0.9223
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The Supreme Court decision relied on by Sri Narayanaswami did not purport to lay down that in a case of discharge simpliciter the tribunal cannot interfere even if the discharge was actuated by motives of victimization or unfair labour practice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1369,
+        "Arguments of Respondent": 0.044,
+        "Decision": 0.0016,
+        "Facts": 0.0499,
+        "Issue": 0.0007,
+        "Reasoning": 0.7669
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "That question did not arise in that case and there was no allegation of discharge being mala fide.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9153,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0381,
+        "Arguments of Respondent": 0.0288,
+        "Decision": 0.0005,
+        "Facts": 0.0168,
+        "Issue": 0.0005,
+        "Reasoning": 0.9153
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "In the present case, there was no allegation of mala fides or victimization or unfair labour practice, much less any proof of any such thing and there is no doubt that the action of the manager in terminating the services of the employee was bona fide.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0013,
+        "Facts": 0.0255,
+        "Issue": 0.0012,
+        "Reasoning": 0.9473
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The employee had, after marking his presence, left without permission at about 345 p. m.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5159,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0668,
+        "Arguments of Respondent": 0.0478,
+        "Decision": 0.002,
+        "Facts": 0.3666,
+        "Issue": 0.0009,
+        "Reasoning": 0.5159
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 33,
+      "text": "The learned labour judge has gone into the question whether the employee left at 345 p. m. as alleged by the management or at 5 p. m. as alleged by him.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7051,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0002,
+        "Facts": 0.2762,
+        "Issue": 0.0011,
+        "Reasoning": 0.7051
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The time at which the employee left is not material.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7896,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0296,
+        "Arguments of Respondent": 0.0162,
+        "Decision": 0.0012,
+        "Facts": 0.1587,
+        "Issue": 0.0047,
+        "Reasoning": 0.7896
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "It is not disputed that the employee was engaged in the second shift and he left during the shift without taking anybody permission.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7172,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0014,
+        "Facts": 0.2498,
+        "Issue": 0.0045,
+        "Reasoning": 0.7172
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The employees explanation before the manager was as follows i came down at 5 p. m. near the gate to see my brother for enquiring whether he has called the doctor in the house or not.",
+      "predicted_label": "Facts",
+      "confidence": 0.5206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0544,
+        "Arguments of Respondent": 0.0225,
+        "Decision": 0.0003,
+        "Facts": 0.5206,
+        "Issue": 0.0001,
+        "Reasoning": 0.4021
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "When I met my brother, I was told that my father is serious and the doctor has visited the house.",
+      "predicted_label": "Facts",
+      "confidence": 0.8531,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0392,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0004,
+        "Facts": 0.8531,
+        "Issue": 0.0003,
+        "Reasoning": 0.1031
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "I went away from the gate to my house.",
+      "predicted_label": "Facts",
+      "confidence": 0.7702,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0748,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0005,
+        "Facts": 0.7702,
+        "Issue": 0.0003,
+        "Reasoning": 0.1428
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "While going I did not ask permission from any of the masters.",
+      "predicted_label": "Facts",
+      "confidence": 0.7838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0357,
+        "Arguments of Respondent": 0.0123,
+        "Decision": 0.0007,
+        "Facts": 0.7838,
+        "Issue": 0.0002,
+        "Reasoning": 0.1674
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "When father felt better I phoned up to the mills to tell Mr. Abraham for my leaving the department and taking his permission.",
+      "predicted_label": "Facts",
+      "confidence": 0.8479,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0531,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0001,
+        "Facts": 0.8479,
+        "Issue": 0.0002,
+        "Reasoning": 0.0938
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Now the record produced in the case shows that on no less than five previous occasions this employee was shown in the records to be not found in the department.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8821,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0009,
+        "Facts": 0.0974,
+        "Issue": 0.0008,
+        "Reasoning": 0.8821
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "On those occasions it appears that the management did not take action against him but treated him as on leave for that portion of the day.",
+      "predicted_label": "Facts",
+      "confidence": 0.7811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0013,
+        "Facts": 0.7811,
+        "Issue": 0.0016,
+        "Reasoning": 0.2047
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The employee stated before the labour court that he was absent on two previous occasions as his father was ill.",
+      "predicted_label": "Facts",
+      "confidence": 0.919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0002,
+        "Facts": 0.919,
+        "Issue": 0.0015,
+        "Reasoning": 0.0721
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "It is, therefore, evident that this was not the first occasion on which the employee left his place of work on the ground that his father was ill.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0201,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0006,
+        "Facts": 0.1102,
+        "Issue": 0.0015,
+        "Reasoning": 0.8572
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "The company has stated in the written statement that assuming without admitting that the employees father was ill, the employee could have approached his superior officer and obtained leave of absence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0383,
+        "Arguments of Respondent": 0.0502,
+        "Decision": 0.0006,
+        "Facts": 0.3732,
+        "Issue": 0.0003,
+        "Reasoning": 0.5372
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "Admittedly, the employee did not take anybodys permission or inform anybody before he left the mill.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8535,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0252,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.0015,
+        "Facts": 0.0992,
+        "Issue": 0.0009,
+        "Reasoning": 0.8535
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The learned labour judge has observed in the present case there was no evidence to disbelieve the employees explanation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5028,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0211,
+        "Arguments of Respondent": 0.0144,
+        "Decision": 0.0016,
+        "Facts": 0.4598,
+        "Issue": 0.0003,
+        "Reasoning": 0.5028
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "but the company was not expected to lead evidence of the negative, viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7867,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0672,
+        "Arguments of Respondent": 0.045,
+        "Decision": 0.0007,
+        "Facts": 0.1,
+        "Issue": 0.0004,
+        "Reasoning": 0.7867
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": ", that his father was not ill, and it cannot be conceded that if an employee gets information that a relation of his is ill, he has right to walk out of the mill without taking anybodys leave or permission.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.031,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.004,
+        "Facts": 0.1715,
+        "Issue": 0.0004,
+        "Reasoning": 0.7778
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "As on the previous occasions also the employee had been found absent from his place of work, the manager cannot be blamed if he did not believe the explanation after taking into consideration the employees previous record.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6446,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0743,
+        "Arguments of Respondent": 0.1004,
+        "Decision": 0.0045,
+        "Facts": 0.1755,
+        "Issue": 0.0007,
+        "Reasoning": 0.6446
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "The manager decided to terminate his services under standing order 19 after giving him thirteen days wages in lieu of notice.",
+      "predicted_label": "Facts",
+      "confidence": 0.8325,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0002,
+        "Facts": 0.8325,
+        "Issue": 0.0009,
+        "Reasoning": 0.1415
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Sri Deshpande has urged that standing order 10 covers the case and under that standing order the wages could be cut for the period of absence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4317,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4317,
+        "Arguments of Respondent": 0.3721,
+        "Decision": 0.0009,
+        "Facts": 0.0299,
+        "Issue": 0.0002,
+        "Reasoning": 0.1653
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 53,
+      "text": "Now standing order 10 days down that wages may be deducted for the period of absence in accordance with the provisions of the Payment of Wages Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.4808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0693,
+        "Arguments of Respondent": 0.0448,
+        "Decision": 0.0272,
+        "Facts": 0.4808,
+        "Issue": 0.0114,
+        "Reasoning": 0.3666
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 54,
+      "text": "This standing order prescribes the periods for which such wages could be deducted in accordance with the provisions of the Payment of Wages Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8745,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0001,
+        "Facts": 0.8745,
+        "Issue": 0.0028,
+        "Reasoning": 0.1116
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "It is not a standing order dealing with punishment and it cannot be said that if an employee is in the habit of leaving the mill without permission after making his presence, the only thing that can be done is to deduct his wages for the period of absence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9145,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.0013,
+        "Facts": 0.0522,
+        "Issue": 0.0004,
+        "Reasoning": 0.9145
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "If the employer in the interest of efficient work in the factory terminates the services of such an employee by giving him fourteen days notice or thirteen days wages in lieu of notice, the action cannot be interfered by the labour court or the industrial court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0197,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0002,
+        "Facts": 0.0862,
+        "Issue": 0.0013,
+        "Reasoning": 0.8857
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "( 5 ) FOR the foregoing reasons, we are unable to agree with the labour judge that the order of discharge is improper.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0091,
+        "Facts": 0.073,
+        "Issue": 0.0003,
+        "Reasoning": 0.8969
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "We are of the view that the action taken by the management could not be interfered with on any of the recognized grounds on which the labour court can interfere.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9571,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0014,
+        "Facts": 0.0272,
+        "Issue": 0.0004,
+        "Reasoning": 0.9571
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "The appeal is allowed and the order of the labour court directing the reinstatement of the employee and giving him two months wages as compensation is set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.978,
+        "Facts": 0.005,
+        "Issue": 0.0002,
+        "Reasoning": 0.0164
+      }
+    }
+  ]
+}

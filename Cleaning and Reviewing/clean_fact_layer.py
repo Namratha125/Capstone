@@ -103,11 +103,19 @@ def clean_case(data: dict) -> dict:
 
     # ── 2. Statutes ───────────────────────────────────────────────────────────
     principles      = reasoning.get("principles", []) or []
-    principles_text = " ".join(principles)
+    # Widened context: Act names are often mentioned in `issue` or `facts`
+    # rather than `principles` alone — this was checked against the 10k-case
+    # diagnostic sample before rolling out (see statute_diagnostic.py).
+    statute_context_text = " ".join([
+        " ".join(principles),
+        data.get("issue", "") or "",
+        " ".join(data.get("facts", []) or []),
+        reasoning.get("summary", "") or "",
+    ])
     raw_statutes    = reasoning.get("statutes", []) or []
 
     out.setdefault("reasoning", {})["statutes_cleaned"] = (
-        normalize_statutes_for_case(raw_statutes, principles_text, case_type)
+        normalize_statutes_for_case(raw_statutes, statute_context_text, case_type)
     )
 
     # ── 3. Citations ──────────────────────────────────────────────────────────

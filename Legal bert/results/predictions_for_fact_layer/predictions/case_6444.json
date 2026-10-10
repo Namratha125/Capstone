@@ -1,0 +1,2377 @@
+{
+  "case_id": "6444",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This appeal is directed against the judgment dated 09.08.2017 passed by the High Court of Kerala at Ernakulam in MACA No. 1560 of 2013.",
+      "predicted_label": "Issue",
+      "confidence": 0.9538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0017,
+        "Facts": 0.0435,
+        "Issue": 0.9538,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "Through the impugned judgment, the High Court scaled down the amount of compensation payable to the present appellants and thereby modified the award dated 26.04.2013 passed by the Motor Accident Claims Tribunal, Kottayam (for short MACT) in OP(MV) No.843 of 2011.",
+      "predicted_label": "Issue",
+      "confidence": 0.9596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0003,
+        "Facts": 0.0387,
+        "Issue": 0.9596,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The appellants filed the aforesaid claim petition before the MACT seeking compensation on account of the death of N. Venugopalan Nair in a motor vehicle accident which occurred on 20.06.2011.",
+      "predicted_label": "Facts",
+      "confidence": 0.9817,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.0002,
+        "Facts": 0.9817,
+        "Issue": 0.0161,
+        "Reasoning": 0.0016
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "Appellant no.1 is the wife of the deceased, appellant nos.",
+      "predicted_label": "Facts",
+      "confidence": 0.9454,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0008,
+        "Facts": 0.9454,
+        "Issue": 0.0422,
+        "Reasoning": 0.0093
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "2 and 3 are his daughters and appellant no.4 is his motherinlaw.",
+      "predicted_label": "Facts",
+      "confidence": 0.9593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0002,
+        "Facts": 0.9593,
+        "Issue": 0.0193,
+        "Reasoning": 0.0167
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "There is no dispute as to the occurrence of the accident and the liability of the respondentinsurer to pay the compensation.",
+      "predicted_label": "Facts",
+      "confidence": 0.7218,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0009,
+        "Facts": 0.7218,
+        "Issue": 0.1143,
+        "Reasoning": 0.1559
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "In view of this admitted position, it is unnecessary to narrate the factual aspects of the accident.",
+      "predicted_label": "Facts",
+      "confidence": 0.943,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0002,
+        "Facts": 0.943,
+        "Issue": 0.0031,
+        "Reasoning": 0.0474
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The deceased was aged 52 years at the time of the accident.",
+      "predicted_label": "Facts",
+      "confidence": 0.7818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0252,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0012,
+        "Facts": 0.7818,
+        "Issue": 0.0091,
+        "Reasoning": 0.1635
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The MACT took the annual salary of the deceased as Rs.8,87,148.",
+      "predicted_label": "Facts",
+      "confidence": 0.9688,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9688,
+        "Issue": 0.0026,
+        "Reasoning": 0.0247
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "To this, the MACT applied a multiplier of 11 and deducted onefourth (1/4th) of the income towards his personal expenses for the purpose of calculation of the compensation under the head of loss of dependency.",
+      "predicted_label": "Facts",
+      "confidence": 0.9744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9744,
+        "Issue": 0.0018,
+        "Reasoning": 0.0225
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "A total sum of Rs.73,18,971/ (Rupees seventythree lakhs eighteen thousand nine hundred seventyone only) was awarded towards loss of dependency.",
+      "predicted_label": "Facts",
+      "confidence": 0.9129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0003,
+        "Facts": 0.9129,
+        "Issue": 0.0462,
+        "Reasoning": 0.0358
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The MACT awarded a total sum of Rs.74,50,971/ (Rupees seventyfour lakhs fifty thousand nine hundred seventyone only) towards compensation with interest 7.5 per cent per annum from the date of the claim petition till the date of realization.",
+      "predicted_label": "Facts",
+      "confidence": 0.967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0003,
+        "Facts": 0.967,
+        "Issue": 0.0245,
+        "Reasoning": 0.0073
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Thus, the amount awarded to the appellants is as under S.No.",
+      "predicted_label": "Facts",
+      "confidence": 0.741,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0166,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.008,
+        "Facts": 0.741,
+        "Issue": 0.0046,
+        "Reasoning": 0.229
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Head of Claim Amount Claimed (in rupees)",
+      "predicted_label": "Facts",
+      "confidence": 0.9276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.006,
+        "Facts": 0.9276,
+        "Issue": 0.0074,
+        "Reasoning": 0.0439
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Amount Awarded (in rupees)",
+      "predicted_label": "Facts",
+      "confidence": 0.4396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.3585,
+        "Facts": 0.4396,
+        "Issue": 0.0164,
+        "Reasoning": 0.1777
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "Basis vital details in a nut shell 1.",
+      "predicted_label": "Facts",
+      "confidence": 0.521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0513,
+        "Arguments of Respondent": 0.0627,
+        "Decision": 0.0005,
+        "Facts": 0.521,
+        "Issue": 0.0035,
+        "Reasoning": 0.3611
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "Transportation 5,000/ 4,000/ In view of the transportation charges 2.",
+      "predicted_label": "Facts",
+      "confidence": 0.8506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0491,
+        "Arguments of Respondent": 0.0616,
+        "Decision": 0.0018,
+        "Facts": 0.8506,
+        "Issue": 0.0005,
+        "Reasoning": 0.0364
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Funeral expenses 10,000/ 7,000/ Nominal amount 3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0031,
+        "Facts": 0.9747,
+        "Issue": 0.0002,
+        "Reasoning": 0.0158
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Damage to clothings 1,500/ 1,000/ do 4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0007,
+        "Facts": 0.9835,
+        "Issue": 0.0001,
+        "Reasoning": 0.0112
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "Loss of dependency 1,06,82,100/ 73,18,971/ (8,87,148 2,21,787)11",
+      "predicted_label": "Facts",
+      "confidence": 0.5306,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0098,
+        "Facts": 0.5306,
+        "Issue": 0.0015,
+        "Reasoning": 0.4392
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 20,
+      "text": "73,18,971/ 5.",
+      "predicted_label": "Facts",
+      "confidence": 0.914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0006,
+        "Facts": 0.914,
+        "Issue": 0.0001,
+        "Reasoning": 0.069
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Pain and sufferings 10,000/ 15,000/",
+      "predicted_label": "Facts",
+      "confidence": 0.9397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0024,
+        "Facts": 0.9397,
+        "Issue": 0.0003,
+        "Reasoning": 0.043
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "In view of the pain suffered by the victim before his death 6.",
+      "predicted_label": "Facts",
+      "confidence": 0.5365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0634,
+        "Arguments of Respondent": 0.0149,
+        "Decision": 0.1077,
+        "Facts": 0.5365,
+        "Issue": 0.0019,
+        "Reasoning": 0.2756
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "Loss of love and affection 1,00,000/ 70,000/ Petitioners 2,3 and 4 have lost the love and affection of the victim 7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9334,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0493,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0011,
+        "Facts": 0.9334,
+        "Issue": 0.0006,
+        "Reasoning": 0.0124
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Loss of consortium 1,00,000/ 25,000/ The first petition has lost the companionship of her husband 8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.002,
+        "Facts": 0.9837,
+        "Issue": 0.0008,
+        "Reasoning": 0.0067
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Loss of estate 1,00,000/ 10,000/ Nominal amount 9.",
+      "predicted_label": "Facts",
+      "confidence": 0.9501,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0032,
+        "Facts": 0.9501,
+        "Issue": 0.0004,
+        "Reasoning": 0.0332
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Loss of expectation of life 2,00,000/ Not allowed Other heads allowed TOTAL 1,12,08,600/ 74,50,971/ 6.",
+      "predicted_label": "Facts",
+      "confidence": 0.5237,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0517,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0545,
+        "Facts": 0.5237,
+        "Issue": 0.0041,
+        "Reasoning": 0.3608
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "However, the High Court held that appellant no.4 was not a legal representative of the deceased.",
+      "predicted_label": "Facts",
+      "confidence": 0.842,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0218,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0021,
+        "Facts": 0.842,
+        "Issue": 0.0508,
+        "Reasoning": 0.0739
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Further, the High Court held that the MACT ought to have applied split multiplier for the assessment of the dependency compensation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.9125,
+        "Issue": 0.0598,
+        "Reasoning": 0.0227
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The High Court fixed monthly income of the deceased as Rs.40,000/ (Rupees forty thousand only) and deducted onethird (1/3rd) of the income towards his personal expenses.",
+      "predicted_label": "Facts",
+      "confidence": 0.9328,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0002,
+        "Facts": 0.9328,
+        "Issue": 0.0141,
+        "Reasoning": 0.0517
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "It applied multiplier 7 for calculating dependency compensation for the postretiral period and, for the preretirement period, a multiplier of 4 was applied.",
+      "predicted_label": "Facts",
+      "confidence": 0.7757,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0003,
+        "Facts": 0.7757,
+        "Issue": 0.0232,
+        "Reasoning": 0.1946
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Accordingly, the High Court awarded compensation of Rs.23,65,728/ (Rupees twentythree lakhs sixtyfive thousand seven hundred twentyeight only), towards loss of dependency for preretiral period and a sum of Rs.22,40,000/ (Rupees twentytwo lakhs forty thousand only) towards loss of dependency for postretiral period.",
+      "predicted_label": "Facts",
+      "confidence": 0.8853,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0009,
+        "Facts": 0.8853,
+        "Issue": 0.036,
+        "Reasoning": 0.0747
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "A sum of Rs.1,00,000/ (Rupees one lakh only) was awarded towards loss of consortium, Rs.25,000/ (Rupees twentyfive thousand only) towards funeral expenses, and Rs.80,000/ (Rupees eighty thousand only) towards loss of love and affection.",
+      "predicted_label": "Facts",
+      "confidence": 0.85,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0003,
+        "Facts": 0.85,
+        "Issue": 0.0441,
+        "Reasoning": 0.1009
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "In total, a sum of Rs.48,39,728/ (Rupees fortyeight lakhs thirtynine thousand seven hundred twentyeight only) was awarded as compensation by the High Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.9125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0004,
+        "Facts": 0.9125,
+        "Issue": 0.0745,
+        "Reasoning": 0.0106
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Learned counsel for the appellants submits that the High Court was not justified precluding appellant no.4 as legal representative of the deceased.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9771,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9771,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0002,
+        "Facts": 0.0027,
+        "Issue": 0.0005,
+        "Reasoning": 0.0188
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "She is the motherinlaw of the deceased and was living with the deceased and his family members.",
+      "predicted_label": "Facts",
+      "confidence": 0.6546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0764,
+        "Arguments of Respondent": 0.0288,
+        "Decision": 0.0016,
+        "Facts": 0.6546,
+        "Issue": 0.005,
+        "Reasoning": 0.2337
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "Therefore, she was entitled to be treated as a legal representative for the purpose of determination of compensation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.334,
+        "Arguments of Respondent": 0.1083,
+        "Decision": 0.0037,
+        "Facts": 0.1977,
+        "Issue": 0.0014,
+        "Reasoning": 0.3549
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "Accordingly, 1/4th of the income of the deceased should have been deducted towards his personal expenses.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.41,
+      "probabilities": {
+        "Arguments of Petitioner": 0.41,
+        "Arguments of Respondent": 0.0531,
+        "Decision": 0.0019,
+        "Facts": 0.3027,
+        "Issue": 0.0032,
+        "Reasoning": 0.2291
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "Further, it was contended that the High Court was not justified in applying a split multiplier having regard to the judgment of this Court in Sarla Verma (Smt.) and Ors.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9208,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9208,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0001,
+        "Facts": 0.0349,
+        "Issue": 0.0006,
+        "Reasoning": 0.0258
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "vs. Delhi Transport Corporation and Anr.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3454,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3454,
+        "Arguments of Respondent": 0.2826,
+        "Decision": 0.0196,
+        "Facts": 0.1163,
+        "Issue": 0.0024,
+        "Reasoning": 0.2337
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "(2009) 6 SCC 121 and the subsequent Constitution Bench judgment of this Court in National Insurance Company Limited vs. Pranay Sethi and Ors.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6854,
+        "Arguments of Respondent": 0.1385,
+        "Decision": 0.0042,
+        "Facts": 0.1161,
+        "Issue": 0.0112,
+        "Reasoning": 0.0446
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "(2017) 16 SCC 680 .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3697,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3697,
+        "Arguments of Respondent": 0.2749,
+        "Decision": 0.0022,
+        "Facts": 0.1158,
+        "Issue": 0.0091,
+        "Reasoning": 0.2283
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "It was also argued that the deceased was a meritorious person who possessed the qualification of M.Sc.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4771,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4771,
+        "Arguments of Respondent": 0.2839,
+        "Decision": 0.0004,
+        "Facts": 0.1322,
+        "Issue": 0.0009,
+        "Reasoning": 0.1055
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "M.Phil.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3037,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3037,
+        "Arguments of Respondent": 0.1294,
+        "Decision": 0.0019,
+        "Facts": 0.2552,
+        "Issue": 0.0076,
+        "Reasoning": 0.3023
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "His monthly salary was Rs.83,831/ which is evident from the materials on record.",
+      "predicted_label": "Facts",
+      "confidence": 0.4787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.033,
+        "Arguments of Respondent": 0.0375,
+        "Decision": 0.0005,
+        "Facts": 0.4787,
+        "Issue": 0.001,
+        "Reasoning": 0.4493
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "The High Court took his monthly income as Rs.40,000/ for the purpose of calculation of loss of dependency without any justification.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5716,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5716,
+        "Arguments of Respondent": 0.0114,
+        "Decision": 0.0012,
+        "Facts": 0.031,
+        "Issue": 0.001,
+        "Reasoning": 0.3838
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "In view of the above, the High Court was not justified in scaling down the amount of compensation awarded by the MACT. 8.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1542,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0138,
+        "Facts": 0.0076,
+        "Issue": 0.0003,
+        "Reasoning": 0.815
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "On the other hand, learned counsel for the respondent submits that the deceased was aged 52 years at the time of the accident.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.9784,
+        "Decision": 0.0002,
+        "Facts": 0.0019,
+        "Issue": 0.0002,
+        "Reasoning": 0.0159
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "He would not have earned the same monthly income after his retirement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6476,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1287,
+        "Arguments of Respondent": 0.097,
+        "Decision": 0.0005,
+        "Facts": 0.1258,
+        "Issue": 0.0003,
+        "Reasoning": 0.6476
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "In view of the same, the High Court applied a split multiplier for calculating the loss of dependency.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.094,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0018,
+        "Facts": 0.3092,
+        "Issue": 0.0046,
+        "Reasoning": 0.5727
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "It was also argued that appellant no.4, who is the motherinlaw of the deceased, cannot be treated as his legal representative.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6049,
+        "Arguments of Respondent": 0.2698,
+        "Decision": 0.0006,
+        "Facts": 0.0299,
+        "Issue": 0.0005,
+        "Reasoning": 0.0943
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "Further, it was contended that the High Court was justified in taking the monthly salary of the deceased as Rs.40,000/ and deducting 1/3rd of the income towards the personal expenses, fair compensation has been awarded towards loss of dependency.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.9648,
+        "Decision": 0.0001,
+        "Facts": 0.0087,
+        "Issue": 0.0002,
+        "Reasoning": 0.0076
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "In view of the above, the questions for consideration before us are (I) whether the High Court was justified in precluding the motherinlaw of the deceased (appellant no.4) as his legal representative?",
+      "predicted_label": "Issue",
+      "confidence": 0.9699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0008,
+        "Facts": 0.0033,
+        "Issue": 0.9699,
+        "Reasoning": 0.0226
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "(II) whether the High Court was justified in applying a split multiplier?",
+      "predicted_label": "Issue",
+      "confidence": 0.9484,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0015,
+        "Facts": 0.0444,
+        "Issue": 0.9484,
+        "Reasoning": 0.0029
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "(III) based on the findings on the preceding questions, what is the amount of compensation that should be awarded to the appellants?",
+      "predicted_label": "Issue",
+      "confidence": 0.7068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0691,
+        "Facts": 0.1985,
+        "Issue": 0.7068,
+        "Reasoning": 0.016
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "(I) whether the High Court was justified in precluding the motherinlaw of the deceased (appellant no.4) as his legal representative?",
+      "predicted_label": "Issue",
+      "confidence": 0.9751,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0017,
+        "Facts": 0.0157,
+        "Issue": 0.9751,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "In Sarla Verma (2009) 6 SCC 121, this Court has laid down as under 16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1701,
+        "Arguments of Respondent": 0.1612,
+        "Decision": 0.0005,
+        "Facts": 0.0259,
+        "Issue": 0.0002,
+        "Reasoning": 0.642
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "Just compensation is adequate compensation which is fair and equitable, on the facts and circumstances of the case, to make good the loss suffered as a result of the wrong, as far as money can do so, by applying the wellsettled principles relating to award of compensation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0154,
+        "Arguments of Respondent": 0.025,
+        "Decision": 0.0004,
+        "Facts": 0.0019,
+        "Issue": 0.0008,
+        "Reasoning": 0.9566
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "It is not intended to be a bonanza, largesse or source of profit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7379,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1328,
+        "Arguments of Respondent": 0.0578,
+        "Decision": 0.0003,
+        "Facts": 0.071,
+        "Issue": 0.0002,
+        "Reasoning": 0.7379
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "In Sarla Verma (2009) 6 SCC 121 it was further held that where the deceased was married, the deduction towards personal and living expenses of the deceased should be onethird (1/3rd) where the number of dependent family members is between 2 and 3, onefourth (1/4th) where the number of dependent family members is between 4 and 6, and onefifth (1/5th) where the number of dependent family members exceeds six. 12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9067,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0544,
+        "Arguments of Respondent": 0.0172,
+        "Decision": 0.0002,
+        "Facts": 0.0211,
+        "Issue": 0.0003,
+        "Reasoning": 0.9067
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "In the instant case, the appellants have contended that the motherinlaw of the deceased was staying with the deceased and his family members since a long time.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4893,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0027,
+        "Facts": 0.0339,
+        "Issue": 0.0007,
+        "Reasoning": 0.4545
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 61,
+      "text": "Taking into consideration the number of dependents of the deceased including his motherinlaw (four in number), the MACT had deducted one fourth (1/4th) of the income towards his personal expenses.",
+      "predicted_label": "Facts",
+      "confidence": 0.9672,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9672,
+        "Issue": 0.0011,
+        "Reasoning": 0.0263
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "However, the High Court has held that appellant no.4 being the motherinlaw of the deceased, cannot be reckoned as a dependent of the deceased.",
+      "predicted_label": "Facts",
+      "confidence": 0.5149,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0624,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.01,
+        "Facts": 0.5149,
+        "Issue": 0.0232,
+        "Reasoning": 0.3758
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 63,
+      "text": "The High Court, therefore, determined the number of dependents as 3 and accordingly deducted onethird (1/3rd) of the income of the deceased towards his personal expenses.",
+      "predicted_label": "Facts",
+      "confidence": 0.9273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0002,
+        "Facts": 0.9273,
+        "Issue": 0.0045,
+        "Reasoning": 0.0644
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "In our view, the term legal representative should be given a wider interpretation for the purpose of Chapter XII of MV Act and it should not be confined only to mean the spouse, parents and children of the deceased.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0204,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0025,
+        "Facts": 0.0064,
+        "Issue": 0.0002,
+        "Reasoning": 0.9637
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "As noticed above, MV Act is a benevolent legislation enacted for the object of providing monetary relief to the victims or their families.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0035,
+        "Facts": 0.013,
+        "Issue": 0.0007,
+        "Reasoning": 0.9707
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "Therefore, the MV Act calls for a liberal and wider interpretation to serve the real purpose underlying the enactment and fulfil its legislative intent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8457,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0568,
+        "Arguments of Respondent": 0.0745,
+        "Decision": 0.0006,
+        "Facts": 0.0218,
+        "Issue": 0.0007,
+        "Reasoning": 0.8457
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "We are also of the view that in order to maintain a claim petition, it is sufficient for the claimant to establish his loss of dependency.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9352,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0038,
+        "Facts": 0.0534,
+        "Issue": 0.0014,
+        "Reasoning": 0.9352
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "Section 166 of the MV Act makes it clear that every legal representative who suffers on account of the death of a person in a motor vehicle accident should have a remedy for realization of compensation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9248,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0357,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.0094,
+        "Facts": 0.0111,
+        "Issue": 0.0003,
+        "Reasoning": 0.9248
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "It is settled that percentage of deduction for personal expenses cannot be governed by a rigid rule or formula of universal application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0105,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0006,
+        "Facts": 0.027,
+        "Issue": 0.0032,
+        "Reasoning": 0.9559
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "It also does not depend upon the basis of relationship of the claimant with the deceased.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0136,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0006,
+        "Facts": 0.01,
+        "Issue": 0.0005,
+        "Reasoning": 0.9575
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "In some cases, the father may have his own income and thus will not be considered as dependent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1139,
+        "Arguments of Respondent": 0.0679,
+        "Decision": 0.0034,
+        "Facts": 0.0785,
+        "Issue": 0.0015,
+        "Reasoning": 0.7348
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Sometimes, brothers and sisters will not be considered as dependents because they may either be independent or earning or married or be dependent on the father.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0004,
+        "Facts": 0.0091,
+        "Issue": 0.0008,
+        "Reasoning": 0.9775
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "The percentage of deduction for personal expenditure, thus, depends upon the facts and circumstances of each case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9769,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0008,
+        "Facts": 0.0118,
+        "Issue": 0.001,
+        "Reasoning": 0.9769
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "In Gujarat State Road Transport Corporation, Ahmedabad vs. Ramanbhai Prabhatbhai and Anr.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0684,
+        "Arguments of Respondent": 0.0388,
+        "Decision": 0.0021,
+        "Facts": 0.0316,
+        "Issue": 0.0005,
+        "Reasoning": 0.8585
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "(1987) 3 SCC 234 this Court while considering the entitlement of the brother of a deceased who died in a motor vehicle accident to maintain a claim petition under the provisions of the MV Act, held as under 13.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8434,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0757,
+        "Arguments of Respondent": 0.0652,
+        "Decision": 0.0004,
+        "Facts": 0.0147,
+        "Issue": 0.0007,
+        "Reasoning": 0.8434
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "We feel that the view taken by the Gujarat High Court is in consonance with the principles of justice, equity and good conscience having regard to the conditions of the Indian society.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9202,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0615,
+        "Facts": 0.0091,
+        "Issue": 0.0008,
+        "Reasoning": 0.9202
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "Every legal representative who suffers on account of the death of a person due to a motor vehicle accident should have a remedy for realisation of compensation and that is provided by Sections 110A to 110F of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2407,
+        "Arguments of Respondent": 0.0775,
+        "Decision": 0.0116,
+        "Facts": 0.0245,
+        "Issue": 0.0006,
+        "Reasoning": 0.6452
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 78,
+      "text": "These provisions are in consonance with the principles of law of torts that every injury must have a remedy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0196,
+        "Arguments of Respondent": 0.1234,
+        "Decision": 0.0008,
+        "Facts": 0.0069,
+        "Issue": 0.0001,
+        "Reasoning": 0.8491
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "It is for the Motor Vehicles Accidents Tribunal to determine the compensation which appears to it to be just as provided in Section 110B of the Act and to specify the person or persons to whom compensation shall be paid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0261,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0056,
+        "Facts": 0.0215,
+        "Issue": 0.0004,
+        "Reasoning": 0.9376
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "The determination of the compensation payable and its apportionment as required by Section 110B of the Act amongst the legal representatives for whose benefit an application may be filed under Section 110A of the Act have to be done in accordance with wellknown principles of law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0068,
+        "Facts": 0.0181,
+        "Issue": 0.005,
+        "Reasoning": 0.9432
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "We should remember that in an Indian family brothers, sisters and brothers children and sometimes foster children live together and they are dependent upon the breadwinner of the family and if the breadwinner is killed on account of a motor vehicle accident, there is no justification to deny them compensation relying upon the provisions of the Fatal Accidents Act, 1855 which as we have already held has been substantially modified by the provisions contained in the Act in relation to cases arising out of motor vehicles accidents.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0007,
+        "Facts": 0.0041,
+        "Issue": 0.0012,
+        "Reasoning": 0.9845
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "We express our approval of the decision in Megjibhai Khimji Vira v. Chaturbhai Taljabhagujri AIR 1977 Guj 195 and hold that the brother of a person who dies in a motor vehicle accident is entitled to maintain a petition under Section 110A of the Act if he is a legal representative of the deceased.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9355,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0173,
+        "Facts": 0.0135,
+        "Issue": 0.0035,
+        "Reasoning": 0.9355
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "In Montford Brothers of St. Gabriel and Anr.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8496,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0952,
+        "Arguments of Respondent": 0.0365,
+        "Decision": 0.0011,
+        "Facts": 0.0173,
+        "Issue": 0.0004,
+        "Reasoning": 0.8496
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "(2014) 3 SCC 394 this Court was considering the claim petition of a charitable society for award of compensation on account of the death of its member.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0622,
+        "Arguments of Respondent": 0.0374,
+        "Decision": 0.0005,
+        "Facts": 0.0138,
+        "Issue": 0.0017,
+        "Reasoning": 0.8844
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "The appellantsociety therein was a registered charitable society and was running various institutions as a constituent unit of Catholic church.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.042,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0005,
+        "Facts": 0.3648,
+        "Issue": 0.0016,
+        "Reasoning": 0.5861
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "Its members, after joining the appellantsociety, renounced the world and were known as brother.",
+      "predicted_label": "Facts",
+      "confidence": 0.6503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0433,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0003,
+        "Facts": 0.6503,
+        "Issue": 0.0026,
+        "Reasoning": 0.2869
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "In this case, a brother died in a motor vehicle accident.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8048,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0964,
+        "Arguments of Respondent": 0.0539,
+        "Decision": 0.0012,
+        "Facts": 0.0403,
+        "Issue": 0.0034,
+        "Reasoning": 0.8048
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "The claim petition filed by the appellantsociety seeking compensation on account of the death of aforesaid brother was rejected by the High Court on the ground of its maintainability.",
+      "predicted_label": "Facts",
+      "confidence": 0.8019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0012,
+        "Facts": 0.8019,
+        "Issue": 0.1321,
+        "Reasoning": 0.0587
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "This Court after examining various provisions of the MV Act held that the appellantsociety was the legal representative of the deceased brother.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8765,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0613,
+        "Arguments of Respondent": 0.0331,
+        "Decision": 0.0005,
+        "Facts": 0.0275,
+        "Issue": 0.0011,
+        "Reasoning": 0.8765
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "While allowing the claim petition it was observed as under 17.",
+      "predicted_label": "Facts",
+      "confidence": 0.8644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0105,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0004,
+        "Facts": 0.8644,
+        "Issue": 0.0018,
+        "Reasoning": 0.1174
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "A perusal of the judgment and order of the Tribunal discloses that although Issue 1 was not pressed and hence decided in favour of the appellant claimants, while considering the quantum of compensation for the claimants, the Tribunal adopted a very cautious approach and framed a question for itself as to what should be the criterion for assessing compensation in such case where the deceased was a Roman Catholic and joined the church services after denouncing his family, and as such having no actual dependents or earning?",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0008,
+        "Facts": 0.0582,
+        "Issue": 0.0003,
+        "Reasoning": 0.9341
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "For answering this issue, the Tribunal relied not only upon judgments of American and English Courts but also upon Indian judgments for coming to the conclusion that even a religious order or an organisation may suffer considerable loss due to the death of a voluntary worker.",
+      "predicted_label": "Facts",
+      "confidence": 0.9102,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0003,
+        "Facts": 0.9102,
+        "Issue": 0.0049,
+        "Reasoning": 0.0718
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "The Tribunal also went on to decide who should be entitled for compensation as legal representative of the deceased and for that purpose it relied upon the Full Bench judgment of Patna High Court in Sudama Devi v. Jogendra Choudhary AIR 1987 Pat 239, which held that the term legal representative is wide enough to include even intermeddlers with the estate of a deceased.",
+      "predicted_label": "Facts",
+      "confidence": 0.937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.937,
+        "Issue": 0.0032,
+        "Reasoning": 0.0551
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "The Tribunal also referred to some Indian judgments in which it was held that successors to the trusteeship and trust property are legal representatives within the meaning of Section 2(11) of the Code of Civil Procedure.",
+      "predicted_label": "Facts",
+      "confidence": 0.8802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0001,
+        "Facts": 0.8802,
+        "Issue": 0.0013,
+        "Reasoning": 0.1094
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "Coming to the facts of the present case, the fourth appellant was the motherinlaw of the deceased.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0011,
+        "Facts": 0.0215,
+        "Issue": 0.001,
+        "Reasoning": 0.9699
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "Materials on record clearly establish that she was residing with the deceased and his family members.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0377,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0019,
+        "Facts": 0.1609,
+        "Issue": 0.0008,
+        "Reasoning": 0.7798
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "She was dependent on him for her shelter and maintenance.",
+      "predicted_label": "Facts",
+      "confidence": 0.6293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0372,
+        "Arguments of Respondent": 0.0157,
+        "Decision": 0.0007,
+        "Facts": 0.6293,
+        "Issue": 0.0002,
+        "Reasoning": 0.3169
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "It is not uncommon in Indian Society for the motherinlaw to live with her daughter and soninlaw during her old age and be dependent upon her soninlaw for her maintenance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0007,
+        "Facts": 0.0276,
+        "Issue": 0.0003,
+        "Reasoning": 0.957
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "Appellant no.4 herein may not be a legal heir of the deceased, but she certainly suffered on account of his death.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1843,
+        "Arguments of Respondent": 0.0226,
+        "Decision": 0.096,
+        "Facts": 0.1215,
+        "Issue": 0.0204,
+        "Reasoning": 0.5553
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 100,
+      "text": "Therefore, we have no hesitation to hold that she is a legal representative under Section 166 of the MV Act and is entitled to maintain a claim petition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.901,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0314,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0062,
+        "Facts": 0.0523,
+        "Issue": 0.0008,
+        "Reasoning": 0.901
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "(II) Whether the High Court was justified in applying a split multiplier?",
+      "predicted_label": "Issue",
+      "confidence": 0.9484,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0015,
+        "Facts": 0.0444,
+        "Issue": 0.9484,
+        "Reasoning": 0.0029
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "The deceased was aged 52 years at the time of the accident.",
+      "predicted_label": "Facts",
+      "confidence": 0.7818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0252,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0012,
+        "Facts": 0.7818,
+        "Issue": 0.0091,
+        "Reasoning": 0.1635
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "He was working as an Assistant Professor and getting a monthly salary of Rs.83,831/ (Rupees eightythree thousand eight hundred thirtyone only).",
+      "predicted_label": "Facts",
+      "confidence": 0.9637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0,
+        "Facts": 0.9637,
+        "Issue": 0.0074,
+        "Reasoning": 0.022
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "The evidence on record shows that he was a meritorious man having the qualifications of M.Sc, M.Phil.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.003,
+        "Facts": 0.1421,
+        "Issue": 0.0002,
+        "Reasoning": 0.8405
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "He was a firstclass holder in M.Sc.",
+      "predicted_label": "Facts",
+      "confidence": 0.6566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0791,
+        "Arguments of Respondent": 0.0397,
+        "Decision": 0.0003,
+        "Facts": 0.6566,
+        "Issue": 0.016,
+        "Reasoning": 0.2084
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 106,
+      "text": "He was a Selection Grade Lecturer in Mathematics and was a subject expert.",
+      "predicted_label": "Facts",
+      "confidence": 0.6847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0743,
+        "Arguments of Respondent": 0.0358,
+        "Decision": 0.0002,
+        "Facts": 0.6847,
+        "Issue": 0.0134,
+        "Reasoning": 0.1915
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 107,
+      "text": "He was also included in the panel of Mahatma Gandhi University and was appointed as Examiner in the Board of Examiners for CBCCSS Programme in Mathematics.",
+      "predicted_label": "Facts",
+      "confidence": 0.9496,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9496,
+        "Issue": 0.0057,
+        "Reasoning": 0.0404
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "Subsequently, he was appointed as Deputy Chairman of the Examiners Board.",
+      "predicted_label": "Facts",
+      "confidence": 0.893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0272,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0001,
+        "Facts": 0.893,
+        "Issue": 0.0028,
+        "Reasoning": 0.0665
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "Evidence on record also shows that there is acute shortage of lecturers in Mathematics for appointment in colleges and retired Mathematics Professors are appointed in so many colleges.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9477,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0011,
+        "Facts": 0.0392,
+        "Issue": 0.0001,
+        "Reasoning": 0.9477
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "It is common knowledge that the teachers, especially Mathematics teachers, are employed even after their retirement in coaching centers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0138,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0013,
+        "Facts": 0.0577,
+        "Issue": 0.0002,
+        "Reasoning": 0.8926
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "They may also hold private tuition classes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0678,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.001,
+        "Facts": 0.4437,
+        "Issue": 0.0052,
+        "Reasoning": 0.4744
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 112,
+      "text": "This would increase their income manifold after retirement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2106,
+        "Arguments of Respondent": 0.1318,
+        "Decision": 0.0011,
+        "Facts": 0.2096,
+        "Issue": 0.0003,
+        "Reasoning": 0.4466
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 113,
+      "text": "In Sarla Verma (2009) 6 SCC 121, this Court has held that while calculating the compensation, the courts should take into consideration not only the actual income at the time of the death but should also make additions by taking note of future prospects.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9601,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0197,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0003,
+        "Facts": 0.0089,
+        "Issue": 0.0004,
+        "Reasoning": 0.9601
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "It was further held that though the evidence may indicate a different percentage of increase, it is necessary to standardize the addition to avoid disparate yardsticks being applied or disparate methods of calculation being adopted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5228,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0493,
+        "Arguments of Respondent": 0.1075,
+        "Decision": 0.0001,
+        "Facts": 0.318,
+        "Issue": 0.0022,
+        "Reasoning": 0.5228
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 115,
+      "text": "(2011) 4 SCC 689, this Court was considering a case where the High Court had applied split multiplier for the purpose of calculation of compensation towards loss of dependency and held as under 8.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9109,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0315,
+        "Decision": 0.0006,
+        "Facts": 0.0229,
+        "Issue": 0.0007,
+        "Reasoning": 0.9109
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "In Puttamma and Ors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9296,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0172,
+        "Decision": 0.0006,
+        "Facts": 0.0186,
+        "Issue": 0.0005,
+        "Reasoning": 0.9296
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "vs. K.L. Narayana Reddy and Anr.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4074,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4074,
+        "Arguments of Respondent": 0.1778,
+        "Decision": 0.0151,
+        "Facts": 0.1178,
+        "Issue": 0.0042,
+        "Reasoning": 0.2777
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 118,
+      "text": "(2013) 15 SCC 45, this Court was again considering a case where split multiplier for the purpose of calculation of dependency compensation was applied.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0153,
+        "Arguments of Respondent": 0.0211,
+        "Decision": 0.0002,
+        "Facts": 0.0062,
+        "Issue": 0.0005,
+        "Reasoning": 0.9566
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "For determination of compensation in motor accident claims under Section 166 this Court always followed multiplier method.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0177,
+        "Arguments of Respondent": 0.0207,
+        "Decision": 0.0005,
+        "Facts": 0.01,
+        "Issue": 0.0005,
+        "Reasoning": 0.9506
+      }
+    },
+    {
+      "sentence_id": 120,
+      "text": "As there were inconsistencies in the selection of a multiplier, this Court in Sarla Verma (2009) 6 SCC 121 prepared a table for the selection of a multiplier based on the age group of the deceased victim.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9198,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0003,
+        "Facts": 0.0535,
+        "Issue": 0.0019,
+        "Reasoning": 0.9198
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "The 1988 Act, does not envisage application of a split multiplier.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8391,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0843,
+        "Arguments of Respondent": 0.0298,
+        "Decision": 0.002,
+        "Facts": 0.0429,
+        "Issue": 0.002,
+        "Reasoning": 0.8391
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "In K.R. Madhusudhan v. Administrative Officer (2011) 4 SCC 689 this Court held as follows (SCC p. 692, paras 1415) 14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8921,
+      "probabilities": {
+        "Arguments of Petitioner": 0.049,
+        "Arguments of Respondent": 0.0483,
+        "Decision": 0.0002,
+        "Facts": 0.0102,
+        "Issue": 0.0001,
+        "Reasoning": 0.8921
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "In the appeal which was filed by the appellants before the High Court, the High Court instead of maintaining the amount of compensation granted by the Tribunal, reduced the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.7558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0229,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0045,
+        "Facts": 0.7558,
+        "Issue": 0.0672,
+        "Reasoning": 0.1472
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "In doing so, the High Court had not given any reason.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5519,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3935,
+        "Arguments of Respondent": 0.02,
+        "Decision": 0.0234,
+        "Facts": 0.0105,
+        "Issue": 0.0006,
+        "Reasoning": 0.5519
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 125,
+      "text": "The High Court introduced the concept of split multiplier and departed from the multiplier used by the Tribunal without disclosing any reason therefor.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3096,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0088,
+        "Facts": 0.0094,
+        "Issue": 0.0012,
+        "Reasoning": 0.6648
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 126,
+      "text": "The High Court has also not considered the clear and corroborative evidence about the prospect of future increment of the deceased.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.306,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0122,
+        "Facts": 0.0084,
+        "Issue": 0.0006,
+        "Reasoning": 0.6636
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 127,
+      "text": "When the age of the deceased is between 51 and 55 years the multiplier is 11, which is specified in the 2nd column in the Second Schedule to the Motor Vehicles Act, and the Tribunal has not committed any error by accepting the said multiplier.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7142,
+      "probabilities": {
+        "Arguments of Petitioner": 0.032,
+        "Arguments of Respondent": 0.1787,
+        "Decision": 0.0128,
+        "Facts": 0.0619,
+        "Issue": 0.0004,
+        "Reasoning": 0.7142
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "This Court also fails to appreciate why the High Court chose to apply the multiplier of 6. 15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9726,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0006,
+        "Facts": 0.0091,
+        "Issue": 0.0004,
+        "Reasoning": 0.9726
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "We are, thus, of the opinion that the judgment of the High Court deserves to be set aside for it is perverse and clearly contrary to the evidence on record, for having not considered the future prospects of the deceased and also for adopting a split multiplier method.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.1233,
+        "Facts": 0.0058,
+        "Issue": 0.0008,
+        "Reasoning": 0.8635
+      }
+    },
+    {
+      "sentence_id": 130,
+      "text": "We, therefore, hold that in absence of any specific reason and evidence on record the tribunal or the court should not apply split multiplier in routine course and should apply multiplier as per decision of this Court in Sarla Verma (2009) 6 SCC 121 as affirmed in Reshma Kumari (2013) 9 SCC 65 .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0404,
+        "Facts": 0.0675,
+        "Issue": 0.0022,
+        "Reasoning": 0.8829
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "From the above discussion it is clear that at the time of calculation of the income, the Court has to consider the actual income of the deceased and addition should be made to take into account future prospects.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0012,
+        "Facts": 0.028,
+        "Issue": 0.001,
+        "Reasoning": 0.9625
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "Further, while the evidence in a given case may indicate a different percentage of increase, standardization of the addition for future prospects should be made to avoid different yardsticks being applied or different methods of calculation being adopted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9395,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0314,
+        "Decision": 0.0001,
+        "Facts": 0.0111,
+        "Issue": 0.0003,
+        "Reasoning": 0.9395
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "In Pranay Sethi (2017) 16 SCC 680, the Constitution Bench has directed addition of 15 of the salary in case the deceased was between the age of 50 to 60 years as a thumb rule, where a deceased had a permanent job.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0274,
+        "Arguments of Respondent": 0.0218,
+        "Decision": 0.0032,
+        "Facts": 0.041,
+        "Issue": 0.001,
+        "Reasoning": 0.9056
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "In view of the above, the High Court was not justified in applying split multiplier in the instant case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8892,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0401,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0543,
+        "Facts": 0.011,
+        "Issue": 0.0004,
+        "Reasoning": 0.8892
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "What is the amount of compensation that should be awarded to the appellants?",
+      "predicted_label": "Issue",
+      "confidence": 0.9135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.004,
+        "Facts": 0.0378,
+        "Issue": 0.9135,
+        "Reasoning": 0.04
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "We have already noticed that the deceased was working as Assistant Professor at Devaswom Board Pampa College, Paruamala, and was drawing a monthly income of Rs.83,381/ which is clear from his salary certificate (Ex.A5) issued by the Principal of Devaswom Board Pampa College, Paruamala.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0014,
+        "Facts": 0.129,
+        "Issue": 0.0003,
+        "Reasoning": 0.863
+      }
+    },
+    {
+      "sentence_id": 137,
+      "text": "The salary slip received by the deceased for the month of May 2011 (Ex.A6) also shows that his monthly salary was Rs.83,381/. These documents have been marked in evidence through the Principal of the said College who was examined as PW1.",
+      "predicted_label": "Facts",
+      "confidence": 0.4785,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0242,
+        "Arguments of Respondent": 0.0225,
+        "Decision": 0.0005,
+        "Facts": 0.4785,
+        "Issue": 0.0001,
+        "Reasoning": 0.4741
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 138,
+      "text": "Thus, annual income of the deceased comes to Rs.10,00,572/. This Court in Sarla Verma (2009) 6 SCC 121 has made it clear that the Annual Income of the deceased minus the income tax should be taken into account at the time of his death for the purpose of calculation of loss of dependency.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.029,
+        "Arguments of Respondent": 0.0152,
+        "Decision": 0.0019,
+        "Facts": 0.0812,
+        "Issue": 0.0008,
+        "Reasoning": 0.8719
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "The deceased had to pay Rs.1,13,424/ towards income tax per annum.",
+      "predicted_label": "Facts",
+      "confidence": 0.8931,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0014,
+        "Facts": 0.8931,
+        "Issue": 0.0014,
+        "Reasoning": 0.0929
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "After deducting the said amount the actual income of the deceased comes to Rs.8,87,148/. 30.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0138,
+        "Arguments of Respondent": 0.0319,
+        "Decision": 0.0184,
+        "Facts": 0.0558,
+        "Issue": 0.0007,
+        "Reasoning": 0.8795
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "The deceased was aged 52 years at the time of his death and had a permanent job.",
+      "predicted_label": "Facts",
+      "confidence": 0.4629,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0984,
+        "Arguments of Respondent": 0.0823,
+        "Decision": 0.0021,
+        "Facts": 0.4629,
+        "Issue": 0.0054,
+        "Reasoning": 0.3489
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 142,
+      "text": "Having regard to the judgment in Pranay Sethi (2017) 16 SCC 680, an addition of 15 of his actual salary should be added towards future prospectus.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5582,
+        "Arguments of Respondent": 0.2337,
+        "Decision": 0.0018,
+        "Facts": 0.1282,
+        "Issue": 0.0012,
+        "Reasoning": 0.0769
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 143,
+      "text": "Therefore, 15 of his actual salary comes to Rs.1,33,072/ 31.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1988,
+        "Arguments of Respondent": 0.1598,
+        "Decision": 0.0011,
+        "Facts": 0.1019,
+        "Issue": 0.0005,
+        "Reasoning": 0.538
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 144,
+      "text": "Since the deceased was 52 years at the time of his death, the applicable multiplier is 11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0313,
+        "Arguments of Respondent": 0.0202,
+        "Decision": 0.0035,
+        "Facts": 0.1824,
+        "Issue": 0.0014,
+        "Reasoning": 0.7612
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "As we have held that appellant no.4, the motherinlaw of the deceased is also a dependent and a legal representative under Section 166 of the MV Act, the total number of dependents left behind by the deceased is four.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.1324,
+        "Facts": 0.0181,
+        "Issue": 0.0017,
+        "Reasoning": 0.8365
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "Hence, 1/4th of the income (actual salary future prospects) should be deducted towards his personal expenses.",
+      "predicted_label": "Facts",
+      "confidence": 0.4958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2366,
+        "Arguments of Respondent": 0.1084,
+        "Decision": 0.0012,
+        "Facts": 0.4958,
+        "Issue": 0.0007,
+        "Reasoning": 0.1573
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 147,
+      "text": "Thus, the total compensation payable towards loss of dependency is as under (1) Annual Salary less Tax Actual Salary Rs.10,00,572 Rs.1,13,424 Rs.8,87,148 (2) Future Prospects 15 of Actual Salary Rs.1,33,072 (3) Loss of dependency (1) 8,87,148 (2) 1,33,072 i.e. Rs.2,55,055 x 11 Rs.84,16,815 32.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8149,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0109,
+        "Arguments of Respondent": 0.0084,
+        "Decision": 0.003,
+        "Facts": 0.1622,
+        "Issue": 0.0005,
+        "Reasoning": 0.8149
+      }
+    },
+    {
+      "sentence_id": 148,
+      "text": "In Pranay Sethi (2017) 16 SCC 680, this Court has awarded a total sum of Rs.70,000/ (Rupees seventy thousand only) under conventional heads, namely, loss of estate, loss of consortium and funeral expenses.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0181,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0012,
+        "Facts": 0.0039,
+        "Issue": 0.001,
+        "Reasoning": 0.9663
+      }
+    },
+    {
+      "sentence_id": 149,
+      "text": "It was held that the said sum should be enhanced at the rate of 10 in every three years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.658,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0681,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0004,
+        "Facts": 0.2296,
+        "Issue": 0.0148,
+        "Reasoning": 0.658
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 150,
+      "text": "It was held thus 59.8.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2309,
+        "Arguments of Respondent": 0.156,
+        "Decision": 0.0004,
+        "Facts": 0.1321,
+        "Issue": 0.0004,
+        "Reasoning": 0.4802
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 151,
+      "text": "Reasonable figures on conventional heads, namely, loss of estate, loss of consortium and funeral expenses should be Rs 15,000, Rs 40,000 and Rs 15,000 respectively.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0159,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0213,
+        "Facts": 0.0044,
+        "Issue": 0.0013,
+        "Reasoning": 0.9463
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "The aforesaid amounts should be enhanced at the rate of 10 in every three years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7176,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1669,
+        "Arguments of Respondent": 0.0338,
+        "Decision": 0.0092,
+        "Facts": 0.066,
+        "Issue": 0.0065,
+        "Reasoning": 0.7176
+      }
+    },
+    {
+      "sentence_id": 153,
+      "text": "The judgment in Pranay Sethi (2017) 16 SCC 680 was rendered in the year 2017.",
+      "predicted_label": "Facts",
+      "confidence": 0.3715,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0801,
+        "Arguments of Respondent": 0.0363,
+        "Decision": 0.0126,
+        "Facts": 0.3715,
+        "Issue": 0.2686,
+        "Reasoning": 0.2311
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 154,
+      "text": "Therefore, the claimants are entitled for 10 enhancement.",
+      "predicted_label": "Facts",
+      "confidence": 0.6327,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0612,
+        "Arguments of Respondent": 0.0367,
+        "Decision": 0.0075,
+        "Facts": 0.6327,
+        "Issue": 0.001,
+        "Reasoning": 0.2609
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 155,
+      "text": "Thus, a sum of Rs.16,500/ each is awarded towards loss of estate and funeral expenses.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0626,
+        "Facts": 0.0317,
+        "Issue": 0.0019,
+        "Reasoning": 0.8916
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "A threeJudge Bench of this Court in United India Insurance Co. Ltd. vs. Satinder Kaur Satwinder Kaur and Ors (2020) SCC Online SC 410 AIR 2020 SC 3076 , after considering Pranay Sethi (2017) 16 SCC 680, has awarded spousal consortium at the rate of Rs.40,000/ (Rupees forty thousand only) and towards loss of parental consortium to each child at the rate of Rs.40,000/ (Rupees forty thousand only).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7672,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0217,
+        "Arguments of Respondent": 0.0462,
+        "Decision": 0.0014,
+        "Facts": 0.1344,
+        "Issue": 0.029,
+        "Reasoning": 0.7672
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "The compensation under these heads also needs to be increased by 10.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0419,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0826,
+        "Facts": 0.0305,
+        "Issue": 0.0009,
+        "Reasoning": 0.8383
+      }
+    },
+    {
+      "sentence_id": 158,
+      "text": "Thus, the spousal consortium is awarded at Rs.44,000/ (Fortyfour thousand only), and towards parental consortium at the rate of Rs.44,000/ each (Total Rs.88,000/) is awarded to the two children.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5409,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.3478,
+        "Facts": 0.1059,
+        "Issue": 0.0027,
+        "Reasoning": 0.5409
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 159,
+      "text": "Thus, the appellants are entitled to compensation as under (i) Towards Loss of dependency Rs.84,16,815/ (ii) Loss of Estate Rs.16,500/ (iii) Funeral Expenses Rs.16,500/ (iv) Spousal Consortium Rs.44,000/ (v) Parental Consortium Rs.88,000/",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7676,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1284,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0747,
+        "Facts": 0.0196,
+        "Issue": 0.0019,
+        "Reasoning": 0.7676
+      }
+    },
+    {
+      "sentence_id": 160,
+      "text": "Total Rs.85,81,815/ 36.",
+      "predicted_label": "Facts",
+      "confidence": 0.8564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.0259,
+        "Decision": 0.0012,
+        "Facts": 0.8564,
+        "Issue": 0.0021,
+        "Reasoning": 0.1016
+      }
+    },
+    {
+      "sentence_id": 161,
+      "text": "The appellants are also entitled to interest on the said amount at the rate of 7.5 per annum from the date of the claim petition till the date of its realization.",
+      "predicted_label": "Decision",
+      "confidence": 0.6138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.6138,
+        "Facts": 0.008,
+        "Issue": 0.0005,
+        "Reasoning": 0.3711
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 162,
+      "text": "The respondent is accordingly directed to deposit the above amount with accrued interest thereon at the rate of 7.5 per annum from the date of claim petition till the date of deposit, after deducting amounts, if any, deposited by the respondent, within eight weeks from today.",
+      "predicted_label": "Decision",
+      "confidence": 0.538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.538,
+        "Facts": 0.3193,
+        "Issue": 0.0006,
+        "Reasoning": 0.1379
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 163,
+      "text": "Resultantly, the appeal is allowed in the aforesaid terms.",
+      "predicted_label": "Decision",
+      "confidence": 0.9864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9864,
+        "Facts": 0.0075,
+        "Issue": 0.0001,
+        "Reasoning": 0.0056
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "Parties are directed to bear their respective costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9863,
+        "Facts": 0.0063,
+        "Issue": 0.0001,
+        "Reasoning": 0.0069
+      }
+    },
+    {
+      "sentence_id": 165,
+      "text": "Pending applications, if any, shall also stand disposed of.",
+      "predicted_label": "Decision",
+      "confidence": 0.9855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9855,
+        "Facts": 0.0064,
+        "Issue": 0.0001,
+        "Reasoning": 0.0076
+      }
+    }
+  ]
+}

@@ -1,0 +1,1807 @@
+{
+  "case_id": "6975",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "By this petition, petitioner has challenged the action of the respondentCompany withholding the leave encashment of the petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.6246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0203,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0019,
+        "Facts": 0.6246,
+        "Issue": 0.3283,
+        "Reasoning": 0.0238
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The petitioner was appointed as a Junior Executive Trainee in the Central Mine Planning and Design Institute (CMPDI), Ranchi on 01/07/1981.",
+      "predicted_label": "Facts",
+      "confidence": 0.989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.989,
+        "Issue": 0.005,
+        "Reasoning": 0.0037
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "On 06/03/2003, he was transferred in the respondentCompany.",
+      "predicted_label": "Facts",
+      "confidence": 0.9622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0001,
+        "Facts": 0.9622,
+        "Issue": 0.011,
+        "Reasoning": 0.0214
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "On 30/11/2016, the petitioner was retired on attaining the age of 60 years.",
+      "predicted_label": "Facts",
+      "confidence": 0.8336,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1002,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0003,
+        "Facts": 0.8336,
+        "Issue": 0.0139,
+        "Reasoning": 0.0367
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "At the time of retirement he was General Manager.",
+      "predicted_label": "Facts",
+      "confidence": 0.691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0429,
+        "Arguments of Respondent": 0.023,
+        "Decision": 0.0005,
+        "Facts": 0.691,
+        "Issue": 0.0164,
+        "Reasoning": 0.2262
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "As per the contention of the petitioner he worked with dedication, honesty and reached up to the post of General Manager.",
+      "predicted_label": "Facts",
+      "confidence": 0.4166,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2997,
+        "Arguments of Respondent": 0.0379,
+        "Decision": 0.0006,
+        "Facts": 0.4166,
+        "Issue": 0.0005,
+        "Reasoning": 0.2447
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "B",
+      "predicted_label": "Facts",
+      "confidence": 0.3738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2578,
+        "Arguments of Respondent": 0.0895,
+        "Decision": 0.0349,
+        "Facts": 0.3738,
+        "Issue": 0.0157,
+        "Reasoning": 0.2283
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The respondent is one of the eight Subsidiary Companies of Coal India Limited i.e. CIL.",
+      "predicted_label": "Facts",
+      "confidence": 0.932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0002,
+        "Facts": 0.932,
+        "Issue": 0.0582,
+        "Reasoning": 0.0049
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "As the respondentCompany is subsidiary of the Coal India Limited, the same is governed by the Mines Act, 1952 and Coal India Executives Leave Rules, 2010.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3291,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2685,
+        "Arguments of Respondent": 0.1388,
+        "Decision": 0.0023,
+        "Facts": 0.2592,
+        "Issue": 0.0022,
+        "Reasoning": 0.3291
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 9,
+      "text": "As per the contention of the petitioner on his superannuation he was entitled for encashment of Earned Leave and Half Pay leave at his credit.",
+      "predicted_label": "Facts",
+      "confidence": 0.8017,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0552,
+        "Arguments of Respondent": 0.026,
+        "Decision": 0.0005,
+        "Facts": 0.8017,
+        "Issue": 0.0018,
+        "Reasoning": 0.1148
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "He was not paid the said amount for which he is entitled.",
+      "predicted_label": "Facts",
+      "confidence": 0.7095,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0129,
+        "Decision": 0.0144,
+        "Facts": 0.7095,
+        "Issue": 0.015,
+        "Reasoning": 0.232
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "He is entitled for amount of Rs.19,04,340/ (Rs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4999,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0997,
+        "Facts": 0.378,
+        "Issue": 0.0013,
+        "Reasoning": 0.4999
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Nineteen lacs four thousand three hundred and forty) towards the Half Pay Leave and Earned Leave.",
+      "predicted_label": "Facts",
+      "confidence": 0.923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0025,
+        "Facts": 0.923,
+        "Issue": 0.0022,
+        "Reasoning": 0.0683
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The respondent has withheld the leave encashment which he is entitled, hence the action on the part of the respondent is arbitrary, illegal and liable to be set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2405,
+        "Arguments of Respondent": 0.0513,
+        "Decision": 0.0078,
+        "Facts": 0.2125,
+        "Issue": 0.0012,
+        "Reasoning": 0.4866
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "C",
+      "predicted_label": "Facts",
+      "confidence": 0.3061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.201,
+        "Arguments of Respondent": 0.1105,
+        "Decision": 0.0483,
+        "Facts": 0.3061,
+        "Issue": 0.0635,
+        "Reasoning": 0.2707
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "The respondent filed the reply in response to the notice and denied the contention of the petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9533,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.0001,
+        "Facts": 0.9533,
+        "Issue": 0.0015,
+        "Reasoning": 0.0276
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "It is an admitted position that the petitioner was working as a Junior Executive Trainee in the Central Mine Planning and Design Institute (CMPDI), Ranchi.",
+      "predicted_label": "Facts",
+      "confidence": 0.871,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0001,
+        "Facts": 0.871,
+        "Issue": 0.0015,
+        "Reasoning": 0.1155
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Subsequently, he was transferred in the respondentCompany.",
+      "predicted_label": "Facts",
+      "confidence": 0.8389,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0002,
+        "Facts": 0.8389,
+        "Issue": 0.021,
+        "Reasoning": 0.1215
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "As per the contention of the respondent he was chargesheeted under Rule 29 of the Conduct Discipline and Appeal Rules, 1978 (hereinafter referred to as the CDA Rules for short) of the Coal India Limited vide",
+      "predicted_label": "Facts",
+      "confidence": 0.9859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0,
+        "Facts": 0.9859,
+        "Issue": 0.0099,
+        "Reasoning": 0.0026
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "No.WCL CMD VIG/201617/2246 dated 25/11/2016 by CMD and Disciplinary Authority, WCL on the ground of Contravention of the provisions as contained in Rule 4.1(I), 4.1(II), 4.2 and 4.3 which amounts to misconduct under clause 5.9 and 5.26 of CDA Rules of the Coal India Limited.",
+      "predicted_label": "Facts",
+      "confidence": 0.8976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0011,
+        "Facts": 0.8976,
+        "Issue": 0.0916,
+        "Reasoning": 0.0069
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "It is further the contention of the respondent that the petitioner who was a public servant had committed grave misconduct by abusing his official position.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.6969,
+        "Decision": 0.0003,
+        "Facts": 0.2267,
+        "Issue": 0.0024,
+        "Reasoning": 0.0687
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "He was a tender committee member in tendering process of supply, installation and commission of secondary crusher for different areas of WCL.",
+      "predicted_label": "Facts",
+      "confidence": 0.6138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2323,
+        "Arguments of Respondent": 0.0787,
+        "Decision": 0.0002,
+        "Facts": 0.6138,
+        "Issue": 0.0236,
+        "Reasoning": 0.0513
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "He had granted undue favor to some of the parties causing a huge loss of Rs.1,16,56,989/ (Rs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4272,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4272,
+        "Arguments of Respondent": 0.1404,
+        "Decision": 0.0182,
+        "Facts": 0.2114,
+        "Issue": 0.0013,
+        "Reasoning": 0.2014
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "One crore sixteen lacs fifty six thousand nine hundred and eighty nine) to Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0022,
+        "Facts": 0.9649,
+        "Issue": 0.0009,
+        "Reasoning": 0.0223
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Since the reply of the petitioner was not found satisfactory, the departmental enquiry was initiated against him and the same has not been completed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9008,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0216,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.0008,
+        "Facts": 0.9008,
+        "Issue": 0.0021,
+        "Reasoning": 0.0584
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Though the petitioner had retired from service the departmental enquiry is continued by virtue of clause 34.2 of the CDA Rules.",
+      "predicted_label": "Facts",
+      "confidence": 0.3994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.242,
+        "Arguments of Respondent": 0.0594,
+        "Decision": 0.0257,
+        "Facts": 0.3994,
+        "Issue": 0.0141,
+        "Reasoning": 0.2594
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "It is further the contention of the respondent that leave encashment and T.A. bills are withheld on the ground that if chargesheet for major penalty has been served and if on the conclusion of the disciplinary proceeding, service is terminated then encashment of leave can be forfeited in terms of the Coal India Limited Executives Leave Rules and T.A. Rules, however, if service is not terminated on conclusion of the disciplinary proceedings these may be released.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.7029,
+        "Decision": 0.0003,
+        "Facts": 0.156,
+        "Issue": 0.0008,
+        "Reasoning": 0.1359
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The respondent has further taken a stand that the petitioner is not covered under Section ii(h) or ii(j) of the Mines Act, 1952.",
+      "predicted_label": "Facts",
+      "confidence": 0.6921,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0184,
+        "Arguments of Respondent": 0.1022,
+        "Decision": 0.0014,
+        "Facts": 0.6921,
+        "Issue": 0.006,
+        "Reasoning": 0.1799
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "The encashment of half pay leave has to be given as per the Executive Leave Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.073,
+        "Arguments of Respondent": 0.0479,
+        "Decision": 0.0006,
+        "Facts": 0.0893,
+        "Issue": 0.0004,
+        "Reasoning": 0.7889
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The Executive of the Coal India Limited has to perform their duties not only in mines but in other places as well and many other places do not fall under the definition of the Mines as provided under the Mines Act, 1952, hence Coal India Limited has framed its own rules related to earned leave.",
+      "predicted_label": "Facts",
+      "confidence": 0.7108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0223,
+        "Decision": 0.0001,
+        "Facts": 0.7108,
+        "Issue": 0.0002,
+        "Reasoning": 0.2542
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The earned leave credited under the rules of Coal India is not linked with attendance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1591,
+        "Arguments of Respondent": 0.0547,
+        "Decision": 0.0006,
+        "Facts": 0.032,
+        "Issue": 0.0002,
+        "Reasoning": 0.7534
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "It is the contention of the respondent that once the petitioner had subjected himself to the terms of the appointment letter which specifically apply to him the leave Rules of the CPSE and his petition proceeds on the basis that the Coal India Executive Leave Rules, 2010 are a complete code in itself, then it is not open to him to urge that rules of the Mines Act, 1952 are applicable to him and, therefore, petition deserves to be dismissed.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9235,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.9235,
+        "Decision": 0.0003,
+        "Facts": 0.0261,
+        "Issue": 0.0005,
+        "Reasoning": 0.0474
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "5. Heard Shri Bhandarkar, learned Counsel for the petitioner.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6847,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0006,
+        "Facts": 0.2713,
+        "Issue": 0.0025,
+        "Reasoning": 0.027
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "He submitted that the petitioner is entitled for the leave encashment.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.475,
+      "probabilities": {
+        "Arguments of Petitioner": 0.475,
+        "Arguments of Respondent": 0.4048,
+        "Decision": 0.0009,
+        "Facts": 0.0834,
+        "Issue": 0.001,
+        "Reasoning": 0.0348
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "He is already retired from the service.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4417,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1619,
+        "Arguments of Respondent": 0.0998,
+        "Decision": 0.0115,
+        "Facts": 0.2778,
+        "Issue": 0.0073,
+        "Reasoning": 0.4417
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "The leave encashment is towards the work or services rendered by him during his tenure.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0003,
+        "Facts": 0.009,
+        "Issue": 0.0012,
+        "Reasoning": 0.9589
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "In support of his contention, he relied upon the decision of this Court in the case of Pramod Kumar Battad Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7785,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7785,
+        "Arguments of Respondent": 0.203,
+        "Decision": 0.0001,
+        "Facts": 0.0043,
+        "Issue": 0.0001,
+        "Reasoning": 0.014
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Western Coalfields Ltd. and anr.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4613,
+        "Arguments of Respondent": 0.1805,
+        "Decision": 0.0122,
+        "Facts": 0.0852,
+        "Issue": 0.0036,
+        "Reasoning": 0.2572
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "(W.P. No.3866 of 2017) decided on 19/03/2018, wherein it is held that the petitioner is entitled to leave encashment benefits as the petitioner has retired on attaining the age of superannuation but the same are wrongfully denied to the petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.3699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.235,
+        "Arguments of Respondent": 0.0754,
+        "Decision": 0.0025,
+        "Facts": 0.3699,
+        "Issue": 0.0112,
+        "Reasoning": 0.3061
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "He is also relied upon the decision of this Court in the case of Sharda Nandlal Das s o Late Mahabir Lal Das Vs.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4929,
+        "Arguments of Respondent": 0.4932,
+        "Decision": 0.0001,
+        "Facts": 0.0046,
+        "Issue": 0.0001,
+        "Reasoning": 0.009
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "Coal India Ltd. and anr.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3583,
+        "Arguments of Respondent": 0.209,
+        "Decision": 0.0134,
+        "Facts": 0.1019,
+        "Issue": 0.0037,
+        "Reasoning": 0.3136
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "(W.P. No.2163 of 2012) decided on 10/08/2012, wherein it is held that the petitioner is entitled for the encashment of Earned Leave and Half Pay Leave.",
+      "predicted_label": "Facts",
+      "confidence": 0.717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0641,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0037,
+        "Facts": 0.717,
+        "Issue": 0.0056,
+        "Reasoning": 0.1974
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "He further relied upon the decision of the Honble Apex Court in the case of Jaswant Singh Gill Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5274,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5274,
+        "Arguments of Respondent": 0.1547,
+        "Decision": 0.0002,
+        "Facts": 0.3063,
+        "Issue": 0.0023,
+        "Reasoning": 0.0091
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "Bharat Coking Coal Limited and others (2007) 1 SCC 663",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4436,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3988,
+        "Arguments of Respondent": 0.4436,
+        "Decision": 0.0026,
+        "Facts": 0.0484,
+        "Issue": 0.0015,
+        "Reasoning": 0.1052
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": ".",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1104,
+        "Arguments of Respondent": 0.0993,
+        "Decision": 0.0346,
+        "Facts": 0.2625,
+        "Issue": 0.1798,
+        "Reasoning": 0.3134
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "6.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6065,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6065,
+        "Arguments of Respondent": 0.0453,
+        "Decision": 0.0019,
+        "Facts": 0.3234,
+        "Issue": 0.0065,
+        "Reasoning": 0.0164
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "On the basis of the decisions referred by him, he submitted that as the petitioner was working in the mines the provisions of Section 52(10) of the Mines Act, 1952, the petitioner is entitled to leave encashment dues.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5513,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5513,
+        "Arguments of Respondent": 0.3532,
+        "Decision": 0.0005,
+        "Facts": 0.058,
+        "Issue": 0.0012,
+        "Reasoning": 0.0358
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "7.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7413,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7413,
+        "Arguments of Respondent": 0.0512,
+        "Decision": 0.0036,
+        "Facts": 0.1653,
+        "Issue": 0.0082,
+        "Reasoning": 0.0303
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "He submitted that in view of the judgment of this Court in the case of Pramod s o Gulabchand Baid Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6009,
+        "Arguments of Respondent": 0.3777,
+        "Decision": 0.0005,
+        "Facts": 0.0144,
+        "Issue": 0.0002,
+        "Reasoning": 0.0063
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "Coal India Limited and another (W.P. No.3430/2010) decided on 26/11/2010, the petitioner is entitled for the claims.",
+      "predicted_label": "Facts",
+      "confidence": 0.8024,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0506,
+        "Arguments of Respondent": 0.0171,
+        "Decision": 0.0094,
+        "Facts": 0.8024,
+        "Issue": 0.014,
+        "Reasoning": 0.1064
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "8.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7689,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7689,
+        "Arguments of Respondent": 0.0378,
+        "Decision": 0.0046,
+        "Facts": 0.1458,
+        "Issue": 0.0111,
+        "Reasoning": 0.0318
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "He also invited our attention towards the rules of the Coal India Executives Leave Rules, 2010 and submitted that clause 7.3 states about Earned Leave on full pay as per clause 7.3.4(a) the credit for the half year in which an executive is due to retire or resigns from the service, shall be afforded only at the rate of two and half days per completed calendar month in that half year up to date of retirement resignation.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.629,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3532,
+        "Arguments of Respondent": 0.629,
+        "Decision": 0.0002,
+        "Facts": 0.001,
+        "Issue": 0.0001,
+        "Reasoning": 0.0166
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "In view of clause 7.3.5 Earned leave can be accumulated upto 300 days.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0368,
+        "Arguments of Respondent": 0.0331,
+        "Decision": 0.0013,
+        "Facts": 0.1345,
+        "Issue": 0.0001,
+        "Reasoning": 0.7942
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "He submitted that the petitioner is entitled for the leave encashment in accordance with the Rule 12.1 of the Coal India Services Rules.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4787,
+        "Arguments of Respondent": 0.3554,
+        "Decision": 0.0013,
+        "Facts": 0.1243,
+        "Issue": 0.0012,
+        "Reasoning": 0.0391
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 54,
+      "text": "Hence, the action of the respondent is arbitrary and illegal.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6229,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6229,
+        "Arguments of Respondent": 0.1112,
+        "Decision": 0.0032,
+        "Facts": 0.161,
+        "Issue": 0.0004,
+        "Reasoning": 0.1012
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8212,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8212,
+        "Arguments of Respondent": 0.0424,
+        "Decision": 0.0025,
+        "Facts": 0.101,
+        "Issue": 0.0063,
+        "Reasoning": 0.0266
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "On the other hand, Shri Ghare, learned Counsel for the respondent submitted that the petitioner has not come before the Court with clean hand.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.9801,
+        "Decision": 0.0002,
+        "Facts": 0.0025,
+        "Issue": 0.0001,
+        "Reasoning": 0.0134
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "He has suppressed the fact that he was charge sheeted under Rule 29 of the Coal India Executives CDA Rules, 1978 on an allegation that he had misused his official position as a General Manager and as a tender committee member in tendering process of supply, installation and commission of secondary crusher.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3495,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3451,
+        "Arguments of Respondent": 0.1768,
+        "Decision": 0.0004,
+        "Facts": 0.1277,
+        "Issue": 0.0004,
+        "Reasoning": 0.3495
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "He gave undue favor while working as a member of Tender Committee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2879,
+        "Arguments of Respondent": 0.1046,
+        "Decision": 0.0006,
+        "Facts": 0.2147,
+        "Issue": 0.0013,
+        "Reasoning": 0.3908
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 59,
+      "text": "As the reply given by him was unsatisfactory, the departmental enquiry was ordered against him and the same has not been completed.",
+      "predicted_label": "Facts",
+      "confidence": 0.933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0005,
+        "Facts": 0.933,
+        "Issue": 0.0046,
+        "Reasoning": 0.0537
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "If he is exonerated from the said enquiry he is entitled for the said encashment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7321,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0151,
+        "Decision": 0.0133,
+        "Facts": 0.1776,
+        "Issue": 0.043,
+        "Reasoning": 0.7321
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "He invited the attention towards CDA Rules 34.2 which specifically states that disciplinary proceeding, if instituted while an employee was in service whether before his retirement or during his reemployment shall, after the final retirement of the employee, be deemed to be proceeding and shall be continued and concluded by the authority by which it was commenced in the same manner as if the employee had continued in service.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.356,
+        "Arguments of Respondent": 0.6293,
+        "Decision": 0.0001,
+        "Facts": 0.002,
+        "Issue": 0.0001,
+        "Reasoning": 0.0125
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "He submitted that the provisions of the Mines Act, 1972 are not at all applicable to the petitioner as he was working as an Executive.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4412,
+        "Arguments of Respondent": 0.4872,
+        "Decision": 0.0015,
+        "Facts": 0.0425,
+        "Issue": 0.0009,
+        "Reasoning": 0.0267
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 63,
+      "text": "As the petitioner was charge sheeted his leave encashment is withheld.",
+      "predicted_label": "Facts",
+      "confidence": 0.9577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.001,
+        "Facts": 0.9577,
+        "Issue": 0.0006,
+        "Reasoning": 0.0329
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "The petitioner is very well aware about the said fact which is specifically mentioned in the memorandum which was issued to him.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4269,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1218,
+        "Arguments of Respondent": 0.0927,
+        "Decision": 0.0018,
+        "Facts": 0.3559,
+        "Issue": 0.0009,
+        "Reasoning": 0.4269
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 65,
+      "text": "The memorandum bearing No. CIL VIG/2015 dated 08/09/2015 specifically states that it laid down vide CIL VIG/05057/PartI/2600 dated 22/02/2006 that in case of final settlement of dues on superannuation or voluntary retirement resignation, Vigilance Status shall be withheld only if a major penalty proceeding memorandum has been served on the employee and till the issue of final order in the case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0271,
+        "Arguments of Respondent": 0.0263,
+        "Decision": 0.0003,
+        "Facts": 0.1407,
+        "Issue": 0.0002,
+        "Reasoning": 0.8055
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "Despite such clear stipulation, it has come to notice that the gratuity leave salary etc. is being withheld merely because any investigation by Vigilance or CBI is going on or any report is under consideration of CVO DA MOC CVC etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0413,
+        "Arguments of Respondent": 0.0457,
+        "Decision": 0.0006,
+        "Facts": 0.4233,
+        "Issue": 0.0018,
+        "Reasoning": 0.4874
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 67,
+      "text": "at the time of superannuation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8529,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0424,
+        "Arguments of Respondent": 0.0232,
+        "Decision": 0.0009,
+        "Facts": 0.0774,
+        "Issue": 0.0033,
+        "Reasoning": 0.8529
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "The said memorandum specifically states that the leave encashment and T.A. bill can be withheld if chargesheet for major penalty has been served till its finalisation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4545,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0564,
+        "Arguments of Respondent": 0.0665,
+        "Decision": 0.0212,
+        "Facts": 0.401,
+        "Issue": 0.0005,
+        "Reasoning": 0.4545
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 69,
+      "text": "He submitted that in accordance with the specific policy of the Company and as chargesheet is served upon the petitioner the leave encashment is withheld.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6308,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6308,
+        "Arguments of Respondent": 0.3094,
+        "Decision": 0.0004,
+        "Facts": 0.035,
+        "Issue": 0.0004,
+        "Reasoning": 0.024
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "Hence the action of the respondent is legal and proper one and the petition deserves to be dismissed.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6325,
+      "probabilities": {
+        "Arguments of Petitioner": 0.012,
+        "Arguments of Respondent": 0.6325,
+        "Decision": 0.0696,
+        "Facts": 0.1354,
+        "Issue": 0.0018,
+        "Reasoning": 0.1487
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 71,
+      "text": "After hearing of both the sides and on perusal of the record it is an admitted position that the petitioner was appointed as a Junior Executive Trainee (E and M) under the Central Mine Planning and Design Institute (CMPDI), Ranchi.",
+      "predicted_label": "Facts",
+      "confidence": 0.9498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9498,
+        "Issue": 0.0045,
+        "Reasoning": 0.043
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "On 30/11/2016, the petitioner retired from the respondent Company on attaining the age of 60 years from the post of General Manager.",
+      "predicted_label": "Facts",
+      "confidence": 0.9564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0116,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0001,
+        "Facts": 0.9564,
+        "Issue": 0.0095,
+        "Reasoning": 0.016
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "The memorandum states that it is laid down in OM No.CIL VIG/05057/PartI/2600 dated 22/02/2006 that in case of final settlement of dues on superannuation or voluntary retirement resignation, Vigilance Status shall be withheld only if a major penalty proceeding memorandum has been served on the employee and till the issue of final order in the case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5208,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0408,
+        "Arguments of Respondent": 0.0489,
+        "Decision": 0.0003,
+        "Facts": 0.389,
+        "Issue": 0.0003,
+        "Reasoning": 0.5208
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 74,
+      "text": "Despite such clear stipulation, it has come to notice that gratuity leave salary etc. was being withheld merely because any investigation by Vigilance or CBI is going on or any report is under consideration of CVO DA MOC CVC etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0345,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0004,
+        "Facts": 0.3724,
+        "Issue": 0.0017,
+        "Reasoning": 0.5666
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "at the time of superannuation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8529,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0424,
+        "Arguments of Respondent": 0.0232,
+        "Decision": 0.0009,
+        "Facts": 0.0774,
+        "Issue": 0.0033,
+        "Reasoning": 0.8529
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "It further clarifies that leave encashment and T.A. bills can be withheld if chargesheet for major penalty has been served till its finalisation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0376,
+        "Decision": 0.0025,
+        "Facts": 0.0954,
+        "Issue": 0.0002,
+        "Reasoning": 0.8366
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "12.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7793,
+        "Arguments of Respondent": 0.0423,
+        "Decision": 0.0024,
+        "Facts": 0.0919,
+        "Issue": 0.0095,
+        "Reasoning": 0.0746
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "The petitioner has relied upon the Coal India Executives Leave Rules, 2010.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5388,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5388,
+        "Arguments of Respondent": 0.0175,
+        "Decision": 0.0031,
+        "Facts": 0.3032,
+        "Issue": 0.0043,
+        "Reasoning": 0.1332
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "Rule No.12.3 speaks about the extent of encashment of earned leave.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9156,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0172,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0003,
+        "Facts": 0.0597,
+        "Issue": 0.001,
+        "Reasoning": 0.9156
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "Rule No.12.4 states about encashment of earned leave on termination of service retirement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0392,
+        "Arguments of Respondent": 0.017,
+        "Decision": 0.0002,
+        "Facts": 0.056,
+        "Issue": 0.0004,
+        "Reasoning": 0.8872
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "Rule 12.4.1 says that leave at credit shall not be granted for encashment if an executive resigns from the service.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9211,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0415,
+        "Arguments of Respondent": 0.0228,
+        "Decision": 0.0003,
+        "Facts": 0.0137,
+        "Issue": 0.0006,
+        "Reasoning": 0.9211
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "However an executive who has resigned from the service can avail the benefit for the encashable portion of earned leave prior to the date of his actual quitting release from service.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0509,
+        "Arguments of Respondent": 0.0309,
+        "Decision": 0.0004,
+        "Facts": 0.2386,
+        "Issue": 0.0013,
+        "Reasoning": 0.6779
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "Rule 12.4.2 speaks about the termination which states that an executive governed under the Coal India Service Rules, whose services are terminated, otherwise than on disciplinary grounds, or who retires on superannuation, may be allowed to encash the earned leave at his credit, subject to a maximum of 300 days.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8258,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0748,
+        "Arguments of Respondent": 0.0469,
+        "Decision": 0.0001,
+        "Facts": 0.0518,
+        "Issue": 0.0005,
+        "Reasoning": 0.8258
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "This rule specifically states that a person who is terminated otherwise than on disciplinary ground may be allowed to encash the earned leave at his credit and Rule No.12.4.3 speaks about the contingency in case of death.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0183,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0002,
+        "Facts": 0.0884,
+        "Issue": 0.0002,
+        "Reasoning": 0.882
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "Admittedly in the present case, the petitioner served with the chargesheet it means disciplinary action has been taken and the enquiry is pending.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6704,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0568,
+        "Arguments of Respondent": 0.0631,
+        "Decision": 0.0174,
+        "Facts": 0.1883,
+        "Issue": 0.0039,
+        "Reasoning": 0.6704
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "13.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8168,
+        "Arguments of Respondent": 0.0351,
+        "Decision": 0.0033,
+        "Facts": 0.0695,
+        "Issue": 0.0095,
+        "Reasoning": 0.0659
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "It is submitted by the petitioner that in view of Section 52 of the Mines Act, 1952, he is entitled for the said leave encashment.",
+      "predicted_label": "Facts",
+      "confidence": 0.8491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0648,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0047,
+        "Facts": 0.8491,
+        "Issue": 0.0158,
+        "Reasoning": 0.0637
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "Admittedly the Mines Act, 1952 was passed with a view to amend and consolidating the law relating to the regulation of labour and safety in mines.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0235,
+        "Arguments of Respondent": 0.0284,
+        "Decision": 0.0026,
+        "Facts": 0.1816,
+        "Issue": 0.007,
+        "Reasoning": 0.7569
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "The statement and objects as per the Mines (Amendment) Act No.42 of 1983 speaks about regulating the working condition in mines by providing for measures to be taken for safety of the workers employed therein and certain amenities for them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7272,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0312,
+        "Arguments of Respondent": 0.0222,
+        "Decision": 0.0109,
+        "Facts": 0.2081,
+        "Issue": 0.0004,
+        "Reasoning": 0.7272
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "Section 52 of the Mines Act, 1952 states about annual leave wages.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0706,
+        "Arguments of Respondent": 0.0541,
+        "Decision": 0.0053,
+        "Facts": 0.3124,
+        "Issue": 0.002,
+        "Reasoning": 0.5556
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "Wages are a sum of money paid under the contract by an employers to a worker for services rendered.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9299,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0224,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0005,
+        "Facts": 0.0209,
+        "Issue": 0.0059,
+        "Reasoning": 0.9299
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "Wages are payments for labour services rendered in hourly rates while a salary is a similar payment expressed in weekly, monthly or annual rates.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9184,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0341,
+        "Arguments of Respondent": 0.0254,
+        "Decision": 0.0003,
+        "Facts": 0.0184,
+        "Issue": 0.0034,
+        "Reasoning": 0.9184
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "Section 52(10) specifically states about the wages to a persons employed in mines.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1025,
+        "Arguments of Respondent": 0.1043,
+        "Decision": 0.0007,
+        "Facts": 0.0367,
+        "Issue": 0.0003,
+        "Reasoning": 0.7556
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "The petitioner was working with the Company as a Junior Executive Trainee.",
+      "predicted_label": "Facts",
+      "confidence": 0.8459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0002,
+        "Facts": 0.8459,
+        "Issue": 0.0106,
+        "Reasoning": 0.1274
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "At no point of time he worked as a worker.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1068,
+        "Arguments of Respondent": 0.0429,
+        "Decision": 0.0029,
+        "Facts": 0.1606,
+        "Issue": 0.0056,
+        "Reasoning": 0.6812
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 96,
+      "text": "As he was working as an Executive he had to perform his duty not in the mines and, therefore, the provisions of Mines Act, 1952 are not applicable to him.",
+      "predicted_label": "Facts",
+      "confidence": 0.4904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0587,
+        "Arguments of Respondent": 0.0699,
+        "Decision": 0.0013,
+        "Facts": 0.4904,
+        "Issue": 0.0017,
+        "Reasoning": 0.3779
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 97,
+      "text": "The aspects whether the provisions of the Mines Act, 1952 are applicable to the Executives is dealt by this Court in W.P. No.4104/2017 (Shri Gurjit Singh s o Late Gopal Singh Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5274,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0475,
+        "Arguments of Respondent": 0.0473,
+        "Decision": 0.0112,
+        "Facts": 0.3542,
+        "Issue": 0.0124,
+        "Reasoning": 0.5274
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "Coal India Ltd. and anr.)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0903,
+        "Arguments of Respondent": 0.0748,
+        "Decision": 0.1906,
+        "Facts": 0.1383,
+        "Issue": 0.0146,
+        "Reasoning": 0.4915
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "and W.P. No.4318/2017 (Mrs. Anjana Mehta wd o",
+      "predicted_label": "Facts",
+      "confidence": 0.6868,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2203,
+        "Arguments of Respondent": 0.0391,
+        "Decision": 0.008,
+        "Facts": 0.6868,
+        "Issue": 0.0153,
+        "Reasoning": 0.0305
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 100,
+      "text": "Deceased Dr. Surendraprasad Mehta Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5664,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5664,
+        "Arguments of Respondent": 0.1726,
+        "Decision": 0.0145,
+        "Facts": 0.1464,
+        "Issue": 0.0289,
+        "Reasoning": 0.0711
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 101,
+      "text": "Coal India Ltd. and ors.)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5561,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0286,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.1312,
+        "Facts": 0.2498,
+        "Issue": 0.0128,
+        "Reasoning": 0.5561
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 102,
+      "text": "wherein it is held by this Court that in view of the provisions contained in Section 2(h) and Section 17 of the Act read with Section 52(10) thereof as well as the provisions contained in the Coal Mines Regulations 1957 (hereinafter referred to as the Regulations for short) the legal position was clear that the Act provides the benefits for those who are actually employed in mines and similar such benefits cannot be extended to Officers Executives of the WCL.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5847,
+        "Arguments of Respondent": 0.1952,
+        "Decision": 0.0004,
+        "Facts": 0.1145,
+        "Issue": 0.0046,
+        "Reasoning": 0.1005
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 103,
+      "text": "It is observed by this Court that in view of the marginal note given under Section 52 says Annual Leave with Wages, it was primarily relatable to entitlement to and release of wages to any person employed in a mine.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.028,
+        "Arguments of Respondent": 0.0256,
+        "Decision": 0.0002,
+        "Facts": 0.0164,
+        "Issue": 0.0007,
+        "Reasoning": 0.929
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "The word wages has not been defined in the Act, but is defined in the Industrial Disputes Act, 1947.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8851,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0411,
+        "Arguments of Respondent": 0.061,
+        "Decision": 0.0008,
+        "Facts": 0.0077,
+        "Issue": 0.0042,
+        "Reasoning": 0.8851
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "Wages are ordinarily paid to workmen labourers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.024,
+        "Arguments of Respondent": 0.0193,
+        "Decision": 0.0003,
+        "Facts": 0.0502,
+        "Issue": 0.0012,
+        "Reasoning": 0.905
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "Officers executives are not paid wages in the sense the term is used with reference to workmen labourers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2821,
+        "Arguments of Respondent": 0.2025,
+        "Decision": 0.0002,
+        "Facts": 0.06,
+        "Issue": 0.0014,
+        "Reasoning": 0.4538
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 107,
+      "text": "It is further clarified by this Court in the said writ petitions that the term Manager in Section 2(h) read with Section 17 read with Regulation 31 of the Regulations would mean only those Managers, who have the requisite qualifications to work in mine and are comprehended within the meaning of the words a person is said to be employed in a mine.",
+      "predicted_label": "Facts",
+      "confidence": 0.7988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.0326,
+        "Decision": 0.0031,
+        "Facts": 0.7988,
+        "Issue": 0.0051,
+        "Reasoning": 0.1389
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "It is observed by this Court that the said petitioners had no right in law to claim leave encashment benefits, which otherwise were due to them but for the orders of removal on disciplinary ground and dismissal consequent to conviction recorded by the Special Court, in view of clear provision in Rule 7.2 of the Service Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0365,
+        "Arguments of Respondent": 0.0317,
+        "Decision": 0.0013,
+        "Facts": 0.24,
+        "Issue": 0.0062,
+        "Reasoning": 0.6844
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 109,
+      "text": "In the present case, admittedly the petitioner was served with the chargesheet.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0407,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0037,
+        "Facts": 0.0575,
+        "Issue": 0.0148,
+        "Reasoning": 0.864
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "The charges levelled against him are serious in nature.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6182,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1538,
+        "Arguments of Respondent": 0.0822,
+        "Decision": 0.0428,
+        "Facts": 0.0954,
+        "Issue": 0.0077,
+        "Reasoning": 0.6182
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 111,
+      "text": "Learned Counsel for the petitioner relied upon the decision in Jaswant Singh (supra) but the said judgment is overruled by ChairmanCumManaging Director,",
+      "predicted_label": "Facts",
+      "confidence": 0.4573,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3391,
+        "Arguments of Respondent": 0.0132,
+        "Decision": 0.0177,
+        "Facts": 0.4573,
+        "Issue": 0.0067,
+        "Reasoning": 0.166
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 112,
+      "text": "Mahanadi Coalfields Ltd.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4159,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1027,
+        "Arguments of Respondent": 0.0727,
+        "Decision": 0.0302,
+        "Facts": 0.315,
+        "Issue": 0.0635,
+        "Reasoning": 0.4159
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 113,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 114,
+      "text": "Rabindranath Choubey (2020) 18 SCC 71.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6431,
+        "Arguments of Respondent": 0.2533,
+        "Decision": 0.0014,
+        "Facts": 0.0239,
+        "Issue": 0.0029,
+        "Reasoning": 0.0754
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 115,
+      "text": "The Honble Apex Court in the case of ChairmanCumManaging Director, Mahanadi Coalfields Ltd. (supra) specifically observed that when the Rule 34 of the CDA Rules permits continuance of the departmental enquiry even after the retirement of an employee and such a retired employee is deemed to be in service and on conclusion of the departmental enquiry initiated while the employee was in service, penalty of dismissal was permissible.",
+      "predicted_label": "Facts",
+      "confidence": 0.4771,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0625,
+        "Arguments of Respondent": 0.0691,
+        "Decision": 0.0006,
+        "Facts": 0.4771,
+        "Issue": 0.0033,
+        "Reasoning": 0.3875
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 116,
+      "text": "The employer would get the right to forfeit the payment of gratuity of such an employee as provided under Section 4(1) and 4(6) of the Payment of Gratuity Act, 1972 and even under Rule 34.3 of the CDA Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.571,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1822,
+        "Arguments of Respondent": 0.189,
+        "Decision": 0.0013,
+        "Facts": 0.0559,
+        "Issue": 0.0005,
+        "Reasoning": 0.571
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 117,
+      "text": "In view of the ratio laid down by the Honble Apex Court and in the light of specific policy i.e. memorandum issued by the Company, the specific provision states when the chargesheet for major penalty has been served, leave encashment and T.A. bills can be withheld.",
+      "predicted_label": "Facts",
+      "confidence": 0.8152,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0258,
+        "Arguments of Respondent": 0.0183,
+        "Decision": 0.0004,
+        "Facts": 0.8152,
+        "Issue": 0.0011,
+        "Reasoning": 0.1393
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "Admittedly, the present petitioner was served with the chargesheet with serious charges wherein monetary consideration is involved.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2435,
+        "Arguments of Respondent": 0.1423,
+        "Decision": 0.008,
+        "Facts": 0.1782,
+        "Issue": 0.0116,
+        "Reasoning": 0.4165
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 119,
+      "text": "In the light of specific provision petitioners leave encashment is withheld by the respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5218,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0755,
+        "Arguments of Respondent": 0.0342,
+        "Decision": 0.0158,
+        "Facts": 0.3421,
+        "Issue": 0.0106,
+        "Reasoning": 0.5218
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "We hold that the action of the respondent is as per the Services Rules and the petitioner is not entitled to any relief.",
+      "predicted_label": "Facts",
+      "confidence": 0.6061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.2174,
+        "Facts": 0.6061,
+        "Issue": 0.0012,
+        "Reasoning": 0.1696
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 121,
+      "text": "The writ petition is devoid of any merit and deserves to be dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.7226,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.2056,
+        "Decision": 0.7226,
+        "Facts": 0.031,
+        "Issue": 0.0033,
+        "Reasoning": 0.0329
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "Hence, the writ petition is dismissed.",
+      "predicted_label": "Facts",
+      "confidence": 0.6075,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.3233,
+        "Facts": 0.6075,
+        "Issue": 0.0035,
+        "Reasoning": 0.0486
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 123,
+      "text": "Rule stands discharged.",
+      "predicted_label": "Decision",
+      "confidence": 0.7541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.7541,
+        "Facts": 0.2267,
+        "Issue": 0.0007,
+        "Reasoning": 0.0162
+      }
+    }
+  ]
+}

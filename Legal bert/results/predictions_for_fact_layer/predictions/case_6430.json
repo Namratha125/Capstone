@@ -1,0 +1,4541 @@
+{
+  "case_id": "6430",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This appeal by special leave challenges a judgment of the Kerala High Court (In MFA 108/2006 decided on 05.12.2008), which allowed an appeal preferred by the respondent (hereafter called Popular Estates) and held that an area of slightly over 402 acres (i.e., 100 hectares and 155.90 acres) vested in the State of Kerala (hereafter the state), and the rest of the land (of a total 1534.40 acres) had to be treated as plantation, and thus, belonged to the said respondent.",
+      "predicted_label": "Issue",
+      "confidence": 0.8027,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0006,
+        "Facts": 0.1948,
+        "Issue": 0.8027,
+        "Reasoning": 0.0012
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "2. Popular Estates became owners of 1534.40 acres of land.",
+      "predicted_label": "Facts",
+      "confidence": 0.9625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0001,
+        "Facts": 0.9625,
+        "Issue": 0.005,
+        "Reasoning": 0.0171
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Those lands were acquired by sale, by M s Popular Automobiles, a registered firm, through four registered deeds executed in 1963.",
+      "predicted_label": "Facts",
+      "confidence": 0.8302,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0002,
+        "Facts": 0.8302,
+        "Issue": 0.0079,
+        "Reasoning": 0.1102
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "These lands fell to Popular Estates share upon partition of the firms assets.",
+      "predicted_label": "Facts",
+      "confidence": 0.6148,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0635,
+        "Arguments of Respondent": 0.0363,
+        "Decision": 0.0009,
+        "Facts": 0.6148,
+        "Issue": 0.0032,
+        "Reasoning": 0.2812
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Kerala Private Forests (Vesting and Assignment) Act, 1971 (hereafter the Vesting Act) came into force with effect from 10.5.1971.",
+      "predicted_label": "Facts",
+      "confidence": 0.9856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9856,
+        "Issue": 0.0055,
+        "Reasoning": 0.0063
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Under Section 3 of the Vesting Act, all private forests vested in the State Government.",
+      "predicted_label": "Facts",
+      "confidence": 0.4812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0466,
+        "Arguments of Respondent": 0.0302,
+        "Decision": 0.0004,
+        "Facts": 0.4812,
+        "Issue": 0.0007,
+        "Reasoning": 0.4409
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "The Act was challenged before the Kerala High Court, which struck it down, by a judgment, in 1972.",
+      "predicted_label": "Facts",
+      "confidence": 0.6588,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0265,
+        "Arguments of Respondent": 0.0522,
+        "Decision": 0.0006,
+        "Facts": 0.6588,
+        "Issue": 0.0303,
+        "Reasoning": 0.2315
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "That judgment was reversed by this Courts ruling in 1973 (State of Kerala v Gwalior Rayon Silk Manufacturing and Weaving Co.1974 (1) SCR 671 ).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0488,
+        "Arguments of Respondent": 0.0486,
+        "Decision": 0.0007,
+        "Facts": 0.4299,
+        "Issue": 0.0115,
+        "Reasoning": 0.4605
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The forest authorities attempted to take possession of large areas of land occupied by Popular Estates, arguing that they were private forests and had vested in the state, under the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.594,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0004,
+        "Facts": 0.3824,
+        "Issue": 0.0016,
+        "Reasoning": 0.594
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "Popular Estates moved two Original Applications (O.P Nos.",
+      "predicted_label": "Facts",
+      "confidence": 0.9472,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.01,
+        "Facts": 0.9472,
+        "Issue": 0.0297,
+        "Reasoning": 0.0077
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Nos. 242 243/ 1974) before the Forest Tribunal (tribunal hereafter) under Section 8 of the Act claiming a declaration that no part of the estate consisting 1534.40 acres was liable to vest in the state.",
+      "predicted_label": "Facts",
+      "confidence": 0.9867,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9867,
+        "Issue": 0.0116,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "Since it was being cultivated and hence, it was exempt under the provisions of the Vesting Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.5983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1173,
+        "Arguments of Respondent": 0.0863,
+        "Decision": 0.0014,
+        "Facts": 0.5983,
+        "Issue": 0.0024,
+        "Reasoning": 0.1942
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "The state opposed those applications.",
+      "predicted_label": "Facts",
+      "confidence": 0.8931,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0153,
+        "Arguments of Respondent": 0.0191,
+        "Decision": 0.0005,
+        "Facts": 0.8931,
+        "Issue": 0.0151,
+        "Reasoning": 0.0569
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The tribunal appointed a commissioner to inspect the entire area and report about its state to it.",
+      "predicted_label": "Facts",
+      "confidence": 0.9209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0002,
+        "Facts": 0.9209,
+        "Issue": 0.0005,
+        "Reasoning": 0.0685
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The commissioner after a preliminary inspection was of the view that a detailed survey of the land was necessary as most of the land was situated on hills, and therefore, inaccessible.",
+      "predicted_label": "Facts",
+      "confidence": 0.8782,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0002,
+        "Facts": 0.8782,
+        "Issue": 0.0018,
+        "Reasoning": 0.1023
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Private surveyors, appointed to survey the land were unable to complete the work.",
+      "predicted_label": "Facts",
+      "confidence": 0.9596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0006,
+        "Facts": 0.9596,
+        "Issue": 0.001,
+        "Reasoning": 0.0341
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The tribunal directed Forest Department Survey Officers to survey the lands.",
+      "predicted_label": "Facts",
+      "confidence": 0.8888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0009,
+        "Facts": 0.8888,
+        "Issue": 0.0424,
+        "Reasoning": 0.0622
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The tribunal, thereafter dismissed the Original Applications (By order dated 15.02.1978).",
+      "predicted_label": "Facts",
+      "confidence": 0.9476,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0003,
+        "Facts": 0.9476,
+        "Issue": 0.0186,
+        "Reasoning": 0.0272
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "It made critical comments about the manner in which the surveyors had made the report and recorded that This exclusion by the forest officials, may be due to the fact that the magic money lulled them to sleep over the rights of the Government or may be due to the fact that the claim originally put forward by the forest officials was false.",
+      "predicted_label": "Facts",
+      "confidence": 0.5439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0004,
+        "Facts": 0.5439,
+        "Issue": 0.0002,
+        "Reasoning": 0.4377
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Neither way it is not very complimentary to the respondents here or to those officials concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7615,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0314,
+        "Arguments of Respondent": 0.0669,
+        "Decision": 0.0042,
+        "Facts": 0.1357,
+        "Issue": 0.0002,
+        "Reasoning": 0.7615
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "It is for the Government to make necessary immediate enquiry in this matter through some official, other than Forest Department official, if the Government so think and ascertain whether any area which legitimately come under the classification of private forest and which had vested in the Government besides bits 1 to 7 have been excluded by the forest officials or by the forest survey officials.",
+      "predicted_label": "Decision",
+      "confidence": 0.4779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.4779,
+        "Facts": 0.1913,
+        "Issue": 0.0009,
+        "Reasoning": 0.3241
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "On the basis of the Commissioners report and the facts mentioned by him, I am inclined to think that prima facie it appears that areas which should really be vested forest have been excluded, when the claim was confined to 100 hectares.",
+      "predicted_label": "Facts",
+      "confidence": 0.6398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0057,
+        "Facts": 0.6398,
+        "Issue": 0.0008,
+        "Reasoning": 0.3478
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "After orders of the tribunal, forest authorities attempted to take possession of the land.",
+      "predicted_label": "Facts",
+      "confidence": 0.9231,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0019,
+        "Facts": 0.9231,
+        "Issue": 0.0013,
+        "Reasoning": 0.0689
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "In the meanwhile, the state also issued notification no.",
+      "predicted_label": "Facts",
+      "confidence": 0.9709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9709,
+        "Issue": 0.0034,
+        "Reasoning": 0.0216
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "4713/1977 notifying 100 hectares of the respondent estate as private forest, based on survey undertaken by the forest department.",
+      "predicted_label": "Facts",
+      "confidence": 0.8574,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0015,
+        "Facts": 0.8574,
+        "Issue": 0.0933,
+        "Reasoning": 0.0384
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Popular Estates filed two appeals (MFA 230 231/1978) impugning the tribunals orders, before the High Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.9616,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0002,
+        "Facts": 0.9616,
+        "Issue": 0.0231,
+        "Reasoning": 0.0131
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "These were dismissed the special leave petition against those orders too, were dismissed.",
+      "predicted_label": "Facts",
+      "confidence": 0.8883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0004,
+        "Facts": 0.8883,
+        "Issue": 0.064,
+        "Reasoning": 0.042
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "Popular Estates then filed civil suits (Suit Nos. 69 71/ 1987 before the civil court Munsifs Court, Hosdurg) claiming that the state be permanently injuncted from taking possession.",
+      "predicted_label": "Facts",
+      "confidence": 0.9299,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0007,
+        "Facts": 0.9299,
+        "Issue": 0.0103,
+        "Reasoning": 0.0464
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Initially, the civil court refused to register the plaint on grounds of maintainability, later, the suits were entertained on the intervention of the High Court in civil revision.",
+      "predicted_label": "Facts",
+      "confidence": 0.6016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0182,
+        "Arguments of Respondent": 0.023,
+        "Decision": 0.0015,
+        "Facts": 0.6016,
+        "Issue": 0.0427,
+        "Reasoning": 0.3129
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "On 22.7.1987, the Custodian and Conservator of Vested Forests issued a notification (Ex. A27) under Section 6 of the Act demarcating 324 hectares of land belonging to Popular Plantation as vested forests under the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9832,
+        "Issue": 0.0006,
+        "Reasoning": 0.0146
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "This notification was challenged in writ proceedings (Before the Kerala High Court in OP No. 7498/ 1987).",
+      "predicted_label": "Facts",
+      "confidence": 0.9376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0001,
+        "Facts": 0.9376,
+        "Issue": 0.0115,
+        "Reasoning": 0.0451
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Popular Plantation also withdrew the two suits.",
+      "predicted_label": "Facts",
+      "confidence": 0.9001,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0013,
+        "Facts": 0.9001,
+        "Issue": 0.005,
+        "Reasoning": 0.0835
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Their writ petitions were dismissed on the ground that the respondents had alternate remedy available before the tribunal.",
+      "predicted_label": "Facts",
+      "confidence": 0.7248,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0159,
+        "Arguments of Respondent": 0.038,
+        "Decision": 0.0009,
+        "Facts": 0.7248,
+        "Issue": 0.0108,
+        "Reasoning": 0.2097
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "In these circumstances, Popular Estates filed applications (Original Applications Nos. 28 29/ 1988) before the tribunal under Section 8 of the Vesting Act challenging the notification dated 22.07.1987 and seeking a declaration that the property covered by the applications was not private forest and had not vested in the state government.",
+      "predicted_label": "Facts",
+      "confidence": 0.9886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9886,
+        "Issue": 0.0021,
+        "Reasoning": 0.0079
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Simultaneously, they also filed a writ appeal (Before the Kerala High court in WA No. 165/1989) against the order dismissing their writ petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.9256,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0004,
+        "Facts": 0.9256,
+        "Issue": 0.0441,
+        "Reasoning": 0.024
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The writ appeal was admitted subject to the condition that Popular Plantation withdraw its original applications pending before the tribunal, and upon complying with the same, they approached the tribunal as directed, by filing original applications in 1990 (Original Applications Nos. 166 167/ 1990) challenging the states jurisdiction to issue the notification after a long lapse of time.",
+      "predicted_label": "Facts",
+      "confidence": 0.9296,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0008,
+        "Facts": 0.9296,
+        "Issue": 0.0061,
+        "Reasoning": 0.0527
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "Popular Plantation also filed an appeal before this court, which was disposed of Civil Appeal No. 200/ 1991 disposed by order dated 11.1.1991 reported in Popular Plantation v. State of Kerala, 1991 Supp (2) SCC 720.",
+      "predicted_label": "Facts",
+      "confidence": 0.9759,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0004,
+        "Facts": 0.9759,
+        "Issue": 0.0025,
+        "Reasoning": 0.0115
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "This court observed that Popular Plantation had the liberty of appearing and pursuing their application before the tribunal, confining the challenge to the validity of the notification on the grounds set out in the writ petition filed in the High Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0542,
+        "Arguments of Respondent": 0.0976,
+        "Decision": 0.0005,
+        "Facts": 0.0332,
+        "Issue": 0.0006,
+        "Reasoning": 0.8139
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "In the event the tribunal held it had no jurisdiction, liberty was given to file an appeal and or a writ petition before the High Court to challenge the notification but only on the said grounds.",
+      "predicted_label": "Facts",
+      "confidence": 0.8965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0002,
+        "Facts": 0.8965,
+        "Issue": 0.002,
+        "Reasoning": 0.0922
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "5. Popular Estates amended its original applications pending before the tribunal (OA Nos. 166 167/1990) and also filed a writ petition before the High Court (OP No. 4751/ 1993) challenging the validity of the notification dated 22.7.1987.",
+      "predicted_label": "Facts",
+      "confidence": 0.9947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9947,
+        "Issue": 0.001,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "The tribunal dismissed (By order dated 30.10.1992) the two original applications holding that in its earlier order it had only dealt with the status of 100 hectares of the land and, therefore, with regard to rest of the land the State was empowered to issue a fresh notification.",
+      "predicted_label": "Facts",
+      "confidence": 0.9777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9777,
+        "Issue": 0.0103,
+        "Reasoning": 0.0108
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "This order was challenged in an appeal before the High Court (MFA No. 72/ 1993).",
+      "predicted_label": "Facts",
+      "confidence": 0.899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0002,
+        "Facts": 0.899,
+        "Issue": 0.034,
+        "Reasoning": 0.0554
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "By a common judgment (Dated 07.04.1994 the High Court allowed MFA No. 72/1993 and writ petition OP No. 4751/1993)",
+      "predicted_label": "Facts",
+      "confidence": 0.981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0006,
+        "Facts": 0.981,
+        "Issue": 0.0137,
+        "Reasoning": 0.0039
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "the High Court allowed the appeal and writ petition, holding the notification to be valid only in respect of the 100 hectares of vested forest.",
+      "predicted_label": "Facts",
+      "confidence": 0.9387,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0003,
+        "Facts": 0.9387,
+        "Issue": 0.0476,
+        "Reasoning": 0.0116
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "It was held that there was no vesting so far as the rest of the land was concerned.",
+      "predicted_label": "Facts",
+      "confidence": 0.4958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0413,
+        "Arguments of Respondent": 0.0404,
+        "Decision": 0.0004,
+        "Facts": 0.4958,
+        "Issue": 0.0034,
+        "Reasoning": 0.4186
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "The High Court also directed the Custodian of Vested Forests to demarcate the boundaries of the certain extent under Section 6 of the Act and restore possession of the remaining extent of the properties to Popular Plantation.",
+      "predicted_label": "Facts",
+      "confidence": 0.874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0008,
+        "Facts": 0.874,
+        "Issue": 0.0693,
+        "Reasoning": 0.0482
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The state appealed to this court, by special leave.",
+      "predicted_label": "Facts",
+      "confidence": 0.7942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0006,
+        "Facts": 0.7942,
+        "Issue": 0.1301,
+        "Reasoning": 0.0635
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The appeal (C.A 7111/1999) was decided by a judgment State of Kerala v. Popular Estates, (2004) 12 SCC 434 dated 04.11.2004 (hereafter referred to as PopularII).",
+      "predicted_label": "Facts",
+      "confidence": 0.9669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9669,
+        "Issue": 0.0191,
+        "Reasoning": 0.0101
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "This court, in PopularII noticed that the High Court had proceeded on the basis that the order made by the Taluk Land Board in a land ceiling case pertaining to Popular Plantation would amount to res judicata.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5119,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1012,
+        "Arguments of Respondent": 0.1355,
+        "Decision": 0.0012,
+        "Facts": 0.2474,
+        "Issue": 0.0029,
+        "Reasoning": 0.5119
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "A draft statement under the provisions of the Kerala Land Reforms Act, 1963 (hereafter, KLR Act) was filed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0001,
+        "Facts": 0.9653,
+        "Issue": 0.0024,
+        "Reasoning": 0.0151
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "Section 81 of the KLR Act exempted private forests and plantations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.253,
+        "Arguments of Respondent": 0.0999,
+        "Decision": 0.0008,
+        "Facts": 0.318,
+        "Issue": 0.0007,
+        "Reasoning": 0.3276
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 51,
+      "text": "Rule 10 of the Kerala Land Reforms (Ceiling) Rules, 1970 prescribed that Taluk Land Boards were to prepare a draft statement of lands to be surrendered and serve copies of such drafts on persons interested in the lands.",
+      "predicted_label": "Facts",
+      "confidence": 0.5249,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0592,
+        "Arguments of Respondent": 0.307,
+        "Decision": 0.0002,
+        "Facts": 0.5249,
+        "Issue": 0.0009,
+        "Reasoning": 0.1079
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "In the draft statement prepared by the Taluk Land Board (hereafter, the Board), Popular Estates was shown to hold an extent of 157673257 acres of land, of which 153725645 acres fell under the exempted category, and that Popular Estates was eligible to retain the balance extent within the ceiling area.",
+      "predicted_label": "Facts",
+      "confidence": 0.9418,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0231,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.0002,
+        "Facts": 0.9418,
+        "Issue": 0.005,
+        "Reasoning": 0.0122
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Board concluded (Order of Taluk Land Board dated 04.11.1980) that there was no surplus land to be surrendered to the state.",
+      "predicted_label": "Facts",
+      "confidence": 0.6185,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0315,
+        "Arguments of Respondent": 0.2774,
+        "Decision": 0.0005,
+        "Facts": 0.6185,
+        "Issue": 0.0017,
+        "Reasoning": 0.0704
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "The state government did not challenge the declaration made by the Board but sought to initiate proceedings under Section 85(9A) of the KLR Act, by issuing notice dated 18.05.1992 for reopening the final order of the Taluk Land Board.",
+      "predicted_label": "Facts",
+      "confidence": 0.3432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1016,
+        "Arguments of Respondent": 0.3289,
+        "Decision": 0.0015,
+        "Facts": 0.3432,
+        "Issue": 0.0008,
+        "Reasoning": 0.224
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 55,
+      "text": "That notice had been challenged by Popular Estates by their civil revision petition (CRP No. 1409/ 1992) before the Kerala High Court by which further proceedings were stayed.",
+      "predicted_label": "Facts",
+      "confidence": 0.7445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0238,
+        "Arguments of Respondent": 0.0509,
+        "Decision": 0.001,
+        "Facts": 0.7445,
+        "Issue": 0.0061,
+        "Reasoning": 0.1737
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "Based on a previous judgment rendered in Kunjanam Antony v. State of Kerala (2003) 3 SCC 221 this court held that the Boards determination could not operate as res judicata, but would be a piece of evidence.",
+      "predicted_label": "Facts",
+      "confidence": 0.5509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0342,
+        "Arguments of Respondent": 0.0353,
+        "Decision": 0.0028,
+        "Facts": 0.5509,
+        "Issue": 0.0163,
+        "Reasoning": 0.3606
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "This court remanded the matter back to the tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0625,
+        "Arguments of Respondent": 0.0564,
+        "Decision": 0.0014,
+        "Facts": 0.3026,
+        "Issue": 0.0023,
+        "Reasoning": 0.5747
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "The tribunal reappreciated the evidence on the record as required by this court and rejected Popular Estates appeal (By its order dated 25.05.2005).",
+      "predicted_label": "Facts",
+      "confidence": 0.5475,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0372,
+        "Decision": 0.0002,
+        "Facts": 0.5475,
+        "Issue": 0.0007,
+        "Reasoning": 0.3976
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 59,
+      "text": "Noticing that the burden was upon Popular Estates to establish that the disputed properties were not private forests but were cultivated as plantations, the tribunal observed that in terms of the Vesting Act, especially Section 2(f) and its various components, the first requirement was to consider whether the lands or any part of the lands fell within the purview of the Madras Preservation of Private Forests Act, 1949 (hereafter, the Madras Act) which was immediately in force before the Vesting Act was enacted.",
+      "predicted_label": "Facts",
+      "confidence": 0.9646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9646,
+        "Issue": 0.0147,
+        "Reasoning": 0.0182
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "It was noticed that the Madras Act applied to all private forests in Malabar and south Kanara having a contiguous area of 100 acres.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0444,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0002,
+        "Facts": 0.1606,
+        "Issue": 0.0005,
+        "Reasoning": 0.7753
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The disputed properties were situated at a place within erstwhile Malabar district and the tribunal took note of the Range Officers evidence (RW1) which suggested that the Madras Act applied to the disputed property.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.116,
+        "Arguments of Respondent": 0.1274,
+        "Decision": 0.0008,
+        "Facts": 0.284,
+        "Issue": 0.0006,
+        "Reasoning": 0.4712
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "The tribunals order also took into account Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.7923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0002,
+        "Facts": 0.7923,
+        "Issue": 0.0004,
+        "Reasoning": 0.1963
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "A37, one of the title deeds which referred to the permission granted by the District Collector to sell the property and held that such permission was necessary having regard to the provisions of the Madras Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.4361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0649,
+        "Arguments of Respondent": 0.0591,
+        "Decision": 0.0006,
+        "Facts": 0.4361,
+        "Issue": 0.0034,
+        "Reasoning": 0.4358
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 64,
+      "text": "Relying on Section 2(f)(1)(i)(B) of the Vesting Act, the tribunal stated that this provision takes lands which were principally used for the cultivation of tea, coffee, cocoa, rubber, cardamom or cinnamon and lands used for any purpose ancillary to such cultivation, out of its coverage.",
+      "predicted_label": "Facts",
+      "confidence": 0.9027,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0119,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0002,
+        "Facts": 0.9027,
+        "Issue": 0.0083,
+        "Reasoning": 0.0727
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "In this regard Popular Estates had examined PW 5 and relied on a few documents to establish that the properties were cultivated with rubber, coffee and cardamom.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3544,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3544,
+        "Arguments of Respondent": 0.2379,
+        "Decision": 0.0008,
+        "Facts": 0.2403,
+        "Issue": 0.0003,
+        "Reasoning": 0.1664
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 66,
+      "text": "PW5 was the manager of the plantation his services began in 1969 as Office Assistant.",
+      "predicted_label": "Facts",
+      "confidence": 0.6814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0222,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0002,
+        "Facts": 0.6814,
+        "Issue": 0.0004,
+        "Reasoning": 0.2792
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 67,
+      "text": "He stated, in his evidence that at that stage (in 1969), 1130 acres of the estate was plantation and that 160 acres were also planted before commencement of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6257,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1672,
+        "Arguments of Respondent": 0.173,
+        "Decision": 0.0001,
+        "Facts": 0.0339,
+        "Issue": 0.0001,
+        "Reasoning": 0.6257
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "The tribunal brushed aside this evidence, concluding that nothing tangible emerged from it and that Popular Estates necessarily had to prove that the disputed properties were principally cultivated with rubber, coffee or cardamom.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5123,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0466,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0002,
+        "Facts": 0.428,
+        "Issue": 0.0008,
+        "Reasoning": 0.5123
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 69,
+      "text": "The tribunal faulted PW5s evidence as not being precise with respect to the extent of properties which had been planted with the different crops.",
+      "predicted_label": "Facts",
+      "confidence": 0.7793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0254,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0005,
+        "Facts": 0.7793,
+        "Issue": 0.0006,
+        "Reasoning": 0.1917
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "It also faulted his evidence on the ground that he had limited knowledge since he had to deal only with the estate when he became an Estate Supervisor in 197475 it was concluded that he did not have any direct knowledge with respect to the nature or extent of cultivation.",
+      "predicted_label": "Facts",
+      "confidence": 0.7082,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0001,
+        "Facts": 0.7082,
+        "Issue": 0.001,
+        "Reasoning": 0.2779
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "The tribunal considered Ex. A37A41 holding that they were title deeds.",
+      "predicted_label": "Facts",
+      "confidence": 0.7045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0183,
+        "Decision": 0.0005,
+        "Facts": 0.7045,
+        "Issue": 0.0008,
+        "Reasoning": 0.2614
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "It was noted that Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.8075,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0252,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0005,
+        "Facts": 0.8075,
+        "Issue": 0.0018,
+        "Reasoning": 0.136
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "A41 was executed in 1972, i.e. after the appointment date and being a photocopy  was in any case inadmissible.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3039,
+        "Arguments of Respondent": 0.4135,
+        "Decision": 0.0004,
+        "Facts": 0.0213,
+        "Issue": 0.0003,
+        "Reasoning": 0.2607
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 74,
+      "text": "The other documents had come into existence before the appointed day, however, their recitals did not disclose expressly that before the appointed date, the properties were cultivated with rubber, coffee and cardamon.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5128,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1385,
+        "Arguments of Respondent": 0.0428,
+        "Decision": 0.0004,
+        "Facts": 0.3052,
+        "Issue": 0.0002,
+        "Reasoning": 0.5128
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "The tribunal noted that the schedules in two of the documents  Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.7279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0004,
+        "Facts": 0.7279,
+        "Issue": 0.0006,
+        "Reasoning": 0.2555
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "A37 and 38  showed that the properties were cultivated with cardamom.",
+      "predicted_label": "Facts",
+      "confidence": 0.5401,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2213,
+        "Arguments of Respondent": 0.0906,
+        "Decision": 0.0002,
+        "Facts": 0.5401,
+        "Issue": 0.0006,
+        "Reasoning": 0.1471
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "These were to the extent of 72.762 hectares and 89.92 acres, but were not proved to be land within the disputed properties.",
+      "predicted_label": "Facts",
+      "confidence": 0.8117,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0336,
+        "Arguments of Respondent": 0.0329,
+        "Decision": 0.0002,
+        "Facts": 0.8117,
+        "Issue": 0.0019,
+        "Reasoning": 0.1196
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "The tribunal noted that this courts holding was that the Boards orders were not binding on the authorities under the Vesting Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0002,
+        "Facts": 0.777,
+        "Issue": 0.0009,
+        "Reasoning": 0.2094
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "It proceeded to analyse Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.8804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0002,
+        "Facts": 0.8804,
+        "Issue": 0.0008,
+        "Reasoning": 0.1118
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "A50 51 which was the draft statement of lands surrendered to the government under the KLR Act and the certified copy of the order of the Taluk Land Board, respectively.",
+      "predicted_label": "Facts",
+      "confidence": 0.3575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1488,
+        "Arguments of Respondent": 0.2911,
+        "Decision": 0.0011,
+        "Facts": 0.3575,
+        "Issue": 0.003,
+        "Reasoning": 0.1985
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 81,
+      "text": "In this context, the tribunal considered Objection no.7, that Popular Automobiles owned 1530.4 acres in Maloth village and that out of this, the private forest coming within the purview of the Madras Act  an extent of 1127.50 acres  had been converted into plantation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9163,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0001,
+        "Facts": 0.9163,
+        "Issue": 0.0002,
+        "Reasoning": 0.0759
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "The tribunal discarded the Boards findings as inconclusive.",
+      "predicted_label": "Facts",
+      "confidence": 0.748,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0116,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0005,
+        "Facts": 0.748,
+        "Issue": 0.0023,
+        "Reasoning": 0.2324
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "The tribunal further rejected the evidence of PW1, the Range Forest Officer, who had deposed before the earlier tribunal proceedings in O.A. 242 243/1974 to say that the dispute was confined to 100 hectares.",
+      "predicted_label": "Facts",
+      "confidence": 0.8913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0003,
+        "Facts": 0.8913,
+        "Issue": 0.0046,
+        "Reasoning": 0.0989
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "In this regard, the tribunal relied firstly, upon certain observations of this court in PopularII and secondly, that PW1 had no authority to admit any fact to the detriment of the state.",
+      "predicted_label": "Facts",
+      "confidence": 0.9359,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0076,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0001,
+        "Facts": 0.9359,
+        "Issue": 0.0015,
+        "Reasoning": 0.05
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "Likewise, the tribunal rejected other documentary evidence in the form of Ex. A11 and A14 as well as Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.9129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0004,
+        "Facts": 0.9129,
+        "Issue": 0.0005,
+        "Reasoning": 0.0784
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "A6 and A7 as insufficient to prove that the disputed properties were principally planted with rubber, coffee or cardamom.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7398,
+        "Arguments of Respondent": 0.1475,
+        "Decision": 0.0005,
+        "Facts": 0.0663,
+        "Issue": 0.0014,
+        "Reasoning": 0.0446
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "In the final analysis, the tribunal went by the fact that the disputed properties were covered by the Madras Act immediately before the appointed date.",
+      "predicted_label": "Facts",
+      "confidence": 0.6874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0003,
+        "Facts": 0.6874,
+        "Issue": 0.001,
+        "Reasoning": 0.2995
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 88,
+      "text": "It consequently held that Popular Estates failed to bring their case under any of the clauses to Section 2(f)(1)(i) of the Vesting Act (i.e. the exclusionary part), and therefore, failed to prove that any part of such properties were Estates meant for the cultivation of coffee, rubber, cardamom etc. 10.",
+      "predicted_label": "Facts",
+      "confidence": 0.9766,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9766,
+        "Issue": 0.0027,
+        "Reasoning": 0.0176
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "Aggrieved by the tribunals order, Popular Estates preferred an appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9826,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9826,
+        "Issue": 0.0061,
+        "Reasoning": 0.0096
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "the High Court in the impugned judgment recounted the entire proceedings particularly the judgement of this court in PopularII and the decision in Kunjanum Anthony (Supra).",
+      "predicted_label": "Facts",
+      "confidence": 0.7014,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0258,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0002,
+        "Facts": 0.7014,
+        "Issue": 0.001,
+        "Reasoning": 0.2425
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "It gave certain weight and credence to the observations and findings of the Board and held that the land ceiling proceedings were not res judicata in the proceedings under the Vesting Act but constituted a valid piece of evidence.",
+      "predicted_label": "Facts",
+      "confidence": 0.6364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0005,
+        "Facts": 0.6364,
+        "Issue": 0.0033,
+        "Reasoning": 0.3446
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 92,
+      "text": "The impugned judgement relied upon the judgment in Kunjanum Antonys case (supra) that until a contrary state of affairs is shown to exist, the order of the Board would have to be given due weight.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4344,
+      "probabilities": {
+        "Arguments of Petitioner": 0.12,
+        "Arguments of Respondent": 0.1167,
+        "Decision": 0.0019,
+        "Facts": 0.3265,
+        "Issue": 0.0005,
+        "Reasoning": 0.4344
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 93,
+      "text": "The High Court observed that the excess land automatically vests with the state like in the private forests vesting under Section 3 (1) of the Vesting Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0004,
+        "Facts": 0.8406,
+        "Issue": 0.0078,
+        "Reasoning": 0.1403
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "The purpose of or intent of both enactments is to distribute excess lands to landless agricultural labourers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8378,
+      "probabilities": {
+        "Arguments of Petitioner": 0.08,
+        "Arguments of Respondent": 0.0345,
+        "Decision": 0.0006,
+        "Facts": 0.044,
+        "Issue": 0.0031,
+        "Reasoning": 0.8378
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "The High Court was of the view that the state never alleged that the Boards order was obtained under fraud but rather that it was passed after considering all statutory formalities.",
+      "predicted_label": "Facts",
+      "confidence": 0.7831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0005,
+        "Facts": 0.7831,
+        "Issue": 0.0385,
+        "Reasoning": 0.1529
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "The Board, noted the High Court, rendered findings with respect to the nature of the land as on the appointed date of the KLR Act, i.e., 01.01.1970.",
+      "predicted_label": "Facts",
+      "confidence": 0.7251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0002,
+        "Facts": 0.7251,
+        "Issue": 0.0037,
+        "Reasoning": 0.2327
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "The appointed date for the Vesting Act was 10.05.1971.",
+      "predicted_label": "Facts",
+      "confidence": 0.8247,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.0084,
+        "Decision": 0.0003,
+        "Facts": 0.8247,
+        "Issue": 0.0084,
+        "Reasoning": 0.1437
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "The High Court held that there is not much difference between the two dates in point of time and that there was nothing on record to suggest that the land usage had changed in between.",
+      "predicted_label": "Facts",
+      "confidence": 0.8859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0002,
+        "Facts": 0.8859,
+        "Issue": 0.0032,
+        "Reasoning": 0.1003
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "Proceeding with its analysis on the evidence on record, the Court took note of the title deeds (Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.8553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0002,
+        "Facts": 0.8553,
+        "Issue": 0.0007,
+        "Reasoning": 0.1387
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "A37 to A40) and the balance sheets and profit and loss account (Ex. A59 to A64) to show that Popular Estates was earning agricultural income from the land before the appointed date, and that it maintained regular balance sheet, and profit and loss account.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.493,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1031,
+        "Arguments of Respondent": 0.1576,
+        "Decision": 0.0003,
+        "Facts": 0.2455,
+        "Issue": 0.0005,
+        "Reasoning": 0.493
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 101,
+      "text": "The High Court was of the opinion that the notification issued on 08.07.1977 ultimately led to the state establishing that only 100 hectares were private forest.",
+      "predicted_label": "Facts",
+      "confidence": 0.7817,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0109,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0004,
+        "Facts": 0.7817,
+        "Issue": 0.0195,
+        "Reasoning": 0.1819
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "It was also stated that Ex. A27, i.e., the notification dated 22.07.1987, was issued after demarcating the land under Section 6 and taking those 100 hectares as included in the 1534.40 acres purchased by the firm after nine years when legal proceedings were pending.",
+      "predicted_label": "Facts",
+      "confidence": 0.4933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2314,
+        "Arguments of Respondent": 0.1441,
+        "Decision": 0.0002,
+        "Facts": 0.4933,
+        "Issue": 0.0006,
+        "Reasoning": 0.1304
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 103,
+      "text": "Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.4666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0313,
+        "Arguments of Respondent": 0.0464,
+        "Decision": 0.003,
+        "Facts": 0.4666,
+        "Issue": 0.0018,
+        "Reasoning": 0.4509
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 104,
+      "text": "A65 is the accounts ledger for 197071 which showed that there was cultivation in the relevant accounting year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7438,
+      "probabilities": {
+        "Arguments of Petitioner": 0.035,
+        "Arguments of Respondent": 0.0814,
+        "Decision": 0.0011,
+        "Facts": 0.1383,
+        "Issue": 0.0004,
+        "Reasoning": 0.7438
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "There were other letters in the form of exhibits, i.e., Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.7945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0178,
+        "Arguments of Respondent": 0.0355,
+        "Decision": 0.0002,
+        "Facts": 0.7945,
+        "Issue": 0.0005,
+        "Reasoning": 0.1515
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "A66, A69 and A70 which showed that Labour authorities such as the Labour Commissioner and Provident Fund authorities were involved with respect to labour unrest in the estate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6716,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0521,
+        "Decision": 0.0002,
+        "Facts": 0.2636,
+        "Issue": 0.0003,
+        "Reasoning": 0.6716
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 107,
+      "text": "Exhibit A67 and A68 were addressed to the Agricultural Income Tax Officer and Ex.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5384,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0198,
+        "Arguments of Respondent": 0.0161,
+        "Decision": 0.0004,
+        "Facts": 0.4245,
+        "Issue": 0.0009,
+        "Reasoning": 0.5384
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 108,
+      "text": "A71 and A72 were letters addressed to the Sales Tax Officer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0015,
+        "Facts": 0.2426,
+        "Issue": 0.0021,
+        "Reasoning": 0.699
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 109,
+      "text": "These also showed that some labour disputes in the estate starting from 1983 existed and that production had slowed down.",
+      "predicted_label": "Facts",
+      "confidence": 0.6729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0305,
+        "Arguments of Respondent": 0.0519,
+        "Decision": 0.0008,
+        "Facts": 0.6729,
+        "Issue": 0.0003,
+        "Reasoning": 0.2436
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "It was only after these that Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.446,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0987,
+        "Arguments of Respondent": 0.0648,
+        "Decision": 0.0023,
+        "Facts": 0.446,
+        "Issue": 0.0027,
+        "Reasoning": 0.3856
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 111,
+      "text": "A27, notification dated 22.08.1987 was issued.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5002,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0302,
+        "Arguments of Respondent": 0.0283,
+        "Decision": 0.0035,
+        "Facts": 0.4311,
+        "Issue": 0.0066,
+        "Reasoning": 0.5002
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 112,
+      "text": "The High Court was of the opinion that all these documents clearly showed that the entire area other than the 100 hectares of land earlier notified by notification dated 08.07.1977 were not private forests on the appointed date but exempted in view of the definition of private forest.",
+      "predicted_label": "Facts",
+      "confidence": 0.8302,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0002,
+        "Facts": 0.8302,
+        "Issue": 0.0068,
+        "Reasoning": 0.1523
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "The court also noted the location sketch given by PW3 the Commissioner, a copy of the memorandum submitted before the Advocate Commissioner by forest officials (Ex. A4), and the reports of the Commissioner (Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.9512,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0005,
+        "Facts": 0.9512,
+        "Issue": 0.0004,
+        "Reasoning": 0.0462
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "A6 and A7), all of which revealed that only 100 hectares in the entire lands were private forest on the appointed date.",
+      "predicted_label": "Facts",
+      "confidence": 0.6501,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0245,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0003,
+        "Facts": 0.6501,
+        "Issue": 0.0007,
+        "Reasoning": 0.3117
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 115,
+      "text": "The final report Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.6207,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0257,
+        "Arguments of Respondent": 0.0544,
+        "Decision": 0.0026,
+        "Facts": 0.6207,
+        "Issue": 0.0012,
+        "Reasoning": 0.2954
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 116,
+      "text": "A7, Ex A8 and A9 (location sketches) also showed the details of the survey by the forest officials.",
+      "predicted_label": "Facts",
+      "confidence": 0.7622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0003,
+        "Facts": 0.7622,
+        "Issue": 0.0002,
+        "Reasoning": 0.2264
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "All these were produced by the Commissioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4567,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0643,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0007,
+        "Facts": 0.4471,
+        "Issue": 0.0014,
+        "Reasoning": 0.4567
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 118,
+      "text": "Also, the demarcated areas by the official survey ascertained the extent by actual theodolite survey.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1301,
+        "Arguments of Respondent": 0.1837,
+        "Decision": 0.0066,
+        "Facts": 0.0995,
+        "Issue": 0.0003,
+        "Reasoning": 0.5798
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 119,
+      "text": "The High Court observed that all these showed only the disputed area marked as Bits 17 the plan was also exhibited as Ex. C 3.",
+      "predicted_label": "Facts",
+      "confidence": 0.7127,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0401,
+        "Arguments of Respondent": 0.0394,
+        "Decision": 0.0003,
+        "Facts": 0.7127,
+        "Issue": 0.0008,
+        "Reasoning": 0.2067
+      }
+    },
+    {
+      "sentence_id": 120,
+      "text": "The High Court took into account the evidence of the then Range Officer (PW 1), the Commissioner (PW3), PW4 PW5 all of which pointed that the disputed area covered by Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.9293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0001,
+        "Facts": 0.9293,
+        "Issue": 0.0003,
+        "Reasoning": 0.0656
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "A7 was plantation on the date when the act came into force.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0836,
+        "Arguments of Respondent": 0.0643,
+        "Decision": 0.0012,
+        "Facts": 0.2689,
+        "Issue": 0.0019,
+        "Reasoning": 0.5802
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 122,
+      "text": "The High Court then relied on the full bench decision of the Kerala High Court in Parameswara Sastrigal K.S. v. State of Kerala Ors. 2008 2 ILR 371.",
+      "predicted_label": "Facts",
+      "confidence": 0.9431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9431,
+        "Issue": 0.0059,
+        "Reasoning": 0.0442
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "That judgment observed that if the land vested in the government as a private forest on the appointed date, the owner cannot thereafter alienate or transfer or assign the land for certain.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8207,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0855,
+        "Arguments of Respondent": 0.0631,
+        "Decision": 0.0002,
+        "Facts": 0.0301,
+        "Issue": 0.0005,
+        "Reasoning": 0.8207
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "However, if it is not a private forest vested in the government there is no impediment for the title holder to transfer the land.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0408,
+        "Arguments of Respondent": 0.0349,
+        "Decision": 0.0081,
+        "Facts": 0.1313,
+        "Issue": 0.0055,
+        "Reasoning": 0.7794
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "The Court also took note of the judgment of this court in Bhawani Tea Produce Co. Ltd. v. State of Kerala Ors. 1991 (2) SCC 463 where it was observed that The reverse question is involved in this case, namely if the land was not private forest but plantation under the M.P.P.F. Act and was similarly not private forest but plantation on 10.5.1971, it could not, without anything more, become private forest thereafter even though it was not under the same efficient or successful plantation as it was earlier.",
+      "predicted_label": "Facts",
+      "confidence": 0.8026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0003,
+        "Facts": 0.8026,
+        "Issue": 0.0075,
+        "Reasoning": 0.1722
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "Whether the plantation yielded any crop or not was for the owners to decide and not by the authorities under the Vesting Act, unless it did make specific provisions to cover such a situation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7271,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0702,
+        "Arguments of Respondent": 0.0545,
+        "Decision": 0.0002,
+        "Facts": 0.1468,
+        "Issue": 0.0011,
+        "Reasoning": 0.7271
+      }
+    },
+    {
+      "sentence_id": 127,
+      "text": "Taking note of these circumstances the court concluded that on the appointed date, except the area of 155.9 acres of land, the rest of the lands covered by Ex.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0158,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0009,
+        "Facts": 0.4814,
+        "Issue": 0.0003,
+        "Reasoning": 0.4923
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 128,
+      "text": "A27 were not private forest but plantations falling within the exclusions under Section 2(f)(1)(i)(A) to (D) of the Vesting Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7205,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1444,
+        "Arguments of Respondent": 0.0509,
+        "Decision": 0.0014,
+        "Facts": 0.0823,
+        "Issue": 0.0004,
+        "Reasoning": 0.7205
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "The High Court finally held that 1127.50 acres of land were plantation and 100 hectares, i.e. 247 acres were private forest.",
+      "predicted_label": "Facts",
+      "confidence": 0.8538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0004,
+        "Facts": 0.8538,
+        "Issue": 0.0084,
+        "Reasoning": 0.1294
+      }
+    },
+    {
+      "sentence_id": 130,
+      "text": "Since there was no claim with respect to 155.90 acres of land nor any proof that it was converted into plantation on the appointed date, that extent was also held to vest in the state.",
+      "predicted_label": "Facts",
+      "confidence": 0.8343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0002,
+        "Facts": 0.8343,
+        "Issue": 0.0033,
+        "Reasoning": 0.1479
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "However with respect to the rest, i.e. 1127.50 acres minus 155.90 acres of land, the appeal was allowed and Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.8902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0017,
+        "Facts": 0.8902,
+        "Issue": 0.0012,
+        "Reasoning": 0.0841
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "A27 notification to that extent was set aside.",
+      "predicted_label": "Facts",
+      "confidence": 0.5426,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0465,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0024,
+        "Facts": 0.5426,
+        "Issue": 0.0672,
+        "Reasoning": 0.3307
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 133,
+      "text": "Mr. Pallav Sisodia, learned senior counsel argued on behalf of the state that the impugned judgement requires interference as it is based on a misappreciation of the facts on record.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6557,
+        "Arguments of Respondent": 0.3133,
+        "Decision": 0.001,
+        "Facts": 0.0051,
+        "Issue": 0.001,
+        "Reasoning": 0.024
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 134,
+      "text": "Learned counsel urged that the primary onus to establish that the extent of land notified by the state was not a private forest covered by the Vesting Act lies upon the party or individual asserting it to be so.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6558,
+        "Arguments of Respondent": 0.319,
+        "Decision": 0.0001,
+        "Facts": 0.0028,
+        "Issue": 0.0003,
+        "Reasoning": 0.0221
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 135,
+      "text": "Thus, the burden lay upon the appellant before the High Court, i.e. Popular Estates to prove that the entire extent of 1534.40 acres of land were in fact under cultivation as plantation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9014,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0552,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0019,
+        "Facts": 0.029,
+        "Issue": 0.0003,
+        "Reasoning": 0.9014
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "Mr. Sisodia submitted that before 10.05.1971, Popular Estates was not the owner of the forest land two partnerships had formed since the earlier partnership was dissolved by deed dated 07.01.1972 produced as Ex. A41.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2937,
+        "Arguments of Respondent": 0.6898,
+        "Decision": 0.0002,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0145
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 137,
+      "text": "In these circumstances Popular Estates was not entitled to maintain the original application since the vesting took place on 10.05.1971 and therefore, as the subsequent purchaser could not agitate with respect to the vesting.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2358,
+        "Arguments of Respondent": 0.1411,
+        "Decision": 0.0115,
+        "Facts": 0.1964,
+        "Issue": 0.0017,
+        "Reasoning": 0.4135
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 138,
+      "text": "It was alleged that the High Court principally relied on Ex A50 and A51 proceedings under the KLR Act or the determination of the Land Board to allow the appeal.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8167,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8167,
+        "Arguments of Respondent": 0.0704,
+        "Decision": 0.0002,
+        "Facts": 0.0662,
+        "Issue": 0.0017,
+        "Reasoning": 0.0448
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "In this regard, learned counsel stressed that the decision of this court in PopularII was clear that such determinations by the Board for an entirely different purpose could not constitute res judicata by giving undue weight to that piece of evidence and ignoring that the other evidence led before the tribunal was utterly inadequate the appellant state urged that the High Court fell into error.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9816,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0001,
+        "Facts": 0.0023,
+        "Issue": 0.0003,
+        "Reasoning": 0.0131
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "15.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8076,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8076,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0026,
+        "Facts": 0.0349,
+        "Issue": 0.0099,
+        "Reasoning": 0.1003
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "The State argued that the High Court erred in holding that Ex.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.76,
+      "probabilities": {
+        "Arguments of Petitioner": 0.76,
+        "Arguments of Respondent": 0.2184,
+        "Decision": 0.0006,
+        "Facts": 0.0036,
+        "Issue": 0.001,
+        "Reasoning": 0.0164
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "A6 and A 7 showed that only 100 hectares were private forest.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.504,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0373,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0009,
+        "Facts": 0.4458,
+        "Issue": 0.0004,
+        "Reasoning": 0.504
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 143,
+      "text": "In this respect, learned counsel highlighted the observations of the tribunal that the said two documents do not prove the fact that the rest of the lands were in fact cultivated with plantation crops.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7519,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7519,
+        "Arguments of Respondent": 0.2188,
+        "Decision": 0.0002,
+        "Facts": 0.0036,
+        "Issue": 0.0001,
+        "Reasoning": 0.0255
+      }
+    },
+    {
+      "sentence_id": 144,
+      "text": "He also relied upon the deposition of PW3 (Commissioner) who had stated that he could not ascertain the planted areas, the number of plants or the age of such plants in his first inspection and that he had confined his second inspection to Plot numbers 1 to 7.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4692,
+        "Arguments of Respondent": 0.2849,
+        "Decision": 0.0003,
+        "Facts": 0.2157,
+        "Issue": 0.0002,
+        "Reasoning": 0.0297
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 145,
+      "text": "Learned counsel emphasised that by Ex.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5227,
+        "Arguments of Respondent": 0.4505,
+        "Decision": 0.0001,
+        "Facts": 0.0059,
+        "Issue": 0.0001,
+        "Reasoning": 0.0207
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 146,
+      "text": "A6 and A7 the Commissioner had reported that a thick forest existed and had highlighted the need to conduct a detailed survey.",
+      "predicted_label": "Facts",
+      "confidence": 0.773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0271,
+        "Arguments of Respondent": 0.0269,
+        "Decision": 0.0047,
+        "Facts": 0.773,
+        "Issue": 0.0006,
+        "Reasoning": 0.1678
+      }
+    },
+    {
+      "sentence_id": 147,
+      "text": "It was urged that the Commissioner had visited the area in December 1975, long after the date of vesting, i.e. 10.05.1971 and therefore, the report was not determinative.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4347,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4347,
+        "Arguments of Respondent": 0.2229,
+        "Decision": 0.0004,
+        "Facts": 0.2115,
+        "Issue": 0.0013,
+        "Reasoning": 0.1292
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 148,
+      "text": "It was further argued that the High Court completely ignored examining whether the plantations were registered under the Coffee Act, the Rubber Act or the Cardamom Act which now fall within the purview of the Spices Board under the Spices Board Act, 1986 or whether they had any valid registration in law.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9751,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9751,
+        "Arguments of Respondent": 0.0144,
+        "Decision": 0.0001,
+        "Facts": 0.0018,
+        "Issue": 0.0001,
+        "Reasoning": 0.0085
+      }
+    },
+    {
+      "sentence_id": 149,
+      "text": "In these circumstances there could have been no conclusive finding that plantations existed, as was asserted by Popular Estates.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1745,
+        "Arguments of Respondent": 0.1176,
+        "Decision": 0.0016,
+        "Facts": 0.1475,
+        "Issue": 0.0002,
+        "Reasoning": 0.5585
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 150,
+      "text": "16.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8032,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8032,
+        "Arguments of Respondent": 0.0477,
+        "Decision": 0.0028,
+        "Facts": 0.0317,
+        "Issue": 0.0101,
+        "Reasoning": 0.1045
+      }
+    },
+    {
+      "sentence_id": 151,
+      "text": "Learned counsel relied upon the pleadings made by Popular Estates in the earlier rounds of litigation, especially in the first writ petition which had challenged the enactment of the Vesting Act, in which an assertion was made that more than 1000 acres was forest area.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5012,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4877,
+        "Arguments of Respondent": 0.5012,
+        "Decision": 0.0001,
+        "Facts": 0.0034,
+        "Issue": 0.0002,
+        "Reasoning": 0.0073
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 152,
+      "text": "He also submitted that a comparison of the respondents pleadings clearly showed that there were glaring inconsistencies in this regard.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7968,
+        "Arguments of Respondent": 0.1937,
+        "Decision": 0.0001,
+        "Facts": 0.0037,
+        "Issue": 0.0001,
+        "Reasoning": 0.0055
+      }
+    },
+    {
+      "sentence_id": 153,
+      "text": "It was submitted that in the writ petition filed at the earliest point of time in 1971, the total plantation area mentioned was 923 acres and that 682.47 acres grasslands were leased for dairy purposes.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4512,
+      "probabilities": {
+        "Arguments of Petitioner": 0.414,
+        "Arguments of Respondent": 0.4512,
+        "Decision": 0.0005,
+        "Facts": 0.0823,
+        "Issue": 0.0005,
+        "Reasoning": 0.0515
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 154,
+      "text": "According to that writ petition, the total extent of land was 1589.47 acres.",
+      "predicted_label": "Facts",
+      "confidence": 0.9446,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0002,
+        "Facts": 0.9446,
+        "Issue": 0.0027,
+        "Reasoning": 0.0443
+      }
+    },
+    {
+      "sentence_id": 155,
+      "text": "In another writ petition filed subsequently, another version that the plantation area was only 228.55 acres was asserted, in relation to one block 780.34 acres was leased out for dairy purposes.",
+      "predicted_label": "Facts",
+      "confidence": 0.5588,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0888,
+        "Arguments of Respondent": 0.1281,
+        "Decision": 0.0027,
+        "Facts": 0.5588,
+        "Issue": 0.0008,
+        "Reasoning": 0.2209
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 156,
+      "text": "A total of 573.69 acres of balance land were mentioned out of which 194.44 acres were plantation in one area, and the entire plantation area in both parcels of land put together in this writ petition did not exceed 425 acres.",
+      "predicted_label": "Facts",
+      "confidence": 0.7316,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0646,
+        "Arguments of Respondent": 0.1159,
+        "Decision": 0.0037,
+        "Facts": 0.7316,
+        "Issue": 0.0009,
+        "Reasoning": 0.0833
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "It was highlighted that if one took into account these pleadings, a conflicting picture emerged.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5052,
+        "Arguments of Respondent": 0.3515,
+        "Decision": 0.0004,
+        "Facts": 0.0418,
+        "Issue": 0.0003,
+        "Reasoning": 0.1008
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 158,
+      "text": "On an overall analysis of the pleadings, the nature of oral testimony, over reliance on the suspect testimony and the deposition of PW1, a Forest range officer who had no business to depose against the state and PW5, whose evidence did not inspire confidence with respect to the specifics regarding the area of cultivation, could not have led the High Court to reasonably conclude that 1127 acres were in fact cultivated, based upon on almost similar finding of the land board.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9172,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0434,
+        "Arguments of Respondent": 0.0183,
+        "Decision": 0.0025,
+        "Facts": 0.0184,
+        "Issue": 0.0001,
+        "Reasoning": 0.9172
+      }
+    },
+    {
+      "sentence_id": 159,
+      "text": "It was also urged that the High Court failed to see that the burden of proving that the lands claimed by Popular Estates as not covered by forest, remained unproved and undischarged.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9706,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0001,
+        "Facts": 0.0034,
+        "Issue": 0.0003,
+        "Reasoning": 0.0158
+      }
+    },
+    {
+      "sentence_id": 160,
+      "text": "Consequently, the High Court, even on an independent analysis of the evidence could not have allowed the appeal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.398,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0231,
+        "Facts": 0.0056,
+        "Issue": 0.0014,
+        "Reasoning": 0.5613
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 161,
+      "text": "17.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7936,
+        "Arguments of Respondent": 0.0568,
+        "Decision": 0.0024,
+        "Facts": 0.0351,
+        "Issue": 0.0095,
+        "Reasoning": 0.1025
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "Mr Sisodia concluded his arguments by saying that the primary objective of the Vesting Act is to ensure that large chunks of private forests held by a few individuals or entities, but which constituted valuable economic resource which required redistribution in terms of Directive Principles of State Policy, were made over to those sections of society who did not own any land.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5687,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5687,
+        "Arguments of Respondent": 0.3693,
+        "Decision": 0.0006,
+        "Facts": 0.0023,
+        "Issue": 0.0012,
+        "Reasoning": 0.0579
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 163,
+      "text": "The impugned judgement therefore failed in noticing the salutary purposes of the Act by holding that Ex.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6182,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3543,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0111,
+        "Facts": 0.0065,
+        "Issue": 0.0009,
+        "Reasoning": 0.6182
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 164,
+      "text": "A 27 could be upheld only to the extent of 155.90 acres and in setting aside the rest.",
+      "predicted_label": "Facts",
+      "confidence": 0.4645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2484,
+        "Arguments of Respondent": 0.0339,
+        "Decision": 0.005,
+        "Facts": 0.4645,
+        "Issue": 0.0063,
+        "Reasoning": 0.2419
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 165,
+      "text": "18.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.805,
+        "Arguments of Respondent": 0.0511,
+        "Decision": 0.0032,
+        "Facts": 0.0305,
+        "Issue": 0.011,
+        "Reasoning": 0.0991
+      }
+    },
+    {
+      "sentence_id": 166,
+      "text": "It was argued on behalf of the respondent, Popular Estates, that the order of the High Court impugned in this case, should not be interfered with.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.968,
+        "Decision": 0.0009,
+        "Facts": 0.0019,
+        "Issue": 0.0003,
+        "Reasoning": 0.028
+      }
+    },
+    {
+      "sentence_id": 167,
+      "text": "Mr K.V. Viswanathan, learned senior counsel appearing on behalf of Popular Estates, argued that the judgement in PopularII declared that even though the determinations of Boards could not be treated as res judicata in proceedings under the Vesting Act, nevertheless, they had to be given due weight.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6554,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6554,
+        "Arguments of Respondent": 0.3284,
+        "Decision": 0.0001,
+        "Facts": 0.0026,
+        "Issue": 0.0002,
+        "Reasoning": 0.0134
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 168,
+      "text": "They carried credibility as long as the basis of such decision indicated factual investigation and the order was not under a cloud.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4369,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0814,
+        "Arguments of Respondent": 0.4369,
+        "Decision": 0.0033,
+        "Facts": 0.0714,
+        "Issue": 0.0002,
+        "Reasoning": 0.4066
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 169,
+      "text": "In the present case too, there was no reason for the tribunal to doubt or question the Boards findings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9609,
+      "probabilities": {
+        "Arguments of Petitioner": 0.012,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.001,
+        "Facts": 0.0191,
+        "Issue": 0.0001,
+        "Reasoning": 0.9609
+      }
+    },
+    {
+      "sentence_id": 170,
+      "text": "Reiterating the nature of the KLR Act and the objectives of the Vesting Act, it was submitted that both enactments observed common public good, namely determination of either excess lands or uncultivated forest lands, but not plantation and ensuring redistribution to deserving categories of persons.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2563,
+        "Arguments of Respondent": 0.7115,
+        "Decision": 0.0001,
+        "Facts": 0.0141,
+        "Issue": 0.0003,
+        "Reasoning": 0.0177
+      }
+    },
+    {
+      "sentence_id": 171,
+      "text": "19.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7746,
+        "Arguments of Respondent": 0.0576,
+        "Decision": 0.0036,
+        "Facts": 0.0306,
+        "Issue": 0.0143,
+        "Reasoning": 0.1194
+      }
+    },
+    {
+      "sentence_id": 172,
+      "text": "Referring to the record, Mr. Vishwanathan argued that the High Court took all evidence oral and documentary, into consideration.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.296,
+        "Arguments of Respondent": 0.6964,
+        "Decision": 0.0003,
+        "Facts": 0.0008,
+        "Issue": 0.0001,
+        "Reasoning": 0.0064
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 173,
+      "text": "He stressed that not only the survey by the Commissioner, but also survey conducted by Forest range officers and the report of such officials confirmed that the entire area was inspected, and only those portions  covered in Bits 1 to 7  were found to be forest lands, and consequently demarcated.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5224,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4428,
+        "Arguments of Respondent": 0.5224,
+        "Decision": 0.0003,
+        "Facts": 0.0239,
+        "Issue": 0.0001,
+        "Reasoning": 0.0106
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 174,
+      "text": "There was general agreement that the rest of the lands were not forest land, but were cultivated for rubber, coffee and cardamom.",
+      "predicted_label": "Facts",
+      "confidence": 0.7209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0371,
+        "Arguments of Respondent": 0.0249,
+        "Decision": 0.0001,
+        "Facts": 0.7209,
+        "Issue": 0.001,
+        "Reasoning": 0.216
+      }
+    },
+    {
+      "sentence_id": 175,
+      "text": "Learned counsel relied on Ex A7, Ex A8 and Ex. A9 (location sketch) and the commissioners sketch as well.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5452,
+        "Arguments of Respondent": 0.3329,
+        "Decision": 0.0002,
+        "Facts": 0.045,
+        "Issue": 0.0002,
+        "Reasoning": 0.0766
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 176,
+      "text": "The senior counsel further argued that Ex.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4924,
+        "Arguments of Respondent": 0.4828,
+        "Decision": 0.0002,
+        "Facts": 0.0088,
+        "Issue": 0.0002,
+        "Reasoning": 0.0156
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 177,
+      "text": "A59 to A64 proved that Popular Estates was earning agricultural income from the lands, much prior to the appointed date.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0456,
+        "Arguments of Respondent": 0.0272,
+        "Decision": 0.0003,
+        "Facts": 0.2489,
+        "Issue": 0.0005,
+        "Reasoning": 0.6776
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 178,
+      "text": "These documents also established that it maintained regular balance sheet, and profit and loss accounts.",
+      "predicted_label": "Facts",
+      "confidence": 0.6093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0543,
+        "Arguments of Respondent": 0.1629,
+        "Decision": 0.0003,
+        "Facts": 0.6093,
+        "Issue": 0.0005,
+        "Reasoning": 0.1727
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 179,
+      "text": "Popular Estates relied on the depositions of PW1 and PW5.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3201,
+        "Arguments of Respondent": 0.2904,
+        "Decision": 0.0004,
+        "Facts": 0.2395,
+        "Issue": 0.0009,
+        "Reasoning": 0.1487
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 180,
+      "text": "Commenting on the statement of PW5, learned senior counsel urged that the tribunal wrongly rejected his testimony.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9178,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9178,
+        "Arguments of Respondent": 0.0513,
+        "Decision": 0.0001,
+        "Facts": 0.002,
+        "Issue": 0.0001,
+        "Reasoning": 0.0288
+      }
+    },
+    {
+      "sentence_id": 181,
+      "text": "It was argued that he was an employee, though not working as a Superintendent when he joined in 1969, that alone could not have been a ground to reject his evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.74,
+      "probabilities": {
+        "Arguments of Petitioner": 0.179,
+        "Arguments of Respondent": 0.0671,
+        "Decision": 0.0006,
+        "Facts": 0.0129,
+        "Issue": 0.0004,
+        "Reasoning": 0.74
+      }
+    },
+    {
+      "sentence_id": 182,
+      "text": "It was argued next that under Section 8A of the Vesting Act, an appeal lay, as a matter of right, to the High Court against the order of the tribunal.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5603,
+        "Arguments of Respondent": 0.3317,
+        "Decision": 0.0001,
+        "Facts": 0.0135,
+        "Issue": 0.0004,
+        "Reasoning": 0.094
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 183,
+      "text": "In terms of Section 8A (3), the High Court could confirm cancel, or set aside the decision of the tribunal appealed against, remand the matter, or pass such orders as it deemed fit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0545,
+        "Arguments of Respondent": 0.0326,
+        "Decision": 0.0003,
+        "Facts": 0.282,
+        "Issue": 0.0008,
+        "Reasoning": 0.6298
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 184,
+      "text": "In these circumstances, the High Court had opportunity to undertake a full margin of appreciation of the entire evidence and arrive at its own conclusions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.2435,
+        "Decision": 0.0249,
+        "Facts": 0.0182,
+        "Issue": 0.0011,
+        "Reasoning": 0.6995
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 185,
+      "text": "In support of this, learned counsel relied upon the judgment of this Court in State of Kerala v ACK Rajah 1994 Supp.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6166,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6166,
+        "Arguments of Respondent": 0.3688,
+        "Decision": 0.0001,
+        "Facts": 0.0035,
+        "Issue": 0.0001,
+        "Reasoning": 0.0108
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 186,
+      "text": "(3) SCC 250 in which the Court had observed that in deciding the appeal under Section 8A, the High Court has very wide powers which are not hedged by any limitation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5312,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5312,
+        "Arguments of Respondent": 0.2945,
+        "Decision": 0.0007,
+        "Facts": 0.0617,
+        "Issue": 0.0005,
+        "Reasoning": 0.1113
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 187,
+      "text": "The High Court could, in any given matter consider the correctness and propriety of the tribunals view under appeal, which arose for its consideration it could independently consider the evidence and satisfy itself whether the findings of the tribunal and its conclusions were proper.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0528,
+        "Arguments of Respondent": 0.3285,
+        "Decision": 0.0033,
+        "Facts": 0.0406,
+        "Issue": 0.0002,
+        "Reasoning": 0.5746
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 188,
+      "text": "It was contended that in these circumstances, the view of the High Court based upon its overall appreciation of the circumstances was sound and just and did not call for interference.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.9854,
+        "Decision": 0.0002,
+        "Facts": 0.0027,
+        "Issue": 0.0001,
+        "Reasoning": 0.0059
+      }
+    },
+    {
+      "sentence_id": 189,
+      "text": "It was reiterated by the learned counsel that the decision in Kunjanom Antony (supra) and Popular EstatesII are binding on the question of law that though the decision of the Land Board under the KLR Act cannot be conclusive as res judicata, nevertheless it has considerable evidentiary weight and that unless the contrary state of affairs is shown, the Boards order would have to be given due weight.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3433,
+        "Arguments of Respondent": 0.5981,
+        "Decision": 0.0003,
+        "Facts": 0.0049,
+        "Issue": 0.0002,
+        "Reasoning": 0.0531
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 190,
+      "text": "Therefore, since the Boards order was not under cloud or under appeal, prima facie, due weight had to be given.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1232,
+        "Arguments of Respondent": 0.1891,
+        "Decision": 0.0008,
+        "Facts": 0.1378,
+        "Issue": 0.0004,
+        "Reasoning": 0.5487
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 191,
+      "text": "Unfortunately, the tribunal entirely discarded the Boards determination which was based on the appreciation of the objective facts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0505,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0018,
+        "Facts": 0.059,
+        "Issue": 0.0004,
+        "Reasoning": 0.8801
+      }
+    },
+    {
+      "sentence_id": 192,
+      "text": "Counsel highlighted that in the present case, the inspection undertaken was in the context of assertions made in the mid1970s.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2681,
+        "Arguments of Respondent": 0.7134,
+        "Decision": 0.0004,
+        "Facts": 0.008,
+        "Issue": 0.0001,
+        "Reasoning": 0.0101
+      }
+    },
+    {
+      "sentence_id": 193,
+      "text": "The determination of the Board was decisive.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1931,
+        "Arguments of Respondent": 0.0947,
+        "Decision": 0.0008,
+        "Facts": 0.0505,
+        "Issue": 0.0005,
+        "Reasoning": 0.6605
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 194,
+      "text": "Therefore, it had considerable evidentiary weight and could not be brushed aside as a mere piece of paper.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0715,
+        "Arguments of Respondent": 0.0451,
+        "Decision": 0.0008,
+        "Facts": 0.1883,
+        "Issue": 0.001,
+        "Reasoning": 0.6933
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 195,
+      "text": "It was urged that the preliminary and final report of the Commissioner in the earlier proceedings instituted by Popular Estates in 1974 through its two applications were also earliest in point of time.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4224,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4224,
+        "Arguments of Respondent": 0.307,
+        "Decision": 0.0017,
+        "Facts": 0.1749,
+        "Issue": 0.0012,
+        "Reasoning": 0.0928
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 196,
+      "text": "The preliminary report, Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.6645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0011,
+        "Facts": 0.6645,
+        "Issue": 0.0042,
+        "Reasoning": 0.2972
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 197,
+      "text": "A6 which was filed on 15.01.1976 shows that there was extensive cultivation of coffee, cardamom, rubber, areca nut, etc.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.336,
+      "probabilities": {
+        "Arguments of Petitioner": 0.336,
+        "Arguments of Respondent": 0.3157,
+        "Decision": 0.0006,
+        "Facts": 0.1073,
+        "Issue": 0.0004,
+        "Reasoning": 0.2399
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 198,
+      "text": "Learned counsel invited the attention of this court to the concerned documents.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6931,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2734,
+        "Arguments of Respondent": 0.6931,
+        "Decision": 0.0008,
+        "Facts": 0.0078,
+        "Issue": 0.0003,
+        "Reasoning": 0.0247
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 199,
+      "text": "He submitted that the final report, Ex.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5507,
+        "Arguments of Respondent": 0.374,
+        "Decision": 0.0007,
+        "Facts": 0.0456,
+        "Issue": 0.0002,
+        "Reasoning": 0.0288
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 200,
+      "text": "A 7 furnished by the Commissioner on 12.09.1977 recorded what was observed by the Forest Range Officer, i.e. only that disputed portions in Bit Nos. 1 to 7 had been demarcated and that the other areas were cultivated.",
+      "predicted_label": "Facts",
+      "confidence": 0.7839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0003,
+        "Facts": 0.7839,
+        "Issue": 0.0002,
+        "Reasoning": 0.2055
+      }
+    },
+    {
+      "sentence_id": 201,
+      "text": "The counsel underlined that these reflected the true ground reality.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5655,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3961,
+        "Arguments of Respondent": 0.5655,
+        "Decision": 0.0003,
+        "Facts": 0.0149,
+        "Issue": 0.0002,
+        "Reasoning": 0.023
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 202,
+      "text": "Coupled with the Range Officers memorandum (Ex.A4) which was furnished before the Commissioner on 01.09.1977, it was clear that the areas were inspected in detail and that only those areas that vested with the government were demarcated by the survey party attached with the Superintendent, Land Records.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0418,
+        "Arguments of Respondent": 0.0483,
+        "Decision": 0.0003,
+        "Facts": 0.139,
+        "Issue": 0.0001,
+        "Reasoning": 0.7706
+      }
+    },
+    {
+      "sentence_id": 203,
+      "text": "It was urged that what was demarcated was only 100 hectares and the other areas were not demarcated since they were cultivated.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3847,
+        "Arguments of Respondent": 0.1956,
+        "Decision": 0.0019,
+        "Facts": 0.1915,
+        "Issue": 0.0009,
+        "Reasoning": 0.2253
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 204,
+      "text": "This was endorsed in the final report, Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0678,
+        "Arguments of Respondent": 0.2125,
+        "Decision": 0.0003,
+        "Facts": 0.558,
+        "Issue": 0.0004,
+        "Reasoning": 0.161
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 205,
+      "text": "A7.",
+      "predicted_label": "Facts",
+      "confidence": 0.3365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0461,
+        "Arguments of Respondent": 0.0277,
+        "Decision": 0.2738,
+        "Facts": 0.3365,
+        "Issue": 0.0117,
+        "Reasoning": 0.3042
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 206,
+      "text": "It was submitted that the possession with respect to 100 hectares of uncultivated forest lands was also covered by draft statement of land dated 24.01.1979, Ex.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5103,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2279,
+        "Arguments of Respondent": 0.5103,
+        "Decision": 0.0004,
+        "Facts": 0.2178,
+        "Issue": 0.0005,
+        "Reasoning": 0.0431
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 207,
+      "text": "A50 which was furnished to the Board in proceedings under the KLR Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5868,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2068,
+        "Arguments of Respondent": 0.1202,
+        "Decision": 0.0024,
+        "Facts": 0.081,
+        "Issue": 0.0027,
+        "Reasoning": 0.5868
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 208,
+      "text": "This document, Ex.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5349,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0502,
+        "Arguments of Respondent": 0.0393,
+        "Decision": 0.0011,
+        "Facts": 0.3736,
+        "Issue": 0.001,
+        "Reasoning": 0.5349
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 209,
+      "text": "A50 was the basis for the Boards order dated 04.11.1980 (Ex. A51).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0289,
+        "Arguments of Respondent": 0.0253,
+        "Decision": 0.0007,
+        "Facts": 0.1134,
+        "Issue": 0.0007,
+        "Reasoning": 0.831
+      }
+    },
+    {
+      "sentence_id": 210,
+      "text": "These two confirmed that only 100 hectares was vested forest.",
+      "predicted_label": "Facts",
+      "confidence": 0.5128,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0003,
+        "Facts": 0.5128,
+        "Issue": 0.0021,
+        "Reasoning": 0.4564
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 211,
+      "text": "Furthermore, learned counsel submitted that an extent of 533 acres was under cardamom cultivation 120 acres under rubber plantations 257 acres under coffee plantation 155.9 acres was forest land and 17.5 acres of roads and buildings.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3956,
+        "Arguments of Respondent": 0.5875,
+        "Decision": 0.0001,
+        "Facts": 0.0037,
+        "Issue": 0.0001,
+        "Reasoning": 0.0129
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 212,
+      "text": "Given these circumstances, the reliance by the High Court on these materials to conclude that only 100 hectares and 155.90 acres was forest land that vested with the state and that the rest was under cultivation, is unexceptionable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0045,
+        "Facts": 0.0061,
+        "Issue": 0.0012,
+        "Reasoning": 0.9665
+      }
+    },
+    {
+      "sentence_id": 213,
+      "text": "Learned counsel submitted that the tribunal fell into error in rejecting the evidence of PW1  the Forest Range Officer, who gave memorandum to the Commissioner on 01.09.1977.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9744,
+        "Arguments of Respondent": 0.0211,
+        "Decision": 0.0001,
+        "Facts": 0.0009,
+        "Issue": 0.0002,
+        "Reasoning": 0.0034
+      }
+    },
+    {
+      "sentence_id": 214,
+      "text": "Somehow, the proceedings in the tribunal and the evidence of this officer were always viewed in a coloured manner as was evident from the oft repeated phrase of magic money, insinuating that PW1 had been bribed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2781,
+        "Arguments of Respondent": 0.0711,
+        "Decision": 0.0003,
+        "Facts": 0.0521,
+        "Issue": 0.0001,
+        "Reasoning": 0.5983
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 215,
+      "text": "It was submitted that there was no such suggestion to him nor was any material placed on record that he was criminally prosecuted or proceeded with departmentally.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6562,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6562,
+        "Arguments of Respondent": 0.1932,
+        "Decision": 0.0002,
+        "Facts": 0.0613,
+        "Issue": 0.0004,
+        "Reasoning": 0.0887
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 216,
+      "text": "Learned counsel likewise submitted that the tribunal erred in overlooking and rejecting the evidence on record such as the auditors balance sheets (Ex. A57 to A64) as well as the auditors deposition as PW4, and the deposition of the manager of Popular Estates (PW5  who had worked since 1969, though not a Superintendent but later having regard to these accounts).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9641,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9641,
+        "Arguments of Respondent": 0.031,
+        "Decision": 0.0,
+        "Facts": 0.0009,
+        "Issue": 0.0002,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 217,
+      "text": "It was also highlighted that the title deeds of the predecessorininterest of the partners of the Popular Estates who had acquired the lands in 1963 clearly showed that considerable areas were shown as cardamon plantation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5651,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5651,
+        "Arguments of Respondent": 0.2769,
+        "Decision": 0.0001,
+        "Facts": 0.1301,
+        "Issue": 0.0003,
+        "Reasoning": 0.0274
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 218,
+      "text": "The Popular Estates had filed agricultural income returns and even as on 1970, it was producing coffee, rubber and cardamom.",
+      "predicted_label": "Facts",
+      "confidence": 0.5742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1013,
+        "Arguments of Respondent": 0.0727,
+        "Decision": 0.0003,
+        "Facts": 0.5742,
+        "Issue": 0.001,
+        "Reasoning": 0.2504
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 219,
+      "text": "The fact that it had some labour trouble also supported its contention that Popular Estates plantation activities were on in full scale.",
+      "predicted_label": "Facts",
+      "confidence": 0.957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0001,
+        "Facts": 0.957,
+        "Issue": 0.0003,
+        "Reasoning": 0.0262
+      }
+    },
+    {
+      "sentence_id": 220,
+      "text": "By Section 2 (a) of the Vesting Act, 10.05.1971 was deemed as the appointed date.",
+      "predicted_label": "Facts",
+      "confidence": 0.6441,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0216,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0002,
+        "Facts": 0.6441,
+        "Issue": 0.0018,
+        "Reasoning": 0.3112
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 221,
+      "text": "Section 2(f) of the Vesting Act defined private forest in the following terms (f) private forest means (1) in relation to the Malabar district referred to in subsection (2) of Section 5 of the States Reorganisation Act, 1956 (Central Act 37 of 1956) (i) any land to which the Madras Preservation of Private Forest Act, 1949 (Madras Act XXVII of 1949), applied immediately before the appointed day excluding (A) lands which are gardens or nilams as defined in the Kerala Land Reforms Act, 1963 (1 of 1964) (B) lands which are used principally for the cultivation of tea, coffee, cocoa, rubber, cardamom or cinnamon and lands used for any purpose ancillary to the cultivation of such crops or for the preparation of the same for the market.",
+      "predicted_label": "Facts",
+      "confidence": 0.978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.978,
+        "Issue": 0.0004,
+        "Reasoning": 0.0175
+      }
+    },
+    {
+      "sentence_id": 222,
+      "text": "The definition of private forest given in Section 2(f) of the Vesting Act and Section 2(47) of the KLR Act were considered by this court in Gwalior Rayons Silk Mfg. (Wvg.) Ltd v. The Custodian of Vested Forests, Palghat Anr 1990 (Supp) SCC 785.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9074,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0031,
+        "Facts": 0.0681,
+        "Issue": 0.0018,
+        "Reasoning": 0.9074
+      }
+    },
+    {
+      "sentence_id": 223,
+      "text": "The lands involved in that case were forests as defined in the Madras Act and continued to be so when the Vesting Act came into force in 1971.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0596,
+        "Arguments of Respondent": 0.0654,
+        "Decision": 0.0005,
+        "Facts": 0.0449,
+        "Issue": 0.0023,
+        "Reasoning": 0.8273
+      }
+    },
+    {
+      "sentence_id": 224,
+      "text": "It was observed that the definition of private forests applicable to the Malabar district was not general in terms but limited to the area and lands to which the Madras Act applied, and exempted therefrom land described under subclause (A) to (D).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0619,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0006,
+        "Facts": 0.2683,
+        "Issue": 0.0006,
+        "Reasoning": 0.6514
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 225,
+      "text": "It was held that the previous decision of this court in Malankara Rubber Produce Co. v. State of Kerala Ors. 1973 1 SCR 399 and the earlier decision in State of Kerala v. Gwalior Rayons Silk Mfg. (Wvg.)",
+      "predicted_label": "Facts",
+      "confidence": 0.6603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0005,
+        "Facts": 0.6603,
+        "Issue": 0.0025,
+        "Reasoning": 0.2979
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 226,
+      "text": "Ltd 1974 1",
+      "predicted_label": "Reasoning",
+      "confidence": 0.329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.237,
+        "Arguments of Respondent": 0.1309,
+        "Decision": 0.004,
+        "Facts": 0.2913,
+        "Issue": 0.0078,
+        "Reasoning": 0.329
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 227,
+      "text": "SCR 67 1 (supra) was a a judicial recognition of the distinction between private forest in Travancore Cochin area in Kerala State and the private forest in Malabar district.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0718,
+        "Arguments of Respondent": 0.0754,
+        "Decision": 0.0044,
+        "Facts": 0.0528,
+        "Issue": 0.0011,
+        "Reasoning": 0.7944
+      }
+    },
+    {
+      "sentence_id": 228,
+      "text": "This distinction by itself is sufficient to dispel the anomalies suggested by counsel for the appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.0516,
+        "Decision": 0.0026,
+        "Facts": 0.012,
+        "Issue": 0.0001,
+        "Reasoning": 0.9279
+      }
+    },
+    {
+      "sentence_id": 229,
+      "text": "Look at the definition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.053,
+        "Arguments of Respondent": 0.082,
+        "Decision": 0.0007,
+        "Facts": 0.0409,
+        "Issue": 0.0421,
+        "Reasoning": 0.7814
+      }
+    },
+    {
+      "sentence_id": 230,
+      "text": "Subclause (A) refers to gardens or nilams as defined in the KLR Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0013,
+        "Facts": 0.0166,
+        "Issue": 0.0003,
+        "Reasoning": 0.9559
+      }
+    },
+    {
+      "sentence_id": 231,
+      "text": "Garden means lands used principally for growing coconut trees, arecanut trees or pepper vines or any two or more of the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.5092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1033,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0019,
+        "Facts": 0.5092,
+        "Issue": 0.0016,
+        "Reasoning": 0.3737
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 232,
+      "text": "Nilam means lands adapted for the cultivation of paddy.",
+      "predicted_label": "Facts",
+      "confidence": 0.7189,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0389,
+        "Arguments of Respondent": 0.026,
+        "Decision": 0.0003,
+        "Facts": 0.7189,
+        "Issue": 0.0001,
+        "Reasoning": 0.2157
+      }
+    },
+    {
+      "sentence_id": 233,
+      "text": "Subclause (B) deals with what may be called plantation crops, cultivation of which in the general sense would be cultivation of agricultural crops.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9598,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0002,
+        "Facts": 0.0207,
+        "Issue": 0.0005,
+        "Reasoning": 0.9598
+      }
+    },
+    {
+      "sentence_id": 234,
+      "text": "Such agricultural crops are by name specified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9264,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0418,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0004,
+        "Facts": 0.0165,
+        "Issue": 0.0005,
+        "Reasoning": 0.9264
+      }
+    },
+    {
+      "sentence_id": 235,
+      "text": "Lands used for any purpose ancillary to such cultivation or for preparation of the same for the market are also included thereunder.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7388,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0396,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0007,
+        "Facts": 0.2146,
+        "Issue": 0.0012,
+        "Reasoning": 0.7388
+      }
+    },
+    {
+      "sentence_id": 236,
+      "text": "Next follows subclause (C).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0134,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0008,
+        "Facts": 0.1802,
+        "Issue": 0.002,
+        "Reasoning": 0.7997
+      }
+    },
+    {
+      "sentence_id": 237,
+      "text": "It first refers to lands which are principally cultivated with cashew or other fruitbearing trees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8668,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0648,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0003,
+        "Facts": 0.0565,
+        "Issue": 0.0018,
+        "Reasoning": 0.8668
+      }
+    },
+    {
+      "sentence_id": 238,
+      "text": "It thus refers to only the fruit beating trees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1273,
+        "Arguments of Respondent": 0.0552,
+        "Decision": 0.0226,
+        "Facts": 0.0318,
+        "Issue": 0.0005,
+        "Reasoning": 0.7626
+      }
+    },
+    {
+      "sentence_id": 239,
+      "text": "It next refers to lands which are principally cultivated with any other agricultural crop.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0177,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0001,
+        "Facts": 0.0126,
+        "Issue": 0.0007,
+        "Reasoning": 0.9624
+      }
+    },
+    {
+      "sentence_id": 240,
+      "text": "If the legislature had intended to use the term agricultural crop in a wide sense so as to take within its fold all species of trees fruitbeating or otherwise, it would be unnecessary to have the first limb denoting only the cashew or other fruitbeating trees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0637,
+        "Arguments of Respondent": 0.0193,
+        "Decision": 0.0002,
+        "Facts": 0.0163,
+        "Issue": 0.0043,
+        "Reasoning": 0.8962
+      }
+    },
+    {
+      "sentence_id": 241,
+      "text": "It may be significant to note that the Legislature in each subclause (A) to (C) has used the words to identify the different categories of crops or trees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9848,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0002,
+        "Facts": 0.0039,
+        "Issue": 0.0007,
+        "Reasoning": 0.9848
+      }
+    },
+    {
+      "sentence_id": 242,
+      "text": "The words used in every subclause too have associations, echoes and overtones.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9221,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0119,
+        "Arguments of Respondent": 0.051,
+        "Decision": 0.0006,
+        "Facts": 0.0142,
+        "Issue": 0.0002,
+        "Reasoning": 0.9221
+      }
+    },
+    {
+      "sentence_id": 243,
+      "text": "In Bhavani Tea Produce Co. Ltd (supra) this court had to consider the correct method of determining what is a private forest, under the Vesting Act the determination made was in connection with the interplay of provisions of the other enactments, i.e. the KLR Act, and the Madras Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9413,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0029,
+        "Facts": 0.0105,
+        "Issue": 0.0003,
+        "Reasoning": 0.9413
+      }
+    },
+    {
+      "sentence_id": 244,
+      "text": "The correct manner of interpreting the interplay between the Madras Act and the Vesting Act, was explained lucidly in the judgment of this court in State of Kerala v. Pullangode Rubber Produce Co. Ltd (1999) 6 SCC 92.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0192,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.0001,
+        "Facts": 0.0163,
+        "Issue": 0.0008,
+        "Reasoning": 0.9449
+      }
+    },
+    {
+      "sentence_id": 245,
+      "text": "This court observed that 8.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1712,
+        "Arguments of Respondent": 0.1006,
+        "Decision": 0.0006,
+        "Facts": 0.0315,
+        "Issue": 0.0003,
+        "Reasoning": 0.6958
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 246,
+      "text": "It is necessary first, we think, to construe the definition of private forest in the said Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0441,
+        "Arguments of Respondent": 0.0211,
+        "Decision": 0.0007,
+        "Facts": 0.1855,
+        "Issue": 0.0682,
+        "Reasoning": 0.6804
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 247,
+      "text": "It means, as aforestated, in relation to the erstwhile Malabar District of the State of Madras, land to which the Madras Preservation of Private Forests Act applied immediately before 1051971, being the appointed day under the said Act, but excluding, inter alia, lands which are used principally for the cultivation of tea, coffee, cocoa, rubber, cardamom or cinnamon and lands used for any purpose ancillary to the cultivation of such crops or for the preparation of the same for the market.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0258,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0008,
+        "Facts": 0.1246,
+        "Issue": 0.0014,
+        "Reasoning": 0.8406
+      }
+    },
+    {
+      "sentence_id": 248,
+      "text": "Such lands so used are, therefore, not private forests within the meaning of the said Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3119,
+        "Arguments of Respondent": 0.1431,
+        "Decision": 0.0563,
+        "Facts": 0.1069,
+        "Issue": 0.0014,
+        "Reasoning": 0.3804
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 249,
+      "text": "Now what this means is that the lands in Malabar District aforementioned which are used (a) principally for the cultivation of tea, coffee, cocoa, rubber, cardamom or cinnamon, (b) for any purpose ancillary to the cultivation of such crops, and (c) for the preparation of such crops for the market are not private forests under the said Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0129,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0041,
+        "Facts": 0.0929,
+        "Issue": 0.0004,
+        "Reasoning": 0.8846
+      }
+    },
+    {
+      "sentence_id": 250,
+      "text": "The use of the words are used in this context necessarily refers to such use as on the appointed date under the said Act, namely, 1051971.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0394,
+        "Arguments of Respondent": 0.0253,
+        "Decision": 0.0067,
+        "Facts": 0.0502,
+        "Issue": 0.0005,
+        "Reasoning": 0.8778
+      }
+    },
+    {
+      "sentence_id": 251,
+      "text": "It is not possible to give any other meaning to the words are used.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.0006,
+        "Facts": 0.0157,
+        "Issue": 0.0004,
+        "Reasoning": 0.9474
+      }
+    },
+    {
+      "sentence_id": 252,
+      "text": "They must relate to use on that particular day for it is on that day that land is or is not a private forest within the meaning of the said Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0841,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0011,
+        "Facts": 0.0133,
+        "Issue": 0.0013,
+        "Reasoning": 0.8736
+      }
+    },
+    {
+      "sentence_id": 253,
+      "text": "The states contention that as Popular Estates had mentioned in its petition that a certain area was forest (since it was so, by virtue of provisions of the Madras Act) therefore, does not preclude the latters contention that no vesting could take place whether the lands were forest or cultivated plantations or estates, for the purposes of Section 2(f)(1)(i)(B) of the Vesting Act, especially whether they stood excluded from operation of that Act, had to be considered independently.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1148,
+        "Arguments of Respondent": 0.1723,
+        "Decision": 0.0003,
+        "Facts": 0.1271,
+        "Issue": 0.0008,
+        "Reasoning": 0.5847
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 254,
+      "text": "The judgment in Kunjanam Antony (supra) enunciated the rule that where the Land Board arrives at a determination about the character of lands, under the KLR Act, that becomes a piece of evidence for the purposes of the Vesting Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0002,
+        "Facts": 0.0114,
+        "Issue": 0.0003,
+        "Reasoning": 0.9663
+      }
+    },
+    {
+      "sentence_id": 255,
+      "text": "It was observed that There can be no doubt that the order of the Thaluka Land Board, a statutory authority, is binding on the authorities under the Land Reforms Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.6681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0786,
+        "Arguments of Respondent": 0.0758,
+        "Decision": 0.0002,
+        "Facts": 0.6681,
+        "Issue": 0.001,
+        "Reasoning": 0.1762
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 256,
+      "text": "So far as the proceedings under the Forest Act are concerned, the order of the Thaluka Land Board would be a piece of evidence but it cannot be treated as a binding on the authorities under the Forest Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0521,
+        "Arguments of Respondent": 0.0576,
+        "Decision": 0.0619,
+        "Facts": 0.168,
+        "Issue": 0.0002,
+        "Reasoning": 0.6603
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 257,
+      "text": "Unless a contrary state of affairs is shown to exist, the order of the Thaluka Land Board would have to be given due weight.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0552,
+        "Arguments of Respondent": 0.2509,
+        "Decision": 0.0007,
+        "Facts": 0.0136,
+        "Issue": 0.0001,
+        "Reasoning": 0.6795
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 258,
+      "text": "From the material placed before the High Court and also before us, it appears that there is no evidence in regard to the destruction of the rubber plantation due to fire.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9228,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0284,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.0091,
+        "Facts": 0.0179,
+        "Issue": 0.0005,
+        "Reasoning": 0.9228
+      }
+    },
+    {
+      "sentence_id": 259,
+      "text": "There is, however, material to show that the appellant has been cultivating tapioca.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6192,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1668,
+        "Arguments of Respondent": 0.1764,
+        "Decision": 0.0007,
+        "Facts": 0.0366,
+        "Issue": 0.0003,
+        "Reasoning": 0.6192
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 260,
+      "text": "Further, the High Court recorded a finding that there was no evidence indicating that the appellant had intention to cultivate the land which only meant cultivation of rubber plantation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.077,
+        "Arguments of Respondent": 0.0542,
+        "Decision": 0.0023,
+        "Facts": 0.3501,
+        "Issue": 0.0025,
+        "Reasoning": 0.514
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 261,
+      "text": "There is also nothing on record to show that absence of rubber plantation was for short period and that the land was in the process of rubber plantation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8485,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0267,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.002,
+        "Facts": 0.1038,
+        "Issue": 0.0002,
+        "Reasoning": 0.8485
+      }
+    },
+    {
+      "sentence_id": 262,
+      "text": "Apart from this courts judgment in Popular II, another recent judgment, in State of Kerala v. Mohammed Basheer (2019) 2 SCC 260 has also followed the rule in Kunjanam Antony.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0219,
+        "Arguments of Respondent": 0.0629,
+        "Decision": 0.0007,
+        "Facts": 0.0159,
+        "Issue": 0.0015,
+        "Reasoning": 0.897
+      }
+    },
+    {
+      "sentence_id": 263,
+      "text": "Therefore, it is no longer open for the state to argue that the Boards determination or order, had little or no evidentiary value.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7284,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0613,
+        "Arguments of Respondent": 0.1789,
+        "Decision": 0.0027,
+        "Facts": 0.0284,
+        "Issue": 0.0003,
+        "Reasoning": 0.7284
+      }
+    },
+    {
+      "sentence_id": 264,
+      "text": "In view of the judgments of this court, including Popular II, the enunciation of the principle that unless a contrary state of affairs were shown to exist, the Boards order would have to be given due weight had to apply, and was correctly invoked by the High Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.4093,
+        "Decision": 0.0066,
+        "Facts": 0.0095,
+        "Issue": 0.0011,
+        "Reasoning": 0.5589
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 265,
+      "text": "Coming to the facts of this case, what can be seen is that the two reports preliminary and final, filed by the Commissioner, in the first proceeding (instituted by Popular Estates in 1974 by two applications) were the nearest in point of time, to the appointed date.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0026,
+        "Facts": 0.0281,
+        "Issue": 0.0002,
+        "Reasoning": 0.9637
+      }
+    },
+    {
+      "sentence_id": 266,
+      "text": "The preliminary report, Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.6645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0011,
+        "Facts": 0.6645,
+        "Issue": 0.0042,
+        "Reasoning": 0.2972
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 267,
+      "text": "A6 (filed on 15.01.1976) discloses widespread cultivation of coffee, cardamom, rubber, areca nut, etc.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4324,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2684,
+        "Arguments of Respondent": 0.4324,
+        "Decision": 0.0007,
+        "Facts": 0.0751,
+        "Issue": 0.0008,
+        "Reasoning": 0.2227
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 268,
+      "text": "The two reports are part of the record.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6038,
+      "probabilities": {
+        "Arguments of Petitioner": 0.043,
+        "Arguments of Respondent": 0.0443,
+        "Decision": 0.0029,
+        "Facts": 0.3034,
+        "Issue": 0.0025,
+        "Reasoning": 0.6038
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 269,
+      "text": "Ex. A7 by the Commissioner, i.e. the final report dated 12.09.1977 recorded that the Forest Range Officer, after inspection stated that only disputed portions in Bit Nos. 1 to 7 had been demarcated and that the other areas were cultivated.",
+      "predicted_label": "Facts",
+      "confidence": 0.7608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0209,
+        "Decision": 0.0002,
+        "Facts": 0.7608,
+        "Issue": 0.0003,
+        "Reasoning": 0.2047
+      }
+    },
+    {
+      "sentence_id": 270,
+      "text": "The respondents contention was that this reflected the true factual position, coupled with the Range Officers memorandum (Ex. A4) filed before the Commissioner on 01.09.1977.",
+      "predicted_label": "Facts",
+      "confidence": 0.5277,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.4049,
+        "Decision": 0.0001,
+        "Facts": 0.5277,
+        "Issue": 0.0004,
+        "Reasoning": 0.0556
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 271,
+      "text": "A combined reading of these materials, leads one to infer that a detailed inspection of the area took place.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0284,
+        "Arguments of Respondent": 0.046,
+        "Decision": 0.0082,
+        "Facts": 0.1283,
+        "Issue": 0.0003,
+        "Reasoning": 0.7889
+      }
+    },
+    {
+      "sentence_id": 272,
+      "text": "Only those areas that vested with the government were demarcated by the survey party, attached with the Superintendent, Land Records.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0587,
+        "Arguments of Respondent": 0.0612,
+        "Decision": 0.0004,
+        "Facts": 0.3219,
+        "Issue": 0.0003,
+        "Reasoning": 0.5575
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 273,
+      "text": "It was in these circumstances that the respondent successfully urged before the High Court that what was demarcated was only 100 hectares and the others were not demarcated since they were cultivated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6314,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0526,
+        "Arguments of Respondent": 0.0687,
+        "Decision": 0.0009,
+        "Facts": 0.2462,
+        "Issue": 0.0003,
+        "Reasoning": 0.6314
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 274,
+      "text": "This was borne out by Ex.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1392,
+        "Arguments of Respondent": 0.1102,
+        "Decision": 0.0002,
+        "Facts": 0.2375,
+        "Issue": 0.0001,
+        "Reasoning": 0.5129
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 275,
+      "text": "A7, the final report.",
+      "predicted_label": "Facts",
+      "confidence": 0.7214,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0385,
+        "Arguments of Respondent": 0.0332,
+        "Decision": 0.0011,
+        "Facts": 0.7214,
+        "Issue": 0.0034,
+        "Reasoning": 0.2024
+      }
+    },
+    {
+      "sentence_id": 276,
+      "text": "The possession with respect to 100 hectares of uncultivated forest lands was also covered by draft statement of land (Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.7779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0352,
+        "Decision": 0.0001,
+        "Facts": 0.7779,
+        "Issue": 0.0003,
+        "Reasoning": 0.1722
+      }
+    },
+    {
+      "sentence_id": 277,
+      "text": "A 50, dated 24.01.1979) furnished to the Board in proceedings under the KLR Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4085,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2225,
+        "Arguments of Respondent": 0.2551,
+        "Decision": 0.0075,
+        "Facts": 0.1037,
+        "Issue": 0.0026,
+        "Reasoning": 0.4085
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 278,
+      "text": "Ex.",
+      "predicted_label": "Facts",
+      "confidence": 0.4666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0313,
+        "Arguments of Respondent": 0.0464,
+        "Decision": 0.003,
+        "Facts": 0.4666,
+        "Issue": 0.0018,
+        "Reasoning": 0.4509
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 279,
+      "text": "A50 was the foundation for the Boards order dated 04.11.1980 (Ex. A51).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8615,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0269,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0005,
+        "Facts": 0.094,
+        "Issue": 0.0004,
+        "Reasoning": 0.8615
+      }
+    },
+    {
+      "sentence_id": 280,
+      "text": "Both these documents confirmed that 100 hectares was vested forest.",
+      "predicted_label": "Facts",
+      "confidence": 0.4931,
+      "probabilities": {
+        "Arguments of Petitioner": 0.024,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.0002,
+        "Facts": 0.4931,
+        "Issue": 0.0008,
+        "Reasoning": 0.4583
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 281,
+      "text": "Popular Estates had submitted that 533 acres was under cardamom cultivation 120 acres under rubber plantation 257 acres under coffee plantation and that 155.9 acres was forest land and 17.5 acres of were comprised of roads and buildings.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.245,
+        "Arguments of Respondent": 0.3638,
+        "Decision": 0.0004,
+        "Facts": 0.0941,
+        "Issue": 0.0002,
+        "Reasoning": 0.2964
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 282,
+      "text": "These arguments found favour with the High Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.7383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.016,
+        "Arguments of Respondent": 0.0123,
+        "Decision": 0.0004,
+        "Facts": 0.7383,
+        "Issue": 0.0039,
+        "Reasoning": 0.2291
+      }
+    },
+    {
+      "sentence_id": 283,
+      "text": "In our considered opinion, there is no glaring error in the impugned judgment, having regard to these circumstances.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.1522,
+        "Facts": 0.0046,
+        "Issue": 0.0012,
+        "Reasoning": 0.8338
+      }
+    },
+    {
+      "sentence_id": 284,
+      "text": "The tribunal entirely rejected the evidence of PW1, the Forest Range Officer, who gave the memorandum to the Commissioner on 01.09.1977.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7436,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1336,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0004,
+        "Facts": 0.1161,
+        "Issue": 0.0004,
+        "Reasoning": 0.7436
+      }
+    },
+    {
+      "sentence_id": 285,
+      "text": "The tribunal wholly discredited and brushed aside the evidence of this officer and viewed it with suspicion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0771,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0013,
+        "Facts": 0.0657,
+        "Issue": 0.0003,
+        "Reasoning": 0.8503
+      }
+    },
+    {
+      "sentence_id": 286,
+      "text": "This is clear from the repeated use of the phrase magic money suggesting that PW1 was devious and had been bribed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4407,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1059,
+        "Arguments of Respondent": 0.3852,
+        "Decision": 0.0002,
+        "Facts": 0.0675,
+        "Issue": 0.0004,
+        "Reasoning": 0.4407
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 287,
+      "text": "A reading of his deposition shows no such suggestion to him no material was placed on record that he was prosecuted for an offence, nor were departmental proceedings initiated, for misconduct.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1018,
+        "Arguments of Respondent": 0.0496,
+        "Decision": 0.0008,
+        "Facts": 0.0416,
+        "Issue": 0.0002,
+        "Reasoning": 0.806
+      }
+    },
+    {
+      "sentence_id": 288,
+      "text": "The other materials on record (the auditors balance sheets, Ex. A57 to A 64) the evidence of the auditor (PW4), the deposition of the manager of the respondent Popular Estates, PW5, who had worked since 1969 onwards reinforce the respondents contentions that the largest part of the area was cultivation for plantation crops.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.1546,
+        "Decision": 0.0004,
+        "Facts": 0.0898,
+        "Issue": 0.0002,
+        "Reasoning": 0.7522
+      }
+    },
+    {
+      "sentence_id": 289,
+      "text": "The tribunal, in this courts opinion unreasonably discarded these materials.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0063,
+        "Facts": 0.2396,
+        "Issue": 0.0015,
+        "Reasoning": 0.7386
+      }
+    },
+    {
+      "sentence_id": 290,
+      "text": "The other documents, i.e. Ex.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4584,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0524,
+        "Arguments of Respondent": 0.047,
+        "Decision": 0.0064,
+        "Facts": 0.433,
+        "Issue": 0.0028,
+        "Reasoning": 0.4584
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 291,
+      "text": "A66, Settlement arrived at between Popular Estates and its workers after closure on 25.6.1982 reveal that it had 80 permanent workers and 29 temporary workers on its rolls.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6237,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0795,
+        "Arguments of Respondent": 0.2269,
+        "Decision": 0.0015,
+        "Facts": 0.0669,
+        "Issue": 0.0017,
+        "Reasoning": 0.6237
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 292,
+      "text": "Likewise, copies of income tax returns for various dates showed that income from these estates was consistently reported, along with expenditure.",
+      "predicted_label": "Facts",
+      "confidence": 0.4285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1186,
+        "Arguments of Respondent": 0.1137,
+        "Decision": 0.0004,
+        "Facts": 0.4285,
+        "Issue": 0.0002,
+        "Reasoning": 0.3387
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 293,
+      "text": "For the year ending on 31.3.1968 income was reported as ? 81,319 for the year ending 31.3.1969 it was ?",
+      "predicted_label": "Facts",
+      "confidence": 0.9494,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9494,
+        "Issue": 0.0016,
+        "Reasoning": 0.0412
+      }
+    },
+    {
+      "sentence_id": 294,
+      "text": "95,707/ the year ending 31.3.1970 it was ?",
+      "predicted_label": "Facts",
+      "confidence": 0.6132,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0304,
+        "Arguments of Respondent": 0.026,
+        "Decision": 0.0011,
+        "Facts": 0.6132,
+        "Issue": 0.0123,
+        "Reasoning": 0.3169
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 295,
+      "text": "1,12,524",
+      "predicted_label": "Facts",
+      "confidence": 0.8518,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0031,
+        "Facts": 0.8518,
+        "Issue": 0.0014,
+        "Reasoning": 0.13
+      }
+    },
+    {
+      "sentence_id": 296,
+      "text": "and for the year ending 31.3.1971 it was ?",
+      "predicted_label": "Facts",
+      "confidence": 0.835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.019,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0002,
+        "Facts": 0.835,
+        "Issue": 0.0161,
+        "Reasoning": 0.1213
+      }
+    },
+    {
+      "sentence_id": 297,
+      "text": "1,38,918.",
+      "predicted_label": "Facts",
+      "confidence": 0.8813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0018,
+        "Facts": 0.8813,
+        "Issue": 0.0941,
+        "Reasoning": 0.0181
+      }
+    },
+    {
+      "sentence_id": 298,
+      "text": "The respondent Popular Estates was apparently depositing agricultural income tax and employees provident fund (Ex. A67, A69 and A70).",
+      "predicted_label": "Facts",
+      "confidence": 0.602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.0191,
+        "Decision": 0.0012,
+        "Facts": 0.602,
+        "Issue": 0.0007,
+        "Reasoning": 0.3657
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 299,
+      "text": "It had produced correspondence with these statutory authorities, as well as sales tax returns (Ex. A71).",
+      "predicted_label": "Facts",
+      "confidence": 0.7837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0295,
+        "Decision": 0.0004,
+        "Facts": 0.7837,
+        "Issue": 0.0025,
+        "Reasoning": 0.1751
+      }
+    },
+    {
+      "sentence_id": 300,
+      "text": "The title deeds of the predecessorininterest of the partners of the Popular Estates who had acquired the lands in 1963, show that large areas were shown as cardamon plantation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5205,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5205,
+        "Arguments of Respondent": 0.1171,
+        "Decision": 0.0006,
+        "Facts": 0.1733,
+        "Issue": 0.0006,
+        "Reasoning": 0.1879
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 301,
+      "text": "Popular Estates had filed agricultural income returns and even in 1970, it was producing coffee, rubber and cardamom.",
+      "predicted_label": "Facts",
+      "confidence": 0.565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1033,
+        "Arguments of Respondent": 0.0657,
+        "Decision": 0.0003,
+        "Facts": 0.565,
+        "Issue": 0.0009,
+        "Reasoning": 0.2648
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 302,
+      "text": "The fact that it had some labour trouble also supported its contention that Popular Estates plantation activities were on in full scale.",
+      "predicted_label": "Facts",
+      "confidence": 0.957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0001,
+        "Facts": 0.957,
+        "Issue": 0.0003,
+        "Reasoning": 0.0262
+      }
+    },
+    {
+      "sentence_id": 303,
+      "text": "All these materials, in the opinion of the court, support the conclusions of the High Court, which are based on plausible (and not an unreasonable) inference of the overall analysis of the evidence on the record.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.0192,
+        "Facts": 0.0093,
+        "Issue": 0.0002,
+        "Reasoning": 0.9522
+      }
+    },
+    {
+      "sentence_id": 304,
+      "text": "There is some authority for the proposition that where two plausible views on the conclusions that can be drawn from facts on the record exist, this court, in exercise of its discretionary jurisdiction under Article 136 of the Constitution would not interfere with the findings of the High Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0274,
+        "Arguments of Respondent": 0.0806,
+        "Decision": 0.0003,
+        "Facts": 0.0123,
+        "Issue": 0.0013,
+        "Reasoning": 0.8781
+      }
+    },
+    {
+      "sentence_id": 305,
+      "text": "It has been observed in Pritam Singh v. The State 1950 SCR 453, this Court observed that On a careful examination of Article 136 along with the preceding article, it seems clear that the wide discretionary power with which this Court is invested under is to be exercised sparingly and in exceptional cases only, and as far as possible a more or less uniform standard should be adopted in granting special leave in the wide range of matters which can come up before it under this article.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9265,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0328,
+        "Arguments of Respondent": 0.0238,
+        "Decision": 0.0002,
+        "Facts": 0.0156,
+        "Issue": 0.001,
+        "Reasoning": 0.9265
+      }
+    },
+    {
+      "sentence_id": 306,
+      "text": "Likewise, in Union of India v. Gangadhar Narsingdas Agarwal Anr (1997) 10 SCC 305 this court, declining to interfere with the order of the High Court in exercise of its power under Article 136 of the Constitution, said that even if two views are possible, the view taken by the High Court being a plausible one, it would not call for intervention by this court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0329,
+        "Arguments of Respondent": 0.2204,
+        "Decision": 0.0003,
+        "Facts": 0.0259,
+        "Issue": 0.0004,
+        "Reasoning": 0.7201
+      }
+    },
+    {
+      "sentence_id": 307,
+      "text": "A similar view was expressed in Jai Mangal Oraon v. Mira Nayak (Smt) Ors (2000) 5 SCC 141 , wherein this court held that when there was nothing illegal and wrong in the reasoning and conclusions arrived at by the High Court and it appeared to be merited and in accordance with the interpretation of statutory provisions, this court would not interfere with the order of the High Court under Article 136 of the Constitution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0474,
+        "Arguments of Respondent": 0.372,
+        "Decision": 0.0002,
+        "Facts": 0.0212,
+        "Issue": 0.0003,
+        "Reasoning": 0.5591
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 308,
+      "text": "In Taherakhatoon (D) By Lrs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4047,
+        "Arguments of Respondent": 0.189,
+        "Decision": 0.0007,
+        "Facts": 0.047,
+        "Issue": 0.0005,
+        "Reasoning": 0.358
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 309,
+      "text": "v. Salambin Mohammad (1992) 2 SCC 635 , this Court at observed as follows In view of the above decisions, even though we are now dealing with the appeal after grant of special leave, we are not bound to go into merits and even if we do so and declare the law or point out the error still we may not interfere if the justice of the case on facts does not require interference or if we feel that the relief could be moulded in a different fashion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0817,
+        "Arguments of Respondent": 0.0489,
+        "Decision": 0.002,
+        "Facts": 0.0803,
+        "Issue": 0.0024,
+        "Reasoning": 0.7847
+      }
+    },
+    {
+      "sentence_id": 310,
+      "text": "This court has carefully considered the findings of the High Court while setting aside the order of the tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0093,
+        "Facts": 0.0239,
+        "Issue": 0.0011,
+        "Reasoning": 0.9361
+      }
+    },
+    {
+      "sentence_id": 311,
+      "text": "The reasons which led the High Court to conclude that the tribunals findings called for interference are merited and in accord with the material evidence on record.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.072,
+        "Arguments of Respondent": 0.6801,
+        "Decision": 0.0084,
+        "Facts": 0.0844,
+        "Issue": 0.0152,
+        "Reasoning": 0.1399
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 312,
+      "text": "This Court is therefore of the opinion that no interference with the impugned judgment of the High Court is called for.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.034,
+        "Decision": 0.045,
+        "Facts": 0.0738,
+        "Issue": 0.0016,
+        "Reasoning": 0.8412
+      }
+    },
+    {
+      "sentence_id": 313,
+      "text": "The appeal is therefore, dismissed, without order on costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.987,
+        "Facts": 0.006,
+        "Issue": 0.0001,
+        "Reasoning": 0.0059
+      }
+    }
+  ]
+}

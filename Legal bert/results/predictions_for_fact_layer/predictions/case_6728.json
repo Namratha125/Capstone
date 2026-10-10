@@ -1,0 +1,3588 @@
+{
+  "case_id": "6728",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " Chief JusticeThe petitioner in the first Writ Petition No.977 of 2010, Bombay Dyeing and Manufacturing Company Limited (the TextileCompany or the Company) has two properties in the City of Mumbai viz.(i) Textile Mill at Prabhadevi in Lower, and(ii) Spring Mills at Dadar Naigaon in Wadala.",
+      "predicted_label": "Facts",
+      "confidence": 0.9949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9949,
+        "Issue": 0.0018,
+        "Reasoning": 0.0018
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The land upon which the Mills are situate is freehold land belonging to the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.7376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0007,
+        "Facts": 0.7376,
+        "Issue": 0.0009,
+        "Reasoning": 0.2223
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Spring Mills at Dadar was closed after obtaining necessary permission of the Commissioner of Labour, Maharashtra State vide order dated 25 November 2004 under section 25O(1) of the Industrial Disputes Act, 1947 (I.D. Act).2.",
+      "predicted_label": "Facts",
+      "confidence": 0.9501,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0006,
+        "Facts": 0.9501,
+        "Issue": 0.0468,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "Since the lands of the Company were permitted to be used for running cotton textile mills, i.e. industrial user, ordinarily the lands could not have been used for development or redevelopment for commercial or residential purpose.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1368,
+        "Arguments of Respondent": 0.0517,
+        "Decision": 0.0005,
+        "Facts": 0.3384,
+        "Issue": 0.0004,
+        "Reasoning": 0.4723
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 4,
+      "text": "However, several cotton textile mills in Mumbai were sick and or closed and they were desirous of going for development or redevelopment of lands for commercial and or residential user for generating funds.",
+      "predicted_label": "Facts",
+      "confidence": 0.8706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.016,
+        "Decision": 0.0001,
+        "Facts": 0.8706,
+        "Issue": 0.0003,
+        "Reasoning": 0.102
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Similarly, the cotton textile mills which claimed that they wanted to go for moderisation on the same lands also required funds for such modernisation and, therefore, they were desirous of using a substantial part of their lands for putting up constructions for commercial residential user.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0001,
+        "Facts": 0.9914,
+        "Issue": 0.0002,
+        "Reasoning": 0.0031
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Development of land and use of land included in the development plans for the city of Greater Bombay are regulated by provisions of Chapter IV of Maharashtra Regional and Town Planning Act, 1966 with the title Control of Development for Use of Land included in Development Plans.",
+      "predicted_label": "Facts",
+      "confidence": 0.7081,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0263,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0003,
+        "Facts": 0.7081,
+        "Issue": 0.0011,
+        "Reasoning": 0.2573
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "There is no dispute about the fact that the lands of the two textile mills of the company in Mumbai are covered by the development plan made as per the provisions of the Maharashtra Regional and Town Planning Act, 1966 (the MRTP Act).",
+      "predicted_label": "Facts",
+      "confidence": 0.9083,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0002,
+        "Facts": 0.9083,
+        "Issue": 0.0021,
+        "Reasoning": 0.0842
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "In exercise of the powers conferred by the MRTP Act, the State Government has made the Development Control Regulations for Greater Bombay, 1991 (DCR).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3105,
+        "Arguments of Respondent": 0.1301,
+        "Decision": 0.0007,
+        "Facts": 0.16,
+        "Issue": 0.0007,
+        "Reasoning": 0.3981
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 9,
+      "text": "These regulations apply to the construction activity and development work in the areas of the entire jurisdiction of Municipal Corporation of Greater Mumbai.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9898,
+        "Issue": 0.0002,
+        "Reasoning": 0.0078
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The State of Maharashtra added Regulation 58 in the Development Control Regulations for Greater Mumbai, 1991 with a view to deal with the situation arising out of closure and or unviability of various cotton textile mills.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4409,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0993,
+        "Arguments of Respondent": 0.0678,
+        "Decision": 0.0003,
+        "Facts": 0.3914,
+        "Issue": 0.0003,
+        "Reasoning": 0.4409
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "The deteriorating condition of the textile units and need to have open green spaces for public purpose and public housing housing for mill workers prompted the Government to have policy to free open mill lands for development and or redevelopment.",
+      "predicted_label": "Facts",
+      "confidence": 0.8138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.025,
+        "Decision": 0.0001,
+        "Facts": 0.8138,
+        "Issue": 0.0004,
+        "Reasoning": 0.1451
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Under this policy, the cotton textile mills which were sick and or closed or wanted to go for modernization were to be granted permission for development and or redevelopment of its lands for commercial and or residential user, subject to the condition that after excluding the lands occupied by the existing built up area (and also after excluding the lands becoming open upon demolition of the built up area which was in existence on the date of coming into force of Regulation 58), the remaining open lands would be shared with Maharashtra Housing and Area Development Authority (MHADA) for public housing mill workers housing and with the Municipal Corporation for Greater Mumbai for open green spaces like recreation grounds gardens play grounds.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.97,
+      "probabilities": {
+        "Arguments of Petitioner": 0.009,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0,
+        "Facts": 0.97,
+        "Issue": 0.0004,
+        "Reasoning": 0.0183
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "As far as the lands of the petitioner textilecompany are concerned, there is no dispute that after excluding the lands which had existing built up areas on the date of coming into force of Regulation 58, the Company has to share the remaining open lands of the textile mills at Prabhadevi (Lower) and Spring Mill at Dadar, Wadala in the following proportion with MHADA and the Municipal Corporation(Figures in sq.meters rounded off.)Sr.",
+      "predicted_label": "Facts",
+      "confidence": 0.5029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.121,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0043,
+        "Facts": 0.5029,
+        "Issue": 0.0005,
+        "Reasoning": 0.3615
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 14,
+      "text": "(upto 5 Ha.)(Between 5 and 10 Ha.)1Total Land in sq.mts.1,00,4981,38,2552Land with existing built up area (Company can demolish the existing structures and can develop the land below the same for constructing buildings for commercial residential user.)79,12660,1493Land to be shared as per layout submitted by Company and approvedby Mu.Corp.21,37278,106(a)Earmarked for development by Company8,549 (40)25,755 (33)(b)Earmarked for public housing mill workers housing to be developed byMHADA.5,771",
+      "predicted_label": "Facts",
+      "confidence": 0.98,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0004,
+        "Facts": 0.98,
+        "Issue": 0.0002,
+        "Reasoning": 0.0164
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "(27)26,556 (34)(c)Earmarked for open green spaces to be maintained by Municipal Corporation (Recreation Ground Garden Play Ground etc.)7,053 (33)25,775 (33)4Total land to be retained by Textile Company Col.23(a)79,126 87,675 8,54960,149 1,03,88125,7755Total land to be handed over to MHADA and Mu.Corpn.",
+      "predicted_label": "Facts",
+      "confidence": 0.9808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0004,
+        "Facts": 0.9808,
+        "Issue": 0.0002,
+        "Reasoning": 0.0149
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Col. 3(b)3(c)5,771 12,824 7,05326,556 52,331 25,7756.",
+      "predicted_label": "Facts",
+      "confidence": 0.8079,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0257,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0004,
+        "Facts": 0.8079,
+        "Issue": 0.0003,
+        "Reasoning": 0.1606
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The Textilecompany accordingly submitted the lay out plans to the Planning Authority i.e. Municipal Corporation for Greater Mumbai (Municipal Corporation) in respect of the lands of both the textile mills.",
+      "predicted_label": "Facts",
+      "confidence": 0.9682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0001,
+        "Facts": 0.9682,
+        "Issue": 0.0002,
+        "Reasoning": 0.0256
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The lay out plans were approved by the Municipal Corporation on 25.8.2005.",
+      "predicted_label": "Facts",
+      "confidence": 0.9051,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.0002,
+        "Facts": 0.9051,
+        "Issue": 0.0006,
+        "Reasoning": 0.0612
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "As far as the lay out in respect of lands of Spring Mills at Dadar is concerned, it was subsequently amended and the amendment was approved on 16.12.2010.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7641,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0713,
+        "Arguments of Respondent": 0.0286,
+        "Decision": 0.0016,
+        "Facts": 0.1342,
+        "Issue": 0.0002,
+        "Reasoning": 0.7641
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The company also applied to the Municipal Corporation for approval of the plans for constructing buildings with built up area 76,878 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9555,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0,
+        "Facts": 0.9555,
+        "Issue": 0.0015,
+        "Reasoning": 0.0319
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "for commercial residential user on the land of the textile mill at Prabhadevi (Lower) and buildings with built up area of 1,29,199 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0003,
+        "Facts": 0.9728,
+        "Issue": 0.0005,
+        "Reasoning": 0.0155
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "for residential user on the land of Spring Mill at Dadar (Wadala).",
+      "predicted_label": "Facts",
+      "confidence": 0.983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0002,
+        "Facts": 0.983,
+        "Issue": 0.01,
+        "Reasoning": 0.0059
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Subregulation (9) of Regulation 58 of DCR provides for constitution of Monitoring Committee to oversee the due implementation of schemes for development or redevelopment of the lands of cotton textile mills sanctioned under Regulation 58.",
+      "predicted_label": "Facts",
+      "confidence": 0.4828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0582,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0007,
+        "Facts": 0.4828,
+        "Issue": 0.0006,
+        "Reasoning": 0.4478
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 24,
+      "text": "A retired High Court Judge is to be the Chairman of the Committee, with one representative each of the cotton textile mill owners, recognised trade union of cotton textile mill workers, the Commissioner and the Government as members.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0605,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0022,
+        "Facts": 0.1857,
+        "Issue": 0.001,
+        "Reasoning": 0.7444
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Accordingly, the Monitoring Committee headed by a retired High Court Judge is constituted.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9609,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0015,
+        "Facts": 0.9609,
+        "Issue": 0.0004,
+        "Reasoning": 0.0221
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "At its 99th meeting held on 29 January 2010, when the Monitoring Committee called upon the representative of the company to state about the managements commitment to surrender the land earmarked for the workers housing as well as recreation ground, the committee was informed that the management was ready to hand over necessary land, but they had submitted necessary plans which were yet to be approved.",
+      "predicted_label": "Facts",
+      "confidence": 0.8563,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0185,
+        "Decision": 0.0008,
+        "Facts": 0.8563,
+        "Issue": 0.0001,
+        "Reasoning": 0.1192
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "When inquired from the concerned officer of the Municipal Corporation, the Committee was informed that so far (29 January 2010)",
+      "predicted_label": "Facts",
+      "confidence": 0.9643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0002,
+        "Facts": 0.9643,
+        "Issue": 0.0003,
+        "Reasoning": 0.0279
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "no such amended plans were received.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3471,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0923,
+        "Arguments of Respondent": 0.237,
+        "Decision": 0.0018,
+        "Facts": 0.3209,
+        "Issue": 0.001,
+        "Reasoning": 0.3471
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The Monitoring committee then gave certain directions.",
+      "predicted_label": "Facts",
+      "confidence": 0.8946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0003,
+        "Facts": 0.8946,
+        "Issue": 0.0009,
+        "Reasoning": 0.0881
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The reasons for giving the directions and the directions are as underGovt. of Maharashtra, Urban Development Department has already issued directives under Section 37(1) of M.R. T.P.Act, 1966 to the Corporation to initiate modification of Regulation 58(1)(b) so that the lands earmarked for MHADA and R.G. could be handed over to the concerned Authority immediately after approval of layout.",
+      "predicted_label": "Facts",
+      "confidence": 0.9231,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0001,
+        "Facts": 0.9231,
+        "Issue": 0.0004,
+        "Reasoning": 0.0655
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The formal procedure for the modification is going to take considerable time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6817,
+      "probabilities": {
+        "Arguments of Petitioner": 0.044,
+        "Arguments of Respondent": 0.0727,
+        "Decision": 0.0034,
+        "Facts": 0.197,
+        "Issue": 0.0011,
+        "Reasoning": 0.6817
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "However, the intention of the Govt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0329,
+        "Arguments of Respondent": 0.0261,
+        "Decision": 0.0006,
+        "Facts": 0.0903,
+        "Issue": 0.0009,
+        "Reasoning": 0.8492
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "is clear from the directions that the concerned mills should hand over the lands earmarked for MHADA R.G. after approval of their layouts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6018,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0012,
+        "Facts": 0.3736,
+        "Issue": 0.0001,
+        "Reasoning": 0.6018
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "In the present case before starting the construction on both the properties already layouts have been submitted and both the layouts have been approved, in pursuance of which construction has also started.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.0302,
+        "Decision": 0.0048,
+        "Facts": 0.2976,
+        "Issue": 0.0003,
+        "Reasoning": 0.6445
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "Therefore, in pursuance of the spirit of the directions given by the State Govt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5685,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0234,
+        "Arguments of Respondent": 0.0198,
+        "Decision": 0.0014,
+        "Facts": 0.3864,
+        "Issue": 0.0006,
+        "Reasoning": 0.5685
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "there should be no difficulty for the Bombay Dyeing Units to hand over the respective portions earmarked to workers housing to MHADA and R.G. to MCGM shown in the 2 approved layouts.",
+      "predicted_label": "Facts",
+      "confidence": 0.8791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.0404,
+        "Decision": 0.0012,
+        "Facts": 0.8791,
+        "Issue": 0.0003,
+        "Reasoning": 0.0541
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The Monitoring Committee, therefore, gives the direction that Bombay Dyeing Management should immediately hand over the earmarked lands in the respective layouts of the two units immediately without any further delay.",
+      "predicted_label": "Facts",
+      "confidence": 0.9633,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0003,
+        "Facts": 0.9633,
+        "Issue": 0.0002,
+        "Reasoning": 0.0341
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "Both MCGM as well as MHADA will start immediate action for taking advance possession after getting an undertaking from the Management to complete other formalities.",
+      "predicted_label": "Facts",
+      "confidence": 0.8417,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0674,
+        "Facts": 0.8417,
+        "Issue": 0.0008,
+        "Reasoning": 0.0683
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "(emphasis supplied)9.",
+      "predicted_label": "Facts",
+      "confidence": 0.4832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1245,
+        "Arguments of Respondent": 0.0412,
+        "Decision": 0.0016,
+        "Facts": 0.4832,
+        "Issue": 0.0025,
+        "Reasoning": 0.347
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "At the next meeting of the Managing Committee i.e. 100th Meeting held on 16 February 2010, the company submitted that it was not bound to hand over possession of the lands earmarked for the MHADA and the Municipal Corporation until the company crosses the limit of existing built up area 30 of the balance FSI as stipulated under DCR 58(2).",
+      "predicted_label": "Facts",
+      "confidence": 0.6357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0207,
+        "Arguments of Respondent": 0.051,
+        "Decision": 0.0005,
+        "Facts": 0.6357,
+        "Issue": 0.0002,
+        "Reasoning": 0.2919
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The Monitoring Committee did not accept the companys contention and observed that on the one hand there is no progress so far as the workers housing is concerned, whereas the permitted construction on the companys share of the land is going on which appears to be incongruous.",
+      "predicted_label": "Facts",
+      "confidence": 0.864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0002,
+        "Facts": 0.864,
+        "Issue": 0.0003,
+        "Reasoning": 0.1171
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The Monitoring Committee decided to issue stop work notice at both the places of the company for stopping the development work.",
+      "predicted_label": "Facts",
+      "confidence": 0.8166,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0174,
+        "Decision": 0.0005,
+        "Facts": 0.8166,
+        "Issue": 0.0005,
+        "Reasoning": 0.1564
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The Monitoring Committee also noted thusLast meeting Mr.Gunaji submitted that after amended plans are approved, land will be handed over to MCGM and MHADA.",
+      "predicted_label": "Facts",
+      "confidence": 0.9199,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0004,
+        "Facts": 0.9199,
+        "Issue": 0.0002,
+        "Reasoning": 0.056
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "However, no such amended plans are submitted.",
+      "predicted_label": "Facts",
+      "confidence": 0.596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1113,
+        "Arguments of Respondent": 0.1602,
+        "Decision": 0.0076,
+        "Facts": 0.596,
+        "Issue": 0.0006,
+        "Reasoning": 0.1243
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "Today, totally different plea is taken.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1274,
+        "Arguments of Respondent": 0.3421,
+        "Decision": 0.0075,
+        "Facts": 0.0578,
+        "Issue": 0.0013,
+        "Reasoning": 0.4639
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 46,
+      "text": "Govt.",
+      "predicted_label": "Facts",
+      "confidence": 0.6767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.026,
+        "Arguments of Respondent": 0.0452,
+        "Decision": 0.0037,
+        "Facts": 0.6767,
+        "Issue": 0.0042,
+        "Reasoning": 0.2441
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "has also issued order for changing the rule.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0966,
+        "Arguments of Respondent": 0.0502,
+        "Decision": 0.011,
+        "Facts": 0.3939,
+        "Issue": 0.009,
+        "Reasoning": 0.4393
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "It may take time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0486,
+        "Arguments of Respondent": 0.0475,
+        "Decision": 0.0022,
+        "Facts": 0.0207,
+        "Issue": 0.0003,
+        "Reasoning": 0.8808
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "But, some urgency is necessary for solving the problem in totality and hence the stop work notice should be issued at both the places stopping the development of the work.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.9509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0053,
+        "Facts": 0.9509,
+        "Issue": 0.0007,
+        "Reasoning": 0.0344
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "Accordingly, the Municipal Corporation issued stop work notice dated 26 March 2010 (Exhibit V) calling upon the company to stop all the construction activities on the sites at Dadar Naigaon Division, Wadala as well as at Prabhadevi, Lower.",
+      "predicted_label": "Facts",
+      "confidence": 0.9897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0002,
+        "Facts": 0.9897,
+        "Issue": 0.0003,
+        "Reasoning": 0.0066
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The said decision of the Monitoring Committee and the stop work notice issued by the Municipal Corporation are challenged by the petitionercompany in Writ Petition No.977 of 2010 under Article 226 of the Constitution filed on 6 April 2010.11.",
+      "predicted_label": "Facts",
+      "confidence": 0.9824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0004,
+        "Facts": 0.9824,
+        "Issue": 0.0015,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Writ Petition (Lodging) No.1134 of 2010 is filed by one of the Unions of Workmen of the two Mills of the textile company with a prayer that the company be directed to surrender the lands as per the ratio laid down in Regulation 58(1)(b) for public housing mill workers housing to MHADA and to the Municipal Corporation for Greater Mumbai for open green spaces.12.",
+      "predicted_label": "Facts",
+      "confidence": 0.955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0289,
+        "Facts": 0.955,
+        "Issue": 0.0014,
+        "Reasoning": 0.0104
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "Before proceeding further, we may refer to the Government Notification dated 24 August 2010.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0153,
+        "Arguments of Respondent": 0.019,
+        "Decision": 0.0004,
+        "Facts": 0.3088,
+        "Issue": 0.0043,
+        "Reasoning": 0.6522
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "We may note that the modification of Regulation referred to in the minutes of the Monitoring Committee held on 29 January 2010 and 16 February 2010 was to the proposal contemplated for modification of DCR 58.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8159,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0003,
+        "Facts": 0.1627,
+        "Issue": 0.0002,
+        "Reasoning": 0.8159
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "After consulting the Director of Town Planning Maharashtra State and the suggestions and objections received on the said modification proposal by the Municipal Corporation, the State Government issued Notification dated 24 August 2010 under Section 37(1) of the Maharashtra Regional and Town Planning Act,1966.",
+      "predicted_label": "Facts",
+      "confidence": 0.7699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.05,
+        "Arguments of Respondent": 0.0652,
+        "Decision": 0.0004,
+        "Facts": 0.7699,
+        "Issue": 0.0021,
+        "Reasoning": 0.1124
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "The preamble to the Notification, inter alia, stated as underAnd whereas, it has been brought to the notice of the Government that the cotton textile mills are closed but the lands which are required to be handed over to MHADA and MCGM under Regulation 58(1)(b) of the said modified Regulations are not made available for the required purposes.",
+      "predicted_label": "Facts",
+      "confidence": 0.9292,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0216,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0002,
+        "Facts": 0.9292,
+        "Issue": 0.0028,
+        "Reasoning": 0.0397
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "Notwithstanding any thing above, the layout of mill land shall be submitted by the mill owner within six months of closure of the mill or within six months of this notification whichever is later and the lands earmarked for MHADA and Recreation Ground shall be handed over to the concerned Authority immediately after the approval of layout.",
+      "predicted_label": "Facts",
+      "confidence": 0.9704,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0014,
+        "Facts": 0.9704,
+        "Issue": 0.0002,
+        "Reasoning": 0.0259
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "Mr. N.H.Seervai, learned senior counsel with Ms. Meena Doshi for the Textilecompany has raised the following contentions(i) The respondent authorities are invoking provisions of Regulation 58(1)(b) which apply to sick or closed textile mills but the petitioner company was granted permission for redevelopment of both the mills under Regulation 58(2) read with Regulation 58(6) of the DCR(ii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8565,
+        "Arguments of Respondent": 0.1267,
+        "Decision": 0.0001,
+        "Facts": 0.0115,
+        "Issue": 0.0004,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Regulation 58(2) specifically provides that with regard to the utilization of the existing builtup area, Regulation 58(1)(a) will apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0779,
+        "Arguments of Respondent": 0.0263,
+        "Decision": 0.0013,
+        "Facts": 0.0951,
+        "Issue": 0.0001,
+        "Reasoning": 0.7993
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "Therefore, if a party constructs develops the land to the extent of existing builtup area and no more, Regulation 58(1)(b) itself is wholly inapplicable and consequently the question of applying Note7 to Regulation 58(1)(b) to such a case cannot arise.(iii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5006,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5006,
+        "Arguments of Respondent": 0.2704,
+        "Decision": 0.0009,
+        "Facts": 0.0465,
+        "Issue": 0.0005,
+        "Reasoning": 0.1811
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 61,
+      "text": "DCR 58(2) expressly provides , if the development of open lands and balance FSI exceeds 30 per cent of the open land and balance FSI, the provisions of clause (b) of subregulation (1) of this Regulation shall apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0346,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0003,
+        "Facts": 0.0865,
+        "Issue": 0.0005,
+        "Reasoning": 0.8618
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "Hence, the question of applying Regulation 58(1)(b) will arise only if and after the development of open land and balance FSI exceeds 30 of the open land and balance FSI.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1649,
+        "Arguments of Respondent": 0.0434,
+        "Decision": 0.0012,
+        "Facts": 0.0971,
+        "Issue": 0.0018,
+        "Reasoning": 0.6916
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "The expression open land has already been interpreted by the Apex Court in Bombay",
+      "predicted_label": "Facts",
+      "confidence": 0.9125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0201,
+        "Arguments of Respondent": 0.025,
+        "Decision": 0.0002,
+        "Facts": 0.9125,
+        "Issue": 0.0013,
+        "Reasoning": 0.0409
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "Limited Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.2994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2928,
+        "Arguments of Respondent": 0.2069,
+        "Decision": 0.0152,
+        "Facts": 0.1792,
+        "Issue": 0.0066,
+        "Reasoning": 0.2994
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 65,
+      "text": "Bombay Environmental Action Group and others (2006)3 SCC 434 as excluding the land available after demolition of the existing structure.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6401,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6401,
+        "Arguments of Respondent": 0.166,
+        "Decision": 0.0036,
+        "Facts": 0.0944,
+        "Issue": 0.0046,
+        "Reasoning": 0.0913
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "The reports submitted by the Municipal Corporation on 30 January 2012 and 2 March 1012 make it clear that the construction put up by the company so far has not even reached the existing builtup area (BUA) i.e. to the extent of the structures which were demolished(iv) The judgment of Apex Court in the companys own case cited above is a complete answer to the contentions being raised by the respondents.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6315,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6315,
+        "Arguments of Respondent": 0.2999,
+        "Decision": 0.0006,
+        "Facts": 0.0567,
+        "Issue": 0.0004,
+        "Reasoning": 0.0109
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 67,
+      "text": "The Apex Court interpreted not only Regulation 58(1)(a) and (b) but also Regulation 58(2) of DCR Several owners of mills which moved the Apex Court were private textile mills which cases admittedly fall under Regulation 58(2) including the company and the Ruby Mills.",
+      "predicted_label": "Facts",
+      "confidence": 0.8966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0004,
+        "Facts": 0.8966,
+        "Issue": 0.0144,
+        "Reasoning": 0.0734
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "In view of the judgment of the Apex Court, the issue has become resjudicata and the respondents are estopped from reopening or reagitating those issues(v) Similar issue was raised by the company in Writ Petition No.379 of 2009.",
+      "predicted_label": "Facts",
+      "confidence": 0.681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1719,
+        "Arguments of Respondent": 0.1025,
+        "Decision": 0.0221,
+        "Facts": 0.681,
+        "Issue": 0.0006,
+        "Reasoning": 0.0219
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "When the said petition came up for hearing on 25 February 2009, this Court required the respondent authorities to decide the companys representation.",
+      "predicted_label": "Facts",
+      "confidence": 0.6926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0272,
+        "Arguments of Respondent": 0.0639,
+        "Decision": 0.0013,
+        "Facts": 0.6926,
+        "Issue": 0.0017,
+        "Reasoning": 0.2134
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "By letter dated 27 February 2009, the Urban Development Department of the State Government had replied in favour of the companyrelevant portion of which reads as under The regulation clearly states that the modernization of the lands of cotton textile mills the provisions of sharing of land to MHADA MCGM under DCR 58(i)(b) will apply only when the development of open lands and balance FSI exceeds 30 percent of open land and balance FSI.",
+      "predicted_label": "Facts",
+      "confidence": 0.9294,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0264,
+        "Decision": 0.0001,
+        "Facts": 0.9294,
+        "Issue": 0.0004,
+        "Reasoning": 0.0348
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "As per the say of MCGM the development in petitioners land at both their units at Lower and Wadala is within the limit of existing builtup area plus 30 of balance FSI.",
+      "predicted_label": "Facts",
+      "confidence": 0.8624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0005,
+        "Facts": 0.8624,
+        "Issue": 0.0006,
+        "Reasoning": 0.0978
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Therefore, strictly as per the provisions of DCR 58(2)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9281,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0307,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0016,
+        "Facts": 0.0249,
+        "Issue": 0.0001,
+        "Reasoning": 0.9281
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "the petitioner is not obliged, at the present stage to hand over the land to MHADA MCGM.(vi)",
+      "predicted_label": "Facts",
+      "confidence": 0.8566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0813,
+        "Arguments of Respondent": 0.0317,
+        "Decision": 0.0043,
+        "Facts": 0.8566,
+        "Issue": 0.0008,
+        "Reasoning": 0.0253
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "In the affidavit dated 17 April 2010 filed by the Assistant Engineer of the Municipal Corporation, a reference is made to the following statementAs the above said limit is not yet cross over, the developer is not liable to hand over share of lands to MCGM and MHADA at this stage.(vii)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1408,
+        "Arguments of Respondent": 0.3614,
+        "Decision": 0.0029,
+        "Facts": 0.3523,
+        "Issue": 0.0011,
+        "Reasoning": 0.1414
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 75,
+      "text": "In the affidavit of Ms. Elezabeth Saji Joseph, dated 27.2.2012 there is a report dated 14.2.2012 of the Executive Engineer (Building Proposal)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.095,
+        "Arguments of Respondent": 0.2012,
+        "Decision": 0.0006,
+        "Facts": 0.2076,
+        "Issue": 0.0002,
+        "Reasoning": 0.4955
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "City I and Executive Engineer (Building Proposal)",
+      "predicted_label": "Facts",
+      "confidence": 0.8013,
+      "probabilities": {
+        "Arguments of Petitioner": 0.049,
+        "Arguments of Respondent": 0.0675,
+        "Decision": 0.0007,
+        "Facts": 0.8013,
+        "Issue": 0.0071,
+        "Reasoning": 0.0744
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "The regulation clearly states that in the modernization of the lands of cotton textile mills, the provisions of sharing of land to MHADA MCGM under D.C.Regn.58(1)(b) will apply only when the development of open lands and balance F.S.I. exceed 30 percent of open land and balance F.S.I. As per the say of M.C.G.M., the development in units at Lower and Wadala is within the limit of existing built up area plus 30 of balance F.S.I. and hence question of handing over M.C.G.M. and MHADA share does not arise at this stage.(viii)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5853,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0467,
+        "Arguments of Respondent": 0.0251,
+        "Decision": 0.0007,
+        "Facts": 0.3419,
+        "Issue": 0.0002,
+        "Reasoning": 0.5853
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 78,
+      "text": "Mr.Pakale, learned Counsel with Ms.Sharmila Modale for the Municipal Corporation for Greater Mumbai and Mr.Mattos, learned Counsel for MHADA have made the following submissions(a) The expression Development in Regulations 58(1) and 58(2) cannot be read in isolation.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.338,
+        "Arguments of Respondent": 0.6569,
+        "Decision": 0.0002,
+        "Facts": 0.0009,
+        "Issue": 0.0003,
+        "Reasoning": 0.0037
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "Since Development Control Regulations are made in exercise of powers under section 37 of the Maharashtra Regional and Town Planning Act (MRTP Act for brevity), the expressions used in the DCR have to be read in light of the definitions of the relevant expressions development and development right in clauses (7) and (9A) of Section 2 of the MRTP Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4726,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2762,
+        "Arguments of Respondent": 0.1749,
+        "Decision": 0.0004,
+        "Facts": 0.0754,
+        "Issue": 0.0006,
+        "Reasoning": 0.4726
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "As per the said definitions, development includes making layout and demolition of existing structures.(b)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4969,
+        "Arguments of Respondent": 0.1265,
+        "Decision": 0.0018,
+        "Facts": 0.0416,
+        "Issue": 0.0006,
+        "Reasoning": 0.3325
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "In view of the above, the provisions of Regulations 58(1) and 58(2) apply as soon as the land owner submits layout plans which requires a plan to be submitted disclosing a statement indicating the total area of the site area utilised under roads, open spaces for parks, playgrounds, recreation spaces and development plan designations, reservations and other public places DCR Regulation 5(3)(v)(f).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0019,
+        "Facts": 0.0164,
+        "Issue": 0.0001,
+        "Reasoning": 0.9595
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "A person is also required to furnish a separate building plan which he proposes to construct Regulation 5(3)(vi)(6).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2584,
+        "Arguments of Respondent": 0.0784,
+        "Decision": 0.0016,
+        "Facts": 0.0997,
+        "Issue": 0.0034,
+        "Reasoning": 0.5585
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "It is for this reason that the amendment to the Development Control Regulations by Government Notification dated 24 August 2010 specifically provides that notwithstanding anything in Regulation 58(1), the layout of mill land shall be submitted by the mill owner within six months of closure of the mill or within six months of this notification, whichever is later and the lands earmarked for MHADA and Recreation Ground shall be handed over to the concerned authority immediately after the approval of layout.(c)",
+      "predicted_label": "Facts",
+      "confidence": 0.562,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0534,
+        "Arguments of Respondent": 0.0403,
+        "Decision": 0.001,
+        "Facts": 0.562,
+        "Issue": 0.0001,
+        "Reasoning": 0.3432
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "The owner is required to make an application for obtaining development permission under Regulation 5.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1054,
+        "Arguments of Respondent": 0.0772,
+        "Decision": 0.0002,
+        "Facts": 0.1349,
+        "Issue": 0.0015,
+        "Reasoning": 0.6808
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "The said application amounts to a representation made to the planning authority by disclosing various facts and information as required therein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1266,
+        "Arguments of Respondent": 0.1536,
+        "Decision": 0.0049,
+        "Facts": 0.1179,
+        "Issue": 0.0004,
+        "Reasoning": 0.5966
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "In the said application, the information is also required to be provided in the form of plans.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4335,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1051,
+        "Arguments of Respondent": 0.0446,
+        "Decision": 0.0008,
+        "Facts": 0.4104,
+        "Issue": 0.0057,
+        "Reasoning": 0.4335
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 87,
+      "text": "The said plans are in the nature of  (a) layout plan and (b) building plans.",
+      "predicted_label": "Facts",
+      "confidence": 0.6765,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0209,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0004,
+        "Facts": 0.6765,
+        "Issue": 0.0021,
+        "Reasoning": 0.2799
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 88,
+      "text": "The layout plan discloses the various designations as are required to be maintained in accordance with Regulations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0418,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0002,
+        "Facts": 0.2455,
+        "Issue": 0.0003,
+        "Reasoning": 0.6812
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "The same amounts to an acceptance by the applicant of the different parcels of land earmarked by the applicant himself and approved by the planing authority  land for MHADA (for public housing mill workers housing), land for MCGM (for open green spaces) and land to be developed by the Textile Mill Co. itself.(d) On receipt of the approval of the layout, the owner is required to give notice to start construction.",
+      "predicted_label": "Facts",
+      "confidence": 0.8539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0165,
+        "Arguments of Respondent": 0.0429,
+        "Decision": 0.0002,
+        "Facts": 0.8539,
+        "Issue": 0.0004,
+        "Reasoning": 0.0861
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "Thus, it amounts to acceptance of the approval granted under Regulation 5 on the basis of representations made by the applicant(e)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2907,
+        "Arguments of Respondent": 0.1125,
+        "Decision": 0.0006,
+        "Facts": 0.049,
+        "Issue": 0.0042,
+        "Reasoning": 0.5431
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "In the present case, the layout plan is submitted by the applicant on 1 May 2005.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0473,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0014,
+        "Facts": 0.1576,
+        "Issue": 0.0006,
+        "Reasoning": 0.772
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "The same is approved in April 2007.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.513,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1997,
+        "Arguments of Respondent": 0.513,
+        "Decision": 0.0022,
+        "Facts": 0.0879,
+        "Issue": 0.0012,
+        "Reasoning": 0.196
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 93,
+      "text": "The petitioner clearly earmarked and designated the areas to be handed over to the Municipal Corporation of Greater Mumbai and or to MHADA referable to 58(1)(b).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3704,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1897,
+        "Arguments of Respondent": 0.345,
+        "Decision": 0.0006,
+        "Facts": 0.0941,
+        "Issue": 0.0003,
+        "Reasoning": 0.3704
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 94,
+      "text": "On the basis of such representations and the plans, the layout is approved.",
+      "predicted_label": "Facts",
+      "confidence": 0.8783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0046,
+        "Facts": 0.8783,
+        "Issue": 0.0002,
+        "Reasoning": 0.0968
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "The Textilecompany has thus taken into consideration, the applicability by reference of Regulation 58(1)(b) into Regulation 58(2) and has shown the areas earmarked for recreation ground and for public housing and has obtained the sanctions on such representations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0961,
+        "Arguments of Respondent": 0.0738,
+        "Decision": 0.0007,
+        "Facts": 0.3626,
+        "Issue": 0.0006,
+        "Reasoning": 0.4661
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 96,
+      "text": "The same is, therefore, necessarily on the assumption that it would be utilising the FSI on the open land beyond 30 as provided therein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0257,
+        "Arguments of Respondent": 0.0209,
+        "Decision": 0.0052,
+        "Facts": 0.0543,
+        "Issue": 0.0003,
+        "Reasoning": 0.8936
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "Thus, reaching the 30 limit is not at all dependent on the actual construction by the developer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8118,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0782,
+        "Arguments of Respondent": 0.0939,
+        "Decision": 0.0002,
+        "Facts": 0.0157,
+        "Issue": 0.0003,
+        "Reasoning": 0.8118
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "The same is triggered at the inception when the sanction of the layout is obtained on the basis of representation by proposing such development.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0325,
+        "Arguments of Respondent": 0.0224,
+        "Decision": 0.0004,
+        "Facts": 0.0193,
+        "Issue": 0.0002,
+        "Reasoning": 0.9251
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "The owner was entitled at that time not to show such designations and retain it below 30.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6963,
+      "probabilities": {
+        "Arguments of Petitioner": 0.102,
+        "Arguments of Respondent": 0.0729,
+        "Decision": 0.0003,
+        "Facts": 0.1278,
+        "Issue": 0.0006,
+        "Reasoning": 0.6963
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 100,
+      "text": "The layout in such case could be different and as and when the owner proposes a development by involving 30 or more, the layout could have been altered at that stage.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9374,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0321,
+        "Arguments of Respondent": 0.0195,
+        "Decision": 0.0001,
+        "Facts": 0.0106,
+        "Issue": 0.0003,
+        "Reasoning": 0.9374
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "Having proposed the layout in this fashion, the owner itself had accepted a position about the designation in accordance with law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.451,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1592,
+        "Arguments of Respondent": 0.3144,
+        "Decision": 0.0006,
+        "Facts": 0.0742,
+        "Issue": 0.0007,
+        "Reasoning": 0.451
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 102,
+      "text": "Thus, the planning authority is vested with the right to take possession simultaneously with the owner who is vested with the right to develop in accordance with the Regulation.(f)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3587,
+        "Arguments of Respondent": 0.2931,
+        "Decision": 0.0079,
+        "Facts": 0.1041,
+        "Issue": 0.0003,
+        "Reasoning": 0.2358
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 103,
+      "text": "In the facts of the case, in addition to what is stated hereinabove, the Company has obtained the sanction for layout plans, the Company has also obtained the sanction for building plans involving development on open lands and FSI of more than 30 Therefore, the Textilecompany cannot be allowed to argue that it will first construct at its own pace and then hand over the earmarked reserved areas after years, if not decades.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0213,
+        "Arguments of Respondent": 0.0315,
+        "Decision": 0.0008,
+        "Facts": 0.0469,
+        "Issue": 0.0001,
+        "Reasoning": 0.8993
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "Mr. I. A. Sayed, learned counsel appearing for workmen union for Girni Kamgar Karmachari Niwara Kalyankari Sangh petitioner in writ petition (L) No.1134 of 2010 has made the following submissions(i) Since the companys Spring Mill in Dadar, Naigaon Division is completely closed and the Labour Commissioner has also by order dated 29 November 2004 granted permission for closure under section 25O of the ID Act, 1947, the lands of the said mill are out of the purview of DCR 58(2) and the said lands are necessarily covered by DCR 58(1)(b).(ii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9081,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9081,
+        "Arguments of Respondent": 0.0848,
+        "Decision": 0.0001,
+        "Facts": 0.0042,
+        "Issue": 0.0004,
+        "Reasoning": 0.0024
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "If at all, the petitionercompany can invoke the arguments under Regulation 58(2), it can only be in respect of its land at Lower but even at Lower, it is claiming that its new bleach works is working.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2023,
+        "Arguments of Respondent": 0.0914,
+        "Decision": 0.0129,
+        "Facts": 0.1647,
+        "Issue": 0.0006,
+        "Reasoning": 0.528
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 106,
+      "text": "Even at the 95th Meeting of the Monitoring Committee held on 2 July 2009, grievance was made on behalf of the workers that the main purpose for granting permission under Regulation 58(2) was modernization of textile unit but admittedly, only 67 workers were there in the textile unit and, thus, the very purpose of granting the development permission for modernization was defeated and on that ground alone, the permission for development deserved to be revoked.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.457,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2946,
+        "Arguments of Respondent": 0.0414,
+        "Decision": 0.0006,
+        "Facts": 0.2057,
+        "Issue": 0.0007,
+        "Reasoning": 0.457
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 107,
+      "text": "The reality is only idle wages are paid to about 67 workers to make believe that the textile mill at Prabhadevi (Lower Parel) is working but in reality only 7 workers are working on age old looms and it cannot be considered as a textile mill.(iii)",
+      "predicted_label": "Facts",
+      "confidence": 0.3947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3922,
+        "Arguments of Respondent": 0.1631,
+        "Decision": 0.0003,
+        "Facts": 0.3947,
+        "Issue": 0.0009,
+        "Reasoning": 0.0488
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 108,
+      "text": "The very fact that out of total 1,238 sq.mtrs. of built up area which the petitioner company had at Prabhadevi (Lower), the company has chosen to retain only about 10,000 sq.mtrs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2817,
+        "Arguments of Respondent": 0.1205,
+        "Decision": 0.0045,
+        "Facts": 0.0948,
+        "Issue": 0.0002,
+        "Reasoning": 0.4983
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 109,
+      "text": "of land",
+      "predicted_label": "Facts",
+      "confidence": 0.629,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0247,
+        "Arguments of Respondent": 0.027,
+        "Decision": 0.008,
+        "Facts": 0.629,
+        "Issue": 0.144,
+        "Reasoning": 0.1673
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "for its so called industrial activity to be modernized, it is clear that the company does not really intend to go for modernization.(iv)",
+      "predicted_label": "Facts",
+      "confidence": 0.7012,
+      "probabilities": {
+        "Arguments of Petitioner": 0.117,
+        "Arguments of Respondent": 0.052,
+        "Decision": 0.0009,
+        "Facts": 0.7012,
+        "Issue": 0.0004,
+        "Reasoning": 0.1284
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "Respondent No.5 (petitioner in Writ Petition No.977 of 2010) i.e. Bombay Dyeing and Manufacturing Company Ltd. be called upon to state on the basis of its Annual Reports whether any modernization is going on.(v)",
+      "predicted_label": "Facts",
+      "confidence": 0.9194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0434,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0193,
+        "Facts": 0.9194,
+        "Issue": 0.0019,
+        "Reasoning": 0.0099
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "Consequently, the textilecompany i.e. the petitioner in Writ Petition No.977 of 2010 Bombay Dyeing and Manufacturing Co. Ltd. is bound to hand over the following areas of land to MHADA and to the Municipal Corporation for Greater Mumbai as indicated in its layout plans approved by the Planning Authority under Regulation 58 and which are also indicated in the table in para 295 of the judgment dated 7 March 2006 of the Supreme Court in the case of this very petitionercompany reported in (2006) 3 SCC 434 .",
+      "predicted_label": "Facts",
+      "confidence": 0.9832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0011,
+        "Facts": 0.9832,
+        "Issue": 0.0003,
+        "Reasoning": 0.0093
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "(vi)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9123,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9123,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0017,
+        "Facts": 0.0298,
+        "Issue": 0.0178,
+        "Reasoning": 0.0211
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "In case Bombay Dyeing and Manufacturing Co. Ltd. does not hand over possession of the above lands as earmarked in the layout approved by the Planning Authority, the MCGM and MHADA are entitled to hand over possession of such lands as indicated in the above table.16.",
+      "predicted_label": "Facts",
+      "confidence": 0.4764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.2562,
+        "Facts": 0.4764,
+        "Issue": 0.0007,
+        "Reasoning": 0.2552
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 115,
+      "text": "Mr.S.K.Singhvi, learned Counsel with Ms.Jane Cox and Ms.Gayatri Singh appearing for intervenersWorkmen have made the following submissions I. Historical background of Regulation 58(i)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5369,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5369,
+        "Arguments of Respondent": 0.4571,
+        "Decision": 0.0002,
+        "Facts": 0.0024,
+        "Issue": 0.0009,
+        "Reasoning": 0.0026
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 116,
+      "text": "The Development Control Regulations, 1991 effected a general de industrialization of the city of Mumbai under regulations 56 and 57 by allowing the industrial lands to be freely used for commercial and residential purposes except for land of Cotton Textile Mills, which covered almost 600 acres in the City of Mumbai(ii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8718,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8718,
+        "Arguments of Respondent": 0.0463,
+        "Decision": 0.0006,
+        "Facts": 0.0727,
+        "Issue": 0.0008,
+        "Reasoning": 0.0078
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "Regulation 58 gave the same rights to cotton textile mills but with a restriction that in certain circumstances lands would be surrendered for environmentally friendly open spaces and for public housing.",
+      "predicted_label": "Facts",
+      "confidence": 0.8144,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0351,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0001,
+        "Facts": 0.8144,
+        "Issue": 0.0004,
+        "Reasoning": 0.1419
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "Hence, DCR 58 was not framed to give benefits to owners of cotton textile mills but rather to restrict their rights for redevelopment in comparison to other industries in Mumbai.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8219,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1132,
+        "Arguments of Respondent": 0.0319,
+        "Decision": 0.0001,
+        "Facts": 0.0327,
+        "Issue": 0.0002,
+        "Reasoning": 0.8219
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "There are historical and geographical reasons for this the most important being that cotton textiles mills accounted for almost 600 acres in F and G Wards which are in the heart of Mumbai(iii) Regulation 57(1) was brought in 2000 which allowed all industrial lands to build offices.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8769,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8769,
+        "Arguments of Respondent": 0.0924,
+        "Decision": 0.0001,
+        "Facts": 0.017,
+        "Issue": 0.0002,
+        "Reasoning": 0.0134
+      }
+    },
+    {
+      "sentence_id": 120,
+      "text": "Regulation 57(a) was applicable even to cotton textile mills.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2995,
+        "Arguments of Respondent": 0.0442,
+        "Decision": 0.0018,
+        "Facts": 0.1555,
+        "Issue": 0.0004,
+        "Reasoning": 0.4987
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 121,
+      "text": "In 2001 and after many valiant struggles of the cotton textile workers for reopening of the mills and other benefits the government amended DCR 58 to reserve 50 of the land reserved for public housing for textile workers purely.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4574,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2216,
+        "Arguments of Respondent": 0.1527,
+        "Decision": 0.0002,
+        "Facts": 0.1674,
+        "Issue": 0.0007,
+        "Reasoning": 0.4574
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 122,
+      "text": "It may be true that the 2001 amendment to DCR 58 gave further incentive to the owners of cotton textiles mills as compared to the original DCR 58 of 1991 however, the benefits of owners of cotton textile mills were still more restricted as compared to development rights available to owners of other industries.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9177,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0002,
+        "Facts": 0.0439,
+        "Issue": 0.0008,
+        "Reasoning": 0.9177
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "In this background, provisions of DCR 58 ought to be consideredII.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5226,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1874,
+        "Arguments of Respondent": 0.1981,
+        "Decision": 0.0024,
+        "Facts": 0.0889,
+        "Issue": 0.0006,
+        "Reasoning": 0.5226
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 124,
+      "text": "Difference between Regulation 58(1) and Regulation 58(2)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0847,
+        "Arguments of Respondent": 0.043,
+        "Decision": 0.0005,
+        "Facts": 0.0713,
+        "Issue": 0.0017,
+        "Reasoning": 0.7988
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "Since, by 2001, many of the mills in Mumbai had either closed down or been declared sick, the primary provision i.e. DCR 58(1) dealt with closed or sick cotton textile mills.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6756,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2476,
+        "Arguments of Respondent": 0.0348,
+        "Decision": 0.0003,
+        "Facts": 0.0415,
+        "Issue": 0.0003,
+        "Reasoning": 0.6756
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 126,
+      "text": "The secondary provision i.e. 58(2) dealt with mills which were not closed or sick but which required modernization on the same land.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0238,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0004,
+        "Facts": 0.3864,
+        "Issue": 0.0003,
+        "Reasoning": 0.5849
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 127,
+      "text": "The workers (interveners) submit that the basic reason why sub regulation (2) was separately made in Regulation 58 was that even those mill owners whose mills were not closed or sick but who wished to modernize on the same land would not escape the restriction of DCR 58, i.e. the requirement to surrender 2/3rd of the open land to the city.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5634,
+        "Arguments of Respondent": 0.2882,
+        "Decision": 0.0005,
+        "Facts": 0.0179,
+        "Issue": 0.0003,
+        "Reasoning": 0.1297
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 128,
+      "text": "Sub regulation (3) of Regulation 58 further clarifies that cotton textile mills were to be encouraged to shift outside Mumbai.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6344,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1704,
+        "Arguments of Respondent": 0.0251,
+        "Decision": 0.0004,
+        "Facts": 0.1696,
+        "Issue": 0.0001,
+        "Reasoning": 0.6344
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 129,
+      "text": "Hence, it is clear that the main purpose of Regulation 58(2) is to make sure that the share of the city is not evaded by the owner of the cotton textile mills.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9286,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0328,
+        "Arguments of Respondent": 0.0132,
+        "Decision": 0.0002,
+        "Facts": 0.0251,
+        "Issue": 0.0001,
+        "Reasoning": 0.9286
+      }
+    },
+    {
+      "sentence_id": 130,
+      "text": "III.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3827,
+        "Arguments of Respondent": 0.0336,
+        "Decision": 0.0825,
+        "Facts": 0.2992,
+        "Issue": 0.1684,
+        "Reasoning": 0.0335
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 131,
+      "text": "Construction of Regulation 58(2)",
+      "predicted_label": "Issue",
+      "confidence": 0.7562,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0013,
+        "Facts": 0.0241,
+        "Issue": 0.7562,
+        "Reasoning": 0.1847
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "Regulation 58(2) states that the condition that land will be surrendered to the city in accordance with Regulation 58(1) if 30 of the open land and balance FSI is developed is a condition governing the permission to be granted by the Commissioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8084,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0646,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.0004,
+        "Facts": 0.111,
+        "Issue": 0.0003,
+        "Reasoning": 0.8084
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "As such the condition must be held to be a precondition to granting permissionIV.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7823,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0697,
+        "Arguments of Respondent": 0.0502,
+        "Decision": 0.0128,
+        "Facts": 0.082,
+        "Issue": 0.0029,
+        "Reasoning": 0.7823
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "It does not amend the law but merely explains the position as it stood before hand.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.1015,
+        "Decision": 0.0009,
+        "Facts": 0.0098,
+        "Issue": 0.0002,
+        "Reasoning": 0.863
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "In any case, Regulation 58(2) is an example of legislation by reference.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5043,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2618,
+        "Arguments of Respondent": 0.2124,
+        "Decision": 0.0007,
+        "Facts": 0.0205,
+        "Issue": 0.0003,
+        "Reasoning": 0.5043
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 136,
+      "text": "Many judgments of the Apex Court have held that in the case of legislation by reference (as contrasted with legislation by incorporation), an amendment to the Act referred to will also act as an amendment to the referring Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.71,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0643,
+        "Arguments of Respondent": 0.031,
+        "Decision": 0.0014,
+        "Facts": 0.71,
+        "Issue": 0.0113,
+        "Reasoning": 0.1819
+      }
+    },
+    {
+      "sentence_id": 137,
+      "text": "Hence, even if Note7 were to be taken as an amendment to regulation 58(1), it would still become applicable to Regulation 58(2).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0469,
+        "Arguments of Respondent": 0.0361,
+        "Decision": 0.0002,
+        "Facts": 0.0178,
+        "Issue": 0.0001,
+        "Reasoning": 0.8989
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "The reference in Regulation 58(2) to the provisions of Regulation 58(1)(b) is by way of legislation by reference and not legislation by incorporation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7248,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1215,
+        "Arguments of Respondent": 0.138,
+        "Decision": 0.0018,
+        "Facts": 0.0138,
+        "Issue": 0.0001,
+        "Reasoning": 0.7248
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "Relying on the decision of Apex Court in The State of Madhya Pradesh Vs. M.V.Narasimhan (AIR 1975 SC 1835 ), it is submitted that the amendment to Regulation 58(1)(b) by insertion of Note7 has to be read into provisions of Regulation 58(2) as well.(c)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5018,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4307,
+        "Arguments of Respondent": 0.5018,
+        "Decision": 0.0003,
+        "Facts": 0.0602,
+        "Issue": 0.0008,
+        "Reasoning": 0.0062
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 140,
+      "text": "The object of making the above amendment is also specifically indicated in the notification in the following words AND WHEREAS it has been brought to the notice of the Government that Cotton Textile Mills are closed, but the lands which are required to be handed over to MHADA and MCGM under Regulation 58(1)(b) of the said Regulations are not made available for the required purposes.16A. Learned counsel for all the respondents submitted that if the petitioners interpretation were to be accepted, the Textilecompany would never complete construction of the existing builtup area and 30 of the open land and balance FSI frustrating the entire object of Regulations 58(1) and 58(2) i.e. sharing of lands of textile mills in the heart of the city for public housing mill workers housing and making available green open spaces to the residents of Mumbai.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6143,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0197,
+        "Arguments of Respondent": 0.6143,
+        "Decision": 0.0001,
+        "Facts": 0.2641,
+        "Issue": 0.0006,
+        "Reasoning": 0.1012
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 141,
+      "text": "In exercise of the powers conferred by Section 37(1) of the MRTP Act, the State Government has made Development Control Regulations for Greater Mumbai, 1991 as specified in the schedule to the notification dated 20 February 1991.Regulation 58 of Development Control Regulations, 1991 as amended 58.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1705,
+        "Arguments of Respondent": 0.1525,
+        "Decision": 0.0011,
+        "Facts": 0.1866,
+        "Issue": 0.0004,
+        "Reasoning": 0.4889
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 142,
+      "text": "II.",
+      "predicted_label": "Facts",
+      "confidence": 0.3041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2897,
+        "Arguments of Respondent": 0.0417,
+        "Decision": 0.0913,
+        "Facts": 0.3041,
+        "Issue": 0.2127,
+        "Reasoning": 0.0605
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 143,
+      "text": "III.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3827,
+        "Arguments of Respondent": 0.0336,
+        "Decision": 0.0825,
+        "Facts": 0.2992,
+        "Issue": 0.1684,
+        "Reasoning": 0.0335
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 144,
+      "text": "Notwithstanding anything above, the layout of mill land shall be submitted by the mill owner within six months of closure of the mill or within six months of this notification whichever is later and the lands earmarked for MHADA and Recreation Ground shall be handed over to the concerned Authority immediately after the approval of layout.(2) Lands of cotton textile mills for purpose of modernisation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0004,
+        "Facts": 0.9801,
+        "Issue": 0.0002,
+        "Reasoning": 0.0153
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "With the previous approval of the Commissioner to a layout prepared for development or redevelopment of the entire open land and or builtup area of the premises of a cotton textile mill which is not sick or closed, but requiring modernisation on the same land as approved by the competent authorities, such development or redevelopment shall be permitted by the Commissioner, subject to the condition that it shall also be in accordance with scheme approved by Government provided that with regard to the utilisation of builtup area, the provisions of clause (a) of SubRegulation (1) of this Regulation shall apply and, if the development of open lands and balance FSI exceeds 30 per cent of the open land and balance FSI, the provisions of clause (b) of subregulation (1) of this Regulation shall apply.",
+      "predicted_label": "Facts",
+      "confidence": 0.8356,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0429,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0009,
+        "Facts": 0.8356,
+        "Issue": 0.0013,
+        "Reasoning": 0.1157
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "If a cotton textile mills is to be shifted outside Greater Bombay but within the State, (shifting outside the state to be regarded as closure and to be dealt with as such) with due permission of the competent authorities, and in accordance with a scheme approved by Government, the provisions of subclauses (a) and (b) of subregulation (1) of this Regulation shall also apply in regard to the development or redevelopment of its land after shifting.(6) With the previous approval of the commissioner to a layout prepared for development or redevelopment of the entire open land and or builtup area of the premises of a cotton textile mill which is either sick and or closed or requiring modernisation the Commissioner may allow(a) Reconstruction after demolition of existing structures limited to the extent of the built up area of the demolished structures, including by aggregating in one or more structures the built up areas of the demolished structures.(b) Multimills aggregation of the built up areas of existing structures where an integrated scheme for demolition and reconstruction of the existing structures of more than one mill, whether under common ownership or otherwise, is duly submitted, provided that FSI is in balance in the receiving mill land.9.(a)",
+      "predicted_label": "Facts",
+      "confidence": 0.9763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0076,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0006,
+        "Facts": 0.9763,
+        "Issue": 0.0002,
+        "Reasoning": 0.0137
+      }
+    },
+    {
+      "sentence_id": 147,
+      "text": "Notwithstanding anything stated or omitted to be stated in these Regulations, the development or redevelopment of all lands in Greater Mumbai owned or held by all cotton textile mills, inrespective of the operational or other status of the said mills or of the land use zoning relating to the said lands or of the actual use for the time being of the said lands or of any other factor, circumstance or consideration whatsoever, shall be regulated by the provisions of this Regulation and not under any other Regulation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0002,
+        "Facts": 0.9377,
+        "Issue": 0.001,
+        "Reasoning": 0.0431
+      }
+    },
+    {
+      "sentence_id": 148,
+      "text": "Having gone through the MRTP Act particularly section 2 and Chapter IV thereof and the Development Control Regulations for Greater Mumbai, 1991 including DC Regulation 58 therein, we find that a company running a cotton textile mill in the city of Greater Mumbai which is using the land for industrial purposes, is not entitled to use the land for development or redevelopment for commercial or residential purpose, unless the Municipal Commissioner grants such permission either under Clause (1) or Clause (2) of Regulation 58.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0172,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0007,
+        "Facts": 0.0547,
+        "Issue": 0.0006,
+        "Reasoning": 0.9246
+      }
+    },
+    {
+      "sentence_id": 149,
+      "text": "Having carefully gone through the other subclauses of Regulation 58, we find that Clause (3) empowers the Municipal Commissioner to grant such permission if the cotton textile mill is to be shifted outside Greater Mumbai but within the State (shifting outside the State to be regarded as closure and to be dealt with as such) provided due permission is granted by concerned competent authorities in accordance with a scheme approved by the Government.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.001,
+        "Facts": 0.0347,
+        "Issue": 0.0003,
+        "Reasoning": 0.9579
+      }
+    },
+    {
+      "sentence_id": 150,
+      "text": "Subclause (6) of Regulation 58 empowers the Municipal Commissioner to allow reconstruction after demolition of existing structures by aggregating in one or more structures the built up areas in demolished structures and also to allow multi mills aggregation of the built up areas of existing structures where an integrated scheme for demolition and reconstruction of the existing structures of more than one mill, whether under common ownership or otherwise, ON THE SAME LAND is duly submitted.20.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6436,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1409,
+        "Arguments of Respondent": 0.0494,
+        "Decision": 0.0006,
+        "Facts": 0.1653,
+        "Issue": 0.0003,
+        "Reasoning": 0.6436
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 151,
+      "text": "In the background of these Regulations and having carefully examined the permissions granted to the company, we find that by letter dated 10 November 2003 the Government of Maharashtra sanctioned the scheme of modernization of textile activity by the company in respect of the properties at Dadar Naigaon Division at Wadala and of Lower Division purportedly under Regulation 58(2) read with Regulation 58(6)(a) and (b) of DC Regulations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9105,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0003,
+        "Facts": 0.0806,
+        "Issue": 0.0005,
+        "Reasoning": 0.9105
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "It is necessary to note that when the above permission was granted on 10 November 2003, neither of the two mills of the company was closed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0196,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0002,
+        "Facts": 0.4681,
+        "Issue": 0.0007,
+        "Reasoning": 0.5026
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 153,
+      "text": "It is, therefore, difficult to see as to how the petitioner company can dispute the applicability of Regulation 58(1)(b) to the lands of Spring Mills at Dadar Naigaon (Wadala).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0006,
+        "Facts": 0.0473,
+        "Issue": 0.0002,
+        "Reasoning": 0.9311
+      }
+    },
+    {
+      "sentence_id": 154,
+      "text": "The very fact that the petitioner company submitted its layout plan for the said mill in the year 2005 and the notification dated 24 August 2010 came into force on 24 August 2010, Note VII to Regulation 58(1) became operational and since in the meantime, the layout plan was approved in 2007, with effect from that date, the lands earmarked for MHADA for public housing mill workers housing were required to be handed over to MHADA and the lands earmarked for open green spaces were required to be handed over to the Municipal Corporation.25.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.106,
+        "Arguments of Respondent": 0.0763,
+        "Decision": 0.0004,
+        "Facts": 0.3598,
+        "Issue": 0.0003,
+        "Reasoning": 0.4572
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 155,
+      "text": "According to the workmen, though hardly about 67 workmen are on the roll of the company textile mills at Lower (Prabhadevi), only about 6 to 8 workmen are actually asked to operate two looms for the name sake only to pretend that the said mill is running.",
+      "predicted_label": "Facts",
+      "confidence": 0.3305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1629,
+        "Arguments of Respondent": 0.2095,
+        "Decision": 0.0001,
+        "Facts": 0.3305,
+        "Issue": 0.0008,
+        "Reasoning": 0.2962
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 156,
+      "text": "It is submitted that no modernization whatsoever has been brought about by the Company at the above mill.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4681,
+        "Arguments of Respondent": 0.2615,
+        "Decision": 0.0005,
+        "Facts": 0.2121,
+        "Issue": 0.0008,
+        "Reasoning": 0.0571
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 157,
+      "text": "It is also pointed out that out of 1,05,238 sq.mtrs. of built up area which the company had on the date of coming into force Regulation 58, only 21,669 sq.mtrs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4998,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4998,
+        "Arguments of Respondent": 0.308,
+        "Decision": 0.0004,
+        "Facts": 0.0667,
+        "Issue": 0.0004,
+        "Reasoning": 0.1247
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 158,
+      "text": "for commercial and residential user.",
+      "predicted_label": "Facts",
+      "confidence": 0.7356,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0796,
+        "Arguments of Respondent": 0.0509,
+        "Decision": 0.0018,
+        "Facts": 0.7356,
+        "Issue": 0.0026,
+        "Reasoning": 0.1295
+      }
+    },
+    {
+      "sentence_id": 159,
+      "text": "From the particulars placed by the Municipal Corporation on record, it is pointed out by the learned counsel for the workmen that out of 21,669 sq.mtrs of built up area retained by the company, about 11,000 sq.mtrs is for office use godown and only about 10,000 sq.mtrs is for socalled industrial activity on total land of the company admeasuring 1,00,498 sq.mtrs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2327,
+        "Arguments of Respondent": 0.1069,
+        "Decision": 0.0021,
+        "Facts": 0.1495,
+        "Issue": 0.0018,
+        "Reasoning": 0.507
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 160,
+      "text": "It is, therefore, submitted that the permission granted to the company for development redevelopment of the land of the textile mill at Lower (Prabhadevi) must also be treated as permission granted to the closed or sick mill under subsection (1) of DCR 58.27.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6789,
+        "Arguments of Respondent": 0.2581,
+        "Decision": 0.0001,
+        "Facts": 0.0086,
+        "Issue": 0.0001,
+        "Reasoning": 0.0541
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 161,
+      "text": "On the other hand, Mr. Seervai, learned counsel for the textilecompany has vehemently opposed the above submission and submitted that since no writ petition is filed by any party for challenging the status of the textile mill at Lower (Prabhadevi), it is not open to any party to raise any such challenge at this stage.28.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0148,
+        "Arguments of Respondent": 0.9734,
+        "Decision": 0.0001,
+        "Facts": 0.003,
+        "Issue": 0.0001,
+        "Reasoning": 0.0087
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "Having heard the learned counsel for the parties, we do not propose to dilate on this issue any further as, in our view, in absence of any permission for closure under Section 25O of ID Act, 1947 the permission granted to develop redevelop the companys lands at Lower (Prabhadevi) may, for the purposes of this petition, be treated as permission under Regulation 58(2), but even then Note VII to Regulation 58(1) applies to the permission granted under Regulation 58(2) also, as discussed hereinafter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9497,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0007,
+        "Facts": 0.0259,
+        "Issue": 0.0026,
+        "Reasoning": 0.9497
+      }
+    },
+    {
+      "sentence_id": 163,
+      "text": "As far as sanction granted for development or redevelopment on the land at Prabhadevi in Lower division is concerned, according to the company, the company is going for modernization and as per the approved layout has retained 21,699 sq. mtrs out of 1,05,238 sq. mtrs of existing built up area which the petitioner company had on the date of coming into force of Regulation 58.",
+      "predicted_label": "Facts",
+      "confidence": 0.7991,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0684,
+        "Arguments of Respondent": 0.0502,
+        "Decision": 0.0005,
+        "Facts": 0.7991,
+        "Issue": 0.0008,
+        "Reasoning": 0.0809
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "The remaining built up area i.e. 83,539 sq. mtrs of built up area of the textile mill at Prabhadevi (Lower) has already been demolished and the company has obtained approval for constructing buildings for commercial residential user with built up area of 76,878 sq.mtrs., out of which the petitioner has already constructed and obtained Occupancy Certificate for commercial buildings with built up area of 31,131 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0799,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.0012,
+        "Facts": 0.8753,
+        "Issue": 0.0034,
+        "Reasoning": 0.0266
+      }
+    },
+    {
+      "sentence_id": 165,
+      "text": "According to the company, the underlined words of Regulation 58(2) operate qua the actual construction of the building.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4172,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4172,
+        "Arguments of Respondent": 0.2666,
+        "Decision": 0.0006,
+        "Facts": 0.1388,
+        "Issue": 0.0018,
+        "Reasoning": 0.1751
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 166,
+      "text": "Hence only when the actual construction on the mill land exceeds 30 of the open lands (after excluding the land which had structures which came to be demolished as explained earlier), implementation of the provisions of Regulation 58(1)(b) requiring the mill owner to share the open lands with Municipal Corporation (for open green spaces) and with MHADA (for public housing mill workers housing) will arise.37.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0008,
+        "Facts": 0.1831,
+        "Issue": 0.0001,
+        "Reasoning": 0.7902
+      }
+    },
+    {
+      "sentence_id": 167,
+      "text": "As to how much open land and balance FSI will be available to the MHADA for public housing mill workers housing and to the Municipal Corporation for the open green spaces has, therefore, necessarily to be decided at the time of submitting the layout plan.38.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9586,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0102,
+        "Facts": 0.0152,
+        "Issue": 0.0001,
+        "Reasoning": 0.9586
+      }
+    },
+    {
+      "sentence_id": 168,
+      "text": "That is precisely what the petitioner company did while submitting the layout plan to the planning authority (i.e. Municipal Corporation for Greater Mumbai) in the year 2005.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7286,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0576,
+        "Arguments of Respondent": 0.0247,
+        "Decision": 0.0003,
+        "Facts": 0.1887,
+        "Issue": 0.0001,
+        "Reasoning": 0.7286
+      }
+    },
+    {
+      "sentence_id": 169,
+      "text": "The Municipal Corporation then granted approval to the said layout plan in April 2007 and thereafter, the petitioner company submitted notice for permission to erect the building and thereafter, the Municipal Corporation granted permission in the negative terms i.e. intimation of disapproval.39.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2537,
+        "Arguments of Respondent": 0.1636,
+        "Decision": 0.0016,
+        "Facts": 0.1847,
+        "Issue": 0.0006,
+        "Reasoning": 0.3958
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 170,
+      "text": "Notwithstanding any thing above, the layout of mill land shall be submitted by the mill owner within six months of closure of the mill or within six months of this notification whichever is later and the lands earmarked for MHADA and Recreation Ground shall be handed over to the concerned Authority immediately after the approval of layout.40.",
+      "predicted_label": "Facts",
+      "confidence": 0.9354,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0035,
+        "Facts": 0.9354,
+        "Issue": 0.0002,
+        "Reasoning": 0.057
+      }
+    },
+    {
+      "sentence_id": 171,
+      "text": "We may now consider the question whether Note VII to Regulation 58(1)(b) which is admittedly applicable to sick and or closed textile mills is also applicable to a cotton textile mill, which is not sick and or closed, but requiring modernisation on the same land and which has been granted permission for development and or redevelopment under subregulation (2) of Regulation 58.41.",
+      "predicted_label": "Issue",
+      "confidence": 0.6026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0084,
+        "Decision": 0.0008,
+        "Facts": 0.0073,
+        "Issue": 0.6026,
+        "Reasoning": 0.373
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 172,
+      "text": "Mr.Seervai, learned counsel for the textilemill submits that the said Note would not apply to cotton textile mill requiring modernisation, firstly, because Note VII was intended to apply only to a closed mill and secondly, a reference to Regulation 58(1)(b) in subregulation is a legislation by incorporation and not a legislation by reference.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6415,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2869,
+        "Arguments of Respondent": 0.6415,
+        "Decision": 0.0011,
+        "Facts": 0.0108,
+        "Issue": 0.0006,
+        "Reasoning": 0.0592
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 173,
+      "text": "Mr.Seervai has placed strong reliance on the decision of the Supreme Court in Bharat Co.op.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4329,
+        "Arguments of Respondent": 0.3996,
+        "Decision": 0.0006,
+        "Facts": 0.0022,
+        "Issue": 0.0002,
+        "Reasoning": 0.1646
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 174,
+      "text": "Bank (Mumbai) Ltd. v. Co.op.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4124,
+      "probabilities": {
+        "Arguments of Petitioner": 0.283,
+        "Arguments of Respondent": 0.2172,
+        "Decision": 0.0086,
+        "Facts": 0.0763,
+        "Issue": 0.0025,
+        "Reasoning": 0.4124
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 175,
+      "text": "Bank Employees Union, (2007) 4 SCC 685 .",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3875,
+        "Arguments of Respondent": 0.3988,
+        "Decision": 0.0009,
+        "Facts": 0.0637,
+        "Issue": 0.0017,
+        "Reasoning": 0.1475
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 176,
+      "text": "Applying the aforesaid principles to the provisions of Regulation 58, we must first note that subregulations (1) (2) of Regulation 58 are provisions of the same Regulation made by the same authority and are supplemental to each other.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0096,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0002,
+        "Facts": 0.0049,
+        "Issue": 0.0008,
+        "Reasoning": 0.978
+      }
+    },
+    {
+      "sentence_id": 177,
+      "text": "In SubRegulation (2) if the development exceeded 30 of open land the provisions of Clause (b) of subregulation (1) of this Regulation shall apply.",
+      "predicted_label": "Facts",
+      "confidence": 0.7164,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0004,
+        "Facts": 0.7164,
+        "Issue": 0.0006,
+        "Reasoning": 0.2668
+      }
+    },
+    {
+      "sentence_id": 178,
+      "text": "Thus, subregulation (2) merely contains a reference to Clause (b) of subregulation (1) of Regulation 58 and since there is no different intention appearing, the reference has to be construed as reference to the provisions of Clause (b) in subregulation (1), as may be in force from time to time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.061,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0003,
+        "Facts": 0.0315,
+        "Issue": 0.0003,
+        "Reasoning": 0.8958
+      }
+    },
+    {
+      "sentence_id": 179,
+      "text": "It is clear that subregulation (1) and subregulation (2) are parts of the same scheme of development or redevelopment of lands of cotton textile mills, whether they are sick and or closed textile mills or whether they are textile mills requiring modernisation, the legislative intention is clear that in stead of being tied down to industrial use of the land, the textile mills are permitted to put up construction in excess of the existing structures, (even by demolition of existing structures and constructing new building on that land) by putting up additional construction to assist the textile mills to generate additional funds, to tide over the financial crisis, to pay the creditors and workers their dues and also to make lands available to a public authority like MHADA to meet the crying need for public housing mill workers housing and also to make open green spaces available to the residents of Mumbai by handing over some lands to the Municipal Corporation of Greater Mumbai to provide recreation ground, play ground etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6282,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0986,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.0004,
+        "Facts": 0.2554,
+        "Issue": 0.0016,
+        "Reasoning": 0.6282
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 180,
+      "text": "The above legislative intent would, therefore, be applicable to all cotton textile mills, seeking and obtaining permission to develop redevelop their lands under Regulation 58.48.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.94,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0249,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0004,
+        "Facts": 0.0258,
+        "Issue": 0.0001,
+        "Reasoning": 0.94
+      }
+    },
+    {
+      "sentence_id": 181,
+      "text": "There is no indication, and there is no reason to hold, that Regulation making Authority did not intend to apply Note VII to subregulation (2) of Regulation 58.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9655,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0148,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.001,
+        "Facts": 0.0092,
+        "Issue": 0.0001,
+        "Reasoning": 0.9655
+      }
+    },
+    {
+      "sentence_id": 182,
+      "text": "In fact, Note III to Regulation 58(1)(b) provides that owner of the land will be entitled to development rights in accordance with the Regulation for grant of development rights in respect of land earmarked and handed over to MHADA for public housing mill workers housing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0466,
+        "Arguments of Respondent": 0.0488,
+        "Decision": 0.0002,
+        "Facts": 0.0173,
+        "Issue": 0.0001,
+        "Reasoning": 0.887
+      }
+    },
+    {
+      "sentence_id": 183,
+      "text": "The same Note further provides that the development rights in respect of land earmarked and handed over to the Municipal Corporation shall be available to the owner of the land for utilisation in the land to be developed by the mill owner as under Regulation 58(1)(b) or as transferable development rights.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6079,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0245,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0002,
+        "Facts": 0.3566,
+        "Issue": 0.0002,
+        "Reasoning": 0.6079
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 184,
+      "text": "It is not the case of the petitionertextile company that it is not going to take advantage of these transferable development rights available under Note III in respect of the lands which are earmarked for MHADA and Municipal Corporation in the layout plans submitted by the petitionertextile company itself to the Planning Authority (Municipal Corporation), which plans have also been approved long back.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0008,
+        "Facts": 0.0303,
+        "Issue": 0.0001,
+        "Reasoning": 0.9498
+      }
+    },
+    {
+      "sentence_id": 185,
+      "text": "The textilecompany cannot, therefore, be permitted to blow hot and cold by claiming the transferable development rights available under Note III and trying to wriggle out of the liability under Note VII to share the lands on 24 August, 2010 or atleast within six months thereof.49.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0007,
+        "Facts": 0.014,
+        "Issue": 0.0002,
+        "Reasoning": 0.9625
+      }
+    },
+    {
+      "sentence_id": 186,
+      "text": "The legislative intent is, therefore, clear that the submission of the layout plan by the textile company indicating the lands available for sharing under Regulation 58(1)(b) and lands on which the textilecompany proposes to put up construction and indicating builtupareas proposed to be constructed would be sufficient to trigger the operation of Regulation 58(1) (b), whether the textile mill in question is sick and or closed or whether the cotton textile mill is going for modernization, irrespective of the question of actual construction.50.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0002,
+        "Facts": 0.0203,
+        "Issue": 0.0001,
+        "Reasoning": 0.9661
+      }
+    },
+    {
+      "sentence_id": 187,
+      "text": "In view of the above discussion, we are of the view that for applicability of Note VII to Regulation 58(1), it makes no difference whether the permission is granted under Regulation 58(1) or 58(2) or 58(6) of the Development Control Regulations because when permission for development or redevelopment is granted, even for modernization of a Cotton Textile Mill which is not sick or closed, the provisions of Regulation 58(1)(b) for sharing of open lands and balance FSI would apply as soon as the land owner submits layout plan wherein the mill owner proposes development of open lands and balance FSI exceeding 30 of the open land and balance FSI.51.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0017,
+        "Facts": 0.0283,
+        "Issue": 0.0004,
+        "Reasoning": 0.9649
+      }
+    },
+    {
+      "sentence_id": 188,
+      "text": "In the facts of the present case, the petitioner company did submit separately the layout plans in the year 2005 for its mills at Prabhadevi, Lower (Spring Mills) and its textile mill at Wadala, Dadar for development of 40 and 33 of the open lands to be shared at the above two mills respectively, and the plans have been approved by the Planning Authority i.e. Municipal Corporation for Greater Mumbai.52.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8058,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0383,
+        "Arguments of Respondent": 0.0166,
+        "Decision": 0.0005,
+        "Facts": 0.1387,
+        "Issue": 0.0001,
+        "Reasoning": 0.8058
+      }
+    },
+    {
+      "sentence_id": 189,
+      "text": "The Municipal Corporation granted IOD for construction of seven residential buildings on the land of Spring Mills at Dadar by 4 June 2007.",
+      "predicted_label": "Facts",
+      "confidence": 0.9469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0001,
+        "Facts": 0.9469,
+        "Issue": 0.0008,
+        "Reasoning": 0.0363
+      }
+    },
+    {
+      "sentence_id": 190,
+      "text": "Thus, the Municipal Corporation had granted IOD for total built up area of 1,29,199.14 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.6213,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0684,
+        "Arguments of Respondent": 0.0904,
+        "Decision": 0.0008,
+        "Facts": 0.6213,
+        "Issue": 0.0009,
+        "Reasoning": 0.2182
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 191,
+      "text": "on the land of the companys Spring Mills at Dadar Naigaon (Wadala) even before 24 August, 2010.53.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4629,
+      "probabilities": {
+        "Arguments of Petitioner": 0.141,
+        "Arguments of Respondent": 0.058,
+        "Decision": 0.0005,
+        "Facts": 0.3365,
+        "Issue": 0.0011,
+        "Reasoning": 0.4629
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 192,
+      "text": "Similarly, after approving the layout in April 2007, by 21 April 2007, the Municipal Corporation granted IOD for construction of two commercial buildings and one residential building on petitioner companys land at Lower for construction of total area aggregating to about 78,879 sq.mtrs. of land.",
+      "predicted_label": "Facts",
+      "confidence": 0.7847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1108,
+        "Arguments of Respondent": 0.0256,
+        "Decision": 0.0003,
+        "Facts": 0.7847,
+        "Issue": 0.0009,
+        "Reasoning": 0.0778
+      }
+    },
+    {
+      "sentence_id": 193,
+      "text": "The existing buildings retained by the petitioner company for commercial and textile user aggregate only to 21,669 sq.mtrs at Prabhadevi, Lower Parel.54.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1525,
+        "Arguments of Respondent": 0.0573,
+        "Decision": 0.0077,
+        "Facts": 0.2622,
+        "Issue": 0.0002,
+        "Reasoning": 0.5201
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 194,
+      "text": "for commercial residential user.8,549 (40)25,775 (33)Note2(b)Earmarked for public housing mill workers housing to be developed by MHADA.5,771 (27)26,556 (34)(c) 33Earmarked for open green spaces to be maintainedby Municipal Corporation.(Recreation Ground Garden Play Ground etc.)7,053 (33)25,775 (33)Total land to be shared (a)(b)(c)21,37278,1064.",
+      "predicted_label": "Facts",
+      "confidence": 0.9657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0004,
+        "Facts": 0.9657,
+        "Issue": 0.0002,
+        "Reasoning": 0.0294
+      }
+    },
+    {
+      "sentence_id": 195,
+      "text": "of land",
+      "predicted_label": "Facts",
+      "confidence": 0.629,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0247,
+        "Arguments of Respondent": 0.027,
+        "Decision": 0.008,
+        "Facts": 0.629,
+        "Issue": 0.144,
+        "Reasoning": 0.1673
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 196,
+      "text": "Mr. Seervai, learned counsel for the petitioner textilecompany vehemently submitted that the entire controversy which is the subject matter of the present petitions is already concluded by the decision of the Supreme Court in the appeal of this very petitioner company reported in (2006) 3 SCC 434 .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8245,
+        "Arguments of Respondent": 0.0467,
+        "Decision": 0.0041,
+        "Facts": 0.0643,
+        "Issue": 0.0038,
+        "Reasoning": 0.0565
+      }
+    },
+    {
+      "sentence_id": 197,
+      "text": "In the present proceedings, no party has disputed the aforesaid figures and the figures given in the chart in para 4 are also the same but fractions have been rounded off.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0834,
+        "Arguments of Respondent": 0.1609,
+        "Decision": 0.0083,
+        "Facts": 0.1842,
+        "Issue": 0.0006,
+        "Reasoning": 0.5625
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 198,
+      "text": "When no party has disputed the areas of lands required to be handed over by the petitionertextile company to Municipal Corporation and to MHADA as per the above details, and the only controversy is at what point of time such lands are required to be handed over by the petitioner textilecompany to the above two public bodies, and the said controversy was never before the Supreme Court while rendering the judgment dated 7 March 2006, the petitioner textilecompany is not justified in contending that the said decision of the Supreme Court is a complete answer to the contentions of the respondents.66.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8147,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0228,
+        "Arguments of Respondent": 0.0319,
+        "Decision": 0.003,
+        "Facts": 0.127,
+        "Issue": 0.0006,
+        "Reasoning": 0.8147
+      }
+    },
+    {
+      "sentence_id": 199,
+      "text": "The contention raised by Mr. Seervai cannot be accepted for several reasons.70.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.0157,
+        "Decision": 0.0021,
+        "Facts": 0.0028,
+        "Issue": 0.0001,
+        "Reasoning": 0.9648
+      }
+    },
+    {
+      "sentence_id": 200,
+      "text": "In the first place, as held by the Supreme Court, it is not a profitable task to extract a sentence here and there from a judgment and to build upon it.71.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.003,
+        "Facts": 0.0123,
+        "Issue": 0.0012,
+        "Reasoning": 0.9628
+      }
+    },
+    {
+      "sentence_id": 201,
+      "text": "The Supreme Court was really concerned with the question as to the whether the open lands in Regulation 58(1)(b) as amended would include lands which became available as open lands after demolition of the old structures.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0578,
+        "Arguments of Respondent": 0.0414,
+        "Decision": 0.0006,
+        "Facts": 0.0565,
+        "Issue": 0.0051,
+        "Reasoning": 0.8386
+      }
+    },
+    {
+      "sentence_id": 202,
+      "text": "The contention of the PIL petitioners and workmen in that case was that the lands which became open upon demolition of the old structures would also have to be shared by the mill owner for the purpose of earmarking and handing over to Municipal Corporation for recreation ground garden play ground (open green spaces) and for earmarking and for the purpose of earmarking and handing over for development by MHADA for public housing mill workers housing alongwith user of the remaining land for development by the mill owner for residential or commercial user.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1739,
+        "Arguments of Respondent": 0.2283,
+        "Decision": 0.0003,
+        "Facts": 0.0803,
+        "Issue": 0.0004,
+        "Reasoning": 0.5168
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 203,
+      "text": "In other words, what are the open lands available for sharing under Regulation 58(1)(b) was the only question which fell for consideration of the Supreme Court.72.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8342,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0035,
+        "Facts": 0.084,
+        "Issue": 0.0528,
+        "Reasoning": 0.8342
+      }
+    },
+    {
+      "sentence_id": 204,
+      "text": "Secondly, the sentence in para 152 of the Supreme Court judgment upon which Mr.Seervai has heavily relied, has to be read in the context of the discussion as set out in all the paras quoted in para 67 of this judgment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.0033,
+        "Facts": 0.0036,
+        "Issue": 0.0001,
+        "Reasoning": 0.9614
+      }
+    },
+    {
+      "sentence_id": 205,
+      "text": "The sentence in question only indicates that if the textile mill owner did not propose to put up any additional built up area (BUA), over and above the existing BUA (which existing BUA could be demolished and new buildings would be constructed only to the extent of the demolished BUA), then there was no question of sharing the other open lands with Municipal Corporation and MHADA.73.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0198,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0006,
+        "Facts": 0.0687,
+        "Issue": 0.0001,
+        "Reasoning": 0.8967
+      }
+    },
+    {
+      "sentence_id": 206,
+      "text": "The very fact that the petitionertextile company has submitted layout plans to the Planning Authority (i.e. Municipal Corporation of Greater Mumbai) indicating the areas on which the company proposed in 2005 to put up construction of commercial and residential towers in excess of the existing built up area the petitioner textile company even obtained approval from the Planning Authority (the Municipal Corporation) to construct residential buildings with built up area of 1,29,199 sq.mtrs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4907,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2862,
+        "Arguments of Respondent": 0.0572,
+        "Decision": 0.0022,
+        "Facts": 0.1631,
+        "Issue": 0.0006,
+        "Reasoning": 0.4907
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 207,
+      "text": "as against the existing BUA of only 79998.",
+      "predicted_label": "Facts",
+      "confidence": 0.4982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.117,
+        "Arguments of Respondent": 0.1968,
+        "Decision": 0.0023,
+        "Facts": 0.4982,
+        "Issue": 0.0005,
+        "Reasoning": 0.1853
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 208,
+      "text": "95 sq.mtrs. rounded off to 80,000 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0158,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0058,
+        "Facts": 0.8467,
+        "Issue": 0.0016,
+        "Reasoning": 0.1262
+      }
+    },
+    {
+      "sentence_id": 209,
+      "text": "Hence, after demolition of the existing BUA of 80,000 sq. mtrs., the petitionercompany can construct new buildings of built up area of 80,000 sq. mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.5412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2969,
+        "Arguments of Respondent": 0.0492,
+        "Decision": 0.002,
+        "Facts": 0.5412,
+        "Issue": 0.0011,
+        "Reasoning": 0.1098
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 210,
+      "text": "under Regulation 58(1)(a) and further 61,962 sq,ntrs, of built up area under Regulation 58(1)(b).",
+      "predicted_label": "Facts",
+      "confidence": 0.4744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0741,
+        "Arguments of Respondent": 0.0486,
+        "Decision": 0.0087,
+        "Facts": 0.4744,
+        "Issue": 0.0008,
+        "Reasoning": 0.3934
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 211,
+      "text": "The petitioner company gets not only existing BUA of 79998 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.4587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1564,
+        "Arguments of Respondent": 0.0891,
+        "Decision": 0.0039,
+        "Facts": 0.4587,
+        "Issue": 0.0008,
+        "Reasoning": 0.2911
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 212,
+      "text": "i.e. 80,000 sq. mtrs., but has obtained approval from the Planning Authority (Municipal Corporation for Greater Mumbai) to construct of residential buildings with total built up area of 1,29,199 sq. mtrs That means, the approval obtained by the petitionercompany is for additional built up area of 49,120 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.4858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3503,
+        "Arguments of Respondent": 0.0321,
+        "Decision": 0.0024,
+        "Facts": 0.4858,
+        "Issue": 0.0101,
+        "Reasoning": 0.1193
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 213,
+      "text": "also.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1288,
+        "Arguments of Respondent": 0.1122,
+        "Decision": 0.0385,
+        "Facts": 0.106,
+        "Issue": 0.0055,
+        "Reasoning": 0.6091
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 214,
+      "text": "This 49,199 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.716,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0155,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0351,
+        "Facts": 0.716,
+        "Issue": 0.0027,
+        "Reasoning": 0.221
+      }
+    },
+    {
+      "sentence_id": 215,
+      "text": "as well as open land of 25,775 sq.mtrs on which the petitionercompany is going to construct these buildings is certainly in excess of 30 of the open land and balance FSI referred to in Regulation 58(1)(b).",
+      "predicted_label": "Facts",
+      "confidence": 0.5748,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0787,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.0017,
+        "Facts": 0.5748,
+        "Issue": 0.0006,
+        "Reasoning": 0.3262
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 216,
+      "text": "The petitioners contention is that it is only after the petitioner will actually complete construction of 79,998 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.7152,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1983,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0009,
+        "Facts": 0.7152,
+        "Issue": 0.0009,
+        "Reasoning": 0.0774
+      }
+    },
+    {
+      "sentence_id": 217,
+      "text": "plus construction on 30 of land to be shared that the question of sharing land under Regulation 58(1)(b) will arise.75.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9388,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.0151,
+        "Decision": 0.0014,
+        "Facts": 0.0183,
+        "Issue": 0.0001,
+        "Reasoning": 0.9388
+      }
+    },
+    {
+      "sentence_id": 218,
+      "text": "The contention cannot be accepted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8656,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0605,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0019,
+        "Facts": 0.0267,
+        "Issue": 0.0007,
+        "Reasoning": 0.8656
+      }
+    },
+    {
+      "sentence_id": 219,
+      "text": "Not only it runs counter to the scheme of Regulation 58 which was specifically amended on 24 August 2010, but it also makes nonsense of the entire object of Regulation 58 made in public interest to balance the claims of cotton textile mill companies as well as mill workers and residents of Mumbai who need public housing as well as open green spaces.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0626,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0002,
+        "Facts": 0.0185,
+        "Issue": 0.0001,
+        "Reasoning": 0.9114
+      }
+    },
+    {
+      "sentence_id": 220,
+      "text": "The entire 79,999 sq.mtrs. of construction which was existing on the date of coming into force of DCR 58 and which was relatable to 60,149 sq.mtrs. of land has been completely demolished by the petitionercompany.",
+      "predicted_label": "Facts",
+      "confidence": 0.5494,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1961,
+        "Arguments of Respondent": 0.0345,
+        "Decision": 0.0133,
+        "Facts": 0.5494,
+        "Issue": 0.001,
+        "Reasoning": 0.2057
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 221,
+      "text": "of BUA.",
+      "predicted_label": "Facts",
+      "confidence": 0.5287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0608,
+        "Arguments of Respondent": 0.1135,
+        "Decision": 0.0183,
+        "Facts": 0.5287,
+        "Issue": 0.0807,
+        "Reasoning": 0.1979
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 222,
+      "text": "The petitioner has already got approval to develop 25,775 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.044,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0013,
+        "Facts": 0.8682,
+        "Issue": 0.0004,
+        "Reasoning": 0.0717
+      }
+    },
+    {
+      "sentence_id": 223,
+      "text": "of open land over and above 60,149 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.7727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0404,
+        "Arguments of Respondent": 0.0185,
+        "Decision": 0.0052,
+        "Facts": 0.7727,
+        "Issue": 0.0087,
+        "Reasoning": 0.1546
+      }
+    },
+    {
+      "sentence_id": 224,
+      "text": "of land which was covered by the existing built up area.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1566,
+        "Arguments of Respondent": 0.0798,
+        "Decision": 0.0065,
+        "Facts": 0.2742,
+        "Issue": 0.0014,
+        "Reasoning": 0.4815
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 225,
+      "text": "This 25,775 sq.mtrs. is definitely in excess of 30 of the open lands to be shared i.e. more than 30 of 78,106 sq.mtrs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6235,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0413,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0074,
+        "Facts": 0.3162,
+        "Issue": 0.0004,
+        "Reasoning": 0.6235
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 226,
+      "text": "of land",
+      "predicted_label": "Facts",
+      "confidence": 0.629,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0247,
+        "Arguments of Respondent": 0.027,
+        "Decision": 0.008,
+        "Facts": 0.629,
+        "Issue": 0.144,
+        "Reasoning": 0.1673
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 227,
+      "text": "to be shared from out of the land of Spring Mills at Dadar, Naigaon (Wadala).",
+      "predicted_label": "Facts",
+      "confidence": 0.9503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0002,
+        "Facts": 0.9503,
+        "Issue": 0.0007,
+        "Reasoning": 0.0418
+      }
+    },
+    {
+      "sentence_id": 228,
+      "text": "Similarly, this additional 49,199 sq.mtrs of BUA (over and above the existing 80,000 sq. mtrs.) is also more than 30 of the 61,962 sq.mtrs. of built up area which is permissible for the petitionercompany to put up on the land to be retained by it (i.e. land on which there was existing construction which has been demolished plus the land which is available to the petitionercompany for sharing under Regulation 58(1)(b).76.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0342,
+        "Arguments of Respondent": 0.033,
+        "Decision": 0.0016,
+        "Facts": 0.2499,
+        "Issue": 0.0001,
+        "Reasoning": 0.6812
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 229,
+      "text": "Similarly, the petitioner textilecompany has already obtained approval for construction of 76,878 sq.mtrs.",
+      "predicted_label": "Facts",
+      "confidence": 0.4634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3436,
+        "Arguments of Respondent": 0.0903,
+        "Decision": 0.0022,
+        "Facts": 0.4634,
+        "Issue": 0.0029,
+        "Reasoning": 0.0976
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 230,
+      "text": "of buildings for commercial residential user which are in the process of being constructed on the lands at Prabhadevi (Lower).",
+      "predicted_label": "Facts",
+      "confidence": 0.8311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0291,
+        "Arguments of Respondent": 0.0222,
+        "Decision": 0.0123,
+        "Facts": 0.8311,
+        "Issue": 0.0078,
+        "Reasoning": 0.0975
+      }
+    },
+    {
+      "sentence_id": 231,
+      "text": "The petitioner has already earmarked 40 of the open lands to be shared under Regulation 58(1)(b) which is also in excess of 30 limit stipulated in Regulation 58(1)(b).77.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5176,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0605,
+        "Arguments of Respondent": 0.0254,
+        "Decision": 0.007,
+        "Facts": 0.3893,
+        "Issue": 0.0002,
+        "Reasoning": 0.5176
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 232,
+      "text": "Thus, the real controversy is not about the area of the lands to be shared which were already determined in para 295 of the Supreme Court decision rendered on 7 March 2006 but the question is when the textile company is required to hand over possession of the lands earmarked for MHADA for public housing mill workers housing and for Municipal Corporation for open green spaces.78.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0292,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0018,
+        "Facts": 0.0492,
+        "Issue": 0.0007,
+        "Reasoning": 0.8879
+      }
+    },
+    {
+      "sentence_id": 233,
+      "text": "It is rightly contended by the learned counsel for respondentMunicipal Corporation, MHADA and the workers that once the textile mill company has clearly expressed its intention to develop land exceeding 30 of the lands to be shared and the mill company has accordingly not only submitted a layout on that basis but has also thereafter obtained approval for building plans which includes plans for constructing buildings on the land coming to the share of the textile company under Regulation 58(1)(b) and which open lands are in excess of 30 of the open lands to be shared, it is obvious that the textile company must hand over possession of the remaining portion of the open lands as per the percentage already specified in the table to Regulation 58(1)(b).Conclusions79.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0004,
+        "Facts": 0.0322,
+        "Issue": 0.0004,
+        "Reasoning": 0.9487
+      }
+    },
+    {
+      "sentence_id": 234,
+      "text": "Approval granted to the petitionercompany on 10 November 2003 to develop redevelop the land of Spring Mills at DadarNaigaon in Wadala purporting to be under SubRegulations (2) and (6) of Regulation 58 of Development Control Regulations must be read in light of the subsequent order of closure dated 25 November 2004 of Commissioner of Labour, Maharashtra State under Section 25O(1) of the Industrial Disputes Act, 1947.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7023,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1468,
+        "Arguments of Respondent": 0.0608,
+        "Decision": 0.0036,
+        "Facts": 0.0835,
+        "Issue": 0.0029,
+        "Reasoning": 0.7023
+      }
+    },
+    {
+      "sentence_id": 235,
+      "text": "Hence, subsequent approval of layout by the Planning Authority i.e. Municipal Corporation for Greater Mumbai and approval of the Building Plans in the form of IOD and Commencement Certificate, must all be read as governed by Regulation 58(1) of the Development Control Regulations, 1991, as amended by Government Notification dated 24 August 2010.(B)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6809,
+        "Arguments of Respondent": 0.2489,
+        "Decision": 0.0036,
+        "Facts": 0.0236,
+        "Issue": 0.0004,
+        "Reasoning": 0.0426
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 236,
+      "text": "The approval granted by the State Government to the petitionercompany to develop redevelop the land of its textilemill at Prabhadevi in Lower purporting to have been granted under SubRegulations (2) and (6) of Regulation 58 of the Development Control Regulations is also governed by NoteVII to Regulation 58(1)(b) as inserted by Government Notification dated 24 August 2010(C)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4246,
+        "Arguments of Respondent": 0.1896,
+        "Decision": 0.0662,
+        "Facts": 0.1478,
+        "Issue": 0.1045,
+        "Reasoning": 0.0673
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 237,
+      "text": "In view of NoteVII to Regulation 58(1)(b), the petitionercompany has already become liable to hand over the following lands earmarked for MHADA (for public housing mill workmens housing) and for Municipal Corporation of Greater Mumbai (for open green spaces, such as Recreation Ground) to MHADA and Municipal Corporation for Greater Mumbai respectively which areas are also mentioned in para 295 of the Supreme Court decision in (2006) 3 SCC page 531.",
+      "predicted_label": "Facts",
+      "confidence": 0.5507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2676,
+        "Arguments of Respondent": 0.0356,
+        "Decision": 0.0025,
+        "Facts": 0.5507,
+        "Issue": 0.0012,
+        "Reasoning": 0.1425
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 238,
+      "text": "Bombay Dyeing (Spring Mill, Wadala)",
+      "predicted_label": "Facts",
+      "confidence": 0.8261,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0803,
+        "Arguments of Respondent": 0.0231,
+        "Decision": 0.0003,
+        "Facts": 0.8261,
+        "Issue": 0.0015,
+        "Reasoning": 0.0686
+      }
+    },
+    {
+      "sentence_id": 239,
+      "text": "Bombay",
+      "predicted_label": "Facts",
+      "confidence": 0.4653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2593,
+        "Arguments of Respondent": 0.0534,
+        "Decision": 0.0049,
+        "Facts": 0.4653,
+        "Issue": 0.0383,
+        "Reasoning": 0.1788
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 240,
+      "text": "Dyeing Textile Mill (Lower )25,775.24 26,556.30 7,052.87 5,770.52(D)",
+      "predicted_label": "Facts",
+      "confidence": 0.9266,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0158,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0001,
+        "Facts": 0.9266,
+        "Issue": 0.0005,
+        "Reasoning": 0.0492
+      }
+    },
+    {
+      "sentence_id": 241,
+      "text": "On correct interpretation of provisions of Maharashtra Regional Town Planning Act, 1966 read with Regulation 58 of the Development Control Regulations, 1991 as amended by Government Notification dated 24 August 2010, the challenges raised in Writ Petition No.977 of 2010 must fail.80.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.1461,
+        "Facts": 0.0064,
+        "Issue": 0.0003,
+        "Reasoning": 0.8338
+      }
+    },
+    {
+      "sentence_id": 242,
+      "text": "In view of the above conclusions, Writ Petition No.977 of 2010 of the petitioner textilecompany is dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.8582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.8582,
+        "Facts": 0.0947,
+        "Issue": 0.0005,
+        "Reasoning": 0.045
+      }
+    },
+    {
+      "sentence_id": 243,
+      "text": "Interim relief stands vacated.81.",
+      "predicted_label": "Decision",
+      "confidence": 0.8976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.8976,
+        "Facts": 0.0095,
+        "Issue": 0.0001,
+        "Reasoning": 0.0912
+      }
+    },
+    {
+      "sentence_id": 244,
+      "text": "Writ Petition of workers i.e. Writ Petition (Lodging) No.1134 of 2010 is disposed of in terms of the above conclusions and with directions to the respondents to follow and implement the same.",
+      "predicted_label": "Decision",
+      "confidence": 0.9258,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9258,
+        "Facts": 0.0536,
+        "Issue": 0.0004,
+        "Reasoning": 0.0197
+      }
+    },
+    {
+      "sentence_id": 245,
+      "text": "At this stage, learned counsel for the petitioner prays for stay of operation of this judgment for a period of twelve weeks in order to have further recourse in accordance with law.",
+      "predicted_label": "Facts",
+      "confidence": 0.6194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1405,
+        "Arguments of Respondent": 0.0108,
+        "Decision": 0.122,
+        "Facts": 0.6194,
+        "Issue": 0.0114,
+        "Reasoning": 0.096
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 246,
+      "text": "Learned counsel for the respondents oppose the prayer.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.9707,
+        "Decision": 0.0004,
+        "Facts": 0.0095,
+        "Issue": 0.0006,
+        "Reasoning": 0.0147
+      }
+    },
+    {
+      "sentence_id": 247,
+      "text": "Having heard learned counsel for the parties, we direct that the interim stay operating during pendency of the petition shall continue to operate upto 31 July 2012.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.2408,
+        "Facts": 0.2362,
+        "Issue": 0.1085,
+        "Reasoning": 0.3872
+      },
+      "quality_flag": "AMBIGUOUS"
+    }
+  ]
+}

@@ -1,0 +1,1842 @@
+{
+  "case_id": "6915",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This letters patent appeal filed under Clause 15 of the letters patent takes exception to the judgment of the learned Single Judge dated 21.10.2011 in Writ Petition 1133 of 2002.",
+      "predicted_label": "Facts",
+      "confidence": 0.581,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0032,
+        "Facts": 0.581,
+        "Issue": 0.4092,
+        "Reasoning": 0.0048
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "By the said judgment, the writ petition preferred by the respondent nos.1 to 3 herein for challenging the judgment passed by the Industrial Court Nagpur on 27.02.2002 has been allowed and that judgment passed by the Industrial Court allowing the complaint filed by the appellant has been set aside.",
+      "predicted_label": "Issue",
+      "confidence": 0.9653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0006,
+        "Facts": 0.0327,
+        "Issue": 0.9653,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The brief facts that are relevant for deciding the challenges as raised are that it is the case of the appellantUnion through its General Secretary that it comprises of the employees of the erstwhile Brooke Bond India Limited.",
+      "predicted_label": "Facts",
+      "confidence": 0.9944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0,
+        "Facts": 0.9944,
+        "Issue": 0.0008,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The said company was subsequently acquired by Hindustan Lever Limited through its parent company in the year 1984.",
+      "predicted_label": "Facts",
+      "confidence": 0.7466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1173,
+        "Arguments of Respondent": 0.0786,
+        "Decision": 0.0003,
+        "Facts": 0.7466,
+        "Issue": 0.008,
+        "Reasoning": 0.0491
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The parent company had also acquired another company named Lipton India Limited.",
+      "predicted_label": "Facts",
+      "confidence": 0.8944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0175,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0001,
+        "Facts": 0.8944,
+        "Issue": 0.0022,
+        "Reasoning": 0.0685
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Both these companies were then merged in the year 1994 to form Brooke Bond Lipton India Limited.",
+      "predicted_label": "Facts",
+      "confidence": 0.8993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0241,
+        "Arguments of Respondent": 0.0206,
+        "Decision": 0.0001,
+        "Facts": 0.8993,
+        "Issue": 0.0018,
+        "Reasoning": 0.0542
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "This company was then merged into Hindustan Lever Limited.",
+      "predicted_label": "Facts",
+      "confidence": 0.8937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0468,
+        "Arguments of Respondent": 0.0262,
+        "Decision": 0.0001,
+        "Facts": 0.8937,
+        "Issue": 0.0027,
+        "Reasoning": 0.0306
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "According to Union the Federation of its employees is the apex body of trade unions.",
+      "predicted_label": "Facts",
+      "confidence": 0.9513,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0001,
+        "Facts": 0.9513,
+        "Issue": 0.0065,
+        "Reasoning": 0.0183
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "From 1962 onwards various agreements were entered into by the Federation with the Management of Brooke Bond India Limited concerning service conditions and payscales of its employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.9742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0,
+        "Facts": 0.9742,
+        "Issue": 0.0024,
+        "Reasoning": 0.0197
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "According to the Union representing about nineteen employees of the Regional Accounts Office, Nagpur the activities of the Regional Accounts Office and the manufacturing activities carried out at different factories especially the factory at Kanhan were interrelated and interdependent.",
+      "predicted_label": "Facts",
+      "confidence": 0.9161,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0192,
+        "Arguments of Respondent": 0.0114,
+        "Decision": 0.0,
+        "Facts": 0.9161,
+        "Issue": 0.001,
+        "Reasoning": 0.0522
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "All of them were thus constituted one industrial establishment.",
+      "predicted_label": "Facts",
+      "confidence": 0.8331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0003,
+        "Facts": 0.8331,
+        "Issue": 0.0021,
+        "Reasoning": 0.1423
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The services of the employees of Brooke Bond India Limited were transferable from various factories to the Regional Accounts Office and vice versa.",
+      "predicted_label": "Facts",
+      "confidence": 0.8158,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0212,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0001,
+        "Facts": 0.8158,
+        "Issue": 0.0011,
+        "Reasoning": 0.1491
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "On 05.01.2001 a notice of closure was displayed by the Management at the Regional Accounts Office, Nagpur.",
+      "predicted_label": "Facts",
+      "confidence": 0.9767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9767,
+        "Issue": 0.0005,
+        "Reasoning": 0.0217
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "As per that notice which was not preceded by a notice of change as required by Section 9A of the Industrial Disputes Act, 1947 (for short, the Act of 1947)",
+      "predicted_label": "Facts",
+      "confidence": 0.8651,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0303,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0031,
+        "Facts": 0.8651,
+        "Issue": 0.0463,
+        "Reasoning": 0.0452
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "the activities of the Regional Accounts Office, Nagpur were closed down.",
+      "predicted_label": "Facts",
+      "confidence": 0.8581,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0003,
+        "Facts": 0.8581,
+        "Issue": 0.0025,
+        "Reasoning": 0.126
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Since this notice of closure did not contain any reason and was issued without granting any opportunity to the members of the Union, the same resulted in commission of unfair labour practice within the meaning of Item 9 of Schedule IV of the Maharashtra Recognition of Trade Unions and Prevention of Unfair Labour Practices Act, 1971 (for short, the Act of 1971).",
+      "predicted_label": "Facts",
+      "confidence": 0.9848,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9848,
+        "Issue": 0.0063,
+        "Reasoning": 0.0048
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "On the aforesaid premise, the Union approach the Industrial Court by filing complaint under Sections 26, 27 and 28 of the Act of 1971 alongwith Items 4(f), 5 of Schedule II and Item 7 and 9 of Schedule IV to the Act of 1971.",
+      "predicted_label": "Facts",
+      "confidence": 0.9764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9764,
+        "Issue": 0.0081,
+        "Reasoning": 0.0109
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The Management filed its written statement at Exhibit 25 and opposed the prayers made in the complaint.",
+      "predicted_label": "Facts",
+      "confidence": 0.912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0213,
+        "Decision": 0.0003,
+        "Facts": 0.912,
+        "Issue": 0.0003,
+        "Reasoning": 0.0582
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "It was pleaded that the notice of closure issued on 05.01.2001 was in accordance with the provisions of law and the various agreements entered into with the Federation.",
+      "predicted_label": "Facts",
+      "confidence": 0.959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0001,
+        "Facts": 0.959,
+        "Issue": 0.0018,
+        "Reasoning": 0.012
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "It was denied that there was any functional integrality between the Regional Accounts Office and any other establishment of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.4471,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0769,
+        "Arguments of Respondent": 0.3917,
+        "Decision": 0.0001,
+        "Facts": 0.4471,
+        "Issue": 0.0009,
+        "Reasoning": 0.0832
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 20,
+      "text": "Since no work was available at the Regional Accounts Office from January2000 the Management had offered two alternatives to the members of the Union namely, an option of accepting voluntary retirement alongwith monetary benefits or the option of redeployment as per Clause 29 of the settlement dated 27.07.1999.",
+      "predicted_label": "Facts",
+      "confidence": 0.8358,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0138,
+        "Arguments of Respondent": 0.0325,
+        "Decision": 0.0002,
+        "Facts": 0.8358,
+        "Issue": 0.0004,
+        "Reasoning": 0.1173
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Since both these options were refused, the Management offered statutory dues to the nineteen employees while terminating their services on account of closure of the Regional Accounts Office.",
+      "predicted_label": "Facts",
+      "confidence": 0.8912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0172,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.0001,
+        "Facts": 0.8912,
+        "Issue": 0.0008,
+        "Reasoning": 0.0748
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The Industrial Court considered the complaint on merits and after examining the evidence on record held that the action of closure was in violation of the provisions of Sections 25O and 9A of the Act of 1947.",
+      "predicted_label": "Facts",
+      "confidence": 0.9093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0001,
+        "Facts": 0.9093,
+        "Issue": 0.0061,
+        "Reasoning": 0.0792
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "After holding the closure to be illegal, the Industrial Court directed the Management to restore the position that was existing prior to 05.01.2001 by withdrawing the retrenchment notice.",
+      "predicted_label": "Facts",
+      "confidence": 0.8557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0005,
+        "Facts": 0.8557,
+        "Issue": 0.0066,
+        "Reasoning": 0.1242
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The Management being aggrieved by the aforesaid judgment challenged the same in Writ Petition No. 1133 of 2002.",
+      "predicted_label": "Facts",
+      "confidence": 0.9871,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9871,
+        "Issue": 0.002,
+        "Reasoning": 0.0081
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The learned Single Judge in his detail judgment recorded a finding that the closure of the Regional Accounts Office was governed by the terms of various agreements between the Management and the Federation.",
+      "predicted_label": "Facts",
+      "confidence": 0.5091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0006,
+        "Facts": 0.5091,
+        "Issue": 0.0004,
+        "Reasoning": 0.4737
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "The Regional Accounts Office was not functionally integrated with other establishments of the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.5352,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0326,
+        "Arguments of Respondent": 0.0236,
+        "Decision": 0.0002,
+        "Facts": 0.5352,
+        "Issue": 0.0003,
+        "Reasoning": 0.4081
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Moreover, in view of the proviso to Section 9A of the Act of 1947 there was no need to issue any notice of closure under Section 9A of the Act of 1947.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4495,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1959,
+        "Arguments of Respondent": 0.172,
+        "Decision": 0.0031,
+        "Facts": 0.1793,
+        "Issue": 0.0002,
+        "Reasoning": 0.4495
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "On the basis of these findings the judgment of the Industrial Court was set aside and the writ petition was allowed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9686,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0002,
+        "Facts": 0.9686,
+        "Issue": 0.0112,
+        "Reasoning": 0.018
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "Being aggrieved by the aforesaid judgment, the Union has preferred the present letters patent appeal while the Management has preferred crossobjections seeking to challenge certain adverse findings recorded against it.",
+      "predicted_label": "Facts",
+      "confidence": 0.9724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9724,
+        "Issue": 0.0235,
+        "Reasoning": 0.0033
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Shri S.D. Thakur, learned counsel for the appellantUnion reiterated the submissions that were canvassed before the learned Single Judge while supporting the order passed by the Industrial Court.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9811,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.009,
+        "Issue": 0.0001,
+        "Reasoning": 0.0083
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "According to him, the notice of closure dated 05.01.2001 was illegal since there was no reason mentioned therein that prompted closure of the Regional Accounts Office.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5749,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5749,
+        "Arguments of Respondent": 0.1419,
+        "Decision": 0.0002,
+        "Facts": 0.2341,
+        "Issue": 0.0007,
+        "Reasoning": 0.0482
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "Referring to the provisions of Section 25FFF of the Act of 1947 it was submitted that the workmen were entitled to notice and compensation in accordance with the provisions of Section 25F of the Act of 1947.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4558,
+        "Arguments of Respondent": 0.3377,
+        "Decision": 0.0003,
+        "Facts": 0.1439,
+        "Issue": 0.0016,
+        "Reasoning": 0.0606
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 33,
+      "text": "The conditions precedent to retrenchment of workmen as stipulated therein required giving of one months notice in writing indicating reasons for such retrenchment.",
+      "predicted_label": "Facts",
+      "confidence": 0.7662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0002,
+        "Facts": 0.7662,
+        "Issue": 0.0003,
+        "Reasoning": 0.2081
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Since the requirements of such Clauses (a) and (b) of Section 25F were mandatory in nature, the noncompliance in that regard rendered the notice of closure void ab initio.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4238,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4238,
+        "Arguments of Respondent": 0.1265,
+        "Decision": 0.0018,
+        "Facts": 0.2514,
+        "Issue": 0.0008,
+        "Reasoning": 0.1957
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "In that regard, the learned counsel placed reliance on the decisions in Gammon India Limited Versus Niranjan Dass (1984) 1 SCC 509 , Pramod Jha Others Versus State of Bihar Others (2003) 4 SCC 619 , Rajasthan Lalit Kala Academy Versus Radhey Shyam (2008) 13 SCC 248 , Mohan Lal Versus Management of M s Bharat Electronics Ltd. (1981) 3 SCC 225 , Union of India Versus Mohan Lal Capoor Others (1973) 2 SCC 836 and D.K. Yadav Versus J.M.A. Industries Ltd. (1993)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5673,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5673,
+        "Arguments of Respondent": 0.425,
+        "Decision": 0.0001,
+        "Facts": 0.0014,
+        "Issue": 0.0001,
+        "Reasoning": 0.006
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 36,
+      "text": "3 SCC 259 .",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3391,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3291,
+        "Arguments of Respondent": 0.3391,
+        "Decision": 0.0017,
+        "Facts": 0.1163,
+        "Issue": 0.0046,
+        "Reasoning": 0.2091
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "It was then submitted that in the facts of the case the provisions of Section 25O of the Act of 1947 were applicable.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4583,
+        "Arguments of Respondent": 0.3813,
+        "Decision": 0.0004,
+        "Facts": 0.0775,
+        "Issue": 0.0019,
+        "Reasoning": 0.0807
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "Since the activities of the Regional Accounts Officer were dependent on the activities of other establishments of the Company, it formed an integral part of the entire establishment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0328,
+        "Arguments of Respondent": 0.0225,
+        "Decision": 0.0002,
+        "Facts": 0.2501,
+        "Issue": 0.0002,
+        "Reasoning": 0.6942
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "The finding to the contrary recorded by the learned Single Judge was without any legal basis and the same was liable to be set aside.",
+      "predicted_label": "Facts",
+      "confidence": 0.4346,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3932,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0073,
+        "Facts": 0.4346,
+        "Issue": 0.0007,
+        "Reasoning": 0.1343
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "Reference was made in that regard to the decision in S.G. Chemicals and Dyes Trading Employees Union Versus S.G. Chemicals and Dyes Trading Limited Another (1986) 2 SCC 624 .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5492,
+        "Arguments of Respondent": 0.3628,
+        "Decision": 0.0002,
+        "Facts": 0.0273,
+        "Issue": 0.0003,
+        "Reasoning": 0.0602
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "Absence of notice of closure under Section 9A of the Act of 1947 also vitiated the notice of closure.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3318,
+        "Arguments of Respondent": 0.0495,
+        "Decision": 0.0008,
+        "Facts": 0.1691,
+        "Issue": 0.0009,
+        "Reasoning": 0.4478
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "The reliance placed on the proviso to Section 9A of the Act of 1947 by the learned Single Judge was erroneous.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0615,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0017,
+        "Facts": 0.108,
+        "Issue": 0.0012,
+        "Reasoning": 0.8194
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Inviting attention to various settlements that were entered into under Sections 2(p) and 18 of the Act of 1947 it was submitted that the modalities prescribed therein were binding on both the parties and failure to abide by the terms of settlement resulted in attracting the provisions of Item 9 of Schedule IV to the Act of 1947.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6318,
+        "Arguments of Respondent": 0.3133,
+        "Decision": 0.0001,
+        "Facts": 0.023,
+        "Issue": 0.0004,
+        "Reasoning": 0.0314
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "It was not permissible for the Management to unilaterally modify or vary the settlements and by doing so an unfair labour practice was committed by the Management.",
+      "predicted_label": "Facts",
+      "confidence": 0.4858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1065,
+        "Arguments of Respondent": 0.1769,
+        "Decision": 0.0021,
+        "Facts": 0.4858,
+        "Issue": 0.0008,
+        "Reasoning": 0.228
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "Reliance was placed on the decisions in M s Tata Iron and Steel Co. Ltd.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3368,
+        "Arguments of Respondent": 0.3626,
+        "Decision": 0.0007,
+        "Facts": 0.1348,
+        "Issue": 0.0004,
+        "Reasoning": 0.1647
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 46,
+      "text": "Versus The Workmen Others (1972) 2 SCC 383 and Lokmat Newspapers Pvt.Ltd.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2531,
+        "Arguments of Respondent": 0.5246,
+        "Decision": 0.0016,
+        "Facts": 0.0449,
+        "Issue": 0.001,
+        "Reasoning": 0.1748
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Versus Shankarprasad (1999) 6 SCC 275 .",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4395,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4011,
+        "Arguments of Respondent": 0.4395,
+        "Decision": 0.002,
+        "Facts": 0.0433,
+        "Issue": 0.0021,
+        "Reasoning": 0.1121
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "It was thus submitted that the Industrial Court having rightly considered the entire material on record and thereafter having granted relief to the Union, its judgment ought not to have been interfered with by the learned Single Judge.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.946,
+        "Arguments of Respondent": 0.0275,
+        "Decision": 0.0001,
+        "Facts": 0.0027,
+        "Issue": 0.0005,
+        "Reasoning": 0.0231
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "It was prayed that the order passed by the Industrial Court be restored.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6663,
+        "Arguments of Respondent": 0.0349,
+        "Decision": 0.0018,
+        "Facts": 0.224,
+        "Issue": 0.0041,
+        "Reasoning": 0.0688
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "Shri H.V. Thakur, learned counsel for the respondent nos.1 to 3Management supported the judgment of the learned Single Judge.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.9824,
+        "Decision": 0.0001,
+        "Facts": 0.0026,
+        "Issue": 0.0001,
+        "Reasoning": 0.0032
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "According to him the learned Single Judge by applying the correct legal tests in the light of the material on record was justified in holding that there was absence of functional integrality between the activities of the Regional Accounts Office and other establishments of the Company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8561,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1291,
+        "Arguments of Respondent": 0.8561,
+        "Decision": 0.0001,
+        "Facts": 0.0061,
+        "Issue": 0.0001,
+        "Reasoning": 0.0084
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "As per the various settlements with the Federation, the Management had clearly indicated its desire to close down the activities of the Regional Accounts Office at Nagpur.",
+      "predicted_label": "Facts",
+      "confidence": 0.5666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0336,
+        "Arguments of Respondent": 0.0724,
+        "Decision": 0.0004,
+        "Facts": 0.5666,
+        "Issue": 0.0007,
+        "Reasoning": 0.3264
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "Appropriate options were given to the employees therein but the same were not accepted by them.",
+      "predicted_label": "Facts",
+      "confidence": 0.811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.013,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0004,
+        "Facts": 0.811,
+        "Issue": 0.0007,
+        "Reasoning": 0.1572
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "There was no option therefore to close down the Regional Accounts Office and hence it was not correct to contend that the same amounted to retrenchment.",
+      "predicted_label": "Facts",
+      "confidence": 0.5967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0881,
+        "Arguments of Respondent": 0.1461,
+        "Decision": 0.0004,
+        "Facts": 0.5967,
+        "Issue": 0.0003,
+        "Reasoning": 0.1682
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "Referring to the provisions of Section 2(cc) and 2(oo) of the Act of 1947 it was submitted that retrenchment required existence of a live industry which was in contradistinction with a permanent closing down of a place of employment or part thereof.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5298,
+        "Arguments of Respondent": 0.3649,
+        "Decision": 0.0001,
+        "Facts": 0.047,
+        "Issue": 0.0003,
+        "Reasoning": 0.0579
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "He urged that the provisions of Section 25O were not applicable in the facts of the case and it was rightly held by the learned Single Judge that by virtue of the proviso to Section 9A of the Act of 1947 notice of closure was also not required to be issued.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8073,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1674,
+        "Arguments of Respondent": 0.8073,
+        "Decision": 0.0002,
+        "Facts": 0.008,
+        "Issue": 0.0001,
+        "Reasoning": 0.0171
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "He referred to the decisions in L. Robert DSouza Versus The Executive Engineer, Southern Railway Another AIR 1982 SC 854 , Alarsin Alarsin Marketing Employees Union Versus Alarsin Pharmaceuticals M s Alarsin Marketing Pvt.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4332,
+        "Arguments of Respondent": 0.5364,
+        "Decision": 0.0001,
+        "Facts": 0.0095,
+        "Issue": 0.0001,
+        "Reasoning": 0.0207
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.3569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1732,
+        "Arguments of Respondent": 0.1217,
+        "Decision": 0.0075,
+        "Facts": 0.3569,
+        "Issue": 0.015,
+        "Reasoning": 0.3256
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 59,
+      "text": "Another 2004 II CLR 888 and AngloFrench Drugs and Industries Ltd.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3471,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3471,
+        "Arguments of Respondent": 0.2932,
+        "Decision": 0.005,
+        "Facts": 0.1389,
+        "Issue": 0.0024,
+        "Reasoning": 0.2135
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 60,
+      "text": "Versus Roche AngloFrench Employees Union 2005 (3) Mh.L.J. 1120 in that regard.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4353,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3278,
+        "Arguments of Respondent": 0.4353,
+        "Decision": 0.004,
+        "Facts": 0.048,
+        "Issue": 0.001,
+        "Reasoning": 0.1838
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 61,
+      "text": "According to him various findings recorded by the learned Single Judge were based on the evidence on record and those findings were not shown to be perverse.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5714,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3737,
+        "Arguments of Respondent": 0.5714,
+        "Decision": 0.0002,
+        "Facts": 0.0173,
+        "Issue": 0.0001,
+        "Reasoning": 0.0373
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "He also referred to the evidence on record to substantiate his contentions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6987,
+        "Arguments of Respondent": 0.2578,
+        "Decision": 0.0001,
+        "Facts": 0.0268,
+        "Issue": 0.0003,
+        "Reasoning": 0.0163
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "According to him compliance with the provisions of Section 25F was not a condition precedent for closure of an establishment.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.542,
+        "Arguments of Respondent": 0.2632,
+        "Decision": 0.0002,
+        "Facts": 0.0958,
+        "Issue": 0.0003,
+        "Reasoning": 0.0984
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "It was relevant only when retrenchment was to be effected.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7655,
+      "probabilities": {
+        "Arguments of Petitioner": 0.044,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0017,
+        "Facts": 0.1439,
+        "Issue": 0.0002,
+        "Reasoning": 0.7655
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "The provisions of Sections 25F and 25O could not go together.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1134,
+        "Arguments of Respondent": 0.1261,
+        "Decision": 0.0016,
+        "Facts": 0.099,
+        "Issue": 0.0004,
+        "Reasoning": 0.6596
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "As regards the findings recorded by the learned Single Judge that the Union was competent to file the complaint it was submitted that the Constitution of the Union and especially Clause 10(C) did not permit the General Secretary to file the complaint in absence of any grievance made by any workman to the Union in writing.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7129,
+        "Arguments of Respondent": 0.1617,
+        "Decision": 0.0001,
+        "Facts": 0.0998,
+        "Issue": 0.0004,
+        "Reasoning": 0.025
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "He referred to the decisions in Punjab University Versus V.N.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4171,
+        "Arguments of Respondent": 0.5675,
+        "Decision": 0.0002,
+        "Facts": 0.0045,
+        "Issue": 0.0001,
+        "Reasoning": 0.0107
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "Tripathi Another (2001) 8 SCC 179 , Dale Carrington Invt.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7143,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7143,
+        "Arguments of Respondent": 0.2717,
+        "Decision": 0.0001,
+        "Facts": 0.0047,
+        "Issue": 0.0002,
+        "Reasoning": 0.009
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "(P) Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.3209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2089,
+        "Arguments of Respondent": 0.1397,
+        "Decision": 0.0088,
+        "Facts": 0.3209,
+        "Issue": 0.0231,
+        "Reasoning": 0.2986
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 70,
+      "text": "Another Versus P.K. Prathapan Others (2005) 1 SCC 212 and M s Nibro Limited Versus National Insurance Co. Ltd.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4154,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3143,
+        "Arguments of Respondent": 0.4154,
+        "Decision": 0.0031,
+        "Facts": 0.0587,
+        "Issue": 0.0014,
+        "Reasoning": 0.2071
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 71,
+      "text": "AIR 1991 Delhi 25 in that regard.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.425,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3731,
+        "Arguments of Respondent": 0.425,
+        "Decision": 0.0009,
+        "Facts": 0.1108,
+        "Issue": 0.0015,
+        "Reasoning": 0.0886
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 72,
+      "text": "It was further urged that closure of the Regional Accounts Office was not a local issue as held by the learned Single Judge.",
+      "predicted_label": "Facts",
+      "confidence": 0.5615,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2407,
+        "Arguments of Respondent": 0.123,
+        "Decision": 0.0002,
+        "Facts": 0.5615,
+        "Issue": 0.001,
+        "Reasoning": 0.0736
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "It was an All India issue pursuant to the settlements with the Federation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1283,
+        "Arguments of Respondent": 0.211,
+        "Decision": 0.0011,
+        "Facts": 0.1002,
+        "Issue": 0.0002,
+        "Reasoning": 0.5593
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "The Union was therefore not competent to question the notice of closure when it was not a party to various settlements.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2547,
+        "Arguments of Respondent": 0.1875,
+        "Decision": 0.0007,
+        "Facts": 0.0604,
+        "Issue": 0.0003,
+        "Reasoning": 0.4964
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "The Federation was not brought in picture by the Union nor was any Office bearer of the Federation examined.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6082,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1667,
+        "Arguments of Respondent": 0.098,
+        "Decision": 0.0008,
+        "Facts": 0.1259,
+        "Issue": 0.0004,
+        "Reasoning": 0.6082
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "Further, the finding recorded that the interim payments made to the workmen were justified in view of the provisions of Section 17B of the Act of 1947 was also incorrect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4348,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0068,
+        "Facts": 0.0953,
+        "Issue": 0.0006,
+        "Reasoning": 0.4431
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 77,
+      "text": "The requirements of Section 17B had not been satisfied since there were no affidavits filed regarding absence of gainful employment.",
+      "predicted_label": "Facts",
+      "confidence": 0.432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1367,
+        "Arguments of Respondent": 0.1065,
+        "Decision": 0.0019,
+        "Facts": 0.432,
+        "Issue": 0.0019,
+        "Reasoning": 0.321
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 78,
+      "text": "However, he submitted that as a policy decision, the Management was not desirous of pressing the aspect of recovery of payments already made.",
+      "predicted_label": "Facts",
+      "confidence": 0.5172,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1617,
+        "Arguments of Respondent": 0.231,
+        "Decision": 0.0012,
+        "Facts": 0.5172,
+        "Issue": 0.0004,
+        "Reasoning": 0.0885
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "It was then submitted that since the cause of action for filing the complaint was the termination of nineteen employees, the Union ought to have approached the Labour Court and not Industrial Court.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6094,
+        "Arguments of Respondent": 0.1964,
+        "Decision": 0.0005,
+        "Facts": 0.0757,
+        "Issue": 0.0019,
+        "Reasoning": 0.116
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "In that context reliance was placed on the decisions in Rajneesh Khajuria Versus Wockhardt Limited Another (2020) 3 SCC 86 ,",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5715,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5715,
+        "Arguments of Respondent": 0.3669,
+        "Decision": 0.0001,
+        "Facts": 0.0227,
+        "Issue": 0.0002,
+        "Reasoning": 0.0386
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "Shankarprasad And Lokmat Newspapers Pvt. Ltd., Nagpur 1997 II LLJ 195, Executive Engineer, Electrical Division, Nagpur Another Versus Prakash Devidas Kalasit 1985",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5196,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2067,
+        "Arguments of Respondent": 0.5196,
+        "Decision": 0.0004,
+        "Facts": 0.0149,
+        "Issue": 0.0002,
+        "Reasoning": 0.2582
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "Mh.L.J. 338, Pepsico India Holdings Pvt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.36,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3308,
+        "Arguments of Respondent": 0.2583,
+        "Decision": 0.0009,
+        "Facts": 0.0495,
+        "Issue": 0.0004,
+        "Reasoning": 0.36
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 83,
+      "text": "Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.3569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1732,
+        "Arguments of Respondent": 0.1217,
+        "Decision": 0.0075,
+        "Facts": 0.3569,
+        "Issue": 0.015,
+        "Reasoning": 0.3256
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 84,
+      "text": "And Noshir Elavia Another 2002 II LLJ 721 and Manoj Amdas Ingle Others Versus Member, Industrial Court, Nagpur Another 2004 (3) Mh.L.J. 41.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5585,
+        "Arguments of Respondent": 0.1932,
+        "Decision": 0.0027,
+        "Facts": 0.0977,
+        "Issue": 0.0027,
+        "Reasoning": 0.1453
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "It was thus submitted that considering the fact that the entire material on record had been considered by the learned Single Judge there was no reason to interfere with the impugned judgment.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9072,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0372,
+        "Arguments of Respondent": 0.9072,
+        "Decision": 0.0002,
+        "Facts": 0.045,
+        "Issue": 0.0003,
+        "Reasoning": 0.0101
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "However, the adverse findings as challenged in the crossobjection were liable to be set aside.",
+      "predicted_label": "Facts",
+      "confidence": 0.5931,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1162,
+        "Arguments of Respondent": 0.1016,
+        "Decision": 0.0136,
+        "Facts": 0.5931,
+        "Issue": 0.0025,
+        "Reasoning": 0.173
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "We have heard the learned counsel for the parties at length and with their assistance we have also perused the material that was placed on record by the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8395,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.016,
+        "Facts": 0.03,
+        "Issue": 0.069,
+        "Reasoning": 0.8395
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "Before considering the applicability of the relevant statutory provisions on which the learned counsel for the parties have relied, it would be necessary to first refer to the findings recorded by the learned Single Judge after considering the evidence on record.",
+      "predicted_label": "Facts",
+      "confidence": 0.4557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0308,
+        "Arguments of Respondent": 0.0325,
+        "Decision": 0.0006,
+        "Facts": 0.4557,
+        "Issue": 0.1365,
+        "Reasoning": 0.3438
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 89,
+      "text": "It has been found by the learned Single Judge that the settlements from 24.01.1962 to 27.07.1999 which are at Exhibits 53 to 59 were entered into between the Federation and the Management under Section 2(p) read with Section 18(1) of the Act of 1947.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7104,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0005,
+        "Facts": 0.2454,
+        "Issue": 0.0004,
+        "Reasoning": 0.7104
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "Under these settlements a need was expressed by the Management for restructuring and reorganization of its activities in a phased manner.",
+      "predicted_label": "Facts",
+      "confidence": 0.8113,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0118,
+        "Arguments of Respondent": 0.0383,
+        "Decision": 0.0004,
+        "Facts": 0.8113,
+        "Issue": 0.0003,
+        "Reasoning": 0.1381
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "Initially the sales depots were closed and the sales system was replaced by the system of acquiring and forwarding agents and redistribution of stockists.",
+      "predicted_label": "Facts",
+      "confidence": 0.8468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0201,
+        "Arguments of Respondent": 0.0489,
+        "Decision": 0.0001,
+        "Facts": 0.8468,
+        "Issue": 0.0011,
+        "Reasoning": 0.0831
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "The number of Area Sales Offices Branch Offices were reduced to five.",
+      "predicted_label": "Facts",
+      "confidence": 0.8941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0266,
+        "Arguments of Respondent": 0.013,
+        "Decision": 0.0002,
+        "Facts": 0.8941,
+        "Issue": 0.0017,
+        "Reasoning": 0.0644
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "Nagpur Area Sales Office was also closed down and the entire accounting work was agreed to be carried out from the Regional Branch Office at Mumbai.",
+      "predicted_label": "Facts",
+      "confidence": 0.8118,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0283,
+        "Arguments of Respondent": 0.0132,
+        "Decision": 0.0002,
+        "Facts": 0.8118,
+        "Issue": 0.0014,
+        "Reasoning": 0.1451
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "As a result of reorganization of Companys activities option was given to the employees to either opt for voluntary retirement or to agree for redeployment.",
+      "predicted_label": "Facts",
+      "confidence": 0.5776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0887,
+        "Arguments of Respondent": 0.1661,
+        "Decision": 0.0003,
+        "Facts": 0.5776,
+        "Issue": 0.003,
+        "Reasoning": 0.1644
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 95,
+      "text": "It is in the light of these settlements that it has been held that the closure of the Regional Accounts Office was governed by the various settlements with the Federation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.0003,
+        "Facts": 0.0658,
+        "Issue": 0.0002,
+        "Reasoning": 0.8988
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "Yet another finding recorded is that the Regional Accounts Office was not part and parcel of the manufacturing process of the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7505,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0424,
+        "Arguments of Respondent": 0.0321,
+        "Decision": 0.0009,
+        "Facts": 0.1738,
+        "Issue": 0.0003,
+        "Reasoning": 0.7505
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "There was no evidence found on record to hold that the Regional Accounts Office, Nagpur formed part and parcel of the manufacturing process undertaken by various factories.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2462,
+        "Arguments of Respondent": 0.1108,
+        "Decision": 0.0004,
+        "Facts": 0.1517,
+        "Issue": 0.0002,
+        "Reasoning": 0.4908
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "It is on this basis that it was concluded that there was no material on record to satisfy the test of functional integrality, interdependence and componential relationship between the Regional Accounts Office and the various factories.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0002,
+        "Facts": 0.1953,
+        "Issue": 0.0007,
+        "Reasoning": 0.7746
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "On this basis it has been held that the provisions of Section 25O(1) of the Act of 1947 were not attracted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0488,
+        "Arguments of Respondent": 0.029,
+        "Decision": 0.0005,
+        "Facts": 0.1576,
+        "Issue": 0.006,
+        "Reasoning": 0.758
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "The closure was governed by the provisions of Section 25FFF and that course had been duly followed.",
+      "predicted_label": "Facts",
+      "confidence": 0.8285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0414,
+        "Arguments of Respondent": 0.0689,
+        "Decision": 0.0007,
+        "Facts": 0.8285,
+        "Issue": 0.0011,
+        "Reasoning": 0.0594
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "We find that the aforesaid findings going to the root of the matter have been recorded after considering the relevant material on record.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.001,
+        "Facts": 0.0338,
+        "Issue": 0.0001,
+        "Reasoning": 0.953
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "Once it is found that the closure of the Regional Accounts Office at Nagpur was pursuant to the settlements between the Federation and the Management the proviso to Section 9A would stand attracted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0003,
+        "Facts": 0.0904,
+        "Issue": 0.0003,
+        "Reasoning": 0.8886
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "As per the said proviso, no notice of change would be required to be given if such change is effected pursuant to any settlement or award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0574,
+        "Arguments of Respondent": 0.0634,
+        "Decision": 0.0002,
+        "Facts": 0.0235,
+        "Issue": 0.001,
+        "Reasoning": 0.8546
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "The Union has not been in a position to demonstrate that the closure of the Regional Accounts Office as per notice dated 05.01.2001 was not pursuant to the settlement at Exhibits 53 to 59.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.0233,
+        "Decision": 0.0008,
+        "Facts": 0.0951,
+        "Issue": 0.0002,
+        "Reasoning": 0.866
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "Reliance has been rightly placed on the decision of the learned Single Judge in AngloFrench Drugs and Industries Ltd. (supra) by the learned counsel for the Management that for alteration of the conditions of service, existence of a live industry is necessary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8105,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0596,
+        "Decision": 0.0034,
+        "Facts": 0.1091,
+        "Issue": 0.0001,
+        "Reasoning": 0.8105
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "On the factum of closure being established there would be no occasion to hold that such closure amounted to alteration of the conditions of service.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9256,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0306,
+        "Arguments of Respondent": 0.0238,
+        "Decision": 0.0003,
+        "Facts": 0.0193,
+        "Issue": 0.0004,
+        "Reasoning": 0.9256
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "As regards the finding recorded by the learned Single Judge that the closure of the Regional Accounts Office was a local issue, the basis for that conclusion is that in none of the settlements was any provision made to enable the parties to the settlement to raise a question about illegal closure.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0002,
+        "Facts": 0.1297,
+        "Issue": 0.0001,
+        "Reasoning": 0.8437
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "In absence of any such modality it was held that the Union by espousing the case of its members at Nagpur was competent to do so and the same was thus a local issue.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7078,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1248,
+        "Arguments of Respondent": 0.0442,
+        "Decision": 0.0005,
+        "Facts": 0.1204,
+        "Issue": 0.0022,
+        "Reasoning": 0.7078
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "We do not find any reason to take a different view of the matter and on perusal of various settlements the aforesaid aspect is clear.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0089,
+        "Facts": 0.0111,
+        "Issue": 0.0004,
+        "Reasoning": 0.9679
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "For the same reason it was not necessary for the Federation to come in the picture in the present proceedings nor was it required to examine any witness in that regard.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0267,
+        "Arguments of Respondent": 0.033,
+        "Decision": 0.0066,
+        "Facts": 0.0116,
+        "Issue": 0.0002,
+        "Reasoning": 0.922
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "Similarly, the finding recorded that the jurisdiction of the Industrial Court was rightly invoked also does not require any interference since what was challenged was the notice of closure on the premise that it was in breach of the settlement entered into.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.4609,
+        "Decision": 0.0321,
+        "Facts": 0.0127,
+        "Issue": 0.0003,
+        "Reasoning": 0.4888
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 112,
+      "text": "Admittedly, the provisions of Item I of Schedule IV to the Act of 1971 had not been invoked and thus the Industrial Court was competent to entertain the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1022,
+        "Arguments of Respondent": 0.0815,
+        "Decision": 0.0034,
+        "Facts": 0.0825,
+        "Issue": 0.0029,
+        "Reasoning": 0.7276
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "The substantive claim made in the complaint was with regard to the illegal closure of the RAO at Nagpur on the premise that it was in breach of the settlements between the parties and hence the provisions of Item 9 of Schedule IV to the Act of 1971 were rightly invoked by the Union.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3322,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0923,
+        "Arguments of Respondent": 0.3321,
+        "Decision": 0.0003,
+        "Facts": 0.2426,
+        "Issue": 0.0004,
+        "Reasoning": 0.3322
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 114,
+      "text": "The ratio of the decision in Lokmat Newspapers Pvt. Ltd. (supra) has been rightly held to be not applicable to the facts of the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.715,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.2001,
+        "Decision": 0.0441,
+        "Facts": 0.0283,
+        "Issue": 0.0003,
+        "Reasoning": 0.715
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "As regards the competence of the General Secretary to file the complaint before the Industrial Court, it is seen that the learned Single Judge has found that the complaint was filed by the registered Union and that Shri Rajhans was its General Secretary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0209,
+        "Arguments of Respondent": 0.0231,
+        "Decision": 0.0021,
+        "Facts": 0.0657,
+        "Issue": 0.0006,
+        "Reasoning": 0.8876
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "The judgments cited in the cases of Dale Carrington Invt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1246,
+        "Arguments of Respondent": 0.0786,
+        "Decision": 0.0083,
+        "Facts": 0.0285,
+        "Issue": 0.0005,
+        "Reasoning": 0.7595
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "(P) Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.3209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2089,
+        "Arguments of Respondent": 0.1397,
+        "Decision": 0.0088,
+        "Facts": 0.3209,
+        "Issue": 0.0231,
+        "Reasoning": 0.2986
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 118,
+      "text": "And M s Nibro Limited (supra) have been dealt with.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8381,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0717,
+        "Decision": 0.0096,
+        "Facts": 0.0454,
+        "Issue": 0.0018,
+        "Reasoning": 0.8381
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "We are in agreement with the finding recorded in paragraphs 19 to 23 of the judgment of the learned Single Judge in that regard.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9504,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0157,
+        "Facts": 0.0241,
+        "Issue": 0.0003,
+        "Reasoning": 0.9504
+      }
+    },
+    {
+      "sentence_id": 120,
+      "text": "We thus find on a reconsideration of the material on record in the context of the findings arrived at by the learned Single Judge that the learned Single Judge was legally justified in setting aside the judgment passed by the Industrial Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0941,
+        "Facts": 0.0227,
+        "Issue": 0.0011,
+        "Reasoning": 0.8783
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "The closure of the Regional Accounts Office at Nagpur being pursuant to various settlements, the notice dated 05.01.2001 given to that effect did not result in constituting an unfair labour practice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0148,
+        "Arguments of Respondent": 0.0655,
+        "Decision": 0.0025,
+        "Facts": 0.3533,
+        "Issue": 0.0011,
+        "Reasoning": 0.5628
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 122,
+      "text": "We therefore do not find any reason to interfere with the judgment of the learned Single Judge.",
+      "predicted_label": "Facts",
+      "confidence": 0.6259,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.1122,
+        "Facts": 0.6259,
+        "Issue": 0.001,
+        "Reasoning": 0.2535
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 123,
+      "text": "In the passing we may observe that by virtue of the interim orders passed in the year 2002 the nineteen employees were being paid last drawn wages and according to the Management this payment is approximately Rs.2,50,00,000/ (Rupees Two Crores Fifty Lakhs).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0096,
+        "Facts": 0.1263,
+        "Issue": 0.0003,
+        "Reasoning": 0.8473
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "We find that the interim orders as passed have resulted in meeting the ends of justice especially when the Management as a policy matter has decided not to agitate this aspect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.1147,
+        "Facts": 0.0255,
+        "Issue": 0.0005,
+        "Reasoning": 0.8506
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "For aforesaid reasons the judgment of the learned Single Judge in Writ Petition No.1133 of 2002 stands confirmed.",
+      "predicted_label": "Decision",
+      "confidence": 0.8729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.8729,
+        "Facts": 0.0497,
+        "Issue": 0.0003,
+        "Reasoning": 0.0758
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "Letters Patent Appeal alongwith CrossObjection stand dismissed leaving the parties to bear their own costs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0951,
+        "Facts": 0.8875,
+        "Issue": 0.0046,
+        "Reasoning": 0.0102
+      }
+    }
+  ]
+}

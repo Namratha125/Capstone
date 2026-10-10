@@ -1,0 +1,2877 @@
+{
+  "case_id": "6441",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The appellants impugn the Judgment of the High Court rendered in a Writ Petition filed, under Article 226 and 227, by respondents 1 and 2.",
+      "predicted_label": "Issue",
+      "confidence": 0.8989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0009,
+        "Facts": 0.098,
+        "Issue": 0.8989,
+        "Reasoning": 0.0015
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "By the impugned Order, the Order dated 18.01.2002, passed by the Appellate Authority, under Section 58(2) of the Madhya Pradesh Shops Establishments Act, 1958 (for short, with certain others, invoked the jurisdiction of the Appellate Authority under Section 58(2) complaining that their services were terminated illegally by the respondents which complaint was accepted by the Appellate Authority.",
+      "predicted_label": "Facts",
+      "confidence": 0.7472,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0005,
+        "Facts": 0.7472,
+        "Issue": 0.2483,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The Appellate Authority directed the Respondent No. 1 and 2 to reinstate the appellants with full back wages from 15.04.1997 till the date of reinstatement.",
+      "predicted_label": "Facts",
+      "confidence": 0.7789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0007,
+        "Facts": 0.7789,
+        "Issue": 0.2027,
+        "Reasoning": 0.016
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "In the alternative the Respondent No. 1 and 2 were directed to pay compensation to each of the appellants as calculated in the order without reinstatement.",
+      "predicted_label": "Facts",
+      "confidence": 0.9795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0004,
+        "Facts": 0.9795,
+        "Issue": 0.0143,
+        "Reasoning": 0.0044
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "It is this order which stands set aside by the High Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.4916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0304,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0152,
+        "Facts": 0.4916,
+        "Issue": 0.0164,
+        "Reasoning": 0.4433
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "The High Court has found that the Act cannot be made applicable in view of the exemption available under Section 3(j) of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.4804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0234,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0045,
+        "Facts": 0.4804,
+        "Issue": 0.0481,
+        "Reasoning": 0.4295
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "(22) residential hotel means any premises in which a bona fide business is carried on of supplying for payment lodging or board and lodging to travellers and other members or class of members of the public and includes a residential club 5.",
+      "predicted_label": "Facts",
+      "confidence": 0.5111,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3342,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.001,
+        "Facts": 0.5111,
+        "Issue": 0.0048,
+        "Reasoning": 0.1292
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "Under Section 3, the Act will not apply to certain persons or establishments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2416,
+        "Arguments of Respondent": 0.0705,
+        "Decision": 0.0042,
+        "Facts": 0.0947,
+        "Issue": 0.0005,
+        "Reasoning": 0.5885
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The learned counsel for the appellants would point out that the High Court ought not have interfered with the order of the Appellate Authority which was based on evidence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9553,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0004,
+        "Facts": 0.0033,
+        "Issue": 0.0005,
+        "Reasoning": 0.039
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "It is contended that the appellants were working as employees of the respondent.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3919,
+        "Arguments of Respondent": 0.3974,
+        "Decision": 0.0006,
+        "Facts": 0.0912,
+        "Issue": 0.008,
+        "Reasoning": 0.1109
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 10,
+      "text": "It is his contention that the activity which was being carried out in the club precincts amounted to supply of meals or refreshments.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5432,
+        "Arguments of Respondent": 0.34,
+        "Decision": 0.0003,
+        "Facts": 0.049,
+        "Issue": 0.0006,
+        "Reasoning": 0.067
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "Since Section 2 (23) defines restaurant or eatinghouse and as a restaurant or eatinghouse is also an establishment and what is more even if the restaurant or eatinghouse in which the appellants were employees catered for a class of the public, the Act stood attracted.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4619,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4619,
+        "Arguments of Respondent": 0.132,
+        "Decision": 0.0219,
+        "Facts": 0.0745,
+        "Issue": 0.0021,
+        "Reasoning": 0.3076
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "In other words, the contention is that even if the Respondent No. 1 2 were running a club in so far as the persons who frequented the club represented a section of the public that sufficed to attract the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8206,
+        "Arguments of Respondent": 0.1057,
+        "Decision": 0.0002,
+        "Facts": 0.0246,
+        "Issue": 0.0027,
+        "Reasoning": 0.0461
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "He elaborated by pointing out that under the byelaws of the club the members of the club as also their guests and family members could avail of the services at the eating house in which the appellants were working as employees.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5236,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5236,
+        "Arguments of Respondent": 0.4511,
+        "Decision": 0.0001,
+        "Facts": 0.0088,
+        "Issue": 0.0001,
+        "Reasoning": 0.0164
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Per Contra, Shri Dhruv Mehta, learned Senior Counsel mainly points out that as held by the High Court in the impugned Judgment, the respondentClub not being a residential club, it stood exempted from the Act under Section 3(j) of the Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.9855,
+        "Decision": 0.0002,
+        "Facts": 0.0005,
+        "Issue": 0.0001,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "He would contend that there is clinching evidence of the fact that the respondentclub would fall within the purview of Section 3(j) in the form of the definition of the word residential hotel in Section 2(22).",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6303,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3593,
+        "Arguments of Respondent": 0.6303,
+        "Decision": 0.0002,
+        "Facts": 0.0019,
+        "Issue": 0.0002,
+        "Reasoning": 0.0081
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "In other words, he contended that Section 2 (22) defines residential hotel as including a residential club.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5558,
+        "Arguments of Respondent": 0.4269,
+        "Decision": 0.0001,
+        "Facts": 0.008,
+        "Issue": 0.0004,
+        "Reasoning": 0.0088
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 17,
+      "text": "Therefore, the core concept of the residential hotel is the service of lodging which is available in a residential hotel.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5098,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2453,
+        "Arguments of Respondent": 0.0369,
+        "Decision": 0.0017,
+        "Facts": 0.2053,
+        "Issue": 0.0011,
+        "Reasoning": 0.5098
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "In other words, the residential club would be providing facility for lodging.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1811,
+        "Arguments of Respondent": 0.0892,
+        "Decision": 0.0016,
+        "Facts": 0.2062,
+        "Issue": 0.0003,
+        "Reasoning": 0.5216
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "In a club, which is not a residential club, which falls under Section 3(j), there would not be lodging.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.836,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1183,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0027,
+        "Facts": 0.0244,
+        "Issue": 0.0007,
+        "Reasoning": 0.836
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "This suffices, according to him, to cull out the true contours of a nonresidential club.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5766,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5766,
+        "Arguments of Respondent": 0.3933,
+        "Decision": 0.0001,
+        "Facts": 0.0087,
+        "Issue": 0.0002,
+        "Reasoning": 0.0211
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "The respondents run a club, which is not a residential club.",
+      "predicted_label": "Facts",
+      "confidence": 0.7763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0339,
+        "Arguments of Respondent": 0.0234,
+        "Decision": 0.0004,
+        "Facts": 0.7763,
+        "Issue": 0.0007,
+        "Reasoning": 0.1652
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "ByeLaw 6 provides for entry into the club premise, which reads as follow 6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9757,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.9757,
+        "Issue": 0.0001,
+        "Reasoning": 0.0177
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The club premises are private premises and entry thereto is restricted to members and their families, guests of members and other persons as may be authorised by the Governing Body.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6303,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0834,
+        "Arguments of Respondent": 0.013,
+        "Decision": 0.0011,
+        "Facts": 0.2718,
+        "Issue": 0.0004,
+        "Reasoning": 0.6303
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "The club is managed by a Governing Body.",
+      "predicted_label": "Facts",
+      "confidence": 0.8763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0325,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0002,
+        "Facts": 0.8763,
+        "Issue": 0.0018,
+        "Reasoning": 0.0839
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "It is necessary to notice the permission granted by the respondentclub to run catering service to one Shiv Caterers at the respondentclub dated 05.09.1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.6891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0003,
+        "Facts": 0.6891,
+        "Issue": 0.0046,
+        "Reasoning": 0.2779
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "Relevant provision to be noted are, as follows  Clause (I) provided that the caterer will run the services only for the members of the Steel Club and their families and guests.",
+      "predicted_label": "Facts",
+      "confidence": 0.9262,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0257,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0001,
+        "Facts": 0.9262,
+        "Issue": 0.0008,
+        "Reasoning": 0.0393
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The club was to make available the premises and other facilities.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5218,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0337,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0003,
+        "Facts": 0.4319,
+        "Issue": 0.0006,
+        "Reasoning": 0.5218
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 28,
+      "text": "The caterer was to pay rent of Rs.5,000/ per month with a discount of 15 per cent on the catering bill pertaining to the club account.",
+      "predicted_label": "Facts",
+      "confidence": 0.938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0284,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0002,
+        "Facts": 0.938,
+        "Issue": 0.005,
+        "Reasoning": 0.0236
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The period of the catering service was from 27.08.1996 to 31.03.1997.",
+      "predicted_label": "Facts",
+      "confidence": 0.8801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.019,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0002,
+        "Facts": 0.8801,
+        "Issue": 0.0036,
+        "Reasoning": 0.0829
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "It is further provided that caterer and its staff members were to observe strict discipline and Code of Conduct.",
+      "predicted_label": "Facts",
+      "confidence": 0.8616,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0625,
+        "Arguments of Respondent": 0.0245,
+        "Decision": 0.0009,
+        "Facts": 0.8616,
+        "Issue": 0.0056,
+        "Reasoning": 0.045
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Clause (VI) is relevant and it reads as follows VI.",
+      "predicted_label": "Facts",
+      "confidence": 0.7795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0341,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0003,
+        "Facts": 0.7795,
+        "Issue": 0.0011,
+        "Reasoning": 0.1754
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "All the staff members for running the canteen will be arranged by you only and wages and other statutory liabilities to be incurred in this regard will be borne by you only.",
+      "predicted_label": "Facts",
+      "confidence": 0.9481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0324,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0001,
+        "Facts": 0.9481,
+        "Issue": 0.0009,
+        "Reasoning": 0.0139
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The undersigned or steel club will not be responsible for the above payment.",
+      "predicted_label": "Facts",
+      "confidence": 0.9857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0004,
+        "Facts": 0.9857,
+        "Issue": 0.0004,
+        "Reasoning": 0.0068
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "In case club is compelled to pay any sum on your behalf under any statutory liability, the amount to be paid by me or club will be recovered from your security deposit and running bills etc. 19.",
+      "predicted_label": "Facts",
+      "confidence": 0.932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.001,
+        "Facts": 0.932,
+        "Issue": 0.0001,
+        "Reasoning": 0.049
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "All the staff to be employed were to be neatly dressed and they were to have a common uniform.",
+      "predicted_label": "Facts",
+      "confidence": 0.9159,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0001,
+        "Facts": 0.9159,
+        "Issue": 0.0019,
+        "Reasoning": 0.0698
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "As per Clause (X), the catering services was to be made throughout the working hours of the club and all days of the week, as decided by the club.",
+      "predicted_label": "Facts",
+      "confidence": 0.754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0002,
+        "Facts": 0.754,
+        "Issue": 0.0008,
+        "Reasoning": 0.2244
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Under Clause (XI), the catering facilities was to be strictly extended only to the bonafide club members, their families and guests.",
+      "predicted_label": "Facts",
+      "confidence": 0.8254,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0195,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0003,
+        "Facts": 0.8254,
+        "Issue": 0.0006,
+        "Reasoning": 0.1519
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "Clause (XIV) provided as follows XIV.",
+      "predicted_label": "Facts",
+      "confidence": 0.9178,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0129,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0001,
+        "Facts": 0.9178,
+        "Issue": 0.0004,
+        "Reasoning": 0.0655
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "You will be responsible for the rules and regulation of employment in accordance with the government rules and regulation with regard to the staff engaged by you at your risk and responsibility.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.499,
+        "Arguments of Respondent": 0.0935,
+        "Decision": 0.0006,
+        "Facts": 0.3454,
+        "Issue": 0.0053,
+        "Reasoning": 0.0562
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "THE FINDINGS OF THE APPELLATE AUTHORITY 20.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0387,
+        "Arguments of Respondent": 0.0119,
+        "Decision": 0.0015,
+        "Facts": 0.439,
+        "Issue": 0.0055,
+        "Reasoning": 0.5034
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The Appellate Authority notes the case of the appellants to be that the appellants worked in the establishment of the respondentclub or rather that they worked in the restaurant for different periods.",
+      "predicted_label": "Facts",
+      "confidence": 0.8156,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0004,
+        "Facts": 0.8156,
+        "Issue": 0.0082,
+        "Reasoning": 0.1685
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The restaurant was being run by the respondents.",
+      "predicted_label": "Facts",
+      "confidence": 0.775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0448,
+        "Arguments of Respondent": 0.0357,
+        "Decision": 0.001,
+        "Facts": 0.775,
+        "Issue": 0.0022,
+        "Reasoning": 0.1413
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Their work was satisfactory.",
+      "predicted_label": "Facts",
+      "confidence": 0.7854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0006,
+        "Facts": 0.7854,
+        "Issue": 0.0002,
+        "Reasoning": 0.1896
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The service of two of the appellants were made permanent.",
+      "predicted_label": "Facts",
+      "confidence": 0.8562,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0012,
+        "Facts": 0.8562,
+        "Issue": 0.0568,
+        "Reasoning": 0.0753
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "The respondents appointed Shiva Catering but appellants have not been employed or paid their wages since April, 1997 and their termination of service is in violation of Section 58 of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1285,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0003,
+        "Facts": 0.8049,
+        "Issue": 0.0023,
+        "Reasoning": 0.0543
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The case of the respondentclub is noted to be that the appellants were not employed in their establishment.",
+      "predicted_label": "Facts",
+      "confidence": 0.6752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.1692,
+        "Decision": 0.0001,
+        "Facts": 0.6752,
+        "Issue": 0.0069,
+        "Reasoning": 0.1221
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "There was no masterservant relationship between them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.163,
+        "Arguments of Respondent": 0.1897,
+        "Decision": 0.0019,
+        "Facts": 0.2644,
+        "Issue": 0.0029,
+        "Reasoning": 0.3781
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "The claim of exemption under Section 3(j) is noted.",
+      "predicted_label": "Facts",
+      "confidence": 0.6612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.048,
+        "Arguments of Respondent": 0.0462,
+        "Decision": 0.0007,
+        "Facts": 0.6612,
+        "Issue": 0.0038,
+        "Reasoning": 0.2402
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The Appellant Authority finds that the establishment is a club, ostensibly established for the service Officers of the Bhilai Steel Plant, MECON, HSCL, BRP and Officers of SAIL posted at Bhilai.",
+      "predicted_label": "Facts",
+      "confidence": 0.9674,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0002,
+        "Facts": 0.9674,
+        "Issue": 0.0071,
+        "Reasoning": 0.0143
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "It is found that the plain reading of the byelaws would show that the club is definitely an establishment within the meaning of Section 3(j) of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8191,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0018,
+        "Facts": 0.8191,
+        "Issue": 0.0049,
+        "Reasoning": 0.1523
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The Appellate Authority, however, proceeds to reason that the establishment is to be identified by its actual functioning and character and only such facts would contribute to decide, if such an establishment is an establishment attracting Section 3(j).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8025,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0407,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0004,
+        "Facts": 0.1481,
+        "Issue": 0.0014,
+        "Reasoning": 0.8025
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Evidence was taken.",
+      "predicted_label": "Facts",
+      "confidence": 0.8692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.0002,
+        "Facts": 0.8692,
+        "Issue": 0.0026,
+        "Reasoning": 0.1095
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The byelaws, it was found went to show there was no mention of any eating house or catering to the extent of providing liquor and food, requiring considerable worker force.",
+      "predicted_label": "Facts",
+      "confidence": 0.9455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.9455,
+        "Issue": 0.0007,
+        "Reasoning": 0.0485
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "It was found that the existence of any restaurant could not be as per the byelaws.",
+      "predicted_label": "Facts",
+      "confidence": 0.8971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0104,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0002,
+        "Facts": 0.8971,
+        "Issue": 0.0014,
+        "Reasoning": 0.0865
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "The identity cards issued to the appellants were found to be under the seal and signature of the club.",
+      "predicted_label": "Facts",
+      "confidence": 0.8989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0002,
+        "Facts": 0.8989,
+        "Issue": 0.0076,
+        "Reasoning": 0.082
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "They were found to be designated as Waiter, Bearer, Cook.",
+      "predicted_label": "Facts",
+      "confidence": 0.8251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0001,
+        "Facts": 0.8251,
+        "Issue": 0.002,
+        "Reasoning": 0.1636
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "The date of issuance in the identity card was found to be 21.05.1996 in all cases, except two, where the dates are noted as 27.05.1996 and 28.05.1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.8285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0002,
+        "Facts": 0.8285,
+        "Issue": 0.0116,
+        "Reasoning": 0.1402
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "The existence of restaurant and bar selling food and liquor, was found established through the Bills.",
+      "predicted_label": "Facts",
+      "confidence": 0.5363,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1205,
+        "Arguments of Respondent": 0.047,
+        "Decision": 0.0022,
+        "Facts": 0.5363,
+        "Issue": 0.0006,
+        "Reasoning": 0.2934
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "The bills were found to be issued by Bhilai Caterers, Steel Club.",
+      "predicted_label": "Facts",
+      "confidence": 0.8052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0328,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0018,
+        "Facts": 0.8052,
+        "Issue": 0.0172,
+        "Reasoning": 0.1299
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "All the bills bore the sellers identity as Steel Club.",
+      "predicted_label": "Facts",
+      "confidence": 0.8593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0249,
+        "Arguments of Respondent": 0.0124,
+        "Decision": 0.0003,
+        "Facts": 0.8593,
+        "Issue": 0.0036,
+        "Reasoning": 0.0995
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "It is found on the evidence that the club had control over the catering and its employees, as regard the discipline.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6144,
+      "probabilities": {
+        "Arguments of Petitioner": 0.029,
+        "Arguments of Respondent": 0.0267,
+        "Decision": 0.0026,
+        "Facts": 0.3267,
+        "Issue": 0.0006,
+        "Reasoning": 0.6144
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "The Appellant Authority found it to be established that in fact the establishment in question, has been doing everything what an eating house or a restaurant or a bar do individually.",
+      "predicted_label": "Facts",
+      "confidence": 0.9348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0006,
+        "Facts": 0.9348,
+        "Issue": 0.0019,
+        "Reasoning": 0.0342
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "The word club, it is noted, was not defined in the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5606,
+        "Arguments of Respondent": 0.1491,
+        "Decision": 0.0002,
+        "Facts": 0.095,
+        "Issue": 0.0014,
+        "Reasoning": 0.1936
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "The dictionary meaning of the word club was found to be an association of persons for special purpose.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5443,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2398,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.0011,
+        "Facts": 0.1912,
+        "Issue": 0.0022,
+        "Reasoning": 0.5443
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "The establishment provided indoor games like tennis, billiards, etc., and outdoor games like tennis, swimming and badminton.",
+      "predicted_label": "Facts",
+      "confidence": 0.9356,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0233,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0004,
+        "Facts": 0.9356,
+        "Issue": 0.0004,
+        "Reasoning": 0.0358
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The meaning that may be assigned to the word club, under Section 3(j), would be what has been assigned to this word in dictionary wherein the word was defined as the place where association of persons takes place for special purposes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1581,
+        "Arguments of Respondent": 0.0439,
+        "Decision": 0.0006,
+        "Facts": 0.0511,
+        "Issue": 0.0018,
+        "Reasoning": 0.7445
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "It was further found that in the case of the establishment in question, the facts show that establishment is actually an eating house, exclusively to serve the class of the members of the Steel Club, a place of amusement entertainment provided at costs or payment, food, drink and along with facilities for entertainment like games, etc.",
+      "predicted_label": "Facts",
+      "confidence": 0.8565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0003,
+        "Facts": 0.8565,
+        "Issue": 0.0096,
+        "Reasoning": 0.112
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "The activities were found to be that of eating house supplying meals, refreshment to the members of the club and not the general public and not a club under Section 3(j).",
+      "predicted_label": "Facts",
+      "confidence": 0.4517,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0755,
+        "Arguments of Respondent": 0.023,
+        "Decision": 0.0004,
+        "Facts": 0.4517,
+        "Issue": 0.0027,
+        "Reasoning": 0.4467
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 69,
+      "text": "There existed an eating house restaurant and bar to serve the members of the club.",
+      "predicted_label": "Facts",
+      "confidence": 0.9661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0,
+        "Facts": 0.9661,
+        "Issue": 0.0003,
+        "Reasoning": 0.0296
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "They existed in the club premises and run by the club exclusively for its members.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7358,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0597,
+        "Arguments of Respondent": 0.0316,
+        "Decision": 0.0011,
+        "Facts": 0.1679,
+        "Issue": 0.0039,
+        "Reasoning": 0.7358
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "As far as the activity of the club is concerned, it was found that the Act did not apply to it but the establishment like bar and restaurant, though exclusively for the members, would definitely be not club in itself.",
+      "predicted_label": "Facts",
+      "confidence": 0.6898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.013,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.001,
+        "Facts": 0.6898,
+        "Issue": 0.0027,
+        "Reasoning": 0.2888
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "Examining the arguments of the respondents that the Steel Club is neither a residential hotel nor restaurant or eating place, as defined in Section 2(22) and Section 2(23) of the Act, the Authority confined itself to Section 2(23).",
+      "predicted_label": "Facts",
+      "confidence": 0.547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0429,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0005,
+        "Facts": 0.547,
+        "Issue": 0.0024,
+        "Reasoning": 0.3998
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 73,
+      "text": "It was found that an establishment carrying on business of supply of meals or refreshment to a class of public would be an eating house, for the purpose of Section 2(23) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5151,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0716,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.0008,
+        "Facts": 0.3926,
+        "Issue": 0.0041,
+        "Reasoning": 0.5151
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 74,
+      "text": "The members of the club were found to be the class of the public.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0493,
+        "Arguments of Respondent": 0.0187,
+        "Decision": 0.0004,
+        "Facts": 0.2429,
+        "Issue": 0.001,
+        "Reasoning": 0.6877
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "An establishment of bar, restaurant and for service to the members of the club, would definitely not be a club within the meaning of Section 3(j) of the Act though such establishment may be under the management of the club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9181,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0406,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0006,
+        "Facts": 0.0265,
+        "Issue": 0.0044,
+        "Reasoning": 0.9181
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "The Authority finds further that for example, there are many establishments under the management of Bhilai Steel Plan but all of them were not factories, manufacturing steel and such establishments are identified by their functioning and nature subjecting them to respective applicable laws.",
+      "predicted_label": "Facts",
+      "confidence": 0.9661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0002,
+        "Facts": 0.9661,
+        "Issue": 0.0016,
+        "Reasoning": 0.0257
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "Thereafter, the Authority proceeded to find that the appellants were employees and granted the relief, as already noted.",
+      "predicted_label": "Facts",
+      "confidence": 0.805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0017,
+        "Facts": 0.805,
+        "Issue": 0.0071,
+        "Reasoning": 0.1766
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "THE FINDINGS OF THE HIGH COURT 22.",
+      "predicted_label": "Facts",
+      "confidence": 0.8662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0002,
+        "Facts": 0.8662,
+        "Issue": 0.0032,
+        "Reasoning": 0.1147
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "We notice the following findings 15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0343,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0021,
+        "Facts": 0.3006,
+        "Issue": 0.0002,
+        "Reasoning": 0.6591
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "Halsbury, 4th Edn., Vol.6, para 201, P.56 defines club as Except a proprietary club or an investment club, it may be defined as a society of persons associated together, not for the purpose of trade, but for social reasons, the promotion of politics, sport, art, science or literature, or for any other lawful purpose but trading, activities will not destroy the nature of a club if they are merely incidental to the clubs purposes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6759,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2267,
+        "Arguments of Respondent": 0.0263,
+        "Decision": 0.0003,
+        "Facts": 0.0681,
+        "Issue": 0.0027,
+        "Reasoning": 0.6759
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "Section 3 exempts certain persons and establishments from application of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0568,
+        "Arguments of Respondent": 0.011,
+        "Decision": 0.001,
+        "Facts": 0.4337,
+        "Issue": 0.0026,
+        "Reasoning": 0.4949
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 82,
+      "text": "Section 3 subsection (j) exempts clubs not being a residential clubs from the application of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5363,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2726,
+        "Arguments of Respondent": 0.022,
+        "Decision": 0.0019,
+        "Facts": 0.1659,
+        "Issue": 0.0013,
+        "Reasoning": 0.5363
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "There is no evidence available on record.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1731,
+        "Arguments of Respondent": 0.1607,
+        "Decision": 0.0105,
+        "Facts": 0.1794,
+        "Issue": 0.001,
+        "Reasoning": 0.4753
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "that petitioner No.2 is a residential club.",
+      "predicted_label": "Facts",
+      "confidence": 0.5397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0962,
+        "Arguments of Respondent": 0.1548,
+        "Decision": 0.0039,
+        "Facts": 0.5397,
+        "Issue": 0.0021,
+        "Reasoning": 0.2033
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "Even the Appellate Tribunal has not held that petitioner No.2 is a residential club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3674,
+        "Arguments of Respondent": 0.0775,
+        "Decision": 0.005,
+        "Facts": 0.0708,
+        "Issue": 0.0004,
+        "Reasoning": 0.4789
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 86,
+      "text": "It is neither a proprietary club nor any investment club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0781,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0005,
+        "Facts": 0.1492,
+        "Issue": 0.0011,
+        "Reasoning": 0.7591
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "As per the byelaws available on record, officers of the Bhilai Steel Plant, MECON, HSCL, BRP AND SAIL are eligible to be the members of the club on payment of prescribed admission and monthly fee.",
+      "predicted_label": "Facts",
+      "confidence": 0.6955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0564,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0003,
+        "Facts": 0.6955,
+        "Issue": 0.001,
+        "Reasoning": 0.228
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 88,
+      "text": "The discretion is reserved to the governing body to admit other class of persons to induct as associate members of the club subject to payment of prescribed fee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0852,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0003,
+        "Facts": 0.0883,
+        "Issue": 0.0012,
+        "Reasoning": 0.8165
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "Apart from above 2 clauses, temporary membership can be granted to the foreigners connected with Bhilai Steel plant for a limited period.",
+      "predicted_label": "Facts",
+      "confidence": 0.8319,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0004,
+        "Facts": 0.8319,
+        "Issue": 0.0006,
+        "Reasoning": 0.1546
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "Entry in the club premises is restricted to its members and other persons authorized by the governing body.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5697,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1001,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0011,
+        "Facts": 0.3089,
+        "Issue": 0.0007,
+        "Reasoning": 0.5697
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "The aims and objectives as contained in clause2 of the byelaws are to provide the members and their families with facilities usually obtainable in clubs of this nature including indoor games, outdoor games, library, reading room, social gathering and to provide necessary facilities for their cultural, social and intellectual advancement Learned Appellate Tribunal referring to Section 2 of the byelaws of the establishment has observed that there is no mention of any eating house or catering to the extent of providing liquor or food requiring considerable work force, therefore, it has held that existence of restaurant is not in accordance with byelaws.",
+      "predicted_label": "Facts",
+      "confidence": 0.9764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9764,
+        "Issue": 0.0016,
+        "Reasoning": 0.0201
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "In the considered opinion of this Court, the above finding of the appellate Tribunal is perverse, as in subclause (1) of clause2 of the bye laws, it has been specifically mentioned that the aims and objectives of the Steel club are to provide to its members and their families with the facilities usually obtainable in clubs of this nature including other aims and objectives mentioned in subsequent part of clause 2.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0254,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0004,
+        "Facts": 0.1246,
+        "Issue": 0.0009,
+        "Reasoning": 0.8464
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "Existence of catering facilities in the club to members alone would not convert the establishment into restaurant or eating house.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6342,
+      "probabilities": {
+        "Arguments of Petitioner": 0.201,
+        "Arguments of Respondent": 0.0423,
+        "Decision": 0.0046,
+        "Facts": 0.1173,
+        "Issue": 0.0006,
+        "Reasoning": 0.6342
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 94,
+      "text": "The Steel Club is entitled for exemption from the application of the Act of 1958, as per the provisions of Section 3(j) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3319,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2806,
+        "Arguments of Respondent": 0.1268,
+        "Decision": 0.0107,
+        "Facts": 0.2376,
+        "Issue": 0.0124,
+        "Reasoning": 0.3319
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 95,
+      "text": "It was further found that Steel Clubsecond respondent, may be held to be an industry under Section 2(f) of the Industrial Disputes Act, 1947, as held by this Court in Bangalore Water Supply and Sewage Board v. A. Rajappa and others AIR 1978 SC 548 and the appellants may be held to be its employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.85,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0003,
+        "Facts": 0.85,
+        "Issue": 0.1206,
+        "Reasoning": 0.0229
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "However, the provisions of the Shops and Establishments Act, cannot be made applicable to such Steel Club, in view of the exemption available under Section 3(j) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3597,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2469,
+        "Arguments of Respondent": 0.03,
+        "Decision": 0.0292,
+        "Facts": 0.3328,
+        "Issue": 0.0014,
+        "Reasoning": 0.3597
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 97,
+      "text": "Among the establishments, to which the Act does not apply, Section 3(j), provides for a club not being a residential club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1639,
+        "Arguments of Respondent": 0.0205,
+        "Decision": 0.0037,
+        "Facts": 0.0607,
+        "Issue": 0.0006,
+        "Reasoning": 0.7507
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "The argument of the Respondents No. 1 and 2 is essentially based on the second respondentclub not being a residential club and, consequently, the Act not being applicable to the establishment.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.8267,
+        "Decision": 0.0002,
+        "Facts": 0.0203,
+        "Issue": 0.0011,
+        "Reasoning": 0.1424
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "As can be seen, Section 3 exempts certain persons and establishments from the purview of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0318,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0005,
+        "Facts": 0.0996,
+        "Issue": 0.0026,
+        "Reasoning": 0.8583
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "Section 3 (a) to Section 3 (1) (d) describes persons to whom the Act does not apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7089,
+      "probabilities": {
+        "Arguments of Petitioner": 0.127,
+        "Arguments of Respondent": 0.1187,
+        "Decision": 0.0015,
+        "Facts": 0.0431,
+        "Issue": 0.0008,
+        "Reasoning": 0.7089
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "Section 3 (1) e to Section 3 (1) j deals with establishments to which the Act does not apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1521,
+        "Arguments of Respondent": 0.0382,
+        "Decision": 0.0059,
+        "Facts": 0.0618,
+        "Issue": 0.0015,
+        "Reasoning": 0.7405
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "A club would be an establishment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0615,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0003,
+        "Facts": 0.021,
+        "Issue": 0.0008,
+        "Reasoning": 0.9
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "It is not a person.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8225,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0593,
+        "Arguments of Respondent": 0.0836,
+        "Decision": 0.001,
+        "Facts": 0.0324,
+        "Issue": 0.0012,
+        "Reasoning": 0.8225
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "Even though, it could also be treated as an association of persons or voluntary association of persons, however, in the context of Section 3, we would proceed on the basis that a club is an establishment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9001,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0671,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0025,
+        "Facts": 0.0216,
+        "Issue": 0.001,
+        "Reasoning": 0.9001
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "In this regard, the word establishment has been defined as meaning also a residential hotel in Section 2(22).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2685,
+        "Arguments of Respondent": 0.0371,
+        "Decision": 0.0007,
+        "Facts": 0.0526,
+        "Issue": 0.0006,
+        "Reasoning": 0.6406
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 106,
+      "text": "A residential hotel has been defined as meaning any premises, in which, a bonafide business is carried on of supplying for payment, board or lodging, and lodging to travellers and other members or class of members of public and including a residential club.",
+      "predicted_label": "Facts",
+      "confidence": 0.3857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2463,
+        "Arguments of Respondent": 0.0262,
+        "Decision": 0.001,
+        "Facts": 0.3857,
+        "Issue": 0.0063,
+        "Reasoning": 0.3345
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 107,
+      "text": "Therefore, a residential club, is treated as residential hotel, which in turn, is included in the definition of the word establishment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4085,
+        "Arguments of Respondent": 0.0246,
+        "Decision": 0.0018,
+        "Facts": 0.0551,
+        "Issue": 0.0004,
+        "Reasoning": 0.5097
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 108,
+      "text": "A residential club would be an establishment under Section 2(8).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0991,
+        "Arguments of Respondent": 0.0387,
+        "Decision": 0.0011,
+        "Facts": 0.0541,
+        "Issue": 0.0016,
+        "Reasoning": 0.8055
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "It is clear that a club is treated as an establishment subject only to qualification that it is a residential club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.021,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0003,
+        "Facts": 0.0258,
+        "Issue": 0.0006,
+        "Reasoning": 0.9467
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "A club, which is not a residential club, may have been within the ambit of the word establishment but for the fact that the word residential hotel takes within its sweep only residential club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9324,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0445,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0008,
+        "Facts": 0.0101,
+        "Issue": 0.0034,
+        "Reasoning": 0.9324
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "More importantly, the Act specifically exempts clubs which are not residential clubs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2095,
+        "Arguments of Respondent": 0.0284,
+        "Decision": 0.0025,
+        "Facts": 0.0667,
+        "Issue": 0.0011,
+        "Reasoning": 0.6917
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 112,
+      "text": "Thus, proceeding, indeed, on the basis that the second respondentclub is an establishment, the only question to be determined is whether it is a club, which is not a residential club.",
+      "predicted_label": "Issue",
+      "confidence": 0.4595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0419,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.003,
+        "Facts": 0.0312,
+        "Issue": 0.4595,
+        "Reasoning": 0.4486
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 113,
+      "text": "The Appellate Authority has found that the club is actually an eating house exclusively to serve the class of members of the Steel Club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.72,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0483,
+        "Arguments of Respondent": 0.0148,
+        "Decision": 0.0021,
+        "Facts": 0.2137,
+        "Issue": 0.0011,
+        "Reasoning": 0.72
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "It has all the elements of the bar, restaurant and eating house.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3546,
+        "Arguments of Respondent": 0.0361,
+        "Decision": 0.0029,
+        "Facts": 0.3216,
+        "Issue": 0.0009,
+        "Reasoning": 0.2839
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 115,
+      "text": "Even though, the Appellate Authority was called upon to deal with Section 2(22) of the Act, defining the words residential hotel, we find that the Appellate Authority confined itself only to the definition of the words restaurant or eating house as defined in Section 2(23) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0184,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0132,
+        "Facts": 0.0568,
+        "Issue": 0.0026,
+        "Reasoning": 0.9061
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "The Appellate Authority has proceeded to finally find that an establishment of bar, restaurant and for service to the members of the club, would definitely not be a club withing the meaning of Section 3(j) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5079,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0135,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0019,
+        "Facts": 0.4686,
+        "Issue": 0.0038,
+        "Reasoning": 0.5079
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 117,
+      "text": "Therefore, the finding of the Appellate Authority completely overlooked the invaluable input provided by the definition of the words residential hotel as contained in Section 2(22) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0918,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0013,
+        "Facts": 0.0191,
+        "Issue": 0.0001,
+        "Reasoning": 0.8834
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "We find clear illumination of the mind of the Legislature being provided by the definition of the words residential hotel for the reason that it helps the Court to understand the ambit of Section 3(j), which provides for exemption of a club, which is not residential.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0001,
+        "Facts": 0.0097,
+        "Issue": 0.0008,
+        "Reasoning": 0.9682
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "This is for the reason that a residential club, in contradiction from a club which is not residential, is treated as an establishment under Section 2(8) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0747,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0005,
+        "Facts": 0.0278,
+        "Issue": 0.0003,
+        "Reasoning": 0.8778
+      }
+    },
+    {
+      "sentence_id": 120,
+      "text": "In other words, a club, which is residential, would not be entitled to the exemption, provided in Section 3(j), whereas, a club which is nonresidential is exempted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0941,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0005,
+        "Facts": 0.0812,
+        "Issue": 0.0004,
+        "Reasoning": 0.807
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "A residential hotel is defined as any premises, where lodging or board and lodging is provided.",
+      "predicted_label": "Facts",
+      "confidence": 0.5538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2613,
+        "Arguments of Respondent": 0.0486,
+        "Decision": 0.002,
+        "Facts": 0.5538,
+        "Issue": 0.0021,
+        "Reasoning": 0.1321
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 122,
+      "text": "What is meant to be conveyed by the word residential hotel is the element of service of lodging, being present which is provided in the hotel.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1215,
+        "Arguments of Respondent": 0.0215,
+        "Decision": 0.0019,
+        "Facts": 0.1556,
+        "Issue": 0.002,
+        "Reasoning": 0.6976
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 123,
+      "text": "The Appellate Authority has not found that the second respondent is a residential club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.696,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0594,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.0315,
+        "Facts": 0.1872,
+        "Issue": 0.0019,
+        "Reasoning": 0.696
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 124,
+      "text": "Appellate Authority did not even consider the said provision, that is, Section 2 (22), though Respondents No. 1 and 2 did invite its attention to the said provision.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8229,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1122,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0052,
+        "Facts": 0.0456,
+        "Issue": 0.0015,
+        "Reasoning": 0.8229
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "There is no material also placed before the Court to conclude that the second respondentclub was a residential club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0459,
+        "Arguments of Respondent": 0.0267,
+        "Decision": 0.0012,
+        "Facts": 0.0363,
+        "Issue": 0.0002,
+        "Reasoning": 0.8897
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "If the second respondentclub is not found to be a residential club, then, it is clear that it would be a club, which is not a residential club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7193,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0784,
+        "Arguments of Respondent": 0.0283,
+        "Decision": 0.0795,
+        "Facts": 0.0935,
+        "Issue": 0.001,
+        "Reasoning": 0.7193
+      }
+    },
+    {
+      "sentence_id": 127,
+      "text": "It would stand exempted under Section 3(j) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6235,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1184,
+        "Arguments of Respondent": 0.0776,
+        "Decision": 0.0187,
+        "Facts": 0.1546,
+        "Issue": 0.0073,
+        "Reasoning": 0.6235
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 128,
+      "text": "The question however would arise as to whether the second respondent is a club?",
+      "predicted_label": "Issue",
+      "confidence": 0.6911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0013,
+        "Facts": 0.0796,
+        "Issue": 0.6911,
+        "Reasoning": 0.2072
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 129,
+      "text": "Is it a restaurant or eating house falling under Section 2(23) of the Act?",
+      "predicted_label": "Facts",
+      "confidence": 0.5983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0072,
+        "Facts": 0.5983,
+        "Issue": 0.3446,
+        "Reasoning": 0.0322
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "The Appellate Authority has found it to be restaurant or eating house as defined in Section 2 (23), and therefore, an establishment under Section 2(8) of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.664,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0039,
+        "Facts": 0.664,
+        "Issue": 0.0205,
+        "Reasoning": 0.2823
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 131,
+      "text": "We have already referred to the findings rendered by the Appellate Authority.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9324,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0017,
+        "Facts": 0.0347,
+        "Issue": 0.0019,
+        "Reasoning": 0.9324
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "Clubs have been classified broadly into Members Clubs and Proprietorship Clubs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5499,
+        "Arguments of Respondent": 0.0347,
+        "Decision": 0.0007,
+        "Facts": 0.0442,
+        "Issue": 0.002,
+        "Reasoning": 0.3685
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 133,
+      "text": "In the light of the scheme of the Act, it may not be sufficient to claim the benefit of the exemption under Section 3 (j) for the respondents to flaunt the appellation of the organisation as a club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0271,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0006,
+        "Facts": 0.008,
+        "Issue": 0.0007,
+        "Reasoning": 0.9565
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "The club cannot become a cloak or made a front behind which what is done is as contained in Section 2(23) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7502,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1788,
+        "Arguments of Respondent": 0.0384,
+        "Decision": 0.0012,
+        "Facts": 0.031,
+        "Issue": 0.0004,
+        "Reasoning": 0.7502
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "In other words, if the activity which is carried out wholly or principally is the business of supply of meals or refreshment to the public or to a class of public, then the employees working in connection would get the protection under the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0817,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0003,
+        "Facts": 0.0204,
+        "Issue": 0.0021,
+        "Reasoning": 0.876
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "At the same time, if there is genuinely a club where the members assemble not for the purpose of wholly or principally having their meals or refreshment but in connection with other activities and any meals, refreshment and drinks are also served then a distinction must indeed be drawn.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0924,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0006,
+        "Facts": 0.0111,
+        "Issue": 0.0015,
+        "Reasoning": 0.8811
+      }
+    },
+    {
+      "sentence_id": 137,
+      "text": "This is inevitable as harmonizing of the provisions of Section 3 (j) under which legislature has carved out an exemption in favour of clubs not being residential by not applying the provisions of the Act must be given effect to.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4045,
+        "Arguments of Respondent": 0.12,
+        "Decision": 0.0656,
+        "Facts": 0.0091,
+        "Issue": 0.0007,
+        "Reasoning": 0.4001
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 138,
+      "text": "It is, therefore, necessary to first ascertain whether the club exists only in name, and for all intents and purposes it is a restaurant or eating house.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1015,
+        "Arguments of Respondent": 0.0333,
+        "Decision": 0.0042,
+        "Facts": 0.1936,
+        "Issue": 0.0553,
+        "Reasoning": 0.612
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 139,
+      "text": "Undoubtedly, the second respondent is a club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0228,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0027,
+        "Facts": 0.0591,
+        "Issue": 0.005,
+        "Reasoning": 0.8957
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "There are members.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5438,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1203,
+        "Arguments of Respondent": 0.0634,
+        "Decision": 0.0068,
+        "Facts": 0.2524,
+        "Issue": 0.0133,
+        "Reasoning": 0.5438
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 141,
+      "text": "The members are defined as the members of the Bhilai Steel Plant, MECON, HSCL, BRP and any other officer of SAIL found eligible to become a member of the Club.",
+      "predicted_label": "Facts",
+      "confidence": 0.889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0536,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0002,
+        "Facts": 0.889,
+        "Issue": 0.0008,
+        "Reasoning": 0.0422
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "The governing body may also grant rights as associate member to certain others.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1057,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0027,
+        "Facts": 0.0505,
+        "Issue": 0.0019,
+        "Reasoning": 0.8311
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "Similarly, there can be temporary members.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6619,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1773,
+        "Arguments of Respondent": 0.0553,
+        "Decision": 0.0271,
+        "Facts": 0.0776,
+        "Issue": 0.0009,
+        "Reasoning": 0.6619
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 144,
+      "text": "Entry into the club premises is regulated by byelaw 6 of the Club.",
+      "predicted_label": "Facts",
+      "confidence": 0.7146,
+      "probabilities": {
+        "Arguments of Petitioner": 0.024,
+        "Arguments of Respondent": 0.0119,
+        "Decision": 0.0003,
+        "Facts": 0.7146,
+        "Issue": 0.0004,
+        "Reasoning": 0.2487
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "The club premises are described as private premises.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0888,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0008,
+        "Facts": 0.3212,
+        "Issue": 0.0007,
+        "Reasoning": 0.5614
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 146,
+      "text": "Entry is restricted to the members, families of members and such other persons as are authorised by the governing body.",
+      "predicted_label": "Facts",
+      "confidence": 0.4787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1031,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0054,
+        "Facts": 0.4787,
+        "Issue": 0.0022,
+        "Reasoning": 0.4002
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 147,
+      "text": "There is a governing body which manages the affairs of the club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5162,
+      "probabilities": {
+        "Arguments of Petitioner": 0.128,
+        "Arguments of Respondent": 0.022,
+        "Decision": 0.0008,
+        "Facts": 0.3312,
+        "Issue": 0.0018,
+        "Reasoning": 0.5162
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 148,
+      "text": "The aims and objectives of the club are provided in byelaw No.2, that is to provide the members and their families with the facilities obtainable in a club of this nature including indoor games like table tennis, billiards, cards, chess, carrom etc.",
+      "predicted_label": "Facts",
+      "confidence": 0.9873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9873,
+        "Issue": 0.0003,
+        "Reasoning": 0.0109
+      }
+    },
+    {
+      "sentence_id": 149,
+      "text": "Also, byelaws contemplate providing of facilities of outdoor games like tennis, badminton, squash etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1958,
+        "Arguments of Respondent": 0.2199,
+        "Decision": 0.0105,
+        "Facts": 0.0787,
+        "Issue": 0.0005,
+        "Reasoning": 0.4946
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 150,
+      "text": "The byelaws also contemplate a library and reading room.",
+      "predicted_label": "Facts",
+      "confidence": 0.524,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0193,
+        "Arguments of Respondent": 0.0674,
+        "Decision": 0.0121,
+        "Facts": 0.524,
+        "Issue": 0.0005,
+        "Reasoning": 0.3767
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 151,
+      "text": "So also, the members are to be provided social gathering and swimming.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1357,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0022,
+        "Facts": 0.2844,
+        "Issue": 0.0004,
+        "Reasoning": 0.5618
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 152,
+      "text": "The members and their families are to be provided facilities for their cultural and intellectual advancement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0288,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.1019,
+        "Facts": 0.0539,
+        "Issue": 0.0013,
+        "Reasoning": 0.8071
+      }
+    },
+    {
+      "sentence_id": 153,
+      "text": "The inquiry conducted by the Appellate Authority was predominantly based on the definition of the word restaurant or eating house (Section 2(23)).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1272,
+        "Arguments of Respondent": 0.0129,
+        "Decision": 0.0011,
+        "Facts": 0.3588,
+        "Issue": 0.0025,
+        "Reasoning": 0.4975
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 154,
+      "text": "The Appellate Authority glossed over the vital clue provided by the inclusion of the residential club as a residential hotel.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.089,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0026,
+        "Facts": 0.0609,
+        "Issue": 0.001,
+        "Reasoning": 0.8431
+      }
+    },
+    {
+      "sentence_id": 155,
+      "text": "It must be noticed that the second respondent is, admittedly, a club under its byelaws.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0273,
+        "Arguments of Respondent": 0.0147,
+        "Decision": 0.0018,
+        "Facts": 0.0855,
+        "Issue": 0.0081,
+        "Reasoning": 0.8626
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "The objective of the club was to provide various indoor or outdoor games, library and reading room facilities and social gatherings.",
+      "predicted_label": "Facts",
+      "confidence": 0.9659,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9659,
+        "Issue": 0.0033,
+        "Reasoning": 0.0259
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "It also contemplated providing members and their families with facilities for their cultural, social and intellectual advancement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0324,
+        "Arguments of Respondent": 0.0287,
+        "Decision": 0.0008,
+        "Facts": 0.1734,
+        "Issue": 0.0004,
+        "Reasoning": 0.7643
+      }
+    },
+    {
+      "sentence_id": 158,
+      "text": "The appellants are correct in contending that the authority and the court are not to be held hostage by the words used in the byelaws.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9215,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0451,
+        "Decision": 0.0005,
+        "Facts": 0.0244,
+        "Issue": 0.0002,
+        "Reasoning": 0.9215
+      }
+    },
+    {
+      "sentence_id": 159,
+      "text": "In other words, the byelaws may unerringly point to activities which are associated with a club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0005,
+        "Facts": 0.0085,
+        "Issue": 0.0003,
+        "Reasoning": 0.9679
+      }
+    },
+    {
+      "sentence_id": 160,
+      "text": "However, in point of fact what actually goes on in the premises, may be only activities as are described in Section 2(23) of the Act, namely, the premise of the club may be used wholly or principally only for the purpose of an eating place or restaurant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.098,
+        "Arguments of Respondent": 0.0102,
+        "Decision": 0.0049,
+        "Facts": 0.0545,
+        "Issue": 0.0014,
+        "Reasoning": 0.831
+      }
+    },
+    {
+      "sentence_id": 161,
+      "text": "If that is the case the court would not be oblivious to the actual nature of activities and still clothe the organisation as a Club exempted under Section 3(j).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0953,
+        "Arguments of Respondent": 0.0307,
+        "Decision": 0.0016,
+        "Facts": 0.0162,
+        "Issue": 0.0022,
+        "Reasoning": 0.8541
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "However, in this regard there is unmistakable evidence to show that the objects in the byelaws were actually realised and the members were indeed being provided with various facilities.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0292,
+        "Arguments of Respondent": 0.0119,
+        "Decision": 0.0009,
+        "Facts": 0.0193,
+        "Issue": 0.0,
+        "Reasoning": 0.9386
+      }
+    },
+    {
+      "sentence_id": 163,
+      "text": "The witness for the appellant has stated that the workmen were allotted duty separately by the Club Manager.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2313,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0032,
+        "Facts": 0.0597,
+        "Issue": 0.0005,
+        "Reasoning": 0.6984
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 164,
+      "text": "He has said that the he was working in the canteen which was run by the Club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8315,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0789,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.0031,
+        "Facts": 0.0673,
+        "Issue": 0.0006,
+        "Reasoning": 0.8315
+      }
+    },
+    {
+      "sentence_id": 165,
+      "text": "Other people were working in the canteen, bar, billiard room, concert room and table tennis room.",
+      "predicted_label": "Facts",
+      "confidence": 0.7241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0317,
+        "Arguments of Respondent": 0.0151,
+        "Decision": 0.0005,
+        "Facts": 0.7241,
+        "Issue": 0.0002,
+        "Reasoning": 0.2284
+      }
+    },
+    {
+      "sentence_id": 166,
+      "text": "Members came there to play tennis, badminton and cards.",
+      "predicted_label": "Facts",
+      "confidence": 0.851,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0202,
+        "Arguments of Respondent": 0.0084,
+        "Decision": 0.0002,
+        "Facts": 0.851,
+        "Issue": 0.0002,
+        "Reasoning": 0.1201
+      }
+    },
+    {
+      "sentence_id": 167,
+      "text": "The witness for the respondents have spoken about the club providing facilities like indoor games, outdoor games, social gathering and also about there being facility for social cultural development for the families of the club members.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.664,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0321,
+        "Arguments of Respondent": 0.1785,
+        "Decision": 0.0002,
+        "Facts": 0.125,
+        "Issue": 0.0001,
+        "Reasoning": 0.664
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 168,
+      "text": "There are 1400 members of the Club.",
+      "predicted_label": "Facts",
+      "confidence": 0.9766,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.9766,
+        "Issue": 0.0013,
+        "Reasoning": 0.0172
+      }
+    },
+    {
+      "sentence_id": 169,
+      "text": "The club has been working since 1982.",
+      "predicted_label": "Facts",
+      "confidence": 0.8454,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.0132,
+        "Decision": 0.0003,
+        "Facts": 0.8454,
+        "Issue": 0.0007,
+        "Reasoning": 0.1233
+      }
+    },
+    {
+      "sentence_id": 170,
+      "text": "The Appellate Authority has also found that the club does provide indoor and outdoor games.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5176,
+      "probabilities": {
+        "Arguments of Petitioner": 0.053,
+        "Arguments of Respondent": 0.016,
+        "Decision": 0.0104,
+        "Facts": 0.4012,
+        "Issue": 0.0018,
+        "Reasoning": 0.5176
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 171,
+      "text": "It goes on to find that as far as the activities of the club is concerned, the Act does not apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0024,
+        "Facts": 0.443,
+        "Issue": 0.009,
+        "Reasoning": 0.5194
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 172,
+      "text": "But a bifurcation is made qua the catering service.",
+      "predicted_label": "Facts",
+      "confidence": 0.6946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0045,
+        "Facts": 0.6946,
+        "Issue": 0.001,
+        "Reasoning": 0.2789
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 173,
+      "text": "We can safely conclude that second respondent was a genuine club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0049,
+        "Facts": 0.0295,
+        "Issue": 0.0028,
+        "Reasoning": 0.9287
+      }
+    },
+    {
+      "sentence_id": 174,
+      "text": "There were three different class of members.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6374,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1231,
+        "Arguments of Respondent": 0.0365,
+        "Decision": 0.0023,
+        "Facts": 0.199,
+        "Issue": 0.0016,
+        "Reasoning": 0.6374
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 175,
+      "text": "The club was a private premise.",
+      "predicted_label": "Facts",
+      "confidence": 0.6627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0409,
+        "Arguments of Respondent": 0.0161,
+        "Decision": 0.0002,
+        "Facts": 0.6627,
+        "Issue": 0.0005,
+        "Reasoning": 0.2796
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 176,
+      "text": "Entry to the club premises was restricted to the members and their families and other persons permitted by the governing body.",
+      "predicted_label": "Facts",
+      "confidence": 0.9037,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0001,
+        "Facts": 0.9037,
+        "Issue": 0.0006,
+        "Reasoning": 0.0823
+      }
+    },
+    {
+      "sentence_id": 177,
+      "text": "The club did indeed provide various facilities to be availed by the members and others permitted to come to the club.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0213,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0003,
+        "Facts": 0.1201,
+        "Issue": 0.0004,
+        "Reasoning": 0.8507
+      }
+    },
+    {
+      "sentence_id": 178,
+      "text": "It is to cater to their needs by way of food that apparently the catering contract was entered into.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0776,
+        "Arguments of Respondent": 0.0623,
+        "Decision": 0.0005,
+        "Facts": 0.3234,
+        "Issue": 0.0024,
+        "Reasoning": 0.5338
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 179,
+      "text": "The appellate authority finds that identity cards were issued to the appellants in the year 1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.8572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0013,
+        "Facts": 0.8572,
+        "Issue": 0.0086,
+        "Reasoning": 0.1263
+      }
+    },
+    {
+      "sentence_id": 180,
+      "text": "No doubt the dates of issue as already noted precede the day 05.09.1996, the date on which the catering contract is seen issued.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0571,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0007,
+        "Facts": 0.2248,
+        "Issue": 0.0079,
+        "Reasoning": 0.6955
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 181,
+      "text": "The witness for the appellants has stated in his evidence that the club invites Shiva Caters for party and give contract to him and like this every year any one comes on contract.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6972,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2287,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0009,
+        "Facts": 0.0679,
+        "Issue": 0.0002,
+        "Reasoning": 0.6972
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 182,
+      "text": "They arrange parties and we used to work with them.",
+      "predicted_label": "Facts",
+      "confidence": 0.6674,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0501,
+        "Arguments of Respondent": 0.0226,
+        "Decision": 0.0014,
+        "Facts": 0.6674,
+        "Issue": 0.0011,
+        "Reasoning": 0.2574
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 183,
+      "text": "No outsider come to the steel club for taking tea, whiskey or eating samosa but he can come as a guest of the member is the further deposition of the witness for the appellants.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.695,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1648,
+        "Arguments of Respondent": 0.0565,
+        "Decision": 0.0002,
+        "Facts": 0.0832,
+        "Issue": 0.0002,
+        "Reasoning": 0.695
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 184,
+      "text": "In the light of this state of facts and the definition of the word restaurant and eating place the conclusion appears to be inevitable that the respondent club cannot be characterized as premises which was wholly or principally used for the business of supply of meals and refreshment to the public.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9164,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0222,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0132,
+        "Facts": 0.0422,
+        "Issue": 0.0019,
+        "Reasoning": 0.9164
+      }
+    },
+    {
+      "sentence_id": 185,
+      "text": "In the first place as already noticed, the members of the Club and their guests and family members cannot be described as the public.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0002,
+        "Facts": 0.0068,
+        "Issue": 0.0006,
+        "Reasoning": 0.9724
+      }
+    },
+    {
+      "sentence_id": 186,
+      "text": "Even proceeding on the basis that the members of the club and their family members and the guests whom they would bring would constitute a class of the public, the fact remains that the Court must turn a blind eye to the multifarious activities which are both contemplated in the byelaws and which were admittedly being carried out in the premises by way of indoor or outdoor games, gatherings to find that the premises was being used wholly or principally for the business of supply of meals or refreshment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0011,
+        "Facts": 0.0065,
+        "Issue": 0.0004,
+        "Reasoning": 0.9735
+      }
+    },
+    {
+      "sentence_id": 187,
+      "text": "The fact that by catering services, food and refreshment and even liquor as are permitted in Clubs under law was being provided would not make it a case where the club became premises in which the supply of meals and refreshments was wholly or principally what was carried out.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9282,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0367,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0003,
+        "Facts": 0.0192,
+        "Issue": 0.0002,
+        "Reasoning": 0.9282
+      }
+    },
+    {
+      "sentence_id": 188,
+      "text": "The Appellate Authority proceeds on the basis that providing food, refreshment and drink are not contemplated in the byelaws and therefore, it would attract Section 2(23) of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.7813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0278,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0008,
+        "Facts": 0.7813,
+        "Issue": 0.036,
+        "Reasoning": 0.1511
+      }
+    },
+    {
+      "sentence_id": 189,
+      "text": "We notice in this regard that byelaw No.2 (See para 15 of this judgment) does provide that the aims and objectives of the club was to provide to the members and their families the facilities usually obtainable in a club of this nature and including the various facilities like indoor and outdoor games etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0007,
+        "Facts": 0.0468,
+        "Issue": 0.0002,
+        "Reasoning": 0.947
+      }
+    },
+    {
+      "sentence_id": 190,
+      "text": "Therefore, providing of food and refreshment cannot be described as falling outside the scope of the byelaws.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0924,
+        "Arguments of Respondent": 0.0563,
+        "Decision": 0.0033,
+        "Facts": 0.0547,
+        "Issue": 0.0001,
+        "Reasoning": 0.7932
+      }
+    },
+    {
+      "sentence_id": 191,
+      "text": "In other words, a proper interpretation of byelaw No.2 would mean that the specifically enumerated facilities in byelaw No.2 are not exhaustive.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.064,
+        "Arguments of Respondent": 0.049,
+        "Decision": 0.0024,
+        "Facts": 0.2237,
+        "Issue": 0.0001,
+        "Reasoning": 0.6608
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 192,
+      "text": "The byelaws do not reveal provision for lodging.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.0029,
+        "Facts": 0.3093,
+        "Issue": 0.0002,
+        "Reasoning": 0.6473
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 193,
+      "text": "There is no finding also that the club was providing lodging.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7148,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0959,
+        "Arguments of Respondent": 0.0663,
+        "Decision": 0.0062,
+        "Facts": 0.1164,
+        "Issue": 0.0003,
+        "Reasoning": 0.7148
+      }
+    },
+    {
+      "sentence_id": 194,
+      "text": "In such circumstances, the question that should have been asked was, whether, being a club, which was not residential in nature, it stood exempted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2457,
+        "Arguments of Respondent": 0.0364,
+        "Decision": 0.0009,
+        "Facts": 0.0342,
+        "Issue": 0.0021,
+        "Reasoning": 0.6807
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 195,
+      "text": "This was not done.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6991,
+      "probabilities": {
+        "Arguments of Petitioner": 0.179,
+        "Arguments of Respondent": 0.0568,
+        "Decision": 0.0151,
+        "Facts": 0.049,
+        "Issue": 0.001,
+        "Reasoning": 0.6991
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 196,
+      "text": "In such circumstances, we are of the view that appellants have not made out a case for interference with the impugned Judgment.",
+      "predicted_label": "Decision",
+      "confidence": 0.5209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.5209,
+        "Facts": 0.0112,
+        "Issue": 0.0006,
+        "Reasoning": 0.458
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 197,
+      "text": "The Appeal fails and it shall stand dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.992,
+        "Facts": 0.0015,
+        "Issue": 0.0001,
+        "Reasoning": 0.0052
+      }
+    },
+    {
+      "sentence_id": 198,
+      "text": "There will be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.982,
+        "Facts": 0.0108,
+        "Issue": 0.0001,
+        "Reasoning": 0.0065
+      }
+    }
+  ]
+}

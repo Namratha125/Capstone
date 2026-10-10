@@ -1,0 +1,320 @@
+{
+  "case_id": "6903",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This appeal arises out of a petition filed by the appellant to set aside an award.",
+      "predicted_label": "Issue",
+      "confidence": 0.839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0021,
+        "Facts": 0.1561,
+        "Issue": 0.839,
+        "Reasoning": 0.0023
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The appellant and the petitioner entered into an agreement with the respondent company, the Hind Constructions, Ltd., by which he agreed to act as a subcontractor in respect of a contract which the respondents had taken.",
+      "predicted_label": "Facts",
+      "confidence": 0.7214,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0003,
+        "Facts": 0.7214,
+        "Issue": 0.2423,
+        "Reasoning": 0.0295
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "That agreement was entered into on 5th January 1948.",
+      "predicted_label": "Facts",
+      "confidence": 0.8661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0002,
+        "Facts": 0.8661,
+        "Issue": 0.0124,
+        "Reasoning": 0.1055
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "In respect of the payment to be made under the agreement there were disputes between the petitioner and the respondent company and the disputes were referred to the arbitration of Dr. Pandya on 8th January, 1949.",
+      "predicted_label": "Facts",
+      "confidence": 0.9688,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0,
+        "Facts": 0.9688,
+        "Issue": 0.0013,
+        "Reasoning": 0.0278
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "Dr. Pandya was the general manager and an exofficio director of the Hind Constructions Ltd. Dr. Pandya directed that an interim payment of Rs. 40, 000 should be made to the petitioner on 11th January 1949 and on 13th January, 1949, he made his award.",
+      "predicted_label": "Facts",
+      "confidence": 0.9103,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0002,
+        "Facts": 0.9103,
+        "Issue": 0.0007,
+        "Reasoning": 0.0829
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "By this award he directed a further sum of Rs. 10,000 to be paid to the petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.8508,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0006,
+        "Facts": 0.8508,
+        "Issue": 0.0993,
+        "Reasoning": 0.0462
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The present petition to set aside the award was filed on 23rd April, 1949.",
+      "predicted_label": "Facts",
+      "confidence": 0.9384,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0003,
+        "Facts": 0.9384,
+        "Issue": 0.0189,
+        "Reasoning": 0.0366
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The award was challenged on various grounds, but only two grounds and substantially one ground has been pressed before this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.3348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0635,
+        "Arguments of Respondent": 0.0172,
+        "Decision": 0.0011,
+        "Facts": 0.3348,
+        "Issue": 0.3112,
+        "Reasoning": 0.2722
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The ground is that the petitioner was not aware at the time he went to the arbitration of Dr. Pandya that he was a director of the Hind Constructions Ltd. and it is also urged that Dr. Pandya was disqualified from acting as an arbitrator by the interest that he had, the interest being that he was a director of the Hind Constructions, Ltd., and by the fact of the arbitrator having this interest not being disclosed to the petitioner.2.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3461,
+        "Arguments of Respondent": 0.1042,
+        "Decision": 0.0007,
+        "Facts": 0.3205,
+        "Issue": 0.0597,
+        "Reasoning": 0.1689
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The contention of the respondent company was that the petitioner was aware of the fact that Dr. Pandya was a director of the Hind Constructions, Ltd., and the learned Judge below has held on a review of the evidence that the fact of Dr. Pandya being a director was disclosed to the petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.2826,
+        "Decision": 0.0003,
+        "Facts": 0.2114,
+        "Issue": 0.0007,
+        "Reasoning": 0.4781
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "An interesting argument has been advanced before us by Mr. Desai as to what is the nature of the interest which a Judge is bound to disclose, which, if not disclosed, would result in the judgment of the Judge being set aside.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9285,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0001,
+        "Facts": 0.0015,
+        "Issue": 0.0016,
+        "Reasoning": 0.044
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "It is unnecessary to launch upon that inquiry in this case, because, as I have just pointed out, the case of an arbitrator stands on a higher footing and whatever the nature of the interest may be which a Judge is bound to disclose, as far as an arbitrator is concerned, he must disclose all facts, all circumstances which are likely to influence his judgment or bias his mind.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0129,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0007,
+        "Facts": 0.0081,
+        "Issue": 0.0004,
+        "Reasoning": 0.9699
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "There are two judgments of the Calcutta High Court on which reliance was being placed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5403,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2332,
+        "Arguments of Respondent": 0.1633,
+        "Decision": 0.0007,
+        "Facts": 0.0617,
+        "Issue": 0.0008,
+        "Reasoning": 0.5403
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "One is Mahomed Wahiduddin v. Hakiman, 29 Cal 278.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5301,
+      "probabilities": {
+        "Arguments of Petitioner": 0.199,
+        "Arguments of Respondent": 0.2526,
+        "Decision": 0.0012,
+        "Facts": 0.016,
+        "Issue": 0.0011,
+        "Reasoning": 0.5301
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "That was a case where the arbitrator was an ammuktear of one of the parties, and the other party revoked the arbitration, and after the revocation the arbitrator proceeded to make the award, and the Calcutta High Court held that the fact that the arbitrator had acted for a long period of time as an ammuktear even without remuneration was sufficient to entitle the other party to revoke the reference.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8294,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0895,
+        "Arguments of Respondent": 0.0554,
+        "Decision": 0.0004,
+        "Facts": 0.0226,
+        "Issue": 0.0027,
+        "Reasoning": 0.8294
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "But there was another fact to which the High Court attached greater importance, and that was that the arbitrator was indebted to one of the parties and the judgment of the High Court points out that the fact of this indebtedness if it had not been disclosed to the other party would be a good reason for invalidating the award on account of judicial misconduct.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0326,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0002,
+        "Facts": 0.1067,
+        "Issue": 0.0009,
+        "Reasoning": 0.8298
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Therefore, a distinction seems to have been drawn in this case between what would be sufficient to justify the revocation of a reference and the invalidation of the award on account of judicial misconduct.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0154,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0001,
+        "Facts": 0.0063,
+        "Issue": 0.0021,
+        "Reasoning": 0.9669
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The High Court had no doubt that failure to disclose indebtedness to one of the parties on the part of the arbitrator was clearly judicial misconduct which would result in the award being set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.027,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0004,
+        "Facts": 0.0787,
+        "Issue": 0.0011,
+        "Reasoning": 0.886
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "With regard to the first, the learned Judges expressed no opinion as according to them that was sufficient to entitle the party to revoke the reference.",
+      "predicted_label": "Facts",
+      "confidence": 0.7376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.7376,
+        "Issue": 0.0016,
+        "Reasoning": 0.2531
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The result, therefore, will be that the appeal fails and is dismissed with costs.7.",
+      "predicted_label": "Decision",
+      "confidence": 0.9933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9933,
+        "Facts": 0.001,
+        "Issue": 0.0001,
+        "Reasoning": 0.0052
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Bhagwati, J.I agree and have nothing more to add.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0194,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.1271,
+        "Facts": 0.2497,
+        "Issue": 0.002,
+        "Reasoning": 0.5966
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Appeal dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9958,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0022
+      }
+    }
+  ]
+}

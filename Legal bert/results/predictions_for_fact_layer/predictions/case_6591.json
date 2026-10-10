@@ -1,0 +1,479 @@
+{
+  "case_id": "6591",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "At the request of the counsel, this Petition is being finally disposed of at the stage of admission.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.8878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0014,
+        "Facts": 0.8878,
+        "Issue": 0.0972,
+        "Reasoning": 0.006
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "This Petition is under Article 226of the Constitution of India challenges the order dated 31st December 2015 passed by the Assistant Commissioner of Income Tax under section 179(1) of the Income Tax Act, 1961 (Act).",
+      "predicted_label": "Issue",
+      "confidence": 0.8734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0011,
+        "Facts": 0.1239,
+        "Issue": 0.8734,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The Assessment Years involved are Assessment Year 200607 to 201112.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9826,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.0006,
+        "Facts": 0.9826,
+        "Issue": 0.0152,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The only grievance of the Petitioner to the impugned order dated 31st December 2015 passed by the Assistant Commissioner of Income Tax is that the same is without jurisdiction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.384,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2102,
+        "Arguments of Respondent": 0.0256,
+        "Decision": 0.0131,
+        "Facts": 0.3355,
+        "Issue": 0.0315,
+        "Reasoning": 0.384
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 4,
+      "text": "This according to the Petitioner is for the reason that as in terms of Section 179 (1) of the Act, the revenue is clothed with jurisdiction to proceed against a directors of a Private Limited Company to recover its dues only where the tax dues of the Private Limited Company cannot be recovered from it.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7179,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7179,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0003,
+        "Facts": 0.2021,
+        "Issue": 0.0051,
+        "Reasoning": 0.0673
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "In this case it is the case of the Petitioner that no effort was made to recover the tax dues from the defaulting Private Limited Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1074,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0057,
+        "Facts": 0.4146,
+        "Issue": 0.0035,
+        "Reasoning": 0.455
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "Further reliance is also placed upon decision of this Court in Dinesh Tailor v. Tax Recovery Officer 2010 326 ITR 85 /192",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6067,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6067,
+        "Arguments of Respondent": 0.3609,
+        "Decision": 0.0002,
+        "Facts": 0.0162,
+        "Issue": 0.0006,
+        "Reasoning": 0.0154
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "Mr. Vaidya, the learned counsel for the Petitioner invites our attention to the fact in its response to the notice under Section 179 (1) of the Act, it had raised the issue of jurisdiction.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7106,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0115,
+        "Facts": 0.0414,
+        "Issue": 0.0033,
+        "Reasoning": 0.2221
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "This by pointing out that no recovery measures were taken by the Revenue to recover the tax dues from the defaulting assessee i.e. to Private Limited Company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5251,
+        "Arguments of Respondent": 0.2517,
+        "Decision": 0.0004,
+        "Facts": 0.1591,
+        "Issue": 0.0004,
+        "Reasoning": 0.0632
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "This submission it is pointed out has not been dealt with.5.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7373,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7373,
+        "Arguments of Respondent": 0.1187,
+        "Decision": 0.0011,
+        "Facts": 0.0937,
+        "Issue": 0.0014,
+        "Reasoning": 0.0478
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "As against the above, Mr. Pinto the learned counsel for the Respondent has pointed out that the impugned order dated 31st December 2015 in paragraph 2 thereof states that the recovery proceedings have been conducted by the department against assessee company but no recovery could be made.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9718,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.9718,
+        "Decision": 0.0002,
+        "Facts": 0.0034,
+        "Issue": 0.0001,
+        "Reasoning": 0.022
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "Therefore, it is submitted that jurisdiction under Section 179 of the Act has been exercised only after the department was unable to recover its tax dues from the delinquent Private Limited Company.6.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6233,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6233,
+        "Arguments of Respondent": 0.3049,
+        "Decision": 0.0003,
+        "Facts": 0.049,
+        "Issue": 0.0021,
+        "Reasoning": 0.0203
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Therefore, the Revenue would acquire get jurisdiction to proceed against the directors of the delinquent Private Limited Company only after it has failed to recover its dues from the Private Limited Company, in which the Petitioner is a director.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7235,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1141,
+        "Arguments of Respondent": 0.0857,
+        "Decision": 0.0007,
+        "Facts": 0.0753,
+        "Issue": 0.0006,
+        "Reasoning": 0.7235
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "This is a condition precedent for the Assessing Officer to exercise jurisdiction under Section 179 (1) of the Act against the director of the delinquent company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.048,
+        "Arguments of Respondent": 0.0318,
+        "Decision": 0.0011,
+        "Facts": 0.0353,
+        "Issue": 0.0007,
+        "Reasoning": 0.883
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "In our view the jurisdictional requirement cannot be said to be satisfied by a mere statement in the impugned order that the recovery proceedings had been conducted against the defaulting Private Limited Company but it had failed to recover its dues.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0019,
+        "Facts": 0.0084,
+        "Issue": 0.0001,
+        "Reasoning": 0.9721
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The above statement should be supported by mentioning briefly the types of efforts made and its results.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0438,
+        "Arguments of Respondent": 0.0144,
+        "Decision": 0.001,
+        "Facts": 0.906,
+        "Issue": 0.0002,
+        "Reasoning": 0.0347
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Therefore appropriately, the notice to show cause issued under Section 179 (1) of the Act to the directors of the delinquent Private Limited Company must indicate albeit, briefly, the steps taken to recover the tax dues and its failure.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9715,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0017,
+        "Facts": 0.0132,
+        "Issue": 0.0002,
+        "Reasoning": 0.9715
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "In cases where the notice does not indicate the same and the Petitioner raises the objection of jurisdiction on the above account, then the Petitioner must be informed of the basis of the Assessing Officer exercising jurisdiction and the notice directors response, if any, should be considered in the order passed under Section 179 (1) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0664,
+        "Arguments of Respondent": 0.0601,
+        "Decision": 0.0003,
+        "Facts": 0.2222,
+        "Issue": 0.0007,
+        "Reasoning": 0.6503
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "In this case the show cause notice dated 16th December 2015 under Section 179 (1) of the Act does not indicate or give any particulars in respect of the steps taken by the Income Tax Department to recover the tax dues of the defaulting Private Limited Company and its failure.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7404,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0282,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0434,
+        "Facts": 0.1796,
+        "Issue": 0.0014,
+        "Reasoning": 0.7404
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The Petitioner in response dated 29th December 2015 to the above notice, questioned the jurisdiction of the Revenue to issue the notice under Section 179 (1) of the Act and sought details of the steps taken by the department to recover tax dues from the defaulting Private Limited Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9854,
+        "Issue": 0.0004,
+        "Reasoning": 0.0083
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "In fact, in its reply dated 29th December 2015, the Petitioner pointed out that the defaulting Company had assets of over Rs. 100 Crores.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2359,
+        "Arguments of Respondent": 0.1236,
+        "Decision": 0.0009,
+        "Facts": 0.2904,
+        "Issue": 0.0005,
+        "Reasoning": 0.3487
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Admittedly, in this case no particulars of steps taken to recover the dues from the defaulting Company were communicated to the Petitioner nor indicated in the impugned order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0502,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.0136,
+        "Facts": 0.1109,
+        "Issue": 0.0009,
+        "Reasoning": 0.8047
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "In this case we find that except a statement that recovery proceedings against the defaulting assessee had failed, no particulars of the same are indicated, so as to enable the Petitioner to object to it on facts.9.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0332,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0005,
+        "Facts": 0.0476,
+        "Issue": 0.0002,
+        "Reasoning": 0.9092
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "In the above view, we set aside the impugned order dated 31st December 2015.",
+      "predicted_label": "Decision",
+      "confidence": 0.6489,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.6489,
+        "Facts": 0.0663,
+        "Issue": 0.0004,
+        "Reasoning": 0.2812
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "This as the condition precedent to exercise jurisdiction under Section 179 (1) of the Act is not satisfied.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4188,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4179,
+        "Arguments of Respondent": 0.0863,
+        "Decision": 0.0015,
+        "Facts": 0.0749,
+        "Issue": 0.0006,
+        "Reasoning": 0.4188
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "At no time has the Petitioner been given a chance to meet the Revenues case that it has taken steps to recover the amount from the defaulting Private Limited Company so as to meet the jurisdictional condition precedent before passing an order under Section 179 (1) of the Act.10.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6619,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1015,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0057,
+        "Facts": 0.2035,
+        "Issue": 0.0008,
+        "Reasoning": 0.6619
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "The Assessing Officer is at liberty to pass a fresh order after issuing the appropriate notice to the Petitioner indicating briefly, the steps taken by the department to recover the tax dues from the defaulting Private Limited Company and its failure to recover the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.5454,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.3787,
+        "Facts": 0.5454,
+        "Issue": 0.0005,
+        "Reasoning": 0.0728
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Needless to state the Assessing Officer would hear the Petitioner on its objections and pass a fresh order.",
+      "predicted_label": "Facts",
+      "confidence": 0.8462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.1303,
+        "Facts": 0.8462,
+        "Issue": 0.0007,
+        "Reasoning": 0.0199
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "However, it is made clear that the attachment order dated 11th January 2016 is not disturbed and would continue till the passing of a final order by the Assessing Officer under Section 179 (1) of the Act.11.",
+      "predicted_label": "Decision",
+      "confidence": 0.8776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.8776,
+        "Facts": 0.0823,
+        "Issue": 0.0002,
+        "Reasoning": 0.037
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "Mr. Vaidya, the learned counsel for the Petitioner on instructions states that the Petitioner will fully cooperate with the Assessing Officer.",
+      "predicted_label": "Facts",
+      "confidence": 0.806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0753,
+        "Arguments of Respondent": 0.0123,
+        "Decision": 0.0358,
+        "Facts": 0.806,
+        "Issue": 0.0006,
+        "Reasoning": 0.07
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "In view of the fact that the Petition relates to the tax recoveries from Assessment Year 200607 to 201112, the Assessing Officer is directed to dispose of the Petition as expeditiously as possible preferably within a period of eight weeks from today.12.",
+      "predicted_label": "Decision",
+      "confidence": 0.7499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.7499,
+        "Facts": 0.1839,
+        "Issue": 0.0004,
+        "Reasoning": 0.0618
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Writ Petition is disposed of in the above terms.",
+      "predicted_label": "Decision",
+      "confidence": 0.797,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.797,
+        "Facts": 0.1833,
+        "Issue": 0.0008,
+        "Reasoning": 0.0174
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "No order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9487,
+        "Facts": 0.0379,
+        "Issue": 0.0002,
+        "Reasoning": 0.0123
+      }
+    }
+  ]
+}

@@ -1,0 +1,1552 @@
+{
+  "case_id": "6461",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The challenge in the present appeal is to an order passed by the National Consumer Disputes Redressal Commission(For short, the Commission) on 1.7.2009 allowing the complaint filed by the respondent(For short, the complainant) and directing the appellant to pay a sum of Rs.65,74,000/ with interest 9 p.a.",
+      "predicted_label": "Issue",
+      "confidence": 0.8675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0007,
+        "Facts": 0.1309,
+        "Issue": 0.8675,
+        "Reasoning": 0.0004
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "from the date of filing of complaint till realization.",
+      "predicted_label": "Facts",
+      "confidence": 0.8286,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.135,
+        "Facts": 0.8286,
+        "Issue": 0.0015,
+        "Reasoning": 0.03
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The appellant was also directed to pay Rs.25,000/ as cost to the complainant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0006,
+        "Facts": 0.9865,
+        "Issue": 0.0055,
+        "Reasoning": 0.0063
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The appellant herein is a testing, inspection and certification company that tests the quality and quantity of several products.",
+      "predicted_label": "Facts",
+      "confidence": 0.8237,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0004,
+        "Facts": 0.8237,
+        "Issue": 0.1705,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The complainant engaged the appellant for providing services for inspection of groundnut procured by the complainant for the purpose of exporting the same to Greece and Netherlands.",
+      "predicted_label": "Facts",
+      "confidence": 0.9192,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9192,
+        "Issue": 0.0123,
+        "Reasoning": 0.0603
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The appellant was responsible for carrying out the inspection of samples and further certifying in respect of different parameters of the groundnut.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5867,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1565,
+        "Arguments of Respondent": 0.1318,
+        "Decision": 0.0008,
+        "Facts": 0.1228,
+        "Issue": 0.0014,
+        "Reasoning": 0.5867
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "There were two sets of consignments, one to Piraeus, Greece and another to Rotterdam, Netherlands.",
+      "predicted_label": "Facts",
+      "confidence": 0.9472,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0002,
+        "Facts": 0.9472,
+        "Issue": 0.008,
+        "Reasoning": 0.036
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The specification requirement in the communication dated 7.11.1997 was in respect of 122 containers of peanuts procured from M s Shree Ram Industries, Rajkot.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1125,
+        "Arguments of Respondent": 0.0847,
+        "Decision": 0.0005,
+        "Facts": 0.3359,
+        "Issue": 0.0017,
+        "Reasoning": 0.4648
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "10 containers out of 122 containers were required to be stuffed at Kandla Port and the rest at the factory of Shree Ram Industries, Rajkot.",
+      "predicted_label": "Facts",
+      "confidence": 0.8525,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0007,
+        "Facts": 0.8525,
+        "Issue": 0.0054,
+        "Reasoning": 0.1086
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Packing Requirement 50 Kg new jute bag of minimum 450 gms.",
+      "predicted_label": "Facts",
+      "confidence": 0.9505,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0212,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0003,
+        "Facts": 0.9505,
+        "Issue": 0.0018,
+        "Reasoning": 0.0202
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "To protect bags from sweating and prevent them from touching the walls of the containers, every containers bottom, top and walls should be lined by bituminised paper (not simple craft paper) topmost layer of bags is to be covered with corrugated sheet.  ",
+      "predicted_label": "Facts",
+      "confidence": 0.5754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1986,
+        "Arguments of Respondent": 0.0909,
+        "Decision": 0.0305,
+        "Facts": 0.5754,
+        "Issue": 0.0166,
+        "Reasoning": 0.0881
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "Container  Container should be fumigated by 48 Grams cb.m.",
+      "predicted_label": "Facts",
+      "confidence": 0.9839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0013,
+        "Facts": 0.9839,
+        "Issue": 0.0004,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Methyl Bromide and sealing tapes used to cover container vents so as to ensure proper fumigation.  ",
+      "predicted_label": "Facts",
+      "confidence": 0.2555,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2076,
+        "Arguments of Respondent": 0.2123,
+        "Decision": 0.1957,
+        "Facts": 0.2555,
+        "Issue": 0.0075,
+        "Reasoning": 0.1215
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 13,
+      "text": "Hope you will find the above in order.",
+      "predicted_label": "Facts",
+      "confidence": 0.9055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0006,
+        "Facts": 0.9055,
+        "Issue": 0.0011,
+        "Reasoning": 0.0589
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Kindly carry out stringent continuous inspection of the cargo accordingly and do not hesitate to reject the cargo if the material stuffing is not as per our requirements.",
+      "predicted_label": "Facts",
+      "confidence": 0.9497,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0023,
+        "Facts": 0.9497,
+        "Issue": 0.0004,
+        "Reasoning": 0.0364
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The appellant carried out the inspection and analysis of Hand Picked and Selected peanuts(For short, HPS peanuts) which were to be exported to Greece.",
+      "predicted_label": "Facts",
+      "confidence": 0.9908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9908,
+        "Issue": 0.0017,
+        "Reasoning": 0.0054
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "One of the reports in respect of Bold and Java variety of peanuts is as under Representative samples were drawn from 10 of the bags selected at random.",
+      "predicted_label": "Facts",
+      "confidence": 0.8708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0388,
+        "Arguments of Respondent": 0.0172,
+        "Decision": 0.0002,
+        "Facts": 0.8708,
+        "Issue": 0.0008,
+        "Reasoning": 0.0721
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Based on examination analysis of samples, we certify that the goods are 350 BAGS INDIAN GROUNDNUT KERNELS CROP",
+      "predicted_label": "Facts",
+      "confidence": 0.8231,
+      "probabilities": {
+        "Arguments of Petitioner": 0.009,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0311,
+        "Facts": 0.8231,
+        "Issue": 0.001,
+        "Reasoning": 0.1322
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "0.07  Broken Split 0.47  Aflatoxin (B1 B2 G1 G2) 5 PPB Less than No responsibility can be accepted for the possible consequences of further development of aflatoxin producing moulds dependent up on condition of storage and or transportation nor for differences arising from varying methods applied.",
+      "predicted_label": "Facts",
+      "confidence": 0.8476,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0202,
+        "Arguments of Respondent": 0.0416,
+        "Decision": 0.0021,
+        "Facts": 0.8476,
+        "Issue": 0.0005,
+        "Reasoning": 0.0879
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The merchant vehicle Shun Cheng12 reached Piraeus, Greece on 7.2.1998.",
+      "predicted_label": "Facts",
+      "confidence": 0.8945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0002,
+        "Facts": 0.8945,
+        "Issue": 0.0065,
+        "Reasoning": 0.084
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The complainant thus sent a communication on 7.2.1998 to the appellant in respect of 20 full container loads.",
+      "predicted_label": "Facts",
+      "confidence": 0.9875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9875,
+        "Issue": 0.0018,
+        "Reasoning": 0.0078
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "It was stated that peanut count size in 11 full container load was disputed and further asked to send all the sealed samples to SGS, Greece which was another unit of the Appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0274,
+        "Arguments of Respondent": 0.0222,
+        "Decision": 0.0002,
+        "Facts": 0.882,
+        "Issue": 0.0003,
+        "Reasoning": 0.068
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "It was communicated as under This buyer is now disputing the peanut count size in 11 FCLs and is demanding the following (a) a discount of US 30 PMT on these 11 FCLs (b)",
+      "predicted_label": "Facts",
+      "confidence": 0.9021,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0388,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0001,
+        "Facts": 0.9021,
+        "Issue": 0.0023,
+        "Reasoning": 0.0481
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Our bearing detention demurrage charges for these 11 FCLs till settlement of this matter (c)",
+      "predicted_label": "Facts",
+      "confidence": 0.9875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0013,
+        "Facts": 0.9875,
+        "Issue": 0.0006,
+        "Reasoning": 0.0067
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Our bearing cost of SGS inspection for these 11 FCLs at discharge port.",
+      "predicted_label": "Facts",
+      "confidence": 0.9778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0008,
+        "Facts": 0.9778,
+        "Issue": 0.0007,
+        "Reasoning": 0.0112
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The appellant thereafter responded to such communication on 9.2.1998 stating that the sealed samples for shipment retained by the appellant were couriered to the counterpart of the appellant in Greece.",
+      "predicted_label": "Facts",
+      "confidence": 0.8554,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0372,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.0003,
+        "Facts": 0.8554,
+        "Issue": 0.0037,
+        "Reasoning": 0.0876
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The samples were tested by the counterpart of the appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.6135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0567,
+        "Arguments of Respondent": 0.0371,
+        "Decision": 0.0017,
+        "Facts": 0.6135,
+        "Issue": 0.001,
+        "Reasoning": 0.2899
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "The result of type Bold of kernels per ounce was 5254 whereas for Java type, the count was 57 61.",
+      "predicted_label": "Facts",
+      "confidence": 0.945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0134,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0002,
+        "Facts": 0.945,
+        "Issue": 0.0014,
+        "Reasoning": 0.0306
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The dispute with regard to shipment in Greece is only in respect of the size count of Java peanuts as against the limit of 45/55. 6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0002,
+        "Facts": 0.9758,
+        "Issue": 0.0003,
+        "Reasoning": 0.0073
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "In respect of shipment to Rotterdam, Netherlands, the product specifications as per the communication dated 7.11.1997 were as under All cargo is originating from Shree Ram Industries, Rajkot and will be factory stuffed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0001,
+        "Facts": 0.9377,
+        "Issue": 0.0007,
+        "Reasoning": 0.0386
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Contracted specs.",
+      "predicted_label": "Facts",
+      "confidence": 0.5282,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0206,
+        "Arguments of Respondent": 0.017,
+        "Decision": 0.0011,
+        "Facts": 0.5282,
+        "Issue": 0.0237,
+        "Reasoning": 0.4094
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 31,
+      "text": "B1B2G1G2 4 PPB Max Goods will undergo for final inspection by Dr. A. Verwey lab.",
+      "predicted_label": "Facts",
+      "confidence": 0.9351,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.0171,
+        "Decision": 0.0007,
+        "Facts": 0.9351,
+        "Issue": 0.0017,
+        "Reasoning": 0.0269
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "at discharge port as per code of practice for peanuts of Product Board for Fruit of Vegetables, The Hague, January, 1996 (Copy given by the undersigned to Mr. Prafful).",
+      "predicted_label": "Facts",
+      "confidence": 0.9143,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0219,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0036,
+        "Facts": 0.9143,
+        "Issue": 0.0003,
+        "Reasoning": 0.046
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The Inspection Certificate dated 23.12.1997 of quantity, quality, weight and packing for the consignment to Netherlands is reproduced as under INDIAN GROUNDNUT KERNELS CROP 1997 COUNT 50/60 JAVA VARIETY (WINTER CROP)  ",
+      "predicted_label": "Facts",
+      "confidence": 0.97,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0007,
+        "Facts": 0.97,
+        "Issue": 0.0011,
+        "Reasoning": 0.0232
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Moisture 6.30  Admixture 0.14  Broken Kernels 0.32  ",
+      "predicted_label": "Facts",
+      "confidence": 0.7739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0321,
+        "Arguments of Respondent": 0.0201,
+        "Decision": 0.0052,
+        "Facts": 0.7739,
+        "Issue": 0.0009,
+        "Reasoning": 0.1679
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Aflatoxin (B1 B2 G1 G2) 4 PPB Less than Goods are free from Mould and infestation Crop 97",
+      "predicted_label": "Facts",
+      "confidence": 0.927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0235,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0025,
+        "Facts": 0.927,
+        "Issue": 0.0002,
+        "Reasoning": 0.0363
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "Similar inspection certificate was given in respect of other containers for shipment by merchant vehicle Orient Patriot.",
+      "predicted_label": "Facts",
+      "confidence": 0.9107,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0005,
+        "Facts": 0.9107,
+        "Issue": 0.0072,
+        "Reasoning": 0.0591
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Dr. Verweys Lab at Rotterdam, Netherlands conducted an inspection of the consignment and in its report dated 3.2.1998 reflected a higher level of Aflatoxin, including its variants B1, B2, G1 and G2.",
+      "predicted_label": "Facts",
+      "confidence": 0.9637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0014,
+        "Facts": 0.9637,
+        "Issue": 0.0004,
+        "Reasoning": 0.0291
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The test carried by SGS, Netherlands also confirmed high Aflatoxin level.",
+      "predicted_label": "Facts",
+      "confidence": 0.6358,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0615,
+        "Arguments of Respondent": 0.0664,
+        "Decision": 0.0034,
+        "Facts": 0.6358,
+        "Issue": 0.0006,
+        "Reasoning": 0.2323
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "In this background, the argument of Mr. Gopal Sankaranarayanan, learned senior counsel for the appellant was that there was no responsibility or assurance of the appellant beyond the borders of India and that they were to only satisfy the quantity, quality, weight and packaging of the consignment at the time of shipment.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9147,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9147,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0006,
+        "Facts": 0.0138,
+        "Issue": 0.0004,
+        "Reasoning": 0.0672
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "The appellant was only in charge of supervising the weighing and packing and to certify the quality and quantity of peanuts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1642,
+        "Arguments of Respondent": 0.292,
+        "Decision": 0.0017,
+        "Facts": 0.0927,
+        "Issue": 0.0007,
+        "Reasoning": 0.4487
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "It had no control or responsibility of the subject shipment once the shipment left the Indian port.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0972,
+        "Arguments of Respondent": 0.1474,
+        "Decision": 0.0088,
+        "Facts": 0.1458,
+        "Issue": 0.0036,
+        "Reasoning": 0.5971
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "There was thus no corresponding obligation on the appellant to ensure that the packed consignment would have the same specifications at the port of destination as well.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8043,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0908,
+        "Arguments of Respondent": 0.0583,
+        "Decision": 0.0025,
+        "Facts": 0.0437,
+        "Issue": 0.0003,
+        "Reasoning": 0.8043
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "It was also pointed out that there were instructions that the appellant had to seal the containers for fumigation but after fumigation, tapes were to be removed.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4635,
+        "Arguments of Respondent": 0.1694,
+        "Decision": 0.001,
+        "Facts": 0.2704,
+        "Issue": 0.0005,
+        "Reasoning": 0.0952
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "Therefore, the air could enter the container which may result in deviation in the reports at the port of destination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5109,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1746,
+        "Arguments of Respondent": 0.191,
+        "Decision": 0.0059,
+        "Facts": 0.1168,
+        "Issue": 0.0007,
+        "Reasoning": 0.5109
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "Each of the certificates furnished by the appellant also had a disclaimer that no responsibility can be accepted for the possible consequences of further development of Aflatoxin producing moulds depending upon the condition of storage and or transportation nor for the differences arising from varying methods applied.",
+      "predicted_label": "Facts",
+      "confidence": 0.7293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0538,
+        "Arguments of Respondent": 0.0585,
+        "Decision": 0.0017,
+        "Facts": 0.7293,
+        "Issue": 0.0004,
+        "Reasoning": 0.1564
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "Therefore, in view of such disclaimer being part of the certificates furnished by the appellant at the time of shipment, the responsibility of the appellant in respect of the consignment does not extend till the port of destination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2421,
+        "Arguments of Respondent": 0.1197,
+        "Decision": 0.0039,
+        "Facts": 0.2868,
+        "Issue": 0.0035,
+        "Reasoning": 0.3439
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "11.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8498,
+        "Arguments of Respondent": 0.0298,
+        "Decision": 0.0033,
+        "Facts": 0.0607,
+        "Issue": 0.0073,
+        "Reasoning": 0.049
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "It was contended that there is not any whisper that the method of testing, packing, weighment was not as per the specifications provided by the appellant.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4315,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3824,
+        "Arguments of Respondent": 0.4315,
+        "Decision": 0.0003,
+        "Facts": 0.1198,
+        "Issue": 0.0006,
+        "Reasoning": 0.0653
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 49,
+      "text": "Therefore, the agricultural produce transported via ship has to face vagaries of nature starting from the tropical weather of India over the high sea, which could have altered the level of Aflatoxin and the size of peanuts.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.375,
+      "probabilities": {
+        "Arguments of Petitioner": 0.375,
+        "Arguments of Respondent": 0.3336,
+        "Decision": 0.0034,
+        "Facts": 0.082,
+        "Issue": 0.0003,
+        "Reasoning": 0.2056
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 50,
+      "text": "12.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7793,
+        "Arguments of Respondent": 0.0423,
+        "Decision": 0.0024,
+        "Facts": 0.0919,
+        "Issue": 0.0095,
+        "Reasoning": 0.0746
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "In the absence of any requirement that the consignment should have the same level of Aflatoxin or the size of the peanut at the destination port, the appellant cannot be made liable for any variation in the content of Aflatoxin or sizes of peanuts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7486,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1076,
+        "Arguments of Respondent": 0.093,
+        "Decision": 0.0209,
+        "Facts": 0.0294,
+        "Issue": 0.0004,
+        "Reasoning": 0.7486
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "13.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8168,
+        "Arguments of Respondent": 0.0351,
+        "Decision": 0.0033,
+        "Facts": 0.0695,
+        "Issue": 0.0095,
+        "Reasoning": 0.0659
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "It was further contended that the samples retained by the appellant were couriered on the same day i.e., 9.2.1998, when the sample was tested at the destination but the report of the couriered sample has not been shared by the complainant, nor the appellant was privy to the report of Dr. Verweys Lab in respect of consignment to Netherlands.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8267,
+        "Arguments of Respondent": 0.1245,
+        "Decision": 0.0002,
+        "Facts": 0.0358,
+        "Issue": 0.0005,
+        "Reasoning": 0.0123
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "14.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6361,
+        "Arguments of Respondent": 0.068,
+        "Decision": 0.0035,
+        "Facts": 0.1054,
+        "Issue": 0.0132,
+        "Reasoning": 0.1739
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "It was also argued that the size of groundnut is subject to a marginal difference after 2 months of transportation between Indian and Greece port.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4131,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4131,
+        "Arguments of Respondent": 0.1925,
+        "Decision": 0.0009,
+        "Facts": 0.0297,
+        "Issue": 0.0003,
+        "Reasoning": 0.3635
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 56,
+      "text": "Such variation could be as a result of natural causes such as weather, moisture, humidity, temperature and even storage condition, being an agricultural commodity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0539,
+        "Arguments of Respondent": 0.0823,
+        "Decision": 0.0002,
+        "Facts": 0.0602,
+        "Issue": 0.0002,
+        "Reasoning": 0.8033
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "It was argued that the Commission has not given any finding in respect of any deficiency of service in respect of the inspection carried out by the appellant in the territory of India.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7,
+        "Arguments of Respondent": 0.1153,
+        "Decision": 0.0004,
+        "Facts": 0.0324,
+        "Issue": 0.0009,
+        "Reasoning": 0.151
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "15.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8076,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8076,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0026,
+        "Facts": 0.0349,
+        "Issue": 0.0099,
+        "Reasoning": 0.1003
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "On the other hand, the argument of Mr. Vijay Hansaria, learned senior counsel for the complainant was that it had got orders for export of 20 full container loads of HPS peanuts from Athens, Greece and 28 full container loads from Rotterdam, Netherlands.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7751,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0416,
+        "Arguments of Respondent": 0.7751,
+        "Decision": 0.0001,
+        "Facts": 0.1227,
+        "Issue": 0.0003,
+        "Reasoning": 0.0602
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "As per the terms and conditions of the inspection, Aflatoxin could be maximum 4 Particles Per Billion (PPB) in respect of consignment meant for Netherlands.",
+      "predicted_label": "Facts",
+      "confidence": 0.8943,
+      "probabilities": {
+        "Arguments of Petitioner": 0.023,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0005,
+        "Facts": 0.8943,
+        "Issue": 0.0005,
+        "Reasoning": 0.067
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The stuffing instructions were that the containers should be new, without holes and with doors which closed hermetically.",
+      "predicted_label": "Facts",
+      "confidence": 0.7443,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0347,
+        "Arguments of Respondent": 0.0444,
+        "Decision": 0.0004,
+        "Facts": 0.7443,
+        "Issue": 0.0003,
+        "Reasoning": 0.1759
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "It was pointed out that hermetic means to exclude external air, airtight as per the dictionary meaning.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.555,
+      "probabilities": {
+        "Arguments of Petitioner": 0.555,
+        "Arguments of Respondent": 0.2985,
+        "Decision": 0.0004,
+        "Facts": 0.0379,
+        "Issue": 0.0003,
+        "Reasoning": 0.1079
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "The appellant was thus liable to ensure not only the quality but also the stuffing and packaging of the containers and it was even authorized to reject the cargo if the material and or stuffing were not as per requirement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0738,
+        "Arguments of Respondent": 0.2179,
+        "Decision": 0.0046,
+        "Facts": 0.1671,
+        "Issue": 0.0009,
+        "Reasoning": 0.5357
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "The cargo was to be tested by High Performance Liquid Chromatography (HPLC) method for which higher charges were claimed by the appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9145,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0192,
+        "Arguments of Respondent": 0.0228,
+        "Decision": 0.0004,
+        "Facts": 0.9145,
+        "Issue": 0.0021,
+        "Reasoning": 0.041
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "It was pointed out that Aflatoxin content for the consignment to Rotterdam, Netherlands in respect of B1, B2, G1 and G2 was required to be maximum of 4 PPB.",
+      "predicted_label": "Facts",
+      "confidence": 0.7577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0932,
+        "Arguments of Respondent": 0.0268,
+        "Decision": 0.0017,
+        "Facts": 0.7577,
+        "Issue": 0.0033,
+        "Reasoning": 0.1174
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The certificate given by the appellant was to the effect that Aflatoxin content was less than 4 PPB but on arrival at the port of destination, the Aflatoxin B1, B2, G1, G2 was found to be beyond 4 microgram Kg i.e. PPB.",
+      "predicted_label": "Facts",
+      "confidence": 0.8428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0276,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.001,
+        "Facts": 0.8428,
+        "Issue": 0.0013,
+        "Reasoning": 0.1158
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "Mr. Hansaria referred to the communication dated 17.2.1998 on behalf of Dr. Verweys Lab that on arrival of cargo, no water damage to the contents of the container nor any visible mould growth was reported.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7625,
+        "Arguments of Respondent": 0.2272,
+        "Decision": 0.0003,
+        "Facts": 0.0022,
+        "Issue": 0.0002,
+        "Reasoning": 0.0076
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "Any mould growth on groundnut kernel will not take place unless the water activity of groundnut is 0.68 which is equal to the moisture content of 7.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6123,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0482,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0039,
+        "Facts": 0.3245,
+        "Issue": 0.0014,
+        "Reasoning": 0.6123
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "When Aflatoxin producing moulds are present in groundnuts, they will not metabolize Aflatoxins unless the water content of the nuts is above 10.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5388,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2047,
+        "Arguments of Respondent": 0.1075,
+        "Decision": 0.0067,
+        "Facts": 0.1417,
+        "Issue": 0.0006,
+        "Reasoning": 0.5388
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "Dr. Verweys Lab was an independent expert nominated by the buyer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3821,
+      "probabilities": {
+        "Arguments of Petitioner": 0.222,
+        "Arguments of Respondent": 0.3509,
+        "Decision": 0.0004,
+        "Facts": 0.0445,
+        "Issue": 0.0001,
+        "Reasoning": 0.3821
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 71,
+      "text": "The appellant was informed that the goods would undergo final inspection at the discharge port by the said Lab. 16.",
+      "predicted_label": "Facts",
+      "confidence": 0.9821,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0001,
+        "Facts": 0.9821,
+        "Issue": 0.0003,
+        "Reasoning": 0.0114
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "In respect of the cargo to Greece, the size of peanuts Java type were found to be 57 to 61 counts per ounce, which was higher than what was certified by the appellant to be 45 to 55 counts per ounce.",
+      "predicted_label": "Facts",
+      "confidence": 0.9091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0282,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0005,
+        "Facts": 0.9091,
+        "Issue": 0.0008,
+        "Reasoning": 0.0446
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "It was alleged that the appellant had deliberately withheld the report of its counterpart in Greece with regard to samples sent by it on 9.2.1998.",
+      "predicted_label": "Facts",
+      "confidence": 0.5814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1371,
+        "Arguments of Respondent": 0.1248,
+        "Decision": 0.0008,
+        "Facts": 0.5814,
+        "Issue": 0.0047,
+        "Reasoning": 0.1512
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "It was even contended that the appellant did not send its sealed sample at the port of loading to its counterpart in Netherlands though the same was requested on 12.2.1998 and 19.2.1998.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.329,
+        "Arguments of Respondent": 0.3055,
+        "Decision": 0.0011,
+        "Facts": 0.1171,
+        "Issue": 0.0012,
+        "Reasoning": 0.2461
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 75,
+      "text": "Since report has not been produced by the appellant, adverse inference should be drawn against the appellant.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5959,
+        "Arguments of Respondent": 0.1031,
+        "Decision": 0.0018,
+        "Facts": 0.1637,
+        "Issue": 0.0011,
+        "Reasoning": 0.1344
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "The Commission found that the appellant has not led any evi dence in respect of the contention that quantity of Aflatoxin in peanuts is affected by various extraneous factors i.e., weather, moisture, humidity, temperature and storage conditions.",
+      "predicted_label": "Facts",
+      "confidence": 0.7517,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0006,
+        "Facts": 0.7517,
+        "Issue": 0.0023,
+        "Reasoning": 0.2361
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "On the basis of the said fact, the Commission returned a finding that the appellant was grossly negligent and deficient in ser vice as the count of Java type peanuts and content of Aflatoxin was more than what was specified.",
+      "predicted_label": "Facts",
+      "confidence": 0.8916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0004,
+        "Facts": 0.8916,
+        "Issue": 0.001,
+        "Reasoning": 0.1003
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "The onus of proof of deficiency in service is on the com plainant in the complaints under the Consumer Protection Act, 1986.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1322,
+        "Arguments of Respondent": 0.0287,
+        "Decision": 0.0124,
+        "Facts": 0.0851,
+        "Issue": 0.0051,
+        "Reasoning": 0.7365
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "It is the complainant who had approached the Commission, therefore, without any proof of deficiency, the opposite party cannot be held responsible for deficiency in service.",
+      "predicted_label": "Facts",
+      "confidence": 0.6673,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0948,
+        "Arguments of Respondent": 0.0987,
+        "Decision": 0.0015,
+        "Facts": 0.6673,
+        "Issue": 0.0039,
+        "Reasoning": 0.1337
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "In a judgment of this Court reported as Ravneet Singh Bagga v. KLM Royal Dutch Airlines Anr.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5123,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0369,
+        "Arguments of Respondent": 0.0233,
+        "Decision": 0.0004,
+        "Facts": 0.4212,
+        "Issue": 0.006,
+        "Reasoning": 0.5123
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 81,
+      "text": "(2000) 1 SCC 66, this court held that the burden of proving the deficiency in ser vice is upon the person who alleges it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0744,
+        "Arguments of Respondent": 0.0196,
+        "Decision": 0.0003,
+        "Facts": 0.0309,
+        "Issue": 0.0003,
+        "Reasoning": 0.8746
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "The deficiency in service cannot be alleged without attributing fault, imperfection, shortcoming or inadequacy in the quality, nature and manner of performance which is required to be performed by a person in pursuance of a contract or otherwise in relation to any service.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.084,
+        "Arguments of Respondent": 0.0443,
+        "Decision": 0.0008,
+        "Facts": 0.0772,
+        "Issue": 0.01,
+        "Reasoning": 0.7837
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "The burden of proving the deficiency in service is upon the person who alleges it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0576,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0012,
+        "Facts": 0.0386,
+        "Issue": 0.0021,
+        "Reasoning": 0.8866
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "The complainant has, on facts, been found to have not established any wilful fault, imperfection, shortcoming or inadequacy in the service of the respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0197,
+        "Arguments of Respondent": 0.0614,
+        "Decision": 0.0084,
+        "Facts": 0.1699,
+        "Issue": 0.0007,
+        "Reasoning": 0.7398
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "The Commission has referred to the samples collected at the time of dispatch of consignments to Netherlands but the report of such samples has not been produced by the appellant to hold that the appellant is deficient in providing services therefore, drawn adverse inference against the appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.8419,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0535,
+        "Arguments of Respondent": 0.039,
+        "Decision": 0.0011,
+        "Facts": 0.8419,
+        "Issue": 0.0016,
+        "Reasoning": 0.0629
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "The onus of proof that there was deficiency in service is on the complainant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0302,
+        "Arguments of Respondent": 0.0185,
+        "Decision": 0.0009,
+        "Facts": 0.1601,
+        "Issue": 0.0025,
+        "Reasoning": 0.7878
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "If the complainant is able to discharge its initial onus, the burden would then shift to the respondent in the complaint.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9266,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0199,
+        "Arguments of Respondent": 0.0427,
+        "Decision": 0.0004,
+        "Facts": 0.0098,
+        "Issue": 0.0007,
+        "Reasoning": 0.9266
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "The rule of evidence before the civil proceedings is that the onus would lie on the person who would fail if no evidence is led by the other side.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9344,
+      "probabilities": {
+        "Arguments of Petitioner": 0.033,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0003,
+        "Facts": 0.0118,
+        "Issue": 0.0006,
+        "Reasoning": 0.9344
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "Therefore, the initial burden of proof of deficiency in service was on the complainant, but having failed to prove that the result of the sample retained by the appellant at the time of consignment was materially different than what was certified by the appellant, the burden of proof would not shift on the appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1701,
+        "Arguments of Respondent": 0.0896,
+        "Decision": 0.001,
+        "Facts": 0.205,
+        "Issue": 0.0015,
+        "Reasoning": 0.5329
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 90,
+      "text": "Thus, the Commission has erred in law to draw adverse inference against the appellant.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6459,
+        "Arguments of Respondent": 0.0152,
+        "Decision": 0.0039,
+        "Facts": 0.0194,
+        "Issue": 0.0007,
+        "Reasoning": 0.3149
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "The orders on the appellant to quality check the groundnuts do not indicate that there was any obligation on the part of the appellant to ensure that the requirements as specified at the port of loading should also be met at the port of destination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0119,
+        "Decision": 0.001,
+        "Facts": 0.0107,
+        "Issue": 0.0001,
+        "Reasoning": 0.9614
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "The appellant has certified the weight, packing, quality and quantity of the consignment at the port of loading.",
+      "predicted_label": "Facts",
+      "confidence": 0.8785,
+      "probabilities": {
+        "Arguments of Petitioner": 0.027,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0017,
+        "Facts": 0.8785,
+        "Issue": 0.0017,
+        "Reasoning": 0.086
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "There is no allegation that there was any deficiency either in respect of weight, packing, quality or quantity against the appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7667,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0674,
+        "Arguments of Respondent": 0.05,
+        "Decision": 0.0014,
+        "Facts": 0.1139,
+        "Issue": 0.0005,
+        "Reasoning": 0.7667
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "There is even no allegation that the directions regarding containers or packing were not complied with.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6788,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0975,
+        "Arguments of Respondent": 0.0908,
+        "Decision": 0.0031,
+        "Facts": 0.1293,
+        "Issue": 0.0006,
+        "Reasoning": 0.6788
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 95,
+      "text": "Once there was a direction that after fumigation the tapes should be removed, then it cannot be said that the appellant was duty bound to send in airtight containers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8185,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0509,
+        "Arguments of Respondent": 0.0815,
+        "Decision": 0.0054,
+        "Facts": 0.0434,
+        "Issue": 0.0003,
+        "Reasoning": 0.8185
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "The two things do not reconcile.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.024,
+        "Arguments of Respondent": 0.0285,
+        "Decision": 0.0005,
+        "Facts": 0.0425,
+        "Issue": 0.0013,
+        "Reasoning": 0.9033
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "The certificates issued by the appellant had a disclaimer that no responsibility can be accepted for the possible consequences of further development of Aflatoxin producing moulds dependent upon condition of storage and or transportation nor for differences arising from varying methods applied.",
+      "predicted_label": "Facts",
+      "confidence": 0.7428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0287,
+        "Arguments of Respondent": 0.0351,
+        "Decision": 0.0026,
+        "Facts": 0.7428,
+        "Issue": 0.0004,
+        "Reasoning": 0.1903
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "Thus, the appellant cannot be held responsible for the excess content of Aflatoxin for the reason that the result was a variance with the results in the certificates given by the appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6494,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0886,
+        "Arguments of Respondent": 0.2038,
+        "Decision": 0.0047,
+        "Facts": 0.0533,
+        "Issue": 0.0002,
+        "Reasoning": 0.6494
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "Still further, there was no obligation upon the appellant to ensure that the consignment would have the same product specification at the port of destination which were at the port of loading.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4112,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3469,
+        "Arguments of Respondent": 0.1164,
+        "Decision": 0.0069,
+        "Facts": 0.118,
+        "Issue": 0.0006,
+        "Reasoning": 0.4112
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 100,
+      "text": "The complainant has not produced best evidence which they were expected to produce in respect of the test results of the samples sent by the appellant to the port of destination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7523,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1472,
+        "Arguments of Respondent": 0.031,
+        "Decision": 0.0023,
+        "Facts": 0.067,
+        "Issue": 0.0002,
+        "Reasoning": 0.7523
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "There could be a deficiency of service only if the complainant was able to prove that the certificate issued by the appellant at the time of dispatch and the samples sent to the complainant or his agents is materially different.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8472,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0591,
+        "Arguments of Respondent": 0.0445,
+        "Decision": 0.0003,
+        "Facts": 0.0482,
+        "Issue": 0.0008,
+        "Reasoning": 0.8472
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "In the absence of any such proof, the appellant cannot be held deficient in service.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7561,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0695,
+        "Arguments of Respondent": 0.0714,
+        "Decision": 0.0423,
+        "Facts": 0.0594,
+        "Issue": 0.0013,
+        "Reasoning": 0.7561
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "Therefore, in the absence of any proof of negligence on the part of the appellant at the time of loading of the consignment, the appellant cannot be held responsible if at the port of destination, the products specifications were not the same as certified by the appellant at the time of loading of consignment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1417,
+        "Arguments of Respondent": 0.0845,
+        "Decision": 0.0089,
+        "Facts": 0.3346,
+        "Issue": 0.0027,
+        "Reasoning": 0.4276
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 104,
+      "text": "In the absence of any clause in the contract to ensure that the goods consigned has to meet the products specifications at the time of loading of consignment, the appellant cannot be held liable for change in specifications of the agricultural produce at the destination port after being in transit for two months on the high seas.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3609,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2546,
+        "Arguments of Respondent": 0.2016,
+        "Decision": 0.0145,
+        "Facts": 0.1651,
+        "Issue": 0.0032,
+        "Reasoning": 0.3609
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 105,
+      "text": "In view thereof, we find that the order of the Commission holding the appellant as deficient in service is not sustainable in the absence of any clause in the work order that the specifications should remain the same even at the port of destination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0128,
+        "Facts": 0.0719,
+        "Issue": 0.0006,
+        "Reasoning": 0.897
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "Consequently, the present appeal is allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9754,
+        "Facts": 0.0071,
+        "Issue": 0.0001,
+        "Reasoning": 0.0164
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "The order passed by the Commission is thus set aside and the complaint is dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9165,
+        "Facts": 0.0413,
+        "Issue": 0.0002,
+        "Reasoning": 0.0409
+      }
+    }
+  ]
+}

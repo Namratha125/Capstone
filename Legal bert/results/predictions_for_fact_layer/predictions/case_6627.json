@@ -1,0 +1,2950 @@
+{
+  "case_id": "6627",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " L. PENDSE J. ( 1 ) MATUSHREE Textiles Limited is a public limited company incorporated under the Companies act, 1956 (hereinafter referred to as the Act), and the authorised share capital of the company is Rs. 1,50,00,000 only divided into 15,00,000 equity shares of face value of Rs. 10 each.",
+      "predicted_label": "Facts",
+      "confidence": 0.989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.989,
+        "Issue": 0.0062,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The subscribed capital is Rs. 89,00,000 divided into 8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9234,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0011,
+        "Facts": 0.9234,
+        "Issue": 0.0035,
+        "Reasoning": 0.0589
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "90 lakhs shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.9504,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0063,
+        "Facts": 0.9504,
+        "Issue": 0.0017,
+        "Reasoning": 0.0357
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The shares of the company are listed on the Bombay Stock Exchange and at the relevant time, the value quoted was Rs. 40 per share.",
+      "predicted_label": "Facts",
+      "confidence": 0.9053,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0275,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0001,
+        "Facts": 0.9053,
+        "Issue": 0.0046,
+        "Reasoning": 0.0452
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The seventh annual general meeting of the company was held on September 30, 1989, for the year ending March 31, 1989, and, consequently, the eighth annual general meeting was statutorily required to be held as per section 166 of the Act latest by December 31, 1990.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6063,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1242,
+        "Arguments of Respondent": 0.0425,
+        "Decision": 0.0003,
+        "Facts": 0.2264,
+        "Issue": 0.0002,
+        "Reasoning": 0.6063
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "The meeting was not convened by the company within the stipulated time.",
+      "predicted_label": "Facts",
+      "confidence": 0.8106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0314,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0019,
+        "Facts": 0.8106,
+        "Issue": 0.0012,
+        "Reasoning": 0.1471
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The eighth annual general meeting for the year ending March 31, 1990, was convened on September 30, 1991, by notice under September 2, 1991.",
+      "predicted_label": "Facts",
+      "confidence": 0.8149,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0002,
+        "Facts": 0.8149,
+        "Issue": 0.0036,
+        "Reasoning": 0.1715
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The notice to the shareholders was sent by post on September 7, 1991, and under section 53 (2) (b) (i) the Act, the notice is deemed to have been effected at the expiration of fortheight hours after the letter is posted and accordingly, the notice is deemed to have been served on September 9, 1991.",
+      "predicted_label": "Facts",
+      "confidence": 0.3555,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1689,
+        "Arguments of Respondent": 0.1825,
+        "Decision": 0.0013,
+        "Facts": 0.3555,
+        "Issue": 0.003,
+        "Reasoning": 0.2888
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "( 2 ) THE plaintiffs instituted Suit No. 3002 of 1991 on September 21, 1991, for a declaration that defendants Nos. 1 to 4 are not entitled to convene the eighth annual general meeting on september 30, 1991, or any other date as calling of the said meeting is ultra vires and null and void.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4333,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4333,
+        "Arguments of Respondent": 0.1225,
+        "Decision": 0.0148,
+        "Facts": 0.3462,
+        "Issue": 0.0046,
+        "Reasoning": 0.0785
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The plaintiffs sought a declaration that notice dated September 2, 1991, convening the annual general meeting is ultra vires, invalid and illegal.",
+      "predicted_label": "Facts",
+      "confidence": 0.7541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0506,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.0016,
+        "Facts": 0.7541,
+        "Issue": 0.0042,
+        "Reasoning": 0.1741
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The plaintiffs sought a perpetual injunction restraining the defendants from holding and or proceeding with the annual general meeting and from in any manner giving effect or acting upon in furtherance of implementation of the resolutions to be passed at the meeting.",
+      "predicted_label": "Facts",
+      "confidence": 0.954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0002,
+        "Facts": 0.954,
+        "Issue": 0.0006,
+        "Reasoning": 0.0365
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The plaintiffs are holders of 3,110 equity shares and their holding is 0. 3 per cent.",
+      "predicted_label": "Facts",
+      "confidence": 0.7902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0952,
+        "Arguments of Respondent": 0.0289,
+        "Decision": 0.0014,
+        "Facts": 0.7902,
+        "Issue": 0.028,
+        "Reasoning": 0.0564
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "of the total equity subscribed.",
+      "predicted_label": "Facts",
+      "confidence": 0.8101,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0455,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0017,
+        "Facts": 0.8101,
+        "Issue": 0.0079,
+        "Reasoning": 0.1013
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Defendant No. 1 is the company, while defendants Nos. 2 to 4 are the directors.",
+      "predicted_label": "Facts",
+      "confidence": 0.9634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0001,
+        "Facts": 0.9634,
+        "Issue": 0.0096,
+        "Reasoning": 0.0215
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The notice of the eighth annual general meeting sets out that the following subjects will be transacted at the meeting 1.",
+      "predicted_label": "Facts",
+      "confidence": 0.6309,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0004,
+        "Facts": 0.6309,
+        "Issue": 0.0004,
+        "Reasoning": 0.35
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "To receive and adopt the audited profit and loss account and the balancesheet together with reports of directors and auditors thereon 2.",
+      "predicted_label": "Facts",
+      "confidence": 0.3628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2548,
+        "Arguments of Respondent": 0.0362,
+        "Decision": 0.0023,
+        "Facts": 0.3628,
+        "Issue": 0.0166,
+        "Reasoning": 0.3272
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "To appoint a director in place of Mr. Vimal Kumar Poddar who retires by rotation and is eligible for reappointment 3.",
+      "predicted_label": "Facts",
+      "confidence": 0.6962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2299,
+        "Arguments of Respondent": 0.026,
+        "Decision": 0.0213,
+        "Facts": 0.6962,
+        "Issue": 0.0087,
+        "Reasoning": 0.0178
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "To appoint auditors and to authorise the board to fix their remuneration 4.",
+      "predicted_label": "Facts",
+      "confidence": 0.8713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0734,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0002,
+        "Facts": 0.8713,
+        "Issue": 0.0023,
+        "Reasoning": 0.0471
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "To pass an ordinary resolution appointing Mr. Santosh Kumar Poddar as a director, and 5.",
+      "predicted_label": "Facts",
+      "confidence": 0.8138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1279,
+        "Arguments of Respondent": 0.0358,
+        "Decision": 0.0002,
+        "Facts": 0.8138,
+        "Issue": 0.0018,
+        "Reasoning": 0.0205
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "( 3 ) THE plaintiffs complained that the eighth annual general meeting convened on September 30, 1991, was proposed to be held beyond the statutory period contemplated under section 166 of the act and, therefore, the company is not entitled to call the meeting unless appropriate orders are obtained from the appropriate forum seeking extension of time.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4853,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4853,
+        "Arguments of Respondent": 0.0229,
+        "Decision": 0.001,
+        "Facts": 0.4661,
+        "Issue": 0.0046,
+        "Reasoning": 0.0202
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 20,
+      "text": "The plaintiffs further claimed that notice dated September 2, 1991, and which was deemed to have been served on September 9, 1991, for convening the meeting on September 30, 1991, does not comply with the requirement of section 171 of the Act as the duration of notice is less than 21 clear days.",
+      "predicted_label": "Facts",
+      "confidence": 0.8774,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0888,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0002,
+        "Facts": 0.8774,
+        "Issue": 0.0017,
+        "Reasoning": 0.0261
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "The plaintiffs further claimed that defendant No. 2, Santoshkumar Poddar, ceased to be a director of the company as from January 1, 1991, and his appointment as additional director pursuant to the resolution of the board of directors was bad in law.",
+      "predicted_label": "Facts",
+      "confidence": 0.986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0,
+        "Facts": 0.986,
+        "Issue": 0.0004,
+        "Reasoning": 0.0082
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The plaintiffs claimed that on retirement of defendant No. 2, the board was not properly constituted as the minimum number of directors required is three in number.",
+      "predicted_label": "Facts",
+      "confidence": 0.9521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0183,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0001,
+        "Facts": 0.9521,
+        "Issue": 0.001,
+        "Reasoning": 0.022
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The plaintiffs further claimed that the quorum required was two and defendants Nos. 2 and 3 being real brothers and closely related, it was not open for defendant no. 3 to participate in the meeting for appointment of defendant No. 2.",
+      "predicted_label": "Facts",
+      "confidence": 0.9347,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0,
+        "Facts": 0.9347,
+        "Issue": 0.0003,
+        "Reasoning": 0.0464
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The plaintiffs claimed that the resolution appointing defendant No. 2 as additional director was vitiated as there was no quorum required by the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9425,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0129,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0001,
+        "Facts": 0.9425,
+        "Issue": 0.0012,
+        "Reasoning": 0.0377
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The plaintiffs further claimed that if the appointment of defendant no. 2 was illegal and bad, the notice convening the annual general meeting signed by defendant no. 2 is bad in law and inoperative.",
+      "predicted_label": "Facts",
+      "confidence": 0.9447,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0,
+        "Facts": 0.9447,
+        "Issue": 0.0003,
+        "Reasoning": 0.0411
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The plaintiffs further claimed that the company had deliberately circulated an abridged balancesheet so as to cover up the acts of misconduct, misfeasance and malfeasance indulged in by defendants Nos. 2 to 4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9755,
+      "probabilities": {
+        "Arguments of Petitioner": 0.009,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0,
+        "Facts": 0.9755,
+        "Issue": 0.0001,
+        "Reasoning": 0.0127
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The plaintiffs claimed that a perusal of the auditors report and notes on accounts makes it very clear that the substratum of defendant No. 1 has disappeared and defendants Nos. 2 to 4 are mismanaging the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9132,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0317,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0002,
+        "Facts": 0.9132,
+        "Issue": 0.0002,
+        "Reasoning": 0.0392
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "( 4 ) THE plaintiffs instituted Suit No. 3003 of 1991 in respect of the ninth annual general meeting for the year ending March 31, 1991, convened on September 30, 1991, by notice dated september 2, 1991.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6252,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6252,
+        "Arguments of Respondent": 0.0724,
+        "Decision": 0.0068,
+        "Facts": 0.2577,
+        "Issue": 0.0035,
+        "Reasoning": 0.0344
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The notices were issued by the company to convene both the eighth and ninth annual general meetings on the same date and both the meetings were also to be held on the same date, i. e. , September 30, 1991.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0206,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0002,
+        "Facts": 0.4402,
+        "Issue": 0.0013,
+        "Reasoning": 0.5255
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "Suit No. 3003 of 1991 challenges the right of the company to hold the ninth annual general meeting for identical reasons as set out in companion suit No. 3002 of 1991.",
+      "predicted_label": "Facts",
+      "confidence": 0.8605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0078,
+        "Facts": 0.8605,
+        "Issue": 0.0896,
+        "Reasoning": 0.0365
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The notice for convening the ninth annual general meeting sets out the following agenda 1.",
+      "predicted_label": "Facts",
+      "confidence": 0.9487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0003,
+        "Facts": 0.9487,
+        "Issue": 0.0007,
+        "Reasoning": 0.0418
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "To receive and adopt the audited profit and loss account for the year ended March 31, 1991 2.",
+      "predicted_label": "Facts",
+      "confidence": 0.9003,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0008,
+        "Facts": 0.9003,
+        "Issue": 0.0836,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "To declare a dividend 3.",
+      "predicted_label": "Facts",
+      "confidence": 0.6073,
+      "probabilities": {
+        "Arguments of Petitioner": 0.288,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.001,
+        "Facts": 0.6073,
+        "Issue": 0.0519,
+        "Reasoning": 0.0441
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "To appoint a director in the place of Mr. Rajnikant Mehta, who retires by rotation and being eligible offers himself for reappointment 4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9457,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.002,
+        "Facts": 0.9457,
+        "Issue": 0.0012,
+        "Reasoning": 0.0062
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "To appoint auditors and authorise the board to fix their remuneration 5.",
+      "predicted_label": "Facts",
+      "confidence": 0.8707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0798,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0001,
+        "Facts": 0.8707,
+        "Issue": 0.0016,
+        "Reasoning": 0.04
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "To consider whether the authorised share capital of the company be increased from Rs. 1,50,00,000 to Rs. 2,00,00,000 divided into 20,00,000 shares of Rs. 10 each 6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0216,
+        "Arguments of Respondent": 0.0084,
+        "Decision": 0.0012,
+        "Facts": 0.9456,
+        "Issue": 0.0117,
+        "Reasoning": 0.0114
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "To issue 8,90,000 rights shares at the face value of Rs. 10 to the existing shareholders, and 7.",
+      "predicted_label": "Facts",
+      "confidence": 0.905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0496,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0002,
+        "Facts": 0.905,
+        "Issue": 0.0038,
+        "Reasoning": 0.0241
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "To authorise the board of directors to make loans to any body corporate from time to time and on such terms and conditions as the directors may deem fit, provided that the aggregate of the loans outstanding at any one time made to the company shall not exceed 30 per cent.",
+      "predicted_label": "Facts",
+      "confidence": 0.5514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3026,
+        "Arguments of Respondent": 0.0874,
+        "Decision": 0.0004,
+        "Facts": 0.5514,
+        "Issue": 0.0029,
+        "Reasoning": 0.0552
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "of the aggregate of the subscribed share capital of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.5643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0911,
+        "Arguments of Respondent": 0.0423,
+        "Decision": 0.003,
+        "Facts": 0.5643,
+        "Issue": 0.0211,
+        "Reasoning": 0.2782
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "No. 3139 of 1991 was instituted on September 30, 1991, by Arunkumar Poddar and rajkumar Bajaj and to whom the plaintiffs in other two suits are closely related and or are friends.",
+      "predicted_label": "Facts",
+      "confidence": 0.7549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0036,
+        "Facts": 0.7549,
+        "Issue": 0.0084,
+        "Reasoning": 0.2171
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Arunkumar Poddar is the real brother of defendants Nos. 2 and 3, Santoshkumar and vimalkumar Poddar, respectively.",
+      "predicted_label": "Facts",
+      "confidence": 0.8106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0005,
+        "Facts": 0.8106,
+        "Issue": 0.0014,
+        "Reasoning": 0.1635
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "Arunkumar Poddar and Rajkumar Bajaj claimed that initially, they were directors of the company but defendants Nos. 2 to 4 illegally claimed that they had ceased to be directors by virtue of section 283 (1) (g) of the Act by operation of law.",
+      "predicted_label": "Facts",
+      "confidence": 0.9386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0,
+        "Facts": 0.9386,
+        "Issue": 0.0003,
+        "Reasoning": 0.048
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "It was claimed that the contention of defendants Nos. 2 to 4 that Arunkumar Poddar and Rajkumar bajaj failed to attend the meetings and, therefore, ceased to be directors is not correct.",
+      "predicted_label": "Facts",
+      "confidence": 0.8184,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0391,
+        "Arguments of Respondent": 0.1157,
+        "Decision": 0.0001,
+        "Facts": 0.8184,
+        "Issue": 0.0007,
+        "Reasoning": 0.026
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "Arunkumar Poddar and Rajkumar Bajaj, apart from seeking a declaration that they continue to be the directors of the company and all meetings of the board of directors held without their presence were illegal and invalid and resolutions non est, sought relief in respect of the eighth and ninth annual general meetings convened on September 30, 1991.",
+      "predicted_label": "Facts",
+      "confidence": 0.9302,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0104,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0001,
+        "Facts": 0.9302,
+        "Issue": 0.0066,
+        "Reasoning": 0.051
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "The relief in respect of these two meetings was based on the same averments which were made in the two companion suits.",
+      "predicted_label": "Facts",
+      "confidence": 0.9194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0005,
+        "Facts": 0.9194,
+        "Issue": 0.0003,
+        "Reasoning": 0.0642
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "It hardly requires to be stated that the dispute between Arunkumar Poddar and his two brothers had led to the institution of the three suits.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.756,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0006,
+        "Facts": 0.2189,
+        "Issue": 0.01,
+        "Reasoning": 0.756
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "It is required to be stated at this juncture that at one stage, the dispute between the three brothers was referred to a spiritual leader in whom the brothers had confidence but the decision of the spiritual leader was not accepted by Arunkumar poddar and the parties decided to fight out the litigation in court.",
+      "predicted_label": "Facts",
+      "confidence": 0.8177,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0001,
+        "Facts": 0.8177,
+        "Issue": 0.0032,
+        "Reasoning": 0.1704
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "( 6 ) TWO notices of motion being Notice of Motion No. 2131 of 1991 and Notice of Motion No. 2132 of 1991 were taken out by the plaintiffs in Suits Nos. 3002 and 3003 of 1991, respectively, seeking interim relief restraining the company from holding and or proceeding with the eighth and ninth annual general meetings convened on September 30, 1991.",
+      "predicted_label": "Facts",
+      "confidence": 0.9751,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0002,
+        "Facts": 0.9751,
+        "Issue": 0.0005,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The plaintiffs also sought relief restraining the defendants from implementation of the resolution and business proposed to be transacted at the said annual general meetings.",
+      "predicted_label": "Facts",
+      "confidence": 0.9611,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9611,
+        "Issue": 0.0018,
+        "Reasoning": 0.0286
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "Notice of Motion No. 2158 of 1991 was taken out by Arunkumar Poddar in Suit No. 3139 of 1991 for identical reliefs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.001,
+        "Facts": 0.9606,
+        "Issue": 0.0039,
+        "Reasoning": 0.0252
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The plaintiffs applied for grant of ad interim relief pending of the disposal of the notice of motion, but the learned trial judge declined to grant any ad interim relief.",
+      "predicted_label": "Facts",
+      "confidence": 0.9021,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0022,
+        "Facts": 0.9021,
+        "Issue": 0.0051,
+        "Reasoning": 0.0765
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The plaintiffs thereupon preferred appeals before the Division Bench of this court and the Division Bench granted ad interim relief only in respect of the prayer restraining the defendants from implementing the resolutions to be passed at the two annual general meetings.",
+      "predicted_label": "Facts",
+      "confidence": 0.9489,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0005,
+        "Facts": 0.9489,
+        "Issue": 0.0026,
+        "Reasoning": 0.0371
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "As the court declined to restrain the defendants from holding and proceeding with the two annual general meetings, it is not in dispute that the meetings were held on September 30, 1991.",
+      "predicted_label": "Facts",
+      "confidence": 0.6472,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0007,
+        "Facts": 0.6472,
+        "Issue": 0.0012,
+        "Reasoning": 0.326
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "Though Arunkumar had lodged proxies prior to the date of the meetings, neither Arunkumar Poddar, nor any of the plaintiffs in the three suits attended the meetings.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3949,
+        "Arguments of Respondent": 0.09,
+        "Decision": 0.0008,
+        "Facts": 0.1966,
+        "Issue": 0.0017,
+        "Reasoning": 0.316
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 55,
+      "text": "( 7 ) THE notices of motion were taken up for hearing by the learned single judge after the date of the two meetings and the question which survived for consideration was whether the company should be restrained from implementing the resolutions which were passed.",
+      "predicted_label": "Facts",
+      "confidence": 0.4937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2024,
+        "Arguments of Respondent": 0.0919,
+        "Decision": 0.0011,
+        "Facts": 0.4937,
+        "Issue": 0.0048,
+        "Reasoning": 0.206
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "The resolutions providing for increase of share capital and issuance of rights shares and distribution of dividend could not be implemented because of grant of ad interim order.",
+      "predicted_label": "Facts",
+      "confidence": 0.7809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0341,
+        "Arguments of Respondent": 0.0274,
+        "Decision": 0.0305,
+        "Facts": 0.7809,
+        "Issue": 0.0073,
+        "Reasoning": 0.1198
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "The defendants resisted the relief sought by the plaintiffs in respect of implementation of the resolutions by urging that the contentions urged by the plaintiffs in respect of the validity of the notice convening the two annual general meetings cannot be sustained.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.7834,
+        "Decision": 0.0001,
+        "Facts": 0.1898,
+        "Issue": 0.0005,
+        "Reasoning": 0.02
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "The defendants pointed out that though the statutory period contemplated by section 166 of the Companies Act for convening the annual general meeting had expired, still there is no prohibition under the Act to convene the meeting and the company at the most would be liable to a penalty for convening a meeting beyond the statutory period.",
+      "predicted_label": "Facts",
+      "confidence": 0.5338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1449,
+        "Arguments of Respondent": 0.2239,
+        "Decision": 0.0003,
+        "Facts": 0.5338,
+        "Issue": 0.0006,
+        "Reasoning": 0.0966
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "The company did not seriously dispute that notice under section 171 of the Act was not of 21 clear days but of 20 days only, but urged that the provisions of section 171 of the act are not mandatory but merely directory and the business transacted at the two meeting should not be struck down unless the plaintiffs establish any prejudice.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4508,
+      "probabilities": {
+        "Arguments of Petitioner": 0.068,
+        "Arguments of Respondent": 0.4508,
+        "Decision": 0.0002,
+        "Facts": 0.4242,
+        "Issue": 0.0007,
+        "Reasoning": 0.0562
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 60,
+      "text": "The defendants pointed out that the plaintiffs have not even pleaded prejudice due to the shorter duration of the notice.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0238,
+        "Arguments of Respondent": 0.8948,
+        "Decision": 0.0003,
+        "Facts": 0.0339,
+        "Issue": 0.0002,
+        "Reasoning": 0.047
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The defendants also pointed out that the appointment of defendant No. 2 as additional director could not be invalidated and there is ample power under the Act for the existing members of the board to make the appointment.",
+      "predicted_label": "Facts",
+      "confidence": 0.7567,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0255,
+        "Arguments of Respondent": 0.1792,
+        "Decision": 0.0001,
+        "Facts": 0.7567,
+        "Issue": 0.0009,
+        "Reasoning": 0.0375
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "The contention of the plaintiffs that quorum was not available and, therefore, the appointment of defendant No. 2 is invalid was controverted and it was asserted that even though defendant No. 3 was related to defendant No. 2, there was no prohibition for defendant No. 3 to vote at the meting because the appointment of defendant No. 2 as additional director did not amount to contract or any other arrangement as prescribed by section 300 of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.2308,
+        "Decision": 0.0001,
+        "Facts": 0.729,
+        "Issue": 0.0017,
+        "Reasoning": 0.0245
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "The trial judge, by order dated October 15, 1991, found prima facie merit in the contentions urged to behalf of the defendants and held that the convening of the two annual general meetings did not suffer from any defect and it was not necessary to prevent the company from implementing the resolutions which were unanimously passed at the two annual general meetings.",
+      "predicted_label": "Facts",
+      "confidence": 0.9845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0,
+        "Facts": 0.9845,
+        "Issue": 0.0015,
+        "Reasoning": 0.0117
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "As a result of this finding, the trial judge dismissed the two motions.",
+      "predicted_label": "Facts",
+      "confidence": 0.9403,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0002,
+        "Facts": 0.9403,
+        "Issue": 0.0436,
+        "Reasoning": 0.0133
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "The third motion taken out by Arunkumar Poddar also ended in dismissal by a separate order dated october 15, 1991.",
+      "predicted_label": "Facts",
+      "confidence": 0.836,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0008,
+        "Facts": 0.836,
+        "Issue": 0.0352,
+        "Reasoning": 0.1178
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "It is required to be stated that in the notice of motion taking out by Arunkumar poddar only two grounds were urged one being that the dividend was declared in contravention of provisions of section 205 of the Act, and the second that the directors report does not set out the true, fair and correct picture of the company and window dressing is attempted to make a show that the company is making profits, while, in fact, the company is a sick unit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0004,
+        "Facts": 0.0552,
+        "Issue": 0.0014,
+        "Reasoning": 0.922
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "The trial judge did not find favour with the contentions of the plaintiffs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9551,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0001,
+        "Facts": 0.9551,
+        "Issue": 0.002,
+        "Reasoning": 0.0349
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "( 8 ) APPEALS Nos. 1001 and 1002 of 1991 are filed by the plaintiffs in Suits Nos. 3003 and 3002 of 1991, respectively, while Appeal No. 1082 of 1991 is filed by Arunkumar Poddar from order passed on Notice of Motion No. 3139 of 1991.",
+      "predicted_label": "Decision",
+      "confidence": 0.6241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.6241,
+        "Facts": 0.2931,
+        "Issue": 0.0143,
+        "Reasoning": 0.0538
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "( 10 ) SHRI Kapadia, learned counsel for the plaintiffs in the two suits and Shri Thakkar, learned counsel appearing for the plaintiffs in the suit instituted by Arunkumar Poddar and Rajkumar bajaj, raised four or five contentions to urge that the eighth and ninth annual general meetings held by the company were illegal and contrary to law.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8876,
+        "Arguments of Respondent": 0.0763,
+        "Decision": 0.0001,
+        "Facts": 0.011,
+        "Issue": 0.0002,
+        "Reasoning": 0.0248
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "The first contention urged by learned counsel is that the notice signed by defendant No. 2 as chairman and convening the meeting was illegal as the appointment of defendant No. 2, Santoshkumar, was illegal and consequently, the notice convening the meeting was not valid.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8406,
+        "Arguments of Respondent": 0.074,
+        "Decision": 0.0002,
+        "Facts": 0.0132,
+        "Issue": 0.0017,
+        "Reasoning": 0.0703
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "It was contended that defendant No. 2 had vacated the office as director on December 31, 1990, in accordance with section 255 of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.4987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2366,
+        "Arguments of Respondent": 0.2342,
+        "Decision": 0.0003,
+        "Facts": 0.4987,
+        "Issue": 0.0026,
+        "Reasoning": 0.0276
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "The section, inter alia, provides that the directors shall retire by rotation unless the articles provide for the retirement of all directors at every annual general meeting.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1384,
+        "Arguments of Respondent": 0.0353,
+        "Decision": 0.0004,
+        "Facts": 0.4117,
+        "Issue": 0.0004,
+        "Reasoning": 0.4138
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 73,
+      "text": "The meeting of the board of directors was held on January 1, 1991, and the minutes of the meetings disclose that defendants nos.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4442,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0903,
+        "Arguments of Respondent": 0.1531,
+        "Decision": 0.0019,
+        "Facts": 0.3097,
+        "Issue": 0.0007,
+        "Reasoning": 0.4442
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 74,
+      "text": "2 to 4 were present.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0848,
+        "Arguments of Respondent": 0.0247,
+        "Decision": 0.0005,
+        "Facts": 0.1979,
+        "Issue": 0.001,
+        "Reasoning": 0.6912
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "The fact that Santoshkumar retires on December 31, 1990, by rotation was noticed and the minutes establish that defendant No. 3 who is the real brother of santoshkumar requested the board that Santoshkumar be appointed as an additional director for reasons set out in the minutes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6401,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0646,
+        "Arguments of Respondent": 0.1223,
+        "Decision": 0.0001,
+        "Facts": 0.1726,
+        "Issue": 0.0002,
+        "Reasoning": 0.6401
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "The resolution appointing Santoshkumar Poddar, defendant No. 2, as additional director was passed unanimously by the two remaining directors being defendants nos. 3 and 4.",
+      "predicted_label": "Facts",
+      "confidence": 0.8908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0002,
+        "Facts": 0.8908,
+        "Issue": 0.0009,
+        "Reasoning": 0.0848
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "Shri Kapadia submitted that defendant No. 2 could not have been appointed as additional director at a meeting in which defendant No. 3 was present and voted because defendant No. 3 was interested in the resolution for appointment of defendant No. 2 and, therefore, was not entitled to participate in accordance with the provisions of section 300 of the act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7996,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1668,
+        "Arguments of Respondent": 0.7996,
+        "Decision": 0.0001,
+        "Facts": 0.0108,
+        "Issue": 0.0003,
+        "Reasoning": 0.0225
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "It was also contended that if defendant No. 3 is excluded from the meeting in respect of the resolution of appointment of defendant No. 2 as additional director, then the meeting could not have been held for want of quorum.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5828,
+        "Arguments of Respondent": 0.1225,
+        "Decision": 0.0002,
+        "Facts": 0.1657,
+        "Issue": 0.0027,
+        "Reasoning": 0.1261
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "Shri Kapadia further submitted that once defendant No. 2 retired by rotation, then the remaining two directors could not be considered as constituting a valid board of directors, the minimum number to constitute the board being three in accordance with section 252 (1) of the Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1765,
+        "Arguments of Respondent": 0.806,
+        "Decision": 0.0002,
+        "Facts": 0.0079,
+        "Issue": 0.0002,
+        "Reasoning": 0.0092
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "Shri Cooper, learned counsel appearing on behalf of the defendants, controverted the submissions by claiming that the challenge to the appointment of defendant No. 2 as additional director is without any merit because the participation of defendant No. 3 was not in contravention of the provisions of section 300 of the Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0181,
+        "Arguments of Respondent": 0.973,
+        "Decision": 0.0,
+        "Facts": 0.0037,
+        "Issue": 0.0001,
+        "Reasoning": 0.0051
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "It was urged that the appointment of defendant No. 2 as additional director is neither a contract nor an arrangement entered into by or on behalf of the company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5322,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5322,
+        "Arguments of Respondent": 0.2671,
+        "Decision": 0.0002,
+        "Facts": 0.1308,
+        "Issue": 0.0008,
+        "Reasoning": 0.069
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "Shri Cooper further submitted that the contention that the board was not properly constituted is not correct but even otherwise, it amounts only to an irregularity and the notice convening the annual general meetings or the resolutions passed in those meetings cannot be invalidated in view of the provisions of section 290 of the Act and regulation 85 of Table a of Schedule I to the Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9848,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.9848,
+        "Decision": 0.0003,
+        "Facts": 0.0018,
+        "Issue": 0.0002,
+        "Reasoning": 0.0036
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Shri cooper further submitted that the challenge to the appointment of defendant No. 2 as additional director cannot be entertained at the behest of the plaintiffs and it is only the company who may be able to challenge it in an action instituted by the shareholders on behalf of the company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.048,
+        "Arguments of Respondent": 0.9405,
+        "Decision": 0.0001,
+        "Facts": 0.0047,
+        "Issue": 0.0001,
+        "Reasoning": 0.0067
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "The suits instituted by individual shareholders cannot nullify the resolutions passed at annual general meetings and the plaintiffs cannot be permitted to defeat the rights of the shareholders for their own grievances against the board of directors.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4043,
+      "probabilities": {
+        "Arguments of Petitioner": 0.069,
+        "Arguments of Respondent": 0.4043,
+        "Decision": 0.0018,
+        "Facts": 0.1741,
+        "Issue": 0.0001,
+        "Reasoning": 0.3506
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 85,
+      "text": "Shri Kapadia relying upon the observations of the learned judge submitted that the appointment of additional director should be treated as an arrangement falling under section 300 of the Act and, consequently, defendant No. 3, who is the real brother of defendant No. 2, had interest in the appointment of defendant No. 2 and was, therefore, not entitled to discuss or vote on the resolution.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2464,
+        "Arguments of Respondent": 0.6041,
+        "Decision": 0.0001,
+        "Facts": 0.1067,
+        "Issue": 0.0002,
+        "Reasoning": 0.0425
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "It is undoubtedly true as held by the Supreme Court that the director is an agent of the company but the assumption of the plaintiffs that the relationship of principal and agent can be created only by contract is not accurate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0394,
+        "Arguments of Respondent": 0.0318,
+        "Decision": 0.0002,
+        "Facts": 0.054,
+        "Issue": 0.0004,
+        "Reasoning": 0.8743
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "The relationship can be created by operation of law and in such cases, the relationship cannot to be treated as a contract.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5072,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2122,
+        "Arguments of Respondent": 0.1797,
+        "Decision": 0.0015,
+        "Facts": 0.095,
+        "Issue": 0.0044,
+        "Reasoning": 0.5072
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 88,
+      "text": "The director is treated as an agent or a trustee by operation of law and not because the company or shareholders have entered into contractual relationship with the person purposed to be appointed as a director.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0654,
+        "Arguments of Respondent": 0.1144,
+        "Decision": 0.0005,
+        "Facts": 0.0305,
+        "Issue": 0.0004,
+        "Reasoning": 0.7889
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "We are in agreement with the view expressed by the learned single judge of the Madras High Court that the appointment of additional director does not amount to a contract as contemplated by section 300 (1) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9352,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0198,
+        "Facts": 0.0337,
+        "Issue": 0.0004,
+        "Reasoning": 0.9352
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "It is also not possible to accede to the submission of Shri Kapadia that in any event the appointment of a director amounts to an arrangement under section 300 (1 ).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0001,
+        "Facts": 0.0079,
+        "Issue": 0.0002,
+        "Reasoning": 0.9739
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "The observation of justice Rajagopala Ayyangar that the arrangement within the meaning of section must receive the interrelation that it must be of such a nature as would arise in the case of personal pecuniary nature in the context of the company is accurate and the expression arrangement must bear the meaning of it as in sections 209 and 301 of other Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4077,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.4077,
+        "Decision": 0.0046,
+        "Facts": 0.1586,
+        "Issue": 0.0004,
+        "Reasoning": 0.4041
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 92,
+      "text": "Section 301 demands that every company shall keep one or more registers in which shall be entered separately particulars of all contracts or arrangements and the particulars to be entered are the date of the contract or arrangement, the names of the parties thereto, the principal terms and conditions thereof, etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0829,
+        "Arguments of Respondent": 0.0756,
+        "Decision": 0.0002,
+        "Facts": 0.0554,
+        "Issue": 0.0003,
+        "Reasoning": 0.7856
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "It is impossible to accept that the appointment of the director amounts to an arrangement and it is required to be entered in the register maintained by the company under section 301 of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0437,
+        "Arguments of Respondent": 0.0418,
+        "Decision": 0.0005,
+        "Facts": 0.0358,
+        "Issue": 0.0003,
+        "Reasoning": 0.878
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "Shri Cooper pointed out that none of the companies have entered such appointments in the register maintained under section 301 of the Act because the arrangement contemplated under section 300 though directly not a contract must take the colour from the context of contractual relationship contemplated under the section.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.305,
+        "Arguments of Respondent": 0.6538,
+        "Decision": 0.0002,
+        "Facts": 0.0049,
+        "Issue": 0.0001,
+        "Reasoning": 0.036
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 95,
+      "text": "The arrangement is something skin to a contract though not strictly a contract as contemplated by the Contract Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0532,
+        "Arguments of Respondent": 0.0452,
+        "Decision": 0.0007,
+        "Facts": 0.0527,
+        "Issue": 0.0014,
+        "Reasoning": 0.8468
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "There is one more aspect which cannot be overlooked.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9309,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0182,
+        "Facts": 0.0365,
+        "Issue": 0.0011,
+        "Reasoning": 0.9309
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "What section 300 (1) prescribes is a contractual arrangement entered into by or on behalf of the company and it is impossible to suggest that appointment of an additional director is by and on behalf of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.048,
+        "Arguments of Respondent": 0.0748,
+        "Decision": 0.0003,
+        "Facts": 0.0244,
+        "Issue": 0.0002,
+        "Reasoning": 0.8522
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "The section postulates that the contract or arrangement is by the company or on behalf of the company and that means that the company is one of the contracting parties or parties to the arrangement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1157,
+        "Arguments of Respondent": 0.0395,
+        "Decision": 0.0002,
+        "Facts": 0.0385,
+        "Issue": 0.0011,
+        "Reasoning": 0.8049
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "The company is not a party for making an appointment of a person as director nor is the appointment on behalf of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5483,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1751,
+        "Arguments of Respondent": 0.1594,
+        "Decision": 0.0007,
+        "Facts": 0.1158,
+        "Issue": 0.0006,
+        "Reasoning": 0.5483
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 100,
+      "text": "To accept the submission that the appointment of an additional director amounts to a contract or arrangement, it would be necessary to conclude that such a contract or arrangement is by or on behalf of the company, and it is not possible to do so.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9174,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0293,
+        "Arguments of Respondent": 0.0315,
+        "Decision": 0.0004,
+        "Facts": 0.021,
+        "Issue": 0.0005,
+        "Reasoning": 0.9174
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "( 12 ) SHRI Cooper, in this connection, submitted that in spite of the fact that defendant No. 3 was a relation of defendant No. 2 and even assuming that the appointment of defendant No. 2 as an additional director amounts to a contract or arrangement, still the participation of defendant No. 3 in the appointment can at the most be treated as an irregularity.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5123,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5123,
+        "Arguments of Respondent": 0.4452,
+        "Decision": 0.0001,
+        "Facts": 0.0027,
+        "Issue": 0.0002,
+        "Reasoning": 0.0395
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 102,
+      "text": "It was urged that such an irregularity cannot be questioned by an individual shareholder but it is permissible only for the company to challenge the action or acts done in pursuance of such an irregularity.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5999,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5999,
+        "Arguments of Respondent": 0.2943,
+        "Decision": 0.0002,
+        "Facts": 0.0241,
+        "Issue": 0.0004,
+        "Reasoning": 0.0811
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 103,
+      "text": "In support of the submission, reliance was placed on the decision in Narayandas Shreeram Somani v. Sangli bank Ltd. 1965 35 Comp Cas 596 (SC) AIR 1966 SC 170.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5612,
+        "Arguments of Respondent": 0.3232,
+        "Decision": 0.0001,
+        "Facts": 0.0117,
+        "Issue": 0.0001,
+        "Reasoning": 0.1036
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 104,
+      "text": "( 13 ) SHRI Cooper submits and in our judgment, with considerable merit, that the participation of defendant No. 3 and casting of the vote to elect defendant No. 2 as an additional director at the most was an irregularity and that cannot vitiate the appointment of defendant No. 2 or his acting as director and signing the balance sheet and notice convening the annual general meeting.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3321,
+        "Arguments of Respondent": 0.2365,
+        "Decision": 0.0002,
+        "Facts": 0.0061,
+        "Issue": 0.0005,
+        "Reasoning": 0.4246
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 105,
+      "text": "The irregularity cannot to be questioned by an individual shareholder as long as the company does not question the appointment of defendant No. 2.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0805,
+        "Arguments of Respondent": 0.137,
+        "Decision": 0.006,
+        "Facts": 0.3847,
+        "Issue": 0.0004,
+        "Reasoning": 0.3914
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 106,
+      "text": "( 14 ) SHRI Cooper then submitted that the acts done by defendant No. 2 as a director in signing the balancesheet and convening the two annual general meetings are valid in spite of the alleged defect in the appointment of defendant No. 2 and relied upon the provisions of section 290 of the act and regulation 80.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1242,
+        "Arguments of Respondent": 0.8432,
+        "Decision": 0.0001,
+        "Facts": 0.0021,
+        "Issue": 0.0001,
+        "Reasoning": 0.0303
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "Section 290 of the Act, inter alia, provides that acts done by a person as a director shall be valid, notwithstanding that it may afterwards be discovered that his appointment was invalid by reason of any defect or disqualification by virtue of any provision contained in the Act or in the articles, Regulation 80, inter alia, prescribes that all acts done by any meeting of the board or by any person acting as a director, shall, notwithstanding that it may afterwards by discovered that there was some defect in the appointment be valid as if such director had been duly appointed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.115,
+        "Arguments of Respondent": 0.0944,
+        "Decision": 0.0002,
+        "Facts": 0.3015,
+        "Issue": 0.0005,
+        "Reasoning": 0.4883
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 108,
+      "text": "Shri Cooper submits that in view of then provisions of section 290 and regulation 80, even assuming that he contention of the plaintiffs in respect of appointment of defendant No. 2 is correct, still the acts done by defendant No. 2 in convening the two annual general meetings are required to be treated as valid.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9688,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.9688,
+        "Decision": 0.0001,
+        "Facts": 0.0012,
+        "Issue": 0.0001,
+        "Reasoning": 0.0055
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "Reliance was place don the decision in boschock Proprietary Co. Ltd. v. Fuke 1906 1",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.512,
+      "probabilities": {
+        "Arguments of Petitioner": 0.512,
+        "Arguments of Respondent": 0.272,
+        "Decision": 0.0002,
+        "Facts": 0.0403,
+        "Issue": 0.0002,
+        "Reasoning": 0.1754
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "Ch 148.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3363,
+        "Arguments of Respondent": 0.1193,
+        "Decision": 0.0016,
+        "Facts": 0.1726,
+        "Issue": 0.0075,
+        "Reasoning": 0.3627
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 111,
+      "text": "( 15 ) SHRI Kapadia contended that the meeting held on June 1, 1991, by the directors of the company and at which matting, defendant No. 2, Santoshkumar, was appointed as an additional director was illegal and invalid as the board was not properly constituted.",
+      "predicted_label": "Facts",
+      "confidence": 0.425,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3068,
+        "Arguments of Respondent": 0.2495,
+        "Decision": 0.0003,
+        "Facts": 0.425,
+        "Issue": 0.0006,
+        "Reasoning": 0.0178
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 112,
+      "text": "It was urged that section 252 of the Act demands that every public company shall have at least three director and on retirement of defendant No. 2 on December 31, 1990, there was no existing board as defendants Nos. 3 and 4 were the only directors left.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.484,
+      "probabilities": {
+        "Arguments of Petitioner": 0.484,
+        "Arguments of Respondent": 0.2878,
+        "Decision": 0.0004,
+        "Facts": 0.1952,
+        "Issue": 0.0008,
+        "Reasoning": 0.0318
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 113,
+      "text": "In the absence of at least three directors, claims Shri Kapadia, there was no validly constituted board and consequently, the meeting held on January 1, 1991, was invalid and so also the resolution passed by the two directors, i. e. , defendants Nos. 3 and 4, to appoint defendant No. 2 as an additional director.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8008,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8008,
+        "Arguments of Respondent": 0.1594,
+        "Decision": 0.0002,
+        "Facts": 0.0162,
+        "Issue": 0.0048,
+        "Reasoning": 0.0185
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "Shri Kapadia submitted that the trial judge was in error in referring to the provision of regulation 75 of Table a of the First Schedule to the Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6511,
+      "probabilities": {
+        "Arguments of Petitioner": 0.334,
+        "Arguments of Respondent": 0.6511,
+        "Decision": 0.0003,
+        "Facts": 0.003,
+        "Issue": 0.0003,
+        "Reasoning": 0.0113
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 115,
+      "text": "IT was contended that regulation 75 comes into the picture when the number of continuing director is reduced below the quorum and the continuing directors can act for the purpose of increasing the number of directors to that fixed for a quorum or of summoning a general meeting shri Kapadia submitted that on retirement of defendant No. 2, the continuing director were only defendants Nos. 3 and 4 and to constitute a quorum in accordance with section 252 (2), there must be at least two directors, but defendants Nos. 3 and 4 could not constitute a quorum because defendant No. 3 was interested in the appointment of defendant No. 2 as additional director and, therefore, not entitled to participate.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6205,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3232,
+        "Arguments of Respondent": 0.6205,
+        "Decision": 0.0001,
+        "Facts": 0.0266,
+        "Issue": 0.0002,
+        "Reasoning": 0.0294
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 116,
+      "text": "It was further submitted that regulation 75 can be attracted provided the continuing directors act for the purpose of increasing the number of directors to constitute a quorum or for summoning an annual general meeting and neither of those purposes was in existence on January 1, 1991, and consequently, the meeting held and at which defendant No. 2 was nominated as additional director was illegal.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5208,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5208,
+        "Arguments of Respondent": 0.1299,
+        "Decision": 0.0003,
+        "Facts": 0.3241,
+        "Issue": 0.0042,
+        "Reasoning": 0.0207
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 117,
+      "text": "Shri Cooper controverted the submission by urging that notwithstanding the fact that the strength of the continuing directors has fallen to less than the minimum number prescribed by section 252 (1) of the Act, it is open to the continuing directors to coopt more directors.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0836,
+        "Arguments of Respondent": 0.8565,
+        "Decision": 0.0001,
+        "Facts": 0.0087,
+        "Issue": 0.0001,
+        "Reasoning": 0.051
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "In support of submission, reliance was placed on the case of Sly, Spink and Co. ,",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6114,
+        "Arguments of Respondent": 0.294,
+        "Decision": 0.0002,
+        "Facts": 0.0229,
+        "Issue": 0.0001,
+        "Reasoning": 0.0714
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 119,
+      "text": "It is, therefore, not possible to accede to the submission of Shri Kapadia that the board of directors was not properly constituted at the meeting held on January 1, 1991, and the continuing directors could not have nominated defendant No. 2 as an additional director.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.0263,
+        "Decision": 0.0004,
+        "Facts": 0.0098,
+        "Issue": 0.0002,
+        "Reasoning": 0.9565
+      }
+    },
+    {
+      "sentence_id": 120,
+      "text": "( 18 ) SHRI Kapadia referred to an unreported decision, delivered by a single judge of this court in ketan Champaklal Bakshi v. Mrs. Sheela Sidhdharth Baksi (AFO No. 929 of 19901511991 ).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6911,
+        "Arguments of Respondent": 0.2062,
+        "Decision": 0.0005,
+        "Facts": 0.0492,
+        "Issue": 0.0006,
+        "Reasoning": 0.0524
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 121,
+      "text": "All ER 536 (HL) has no application to the facts of the present case, as it is not the claim of the plaintiffs that the board of directors was not properly constituted prior to January 1, 1991, In our judgment, the meeting held on January 1, 1991, was legal and valid and the action of defendants Nos. 3 and 4 as continuing directors in nominating defendant No. 2 as additional director does not suffer from any infirmity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.0468,
+        "Decision": 0.001,
+        "Facts": 0.0438,
+        "Issue": 0.0001,
+        "Reasoning": 0.8936
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "( 19 ) THE second contention urged by Shri Kapadia is that the notices dated September 2, 1991, issued under section 171 of the Act of convening the eighth and ninth annual general meetings on September 30, 1991, were not of sufficient duration and, therefore, the resolutions passed at the meetings are illegal and inoperative.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5293,
+        "Arguments of Respondent": 0.3972,
+        "Decision": 0.0003,
+        "Facts": 0.0026,
+        "Issue": 0.0012,
+        "Reasoning": 0.0694
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 123,
+      "text": "Subsection (3) of section 171 provides that the accidental omission to give notice to, or the nonreceipt of notice by, any member or other person to whom it may be given shall not invalidate the proceedings at the meeting.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8322,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0901,
+        "Arguments of Respondent": 0.0455,
+        "Decision": 0.0001,
+        "Facts": 0.0316,
+        "Issue": 0.0004,
+        "Reasoning": 0.8322
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "The two notices convening the two meetings are dated september 2, 1991, but were posted on September 7, 1991, and were received by the plaintiffs on September 12, 1991.",
+      "predicted_label": "Facts",
+      "confidence": 0.6094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0392,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.0013,
+        "Facts": 0.6094,
+        "Issue": 0.0011,
+        "Reasoning": 0.3325
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 125,
+      "text": "In view of the deeming provision under section 52 (b) (i) of the Act, the notice is deemed to have been served on the shareholders on September 9, 1991.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6254,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1292,
+        "Arguments of Respondent": 0.1218,
+        "Decision": 0.0017,
+        "Facts": 0.1209,
+        "Issue": 0.001,
+        "Reasoning": 0.6254
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 126,
+      "text": "Learned counsel urged that although none of the plaintiffs attended the annual general meetings and the resolutions were passed unanimously, the provisions of subsection (2) enabling the company to give shorter notice is not attracted because consent is not given by all the shareholders entitled to vote and that cannot be construed as only those shareholders who were present at the meeting.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.576,
+      "probabilities": {
+        "Arguments of Petitioner": 0.576,
+        "Arguments of Respondent": 0.3933,
+        "Decision": 0.0001,
+        "Facts": 0.0038,
+        "Issue": 0.0002,
+        "Reasoning": 0.0265
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 127,
+      "text": "Shri Kapadia submitting that the provisions of subsection (1) of section 171 of the Act are mandatory and noncompliance automatically vitiates the meetings as well meetings as well as the resolutions passed therein.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6523,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6523,
+        "Arguments of Respondent": 0.333,
+        "Decision": 0.0002,
+        "Facts": 0.0057,
+        "Issue": 0.0004,
+        "Reasoning": 0.0083
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 128,
+      "text": "A couple of shareholders cannot be permitted to defeat the interest of a large body of shareholders by raising the contention that the duration of notice was not sufficient and even though such complaints do not indicate any prejudice by service of notice of shorter duration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8443,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0518,
+        "Arguments of Respondent": 0.078,
+        "Decision": 0.0018,
+        "Facts": 0.0238,
+        "Issue": 0.0003,
+        "Reasoning": 0.8443
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "( 22 ) SHRI Kapadia relied upon some decisions in support of the submission that the provision is mandatory and absolute compliance is necessary and it is wholly irrelevant that any prejudice is caused by noncompliance.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5427,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1964,
+        "Arguments of Respondent": 0.5427,
+        "Decision": 0.0008,
+        "Facts": 0.0054,
+        "Issue": 0.0005,
+        "Reasoning": 0.2543
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "The reason is obvious that such holder of the share or debenture certificate should not be deprived of the properly right without the company being satisfied that the transfer is genuine.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9024,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0215,
+        "Arguments of Respondent": 0.0283,
+        "Decision": 0.0003,
+        "Facts": 0.0473,
+        "Issue": 0.0002,
+        "Reasoning": 0.9024
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "SHRI Kapadia also submitted that the trial judge was in error in concluding that the provision was directory by reference to subsection (3) of section 172 of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5322,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5322,
+        "Arguments of Respondent": 0.4298,
+        "Decision": 0.0004,
+        "Facts": 0.0061,
+        "Issue": 0.0004,
+        "Reasoning": 0.0311
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 132,
+      "text": "It was urged that the subsection refers only to accidental omission or nonreceipt of notice by any member and reference was made to English decisions to urge that the omission should be accidental and not intentional.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6621,
+        "Arguments of Respondent": 0.2209,
+        "Decision": 0.0001,
+        "Facts": 0.0224,
+        "Issue": 0.0004,
+        "Reasoning": 0.0941
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 133,
+      "text": "Reliance was also placed on the decision in Pearce, Duff and Co. Ltd. ,",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4106,
+        "Arguments of Respondent": 0.4637,
+        "Decision": 0.0006,
+        "Facts": 0.0443,
+        "Issue": 0.0003,
+        "Reasoning": 0.0806
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 134,
+      "text": "In re 1960 3 all ER 222 (Ch D) to urge that all shareholders must consent to the shorter duration of notice.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3953,
+        "Arguments of Respondent": 0.4341,
+        "Decision": 0.0002,
+        "Facts": 0.0099,
+        "Issue": 0.0004,
+        "Reasoning": 0.1601
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 135,
+      "text": "It is not necessary to examine this line of cases as it is not the claim of the defendants that there is an accidental omission in giving notice of shorter duration or that all the shareholders and consented to the notice being of shorter duration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0255,
+        "Arguments of Respondent": 0.0398,
+        "Decision": 0.0009,
+        "Facts": 0.0418,
+        "Issue": 0.0005,
+        "Reasoning": 0.8914
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "( 26 ) SHRI Kapadia sounded an apprehension that in case the provisions of section 171 (1) of the act are held to be directory, then every company would hold the annual general meetings by service of notice of any duration and this would defeat the object of service of notice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2104,
+        "Arguments of Respondent": 0.1605,
+        "Decision": 0.0002,
+        "Facts": 0.0722,
+        "Issue": 0.0001,
+        "Reasoning": 0.5566
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 137,
+      "text": "The submission is not accurate because even if the provision is held to be directory, that does not confer a charter on the company to serve notice of any duration according to their choice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8252,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.1006,
+        "Decision": 0.0003,
+        "Facts": 0.0468,
+        "Issue": 0.0002,
+        "Reasoning": 0.8252
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "Even if the provision is directory, it does not permit the company to bypass the statutory requirement and in every case where a breach is complained of, the court will have to examine whether the proceedings should be invalidated or otherwise.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7289,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0866,
+        "Arguments of Respondent": 0.1304,
+        "Decision": 0.0007,
+        "Facts": 0.0518,
+        "Issue": 0.0016,
+        "Reasoning": 0.7289
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "Learned counsel felt that a company may give notice of four or five days and will try to sustain the validity of the proceedings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0798,
+        "Arguments of Respondent": 0.2166,
+        "Decision": 0.0027,
+        "Facts": 0.1214,
+        "Issue": 0.0005,
+        "Reasoning": 0.5789
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 140,
+      "text": "It is impossible to assume that the court will close its eyes to the reality and accept the claim that notice of even one day is enough.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0501,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0007,
+        "Facts": 0.0175,
+        "Issue": 0.0002,
+        "Reasoning": 0.8978
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "The court will not proceed to invalidate the proceedings on the ground of insufficient duration of notice only when it is established that defect is not intentional or deliberate and no prejudice whatsoever is caused too a particular case by shorter duration of notice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0654,
+        "Arguments of Respondent": 0.0274,
+        "Decision": 0.0008,
+        "Facts": 0.0109,
+        "Issue": 0.0003,
+        "Reasoning": 0.8952
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "It would be necessary for a party complaining of insufficient duration of notice to plead prejudice caused and in case such prejudice is established, then even though the provision is directory, the court would grant the relief.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0578,
+        "Arguments of Respondent": 0.0914,
+        "Decision": 0.0005,
+        "Facts": 0.0115,
+        "Issue": 0.0004,
+        "Reasoning": 0.8385
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "( 27 ) SHRI Kapadia then submitted that in the present case, the notice was short by one day it has caused prejudice to the plaintiffs because the plaintiffs did not have sufficient time to canvass.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8511,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0488,
+        "Arguments of Respondent": 0.8511,
+        "Decision": 0.0014,
+        "Facts": 0.0116,
+        "Issue": 0.0001,
+        "Reasoning": 0.0869
+      }
+    },
+    {
+      "sentence_id": 144,
+      "text": "In support of the submission, reference was made to a letter dated September 18, 1991, addressed to the company by attorneys of the plaintiffs.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.321,
+        "Arguments of Respondent": 0.4844,
+        "Decision": 0.0003,
+        "Facts": 0.0968,
+        "Issue": 0.0002,
+        "Reasoning": 0.0972
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 145,
+      "text": "The letter demands supply of balancesheets and profit and loss accounts.",
+      "predicted_label": "Facts",
+      "confidence": 0.6891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0953,
+        "Arguments of Respondent": 0.0756,
+        "Decision": 0.0006,
+        "Facts": 0.6891,
+        "Issue": 0.0033,
+        "Reasoning": 0.1361
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 146,
+      "text": "The letter sets out that Santoshkumar was appointed as additional director improperly and copies of the minutes of the meetings were sought for.",
+      "predicted_label": "Facts",
+      "confidence": 0.5653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0598,
+        "Arguments of Respondent": 0.0454,
+        "Decision": 0.0003,
+        "Facts": 0.5653,
+        "Issue": 0.0003,
+        "Reasoning": 0.3289
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 147,
+      "text": "On September 20, 1991, the company informed the attorneys that in view of ongoing litigation between Arunkumar poddar and defendants Nos. 2 and 3, the attorneys should forward letters of authority of the clients authorising the attorneys to represent them.",
+      "predicted_label": "Facts",
+      "confidence": 0.8229,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0285,
+        "Arguments of Respondent": 0.0636,
+        "Decision": 0.0002,
+        "Facts": 0.8229,
+        "Issue": 0.0004,
+        "Reasoning": 0.0843
+      }
+    },
+    {
+      "sentence_id": 148,
+      "text": "On September 25, the demand was reiterated on behalf of the plaintiffs and on September 27, 1991, the company informed the plaintiffs to come and take inspection of all the documents.",
+      "predicted_label": "Facts",
+      "confidence": 0.8125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.045,
+        "Decision": 0.0003,
+        "Facts": 0.8125,
+        "Issue": 0.0003,
+        "Reasoning": 0.1204
+      }
+    },
+    {
+      "sentence_id": 149,
+      "text": "From this correspondence, it was contended by shri Kapadia that the company deliberately suppressed the relevant documents from the plaintiffs and that has caused prejudice to the plaintiffs as the plaintiffs did not have sufficient time to canvass against the proposed resolutions to be moved at the annual general meetings.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7594,
+      "probabilities": {
+        "Arguments of Petitioner": 0.117,
+        "Arguments of Respondent": 0.7594,
+        "Decision": 0.0003,
+        "Facts": 0.0701,
+        "Issue": 0.0002,
+        "Reasoning": 0.0531
+      }
+    },
+    {
+      "sentence_id": 150,
+      "text": "The only averment in paragraph 11 of the plaint in Suit No. 3002 of 1991 is that the defendants have deliberately circulated an abridged balancesheet so as to prevent acts of misconduct, misfeasance of the defendants coming to light.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.842,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0238,
+        "Arguments of Respondent": 0.0248,
+        "Decision": 0.0009,
+        "Facts": 0.1084,
+        "Issue": 0.0002,
+        "Reasoning": 0.842
+      }
+    },
+    {
+      "sentence_id": 151,
+      "text": "It is further averred that revenue a glance at the auditors report and notes on accounts makes it clear that the substratum of the company has disappeared and defendants Nos. 2 to 4 are mismanaging the company and treating the company as their private assets.",
+      "predicted_label": "Facts",
+      "confidence": 0.7955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0539,
+        "Arguments of Respondent": 0.1183,
+        "Decision": 0.0002,
+        "Facts": 0.7955,
+        "Issue": 0.0024,
+        "Reasoning": 0.0298
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "In Parashuram Detaram Shamdasani v. Tata Industrial Bank Ltd. , AIR 1928 PC 180 , it was held that the shareholders knowing the work to be transacted at the meeting and remaining absent cannot subsequently complain about insufficiency of notice for convening the meeting.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0447,
+        "Arguments of Respondent": 0.0507,
+        "Decision": 0.0002,
+        "Facts": 0.0073,
+        "Issue": 0.0001,
+        "Reasoning": 0.8969
+      }
+    },
+    {
+      "sentence_id": 153,
+      "text": "In out judgment, the plaintiffs have not suffered any prejudice whatsoever by the notice being of only 20 clear days instead of 21 clear days and it is obvious that the plaintiffs are set up by Arunkumar Poddar who has personal quarrels with defendants Nos. 2 and 3 who are his real brothers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5513,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0863,
+        "Decision": 0.0107,
+        "Facts": 0.3321,
+        "Issue": 0.0008,
+        "Reasoning": 0.5513
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 154,
+      "text": "The shareholding of the plaintiff is extremely negligible being 0.",
+      "predicted_label": "Facts",
+      "confidence": 0.5066,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2414,
+        "Arguments of Respondent": 0.1216,
+        "Decision": 0.0012,
+        "Facts": 0.5066,
+        "Issue": 0.0016,
+        "Reasoning": 0.1275
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 155,
+      "text": "3 per cent.",
+      "predicted_label": "Facts",
+      "confidence": 0.7199,
+      "probabilities": {
+        "Arguments of Petitioner": 0.036,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0017,
+        "Facts": 0.7199,
+        "Issue": 0.0038,
+        "Reasoning": 0.2241
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "and it would be entirely unreasonable to invalidate the business transacted at the annual general meeting at the behest of these few shareholders and to the detriment of a large body of shareholders who had unanimously approved the resolutions moved at the meetings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6654,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0933,
+        "Arguments of Respondent": 0.2071,
+        "Decision": 0.0004,
+        "Facts": 0.0336,
+        "Issue": 0.0002,
+        "Reasoning": 0.6654
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 157,
+      "text": "We enquired from learned counsel as to which resolution passed at the meeting affects the interest of the plaintiffs and the grievance seems to be only about the issuance of right shares after increasing the authorised share capital and conferring power on the board of directors to make loans to any body corporate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.75,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0481,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0025,
+        "Facts": 0.1791,
+        "Issue": 0.0035,
+        "Reasoning": 0.75
+      }
+    },
+    {
+      "sentence_id": 158,
+      "text": "The issuance of the right shares to all the existing shareholders can by no stretch of imagination affect the interest of the shareholders, nor would it change the controlling pattern of shareholding of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0419,
+        "Arguments of Respondent": 0.0926,
+        "Decision": 0.0058,
+        "Facts": 0.278,
+        "Issue": 0.0001,
+        "Reasoning": 0.5815
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 159,
+      "text": "The grievance about conferring power upon the board of directors to make loans to bodies corporate is the apprehension that the directors may give loans to firms and companies in which they have interest.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.136,
+        "Arguments of Respondent": 0.0687,
+        "Decision": 0.0003,
+        "Facts": 0.0729,
+        "Issue": 0.0168,
+        "Reasoning": 0.7052
+      }
+    },
+    {
+      "sentence_id": 160,
+      "text": "( 28 ) SHRI Kapadia then submitted that the proceedings held at the two annual general meetings should be invalidated because there was no strict compliance with the provisions of subsection (3) of section 217 of the Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2341,
+        "Arguments of Respondent": 0.6361,
+        "Decision": 0.0006,
+        "Facts": 0.0075,
+        "Issue": 0.0001,
+        "Reasoning": 0.1217
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 161,
+      "text": "Referring to the eighth annual report, learned counsel urged that the auditors had made certain remarks and the information supplied by the company was not sufficient and, therefore, it was not possible to pass the accounts at the annual general meeting.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5796,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5796,
+        "Arguments of Respondent": 0.3775,
+        "Decision": 0.0001,
+        "Facts": 0.0076,
+        "Issue": 0.0001,
+        "Reasoning": 0.0351
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 162,
+      "text": "We are unable to find any merit in the contention.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9085,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0275,
+        "Arguments of Respondent": 0.0414,
+        "Decision": 0.0048,
+        "Facts": 0.0169,
+        "Issue": 0.0009,
+        "Reasoning": 0.9085
+      }
+    },
+    {
+      "sentence_id": 163,
+      "text": "The directors report clearly recites that information as per section 217 of the Act is supplied and notes Nos. 5 to 8 on which counsel laid stress refer to estimated gratuity and liability, sundry debts, and interest on overdue bills and, in our judgment, the information supplied cannot be said to be insufficient so as to make it impossible for the shareholders to pass the accounts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.0294,
+        "Decision": 0.0014,
+        "Facts": 0.085,
+        "Issue": 0.0001,
+        "Reasoning": 0.8728
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "( 29 ) SHRI Kapadia then submitted that section 173 of the Act demands that in the case of an annual general meeting, a statement setting out all material facts connected with each item of the business should be annexed to the notice of the meeting.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3869,
+        "Arguments of Respondent": 0.5364,
+        "Decision": 0.0002,
+        "Facts": 0.0021,
+        "Issue": 0.0001,
+        "Reasoning": 0.0742
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 165,
+      "text": "It was contended that the provisions that the explanatory statement should be annexed to the notice is mandatory as held by the single judge of this court in Laljibhai C. Kapadia v. Lalji B. Desai 1973 45 Comp Cas 17 (Bom) and the decision in Sheth Mohanlal Ganpatram v. Shri Sayaji Jubilee Cotton and Jute Mills Co. Ltd. 1964 34 Comp Cas 777 (Guj) AIR 1965",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6203,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6203,
+        "Arguments of Respondent": 0.2123,
+        "Decision": 0.0003,
+        "Facts": 0.0685,
+        "Issue": 0.0017,
+        "Reasoning": 0.0968
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 166,
+      "text": "Guj 96 .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.282,
+      "probabilities": {
+        "Arguments of Petitioner": 0.282,
+        "Arguments of Respondent": 0.2049,
+        "Decision": 0.0049,
+        "Facts": 0.2173,
+        "Issue": 0.0247,
+        "Reasoning": 0.2661
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 167,
+      "text": "Learned counsel urged that item 8 of the ninth annual report sets out a resolution conferring power upon the board of directors to make any loan to any body corporate from time to time on such terms and conditions as the directors may deem fit provided that the aggregate of the loans outstanding at any one time made to the company shall not exceed 30 per cent.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5649,
+        "Arguments of Respondent": 0.4178,
+        "Decision": 0.0001,
+        "Facts": 0.0013,
+        "Issue": 0.0001,
+        "Reasoning": 0.0159
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 168,
+      "text": "of the aggregate of the subscribed share capital.",
+      "predicted_label": "Facts",
+      "confidence": 0.6532,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0947,
+        "Arguments of Respondent": 0.0752,
+        "Decision": 0.0022,
+        "Facts": 0.6532,
+        "Issue": 0.0053,
+        "Reasoning": 0.1694
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 169,
+      "text": "The explanatory note to item No. 8 sets out that in the course of business, the company may have to make loans or deposits, etc. , to bodies corporate in excess of the limits and section 370 of the act provides that no company shall make any loan or loans to any body corporate in excess of the limits fixed by the Central Government unless making of such loans has been previously authorised by a special resolution of the lending company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5358,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1391,
+        "Arguments of Respondent": 0.0467,
+        "Decision": 0.0001,
+        "Facts": 0.277,
+        "Issue": 0.0013,
+        "Reasoning": 0.5358
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 170,
+      "text": "The explanatory note recites that the company may have surplus funds during off season which the board of directors may utilise for giving loans and it is, therefore, advisable in the interest of the company to obtain the consent of the members by special resolution.",
+      "predicted_label": "Facts",
+      "confidence": 0.4934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0296,
+        "Arguments of Respondent": 0.015,
+        "Decision": 0.0004,
+        "Facts": 0.4934,
+        "Issue": 0.0006,
+        "Reasoning": 0.4609
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 171,
+      "text": "Shri Kapadia complains that the explanation is a tricky one because the claim that the company may have surplus funds is totally false.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2103,
+        "Arguments of Respondent": 0.4556,
+        "Decision": 0.0015,
+        "Facts": 0.179,
+        "Issue": 0.0015,
+        "Reasoning": 0.1521
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 172,
+      "text": "Reference was made to the minutes of the meeting held on January 1, 1991, at which meeting Santoshkumar was appointed as additional director.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3172,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3172,
+        "Arguments of Respondent": 0.314,
+        "Decision": 0.0002,
+        "Facts": 0.2771,
+        "Issue": 0.0013,
+        "Reasoning": 0.0902
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 173,
+      "text": "One of the reasons set out for appointing Santoshkumar was that the business of the company of manufacturing cotton printed sarees and texturised twisted yarn and P. O. Y. was undergoing recession and the company under the circumstances of the crisis has trying times ahead and Santoshkumar can help the company to come out of the crisis.",
+      "predicted_label": "Facts",
+      "confidence": 0.5979,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0003,
+        "Facts": 0.5979,
+        "Issue": 0.0025,
+        "Reasoning": 0.375
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 174,
+      "text": "Shri kapadia submits that this reason is indicative of the fact that the financial state of the company was not healthy and if that is so, it is impossible to imagine that the company may have surplus funds as set out in the explanatory statement.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6586,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2088,
+        "Arguments of Respondent": 0.6586,
+        "Decision": 0.0006,
+        "Facts": 0.0221,
+        "Issue": 0.0003,
+        "Reasoning": 0.1096
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 175,
+      "text": "It was urged that the power was sought by the board of directors only with a view to siphon away the funds of the company to the concerns in which defendants Nos. 2 and 3 have control and interest.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3674,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3257,
+        "Arguments of Respondent": 0.3674,
+        "Decision": 0.0004,
+        "Facts": 0.1969,
+        "Issue": 0.0009,
+        "Reasoning": 0.1087
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 176,
+      "text": "Learned counsel urged that the fact that the company did not give a truthful explanation is sufficient to invalidate the resolutions passed at the meetings.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8227,
+        "Arguments of Respondent": 0.1566,
+        "Decision": 0.0001,
+        "Facts": 0.0022,
+        "Issue": 0.0002,
+        "Reasoning": 0.0182
+      }
+    },
+    {
+      "sentence_id": 177,
+      "text": "It is not possible to find any merit in the contention for more than one reason.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0022,
+        "Facts": 0.0233,
+        "Issue": 0.0006,
+        "Reasoning": 0.9376
+      }
+    },
+    {
+      "sentence_id": 178,
+      "text": "In the first instance, the claim that the financial health of the company was not sound cannot be accepted merely because in the meeting held on January 1, 1991, one of the reasons given for nominating Santoshkumar was to overcome the recession in the market and which was due to the gulf War and money conditions being tight.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.024,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0001,
+        "Facts": 0.0469,
+        "Issue": 0.0001,
+        "Reasoning": 0.9049
+      }
+    },
+    {
+      "sentence_id": 179,
+      "text": "It is not correct that the financial condition of the the company was not sound because one of the resolutions at the ninth annual general meeting was to declare a divided.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7335,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0286,
+        "Arguments of Respondent": 0.0501,
+        "Decision": 0.0007,
+        "Facts": 0.187,
+        "Issue": 0.0001,
+        "Reasoning": 0.7335
+      }
+    },
+    {
+      "sentence_id": 180,
+      "text": "Shri Kapadia submitted that the company wants to disburse the dividend not out of the profits but out of the assets of the company and declaration of dividend was a ruse to mislead the shareholders.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8677,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0963,
+        "Arguments of Respondent": 0.8677,
+        "Decision": 0.0001,
+        "Facts": 0.0191,
+        "Issue": 0.0002,
+        "Reasoning": 0.0166
+      }
+    },
+    {
+      "sentence_id": 181,
+      "text": "Secondly, the assumption of the plaintiffs that the board of directors would siphon off the funds to the concerns of defendants Nos. 2 and 3 is without any foundation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4185,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2278,
+        "Arguments of Respondent": 0.2243,
+        "Decision": 0.0005,
+        "Facts": 0.1287,
+        "Issue": 0.0002,
+        "Reasoning": 0.4185
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 182,
+      "text": "There is not a whisper of complaint in the plaints that defendants Nos. 2 and 3 have previously siphoned away the funds of the company or had given loans to bodies corporate in which these defendants have any interest.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8823,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0105,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0003,
+        "Facts": 0.0978,
+        "Issue": 0.0003,
+        "Reasoning": 0.8823
+      }
+    },
+    {
+      "sentence_id": 183,
+      "text": "Save and except the averment made in paragraph 11 to which reference is made hereinabove, the plaintiffs have not pointed out any act of defendants Nos. 2 and 3 to create suspicion that resolution No. 8 at the ninth annual general meeting was for the purpose of enabling the board of director to grant loans to the own concerns.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0003,
+        "Facts": 0.0369,
+        "Issue": 0.0001,
+        "Reasoning": 0.9444
+      }
+    },
+    {
+      "sentence_id": 184,
+      "text": "Thirdly, the explanatory statement also recites that the surplus funds may be available during the off season and the conferring of a power cannot necessarily lead to the inference that the power was to be misused by the board of directors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9021,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0425,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0002,
+        "Facts": 0.0293,
+        "Issue": 0.0001,
+        "Reasoning": 0.9021
+      }
+    },
+    {
+      "sentence_id": 185,
+      "text": "Again, it is not permissible for the plaintiffs who were fully conscious of the business to be transacted at the annual general meeting to remain absent and thereafter complain of insufficiency of information or tricky explanation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0208,
+        "Decision": 0.0002,
+        "Facts": 0.0239,
+        "Issue": 0.0001,
+        "Reasoning": 0.9465
+      }
+    },
+    {
+      "sentence_id": 186,
+      "text": "In our judgment, the challenge to the business conducted in the meetings is without any substance and there is no reason to nullify the resolutions passed at the annual general meetings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9524,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0007,
+        "Facts": 0.0386,
+        "Issue": 0.0001,
+        "Reasoning": 0.9524
+      }
+    },
+    {
+      "sentence_id": 187,
+      "text": "IT is required to be mentioned that though the plaintiffs had claimed before the trial court that the company had no authority to convene the eighth annual general meeting after December, 1990, the said contention was not pressed by Shri Kapadia the during the arguments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7263,
+      "probabilities": {
+        "Arguments of Petitioner": 0.026,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0002,
+        "Facts": 0.2171,
+        "Issue": 0.0006,
+        "Reasoning": 0.7263
+      }
+    },
+    {
+      "sentence_id": 188,
+      "text": "The trial judge negatived the contention by holding that there is no prohibition on holding annual general meeting after the statutory period and the only consequence is of penalty payable by the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0001,
+        "Facts": 0.9467,
+        "Issue": 0.002,
+        "Reasoning": 0.0467
+      }
+    },
+    {
+      "sentence_id": 189,
+      "text": "In the absence of any arguments on this aspect, it is not necessary to examine the finding.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.762,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0635,
+        "Arguments of Respondent": 0.0751,
+        "Decision": 0.0024,
+        "Facts": 0.0957,
+        "Issue": 0.0012,
+        "Reasoning": 0.762
+      }
+    },
+    {
+      "sentence_id": 190,
+      "text": "In our judgment, the plaintiffs have not made out any case for grant of relied and accordingly, the appeals as well as Suits Nos. 3002 and 3003 of 1991 must fail in accordance with the consent statements field by the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6213,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.3381,
+        "Facts": 0.0352,
+        "Issue": 0.0004,
+        "Reasoning": 0.6213
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 191,
+      "text": "( 31 ) ACCORDINGLY, Appeals Nos. 1001 1002 and 1082 are dismissed with costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9528,
+        "Facts": 0.0029,
+        "Issue": 0.0001,
+        "Reasoning": 0.0431
+      }
+    },
+    {
+      "sentence_id": 192,
+      "text": "In view of the consent statement filed by the parties in Suits Nos. 3002 and 3003 of 1991 both the suits are dismissed with costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9291,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.9291,
+        "Facts": 0.0449,
+        "Issue": 0.0002,
+        "Reasoning": 0.0241
+      }
+    },
+    {
+      "sentence_id": 193,
+      "text": "The findings recorded by this judgment are binding upon the plaintiffs in suit No. 3139 of 1991 in view of the consent statement filed by the parties to this suit.",
+      "predicted_label": "Decision",
+      "confidence": 0.8058,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.8058,
+        "Facts": 0.0792,
+        "Issue": 0.0003,
+        "Reasoning": 0.1107
+      }
+    },
+    {
+      "sentence_id": 194,
+      "text": "AT this stage, Shri Kapadia orally applies for leave to appeal to the Supreme Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.6191,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0912,
+        "Arguments of Respondent": 0.0888,
+        "Decision": 0.0597,
+        "Facts": 0.6191,
+        "Issue": 0.0085,
+        "Reasoning": 0.1327
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 195,
+      "text": "Prayer refused.",
+      "predicted_label": "Facts",
+      "confidence": 0.8421,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0664,
+        "Arguments of Respondent": 0.021,
+        "Decision": 0.0109,
+        "Facts": 0.8421,
+        "Issue": 0.0321,
+        "Reasoning": 0.0275
+      }
+    },
+    {
+      "sentence_id": 196,
+      "text": "Shri Kapaida applies for continuation of interim relief on the ground that the interim relief has continued from September, 1991.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.452,
+        "Arguments of Respondent": 0.0455,
+        "Decision": 0.0171,
+        "Facts": 0.3217,
+        "Issue": 0.0119,
+        "Reasoning": 0.1517
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 197,
+      "text": "We are not inclined to continue the interim relief because the complaint about enforcement of the resolutions passed at the two annual general meetings is principally in respect of only two items, viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8502,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.012,
+        "Facts": 0.122,
+        "Issue": 0.0006,
+        "Reasoning": 0.8502
+      }
+    },
+    {
+      "sentence_id": 198,
+      "text": ", (a) issuance of rights shares, and (b)conferring power upon the board of directors to give loans.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5611,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2121,
+        "Arguments of Respondent": 0.0705,
+        "Decision": 0.0004,
+        "Facts": 0.1456,
+        "Issue": 0.0103,
+        "Reasoning": 0.5611
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 199,
+      "text": "We do not find that even if these two resolutions are enforced, any prejudice whatsoever will be caused to the plaintiffs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0108,
+        "Decision": 0.0011,
+        "Facts": 0.2818,
+        "Issue": 0.0002,
+        "Reasoning": 0.6994
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 200,
+      "text": "The rights shares are issued to the existing shareholders at par and issuance of such shares is not likely to affect the controlling pattern of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.7097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0587,
+        "Arguments of Respondent": 0.0474,
+        "Decision": 0.0018,
+        "Facts": 0.7097,
+        "Issue": 0.0008,
+        "Reasoning": 0.1816
+      }
+    },
+    {
+      "sentence_id": 201,
+      "text": "The apprehension that the shareholders may transfer the shares and interests of third parties may come in is without any merit.",
+      "predicted_label": "Facts",
+      "confidence": 0.5135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.1244,
+        "Decision": 0.0105,
+        "Facts": 0.5135,
+        "Issue": 0.0002,
+        "Reasoning": 0.3371
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 202,
+      "text": "The conferring of power on the board of directors to grant loans to bodies corporate also is not going to affect the interests of the plaintiffs as there are several restrictions prescribed under the Act on the granting of loans.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6066,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1022,
+        "Arguments of Respondent": 0.1977,
+        "Decision": 0.0003,
+        "Facts": 0.0931,
+        "Issue": 0.0001,
+        "Reasoning": 0.6066
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 203,
+      "text": "Accordingly, the prayer for continuation of interim relief is rejected.",
+      "predicted_label": "Facts",
+      "confidence": 0.5128,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.3314,
+        "Facts": 0.5128,
+        "Issue": 0.0013,
+        "Reasoning": 0.1406
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

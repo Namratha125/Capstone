@@ -1,0 +1,1356 @@
+{
+  "case_id": "6996",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "( 2 ) THE facts in brief out of which the present petition arise, are as under The petitioner is a public limited company manufacturing cloth and it has its denim Division situated within the jurisdiction of Nagardhan Gram Panchayatthe respondent no. 4 herein.",
+      "predicted_label": "Facts",
+      "confidence": 0.9971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.9971,
+        "Issue": 0.0007,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "It is the contention of the petitioner that Nagardhan is situated in backward area and there is no other industry nearby.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5591,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0004,
+        "Facts": 0.3698,
+        "Issue": 0.0007,
+        "Reasoning": 0.0584
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The petitioner Company started its manufacturing operations in the year 1990.",
+      "predicted_label": "Facts",
+      "confidence": 0.7715,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0827,
+        "Arguments of Respondent": 0.0391,
+        "Decision": 0.0006,
+        "Facts": 0.7715,
+        "Issue": 0.0077,
+        "Reasoning": 0.0983
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "For establishing its factory, it acquired the lands which are situated at a distance of about 3 kms.",
+      "predicted_label": "Facts",
+      "confidence": 0.4765,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0516,
+        "Arguments of Respondent": 0.0497,
+        "Decision": 0.0003,
+        "Facts": 0.4765,
+        "Issue": 0.0004,
+        "Reasoning": 0.4215
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 4,
+      "text": "It is the contention of the petitioner that one of its objects for establishing the factory, was to provide employment to the local population.",
+      "predicted_label": "Facts",
+      "confidence": 0.7929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1449,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0002,
+        "Facts": 0.7929,
+        "Issue": 0.0022,
+        "Reasoning": 0.057
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "( 3 )",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3745,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3745,
+        "Arguments of Respondent": 0.0349,
+        "Decision": 0.0097,
+        "Facts": 0.322,
+        "Issue": 0.0455,
+        "Reasoning": 0.2134
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "IT is further contended by the petitioner that it has constructed the factory, labourer colony, colony for security staff and also for residential accommodation for the employees working in the petitioner Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9113,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0694,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0001,
+        "Facts": 0.9113,
+        "Issue": 0.0007,
+        "Reasoning": 0.0151
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The petitioner Company further contended that insofar as the construction of road, drains, etc. are concerned the petitioner Company, on its own, constructed all these facilities in the factory premises, and that it has made provisions for street lights in the factory area and also in the area outside the factory by installing electric poles.",
+      "predicted_label": "Facts",
+      "confidence": 0.747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1468,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0009,
+        "Facts": 0.747,
+        "Issue": 0.0007,
+        "Reasoning": 0.0965
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The petitioner company contended that it has constructed latrines, urinals and is fully maintaining sanitation and cleaning the pits etc.",
+      "predicted_label": "Facts",
+      "confidence": 0.7679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1328,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.0032,
+        "Facts": 0.7679,
+        "Issue": 0.0005,
+        "Reasoning": 0.0791
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The petitioner Company has also provided for drinking water to entire factory staff and others and also water required for other purpose.",
+      "predicted_label": "Facts",
+      "confidence": 0.9406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0217,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0001,
+        "Facts": 0.9406,
+        "Issue": 0.0004,
+        "Reasoning": 0.0324
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "It is the contention of the petitioner Company that it has also made facility of garden, recreation, playground in the area occupied by it.",
+      "predicted_label": "Facts",
+      "confidence": 0.7646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1365,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0024,
+        "Facts": 0.7646,
+        "Issue": 0.0015,
+        "Reasoning": 0.09
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The petitioner Company also contended that it incurred expenses for social activities, tournaments, etc. wherein children and others participate.",
+      "predicted_label": "Facts",
+      "confidence": 0.8632,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0918,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0002,
+        "Facts": 0.8632,
+        "Issue": 0.001,
+        "Reasoning": 0.0366
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "4Gram panchayat has not contributed a single pie for providing these facilities to the petitioner company either towards drinking water, the sanitation, recreation or street lights.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4096,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4096,
+        "Arguments of Respondent": 0.0458,
+        "Decision": 0.0054,
+        "Facts": 0.245,
+        "Issue": 0.0005,
+        "Reasoning": 0.2938
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 13,
+      "text": "It is contended that on the contrary, the petitioner company has provided certain help to the gram Panchayat.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5456,
+        "Arguments of Respondent": 0.2814,
+        "Decision": 0.0012,
+        "Facts": 0.0846,
+        "Issue": 0.0029,
+        "Reasoning": 0.0844
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "( 4 ) IT is submitted that the respondent No. 4 passed a resolution dated 4th september, 2002, thereby resolving to accept rs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6343,
+        "Arguments of Respondent": 0.2614,
+        "Decision": 0.0004,
+        "Facts": 0.0938,
+        "Issue": 0.0006,
+        "Reasoning": 0.0095
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "2,27,535/ as lumpsum contribution under the provisions of Section 125 (1) of the said act, during the financial years 2002 to 2006 and accordingly demand bill was issued on 792002.",
+      "predicted_label": "Facts",
+      "confidence": 0.9758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0002,
+        "Facts": 0.9758,
+        "Issue": 0.0011,
+        "Reasoning": 0.0094
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "It is submitted on behalf of the petitioner that the resolution of the Gram panchayat and the agreement were forwarded by the Gram Panchayat to the Chief Executive officer, Zilla Parishad, Nagpur, who placed the same before the Standing Committee on 26th March, 2003.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7547,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0003,
+        "Facts": 0.2014,
+        "Issue": 0.0026,
+        "Reasoning": 0.036
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The Standing Committee of the Zilla Parishad passed a resolution on the same day, thereby resolving to cancel the resolution of the Gram Panchayat and issued a communication dated 7th May, 2003 to the gram Panchayat, informing it about the resolution passed by the Standing Committee.",
+      "predicted_label": "Facts",
+      "confidence": 0.9626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0002,
+        "Facts": 0.9626,
+        "Issue": 0.0005,
+        "Reasoning": 0.028
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "( 5 ) THE matter was heard by this court on various dates and on 21st October, 2004, this Court granted Rule in the matter.",
+      "predicted_label": "Facts",
+      "confidence": 0.989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0002,
+        "Facts": 0.989,
+        "Issue": 0.0019,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "This Court refused to grant any interim relief in the matter and clarified that pendency of writ petition would not preclude the Gram panchayat from recovering the taxes under section 124 of the said Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8295,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0218,
+        "Arguments of Respondent": 0.0225,
+        "Decision": 0.0036,
+        "Facts": 0.8295,
+        "Issue": 0.0032,
+        "Reasoning": 0.1194
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "( 6 ) DURING the pendency of the petition, another resolution was passed by the gram Panchayat dated 29th November, 2004, thereby resolving to levy a tax of Rs. 2,77,000/ on the petitioner in accordance with the provisions of Section 125 of the said Act, for period between 20032004 to 20052006.",
+      "predicted_label": "Facts",
+      "confidence": 0.9853,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0002,
+        "Facts": 0.9853,
+        "Issue": 0.0008,
+        "Reasoning": 0.0022
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "In pursuance to the said resolution, an agreement was also entered into between the petitioner and the respondent No. 4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.9814,
+        "Issue": 0.0027,
+        "Reasoning": 0.0113
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The said resolution was also forwarded to the Zilla Parishad by the Gram Panchayat.",
+      "predicted_label": "Facts",
+      "confidence": 0.6915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.1846,
+        "Decision": 0.0001,
+        "Facts": 0.6915,
+        "Issue": 0.0005,
+        "Reasoning": 0.097
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "The petitioner, therefore, filed Civil Application No. 168 of 2005, for a direction to the Zilla Parishad to forward the papers to the State Government through the commissioner,.",
+      "predicted_label": "Facts",
+      "confidence": 0.983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0004,
+        "Facts": 0.983,
+        "Issue": 0.0006,
+        "Reasoning": 0.0105
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "in accordance with the provisions of Maharashtra Village Panchayat (Payment of lumpsum contribution of factory in lieu of taxes) Rules, 1961 (hereinafter referred to as the said Rules for short ).",
+      "predicted_label": "Facts",
+      "confidence": 0.9799,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0,
+        "Facts": 0.9799,
+        "Issue": 0.0018,
+        "Reasoning": 0.0049
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The petitioner has also filed another application being Civil Application No. 170 of 2005 praying for disposal of the petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.4451,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2437,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.1039,
+        "Facts": 0.4451,
+        "Issue": 0.0237,
+        "Reasoning": 0.1668
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "By separate orders, we have disposed off both these civil applications and have taken the present petition for final hearing.",
+      "predicted_label": "Facts",
+      "confidence": 0.8666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0009,
+        "Facts": 0.8666,
+        "Issue": 0.1176,
+        "Reasoning": 0.012
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "Mokadam, the learned counsel for the petitioner, submitted that the scheme of Sec.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9753,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0002,
+        "Facts": 0.0092,
+        "Issue": 0.0003,
+        "Reasoning": 0.0129
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "125",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4316,
+      "probabilities": {
+        "Arguments of Petitioner": 0.311,
+        "Arguments of Respondent": 0.1051,
+        "Decision": 0.0107,
+        "Facts": 0.1278,
+        "Issue": 0.0138,
+        "Reasoning": 0.4316
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "and the said Rules provide the complete procedure in the matter of payment of lumpsum contribution by the factories in lieu of taxes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2069,
+        "Arguments of Respondent": 0.3262,
+        "Decision": 0.0007,
+        "Facts": 0.0827,
+        "Issue": 0.0002,
+        "Reasoning": 0.3834
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "He submitted that rule 3 of the said Rules provides for making of an application to the Gram Panchayat.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5757,
+      "probabilities": {
+        "Arguments of Petitioner": 0.417,
+        "Arguments of Respondent": 0.5757,
+        "Decision": 0.0003,
+        "Facts": 0.0023,
+        "Issue": 0.0002,
+        "Reasoning": 0.0044
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "Rule 4 provides for passing of the resolution by the gram Panchayat.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0289,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.0004,
+        "Facts": 0.3574,
+        "Issue": 0.0004,
+        "Reasoning": 0.5894
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "Rule 5 provides for execution of the agreement between the panchayat and the occupier, and the submission thereof to the Chief Executive officer and Rule 6 provides for submission of application by the Chief Executive Officer to the Government through the Commissioner, for its sanction.",
+      "predicted_label": "Facts",
+      "confidence": 0.7756,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0002,
+        "Facts": 0.7756,
+        "Issue": 0.0005,
+        "Reasoning": 0.2108
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "He submitted that after passing of the resolution by the Gram panchayat and entering into an agreement by the Gram Panchayat and occupier, the only role that was required to be played by the Zilla parishad (Standing Committee) was to forward the same to the Commissioner who, in turn, is required to forward it to the State Government and it was for the State Government to take the decision in the matter.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3076,
+        "Arguments of Respondent": 0.6735,
+        "Decision": 0.0003,
+        "Facts": 0.0027,
+        "Issue": 0.0001,
+        "Reasoning": 0.0159
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "He submitted that the entire action of the Zilla Parishad in suspending the earlier resolution dated 4th september, 2002 and the subsequent inaction on the part of the Zilla Parishad in not forwarding the proposal to the State government in pursuance to the resolution dated 29th November, 2004, passed by the gram Panchayat, was totally illegal.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6789,
+        "Arguments of Respondent": 0.3119,
+        "Decision": 0.0002,
+        "Facts": 0.004,
+        "Issue": 0.0001,
+        "Reasoning": 0.0049
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "He further submitted that the impugned order cancelling the resolution, deserves to be quashed and the Zilla Parishad needs to be directed to send the proposal to the State government as required under the provisions of the said Rules.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9041,
+        "Arguments of Respondent": 0.0841,
+        "Decision": 0.0015,
+        "Facts": 0.0028,
+        "Issue": 0.0004,
+        "Reasoning": 0.0071
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "( 9 ) SHRI.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.708,
+        "Arguments of Respondent": 0.0849,
+        "Decision": 0.0009,
+        "Facts": 0.1429,
+        "Issue": 0.0014,
+        "Reasoning": 0.062
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Rant, the learned counsel for the respondent Nos. 2 to 4, on the contrary, submitted that the resolution passed by the gram Panchayat was in contravention of the provisions of Rule 7 of the said Rules and as such the action taken by the Standing committee was justified.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.9784,
+        "Decision": 0.0001,
+        "Facts": 0.0012,
+        "Issue": 0.0001,
+        "Reasoning": 0.0157
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "He further submitted that since the resolution which was passed by the Gram Panchayat was contrary to public interest, Zilla Parishad was empowered under section 142 of the said Act to suspend the resolution dated 4th September, 2002.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2189,
+        "Arguments of Respondent": 0.7701,
+        "Decision": 0.0003,
+        "Facts": 0.0047,
+        "Issue": 0.0001,
+        "Reasoning": 0.006
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "However, the Gram Panchayat has arrived at an agreement with petitioner and assessed the tax of Rs. 2,77,000/ which has caused loss to the tune of Rs. 2. 3 lakh to the gram Panchayat.",
+      "predicted_label": "Facts",
+      "confidence": 0.368,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2967,
+        "Arguments of Respondent": 0.184,
+        "Decision": 0.0041,
+        "Facts": 0.368,
+        "Issue": 0.0026,
+        "Reasoning": 0.1447
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "125.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7574,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7574,
+        "Arguments of Respondent": 0.0971,
+        "Decision": 0.0024,
+        "Facts": 0.0104,
+        "Issue": 0.0088,
+        "Reasoning": 0.1238
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "(1)Subject to any rules that may be made under the Act, and regard being had to the fact that a factory itself provides in the factory area all or any of the amenities which such panchayat provides, a panchayat may arrive at an agreement with any factory with the sanction of the State Government to receive a lumpsum contribution in lieu of all or any of the taxes levied by the panchayat.",
+      "predicted_label": "Facts",
+      "confidence": 0.9054,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0234,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0002,
+        "Facts": 0.9054,
+        "Issue": 0.0006,
+        "Reasoning": 0.0644
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "5. Execution of agreement between panchayat and occupier and its submission to Chief Executive Officer.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4727,
+        "Arguments of Respondent": 0.0293,
+        "Decision": 0.0034,
+        "Facts": 0.4301,
+        "Issue": 0.0102,
+        "Reasoning": 0.0542
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 43,
+      "text": "No agreement in respect of which the provisions of any of the foregoing rules have not been complied with shall be sanctioned by the State government unless the State Government is of opinion that having regard to the amenities provided by the factory in the factory area as compared with the amenities provided by the panchayat in other areas within its jurisdiction, and the amount spent by the factory on such amenities and also having regard to the nature of public interest served by the factory, the amount of lump sum contribution specified in the agreement as payable by the factory is reasonable and on that account the agreement needs to be sanctioned provided that before any agreement is sanctioned under this rule, the State government shall obtain the views of the chief Executive Officer concerned.",
+      "predicted_label": "Facts",
+      "confidence": 0.8308,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0006,
+        "Facts": 0.8308,
+        "Issue": 0.0006,
+        "Reasoning": 0.1585
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "Rule 5 requires that after such an agreement is arrived at, an agreement in Form a appended to the rules shall be executed between the panchayat and the occupier.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0488,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0009,
+        "Facts": 0.218,
+        "Issue": 0.0005,
+        "Reasoning": 0.7245
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "In case of general sanitary cess and general water rate, it requires that it shall not be less than 30 of the amount receivable by it and in case of other taxes, it should not be less than 50 of the amount receivable by it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9236,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0289,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.003,
+        "Facts": 0.028,
+        "Issue": 0.0011,
+        "Reasoning": 0.9236
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "( 15 ) RULE 10 of the said Rules provides that no agreement in respect of which the provisions of any of the foregoing rules have not been complied with, shall be sanctioned by the State Government unless the state Government is of opinion that having regard to the amenities provided by the factory in the factory area as compared with the amenities provided by the Panchayat in other areas within its jurisdiction, and the amount spent by the factory on such amenities and also having regard to the nature of public interest served by the factory, the amount of lump sum contribution specified in the agreement as payable by the factory is reasonable and on that account the agreement needs to be sanctioned.",
+      "predicted_label": "Facts",
+      "confidence": 0.9398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0002,
+        "Facts": 0.9398,
+        "Issue": 0.0003,
+        "Reasoning": 0.0476
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "However, prior to granting a sanction to such an agreement, the State government is required to obtain the views of the Chief Executive Officer concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1702,
+        "Arguments of Respondent": 0.1076,
+        "Decision": 0.0006,
+        "Facts": 0.0979,
+        "Issue": 0.0007,
+        "Reasoning": 0.623
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "( 16 )",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5194,
+        "Arguments of Respondent": 0.0445,
+        "Decision": 0.0502,
+        "Facts": 0.1785,
+        "Issue": 0.0291,
+        "Reasoning": 0.1782
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "IT could, thus, be seen that the said Rules provide a complete code insofar as issue of payment of lump sum contribution by factory in lieu of taxes is concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0135,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0009,
+        "Facts": 0.1242,
+        "Issue": 0.0004,
+        "Reasoning": 0.8509
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "On an application by the occupier under Rule 3 of the said Rules, the concerned Panchayat is required to consider the same and pass necessary resolution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0915,
+        "Arguments of Respondent": 0.0367,
+        "Decision": 0.0024,
+        "Facts": 0.1378,
+        "Issue": 0.0004,
+        "Reasoning": 0.7313
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "Rule 5 provides that if there is an agreement between Panchayat and occupier, they are required to execute a written statement in form a Upon execution of such an agreement, Panchayat is required to forward the said agreement with relevant documents, to the Chief Executive Officer.",
+      "predicted_label": "Facts",
+      "confidence": 0.5559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0543,
+        "Arguments of Respondent": 0.0201,
+        "Decision": 0.0006,
+        "Facts": 0.5559,
+        "Issue": 0.0005,
+        "Reasoning": 0.3686
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "Rule 6 provides that on receipt of such proposal from gram Panchayat, the Chief Executive Officer should obtain the remarks of the Standing committee of the Zilla Parishad and forward the same to the Commissioner who, in turn, is required to submit the same with his comments to the State Government and the State government is required to consider the matter for sanction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1183,
+        "Arguments of Respondent": 0.3421,
+        "Decision": 0.0046,
+        "Facts": 0.0645,
+        "Issue": 0.0006,
+        "Reasoning": 0.4698
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 53,
+      "text": "( 17 ) RULE 7 of the said Rules provides for certain limitations.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4898,
+        "Arguments of Respondent": 0.0529,
+        "Decision": 0.008,
+        "Facts": 0.1283,
+        "Issue": 0.0033,
+        "Reasoning": 0.3176
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "It provides that the amount receivable by the Panchayat in respect of taxes should not be disproportionately less than the amount receivable by it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0495,
+        "Arguments of Respondent": 0.0286,
+        "Decision": 0.0015,
+        "Facts": 0.0604,
+        "Issue": 0.0004,
+        "Reasoning": 0.8595
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "It also provides that in case of Octroi, it should not be less than 70 of the average amount recovered by it for last three years, in case of general sanitary cess and general water rate, it shall not be less than 30 of the amount receivable by it and in case of other taxes, it should not be less than 50 of the amount receivable by it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0028,
+        "Facts": 0.4037,
+        "Issue": 0.0026,
+        "Reasoning": 0.5725
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "However, it can be seen that the provisions of Rule 7 are not mandatory.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0369,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0019,
+        "Facts": 0.0704,
+        "Issue": 0.0006,
+        "Reasoning": 0.8834
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "By subsequent amendment in the year 1980, rule 10 has been added to the said Rules which enables the State Government to even grant sanction in case where the agreement does not comply with any of the foregoing Rules.",
+      "predicted_label": "Facts",
+      "confidence": 0.4656,
+      "probabilities": {
+        "Arguments of Petitioner": 0.14,
+        "Arguments of Respondent": 0.0654,
+        "Decision": 0.0009,
+        "Facts": 0.4656,
+        "Issue": 0.0012,
+        "Reasoning": 0.3269
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "It could, thus be seen that a limitation as prescribed under Rule 7 is not mandatory.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9281,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0421,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.0001,
+        "Facts": 0.0135,
+        "Issue": 0.0003,
+        "Reasoning": 0.9281
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Having regard to certain factors specified in rule 10, the State Government may even grant sanction to any agreement which does not conform to any of the foregoing Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7407,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1068,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0004,
+        "Facts": 0.1341,
+        "Issue": 0.0002,
+        "Reasoning": 0.7407
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "However, prior to granting such sanction, the state Government has to arrive at the subjective satisfaction that having regard to the amenities provided by the factory in the factory area as compared with the amenities provided by the Panchayat in other areas within its jurisdiction, and the amount spent by the factory on such amenities and also having regard to the nature of public interest served by the factory, the amount of lump sum contribution specified in the agreement as payable by the factory is reasonable and on that account the agreement needs to be sanctioned.",
+      "predicted_label": "Facts",
+      "confidence": 0.4936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0109,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0009,
+        "Facts": 0.4936,
+        "Issue": 0.0008,
+        "Reasoning": 0.4903
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 61,
+      "text": "Rule 10 further requires that prior to such sanction, the State Government shall obtain the view of the Chief Executive Officer concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6446,
+      "probabilities": {
+        "Arguments of Petitioner": 0.226,
+        "Arguments of Respondent": 0.0667,
+        "Decision": 0.001,
+        "Facts": 0.0613,
+        "Issue": 0.0004,
+        "Reasoning": 0.6446
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "We, therefore, find that the contention of the learned counsel for the respondents that since the said agreement is in contravention of Rule 7, the Standing committee was justified in invoking powers under Section 142 of the said Act, is without substance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9731,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0006,
+        "Facts": 0.017,
+        "Issue": 0.0003,
+        "Reasoning": 0.9731
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "( 18 ) AS already discussed, Section 125 of the said Act and the said Rules are complete Code in itself insofar as the matter regarding payment in lump sum by the factories in lieu of taxes is concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0534,
+        "Arguments of Respondent": 0.035,
+        "Decision": 0.0148,
+        "Facts": 0.135,
+        "Issue": 0.0004,
+        "Reasoning": 0.7614
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "If the standing Committee of the Zilla Parishad is of the view that the agreement arrived at by the Gram Panchayat with the occupier is not in the public interest, or contrary to any of the provisions of the Rules, it can always point out the same to the State Government while forwarding the proposal.",
+      "predicted_label": "Decision",
+      "confidence": 0.5701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.5701,
+        "Facts": 0.1133,
+        "Issue": 0.0007,
+        "Reasoning": 0.3049
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "However, we find that invoking of powers under Section 142 of the said Act, in the present case, is totally unjustified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9505,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0045,
+        "Facts": 0.0331,
+        "Issue": 0.0003,
+        "Reasoning": 0.9505
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "When the said Act and the said rules specifically deal with the matter of lump sum contribution by the factories in lieu of taxes, recourse to general provision under section 142 of the said Act, in our view, is not warranted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0008,
+        "Facts": 0.053,
+        "Issue": 0.0002,
+        "Reasoning": 0.9311
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "In any case, Section 142 of the said Act only provides for suspension of the resolution and it is mandatory for the Standing committee to forward the said order of suspension to the Commissioner and it is for the Commissioner to take a final decision in the matter.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4404,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4404,
+        "Arguments of Respondent": 0.1727,
+        "Decision": 0.0041,
+        "Facts": 0.092,
+        "Issue": 0.0024,
+        "Reasoning": 0.2884
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "However, in the present case, we find that vide resolution dated 26th March, 2003, the Standing Committee of the Zilla parishad has cancelled the resolution passed by the Gram Panchayat dated 4th September, 2002.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0081,
+        "Facts": 0.0278,
+        "Issue": 0.0006,
+        "Reasoning": 0.946
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "A bare perusal of Section 142 of the said Act would reveal that the action of the standing Committee in cancelling the resolution is totally beyond its purview.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9308,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0313,
+        "Arguments of Respondent": 0.0135,
+        "Decision": 0.0032,
+        "Facts": 0.0205,
+        "Issue": 0.0007,
+        "Reasoning": 0.9308
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "In any case, when Section 125 of the said Act and the said Rules specifically deal with the matter regarding lump sum contribution by the factories in lieu of taxes levied by the panchayat, the Zilla Parishad was bound to comply with the said provisions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2184,
+        "Arguments of Respondent": 0.1473,
+        "Decision": 0.0052,
+        "Facts": 0.0469,
+        "Issue": 0.0005,
+        "Reasoning": 0.5818
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 71,
+      "text": "( 19 ) AS already discussed, the limited role that the Zilla Parishad plays in the matter is forwarding the agreement along with the documents specified in Rule 5 to the commissioner along with its remarks, for its sanction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9081,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.001,
+        "Facts": 0.0677,
+        "Issue": 0.0001,
+        "Reasoning": 0.9081
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "It is ultimately for the State government to consider the matter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0691,
+        "Arguments of Respondent": 0.0633,
+        "Decision": 0.0722,
+        "Facts": 0.0612,
+        "Issue": 0.0004,
+        "Reasoning": 0.7339
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "As already discussed hereinabove, the Zilla Parishad can always give its comments and opposition to the resolution of the Gram Panchayat and the state Government will have to consider the same before taking a decision regarding granting its sanction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.012,
+        "Arguments of Respondent": 0.0432,
+        "Decision": 0.0107,
+        "Facts": 0.0425,
+        "Issue": 0.0003,
+        "Reasoning": 0.8914
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "The reliance placed by the learned counsel for the respondent Nos. 2 to 4 on Rule 7 of the said Rules, in our view, is also not justified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.001,
+        "Facts": 0.0061,
+        "Issue": 0.0001,
+        "Reasoning": 0.9813
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "It is always open for the standing Committee to point out to the State government that any of the provisions of the rules have not been complied with by the gram Panchayat.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0871,
+        "Arguments of Respondent": 0.0582,
+        "Decision": 0.0254,
+        "Facts": 0.0378,
+        "Issue": 0.0001,
+        "Reasoning": 0.7913
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "Whether to grant sanction even in case provisions of Rules have not been complied, is within the domain of the State government in view of the provisions of Rule 10 of the said Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8232,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0302,
+        "Arguments of Respondent": 0.0616,
+        "Decision": 0.0232,
+        "Facts": 0.0616,
+        "Issue": 0.0002,
+        "Reasoning": 0.8232
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "The only requirement is that the State Government is required to consider various aspects stated in Rule 10 and thereafter arrive at its subjective satisfaction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0975,
+        "Arguments of Respondent": 0.0256,
+        "Decision": 0.0003,
+        "Facts": 0.0137,
+        "Issue": 0.0002,
+        "Reasoning": 0.8626
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "Further requirement is that before any such decision is taken by the State Government, the state Government has to lake into consideration the views of the Chief Executive officer concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1082,
+        "Arguments of Respondent": 0.0358,
+        "Decision": 0.001,
+        "Facts": 0.0293,
+        "Issue": 0.0006,
+        "Reasoning": 0.8251
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "We, therefore, find that the Rule 10 provides sufficient safeguard insofar as the public interest is concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0053,
+        "Facts": 0.0128,
+        "Issue": 0.0009,
+        "Reasoning": 0.9698
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "If any of the action in the matter of payment of lump sum contribution by the factories in lieu of taxes is contrary to the public interest according to the Zilla Parishad, it can always bring the same to the notice of the State government.",
+      "predicted_label": "Facts",
+      "confidence": 0.5564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0528,
+        "Arguments of Respondent": 0.1967,
+        "Decision": 0.0062,
+        "Facts": 0.5564,
+        "Issue": 0.0007,
+        "Reasoning": 0.1872
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "The State Government is bound to take into consideration the view of the Zilla parishad before it arrives at the decision in the matter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0886,
+        "Arguments of Respondent": 0.0677,
+        "Decision": 0.0927,
+        "Facts": 0.0904,
+        "Issue": 0.0018,
+        "Reasoning": 0.6589
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "If the State Government finds that the agreement arrived at by the Gram panchayat with the occupier is not in the public interest or is not in accordance with Rule 10, it can always refuse to grant its sanction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0227,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0006,
+        "Facts": 0.0271,
+        "Issue": 0.0006,
+        "Reasoning": 0.937
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "But the said powers are required to be exercised by the State Government.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0801,
+        "Arguments of Respondent": 0.0455,
+        "Decision": 0.0015,
+        "Facts": 0.0286,
+        "Issue": 0.0007,
+        "Reasoning": 0.8437
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "Zilla Parishad cannot exercise the jurisdiction vested with the state Government.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.361,
+        "Arguments of Respondent": 0.1443,
+        "Decision": 0.0627,
+        "Facts": 0.1392,
+        "Issue": 0.0004,
+        "Reasoning": 0.2923
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 85,
+      "text": "The limited role that is given to the Zilla Parishad is to forward the proposal to the State Government through the commissioner, with its remarks.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7453,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1033,
+        "Arguments of Respondent": 0.0649,
+        "Decision": 0.0005,
+        "Facts": 0.0855,
+        "Issue": 0.0004,
+        "Reasoning": 0.7453
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "We, therefore, find that the resolution dated 26th march, 2004 passed by the Standing committee is contrary to the provisions of the said Act and said Rules and the same is quashed and set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.3452,
+        "Facts": 0.1103,
+        "Issue": 0.0009,
+        "Reasoning": 0.5338
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "( 20 ) HOWEVER, it has been brought to our notice and it is not disputed that subsequently another resolution has been passed by the Gram Panchayat on 20th november, 2004, thereby accepting an amount of Rs. 2,77,000/ in lump sum in lieu of payment of taxes and an agreement has been entered into between the Gram Panchuyat and the occupier.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0575,
+        "Arguments of Respondent": 0.0198,
+        "Decision": 0.0026,
+        "Facts": 0.1294,
+        "Issue": 0.0005,
+        "Reasoning": 0.7902
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "However, it appears that the Zilla parishad is sitting tight over the said proposal and is not forwarding the same to the State government.",
+      "predicted_label": "Facts",
+      "confidence": 0.5557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0908,
+        "Arguments of Respondent": 0.1258,
+        "Decision": 0.0047,
+        "Facts": 0.5557,
+        "Issue": 0.0016,
+        "Reasoning": 0.2214
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "As already discussed, the limited role of the Zilla Parishad is to forward such proposal with its comments to the State government through the Commissioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0524,
+        "Arguments of Respondent": 0.0374,
+        "Decision": 0.0006,
+        "Facts": 0.0449,
+        "Issue": 0.0003,
+        "Reasoning": 0.8644
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "We, therefore, direct that the Chief Executive officer of the Zilla Parishad i. e.",
+      "predicted_label": "Decision",
+      "confidence": 0.5298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0306,
+        "Arguments of Respondent": 0.0124,
+        "Decision": 0.5298,
+        "Facts": 0.2695,
+        "Issue": 0.0015,
+        "Reasoning": 0.1562
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "On receipt of the said proposal, the State Government would take into consideration the provisions of the said Act and the Rules and take appropriate decision in the matter.",
+      "predicted_label": "Facts",
+      "confidence": 0.8991,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0147,
+        "Facts": 0.8991,
+        "Issue": 0.0004,
+        "Reasoning": 0.0683
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "( 21 ) RULE is made absolute in the aforesaid terms with no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.8399,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.8399,
+        "Facts": 0.1309,
+        "Issue": 0.0003,
+        "Reasoning": 0.0273
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "Petition allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9844,
+        "Facts": 0.0124,
+        "Issue": 0.0003,
+        "Reasoning": 0.0024
+      }
+    }
+  ]
+}

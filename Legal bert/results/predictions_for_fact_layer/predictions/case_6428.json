@@ -1,0 +1,2021 @@
+{
+  "case_id": "6428",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The legal issue that arises in these appeals relates to interpretation of Section 24(1)(a) of The Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 (2013 Act, for short), and in particular the question Whether the twoyear period specified under Section 11A of the Land Acquisition Act, 1894 (1894 Act, for short) will apply even after the repeal of the 1894 Act, or the twelvemonth period specified in Section 25 of the 2013 Act will apply for the awards made under clause (a) of Section 24(1) of the 2013 Act?",
+      "predicted_label": "Issue",
+      "confidence": 0.9908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0002,
+        "Facts": 0.008,
+        "Issue": 0.9908,
+        "Reasoning": 0.0005
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "To answer this question, we shall also examine whether the award claimed to have been passed on 30th October 2014 is backdated and whether the date has been changed by manipulating the award?",
+      "predicted_label": "Issue",
+      "confidence": 0.856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0018,
+        "Facts": 0.012,
+        "Issue": 0.856,
+        "Reasoning": 0.1241
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "For convenience and clarity, we would deal with the two issues separately.",
+      "predicted_label": "Issue",
+      "confidence": 0.7534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.001,
+        "Facts": 0.1371,
+        "Issue": 0.7534,
+        "Reasoning": 0.0951
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "In order to answer the legal question, some elemental facts are required to be noted.",
+      "predicted_label": "Facts",
+      "confidence": 0.7879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0002,
+        "Facts": 0.7879,
+        "Issue": 0.0824,
+        "Reasoning": 0.1243
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The State of Maharashtra, on 16th June 2011, had issued a notification under Section 4 of the 1894 Act for the acquisition of 203.86 hectares of land in village Adyal, District Bhandara, Maharashtra for the Gosikhurd Project.",
+      "predicted_label": "Facts",
+      "confidence": 0.989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.989,
+        "Issue": 0.0045,
+        "Reasoning": 0.0056
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "This was followed by publication of declarations under Section 6 of the 1894 Act, the last of which is dated 8th August 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.8695,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0136,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0001,
+        "Facts": 0.8695,
+        "Issue": 0.0018,
+        "Reasoning": 0.0948
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Vide Gazette Notification No. S.O. 3729(E) dated 19th December 2013, the 2013 Act came into force on 1st January 2014, and in terms of Section 114 of the 2013 Act, the 1894 Act was repealed.",
+      "predicted_label": "Facts",
+      "confidence": 0.4694,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0719,
+        "Arguments of Respondent": 0.0594,
+        "Decision": 0.0003,
+        "Facts": 0.4694,
+        "Issue": 0.0005,
+        "Reasoning": 0.3985
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "On 30th October 2014, the Special Land Acquisition Officer purportedly made an award in terms of clause (a) to Section 24(1) of the 2013 Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.971,
+        "Issue": 0.0216,
+        "Reasoning": 0.0058
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "On 18th December 2015 and 25th January 2016, two writ petitions were filed by some of the landowners for quashing and setting aside of the award dated 30th October 2014, which have been allowed by the judgment under challenge passed by the Nagpur Bench of the High Court of Judicature at Bombay on 27th July 2017, inter alia, ruling that in terms of Section 11A of the 1894 Act, the award ought to have been passed within two years from the date of the declaration under Section 6, that is, before 8th August 2014.",
+      "predicted_label": "Facts",
+      "confidence": 0.9633,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0001,
+        "Facts": 0.9633,
+        "Issue": 0.0202,
+        "Reasoning": 0.0117
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The acquisition proceedings having lapsed, the award was considered to be of no consequence and has been set aside.",
+      "predicted_label": "Facts",
+      "confidence": 0.4451,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1271,
+        "Arguments of Respondent": 0.0711,
+        "Decision": 0.0024,
+        "Facts": 0.4451,
+        "Issue": 0.1087,
+        "Reasoning": 0.2456
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "The High Court also agreed with the landowners that the award purportedly made on 30th October 2014 was backdated.",
+      "predicted_label": "Facts",
+      "confidence": 0.8641,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0003,
+        "Facts": 0.8641,
+        "Issue": 0.0297,
+        "Reasoning": 0.091
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "Discerning negligence on the part of the officers, which necessitates fresh acquisition proceedings thereby causing great financial burden to the acquisition authority, directions have been issued to the State of Maharashtra to conduct an inquiry against the Collector, Bhandara and the Land Acquisition Officer, Bhandara.",
+      "predicted_label": "Facts",
+      "confidence": 0.6416,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0232,
+        "Arguments of Respondent": 0.0246,
+        "Decision": 0.0013,
+        "Facts": 0.6416,
+        "Issue": 0.0077,
+        "Reasoning": 0.3017
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "10. Section 24(1) deals with two specific situations where the land acquisition proceedings were initiated before the repeal of the 1894 Act, namely (i) where an award has been made, and (ii) where an award has not been made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9254,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0001,
+        "Facts": 0.051,
+        "Issue": 0.0005,
+        "Reasoning": 0.9254
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "In the present case, clause (a) to Section 24(1) of the 2013 Act would apply as the land acquisition proceedings initiated under the 1894 Act had not culminated into an award till the repeal of the 1894 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8892,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0406,
+        "Arguments of Respondent": 0.0561,
+        "Decision": 0.0029,
+        "Facts": 0.011,
+        "Issue": 0.0001,
+        "Reasoning": 0.8892
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Section 24(1)(a) partly nullifies the legal effect of savings under Section 6 of the General Clauses Act as it hybridizes application of the 1894 Act and the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5403,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1657,
+        "Arguments of Respondent": 0.2866,
+        "Decision": 0.0016,
+        "Facts": 0.0057,
+        "Issue": 0.0002,
+        "Reasoning": 0.5403
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "While preserving validity of the acquisition proceedings by issue of declarations under the 1894 Act, it states that all the provisions for determination of compensation under the 2013 Act shall apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0318,
+        "Arguments of Respondent": 0.0421,
+        "Decision": 0.0011,
+        "Facts": 0.0134,
+        "Issue": 0.0002,
+        "Reasoning": 0.9114
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The section consciously saves the legal effect of the notifications issued under Section 4 and or Section 6 of the 1894 Act and obviates the necessity to issue a fresh notification under the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6226,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0273,
+        "Arguments of Respondent": 0.3386,
+        "Decision": 0.0089,
+        "Facts": 0.0023,
+        "Issue": 0.0003,
+        "Reasoning": 0.6226
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "This perseveration of the determination date for the computation of compensation for the awards made under Section 24(1)(a) of the 2013 Act is a thought through legislative invocation that curtails time delays and cost escalation of infrastructure projects, as well as checks the postacquisition notification malpractices, and at the same time ensures that the landowners are entitled to the benefit of the enhanced compensation as per the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9571,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0075,
+        "Facts": 0.0153,
+        "Issue": 0.0004,
+        "Reasoning": 0.9571
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "In Indore Development Authority v. Manoharlal and Others (2020) 8 SCC 129 (Lapse  5 Judges), a Constitution Bench held that where proceedings for acquisition had been initiated under the 1894 Act but no award under Section 11 of the 1894 Act had been made, the provisions of the 2013 Act would apply limited to determination of compensation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0437,
+        "Arguments of Respondent": 0.0955,
+        "Decision": 0.0005,
+        "Facts": 0.0217,
+        "Issue": 0.0004,
+        "Reasoning": 0.8383
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "Where, however, an award had been made under the 1894 Act, clause (b) to Section 24(1) protects the vested rights of the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0621,
+        "Arguments of Respondent": 0.1076,
+        "Decision": 0.0004,
+        "Facts": 0.0249,
+        "Issue": 0.0005,
+        "Reasoning": 0.8045
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "We need not, for the purpose of the present case, elucidate the ratio of the aforementioned judgment on interpretation of Section 24(2) of the 2013 Act, but it is apposite to notice that the Constitution Bench has emphasised that the 2013 Act provides for higher compensation along with provisions for rehabilitation, and that this intended benefit, wherever applicable, should not be taken away.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0148,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0016,
+        "Facts": 0.0133,
+        "Issue": 0.0038,
+        "Reasoning": 0.9622
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "At the same time, on the aspect of legal interpretation, it is observed that full effect has to be given to the provisions contained in Section 24 as it is not for the court to legislate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0159,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0007,
+        "Facts": 0.0245,
+        "Issue": 0.0003,
+        "Reasoning": 0.9276
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The courts can and do, in appropriate cases, clear ambiguity in legislations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8785,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0421,
+        "Arguments of Respondent": 0.0656,
+        "Decision": 0.0005,
+        "Facts": 0.012,
+        "Issue": 0.0013,
+        "Reasoning": 0.8785
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Dealing with the interplay of vested rights and retrospective application of statutes, Indore Development Authority (supra) refers to several decisions to draw a distinction between rights and procedure, to observe that the question of extent of retrospectivity would also depend upon the degree of unfairness it causes to the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0269,
+        "Arguments of Respondent": 0.0818,
+        "Decision": 0.0001,
+        "Facts": 0.005,
+        "Issue": 0.0003,
+        "Reasoning": 0.886
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Thus, if the limitation period is shortened but the claimant has time to sue before the expiry of the shortened period, then notwithstanding that he is likely to be statutorily barred if he does not sue within the shortened period, retrospectivity may be given effect to.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0154,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0001,
+        "Facts": 0.0031,
+        "Issue": 0.0003,
+        "Reasoning": 0.967
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "We add that when the law extends the limitation period, benefit of extended period applies to proceedings to be initiated that are not time barred.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9442,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0175,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0039,
+        "Facts": 0.0246,
+        "Issue": 0.0009,
+        "Reasoning": 0.9442
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Per contra, if the limitation period is extended after the shorter limitation period has already expired, which could have been an absolute defence for the party sued, then it may not be fair to deprive the party sued of the accrued right of claiming such defence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9599,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0001,
+        "Facts": 0.0044,
+        "Issue": 0.0002,
+        "Reasoning": 0.9599
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "Further, absence of express limiting words is not to be used as a basis for implying retrospective operation as this would be reverse of the true presumption.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0574,
+        "Arguments of Respondent": 0.0435,
+        "Decision": 0.0002,
+        "Facts": 0.0079,
+        "Issue": 0.0002,
+        "Reasoning": 0.8908
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "However, presumption in favour of retrospectivity may be necessary when distinct implications typically arise in the context of the statute which repeals a previous statute, and would leave a lacuna if the new statute were not construed as having retrospective effect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0375,
+        "Decision": 0.0002,
+        "Facts": 0.005,
+        "Issue": 0.0011,
+        "Reasoning": 0.9385
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "A statute which is prospective in its direct operation cannot be called as retrospective because a part of the requisites for its action is drawn from time antecedent to its passing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0216,
+        "Arguments of Respondent": 0.0876,
+        "Decision": 0.0008,
+        "Facts": 0.0059,
+        "Issue": 0.0009,
+        "Reasoning": 0.8832
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Another cardinal principle of interpretation is that a construction which results in unreasonably harsh and absurd results must be avoided.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0551,
+        "Arguments of Respondent": 0.1232,
+        "Decision": 0.0004,
+        "Facts": 0.0232,
+        "Issue": 0.001,
+        "Reasoning": 0.7971
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "In paragraph 195 in Indore Development Authority (supra), the Constitution Bench held that the 2013 Act operates prospectively.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0503,
+        "Arguments of Respondent": 0.1344,
+        "Decision": 0.0054,
+        "Facts": 0.0199,
+        "Issue": 0.0022,
+        "Reasoning": 0.7877
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Further, Section 114 of the 2013 Act effects a repeal but with certain savings, in accordance with Section 24.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0363,
+        "Arguments of Respondent": 0.044,
+        "Decision": 0.0024,
+        "Facts": 0.0193,
+        "Issue": 0.0006,
+        "Reasoning": 0.8975
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Thus, the acquisition proceedings are preserved under the 1894 Act till the stage of making of the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1196,
+        "Arguments of Respondent": 0.1016,
+        "Decision": 0.0002,
+        "Facts": 0.0286,
+        "Issue": 0.0002,
+        "Reasoning": 0.7498
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Where an award is not made, the provisions relating to determination of compensation under the 2013 Act would apply where the award is made, proceedings would continue under the provisions of the 1894 Act as if the said Act has not been repealed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.77,
+      "probabilities": {
+        "Arguments of Petitioner": 0.061,
+        "Arguments of Respondent": 0.1579,
+        "Decision": 0.0029,
+        "Facts": 0.0079,
+        "Issue": 0.0002,
+        "Reasoning": 0.77
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Our interpretation of Section 24(1) of the 2013 Act respectfully follows this precedent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9515,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.017,
+        "Decision": 0.0148,
+        "Facts": 0.0074,
+        "Issue": 0.0027,
+        "Reasoning": 0.9515
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "In the context of clause (a) to Section 24(1) of the 2013 Act, it is to be stated that the said clause would apply only if the period for making of an award had not ended and time was available as on 1st January 2014.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9272,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0096,
+        "Decision": 0.0011,
+        "Facts": 0.0465,
+        "Issue": 0.0005,
+        "Reasoning": 0.9272
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Where and if the period for making of the award had already lapsed before 1st January 2014, clause (a) to Section 24(1) would not apply so as to deprive and deny the vested rights which have already accrued in favour of the landowners.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0875,
+        "Arguments of Respondent": 0.0611,
+        "Decision": 0.0011,
+        "Facts": 0.0535,
+        "Issue": 0.0006,
+        "Reasoning": 0.7962
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The present case is not of divesting of vested rights of the landowners on enactment of the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0212,
+        "Arguments of Respondent": 0.0302,
+        "Decision": 0.0011,
+        "Facts": 0.0081,
+        "Issue": 0.0001,
+        "Reasoning": 0.9393
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Given the object and purpose behind Sections 24, and 26 to 30 of the 2013 Act, we notice that practical absurdities and anomalies may arise if the twoyear period for making of an award in terms of Section 11A of the 1894 Act commencing from the date of issue of the declaration is applied to the awards to be made under Section 24(1)(a) of the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0075,
+        "Facts": 0.0096,
+        "Issue": 0.0008,
+        "Reasoning": 0.9719
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "This would mitigate against the underlying legislative intent behind prescription of time for making of an award in respect of saved acquisition proceedings initiated under the repealed 1894 Act, which is twofold (i) to give sufficient time to the authorities to determine compensation payable under the 2013 Act and (ii) to ensure early and expedited payment to the landowners by reducing the period from two years under Section 11A of the 1894 Act to twelve months under Section 25 of the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9299,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0323,
+        "Arguments of Respondent": 0.0312,
+        "Decision": 0.0007,
+        "Facts": 0.0055,
+        "Issue": 0.0002,
+        "Reasoning": 0.9299
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "In case of declarations issued in January 2012, on application of Section 11A of the 1894 Act, the time to determine compensation under the 2013 Act would vary from a day to a month, and while in cases where the declarations were issued within twelve months of the repeal of the 1894 Act, the landowners would be at a disadvantage as an award beyond the twelvemonth period specified in Section 25 of the 2013 Act would be valid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7332,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1753,
+        "Arguments of Respondent": 0.0723,
+        "Decision": 0.0009,
+        "Facts": 0.0181,
+        "Issue": 0.0002,
+        "Reasoning": 0.7332
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "In the first set of cases, given the onerous factual and legal exercise involved in determination of compensation and the need to issue notification under Section 26(2) of the 2013 Act, publication of the awards would be impractical.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2729,
+        "Arguments of Respondent": 0.1356,
+        "Decision": 0.0032,
+        "Facts": 0.0861,
+        "Issue": 0.0035,
+        "Reasoning": 0.4987
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "Hasty and incorrect awards would be deleterious for the landowners.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2511,
+        "Arguments of Respondent": 0.1565,
+        "Decision": 0.0119,
+        "Facts": 0.1033,
+        "Issue": 0.0011,
+        "Reasoning": 0.4761
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "If the awards are not pronounced, the acquisition proceedings would lapse defeating the legislative intent behind Section 24(1)(a) of the 2013 Act to save such proceedings.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6577,
+        "Arguments of Respondent": 0.2031,
+        "Decision": 0.0008,
+        "Facts": 0.0074,
+        "Issue": 0.0013,
+        "Reasoning": 0.1297
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "We would, therefore, exercise our choice to arrive at a just, fair and harmonious construction consistent with the legislative intent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9389,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0125,
+        "Arguments of Respondent": 0.0363,
+        "Decision": 0.0024,
+        "Facts": 0.0065,
+        "Issue": 0.0034,
+        "Reasoning": 0.9389
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "A rational approach so as to further the object and purpose of Sections 24 and 26 to 30 of the 2013 Act is required.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3996,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2118,
+        "Arguments of Respondent": 0.3996,
+        "Decision": 0.003,
+        "Facts": 0.0051,
+        "Issue": 0.0014,
+        "Reasoning": 0.3792
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "We are conscious that Section 25 refers to publication of a notification under Section 19 as the starting point of limitation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9359,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0148,
+        "Arguments of Respondent": 0.0208,
+        "Decision": 0.0004,
+        "Facts": 0.0275,
+        "Issue": 0.0006,
+        "Reasoning": 0.9359
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "In the context of clause (a) to Section 24(1) of the 2013 Act there would be no notification under Section 19, but declaration under Section 6 of the 1894 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8496,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0549,
+        "Arguments of Respondent": 0.0767,
+        "Decision": 0.0031,
+        "Facts": 0.0156,
+        "Issue": 0.0002,
+        "Reasoning": 0.8496
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "When the declarations under Section 6 are valid as on 1st January 2014, it is necessary to give effect to the legislative intention and reckon the starting point.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9485,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0257,
+        "Decision": 0.0001,
+        "Facts": 0.0081,
+        "Issue": 0.001,
+        "Reasoning": 0.9485
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "In the context of Section 24(1)(a) of the 2013 Act, declarations under Section 6 of the 1894 Act are no different and serve the same purpose as the declarations under Section 19 of the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0387,
+        "Arguments of Respondent": 0.0852,
+        "Decision": 0.0006,
+        "Facts": 0.0072,
+        "Issue": 0.0001,
+        "Reasoning": 0.8682
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "Consequently, we hold that in cases covered by clause (a) to Section 24(1) of the 2013 Act, the limitation period for passing making of an award under Section 25 of the 2013 Act would commence from 1st January 2014, that is, the date when the 2013 Act came into force.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.1288,
+        "Facts": 0.0402,
+        "Issue": 0.002,
+        "Reasoning": 0.8129
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Awards passed under clause (a) to Section 24(1) would be valid if made within twelve months from 1st January 2014.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.1823,
+        "Facts": 0.1245,
+        "Issue": 0.0012,
+        "Reasoning": 0.6717
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "This dictum is subject to the caveat stated in paragraph 16 (supra) that a declaration which has lapsed in terms of Section 11A of the 1894 Act before or on 31st December 2013 would not get revived.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0036,
+        "Facts": 0.0086,
+        "Issue": 0.0002,
+        "Reasoning": 0.9806
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "The contention of the land owners, relying upon Rule 19 of the Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Settlement (Maharashtra) Rules, 2014,(19.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1847,
+        "Arguments of Respondent": 0.2835,
+        "Decision": 0.0069,
+        "Facts": 0.0994,
+        "Issue": 0.0004,
+        "Reasoning": 0.4251
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 55,
+      "text": "Land Acquisition Proceedings Initiated Under Land Acquisition Act, 1894.",
+      "predicted_label": "Facts",
+      "confidence": 0.4684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.029,
+        "Arguments of Respondent": 0.0582,
+        "Decision": 0.0022,
+        "Facts": 0.4684,
+        "Issue": 0.3351,
+        "Reasoning": 0.1071
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 56,
+      "text": "(1) Any proceeding where a notification under subsection (1) of section 4 of the Land Acquisition Act, 1894 (I of 1894) has been issued before the 31st December 2013 and an award under section 11 of the said Land Acquisition Act, 1894 (I of 1894) has not been made before the 31st December 2013, then the proceeding shall be continued as per the formula provided in sections 26 to 30 of the Right to Fair Compensation and Transparency in Land Acquisition, Rehabilitation and Resettlement Act, 2013 (30 of 2013).)",
+      "predicted_label": "Facts",
+      "confidence": 0.7047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0211,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.005,
+        "Facts": 0.7047,
+        "Issue": 0.0004,
+        "Reasoning": 0.2525
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "for giving a restrictive meaning and excluding Section 25 of 2013 Act is misplaced.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4006,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4006,
+        "Arguments of Respondent": 0.3427,
+        "Decision": 0.0045,
+        "Facts": 0.0178,
+        "Issue": 0.0005,
+        "Reasoning": 0.2339
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "This Rule states that the formula provided in Sections 26 to 30 of the 2013 Act would apply where a notification under Section 4(i) of the 1894 Act was issued before 31st December 2013, and an award has not been made before the 31st December 2013.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.935,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0219,
+        "Arguments of Respondent": 0.0229,
+        "Decision": 0.0008,
+        "Facts": 0.0194,
+        "Issue": 0.0001,
+        "Reasoning": 0.935
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "The Rule refers to the formula for computation of compensation to be applied under Section 24(1)(a) of the 2013 Act, but it does not follow that Section 25 which prescribes the limitation for making of an award will not apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8254,
+      "probabilities": {
+        "Arguments of Petitioner": 0.065,
+        "Arguments of Respondent": 0.1021,
+        "Decision": 0.0002,
+        "Facts": 0.0071,
+        "Issue": 0.0002,
+        "Reasoning": 0.8254
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "For the reasons stated above, we hold that Section 25 of the 2013 Act applies to awards made under Section 24(1)(a) of the 2013 Act and the period of limitation of twelve months would commence from 1st January 2014.",
+      "predicted_label": "Decision",
+      "confidence": 0.7754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.7754,
+        "Facts": 0.007,
+        "Issue": 0.0005,
+        "Reasoning": 0.2145
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "Alternative argument by the State that neither the period for making of an award under Section 11A of the 1894 Act nor Section 25 of the 2013 Act would apply, would result in a situation which we believe the legislature had never envisaged.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0009,
+        "Facts": 0.0047,
+        "Issue": 0.0001,
+        "Reasoning": 0.9613
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "The consequence would be that there is no time period prescribed for making and passing of an award under clause (a) to Section 24(1) of the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1122,
+        "Arguments of Respondent": 0.0471,
+        "Decision": 0.0051,
+        "Facts": 0.0467,
+        "Issue": 0.0004,
+        "Reasoning": 0.7885
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "This would be unacceptable and again completely contrary to the legislative intent in enacting Section 25 in the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.741,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1474,
+        "Arguments of Respondent": 0.1045,
+        "Decision": 0.0002,
+        "Facts": 0.0068,
+        "Issue": 0.0001,
+        "Reasoning": 0.741
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "Section 24 read and as interpreted in Indore Development Authority (supra) would not support such construction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0667,
+        "Arguments of Respondent": 0.1124,
+        "Decision": 0.0027,
+        "Facts": 0.0203,
+        "Issue": 0.0005,
+        "Reasoning": 0.7974
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "Sensible and purposive construction to avoid absurdities and inconsistencies is, therefore, justified when we interpret Section 25 of the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0233,
+        "Arguments of Respondent": 0.1078,
+        "Decision": 0.0015,
+        "Facts": 0.0028,
+        "Issue": 0.0006,
+        "Reasoning": 0.864
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "Whether the award has been passed within the period stipulated under Section 25 of the 2013 Act or the acquisition proceedings have lapsed?",
+      "predicted_label": "Issue",
+      "confidence": 0.9017,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0049,
+        "Facts": 0.0689,
+        "Issue": 0.9017,
+        "Reasoning": 0.0174
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "As per the arguments put forth by the appellants, the award was pronounced on 30th October 2014, which is within the period of twelve months prescribed by Section 25 of the 2013 Act coming into force on 1st January 2014.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1833,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0008,
+        "Facts": 0.2164,
+        "Issue": 0.0014,
+        "Reasoning": 0.5872
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "The landowners, however, dispute the date of publication.",
+      "predicted_label": "Facts",
+      "confidence": 0.5471,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0539,
+        "Arguments of Respondent": 0.1004,
+        "Decision": 0.001,
+        "Facts": 0.5471,
+        "Issue": 0.0276,
+        "Reasoning": 0.27
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "The impugned judgment holds that the award, though dated 30th October 2014, has been backdated.",
+      "predicted_label": "Facts",
+      "confidence": 0.5024,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0756,
+        "Arguments of Respondent": 0.0226,
+        "Decision": 0.0098,
+        "Facts": 0.5024,
+        "Issue": 0.1774,
+        "Reasoning": 0.2122
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "By order dated 23rd September 2014, the High Court, though denying a stay on the notification dated 13th August 2014, held that the awards passed after the issuance of the notification dated 13th August 2014 would be subject to the decision in the writ petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.9752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0002,
+        "Facts": 0.9752,
+        "Issue": 0.0138,
+        "Reasoning": 0.0085
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "The impugned judgment, however, holds that the period when the stay order dated 26th May 2014 was effective is inconsequential and irrelevant as the High Court had not stayed the acquisition proceedings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4382,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1176,
+        "Arguments of Respondent": 0.0375,
+        "Decision": 0.0018,
+        "Facts": 0.3953,
+        "Issue": 0.0096,
+        "Reasoning": 0.4382
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 72,
+      "text": "It is difficult to accept the aforesaid reasoning for the simple reason that it ignores the language of the interim order and its true effect in redetermination of compensation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.97,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0001,
+        "Facts": 0.0049,
+        "Issue": 0.0002,
+        "Reasoning": 0.97
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "The interim order passed by the High Court had inhibited further action on the part of the authorities to proceed with the acquisition of land.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5282,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1368,
+        "Arguments of Respondent": 0.1659,
+        "Decision": 0.092,
+        "Facts": 0.0739,
+        "Issue": 0.0032,
+        "Reasoning": 0.5282
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "Indore Development Authority (supra) refers to a catena of authorities, including Abhey Ram (D) by LRs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8252,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0511,
+        "Arguments of Respondent": 0.1089,
+        "Decision": 0.0011,
+        "Facts": 0.0136,
+        "Issue": 0.0002,
+        "Reasoning": 0.8252
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "and Others v. Union of India and Others (1997) 5 SCC 421 , to give fitting meaning to the words stay of action or proceedings used in the proviso to Section 11A of the 1894 Act to mean any type of order passed by a court, which in one way or the other prohibits or prevents the authorities from passing an award.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.362,
+        "Arguments of Respondent": 0.4914,
+        "Decision": 0.0008,
+        "Facts": 0.0119,
+        "Issue": 0.001,
+        "Reasoning": 0.133
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 76,
+      "text": "This period of inhibition is excluded while computing the period for passing of the award by an authority, under Section 11A of the 1894 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.023,
+        "Arguments of Respondent": 0.0466,
+        "Decision": 0.0016,
+        "Facts": 0.0705,
+        "Issue": 0.0002,
+        "Reasoning": 0.8582
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "Further, the stay granted in the present case would be applicable to others also who had not obtained stay in that behalf.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4207,
+      "probabilities": {
+        "Arguments of Petitioner": 0.202,
+        "Arguments of Respondent": 0.4207,
+        "Decision": 0.0103,
+        "Facts": 0.0628,
+        "Issue": 0.0006,
+        "Reasoning": 0.3035
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 78,
+      "text": "In Indore Development Authority (supra), with reference to Section 24(2) of the 2013 Act, the Constitution Bench has noticed that there is no similar provision for exclusion of time, though there is express provision for exclusion of time under Sections 19 and 69 of the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0328,
+        "Arguments of Respondent": 0.026,
+        "Decision": 0.0016,
+        "Facts": 0.0245,
+        "Issue": 0.0002,
+        "Reasoning": 0.915
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "Nevertheless, the Constitution Bench, while discussing issue no.5 the effect of interim order of a court granting stay or injunction by which the authorities are unable to take possession or make payment and its exclusion, has observed that omission of such exclusion and specific stipulation in Sections 19 and 69 of the 2013 Act does not indicate any special legislative intent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9427,
+      "probabilities": {
+        "Arguments of Petitioner": 0.028,
+        "Arguments of Respondent": 0.0148,
+        "Decision": 0.0016,
+        "Facts": 0.0123,
+        "Issue": 0.0008,
+        "Reasoning": 0.9427
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "The provision for exclusion of time was read into Section 24(2) of the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1394,
+        "Arguments of Respondent": 0.2137,
+        "Decision": 0.0012,
+        "Facts": 0.0579,
+        "Issue": 0.0019,
+        "Reasoning": 0.5858
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "For the aforesaid purpose, the relevant portions of the judgment have been reproduced below 331.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2434,
+        "Arguments of Respondent": 0.1208,
+        "Decision": 0.0005,
+        "Facts": 0.109,
+        "Issue": 0.0003,
+        "Reasoning": 0.526
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "For all these reasons, it is held that the omission to expressly enact a provision, that excludes the period during which any interim order was operative, preventing the State from taking possession of acquired land, or from giving effect to the award, in a particular case or cases, cannot result in the inclusion of such period or periods for the purpose of reckoning the period of 5 years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0021,
+        "Facts": 0.0199,
+        "Issue": 0.0004,
+        "Reasoning": 0.9572
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Also, merely because timelines are indicated, with the consequence of lapsing, under Sections 19 and 69 of the 2013 Act, per se does not mean that omission to factor such time (of subsistence of interim orders) has any special legislative intent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0558,
+        "Arguments of Respondent": 0.0401,
+        "Decision": 0.0006,
+        "Facts": 0.0055,
+        "Issue": 0.0002,
+        "Reasoning": 0.8978
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "This Court notices, in this context, that even under the new Act (nor was it so under the 1894 Act) no provision has been enacted, for lapse of the entire acquisition, for nonpayment of compensation within a specified time nor has any such provision been made regarding possession.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9504,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0008,
+        "Facts": 0.0314,
+        "Issue": 0.0002,
+        "Reasoning": 0.9504
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "Furthermore, noncompliance with payment and deposit provisions (under Section 77) only results in higher interest payouts under Section 80.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4353,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4353,
+        "Arguments of Respondent": 0.3205,
+        "Decision": 0.0005,
+        "Facts": 0.0265,
+        "Issue": 0.0001,
+        "Reasoning": 0.2171
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 86,
+      "text": "The omission to provide for exclusion of time during which interim orders subsisted, while determining whether or not acquisitions lapsed, in the present case, is a clear result of inadvertence or accident, having regard to the subjectmatter, refusal to apply the principle underlying the maxim actus curiae neminem gravabit would result in injustice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9193,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0285,
+        "Arguments of Respondent": 0.0482,
+        "Decision": 0.0004,
+        "Facts": 0.0034,
+        "Issue": 0.0002,
+        "Reasoning": 0.9193
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "The foregoing discussion makes it abundantly clear that inasmuch as the High Court had, on 26th May 2014, stayed the operation of the notification dated 19th March 2014, and subsequently modified the order on 23rd September 2014 permitting publication of the awards, the intervening period of 129 days between 26th May 2014 until 23rd September 2014 and in any case of 79 days from 26th May 2014 till the new notification dated 13th August 2014 was issued must be excluded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0055,
+        "Facts": 0.0075,
+        "Issue": 0.0003,
+        "Reasoning": 0.978
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "Ordinarily, an award made or passed before 31st December 2014 would be valid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0497,
+        "Arguments of Respondent": 0.0202,
+        "Decision": 0.0004,
+        "Facts": 0.0926,
+        "Issue": 0.0007,
+        "Reasoning": 0.8364
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "However, owing to the abovementioned intervening period of 79 days, it could be made up to 20th March 2015.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1563,
+        "Arguments of Respondent": 0.0274,
+        "Decision": 0.0886,
+        "Facts": 0.3266,
+        "Issue": 0.0076,
+        "Reasoning": 0.3936
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 90,
+      "text": "Be it noted that the specific case of the landowners before the High Court was about lapsing of acquisition proceedings owing to the mandate of Section 11A of the 1894 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9051,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0003,
+        "Facts": 0.0674,
+        "Issue": 0.0011,
+        "Reasoning": 0.9051
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "It was not even remotely suggested that the acquisition proceedings had lapsed even in terms of the mandate of the new legislation being 2013 Act, in particular Section 25 thereof.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0756,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0006,
+        "Facts": 0.0274,
+        "Issue": 0.0003,
+        "Reasoning": 0.8669
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "In other words, the High Court was essentially called upon to answer the assail in reference to the lapsing provision in the 1894 Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0002,
+        "Facts": 0.643,
+        "Issue": 0.0365,
+        "Reasoning": 0.3085
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 93,
+      "text": "However, as aforesaid, that will have no bearing on the fact situation of the present case, to which the regime predicated in Section 25 of the 2013 Act ought to apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.0108,
+        "Decision": 0.0042,
+        "Facts": 0.0102,
+        "Issue": 0.0002,
+        "Reasoning": 0.9644
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "2 and 3 to have made the show of passing the award on 30.10.2014 as even if the award was passed on 30.10.2014, the acquisition proceedings would have lapsed in view of the provisions of Section 11A of the Act as the last Section 6 notification was admittedly issued on 08.08.2012 and the award ought to have been passed on or before 08.08.2014.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6604,
+        "Arguments of Respondent": 0.1236,
+        "Decision": 0.0011,
+        "Facts": 0.1073,
+        "Issue": 0.0074,
+        "Reasoning": 0.1002
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 95,
+      "text": "The stand of the appellant(s) before the High Court and before us is that the High Court had erroneously quashed the award on the basis of prima facie findings that for the same communication of the Town Planning Department, different dates are mentioned i.e., 26th September 2014 and 11th November 2014.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8587,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0004,
+        "Facts": 0.0882,
+        "Issue": 0.0026,
+        "Reasoning": 0.0486
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "Whereas, the High Court failed to consider the detailed affidavit filed by the State of Maharashtra dated 5th July 2017 in W.P. No. 6884/2015, clarifying that the date at page Nos. 32 and 37 of the award was wrongly written as 11th November 2014 instead of 26th September 2014.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7476,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7476,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0091,
+        "Facts": 0.0075,
+        "Issue": 0.0011,
+        "Reasoning": 0.2259
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "The High Court had also noted that the Commissioner gave approval to the award on 20th November 2014, but it failed to consider the letter dated 8th October 2014 of the Divisional Commissioner granting approval to the draft award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.425,
+        "Arguments of Respondent": 0.0119,
+        "Decision": 0.004,
+        "Facts": 0.0217,
+        "Issue": 0.0009,
+        "Reasoning": 0.5365
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 98,
+      "text": "It is urged that the High Court ought not to have based its conclusion on a prima facie view especially in a beneficial project of such vital public importance and burden the appellant(s) with heavy financial loss for no fault whatsoever.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9745,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9745,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0001,
+        "Facts": 0.0021,
+        "Issue": 0.0008,
+        "Reasoning": 0.0181
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "Before us again the landowners rely on the fact note in the award dated 30th October 2014, referring to communication dated 11th November 2014 from the Town Planning Department to the Special Land Acquisition Officer, indicative of the fact that the award was not published until that date.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1321,
+        "Arguments of Respondent": 0.0285,
+        "Decision": 0.001,
+        "Facts": 0.1163,
+        "Issue": 0.0014,
+        "Reasoning": 0.7206
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "The landowners are also relying on another communication dated 1st December 2014 issued by the Special Land Acquisition Officer to the acquiring body stating that the draft award had been submitted to the Commissioner and was likely to be approved, calling upon the acquiring body to deposit the compensation amount of Rs. 43.94 crores with their office.",
+      "predicted_label": "Facts",
+      "confidence": 0.3626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2356,
+        "Arguments of Respondent": 0.1192,
+        "Decision": 0.0017,
+        "Facts": 0.3626,
+        "Issue": 0.0032,
+        "Reasoning": 0.2778
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 101,
+      "text": "Reference is also made to the fact that roznama was not maintained by the Special Land Acquisition Officer after 6th May 2014.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5186,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5186,
+        "Arguments of Respondent": 0.3315,
+        "Decision": 0.0004,
+        "Facts": 0.0334,
+        "Issue": 0.001,
+        "Reasoning": 0.1151
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 102,
+      "text": "Further, the landowners had received certified true copy of the award along with notice only on 6th May 2015.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2746,
+        "Arguments of Respondent": 0.1947,
+        "Decision": 0.004,
+        "Facts": 0.1587,
+        "Issue": 0.0011,
+        "Reasoning": 0.3669
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 103,
+      "text": "Indeed, the High Court leaned in favour of the argument that the stated award dated 30th October 2014 is backdated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0273,
+        "Arguments of Respondent": 0.0147,
+        "Decision": 0.0021,
+        "Facts": 0.0738,
+        "Issue": 0.0013,
+        "Reasoning": 0.8807
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "That, however, was in the context of applicability of Section 11A of the 1894 Act and by not excluding the period during which the High Court stay was operating.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0958,
+        "Arguments of Respondent": 0.1033,
+        "Decision": 0.0004,
+        "Facts": 0.0213,
+        "Issue": 0.0001,
+        "Reasoning": 0.7791
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "Indisputably, the High Court did not examine the matter in the context of applicability of provisions of Section 25 of the 2013 Act and further, as has been held by us hitherto, the period during which the courts stay to the notification dated 19th March 2014 was operative, needs to be excluded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0049,
+        "Facts": 0.0255,
+        "Issue": 0.003,
+        "Reasoning": 0.952
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "In the case of latter, the factum of manipulation and backdating of award becomes insignificant unless the High Court was to go a step further and hold that the award was not made even until 20th March 2015.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0851,
+        "Arguments of Respondent": 0.0228,
+        "Decision": 0.0005,
+        "Facts": 0.0201,
+        "Issue": 0.0002,
+        "Reasoning": 0.8713
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "In that view of the matter, the conclusion reached by us in the present appeals is inevitable and it must follow that the acquisition proceedings in question had not lapsed in law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.79,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.2001,
+        "Facts": 0.0033,
+        "Issue": 0.0004,
+        "Reasoning": 0.79
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "Arguendo, if we were to entertain the afterthought plea raised by the landowners before this Court for the first time that the acquisition proceedings had lapsed even on account of the mandate of Section 25 of the 2013 Act, the same needs to be negatived for more than one reason.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0005,
+        "Facts": 0.0075,
+        "Issue": 0.0005,
+        "Reasoning": 0.9618
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "First, no factual foundation has been set out by the landowners including to assert that the stated award was not made even till 20th March 2015 nor was the High Court called upon to examine that fact.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.171,
+        "Arguments of Respondent": 0.0217,
+        "Decision": 0.0031,
+        "Facts": 0.0191,
+        "Issue": 0.0005,
+        "Reasoning": 0.7847
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "Secondly, the landowners themselves have stated (admitted) that the Commissioner had given permission approval to the draft award on 20th November 2014 (As stated in paragraph B (ii) (Page 2) of the Written Arguments filed on behalf of respondent claimants, dated 02.09.2021 in reference to the findings of fact noted by the High Court in the impugned judgment at the end of paragraph 7 thereof, relying on entry no. 1081 in the Inward Register of the Land Acquisition Officer.).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0336,
+        "Arguments of Respondent": 0.332,
+        "Decision": 0.0003,
+        "Facts": 0.0303,
+        "Issue": 0.0004,
+        "Reasoning": 0.6034
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 111,
+      "text": "Further, the High Court had not held that the award was made or pronounced beyond the period specified under Section 25 of the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4044,
+        "Arguments of Respondent": 0.0423,
+        "Decision": 0.0441,
+        "Facts": 0.051,
+        "Issue": 0.0034,
+        "Reasoning": 0.4549
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 112,
+      "text": "Ordinarily, in terms of Section 25, the award ought to have been published up to 31st December 2014.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0628,
+        "Arguments of Respondent": 0.0312,
+        "Decision": 0.0007,
+        "Facts": 0.2064,
+        "Issue": 0.0013,
+        "Reasoning": 0.6976
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 113,
+      "text": "However, as held by us, the period of 79 days, when interim stay order was in operation, needs to be excluded, in which case the award could be validly made until 20th March 2015.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.018,
+        "Facts": 0.0861,
+        "Issue": 0.001,
+        "Reasoning": 0.859
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "Given this date, in our opinion, even if it is assumed that the award dated 30th October 2014 is backdated, it was duly made soon after the approval was accorded by the Commissioner on 20th November 2014, which was certainly without any doubt, before 20th March 2015.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0178,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0006,
+        "Facts": 0.0271,
+        "Issue": 0.0003,
+        "Reasoning": 0.9462
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "We are, therefore, of the considered opinion that the prima facie opinion noted by the High Court on the factum of backdating of the subject award would not make any difference to the outcome of the relief pursued by the landowners by way of writ petition for a declaration that the subject acquisition proceedings had lapsed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9862,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0024,
+        "Facts": 0.0054,
+        "Issue": 0.0002,
+        "Reasoning": 0.9862
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "Such declaration, in our opinion, cannot be issued in the fact situation of the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9451,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.011,
+        "Decision": 0.0037,
+        "Facts": 0.0132,
+        "Issue": 0.0002,
+        "Reasoning": 0.9451
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "However, as the High Court has noticed certain discrepancies, as pointed out to it by the landowners in the record and proceedings before the Special Land Acquisition culminating in making of the stated award, it would be appropriate to leave that aspect open for being enquired into by the appropriate authority by conducting enquiry to identify the relevant facts and circumstances and if it is found to be a mischief, responsible person therefor may be proceeded against as per law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5257,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.3413,
+        "Facts": 0.0972,
+        "Issue": 0.0039,
+        "Reasoning": 0.5257
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 118,
+      "text": "Suffice it to state that neither the observations made by the High Court nor this decision may affect the final opinion or conclusion that may have to be reached in such an enquiry.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9219,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0277,
+        "Facts": 0.0431,
+        "Issue": 0.0008,
+        "Reasoning": 0.9219
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "In other words, the enquiry be proceeded independently on its own merits by giving opportunity to all concerned.",
+      "predicted_label": "Decision",
+      "confidence": 0.4934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0303,
+        "Arguments of Respondent": 0.0148,
+        "Decision": 0.4934,
+        "Facts": 0.0655,
+        "Issue": 0.0017,
+        "Reasoning": 0.3943
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 120,
+      "text": "While dealing with this submission made by the landowners, we must consider the submission that the notice under Section 12(2) of the 1894 Act dated 6th May 2015 was served on the landowners on various dates in May 2015.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0612,
+        "Arguments of Respondent": 0.0546,
+        "Decision": 0.0007,
+        "Facts": 0.0218,
+        "Issue": 0.0022,
+        "Reasoning": 0.8595
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "Section 37 of the 2013 Act is pari materia with Section 12(2) of the 1894 Act and hence we are not required to examine and consider in detail which of the two sections would apply in a case covered by clause (a) to Section 24(1) of the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9315,
+      "probabilities": {
+        "Arguments of Petitioner": 0.034,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.002,
+        "Facts": 0.0096,
+        "Issue": 0.0041,
+        "Reasoning": 0.9315
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "Subsection (1) to Section 37 of the 2013 Act as well as subsection (1) to Section 12 of the 1894 Act state that the award shall be filed in the Collectors office and shall be final and conclusive evidence as between the Collector and the persons interested.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9122,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0241,
+        "Arguments of Respondent": 0.055,
+        "Decision": 0.0007,
+        "Facts": 0.0079,
+        "Issue": 0.0002,
+        "Reasoning": 0.9122
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "It would not matter whether the person interested have appeared before the Collector or not.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8404,
+      "probabilities": {
+        "Arguments of Petitioner": 0.044,
+        "Arguments of Respondent": 0.0937,
+        "Decision": 0.0019,
+        "Facts": 0.0193,
+        "Issue": 0.0006,
+        "Reasoning": 0.8404
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "Further, the award is final and conclusive evidence as of the true area.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2608,
+        "Arguments of Respondent": 0.2702,
+        "Decision": 0.0031,
+        "Facts": 0.0907,
+        "Issue": 0.0005,
+        "Reasoning": 0.3747
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 125,
+      "text": "Subsection (3) to Section 37 of the 2013 Act requires the Collector to keep open to public and display summary of the entire proceedings undertaken in the case of acquisition of land, including the amount of compensation awarded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0557,
+        "Arguments of Respondent": 0.2677,
+        "Decision": 0.0017,
+        "Facts": 0.0322,
+        "Issue": 0.0007,
+        "Reasoning": 0.642
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 126,
+      "text": "These mandates must be complied with, but as they are post the making of the award and, therefore, would not affect the validity of the award when made within the statutory time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8226,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1092,
+        "Arguments of Respondent": 0.0375,
+        "Decision": 0.0015,
+        "Facts": 0.0281,
+        "Issue": 0.001,
+        "Reasoning": 0.8226
+      }
+    },
+    {
+      "sentence_id": 127,
+      "text": "Issue of notice by the Collector to the persons interested, which is to be given to the persons not present personally or through the representatives when the award is made, is to be issued immediately, but the issue of notice is not a condition precedent for making the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7208,
+      "probabilities": {
+        "Arguments of Petitioner": 0.092,
+        "Arguments of Respondent": 0.0362,
+        "Decision": 0.0002,
+        "Facts": 0.1481,
+        "Issue": 0.0028,
+        "Reasoning": 0.7208
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "Belated issue of notice would not, therefore, legally affect the validity of the award, though there may be other consequences.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0849,
+        "Arguments of Respondent": 0.0877,
+        "Decision": 0.0012,
+        "Facts": 0.0294,
+        "Issue": 0.0002,
+        "Reasoning": 0.7966
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "Equally, the limitation period to challenge and question the compensation awarded would commence on the service intimation about making of the award on the landowners.(See Raja Harish Chandra Raj Singh v. Deputy Land Acquisition Officer and Another, AIR 1961 SC 1500  the date for counting limitation period means the date of communication or is known by a party whether actually or constructively.)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8659,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0368,
+        "Arguments of Respondent": 0.0718,
+        "Decision": 0.0005,
+        "Facts": 0.0249,
+        "Issue": 0.0002,
+        "Reasoning": 0.8659
+      }
+    },
+    {
+      "sentence_id": 130,
+      "text": "Be that as it may, when satisfied that the award was made published within the prescribed period, even when there was backdating of the award or delay in effecting service on the landowners, the land acquisition proceedings need not be set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9756,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0027,
+        "Facts": 0.0068,
+        "Issue": 0.0004,
+        "Reasoning": 0.9756
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "In view of the aforesaid discussion, we hold as under (i) Section 25 of the 2013 Act would apply to the awards made and published under Section 24(1)(a) of the 2013 Act.",
+      "predicted_label": "Decision",
+      "confidence": 0.6467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.6467,
+        "Facts": 0.0282,
+        "Issue": 0.0012,
+        "Reasoning": 0.3192
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 132,
+      "text": "(ii) The limitation period for passing making of an award under Section 24(1)(a) in terms of Section 25 of the 2013 Act would commence from 1st January 2014, that is, the date when the 2013 Act came into force.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7069,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7069,
+        "Arguments of Respondent": 0.1039,
+        "Decision": 0.0272,
+        "Facts": 0.0482,
+        "Issue": 0.0064,
+        "Reasoning": 0.1074
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "(iii) Period during which the Court order would inhibit action on the part of the authorities to proceed with the making of the award would be excluded while computing the period under Section 25 of the 2013 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5304,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3887,
+        "Arguments of Respondent": 0.0643,
+        "Decision": 0.0015,
+        "Facts": 0.0137,
+        "Issue": 0.0014,
+        "Reasoning": 0.5304
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 134,
+      "text": "(iv) Accordingly, period of 79 days from 26th May 2014 when the High Court had stayed operation of the notification dated 19th March 2014, till the new notification dated 13th August 2014 was issued has to be excluded.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9004,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9004,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.002,
+        "Facts": 0.0092,
+        "Issue": 0.0009,
+        "Reasoning": 0.0686
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "(v) The award purportedly dated 30th October 2014, was in any case duly made on or before the extended date of 20th March 2015.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9446,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9446,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0004,
+        "Facts": 0.0213,
+        "Issue": 0.0029,
+        "Reasoning": 0.0144
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "Hence, the concerned award is valid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.277,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1122,
+        "Arguments of Respondent": 0.1257,
+        "Decision": 0.2062,
+        "Facts": 0.2764,
+        "Issue": 0.0025,
+        "Reasoning": 0.277
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 137,
+      "text": "(vi) The State of Maharashtra may conduct an inquiry in reference to the imputation regarding manipulation and backdating of the subject award and take such remedial and corrective action as may be necessary and to ensure such situations do not arise in future.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5913,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0098,
+        "Facts": 0.2785,
+        "Issue": 0.003,
+        "Reasoning": 0.0985
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 138,
+      "text": "The impugned judgment setting aside the award and holding that the acquisition proceedings had lapsed is, accordingly, set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.9198,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9198,
+        "Facts": 0.02,
+        "Issue": 0.0002,
+        "Reasoning": 0.0586
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "It is held that the acquisition proceedings had not lapsed and the award is legal and valid.",
+      "predicted_label": "Decision",
+      "confidence": 0.7203,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.7203,
+        "Facts": 0.1987,
+        "Issue": 0.0008,
+        "Reasoning": 0.0774
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "The appeals are allowed in the aforesaid terms without any order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9888,
+        "Facts": 0.0063,
+        "Issue": 0.0001,
+        "Reasoning": 0.0044
+      }
+    }
+  ]
+}

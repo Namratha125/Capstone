@@ -1,0 +1,664 @@
+{
+  "case_id": "6999",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The family Court appeal is ADMITTED and heard finally at the stage of admission as the appellantWife has only sought a remand of the matter to the Family Court, Nagpur on the ground that the Family Court, Nagpur did not have jurisdiction to entertain the Hindu Marriage Petition filed by the respondentHusband for a decree of divorce on the ground of cruelty and desertion.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.7767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0047,
+        "Facts": 0.7767,
+        "Issue": 0.2051,
+        "Reasoning": 0.0067
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The marriage between the appellantWife and the respondentHusband was solemnized on 12.07.1994 in Deulwadi Temple, District Kolhapur.",
+      "predicted_label": "Facts",
+      "confidence": 0.928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0005,
+        "Facts": 0.928,
+        "Issue": 0.0675,
+        "Reasoning": 0.0035
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The parties started residing in the matrimonial home at Belgaum.",
+      "predicted_label": "Facts",
+      "confidence": 0.8813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0003,
+        "Facts": 0.8813,
+        "Issue": 0.0023,
+        "Reasoning": 0.1098
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "According to the husband, the wife was not ready to reside in the joint family and, therefore, there were quarrels between the parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.9824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0,
+        "Facts": 0.9824,
+        "Issue": 0.0006,
+        "Reasoning": 0.0156
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "According to the husband, the wife abused the husband in filthy language, quarrelled with him and also assaulted him on some occasions.",
+      "predicted_label": "Facts",
+      "confidence": 0.9874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9874,
+        "Issue": 0.0003,
+        "Reasoning": 0.0105
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "According to the husband, the husband told the wife to change her behaviour",
+      "predicted_label": "Facts",
+      "confidence": 0.9041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0002,
+        "Facts": 0.9041,
+        "Issue": 0.0002,
+        "Reasoning": 0.0883
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "but, she did not change her ways.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.062,
+        "Arguments of Respondent": 0.0458,
+        "Decision": 0.0115,
+        "Facts": 0.292,
+        "Issue": 0.0008,
+        "Reasoning": 0.5879
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The husband sought a transfer of his services from Belgaum to Nagpur and started residing in Nagpur in early 1990s.",
+      "predicted_label": "Facts",
+      "confidence": 0.8663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0002,
+        "Facts": 0.8663,
+        "Issue": 0.0064,
+        "Reasoning": 0.1059
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "According to the husband, the wife never came to Nagpur to join the company of the husband despite several requests.",
+      "predicted_label": "Facts",
+      "confidence": 0.7234,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0002,
+        "Facts": 0.7234,
+        "Issue": 0.0001,
+        "Reasoning": 0.2527
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The husband filed Hindu Marriage Petition No.A192/2011 before the Principal Judge, Family Court, Nagpur for divorce on the ground of cruelty and desertion.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.0001,
+        "Facts": 0.9917,
+        "Issue": 0.0071,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The wife filed the written statement and denied the claim of the husband.",
+      "predicted_label": "Facts",
+      "confidence": 0.6791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0004,
+        "Facts": 0.6791,
+        "Issue": 0.0003,
+        "Reasoning": 0.3082
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "According to the wife, the Family Court did not have jurisdiction to entertain the Hindu Marriage Petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.9467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0007,
+        "Facts": 0.9467,
+        "Issue": 0.0005,
+        "Reasoning": 0.0425
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "According to the wife, since no cause of action arose at Nagpur, the Family Court, Nagpur did not have jurisdiction to entertain and decide the petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.9564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0003,
+        "Facts": 0.9564,
+        "Issue": 0.0002,
+        "Reasoning": 0.039
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The wife also denied the allegations made against her in respect of cruelty and desertion.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9954,
+        "Issue": 0.0001,
+        "Reasoning": 0.0034
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "On the pleadings of the parties, the Family Court framed the issues.",
+      "predicted_label": "Facts",
+      "confidence": 0.8927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0003,
+        "Facts": 0.8927,
+        "Issue": 0.0021,
+        "Reasoning": 0.0951
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The husband examined himself and since he was not crossexamined and the wife had also not entered into the witness box, the Family Court allowed the petition filed by the husband for grant of divorce on the ground of cruelty after holding that the husband had succeeded in proving his case in that regard.",
+      "predicted_label": "Facts",
+      "confidence": 0.6787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.0007,
+        "Facts": 0.6787,
+        "Issue": 0.0087,
+        "Reasoning": 0.2786
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "The judgment of the Family Court is challenged by the wife in this family Court appeal.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0002,
+        "Facts": 0.9902,
+        "Issue": 0.0081,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Shri Bhangde, the learned counsel for the wife, submitted that the Family Court did not have jurisdiction to entertain and decide the Hindu Marriage Petition filed by the husband.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4979,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4979,
+        "Arguments of Respondent": 0.4455,
+        "Decision": 0.0025,
+        "Facts": 0.0086,
+        "Issue": 0.0001,
+        "Reasoning": 0.0453
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 18,
+      "text": "It is submitted that the cause of action did not arise at Nagpur and the husband was not entitled to file the petition in the Family Court at Nagpur.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5217,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5217,
+        "Arguments of Respondent": 0.3647,
+        "Decision": 0.0005,
+        "Facts": 0.0576,
+        "Issue": 0.0011,
+        "Reasoning": 0.0544
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "It is stated that the marriage between the parties was solemnized in a Temple in Kolhapur district and the parties last resided together at Belgaum.",
+      "predicted_label": "Facts",
+      "confidence": 0.9716,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0001,
+        "Facts": 0.9716,
+        "Issue": 0.0034,
+        "Reasoning": 0.0216
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "It is stated that it is clearly mentioned by the husband in the Hindu marriage Petition that the wife refused to join the Company of the husband at Nagpur and had never joined him at Nagpur after his transfer.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5087,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5087,
+        "Arguments of Respondent": 0.2539,
+        "Decision": 0.0001,
+        "Facts": 0.155,
+        "Issue": 0.0005,
+        "Reasoning": 0.0818
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "It is submitted that it was necessary for the Family Court to have framed the issue of jurisdiction of the Family Court.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5564,
+        "Arguments of Respondent": 0.3882,
+        "Decision": 0.0002,
+        "Facts": 0.0107,
+        "Issue": 0.0008,
+        "Reasoning": 0.0437
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "It is stated that the Family Court has not decided the issue of jurisdiction, therefore, it is necessary to remand the matter to the Family Court for framing the issue of jurisdiction and deciding the same.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.7731,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1679,
+        "Arguments of Respondent": 0.0261,
+        "Decision": 0.0076,
+        "Facts": 0.7731,
+        "Issue": 0.0025,
+        "Reasoning": 0.0228
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Shri Purohit, the learned counsel for the husband, submitted that the wife failed to remain present before the Family Court at Nagpur despite opportunity and, therefore, the Family Court was justified in granting a decree of divorce in favour of the husband, after considering the evidence that remained unchallenged.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2246,
+        "Arguments of Respondent": 0.7613,
+        "Decision": 0.0002,
+        "Facts": 0.0018,
+        "Issue": 0.0001,
+        "Reasoning": 0.0119
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "It is submitted that in paragraph 6 of the judgment of the Family Court, some of the contents of the legal notice dated 18.02.2011 are reproduced and the contents would show that the wife had left the husband 11/2 months before the issuance of the legal notice.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5974,
+        "Arguments of Respondent": 0.3645,
+        "Decision": 0.0002,
+        "Facts": 0.0171,
+        "Issue": 0.0004,
+        "Reasoning": 0.0204
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "It is stated that it is clear from the contents of the notice that the wife had resided at Nagpur and had left the husband only a month and half before the issuance of the legal notice dated 18.02.2011.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.7712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1445,
+        "Arguments of Respondent": 0.0659,
+        "Decision": 0.0002,
+        "Facts": 0.7712,
+        "Issue": 0.0012,
+        "Reasoning": 0.017
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "On hearing the learned counsel for the parties, it appears that the following points arise for determination in this family Court appealI)",
+      "predicted_label": "Issue",
+      "confidence": 0.8822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0005,
+        "Facts": 0.1119,
+        "Issue": 0.8822,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "Whether it was necessary for the Family Court to frame the issue of jurisdiction when a plea of absence of jurisdiction was specifically raised by the wife in her written statementII) Whether the judgment of the Family Court is just and properIII) What order8.",
+      "predicted_label": "Issue",
+      "confidence": 0.5596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0023,
+        "Facts": 0.4278,
+        "Issue": 0.5596,
+        "Reasoning": 0.0024
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 28,
+      "text": "It is further pleaded by the husband that after the husband was transferred from Belgaum to Nagpur, the wife did not come to Nagpur and refused to join his company at Nagpur.",
+      "predicted_label": "Facts",
+      "confidence": 0.6343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0205,
+        "Arguments of Respondent": 0.0198,
+        "Decision": 0.0001,
+        "Facts": 0.6343,
+        "Issue": 0.0004,
+        "Reasoning": 0.3249
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "According to the wife since no part of cause of action for filing the Hindu Marriage Petition arose at Nagpur, the Family Court at Nagpur did not have jurisdiction to entertain and decide the Hindu Marriage Petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.8648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.0196,
+        "Decision": 0.0004,
+        "Facts": 0.8648,
+        "Issue": 0.0002,
+        "Reasoning": 0.0987
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "It appears that despite the specific objection of the wife that the Hindu Marriage Petition could not be entertained in the Family Court, Nagpur, the Family Court, Nagpur did not frame the issue in regard to the jurisdiction of the Family Court, Nagpur.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0118,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0016,
+        "Facts": 0.3224,
+        "Issue": 0.0005,
+        "Reasoning": 0.6608
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "It is rightly stated on behalf of the wife that it was necessary for the Family Court to have framed the issue of jurisdiction and if the same was answered in favour of the husband, then only the Family Court ought to have proceeded to decide the Hindu Marriage Petition, on merits.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9554,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0103,
+        "Arguments of Respondent": 0.0096,
+        "Decision": 0.0092,
+        "Facts": 0.0152,
+        "Issue": 0.0003,
+        "Reasoning": 0.9554
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "We find on a perusal of the pleadings of the parties that it was necessary for the Family Court to have framed the issue of jurisdiction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0009,
+        "Facts": 0.0071,
+        "Issue": 0.0005,
+        "Reasoning": 0.9793
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The submission made on behalf of the husband that since the Family Court referred to the legal notice in paragraph 6 of the judgment and the contents of the notice depict that the wife was residing with the husband at Nagpur and, hence, the Family Court was justified in entertaining and deciding the Hindu Marriage Petition, is liable to be rejected.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9193,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0096,
+        "Decision": 0.0463,
+        "Facts": 0.0202,
+        "Issue": 0.0006,
+        "Reasoning": 0.9193
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Firstly, it was necessary for the Family Court to frame the issue of jurisdiction and then permit the parties to tender evidence, both, oral and documentary, on the issue of jurisdiction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1687,
+        "Arguments of Respondent": 0.091,
+        "Decision": 0.0009,
+        "Facts": 0.0435,
+        "Issue": 0.0002,
+        "Reasoning": 0.6957
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "It is a well settled position of law that the jurisdiction of the Court cannot be decided on the written statement or the documents tendered by the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0757,
+        "Arguments of Respondent": 0.053,
+        "Decision": 0.0008,
+        "Facts": 0.0778,
+        "Issue": 0.0102,
+        "Reasoning": 0.7825
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The jurisdiction of the Court has to be necessarily decided on the basis of the pleadings of the plaintiff.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6715,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1209,
+        "Arguments of Respondent": 0.1438,
+        "Decision": 0.0005,
+        "Facts": 0.0582,
+        "Issue": 0.005,
+        "Reasoning": 0.6715
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "It primafacie appears on the basis of the pleadings in the Hindu Marriage Petition that the wife never joined the company of the husband at Nagpur.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0005,
+        "Facts": 0.0313,
+        "Issue": 0.0002,
+        "Reasoning": 0.955
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "In the aforesaid circumstances, it was all the more necessary for the Family Court to frame the issue of jurisdiction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0746,
+        "Arguments of Respondent": 0.0878,
+        "Decision": 0.0037,
+        "Facts": 0.0523,
+        "Issue": 0.0001,
+        "Reasoning": 0.7815
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The first point for determination is, therefore, answered in the affirmative and in favour of the wife.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8454,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.1297,
+        "Facts": 0.0206,
+        "Issue": 0.0007,
+        "Reasoning": 0.8454
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Since the issue of jurisdiction was not framed and since the Family Court proceeded to decide the matter without deciding the issue of jurisdiction, the judgment of the Family Court is liable to be quashed and set aside.9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8174,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8174,
+        "Arguments of Respondent": 0.0263,
+        "Decision": 0.0039,
+        "Facts": 0.0725,
+        "Issue": 0.0009,
+        "Reasoning": 0.079
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Hence, for the reasons aforesaid, the family Court appeal is partly allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.6825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.6825,
+        "Facts": 0.2644,
+        "Issue": 0.0007,
+        "Reasoning": 0.05
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "The judgment of the Family Court dated 26.09.2013 is hereby set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.9219,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9219,
+        "Facts": 0.0528,
+        "Issue": 0.0003,
+        "Reasoning": 0.024
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The matter is remanded to the Family Court for framing and deciding the issue of jurisdiction and then proceeding to decide the Hindu Marriage Petition only if the issue is answered in favour of the husband.",
+      "predicted_label": "Decision",
+      "confidence": 0.8153,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.8153,
+        "Facts": 0.0891,
+        "Issue": 0.0005,
+        "Reasoning": 0.093
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The parties undertake to remain present before the Family Court, Nagpur on 03.08.2015, either personally or through their counsel, so that issuance of the notice to the parties by the Family Court could be dispensed with.",
+      "predicted_label": "Decision",
+      "confidence": 0.7366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.7366,
+        "Facts": 0.2199,
+        "Issue": 0.0003,
+        "Reasoning": 0.0366
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "In the circumstances of the case, there would be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9828,
+        "Facts": 0.0055,
+        "Issue": 0.0001,
+        "Reasoning": 0.0108
+      }
+    }
+  ]
+}

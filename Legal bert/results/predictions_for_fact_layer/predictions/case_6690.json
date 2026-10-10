@@ -1,0 +1,791 @@
+{
+  "case_id": "6690",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " Oral Judgment (Mrs. Vasanti A. Naik, J.)The appellant Company is a manufacturer of luggage and apart from its industrial undertaking at Nagpur, it has two manufacturing units, one at Sinnar, District Nasik and the other at Haridwar, Uttarak hand.",
+      "predicted_label": "Facts",
+      "confidence": 0.9845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.0001,
+        "Facts": 0.9845,
+        "Issue": 0.0107,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The workmen in the Nagpur plant of the appellant Company are represented by the first respondent the recognized Union and their conditions of service are governed by the terms of the appointment letter as well as the terms settled by the management and the first respondent Union.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0174,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0004,
+        "Facts": 0.4205,
+        "Issue": 0.0009,
+        "Reasoning": 0.5526
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The last settlement governing the conditions of service of the workmen ended on 31.12.2010 and the respondent Union gave a fresh charter of demands.",
+      "predicted_label": "Facts",
+      "confidence": 0.8547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0005,
+        "Facts": 0.8547,
+        "Issue": 0.0054,
+        "Reasoning": 0.1082
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "Nothing happened in the matter for a long time and the respondent Union approached the Conciliation Officer under the provisions of the Industrial Disputes Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9651,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0003,
+        "Facts": 0.9651,
+        "Issue": 0.0028,
+        "Reasoning": 0.0283
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Conciliation Officer issued a notice to the appellantCompany on 18.03.2011.",
+      "predicted_label": "Facts",
+      "confidence": 0.9875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9875,
+        "Issue": 0.0026,
+        "Reasoning": 0.0081
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The meetings before the Conciliation Officer were held on 24.03.2011, 16.05.2011, 31.05.2011, 14.06.2011 and 30.06.2011.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.9878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0004,
+        "Facts": 0.9878,
+        "Issue": 0.0094,
+        "Reasoning": 0.0015
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The appellant Company was carrying on the operations of manufacturing on job work basis at the Nagpur plant in view of a contract between the appellant Company and a company named B.P. Ergo Limited (hereinafter referred to as B.P.E.L. for the sake of brevity).",
+      "predicted_label": "Facts",
+      "confidence": 0.9816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9816,
+        "Issue": 0.0048,
+        "Reasoning": 0.0063
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "It is the case of the appellants that B.P.E.L. was not interested in renewing the contract with the appellant and after some persuasion by the appellant Company, a contract was signed by the appellant Company and B.P.E.L. but, the renewed contract curtailed the scope of the original contract in the sense that lesser job work was required to be performed by the appellant Company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5771,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5771,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0003,
+        "Facts": 0.2675,
+        "Issue": 0.0054,
+        "Reasoning": 0.1443
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The appellant Company wanted to protect all the 216 employees working at the Nagpur plant but, it could not do so in view of the curtailment of the contract by B.P.E.L. Only 76 workmen could be utilized by the appellant Company for the job work in Nagpur plant and for about 140 employees, there was no work.",
+      "predicted_label": "Facts",
+      "confidence": 0.5899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0864,
+        "Arguments of Respondent": 0.0539,
+        "Decision": 0.0012,
+        "Facts": 0.5899,
+        "Issue": 0.0004,
+        "Reasoning": 0.2682
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "In this background, it is the case of the appellant Company that the company desired to transfer 90 employees to Sinnar, Nasik District and 50 to Haridwar (Uttarakhand), where the appellant Company had its units.",
+      "predicted_label": "Facts",
+      "confidence": 0.9616,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9616,
+        "Issue": 0.0005,
+        "Reasoning": 0.0188
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The transfer orders were issued on 14.07.2011.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4109,
+      "probabilities": {
+        "Arguments of Petitioner": 0.133,
+        "Arguments of Respondent": 0.1839,
+        "Decision": 0.0066,
+        "Facts": 0.2582,
+        "Issue": 0.0074,
+        "Reasoning": 0.4109
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "The employees were relieved on 15.07.2011 and the appellant Company granted time to the employees to report at Sinnar and Haridwar till 31st of July.",
+      "predicted_label": "Facts",
+      "confidence": 0.9459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0001,
+        "Facts": 0.9459,
+        "Issue": 0.0013,
+        "Reasoning": 0.0371
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "After the transfers were effected, an application was filed by the respondent no.1Union before the Conciliation Officer under the provisions of the Industrial Disputes Act seeking appropriate action against the appellant Company for breach of the provisions of Section 33 of the Industrial Disputes Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9673,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0001,
+        "Facts": 0.9673,
+        "Issue": 0.0038,
+        "Reasoning": 0.0232
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The application was moved by the respondent Union on 16.07.2011 and after serving a copy of the same on the appellant Company, the Conciliation Officer fixed the meeting on 19.07.2011.",
+      "predicted_label": "Facts",
+      "confidence": 0.9334,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0002,
+        "Facts": 0.9334,
+        "Issue": 0.0025,
+        "Reasoning": 0.0531
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "On 19.07.2011, the appellant Company filed the reply and the first meeting of conciliation was fixed on 26.07.2011.",
+      "predicted_label": "Facts",
+      "confidence": 0.9562,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0001,
+        "Facts": 0.9562,
+        "Issue": 0.0019,
+        "Reasoning": 0.0294
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "According to the appellant Company though the matter was fixed before the Conciliation Officer on 26.07.2011, the appellant Company was surprised to come across a stay order passed by the Conciliation Officer on 21.07.2011 staying the order transferring the employees from Nagpur to Sinnar and Haridwar.",
+      "predicted_label": "Facts",
+      "confidence": 0.9236,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0563,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0002,
+        "Facts": 0.9236,
+        "Issue": 0.0033,
+        "Reasoning": 0.016
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The order passed by the Conciliation Officer during the conciliation proceedings on 21.07.2011 was challenged by the petitioner in Writ Petition No.3535/2011.",
+      "predicted_label": "Facts",
+      "confidence": 0.9699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0002,
+        "Facts": 0.9699,
+        "Issue": 0.0174,
+        "Reasoning": 0.0094
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The learned Single Judge, however, by the order dated 09.08.2011, was pleased to dismiss the writ petition.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0003,
+        "Facts": 0.9897,
+        "Issue": 0.0064,
+        "Reasoning": 0.0022
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The order passed by the Conciliation Officer is challenged in this appeal on several grounds.",
+      "predicted_label": "Facts",
+      "confidence": 0.6641,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0005,
+        "Facts": 0.6641,
+        "Issue": 0.3188,
+        "Reasoning": 0.004
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "According to the appellant, the order transferring the 140 employees was not passed during the pendency of the conciliation proceedings and, therefore, the Conciliation Officer did not have jurisdiction to entertain the application filed by the respondent no.1Union under Section 33A of the Industrial Disputes Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0842,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0005,
+        "Facts": 0.8642,
+        "Issue": 0.0352,
+        "Reasoning": 0.0152
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "According to the appellant Company, the conciliation proceedings commenced on 19.07.2011 when the demands of the respondent no.1 were admitted and the notice was issued to the appellant Company under Rule 11 of the Industrial Disputes (Bombay) Rules, 1957.",
+      "predicted_label": "Facts",
+      "confidence": 0.9054,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0703,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0003,
+        "Facts": 0.9054,
+        "Issue": 0.0076,
+        "Reasoning": 0.0158
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "It is the case of the appellant Company that the meetings held before 19.07.2011 were preconciliation meetings and, hence, it cannot be said that the appellant Company had transferred the employees during the pendency of the conciliation proceedings by the order dated 14.07.2011.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1211,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0004,
+        "Facts": 0.859,
+        "Issue": 0.0015,
+        "Reasoning": 0.0168
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "It is submitted that assuming that the conciliation proceedings were pending before the conciliation officer on 14.07.2011, i.e. the date on which the 140 employees were transferred, the conciliation officer did not have jurisdiction to stay the transfer orders as under the provisions of Section 33A of the Industrial Disputes Act, the Conciliation Officer is not empowered to adjudicate the complaint.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6025,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6025,
+        "Arguments of Respondent": 0.3211,
+        "Decision": 0.0006,
+        "Facts": 0.0379,
+        "Issue": 0.0042,
+        "Reasoning": 0.0337
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "It is submitted that under the provisions of Section 33A(b) of the Industrial Disputes Act, only an Arbitrator, a Labour Court, a Tribunal or a National Tribunal is empowered to adjudicate upon the complaint as if it were a dispute referred to or pending before it.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5651,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5651,
+        "Arguments of Respondent": 0.3991,
+        "Decision": 0.0003,
+        "Facts": 0.0126,
+        "Issue": 0.0018,
+        "Reasoning": 0.0211
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "The learned counsel for the appellants submitted that Section 33A of the Act clearly demarcates the power of the authorities and the Conciliation Officer was not justified in staying the orders of transfer by the order dated 21.07.2011.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9665,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0003,
+        "Facts": 0.0079,
+        "Issue": 0.0006,
+        "Reasoning": 0.0235
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "According to the learned counsel for the appellant, the order passed by the Conciliation Officer on 21.07.2011 suffers from a jurisdictional error and the same was liable to be interfered with, in exercise of the writ jurisdiction.5.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8568,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8568,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0005,
+        "Facts": 0.1277,
+        "Issue": 0.0026,
+        "Reasoning": 0.0109
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "It is then canvassed on behalf of the appellant that the Conciliation Officer had not granted a reasonable opportunity to the appellant of being heard before passing the order dated 21.07.2011.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8962,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0007,
+        "Facts": 0.0085,
+        "Issue": 0.0007,
+        "Reasoning": 0.0917
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "It is submitted on behalf of respondent No.1 that in view of the provisions of Section 2(e) of the Industrial Disputes Act and in view of the fact that a notice was indeed issued to the appellant company on 18.03.2011 under Section 11 of the Bombay Industrial Court Rules, it cannot be said that the conciliation proceedings had not commenced and were at the preconciliation stage.7.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.9666,
+        "Decision": 0.0001,
+        "Facts": 0.0092,
+        "Issue": 0.0002,
+        "Reasoning": 0.0142
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "It is submitted on behalf of the respondent No.1 that the Conciliation Officer is entitled to entertain a complaint under Section 33A(a) of the Industrial Disputes Act and is further entitled to investigate it in accordance with the provisions of Rule 65 of the Bombay Industrial Court Rules.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9304,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.9304,
+        "Decision": 0.0003,
+        "Facts": 0.0107,
+        "Issue": 0.0003,
+        "Reasoning": 0.0537
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "According to the counsel for the respondent No.1, since the order transferring the 140 employees was passed during the pendency of the conciliation proceedings on 14.07.2011 and since the transfer was not in accordance with the conditions of service, the Conciliation Officer was justified in passing the order staying the transfer.8.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.9579,
+        "Decision": 0.0001,
+        "Facts": 0.0194,
+        "Issue": 0.0003,
+        "Reasoning": 0.012
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "According to the learned counsel for the respondent No.1, by the transfer of 140 employees the Conditions of Service were definitely changed during the pendency of the Conciliation proceedings as though the 140 employees were doing the work of manufacturing of furniture in the Nagpur Unit of the company, they were expected to manufacture luggage at the units at Sinnar Haridwar.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9102,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.9102,
+        "Decision": 0.0001,
+        "Facts": 0.0166,
+        "Issue": 0.0002,
+        "Reasoning": 0.0648
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The counsel for the respondent No.1 sought for the dismissal of the appeal.9.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.9839,
+        "Decision": 0.0001,
+        "Facts": 0.0074,
+        "Issue": 0.0002,
+        "Reasoning": 0.004
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Shri Kankale, the learned Assistant Government Pleader appearing on behalf of the Conciliation Officer supported the order dated 21.07.2011 submitted that the order was rightly passed under the provisions of Section 33A of the Industrial Disputes Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0372,
+        "Arguments of Respondent": 0.9431,
+        "Decision": 0.0001,
+        "Facts": 0.0083,
+        "Issue": 0.0001,
+        "Reasoning": 0.0112
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The learned Assistant Government Pleader disputed that the Conciliation Officer had no jurisdiction to adjudicate the complaint filed under the provisions of Section 33A of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0148,
+        "Arguments of Respondent": 0.11,
+        "Decision": 0.0001,
+        "Facts": 0.8445,
+        "Issue": 0.0026,
+        "Reasoning": 0.028
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "It is submitted that the conciliation proceedings had commenced prior to the transfer of the employees on 14.07.2011 and hence, the order of transfer of the employees was rightly stayed by the Conciliation Officer by the order dated 21.07.2011.10.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6307,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3116,
+        "Arguments of Respondent": 0.6307,
+        "Decision": 0.0003,
+        "Facts": 0.0462,
+        "Issue": 0.0008,
+        "Reasoning": 0.0105
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "Hence, it would be necessary to consider whether the Conciliation Officer indeed had jurisdiction to adjudicate the complaint filed by the respondent No.1 and stay the transfer order dated 14.07.2011.",
+      "predicted_label": "Facts",
+      "confidence": 0.4743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.026,
+        "Arguments of Respondent": 0.0344,
+        "Decision": 0.0088,
+        "Facts": 0.4743,
+        "Issue": 0.2748,
+        "Reasoning": 0.1817
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "Section 33A(a) does not give any adjudicatory power to the Conciliation Officer and provides that the Conciliation Officer shall take the complaint filed by the employee into account while mediating in and promoting the settlement of the industrial dispute, whereas, Section 33A(b) of the Act empowers the Arbitrator, Labour Court, Tribunal, or National Tribunal to adjudicate upon the complaint pending before it in accordance with the provisions of the Industrial Disputes Act and also pass an award therein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0899,
+        "Arguments of Respondent": 0.0631,
+        "Decision": 0.001,
+        "Facts": 0.0235,
+        "Issue": 0.0023,
+        "Reasoning": 0.8201
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "It is, thus, clear from the provisions of Section 33A that though the arbitrator, Labour Court, Tribunal, or National Tribunal is empowered to adjudicate upon the complaint as if it were a dispute the Conciliation Officer is not empowered to adjudicate upon the complaint.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9312,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0178,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0001,
+        "Facts": 0.0334,
+        "Issue": 0.0006,
+        "Reasoning": 0.9312
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The Conciliation Officer is only empowered to consider the complaint and take it into account while mediating in and promoting the settlement of the industrial dispute.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.03,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.0025,
+        "Facts": 0.0173,
+        "Issue": 0.0004,
+        "Reasoning": 0.9338
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The Honble Supreme Court in Automobile Products of India Vs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8096,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0788,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0019,
+        "Facts": 0.8096,
+        "Issue": 0.0061,
+        "Reasoning": 0.077
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Rukmaji Bais oth., reported in AIR 1955 SC 258 , while considering the provisions of Section 33 and 33A of the Industrial Disputes Act, observed thus There is no reason to think that the Legislature, by a side wind as it were, vested in the conciliation officer and the Board the jurisdiction and power of adjudicating upon disputes which they normally do not possess and which they may not be competent or qualified to exercise.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0002,
+        "Facts": 0.0195,
+        "Issue": 0.0004,
+        "Reasoning": 0.9456
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Further, if the purpose of the section was to invest all the authorities named therein with power to decide industrial disputes one would have expected some provision enabling them to make and submit an award to which the provisions of the Act would apply such as is provided in S. 33A of the 1947 Act or S. 23 of the 1950 ActThere is no machinery provided in S. 33 of the 1947 Act or S. 23 of the 1950 Act for enforcing the decision of the authority named in those sections.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0002,
+        "Facts": 0.027,
+        "Issue": 0.0005,
+        "Reasoning": 0.9546
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "This also indicates that those sections only impose a ban on the right of the employer and the only thing that the authority is called upon to do is to grant or withhold the permission, i.e. to lift or maintain the ban. .A",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8319,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0642,
+        "Arguments of Respondent": 0.0687,
+        "Decision": 0.0006,
+        "Facts": 0.032,
+        "Issue": 0.0026,
+        "Reasoning": 0.8319
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Division Bench of this Court has in the judgment in Mah.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4059,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1135,
+        "Arguments of Respondent": 0.0509,
+        "Decision": 0.0317,
+        "Facts": 0.3904,
+        "Issue": 0.0076,
+        "Reasoning": 0.4059
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "General Kamgar Union Vs. P.T. Ltd., reported in 2011 (1) Mh.L.J. 601 observed that, on a plain reading of clause (a) of Section 33A, it is clear that the said clause does not confer any power of adjudication on a Conciliation Officer and therefore, to interfere with the action of an employer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.631,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0292,
+        "Arguments of Respondent": 0.0269,
+        "Decision": 0.0003,
+        "Facts": 0.3115,
+        "Issue": 0.001,
+        "Reasoning": 0.631
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "The Court went on to add that the Conciliation Officer is entitled only to take into account a complaint made by the employee while mediating in and promoting the settlement of the industrial disputes.11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0002,
+        "Facts": 0.2806,
+        "Issue": 0.0006,
+        "Reasoning": 0.6919
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "There is nothing in the provisions of Rule 65 of the Industrial Disputes (Bombay Rules) 1957 to hold that the Conciliation Officer is empowered to adjudicate the complaint received under Section 33A of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0357,
+        "Arguments of Respondent": 0.0426,
+        "Decision": 0.0008,
+        "Facts": 0.0222,
+        "Issue": 0.0005,
+        "Reasoning": 0.8981
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "In fact, Rule 65 of the Rules merely speaks of the issuance of a show cause notice by the Conciliation Officer on the receipt of an application under Section 33 of the Industrial Disputes Act for express permission in writing before taking action contemplated by the provisions of Section 33A(1)(a) and (b) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0265,
+        "Arguments of Respondent": 0.013,
+        "Decision": 0.0011,
+        "Facts": 0.0206,
+        "Issue": 0.0005,
+        "Reasoning": 0.9383
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "The submission made on behalf of the respondent No.1 that Rule 65 shows that the Conciliation Officer is empowered to adjudicate the dispute is not well founded and is liable to be rejected.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.0007,
+        "Facts": 0.0126,
+        "Issue": 0.0004,
+        "Reasoning": 0.9593
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "Since it is clear from the reading of the provisions of the Act and the Rules that the Conciliation Officer is mainly charged with the duty of mediating in and promoting the settlement of the industrial disputes and is not empowered to adjudicate the dispute, the Conciliation Officer could not have adjudicated the complaint filed by the respondent No.1 under Section 33A(a) of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5942,
+        "Arguments of Respondent": 0.0569,
+        "Decision": 0.0016,
+        "Facts": 0.06,
+        "Issue": 0.0009,
+        "Reasoning": 0.2864
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "Consequently, the Conciliation Officer could not have stayed the order transferring the 140 employees from the companys unit at Nagpur to Sinnar and Haridwar.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2881,
+        "Arguments of Respondent": 0.1327,
+        "Decision": 0.0006,
+        "Facts": 0.1315,
+        "Issue": 0.0003,
+        "Reasoning": 0.4468
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "Since the order dated 21.07.2011 suffers from a jurisdictional error, the same is liable to be set aside.12.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7114,
+        "Arguments of Respondent": 0.0693,
+        "Decision": 0.0015,
+        "Facts": 0.0821,
+        "Issue": 0.0006,
+        "Reasoning": 0.1351
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "For the reasons aforesaid, the letters patent appeal is allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9428,
+        "Facts": 0.0408,
+        "Issue": 0.0005,
+        "Reasoning": 0.0148
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The orders passed by the Conciliation Officer and the learned Single Judge are hereby set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.561,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.561,
+        "Facts": 0.3788,
+        "Issue": 0.0009,
+        "Reasoning": 0.0565
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "In the facts of the case there would be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.9789,
+        "Facts": 0.005,
+        "Issue": 0.0001,
+        "Reasoning": 0.0149
+      }
+    }
+  ]
+}

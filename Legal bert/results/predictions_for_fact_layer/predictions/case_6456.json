@@ -1,0 +1,2096 @@
+{
+  "case_id": "6456",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The Suit Property originally belonged to one Ms. Jessie Jayalakshmi (since deceased).",
+      "predicted_label": "Facts",
+      "confidence": 0.9948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9948,
+        "Issue": 0.0024,
+        "Reasoning": 0.0023
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The deceased Ms. Jessie Jayalakshmi, a spinster, was the maternal aunt of the Appellant Plaintiff.",
+      "predicted_label": "Facts",
+      "confidence": 0.9878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0002,
+        "Facts": 0.9878,
+        "Issue": 0.0016,
+        "Reasoning": 0.0082
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Mr. Vijay Kumar and Ms. Kantha Lakshmi were his brother and sister, respectively.",
+      "predicted_label": "Facts",
+      "confidence": 0.9877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0,
+        "Facts": 0.9877,
+        "Issue": 0.0013,
+        "Reasoning": 0.0083
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "It is the case of the Appellant that the deceased, Ms. Jessie Jayalakshmi adopted him as her son and that he took care of her when she suffered an attack of paralysis.",
+      "predicted_label": "Facts",
+      "confidence": 0.9754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0002,
+        "Facts": 0.9754,
+        "Issue": 0.0007,
+        "Reasoning": 0.0092
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "A registered Will under Exhibit P4 was executed by Ms. Jessie Jayalakshmi on 04.09.1985 in favour of the Appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9746,
+        "Issue": 0.0005,
+        "Reasoning": 0.0226
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The said Will was attested by Mr. Vijay Kumar, brother of the Appellant, who has also been examined as PW2.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0287,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0006,
+        "Facts": 0.4295,
+        "Issue": 0.0002,
+        "Reasoning": 0.5361
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "Ms. Jessie Jayalakshmi was also brought to the office of the SubRegistrar by none other than Ms. Kantha Lakshmi.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.0579,
+        "Decision": 0.0002,
+        "Facts": 0.0363,
+        "Issue": 0.0001,
+        "Reasoning": 0.8812
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The relationship between Ms. Kantha Lakshmi and her husband, who has been arrayed as Respondent No. 1 got strained.",
+      "predicted_label": "Facts",
+      "confidence": 0.9389,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0019,
+        "Facts": 0.9389,
+        "Issue": 0.0339,
+        "Reasoning": 0.0184
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "She consequently filed a petition for divorce in MC No. 879 of 1987 before the Family Court of Principal Judge, Bangalore and obtained a divorce decree on 26.03.1988.",
+      "predicted_label": "Facts",
+      "confidence": 0.9512,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0002,
+        "Facts": 0.9512,
+        "Issue": 0.0125,
+        "Reasoning": 0.0219
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "It is the further case of the Appellant that Respondent No. 1 was permitted to reside in the Suit Property.",
+      "predicted_label": "Facts",
+      "confidence": 0.8925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.083,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0002,
+        "Facts": 0.8925,
+        "Issue": 0.0015,
+        "Reasoning": 0.0206
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Respondent No. 2 is the son of Respondent No. 1.",
+      "predicted_label": "Facts",
+      "confidence": 0.9562,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0002,
+        "Facts": 0.9562,
+        "Issue": 0.0301,
+        "Reasoning": 0.0096
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "As the Respondent No. 1 refused to vacate the Suit Property, which is a residential house, for which the Appellant is stated to have paid all the statutory dues, a suit for declaration and for possession was filed in O.S. No. 51 of 1992 which was decreed on 11.12.2003.",
+      "predicted_label": "Facts",
+      "confidence": 0.9727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.9727,
+        "Issue": 0.0096,
+        "Reasoning": 0.0121
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The Defendants Respondents while acknowledging the factum of execution of Exhibit P4, introduced Exhibit D1, an unregistered Will, allegedly executed by Ms. Jessie Jayalakshmi in favour of the Respondent No.2 (minor son of Respondent No.1).",
+      "predicted_label": "Facts",
+      "confidence": 0.9413,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0001,
+        "Facts": 0.9413,
+        "Issue": 0.0007,
+        "Reasoning": 0.0435
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "It is their case that Exhibit P4 has been replaced by Exhibit D1.",
+      "predicted_label": "Facts",
+      "confidence": 0.54,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0791,
+        "Arguments of Respondent": 0.2444,
+        "Decision": 0.0018,
+        "Facts": 0.54,
+        "Issue": 0.001,
+        "Reasoning": 0.1337
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Exhibit D1 also speaks of a mortgage in favour of Respondent No.1 on payment of Rs. 31,000/ in favor of deceased, Ms. Jessie Jayalakshmi.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0482,
+        "Decision": 0.0003,
+        "Facts": 0.0928,
+        "Issue": 0.0002,
+        "Reasoning": 0.8474
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Thus, the Respondent did not seriously dispute the execution of Exhibit P4 but set up a plea for the dismissal of the suit by taking umbrage under Exhibit D1 and on the basis of the alleged mortgage.",
+      "predicted_label": "Facts",
+      "confidence": 0.895,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0369,
+        "Decision": 0.0001,
+        "Facts": 0.895,
+        "Issue": 0.001,
+        "Reasoning": 0.0621
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "There was also a denial of the averment of the Appellant regarding permissive occupation.",
+      "predicted_label": "Facts",
+      "confidence": 0.8794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.0327,
+        "Decision": 0.0,
+        "Facts": 0.8794,
+        "Issue": 0.0017,
+        "Reasoning": 0.0638
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "While accepting the decree for divorce it is contended by the 1st Respondent that it has not been given effect to.",
+      "predicted_label": "Facts",
+      "confidence": 0.7467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.013,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0008,
+        "Facts": 0.7467,
+        "Issue": 0.0637,
+        "Reasoning": 0.162
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The Trial Court framed the following issues for consideration 1.",
+      "predicted_label": "Facts",
+      "confidence": 0.9831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9831,
+        "Issue": 0.0147,
+        "Reasoning": 0.0013
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "Does the Plaintiff prove to have acquired title to the suit property by virtue of the Will 04.09.1985 executed by late Jessie Jayalakshmi?",
+      "predicted_label": "Facts",
+      "confidence": 0.6944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0018,
+        "Facts": 0.6944,
+        "Issue": 0.2881,
+        "Reasoning": 0.0122
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "2. Does he prove that the Will dated 16.08.1996 executed by Jessie Jayalakshmi is fabricated and forged document?",
+      "predicted_label": "Facts",
+      "confidence": 0.8233,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0212,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0005,
+        "Facts": 0.8233,
+        "Issue": 0.0791,
+        "Reasoning": 0.0727
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "3. Does he prove that the Defendant is in occupation of the schedule property as licensee free of charges?",
+      "predicted_label": "Facts",
+      "confidence": 0.8364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0608,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0005,
+        "Facts": 0.8364,
+        "Issue": 0.0325,
+        "Reasoning": 0.0616
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Whether the Plaintiff has the cause of action for the suit?",
+      "predicted_label": "Facts",
+      "confidence": 0.8341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0012,
+        "Facts": 0.8341,
+        "Issue": 0.1161,
+        "Reasoning": 0.041
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "5. Is the suit barred by limitation?",
+      "predicted_label": "Facts",
+      "confidence": 0.8025,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0327,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.0008,
+        "Facts": 0.8025,
+        "Issue": 0.1434,
+        "Reasoning": 0.007
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "What order or decree the parties are entitled to?",
+      "predicted_label": "Issue",
+      "confidence": 0.8311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0023,
+        "Facts": 0.097,
+        "Issue": 0.8311,
+        "Reasoning": 0.0639
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The Appellant examined himself as PW1 with his brother as PW2.",
+      "predicted_label": "Facts",
+      "confidence": 0.8828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0002,
+        "Facts": 0.8828,
+        "Issue": 0.0002,
+        "Reasoning": 0.1105
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The second attesting witness was examined as PW3 being an independent one.",
+      "predicted_label": "Facts",
+      "confidence": 0.5652,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0436,
+        "Arguments of Respondent": 0.0539,
+        "Decision": 0.0001,
+        "Facts": 0.5652,
+        "Issue": 0.0002,
+        "Reasoning": 0.337
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "On behalf of the Respondents, Respondent No.1 examined himself as DW1, with the attesting witness, Manish as DW2.",
+      "predicted_label": "Facts",
+      "confidence": 0.952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0,
+        "Facts": 0.952,
+        "Issue": 0.0012,
+        "Reasoning": 0.036
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The Trial Court decreed the suit upon satisfying itself that the parameters as required under Section 63 of the Indian Succession Act read with Section 68 of the Indian Evidence Act have been duly complied with in proving Exhibit P4.",
+      "predicted_label": "Facts",
+      "confidence": 0.6527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0165,
+        "Arguments of Respondent": 0.019,
+        "Decision": 0.0011,
+        "Facts": 0.6527,
+        "Issue": 0.001,
+        "Reasoning": 0.3097
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "On Exhibit D1, exhaustive reasoning was rendered for doubting its genuineness.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.111,
+        "Arguments of Respondent": 0.1151,
+        "Decision": 0.001,
+        "Facts": 0.2806,
+        "Issue": 0.0004,
+        "Reasoning": 0.492
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "The reasoning would include the thumb impression, signature, the nature of recitals, the manner in which it was written, and the evidence given by DW2, who did not know anything about the deceased, Ms. Jessie Jayalakshmi, other than being a person known to DW1.",
+      "predicted_label": "Facts",
+      "confidence": 0.7802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0015,
+        "Facts": 0.7802,
+        "Issue": 0.0002,
+        "Reasoning": 0.2001
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "It found that the thumb impression in Exhibit D1 was smudged and the scribe of Exhibit D1 has not been examined.",
+      "predicted_label": "Facts",
+      "confidence": 0.8326,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0009,
+        "Facts": 0.8326,
+        "Issue": 0.0012,
+        "Reasoning": 0.1472
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Further, the stamp on Exhibit D1 bearing date of 15.08.1986 and bearing the seal of the treasury happened to be issued on Independence Day.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4113,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0687,
+        "Arguments of Respondent": 0.4113,
+        "Decision": 0.0001,
+        "Facts": 0.1528,
+        "Issue": 0.0012,
+        "Reasoning": 0.366
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 33,
+      "text": "We may also note that Exhibit D1 was stated to have been executed on 16.08.1986 while Ms. Jessie Jayalakshmi died on 22.08.1986 i.e., within a weeks time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9281,
+      "probabilities": {
+        "Arguments of Petitioner": 0.016,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0003,
+        "Facts": 0.0455,
+        "Issue": 0.0001,
+        "Reasoning": 0.9281
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "8. Aggrieved over the same, the Respondents filed an appeal before the High Court invoking Section 96 of the Civil Procedure Code in RFA No. 692 of 2004 which was decided on 20.09.2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.9922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0,
+        "Facts": 0.9922,
+        "Issue": 0.0017,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The High Court reaffirmed the findings of the Trial Court with respect to the genuineness of Exhibit D1.",
+      "predicted_label": "Facts",
+      "confidence": 0.9273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0002,
+        "Facts": 0.9273,
+        "Issue": 0.0032,
+        "Reasoning": 0.0598
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "However, in the absence of any specific pleading coupled with an admission of the execution of Exhibit P4, the High Court did an exercise by entertaining a suspicion and accordingly found that it has not been dispelled by the Appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3127,
+        "Arguments of Respondent": 0.0975,
+        "Decision": 0.0023,
+        "Facts": 0.0405,
+        "Issue": 0.0004,
+        "Reasoning": 0.5466
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "Findings have been rendered to the effect that there is no logic in the exclusion of the sister of the Appellant and PW2.",
+      "predicted_label": "Facts",
+      "confidence": 0.6621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0025,
+        "Facts": 0.6621,
+        "Issue": 0.0021,
+        "Reasoning": 0.3093
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "Incidentally, it has been held that evidence of PW3 would not be sufficient enough to remove the suspicion surrounding Exhibit P4 and if the deceased Ms. Jessie Jayalakshmi was brought to the office of the SubRegistrar by Ms. Kantha Lakshmi, there was no basis to leave her out of the Will.",
+      "predicted_label": "Facts",
+      "confidence": 0.7917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0003,
+        "Facts": 0.7917,
+        "Issue": 0.0099,
+        "Reasoning": 0.1782
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "On that basis, the suit was dismissed by allowing the appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.7568,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0189,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0009,
+        "Facts": 0.7568,
+        "Issue": 0.0296,
+        "Reasoning": 0.1735
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "An application for review was filed by the Appellant along with an application for condonation of delay.",
+      "predicted_label": "Facts",
+      "confidence": 0.896,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0203,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0021,
+        "Facts": 0.896,
+        "Issue": 0.036,
+        "Reasoning": 0.0408
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "This application was filed in R.P. 279 of 2007 which was dismissed by the High Court declining to condone the delay on 23.11.2007.",
+      "predicted_label": "Facts",
+      "confidence": 0.5091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1221,
+        "Arguments of Respondent": 0.0782,
+        "Decision": 0.0058,
+        "Facts": 0.5091,
+        "Issue": 0.0472,
+        "Reasoning": 0.2377
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "The Appellant has filed the present appeals against the aforesaid judgement and decree rendered by the High Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0008,
+        "Facts": 0.939,
+        "Issue": 0.0554,
+        "Reasoning": 0.0031
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "During the pendency of the pleadings before this Court, Respondent No.1 died.",
+      "predicted_label": "Facts",
+      "confidence": 0.7258,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0073,
+        "Facts": 0.7258,
+        "Issue": 0.2164,
+        "Reasoning": 0.0447
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "His divorced wife Ms. Kantha Lakshmi also died.",
+      "predicted_label": "Facts",
+      "confidence": 0.9151,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0076,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0011,
+        "Facts": 0.9151,
+        "Issue": 0.0452,
+        "Reasoning": 0.0288
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "Consequently, along with Respondent No.2, a daughter born out of the wedlock (Respondent No. 1(b)) was brought on record as additional legal heir of the deceased Respondent No.1.",
+      "predicted_label": "Facts",
+      "confidence": 0.9898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9898,
+        "Issue": 0.0026,
+        "Reasoning": 0.0057
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "It is argued by the counsel for the Appellant that Exhibit P4 is a registered document.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7818,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0033,
+        "Facts": 0.0241,
+        "Issue": 0.0011,
+        "Reasoning": 0.1829
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "PW2 and 3 have deposed in tune with the said document.",
+      "predicted_label": "Facts",
+      "confidence": 0.4818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0406,
+        "Arguments of Respondent": 0.0234,
+        "Decision": 0.0004,
+        "Facts": 0.4818,
+        "Issue": 0.0002,
+        "Reasoning": 0.4535
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "The fact that Ms. Kantha Lakshmi accompanied the deceased, Ms. Jessie Jayalakshmi would show that Exhibit P4 has been executed properly.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0596,
+        "Arguments of Respondent": 0.2368,
+        "Decision": 0.0022,
+        "Facts": 0.3245,
+        "Issue": 0.0009,
+        "Reasoning": 0.3761
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 49,
+      "text": "She did not raise any objection.",
+      "predicted_label": "Facts",
+      "confidence": 0.4479,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0356,
+        "Arguments of Respondent": 0.0695,
+        "Decision": 0.0024,
+        "Facts": 0.4479,
+        "Issue": 0.0008,
+        "Reasoning": 0.4438
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 50,
+      "text": "There was no pleading disputing Exhibit P4.",
+      "predicted_label": "Facts",
+      "confidence": 0.4336,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0999,
+        "Arguments of Respondent": 0.1284,
+        "Decision": 0.001,
+        "Facts": 0.4336,
+        "Issue": 0.0005,
+        "Reasoning": 0.3366
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 51,
+      "text": "The High court has created its own suspicion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5568,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2193,
+        "Arguments of Respondent": 0.1999,
+        "Decision": 0.009,
+        "Facts": 0.0143,
+        "Issue": 0.0007,
+        "Reasoning": 0.5568
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "The findings of the Trial Court resulting in decreeing the suit have not been found fault with.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0368,
+        "Arguments of Respondent": 0.0244,
+        "Decision": 0.4487,
+        "Facts": 0.0259,
+        "Issue": 0.003,
+        "Reasoning": 0.4612
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 53,
+      "text": "Having found Exhibit D1 is a forged and fabricated document, the High Court ought to have affirmed the decree and judgment of the Trial Court.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6668,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6668,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0022,
+        "Facts": 0.0101,
+        "Issue": 0.0045,
+        "Reasoning": 0.3043
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "The question as to whether there exists a suspicious circumstance is one of fact.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.711,
+      "probabilities": {
+        "Arguments of Petitioner": 0.043,
+        "Arguments of Respondent": 0.0514,
+        "Decision": 0.0008,
+        "Facts": 0.0189,
+        "Issue": 0.1748,
+        "Reasoning": 0.711
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Hence, it cannot be adjudicated by invoking Article 136 of the Constitution of India.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2953,
+        "Arguments of Respondent": 0.162,
+        "Decision": 0.0107,
+        "Facts": 0.1702,
+        "Issue": 0.0085,
+        "Reasoning": 0.3534
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 56,
+      "text": "There is no explanation for the exclusion of the brother and sister of the Appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8113,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1492,
+        "Arguments of Respondent": 0.0268,
+        "Decision": 0.0034,
+        "Facts": 0.0091,
+        "Issue": 0.0002,
+        "Reasoning": 0.8113
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "Exhibit D1 has been wrongly rejected by the Courts below.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8209,
+        "Arguments of Respondent": 0.0703,
+        "Decision": 0.0044,
+        "Facts": 0.0115,
+        "Issue": 0.0004,
+        "Reasoning": 0.0926
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "What is important is the validity of Exhibit P4.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7697,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0432,
+        "Arguments of Respondent": 0.033,
+        "Decision": 0.0018,
+        "Facts": 0.1412,
+        "Issue": 0.011,
+        "Reasoning": 0.7697
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "The First Appellate Court has got adequate jurisdiction to satisfy itself on the suspicion surrounding Exhibit P4.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7774,
+      "probabilities": {
+        "Arguments of Petitioner": 0.03,
+        "Arguments of Respondent": 0.117,
+        "Decision": 0.0269,
+        "Facts": 0.0483,
+        "Issue": 0.0004,
+        "Reasoning": 0.7774
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "Ms. Kiran Suri, the learned Senior Counsel, to buttress her submission placed reliance upon the following judgements A. Joseph Antony Lazarus (Dead) by LRs v A.J. Francis, (2006) 9 SCC 515 B. Mahesh Kumar (Dead) By LRs v Vinod Kumar Ors., (2012) 4 SCC 387 CONSIDERATION ON LAW Indian Evidence Act, 1872 14.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7893,
+        "Arguments of Respondent": 0.2023,
+        "Decision": 0.0001,
+        "Facts": 0.0009,
+        "Issue": 0.0001,
+        "Reasoning": 0.0072
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "A useful reference can be made to the following passage in Bachhaj Nahar v. Nilima Mandal, (2008) 17 SCC 491 15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.11,
+        "Arguments of Respondent": 0.0736,
+        "Decision": 0.0002,
+        "Facts": 0.0108,
+        "Issue": 0.0002,
+        "Reasoning": 0.8052
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "The relevant principle relating to circumstances in which the deficiency in, or absence of, pleadings could be ignored, was stated by a Constitution Bench of this Court in Bhagwati Prasad v. Chandramaul AIR 1966 SC 735 (AIR p. 738, para 10) 10.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8895,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0636,
+        "Arguments of Respondent": 0.0365,
+        "Decision": 0.0002,
+        "Facts": 0.0097,
+        "Issue": 0.0005,
+        "Reasoning": 0.8895
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "If a plea is not specifically made and yet it is cov ered by an issue by implication, and the parties knew that the said plea was involved in the trial, then the mere fact that the plea was not expressly taken in the pleadings would not necessarily disentitle a party from relying upon it if it is satisfactorily proved by evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9151,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0401,
+        "Arguments of Respondent": 0.0318,
+        "Decision": 0.0001,
+        "Facts": 0.0081,
+        "Issue": 0.0048,
+        "Reasoning": 0.9151
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "The general rule no doubt is that the relief should be founded on pleadings made by the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0303,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0001,
+        "Facts": 0.0187,
+        "Issue": 0.0023,
+        "Reasoning": 0.9227
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "But where the substantial matters relat ing to the title of both parties to the suit are touched, though indirectly or even obscurely, in the issues, and evidence has been led about them, then the argument that a particular matter was not expressly taken in the pleadings would be purely formal and technical and cannot succeed in every case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0149,
+        "Decision": 0.0001,
+        "Facts": 0.0075,
+        "Issue": 0.0014,
+        "Reasoning": 0.9644
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "What the Court has to consider in dealing with such an objection is did the parties know that the matter in question was involved in the trial, and did they lead evi dence about it?",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9144,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0341,
+        "Arguments of Respondent": 0.0231,
+        "Decision": 0.0005,
+        "Facts": 0.0123,
+        "Issue": 0.0155,
+        "Reasoning": 0.9144
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "If it appears that the parties did not know that the matter was in issue at the trial and one of them has had no opportunity to lead evidence in respect of it, that un doubtedly would be a different matter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.956,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0002,
+        "Facts": 0.0149,
+        "Issue": 0.0036,
+        "Reasoning": 0.956
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "To allow one party to rely upon a matter in respect of which the other party did not lead evidence and has had no opportunity to lead evidence, would introduce considerations of prejudice, and in doing justice to one party, the Court cannot do injustice to another.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0294,
+        "Arguments of Respondent": 0.0467,
+        "Decision": 0.0006,
+        "Facts": 0.0438,
+        "Issue": 0.001,
+        "Reasoning": 0.8784
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "Para 23 corrected vide Official Corrigendum No.",
+      "predicted_label": "Facts",
+      "confidence": 0.4497,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1411,
+        "Arguments of Respondent": 0.0229,
+        "Decision": 0.0066,
+        "Facts": 0.4497,
+        "Issue": 0.0017,
+        "Reasoning": 0.378
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 70,
+      "text": "F.3/Ed.B.J./89/2009 dated 1772009.",
+      "predicted_label": "Facts",
+      "confidence": 0.2953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2026,
+        "Arguments of Respondent": 0.1982,
+        "Decision": 0.0072,
+        "Facts": 0.2953,
+        "Issue": 0.006,
+        "Reasoning": 0.2906
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 71,
+      "text": "It is fundamental that in a civil suit, relief to be granted can be only with reference to the prayers made in the pleadings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0384,
+        "Arguments of Respondent": 0.0362,
+        "Decision": 0.0004,
+        "Facts": 0.0255,
+        "Issue": 0.0011,
+        "Reasoning": 0.8984
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "That apart, in civil suits, grant of re lief is circumscribed by various factors like court fee, limitation, parties to the suits, as also grounds barring relief, like res judicata, estoppel, acquiescence, nonjoinder of causes of action or parties, etc., which require pleading and proof.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9264,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0333,
+        "Arguments of Respondent": 0.0349,
+        "Decision": 0.0008,
+        "Facts": 0.0043,
+        "Issue": 0.0004,
+        "Reasoning": 0.9264
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "Therefore, it would be haz ardous to hold that in a civil suit whatever be the relief that is prayed, the court can on examination of facts grant any relief as it thinks fit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9423,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0203,
+        "Arguments of Respondent": 0.0219,
+        "Decision": 0.0004,
+        "Facts": 0.0146,
+        "Issue": 0.0004,
+        "Reasoning": 0.9423
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "In a suit for recovery of rupees one lakh, the court can not grant a decree for rupees ten lakhs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9496,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0291,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0015,
+        "Facts": 0.0134,
+        "Issue": 0.0005,
+        "Reasoning": 0.9496
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "In a suit for recovery pos session of property A, court cannot grant possession of property B.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2113,
+        "Arguments of Respondent": 0.1947,
+        "Decision": 0.0007,
+        "Facts": 0.0209,
+        "Issue": 0.0013,
+        "Reasoning": 0.5712
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "In a suit praying for permanent injunction, court cannot grant a relief of declaration or possession.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1599,
+        "Arguments of Respondent": 0.2129,
+        "Decision": 0.0021,
+        "Facts": 0.0367,
+        "Issue": 0.0006,
+        "Reasoning": 0.5878
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "It is no doubt true that the High Court was exercising power as first appellate court and hence it was open to the Court to enter into not only questions of law but questions of fact as well.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8833,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0407,
+        "Arguments of Respondent": 0.0431,
+        "Decision": 0.0005,
+        "Facts": 0.0307,
+        "Issue": 0.0017,
+        "Reasoning": 0.8833
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "It is settled law that an appeal is a continuation of suit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7803,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0692,
+        "Arguments of Respondent": 0.0573,
+        "Decision": 0.0056,
+        "Facts": 0.0761,
+        "Issue": 0.0116,
+        "Reasoning": 0.7803
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "An appeal thus is a rehearing of the main matter and the appellate court can re appraise, re appreciate and review the entire evidence oral as well as documentary and can come to its own conclusion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0398,
+        "Arguments of Respondent": 0.0387,
+        "Decision": 0.0006,
+        "Facts": 0.0252,
+        "Issue": 0.0003,
+        "Reasoning": 0.8955
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "At the same time, however, the appellate court is expected, nay bound, to bear in mind a finding recorded by the trial court on oral evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0205,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0019,
+        "Facts": 0.012,
+        "Issue": 0.0006,
+        "Reasoning": 0.9559
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "It should not forget that the trial court had an advantage and opportunity of seeing the demeanor of witnesses and, hence, the trial courts conclusions should not normally be disturbed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9133,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.0503,
+        "Decision": 0.0024,
+        "Facts": 0.0115,
+        "Issue": 0.0002,
+        "Reasoning": 0.9133
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "No doubt, the appellate court possesses the same powers as that of the original court, but they have to be exercised with proper care, caution and circumspection.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9782,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0109,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0006,
+        "Facts": 0.0044,
+        "Issue": 0.0002,
+        "Reasoning": 0.9782
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "When a finding of fact has been recorded by the trial court mainly on appreciation of oral evidence, it should not be lightly disturbed unless the approach of the trial court in appraisal of evidence is erroneous, contrary to well established principles of law or unreasonable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0003,
+        "Facts": 0.0046,
+        "Issue": 0.0012,
+        "Reasoning": 0.9758
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "Before more than a century, in Coghlan v. Cumberland (1898) 1",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.051,
+        "Arguments of Respondent": 0.0541,
+        "Decision": 0.0003,
+        "Facts": 0.0078,
+        "Issue": 0.0002,
+        "Reasoning": 0.8865
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "Ch 704 (CA) Lindley, M.R. pronounced the principle thus Even where the appeal turns on a question of fact, the Court of Appeal has to bear in mind that its duty is to rehear the case, and the Court must reconsider the materials before the Judge with such other materials as it may have decided to admit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0589,
+        "Arguments of Respondent": 0.0344,
+        "Decision": 0.0001,
+        "Facts": 0.0123,
+        "Issue": 0.0004,
+        "Reasoning": 0.8939
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "The Court must then make up its own mind, not disregarding the judgment appealed from, but carefully weighing and considering it and not shrinking from overruling it if on full consideration the Court comes to the conclusion that the judgment is wrong.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0005,
+        "Facts": 0.0037,
+        "Issue": 0.0012,
+        "Reasoning": 0.9621
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "When, as often happens, much turns on the relative credibility of witnesses who have been examined and crossexamined before the Judge, the Court is sensible of the great advantage he has had in seeing and hearing them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0009,
+        "Facts": 0.0048,
+        "Issue": 0.0003,
+        "Reasoning": 0.9815
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "It is often very difficult to estimate correctly the relative credibility of witnesses from written depositions and when the question arises which witness is to be believed rather than another and that question turns on manner and demeanour, the Court of Appeal always is, and must be, guided by the impression made on the Judge who saw the witnesses.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9457,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0414,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0004,
+        "Facts": 0.0031,
+        "Issue": 0.0005,
+        "Reasoning": 0.9457
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "But there may obviously be other circumstances, quite apart from manner and demeanour, which may shew whether a statement is credible or not and these circumstances may warrant the Court in differing from the Judge, even on a question of fact turning on the credibility of witnesses whom the Court has not seen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9765,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0008,
+        "Facts": 0.002,
+        "Issue": 0.001,
+        "Reasoning": 0.9765
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "In Sara Veeraswami v. Talluri Narayya AIR 1949 PC 32 the Judicial Committee of the Privy Council, after referring to relevant decisions on the point, stated (Quoting from Watt v Thomas, (1947) 1",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9257,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0327,
+        "Arguments of Respondent": 0.0386,
+        "Decision": 0.0001,
+        "Facts": 0.0027,
+        "Issue": 0.0002,
+        "Reasoning": 0.9257
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "All ER 582, pp.583 H584 A) but if the evidence as a whole can reasonably be regarded as justifying the conclusion arrived at the trial, and especially if that conclusion has been arrived at on conflicting testimony by a tribunal which saw and heard the witnesses, the appellate court will bear in mind that it has not enjoyed this opportunity and that the view of the trial Judge as to where credibility lies is entitled to great weight.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0534,
+        "Arguments of Respondent": 0.0441,
+        "Decision": 0.0003,
+        "Facts": 0.007,
+        "Issue": 0.0001,
+        "Reasoning": 0.8952
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "This is not to say that the Judge of first instance can be treated as infallible in determining which side is telling the truth or is refraining from exaggeration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9716,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0103,
+        "Arguments of Respondent": 0.011,
+        "Decision": 0.0003,
+        "Facts": 0.0067,
+        "Issue": 0.0001,
+        "Reasoning": 0.9716
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "Like other tribunals, he may go wrong on a question of fact, but it is a cogent circumstance that a Judge of first instance, when estimating the value of verbal testimony, has the advantage (which is denied to courts of appeal) of having the witnesses before him and observing the manner in which their evidence is given.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0002,
+        "Facts": 0.0026,
+        "Issue": 0.0002,
+        "Reasoning": 0.9863
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "This Court also, before more than half a century in Sarju Pershad v. Jwaleshwari, Pratap Narain Singh AIR 1951 SC 120 stated (AIR p. 121, para 7) 7.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9281,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0305,
+        "Arguments of Respondent": 0.0336,
+        "Decision": 0.0002,
+        "Facts": 0.0072,
+        "Issue": 0.0003,
+        "Reasoning": 0.9281
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "The question for our consideration is undoubtedly one of fact, the decision of which depends upon the appreciation of oral evidence adduced in the case.",
+      "predicted_label": "Issue",
+      "confidence": 0.8307,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0005,
+        "Facts": 0.0283,
+        "Issue": 0.8307,
+        "Reasoning": 0.1338
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "In such cases, the appellate court has got to bear in mind that it has not the advantage which the trial Judge had in having the witnesses before him and of observing the manner in which they deposed in court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0205,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0004,
+        "Facts": 0.0085,
+        "Issue": 0.0001,
+        "Reasoning": 0.9593
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "This certainly does not mean that when an appeal lies on facts, the appellate court is not competent to reverse a finding of fact arrived at by the trial Judge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0194,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.0009,
+        "Facts": 0.0098,
+        "Issue": 0.0009,
+        "Reasoning": 0.9526
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "The rule is and it is nothing more than a rule of practice that when there is conflict of oral evidence of the parties on any matter in issue and the decision hinges upon the credibility of the witnesses, then unless there is some special feature about the evidence of a particular witness which has escaped the trial Judges notice or there is a sufficient balance of improbability to displace his opinion as to where the credibility lies, the appellate court should not interfere with the finding of the trial Judge on a question of fact.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.019,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0001,
+        "Facts": 0.0039,
+        "Issue": 0.0006,
+        "Reasoning": 0.9635
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "Referring to several cases on the point, the Court concluded (Sarju Pershad case, AIR p. 123, para 15) 15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0183,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0003,
+        "Facts": 0.0239,
+        "Issue": 0.0002,
+        "Reasoning": 0.9406
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "The duty of the appellate court in such cases is to see whether the evidence taken as a whole can reasonably justify the conclusion which the trial court arrived at or whether there is an element of improbability arising from proved circumstances which, in the opinion of the court, outweighs such finding.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.931,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0552,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0005,
+        "Facts": 0.0053,
+        "Issue": 0.0008,
+        "Reasoning": 0.931
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "After about a decade, in Radha Prasad v. Gajadhar Singh AIR 1960 SC 115 this Court reiterated (AIR p. 123, para 15) 14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0484,
+        "Arguments of Respondent": 0.0566,
+        "Decision": 0.0002,
+        "Facts": 0.004,
+        "Issue": 0.0001,
+        "Reasoning": 0.8906
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "The position in law, in our opinion, is that when an appeal lies on facts it is the right and the duty of the appeal court to consider what its decision on the question of facts should be but in coming to its own decision it should bear in mind that it is looking at the printed record and has not the opportunity of seeing the witnesses and that it should not lightly reject the trial Judges conclusion that the evidence of a particular witness should be believed or should not be believed particularly when such conclusion is based on the observation of the demeanor of the witness in court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0001,
+        "Facts": 0.0036,
+        "Issue": 0.0007,
+        "Reasoning": 0.9753
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "But this does not mean that merely because an appeal court has not heard or seen the witness it will in no case reverse the findings of a trial Judge even on the question of credibility, if such question depends on a fair consideration of matters on record.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0244,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0013,
+        "Facts": 0.0026,
+        "Issue": 0.0006,
+        "Reasoning": 0.9657
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "When it appears to the appeal court that important considerations bearing on the question of credibility have not been taken into account or properly weighed by the trial Judge and such considerations including the question of probability of the story given by the witnesses clearly indicate that the view taken by the trial Judge is wrong, the appeal court should have no hesitation in reversing the findings of the trial Judge on such questions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.033,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0032,
+        "Facts": 0.0062,
+        "Issue": 0.0012,
+        "Reasoning": 0.9507
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "Where the question is not of credibility based entirely on the demeanor of witnesses observed in court but a question of inference of one fact from proved primary facts the court of appeal is in as good a position as the trial Judge and is free to reverse the findings if it thinks that the inference made by the trial Judge is not justified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0006,
+        "Facts": 0.006,
+        "Issue": 0.0011,
+        "Reasoning": 0.9698
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "In T.D. Gopalan v. Commissioner of Hindu Religious Charitable Endowments (1972) 2 SCC 329 , this Court said (SCC p. 333, para 9) 9.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0898,
+        "Arguments of Respondent": 0.0671,
+        "Decision": 0.0003,
+        "Facts": 0.0149,
+        "Issue": 0.0001,
+        "Reasoning": 0.8279
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "The High Court next proceeded to reproduce a summary of the statement of each of the witnesses produced by the defendants.",
+      "predicted_label": "Facts",
+      "confidence": 0.9239,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.9239,
+        "Issue": 0.0014,
+        "Reasoning": 0.0677
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "No attempt whatsoever was made to discuss the reasons which the learned District Judge had given for not accepting their evidence except for a general observation here and there that nothing had been suggested in the cross examination of a particular witness as to why he should have made a false statement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0001,
+        "Facts": 0.0735,
+        "Issue": 0.0003,
+        "Reasoning": 0.9005
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "We apprehend that the uniform practice in the matter of appreciation of evidence has been that if the trial court has given cogent and detailed reasons for not accepting the testimony of a witness the appellate court in all fairness to it ought to deal with those reasons before proceeding to form a contrary opinion about accepting the testimony which has been rejected by the trial court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9697,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0212,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0002,
+        "Facts": 0.002,
+        "Issue": 0.0009,
+        "Reasoning": 0.9697
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "We are, therefore, not in a position to know on what grounds the High Court disagreed with the reasons which prevailed with the learned District Judge for not relying on the evidence of the witnesses produced by the defendants.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9098,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0241,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0062,
+        "Facts": 0.0515,
+        "Issue": 0.0024,
+        "Reasoning": 0.9098
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "Yet in another decision in Madhusudan Das v. Narayanibai (1983) 1 SCC 35 , this Court said (SCC pp.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0482,
+        "Arguments of Respondent": 0.0565,
+        "Decision": 0.0003,
+        "Facts": 0.0068,
+        "Issue": 0.0001,
+        "Reasoning": 0.8882
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "3940, para 8) 8.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4219,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2984,
+        "Arguments of Respondent": 0.0845,
+        "Decision": 0.0044,
+        "Facts": 0.1876,
+        "Issue": 0.0032,
+        "Reasoning": 0.4219
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 113,
+      "text": "At this stage, it would be right to refer to the general principle that, in an appeal against a trial court decree, when the appellate court considers an issue turning on oral evidence it must bear in mind that it does not enjoy the advantage which the trial court had in having the witnesses before it and of observing the manner in which they gave their testimony.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0129,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0002,
+        "Facts": 0.007,
+        "Issue": 0.0008,
+        "Reasoning": 0.9712
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "When there is a conflict of oral evidence on any matter in issue and its resolution turns upon the credibility of the witnesses, the general rule is that the appellate court should permit the findings of fact rendered by the trial court to prevail unless it clearly appears that some special feature about the evidence of a particular witness has escaped the notice of the trial court or there is a sufficient balance of improbability to displace its opinion as to where the credibility lies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0479,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0002,
+        "Facts": 0.0053,
+        "Issue": 0.001,
+        "Reasoning": 0.932
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "The principle is one of practice and governs the weight to be given to a finding of fact by the trial court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0002,
+        "Facts": 0.0071,
+        "Issue": 0.0008,
+        "Reasoning": 0.9783
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "There is, of course, no doubt that as a matter of law if the appraisal of the evidence by the trial court suffers from a material irregularity or is based on inadmissible evidence or on a misreading of the evidence or on conjectures and surmises the appellate court is entitled to interfere with the finding of fact.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9084,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0338,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0005,
+        "Facts": 0.0127,
+        "Issue": 0.0324,
+        "Reasoning": 0.9084
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "Three requisites should normally be present before an appellate court reverses a finding of the trial court (i) it applies its mind to reasons given by the trial court (ii) it has no advantage of seeing and hearing the witnesses and (iii) it records cogent and convincing reasons for disagreeing with the trial court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9421,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0423,
+        "Arguments of Respondent": 0.011,
+        "Decision": 0.001,
+        "Facts": 0.0027,
+        "Issue": 0.001,
+        "Reasoning": 0.9421
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "If the above principles are kept in mind, in our judgment, the decision of the High Court falls short of the grounds which would allow the first appellate court to reverse a finding of fact recorded by the trial court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0019,
+        "Facts": 0.0019,
+        "Issue": 0.0004,
+        "Reasoning": 0.9809
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "As already adverted earlier, the High Court has virtually reached a conclusion without recording reasons in support of such conclusion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9741,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0035,
+        "Facts": 0.0059,
+        "Issue": 0.0004,
+        "Reasoning": 0.9741
+      }
+    },
+    {
+      "sentence_id": 120,
+      "text": "When the court of original jurisdiction has considered oral evidence and recorded findings after seeing the demeanour of witnesses and having applied its mind, the appellate court is enjoined to keep that fact in mind.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0031,
+        "Facts": 0.0029,
+        "Issue": 0.0006,
+        "Reasoning": 0.9663
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "It has to deal with the reasons recorded and conclusions arrived at by the trial court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0604,
+        "Arguments of Respondent": 0.0387,
+        "Decision": 0.0007,
+        "Facts": 0.0444,
+        "Issue": 0.0123,
+        "Reasoning": 0.8435
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "ON FACTS 25.The Appellant has duly complied with the mandate of Section 63 of the Indian Succession Act along with Section 68 of the Indian Evidence Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0606,
+        "Arguments of Respondent": 0.1203,
+        "Decision": 0.044,
+        "Facts": 0.019,
+        "Issue": 0.0003,
+        "Reasoning": 0.7558
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "PW2 being the brother of the Appellant and the other sister, Ms. Kantha Lakshmi were present at the time of execution of Exhibit P4.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0342,
+        "Arguments of Respondent": 0.0219,
+        "Decision": 0.0003,
+        "Facts": 0.3596,
+        "Issue": 0.0002,
+        "Reasoning": 0.5838
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 124,
+      "text": "They have not raised any demur.",
+      "predicted_label": "Facts",
+      "confidence": 0.5074,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0331,
+        "Arguments of Respondent": 0.0609,
+        "Decision": 0.1213,
+        "Facts": 0.5074,
+        "Issue": 0.0048,
+        "Reasoning": 0.2726
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 125,
+      "text": "Both the Courts found that Exhibit D1 is a forged and fabricated document.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5641,
+      "probabilities": {
+        "Arguments of Petitioner": 0.03,
+        "Arguments of Respondent": 0.0769,
+        "Decision": 0.0058,
+        "Facts": 0.3219,
+        "Issue": 0.0013,
+        "Reasoning": 0.5641
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 126,
+      "text": "The alleged mortgage in favor of Respondent No.1 has not been proved.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4116,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0986,
+        "Arguments of Respondent": 0.4116,
+        "Decision": 0.0041,
+        "Facts": 0.104,
+        "Issue": 0.0005,
+        "Reasoning": 0.3813
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 127,
+      "text": "The Appellate Court, in our considered view, has unnecessarily created a suspicion when there is none.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0021,
+        "Facts": 0.0067,
+        "Issue": 0.0005,
+        "Reasoning": 0.9794
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "The Respondents have not denied the factum of the execution of Exhibit P4.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5751,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0517,
+        "Arguments of Respondent": 0.0596,
+        "Decision": 0.0013,
+        "Facts": 0.3118,
+        "Issue": 0.0006,
+        "Reasoning": 0.5751
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 129,
+      "text": "The very fact that they made reliance upon Exhibit D1, which took note of Exhibit P4 as validly done, there is no need for any suspicion on the part of the High Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0507,
+        "Arguments of Respondent": 0.0335,
+        "Decision": 0.0007,
+        "Facts": 0.0172,
+        "Issue": 0.0002,
+        "Reasoning": 0.8976
+      }
+    },
+    {
+      "sentence_id": 130,
+      "text": "That too, when the Trial Court did not find any.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6181,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0934,
+        "Arguments of Respondent": 0.0331,
+        "Decision": 0.0145,
+        "Facts": 0.2365,
+        "Issue": 0.0045,
+        "Reasoning": 0.6181
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 131,
+      "text": "Such a suspicion, as stated earlier, did not arise from either of the siblings of the Appellant who would otherwise be entitled to a share in the Suit Property.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0225,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0053,
+        "Facts": 0.0214,
+        "Issue": 0.0003,
+        "Reasoning": 0.946
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "Her presence in fact adds strength to Exhibit P4 having been executed properly.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0136,
+        "Arguments of Respondent": 0.062,
+        "Decision": 0.0009,
+        "Facts": 0.1369,
+        "Issue": 0.0001,
+        "Reasoning": 0.7865
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "It is the specific case of the Appellant, and perhaps PW2 and Ms. Kantha Lakshmi that the deceased, Ms. Jessie Jayalakshmi wanted the property to be given in his favor.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0022,
+        "Facts": 0.1141,
+        "Issue": 0.0002,
+        "Reasoning": 0.875
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "Their participation coupled with the subsequent conduct would be sufficient enough to uphold Exhibit P4.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2216,
+        "Arguments of Respondent": 0.2803,
+        "Decision": 0.0012,
+        "Facts": 0.1007,
+        "Issue": 0.0004,
+        "Reasoning": 0.3958
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 135,
+      "text": "In the absence of pleadings to the contrary, followed by issues framed, it is not open to the Appellate Court to embark upon an exercise which is not required and also not permitted under the law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9226,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0193,
+        "Arguments of Respondent": 0.0329,
+        "Decision": 0.0011,
+        "Facts": 0.0236,
+        "Issue": 0.0005,
+        "Reasoning": 0.9226
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "It may be correct to state that the existence of suspicious circumstances is one of fact.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9062,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0299,
+        "Arguments of Respondent": 0.0366,
+        "Decision": 0.0004,
+        "Facts": 0.0241,
+        "Issue": 0.0027,
+        "Reasoning": 0.9062
+      }
+    },
+    {
+      "sentence_id": 137,
+      "text": "However, the approach of the Court being contrary to law, we have no hesitation in holding that the judgment and decree of the Appellate Court requires to be interfered with.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0829,
+        "Facts": 0.0368,
+        "Issue": 0.0008,
+        "Reasoning": 0.8639
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "As stated, due execution of Exhibit P4 is accepted as against Exhibit D1.",
+      "predicted_label": "Facts",
+      "confidence": 0.7138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0476,
+        "Arguments of Respondent": 0.0622,
+        "Decision": 0.002,
+        "Facts": 0.7138,
+        "Issue": 0.001,
+        "Reasoning": 0.1735
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "Exhibit P4 also cannot be questioned by the Respondent No. 1 who is none other than the erstwhile brotherinlaw of the Appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1064,
+        "Arguments of Respondent": 0.0751,
+        "Decision": 0.0012,
+        "Facts": 0.1309,
+        "Issue": 0.0003,
+        "Reasoning": 0.6861
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 140,
+      "text": "Respondent No. 1 2 merely rely upon Exhibit D1 which is rightly found to be not genuine by both the Courts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0342,
+        "Arguments of Respondent": 0.1321,
+        "Decision": 0.0049,
+        "Facts": 0.1314,
+        "Issue": 0.0016,
+        "Reasoning": 0.6959
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 141,
+      "text": "29.The High Court after giving adequate reasoning for disbelieving Exhibit D1 that it is forged and fabricated should have kept in mind the conduct and attitude of the Respondent No.1.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0589,
+        "Arguments of Respondent": 0.0578,
+        "Decision": 0.0027,
+        "Facts": 0.004,
+        "Issue": 0.0004,
+        "Reasoning": 0.8763
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "The factors such as the fabrication and severance of relationship between himself and his wife in pursuance of the decree for divorce, coupled with the status while squatting over the Suit Property being the relevant materials, ought to have weighed in its mind instead of questioning Exhibit P4.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0565,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0014,
+        "Facts": 0.0448,
+        "Issue": 0.0003,
+        "Reasoning": 0.8914
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "Had that been done, perhaps it would have come to conclusion that such an exercise is not warranted at the hands of the Respondents, who not only accepted Exhibit P4 but it did not even question it except by contending that it is replaced by Exhibit D1.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9408,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0134,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0003,
+        "Facts": 0.0356,
+        "Issue": 0.0012,
+        "Reasoning": 0.9408
+      }
+    },
+    {
+      "sentence_id": 144,
+      "text": "30.For the reasons aforesaid, we have no hesitation in holding that the judgment and decree of the Appellate Court rendered in RFA No. 692 of 2004 as confirmed in R.P. No.279 of 2007 is required to be set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.7844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.7844,
+        "Facts": 0.0103,
+        "Issue": 0.0005,
+        "Reasoning": 0.2028
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "Accordingly, they are set aside and consequently the appeals stand allowed by restoring the Judgment and Decree of the Trial Court in O.S. No. 51 of 1992.",
+      "predicted_label": "Decision",
+      "confidence": 0.9073,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9073,
+        "Facts": 0.0165,
+        "Issue": 0.0002,
+        "Reasoning": 0.0749
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "No costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9794,
+        "Facts": 0.0163,
+        "Issue": 0.0002,
+        "Reasoning": 0.0038
+      }
+    }
+  ]
+}

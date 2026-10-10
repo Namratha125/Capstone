@@ -1,0 +1,859 @@
+{
+  "case_id": "6983",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This Writ Petition is filed by the Management Personnel of a limited Company against the State and their Employees.",
+      "predicted_label": "Issue",
+      "confidence": 0.8205,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.003,
+        "Facts": 0.1739,
+        "Issue": 0.8205,
+        "Reasoning": 0.0015
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "Respondent no. 2 served as Manager, Human Resources.",
+      "predicted_label": "Facts",
+      "confidence": 0.7439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0457,
+        "Arguments of Respondent": 0.1354,
+        "Decision": 0.0004,
+        "Facts": 0.7439,
+        "Issue": 0.0072,
+        "Reasoning": 0.0674
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "She claimed leave on personal grounds.",
+      "predicted_label": "Facts",
+      "confidence": 0.8208,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0199,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0014,
+        "Facts": 0.8208,
+        "Issue": 0.0332,
+        "Reasoning": 0.117
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "She was not allowed.",
+      "predicted_label": "Facts",
+      "confidence": 0.6433,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0281,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0036,
+        "Facts": 0.6433,
+        "Issue": 0.0135,
+        "Reasoning": 0.3046
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "She was called to office on the date of the incident.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4676,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0673,
+        "Arguments of Respondent": 0.0563,
+        "Decision": 0.0014,
+        "Facts": 0.4067,
+        "Issue": 0.0006,
+        "Reasoning": 0.4676
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "She claimed that she was handed over a resignation letter to sign which she was coerced to do.",
+      "predicted_label": "Facts",
+      "confidence": 0.7753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0393,
+        "Arguments of Respondent": 0.0226,
+        "Decision": 0.0005,
+        "Facts": 0.7753,
+        "Issue": 0.0022,
+        "Reasoning": 0.16
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "She has lodged a criminal complaint on 23.5.2013 against the petitioners herein for the offences under Sections 342 and 506 read with Section 34 of the Indian Penal Code.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9957,
+        "Issue": 0.0022,
+        "Reasoning": 0.0012
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "It is the case of the petitioners that no cognizable offence is disclosed in the complaint.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8432,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0003,
+        "Facts": 0.093,
+        "Issue": 0.0035,
+        "Reasoning": 0.0534
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "It is her case that it is clearly and apparently disclosed.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4343,
+        "Arguments of Respondent": 0.4036,
+        "Decision": 0.001,
+        "Facts": 0.0854,
+        "Issue": 0.0003,
+        "Reasoning": 0.0754
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 9,
+      "text": "Upon that complaint the FIR has been registered and investigation has proceeded.",
+      "predicted_label": "Facts",
+      "confidence": 0.758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0196,
+        "Arguments of Respondent": 0.0406,
+        "Decision": 0.0023,
+        "Facts": 0.758,
+        "Issue": 0.0007,
+        "Reasoning": 0.1789
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The investigation is essentially in terms of the statements of several persons of the company as witnesses.",
+      "predicted_label": "Facts",
+      "confidence": 0.8976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0003,
+        "Facts": 0.8976,
+        "Issue": 0.0027,
+        "Reasoning": 0.089
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "About eight such statements are recorded, seven of which are identical.",
+      "predicted_label": "Facts",
+      "confidence": 0.5357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0457,
+        "Arguments of Respondent": 0.0257,
+        "Decision": 0.0002,
+        "Facts": 0.5357,
+        "Issue": 0.0007,
+        "Reasoning": 0.392
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "One other statement is in more detail and shows what transpired after the complaint.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6332,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0343,
+        "Arguments of Respondent": 0.0211,
+        "Decision": 0.0008,
+        "Facts": 0.3101,
+        "Issue": 0.0005,
+        "Reasoning": 0.6332
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "The spot panchanama has been made and the chargesheet has been filed pending the petition.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0004,
+        "Facts": 0.9858,
+        "Issue": 0.0006,
+        "Reasoning": 0.0069
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The Petitioners contend that in view of the fact that her initial complaint does not at all disclose any cognizable offence the FIR and the consequent chargesheet must be quashed and no criminal trial shall proceed as that would amount to abuse of Court process.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8954,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0034,
+        "Facts": 0.0468,
+        "Issue": 0.0126,
+        "Reasoning": 0.0391
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "In her additional affidavit filed on 12.12.2013.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3174,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2511,
+        "Arguments of Respondent": 0.3174,
+        "Decision": 0.0029,
+        "Facts": 0.2044,
+        "Issue": 0.0009,
+        "Reasoning": 0.2233
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "Respondent no. 2 contends that in fact she has given a further statement.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0267,
+        "Arguments of Respondent": 0.3858,
+        "Decision": 0.0034,
+        "Facts": 0.3636,
+        "Issue": 0.002,
+        "Reasoning": 0.2185
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 17,
+      "text": "Her husband has also given a further statement, none of which have been shown in the chargesheet.",
+      "predicted_label": "Facts",
+      "confidence": 0.6156,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0559,
+        "Arguments of Respondent": 0.0166,
+        "Decision": 0.0036,
+        "Facts": 0.6156,
+        "Issue": 0.0001,
+        "Reasoning": 0.3082
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "She claims that other documents and forensic evidence are not collected as was required and that they do not form part of the chargesheet.",
+      "predicted_label": "Facts",
+      "confidence": 0.5339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0647,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0054,
+        "Facts": 0.5339,
+        "Issue": 0.0013,
+        "Reasoning": 0.369
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "This would have to be seen in the light of whether her initial complaint itself discloses cognizable offence of which the State could take cognizance to proceed upon.5.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1674,
+        "Arguments of Respondent": 0.1765,
+        "Decision": 0.0015,
+        "Facts": 0.1325,
+        "Issue": 0.0485,
+        "Reasoning": 0.4735
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "It would therefore, be material to first analyse the initial complaint.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0661,
+        "Arguments of Respondent": 0.0422,
+        "Decision": 0.0002,
+        "Facts": 0.105,
+        "Issue": 0.0286,
+        "Reasoning": 0.7579
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "The complaint dated 5.1.2013 is hand written and signed by the complainant which is submitted to the Police Inspector, Mapusa Police Station, whose acknowledgment has been obtained by the complainant.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.2972,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2936,
+        "Arguments of Respondent": 0.2972,
+        "Decision": 0.0006,
+        "Facts": 0.2621,
+        "Issue": 0.0012,
+        "Reasoning": 0.1453
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The complaint shows what transpired on the date of the incident being 4.1.2013.",
+      "predicted_label": "Facts",
+      "confidence": 0.4701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0504,
+        "Arguments of Respondent": 0.0424,
+        "Decision": 0.001,
+        "Facts": 0.4701,
+        "Issue": 0.0007,
+        "Reasoning": 0.4354
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "The relevant part reads thus I was picked up from my residence by the company vehicle and taken to my office where I was wrongfully confined to a room in the presence of Mr. Shripad Kulkarni (Plant Manager), Mr. Sanjay Dabir (Sr. Director India Engineering) and Ms. Indrani Saha (Director HR) and I was coerced to sign my resignation letter.",
+      "predicted_label": "Facts",
+      "confidence": 0.408,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3158,
+        "Arguments of Respondent": 0.1882,
+        "Decision": 0.0003,
+        "Facts": 0.408,
+        "Issue": 0.0007,
+        "Reasoning": 0.0871
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 24,
+      "text": "The remainder of the complaint including the last sentence hereinabove cited shows the fact of signing the resignation letter which may be without any reason or justification which shows that it was signed under duress and she was verbally threatened and that she signed because she was wrongfully confined to a room and under mental pressure.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0573,
+        "Arguments of Respondent": 0.0787,
+        "Decision": 0.0007,
+        "Facts": 0.2694,
+        "Issue": 0.0003,
+        "Reasoning": 0.5936
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "It also shows that the resignation letter was previously prepared.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4443,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1389,
+        "Arguments of Respondent": 0.198,
+        "Decision": 0.0008,
+        "Facts": 0.2167,
+        "Issue": 0.0013,
+        "Reasoning": 0.4443
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "It shows her state of mind at the time of the incident.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0521,
+        "Arguments of Respondent": 0.0483,
+        "Decision": 0.0012,
+        "Facts": 0.0709,
+        "Issue": 0.0002,
+        "Reasoning": 0.8273
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "It shows that she was depressed, shock, humiliated and cheated and she left for home feeling suicidal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6218,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0781,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0036,
+        "Facts": 0.2832,
+        "Issue": 0.0007,
+        "Reasoning": 0.6218
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "It is argued on her behalf that the expression wrongfully confined itself makes out the cognizable offence of wrongful confinement.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.526,
+        "Arguments of Respondent": 0.3952,
+        "Decision": 0.0009,
+        "Facts": 0.0045,
+        "Issue": 0.0003,
+        "Reasoning": 0.0731
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "Merely showing title of the offence would not constitute a cognizable offence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.091,
+        "Arguments of Respondent": 0.1643,
+        "Decision": 0.0023,
+        "Facts": 0.0179,
+        "Issue": 0.0005,
+        "Reasoning": 0.724
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "A citizen who uses criminal phraseology may do so under the justified but erroneous impression.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9183,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0109,
+        "Arguments of Respondent": 0.0647,
+        "Decision": 0.0007,
+        "Facts": 0.0052,
+        "Issue": 0.0002,
+        "Reasoning": 0.9183
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Such expression would not itself make the offence cognizable.13.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0478,
+        "Arguments of Respondent": 0.0755,
+        "Decision": 0.0026,
+        "Facts": 0.0095,
+        "Issue": 0.0003,
+        "Reasoning": 0.8642
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Counsel on behalf of the respondent no. 2 gave an illustration of the offence of rape.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9592,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.9592,
+        "Decision": 0.0002,
+        "Facts": 0.0025,
+        "Issue": 0.0001,
+        "Reasoning": 0.029
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "He argued that is the fact by a mere use of such expression is stated, a cognizable offence under Section 376 would be disclosed and an FIR would have to be registered.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6524,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6524,
+        "Arguments of Respondent": 0.3189,
+        "Decision": 0.0001,
+        "Facts": 0.0021,
+        "Issue": 0.0001,
+        "Reasoning": 0.0264
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "Similarly he argued that the expression that the complainant was wrongfully confined would will seal the fate upon the aspect of cognizability.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3723,
+        "Arguments of Respondent": 0.5642,
+        "Decision": 0.0003,
+        "Facts": 0.004,
+        "Issue": 0.0001,
+        "Reasoning": 0.0591
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "The illustration is misconceived, the title of the offence having been stated by the complainant notwithstanding.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7204,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1086,
+        "Arguments of Respondent": 0.1438,
+        "Decision": 0.0019,
+        "Facts": 0.0251,
+        "Issue": 0.0001,
+        "Reasoning": 0.7204
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "Even if the police officer registered the offence and took down the statement, the Court will have to see whether in the initial complaint itself as also from those statements at least some offence can be disclosed which could be prosecuted.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8433,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0824,
+        "Arguments of Respondent": 0.0556,
+        "Decision": 0.0003,
+        "Facts": 0.0092,
+        "Issue": 0.0091,
+        "Reasoning": 0.8433
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "It may be mentioned that there are number of statements recorded of various persons serving in the company where the complainant served who had come to their office who saw the complainant going in conference room and going out then but did not know what transpired therein.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0468,
+        "Arguments of Respondent": 0.0262,
+        "Decision": 0.0002,
+        "Facts": 0.446,
+        "Issue": 0.0002,
+        "Reasoning": 0.4806
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "It is contended on her behalf that a mobile phone upon which she contacted her husband and hard disk of the computer on which the resignation letter was printed would have shown her state of mind and the factum of the preparation of the resignation letter respectively.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5553,
+        "Arguments of Respondent": 0.2292,
+        "Decision": 0.0002,
+        "Facts": 0.0335,
+        "Issue": 0.0004,
+        "Reasoning": 0.1814
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "If she was wrongfully restrained and if the petitioner committed any offences those aspects would have been material to consider.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0349,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0006,
+        "Facts": 0.0479,
+        "Issue": 0.0004,
+        "Reasoning": 0.8994
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "If the offence of wrongful restraint is not disclosed and only a case of coercion in signing the resignation letter is disclosed, that evidence may not be required in criminal prosecution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7379,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1577,
+        "Arguments of Respondent": 0.0695,
+        "Decision": 0.0006,
+        "Facts": 0.0296,
+        "Issue": 0.0047,
+        "Reasoning": 0.7379
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "It may certainly of use in civil action if the complainant sues.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0321,
+        "Arguments of Respondent": 0.0297,
+        "Decision": 0.0019,
+        "Facts": 0.0207,
+        "Issue": 0.0006,
+        "Reasoning": 0.915
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "Consequently what is stated by the complainant in her further affidavit would not be material to consider while seeing whether or not the complaint and consequently the chargesheet is required to be quashed.21.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0019,
+        "Facts": 0.0162,
+        "Issue": 0.0001,
+        "Reasoning": 0.9541
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The argument on behalf of the complainant that chargesheet discloses the bad investigation would also not be sufficient to show any offence under the I.P.C. Counsel on behalf of the complainant drew our attention to the judgment of the Apex Court in the case of Abasaheb Yadav Honmane Vs. State of Maharashtra, 2008 ALL MR(Cri) 952 in which parameters for exercising the inherent jurisdiction under Section 482 of the Cr.P.C. have been laid down.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5403,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2714,
+        "Arguments of Respondent": 0.5403,
+        "Decision": 0.0003,
+        "Facts": 0.1097,
+        "Issue": 0.0006,
+        "Reasoning": 0.0778
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "It sets our the circumstances under which it has to be exercised and which are enumerated thus(i) to give effect to an order under the Cr. P.C.(ii) to prevent abuse of the process of court and(iii) to otherwise secure the ends of justice.22.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0641,
+        "Arguments of Respondent": 0.0454,
+        "Decision": 0.0003,
+        "Facts": 0.0067,
+        "Issue": 0.0003,
+        "Reasoning": 0.8832
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "It would be an abuse of the criminal machinery to prosecute the petitioners for a civil wrong alone made out by the complainant and consequently to secure ends of justice, her complaint would require to be quashed.23.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0577,
+        "Arguments of Respondent": 0.0397,
+        "Decision": 0.0022,
+        "Facts": 0.007,
+        "Issue": 0.0003,
+        "Reasoning": 0.8932
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "Our attention have been drawn to the judgment of the Supreme Court in the case of Asmathunnisa Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5322,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5322,
+        "Arguments of Respondent": 0.2208,
+        "Decision": 0.0011,
+        "Facts": 0.0108,
+        "Issue": 0.0006,
+        "Reasoning": 0.2345
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "State of Andhra Pradesh, (2011) 11 SCC 259 in which the enjoinment for the exercise of inherent powers for quashing criminal proceedings under Section 482 of Cr.P.C. have been laid down in paragraph 13.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3891,
+        "Arguments of Respondent": 0.3063,
+        "Decision": 0.0012,
+        "Facts": 0.0319,
+        "Issue": 0.0004,
+        "Reasoning": 0.2711
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "Three parametres laid down in that judgment runs thus(i) where it manifestly appears that there is a legal bar against the institution or continuance of the proceedings(ii) where the allegations in the first information report or complaint taken at their face value and accepted in their entirety do not constitute the offence alleged(iii) where the allegations constitute an offence but there is no legal evidence adduced or the evidence adduced clearly or manifestly fails to prove the charge.24.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.144,
+        "Arguments of Respondent": 0.0669,
+        "Decision": 0.0016,
+        "Facts": 0.0034,
+        "Issue": 0.0005,
+        "Reasoning": 0.7835
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The above case falls under the second parameter since upon reading the complaint it does not disclose a cognizable offence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9234,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0313,
+        "Arguments of Respondent": 0.0392,
+        "Decision": 0.0023,
+        "Facts": 0.0034,
+        "Issue": 0.0003,
+        "Reasoning": 0.9234
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "Even otherwise, the evidence which has been shown to us also does not prove the case sought to be made out by the complainant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9327,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0066,
+        "Facts": 0.0507,
+        "Issue": 0.0002,
+        "Reasoning": 0.9327
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "It would be futile to criminally prosecute the complaint of respondent no.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0814,
+        "Arguments of Respondent": 0.3075,
+        "Decision": 0.032,
+        "Facts": 0.0267,
+        "Issue": 0.0002,
+        "Reasoning": 0.5521
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "2.",
+      "predicted_label": "Facts",
+      "confidence": 0.4532,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2932,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0095,
+        "Facts": 0.4532,
+        "Issue": 0.1503,
+        "Reasoning": 0.0595
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "She would however be entitled to sue and prove her case in civil Court.25.",
+      "predicted_label": "Decision",
+      "confidence": 0.7261,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.7261,
+        "Facts": 0.0134,
+        "Issue": 0.0003,
+        "Reasoning": 0.2572
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Consequently this petition filed under Section 482 of Cr.",
+      "predicted_label": "Facts",
+      "confidence": 0.9617,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0005,
+        "Facts": 0.9617,
+        "Issue": 0.0312,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "P.C. deserves to be granted.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7042,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7042,
+        "Arguments of Respondent": 0.0664,
+        "Decision": 0.0122,
+        "Facts": 0.0683,
+        "Issue": 0.0348,
+        "Reasoning": 0.114
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "The FIR being Crime No. 4/2013 registered with Mapusa Police Station on 5.1.2013 and the chargesheet filed pursuant thereto in the Court of Judicial Magistrate, First Class, Mapusa being criminal case no. 150/S/2013/F are quashed and set aside.26.",
+      "predicted_label": "Decision",
+      "confidence": 0.8556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.8556,
+        "Facts": 0.0769,
+        "Issue": 0.0004,
+        "Reasoning": 0.0642
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "Rule is granted to the above extent.27.",
+      "predicted_label": "Decision",
+      "confidence": 0.8975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.8975,
+        "Facts": 0.0264,
+        "Issue": 0.0002,
+        "Reasoning": 0.0744
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "Criminal Writ Petition is disposed of accordingly.",
+      "predicted_label": "Decision",
+      "confidence": 0.5847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.5847,
+        "Facts": 0.3827,
+        "Issue": 0.0011,
+        "Reasoning": 0.0287
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

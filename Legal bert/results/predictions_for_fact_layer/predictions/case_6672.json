@@ -1,0 +1,4303 @@
+{
+  "case_id": "6672",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "These four appeals arise from the orders passed in two Arbitration Petitions, which were heard together by the learned single Judge.",
+      "predicted_label": "Issue",
+      "confidence": 0.6211,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0013,
+        "Facts": 0.3749,
+        "Issue": 0.6211,
+        "Reasoning": 0.002
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "By the impugned order dated 11 May 2012, the learned single Judge has allowed the arbitration petitions and has restrained the appellants from in any manner dealing with certain shares of",
+      "predicted_label": "Facts",
+      "confidence": 0.8784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0027,
+        "Facts": 0.8784,
+        "Issue": 0.0561,
+        "Reasoning": 0.0562
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Gharda Chemicals Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.3817,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1578,
+        "Arguments of Respondent": 0.1026,
+        "Decision": 0.0275,
+        "Facts": 0.3817,
+        "Issue": 0.0365,
+        "Reasoning": 0.294
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 3,
+      "text": "Arbitration Petition No.444 of 2012 was filed by Jer Rutton Kavasmaneck and Darius Rutton Kavasmaneck.",
+      "predicted_label": "Facts",
+      "confidence": 0.9207,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0056,
+        "Facts": 0.9207,
+        "Issue": 0.0339,
+        "Reasoning": 0.0367
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "Arbitration Petition (L) No.398 of 2012 was filed by Colin Rebello.",
+      "predicted_label": "Facts",
+      "confidence": 0.975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0064,
+        "Facts": 0.975,
+        "Issue": 0.0009,
+        "Reasoning": 0.0122
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Godrej Industries and Aban and Percy Kavasmaneck were contesting respondents in the petitions.",
+      "predicted_label": "Facts",
+      "confidence": 0.894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0152,
+        "Decision": 0.0008,
+        "Facts": 0.894,
+        "Issue": 0.0169,
+        "Reasoning": 0.0605
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "These two sets of respondents in the arbitration petitions have filed the present four appeals.",
+      "predicted_label": "Facts",
+      "confidence": 0.5608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0005,
+        "Facts": 0.5608,
+        "Issue": 0.4356,
+        "Reasoning": 0.0022
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "Along with the appeals we have also taken up two Arbitration Applications filed by Jer and Darius Kavasmanecks, and Colin Rebello under section 11 of the Arbitration Conciliation Act, 1996 (the Act) for appointment of arbitrator.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.6458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0007,
+        "Facts": 0.6458,
+        "Issue": 0.3512,
+        "Reasoning": 0.0016
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "Some of the parties are related.",
+      "predicted_label": "Facts",
+      "confidence": 0.7558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.013,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0014,
+        "Facts": 0.7558,
+        "Issue": 0.0965,
+        "Reasoning": 0.1244
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Jer is the mother of Darius and Percy.",
+      "predicted_label": "Facts",
+      "confidence": 0.9225,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0002,
+        "Facts": 0.9225,
+        "Issue": 0.0004,
+        "Reasoning": 0.0655
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Percy and Aban are husband and wife.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6652,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0015,
+        "Facts": 0.3076,
+        "Issue": 0.0007,
+        "Reasoning": 0.6652
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "Maharukh is the sister of Darius and Percy.",
+      "predicted_label": "Facts",
+      "confidence": 0.9732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9732,
+        "Issue": 0.001,
+        "Reasoning": 0.0221
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Colin and Conrad Rebello are not part of the Kavasmaneck family and they are espousing their cause alongside Jer and Darius.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4181,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2238,
+        "Arguments of Respondent": 0.4181,
+        "Decision": 0.0012,
+        "Facts": 0.0894,
+        "Issue": 0.0007,
+        "Reasoning": 0.2668
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "When five parties viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7117,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0271,
+        "Arguments of Respondent": 0.0387,
+        "Decision": 0.0021,
+        "Facts": 0.2186,
+        "Issue": 0.0018,
+        "Reasoning": 0.7117
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Jer, Darius, Percy, Aban and Maharukh are together they are referred to as Kavasmanecks.",
+      "predicted_label": "Facts",
+      "confidence": 0.9637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0003,
+        "Facts": 0.9637,
+        "Issue": 0.0006,
+        "Reasoning": 0.0277
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Colin and Conrad Rebellos together are referred to as Rebellos.",
+      "predicted_label": "Facts",
+      "confidence": 0.9245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0002,
+        "Facts": 0.9245,
+        "Issue": 0.011,
+        "Reasoning": 0.0418
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "When Kavasmaneks and Rebellos were together, they are referred to as minority shareholders.",
+      "predicted_label": "Facts",
+      "confidence": 0.805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0178,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.0001,
+        "Facts": 0.805,
+        "Issue": 0.0033,
+        "Reasoning": 0.1579
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The parties who filed the arbitration petitions are referred to as petitioners.",
+      "predicted_label": "Facts",
+      "confidence": 0.8348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0002,
+        "Facts": 0.8348,
+        "Issue": 0.1587,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Godrej Industries is referred to as Godrej.",
+      "predicted_label": "Facts",
+      "confidence": 0.8777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0425,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0005,
+        "Facts": 0.8777,
+        "Issue": 0.0393,
+        "Reasoning": 0.026
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "Gharda Chemicals Ltd. is referred to as the Company.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0004,
+        "Facts": 0.9812,
+        "Issue": 0.0145,
+        "Reasoning": 0.0016
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "In the dispute before us, Godrej, Aban and Percy Kavasmaneck are together on one side.",
+      "predicted_label": "Facts",
+      "confidence": 0.6348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0007,
+        "Facts": 0.6348,
+        "Issue": 0.0153,
+        "Reasoning": 0.3399
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Jer and Darius Kavasmaneck, Colin and Conrad Rebello together on the other Mlns11 Appeal 331/12 connected matters.",
+      "predicted_label": "Facts",
+      "confidence": 0.6152,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0337,
+        "Arguments of Respondent": 0.0424,
+        "Decision": 0.0028,
+        "Facts": 0.6152,
+        "Issue": 0.3032,
+        "Reasoning": 0.0027
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "side.",
+      "predicted_label": "Facts",
+      "confidence": 0.5903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0361,
+        "Arguments of Respondent": 0.08,
+        "Decision": 0.0162,
+        "Facts": 0.5903,
+        "Issue": 0.0077,
+        "Reasoning": 0.2698
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "Maharukh Oomarigar has neither appeared nor filed a say, in the petitions.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0011,
+        "Facts": 0.984,
+        "Issue": 0.0005,
+        "Reasoning": 0.0044
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The shareholding pattern of the parties is of importance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0103,
+        "Arguments of Respondent": 0.0213,
+        "Decision": 0.0003,
+        "Facts": 0.3679,
+        "Issue": 0.0058,
+        "Reasoning": 0.5945
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "The following table will show the approximate shareholdings of the parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.7871,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0345,
+        "Arguments of Respondent": 0.0369,
+        "Decision": 0.0016,
+        "Facts": 0.7871,
+        "Issue": 0.0022,
+        "Reasoning": 0.1377
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Sr.No.NameNumber of sharesPercentage(approx)1Jerand Darius Kavesmaneck10516172Percy, Aban Kavasmaneck andMaharukhOomarigar8115133Colin and Conrad Rebello26404 Total 34 (approx)Minority shareholders together hold about 34 equity share capital of the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0002,
+        "Facts": 0.9806,
+        "Issue": 0.0006,
+        "Reasoning": 0.0114
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "Majority share holding is owned and controlled by Dr.Keki Hormusji Gharda.",
+      "predicted_label": "Facts",
+      "confidence": 0.9004,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0004,
+        "Facts": 0.9004,
+        "Issue": 0.015,
+        "Reasoning": 0.0329
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Thus, Kavasmanecks and Rebellos together constitute a sizable minority in the Company.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9647,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0179,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0001,
+        "Facts": 0.9647,
+        "Issue": 0.0009,
+        "Reasoning": 0.0107
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "Gharda Chemicals Limited is a closely held Company belonging to Gharda and Kavasmaneck families.",
+      "predicted_label": "Facts",
+      "confidence": 0.9673,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0001,
+        "Facts": 0.9673,
+        "Issue": 0.0013,
+        "Reasoning": 0.0219
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The Company was formed by taking over family partnership of M s Gharda Chemicals Industries.",
+      "predicted_label": "Facts",
+      "confidence": 0.7368,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0623,
+        "Arguments of Respondent": 0.0621,
+        "Decision": 0.001,
+        "Facts": 0.7368,
+        "Issue": 0.004,
+        "Reasoning": 0.1338
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The Company was incorporated as a Private Company, which later became a deemed public Company, by virtue of its turnover, under Section 43A of the Companies Act, 1956.",
+      "predicted_label": "Facts",
+      "confidence": 0.5649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1095,
+        "Arguments of Respondent": 0.0802,
+        "Decision": 0.0005,
+        "Facts": 0.5649,
+        "Issue": 0.0025,
+        "Reasoning": 0.2423
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "On 24 August 1989, Dr. Gharda issued a circular, informing the share holders that he has decided to transfer his share in the Company to Gharda Research Foundation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.9455,
+        "Issue": 0.0003,
+        "Reasoning": 0.0474
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "It was a Company incorporated under Section 25, held and controlled by Dr Gharda.",
+      "predicted_label": "Facts",
+      "confidence": 0.7084,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0611,
+        "Arguments of Respondent": 0.0285,
+        "Decision": 0.0005,
+        "Facts": 0.7084,
+        "Issue": 0.0017,
+        "Reasoning": 0.1998
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The Circular requested other shareholders to donate their shares to the foundation.",
+      "predicted_label": "Facts",
+      "confidence": 0.8585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.014,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0001,
+        "Facts": 0.8585,
+        "Issue": 0.0007,
+        "Reasoning": 0.1202
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "This move was opposed by the Kavasmanecks.",
+      "predicted_label": "Facts",
+      "confidence": 0.8248,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0223,
+        "Decision": 0.0005,
+        "Facts": 0.8248,
+        "Issue": 0.0008,
+        "Reasoning": 0.1401
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "On 15 February 1990, Dr Gharda convened an Extraordinary General Meeting proposing a special resolution for deleting Article 57 of the Association of the Company which provided for preemptive rights in respect of the shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.9206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.0162,
+        "Decision": 0.0001,
+        "Facts": 0.9206,
+        "Issue": 0.0004,
+        "Reasoning": 0.0401
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The minority share holders filed Company Petition No.77 of 1990 in this Court, and this Court by its order dated 14 February 1990 restrained the Company from implementing the resolution, if any, passed in the Extraordinary General Meeting.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9951,
+        "Issue": 0.0012,
+        "Reasoning": 0.0018
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "In view of these developments within the Company, the minority shareholders sought financial assistance from Godrej Industries, for purchase of shares to secure their position as significant minority.",
+      "predicted_label": "Facts",
+      "confidence": 0.7999,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0396,
+        "Arguments of Respondent": 0.0624,
+        "Decision": 0.0003,
+        "Facts": 0.7999,
+        "Issue": 0.0017,
+        "Reasoning": 0.0961
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "A memorandum of understanding (MoU) was executed on 3 June 1992 between minority shareholders on one hand and Godrej on the other hand.",
+      "predicted_label": "Facts",
+      "confidence": 0.9892,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0001,
+        "Facts": 0.9892,
+        "Issue": 0.0021,
+        "Reasoning": 0.0033
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Under the MoU Godrej agreed that it would advance loan to the minority shareholders for purchase of shares of the Company which would be offered under Article 57 of the Articles of Association, on a condition that for every one share purchased, two equity shares of the Company would be kept as security with Godrej.",
+      "predicted_label": "Facts",
+      "confidence": 0.9394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0001,
+        "Facts": 0.9394,
+        "Issue": 0.0001,
+        "Reasoning": 0.0421
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "There were several other complex covenants in the Agreement.",
+      "predicted_label": "Facts",
+      "confidence": 0.6446,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0315,
+        "Arguments of Respondent": 0.057,
+        "Decision": 0.0006,
+        "Facts": 0.6446,
+        "Issue": 0.0011,
+        "Reasoning": 0.2652
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "The MoU was to continue till the Company became a Public Limited Company listed on Stock Exchange.",
+      "predicted_label": "Facts",
+      "confidence": 0.951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0001,
+        "Facts": 0.951,
+        "Issue": 0.0009,
+        "Reasoning": 0.0334
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "As per the MoU, Godrej advanced loan from time to time and shares were offered as security by the minority shareholders.",
+      "predicted_label": "Facts",
+      "confidence": 0.852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0593,
+        "Arguments of Respondent": 0.0581,
+        "Decision": 0.0001,
+        "Facts": 0.852,
+        "Issue": 0.0004,
+        "Reasoning": 0.0302
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "On the same day that is 3 June 1992, minority shareholders executed a separate MoU amongst themselves to bind each other to work towards the common goal.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0001,
+        "Facts": 0.9903,
+        "Issue": 0.0005,
+        "Reasoning": 0.0039
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "In and around February 2005, Godrej lodged 3199 equity shares with the Company for transfer, without intimating the minority shareholders.",
+      "predicted_label": "Facts",
+      "confidence": 0.9317,
+      "probabilities": {
+        "Arguments of Petitioner": 0.019,
+        "Arguments of Respondent": 0.0356,
+        "Decision": 0.0,
+        "Facts": 0.9317,
+        "Issue": 0.0004,
+        "Reasoning": 0.0132
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "According to Godrej it was done to perfect their security.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5399,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0909,
+        "Arguments of Respondent": 0.1252,
+        "Decision": 0.0008,
+        "Facts": 0.2429,
+        "Issue": 0.0003,
+        "Reasoning": 0.5399
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "The Company refused to register the shares and returned them back to Godrej.",
+      "predicted_label": "Facts",
+      "confidence": 0.775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0456,
+        "Arguments of Respondent": 0.0268,
+        "Decision": 0.0005,
+        "Facts": 0.775,
+        "Issue": 0.0021,
+        "Reasoning": 0.15
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "The refusal was been challenged and the matter is pending.",
+      "predicted_label": "Facts",
+      "confidence": 0.4646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1515,
+        "Arguments of Respondent": 0.1272,
+        "Decision": 0.006,
+        "Facts": 0.4646,
+        "Issue": 0.0075,
+        "Reasoning": 0.2432
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "In view of the action of Godrej referred to above, the company alleged that the Minority Shareholders were acting against the interest of the Company, and the Company filed Suit No.1170/2005 challenging the Godrej MoU.",
+      "predicted_label": "Facts",
+      "confidence": 0.6092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1125,
+        "Arguments of Respondent": 0.1465,
+        "Decision": 0.0008,
+        "Facts": 0.6092,
+        "Issue": 0.0003,
+        "Reasoning": 0.1306
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "The said Suit is pending.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.9795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0003,
+        "Facts": 0.9795,
+        "Issue": 0.0013,
+        "Reasoning": 0.0094
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "In and around May, 2009, some TV Channels carried a news report suggesting that Dr Gharda was offering to sell 75 equity shares of the Company for a value of Rs.1600 Crores.",
+      "predicted_label": "Facts",
+      "confidence": 0.9939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0,
+        "Facts": 0.9939,
+        "Issue": 0.0007,
+        "Reasoning": 0.0026
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Dr Gharda denied the news.",
+      "predicted_label": "Facts",
+      "confidence": 0.5632,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0388,
+        "Arguments of Respondent": 0.019,
+        "Decision": 0.0001,
+        "Facts": 0.5632,
+        "Issue": 0.0001,
+        "Reasoning": 0.3786
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Minority shareholders also confirmed that they were not intending to sell their shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.6737,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0485,
+        "Arguments of Respondent": 0.0527,
+        "Decision": 0.0003,
+        "Facts": 0.6737,
+        "Issue": 0.0002,
+        "Reasoning": 0.2245
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "However, in view of these news reports, Godrej filed Arbitration Petition No.346 of 2009 in this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.8653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.0467,
+        "Decision": 0.0006,
+        "Facts": 0.8653,
+        "Issue": 0.0016,
+        "Reasoning": 0.0672
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "By an order dated 12 March 2009, this Court restrained the minority shareholders from selling, transferring and or in any manner whatsoever dealing with the shares owned by them in the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9402,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.0004,
+        "Facts": 0.9402,
+        "Issue": 0.0025,
+        "Reasoning": 0.0347
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "On 6 October 2009, Arbitration Petition No. 346 of 2009 was finally disposed of and the injunction was continued till the constitution of the Arbitral Tribunal and six weeks thereafter.",
+      "predicted_label": "Facts",
+      "confidence": 0.9489,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0003,
+        "Facts": 0.9489,
+        "Issue": 0.0025,
+        "Reasoning": 0.0378
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "By an order dated 12 March 2011, a sole Arbitrator came to be appointed and the Godrej filed an application under Section 17 of the Arbitration Act before the Arbitrator.",
+      "predicted_label": "Facts",
+      "confidence": 0.9316,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0206,
+        "Decision": 0.0006,
+        "Facts": 0.9316,
+        "Issue": 0.0013,
+        "Reasoning": 0.0401
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "The Arbitral Tribunal continued the injunction granted against the minority shareholders restraining them from dealing with the shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.7814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.001,
+        "Facts": 0.7814,
+        "Issue": 0.0009,
+        "Reasoning": 0.1961
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Thus all the minority shareholders were restrained from selling the shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.8742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.022,
+        "Decision": 0.0002,
+        "Facts": 0.8742,
+        "Issue": 0.0012,
+        "Reasoning": 0.0862
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "However, to the surprise of the petitioners, Godrej suddenly sought to withdraw the Arbitral proceedings and prayed that the interim injunction granted by Arbitral Tribunal should be vacated.",
+      "predicted_label": "Facts",
+      "confidence": 0.7839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1296,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0006,
+        "Facts": 0.7839,
+        "Issue": 0.0012,
+        "Reasoning": 0.076
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "This appeared to have been done since there was a split in the minority shareholders with Percy and Aban Kavasmanecks deciding to side with Godrej.",
+      "predicted_label": "Facts",
+      "confidence": 0.5656,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0614,
+        "Arguments of Respondent": 0.054,
+        "Decision": 0.0003,
+        "Facts": 0.5656,
+        "Issue": 0.0002,
+        "Reasoning": 0.3185
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "The learned Arbitrator reserved the order on the application for withdrawal, till the next day i.e. 14 March 2012.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.9908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.9908,
+        "Issue": 0.0003,
+        "Reasoning": 0.0048
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "Alarmed by this sudden move by Godrej and split in the minority shareholders, on the next day itself, i.e. 14 March 2012, Conrad Rebello filed the present Arbitration Petition (Lodging) No.390/2008 and sought urgent adinterim orders restraining Godrej and Percy, Aban and Maharukh from disposing of the shares in any manner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.9888,
+        "Issue": 0.001,
+        "Reasoning": 0.0078
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "In the arbitration proceedings of Godrej, on 14 March 2012, the learned Arbitrator pronounced the order which was reserved and permitted Godrej to withdraw its proceedings, and adinterim order was vacated.",
+      "predicted_label": "Facts",
+      "confidence": 0.7474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0338,
+        "Arguments of Respondent": 0.1058,
+        "Decision": 0.0027,
+        "Facts": 0.7474,
+        "Issue": 0.0016,
+        "Reasoning": 0.1086
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "However by that time Conrad Rebello had obtained an order of injunction against all in respect of transfer of shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.7256,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0256,
+        "Arguments of Respondent": 0.0233,
+        "Decision": 0.0011,
+        "Facts": 0.7256,
+        "Issue": 0.0011,
+        "Reasoning": 0.2233
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "Thereafter, Jer and Darius also filed their Arbitration petition i.e. No.444 of 2012.11.",
+      "predicted_label": "Facts",
+      "confidence": 0.9923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.9923,
+        "Issue": 0.0004,
+        "Reasoning": 0.0037
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "In the meanwhile, in a parallel proceeding before the Company Law Board, the Company Law Board by an order dated 14 May 2010 in Company Petition No.139 of 2009 held that the Company has become a Public Limited Company and Article 57 was invalid.",
+      "predicted_label": "Facts",
+      "confidence": 0.977,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0001,
+        "Facts": 0.977,
+        "Issue": 0.0011,
+        "Reasoning": 0.0146
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "An appeal came to be filed by Jer and Darius Kavasmaneck.",
+      "predicted_label": "Facts",
+      "confidence": 0.9776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0002,
+        "Facts": 0.9776,
+        "Issue": 0.0035,
+        "Reasoning": 0.0168
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "The appeal was dismissed by an order dated 14 June 2011, but Dr.Gharda was restrained from dealing with shares in the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0001,
+        "Facts": 0.9624,
+        "Issue": 0.0065,
+        "Reasoning": 0.0237
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "Thereafter, the decision of this Court was challenged in Apex Court by way of S.L.P. No.1699/2011.",
+      "predicted_label": "Facts",
+      "confidence": 0.9513,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0002,
+        "Facts": 0.9513,
+        "Issue": 0.001,
+        "Reasoning": 0.0251
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "By an order dated 22/27 July, 2011, the Apex Court continued the interim injunction restraining Dr Gharda dealing with the shares held by him in any manner.12.",
+      "predicted_label": "Facts",
+      "confidence": 0.9957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9957,
+        "Issue": 0.0008,
+        "Reasoning": 0.0017
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "The present petitions were taken up for hearing by the learned single Judge.",
+      "predicted_label": "Facts",
+      "confidence": 0.9672,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0004,
+        "Facts": 0.9672,
+        "Issue": 0.0059,
+        "Reasoning": 0.019
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "All parties were duly represented by their advocates.",
+      "predicted_label": "Facts",
+      "confidence": 0.6752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0497,
+        "Arguments of Respondent": 0.122,
+        "Decision": 0.0022,
+        "Facts": 0.6752,
+        "Issue": 0.0085,
+        "Reasoning": 0.1424
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "They produced documents in support of their contentions and filed replies and rejoinders.",
+      "predicted_label": "Facts",
+      "confidence": 0.9553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0001,
+        "Facts": 0.9553,
+        "Issue": 0.0017,
+        "Reasoning": 0.028
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "The petitioners i.e. Jer, Darius and Conrad Rebello contended that Maharukh Oomarigar, Percy and Aban have colluded with Godrej and Dr Gharda to dislodge the petitioners from the company and have committed breach of the MoU.",
+      "predicted_label": "Facts",
+      "confidence": 0.675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2848,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.001,
+        "Facts": 0.675,
+        "Issue": 0.0006,
+        "Reasoning": 0.0312
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "They urged that as per the negative covenant stipulated under the MoU, the parties agreed not to sell or dispose of the shares till the shares of the Company are listed on any recognized Stock Exchange.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3937,
+        "Arguments of Respondent": 0.3816,
+        "Decision": 0.0002,
+        "Facts": 0.2107,
+        "Issue": 0.0006,
+        "Reasoning": 0.0132
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 77,
+      "text": "Since this dispute arising under the MoU is sought to be referred for the Arbitration, and since the shares are irreplacable and have a special value, pending the Arbitration Proceedings, no party be permitted to dispose of or deal with these shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.9019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0221,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.0084,
+        "Facts": 0.9019,
+        "Issue": 0.0008,
+        "Reasoning": 0.0433
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "Godrej opposed the petition contending that the petitioners have failed to repay the loan, and have committed several breaches of the MoU. Godrej contended that the MoU is being misinterpreted and the petitioners not acting as per MoU.",
+      "predicted_label": "Facts",
+      "confidence": 0.762,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0333,
+        "Arguments of Respondent": 0.1812,
+        "Decision": 0.0005,
+        "Facts": 0.762,
+        "Issue": 0.0006,
+        "Reasoning": 0.0224
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "On one hand petitioners are contending that the shares should not be dealt with till the Company becomes public while on the other hand are taking steps to oppose the Company going public.",
+      "predicted_label": "Facts",
+      "confidence": 0.5871,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0782,
+        "Arguments of Respondent": 0.0996,
+        "Decision": 0.0014,
+        "Facts": 0.5871,
+        "Issue": 0.0008,
+        "Reasoning": 0.2331
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "The negative covenant sought to be relied upon does not bind Godrej.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2205,
+        "Arguments of Respondent": 0.3818,
+        "Decision": 0.0021,
+        "Facts": 0.0202,
+        "Issue": 0.0002,
+        "Reasoning": 0.3751
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 81,
+      "text": "In fact the covenant is incorporated to safeguard the interest of Godrej.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1119,
+        "Arguments of Respondent": 0.1258,
+        "Decision": 0.0014,
+        "Facts": 0.0758,
+        "Issue": 0.0002,
+        "Reasoning": 0.6849
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "On behalf of Percy and Aban it was contended that there is no arbitration agreement amongst the Minority shareholders and, therefore, there is no question of granting any relief under Section 9 of the Arbitration Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5195,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5195,
+        "Arguments of Respondent": 0.3414,
+        "Decision": 0.0005,
+        "Facts": 0.0869,
+        "Issue": 0.0009,
+        "Reasoning": 0.0508
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "They urged that in fact the minority shareholders interse are governed by a separate MoU and significantly that separate MoU does not contain any Arbitration clause.13.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6395,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6395,
+        "Arguments of Respondent": 0.2723,
+        "Decision": 0.0003,
+        "Facts": 0.0529,
+        "Issue": 0.0003,
+        "Reasoning": 0.0347
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "After hearing the arguments, the learned single Judge came to the conclusion that the petitioners were entitled to the relief of injunction under section 9 of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0001,
+        "Facts": 0.9707,
+        "Issue": 0.0047,
+        "Reasoning": 0.0206
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "Learned Judge found that the clauses of the MoU indicate that till the shares are listed on the Stock Exchange, no signatory to the MoU can be permitted to dispose of and or deal with the shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.9304,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0001,
+        "Facts": 0.9304,
+        "Issue": 0.0005,
+        "Reasoning": 0.0614
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "Learned Judge held that whether the MoU is breached or not will be subject matter of the Arbitration Petition and in the meanwhile if the shares are allowed to be sold, disposed of or dealt with in any manner, irreparable loss would be caused to the petitioners, as these shares are not ordinary articles of commerce.",
+      "predicted_label": "Facts",
+      "confidence": 0.9719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0002,
+        "Facts": 0.9719,
+        "Issue": 0.0006,
+        "Reasoning": 0.0232
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "The learned Judge held that the argument of Percy and Aban regarding the arbitration clause not governing the minority shareholders interse will have to be decided by the Arbitrator.",
+      "predicted_label": "Facts",
+      "confidence": 0.7094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0002,
+        "Facts": 0.7094,
+        "Issue": 0.0006,
+        "Reasoning": 0.2572
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "The learned Judge took note of the fact that in the arbitration petition filed by Godrej an injunction was granted on 12 March 2009 by which shares could not be disposed off.",
+      "predicted_label": "Facts",
+      "confidence": 0.905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0002,
+        "Facts": 0.905,
+        "Issue": 0.0008,
+        "Reasoning": 0.0808
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "Learned Judge found that continuation of the same position which prevailed from March 2009 till the disposal of proposed arbitration, was in the interest of justice.",
+      "predicted_label": "Facts",
+      "confidence": 0.9009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0008,
+        "Facts": 0.9009,
+        "Issue": 0.0012,
+        "Reasoning": 0.0823
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "The learned Single Judge accordingly by an order dated 11 May 2012 allowed Arbitration Petitions in terms of prayer clause (a) which is as under(a) Pending the hearing and final disposal of the proposed arbitration proceedings, the Respondents by themselves and or through their servants and or agents and or in any manner whatsoever be restrained by a temporary order of injunction from in any manner directly or indirectly, dealing, selling, offering for sale, transferring, parting with possession of, alienating, encumbering, pledging or in any manner creating any third party rights in respect of the shares of GCL owned by the respondents or in which the respondents have a beneficial interest.14.",
+      "predicted_label": "Facts",
+      "confidence": 0.9894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.9894,
+        "Issue": 0.0015,
+        "Reasoning": 0.0055
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "Godrej, Aban and Percy Kavasmaneck are thus in appeal before us.",
+      "predicted_label": "Facts",
+      "confidence": 0.6944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0005,
+        "Facts": 0.6944,
+        "Issue": 0.2935,
+        "Reasoning": 0.0091
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 92,
+      "text": "On behalf of Godrej, Shri Divan and Shri Dhond, learned Senior advocates submitted(a) While granting order under Section 9 of the Act, principles which govern the grant of injunction have to be kept in mind namely prima facie case balance of convenience and conduct of the parties.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6319,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3615,
+        "Arguments of Respondent": 0.6319,
+        "Decision": 0.0003,
+        "Facts": 0.0006,
+        "Issue": 0.0003,
+        "Reasoning": 0.0054
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 93,
+      "text": "On all these counts the petitioners have failed to make out any case.(b)",
+      "predicted_label": "Facts",
+      "confidence": 0.8164,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0204,
+        "Arguments of Respondent": 0.0612,
+        "Decision": 0.0308,
+        "Facts": 0.8164,
+        "Issue": 0.0011,
+        "Reasoning": 0.0701
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "These documents have direct bearing on the controversy as all the rights of the concerned petitioners in respect of the shares vest in Godrej.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.0284,
+        "Decision": 0.001,
+        "Facts": 0.3532,
+        "Issue": 0.002,
+        "Reasoning": 0.5927
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 95,
+      "text": "Thus, this is a clear suppression of material facts and documents.(d)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4186,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4186,
+        "Arguments of Respondent": 0.2154,
+        "Decision": 0.0006,
+        "Facts": 0.1893,
+        "Issue": 0.0001,
+        "Reasoning": 0.1759
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 96,
+      "text": "Jer and Darius Kavesmanecks have also suppressed letter written by Darius Kavasmaneck on 14 March 2005 in which he accepted right of Godrej in respect of transfer of shares by Godrej.(e)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4139,
+        "Arguments of Respondent": 0.2105,
+        "Decision": 0.0005,
+        "Facts": 0.3318,
+        "Issue": 0.0002,
+        "Reasoning": 0.043
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 97,
+      "text": "In the decisions of the Apex Court in the case of S.P. Chengalvaraya Naidu (dead) by L.Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9136,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0252,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.0004,
+        "Facts": 0.9136,
+        "Issue": 0.0027,
+        "Reasoning": 0.0445
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "Vs. Jagannath (dead) by L.Rs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3805,
+        "Arguments of Respondent": 0.3536,
+        "Decision": 0.0036,
+        "Facts": 0.0466,
+        "Issue": 0.0014,
+        "Reasoning": 0.2143
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 99,
+      "text": "And others (1994) 1 SCC 1 ), K.D.Sharmav.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6011,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6011,
+        "Arguments of Respondent": 0.2961,
+        "Decision": 0.0005,
+        "Facts": 0.0652,
+        "Issue": 0.0008,
+        "Reasoning": 0.0363
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 100,
+      "text": "Steel Authority of India Limited and others (2008) 12 SCC 481 ), Dalip Singh v. State of Uttar Pradesh and others (2010) 2 SCC 114 ), it is laid down that the party seeking an equitable relief has to approach the court with clean hands.(f)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.565,
+        "Arguments of Respondent": 0.1785,
+        "Decision": 0.0036,
+        "Facts": 0.0351,
+        "Issue": 0.0009,
+        "Reasoning": 0.2168
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 101,
+      "text": "Clause 16 of the Godrej Industries MoU which is sought to be enforced as a negative covenant against Godrej, is only for protection of Godrej and it is not meant to be enforced against it.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4321,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2862,
+        "Arguments of Respondent": 0.4321,
+        "Decision": 0.0013,
+        "Facts": 0.0256,
+        "Issue": 0.0001,
+        "Reasoning": 0.2548
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 102,
+      "text": "The embargo placed in respect of the transfer of the shares is only against the minority shareholders and not against Godrej.(h)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.247,
+        "Arguments of Respondent": 0.3509,
+        "Decision": 0.0014,
+        "Facts": 0.349,
+        "Issue": 0.0004,
+        "Reasoning": 0.0513
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 103,
+      "text": "The shares which were lodged for transfer by Godrej Industries were admittedly pledged to Godrej Industries by the minority shareholders and they cannot oppose the perfecting of security by Godrej and as the minority shareholders have failed to repay loan and have committed breaches of the MoU.(i)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2065,
+        "Arguments of Respondent": 0.4729,
+        "Decision": 0.0025,
+        "Facts": 0.3071,
+        "Issue": 0.001,
+        "Reasoning": 0.01
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 104,
+      "text": "The petitioners are, on one hand seeking enforcement of Clause 16 of the MoU on the other hand are acting contrary to the other Clauses of the MoU. Clause 16 is to operate till the Company was listed as Public Company and the petitioners are under obligation to work towards this goal but they are litigating and opposing the status of the Company as a Public Limited Company.(j)",
+      "predicted_label": "Facts",
+      "confidence": 0.7284,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1367,
+        "Arguments of Respondent": 0.117,
+        "Decision": 0.0017,
+        "Facts": 0.7284,
+        "Issue": 0.0006,
+        "Reasoning": 0.0156
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "The petitioners are opposing registration, transfer of shares in favour of Godrej.",
+      "predicted_label": "Facts",
+      "confidence": 0.8931,
+      "probabilities": {
+        "Arguments of Petitioner": 0.046,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.0006,
+        "Facts": 0.8931,
+        "Issue": 0.0003,
+        "Reasoning": 0.0412
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "They are also not paying dividends on the shares as they are obliged to do under the MoU, and thus are in breach of the MoU. Once they are in breach of the MoU they cannot seek any benefit from it as held in the judgment of the House of Lords in the case of AlghusseinEstablishment v Eton College 1991 1",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3315,
+      "probabilities": {
+        "Arguments of Petitioner": 0.26,
+        "Arguments of Respondent": 0.229,
+        "Decision": 0.0024,
+        "Facts": 0.1768,
+        "Issue": 0.0003,
+        "Reasoning": 0.3315
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 107,
+      "text": "All ELR 267)(k)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3383,
+        "Arguments of Respondent": 0.1566,
+        "Decision": 0.0011,
+        "Facts": 0.1406,
+        "Issue": 0.0009,
+        "Reasoning": 0.3625
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 108,
+      "text": "The shares having been pledged, the loan having not been repaid, the respondents committing breaches of the MoU, Godrej Industries, was constrained to take steps to perfect its security and no injunction can be granted against the Godrej from doing so.(l) Finding of the learned single Judge that since there was an interim injunction operating between the parties in the arbitration proceedings filed by Godrej Industries same should be continued in the present case also, is erroneous as the rights of Godrej and minority shareholders stand on different footing.(m)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8548,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8548,
+        "Arguments of Respondent": 0.0608,
+        "Decision": 0.0006,
+        "Facts": 0.0756,
+        "Issue": 0.0004,
+        "Reasoning": 0.0078
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "The grant of injunction by the learned Judge without considering that the respondents are opposing the status of the Company, as a public Company, has created a situation whereby Godrej will not be able to recover its monies in forseeable future.(n)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4468,
+        "Arguments of Respondent": 0.258,
+        "Decision": 0.0027,
+        "Facts": 0.2674,
+        "Issue": 0.0002,
+        "Reasoning": 0.025
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "The MoU is impossible to be enforced since the respondents are in minority and cannot convert the Company into a Public Limited Company on the strength of the shares they hold.(o)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.491,
+        "Arguments of Respondent": 0.1644,
+        "Decision": 0.0031,
+        "Facts": 0.3219,
+        "Issue": 0.0005,
+        "Reasoning": 0.019
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 111,
+      "text": "Godrej Industries is also fully entitled to deal with the shares as the MoU and agreement empowers them to do so.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4078,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0938,
+        "Arguments of Respondent": 0.3829,
+        "Decision": 0.0188,
+        "Facts": 0.0963,
+        "Issue": 0.0004,
+        "Reasoning": 0.4078
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 112,
+      "text": "Thus the Godrej have a right over the shares.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6342,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0691,
+        "Arguments of Respondent": 0.0891,
+        "Decision": 0.0306,
+        "Facts": 0.1768,
+        "Issue": 0.0001,
+        "Reasoning": 0.6342
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 113,
+      "text": "On behalf of Percy and Aban Kavasmaneck, learned Senior Counsel Shri R.M. Kadam contended(a) There is no arbitration agreement between the minority shareholders, and, therefore, there is no question of grant of any injunction in a petition Section 9 of the Act against these appellants.(b)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8357,
+        "Arguments of Respondent": 0.1591,
+        "Decision": 0.0001,
+        "Facts": 0.0016,
+        "Issue": 0.0003,
+        "Reasoning": 0.0032
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "The recitals of the MoU indicate that the MoU was to operate between Minority Shareholders on one side and Godrej on the other.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0527,
+        "Arguments of Respondent": 0.1899,
+        "Decision": 0.0006,
+        "Facts": 0.2569,
+        "Issue": 0.0001,
+        "Reasoning": 0.4997
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 115,
+      "text": "This MoU was not executed to govern the rights and obligations of minority shareholders interse.(c)",
+      "predicted_label": "Facts",
+      "confidence": 0.8057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0854,
+        "Arguments of Respondent": 0.0721,
+        "Decision": 0.0009,
+        "Facts": 0.8057,
+        "Issue": 0.0006,
+        "Reasoning": 0.0353
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "The wording of the arbitration clause in MoU does not constitute any agreement between minority shareholders to refer their interse disputes for Arbitration.(d)",
+      "predicted_label": "Facts",
+      "confidence": 0.546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.14,
+        "Arguments of Respondent": 0.289,
+        "Decision": 0.0019,
+        "Facts": 0.546,
+        "Issue": 0.0004,
+        "Reasoning": 0.0227
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 117,
+      "text": "In fact, on the same date, minority shareholders executed another MoU in respect of their interse rights and obligation, and in this MoU, an arbitration clause is conspicuously missing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5224,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1881,
+        "Arguments of Respondent": 0.0995,
+        "Decision": 0.0015,
+        "Facts": 0.1884,
+        "Issue": 0.0002,
+        "Reasoning": 0.5224
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 118,
+      "text": "This lends support to the argument that there is no arbitration agreement amongst minority shareholders.(e)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.342,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2164,
+        "Arguments of Respondent": 0.3353,
+        "Decision": 0.0004,
+        "Facts": 0.1057,
+        "Issue": 0.0002,
+        "Reasoning": 0.342
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 119,
+      "text": "The learned single Judge has misconstrued the argument regarding nonexistence of arbitration agreement as challenge to the clauses of the agreement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6151,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1,
+        "Arguments of Respondent": 0.065,
+        "Decision": 0.0043,
+        "Facts": 0.2151,
+        "Issue": 0.0005,
+        "Reasoning": 0.6151
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "What was contended was complete lack of arbitration agreement.",
+      "predicted_label": "Facts",
+      "confidence": 0.2894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2339,
+        "Arguments of Respondent": 0.2236,
+        "Decision": 0.0024,
+        "Facts": 0.2894,
+        "Issue": 0.0031,
+        "Reasoning": 0.2477
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 121,
+      "text": "The existence of an arbitration agreement goes to the root while deciding petition under section 9 of the Arbitration Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0367,
+        "Arguments of Respondent": 0.0483,
+        "Decision": 0.0004,
+        "Facts": 0.0245,
+        "Issue": 0.0021,
+        "Reasoning": 0.8879
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "The Apex Court in the case of National Insurance Company Limited vs Boghara Polyfab Private Limited (2009) 1",
+      "predicted_label": "Facts",
+      "confidence": 0.9736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0003,
+        "Facts": 0.9736,
+        "Issue": 0.0015,
+        "Reasoning": 0.0175
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "Supreme Court Cases 267) has made this position amply clear.18.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6379,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1213,
+        "Arguments of Respondent": 0.2254,
+        "Decision": 0.0013,
+        "Facts": 0.014,
+        "Issue": 0.0001,
+        "Reasoning": 0.6379
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 124,
+      "text": "On behalf of Jer and Darius Kavasmaneck, Mr Kapadia, and Mr Samdani, learned Senior advocates urged as under(a) The appeal arises from order passed in a Petition under Section 9 of the Arbitration Act and a detailed inquiry regarding interpretation of documents which is within the jurisdiction of Arbitral Tribunal need not be carried out at this stage.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5306,
+      "probabilities": {
+        "Arguments of Petitioner": 0.461,
+        "Arguments of Respondent": 0.5306,
+        "Decision": 0.0001,
+        "Facts": 0.0024,
+        "Issue": 0.0002,
+        "Reasoning": 0.0057
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 125,
+      "text": "Only question in this appeal is whether injunction, which is a discretionary relief, granted by the learned single Judge should be continued till the arbitration proceedings are concluded.",
+      "predicted_label": "Issue",
+      "confidence": 0.8465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0017,
+        "Facts": 0.066,
+        "Issue": 0.8465,
+        "Reasoning": 0.0754
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "The exercise of thorough examination of documents in detail which the Arbitrator is supposed to undertake need not be carried out in this appeal.(b)",
+      "predicted_label": "Facts",
+      "confidence": 0.4669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1494,
+        "Arguments of Respondent": 0.0968,
+        "Decision": 0.1338,
+        "Facts": 0.4669,
+        "Issue": 0.0028,
+        "Reasoning": 0.1503
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 127,
+      "text": "There is no suppression of any material facts and documents.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4774,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1476,
+        "Arguments of Respondent": 0.2786,
+        "Decision": 0.0019,
+        "Facts": 0.0909,
+        "Issue": 0.0035,
+        "Reasoning": 0.4774
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 128,
+      "text": "Godrej in their earlier arbitration petition and Company Petitions have referred to the documents alleged to be concealed and, therefore, there is no question of any suppression of any documents.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4112,
+      "probabilities": {
+        "Arguments of Petitioner": 0.262,
+        "Arguments of Respondent": 0.2713,
+        "Decision": 0.001,
+        "Facts": 0.0541,
+        "Issue": 0.0003,
+        "Reasoning": 0.4112
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 129,
+      "text": "Since the Godrej was fully aware of these documents and the interim order was being sought after notice to the Godrej, no benefit or advantage was tried to be obtained, or was obtained by not annexing these documents.(c)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6217,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2473,
+        "Arguments of Respondent": 0.6217,
+        "Decision": 0.0019,
+        "Facts": 0.0967,
+        "Issue": 0.0003,
+        "Reasoning": 0.0321
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "The argument made on behalf of Godrej Industries that it is entitled to deal with shares in their own right is completely contrary to the stand taken by them in the pleadings whereby they have reiterated that the shares are only pledged with them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0375,
+        "Arguments of Respondent": 0.1032,
+        "Decision": 0.0005,
+        "Facts": 0.0572,
+        "Issue": 0.0001,
+        "Reasoning": 0.8016
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "There is a variance in the argument of the Counsel appearing in two appeals, on this aspect.(d)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4572,
+        "Arguments of Respondent": 0.2569,
+        "Decision": 0.0024,
+        "Facts": 0.1257,
+        "Issue": 0.0114,
+        "Reasoning": 0.1464
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 132,
+      "text": "Till date, Godrej has never demanded repayment of loan and nor has it demanded payment of dividend.",
+      "predicted_label": "Facts",
+      "confidence": 0.4529,
+      "probabilities": {
+        "Arguments of Petitioner": 0.131,
+        "Arguments of Respondent": 0.207,
+        "Decision": 0.0017,
+        "Facts": 0.4529,
+        "Issue": 0.0002,
+        "Reasoning": 0.2072
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 133,
+      "text": "The respondents are ready to repay the principal amount of loan to the Godrej and since the shares are only pledged, Godrej should return the shares back to them.",
+      "predicted_label": "Facts",
+      "confidence": 0.7913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.063,
+        "Arguments of Respondent": 0.0961,
+        "Decision": 0.0023,
+        "Facts": 0.7913,
+        "Issue": 0.0003,
+        "Reasoning": 0.0471
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "In a letter written by Adi Godrej, dated 13 June 1992 which is suppressed by Godrej, interest is specifically not claimed.(e)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6462,
+        "Arguments of Respondent": 0.2233,
+        "Decision": 0.0002,
+        "Facts": 0.0449,
+        "Issue": 0.0001,
+        "Reasoning": 0.0854
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 135,
+      "text": "The interpretation of the MoU clearly shows that the MoU uses different expressions and proper construction shows that negative covenant in Clause (16) is for the benefit of all parties.(f)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1421,
+        "Arguments of Respondent": 0.7904,
+        "Decision": 0.0012,
+        "Facts": 0.0592,
+        "Issue": 0.0003,
+        "Reasoning": 0.0068
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "There is no question of the petitioners, acting contrary to the MoU and preventing listing of the Company as Public Company, as in any case the Company is a deemed Public Limited Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.5245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0939,
+        "Arguments of Respondent": 0.1261,
+        "Decision": 0.0018,
+        "Facts": 0.5245,
+        "Issue": 0.0013,
+        "Reasoning": 0.2524
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 137,
+      "text": "What is contemplated by the MoU is that the Company should be listed on the stock exchange and shares become freely tradeable.(g)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5218,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2131,
+        "Arguments of Respondent": 0.5218,
+        "Decision": 0.0011,
+        "Facts": 0.22,
+        "Issue": 0.0002,
+        "Reasoning": 0.0438
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 138,
+      "text": "The contention by Percy and Aban that the MoU does not bind the minority shareholders interse is not correct as the reference to parties in the MoU would indicate otherwise.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0492,
+        "Arguments of Respondent": 0.2569,
+        "Decision": 0.0005,
+        "Facts": 0.2197,
+        "Issue": 0.0001,
+        "Reasoning": 0.4735
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 139,
+      "text": "The Arbitration clause in the MoU refers to parties hereto which mean the parties who have signed the MoU in individual capacity also.",
+      "predicted_label": "Facts",
+      "confidence": 0.5575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0688,
+        "Arguments of Respondent": 0.0848,
+        "Decision": 0.0023,
+        "Facts": 0.5575,
+        "Issue": 0.0009,
+        "Reasoning": 0.2858
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 140,
+      "text": "Thus, there is no merit in the contention that the petition under section 9 is not maintainable against Percy and Aban.19.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0148,
+        "Decision": 0.0064,
+        "Facts": 0.0084,
+        "Issue": 0.0001,
+        "Reasoning": 0.9638
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "On behalf of Rebellos, learned Advocate Shri Purohit, contended(a) There is no allegation against Rebellos regarding suppression of any documents nor there is any argument that the Rebellos have committed any breach of the MoU.(b)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5989,
+        "Arguments of Respondent": 0.3868,
+        "Decision": 0.0001,
+        "Facts": 0.0035,
+        "Issue": 0.0002,
+        "Reasoning": 0.0104
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 142,
+      "text": "Rebellos have abided by all the clauses of the MoU and they have not committed any breach thereof and, therefore, there is no question of vacating any interim protection that has been granted in their favour.(c) Godrej filed and obtained relief in a Petition under section 9 based on the same MoU and shares were to be kept as they are till the disposal of the arbitration, there is no reason why when the other party under the same MoU seeks similar relief, it should not be granted.(d)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0352,
+        "Arguments of Respondent": 0.912,
+        "Decision": 0.0056,
+        "Facts": 0.0224,
+        "Issue": 0.0002,
+        "Reasoning": 0.0246
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "In the affidavitinreply filed in the present Arbitration Petition, Godrej has reiterated that the MoU is valid, subsisting and binding on all the parties.20.",
+      "predicted_label": "Facts",
+      "confidence": 0.3021,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1555,
+        "Arguments of Respondent": 0.2702,
+        "Decision": 0.0021,
+        "Facts": 0.3021,
+        "Issue": 0.0002,
+        "Reasoning": 0.2699
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 144,
+      "text": "It was also provided that the MoU will continue in force till shares of the Company are listed on a recognized Stock Exchange.30.",
+      "predicted_label": "Facts",
+      "confidence": 0.8918,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0217,
+        "Arguments of Respondent": 0.0138,
+        "Decision": 0.0005,
+        "Facts": 0.8918,
+        "Issue": 0.0004,
+        "Reasoning": 0.0719
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "Plain reading of the MoU reveals following broad featuresThe agreement is between the Minority shareholders and Godrej for purchase of certain shares of the Company which the Minority Shareholders, for lack of finance, could not purchase on their own.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0884,
+        "Arguments of Respondent": 0.1619,
+        "Decision": 0.0014,
+        "Facts": 0.3664,
+        "Issue": 0.0002,
+        "Reasoning": 0.3818
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 146,
+      "text": "A reply has been filed on behalf of Godrej in which it is acknowledged and asserted that the MoU is subsisting and binding on all the parties.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0906,
+        "Arguments of Respondent": 0.7216,
+        "Decision": 0.0004,
+        "Facts": 0.0964,
+        "Issue": 0.0004,
+        "Reasoning": 0.0906
+      }
+    },
+    {
+      "sentence_id": 147,
+      "text": "It was contended that the petitioners have taken steps contrary to Clauses 9 and 21.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3285,
+        "Arguments of Respondent": 0.2228,
+        "Decision": 0.0015,
+        "Facts": 0.305,
+        "Issue": 0.0021,
+        "Reasoning": 0.1401
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 148,
+      "text": "The original petitioners have taken steps to ensure that the Company does not become public and have opposed the declaration of the Company becoming public.",
+      "predicted_label": "Facts",
+      "confidence": 0.2616,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2436,
+        "Arguments of Respondent": 0.2272,
+        "Decision": 0.0054,
+        "Facts": 0.2616,
+        "Issue": 0.0009,
+        "Reasoning": 0.2615
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 149,
+      "text": "It was, contended that the Petitioners have opposed registration and transfer of 3199 shares and also obstructed transfer of 461 shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.5542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1348,
+        "Arguments of Respondent": 0.2529,
+        "Decision": 0.0003,
+        "Facts": 0.5542,
+        "Issue": 0.0006,
+        "Reasoning": 0.0572
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 150,
+      "text": "Furthermore the petitioners have not been paying dividends on the shares purchased from the loans advanced by Godrej.",
+      "predicted_label": "Facts",
+      "confidence": 0.3737,
+      "probabilities": {
+        "Arguments of Petitioner": 0.178,
+        "Arguments of Respondent": 0.1638,
+        "Decision": 0.0025,
+        "Facts": 0.3737,
+        "Issue": 0.0003,
+        "Reasoning": 0.2817
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 151,
+      "text": "Reliance is placed on the judgment of the learned Company Judge of this Court in Company Appeal No.24/2010.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4691,
+        "Arguments of Respondent": 0.3332,
+        "Decision": 0.0013,
+        "Facts": 0.1099,
+        "Issue": 0.0011,
+        "Reasoning": 0.0853
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 152,
+      "text": "In this appeal, the original petitioners contended that the Company is not a public Company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5153,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5153,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0458,
+        "Facts": 0.239,
+        "Issue": 0.0108,
+        "Reasoning": 0.1762
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 153,
+      "text": "Thus, the original petitioners are creating a situation whereby Clause 16 will never come to an end and monies advanced by Godrej will continue to be locked up and if injunction is granted against Godrej from perfecting the security then the entire agreement will become unworkable.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4579,
+        "Arguments of Respondent": 0.2724,
+        "Decision": 0.0011,
+        "Facts": 0.1691,
+        "Issue": 0.0002,
+        "Reasoning": 0.0994
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 154,
+      "text": "It was, therefore, contended that the petitioners acting in breach of obligation of the MoU are not entitled to protection under the other clauses of the MoU. Reliance is placed by Mr.Divan, learned Senior Counsel on the decision of the House of Lords in the case of AlghusseinEstablishment (1991)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4153,
+        "Arguments of Respondent": 0.5547,
+        "Decision": 0.0001,
+        "Facts": 0.0092,
+        "Issue": 0.0002,
+        "Reasoning": 0.0205
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 155,
+      "text": "1",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1888,
+        "Arguments of Respondent": 0.1259,
+        "Decision": 0.0096,
+        "Facts": 0.0904,
+        "Issue": 0.0078,
+        "Reasoning": 0.5775
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 156,
+      "text": "ALL ER 267), wherein the House of Lords observed as underThe principle that in the absence of clear express provisions in a contract to the contrary it was not to be presumed that the parties intended that a party should be entitled to take advantage of his own breach as against the other party was not limited to cases where a party was relying on his own wrong to avoid his obligations under the contract but applied also where a party sought to obtain a benefit under a continuing contract on account of his breach.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.513,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2098,
+        "Arguments of Respondent": 0.2636,
+        "Decision": 0.0001,
+        "Facts": 0.013,
+        "Issue": 0.0004,
+        "Reasoning": 0.513
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 157,
+      "text": "On the other hand, it has been urged on behalf of the original petitioners that they have not committed any breach of the MoU.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7485,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1594,
+        "Arguments of Respondent": 0.7485,
+        "Decision": 0.0006,
+        "Facts": 0.0477,
+        "Issue": 0.0008,
+        "Reasoning": 0.0431
+      }
+    },
+    {
+      "sentence_id": 158,
+      "text": "It is submitted that the contention of the petitioners was that though the Company has become deemed Public Company, it was entitled to retain Article 57.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2589,
+        "Arguments of Respondent": 0.6929,
+        "Decision": 0.0001,
+        "Facts": 0.0251,
+        "Issue": 0.0003,
+        "Reasoning": 0.0226
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 159,
+      "text": "It was urged that in case of Public Company, which is not yet listed on the Stock Exchange, articles can provide for right of preemption.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3795,
+        "Arguments of Respondent": 0.3235,
+        "Decision": 0.0008,
+        "Facts": 0.0918,
+        "Issue": 0.0014,
+        "Reasoning": 0.2031
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 160,
+      "text": "We have gone through the judgment of the learned Company Judge referred to above.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8561,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0298,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0026,
+        "Facts": 0.0961,
+        "Issue": 0.001,
+        "Reasoning": 0.8561
+      }
+    },
+    {
+      "sentence_id": 161,
+      "text": "We do not find from the judgment or the contentions of the petitioners reproduced in the judgment that the petitioners were opposing the listing of the Company on the Stock Exchange.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0241,
+        "Arguments of Respondent": 0.017,
+        "Decision": 0.0019,
+        "Facts": 0.1594,
+        "Issue": 0.0005,
+        "Reasoning": 0.7973
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "Reading of the MoU shows that the arrangement contemplated under the MoU was to continue till the shares of the Company are listed on the Stock Exchange and become freely tradeable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0233,
+        "Decision": 0.0003,
+        "Facts": 0.364,
+        "Issue": 0.0002,
+        "Reasoning": 0.5995
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 163,
+      "text": "The apprehension of the petitioners was that Dr Gharda will dispense with the right of preemption creating a situation whereby Minority Shareholders will not be able to sell their shares in the open market and realize their market value but will be forced to sell their shares to Dr.Gharda at the price to be determined by him.",
+      "predicted_label": "Facts",
+      "confidence": 0.5369,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0414,
+        "Arguments of Respondent": 0.0284,
+        "Decision": 0.0002,
+        "Facts": 0.5369,
+        "Issue": 0.001,
+        "Reasoning": 0.3922
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 164,
+      "text": "Consequently the Minority Shareholders will be squeezed out.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.622,
+        "Arguments of Respondent": 0.0878,
+        "Decision": 0.0042,
+        "Facts": 0.0722,
+        "Issue": 0.0008,
+        "Reasoning": 0.213
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 165,
+      "text": "This would not be possible if the Company gets listed on registered Stock Exchange and shares become freely tradable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1797,
+        "Arguments of Respondent": 0.2104,
+        "Decision": 0.0011,
+        "Facts": 0.11,
+        "Issue": 0.0004,
+        "Reasoning": 0.4984
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 166,
+      "text": "It is for this purpose, MoU was entered into and free marketibility of shares is the end situation the Minority Shareholders have been striving for.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0626,
+        "Arguments of Respondent": 0.165,
+        "Decision": 0.0005,
+        "Facts": 0.0781,
+        "Issue": 0.0002,
+        "Reasoning": 0.6937
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 167,
+      "text": "There is no question of opposing the status of the Company becoming a public company as the company any way by virtue of its turnover was already a deemed public company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6204,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1085,
+        "Arguments of Respondent": 0.1589,
+        "Decision": 0.0022,
+        "Facts": 0.1095,
+        "Issue": 0.0005,
+        "Reasoning": 0.6204
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 168,
+      "text": "The MoU was not regarding the Company becoming Public Company alone, but making its shares become fully tradable on the stock exchange.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0908,
+        "Arguments of Respondent": 0.2673,
+        "Decision": 0.0001,
+        "Facts": 0.1772,
+        "Issue": 0.0003,
+        "Reasoning": 0.4643
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 169,
+      "text": "We have not been shown that the petitioners anytime opposed the listing of the shares on a recognised stock exchange.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0217,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0016,
+        "Facts": 0.1165,
+        "Issue": 0.0006,
+        "Reasoning": 0.8465
+      }
+    },
+    {
+      "sentence_id": 170,
+      "text": "According to us therefore the petitioners have not committed breach of Clause 21 of the MoU.",
+      "predicted_label": "Facts",
+      "confidence": 0.4824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0292,
+        "Arguments of Respondent": 0.0252,
+        "Decision": 0.0346,
+        "Facts": 0.4824,
+        "Issue": 0.0014,
+        "Reasoning": 0.4272
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 171,
+      "text": "The attempt of the petitioners is only to ensure that the petitioners are not deprived of their shareholding before the shares become fully tradeable on the stock exchange.37.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6703,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0531,
+        "Arguments of Respondent": 0.1931,
+        "Decision": 0.0024,
+        "Facts": 0.081,
+        "Issue": 0.0001,
+        "Reasoning": 0.6703
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 172,
+      "text": "The second breach of the MoU alleged was that the petitioners were opposing registration and transfer of 3199 shares and obstructing transfer of 461 shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.9492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0001,
+        "Facts": 0.9492,
+        "Issue": 0.0009,
+        "Reasoning": 0.0272
+      }
+    },
+    {
+      "sentence_id": 173,
+      "text": "It is submitted on behalf of petitioners that as far as 461 shares are concerned they have never opposed are not opposing registration in the name of Godrej Industries if Godrej Industries adhere to negative covenants stipulated under the MoU.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6659,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6659,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0021,
+        "Facts": 0.2443,
+        "Issue": 0.0009,
+        "Reasoning": 0.081
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 174,
+      "text": "It has to be noted that before the dispute arose between the Parties, Godrej had assured the petitioners that shares were only being treated as pledge for the loan.",
+      "predicted_label": "Facts",
+      "confidence": 0.5322,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0749,
+        "Arguments of Respondent": 0.035,
+        "Decision": 0.0004,
+        "Facts": 0.5322,
+        "Issue": 0.0007,
+        "Reasoning": 0.3569
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 175,
+      "text": "However, now the petitioners apprehend that Godrej is trying to deal with the shares for the purpose of getting control of the Company along with Dr Gharda.",
+      "predicted_label": "Facts",
+      "confidence": 0.7154,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0853,
+        "Arguments of Respondent": 0.0201,
+        "Decision": 0.0014,
+        "Facts": 0.7154,
+        "Issue": 0.0005,
+        "Reasoning": 0.1774
+      }
+    },
+    {
+      "sentence_id": 176,
+      "text": "Godrej Industries is now trying to deal with the shares so as to defeat the right of Minority Shareholders.",
+      "predicted_label": "Facts",
+      "confidence": 0.5787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.117,
+        "Arguments of Respondent": 0.1496,
+        "Decision": 0.001,
+        "Facts": 0.5787,
+        "Issue": 0.0012,
+        "Reasoning": 0.1526
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 177,
+      "text": "These 3199 shares constitute approximately 5 shareholding of the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8219,
+      "probabilities": {
+        "Arguments of Petitioner": 0.044,
+        "Arguments of Respondent": 0.0581,
+        "Decision": 0.0007,
+        "Facts": 0.8219,
+        "Issue": 0.0159,
+        "Reasoning": 0.0594
+      }
+    },
+    {
+      "sentence_id": 178,
+      "text": "5 becomes crucial when it is pooled together with shareholding of Dr Gharda and Percy, Aban Kavasmaneck and Oomrigar.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4198,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2885,
+        "Arguments of Respondent": 0.1678,
+        "Decision": 0.0015,
+        "Facts": 0.1218,
+        "Issue": 0.0005,
+        "Reasoning": 0.4198
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 179,
+      "text": "This group will acquire special majority.",
+      "predicted_label": "Facts",
+      "confidence": 0.6803,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0554,
+        "Arguments of Respondent": 0.056,
+        "Decision": 0.0009,
+        "Facts": 0.6803,
+        "Issue": 0.0038,
+        "Reasoning": 0.2036
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 180,
+      "text": "Once special majority is reached the significant minority will be extinguished.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0904,
+        "Arguments of Respondent": 0.1441,
+        "Decision": 0.0007,
+        "Facts": 0.0973,
+        "Issue": 0.0014,
+        "Reasoning": 0.666
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 181,
+      "text": "We find merit in the contention that the opposition by the petitioner in respect of 3199 shares being dealt with by Godrej Industries is because Godrej Industries is no longer trading the shares as means of recovering the loan but as means of getting control of the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0154,
+        "Arguments of Respondent": 0.0237,
+        "Decision": 0.0003,
+        "Facts": 0.1036,
+        "Issue": 0.0002,
+        "Reasoning": 0.8569
+      }
+    },
+    {
+      "sentence_id": 182,
+      "text": "Such action would, obviously, run against the spirit of MoU and frustrate the very purpose for which it was entered into.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7253,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0385,
+        "Arguments of Respondent": 0.0324,
+        "Decision": 0.0015,
+        "Facts": 0.2021,
+        "Issue": 0.0002,
+        "Reasoning": 0.7253
+      }
+    },
+    {
+      "sentence_id": 183,
+      "text": "We find that by opposing the transfer of 3199 shares to Godrej, in these changed equations, the petitioners did not commit any breach of Clause 9 of the MoU.38.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9355,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0016,
+        "Facts": 0.0438,
+        "Issue": 0.0,
+        "Reasoning": 0.9355
+      }
+    },
+    {
+      "sentence_id": 184,
+      "text": "Third breach alleged to be committed by the petitioners is that under the MoU, the petitioners were required to pay dividends which they have failed to pay.",
+      "predicted_label": "Facts",
+      "confidence": 0.5818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2452,
+        "Arguments of Respondent": 0.0206,
+        "Decision": 0.0003,
+        "Facts": 0.5818,
+        "Issue": 0.0087,
+        "Reasoning": 0.1434
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 185,
+      "text": "It has been placed on record by the petitioners that Godrej never demanded dividends for the last 22 years.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.351,
+      "probabilities": {
+        "Arguments of Petitioner": 0.351,
+        "Arguments of Respondent": 0.0269,
+        "Decision": 0.0021,
+        "Facts": 0.2886,
+        "Issue": 0.0005,
+        "Reasoning": 0.3309
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 186,
+      "text": "In fact, the nonpayment of dividend was not even considered as a breach till 5 July, 2012 when Godrej filed further affidavit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2167,
+        "Arguments of Respondent": 0.2379,
+        "Decision": 0.0013,
+        "Facts": 0.0672,
+        "Issue": 0.0002,
+        "Reasoning": 0.4767
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 187,
+      "text": "It appears to us that in view of the change of intention by Godrej, even the issues which were never considered to be breaches are now sought to be raised against the petitioners.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0418,
+        "Arguments of Respondent": 0.0265,
+        "Decision": 0.0072,
+        "Facts": 0.2677,
+        "Issue": 0.0015,
+        "Reasoning": 0.6553
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 188,
+      "text": "If for the last 22 years there has never been a demand for payment of dividend, it clearly means that Godrej never considered nonpayment of dividend as a breach of the MoU.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5355,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0581,
+        "Arguments of Respondent": 0.5355,
+        "Decision": 0.0005,
+        "Facts": 0.0766,
+        "Issue": 0.0001,
+        "Reasoning": 0.3293
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 189,
+      "text": "The argument of nonpayment of dividend is advanced to some how create a case to restrain the petitioners from invoking a negative covenant stipulated under the MoU.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3397,
+        "Arguments of Respondent": 0.1911,
+        "Decision": 0.003,
+        "Facts": 0.1337,
+        "Issue": 0.0106,
+        "Reasoning": 0.322
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 190,
+      "text": "Thus, three breaches of the MoU, which according to the Godrej disentitle the petitioners from relying on the MoU, do not constitute any breaches.39.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0379,
+        "Arguments of Respondent": 0.0254,
+        "Decision": 0.0046,
+        "Facts": 0.3949,
+        "Issue": 0.0005,
+        "Reasoning": 0.5366
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 191,
+      "text": "It was then urged on behalf of Godrej that the Clause 16 of the MoU cannot be pressed into service as it is inoperative on account of impossibility.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4653,
+        "Arguments of Respondent": 0.3364,
+        "Decision": 0.0016,
+        "Facts": 0.0364,
+        "Issue": 0.0005,
+        "Reasoning": 0.1598
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 192,
+      "text": "It was urged that since the original petitioners are in minority they do not have enough share holding to ensure that the Company is listed on a Stock Exchange.",
+      "predicted_label": "Facts",
+      "confidence": 0.3219,
+      "probabilities": {
+        "Arguments of Petitioner": 0.305,
+        "Arguments of Respondent": 0.2505,
+        "Decision": 0.0025,
+        "Facts": 0.3219,
+        "Issue": 0.0038,
+        "Reasoning": 0.1163
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 193,
+      "text": "This argument has been countered by the petitioners by pointing out that Godrej Industries have taken contradictory stand in the Arbitration Petition filed by them and also that the collective share holding of the Minority Shareholders has, in fact, gone up from 26 to 33.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7298,
+        "Arguments of Respondent": 0.0704,
+        "Decision": 0.0005,
+        "Facts": 0.0315,
+        "Issue": 0.0008,
+        "Reasoning": 0.1671
+      }
+    },
+    {
+      "sentence_id": 194,
+      "text": "We have been shown averments made on behalf of the Godrej in the Arbitration Proceedings filed by Godrej.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0798,
+        "Arguments of Respondent": 0.0953,
+        "Decision": 0.0049,
+        "Facts": 0.0993,
+        "Issue": 0.0006,
+        "Reasoning": 0.7201
+      }
+    },
+    {
+      "sentence_id": 195,
+      "text": "In those proceedings Godrej had categorically asserted that parties are bound by the MoU, which is valid and subsisting.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2709,
+        "Arguments of Respondent": 0.4582,
+        "Decision": 0.0011,
+        "Facts": 0.0619,
+        "Issue": 0.0001,
+        "Reasoning": 0.2077
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 196,
+      "text": "It was also asserted that MoU is not impossible to be performed, and not void for uncertainty.40.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4696,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.4696,
+        "Decision": 0.0009,
+        "Facts": 0.178,
+        "Issue": 0.0005,
+        "Reasoning": 0.0787
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 197,
+      "text": "The argument of Godrej based on impossibility is thus contradictory to the stand taken on affidavit filed by it in the earlier arbitration petition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1163,
+        "Arguments of Respondent": 0.2902,
+        "Decision": 0.0007,
+        "Facts": 0.0302,
+        "Issue": 0.0001,
+        "Reasoning": 0.5625
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 198,
+      "text": "Apart from this position, petitioners have pointed out that when the MoU was entered into in the year 1992, the collective shareholding of the Minority Shareholders was 27.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5687,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5687,
+        "Arguments of Respondent": 0.0474,
+        "Decision": 0.0016,
+        "Facts": 0.1379,
+        "Issue": 0.0007,
+        "Reasoning": 0.2438
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 199,
+      "text": "Thus, both Godrej and Minority Shareholders believed that 27 share holding was sufficient to enable the parties to work towards the Company being listed on the Stock Exchange.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4324,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0558,
+        "Arguments of Respondent": 0.1753,
+        "Decision": 0.0003,
+        "Facts": 0.3359,
+        "Issue": 0.0003,
+        "Reasoning": 0.4324
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 200,
+      "text": "At that time, no apprehension was raised by Godrej in respect of lack of share holding of the minority shareholding to achieve this object.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5104,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0792,
+        "Arguments of Respondent": 0.0709,
+        "Decision": 0.0003,
+        "Facts": 0.3389,
+        "Issue": 0.0003,
+        "Reasoning": 0.5104
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 201,
+      "text": "If the parties found 27 shareholder was then sufficient to achieve the object of MoU, one fails to understand how an argument based on an impossibility can be advanced when the shareholding has now increased from 27 to 34(approx).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.018,
+        "Arguments of Respondent": 0.0458,
+        "Decision": 0.0007,
+        "Facts": 0.2138,
+        "Issue": 0.0001,
+        "Reasoning": 0.7216
+      }
+    },
+    {
+      "sentence_id": 202,
+      "text": "We thus do not find any substance in this argument.41.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.0204,
+        "Decision": 0.0027,
+        "Facts": 0.0064,
+        "Issue": 0.0004,
+        "Reasoning": 0.953
+      }
+    },
+    {
+      "sentence_id": 203,
+      "text": "Thus, the negative covenant binds Godrej as well and the argument that the petitioners have committed breaches of the MoU do not impress us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.1044,
+        "Decision": 0.0306,
+        "Facts": 0.0651,
+        "Issue": 0.0001,
+        "Reasoning": 0.7876
+      }
+    },
+    {
+      "sentence_id": 204,
+      "text": "In any case, all these points will be gone into in detail during the arbitration proceedings.",
+      "predicted_label": "Decision",
+      "confidence": 0.5242,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0406,
+        "Arguments of Respondent": 0.0363,
+        "Decision": 0.5242,
+        "Facts": 0.1195,
+        "Issue": 0.0022,
+        "Reasoning": 0.2773
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 205,
+      "text": "Thus, we are in agreement with the learned single Judge that the petitioners had established that they had a prima facie case based on the MoU and that there is enough prima facie material to show that the negative covenant regarding dealing with the shares till the Company is registered or the Company is listed on the Stock Exchange is applicable to all the signatories to the MoU.42.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9043,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0018,
+        "Facts": 0.0873,
+        "Issue": 0.0001,
+        "Reasoning": 0.9043
+      }
+    },
+    {
+      "sentence_id": 206,
+      "text": "Now we consider the argument advanced by Godrej that the petitioners are not entitled to any relief on the ground of suppression of material facts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7536,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0235,
+        "Arguments of Respondent": 0.2163,
+        "Decision": 0.0006,
+        "Facts": 0.0047,
+        "Issue": 0.0013,
+        "Reasoning": 0.7536
+      }
+    },
+    {
+      "sentence_id": 207,
+      "text": "It was vehemently contended on behalf of the Godrej Industries that Jer, Darius Kavasmaneck suppressed the loancum pledge agreement and power of attorney which were executed subsequently to the MoU dated 3 June 1992.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4128,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4128,
+        "Arguments of Respondent": 0.3812,
+        "Decision": 0.0002,
+        "Facts": 0.0211,
+        "Issue": 0.0003,
+        "Reasoning": 0.1844
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 208,
+      "text": "A letter written by Darius Kavasmaneck on 14 March 2005 to the Godrej Industries in which Darius Kavasmaneck accepted the transfer and lodging of the shares was also alleged to have been suppressed.",
+      "predicted_label": "Facts",
+      "confidence": 0.8671,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0535,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.0001,
+        "Facts": 0.8671,
+        "Issue": 0.0023,
+        "Reasoning": 0.053
+      }
+    },
+    {
+      "sentence_id": 209,
+      "text": "It was contended that these two documents are of vital importance and since Jer and Darius Kavasmaneck did not file them along with the Arbitration Petition, they cannot be granted any relief.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4915,
+        "Arguments of Respondent": 0.3467,
+        "Decision": 0.0009,
+        "Facts": 0.0824,
+        "Issue": 0.0013,
+        "Reasoning": 0.0772
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 210,
+      "text": "Counsel for Godrej relied upon the decision in the case of S.P.ChengalvarayaNaidu (1994) 1 SCC 1 )in particular the following observations in paragraphs 5 and 6 of the decision 5.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5693,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3798,
+        "Arguments of Respondent": 0.5693,
+        "Decision": 0.0002,
+        "Facts": 0.0028,
+        "Issue": 0.0001,
+        "Reasoning": 0.0478
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 211,
+      "text": "One who comes to the court, must come with clean hands.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8183,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0542,
+        "Arguments of Respondent": 0.0416,
+        "Decision": 0.0087,
+        "Facts": 0.0755,
+        "Issue": 0.0017,
+        "Reasoning": 0.8183
+      }
+    },
+    {
+      "sentence_id": 212,
+      "text": "We are constrained to say that more often than not, process of the court is being abused.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.2034,
+        "Facts": 0.0407,
+        "Issue": 0.0008,
+        "Reasoning": 0.744
+      }
+    },
+    {
+      "sentence_id": 213,
+      "text": "We have no hesitation to say that a person, whos case is based on falsehood, has no right to approach the court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.014,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0011,
+        "Facts": 0.0756,
+        "Issue": 0.0003,
+        "Reasoning": 0.8849
+      }
+    },
+    {
+      "sentence_id": 214,
+      "text": "A litigant, who approaches the court, is bound to produce all the documents executed by him which are relevant to the litigation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8249,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0612,
+        "Arguments of Respondent": 0.0847,
+        "Decision": 0.0018,
+        "Facts": 0.027,
+        "Issue": 0.0004,
+        "Reasoning": 0.8249
+      }
+    },
+    {
+      "sentence_id": 215,
+      "text": "If he withholds a vital document in order to gain advantage on the other side then he would be guilty of playing fraud on the court as well as on the opposite party.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9224,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0281,
+        "Decision": 0.0004,
+        "Facts": 0.0344,
+        "Issue": 0.0004,
+        "Reasoning": 0.9224
+      }
+    },
+    {
+      "sentence_id": 216,
+      "text": "In K.D.Sharmascase (2008) 12 SCC 481 ) (supra) in paragraph 27 the Apex Court observed as underThe Court defined fraud as an act of deliberate deception with the design of securing something by taking unfair advantage of another.",
+      "predicted_label": "Facts",
+      "confidence": 0.8904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.013,
+        "Decision": 0.0001,
+        "Facts": 0.8904,
+        "Issue": 0.0008,
+        "Reasoning": 0.0814
+      }
+    },
+    {
+      "sentence_id": 217,
+      "text": "In fraud one gains at the loss and cost of another.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8999,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0455,
+        "Arguments of Respondent": 0.0307,
+        "Decision": 0.0003,
+        "Facts": 0.0223,
+        "Issue": 0.0014,
+        "Reasoning": 0.8999
+      }
+    },
+    {
+      "sentence_id": 218,
+      "text": "Even the most solemn proceedings stand vitiated if they are actuated by fraud.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9069,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0684,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0013,
+        "Facts": 0.0036,
+        "Issue": 0.0006,
+        "Reasoning": 0.9069
+      }
+    },
+    {
+      "sentence_id": 219,
+      "text": "Fraud is thus an extrinsic collateral act which vitiates all judicial acts, whether in rem or in personam.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9381,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0443,
+        "Arguments of Respondent": 0.0114,
+        "Decision": 0.0002,
+        "Facts": 0.0056,
+        "Issue": 0.0004,
+        "Reasoning": 0.9381
+      }
+    },
+    {
+      "sentence_id": 220,
+      "text": "Those who belong to this creed do not have any respect for truth.",
+      "predicted_label": "Facts",
+      "confidence": 0.5057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.027,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0002,
+        "Facts": 0.5057,
+        "Issue": 0.0004,
+        "Reasoning": 0.4545
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 221,
+      "text": "They shamelessly resort to falsehood and unethical means for achieving their goals.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0717,
+        "Arguments of Respondent": 0.0577,
+        "Decision": 0.0007,
+        "Facts": 0.1725,
+        "Issue": 0.0013,
+        "Reasoning": 0.6962
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 222,
+      "text": "In order to material facts, his application is liable to be dismissed.",
+      "predicted_label": "Facts",
+      "confidence": 0.3068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1742,
+        "Arguments of Respondent": 0.1858,
+        "Decision": 0.038,
+        "Facts": 0.3068,
+        "Issue": 0.0079,
+        "Reasoning": 0.2874
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 223,
+      "text": "We accordingly dismiss the special leave petitions.43.",
+      "predicted_label": "Decision",
+      "confidence": 0.9137,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9137,
+        "Facts": 0.006,
+        "Issue": 0.0002,
+        "Reasoning": 0.0793
+      }
+    },
+    {
+      "sentence_id": 224,
+      "text": "It is however urged on behalf of the petitioners Jer and Darius, that they are not guilty of any suppression.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6721,
+        "Arguments of Respondent": 0.0904,
+        "Decision": 0.0008,
+        "Facts": 0.0123,
+        "Issue": 0.0003,
+        "Reasoning": 0.2242
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 225,
+      "text": "It was further urged that the principles laid down in the above judgments would apply to cases where the document favourable to the other side is concealed from the Court and order is obtained without notice to the other side.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4285,
+        "Arguments of Respondent": 0.4094,
+        "Decision": 0.0002,
+        "Facts": 0.003,
+        "Issue": 0.0002,
+        "Reasoning": 0.1587
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 226,
+      "text": "It is in such cases, where a litigant dishonestly tries to obtain an exparte order from the Court by concealing crucial material, he may be disentitled to any equitable relief.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0398,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0025,
+        "Facts": 0.0251,
+        "Issue": 0.0004,
+        "Reasoning": 0.8978
+      }
+    },
+    {
+      "sentence_id": 227,
+      "text": "It was urged that such is not the case in the present matter.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4886,
+        "Arguments of Respondent": 0.3942,
+        "Decision": 0.0004,
+        "Facts": 0.0162,
+        "Issue": 0.0004,
+        "Reasoning": 0.1002
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 228,
+      "text": "The documents are in full knowledge of the Godrej Industries.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0889,
+        "Arguments of Respondent": 0.1337,
+        "Decision": 0.0052,
+        "Facts": 0.3824,
+        "Issue": 0.0013,
+        "Reasoning": 0.3885
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 229,
+      "text": "In fact, the Power of Attornees and agreements have been referred to in the Arbitration proceedings filed by Godrej earlier.44.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9164,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0345,
+        "Decision": 0.0025,
+        "Facts": 0.0168,
+        "Issue": 0.0001,
+        "Reasoning": 0.9164
+      }
+    },
+    {
+      "sentence_id": 230,
+      "text": "There is reference to the pledgecumloan agreement and power of attorney in the arbitration petition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0418,
+        "Arguments of Respondent": 0.1359,
+        "Decision": 0.0008,
+        "Facts": 0.2926,
+        "Issue": 0.001,
+        "Reasoning": 0.528
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 231,
+      "text": "The impugned order came to be passed after both the parties had full opportunity of producing documents on record.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0501,
+        "Arguments of Respondent": 0.1928,
+        "Decision": 0.0029,
+        "Facts": 0.2021,
+        "Issue": 0.0012,
+        "Reasoning": 0.5509
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 232,
+      "text": "The said MoU and power of attorney were available on the record of the learned single Judge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5956,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0923,
+        "Arguments of Respondent": 0.0761,
+        "Decision": 0.0016,
+        "Facts": 0.2338,
+        "Issue": 0.0006,
+        "Reasoning": 0.5956
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 233,
+      "text": "It cannot be said that the petitioners conduct is of such a grave nature that the injunction granted in their favour should be vacated on the ground of suppression of documents when the MoU and the arbitration petition itself refers to execution of loan cum pledge agreement and power of attorney.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5689,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0432,
+        "Decision": 0.0029,
+        "Facts": 0.3759,
+        "Issue": 0.0003,
+        "Reasoning": 0.5689
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 234,
+      "text": "It has been pointed out that Mr.Adi Godrej had agreed by letter dated 13 June 1992 not to claim interest or recall loans under these pledge agreements and power of attorneys.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4835,
+        "Arguments of Respondent": 0.406,
+        "Decision": 0.0006,
+        "Facts": 0.0434,
+        "Issue": 0.0004,
+        "Reasoning": 0.0661
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 235,
+      "text": "These documents were thus not the principal documents on which relief was being sought.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0812,
+        "Arguments of Respondent": 0.0731,
+        "Decision": 0.0006,
+        "Facts": 0.0468,
+        "Issue": 0.0002,
+        "Reasoning": 0.7981
+      }
+    },
+    {
+      "sentence_id": 236,
+      "text": "These documents were the part of defence of Godrej, which had full opportunity to defend the application.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1657,
+        "Arguments of Respondent": 0.4097,
+        "Decision": 0.001,
+        "Facts": 0.091,
+        "Issue": 0.0002,
+        "Reasoning": 0.3324
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 237,
+      "text": "Matter was fully heard by the learned Judge and then impugned relief was granted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3111,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2039,
+        "Arguments of Respondent": 0.2739,
+        "Decision": 0.0046,
+        "Facts": 0.2045,
+        "Issue": 0.0021,
+        "Reasoning": 0.3111
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 238,
+      "text": "In view of these circumstances, we do not find that the conduct of Jer, Darius Kavasmaneck was blameworthy, as alleged.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9054,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0662,
+        "Facts": 0.0145,
+        "Issue": 0.0006,
+        "Reasoning": 0.9054
+      }
+    },
+    {
+      "sentence_id": 239,
+      "text": "On the other hand, the conduct of Godrej Industries in not placing on record letter dated 13 June 1992 wherein Mr Adi Godrej reiterated that notwithstanding the loancumpledge agreement, Godrej Industries will not enforce loans or claim interest, needs to be noticed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0298,
+        "Arguments of Respondent": 0.0314,
+        "Decision": 0.0008,
+        "Facts": 0.1305,
+        "Issue": 0.0005,
+        "Reasoning": 0.807
+      }
+    },
+    {
+      "sentence_id": 240,
+      "text": "In any case, no such allegation can be made and has not been made against Rebellos that they have suppressed any documents.45.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8655,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0797,
+        "Arguments of Respondent": 0.0487,
+        "Decision": 0.002,
+        "Facts": 0.0039,
+        "Issue": 0.0001,
+        "Reasoning": 0.8655
+      }
+    },
+    {
+      "sentence_id": 241,
+      "text": "We now turn to the principal argument on behalf of Percy and Aban Kavasmanecks that the Clause 28 of the MoU does not provide for arbitration between the minority shareholders.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3525,
+        "Arguments of Respondent": 0.157,
+        "Decision": 0.0004,
+        "Facts": 0.0228,
+        "Issue": 0.0007,
+        "Reasoning": 0.4666
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 242,
+      "text": "Clause 28 reads as underAny dispute or difference between the parties hereto including in respect of any breach or alleged breach hereof, shall be referred to the sole arbitration of a person to be mutually agreed upon by the parties hereto.",
+      "predicted_label": "Facts",
+      "confidence": 0.7673,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0766,
+        "Arguments of Respondent": 0.0849,
+        "Decision": 0.0002,
+        "Facts": 0.7673,
+        "Issue": 0.0008,
+        "Reasoning": 0.0702
+      }
+    },
+    {
+      "sentence_id": 243,
+      "text": "The sole arbitrator shall have summary powers and the Arbitrator shall not be required to give reasons for his award.",
+      "predicted_label": "Facts",
+      "confidence": 0.5812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0644,
+        "Arguments of Respondent": 0.1942,
+        "Decision": 0.0028,
+        "Facts": 0.5812,
+        "Issue": 0.0017,
+        "Reasoning": 0.1558
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 244,
+      "text": "The place for arbitration shall be at Bombay.",
+      "predicted_label": "Facts",
+      "confidence": 0.7777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0479,
+        "Arguments of Respondent": 0.0884,
+        "Decision": 0.0015,
+        "Facts": 0.7777,
+        "Issue": 0.0162,
+        "Reasoning": 0.0683
+      }
+    },
+    {
+      "sentence_id": 245,
+      "text": "It was contended that the MoU is executed between party of the First part i.e. the Minority shareholders and party of the Second Part i.e Godrej.",
+      "predicted_label": "Facts",
+      "confidence": 0.3453,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3055,
+        "Arguments of Respondent": 0.2999,
+        "Decision": 0.0006,
+        "Facts": 0.3453,
+        "Issue": 0.0017,
+        "Reasoning": 0.047
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 246,
+      "text": "The agreement is only between these two parties and thus it was never contemplated that dispute between minority members interse will be referred for Arbitration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0451,
+        "Arguments of Respondent": 0.1535,
+        "Decision": 0.0004,
+        "Facts": 0.0412,
+        "Issue": 0.0005,
+        "Reasoning": 0.7593
+      }
+    },
+    {
+      "sentence_id": 247,
+      "text": "It was urged that Parties hereto referred in clause 28 above means only party of First Part and party of Second Part.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4463,
+        "Arguments of Respondent": 0.2879,
+        "Decision": 0.0005,
+        "Facts": 0.2061,
+        "Issue": 0.001,
+        "Reasoning": 0.0582
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 248,
+      "text": "It was also urged that the Minority shareholders entered into a separate MoU on the same day and that MoU does not contain any clause for arbitration.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5114,
+        "Arguments of Respondent": 0.3847,
+        "Decision": 0.001,
+        "Facts": 0.0403,
+        "Issue": 0.0005,
+        "Reasoning": 0.0623
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 249,
+      "text": "Relying on the interpretation of the various terms included in the MoU and the supplementary MoU amongst the minority shareholders, it was contended that there was no agreement for arbitration between the minority shareholders and, therefore, a petition under Section 9 of the Act was not maintainable.",
+      "predicted_label": "Facts",
+      "confidence": 0.8011,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0838,
+        "Arguments of Respondent": 0.0974,
+        "Decision": 0.0002,
+        "Facts": 0.8011,
+        "Issue": 0.0028,
+        "Reasoning": 0.0147
+      }
+    },
+    {
+      "sentence_id": 250,
+      "text": "It was further contended that the absence of arbitration agreement goes to the root of the matter and this issue has to be considered in the proceedings under section 9 of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4266,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4266,
+        "Arguments of Respondent": 0.3087,
+        "Decision": 0.0013,
+        "Facts": 0.1519,
+        "Issue": 0.0052,
+        "Reasoning": 0.1063
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 251,
+      "text": "It was urged that learned single Judge misconstrued the argument to mean that it was regarding nonarbitrability of the dispute.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4465,
+        "Arguments of Respondent": 0.3692,
+        "Decision": 0.0006,
+        "Facts": 0.0439,
+        "Issue": 0.0008,
+        "Reasoning": 0.139
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 252,
+      "text": "Reliance was placed on the decision of the Apex Court in National Insurance Co. vs. Boghara (2009) 1 SCC 267 )(supra).46.",
+      "predicted_label": "Facts",
+      "confidence": 0.754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1118,
+        "Arguments of Respondent": 0.0912,
+        "Decision": 0.0002,
+        "Facts": 0.754,
+        "Issue": 0.0007,
+        "Reasoning": 0.0421
+      }
+    },
+    {
+      "sentence_id": 253,
+      "text": "1.",
+      "predicted_label": "Facts",
+      "confidence": 0.591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1692,
+        "Arguments of Respondent": 0.0581,
+        "Decision": 0.0119,
+        "Facts": 0.591,
+        "Issue": 0.0566,
+        "Reasoning": 0.1132
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 254,
+      "text": "There is no absolute bar in employing the rules relating to interpretation of statutes, for the purpose of interpretation of deeds and documents, in a given case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8544,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0526,
+        "Arguments of Respondent": 0.0832,
+        "Decision": 0.0014,
+        "Facts": 0.0077,
+        "Issue": 0.0007,
+        "Reasoning": 0.8544
+      }
+    },
+    {
+      "sentence_id": 255,
+      "text": "One of the settled principles of interpretation of statutes is, when in relation to the same subject matter different words are used in the same instrument, presumption arises that they are used not in the sense, but carry different meanings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8119,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0471,
+        "Arguments of Respondent": 0.1156,
+        "Decision": 0.0001,
+        "Facts": 0.0231,
+        "Issue": 0.0022,
+        "Reasoning": 0.8119
+      }
+    },
+    {
+      "sentence_id": 256,
+      "text": "This principle can be borrowed for the construction of the present MoU.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4389,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0523,
+        "Arguments of Respondent": 0.2503,
+        "Decision": 0.0008,
+        "Facts": 0.2567,
+        "Issue": 0.001,
+        "Reasoning": 0.4389
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 257,
+      "text": "The MoU refers to the parties in several ways.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0249,
+        "Arguments of Respondent": 0.0376,
+        "Decision": 0.0004,
+        "Facts": 0.2232,
+        "Issue": 0.0004,
+        "Reasoning": 0.7135
+      }
+    },
+    {
+      "sentence_id": 258,
+      "text": "The parties are referred to as parties, parties of the first part and parties hereto, both parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.8486,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0009,
+        "Facts": 0.8486,
+        "Issue": 0.0974,
+        "Reasoning": 0.0251
+      }
+    },
+    {
+      "sentence_id": 259,
+      "text": "It is significant to note that the expression parties hereto appears both in Clause 16 of the MoU and Clause 28 of the MoU, which are the most material clauses in the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0153,
+        "Arguments of Respondent": 0.0108,
+        "Decision": 0.0011,
+        "Facts": 0.0925,
+        "Issue": 0.0011,
+        "Reasoning": 0.8792
+      }
+    },
+    {
+      "sentence_id": 260,
+      "text": "In many paragraphs the reference is to party of the first part and party of the second part.",
+      "predicted_label": "Facts",
+      "confidence": 0.858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0007,
+        "Facts": 0.858,
+        "Issue": 0.0249,
+        "Reasoning": 0.1007
+      }
+    },
+    {
+      "sentence_id": 261,
+      "text": "In some paragraph, such as paragraph 15, there is reference to either of the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0236,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.0002,
+        "Facts": 0.0751,
+        "Issue": 0.001,
+        "Reasoning": 0.8824
+      }
+    },
+    {
+      "sentence_id": 262,
+      "text": "In paragraph 21 reference is made to both parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0443,
+        "Arguments of Respondent": 0.0404,
+        "Decision": 0.001,
+        "Facts": 0.1399,
+        "Issue": 0.0007,
+        "Reasoning": 0.7738
+      }
+    },
+    {
+      "sentence_id": 263,
+      "text": "However, the two clauses i.e. 16 and 28 which are subjectmatter of the debate, have used the phrase the parties hereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0261,
+        "Arguments of Respondent": 0.017,
+        "Decision": 0.0006,
+        "Facts": 0.2038,
+        "Issue": 0.0026,
+        "Reasoning": 0.7499
+      }
+    },
+    {
+      "sentence_id": 264,
+      "text": "What we find clinching is that immediately after clause 28, which is the last clause which employ the phrase parties hereto, concluding recitals and names of all the signatories and their signatures appear.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6935,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0953,
+        "Arguments of Respondent": 0.0341,
+        "Decision": 0.0012,
+        "Facts": 0.1734,
+        "Issue": 0.0025,
+        "Reasoning": 0.6935
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 265,
+      "text": "It reads as underClause 28Any dispute or difference between the parties hereto including in respect of any breach or alleged breach hereof, shall be referred to the sole arbitration of a person to be mutually agreed upon by the parties hereto.",
+      "predicted_label": "Facts",
+      "confidence": 0.6241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1371,
+        "Arguments of Respondent": 0.0909,
+        "Decision": 0.0002,
+        "Facts": 0.6241,
+        "Issue": 0.0013,
+        "Reasoning": 0.1465
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 266,
+      "text": "The sole arbitrator shall have summary powers and the Arbitrator shall not be required to give reasons for his award.",
+      "predicted_label": "Facts",
+      "confidence": 0.5812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0644,
+        "Arguments of Respondent": 0.1942,
+        "Decision": 0.0028,
+        "Facts": 0.5812,
+        "Issue": 0.0017,
+        "Reasoning": 0.1558
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 267,
+      "text": "The place for arbitration shall be at Bombay.",
+      "predicted_label": "Facts",
+      "confidence": 0.7777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0479,
+        "Arguments of Respondent": 0.0884,
+        "Decision": 0.0015,
+        "Facts": 0.7777,
+        "Issue": 0.0162,
+        "Reasoning": 0.0683
+      }
+    },
+    {
+      "sentence_id": 268,
+      "text": "Apart from the language of this Clause, the surrounding circumstances indicate that the arbitration clause is to cover all the signatories to the MoU.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8352,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.0436,
+        "Decision": 0.0021,
+        "Facts": 0.1018,
+        "Issue": 0.0001,
+        "Reasoning": 0.8352
+      }
+    },
+    {
+      "sentence_id": 269,
+      "text": "The MoU came to be executed when minority shareholders were struggling against Dr.Gharda employing oppressive tactics to squeeze Minority Shareholders out of existence.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0726,
+        "Arguments of Respondent": 0.4439,
+        "Decision": 0.0007,
+        "Facts": 0.2142,
+        "Issue": 0.0003,
+        "Reasoning": 0.2682
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 270,
+      "text": "It was crucial for the minority shareholders to stay together to remain as a significant minority.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.2885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2094,
+        "Arguments of Respondent": 0.2505,
+        "Decision": 0.0009,
+        "Facts": 0.2503,
+        "Issue": 0.0004,
+        "Reasoning": 0.2885
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 271,
+      "text": "Individual holding of each of the Minority Shareholders had to be pooled together as it was vital for their collective shareholding.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0818,
+        "Arguments of Respondent": 0.119,
+        "Decision": 0.0003,
+        "Facts": 0.3151,
+        "Issue": 0.0007,
+        "Reasoning": 0.4831
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 272,
+      "text": "The position of the minority shareholding was so precarious that even if some of the Minority Shareholders were to part with their shares, minority shareholders together would cease to be a significant minority.",
+      "predicted_label": "Facts",
+      "confidence": 0.5142,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1013,
+        "Arguments of Respondent": 0.1461,
+        "Decision": 0.0002,
+        "Facts": 0.5142,
+        "Issue": 0.0009,
+        "Reasoning": 0.2372
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 273,
+      "text": "It was, thus, absolutely essential that the minority shareholders stayed together and acted in one unit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1767,
+        "Arguments of Respondent": 0.2019,
+        "Decision": 0.0002,
+        "Facts": 0.0273,
+        "Issue": 0.0001,
+        "Reasoning": 0.5938
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 274,
+      "text": "Thus, the parties at the time of executing the MoU were aware that if any dispute arises, even between the Minority Shareholders, in respect of the shares, the object of all Minority Shareholders remaining together as the significant minority and getting the Company listed on a registered stock exchange would be lost.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6392,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0292,
+        "Arguments of Respondent": 0.1217,
+        "Decision": 0.0001,
+        "Facts": 0.2096,
+        "Issue": 0.0002,
+        "Reasoning": 0.6392
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 275,
+      "text": "Thus, it cannot be said that dispute amongst the Minority Shareholders was not contemplated when the MoU was executed with Clause 28 herein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8352,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0197,
+        "Arguments of Respondent": 0.0776,
+        "Decision": 0.0007,
+        "Facts": 0.0667,
+        "Issue": 0.0001,
+        "Reasoning": 0.8352
+      }
+    },
+    {
+      "sentence_id": 276,
+      "text": "The interpretation of Clause 28 and circumstances in which it was executed do, therefore, indicate that it was intended to cover all the signatories to the MoU. We, therefore, do not agree with the submission made on behalf of Percy and Darius Kavasmaneck that there is no arbitration agreement between them and the other parties.50.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.001,
+        "Facts": 0.0122,
+        "Issue": 0.0002,
+        "Reasoning": 0.9719
+      }
+    },
+    {
+      "sentence_id": 277,
+      "text": "Minority Shareholders were struggling to retain their existence in the Company when they turned to Godrej Industries for financial assistance to purchase the shares.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0852,
+        "Arguments of Respondent": 0.2547,
+        "Decision": 0.0003,
+        "Facts": 0.2663,
+        "Issue": 0.0007,
+        "Reasoning": 0.3929
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 278,
+      "text": "Inspite of the detailed arguments made on behalf of the Godrej, no special reason why shares cannot remain in the same position till the arbitration proceedings is shown except the argument that Godrej cannot be stopped from perfecting their security.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8516,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0385,
+        "Decision": 0.0007,
+        "Facts": 0.0929,
+        "Issue": 0.0001,
+        "Reasoning": 0.8516
+      }
+    },
+    {
+      "sentence_id": 279,
+      "text": "As noted above, the Godrej had in their letter dated 13 June 1992, immediately after execution of the MoU on 3 June 1992, had indicated that they will not enforce loans or claim interest notwithstanding the agreement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0501,
+        "Decision": 0.0007,
+        "Facts": 0.0675,
+        "Issue": 0.0002,
+        "Reasoning": 0.8538
+      }
+    },
+    {
+      "sentence_id": 280,
+      "text": "The tussle is not for the monetary value of the shares, but what the shares represent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7042,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0851,
+        "Arguments of Respondent": 0.1805,
+        "Decision": 0.0012,
+        "Facts": 0.0284,
+        "Issue": 0.0007,
+        "Reasoning": 0.7042
+      }
+    },
+    {
+      "sentence_id": 281,
+      "text": "The dispute is no longer for money but for the control of the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0715,
+        "Arguments of Respondent": 0.1372,
+        "Decision": 0.0171,
+        "Facts": 0.1904,
+        "Issue": 0.0027,
+        "Reasoning": 0.5812
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 282,
+      "text": "Once this fact is established before us, it will be too nave to assume that Godrej is only looking at the shares as a monetary investment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0505,
+        "Arguments of Respondent": 0.0657,
+        "Decision": 0.001,
+        "Facts": 0.0276,
+        "Issue": 0.0003,
+        "Reasoning": 0.855
+      }
+    },
+    {
+      "sentence_id": 283,
+      "text": "This was evident during the course of the hearing when an offer was made on behalf of the petitioners to return the amount of loan in return of shares from Godrej, there was no response of that offer from Godrej.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3224,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3224,
+        "Arguments of Respondent": 0.3106,
+        "Decision": 0.0013,
+        "Facts": 0.1662,
+        "Issue": 0.0001,
+        "Reasoning": 0.1995
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 284,
+      "text": "The petitioners while making the offer of payment of principal amount drew our attention to the letter of Mr Adi Godrej dated 13 June 1992, wherein it was stated that Godrej is not claiming any interest on the loan amount.",
+      "predicted_label": "Facts",
+      "confidence": 0.3998,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3277,
+        "Arguments of Respondent": 0.1108,
+        "Decision": 0.0096,
+        "Facts": 0.3998,
+        "Issue": 0.0008,
+        "Reasoning": 0.1514
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 285,
+      "text": "Though on record Godrej keeps asserting that the shares are merely pledged, its actions, the surrounding circumstances and the arguments advanced show that Godrej is trying to deal with the shares, prima facie, in furtherance of its intention to side with Dr Gharda and to extinguish the opposition of Minority Shareholders.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.79,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0118,
+        "Arguments of Respondent": 0.1038,
+        "Decision": 0.0004,
+        "Facts": 0.0939,
+        "Issue": 0.0001,
+        "Reasoning": 0.79
+      }
+    },
+    {
+      "sentence_id": 286,
+      "text": "This being the position, the balance of convenience clearly lies in favour of the petitioners.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0917,
+        "Arguments of Respondent": 0.0345,
+        "Decision": 0.022,
+        "Facts": 0.3477,
+        "Issue": 0.013,
+        "Reasoning": 0.4911
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 287,
+      "text": "The shares in question need to be kept as they are till the parties approach the Arbitrator.",
+      "predicted_label": "Decision",
+      "confidence": 0.5124,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.5124,
+        "Facts": 0.0995,
+        "Issue": 0.0003,
+        "Reasoning": 0.3756
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 288,
+      "text": "The true purport of the negative covenant can be decided by the Arbitrator.52.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9098,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0269,
+        "Arguments of Respondent": 0.0524,
+        "Decision": 0.0019,
+        "Facts": 0.0089,
+        "Issue": 0.0002,
+        "Reasoning": 0.9098
+      }
+    },
+    {
+      "sentence_id": 289,
+      "text": "Therefore, we find that the petitioners have made out a strong prima facie case and balance of convenience is in their favour.",
+      "predicted_label": "Facts",
+      "confidence": 0.6121,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0286,
+        "Facts": 0.6121,
+        "Issue": 0.0017,
+        "Reasoning": 0.3464
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 290,
+      "text": "The submissions of the appellants that the petitioners do not deserve any equitable relief and that there was no arbitration clause between the Minority Shareholders interse is without any substance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.2317,
+        "Decision": 0.0073,
+        "Facts": 0.2543,
+        "Issue": 0.0008,
+        "Reasoning": 0.5029
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 291,
+      "text": "The learned single Judge has considered all the aspects of the case and has found that the Arbitration Petition requires to be made absolute.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4796,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0344,
+        "Arguments of Respondent": 0.0463,
+        "Decision": 0.0285,
+        "Facts": 0.3934,
+        "Issue": 0.0177,
+        "Reasoning": 0.4796
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 292,
+      "text": "There is no reason to take a different view in the matter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.009,
+        "Arguments of Respondent": 0.0191,
+        "Decision": 0.0916,
+        "Facts": 0.017,
+        "Issue": 0.0005,
+        "Reasoning": 0.8628
+      }
+    },
+    {
+      "sentence_id": 293,
+      "text": "Accordingly, all the appeals are dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9788,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.9788,
+        "Facts": 0.0081,
+        "Issue": 0.0002,
+        "Reasoning": 0.0096
+      }
+    },
+    {
+      "sentence_id": 294,
+      "text": "In view of our finding recorded above, we will also have to allow the arbitration applications filed by the petitioners under Section 11 of the Act for appointment of Arbitrator.",
+      "predicted_label": "Decision",
+      "confidence": 0.5984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.5984,
+        "Facts": 0.0254,
+        "Issue": 0.0006,
+        "Reasoning": 0.3733
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 295,
+      "text": "Arbitration Application Nos.219 and 220 of 2012 are accordingly allowed, with name of the Arbitrator indicated in a separate order passed in these applications.",
+      "predicted_label": "Decision",
+      "confidence": 0.9343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9343,
+        "Facts": 0.0413,
+        "Issue": 0.0006,
+        "Reasoning": 0.0231
+      }
+    }
+  ]
+}

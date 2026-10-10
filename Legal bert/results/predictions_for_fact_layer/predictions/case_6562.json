@@ -1,0 +1,530 @@
+{
+  "case_id": "6562",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "Permission to file special leave petition in Diary No.12110/2021 is granted.",
+      "predicted_label": "Decision",
+      "confidence": 0.8139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.8139,
+        "Facts": 0.1642,
+        "Issue": 0.0015,
+        "Reasoning": 0.0171
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "These are two connected special leave petitions.",
+      "predicted_label": "Issue",
+      "confidence": 0.6305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.003,
+        "Facts": 0.3615,
+        "Issue": 0.6305,
+        "Reasoning": 0.0034
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "Special leave petition arising out of Diary No.12110/2021 challenges the order dated 15.05.2021 passed by the Division Bench of the Andhra Pradesh High Court whereas Special leave petition (Crl.)",
+      "predicted_label": "Issue",
+      "confidence": 0.6365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0543,
+        "Facts": 0.3045,
+        "Issue": 0.6365,
+        "Reasoning": 0.0028
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "No.3785/2021 has been filed against the order of the Single Judge dated 15.05.2021 of the Andhra Pradesh High Court rejecting the bail of Kanumuri Raghurama Krishnam Raju.",
+      "predicted_label": "Facts",
+      "confidence": 0.5039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0247,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.028,
+        "Facts": 0.5039,
+        "Issue": 0.4177,
+        "Reasoning": 0.0171
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 4,
+      "text": "Both the matters were taken up today at 10.30 a.m. when the following order was passed The matters were taken up in the presence of Mr. Mukul Rohatgi and Mr. B. Adinarayan Rao, learned senior counsel appearing on behalf of petitioners, Mr. Dushyant Dave and Mr. V. Giri, learned senior counsel appearing on behalf of the respondent State.",
+      "predicted_label": "Facts",
+      "confidence": 0.9849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0003,
+        "Facts": 0.9849,
+        "Issue": 0.0013,
+        "Reasoning": 0.0072
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Learned counsel for the petitioners is directed to serve forthwith a copy of the petitions, by email, to the learned counsel for the respondent State and also standing counsel for the Central Government requesting the presence of Attorney General for India or the Solicitor General of India at 1200 noon today.",
+      "predicted_label": "Facts",
+      "confidence": 0.8827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0154,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0805,
+        "Facts": 0.8827,
+        "Issue": 0.0009,
+        "Reasoning": 0.0159
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "By the consent of learned counsel for the parties, matters shall be taken up at 1200 noon today.",
+      "predicted_label": "Facts",
+      "confidence": 0.6105,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0076,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.3017,
+        "Facts": 0.6105,
+        "Issue": 0.0025,
+        "Reasoning": 0.0726
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The submission of Shri Mukul Rohatgi, learned senior counsel for the petitioners is that petitionerKanumuri Raghurama Krishnam Raju is the sitting Member of Parliament and an FIR has been filed against the petitionerKanumuri Raghurama Krishnam Raju because of political rivalry as though he was elected as an M.P. of a particular political party but he criticized the action of said party and hence FIR has been filed because of political vendetta.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9748,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9748,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0002,
+        "Facts": 0.0057,
+        "Issue": 0.0004,
+        "Reasoning": 0.0173
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "At this stage, we are not inclined to go into the merits of the allegations made in the FIR and the submissions in that regard made by learned counsel for the petitioners as at present we are concerned with the medical condition of the petitionerKanumuri Raghurama Krishnam Raju regarding which there has been remarks by the Magistrate in his order dated 15.05.2021 when he was produced before the Magistrate for remand.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1958,
+        "Arguments of Respondent": 0.0245,
+        "Decision": 0.0027,
+        "Facts": 0.1512,
+        "Issue": 0.0043,
+        "Reasoning": 0.6216
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The Magistrate has directed to refer the petitionerKanumuri Raghurama Krishnam Raju for medical examination to the Superintendent of Government Hospital General Hospital, Guntur and Ramesh Hospital, Guntur to get examine the accused person in the presence of his security of Y category.",
+      "predicted_label": "Facts",
+      "confidence": 0.9459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0004,
+        "Facts": 0.9459,
+        "Issue": 0.0023,
+        "Reasoning": 0.047
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The Magistrate had also noted the contention of the learned counsel for the accused that the police had used 3rd degree methods against him during his custody and he was unable to walk and also that the petitionerKanumuri Raghurama Krishnam Raju had undergone heart byepass surgery in December, 2020.",
+      "predicted_label": "Facts",
+      "confidence": 0.603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0489,
+        "Arguments of Respondent": 0.0275,
+        "Decision": 0.0015,
+        "Facts": 0.603,
+        "Issue": 0.0025,
+        "Reasoning": 0.3166
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "Thereafter, Division Bench of the High Court by its order dated 15.05.2021 had directed that the medical examination be conducted by the medical board headed by the Superintendent of Government General Hospital, Guntur with other government doctors as members of the Board.",
+      "predicted_label": "Facts",
+      "confidence": 0.6005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0723,
+        "Arguments of Respondent": 0.0287,
+        "Decision": 0.0378,
+        "Facts": 0.6005,
+        "Issue": 0.004,
+        "Reasoning": 0.2567
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Today medical report has been placed before us which we have perused.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7158,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0655,
+        "Arguments of Respondent": 0.0341,
+        "Decision": 0.0211,
+        "Facts": 0.1624,
+        "Issue": 0.001,
+        "Reasoning": 0.7158
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "6.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6065,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6065,
+        "Arguments of Respondent": 0.0453,
+        "Decision": 0.0019,
+        "Facts": 0.3234,
+        "Issue": 0.0065,
+        "Reasoning": 0.0164
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Mr. Dushyant Dave, learned senior counsel appearing for the respondent State has very fairly stated that the State Government would have no objection if Kanumuri Raghurama Krishnam Raju is again medically examined by an independent Central Government Hospital in the presence of a Judicial Officer.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.9273,
+        "Decision": 0.0007,
+        "Facts": 0.0062,
+        "Issue": 0.0002,
+        "Reasoning": 0.0638
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "He suggested that the petitionerKanumuri Raghurama Krishnam Raju may be examined at AIIMS Mangalagiri, Andhra Pradesh or in the alternative Manipal Hospital, Andhra Pradesh which is a private hospital.",
+      "predicted_label": "Facts",
+      "confidence": 0.4542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1925,
+        "Arguments of Respondent": 0.0677,
+        "Decision": 0.0041,
+        "Facts": 0.4542,
+        "Issue": 0.0005,
+        "Reasoning": 0.2811
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "7.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7413,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7413,
+        "Arguments of Respondent": 0.0512,
+        "Decision": 0.0036,
+        "Facts": 0.1653,
+        "Issue": 0.0082,
+        "Reasoning": 0.0303
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Shri Mukul Rohatgi, learned senior counsel appearing for the petitioners has submitted that the AIIMS Mangalagiri is a very new hospital which is not properly staffed and Manipal Hospital is a private hospital.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9861,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0003,
+        "Facts": 0.0051,
+        "Issue": 0.0005,
+        "Reasoning": 0.0069
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "In the alternative he suggested that the petitionerKanumuri Raghurama Krishnam Raju may be sent to AIIMS, New Delhi for medical examination on his own expenses.",
+      "predicted_label": "Facts",
+      "confidence": 0.6717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1545,
+        "Arguments of Respondent": 0.0609,
+        "Decision": 0.0006,
+        "Facts": 0.6717,
+        "Issue": 0.0004,
+        "Reasoning": 0.1119
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Shri Tushar Mehta, learned Solicitor General appearing for the Union of India did not object to the same.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5081,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2069,
+        "Arguments of Respondent": 0.5081,
+        "Decision": 0.0062,
+        "Facts": 0.1942,
+        "Issue": 0.0029,
+        "Reasoning": 0.0817
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "This Court suggested that the medical examination of the petitionerKanumuri Raghurama Krishnam Raju be conducted by an independent organization and in the opinion of the Court it could be done at the Army Hospital Secunderabad, Telangana, to which Shri Dushyant Dave as well as Shri V. Giri, learned senior counsel as well as Shri Tushar Mehta, learned Solicitor General had no objections.",
+      "predicted_label": "Facts",
+      "confidence": 0.6438,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0247,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0013,
+        "Facts": 0.6438,
+        "Issue": 0.0017,
+        "Reasoning": 0.3159
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "10.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8936,
+        "Arguments of Respondent": 0.0219,
+        "Decision": 0.0025,
+        "Facts": 0.0403,
+        "Issue": 0.0088,
+        "Reasoning": 0.0328
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "However, it was submitted by Shri Dushyant Dave that the petitionerKanumuri Raghurama Krishnam Raju be sent to the Army Hospital Secunderabad, Telangana only for medical examination and not for treatment or hospitalization.",
+      "predicted_label": "Facts",
+      "confidence": 0.4038,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2975,
+        "Arguments of Respondent": 0.1029,
+        "Decision": 0.0038,
+        "Facts": 0.4038,
+        "Issue": 0.0003,
+        "Reasoning": 0.1917
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "Considering the totality of the facts and circumstances, as well as keeping in view the directions issued by the Magistrate and also the High Court at various stages and particularly taking into consideration that Kanumuri Raghurama Krishnam Raju has undergone heart byepass surgery very recently and the injuries noticed in the medical report, we deem it proper to direct as under (1) The petitionerKanumuri Raghurama Krishnam Raju shall forthwith be taken to the Army Hospital Secunderabad for medical examination.",
+      "predicted_label": "Decision",
+      "confidence": 0.4883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.4883,
+        "Facts": 0.2248,
+        "Issue": 0.0009,
+        "Reasoning": 0.2832
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "The Y category security, provided under orders of the Delhi High Court, shall escort Kanumuri Raghurama Krishnam Raju only till the Army Hospital and need not be present at the time of medical examination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0326,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0299,
+        "Facts": 0.4619,
+        "Issue": 0.0011,
+        "Reasoning": 0.4626
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "(2) The medical examination of the petitionerKanumuri Raghurama Krishnam Raju shall be conducted by the medical board of three doctors of the hospital to be constituted by the head of the Army Hospital, Secunderabad, Telangana.",
+      "predicted_label": "Facts",
+      "confidence": 0.883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0255,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0533,
+        "Facts": 0.883,
+        "Issue": 0.0006,
+        "Reasoning": 0.0339
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "(3) As agreed by the learned counsel for the respondent State the petitionerKanumuri Raghurama Krishnam Raju be medically examined in the presence of a Judicial Officer, who may be nominated by the Chief Justice of the Telangana High Court.",
+      "predicted_label": "Decision",
+      "confidence": 0.6354,
+      "probabilities": {
+        "Arguments of Petitioner": 0.072,
+        "Arguments of Respondent": 0.0335,
+        "Decision": 0.6354,
+        "Facts": 0.1985,
+        "Issue": 0.0012,
+        "Reasoning": 0.0595
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "(4) The proceedings of medical examination of the petitionerKanumuri Raghurama Krishnam Raju shall be videographed and be submitted to the Registrar General of the Telangana High Court in a sealed cover for being transmitted to this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.418,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1032,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.4126,
+        "Facts": 0.418,
+        "Issue": 0.0009,
+        "Reasoning": 0.0497
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 28,
+      "text": "(5) We direct that the petitionerKanumuri Raghurama Krishnam Raju shall be admitted in the Army Hospital and kept there for medical care until further orders, which shall be treated as judicial custody of the petitionerKanumuri Raghurama Krishnam Raju.",
+      "predicted_label": "Facts",
+      "confidence": 0.6903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0884,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.1656,
+        "Facts": 0.6903,
+        "Issue": 0.0024,
+        "Reasoning": 0.0481
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The expenses, if any, for hospitalization in the Army Hospital shall be born by the petitionerKanumuri Raghurama Krishnam Raju. 12.",
+      "predicted_label": "Facts",
+      "confidence": 0.8173,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0681,
+        "Facts": 0.8173,
+        "Issue": 0.0002,
+        "Reasoning": 0.1076
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The learned counsel for the respondent State prayed for and is granted two days time to file their reply in both the petitions.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.4914,
+        "Decision": 0.013,
+        "Facts": 0.3736,
+        "Issue": 0.0021,
+        "Reasoning": 0.1113
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 31,
+      "text": "Let the same be filed by 19.05.2021 after serving copies on the counsel for the petitioners as well as the Central Government.",
+      "predicted_label": "Decision",
+      "confidence": 0.7461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.7461,
+        "Facts": 0.21,
+        "Issue": 0.001,
+        "Reasoning": 0.0371
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The petitioners shall file rejoinder affidavit, if any, by 20.05.2021.",
+      "predicted_label": "Facts",
+      "confidence": 0.8023,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0371,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.1234,
+        "Facts": 0.8023,
+        "Issue": 0.0017,
+        "Reasoning": 0.03
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "By consent of the learned counsel for the parties, list these matters on 21.05.2021. 13.",
+      "predicted_label": "Facts",
+      "confidence": 0.7146,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0414,
+        "Arguments of Respondent": 0.0191,
+        "Decision": 0.1352,
+        "Facts": 0.7146,
+        "Issue": 0.0055,
+        "Reasoning": 0.0842
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The Chief Secretary, Andhra Pradesh is directed to carry out this order forthwith and ensure that the petitionerKanumuri Raghurama Krishnam Raju is taken to and reaches the Army Hospital, Secunderabad, Telangana today itself.",
+      "predicted_label": "Facts",
+      "confidence": 0.6525,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.3097,
+        "Facts": 0.6525,
+        "Issue": 0.0005,
+        "Reasoning": 0.0331
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "Let a copy of this order be sent by email to the Chief Secretary, Andhra Pradesh, the Registrar General of the Telangana High Court as well as the Andhra Pradesh High Court and Head of the Army Hospital, Secunderabad, Telangana, for compliance.",
+      "predicted_label": "Decision",
+      "confidence": 0.8908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.8908,
+        "Facts": 0.0735,
+        "Issue": 0.0004,
+        "Reasoning": 0.0255
+      }
+    }
+  ]
+}

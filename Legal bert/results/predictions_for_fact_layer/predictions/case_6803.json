@@ -1,0 +1,935 @@
+{
+  "case_id": "6803",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This appeal arises from an order of the learned Single Judge dated 23 February 2015 on a Company Petition for winding up.",
+      "predicted_label": "Issue",
+      "confidence": 0.8376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0025,
+        "Facts": 0.1585,
+        "Issue": 0.8376,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "By the order which is impugned in this appeal, the learned Single Judge has admitted the Company Petition and has given directions for advertising the winding up petition.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.6272,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0009,
+        "Facts": 0.6272,
+        "Issue": 0.369,
+        "Reasoning": 0.0019
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The respondent  Overseas Polymers Pvt.Ltd. has filed the company petition in question inter alia praying that the appellantcompany be wound up under the provisions of Sections 434, 435 and 436 of the Companies Act, 1956.",
+      "predicted_label": "Facts",
+      "confidence": 0.8873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0006,
+        "Facts": 0.8873,
+        "Issue": 0.0222,
+        "Reasoning": 0.0789
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "It is the case of the respondent in the Company Petition that the appellant had approached the respondent for supply of polymers.",
+      "predicted_label": "Facts",
+      "confidence": 0.6027,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.1031,
+        "Decision": 0.0007,
+        "Facts": 0.6027,
+        "Issue": 0.0032,
+        "Reasoning": 0.2759
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "The respondent had made supplies to the appellant from time to time for which invoices were issued in the regular course of business.",
+      "predicted_label": "Facts",
+      "confidence": 0.9299,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0001,
+        "Facts": 0.9299,
+        "Issue": 0.0118,
+        "Reasoning": 0.0466
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "There is no dispute on the receipt of the invoices.",
+      "predicted_label": "Facts",
+      "confidence": 0.8238,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0007,
+        "Facts": 0.8238,
+        "Issue": 0.0224,
+        "Reasoning": 0.1416
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "For a period of two years there were regular dealings between the parties and that part payment was received by the respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0927,
+        "Arguments of Respondent": 0.1498,
+        "Decision": 0.004,
+        "Facts": 0.3735,
+        "Issue": 0.003,
+        "Reasoning": 0.377
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "However, in respect of following invoices, an amount of Rs.23,34,983.44/ was due and payable by the appellantSr.",
+      "predicted_label": "Facts",
+      "confidence": 0.959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0017,
+        "Facts": 0.959,
+        "Issue": 0.0056,
+        "Reasoning": 0.0264
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "No.Bill No.Invoice DateInvoice Amount(Rs.)Net",
+      "predicted_label": "Facts",
+      "confidence": 0.9503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.002,
+        "Facts": 0.9503,
+        "Issue": 0.018,
+        "Reasoning": 0.0124
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The appellant did not fulfill its commitment to make the outstanding payments though assurances were given from time to time.",
+      "predicted_label": "Facts",
+      "confidence": 0.9118,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.0013,
+        "Facts": 0.9118,
+        "Issue": 0.0049,
+        "Reasoning": 0.0494
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The respondent finally addressed a statutory notice under Section 433 and 434 of the Companies Act, 1956 dated 13 January 2014 to the appellant which was duly received by the appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0,
+        "Facts": 0.9894,
+        "Issue": 0.0006,
+        "Reasoning": 0.0061
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The appellant, however, did not respond to the said statutory notice.",
+      "predicted_label": "Facts",
+      "confidence": 0.9394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0003,
+        "Facts": 0.9394,
+        "Issue": 0.0298,
+        "Reasoning": 0.0261
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The respondent, thus, approached the Company Court by filing a petition seeking winding up of the appellant company on the ground that it is unable to pay its debts.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9958,
+        "Issue": 0.0024,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Before the learned Single Judge, the appellant filed a counter to the winding up petition and disputed its liability to pay the amount as claimed by the respondent, on the basis that the goods supplied by the respondent were defective which has resulted in a loss of production, affecting the business of the appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9893,
+        "Issue": 0.0016,
+        "Reasoning": 0.0074
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "In support of its case, the appellant relied on certain emails to contend that the material was defective in nature and that the respondent was aware about the defective nature of the material.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9765,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9765,
+        "Issue": 0.0007,
+        "Reasoning": 0.0034
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The respondent however disputed the case of the appellant in its rejoinder affidavit.",
+      "predicted_label": "Facts",
+      "confidence": 0.7534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.1653,
+        "Decision": 0.0001,
+        "Facts": 0.7534,
+        "Issue": 0.0021,
+        "Reasoning": 0.0645
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "It was the respondents case that the appellant had accepted the material supplied by the respondent without raising any grievance as regards its quality, quantity and price.",
+      "predicted_label": "Facts",
+      "confidence": 0.826,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.1124,
+        "Decision": 0.0001,
+        "Facts": 0.826,
+        "Issue": 0.0013,
+        "Reasoning": 0.0575
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The respondent contended that the appellant had used the material supplied by the respondent for its various clients.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6223,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.6223,
+        "Decision": 0.0004,
+        "Facts": 0.318,
+        "Issue": 0.0025,
+        "Reasoning": 0.0546
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "The respondent pointed out that in the month of March,2013, the appellant had informed to the respondent that the material supplied under Invoice No.1665 dated 18 January 2013 of an amount of Rs.2,25,748.19/, (which was being used by SIEMENS) had experienced some minor problem at the time of trial by SIEMENS.",
+      "predicted_label": "Facts",
+      "confidence": 0.6563,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.3071,
+        "Decision": 0.0003,
+        "Facts": 0.6563,
+        "Issue": 0.0017,
+        "Reasoning": 0.0312
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "The respondent had thereafter immediately fixed an appointment with the appellant and conducted a trial of the product in the presence of representatives of the appellant and SIEMENS on March 4 5, 2013.",
+      "predicted_label": "Facts",
+      "confidence": 0.6463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1354,
+        "Arguments of Respondent": 0.0525,
+        "Decision": 0.0011,
+        "Facts": 0.6463,
+        "Issue": 0.0009,
+        "Reasoning": 0.1637
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "The respondent sent a report to the appellant stating that there was a minor defect in the material which was supplied under the Invoice No.1665 and assured the appellant that respondent would rectify the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.9879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.9879,
+        "Issue": 0.0034,
+        "Reasoning": 0.0077
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Thereafter as SIEMENS had already used the material, the appellant had agreed that the material was to be treated as consumed and hence, no rectification was required.",
+      "predicted_label": "Facts",
+      "confidence": 0.5042,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1412,
+        "Arguments of Respondent": 0.2715,
+        "Decision": 0.001,
+        "Facts": 0.5042,
+        "Issue": 0.0016,
+        "Reasoning": 0.0804
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "Thus, as per the understanding between the respondent, the appellant and SIEMENS, the said material was accepted and thereafter, neither the appellant nor SIEMENS had raised any objection regarding quality of the material.",
+      "predicted_label": "Facts",
+      "confidence": 0.7432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0421,
+        "Arguments of Respondent": 0.0485,
+        "Decision": 0.0003,
+        "Facts": 0.7432,
+        "Issue": 0.0007,
+        "Reasoning": 0.1652
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The respondent categorically urged that at no point of time, the appellant had raised any objection in respect of the supplies under other invoices of which the amounts had become payable and remained outstanding.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.6638,
+        "Decision": 0.0002,
+        "Facts": 0.0544,
+        "Issue": 0.0002,
+        "Reasoning": 0.269
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "Respondent has stated that in fact two cheques dated 15 April 2013 and 10 May 2013 came to be issued by the appellant in favour of the respondent for Bill Nos.2034 and 2248 respectively and that at the request of the appellant the said cheques were not deposited for encashment as the appellant had given an assurance that it would make the payment by demand draft.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5244,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.5244,
+        "Decision": 0.0008,
+        "Facts": 0.2137,
+        "Issue": 0.0007,
+        "Reasoning": 0.2557
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "However, no such payment was forthcoming.",
+      "predicted_label": "Facts",
+      "confidence": 0.8104,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0267,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0027,
+        "Facts": 0.8104,
+        "Issue": 0.0052,
+        "Reasoning": 0.1357
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Several emails were addressed in this regard by the respondent to the appellants, however, the same were not responded.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0003,
+        "Facts": 0.9917,
+        "Issue": 0.0004,
+        "Reasoning": 0.0022
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "At the hearing of the winding up petition before the learned Single Judge, apart from the defences taken in the reply in regard to defective material being supplied by the respondent, the appellant also urged that the appellantcompany had addressed a letter dated 2 January 2015 to the Registrar of BIFR for filing a reference under BIFR.",
+      "predicted_label": "Facts",
+      "confidence": 0.9716,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9716,
+        "Issue": 0.0011,
+        "Reasoning": 0.0222
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "On the basis of this letter, it was contended by the appellant that the Company Petition ought not to proceed in view of the provisions of Section 22 of the Sick Industrial Companies (Special Provisions) Act, 1985 (for short SICA).",
+      "predicted_label": "Facts",
+      "confidence": 0.9725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0,
+        "Facts": 0.9725,
+        "Issue": 0.0026,
+        "Reasoning": 0.0076
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The learned Single Judge taking into consideration the rival contentions, by the impugned order, has admitted the Company Petition filed by the respondent.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0002,
+        "Facts": 0.9909,
+        "Issue": 0.0054,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Learned Counsel for the appellant in assailing the impugned order has urged that the learned Single Judge has not considered that the supply of the material was defective and hence, there was no liability on the part of the appellant to make payment to the respondent under the seven invoices on the basis of which a claim of Rs.23,34,983.44/ was made by the respondent.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9676,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9676,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0002,
+        "Facts": 0.011,
+        "Issue": 0.0013,
+        "Reasoning": 0.0192
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Learned Counsel for the appellant has taken us through the various emails in support of the contention that the material supplied to the appellant was defective.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8748,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8748,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0008,
+        "Facts": 0.0292,
+        "Issue": 0.0005,
+        "Reasoning": 0.0891
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "It is further urged that the learned Single Judge could not have proceeded to pass the impugned order in view of the letter dated 2 January 2015 of the appellant to the Registrar of the BIFR for filing of a reference under Section 16 of the SICA, and thus provisions of Section 22 of the SICA were attracted so as to create a bar on the learned Single Judge to proceed with the winding up petition.7.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8927,
+        "Arguments of Respondent": 0.0481,
+        "Decision": 0.0001,
+        "Facts": 0.0531,
+        "Issue": 0.0022,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "On the other hand, the learned Counsel for the respondent has urged that none of the contentions as raised on behalf of the appellant are tenable.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.9888,
+        "Decision": 0.0001,
+        "Facts": 0.0011,
+        "Issue": 0.0001,
+        "Reasoning": 0.0061
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Learned Counsel for the respondent submits that none of the emails of the appellant speak about any defect in the material except for minor defects in the material under Bill No.1165 in respect of invoice dated 18 January 2013 which material was already utilised by the appellant and SIEMENS and hence, there was no issue in that regard.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9726,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.9726,
+        "Decision": 0.0001,
+        "Facts": 0.0054,
+        "Issue": 0.0003,
+        "Reasoning": 0.0201
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "In respect of other supplies, it is urged that there is no material whatsoever to believe the contention of the appellant that there was a defect in the material supplied by the respondent and thus this plea as taken by the appellant was purely an afterthought, with an intention to avoid its liability of making payment of the outstanding amount.8.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9232,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0526,
+        "Arguments of Respondent": 0.9232,
+        "Decision": 0.0001,
+        "Facts": 0.0127,
+        "Issue": 0.0002,
+        "Reasoning": 0.0111
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "As regards the contention on behalf of the appellant in regard to the provisions of Section 22 of the SICA, learned Counsel for the respondent has made two fold submissions.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.9707,
+        "Decision": 0.0001,
+        "Facts": 0.0015,
+        "Issue": 0.0002,
+        "Reasoning": 0.0252
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Firstly, the letter dated 2 January 2015 was tendered across the bar, it was not a part of the pleadings before the learned Single Judge, and secondly the letter was only a covering letter and not a reference within the meaning of Section 22 of the SICA, so as to create any bar before the learned Single Judge to proceed with the hearing of the winding up petition and pass the impugned order.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6134,
+        "Arguments of Respondent": 0.1339,
+        "Decision": 0.0118,
+        "Facts": 0.1046,
+        "Issue": 0.0055,
+        "Reasoning": 0.1307
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "It is her submission that this letter of the appellant cannot be construed to mean that a reference under Section 16(1) of the SICA is registered with the BIFR so as to create a bar under Section 22 of the proceedings of the Company Petition.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.9669,
+        "Decision": 0.0001,
+        "Facts": 0.0024,
+        "Issue": 0.0001,
+        "Reasoning": 0.0058
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "In support of her submission, learned Counsel for the respondent has relied on the decision of the Supreme Court in the case of Real Value Appliances Ltd.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9167,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.9167,
+        "Decision": 0.0003,
+        "Facts": 0.0039,
+        "Issue": 0.0001,
+        "Reasoning": 0.0742
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "(1998)5 SCC 554) .9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3729,
+        "Arguments of Respondent": 0.1045,
+        "Decision": 0.0036,
+        "Facts": 0.3357,
+        "Issue": 0.0068,
+        "Reasoning": 0.1764
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "Having considered the rival submissions and after going through the relevant documents and the impugned order with the assistance of the learned Counsel for the parties, we find that there is no merit in the contention as raised on behalf of the appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.0034,
+        "Facts": 0.0088,
+        "Issue": 0.0022,
+        "Reasoning": 0.9593
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "As regards the contention of the appellant that the material as supplied by the respondent was defective, we find that there is no document to support this contention of the appellant, in respect of the supplies under the invoices in question, except Bill No.1665 corresponding to invoice dated 18 January 2013 of an amount of Rs.2,25,748.19.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0011,
+        "Facts": 0.0309,
+        "Issue": 0.0002,
+        "Reasoning": 0.9541
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "Even in regard to this invoice the respondent had informed the appellant to rectify the defects but before the same could be done, the appellants client viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.5654,
+      "probabilities": {
+        "Arguments of Petitioner": 0.085,
+        "Arguments of Respondent": 0.0382,
+        "Decision": 0.002,
+        "Facts": 0.5654,
+        "Issue": 0.0013,
+        "Reasoning": 0.308
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "SIEMENS had already utilised the material and thereafter, no grievance whatsoever in that regard was made.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5419,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1796,
+        "Arguments of Respondent": 0.5419,
+        "Decision": 0.0009,
+        "Facts": 0.0913,
+        "Issue": 0.0002,
+        "Reasoning": 0.1861
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "However, in respect of the supplies under other invoices, there is nothing on record to show that there was any defect in regard to the supplies under these bills.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8586,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0092,
+        "Facts": 0.1056,
+        "Issue": 0.0009,
+        "Reasoning": 0.8586
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The correspondence also do not reveal any action on the part of the appellant to dispute the quality of the material and or any reference not to accept and or return the material.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0202,
+        "Arguments of Respondent": 0.0223,
+        "Decision": 0.002,
+        "Facts": 0.2618,
+        "Issue": 0.0002,
+        "Reasoning": 0.6936
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "What we find is that the appellant had in fact issued cheques to the respondent for amount of Rs.6,09,769/ and 7,27,125/ on 15 April 2013 and 22 March 2013.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9316,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.019,
+        "Decision": 0.0065,
+        "Facts": 0.0315,
+        "Issue": 0.0009,
+        "Reasoning": 0.9316
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "Thus clearly the contention in regard to the defect in the material, is taken by the appellant for the first time in defending the winding up petition filed by the respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6337,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1532,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0014,
+        "Facts": 0.2005,
+        "Issue": 0.0016,
+        "Reasoning": 0.6337
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "It is significant that the appellant did not even bother to respond to the statutory notice where this plea if bonafide could have been taken by the appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9195,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0012,
+        "Facts": 0.0254,
+        "Issue": 0.0004,
+        "Reasoning": 0.9195
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "We are, therefore, of the clear opinion that the stand of the appellant regarding defective material supplied by the respondent, was without any basis and rightly rejected by the learned Single Judge.10.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9833,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0022,
+        "Facts": 0.0088,
+        "Issue": 0.0002,
+        "Reasoning": 0.9833
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "As regards the contention of the appellant in regard to the application of Section 22 of the SICA, we find that there is no merit in this submission.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9718,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0017,
+        "Facts": 0.0067,
+        "Issue": 0.0003,
+        "Reasoning": 0.9718
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Supreme Court in the case of Real Value Appliances Ltd. (supra) has held that the inquiry under Section 16(1) of the SICA can be said to have commenced as soon as registration of reference is completed after scrutiny and from that time the provisions of Section 22 of the SICA would stand to operate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.0583,
+        "Decision": 0.0009,
+        "Facts": 0.0238,
+        "Issue": 0.0003,
+        "Reasoning": 0.8781
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "There can, therefore, be no difficulty in holding that after the amendment to Regulation 19 w.e.f. 24.3.1994, once the reference is registered and when once it is mandatory simultaneously to call for information documents from the informant and such a direction is given, then inquiry under section 16(1) must for the purposes of section 22 be deemed to have commenced.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0001,
+        "Facts": 0.0213,
+        "Issue": 0.0006,
+        "Reasoning": 0.9439
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Section 22 and the prohibitions contained in it shall immediately come into play.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0274,
+        "Arguments of Respondent": 0.29,
+        "Decision": 0.0191,
+        "Facts": 0.0268,
+        "Issue": 0.0018,
+        "Reasoning": 0.635
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "(emphasis supplied)11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.123,
+        "Arguments of Respondent": 0.0414,
+        "Decision": 0.002,
+        "Facts": 0.3673,
+        "Issue": 0.0014,
+        "Reasoning": 0.465
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 57,
+      "text": "In the light of the observations of the Supreme Court in the decision in Real Value Appliances Ltd. (supra), the learned Single Judge has thus appropriately observed that an inquiry under Section 16 of the SICA so as to attract bar under Section 22 of the SICA, is deemed to have commenced upon registration of a reference and only thereafter the provisions of Section 22 of the SICA would apply.12.",
+      "predicted_label": "Facts",
+      "confidence": 0.9113,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0007,
+        "Facts": 0.9113,
+        "Issue": 0.0005,
+        "Reasoning": 0.0812
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "In these circumstances and for the reasons we have indicated, we do not find any merit in this appeal.",
+      "predicted_label": "Decision",
+      "confidence": 0.9608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.9608,
+        "Facts": 0.0012,
+        "Issue": 0.0002,
+        "Reasoning": 0.0366
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "The appeal deserves to be dismissed.13.",
+      "predicted_label": "Decision",
+      "confidence": 0.5002,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.3527,
+        "Decision": 0.5002,
+        "Facts": 0.0034,
+        "Issue": 0.0014,
+        "Reasoning": 0.1364
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 60,
+      "text": "In this appeal the arguments were heard on 6 April 2015 and orders were reserved to be pronounced.",
+      "predicted_label": "Facts",
+      "confidence": 0.9263,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0077,
+        "Facts": 0.9263,
+        "Issue": 0.0423,
+        "Reasoning": 0.0153
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "Accordingly, when we were about to pronounce the order today, at that stage the learned Counsel for the appellant stated that by a communication No.3(C1) BC/2015 dated 09042015 the Registrar of BIFR has informed the appellant about the registration of the reference under Section 15(1) of the Sick Industrial Companies (Special Provisions) Act, 1985.14.",
+      "predicted_label": "Facts",
+      "confidence": 0.7684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0838,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.005,
+        "Facts": 0.7684,
+        "Issue": 0.0006,
+        "Reasoning": 0.1365
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "Since the appeal was directed against the order dated 23 February 2015 which was passed by the learned Company Judge on the basis of the material then placed before the learned Company Judge, we proceed to pronounce the order dismissing the appeal but with a clarification that it will be open to the appellant to take out a fresh application before the learned Company Judge for placing the aforesaid communication for such orders as the appellant may be advised to seek.15.",
+      "predicted_label": "Facts",
+      "confidence": 0.7193,
+      "probabilities": {
+        "Arguments of Petitioner": 0.012,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0156,
+        "Facts": 0.7193,
+        "Issue": 0.0003,
+        "Reasoning": 0.2475
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "Accordingly, the appeal is dismissed with the above clarification.16.",
+      "predicted_label": "Decision",
+      "confidence": 0.964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.964,
+        "Facts": 0.0218,
+        "Issue": 0.0001,
+        "Reasoning": 0.0132
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "In view of dismissal of the appeal, Notice of Motion 715 of 2015 does not survive and it is accordingly disposed of.",
+      "predicted_label": "Decision",
+      "confidence": 0.8969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.8969,
+        "Facts": 0.06,
+        "Issue": 0.0007,
+        "Reasoning": 0.0332
+      }
+    }
+  ]
+}

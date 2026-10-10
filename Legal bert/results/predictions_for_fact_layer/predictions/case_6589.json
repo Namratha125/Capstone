@@ -1,0 +1,735 @@
+{
+  "case_id": "6589",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This appeal raises a very interesting question relating to the law of banking.",
+      "predicted_label": "Issue",
+      "confidence": 0.828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0012,
+        "Facts": 0.0942,
+        "Issue": 0.828,
+        "Reasoning": 0.0707
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The respondent company was incorporated on 1551945, and Poddar Chacko and Co., were appointed as managing, agents.",
+      "predicted_label": "Facts",
+      "confidence": 0.7449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.0002,
+        "Facts": 0.7449,
+        "Issue": 0.0003,
+        "Reasoning": 0.2268
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "On 2891948, the company by its liquidator filed the present suit from which this appeal arises and in the suit the company sought to recover from the bank the sum of Rs. 28,882130 which had been paid on the cheques drawn upon it.",
+      "predicted_label": "Facts",
+      "confidence": 0.9916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9916,
+        "Issue": 0.0062,
+        "Reasoning": 0.0016
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "On 2591953, the plaint in the suit was amended as a result of the Court holding that the special resolution for winding up was null and void.",
+      "predicted_label": "Facts",
+      "confidence": 0.9836,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0002,
+        "Facts": 0.9836,
+        "Issue": 0.0003,
+        "Reasoning": 0.0134
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The amendment was to strike out the name of the liquidator and to make the suit as if it was instituted by the company itself.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0785,
+        "Arguments of Respondent": 0.084,
+        "Decision": 0.0004,
+        "Facts": 0.164,
+        "Issue": 0.001,
+        "Reasoning": 0.6721
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "Mr. Justice Tendolkar passed a decree in favour of the company in respect of one cheque for Rs. 20,000 and nonsuited the company in respect of the other cheques aggregating to Rs. 8,882130.The bank has come in appeal against the judgment of Tendolkar, J. in respect of the sum of Rs. 20,000 and the respondent company has filed crossobjections in respect of the sum of Rs. 8,882130 in respect of which no relief was given by the learned Judge.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.5955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0008,
+        "Facts": 0.5955,
+        "Issue": 0.398,
+        "Reasoning": 0.0045
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "In limine Mr. Modi has contended that the suit filed by the company was barred by limitation, and the contention was that the suit should be deemed to have been instituted on 2591953, when the plaint was amended.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2368,
+        "Arguments of Respondent": 0.3034,
+        "Decision": 0.0006,
+        "Facts": 0.2181,
+        "Issue": 0.0003,
+        "Reasoning": 0.2408
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "Mr. Modi says that when the suit was filed on 2891948, the liquidator had no authority to file the suit, and if the suit was filed on 2591953, it would be clearly barred because the cause of action would accrue to the company when it demanded the refund of the moneys paid by cheque on 2821946, and that demand was refused by the bank.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3276,
+        "Arguments of Respondent": 0.5621,
+        "Decision": 0.0005,
+        "Facts": 0.0058,
+        "Issue": 0.0002,
+        "Reasoning": 0.1038
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "Therefore, if we take the view that a new plaintiff was substituted in the suit on 2591953, then undoubtedly the suit would be barred.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0181,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.001,
+        "Facts": 0.0352,
+        "Issue": 0.0026,
+        "Reasoning": 0.9338
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "But we are inclined to take the view that the suit substantially was filed by the company first by its liquidator and then by amendment by itself.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.0152,
+        "Decision": 0.0014,
+        "Facts": 0.0599,
+        "Issue": 0.0015,
+        "Reasoning": 0.8994
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Therefore this is not a case where a new plaintiff appears on the suit for the first time and limitation has run till he appears on the scene.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0134,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0004,
+        "Facts": 0.0156,
+        "Issue": 0.0005,
+        "Reasoning": 0.9507
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "It is unnecessary to elaborate this point because on the merits, as we shall presently point out, we are in favour of the appellants, so that the appellants are entitled to succeed apart from the plea of limitation which they have raised.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.6183,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2925,
+        "Arguments of Respondent": 0.0305,
+        "Decision": 0.001,
+        "Facts": 0.6183,
+        "Issue": 0.0226,
+        "Reasoning": 0.0352
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Turning first to the important documents in the case, we have in the first place the resolution passed by the company on 2151945, and that resolution authorises the appellant bank to honour cheques, bills of exchange and promissory notes drawn, accepted or made on behalf of the company by the managing agents Poddar Chacko and Co., by both the directors of the managing agents firm, namely, Mr. Keshavdeo Poddar and Mr. M.J. Chacko and to act on any instructions so given relating to the account whether the same be overdrawn or not, or relating to the transactions of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0002,
+        "Facts": 0.0183,
+        "Issue": 0.0004,
+        "Reasoning": 0.974
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "We have then the account opening form where the name of the account is stated to be the Oriol Industries Limited and the form bears the signatures of Mr. Chacko and Mr. Poddar.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0008,
+        "Facts": 0.148,
+        "Issue": 0.0004,
+        "Reasoning": 0.8279
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "They have also signed the specimen signature slip and to this form is annexed a copy of the resolution to which reference has just been made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0175,
+        "Arguments of Respondent": 0.0152,
+        "Decision": 0.0011,
+        "Facts": 0.1112,
+        "Issue": 0.0003,
+        "Reasoning": 0.8547
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "We have then the account opened in the appellant bank and the account is headed",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8156,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0008,
+        "Facts": 0.1665,
+        "Issue": 0.0005,
+        "Reasoning": 0.8156
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The Oriol Industries Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0061,
+        "Facts": 0.844,
+        "Issue": 0.0405,
+        "Reasoning": 0.0777
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "It is stated in the account that instructions are that the account will be operated by Poddar and Chacko jointly.",
+      "predicted_label": "Facts",
+      "confidence": 0.5838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0428,
+        "Arguments of Respondent": 0.039,
+        "Decision": 0.0008,
+        "Facts": 0.5838,
+        "Issue": 0.0006,
+        "Reasoning": 0.333
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "We have also the entry in the appellants book relating to the issue of cheques which shows that one cheque book was issued bearing cheques Nos. 4276 to 4300 on 2851945, and another cheque book bearing cheques Nos. 4501 to 4524 bearing the date 1861945.It is not in dispute that the cheques in suit, 28 in number, were all drawn from these two cheque books.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9363,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0008,
+        "Facts": 0.0524,
+        "Issue": 0.0009,
+        "Reasoning": 0.9363
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The contention of the respondent company was that the name of the company did not appear on any of the cheques and the cheques were not drawn by or on behalf of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.6701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.014,
+        "Arguments of Respondent": 0.1862,
+        "Decision": 0.0002,
+        "Facts": 0.6701,
+        "Issue": 0.0022,
+        "Reasoning": 0.1272
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "It was solely on this ground that the respondent company contended that the cheques were improperly honoured by the bank and the bank was liable to refund the amount of the cheques.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1574,
+        "Arguments of Respondent": 0.1755,
+        "Decision": 0.0015,
+        "Facts": 0.1054,
+        "Issue": 0.001,
+        "Reasoning": 0.5593
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "The respondent company is right when it urges that when you look at the cheque of Rs. 20,000 in respect of which the appellant has preferred this appeal  and that is also true of the other cheques  there is no indication that the cheque was drawn by the respondent company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9288,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.015,
+        "Decision": 0.0132,
+        "Facts": 0.0265,
+        "Issue": 0.0005,
+        "Reasoning": 0.9288
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "It is signed by Poddar and Chacko, but the signatories do not state that they are drawing or signing this cheque on account of or on behalf of the respondent company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5306,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.0334,
+        "Decision": 0.0062,
+        "Facts": 0.4025,
+        "Issue": 0.005,
+        "Reasoning": 0.5306
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "The learned Judge accepted this contention of the respondent company, but he took the view that there was an equitable principle which, in the case of cheques aggregating to Rs. 8,882130, came to the relief of the bank, and the equitable principle was that if it is established that the cheques honoured by the bank although the cheques were not in proper form were in fact utilized for the purpose of discharging the liabilities of the company, then equity would prevent the company from recovering the amount from the bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.9251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0003,
+        "Facts": 0.9251,
+        "Issue": 0.0105,
+        "Reasoning": 0.0518
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The learned Judge held that to the extent of Rs. 8,882130 the bank had established that this amount had in fact been utilized to discharge the liabilities of the company, and with regard to Rs. 20,000 the learned Judge held that the bank had failed to prove that this amount had also been utilized to discharge the liability of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9203,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0001,
+        "Facts": 0.9203,
+        "Issue": 0.0015,
+        "Reasoning": 0.0716
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Therefore, as pointed out, the learned Judge passed a decree in favour of the company with regard to this sum of Rs. 20,000.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9702,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0001,
+        "Facts": 0.9702,
+        "Issue": 0.0004,
+        "Reasoning": 0.0253
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "As we have pointed out, there is no dispute here that the bank acted bona fide.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.001,
+        "Facts": 0.0221,
+        "Issue": 0.002,
+        "Reasoning": 0.9464
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "With regard to the intention of the drawer and the drawee to operate on a specific account, the most significant piece of evidence is that the cheque books were issued to the respondent company and it was on the cheques issued to the respondent company that Poddar and Chacko put their signatures and with the help of their signatures obtained money from the bank.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0002,
+        "Facts": 0.0112,
+        "Issue": 0.0003,
+        "Reasoning": 0.9743
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The persons who drew the cheques were authorised to draw them pursuant to the resolution which had been sent to the bank, and therefore in this case as in the case of the House of Lords the only irregularity was in the form of the cheque because the cheque did not state that it was drawn by the company or on behalf of the company or on account of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6326,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1188,
+        "Arguments of Respondent": 0.1857,
+        "Decision": 0.0008,
+        "Facts": 0.0613,
+        "Issue": 0.0008,
+        "Reasoning": 0.6326
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "If that formality had been complied with, the respondent company would have no case at all.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9035,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0307,
+        "Arguments of Respondent": 0.0353,
+        "Decision": 0.0005,
+        "Facts": 0.0294,
+        "Issue": 0.0007,
+        "Reasoning": 0.9035
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The question is whether in the absence of that formality the respondent company can successfully maintain this action.",
+      "predicted_label": "Issue",
+      "confidence": 0.5981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0159,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0014,
+        "Facts": 0.0488,
+        "Issue": 0.5981,
+        "Reasoning": 0.3158
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "If we come to the conclusion, as indeed we do, that the bank bona fide honoured these cheques intending that these cheques were to operate upon the account of the respondent company and honestly satisfied that the persons drawing the cheque were duly authorised by the company to draw the cheques, then in our opinion the respondent company cannot claim to recover the amount of the cheques from the bank.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0231,
+        "Facts": 0.0534,
+        "Issue": 0.0029,
+        "Reasoning": 0.897
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "We must once more emphasise the fact that this is not a case of absence of authority on the part of the two gentlemen who drew the cheques.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0039,
+        "Facts": 0.019,
+        "Issue": 0.0005,
+        "Reasoning": 0.9709
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Want of authority is not pleaded in the plaint.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0309,
+        "Arguments of Respondent": 0.0216,
+        "Decision": 0.0028,
+        "Facts": 0.2686,
+        "Issue": 0.0018,
+        "Reasoning": 0.6742
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "All that is pleaded is that by reason of S. 89 of the Companies Act the cheques which are negotiable instruments were not drawn by the company or on behalf of the company or on account of the company, and therefore the company was not bound by the cheques.8.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1152,
+        "Arguments of Respondent": 0.1324,
+        "Decision": 0.0009,
+        "Facts": 0.2034,
+        "Issue": 0.0018,
+        "Reasoning": 0.5463
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "The learned Judge below considered this decision of the House of Lords, but he took the view that this decision was given under the Common law and not under the Negotiable Instruments Act which had not been enacted in England in 1875 when this decision was given.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0323,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0002,
+        "Facts": 0.1894,
+        "Issue": 0.0046,
+        "Reasoning": 0.7602
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "With very great respect to the learned Judge, in the passage which we have quoted from Lord Chelmsfords speech, it is clear that he has referred to the Companies Act of 1862 and that was the substantive law which contained provisions with regard to the liability of a company on a negotiable instrument, and we have satisfied ourselves that s. 47 of the English Companies Act of 1862 is identical in terms with our s. 89 of the Companies Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0237,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0004,
+        "Facts": 0.0044,
+        "Issue": 0.0005,
+        "Reasoning": 0.9624
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Therefore the House of Lords decision was given on a consideration of the provision in the Companies Act which makes a company liable on a negotiable instrument, and notwithstanding that provision the House of Lords came to the conclusion that under certain circumstances the bank would not be liable to refund the amount of the cheque drawn upon the account of the company even though the cheque did not purport to be in the name of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0853,
+        "Arguments of Respondent": 0.1323,
+        "Decision": 0.0005,
+        "Facts": 0.0236,
+        "Issue": 0.0023,
+        "Reasoning": 0.7559
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "Our S. 89 of the Companies Act is wholly based upon the English Companies Act and if the House of Lords had construed S. 89 so as not to impose a liability upon an honest banker paying a cheque out of the funds of the company, although the cheque was not in proper form, we see no reason why we should not accept the interpretation of S. 89 placed upon it by so high an authority as the House of Lords.9.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0725,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0005,
+        "Facts": 0.0084,
+        "Issue": 0.0012,
+        "Reasoning": 0.8874
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The learned Judge also relied on a judgment of a division bench of this Court in In re The New Flemming Spinning and Weaving Co. (Ltd.) in Liquidation 4 Bom. 275 (C).",
+      "predicted_label": "Facts",
+      "confidence": 0.9433,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0001,
+        "Facts": 0.9433,
+        "Issue": 0.0005,
+        "Reasoning": 0.0459
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "In that case, again, the question that arose was whether the company was liable on a bill drawn by the treasurer and agent but which bill did not clearly indicate that the bill was drawn by the company, and Sir Charles Sargent, Chief Justice, and Mr. Justice Bayley held that the company was not liable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0939,
+        "Arguments of Respondent": 0.1429,
+        "Decision": 0.0005,
+        "Facts": 0.0086,
+        "Issue": 0.002,
+        "Reasoning": 0.7522
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Again, with very great respect to the learned Judge, he has overlooked the clear distinction that this particular case was dealing with the liability of the company in respect of a negotiable instrument and the case that we have to consider is not a case where the liability of the company is being determined on a negotiable instrument.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0002,
+        "Facts": 0.0168,
+        "Issue": 0.0009,
+        "Reasoning": 0.9623
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "If that was the case before us, no further argument would have been necessary, and the clear decisions both here and in England are that no liability could be imposed upon a company on a negotiable instrument where the negotiable instrument was not made clearly by the company itself.10.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0621,
+        "Arguments of Respondent": 0.0273,
+        "Decision": 0.0003,
+        "Facts": 0.0113,
+        "Issue": 0.0007,
+        "Reasoning": 0.8984
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "If we are right in the view that we take, then no question of the application of the equitable principle can arise.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0014,
+        "Facts": 0.0106,
+        "Issue": 0.0005,
+        "Reasoning": 0.9638
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "Both with regard to the cheque for Rs. 20,000 in respect of which the bank is held liable and also in respect of the other 27 cheques aggregating to Rs. 8,882130 irrespective of any equitable principle the bank is not liable to refund the amount because it bona fide paid the cheques from the account of the respondent company.11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0698,
+        "Arguments of Respondent": 0.2122,
+        "Decision": 0.0145,
+        "Facts": 0.0302,
+        "Issue": 0.0006,
+        "Reasoning": 0.6727
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "The result, therefore, it that the appeal preferred by the bank must succeed and the crossobjections filed by the respondents must fail.",
+      "predicted_label": "Decision",
+      "confidence": 0.8538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.8538,
+        "Facts": 0.0037,
+        "Issue": 0.0002,
+        "Reasoning": 0.1404
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The appeal will, therefore, be allowed with costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9918,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9918,
+        "Facts": 0.0011,
+        "Issue": 0.0001,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The suit will be dismissed with costs.12.",
+      "predicted_label": "Decision",
+      "confidence": 0.9747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9747,
+        "Facts": 0.0054,
+        "Issue": 0.0001,
+        "Reasoning": 0.019
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Liberty to the appellants attorneys to withdraw the sum of Rs. 500 deposited in Court.",
+      "predicted_label": "Decision",
+      "confidence": 0.6452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.6452,
+        "Facts": 0.2976,
+        "Issue": 0.0015,
+        "Reasoning": 0.0412
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "Undertaking given by the solicitors discharged.",
+      "predicted_label": "Decision",
+      "confidence": 0.9764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9764,
+        "Facts": 0.0118,
+        "Issue": 0.0001,
+        "Reasoning": 0.0108
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "Appeal allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.9964,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0016
+      }
+    }
+  ]
+}

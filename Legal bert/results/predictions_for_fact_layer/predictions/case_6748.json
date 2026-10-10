@@ -1,0 +1,3521 @@
+{
+  "case_id": "6748",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "By this common order the above two writ petitions are being disposed of pursuant to the order dated 12th December, 2017 whereby both parties agreed that the two petitions can be disposed of finally at the stage of admission.",
+      "predicted_label": "Issue",
+      "confidence": 0.5128,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0046,
+        "Facts": 0.4773,
+        "Issue": 0.5128,
+        "Reasoning": 0.003
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 1,
+      "text": "It would be appropriate to set out few basic facts which are undisputed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0002,
+        "Facts": 0.9764,
+        "Issue": 0.0195,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The company is engaged in the business of manufacturing and marketing of soaps, detergent, cosmetics, personal care and various other products at its factories across the country.",
+      "predicted_label": "Facts",
+      "confidence": 0.9496,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0002,
+        "Facts": 0.9496,
+        "Issue": 0.0407,
+        "Reasoning": 0.006
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "It is believed to have 40 factories and establishments and one such factory is at Amli in Dadra and Nagar Haveli (Union Territory).",
+      "predicted_label": "Facts",
+      "confidence": 0.9335,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0276,
+        "Decision": 0.0001,
+        "Facts": 0.9335,
+        "Issue": 0.0047,
+        "Reasoning": 0.0269
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The union represents some workers employed at Amli factory.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9965,
+        "Issue": 0.0016,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "In the Unions petition, it is contended that majority of the workers of Amli CLS Plant and Liquid Bleach Plant of the company, who are covered by the settlement dated 30th September, 2008 (Amli Settlement) became members of the petitionerunion on or about 2nd October, 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.9775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0001,
+        "Facts": 0.9775,
+        "Issue": 0.0042,
+        "Reasoning": 0.0094
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "On 21st October, 2012 a meeting of the managing committee of the union is said to have been held and the company was informed of this fact vide letter dated 29th October, 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.9228,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0001,
+        "Facts": 0.9228,
+        "Issue": 0.0012,
+        "Reasoning": 0.0659
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The union is said to have terminated the Amli Settlement on 16th November, 2012 vide letter dated 10th November, 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.9008,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.0108,
+        "Decision": 0.0001,
+        "Facts": 0.9008,
+        "Issue": 0.0054,
+        "Reasoning": 0.0698
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "According to Mr. Singhvi the learned Senior Counsel for the union, upon coming to know that the workers covered by the Amli Settlement had joined the petitionerunion, the company hurriedly signed a settlement with 9 workers working in the tea plant on 12th November, 2012 which was a holiday.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7148,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1853,
+        "Arguments of Respondent": 0.7148,
+        "Decision": 0.0003,
+        "Facts": 0.0261,
+        "Issue": 0.0003,
+        "Reasoning": 0.0732
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Athal Beverages and Sayli Beverages were manufacturing tea and Daman UnitII manufactures disinfectant and liquid bleach.",
+      "predicted_label": "Facts",
+      "confidence": 0.5011,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2118,
+        "Arguments of Respondent": 0.0605,
+        "Decision": 0.0007,
+        "Facts": 0.5011,
+        "Issue": 0.0007,
+        "Reasoning": 0.2253
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "It is contended that on relocation of Athal Beverages, Sayli Beverages and Daman UnitII to Amli factory, the company signed a Bridge settlement with the workers.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0607,
+        "Arguments of Respondent": 0.036,
+        "Decision": 0.0002,
+        "Facts": 0.898,
+        "Issue": 0.0005,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "It is Mr. Singhvis case that the settlement dated 12th November, 2012 is not binding on the workers covered by Amli Settlement since they had already become members of the petitionerunion on 2nd October, 2012 and the companys management and the Labour Enforcement Officer Conciliation Officer were informed about the same.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7365,
+        "Arguments of Respondent": 0.2206,
+        "Decision": 0.0004,
+        "Facts": 0.0174,
+        "Issue": 0.0003,
+        "Reasoning": 0.0248
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The members of the petitionerunion were not part of the in respect of the alleged Settlement dated 12th November, 2012 (November Settlement).",
+      "predicted_label": "Facts",
+      "confidence": 0.8638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0562,
+        "Arguments of Respondent": 0.0215,
+        "Decision": 0.0007,
+        "Facts": 0.8638,
+        "Issue": 0.0113,
+        "Reasoning": 0.0466
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "It is contended that for various reasons as set out in paragraph 9 of the petition, the November Settlement was not binding as it was entered into without informing all the workers.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5478,
+        "Arguments of Respondent": 0.2167,
+        "Decision": 0.0005,
+        "Facts": 0.1623,
+        "Issue": 0.0039,
+        "Reasoning": 0.0687
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "The Conciliation Officer had also failed to inform the Union of the conciliation proceedings which were called on 12th December, 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.4638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1345,
+        "Arguments of Respondent": 0.1165,
+        "Decision": 0.0067,
+        "Facts": 0.4638,
+        "Issue": 0.003,
+        "Reasoning": 0.2755
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "Undue haste is alleged.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3792,
+        "Arguments of Respondent": 0.1191,
+        "Decision": 0.0009,
+        "Facts": 0.0716,
+        "Issue": 0.0011,
+        "Reasoning": 0.428
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "It is contended that the November Settlement does not amount to a settlement since the conciliation proceedings failed to conform to the provisions of the Industrial Disputes Act (Act) including giving notices to the workmen.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6493,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6493,
+        "Arguments of Respondent": 0.1952,
+        "Decision": 0.0005,
+        "Facts": 0.1075,
+        "Issue": 0.0056,
+        "Reasoning": 0.0419
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "The petitioner enclosed therewith a letter dated 4th November, 2012 signed by 166 workers of the CLS plant informing the company that they have joined the petitionerunion and all negotiations should be held with the elected representatives of the petitionerunion.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9937,
+        "Issue": 0.0002,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Mr. Singhvi, learned Senior Counsel submitted that the November Settlement deprives the workers of the benefit of the earlier settlement and a demand was raised to the effect that the November Settlement should not be treated as a settlement under Section 18(3) of the Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3269,
+        "Arguments of Respondent": 0.5915,
+        "Decision": 0.0003,
+        "Facts": 0.0024,
+        "Issue": 0.0002,
+        "Reasoning": 0.0787
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "On behalf of the union Mr. Singhvi relied upon the following judgments(i)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8352,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1507,
+        "Arguments of Respondent": 0.8352,
+        "Decision": 0.0001,
+        "Facts": 0.0058,
+        "Issue": 0.0002,
+        "Reasoning": 0.008
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Hotel Imperial Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4303,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4303,
+        "Arguments of Respondent": 0.1829,
+        "Decision": 0.0095,
+        "Facts": 0.107,
+        "Issue": 0.0049,
+        "Reasoning": 0.2655
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Hotel Workers Union (1960) 1",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3641,
+      "probabilities": {
+        "Arguments of Petitioner": 0.318,
+        "Arguments of Respondent": 0.3641,
+        "Decision": 0.001,
+        "Facts": 0.0615,
+        "Issue": 0.0015,
+        "Reasoning": 0.2539
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "SCR 476 (ii) Lokmat Newspapers Pvt.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5957,
+        "Arguments of Respondent": 0.3489,
+        "Decision": 0.0004,
+        "Facts": 0.0172,
+        "Issue": 0.0008,
+        "Reasoning": 0.0371
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.3569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1732,
+        "Arguments of Respondent": 0.1217,
+        "Decision": 0.0075,
+        "Facts": 0.3569,
+        "Issue": 0.015,
+        "Reasoning": 0.3256
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 24,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "Shakarprasad (1999) 6 SCC 275 (iii) Grindwell Norton Ltd.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8934,
+        "Arguments of Respondent": 0.0704,
+        "Decision": 0.0006,
+        "Facts": 0.0229,
+        "Issue": 0.0025,
+        "Reasoning": 0.0101
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Grindwell Norton Workers Union 1987 (54) FLR 727 SC(iv) Employees of Engg.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5246,
+        "Arguments of Respondent": 0.1887,
+        "Decision": 0.0005,
+        "Facts": 0.2165,
+        "Issue": 0.0013,
+        "Reasoning": 0.0685
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "India Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3638,
+        "Arguments of Respondent": 0.1974,
+        "Decision": 0.0088,
+        "Facts": 0.1543,
+        "Issue": 0.0053,
+        "Reasoning": 0.2704
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 28,
+      "text": "Engg.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8181,
+      "probabilities": {
+        "Arguments of Petitioner": 0.08,
+        "Arguments of Respondent": 0.0942,
+        "Decision": 0.0007,
+        "Facts": 0.0064,
+        "Issue": 0.0006,
+        "Reasoning": 0.8181
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "India Ltd. 1986 (52) FLR 537 SC(v) C.T.R. Trade Union Vs. C.T.R. Mfg. Industries 1993 (III) LLJ 952",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6041,
+        "Arguments of Respondent": 0.183,
+        "Decision": 0.0025,
+        "Facts": 0.1481,
+        "Issue": 0.0029,
+        "Reasoning": 0.0593
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "(Bom.HC)(vi) Dena Bank Vs. D.V. Kundadia (2011) 15 SCC 690 (vii) Bennett Coleman Co. Ltd. Anr.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8145,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8145,
+        "Arguments of Respondent": 0.1524,
+        "Decision": 0.0007,
+        "Facts": 0.0137,
+        "Issue": 0.0012,
+        "Reasoning": 0.0174
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 32,
+      "text": "Narayan Atmaram Sawant Ors. 2002 II CLR 3357.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2963,
+        "Arguments of Respondent": 0.2142,
+        "Decision": 0.0014,
+        "Facts": 0.0853,
+        "Issue": 0.0018,
+        "Reasoning": 0.4009
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 33,
+      "text": "The Union alleged that the process followed was contrary to Sections 12 and 18 of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9014,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0004,
+        "Facts": 0.9014,
+        "Issue": 0.0048,
+        "Reasoning": 0.0711
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The Conciliation Officers conduct in having completed the process of settlement in a single day is sought to be questioned as having fallen foul of Section 12(2) and 12(3) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4422,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3777,
+        "Arguments of Respondent": 0.0644,
+        "Decision": 0.0014,
+        "Facts": 0.1051,
+        "Issue": 0.0093,
+        "Reasoning": 0.4422
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "Thus, the petitioner has contended that the November Settlement is illegal, void ab initio.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.522,
+        "Arguments of Respondent": 0.0268,
+        "Decision": 0.0012,
+        "Facts": 0.3882,
+        "Issue": 0.003,
+        "Reasoning": 0.0589
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 36,
+      "text": "That apart, such settlement is prohibited by the 5th Schedule of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7208,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0782,
+        "Arguments of Respondent": 0.1041,
+        "Decision": 0.0011,
+        "Facts": 0.0953,
+        "Issue": 0.0005,
+        "Reasoning": 0.7208
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The settlement is also questioned on the basis that it has deliberately not granted uniform increase in wages to all the workers of the factory, especially since the petitioners believe the contribution of the workers at CLS plant is far higher than the contribution of the workers at the tea plant.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.4825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4023,
+        "Arguments of Respondent": 0.0712,
+        "Decision": 0.0004,
+        "Facts": 0.4825,
+        "Issue": 0.0134,
+        "Reasoning": 0.0302
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "The order dated 10th June, 2015 observed that since there was challenge to November Settlement and as per Section 18(3)(a) of the Act, the settlement would be binding on all parties, the question of whether or not the November Settlement is binding on all members of the union would require a detailed inquiry into issues.",
+      "predicted_label": "Facts",
+      "confidence": 0.8954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0004,
+        "Facts": 0.8954,
+        "Issue": 0.0055,
+        "Reasoning": 0.0846
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "the application raising preliminary issue.",
+      "predicted_label": "Facts",
+      "confidence": 0.7667,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0372,
+        "Arguments of Respondent": 0.0543,
+        "Decision": 0.009,
+        "Facts": 0.7667,
+        "Issue": 0.0315,
+        "Reasoning": 0.1013
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "The parties were given liberty to lead evidence, if they so desired.",
+      "predicted_label": "Facts",
+      "confidence": 0.9397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0003,
+        "Facts": 0.9397,
+        "Issue": 0.007,
+        "Reasoning": 0.0466
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "This order is being challenged in the Unions petition.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.9873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0001,
+        "Facts": 0.9873,
+        "Issue": 0.0039,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The company contended that while the union had raised a general demand, the November Settlement is invalid.",
+      "predicted_label": "Facts",
+      "confidence": 0.761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0499,
+        "Arguments of Respondent": 0.0679,
+        "Decision": 0.0004,
+        "Facts": 0.761,
+        "Issue": 0.0018,
+        "Reasoning": 0.1189
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The company contended that the petitionerunion had no locus to represent the employees of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0457,
+        "Arguments of Respondent": 0.0583,
+        "Decision": 0.0003,
+        "Facts": 0.8526,
+        "Issue": 0.0068,
+        "Reasoning": 0.0363
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "In its reply, the company contended that the union has a registered address in Mumbai and that it can operate in the company at its Head Office and branches anywhere in India.",
+      "predicted_label": "Facts",
+      "confidence": 0.7341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0155,
+        "Arguments of Respondent": 0.1991,
+        "Decision": 0.0001,
+        "Facts": 0.7341,
+        "Issue": 0.0009,
+        "Reasoning": 0.0503
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "According to the company, the HPC Silvassa factory at Amli is not a branch but an independent factory, and the petitioner  Union has no locus or legal right to represent it.",
+      "predicted_label": "Facts",
+      "confidence": 0.8016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0436,
+        "Arguments of Respondent": 0.0984,
+        "Decision": 0.0002,
+        "Facts": 0.8016,
+        "Issue": 0.011,
+        "Reasoning": 0.0452
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "Furthermore, it was contended that the constitution of the union does not permit admission of the employees of Amli plant.",
+      "predicted_label": "Facts",
+      "confidence": 0.4748,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3908,
+        "Arguments of Respondent": 0.0783,
+        "Decision": 0.0006,
+        "Facts": 0.4748,
+        "Issue": 0.005,
+        "Reasoning": 0.0505
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "It is contended that as against work force of 535 permanent workers employed at Amli unit only 30 workers were a part of the petitionerunion and have signed the November Settlement.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6368,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6368,
+        "Arguments of Respondent": 0.2002,
+        "Decision": 0.0004,
+        "Facts": 0.1166,
+        "Issue": 0.0037,
+        "Reasoning": 0.0423
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "4 workers have since resigned and strength of the union could not be more than 134.",
+      "predicted_label": "Facts",
+      "confidence": 0.4112,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1331,
+        "Arguments of Respondent": 0.1134,
+        "Decision": 0.0025,
+        "Facts": 0.4112,
+        "Issue": 0.0009,
+        "Reasoning": 0.3389
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 49,
+      "text": "75.41 of the workers had signed the November Settlement, clearly a majority.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7483,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0602,
+        "Arguments of Respondent": 0.0942,
+        "Decision": 0.0008,
+        "Facts": 0.0962,
+        "Issue": 0.0003,
+        "Reasoning": 0.7483
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "It is further contended that the Amli union has witnessed a merger of three unions which were initially governed by separate settlements and upon merger, the aforesaid bridge settlement was signed which was due to expire on 30th September, 2012.10.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.464,
+        "Arguments of Respondent": 0.1598,
+        "Decision": 0.0002,
+        "Facts": 0.3683,
+        "Issue": 0.0025,
+        "Reasoning": 0.0052
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 51,
+      "text": "The company contended that a single settlement was signed with the workers of Amli unit after consolidation of the workers at Athal Beverages, Sayli Beverages and Daman UnitII.",
+      "predicted_label": "Facts",
+      "confidence": 0.8258,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0641,
+        "Arguments of Respondent": 0.057,
+        "Decision": 0.0002,
+        "Facts": 0.8258,
+        "Issue": 0.001,
+        "Reasoning": 0.052
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The settlement was signed with intervention of the Conciliation Officer as aforesaid.",
+      "predicted_label": "Facts",
+      "confidence": 0.834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0002,
+        "Facts": 0.834,
+        "Issue": 0.0017,
+        "Reasoning": 0.1529
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Amli unit stands as a single unit and no segregation is possible.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6867,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6867,
+        "Arguments of Respondent": 0.1433,
+        "Decision": 0.0006,
+        "Facts": 0.0679,
+        "Issue": 0.0004,
+        "Reasoning": 0.1011
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "After the November Settlement was signed, a corrigendum came to be signed with certain modifications to the settlement on 19th November, 2013 whereby 23 authorised representatives of the workers accepted the settlement as a whole by affixing their signatures and Amli unit being situated in Union Territory, there was no question of there being any recognised union and that company was at liberty to sign the settlement with any of the unions representing permanent workers.",
+      "predicted_label": "Facts",
+      "confidence": 0.6746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0175,
+        "Arguments of Respondent": 0.1292,
+        "Decision": 0.0002,
+        "Facts": 0.6746,
+        "Issue": 0.001,
+        "Reasoning": 0.1775
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "If the other unions or workers challenged the settlement, the demand would not constitute an industrial dispute under Section 2(k) of the Act, on the basis that an individual dispute cannot become Industrial Dispute.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0911,
+        "Arguments of Respondent": 0.2778,
+        "Decision": 0.0036,
+        "Facts": 0.0474,
+        "Issue": 0.0017,
+        "Reasoning": 0.5784
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "The maintainability of the reference was thus questioned on the basis that there were two disputes, one being the Charter of demands dated 10th November, 2012 and secondly, the challenge to the November Settlement.11.",
+      "predicted_label": "Facts",
+      "confidence": 0.9662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0,
+        "Facts": 0.9662,
+        "Issue": 0.0166,
+        "Reasoning": 0.0069
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "With regard to the November Settlement, it is contended that its validity is required to be decided first inasmuch as, if it is concluded that the settlement was legal, the reference would not survive.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4417,
+        "Arguments of Respondent": 0.4832,
+        "Decision": 0.0004,
+        "Facts": 0.0299,
+        "Issue": 0.0037,
+        "Reasoning": 0.0411
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "Therefore, it was necessary to decide the maintainability of the reference before taking up the application for interim relief.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3692,
+        "Arguments of Respondent": 0.2076,
+        "Decision": 0.0032,
+        "Facts": 0.0887,
+        "Issue": 0.0011,
+        "Reasoning": 0.3302
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 59,
+      "text": "It was contended that since the aforesaid issues go to the root of jurisdiction and maintainability of the reference, the reference could not be entertained.",
+      "predicted_label": "Facts",
+      "confidence": 0.7558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1612,
+        "Arguments of Respondent": 0.0443,
+        "Decision": 0.0009,
+        "Facts": 0.7558,
+        "Issue": 0.0064,
+        "Reasoning": 0.0313
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "The Tribunal was called upon to decide the maintainability as a preliminary issue as also whether the union has locus to represent the employees.12.",
+      "predicted_label": "Facts",
+      "confidence": 0.9018,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0002,
+        "Facts": 0.9018,
+        "Issue": 0.0044,
+        "Reasoning": 0.0601
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "During pendency of the application for granting interim relief, the union filed a further application on 8th July, 2015 seeking adinterim relief by way of directions to the company to grant benefits of the November Settlement to the workers covered by the reference.",
+      "predicted_label": "Facts",
+      "confidence": 0.9651,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0003,
+        "Facts": 0.9651,
+        "Issue": 0.0036,
+        "Reasoning": 0.0264
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "It was contended that pursuant to the Charter of demands for the year 2013, the interim relief application was filed on 31st July, 2013.",
+      "predicted_label": "Facts",
+      "confidence": 0.5114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2176,
+        "Arguments of Respondent": 0.1909,
+        "Decision": 0.0013,
+        "Facts": 0.5114,
+        "Issue": 0.0091,
+        "Reasoning": 0.0697
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "The November Settlement was for a period of four years of which three years had lapsed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4868,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1788,
+        "Arguments of Respondent": 0.1404,
+        "Decision": 0.0021,
+        "Facts": 0.1913,
+        "Issue": 0.0007,
+        "Reasoning": 0.4868
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "The application was opposed by the company which in its affidavit in reply dated 7th March, 2017 contended that while the interim relief application seeks payment of Rs.8,500 per month with effect from 1st October, 2012, the company had filed an application (Exhibit35) raising a preliminary issue.",
+      "predicted_label": "Facts",
+      "confidence": 0.9423,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0006,
+        "Facts": 0.9423,
+        "Issue": 0.0046,
+        "Reasoning": 0.0264
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "The company contended that the application for adinterim relief was filed with ulterior motive and to prejudice the minds of workers secure reliefs which were subject matter of proceedings in which the order dated 10th June, 2015 had been passed.",
+      "predicted_label": "Facts",
+      "confidence": 0.8106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0232,
+        "Arguments of Respondent": 0.1248,
+        "Decision": 0.0002,
+        "Facts": 0.8106,
+        "Issue": 0.0014,
+        "Reasoning": 0.0398
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The union had not challenged the order in Exhibit35 at the material time and the Unions petition is filed after more than 10 months of passing the order and no convincing reasons have been given for the delay.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5423,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1957,
+        "Arguments of Respondent": 0.1711,
+        "Decision": 0.0017,
+        "Facts": 0.089,
+        "Issue": 0.0002,
+        "Reasoning": 0.5423
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 67,
+      "text": "Inspite of the order dated 10th June, 2015 granting leave to lead evidence, no evidence had been led at the material time, yet the Union made an application for adinterim relief.",
+      "predicted_label": "Facts",
+      "confidence": 0.5986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0838,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0145,
+        "Facts": 0.5986,
+        "Issue": 0.0088,
+        "Reasoning": 0.2599
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "14.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6361,
+        "Arguments of Respondent": 0.068,
+        "Decision": 0.0035,
+        "Facts": 0.1054,
+        "Issue": 0.0132,
+        "Reasoning": 0.1739
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "It is contended by Mr.Naik, learned Senior Counsel on behalf of the company that the petitioner union had not complied with the directions in the order dated 10th June, 2015 and the application for adinterim relief was only a method of sabotaging due process.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0899,
+        "Arguments of Respondent": 0.856,
+        "Decision": 0.0002,
+        "Facts": 0.0202,
+        "Issue": 0.0003,
+        "Reasoning": 0.0334
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "The company being aggrieved by the order of the Industrial Tribunal dated 25th February, 2016 filed the companion Writ Petition No.11595 of 2016.",
+      "predicted_label": "Facts",
+      "confidence": 0.988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0002,
+        "Facts": 0.988,
+        "Issue": 0.0086,
+        "Reasoning": 0.0026
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "Mr.Naik submitted that the Union has not given any reason as to why its writ petition was not filed for 10 months.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.653,
+        "Arguments of Respondent": 0.3323,
+        "Decision": 0.0003,
+        "Facts": 0.0018,
+        "Issue": 0.0001,
+        "Reasoning": 0.0124
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "It is contended that the petitionerUnion had tried to surpass the judicial process by filing an application for adinterim relief.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4145,
+        "Arguments of Respondent": 0.4841,
+        "Decision": 0.001,
+        "Facts": 0.0412,
+        "Issue": 0.0014,
+        "Reasoning": 0.0578
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 73,
+      "text": "It is further contended that the petition of Union does not survive as the Union had since filed an affidavit in lieu of examination in chief, and the trial has begun.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2373,
+        "Arguments of Respondent": 0.6903,
+        "Decision": 0.0006,
+        "Facts": 0.0475,
+        "Issue": 0.0018,
+        "Reasoning": 0.0225
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "In the reply, the company denied that the November Settlement was signed hurriedly.",
+      "predicted_label": "Facts",
+      "confidence": 0.5428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0263,
+        "Arguments of Respondent": 0.1222,
+        "Decision": 0.0002,
+        "Facts": 0.5428,
+        "Issue": 0.0004,
+        "Reasoning": 0.3081
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "It has reiterated that it was signed in conciliation, in consonance with Section 3 of the Act and is therefore a valid and legal settlement with the elected representatives of employees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4633,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0418,
+        "Arguments of Respondent": 0.0727,
+        "Decision": 0.0008,
+        "Facts": 0.4202,
+        "Issue": 0.0012,
+        "Reasoning": 0.4633
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 76,
+      "text": "On this basis, it is contended that the unions petition has no merit especially since the contention of the union that the Tribunal had passed an order without hearing the petitionerunion is baseless, for had it been so, the Union would have challenged the order dated 10th June, 2015 promptly.16.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.9807,
+        "Decision": 0.0001,
+        "Facts": 0.0026,
+        "Issue": 0.0003,
+        "Reasoning": 0.0032
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "In Writ Petition No.11595 of 2016 the company has challenged the order dated 25th February, 2016 by which the company was directed to provide all the benefits of the November Settlement to the workmen, who had filed the adinterim application till adjudication of the reference and the arrears from the date of implementation of settlement were directed to be paid in three equal installments.",
+      "predicted_label": "Facts",
+      "confidence": 0.8215,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0193,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0127,
+        "Facts": 0.8215,
+        "Issue": 0.125,
+        "Reasoning": 0.0198
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "It is the companys case that almost 767 employees of the Amli factory had signed the November Settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4236,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0568,
+        "Arguments of Respondent": 0.1433,
+        "Decision": 0.0005,
+        "Facts": 0.3755,
+        "Issue": 0.0004,
+        "Reasoning": 0.4236
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 79,
+      "text": "It was signed by 26 authorised representatives in the General Body meeting held on 27th August, 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.4707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0472,
+        "Arguments of Respondent": 0.0789,
+        "Decision": 0.0004,
+        "Facts": 0.4707,
+        "Issue": 0.003,
+        "Reasoning": 0.3997
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 80,
+      "text": "The newly elected authorised representatives are believed to have been communicated in September 2012 along with the resolution passed by the workmen.",
+      "predicted_label": "Facts",
+      "confidence": 0.5599,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0866,
+        "Arguments of Respondent": 0.0777,
+        "Decision": 0.0004,
+        "Facts": 0.5599,
+        "Issue": 0.0019,
+        "Reasoning": 0.2734
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "This led to a series of meetings between the parties and with intervention of the Conciliation Officer the settlement was signed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9475,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0001,
+        "Facts": 0.9475,
+        "Issue": 0.0013,
+        "Reasoning": 0.0433
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "On 19th November, 2013 a corrigendum was signed with certain modifications where 23 authorised representatives of Amli union accepted the settlement as a whole by affixing their signatures.17.",
+      "predicted_label": "Facts",
+      "confidence": 0.9738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0001,
+        "Facts": 0.9738,
+        "Issue": 0.0007,
+        "Reasoning": 0.0187
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Mr.Naik submitted that after hearing the parties the Industrial Tribunal had passed an order dated 10th June, 2015 holding that the application for the interim relief can be decided together with the application framing preliminary issue.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7027,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7027,
+        "Arguments of Respondent": 0.2859,
+        "Decision": 0.0005,
+        "Facts": 0.0055,
+        "Issue": 0.0005,
+        "Reasoning": 0.0049
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "After the order was passed no attempt was made to lead evidence but on 8th July, 2015 the application for adinterim was filed.",
+      "predicted_label": "Facts",
+      "confidence": 0.6503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0485,
+        "Arguments of Respondent": 0.0708,
+        "Decision": 0.0005,
+        "Facts": 0.6503,
+        "Issue": 0.0023,
+        "Reasoning": 0.2276
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "Mr.Naik contended that the adinterim application amounts to abuse of process of the Court since in the guise of application, the union was attempting to effectively convince the tribunal to recall the order passed on 10th June, 2015.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9491,
+        "Arguments of Respondent": 0.0422,
+        "Decision": 0.0001,
+        "Facts": 0.0018,
+        "Issue": 0.0004,
+        "Reasoning": 0.0063
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "Mr.Naik contended that there was no provision for grant of adinterim relief under the Act and the tribunal is required to pass an order either interim or final as contemplated under Section 2(b) of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9092,
+        "Arguments of Respondent": 0.0689,
+        "Decision": 0.0002,
+        "Facts": 0.0049,
+        "Issue": 0.0004,
+        "Reasoning": 0.0165
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "The validity of the settlement would have to be decided first and if the tribunal came to the conclusion that the November Settlement was valid, this would not survive.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5755,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0751,
+        "Arguments of Respondent": 0.0446,
+        "Decision": 0.0085,
+        "Facts": 0.2947,
+        "Issue": 0.0016,
+        "Reasoning": 0.5755
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 88,
+      "text": "The adinterim application was assailed as an attempt to negate the effect of the order dated 10th June, 2015 which was in force.",
+      "predicted_label": "Facts",
+      "confidence": 0.43,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1162,
+        "Arguments of Respondent": 0.204,
+        "Decision": 0.0008,
+        "Facts": 0.43,
+        "Issue": 0.0008,
+        "Reasoning": 0.2482
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "It was contended that by the impugned order dated 25th February, 2015, effectively the Tribunal had ignored the fact of the order dated 10th June, 2015.18.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7327,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7327,
+        "Arguments of Respondent": 0.1547,
+        "Decision": 0.0006,
+        "Facts": 0.0663,
+        "Issue": 0.0005,
+        "Reasoning": 0.0451
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "Mr.Naik submitted that the attempt was to create disharmony amongst the employees whose elected representatives have signed the November Settlement.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4939,
+        "Arguments of Respondent": 0.4596,
+        "Decision": 0.0003,
+        "Facts": 0.0057,
+        "Issue": 0.0001,
+        "Reasoning": 0.0404
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 91,
+      "text": "The impugned order would have the effect of favouring the minority group of employees without there being any obligation to do so and retrospectively from November 2012.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4296,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2209,
+        "Arguments of Respondent": 0.0837,
+        "Decision": 0.0879,
+        "Facts": 0.1774,
+        "Issue": 0.0005,
+        "Reasoning": 0.4296
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 92,
+      "text": "Mr.Naik submitted that the Union cannot approbate and reprobate inasmuch as the November Settlement was final which was challenged and pending that challenge, the Union could not have sought benefit under that settlement.19.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7885,
+        "Arguments of Respondent": 0.1969,
+        "Decision": 0.0001,
+        "Facts": 0.002,
+        "Issue": 0.0001,
+        "Reasoning": 0.0123
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "On behalf of the company Mr.Naik relied upon the following judgments(i) Peico Electronics Electricals Ltd. Vs. Peico Employees Union Ors.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6253,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3575,
+        "Arguments of Respondent": 0.6253,
+        "Decision": 0.0001,
+        "Facts": 0.0062,
+        "Issue": 0.0002,
+        "Reasoning": 0.0107
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 94,
+      "text": "(Civil Appeal No.2942 of 1995 dated 3rd May, 1995)(ii)",
+      "predicted_label": "Facts",
+      "confidence": 0.3915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3258,
+        "Arguments of Respondent": 0.1375,
+        "Decision": 0.0344,
+        "Facts": 0.3915,
+        "Issue": 0.0669,
+        "Reasoning": 0.0439
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 95,
+      "text": "Goodlass Nerolac Paints Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.3326,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1479,
+        "Arguments of Respondent": 0.178,
+        "Decision": 0.0428,
+        "Facts": 0.3326,
+        "Issue": 0.0121,
+        "Reasoning": 0.2865
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 96,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 97,
+      "text": "Paints Employees Union 2009 III LLJ 703 (Bom.HC.)(iii)",
+      "predicted_label": "Facts",
+      "confidence": 0.5631,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2454,
+        "Arguments of Respondent": 0.1262,
+        "Decision": 0.0043,
+        "Facts": 0.5631,
+        "Issue": 0.0208,
+        "Reasoning": 0.0401
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "Enercon (I) Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.381,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1709,
+        "Arguments of Respondent": 0.1193,
+        "Decision": 0.0163,
+        "Facts": 0.381,
+        "Issue": 0.0377,
+        "Reasoning": 0.2748
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 99,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 100,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 101,
+      "text": "Sarva Shramik Sangh Anr.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5772,
+        "Arguments of Respondent": 0.1464,
+        "Decision": 0.0065,
+        "Facts": 0.0668,
+        "Issue": 0.0005,
+        "Reasoning": 0.2025
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 102,
+      "text": "2006 III CLR 531(v) Goa MRF Employees Union Vs. MRF Ltd. Civil Appeal No.1007 of 2004(vi) Tata Consulting Engineers Associates Staff Union vs. Tata Sons Ltd. Anr. 2001",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5653,
+        "Arguments of Respondent": 0.247,
+        "Decision": 0.0006,
+        "Facts": 0.162,
+        "Issue": 0.0008,
+        "Reasoning": 0.0242
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 103,
+      "text": "(90) FLR 1066 (Bom.HC)(vii) Steel Authority of",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4965,
+        "Arguments of Respondent": 0.1526,
+        "Decision": 0.0015,
+        "Facts": 0.3028,
+        "Issue": 0.0049,
+        "Reasoning": 0.0417
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 104,
+      "text": "India Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.4657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1245,
+        "Arguments of Respondent": 0.1017,
+        "Decision": 0.0057,
+        "Facts": 0.4657,
+        "Issue": 0.0166,
+        "Reasoning": 0.2858
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 105,
+      "text": "Mr.Naik also invited my attention to pay slips for the month of March 2017 and August 2017 in respect of two employees, who had not been given benefit of the November Settlement or settlement of 22nd December, 2016.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5651,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5651,
+        "Arguments of Respondent": 0.3214,
+        "Decision": 0.0016,
+        "Facts": 0.0317,
+        "Issue": 0.0002,
+        "Reasoning": 0.08
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 106,
+      "text": "In Hotel Imperial (Supra) the Supreme Court while considering the dispute between three hotels and their workmen about conditions of labour, had occasion to consider the scope of powers of the Industrial Tribunal and in particular an interim or final determination of an industrial dispute and observed that the Tribunal has to confine adjudication to those points and matters incidental thereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0274,
+        "Decision": 0.0005,
+        "Facts": 0.0161,
+        "Issue": 0.0015,
+        "Reasoning": 0.9267
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "The Supreme Court considered the arguments on behalf of the appellants that the Tribunal was required to confine itself to adjudicating on the points referred and that question of interim relief was not referred to, the same could not be adjudicated upon.",
+      "predicted_label": "Facts",
+      "confidence": 0.8346,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0006,
+        "Facts": 0.8346,
+        "Issue": 0.0028,
+        "Reasoning": 0.1462
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "The Supreme Court observed that the word incidental thereto under Section 10(4) left no doubt that interim relief, where it is admissible can be granted as a matter incidental to the main question referred to the Tribunal without a specific and express reference.22.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8342,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0597,
+        "Arguments of Respondent": 0.0414,
+        "Decision": 0.0004,
+        "Facts": 0.0628,
+        "Issue": 0.0014,
+        "Reasoning": 0.8342
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "In the instant case, however, I find that the specific reference made is pertaining to the applicability of the settlement and whether pending the decision of the main reference, interim application being granted was justified.",
+      "predicted_label": "Facts",
+      "confidence": 0.662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0215,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0034,
+        "Facts": 0.662,
+        "Issue": 0.0051,
+        "Reasoning": 0.3036
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "The Court considered that the word award could mean an interim or final award and if the Tribunal makes an award pertaining to some matters leaving others to be decided at the later stage, that would constitute an interim award, but these awards are not in the nature of interim relief because the Court decided part of the question in issue.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0478,
+        "Arguments of Respondent": 0.0825,
+        "Decision": 0.0003,
+        "Facts": 0.0255,
+        "Issue": 0.0011,
+        "Reasoning": 0.8428
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "Interim relief on the other hand is granted under Section 10(4) of the Industrial Dispute Act, with respect to matters which are incidental to the points of dispute under adjudication.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0322,
+        "Arguments of Respondent": 0.029,
+        "Decision": 0.0008,
+        "Facts": 0.0124,
+        "Issue": 0.001,
+        "Reasoning": 0.9246
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "I do not see how this decision comes to the assistance of Mr. Singhvi.23.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9256,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0393,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0021,
+        "Facts": 0.0061,
+        "Issue": 0.0002,
+        "Reasoning": 0.9256
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "Vide the impugned order, the Tribunal has effectively granted interim relief, for an application seeking adinterim relief.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7283,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0901,
+        "Arguments of Respondent": 0.0958,
+        "Decision": 0.0144,
+        "Facts": 0.0705,
+        "Issue": 0.0011,
+        "Reasoning": 0.7283
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "The situation is unique inasmuch as an interim relief application dated 31st July, 2013 in the form of Exhibit G was already pending before the Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3731,
+      "probabilities": {
+        "Arguments of Petitioner": 0.113,
+        "Arguments of Respondent": 0.1896,
+        "Decision": 0.0031,
+        "Facts": 0.3202,
+        "Issue": 0.0009,
+        "Reasoning": 0.3731
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 115,
+      "text": "It is described as Application for interim relief interim award.",
+      "predicted_label": "Facts",
+      "confidence": 0.6893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0219,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0014,
+        "Facts": 0.6893,
+        "Issue": 0.0432,
+        "Reasoning": 0.2355
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 116,
+      "text": "The application has gone to great lengths in analysing the financial reports of the company, setting out the settlement(s) which govern service conditions in its various plants and highlighted the fact that the November Settlement is not fair and proper since company has deliberately not granted uniform increase in wages for all the workers in the factory and that the workers covered by the Reference IDR No. 4 of 2013 were granted less wages than the workers in the tea plant.24.",
+      "predicted_label": "Facts",
+      "confidence": 0.6115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.0736,
+        "Decision": 0.0007,
+        "Facts": 0.6115,
+        "Issue": 0.0015,
+        "Reasoning": 0.0404
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 117,
+      "text": "On a fair reading of the above prayers it is evident that what the employees union is seeking is an interim measure of payment of Rs.8500/ per month effective from 1st October, 2012 and arrears.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0218,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0057,
+        "Facts": 0.0475,
+        "Issue": 0.0114,
+        "Reasoning": 0.9094
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "A detailed reply has been filed to the interim order on or about 13th March, 2014.",
+      "predicted_label": "Facts",
+      "confidence": 0.804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0396,
+        "Arguments of Respondent": 0.0503,
+        "Decision": 0.001,
+        "Facts": 0.804,
+        "Issue": 0.001,
+        "Reasoning": 0.1042
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "An application, Exhibit35 was filed soon after the reply was filed on or about 20th April, 2015.",
+      "predicted_label": "Facts",
+      "confidence": 0.58,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0738,
+        "Arguments of Respondent": 0.0783,
+        "Decision": 0.0019,
+        "Facts": 0.58,
+        "Issue": 0.001,
+        "Reasoning": 0.2651
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "Exhibit 35 was filed by the company seeking a decision on maintainability of the reference as a preliminary issue.",
+      "predicted_label": "Facts",
+      "confidence": 0.7612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0291,
+        "Arguments of Respondent": 0.0848,
+        "Decision": 0.001,
+        "Facts": 0.7612,
+        "Issue": 0.001,
+        "Reasoning": 0.1229
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "According to the company the union raised general demand vide letter dated 10th November, 2012 including one that the November Settlement should not be treated as a settlement under Section 18(3) under the Industrial Disputes Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0147,
+        "Decision": 0.0001,
+        "Facts": 0.9623,
+        "Issue": 0.0025,
+        "Reasoning": 0.015
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "The Company contended that the November Settlement was signed under Section 12(3) of the Act before the Conciliation Officer and the settlement will be binding pursuant to section 18(3) of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.7969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0377,
+        "Arguments of Respondent": 0.081,
+        "Decision": 0.0003,
+        "Facts": 0.7969,
+        "Issue": 0.0018,
+        "Reasoning": 0.0823
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "It was contended that the reference was not maintainable since the jurisdiction of Court had been questioned, it was not appropriate that the interim application should be taken up.26.",
+      "predicted_label": "Facts",
+      "confidence": 0.5682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.212,
+        "Arguments of Respondent": 0.1691,
+        "Decision": 0.0007,
+        "Facts": 0.5682,
+        "Issue": 0.0009,
+        "Reasoning": 0.0491
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 124,
+      "text": "Parties were heard on this application and after hearing parties the Tribunal concluded that Exhibit35 could be decided along with application for interim relief.",
+      "predicted_label": "Facts",
+      "confidence": 0.9117,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0002,
+        "Facts": 0.9117,
+        "Issue": 0.0009,
+        "Reasoning": 0.0722
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "Parties were at liberty to lead evidence, if they so desired, in support of their contentions.",
+      "predicted_label": "Facts",
+      "confidence": 0.967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0004,
+        "Facts": 0.967,
+        "Issue": 0.0036,
+        "Reasoning": 0.0246
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "This order was passed on 10th June, 2015.",
+      "predicted_label": "Facts",
+      "confidence": 0.5107,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0035,
+        "Facts": 0.5107,
+        "Issue": 0.4236,
+        "Reasoning": 0.0377
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 127,
+      "text": "On 8th July, 2015 the union filed an application at ExhibitG wherein a grievance was made that the application for interim relief was filed on 31st July, 2013 and although two years had passed, hearing had not commenced.",
+      "predicted_label": "Facts",
+      "confidence": 0.946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0003,
+        "Facts": 0.946,
+        "Issue": 0.0004,
+        "Reasoning": 0.0343
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "The Union adopted the contentions in the statement of claim and interim relief application, as if it was part of the application for adinterim relief.",
+      "predicted_label": "Facts",
+      "confidence": 0.8013,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.1133,
+        "Decision": 0.0009,
+        "Facts": 0.8013,
+        "Issue": 0.0024,
+        "Reasoning": 0.0745
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "It was contended that even if the company succeeded in the application for interim relief, the workman would be entitled to receive benefits.",
+      "predicted_label": "Facts",
+      "confidence": 0.3635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2449,
+        "Arguments of Respondent": 0.2987,
+        "Decision": 0.0009,
+        "Facts": 0.3635,
+        "Issue": 0.0044,
+        "Reasoning": 0.0874
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 130,
+      "text": "For almost three years, the workmen had not got a revision in wages and serious prejudice was being caused to them.",
+      "predicted_label": "Facts",
+      "confidence": 0.6339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0845,
+        "Arguments of Respondent": 0.0427,
+        "Decision": 0.004,
+        "Facts": 0.6339,
+        "Issue": 0.0016,
+        "Reasoning": 0.2332
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 131,
+      "text": "Relief was sought by way of adinterim arrangement with the company and all benefits of November Settlement were sought for the workmen under the reference who would give productivity and other conditions without prejudice to the rights and contention of the parties.27.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5571,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0356,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0005,
+        "Facts": 0.3619,
+        "Issue": 0.0002,
+        "Reasoning": 0.5571
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 132,
+      "text": "In the reply the company once again pointed out that preliminary objection had been taken, that the issue was still at large and that no adinterim relief should be granted.",
+      "predicted_label": "Facts",
+      "confidence": 0.8606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0138,
+        "Arguments of Respondent": 0.0273,
+        "Decision": 0.0002,
+        "Facts": 0.8606,
+        "Issue": 0.0004,
+        "Reasoning": 0.0978
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "The Tribunal being a creature of the Statute and there being no provision, the application for adinterim relief should not be entertained.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8039,
+        "Arguments of Respondent": 0.0935,
+        "Decision": 0.0006,
+        "Facts": 0.0599,
+        "Issue": 0.0006,
+        "Reasoning": 0.0416
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "At the material time no evidence was led by the union which should either have led evidence or filed a purshis declining the opportunity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0549,
+        "Arguments of Respondent": 0.0228,
+        "Decision": 0.0021,
+        "Facts": 0.0753,
+        "Issue": 0.0013,
+        "Reasoning": 0.8437
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "The impugned order notices the fact that on 10th June, 2015 the Tribunal had passed an order that the interim relief application for deciding the issue on maintainability to be decided together and the parties would be granted opportunity to lead evidence.",
+      "predicted_label": "Facts",
+      "confidence": 0.6191,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0026,
+        "Facts": 0.6191,
+        "Issue": 0.0017,
+        "Reasoning": 0.3541
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 136,
+      "text": "After dealing with the contention of the parties, the Tribunal was of the view that there was no bar to accept certain terms and conditions under protest.",
+      "predicted_label": "Facts",
+      "confidence": 0.9048,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0002,
+        "Facts": 0.9048,
+        "Issue": 0.0041,
+        "Reasoning": 0.0825
+      }
+    },
+    {
+      "sentence_id": 137,
+      "text": "prima facie case balance of convenience and irreparable loss.",
+      "predicted_label": "Facts",
+      "confidence": 0.8672,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0286,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0004,
+        "Facts": 0.8672,
+        "Issue": 0.0041,
+        "Reasoning": 0.0793
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "It had proceeded to hold that the failure of conciliation proceeding and disagreement on terms of settlement is itself proof that there was a prima facie case.",
+      "predicted_label": "Facts",
+      "confidence": 0.5423,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0002,
+        "Facts": 0.5423,
+        "Issue": 0.0034,
+        "Reasoning": 0.4328
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 139,
+      "text": "It then held that the November Settlement affected some workers but the others deferred with the proposal and the terms of the new settlement and that the application seeking adinterim relief was justified since the balance of convenience lay in favour of the workmen seeking such relief.",
+      "predicted_label": "Facts",
+      "confidence": 0.9272,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0003,
+        "Facts": 0.9272,
+        "Issue": 0.0099,
+        "Reasoning": 0.0561
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "It was contended that the members of the union were not getting special concession.",
+      "predicted_label": "Facts",
+      "confidence": 0.4251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.181,
+        "Arguments of Respondent": 0.1748,
+        "Decision": 0.0015,
+        "Facts": 0.4251,
+        "Issue": 0.0016,
+        "Reasoning": 0.216
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 141,
+      "text": "Reference is made to world economy and the fact that inflation affects even these members of the union and that if relief is not granted irreparable loss of good livelihood of workers and their families would be the result.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4987,
+        "Arguments of Respondent": 0.2456,
+        "Decision": 0.0009,
+        "Facts": 0.0933,
+        "Issue": 0.0038,
+        "Reasoning": 0.1576
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 142,
+      "text": "At the same time the employees who were accepting the November Settlement would enjoy all the benefits.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6351,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0561,
+        "Arguments of Respondent": 0.0713,
+        "Decision": 0.0022,
+        "Facts": 0.2351,
+        "Issue": 0.0001,
+        "Reasoning": 0.6351
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 143,
+      "text": "The order grants interim relief because the direction contained in clause (ii) is to provide all the benefits of the November Settlement to the workman before the Tribunal till the adjudication of the reference immediately.(emphasis supplied).Thus effectively interim relief has been granted on an application for adinterim relief.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0217,
+        "Arguments of Respondent": 0.0385,
+        "Decision": 0.0007,
+        "Facts": 0.0293,
+        "Issue": 0.0007,
+        "Reasoning": 0.9091
+      }
+    },
+    {
+      "sentence_id": 144,
+      "text": "The tribunal seems to have lost sight of the fact that what the applicants had sought was adinterim relief till the decision of the interim application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0218,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0011,
+        "Facts": 0.1974,
+        "Issue": 0.0039,
+        "Reasoning": 0.7709
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "The interim application and the objection to its maintainability i.e. Exhibit35 were still awaiting consideration of the Tribunal.",
+      "predicted_label": "Facts",
+      "confidence": 0.592,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1019,
+        "Arguments of Respondent": 0.0716,
+        "Decision": 0.0119,
+        "Facts": 0.592,
+        "Issue": 0.0034,
+        "Reasoning": 0.2191
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 146,
+      "text": "It was for the union to have filed its evidence or conveyed its decision not to lead evidence before the Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1281,
+        "Arguments of Respondent": 0.0748,
+        "Decision": 0.0003,
+        "Facts": 0.0635,
+        "Issue": 0.0013,
+        "Reasoning": 0.732
+      }
+    },
+    {
+      "sentence_id": 147,
+      "text": "The Union did neither at the time it is another matter altogether that the company also did not lead evidence at the material time.29.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9263,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0183,
+        "Arguments of Respondent": 0.0276,
+        "Decision": 0.0037,
+        "Facts": 0.0239,
+        "Issue": 0.0001,
+        "Reasoning": 0.9263
+      }
+    },
+    {
+      "sentence_id": 148,
+      "text": "Considering the fact that the impugned order virtually granted interim relief in the face of jurisdictional issue being raised, invocation of Writ jurisdiction of this Court in the facts of the case is justified.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0151,
+        "Arguments of Respondent": 0.7719,
+        "Decision": 0.0121,
+        "Facts": 0.0108,
+        "Issue": 0.003,
+        "Reasoning": 0.187
+      }
+    },
+    {
+      "sentence_id": 149,
+      "text": "Normally in any matter of an interim order, interference in the Writ jurisdiction of this Court is not encouraged, however the facts in the present case are unique and to this extent it is useful to keep in mind the decision of the Supreme Court in Tayabhai Bagasarwalla v s",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5407,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0302,
+        "Arguments of Respondent": 0.1345,
+        "Decision": 0.0036,
+        "Facts": 0.288,
+        "Issue": 0.0029,
+        "Reasoning": 0.5407
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 150,
+      "text": "Hind Rubber Industries Pvt. Ltd. (1997) 2 SCC 443 which reiterates that the correct approach would be to decide the issue of jurisdiction at the earliest instance.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2317,
+        "Arguments of Respondent": 0.3944,
+        "Decision": 0.0007,
+        "Facts": 0.0546,
+        "Issue": 0.001,
+        "Reasoning": 0.3176
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 151,
+      "text": "Although that view was expressed in relation to Section 9A of the Code of Civil Procedure, in the instant case when the jurisdictional issue has been raised the Tribunal must decide that issue before embarking upon consideration of application for interim relief.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7417,
+      "probabilities": {
+        "Arguments of Petitioner": 0.084,
+        "Arguments of Respondent": 0.0604,
+        "Decision": 0.0026,
+        "Facts": 0.1096,
+        "Issue": 0.0016,
+        "Reasoning": 0.7417
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "This fact has been noticed by the Tribunal while passing order dated 10th June, 2015 and given the nature of pleading in the interim application and the reply, the Tribunal thought it fit to permit the parties to lead evidence in support of its contention giving much amount of data in particular on the financial well being of the company as against the reluctance to offer the same benefits of November Settlement to the workers in question.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0435,
+        "Arguments of Respondent": 0.139,
+        "Decision": 0.0015,
+        "Facts": 0.1279,
+        "Issue": 0.0003,
+        "Reasoning": 0.6878
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 153,
+      "text": "In this view of the matter it is difficult to understand the reasons for the Tribunal having passed the impugned order.30.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0051,
+        "Facts": 0.006,
+        "Issue": 0.0002,
+        "Reasoning": 0.9787
+      }
+    },
+    {
+      "sentence_id": 154,
+      "text": "The impugned order has virtually roughshod over the objections of maintainability raised by the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.2022,
+        "Decision": 0.0189,
+        "Facts": 0.0385,
+        "Issue": 0.0003,
+        "Reasoning": 0.7287
+      }
+    },
+    {
+      "sentence_id": 155,
+      "text": "The impugned order omits to consider the issue pertaining to the maintainability of the interim application is left undecided.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.654,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0556,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.2089,
+        "Facts": 0.0674,
+        "Issue": 0.0008,
+        "Reasoning": 0.654
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 156,
+      "text": "Surely this was not the correct course that should have been adopted by the Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9607,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0018,
+        "Facts": 0.0216,
+        "Issue": 0.0003,
+        "Reasoning": 0.9607
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "It was open to the Tribunal to expedite the hearing of the interim application, as also the issue of maintainability clubbed therewith, however, it chose not to do so.31.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9309,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0114,
+        "Decision": 0.0418,
+        "Facts": 0.01,
+        "Issue": 0.0003,
+        "Reasoning": 0.9309
+      }
+    },
+    {
+      "sentence_id": 158,
+      "text": "There is substance in the argument on behalf of the company on this aspect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9067,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0306,
+        "Arguments of Respondent": 0.0307,
+        "Decision": 0.0008,
+        "Facts": 0.0305,
+        "Issue": 0.0006,
+        "Reasoning": 0.9067
+      }
+    },
+    {
+      "sentence_id": 159,
+      "text": "I find that the order of the Industrial Tribunal is susceptible to misuse as in the instant case where the main reference remains pending along with the interim application and the objection of maintainability.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0713,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0087,
+        "Facts": 0.4101,
+        "Issue": 0.0088,
+        "Reasoning": 0.4945
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 160,
+      "text": "vs. Sarva Shramik Sangh Anr (supra), while considering the challenge to an interim order of the Industrial Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.694,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0812,
+        "Arguments of Respondent": 0.1953,
+        "Decision": 0.0037,
+        "Facts": 0.0251,
+        "Issue": 0.0007,
+        "Reasoning": 0.694
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 161,
+      "text": "An order allowing benefits to certain group of workmen who had not given up their rights to raise the demand on par with other workman who had entered into a settlement, after giving up their rights to raise demand during the currency of the settlement, was frowned upon by a Single Judge of this Court.32.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0377,
+        "Arguments of Respondent": 0.0706,
+        "Decision": 0.0004,
+        "Facts": 0.0151,
+        "Issue": 0.001,
+        "Reasoning": 0.8752
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "In my view it was necessary in the interest of judicial discipline that the Industrial Tribunal refrained from passing any order on the adinterim application save and except for its rejection.",
+      "predicted_label": "Facts",
+      "confidence": 0.5041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.004,
+        "Facts": 0.5041,
+        "Issue": 0.0054,
+        "Reasoning": 0.4755
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 163,
+      "text": "The application for interim reliefs could have been taken up for hearing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7442,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1096,
+        "Arguments of Respondent": 0.0914,
+        "Decision": 0.0016,
+        "Facts": 0.053,
+        "Issue": 0.0002,
+        "Reasoning": 0.7442
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "The fact that the unions complaint of the interim application being pending for over two years and it used that period of delay as the reason for seeking adinterim order in the same terms as the interim application met with the approval of the Industrial Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.502,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.0648,
+        "Decision": 0.0025,
+        "Facts": 0.4165,
+        "Issue": 0.002,
+        "Reasoning": 0.502
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 165,
+      "text": "The impugned order clearly overlooks the fact that the union took no steps to comply with the order of 10th June, 2015.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9072,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0419,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0009,
+        "Facts": 0.0366,
+        "Issue": 0.0002,
+        "Reasoning": 0.9072
+      }
+    },
+    {
+      "sentence_id": 166,
+      "text": "It did not indicate whether it wished to lead evidence nor did it file a closure purshis.",
+      "predicted_label": "Facts",
+      "confidence": 0.5983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0134,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.003,
+        "Facts": 0.5983,
+        "Issue": 0.0009,
+        "Reasoning": 0.3726
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 167,
+      "text": "Considering the conduct of the Union, passing of the impugned order was clearly not justified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8126,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0619,
+        "Arguments of Respondent": 0.0375,
+        "Decision": 0.048,
+        "Facts": 0.0397,
+        "Issue": 0.0003,
+        "Reasoning": 0.8126
+      }
+    },
+    {
+      "sentence_id": 168,
+      "text": "No doubt the effect of the impugned order would be to provide certain benefits of workmen who were agitating the validity to the November Settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.016,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.001,
+        "Facts": 0.0396,
+        "Issue": 0.001,
+        "Reasoning": 0.9364
+      }
+    },
+    {
+      "sentence_id": 169,
+      "text": "However, what they sought to do and what they have almost achieved is to reap the benefits of the November Settlement without having to accept the obligation there under.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8288,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0355,
+        "Arguments of Respondent": 0.105,
+        "Decision": 0.0004,
+        "Facts": 0.0302,
+        "Issue": 0.0001,
+        "Reasoning": 0.8288
+      }
+    },
+    {
+      "sentence_id": 170,
+      "text": "The onerous parts of the settlement are therefore sought to be avoided.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8702,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0308,
+        "Arguments of Respondent": 0.068,
+        "Decision": 0.001,
+        "Facts": 0.0299,
+        "Issue": 0.0001,
+        "Reasoning": 0.8702
+      }
+    },
+    {
+      "sentence_id": 171,
+      "text": "33.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.799,
+      "probabilities": {
+        "Arguments of Petitioner": 0.799,
+        "Arguments of Respondent": 0.0511,
+        "Decision": 0.0046,
+        "Facts": 0.0142,
+        "Issue": 0.0272,
+        "Reasoning": 0.1039
+      }
+    },
+    {
+      "sentence_id": 172,
+      "text": "Moreover, the prayer in the application is to the effect that the company should give all benefits of the November Settlement to the workmen covered by the Reference.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0298,
+        "Arguments of Respondent": 0.0171,
+        "Decision": 0.0014,
+        "Facts": 0.1127,
+        "Issue": 0.0005,
+        "Reasoning": 0.8385
+      }
+    },
+    {
+      "sentence_id": 173,
+      "text": "Whereas the prayer in the adinterim application is in two parts namely seeking the benefits while offering to comply with the other conditions in the settlement including higher productivity, all of which is stated to be without prejudice.",
+      "predicted_label": "Facts",
+      "confidence": 0.6208,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1343,
+        "Arguments of Respondent": 0.0515,
+        "Decision": 0.0012,
+        "Facts": 0.6208,
+        "Issue": 0.0017,
+        "Reasoning": 0.1906
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 174,
+      "text": "The order itself omits to consider the obligation of the workmen to perform in productivity terms and in relation to the other conditions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.769,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0736,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0026,
+        "Facts": 0.1272,
+        "Issue": 0.0005,
+        "Reasoning": 0.769
+      }
+    },
+    {
+      "sentence_id": 175,
+      "text": "The effect of the order is clear, all benefits of the November Settlement should be given to the union members immediately.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0148,
+        "Arguments of Respondent": 0.021,
+        "Decision": 0.0158,
+        "Facts": 0.0571,
+        "Issue": 0.0001,
+        "Reasoning": 0.8912
+      }
+    },
+    {
+      "sentence_id": 176,
+      "text": "Arrears are also required to be paid but in three installments but there is no direction requiring the workmen to perform in terms of the settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0253,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0158,
+        "Facts": 0.2619,
+        "Issue": 0.0014,
+        "Reasoning": 0.6865
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 177,
+      "text": "In Lokmat Newspapers Pvt. Ltd (supra)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9004,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0227,
+        "Arguments of Respondent": 0.0503,
+        "Decision": 0.006,
+        "Facts": 0.0197,
+        "Issue": 0.0009,
+        "Reasoning": 0.9004
+      }
+    },
+    {
+      "sentence_id": 178,
+      "text": "Mr. Singhvi had relied upon paragraph 49 wherein the Supreme Court observed that when a reference is received, in appropriate cases the Court has ample power and jurisdiction to pass interim orders.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7426,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1481,
+        "Arguments of Respondent": 0.7426,
+        "Decision": 0.0004,
+        "Facts": 0.0025,
+        "Issue": 0.0001,
+        "Reasoning": 0.1062
+      }
+    },
+    {
+      "sentence_id": 179,
+      "text": "While applying the ratio in Grindwell Norton (supra) it was submitted by Mr. Singhvi that merely because the application for interim relief was pending was no reason to refuse relief in the application for adinterim relief.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0686,
+        "Arguments of Respondent": 0.6808,
+        "Decision": 0.0005,
+        "Facts": 0.0033,
+        "Issue": 0.0002,
+        "Reasoning": 0.2466
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 180,
+      "text": "However, on facts of the case I find that this decision is of no assistance to Mr. Singhvi since the question here is not merely of maintainability of an application for interim relief but that of maintainability of an application for adinterim reliefs which relies entirely upon the averments in the application for interim reliefs.35.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0308,
+        "Arguments of Respondent": 0.07,
+        "Decision": 0.0014,
+        "Facts": 0.0051,
+        "Issue": 0.0003,
+        "Reasoning": 0.8924
+      }
+    },
+    {
+      "sentence_id": 181,
+      "text": "In the Employees of Engineering India Ltd (supra) Mr. Singhvi, learned counsel has placed reliance upon the observations of the Supreme Court in that case, directing all employees of the public sector undertaking drawing a basic pay of Rs.1000 or less will be entitled to interim relief on the same basis and scale as the other Government of India employees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4109,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1867,
+        "Arguments of Respondent": 0.3912,
+        "Decision": 0.0011,
+        "Facts": 0.0099,
+        "Issue": 0.0002,
+        "Reasoning": 0.4109
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 182,
+      "text": "In my view, such an order will not be justified in the instant case, at the interim stage since it will put undue pressure on the employees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.52,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0282,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0043,
+        "Facts": 0.4414,
+        "Issue": 0.0003,
+        "Reasoning": 0.52
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 183,
+      "text": "Moreover in the present case the Union had not opted to lead evidence initially and the tribunal has not yet had the opportunity to consider the merits of the case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.819,
+      "probabilities": {
+        "Arguments of Petitioner": 0.074,
+        "Arguments of Respondent": 0.0354,
+        "Decision": 0.013,
+        "Facts": 0.0581,
+        "Issue": 0.0005,
+        "Reasoning": 0.819
+      }
+    },
+    {
+      "sentence_id": 184,
+      "text": "Mr. Singhvi had placed reliance in the case of Dena Bank (supra) but that ruling was appropriate in the facts of that case but it is not applicable to the facts at hand because in the present case we are concerned with the adinterim order being passed in terms of interim application without a full fledged hearing of the interim application and without considering the objection to maintainability.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6414,
+      "probabilities": {
+        "Arguments of Petitioner": 0.073,
+        "Arguments of Respondent": 0.2773,
+        "Decision": 0.0024,
+        "Facts": 0.0058,
+        "Issue": 0.0002,
+        "Reasoning": 0.6414
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 185,
+      "text": "Mr. Singhvi placed reliance on the case of Bennett Coleman Co. Ltd. Anr.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.078,
+        "Arguments of Respondent": 0.8775,
+        "Decision": 0.0004,
+        "Facts": 0.0009,
+        "Issue": 0.0001,
+        "Reasoning": 0.0431
+      }
+    },
+    {
+      "sentence_id": 186,
+      "text": "(supra), the Supreme Court held that the settlement arrived at during conciliation proceedings between respondent no.1 Management and the four out of five Unions of workmen on the other, had a binding effect under Section 18(3) of the Act not only on the members of the signatory unions but also on the remaining workmen who were represented by the fifth Union, which had refused to sign the settlement after having participated in conciliation proceedings, and also that it was axiomatic that such settlement was binding even on future workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0541,
+        "Arguments of Respondent": 0.1083,
+        "Decision": 0.0003,
+        "Facts": 0.0812,
+        "Issue": 0.0023,
+        "Reasoning": 0.7538
+      }
+    },
+    {
+      "sentence_id": 187,
+      "text": "In the instant case the Union has questioned the companys contention that the settlement was one under Section 18(3).37.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0256,
+        "Arguments of Respondent": 0.027,
+        "Decision": 0.0016,
+        "Facts": 0.0172,
+        "Issue": 0.0007,
+        "Reasoning": 0.9279
+      }
+    },
+    {
+      "sentence_id": 188,
+      "text": "In National Engineering Industries Ltd. (supra) the Supreme Court was hearing the appeal against the judgment of Rajasthan High Court which held that a settlement arrived at Conciliation proceedings was binding on the workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8121,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0538,
+        "Arguments of Respondent": 0.1145,
+        "Decision": 0.0018,
+        "Facts": 0.0168,
+        "Issue": 0.0009,
+        "Reasoning": 0.8121
+      }
+    },
+    {
+      "sentence_id": 189,
+      "text": "While dealing with provisions of Section 18(3) of the Act, the Court found that a settlement arrived at in the course of conciliation with a recognised majority Union will be binding on all workmen of the establishment, even those of a minority Union or individual workmen, observing that there can be many splinter groups each forming a separate trade union and if every union having few members goes on raising a dispute, there will be multiple disputes with the State Government making reference again and again.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0392,
+        "Arguments of Respondent": 0.0432,
+        "Decision": 0.0008,
+        "Facts": 0.445,
+        "Issue": 0.0158,
+        "Reasoning": 0.456
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 190,
+      "text": "The very purpose of settlement will be defeated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0282,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.0007,
+        "Facts": 0.0669,
+        "Issue": 0.0005,
+        "Reasoning": 0.8841
+      }
+    },
+    {
+      "sentence_id": 191,
+      "text": "In the facts of that case a notice came to be issued on the proceedings and the reference was stayed on the grounds that there has been no progress made thereafter and even otherwise it found futile to allow the reference to continue after lapse of years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8137,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0787,
+        "Arguments of Respondent": 0.0923,
+        "Decision": 0.0006,
+        "Facts": 0.0144,
+        "Issue": 0.0003,
+        "Reasoning": 0.8137
+      }
+    },
+    {
+      "sentence_id": 192,
+      "text": "Mr.Naik has also referred to the decision of Goodlass Nerolac Paints Ltd. (supra) in which the Supreme Court observed that the Industrial Court could not have issued directions for extending the benefits of the settlement to the other workers without they having signed the settlement and since the settlement had a productivity clause and the workers of the complaintunion had not signed the settlement, the Industrial Court was not justified in enforcement of the settlement in favour of the complaintUnion.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6743,
+        "Arguments of Respondent": 0.2815,
+        "Decision": 0.0003,
+        "Facts": 0.0016,
+        "Issue": 0.0001,
+        "Reasoning": 0.0422
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 193,
+      "text": "In the course of his submission In Tata Sons Ltd. (supra) the Tribunal had considered the demands referred for adjudication itemwise, recorded its reasons for not granting the same in the context of settlements placed on record, had considered overall comparable concerns of all demands and has given reasons independently holding that the demands were not justified.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7599,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1249,
+        "Arguments of Respondent": 0.7599,
+        "Decision": 0.001,
+        "Facts": 0.0053,
+        "Issue": 0.0001,
+        "Reasoning": 0.1088
+      }
+    },
+    {
+      "sentence_id": 194,
+      "text": "The Court found that the contention that the settlement cannot be considered to be fair and proper merely because they were accepted by majority, would not be accepted, and that the workmen who are employed by the company are wise enough to have accepted the benefits of the settlement considering all the facts.",
+      "predicted_label": "Facts",
+      "confidence": 0.763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0002,
+        "Facts": 0.763,
+        "Issue": 0.0005,
+        "Reasoning": 0.2176
+      }
+    },
+    {
+      "sentence_id": 195,
+      "text": "Quoting from Peico Electronics the Court observed that the Will of the majority workmen will have to be accepted by the petitioner Union and it cannot persist to have independent and separate adjudication of its own demands.39.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0513,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0009,
+        "Facts": 0.0449,
+        "Issue": 0.0013,
+        "Reasoning": 0.857
+      }
+    },
+    {
+      "sentence_id": 196,
+      "text": "In Steel Authority of India, the observations that a definite stand was taken by the employees that they had been working under the contractors and it would not be permissible for them to take a contradictory and inconsistent plea that they were also the workmen of the principal employer and it was impermissible in law to take a mutually destructive plea.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0733,
+        "Arguments of Respondent": 0.0821,
+        "Decision": 0.0023,
+        "Facts": 0.0456,
+        "Issue": 0.0028,
+        "Reasoning": 0.7938
+      }
+    },
+    {
+      "sentence_id": 197,
+      "text": "In the instant case that is precisely what is sought to be done.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0282,
+        "Arguments of Respondent": 0.0204,
+        "Decision": 0.0004,
+        "Facts": 0.0253,
+        "Issue": 0.0002,
+        "Reasoning": 0.9255
+      }
+    },
+    {
+      "sentence_id": 198,
+      "text": "In the course of proceedings before the Industrial Court the witness on behalf of Union admitted during the cross examination by the companies counsel that there were 535 workmen who participated in the election process and that limited representatives were authorised to engage in settlement talks on wage revision.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0319,
+        "Arguments of Respondent": 0.0313,
+        "Decision": 0.0002,
+        "Facts": 0.4367,
+        "Issue": 0.0008,
+        "Reasoning": 0.4992
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 199,
+      "text": "Also in 2008 and 2012 also the settlement of wage revision was allowed following the same procedure.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0899,
+        "Arguments of Respondent": 0.2661,
+        "Decision": 0.0009,
+        "Facts": 0.1611,
+        "Issue": 0.0006,
+        "Reasoning": 0.4814
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 200,
+      "text": "The witness further admitted that the settlement as arrived with the conciliation officer and that a corrigendum had been arrived at.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6262,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0376,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0002,
+        "Facts": 0.3185,
+        "Issue": 0.0001,
+        "Reasoning": 0.6262
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 201,
+      "text": "The witness admitted that all 535 workmen participated in election process and the representatives so elected.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0561,
+        "Arguments of Respondent": 0.0182,
+        "Decision": 0.0001,
+        "Facts": 0.0602,
+        "Issue": 0.0001,
+        "Reasoning": 0.8653
+      }
+    },
+    {
+      "sentence_id": 202,
+      "text": "Although Mr. Singhvi objected to the said evidence on the basis that it is hearsay.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1736,
+        "Arguments of Respondent": 0.0499,
+        "Decision": 0.001,
+        "Facts": 0.0153,
+        "Issue": 0.0011,
+        "Reasoning": 0.7591
+      }
+    },
+    {
+      "sentence_id": 203,
+      "text": "In National Textile Corporation (supra) Mr.Naik has correctly placed reliance on the observation that pleadings and particulars are necessary to enable the Court to decide the rights of the parties.40.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9601,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0159,
+        "Arguments of Respondent": 0.0213,
+        "Decision": 0.0007,
+        "Facts": 0.0018,
+        "Issue": 0.0002,
+        "Reasoning": 0.9601
+      }
+    },
+    {
+      "sentence_id": 204,
+      "text": "In the instant case the adinterim application was merely relying upon averments in the interim application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8788,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0358,
+        "Arguments of Respondent": 0.0449,
+        "Decision": 0.0014,
+        "Facts": 0.0388,
+        "Issue": 0.0003,
+        "Reasoning": 0.8788
+      }
+    },
+    {
+      "sentence_id": 205,
+      "text": "In the interim application specific direction has been given to lead evidence and parties were expected to do so or seek closure of evidence on the basis that they would not lead oral evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7295,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1167,
+        "Arguments of Respondent": 0.0609,
+        "Decision": 0.002,
+        "Facts": 0.0903,
+        "Issue": 0.0006,
+        "Reasoning": 0.7295
+      }
+    },
+    {
+      "sentence_id": 206,
+      "text": "This was not done at the material time and in the circumstances there were no particulars available before the Tribunal on the basis of which the adinterim order could have been passed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1835,
+        "Arguments of Respondent": 0.089,
+        "Decision": 0.0029,
+        "Facts": 0.149,
+        "Issue": 0.0002,
+        "Reasoning": 0.5753
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 207,
+      "text": "The approach of the Tribunal amounts to adhocism and pending the decision on the main interim application the Tribunal ought not to have proceeded to pass the impugned order as an adhoc measure.41.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1111,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0056,
+        "Facts": 0.0096,
+        "Issue": 0.0001,
+        "Reasoning": 0.8645
+      }
+    },
+    {
+      "sentence_id": 208,
+      "text": "The other question that arises is whether under Section 10(4) of the Act the grant of adinterim relief could be described as a decision of matter incidental thereto.",
+      "predicted_label": "Issue",
+      "confidence": 0.847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0006,
+        "Facts": 0.0169,
+        "Issue": 0.847,
+        "Reasoning": 0.1169
+      }
+    },
+    {
+      "sentence_id": 209,
+      "text": "Under Section 10(4) in the case of an order referring an Industrial Dispute, the appropriate Government specifies the points of dispute for adjudication and the Tribunal is mandated to confine its adjudication only to those points so referred and matters incidental thereto.(emphasis supplied)42.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9494,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0216,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0001,
+        "Facts": 0.0092,
+        "Issue": 0.0004,
+        "Reasoning": 0.9494
+      }
+    },
+    {
+      "sentence_id": 210,
+      "text": "On plain reading it is obvious that matters incidental thereto used for subsection would only be a reference to the matters and issues which are incidental to main points, more in the nature of corollaries or different branches of the point in dispute.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0001,
+        "Facts": 0.0205,
+        "Issue": 0.0016,
+        "Reasoning": 0.9587
+      }
+    },
+    {
+      "sentence_id": 211,
+      "text": "To conclude that power to grant the adinterim relief is a matter incidental to the points pending for adjudication in the interim relief application and the application adjudicating to maintainability and jurisdiction of the Tribunal is not in my view said to be matter incidental to points referred.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0201,
+        "Arguments of Respondent": 0.0259,
+        "Decision": 0.0043,
+        "Facts": 0.2537,
+        "Issue": 0.0051,
+        "Reasoning": 0.691
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 212,
+      "text": "In this behalf it will be useful to refer to the decision of the Supreme Court in the case of MRF Ltd. (supra) in which case, the Court observed prima facie that they could not agree with the view that the interim relief was granted in exercise of powers conferred upon the Tribunal with respect to matters incidental to points of dispute referred for adjudication, although the Supreme Court thereafter left these matters to be decided by the larger bench, it referred to the decision in Grindlays Bank, Lokmat Newspaper and Delhi Cloth and General Mills Ltd. in that regard.43.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0019,
+        "Facts": 0.0077,
+        "Issue": 0.0003,
+        "Reasoning": 0.9596
+      }
+    },
+    {
+      "sentence_id": 213,
+      "text": "Thus, the question that arose for consideration is whether pending the disposal of an application for interim relief and a decision on its maintainability, whether a further application for adinterim relief in the same terms is permissible.44.",
+      "predicted_label": "Issue",
+      "confidence": 0.5065,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0183,
+        "Decision": 0.0005,
+        "Facts": 0.0378,
+        "Issue": 0.5065,
+        "Reasoning": 0.4228
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 214,
+      "text": "In my view in the facts of the present case the answer must be in the negative.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8633,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.011,
+        "Facts": 0.0965,
+        "Issue": 0.0068,
+        "Reasoning": 0.8633
+      }
+    },
+    {
+      "sentence_id": 215,
+      "text": "In fact it relies entirely upon the substance of the application for interim reliefs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0539,
+        "Arguments of Respondent": 0.0345,
+        "Decision": 0.0015,
+        "Facts": 0.1219,
+        "Issue": 0.0041,
+        "Reasoning": 0.7841
+      }
+    },
+    {
+      "sentence_id": 216,
+      "text": "The only reason given is that the application for interim relief had not been decided.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8086,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0729,
+        "Arguments of Respondent": 0.0374,
+        "Decision": 0.0027,
+        "Facts": 0.0773,
+        "Issue": 0.001,
+        "Reasoning": 0.8086
+      }
+    },
+    {
+      "sentence_id": 217,
+      "text": "In my view, without alluding to any delay on part of the Tribunal it is clear that the Union had thus shown no inclination to proceed with the application for interim relief.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.027,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.002,
+        "Facts": 0.2677,
+        "Issue": 0.001,
+        "Reasoning": 0.6936
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 218,
+      "text": "It appears that the union was seeking to take advantage of its own wrong.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0238,
+        "Arguments of Respondent": 0.029,
+        "Decision": 0.0089,
+        "Facts": 0.0493,
+        "Issue": 0.0011,
+        "Reasoning": 0.8879
+      }
+    },
+    {
+      "sentence_id": 219,
+      "text": "Surely this ought not to have been permitted.45.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0005,
+        "Facts": 0.004,
+        "Issue": 0.0002,
+        "Reasoning": 0.9761
+      }
+    },
+    {
+      "sentence_id": 220,
+      "text": "Now I deal with the Writ Petition No.8122 of 2016 filed on behalf of the Union.",
+      "predicted_label": "Issue",
+      "confidence": 0.6662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0124,
+        "Facts": 0.2631,
+        "Issue": 0.6662,
+        "Reasoning": 0.0533
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 221,
+      "text": "On facts, the issues are largely dealt with in relation to the companys writ petition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0203,
+        "Arguments of Respondent": 0.0578,
+        "Decision": 0.0059,
+        "Facts": 0.2074,
+        "Issue": 0.0192,
+        "Reasoning": 0.6894
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 222,
+      "text": "In the Unions petition, it is reiterated that the November Settlement did not amount to settlement in conciliation, that it was arrived at in undue haste to deprive the union the benefits of being engaged in conciliation.",
+      "predicted_label": "Facts",
+      "confidence": 0.4508,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0118,
+        "Arguments of Respondent": 0.1473,
+        "Decision": 0.0004,
+        "Facts": 0.4508,
+        "Issue": 0.0017,
+        "Reasoning": 0.388
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 223,
+      "text": "The challenge in the Unions petition is to the order dated 10th June, 2015.",
+      "predicted_label": "Facts",
+      "confidence": 0.6272,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0015,
+        "Facts": 0.6272,
+        "Issue": 0.2915,
+        "Reasoning": 0.0703
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 224,
+      "text": "It is contended that the petitioner had reserved its challenge to the order dated 10th June, 2015 so that the application for adinterim relief could be decided.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3349,
+        "Arguments of Respondent": 0.5522,
+        "Decision": 0.0007,
+        "Facts": 0.0784,
+        "Issue": 0.0024,
+        "Reasoning": 0.0315
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 225,
+      "text": "It is submitted that the impugned order in the Unions petition creates procedure for piece meal evidence and the very same issue would be subject matter of the final award.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5097,
+        "Arguments of Respondent": 0.3959,
+        "Decision": 0.0012,
+        "Facts": 0.0539,
+        "Issue": 0.0016,
+        "Reasoning": 0.0378
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 226,
+      "text": "Moreover, neither of the parties before the Tribunal had sought to lead evidence at the stage of challenge on the aspect of maintainability and on the ground that the impugned order would result in repetitive evidence being led and would unduly delay disposal of the interim application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1919,
+        "Arguments of Respondent": 0.1292,
+        "Decision": 0.0105,
+        "Facts": 0.1248,
+        "Issue": 0.0004,
+        "Reasoning": 0.5432
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 227,
+      "text": "The submission on the subject matter of the settlement is similar to those of the company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2826,
+        "Arguments of Respondent": 0.4899,
+        "Decision": 0.0002,
+        "Facts": 0.0385,
+        "Issue": 0.0009,
+        "Reasoning": 0.1877
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 228,
+      "text": "The essential contention is that the November settlement does not amount of settlement under Section 12(3) and 18(3) and therefore would not apply.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4369,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4369,
+        "Arguments of Respondent": 0.2585,
+        "Decision": 0.0008,
+        "Facts": 0.0971,
+        "Issue": 0.0028,
+        "Reasoning": 0.2038
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 229,
+      "text": "Secondly, it is void ab initio, apart from being unfair to some workers.46.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0463,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0337,
+        "Facts": 0.0082,
+        "Issue": 0.0008,
+        "Reasoning": 0.8989
+      }
+    },
+    {
+      "sentence_id": 230,
+      "text": "The gravamen of the Unions grievance is that the contribution of CLS plant to the produce of the company represented by the Union is much more than worker of the tea plant and considering the fact that after the last statement there has been mass erosion due to increase in price index and inflation.",
+      "predicted_label": "Facts",
+      "confidence": 0.4585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0791,
+        "Arguments of Respondent": 0.0577,
+        "Decision": 0.0003,
+        "Facts": 0.4585,
+        "Issue": 0.0072,
+        "Reasoning": 0.3972
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 231,
+      "text": "The settlement does not therefore grant workers the purchasing power similar to that of earlier settlement.47.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1021,
+        "Arguments of Respondent": 0.1866,
+        "Decision": 0.0008,
+        "Facts": 0.0641,
+        "Issue": 0.0002,
+        "Reasoning": 0.6462
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 232,
+      "text": "In reply filed on behalf of the company, it is pointed out that after the order dated 10th June, 2015 was passed, the Union has not challenged the order for more than ten months and the interim application was posted for leading evidence.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7678,
+      "probabilities": {
+        "Arguments of Petitioner": 0.06,
+        "Arguments of Respondent": 0.7678,
+        "Decision": 0.0003,
+        "Facts": 0.0881,
+        "Issue": 0.0003,
+        "Reasoning": 0.0835
+      }
+    },
+    {
+      "sentence_id": 233,
+      "text": "The Union did not lead any evidence nor did it close evidence but instead made the adinterim application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0784,
+        "Arguments of Respondent": 0.2116,
+        "Decision": 0.003,
+        "Facts": 0.1191,
+        "Issue": 0.0004,
+        "Reasoning": 0.5875
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 234,
+      "text": "It is contended that the adinterim application was abuse of the process of the Court and the challenge in the present petition is not bonafide.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0715,
+        "Arguments of Respondent": 0.8723,
+        "Decision": 0.0002,
+        "Facts": 0.0337,
+        "Issue": 0.0005,
+        "Reasoning": 0.0218
+      }
+    },
+    {
+      "sentence_id": 235,
+      "text": "Having heard counsel on this aspect the record indicate that the Unions petition is filed on 21st April, 2016 although interim order was passed on 10th June, 2015.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0296,
+        "Arguments of Respondent": 0.0312,
+        "Decision": 0.0197,
+        "Facts": 0.1359,
+        "Issue": 0.0042,
+        "Reasoning": 0.7793
+      }
+    },
+    {
+      "sentence_id": 236,
+      "text": "The only reason given for filing this writ petition apparently is that the Union had reserved its challenge to the order dated 10th June, 2015 in order to facilitate decision of the adinterim relief application.",
+      "predicted_label": "Facts",
+      "confidence": 0.7491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0003,
+        "Facts": 0.7491,
+        "Issue": 0.01,
+        "Reasoning": 0.2185
+      }
+    },
+    {
+      "sentence_id": 237,
+      "text": "The adinterim application itself was made after a period almost a month, and since the adinterim application relies upon the contents of the interim application, it would only be expected to have been challenged.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6086,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1256,
+        "Arguments of Respondent": 0.2173,
+        "Decision": 0.0024,
+        "Facts": 0.045,
+        "Issue": 0.001,
+        "Reasoning": 0.6086
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 238,
+      "text": "Hence I pass the following order (a) The impugned order dated 25th February, 2016 passed by the Industrial Tribunal on Exhibit38 in IDR 4 of 2013 is hereby set aside.(b)",
+      "predicted_label": "Facts",
+      "confidence": 0.8903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0901,
+        "Facts": 0.8903,
+        "Issue": 0.0006,
+        "Reasoning": 0.0133
+      }
+    },
+    {
+      "sentence_id": 239,
+      "text": "The Industrial Tribunal shall proceed to hear reference IDR No.4 of 2013 after deciding the application for interim relief being Exhibit35 as contemplated in the order dated 10th June, 2015.(c)",
+      "predicted_label": "Decision",
+      "confidence": 0.7952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.7952,
+        "Facts": 0.181,
+        "Issue": 0.0003,
+        "Reasoning": 0.0206
+      }
+    },
+    {
+      "sentence_id": 240,
+      "text": "Accordingly the same is dismissed.(e)",
+      "predicted_label": "Facts",
+      "confidence": 0.7411,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.2163,
+        "Facts": 0.7411,
+        "Issue": 0.0007,
+        "Reasoning": 0.0314
+      }
+    },
+    {
+      "sentence_id": 241,
+      "text": "Rule made absolute in the above terms.(f)",
+      "predicted_label": "Facts",
+      "confidence": 0.9596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0162,
+        "Facts": 0.9596,
+        "Issue": 0.0005,
+        "Reasoning": 0.013
+      }
+    },
+    {
+      "sentence_id": 242,
+      "text": "No order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9487,
+        "Facts": 0.0379,
+        "Issue": 0.0002,
+        "Reasoning": 0.0123
+      }
+    }
+  ]
+}

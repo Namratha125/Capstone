@@ -1,0 +1,672 @@
+{
+  "case_id": "6742",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " P.Devadhar, J.By this petition, the petitioners a Trade Union seeks a writ of mandamus directing the Mining and Allied Machinery Corporation Ltd. to pay wages to its workmen at the regional workshop at Nagpur on par with the wages paid to the workers of the Durgapur establishment of the Corporation by applying the principle of equal pay for equal work as the workmen at both places perform identical duties and functions.2.The Mining and Allied Corporation Ltd. (hereinafter referred to as the company) carries on the business of production and maintenance of machineries principally required in the business of mining.",
+      "predicted_label": "Issue",
+      "confidence": 0.9218,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0004,
+        "Facts": 0.0758,
+        "Issue": 0.9218,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The said company has a factory at Durgapur and several service centres in different states.",
+      "predicted_label": "Facts",
+      "confidence": 0.9435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9435,
+        "Issue": 0.0444,
+        "Reasoning": 0.0065
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The said company has a Regional Workshop at Hingna Industrial Estate, Nagpur, and also a service centre at 19, New Verma Layout, Nagpur.",
+      "predicted_label": "Facts",
+      "confidence": 0.98,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0,
+        "Facts": 0.98,
+        "Issue": 0.001,
+        "Reasoning": 0.0123
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The company for the purposes of its factory has classified its employees into four categories, namely  (i) unskilled workman, (ii) semi skilled workman, (iii) skilled workman, and (iv) highly skilled workman.",
+      "predicted_label": "Facts",
+      "confidence": 0.959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0,
+        "Facts": 0.959,
+        "Issue": 0.0015,
+        "Reasoning": 0.0342
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The workmen employed at Nagpur factory are transferable to Durgapur plant of Corporation or any other Government of India Undertaking.3.In the Regional Workshop at Hingna, components are manufactured which are used in the production of machinery at Durgapur factory.",
+      "predicted_label": "Facts",
+      "confidence": 0.9667,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0001,
+        "Facts": 0.9667,
+        "Issue": 0.0002,
+        "Reasoning": 0.0244
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "It is the case of the petitioners that the services of the employees of the company are governed by the Standing Orders certified under the Industrial Employment (Standing Orders) Act, 1946.4.Shri Madkholkar, learned counsel, appearing on behalf of the petitioners, submitted that the workers who manufacture component at M.I.D.C. get less salary than those workers who work at the factory at Durgapur, even though both the workers carry out the same duties and functions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9665,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0002,
+        "Facts": 0.0221,
+        "Issue": 0.0008,
+        "Reasoning": 0.0075
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "According to the petitioners, when the employees working in different service stations of the company from driver to peon are paid salary on par with the employees at Durgapur, the skilled, semi skilled or unskilled workers working in M.I.D.C.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7643,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0003,
+        "Facts": 0.1841,
+        "Issue": 0.0028,
+        "Reasoning": 0.0456
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "Nagpur cannot be discriminated and the members of the petitionerunion are entitled to the same salary that is being paid to Durgapur employees on the principle of equal pay for equal work.",
+      "predicted_label": "Facts",
+      "confidence": 0.8923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0009,
+        "Facts": 0.8923,
+        "Issue": 0.0007,
+        "Reasoning": 0.0639
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "It was submitted that the duties as well as the qualifications and the mode of appointment for the various designations are identical in the case of Nagpur and Durgapur factory and in fact their services are interchangeable, as far as the place of work is concerned.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3248,
+        "Arguments of Respondent": 0.5707,
+        "Decision": 0.0004,
+        "Facts": 0.0548,
+        "Issue": 0.0007,
+        "Reasoning": 0.0485
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "It was submitted that the practice adopted by the company in giving different pay scales to the same category of workers is clearly hit by Articles 14 and 16 of the Constitution of India.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6859,
+        "Arguments of Respondent": 0.1667,
+        "Decision": 0.0003,
+        "Facts": 0.0763,
+        "Issue": 0.0006,
+        "Reasoning": 0.0702
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "It was submitted that a tripartite settlement was arrived at on 26.10.1989 at Durgapur and by this memo of settlement, separate pay scales are prescribed to the workers who are working at Durgapur and other centres except in M.I.D.C. factory, Nagpur.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4664,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4066,
+        "Arguments of Respondent": 0.4664,
+        "Decision": 0.0002,
+        "Facts": 0.0693,
+        "Issue": 0.0002,
+        "Reasoning": 0.0572
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "As a result, the workers at the Regional Workshop at Nagpur are getting the basic pay of Rs.317.50, whereas the workers of similar designation at Durgapur are getting Rs.955/ basic pay.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.2962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2957,
+        "Arguments of Respondent": 0.2631,
+        "Decision": 0.0002,
+        "Facts": 0.1445,
+        "Issue": 0.0003,
+        "Reasoning": 0.2962
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Thus, there is a basic pay different of Rs.585/.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3696,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3696,
+        "Arguments of Respondent": 0.3092,
+        "Decision": 0.0014,
+        "Facts": 0.0767,
+        "Issue": 0.0004,
+        "Reasoning": 0.2428
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 13,
+      "text": "It was submitted that the wage settlement governing the wages and service matters of the workmen in the factory at Nagpur were duly registered with the Competent Authority under the Bombay Industrial Relations Act, 1946.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2415,
+        "Arguments of Respondent": 0.4961,
+        "Decision": 0.0002,
+        "Facts": 0.2119,
+        "Issue": 0.0011,
+        "Reasoning": 0.0492
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Therefore, the petitioners have effective alternate remedy to resolve the dispute, if any, by following the procedure prescribed under the B.I.R. Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.3892,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1496,
+        "Arguments of Respondent": 0.1257,
+        "Decision": 0.0244,
+        "Facts": 0.3892,
+        "Issue": 0.002,
+        "Reasoning": 0.3091
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "It was submitted that the petitioners have suppressed material facts in the petition that on expiry of last wage settlement dated 24.11.1988, which was entered into by the company with the five elected representatives of the workmen under the B.I.R. Act, the workmen of the Regional Workshop at Nagpur have submitted a fresh charter of demand on 30.9.1990 through their elected representatives for revision in wages and other service conditions.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0442,
+        "Arguments of Respondent": 0.8878,
+        "Decision": 0.0001,
+        "Facts": 0.0551,
+        "Issue": 0.0004,
+        "Reasoning": 0.0124
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "It was submitted that the Regional Workshop at Nagpur is governed by the Model Standing Orders prescribed under B.I.R. Act and the certified Standing Order dated 16.6.1965 which were certified by the Deputy Labour Commissioner, Durgapur (West Bengal) are applicable to the workmen at Durgapur plant only and the said certified Standing Orders of Durgapur cannot be made applicable to the workmen serving in the Regional Workshop at Nagpur.6.It was submitted that the job articles being manufactured by the Regional Workshop at Nagpur are substantially different from the articles machineries being manufactured at Durgapur plant.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5072,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5072,
+        "Arguments of Respondent": 0.228,
+        "Decision": 0.0002,
+        "Facts": 0.2265,
+        "Issue": 0.0006,
+        "Reasoning": 0.0375
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "The respondents have annexed a chart (Annexure II) to the affidavit in reply showing in detail the job articles being manufactured at Nagpur and Durgapur respectively.",
+      "predicted_label": "Facts",
+      "confidence": 0.6822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.028,
+        "Arguments of Respondent": 0.1389,
+        "Decision": 0.0002,
+        "Facts": 0.6822,
+        "Issue": 0.0004,
+        "Reasoning": 0.1504
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "It was submitted that the skill involved, technical know how, technology needed, job risk, job hazards involved in carrying out the activities work at Durgapur and Nagpur Workshop are distinct from each other.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5765,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2146,
+        "Arguments of Respondent": 0.5765,
+        "Decision": 0.0003,
+        "Facts": 0.1797,
+        "Issue": 0.0007,
+        "Reasoning": 0.0281
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "It was submitted that for all the practical purposes, the Regional Workshop at Nagpur is treated as an independent establishment and its account of production and sale of product are maintained separately and even the profit and loss accounts of the Regional Workshop at Nagpur is maintained independently.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4814,
+        "Arguments of Respondent": 0.3865,
+        "Decision": 0.0002,
+        "Facts": 0.0938,
+        "Issue": 0.0003,
+        "Reasoning": 0.0379
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 20,
+      "text": "It was, however, not disputed that the bills are raised from the Head Quarters of Durgapur and the payments are also collected directly by Durgapur Head Office only to smoothen the financial transaction and to maintain proper account of different establishments of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0374,
+        "Arguments of Respondent": 0.0292,
+        "Decision": 0.0001,
+        "Facts": 0.4586,
+        "Issue": 0.0018,
+        "Reasoning": 0.4729
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "It was submitted that the principle of Industry cum region was applicable in the instant case and there being large disparity between the two, it would not be proper to fix the same wage structure and the company has taken proper decision in treating the Regional Workshop at Nagpur as an independent unit as compared to Durgapur plant.7.It was submitted that the Zonal Office at Nagpur, which is described as Regional Service Centre and such other service centres situated at various places in India, are extension of Durgapur plant.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1014,
+        "Arguments of Respondent": 0.6804,
+        "Decision": 0.0002,
+        "Facts": 0.1926,
+        "Issue": 0.0002,
+        "Reasoning": 0.0253
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "These Regional Service Centres are having skeleton staff and mostly have persons brought from Durgapur plant who have been trained for servicing of various machineries manufactured at Durgapur plant.",
+      "predicted_label": "Facts",
+      "confidence": 0.8197,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0006,
+        "Facts": 0.8197,
+        "Issue": 0.0003,
+        "Reasoning": 0.1595
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "It is specially pointed out that such jobs cannot be attended by workers at Regional Workshop at Nagpur as they are not trained and do not possess necessary skill to handle highly sophisticated and technical mining machinery.",
+      "predicted_label": "Facts",
+      "confidence": 0.4516,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2333,
+        "Arguments of Respondent": 0.097,
+        "Decision": 0.0004,
+        "Facts": 0.4516,
+        "Issue": 0.0011,
+        "Reasoning": 0.2166
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "The respondents have also annexed a chart (Annexure VI) indicating in detail the distinction in duties, responsibilities, job contents, educational qualifications, experience etc. of the workers at Durgapur plant and the workers at Regional Workshop at Nagpur and contended that in view of the total disparity of the duties and functions between the workers at the Regional Workshop at Nagpur and others, the petitioners are not entitled to any relief in the petition and the same be dismissed.8.Having heard the counsel on both the sides and after going through the material placed before us, we are of the opinion that there is no merit in the petition and the principle of equal pay for equal work is not applicable in the present case.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.5608,
+        "Decision": 0.0011,
+        "Facts": 0.2561,
+        "Issue": 0.0008,
+        "Reasoning": 0.178
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "From the facts on record, it is evident that the Regional Workshop at Nagpur is registered as a Factory under the Factories Act and the wage settlement governing wages and service matters of the workmen at Nagpur were duly registered with the Competent Authority under the B.I.R. Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0002,
+        "Facts": 0.1484,
+        "Issue": 0.0004,
+        "Reasoning": 0.8376
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Moreover, the elected representatives of the workmen at Nagpur had arrived at wage settlement with the company and on completion of wage settlement period they have submitted fresh charter of demands and the matters are being processed.",
+      "predicted_label": "Facts",
+      "confidence": 0.6018,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0788,
+        "Arguments of Respondent": 0.0947,
+        "Decision": 0.0076,
+        "Facts": 0.6018,
+        "Issue": 0.0012,
+        "Reasoning": 0.2159
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "In this view of the matter, it is open to the petitioner to adopt proper remedy under the B.I.R. Act regarding their wage structure.",
+      "predicted_label": "Facts",
+      "confidence": 0.5278,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0162,
+        "Decision": 0.119,
+        "Facts": 0.5278,
+        "Issue": 0.0009,
+        "Reasoning": 0.3081
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "The contention of the respondents that the Regional workshop at Nagpur was treated as independent establishment is supported by the fact that all these years separate wage settlements were arrived at between the employees of the Regional Workshop at Nagpur and the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7387,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.1992,
+        "Decision": 0.0002,
+        "Facts": 0.0484,
+        "Issue": 0.0002,
+        "Reasoning": 0.7387
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "Moreover, the respondents have clearly brought out on record that the nature of duties and functions of the workers in the Regional Workshop at Nagpur are different from that of the workmen at Durgapur in the form of chart (Annexures II VI) which the petitioners have not been able to controvert.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0194,
+        "Arguments of Respondent": 0.0315,
+        "Decision": 0.0001,
+        "Facts": 0.0715,
+        "Issue": 0.0001,
+        "Reasoning": 0.8773
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "In that view of the matter, the contention of the respondents that the Regional Workshop at Nagpur is an independent establishment with different duties and function and hence the company is not liable to pay wages to the workmen of the Regional Workshop at Nagpur on par with the wages of the workmen of Durgapur plant has to be accepted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0015,
+        "Facts": 0.0391,
+        "Issue": 0.0003,
+        "Reasoning": 0.9398
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Accordingly, the principle of equal pay for equal work is not applicable to the case of the petitioners.9.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1815,
+        "Arguments of Respondent": 0.4206,
+        "Decision": 0.0005,
+        "Facts": 0.1299,
+        "Issue": 0.0006,
+        "Reasoning": 0.2669
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "Besides this, it has been urged by learned Advocate for the petitioner that the establishment in question has been declared as a sick industry, V.R.S. has been offered to the employees, the factories are closed and permission to closure has been granted by Govt.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7813,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0024,
+        "Facts": 0.0932,
+        "Issue": 0.002,
+        "Reasoning": 0.1116
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "of India, against which petition was filed",
+      "predicted_label": "Facts",
+      "confidence": 0.4078,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1396,
+        "Arguments of Respondent": 0.1066,
+        "Decision": 0.0105,
+        "Facts": 0.4078,
+        "Issue": 0.0957,
+        "Reasoning": 0.2398
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "and it was dismissed.",
+      "predicted_label": "Facts",
+      "confidence": 0.6458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0543,
+        "Arguments of Respondent": 0.0412,
+        "Decision": 0.0069,
+        "Facts": 0.6458,
+        "Issue": 0.0352,
+        "Reasoning": 0.2166
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "These developments have to be borne in mind while exercising writ jurisdiction in respect of an establishment which is already declared sick industry and in financial crisis.10.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0286,
+        "Arguments of Respondent": 0.0448,
+        "Decision": 0.0228,
+        "Facts": 0.2036,
+        "Issue": 0.0007,
+        "Reasoning": 0.6995
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "Various decisions of the Apex Court enunciating the principle of equal pay for equal work were cited on behalf of the petitioners.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.869,
+      "probabilities": {
+        "Arguments of Petitioner": 0.869,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0001,
+        "Facts": 0.0827,
+        "Issue": 0.0005,
+        "Reasoning": 0.0275
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "In all those cases, the Apex Court on the facts of each case came to the conclusion that the principle of equal pay for equal work are applicable.",
+      "predicted_label": "Facts",
+      "confidence": 0.64,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0805,
+        "Arguments of Respondent": 0.1467,
+        "Decision": 0.0004,
+        "Facts": 0.64,
+        "Issue": 0.0116,
+        "Reasoning": 0.1209
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "In the facts of the present case, we are of the opinion that petitioners have not brought out any material to show that the duties and functions exercised by the workmen in the Regional Workshop at Nagpur are identical to that of the workmen at Durgapur and hence the principle of equal pay for equal work is not applicable in the instant case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9726,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0008,
+        "Facts": 0.0166,
+        "Issue": 0.0002,
+        "Reasoning": 0.9726
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Moreover, the petitioners could not controvert the dissimilarities in the duties and functions between the workmen of Regional Workshop at Nagpur and the workmen at Durgapur.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7489,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0528,
+        "Arguments of Respondent": 0.0537,
+        "Decision": 0.0003,
+        "Facts": 0.144,
+        "Issue": 0.0002,
+        "Reasoning": 0.7489
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "The petitioners have failed to establish that the pay scales given to the workmen at Durgapur qua the workmen at the Regional Workshop at Nagpur amounts to discrimination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.023,
+        "Decision": 0.0008,
+        "Facts": 0.0631,
+        "Issue": 0.0002,
+        "Reasoning": 0.8929
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Hence, no interference is called for in the writ jurisdiction especially when there has been separate wage settlement arrived at between the workmen of the Regional Workshop at Nagpur and the Company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0322,
+        "Arguments of Respondent": 0.7456,
+        "Decision": 0.0036,
+        "Facts": 0.0614,
+        "Issue": 0.0002,
+        "Reasoning": 0.1569
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "Moreover, the said wage settlement has been in operation all these years and further settlement in the light of fresh charter of demands is pending before the company.11.",
+      "predicted_label": "Facts",
+      "confidence": 0.8219,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0422,
+        "Arguments of Respondent": 0.0693,
+        "Decision": 0.0008,
+        "Facts": 0.8219,
+        "Issue": 0.0001,
+        "Reasoning": 0.0656
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "In this view of the matter, we see no merit in the writ petition.",
+      "predicted_label": "Decision",
+      "confidence": 0.855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.855,
+        "Facts": 0.0245,
+        "Issue": 0.0004,
+        "Reasoning": 0.1172
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "Accordingly, the writ petition fails and stands dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.7956,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.7956,
+        "Facts": 0.16,
+        "Issue": 0.0009,
+        "Reasoning": 0.0382
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "Rule is accordingly discharged with no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9358,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9358,
+        "Facts": 0.0465,
+        "Issue": 0.0002,
+        "Reasoning": 0.0165
+      }
+    }
+  ]
+}

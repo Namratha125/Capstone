@@ -1,0 +1,745 @@
+{
+  "case_id": "6753",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " At the request of the Counsel, the Petition is being disposed of at the stage of admission.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.8553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0102,
+        "Decision": 0.0021,
+        "Facts": 0.8553,
+        "Issue": 0.1081,
+        "Reasoning": 0.0159
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "This Petition under Article 226 of the Constitution of India, challenges a notice dated 31st March, 2014 issued under Section 148 of the Income Tax Act, 1961 (the Act) passed by the Assessing Officer.",
+      "predicted_label": "Issue",
+      "confidence": 0.8711,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.001,
+        "Facts": 0.1265,
+        "Issue": 0.8711,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "For the Assessment Year 200910, the Petitioner filed its Return of Income declaring a loss of Rs.15.12 lakhs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.9758,
+        "Issue": 0.0009,
+        "Reasoning": 0.0139
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "During the previous year relevant to Assessment Year 200901, the Petitioner had issued equity shares inter alia to its nonresident holding company at a premium.",
+      "predicted_label": "Facts",
+      "confidence": 0.9805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9805,
+        "Issue": 0.0013,
+        "Reasoning": 0.0139
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "However, the Petitioner has not filed Form 3CEB with its return of income as according to Petitioner, the transaction was not covered by Chapter X of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8126,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0659,
+        "Arguments of Respondent": 0.0471,
+        "Decision": 0.0009,
+        "Facts": 0.8126,
+        "Issue": 0.0015,
+        "Reasoning": 0.072
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The Assessing Officer by order dated 28th October, 2011 completed the assessment proceedings under Section 143(3) of the Act determining the Petitioners income at Rs.2 lakhs.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.0001,
+        "Facts": 0.9958,
+        "Issue": 0.0027,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "On 31st March, 2014, the impugned notice was issued to the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0338,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0004,
+        "Facts": 0.9139,
+        "Issue": 0.0085,
+        "Reasoning": 0.0391
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The reasons recorded in support of the impugned notice dated 31st March, 2014 and furnished to Petitioner, reads as under During the previous year the share capital and share premium of the assessee company increased by Rs.105,57,63,012/.",
+      "predicted_label": "Facts",
+      "confidence": 0.9589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0001,
+        "Facts": 0.9589,
+        "Issue": 0.0006,
+        "Reasoning": 0.0252
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The assessee had issued 385B shares to M s. HDFC Ltd a premium of Rs.1,06,227/ per share and had issued 11,401 shares to M s.",
+      "predicted_label": "Facts",
+      "confidence": 0.8779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.0309,
+        "Decision": 0.0005,
+        "Facts": 0.8779,
+        "Issue": 0.0008,
+        "Reasoning": 0.0584
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The amount received by the assessee from M s.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5069,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0119,
+        "Arguments of Respondent": 0.0123,
+        "Decision": 0.0426,
+        "Facts": 0.4221,
+        "Issue": 0.004,
+        "Reasoning": 0.5069
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 10,
+      "text": "Blackstone GPV Capital Partners Mauritius during the previous year was of Rs.64,59,38,591/.M s. Blackstone GPV Capital Partners Mauritius is the holding company, located at Mauritius.",
+      "predicted_label": "Facts",
+      "confidence": 0.4473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2942,
+        "Arguments of Respondent": 0.2071,
+        "Decision": 0.0007,
+        "Facts": 0.4473,
+        "Issue": 0.0008,
+        "Reasoning": 0.0498
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "As per the schedule 13 of the Audited accounts, under the head related parties disclosures it was mentioned that M s. Blackstone GPV Capital Partners Mauritius is a Share holder with 75.98 shares of the assessee company.",
+      "predicted_label": "Facts",
+      "confidence": 0.6717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0914,
+        "Arguments of Respondent": 0.0878,
+        "Decision": 0.0003,
+        "Facts": 0.6717,
+        "Issue": 0.0006,
+        "Reasoning": 0.1482
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Thus the amount of Rs.64,59,38,591/received by the assessee from M s. Blackstone GPV Capital Partners Mauritius constitutes international transaction as per the provision of Sec.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1575,
+        "Arguments of Respondent": 0.1161,
+        "Decision": 0.0003,
+        "Facts": 0.2511,
+        "Issue": 0.0004,
+        "Reasoning": 0.4746
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "92.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7937,
+        "Arguments of Respondent": 0.0742,
+        "Decision": 0.0046,
+        "Facts": 0.0096,
+        "Issue": 0.0258,
+        "Reasoning": 0.092
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The assessee has not submitted an audit report in the form no. 3CEB in respect of international transaction.",
+      "predicted_label": "Facts",
+      "confidence": 0.8618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0257,
+        "Arguments of Respondent": 0.0339,
+        "Decision": 0.0003,
+        "Facts": 0.8618,
+        "Issue": 0.0035,
+        "Reasoning": 0.0748
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "As per the provisions of sec.",
+      "predicted_label": "Facts",
+      "confidence": 0.6866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0011,
+        "Facts": 0.6866,
+        "Issue": 0.0051,
+        "Reasoning": 0.2775
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "92A(1)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1661,
+        "Arguments of Respondent": 0.1014,
+        "Decision": 0.0071,
+        "Facts": 0.1069,
+        "Issue": 0.0165,
+        "Reasoning": 0.6019
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": ", the transaction between the assessee and M s. Blackstone GPV Capital Partners Mauritius constitutes a transaction between associate enterprises as M s. Blackstone GPV Capital Partners Mauritius holds 75.98 of shares of the assessee company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0864,
+        "Arguments of Respondent": 0.3139,
+        "Decision": 0.0013,
+        "Facts": 0.1058,
+        "Issue": 0.0006,
+        "Reasoning": 0.4919
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "Also the transaction between the assessee company and M s. Blackstone GPV Capital Partners Mauritius is defined as an international transaction in view of the explanation to the provisions of sec.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1463,
+        "Arguments of Respondent": 0.035,
+        "Decision": 0.0004,
+        "Facts": 0.337,
+        "Issue": 0.0007,
+        "Reasoning": 0.4807
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "92B inserted by the finance Act 2012 with retrospective effect from 1.4.2012.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1769,
+        "Arguments of Respondent": 0.0322,
+        "Decision": 0.0061,
+        "Facts": 0.2055,
+        "Issue": 0.2425,
+        "Reasoning": 0.3367
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 20,
+      "text": "Thus the assessee has not reported the transaction of receiving an amount of Rs.64,59,38,591/ from M s.",
+      "predicted_label": "Facts",
+      "confidence": 0.7402,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0469,
+        "Arguments of Respondent": 0.0615,
+        "Decision": 0.0002,
+        "Facts": 0.7402,
+        "Issue": 0.0002,
+        "Reasoning": 0.1511
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Blackstone GPV Capital Partners Mauritius as an international transaction which is mandatory under the I. T. Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4603,
+        "Arguments of Respondent": 0.4528,
+        "Decision": 0.0013,
+        "Facts": 0.0232,
+        "Issue": 0.0011,
+        "Reasoning": 0.0612
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The assessee has received premium of Rs.1,06,227/ per share from M s. HDFC Ltd. whereas the assessee charged premium of Rs.56,642/ per share from its associate enterprise vis M s. Blackstone GPV Capital Partners Mauritius during the same year.",
+      "predicted_label": "Facts",
+      "confidence": 0.8488,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0398,
+        "Arguments of Respondent": 0.0206,
+        "Decision": 0.0005,
+        "Facts": 0.8488,
+        "Issue": 0.0004,
+        "Reasoning": 0.09
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Thus the assessee has received huge premium per share from unrelated parties as against premium from related parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.8787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0522,
+        "Arguments of Respondent": 0.0332,
+        "Decision": 0.0001,
+        "Facts": 0.8787,
+        "Issue": 0.0003,
+        "Reasoning": 0.0356
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Thus the transaction between the assessee and M s. Blackstone GPV Capital Partners Mauritius is not at arms length price.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4321,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4321,
+        "Arguments of Respondent": 0.1608,
+        "Decision": 0.0005,
+        "Facts": 0.3265,
+        "Issue": 0.0006,
+        "Reasoning": 0.0795
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "The difference between the premium received from unrelated parties and associate enterprise requires adjustment on account of arms length price of Rs.49,585/ per shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.6986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.031,
+        "Arguments of Respondent": 0.0269,
+        "Decision": 0.0004,
+        "Facts": 0.6986,
+        "Issue": 0.0029,
+        "Reasoning": 0.2403
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "M s. Blackstone GPV Capital Partners Mauritius had purchased 11,401/ which requires adjustment of Rs.56,53,18,585/ on account of arms length price.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.323,
+        "Arguments of Respondent": 0.4942,
+        "Decision": 0.0008,
+        "Facts": 0.0748,
+        "Issue": 0.0002,
+        "Reasoning": 0.107
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Thus the income chargeable to tax was under assesseed to the extent of Rs.56,53,18,585/ in the assessment order u s. 143(3) passed on 28.10.2011 on account of transactions with related party not at arms length price.",
+      "predicted_label": "Facts",
+      "confidence": 0.9114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0308,
+        "Arguments of Respondent": 0.0162,
+        "Decision": 0.0001,
+        "Facts": 0.9114,
+        "Issue": 0.0013,
+        "Reasoning": 0.0402
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "In view of the above facts, I have reasons to believe that the income chargeable to tax of Rs.56,56,18,585/ has escaped assessment within the meaning of the provisions of sec 147 of the I. T. Act for the A. Y. 200910.",
+      "predicted_label": "Facts",
+      "confidence": 0.9779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0002,
+        "Facts": 0.9779,
+        "Issue": 0.0007,
+        "Reasoning": 0.0146
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The Petitioner by their letter dated 9th July, 2014 filed their objections to the reasons recorded in support of the impugned notice dated 31st March, 2014.",
+      "predicted_label": "Facts",
+      "confidence": 0.9809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0002,
+        "Facts": 0.9809,
+        "Issue": 0.0013,
+        "Reasoning": 0.0085
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "In its objections, the Petitioner inter alia contended that the impugned notice has been issued on mere change of opinion and therefore, not valid.",
+      "predicted_label": "Facts",
+      "confidence": 0.9627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0009,
+        "Facts": 0.9627,
+        "Issue": 0.0023,
+        "Reasoning": 0.0199
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The Assessing Officer by an order dated 7th November, 2014 rejected the Petitioners objections on the ground that as the Petitioner had failed to file Form 3 CEB along with its return of income in respect of the International transaction with its Associated Enterprise viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.993,
+        "Issue": 0.0021,
+        "Reasoning": 0.0036
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Mr. Shah, learned Counsel appearing for the Petitioner states that the issue arising in the present proceeding stands concluded in favour of the Petitioner in view of Vodafone India Services (P.) Ltd. v. Union of India 2014",
+      "predicted_label": "Facts",
+      "confidence": 0.6373,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3435,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0019,
+        "Facts": 0.6373,
+        "Issue": 0.003,
+        "Reasoning": 0.0106
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "368 ITR 1 /2015 228 Taxman 25 /2014 50 taxmann.com 300 (Bom.)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.588,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1923,
+        "Arguments of Respondent": 0.0604,
+        "Decision": 0.0008,
+        "Facts": 0.1579,
+        "Issue": 0.0006,
+        "Reasoning": 0.588
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "This Court in Vodafone India Services (P.) Ltd. (supra) on identical facts has concluded that the issue of shares at premium to its holding company does not give rise to any income chargeable to tax.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7154,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0628,
+        "Arguments of Respondent": 0.046,
+        "Decision": 0.0009,
+        "Facts": 0.174,
+        "Issue": 0.0009,
+        "Reasoning": 0.7154
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Thus, the Court has held that Chapter X of the Act would not apply.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0012,
+        "Facts": 0.9068,
+        "Issue": 0.0076,
+        "Reasoning": 0.0684
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "However, Mr. Pinto, learned Counsel appearing for the Revenue insist on opposing the Petition on the following grounds(a) Assessing Officer is entitled to reopen assessment as there was failure on the part of the Petitioner to file Form 3 CEB, indicating an international transaction for the purpose of arriving at ALP in respect of issue of shares at premium to the Petitioner by its holding company(b) Reopening of assessment was done by the Assessing Officer by a notice dated 31st March, 2014.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9545,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.9545,
+        "Decision": 0.0004,
+        "Facts": 0.021,
+        "Issue": 0.0005,
+        "Reasoning": 0.0124
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "We find that the issue arising in the present Petition namely seeking to bring to tax the share premium received by the Petitioner on issue of shares to its nonresident holding company stands covered by the decision of this Court in Vodafone India Services (P.) Ltd.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7381,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0119,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0032,
+        "Facts": 0.2399,
+        "Issue": 0.0037,
+        "Reasoning": 0.7381
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "(supra) in favour of the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.4194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2841,
+        "Arguments of Respondent": 0.041,
+        "Decision": 0.0226,
+        "Facts": 0.4194,
+        "Issue": 0.0127,
+        "Reasoning": 0.2201
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "In view of the decision of this Court in Vodafone India Services (P.) Ltd. (supra), there can be no reason to believe that income chargeable to tax has escaped assessment.9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4219,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4219,
+        "Arguments of Respondent": 0.3105,
+        "Decision": 0.0035,
+        "Facts": 0.1106,
+        "Issue": 0.0004,
+        "Reasoning": 0.1532
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "In spite of the above, the Revenue insists on opposing the Petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.6105,
+      "probabilities": {
+        "Arguments of Petitioner": 0.033,
+        "Arguments of Respondent": 0.0398,
+        "Decision": 0.001,
+        "Facts": 0.6105,
+        "Issue": 0.0059,
+        "Reasoning": 0.3098
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The failure to file Form 3 CEB would not by itself lead to the conclusion that there has been an escapement of income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7895,
+      "probabilities": {
+        "Arguments of Petitioner": 0.072,
+        "Arguments of Respondent": 0.0698,
+        "Decision": 0.006,
+        "Facts": 0.0622,
+        "Issue": 0.0006,
+        "Reasoning": 0.7895
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "In fact, the Petitioners understanding that the amount received on account of issue of shares to its holding company would not give rise to income chargeable to tax has been upheld by this Court in Vodafone India Services (P.) Ltd. (supra).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1198,
+        "Arguments of Respondent": 0.1858,
+        "Decision": 0.0004,
+        "Facts": 0.1996,
+        "Issue": 0.0008,
+        "Reasoning": 0.4936
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "In these circumstances, no fault can be found with the Petition or in not filing Form 3 CEB with its return of income.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.5068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.0238,
+        "Decision": 0.005,
+        "Facts": 0.5068,
+        "Issue": 0.0002,
+        "Reasoning": 0.453
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "The other objections of Mr. Pinto is that the impugned notice for reopening an assessment was issued before the decision was rendered in Vodafone India Services (P.) Ltd. (supra) and, therefore, valid is beyond our comprehension.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1092,
+        "Arguments of Respondent": 0.3531,
+        "Decision": 0.0023,
+        "Facts": 0.0086,
+        "Issue": 0.0027,
+        "Reasoning": 0.5241
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "The decision of this Court in Vodafone India Services (supra) has merely declared the law which stood at all times.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1312,
+        "Arguments of Respondent": 0.3322,
+        "Decision": 0.0091,
+        "Facts": 0.0381,
+        "Issue": 0.0005,
+        "Reasoning": 0.4888
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "Thus in the face of the decision of this Court in Vodafone India Services (supra), the impugned notice is unsustainable.11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3737,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3267,
+        "Arguments of Respondent": 0.1723,
+        "Decision": 0.0036,
+        "Facts": 0.1229,
+        "Issue": 0.0008,
+        "Reasoning": 0.3737
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "This submission ignores the fact that even in cases of less than four years, there must be reason to believe that income chargeable to tax has escaped assessment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0008,
+        "Facts": 0.0106,
+        "Issue": 0.0003,
+        "Reasoning": 0.9742
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "In the absence of condition precedent under Section 147 of the Act being satisfied, no notice for reopening of an assessment can be sustained.12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2368,
+        "Arguments of Respondent": 0.0685,
+        "Decision": 0.0008,
+        "Facts": 0.0195,
+        "Issue": 0.0001,
+        "Reasoning": 0.6743
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "Accordingly, Petition is allowed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.01,
+        "Facts": 0.9639,
+        "Issue": 0.0035,
+        "Reasoning": 0.0136
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "The impugned notice dated 31st March, 2014 is quashed and set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.6862,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.6862,
+        "Facts": 0.2569,
+        "Issue": 0.0005,
+        "Reasoning": 0.0526
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "case_id": "6931",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "4.On 26th April, 2001 the Officers of the Marine Preventive Wing of Customs Collectorate, Bombay searched the premises of respondent No.1 and recovered a sum of Rupees Thirteen lakhs and Rupees Two and half lakhs respectively from the two premises of respondent No.1 company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.9976,
+        "Issue": 0.0007,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "Since the currency notes were not accounted for in the books of the respondent No.1 company the said currency notes were seized and detained on the prima facie belief that the same represented sale proceeds of smuggled goods.",
+      "predicted_label": "Facts",
+      "confidence": 0.6927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0294,
+        "Arguments of Respondent": 0.1021,
+        "Decision": 0.0003,
+        "Facts": 0.6927,
+        "Issue": 0.0053,
+        "Reasoning": 0.1703
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "During the course of investigation, statement of an employee of the respondent No.1 company as well as the Director of respondent No.1 company were recorded under section 108 of the Customs Act, 1962, wherein they have stated i) that the amounts of Rs.15,50,000/ did not belong to the respondents and the same belonged to private bankers, viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.9615,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0002,
+        "Facts": 0.9615,
+        "Issue": 0.0004,
+        "Reasoning": 0.0211
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "CM Bankers and MP Bankers, ii) that both CM Bankers and MP Bankers used to deal in smuggled goods and the seized currency represented sale proceeds of smuggled gold and silver, iii) that the said amounts received from the bankers were not entered in the books of account of the respondent No.1 company.",
+      "predicted_label": "Facts",
+      "confidence": 0.3801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2056,
+        "Arguments of Respondent": 0.36,
+        "Decision": 0.0003,
+        "Facts": 0.3801,
+        "Issue": 0.0043,
+        "Reasoning": 0.0497
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 4,
+      "text": "7v) that the full addresses of CM Bankers and MP Bankers are not known to them.5.After recording of the statements under section 108 of the Customs Act, 1962, and on completion of investigation a show cause notice dated October 7, 1991 was issued to the respondents, their employee and CM and MP Bankers, requiring them to show cause as to why the Indian currency amounting to Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0001,
+        "Facts": 0.9831,
+        "Issue": 0.0007,
+        "Reasoning": 0.0046
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "CM and MP Bankers did not participate in the adjudication proceedings even though a show cause notice was issued to them.",
+      "predicted_label": "Facts",
+      "confidence": 0.624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0815,
+        "Arguments of Respondent": 0.0497,
+        "Decision": 0.0033,
+        "Facts": 0.624,
+        "Issue": 0.0074,
+        "Reasoning": 0.2341
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "However, the respondents in their reply denied the allegation and sought for crossexamination of the Assessing Officer investigating officer panch witnesses.",
+      "predicted_label": "Facts",
+      "confidence": 0.8883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0211,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0002,
+        "Facts": 0.8883,
+        "Issue": 0.0006,
+        "Reasoning": 0.0793
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "15,50,000/ under section 121 of the Customs Act, 1962 and imposed penalty of Rs.5,00,000/ on respondent No. 1, penalty of Rs.2,00,000/ on respondent No. 2 under section 112(1)(i) of the Customs Act, 1962.7.Being aggrieved by the aforesaid order, the respondents filed an appeal before CEGAT, Mumbai challenging the confiscation of Indian currency amounting to Rs.15,50,000/ and penalty of Rs.5,00,000/ and Rs.2,00,000/ on the respondents.",
+      "predicted_label": "Facts",
+      "confidence": 0.9954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9954,
+        "Issue": 0.0031,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The revenue opposed the challenge to the confiscation of currency.",
+      "predicted_label": "Facts",
+      "confidence": 0.7506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0319,
+        "Arguments of Respondent": 0.0586,
+        "Decision": 0.0006,
+        "Facts": 0.7506,
+        "Issue": 0.005,
+        "Reasoning": 0.1534
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The CEGAT by its order dated July 9, 1998 allowed the appeal filed by the respondents and quashed and set aside the order confiscating the currency and also the penalty levied upon the respondents.",
+      "predicted_label": "Facts",
+      "confidence": 0.989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.989,
+        "Issue": 0.0068,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Thereupon the revenue filed reference application under section 130(1) of the Customs Act, 1962 requesting the CEGAT to raise and refer the two questions of law set out therein for the opinion of this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.9803,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.9803,
+        "Issue": 0.0028,
+        "Reasoning": 0.0109
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "By its order dated November 17, 1998 the CEGAT rejected the reference application by holding that the said questions of law do not arise from the order of the Tribunal.8.Being aggrieved by the aforesaid order, the Commissioner of Customs (P) has filed the present customs application under section 130(3) of the Customs Act, 1962 and as stated hereinabove, while admitting the application, this Court granted rule only on Question No.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.9958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9958,
+        "Issue": 0.0012,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Desai, learned Senior Counsel appearing on behalf of the applicant submitted that the confiscated Indian currency admittedly did not belong to the respondents and that the respondents claimed to be in possession of the said currency in their capacity as carrier of goods.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7976,
+        "Arguments of Respondent": 0.0129,
+        "Decision": 0.0039,
+        "Facts": 0.1529,
+        "Issue": 0.0031,
+        "Reasoning": 0.0296
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Although, it was claimed that the said amount belongs to the CM Bankers and MP Bankers, in spite of the notice, said owners of the currency had chosen not to participate in the adjudication proceedings and claim the seized currency.",
+      "predicted_label": "Facts",
+      "confidence": 0.4966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1626,
+        "Arguments of Respondent": 0.127,
+        "Decision": 0.0083,
+        "Facts": 0.4966,
+        "Issue": 0.013,
+        "Reasoning": 0.1924
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "It was submitted that in view of the admission of respondent No. 2 that the seized currency represented sale proceeds of smuggled gold and silver, the same were rightly confiscated by the adjudicating authority and since the respondents have no title to the confiscated currency, they had no locus standi to file the appeal before the CEGAT.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5767,
+        "Arguments of Respondent": 0.183,
+        "Decision": 0.0012,
+        "Facts": 0.2215,
+        "Issue": 0.0018,
+        "Reasoning": 0.0157
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "It was submitted that the respondents could not be said to be aggrieved persons within the meaning of section 129A of the Customs Act, 1962 and, therefore, the order passed by the CEGAT, quashing the order of confiscation of India currency was not justified.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8834,
+        "Arguments of Respondent": 0.0395,
+        "Decision": 0.0009,
+        "Facts": 0.0637,
+        "Issue": 0.0011,
+        "Reasoning": 0.0114
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "It was submitted that whether the order of confiscation of India currency could be set aside at the instance of the respondents to whom the said currency did not belong, was a question of law and the Tribunal was in error in refusing to state the questions for the opinion of this Court.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8106,
+        "Arguments of Respondent": 0.0725,
+        "Decision": 0.0003,
+        "Facts": 0.0213,
+        "Issue": 0.002,
+        "Reasoning": 0.0933
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Chavan, learned Counsel appearing on behalf of the respondents on the other hand vehemently contended that the question raised by the revenue does not arise out of the order of the Tribunal because whether the respondents were aggrieved persons or not was not an issue either raised or decided by the Tribunal and, therefore, the question sought to be raised by the revenue cannot be said to arise out of the order of the Tribunal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.9722,
+        "Decision": 0.0002,
+        "Facts": 0.0004,
+        "Issue": 0.0002,
+        "Reasoning": 0.0101
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The learned Counsel submitted that the jurisdiction of this Court under section 130(3) of the Act is an advisory jurisdiction and the questions of law arising out of the Tribunals order can only be referred.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5323,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4417,
+        "Arguments of Respondent": 0.5323,
+        "Decision": 0.0007,
+        "Facts": 0.0108,
+        "Issue": 0.0002,
+        "Reasoning": 0.0143
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "By relying upon the decision of the Apex Court in the case of Commissioner of Income Tax, Bombay v. Scindia Steam Navigation Company Limited, reported in A.I.R. 1981 Supreme Court 1633, it was submitted that when a question of law is neither raised before the Tribunal nor considered by it, the said question cannot be said to arise out of the order of the Tribunal notwithstanding that it may arise on the findings given by the authority.",
+      "predicted_label": "Facts",
+      "confidence": 0.598,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0947,
+        "Arguments of Respondent": 0.2551,
+        "Decision": 0.0004,
+        "Facts": 0.598,
+        "Issue": 0.0028,
+        "Reasoning": 0.049
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "The learned Counsel relied upon the decision of the Punjab Haryana High Court in the case of Commissioner of Central Excise, Chandigarh v. CEGAT, New Delhi, reported in 2000 (122) E.L.T. 341 (P.H.) and the decision of the Apex Court in the case of K. Ravindranathan Nair v. Commissioner of Tax, Ernakulam, reported in 2001 (127) E.L.T. 11 (S.C.) and submitted that if the question as framed by the revenue does not arise out of order of Tribunal, then no statement of the case can be called for from the Tribunal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6166,
+      "probabilities": {
+        "Arguments of Petitioner": 0.363,
+        "Arguments of Respondent": 0.6166,
+        "Decision": 0.0002,
+        "Facts": 0.0119,
+        "Issue": 0.0006,
+        "Reasoning": 0.0077
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "The Counsel for the respondents strongly urged that the jurisdiction under section 130 of the Customs Act is not an appellate jurisdiction, and therefore, if an issue is not raised and not decided, such an issue cannot be said to arise out of the order of the Tribunal so as to seek reference under section 130 of the Customs Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.7802,
+        "Decision": 0.0003,
+        "Facts": 0.0061,
+        "Issue": 0.0003,
+        "Reasoning": 0.2051
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "It was submitted that if the revenue wanted to agitate the correctness or otherwise of the Tribunals decision then it could be done by filing an appeal and not by way of reference.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4201,
+        "Arguments of Respondent": 0.2783,
+        "Decision": 0.0014,
+        "Facts": 0.1293,
+        "Issue": 0.0007,
+        "Reasoning": 0.1702
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "As an alternative submission, the Counsel for the respondents submitted that when the goods in question were seized from the custody of the respondents and the show cause notices have been issued to the respondents, it could not be said that the respondents were not aggrieved persons under section 129A of the Customs Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.9621,
+        "Decision": 0.0002,
+        "Facts": 0.0027,
+        "Issue": 0.0002,
+        "Reasoning": 0.0324
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "From paras 4 and 5 of the order of the Tribunal dated July 9, 1998 (Exhibit B to the petition), it is seen that the revenue had no objection to the respondents filing appeal against the levy of penalty.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7154,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0187,
+        "Arguments of Respondent": 0.021,
+        "Decision": 0.0024,
+        "Facts": 0.2418,
+        "Issue": 0.0007,
+        "Reasoning": 0.7154
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The only grievance of the revenue was that the respondents could not have filed appeal challenging the confiscation of the Indian currency because according to the revenue, there is clear admission on the part of the respondents that the seized currency did not belong to the respondents and that the said currency represented sale proceeds of smuggled gold and silver which is liable to be confiscated under section 121 of the Customs Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2205,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.0026,
+        "Facts": 0.2232,
+        "Issue": 0.0105,
+        "Reasoning": 0.5255
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "It was the contention of the revenue that the statements recorded under section 108 of the Customs Act, even though retracted belatedly, binds the respondents.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1307,
+        "Arguments of Respondent": 0.5839,
+        "Decision": 0.0002,
+        "Facts": 0.1318,
+        "Issue": 0.004,
+        "Reasoning": 0.1494
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Under these circumstances it was the contention of the revenue that when the respondents have admittedly no title to the confiscated currency and the alleged owners of the currency had chosen not to participate in the adjudication proceedings and claim the currency, the respondents could not have challenged the order of confiscating the currency.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7057,
+        "Arguments of Respondent": 0.0689,
+        "Decision": 0.0004,
+        "Facts": 0.0785,
+        "Issue": 0.0035,
+        "Reasoning": 0.1431
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Without assigning any reasons as to why the above admission statement of the respondents recorded under section 108 of the Customs Act cannot be accepted in evidence, the Tribunal held that the revenue has failed to establish that the confiscated currency represented sale proceeds of the smuggled goods and accordingly set aside the order of confiscation of the currency and imposition of penalty.",
+      "predicted_label": "Facts",
+      "confidence": 0.9729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0003,
+        "Facts": 0.9729,
+        "Issue": 0.0068,
+        "Reasoning": 0.0189
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "12.Thus, from the order of the Tribunal, it is clear that the revenue objected to the confiscation of the currency being set aside at the instance of the respondents, mainly on the ground that (in light of statement under section 108) a) admittedly the confiscated currency did not belong to the respondents,b) admittedly the said currency represented the sale proceeds of smuggled Gold and Silver, c) that CM Bankers and MP Bankers to whom the said currency allegedly belonged did not object to the confiscation of the currency.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0007,
+        "Facts": 0.1137,
+        "Issue": 0.0024,
+        "Reasoning": 0.8604
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "13.On reading the order of the Tribunal as a whole, it is clear that the Tribunal set aside the order of confiscation on the ground that the admission of the respondent No.2 that the seized currency represented sale proceeds of smuggled gold and silver is only presumption.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9687,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0003,
+        "Facts": 0.023,
+        "Issue": 0.0003,
+        "Reasoning": 0.9687
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "When there was unequivocal statement of the respondent No. 2 to the effect that the seized currency represented the sale proceeds of smuggled gold and silver, that the respondents were not the owners of the seized currency and further the fact that the actual owner of the currency has not come forward to claim the confiscated currency, whether the Tribunal was justified in setting aside the confiscation order, is a question of law, which does arise out of the order of the Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0289,
+        "Arguments of Respondent": 0.0882,
+        "Decision": 0.0039,
+        "Facts": 0.0149,
+        "Issue": 0.0942,
+        "Reasoning": 0.7698
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "In other words, the admission of the respondents was a valuable piece of evidence and on the face of such evidence whether the Tribunal could have held that the questions raised by the revenue did not arise out of the order of the Tribunal is a question which requires consideration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0219,
+        "Decision": 0.0033,
+        "Facts": 0.0736,
+        "Issue": 0.1087,
+        "Reasoning": 0.7763
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "However, the questions as framed by the revenue is not happily worded and does not specifically bring out the real controversy sought to be raised by the revenue.",
+      "predicted_label": "Facts",
+      "confidence": 0.6775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.016,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0028,
+        "Facts": 0.6775,
+        "Issue": 0.0523,
+        "Reasoning": 0.2464
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "We, therefore, reframe the question as under Whether on the facts and in the circumstances of the case, the Tribunal was justified in law in quashing the order of confiscation and releasing the confiscated currency to the respondents, even though the said currency represented the sale proceeds of smuggled Gold Silver and admittedly the said currency did not belong to the respondents and moreover the owners of the currency had chosen not to claim the currency and thereby allow the said currency to be confiscated 14.Accordingly, the Customs Application is allowed and the Tribunal is directed to draw up the statement of the case by raising the aforesaid reframed question for the opinion of this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.4623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.1432,
+        "Facts": 0.4623,
+        "Issue": 0.02,
+        "Reasoning": 0.3665
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "As and when such a statement of the case forwarded by the Tribunal is taken up for hearing by this Court, it will be open to the respondents to raise all contentions including the contention that even though the respondents are not the owner of the Indian currency, they are entitled to challenge the confiscation of the seized currency and that in view of the retraction, the statements recorded under section 108 of the Customs Act, 1962 cannot be relied upon.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0836,
+        "Facts": 0.3219,
+        "Issue": 0.0004,
+        "Reasoning": 0.5795
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

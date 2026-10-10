@@ -1,0 +1,2378 @@
+{
+  "case_id": "6448",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This appeal arises under Section 62 of the Insolvency and Bankruptcy Code 2016(IBC) from the judgement of the National Company Law Appellate Tribunal, Delhi(NCLAT) dated 13 July 2020(Company Appeal (AT) (Insolvency) 561 of 2020).",
+      "predicted_label": "Issue",
+      "confidence": 0.9241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0012,
+        "Facts": 0.0733,
+        "Issue": 0.9241,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The NCLAT dismissed the appeal as barred by limitation.",
+      "predicted_label": "Issue",
+      "confidence": 0.5725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0007,
+        "Facts": 0.3833,
+        "Issue": 0.5725,
+        "Reasoning": 0.0378
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The appellant had filed an appeal against the National Company Law Tribunal, Chennais(NCLT) order dated 31 December 2019(MA 906 of 2019 in CA/38/IB/2018 (NCLT, Chennai Bench)) which had dismissed the appellants miscellaneous application in a liquidation proceeding, seeking interim relief against the invocation of a bank guarantee by Respondent No. 10 against the Corporate Debtor.",
+      "predicted_label": "Issue",
+      "confidence": 0.9396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0008,
+        "Facts": 0.0552,
+        "Issue": 0.9396,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "2. Cethar Ltd(Corporate Debtor), a corporate entity which is engaged in engineering and project consultancy, is undergoing liquidation.",
+      "predicted_label": "Issue",
+      "confidence": 0.6762,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0055,
+        "Facts": 0.2767,
+        "Issue": 0.6762,
+        "Reasoning": 0.012
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "The appellant was appointed as its interim resolution professional and resolution professional.",
+      "predicted_label": "Facts",
+      "confidence": 0.9234,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0001,
+        "Facts": 0.9234,
+        "Issue": 0.002,
+        "Reasoning": 0.06
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "After an unsuccessful attempt at resolution, the appellant was appointed as its liquidator on 25 April 2018.",
+      "predicted_label": "Facts",
+      "confidence": 0.9697,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.9697,
+        "Issue": 0.0103,
+        "Reasoning": 0.0116
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The appellant instituted proceedings(CA/38/IB/2018 (NCLT, Chennai Bench)) under Sections 43 and 45 of the IBC to avoid preferential and undervalued transactions of the Corporate Debtor in favour of Respondent Nos 14 with respect to a contract dated 15 March 2011.",
+      "predicted_label": "Facts",
+      "confidence": 0.946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0003,
+        "Facts": 0.946,
+        "Issue": 0.0472,
+        "Reasoning": 0.0051
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "No relief was sought against Respondent No 10.",
+      "predicted_label": "Facts",
+      "confidence": 0.4926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0394,
+        "Arguments of Respondent": 0.1035,
+        "Decision": 0.0193,
+        "Facts": 0.4926,
+        "Issue": 0.0044,
+        "Reasoning": 0.341
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The appellant claims to have subsequently discovered that SKS Ispat and Power Ltd (Respondent No 1) and its subsidiary SKS Power Generation Chhattisgarh Ltd (Respondent No 10) had colluded with the promoters of the Corporate Debtor and defrauded the latter of over INR 400 crores by entering into a fraudulent settlement of only INR 4.58 crores.",
+      "predicted_label": "Facts",
+      "confidence": 0.9945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0,
+        "Facts": 0.9945,
+        "Issue": 0.002,
+        "Reasoning": 0.0021
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The appellant also alleges that these transactions form a part of the ongoing investigation by the Central Bureau of Investigations and the Enforcement Directorate.",
+      "predicted_label": "Facts",
+      "confidence": 0.819,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0759,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0009,
+        "Facts": 0.819,
+        "Issue": 0.0019,
+        "Reasoning": 0.0991
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Respondent No 10, allegedly at the behest of Respondent No 1, sought to invoke certain bank guarantees issued by the Corporate Debtor for its failure to perform its engineering services.",
+      "predicted_label": "Facts",
+      "confidence": 0.9834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0001,
+        "Facts": 0.9834,
+        "Issue": 0.0036,
+        "Reasoning": 0.009
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The appellant filed a Miscellaneous Application to resist the invocation of this performance guarantee until the liquidation proceedings are concluded.",
+      "predicted_label": "Facts",
+      "confidence": 0.9565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0003,
+        "Facts": 0.9565,
+        "Issue": 0.001,
+        "Reasoning": 0.032
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "On 31 December 2019, the NCLT held that the performance guarantees were not a part of Security Interest, as defined under Section 3(31) of the IBC and refused to grant an injunction against the invocation of the bank guarantee until the liquidation proceedings are complete.",
+      "predicted_label": "Facts",
+      "confidence": 0.8517,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0505,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0017,
+        "Facts": 0.8517,
+        "Issue": 0.0237,
+        "Reasoning": 0.058
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The appellant has not disputed his presence before the NCLT when this order was pronounced in open court.",
+      "predicted_label": "Facts",
+      "confidence": 0.5327,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0761,
+        "Arguments of Respondent": 0.0365,
+        "Decision": 0.0031,
+        "Facts": 0.5327,
+        "Issue": 0.0038,
+        "Reasoning": 0.3478
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "However, the appellant states that a copy of the NCLTs order dated 31 December 2019 was uploaded on the NCLT website only on 12 March 2020.",
+      "predicted_label": "Facts",
+      "confidence": 0.4857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1531,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0099,
+        "Facts": 0.4857,
+        "Issue": 0.0016,
+        "Reasoning": 0.3333
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "However, the uploaded order set out the incorrect name of the Judicial member who had passed the order.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3147,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3147,
+        "Arguments of Respondent": 0.1741,
+        "Decision": 0.0007,
+        "Facts": 0.2897,
+        "Issue": 0.0041,
+        "Reasoning": 0.2166
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "The corrected order was uploaded on 20 March 2020.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4106,
+        "Arguments of Respondent": 0.188,
+        "Decision": 0.0162,
+        "Facts": 0.2294,
+        "Issue": 0.0711,
+        "Reasoning": 0.0848
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "Subsequent to the corrected order being uploaded, the appellant claims to have awaited the issue of a free copy and allegedly sought the free copy on 23 March 2020, under the provisions of Section 420(3) of the Companies Act, 2013(Companies Act) read with Rule 50 of the National Company Law Tribunal Rules, 2016(NCLT Rules).",
+      "predicted_label": "Facts",
+      "confidence": 0.8834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0781,
+        "Arguments of Respondent": 0.0135,
+        "Decision": 0.0003,
+        "Facts": 0.8834,
+        "Issue": 0.0119,
+        "Reasoning": 0.0128
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "According to the appellant, the free copy has not been issued till date.",
+      "predicted_label": "Facts",
+      "confidence": 0.7479,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0794,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.003,
+        "Facts": 0.7479,
+        "Issue": 0.0026,
+        "Reasoning": 0.1576
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The appellant has stated that owing to the lockdown on account of the COVID19 pandemic, the appeal before the NCLAT was filed on 8 June 2020 with an application for exemption from filing a certified copy of the order as it had not been issued.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3696,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3447,
+        "Arguments of Respondent": 0.0191,
+        "Decision": 0.0277,
+        "Facts": 0.2346,
+        "Issue": 0.0042,
+        "Reasoning": 0.3696
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 20,
+      "text": "The NCLATS impugned order dated 13 July 2020, relied on Section 61(2) of the IBC which mandates a limitation period for appeals to be thirty days, extendable by fifteen days, to hold that the appeal filed under Section 61(1) was barred by limitation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6063,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2134,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0046,
+        "Facts": 0.1363,
+        "Issue": 0.025,
+        "Reasoning": 0.6063
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "It noted that the statutory time limit of thirty days had expired and an application for condonation of delay had not been filed.",
+      "predicted_label": "Facts",
+      "confidence": 0.7468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0045,
+        "Facts": 0.7468,
+        "Issue": 0.0196,
+        "Reasoning": 0.2079
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Rule 22 of the National Company Law Appellate Tribunal Rules(NCLAT Rules) provides that every appeal must be accompanied with a certified copy of the impugned order, which had not been annexed in this case.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.478,
+        "Arguments of Respondent": 0.1038,
+        "Decision": 0.0062,
+        "Facts": 0.0945,
+        "Issue": 0.0005,
+        "Reasoning": 0.317
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "The NCLAT observed that the appellant had not provided any evidence to prove that a certified or free copy had not been issued to him.",
+      "predicted_label": "Facts",
+      "confidence": 0.6236,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0006,
+        "Facts": 0.6236,
+        "Issue": 0.0109,
+        "Reasoning": 0.3529
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "In any event, the IBC circumscribes the discretion to condone delays up to fifteen days, which had elapsed in this case.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6086,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6086,
+        "Arguments of Respondent": 0.2247,
+        "Decision": 0.0011,
+        "Facts": 0.0614,
+        "Issue": 0.0002,
+        "Reasoning": 0.104
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "Further, it noted that even on merits, there were no grounds for interference since a performance guarantee is explicitly excluded from the ambit of a Security interest which is subject to a moratorium under Section 14 of the IBC.",
+      "predicted_label": "Facts",
+      "confidence": 0.8792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0134,
+        "Arguments of Respondent": 0.0336,
+        "Decision": 0.0004,
+        "Facts": 0.8792,
+        "Issue": 0.0127,
+        "Reasoning": 0.0607
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The appellant filed a Civil Appeal against this order of the NCLAT on the question of limitation.",
+      "predicted_label": "Facts",
+      "confidence": 0.7812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0096,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0011,
+        "Facts": 0.7812,
+        "Issue": 0.1801,
+        "Reasoning": 0.026
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "Mr. R Subramanian, appearing on behalf of the appellants has urged the following submissions a)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9948,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.0015,
+        "Issue": 0.0002,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The order was passed by the NCLT on 31 December 2019, but the constitution of the bench was changed shortly thereafter.",
+      "predicted_label": "Facts",
+      "confidence": 0.6322,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1306,
+        "Arguments of Respondent": 0.0292,
+        "Decision": 0.0032,
+        "Facts": 0.6322,
+        "Issue": 0.0427,
+        "Reasoning": 0.1621
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The copy of the order was not uploaded until 11 or 12 March 2020.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3535,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3535,
+        "Arguments of Respondent": 0.0726,
+        "Decision": 0.0082,
+        "Facts": 0.2913,
+        "Issue": 0.0895,
+        "Reasoning": 0.1849
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "Even on 12 March 2020, a defective copy of the order was uploaded with the incorrect bench composition.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5027,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5027,
+        "Arguments of Respondent": 0.275,
+        "Decision": 0.0062,
+        "Facts": 0.0405,
+        "Issue": 0.0018,
+        "Reasoning": 0.1739
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "The corrected copy was uploaded only on 20 March 2020.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5168,
+        "Arguments of Respondent": 0.247,
+        "Decision": 0.0222,
+        "Facts": 0.0339,
+        "Issue": 0.0346,
+        "Reasoning": 0.1456
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "The appellant requested the NCLT registry for a free copy on 23 March 2020.",
+      "predicted_label": "Facts",
+      "confidence": 0.9125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0273,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.001,
+        "Facts": 0.9125,
+        "Issue": 0.0168,
+        "Reasoning": 0.0392
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The NCLAT was shut on account of the COVID19 pandemic from 24 March 2020 and an SOP for commencement of virtual hearings was issued on 30 May 2020.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4126,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2284,
+        "Arguments of Respondent": 0.292,
+        "Decision": 0.0031,
+        "Facts": 0.0494,
+        "Issue": 0.0145,
+        "Reasoning": 0.4126
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "The appellant immediately filed an appeal on 8 June 2020 with a downloaded copy, relying on this Courts suo motu order dated 15 March 2020 extending limitation and the lack of receipt of a free certified copy b)",
+      "predicted_label": "Facts",
+      "confidence": 0.8349,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1273,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.0007,
+        "Facts": 0.8349,
+        "Issue": 0.0026,
+        "Reasoning": 0.0209
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The NCLT order was uploaded only on 12 March 2020.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5867,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5867,
+        "Arguments of Respondent": 0.1386,
+        "Decision": 0.0071,
+        "Facts": 0.0782,
+        "Issue": 0.0146,
+        "Reasoning": 0.1748
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "This Court, in its suo motu order dated 23 March 2020(In re Cognizance for Extension of Limitation, (2020) 19 SCC 10 (suo motu order)) had stopped the clock of limitation with effect from 15 March 2020 on account of the COVID19 pandemic.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.314,
+        "Arguments of Respondent": 0.1819,
+        "Decision": 0.0019,
+        "Facts": 0.0313,
+        "Issue": 0.0103,
+        "Reasoning": 0.4606
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "Therefore, the appeal was de jure filed within three days of the order being received, which is within the thirty day limitation period prescribed under Section 61 of the IBC c) Rule 22 of the NCLAT Rules mandates a certified copy of the order for filing an appeal.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5286,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5286,
+        "Arguments of Respondent": 0.2608,
+        "Decision": 0.0258,
+        "Facts": 0.0732,
+        "Issue": 0.0031,
+        "Reasoning": 0.1084
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "However, Rule 14 of the NCLAT Rules permits a waiver from compliance with any of the rules, which has been usually granted in case of a downloaded online copy, in lieu of a certified copy of the order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.799,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0572,
+        "Arguments of Respondent": 0.1289,
+        "Decision": 0.0089,
+        "Facts": 0.0045,
+        "Issue": 0.0014,
+        "Reasoning": 0.799
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The appellants appeal was not found defective under Rules 26 and 27 of the NCLAT Rules as an application for waiver of filing a certified copy was duly filed and allowed d) Section 420(3) of the Companies Act read with Rule 50 of the NCLT Rules mandates a free copy of an order to be issued to every party.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.282,
+        "Arguments of Respondent": 0.3526,
+        "Decision": 0.0508,
+        "Facts": 0.2438,
+        "Issue": 0.0086,
+        "Reasoning": 0.0623
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "This obviates the need for any party to obtain a certified copy of an order it seeks to impugn by way of an appeal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5003,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0438,
+        "Arguments of Respondent": 0.431,
+        "Decision": 0.0022,
+        "Facts": 0.0218,
+        "Issue": 0.0008,
+        "Reasoning": 0.5003
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "Therefore, the clock of limitation under Section 61 of the IBC would run from the date the free copy is issued to the party.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2364,
+        "Arguments of Respondent": 0.3331,
+        "Decision": 0.004,
+        "Facts": 0.1446,
+        "Issue": 0.0007,
+        "Reasoning": 0.2811
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "A three judge bench of this Court in Sagufa Ahmed v. Upper Assam Plywood Products Pvt Ltd 2021 (2) SCC 317(Sagufa Ahmed), albeit in the context of a case under the Companies Act, had held that the limitation period would run only from the date on which a copy of the order is made available to the aggrieved party.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8088,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0615,
+        "Arguments of Respondent": 0.1091,
+        "Decision": 0.0002,
+        "Facts": 0.0194,
+        "Issue": 0.0009,
+        "Reasoning": 0.8088
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Even a delay in applying for a certified copy would not attract the explanation to Section 12 of the Limitation Act when a free copy is statutorily mandated e) Section 420(3) of the Companies Act and Rule 50 of the NCLT Rules equally apply to proceedings under the IBC and the ratio in Sagufa Ahmed (supra) would squarely apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0764,
+        "Arguments of Respondent": 0.2853,
+        "Decision": 0.0921,
+        "Facts": 0.0262,
+        "Issue": 0.0006,
+        "Reasoning": 0.5194
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "The mere absence of the words from the date on which a copy of the order of the Tribunal is made available to the person aggrieved in Section 61(2) of the IBC, in contradistinction to Section 421(3) of the Companies Act, has no material bearing since an appeal cannot be filed without a copy of the order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7567,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1137,
+        "Arguments of Respondent": 0.094,
+        "Decision": 0.001,
+        "Facts": 0.0345,
+        "Issue": 0.0001,
+        "Reasoning": 0.7567
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "This Court in B K Educational Services (P) Ltd v. Parag Gupta and Associates 2019 (11) SCC 633 (B K Educational Services) had noted that the provisions of Chapter XXVII of the Companies Act would apply to proceedings under the IBC at the NCLT, as Section 408 of the Companies Act constitutes the NCLT to discharge authority under the Companies Act, and under any other law for the time being in force f)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6399,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6399,
+        "Arguments of Respondent": 0.2509,
+        "Decision": 0.0009,
+        "Facts": 0.0868,
+        "Issue": 0.0004,
+        "Reasoning": 0.021
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "Appellants seeking to assail orders of judicial forums that upload copies of their orders on their website are usually exempt from filing a certified copy and the limitation commences only from the date of the uploading of the order online.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0643,
+        "Arguments of Respondent": 0.4919,
+        "Decision": 0.008,
+        "Facts": 0.0034,
+        "Issue": 0.0037,
+        "Reasoning": 0.4287
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Rule 14 of the NCLAT Rules envisage a waiver from procedural requirements as well g) Section 12(2) of the Limitation Act, 1963(Limitation Act) applies from the date on which the copy of the order is made available and not from the date when such order is passed.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7346,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7346,
+        "Arguments of Respondent": 0.0402,
+        "Decision": 0.0309,
+        "Facts": 0.0277,
+        "Issue": 0.0019,
+        "Reasoning": 0.1647
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "The explanation to Section 12(2) of the Limitation Act would not be attracted in cases where a free copy is mandated by the statute and online copies can be used for filing an appeal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7074,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1108,
+        "Arguments of Respondent": 0.1368,
+        "Decision": 0.0054,
+        "Facts": 0.0395,
+        "Issue": 0.0001,
+        "Reasoning": 0.7074
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The explanation to Section 12(2) of the Limitation Act would apply only where no appeal can be filed without an application for, and furnishing of a certified copy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9319,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0244,
+        "Decision": 0.0098,
+        "Facts": 0.0162,
+        "Issue": 0.0001,
+        "Reasoning": 0.9319
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "In any event, Section 12(2) of the Limitation Act excludes the time taken from the date of order to it becoming available h) Section 61 of the IBC prescribing a limitation period is subservient to the principle of lex non cogit ad impossibilia which states that the law cannot mandate a person to do an impossible act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6832,
+        "Arguments of Respondent": 0.2681,
+        "Decision": 0.0022,
+        "Facts": 0.0165,
+        "Issue": 0.0015,
+        "Reasoning": 0.0285
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "In this case, the appellant cannot be expected to file an appeal within 30 days when the order is not available i)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.379,
+      "probabilities": {
+        "Arguments of Petitioner": 0.379,
+        "Arguments of Respondent": 0.2358,
+        "Decision": 0.0091,
+        "Facts": 0.0582,
+        "Issue": 0.0006,
+        "Reasoning": 0.3172
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 52,
+      "text": "An application for condonation of delay was not required when the appellant had instituted the appeal in time and was statutorily entitled to a free certified copy.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2237,
+        "Arguments of Respondent": 0.3804,
+        "Decision": 0.0028,
+        "Facts": 0.0194,
+        "Issue": 0.0004,
+        "Reasoning": 0.3733
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 53,
+      "text": "The appellant is protected by the principles of actus curiae neminem gravabit no person should suffer for an act of Court, especially when INR 180 crores owed to public sector banks is at stake and j)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6774,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6774,
+        "Arguments of Respondent": 0.2028,
+        "Decision": 0.0135,
+        "Facts": 0.0878,
+        "Issue": 0.0099,
+        "Reasoning": 0.0086
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "The NCLAT had not heard any arguments on limitation before reserving its orders, and yet has passed an order primarily dismissing the appeal on the ground of limitation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.103,
+        "Arguments of Respondent": 0.0349,
+        "Decision": 0.0588,
+        "Facts": 0.1984,
+        "Issue": 0.0385,
+        "Reasoning": 0.5665
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "Furthermore, when an appeal is barred by limitation, the court cannot delve into the merits or set out any findings on merits which has been done in this case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.443,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1926,
+        "Arguments of Respondent": 0.1086,
+        "Decision": 0.0495,
+        "Facts": 0.2059,
+        "Issue": 0.0005,
+        "Reasoning": 0.443
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "Mr. Neeraj Kishan Kaul, Senior Counsel appearing on behalf of Respondent No 10 has urged the following submissions (a) Section 61 of the IBC mandates an appeal against any order under the Act to be filed within 30 days, extendable by a maximum period of 15 days.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.9906,
+        "Decision": 0.0001,
+        "Facts": 0.0014,
+        "Issue": 0.0002,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "The limitation for challenging the NCLT order dated 31 December 2019 expired on 15 February 2020, even after accounting for the fifteen day extension which is granted as a matter of discretion under Section 61(2) (b) Section 61(2) of the IBC does not state that limitation is to be applicable from the date of the order being made available, as against Section 421(3) of the Companies Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6944,
+        "Arguments of Respondent": 0.1849,
+        "Decision": 0.0012,
+        "Facts": 0.0145,
+        "Issue": 0.001,
+        "Reasoning": 0.104
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "Special Acts override general enactments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9228,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0384,
+        "Arguments of Respondent": 0.0283,
+        "Decision": 0.0004,
+        "Facts": 0.0094,
+        "Issue": 0.0006,
+        "Reasoning": 0.9228
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "In any event, made available does not imply that parties can indefinitely wait until a free certified copy is provided to them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3257,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1455,
+        "Arguments of Respondent": 0.3163,
+        "Decision": 0.011,
+        "Facts": 0.2009,
+        "Issue": 0.0005,
+        "Reasoning": 0.3257
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 60,
+      "text": "A timely application for a certified copy has to be filed (c) It is undisputed that NCLTs order dated 31 December 2019 was dictated and pronounced in open court, where the appellant was present.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7618,
+        "Arguments of Respondent": 0.1625,
+        "Decision": 0.004,
+        "Facts": 0.0247,
+        "Issue": 0.0056,
+        "Reasoning": 0.0413
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The NCLAT in Pr.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6368,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1726,
+        "Arguments of Respondent": 0.1723,
+        "Decision": 0.001,
+        "Facts": 0.0167,
+        "Issue": 0.0006,
+        "Reasoning": 0.6368
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "Director General of Income Tax v. Spartek Ceramics India Ltd 2018 SCC OnLine NCLAT 289 has held that the period of thirty days for filing an appeal commences from the date of the knowledge of the order (d)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6735,
+        "Arguments of Respondent": 0.2407,
+        "Decision": 0.0003,
+        "Facts": 0.0433,
+        "Issue": 0.0005,
+        "Reasoning": 0.0417
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "The time period of limitation can either be calculated from the date of the order, 31 December 2019 in this case, or from the date of filing an application for a certified copy of the said order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0541,
+        "Arguments of Respondent": 0.0723,
+        "Decision": 0.0819,
+        "Facts": 0.0508,
+        "Issue": 0.0003,
+        "Reasoning": 0.7406
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "In the absence of compliance with either, any appeal will be deemed as barred by limitation (f) Rule 22 of the NCLAT Rules prescribes that an appeal has to be accompanied with a certified copy of the order.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8964,
+        "Arguments of Respondent": 0.0569,
+        "Decision": 0.0013,
+        "Facts": 0.0063,
+        "Issue": 0.0007,
+        "Reasoning": 0.0384
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "The appellant did not file for a certified copy of the NCLT order.",
+      "predicted_label": "Facts",
+      "confidence": 0.6747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0412,
+        "Arguments of Respondent": 0.0442,
+        "Decision": 0.0031,
+        "Facts": 0.6747,
+        "Issue": 0.0035,
+        "Reasoning": 0.2333
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "Yet, the appellant instituted its appeal before the NCLAT on the basis of an online copy without an application seeking exemption from filing a certified copy or an application seeking condonation of delay (g) The appellant should have either waited to receive the free certified copy from the NCLT as per Section 420(3) of the Companies Act or applied for a certified copy within the limitation period.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9764,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0002,
+        "Facts": 0.0035,
+        "Issue": 0.0012,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "The appellant cannot be allowed to selectively take shelter under one provision (h) Time is of the essence under the IBC, as observed by this Court in Ebix Singapore Private Ltd v. Committee of Creditors of Educomp Solutions Ltd 2021 SCCOnLine SC 707 (Ebix Singapore) and the Bankruptcy Law Reform Committee Report, 2015.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.444,
+        "Arguments of Respondent": 0.4903,
+        "Decision": 0.0014,
+        "Facts": 0.0351,
+        "Issue": 0.001,
+        "Reasoning": 0.0282
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 68,
+      "text": "The IBC and the Arbitration and Conciliation Act, 2015 are special enactments which have been typically interpreted with strict limitation periods (i) Diligence is expected of the aggrieved party under the IBC where time is of the essence.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6176,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1953,
+        "Arguments of Respondent": 0.6176,
+        "Decision": 0.0035,
+        "Facts": 0.0147,
+        "Issue": 0.0004,
+        "Reasoning": 0.1684
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "Sagufa Ahmed (supra) was in the context of a winding up case which operates in a regime different from the IBC (j) In Mobilox Innovations Private Ltd v. Kirusa Software Private Ltd (2018) 1 SCC 353 (Mobilox Innovations) this Court observed, in the context of appeals, that timelines are sacrosanct under the IBC as it is in the best interests of all the stakeholders of the process that resolution or liquidation of the company happens in a time bound manner and is not protracted and (k) Respondent No 1 and Respondent No 10 are separate entities with different promoters.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8066,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1556,
+        "Arguments of Respondent": 0.8066,
+        "Decision": 0.0005,
+        "Facts": 0.016,
+        "Issue": 0.0003,
+        "Reasoning": 0.0211
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "No reliefs were sought against Respondent No 10 in the company petition filed by the appellant in respect of an agreement dated 15 March 2011, to which Respondent No 10 is not a party.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4204,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1345,
+        "Arguments of Respondent": 0.4204,
+        "Decision": 0.002,
+        "Facts": 0.0667,
+        "Issue": 0.0008,
+        "Reasoning": 0.3757
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 71,
+      "text": "The NCLT and NCLAT have issued concurrent findings that a performance guarantee is not a security interest which is subject to a moratorium under Section 14 of the IBC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6715,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0379,
+        "Arguments of Respondent": 0.2724,
+        "Decision": 0.0036,
+        "Facts": 0.0138,
+        "Issue": 0.0006,
+        "Reasoning": 0.6715
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "Therefore, no grounds for interference on merits are established.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6229,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0397,
+        "Arguments of Respondent": 0.6229,
+        "Decision": 0.0105,
+        "Facts": 0.0551,
+        "Issue": 0.0003,
+        "Reasoning": 0.2716
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "For determining the present appeal, the question of limitation for filing appeals would have to be answered by construing the provisions of the IBC and the Limitation Act, with the former enactment having an overriding effect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8155,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0558,
+        "Arguments of Respondent": 0.0687,
+        "Decision": 0.0013,
+        "Facts": 0.0263,
+        "Issue": 0.0323,
+        "Reasoning": 0.8155
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "This position has also been adopted by a three judge bench of this Court in Kalpraj Dharamshi v. Kotak Investment Advisors Ltd 2021 SCC OnLine SC 204 in considering the applicability of Section 14 of the Limitation Act to the reckoning of limitation for an appeal filed under Section 61(1) of the IBC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9584,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0192,
+        "Arguments of Respondent": 0.015,
+        "Decision": 0.0003,
+        "Facts": 0.0066,
+        "Issue": 0.0005,
+        "Reasoning": 0.9584
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "The determination of the present appeal would hinge on two issues (i) when will the clock for calculating the limitation period run for appeals filed under the IBC and (ii) is the annexing of a certified copy mandatory for an appeal to the NCLAT against an order passed under the IBC.",
+      "predicted_label": "Issue",
+      "confidence": 0.9648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0003,
+        "Facts": 0.0119,
+        "Issue": 0.9648,
+        "Reasoning": 0.0192
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "In B K Educational Services (supra) a two judge bench of this Court considered the interplay of the IBC, Limitation Act and the Companies Act constituting the NCLT and held that the Limitation Act is applicable to proceedings under the IBC by virtue of Section 238A of the IBC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0242,
+        "Arguments of Respondent": 0.0181,
+        "Decision": 0.0008,
+        "Facts": 0.0201,
+        "Issue": 0.0004,
+        "Reasoning": 0.9365
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "In the context of the NCLT, Justice R F Nariman observed 12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0339,
+        "Arguments of Respondent": 0.0554,
+        "Decision": 0.0005,
+        "Facts": 0.0195,
+        "Issue": 0.0002,
+        "Reasoning": 0.8905
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "The Report of the Insolvency Law Committee Report, March 2018 would indicate that it has applied its mind to judgments of NCLT and NCLAT.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.935,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.036,
+        "Decision": 0.0045,
+        "Facts": 0.0111,
+        "Issue": 0.0003,
+        "Reasoning": 0.935
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "It has also applied its mind to the aspect that the law is a complete Code and the fact that the intention of such a Code could not have been to give a new lease of life to debts which are timebarred.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9202,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0007,
+        "Facts": 0.0453,
+        "Issue": 0.0004,
+        "Reasoning": 0.9202
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "Given the fact that the procedure that would apply to NCLT would be the procedure contained inter alia in the Limitation Act, it is clear that NCLT would have to decide applications made to it under the Code in the same manner as it exercises its other jurisdiction under the Companies Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9103,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0336,
+        "Arguments of Respondent": 0.0413,
+        "Decision": 0.0007,
+        "Facts": 0.014,
+        "Issue": 0.0001,
+        "Reasoning": 0.9103
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "This being the position in law, it is clear that when various provisions of the Companies Act were amended by the Eleventh Schedule to the Code, it was unnecessary to apply and adapt Section 433 of the Companies Act to the Code, as was done to various other sections of the Companies Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0357,
+        "Arguments of Respondent": 0.0318,
+        "Decision": 0.0003,
+        "Facts": 0.004,
+        "Issue": 0.0002,
+        "Reasoning": 0.928
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "In Sagufa Ahmed (supra) a three judge Bench of this Court dealt with the interpretation of Section 421(3) of the Companies Act and whether limitation would start running once a free certified copy is made available to the party, sans an application from the aggrieved party.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0389,
+        "Arguments of Respondent": 0.0444,
+        "Decision": 0.0005,
+        "Facts": 0.024,
+        "Issue": 0.0039,
+        "Reasoning": 0.8882
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "It held, in the context of a winding up petition under the Companies Act, that the aggrieved party could wait till it received its free copy under Section 420(3) of the Companies Act 2013 read with Rule 50 of the NCLT Rules, and was not obligated to file an application for a certified copy for the purposes of the computation of limitation.",
+      "predicted_label": "Facts",
+      "confidence": 0.5618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0294,
+        "Arguments of Respondent": 0.0396,
+        "Decision": 0.0032,
+        "Facts": 0.5618,
+        "Issue": 0.0127,
+        "Reasoning": 0.3533
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "Therefore, it is true, as contended by the appellants, that the period of limitation of 45 days prescribed in Section 421(3) would start running only from the date on which a copy of the order of the Tribunal is made available to the person aggrieved.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9685,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0165,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0003,
+        "Facts": 0.0098,
+        "Issue": 0.0003,
+        "Reasoning": 0.9685
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "It is also true that under Section 420(3) of the Act read with Rule 50, the appellants were entitled to be furnished with a certified copy of the order free of cost.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9284,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0008,
+        "Facts": 0.0552,
+        "Issue": 0.0007,
+        "Reasoning": 0.9284
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "Therefore if the appellants had chosen not to file a copy application, but to await the receipt of a free copy of the order in terms of Section 420(3) read with Rule 50, they would be perfectly justified in falling back on Section 421(3), for fixing the date from which limitation would start running (emphasis supplied) However, the Court clarified that this would no longer apply once an application for a certified copy is made and the order has been received.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9063,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0198,
+        "Arguments of Respondent": 0.0289,
+        "Decision": 0.0001,
+        "Facts": 0.0446,
+        "Issue": 0.0003,
+        "Reasoning": 0.9063
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "Despite the above factual position, we do not want to hold against the appellants, the fact that they waited from 2510 2019 (the date of the order Sagufa Ahmed v. Upper Assam Plywood Products (P) Ltd., 2019 SCC OnLine NCLT 749 of NCLT) up to 21112019, to make a copy application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0147,
+        "Facts": 0.0369,
+        "Issue": 0.0003,
+        "Reasoning": 0.9364
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "But at least from 19122019, the date on which a certified copy was admittedly received by the counsel for the appellants, the period of limitation cannot be stopped from running.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8231,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0678,
+        "Arguments of Respondent": 0.0635,
+        "Decision": 0.0017,
+        "Facts": 0.0428,
+        "Issue": 0.0011,
+        "Reasoning": 0.8231
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "From 19 122019, the date on which the counsel for the appellants received the copy of the order, the appellants had a period of 45 days to file an appeal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7943,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0562,
+        "Arguments of Respondent": 0.0355,
+        "Decision": 0.001,
+        "Facts": 0.1124,
+        "Issue": 0.0006,
+        "Reasoning": 0.7943
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "Therefore in a field which is not covered by a special law which invests the NCLT with jurisdiction, the general principle for the computation of limitation for filing an appeal against an order of the NCLT is governed by the statutory mandate of Section 420(3) of the Companies Act read with Rule 50 of the NCLT Rules, which enables a party to compute limitation from the date of receipt of the statutorily mandated free certified copy, without having to file its own application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.014,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.0015,
+        "Facts": 0.0181,
+        "Issue": 0.0002,
+        "Reasoning": 0.9587
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "However, the decision of this Court in Sagufa Ahmed (surpa) clarifies that the statutory mandate of a free copy is not to enable litigants to take two bites at the apple where they could compute limitation from either when the certified copy is received on the litigants application or received as a free copy from the registry  whichever is later.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.0476,
+        "Decision": 0.002,
+        "Facts": 0.0157,
+        "Issue": 0.0002,
+        "Reasoning": 0.9097
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "The law on limitation with respect to the IBC is settled and emphatic in its denunciation of delays(Essar Steel (supra), paras 119123, 127 Innoventive Industries Ltd v. ICICI Bank, (2018) 1 SCC 407, para 13 Gujarat Urja Vikas Nigam Ltd v. Amit Gupta, (2021)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8508,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0233,
+        "Arguments of Respondent": 0.1207,
+        "Decision": 0.0006,
+        "Facts": 0.0044,
+        "Issue": 0.0002,
+        "Reasoning": 0.8508
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "SCC OnLine 194, para 71).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5574,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1897,
+        "Arguments of Respondent": 0.1648,
+        "Decision": 0.002,
+        "Facts": 0.0826,
+        "Issue": 0.0036,
+        "Reasoning": 0.5574
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 94,
+      "text": "The power to condone delay is tightly circumscribed and conditional upon showing sufficient cause, even within the period of delay which is capable of being condoned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1622,
+        "Arguments of Respondent": 0.0325,
+        "Decision": 0.001,
+        "Facts": 0.0099,
+        "Issue": 0.0002,
+        "Reasoning": 0.7942
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "The IBC is a watershed legislation which seeks to overhaul the previous bankruptcy regime which was afflicted by delays and indefinite legal proceedings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6141,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1954,
+        "Arguments of Respondent": 0.166,
+        "Decision": 0.0029,
+        "Facts": 0.0207,
+        "Issue": 0.0009,
+        "Reasoning": 0.6141
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 96,
+      "text": "The IBC sought to structure and streamline the entire process of insolvency, right from the initiation of insolvency to liquidation, as a onestop mechanism.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0462,
+        "Arguments of Respondent": 0.5974,
+        "Decision": 0.0009,
+        "Facts": 0.1078,
+        "Issue": 0.0007,
+        "Reasoning": 0.2471
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 97,
+      "text": "Section 12(3) of the IBC prescribes a strict timeline for the completion of the corporate insolvency resolution process of one hundred and eighty days which is extendable by ninety days.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1163,
+        "Arguments of Respondent": 0.2345,
+        "Decision": 0.0007,
+        "Facts": 0.0556,
+        "Issue": 0.0001,
+        "Reasoning": 0.5928
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "The proviso to Section 12(3) imposes an outerlimit of three hundred and thirty days, including time taken in legal proceedings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0434,
+        "Arguments of Respondent": 0.1023,
+        "Decision": 0.0014,
+        "Facts": 0.0077,
+        "Issue": 0.0002,
+        "Reasoning": 0.845
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "While a threejudge bench of this Court in Essar Steel India Ltd v. Satish Kumar Gupta (2020) 8 SCC 531 held such a timelimit on court proceedings as violative of Article 14, only the word mandatorily was struck down and a narrowly defined extension to the outerlimit was allowed in exceptional circumstances if the process is at a near conclusion and serves the ends of the IBC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0704,
+        "Arguments of Respondent": 0.1307,
+        "Decision": 0.0006,
+        "Facts": 0.012,
+        "Issue": 0.0003,
+        "Reasoning": 0.7861
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "Regulation 40A of the Insolvency and Bankruptcy Board of India (Insolvency Resolution Process for Corporate Persons) Regulations, 2016 provides for a detailed model timeline for the corporate insolvency resolution process, including extensions that are granted as discretionary powers under the procedural eventualities of the IBC framework.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8529,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.083,
+        "Decision": 0.0118,
+        "Facts": 0.0408,
+        "Issue": 0.0005,
+        "Reasoning": 0.8529
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "The Resolution Professional is responsible for ensuring the timeliness of the process and has to file several forms, as detailed under Regulation 40B, and explain all delays that occur in the intervening period, when filing the final Form H(Regulation 39(4)(b), Insolvency and Bankruptcy Board of India (Insolvency Resolution Process for Corporate Persons) Regulations, 2016) upon submitting a successful resolution plan under Section 30 of the IBC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8128,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.1395,
+        "Decision": 0.0051,
+        "Facts": 0.0178,
+        "Issue": 0.0002,
+        "Reasoning": 0.8128
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "Notably, Section 64 of the IBC imposes an obligation on the NCLT and NCLAT to expeditiously dispose applications pending before it, along with recording of reasons for any delay from the prescribed limit to the President of the NCLT NCLAT, who can then extend the period, not exceeding ten days.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0096,
+        "Decision": 0.0017,
+        "Facts": 0.0089,
+        "Issue": 0.0005,
+        "Reasoning": 0.9713
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "The decision in Mobilox Innovations (supra), took note of this provision and stressed on the importance of timelines in the following terms 35.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.037,
+        "Arguments of Respondent": 0.0832,
+        "Decision": 0.0005,
+        "Facts": 0.0334,
+        "Issue": 0.0001,
+        "Reasoning": 0.8458
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "Another thing of importance is the timelines within which the insolvency resolution process is to be triggered.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0036,
+        "Facts": 0.0167,
+        "Issue": 0.0375,
+        "Reasoning": 0.936
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "The corporate debtor is given 10 days from the date of receipt of demand notice or copy of invoice to either point out that a dispute exists between the parties or that he has since repaid the unpaid operational debt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0266,
+        "Arguments of Respondent": 0.0272,
+        "Decision": 0.0018,
+        "Facts": 0.0835,
+        "Issue": 0.0006,
+        "Reasoning": 0.8602
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "If neither exists, then an application once filed has to be disposed of by the adjudicating authority within 14 days of its receipt, either by admitting it or rejecting it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0271,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0003,
+        "Facts": 0.005,
+        "Issue": 0.0057,
+        "Reasoning": 0.9464
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "An appeal can then be filed to the Appellate Tribunal under Section 61 of the Act within 30 days of the order of the adjudicating authority with an extension of 15 further days and no more.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0491,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.0009,
+        "Facts": 0.1291,
+        "Issue": 0.0009,
+        "Reasoning": 0.8125
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "Section 64 of the Code mandates that where these timelines are not adhered to, either by the Tribunal or by the Appellate Tribunal, they shall record reasons for not doing so within the period so specified and extend the period so specified for another period not exceeding 10 days.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0638,
+        "Arguments of Respondent": 0.0331,
+        "Decision": 0.03,
+        "Facts": 0.024,
+        "Issue": 0.0004,
+        "Reasoning": 0.8487
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "Even in appeals to the Supreme Court from the Appellate Tribunal under Section 62, 45 days time is given from the date of receipt of the order of the Appellate Tribunal in which an appeal to the Supreme Court is to be made, with a further grace period not exceeding 15 days.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0529,
+        "Arguments of Respondent": 0.0261,
+        "Decision": 0.0003,
+        "Facts": 0.0099,
+        "Issue": 0.0001,
+        "Reasoning": 0.9106
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "The strict adherence of these timelines is of essence to both the triggering process and the insolvency resolution process.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9296,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0357,
+        "Decision": 0.0044,
+        "Facts": 0.0127,
+        "Issue": 0.0002,
+        "Reasoning": 0.9296
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "As we have seen, one of the principal reasons why the Code was enacted was because liquidation proceedings went on interminably, thereby damaging the interests of all stakeholders, except a recalcitrant management which would continue to hold on to the company without paying its debts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0002,
+        "Facts": 0.0066,
+        "Issue": 0.0005,
+        "Reasoning": 0.9809
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "Both the Tribunal and the Appellate Tribunal will do well to keep in mind this principal objective sought to be achieved by the Code and will strictly adhere to the timeframe within which they are to decide matters under the Code.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7489,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.2188,
+        "Facts": 0.0131,
+        "Issue": 0.0003,
+        "Reasoning": 0.7489
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "Recently, a two judge Bench of this Court in Ebix Singapore (supra) interpreted the legislative background of the IBC, its provisions and subsequent reports from Parliamentary committees to stress on the predictability and timeliness that is woven into the design of the IBC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0129,
+        "Decision": 0.0008,
+        "Facts": 0.0071,
+        "Issue": 0.0003,
+        "Reasoning": 0.9738
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "Speaking through one of us (Justice D Y Chandrachud), the Court observed 96 The BLRC report noted that the insolvency regime was due for a major overhaul as the recovery rates in India were among the lowest in the world58 and a revamped, coherent code was envisaged with speed and predictability woven into its underlying design to ensure higher recovery rates and immediate liquidation, in the event of a failed resolution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0005,
+        "Facts": 0.0105,
+        "Issue": 0.0004,
+        "Reasoning": 0.9781
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "As noted by this Court in Essar Steel (supra), the insolvency regime in India was overhauled after the provisions of SICA, SARFAESI and Recovery of Debts Act, in spite of providing for expeditious determination, were used by defaulting companies to enjoy extended moratorium periods and failure to enforce timelines meant legal proceedings would drag on for years and not result in recovery of stressed assets In identifying the sources of delay, adjudicating mechanisms were identified as one of the two important sources of delay which need to be equipped with the right resources.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9685,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.0028,
+        "Facts": 0.012,
+        "Issue": 0.0004,
+        "Reasoning": 0.9685
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "In order to respond to the rapid changes in the economy, the BLRC report recommended the formation of an IBBI which would function as a regulator and formulate regulations that dynamically detail the procedural norms of the working of the IBC with the necessary immediacy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.3647,
+        "Decision": 0.0056,
+        "Facts": 0.1135,
+        "Issue": 0.0009,
+        "Reasoning": 0.4886
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 117,
+      "text": "It is also important for this Court, as a constitutional authority which determines questions of law concerning the IBC framework, to note that a rapid liquidation may sometimes be preferable to a protracted CIRP.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7204,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0293,
+        "Arguments of Respondent": 0.1074,
+        "Decision": 0.0811,
+        "Facts": 0.061,
+        "Issue": 0.0008,
+        "Reasoning": 0.7204
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "In this background, when timelines are placed even on legal proceedings, reading in the requirement of an order being made available under a general enactment (Companies Act) would do violence to the special provisions enacted under the IBC where timing is critical for the workability of the mechanism, health of the economy, recovery rate of lenders and valuation of the corporate debtor.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7799,
+      "probabilities": {
+        "Arguments of Petitioner": 0.066,
+        "Arguments of Respondent": 0.1406,
+        "Decision": 0.0025,
+        "Facts": 0.0105,
+        "Issue": 0.0003,
+        "Reasoning": 0.7799
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "The IBC, as a prescriptive mechanism, affecting rights of stakeholders who are not necessarily parties to the proceedings, mandates diligence on the part of applicants who are aggrieved by the outcome of their litigation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0787,
+        "Arguments of Respondent": 0.217,
+        "Decision": 0.0014,
+        "Facts": 0.0124,
+        "Issue": 0.0003,
+        "Reasoning": 0.6902
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "An appeal, if considered necessary and expedient by an aggrieved party, is expected to be filed forthwith without awaiting a free copy which may be received at an indefinite stage.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.069,
+        "Arguments of Respondent": 0.0746,
+        "Decision": 0.0024,
+        "Facts": 0.0378,
+        "Issue": 0.0002,
+        "Reasoning": 0.816
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "Hence, the omission of the words from the date on which the order is made available for the purposes of computation of limitation in Section 61(2) of the IBC, is a consistent signal of the intention of the legislature to nudge the parties to be proactive and facilitate timely resolution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0103,
+        "Arguments of Respondent": 0.06,
+        "Decision": 0.0004,
+        "Facts": 0.0159,
+        "Issue": 0.0001,
+        "Reasoning": 0.9134
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "On the question of a certified copy for filing an appeal against an order passed by the NCLT under the IBC, Rule 22(2) of the NCLAT Rules mandates that an appeal has to be filed with a certified copy of the impugned order 22.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9048,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0309,
+        "Arguments of Respondent": 0.0475,
+        "Decision": 0.0072,
+        "Facts": 0.0058,
+        "Issue": 0.0039,
+        "Reasoning": 0.9048
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "19.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7746,
+        "Arguments of Respondent": 0.0576,
+        "Decision": 0.0036,
+        "Facts": 0.0306,
+        "Issue": 0.0143,
+        "Reasoning": 0.1194
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "Section 12 of the Limitation Act provides guidance on reckoning the period of limitation and excludes the time taken by a party for obtaining a certified copy of the order it seeks to appeal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0351,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0007,
+        "Facts": 0.0073,
+        "Issue": 0.0002,
+        "Reasoning": 0.9255
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "In computing under this section the time requisite for obtaining a copy of a decree or an order, any time taken by the court to prepare the decree or order before an application for a copy thereof is made shall not be excluded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8718,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0479,
+        "Arguments of Respondent": 0.0475,
+        "Decision": 0.0007,
+        "Facts": 0.0304,
+        "Issue": 0.0018,
+        "Reasoning": 0.8718
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "The import of Section 12 of the Limitation Act and its explanation is to assign the responsibility of applying for a certified copy of the order on a party.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.0296,
+        "Decision": 0.0004,
+        "Facts": 0.0147,
+        "Issue": 0.0002,
+        "Reasoning": 0.9343
+      }
+    },
+    {
+      "sentence_id": 127,
+      "text": "A person wishing to file an appeal is expected to file an application for a certified copy before the expiry of the limitation period, upon which the time requisite for obtaining a copy is to be excluded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9107,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0331,
+        "Arguments of Respondent": 0.0417,
+        "Decision": 0.0015,
+        "Facts": 0.0129,
+        "Issue": 0.0001,
+        "Reasoning": 0.9107
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "However, the time taken by the court to prepare the decree or order before an application for a copy is made cannot be excluded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9532,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0262,
+        "Decision": 0.0007,
+        "Facts": 0.0057,
+        "Issue": 0.0002,
+        "Reasoning": 0.9532
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "If no application for a certified copy has been made, no exclusion can ensue.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0753,
+        "Arguments of Respondent": 0.121,
+        "Decision": 0.0037,
+        "Facts": 0.0192,
+        "Issue": 0.0007,
+        "Reasoning": 0.7801
+      }
+    },
+    {
+      "sentence_id": 130,
+      "text": "In fact, the explanation to the provision is a clear indicator of the legal position that the time which is taken by the court to prepare the decree or order cannot be excluded before the application to obtain a copy is made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0134,
+        "Decision": 0.0001,
+        "Facts": 0.0046,
+        "Issue": 0.0001,
+        "Reasoning": 0.9706
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "It cannot be said that the right to receive a free copy under Section 420(3) of the Companies Act obviated the obligation on the appellant to seek a certified copy through an application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0294,
+        "Arguments of Respondent": 0.0443,
+        "Decision": 0.0047,
+        "Facts": 0.0576,
+        "Issue": 0.0002,
+        "Reasoning": 0.8638
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "The appellant has urged that Rule 14 of the NCLAT Rules empowers the NCLAT to exempt parties from compliance with the requirement of any of the rules in the interests of substantial justice, which has been typically exercised in favour of allowing a downloaded copy in lieu of a certified copy.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9631,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9631,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0003,
+        "Facts": 0.009,
+        "Issue": 0.0029,
+        "Reasoning": 0.0226
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "While it may well be true that waivers on filing an appeal with a certified copy are often granted for the purposes of judicial determination, they do not confer an automatic right on an applicant to dispense with compliance and render Rule 22(2) of the NCLAT Rules nugatory.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9668,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0016,
+        "Facts": 0.0019,
+        "Issue": 0.0005,
+        "Reasoning": 0.9668
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "The act of filing an application for a certified copy is not just a technical requirement for computation of limitation but also an indication of the diligence of the aggrieved party in pursuing the litigation in a timely fashion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.022,
+        "Arguments of Respondent": 0.0399,
+        "Decision": 0.0032,
+        "Facts": 0.0091,
+        "Issue": 0.0002,
+        "Reasoning": 0.9255
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "In a similar factual scenario, the NCLAT had dismissed an appeal(Prowess International Pvt Ltd v. Action Ispat Power Pvt Ltd, Company Appeal (AT) (Insolvency) 223 of 2017 (NCLAT, 26 March 2018)) as timebarred under Section 61(2) of the IBC since the appellant therein was present in court, and yet chose to file for a certified copy after five months of the pronouncement of the order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7271,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1666,
+        "Arguments of Respondent": 0.0373,
+        "Decision": 0.0016,
+        "Facts": 0.0605,
+        "Issue": 0.0069,
+        "Reasoning": 0.7271
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "20.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8092,
+        "Arguments of Respondent": 0.0408,
+        "Decision": 0.0042,
+        "Facts": 0.0345,
+        "Issue": 0.0147,
+        "Reasoning": 0.0966
+      }
+    },
+    {
+      "sentence_id": 137,
+      "text": "The appellant had argued that the order of the NCLAT notes that the NCLT registry had objected to the appeal in regard to limitation, to which the appellant had filed a reply stating that the limitation period would begin from the date of the uploading of the order, which was 12 March 2020.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8762,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8762,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.001,
+        "Facts": 0.0643,
+        "Issue": 0.0013,
+        "Reasoning": 0.0537
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "The appellant submitted that the suo motu order of this Court dated 23 March 2020, taking retrospective effect from 15 March 2020, made under Article 142 of the Constitution, extended the limitation until further orders, which renders the appeal filed on 8 June 2020 within limitation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9615,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9615,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0003,
+        "Facts": 0.016,
+        "Issue": 0.004,
+        "Reasoning": 0.0169
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "However it is important to note that this Court had only extended the period of limitation applicable in the proceedings, only in cases where such period had not ended before 15 March 2020.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.083,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0042,
+        "Facts": 0.0184,
+        "Issue": 0.0004,
+        "Reasoning": 0.8604
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "In this case, owing to the specific language of Section 61(1) and 61(2), it is evident that limitation commenced once the order was pronounced and the time taken by the Court to provide the appellant with a certified copy would have been excluded, as clarified in Section 12(2) of the Limitation Act, if the appellant had applied for a certified copy within the prescribed period of limitation under Section 61(2) of the IBC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9294,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0325,
+        "Arguments of Respondent": 0.0313,
+        "Decision": 0.0006,
+        "Facts": 0.0059,
+        "Issue": 0.0003,
+        "Reasoning": 0.9294
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "The construction of the law does not import the absurdity the appellant alleges of an impossible act of filing an appeal against an order which was uploaded on 12 March 2020.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0683,
+        "Arguments of Respondent": 0.1338,
+        "Decision": 0.0034,
+        "Facts": 0.013,
+        "Issue": 0.0003,
+        "Reasoning": 0.7812
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "However, the mandate of the law is to impose an obligation on the appellant to apply for a certified copy once the order was pronounced by the NCLT on 31 December 2019, by virtue of Section 61(2) of the IBC read with Rule 22(2) of the NCLAT Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0345,
+        "Arguments of Respondent": 0.0351,
+        "Decision": 0.009,
+        "Facts": 0.0173,
+        "Issue": 0.0006,
+        "Reasoning": 0.9034
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "In the event the appellant was correct in his assertion that a correct copy of the order was not available until 20 March 2020, the appellant would not have received a certified copy in spite of the application till such date and accordingly received the benefit of the suo motu order of this Court which came into effect on 15 March 2020.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5008,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5008,
+        "Arguments of Respondent": 0.1727,
+        "Decision": 0.0039,
+        "Facts": 0.024,
+        "Issue": 0.0036,
+        "Reasoning": 0.295
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 144,
+      "text": "However, in the absence of an application for a certified copy, the appeal was barred by limitation much prior to the suo motu direction of this court, even after factoring in a permissible fifteen days of condonation under Section 61(2).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1017,
+        "Arguments of Respondent": 0.2239,
+        "Decision": 0.0071,
+        "Facts": 0.0423,
+        "Issue": 0.0009,
+        "Reasoning": 0.6241
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 145,
+      "text": "The Court is not empowered to condone delays beyond statutory prescriptions in special statutes containing a provision for limitation(Union of India v. Popular Construction Co., (2001) 8 SCC 470 Singh Enterprises v. Commissioner of Central Excise, Jamshedpur, (2008) 3 SCC 70 Chhattisgarh State Electricity Board v. Central Electricity Regulatory Commission, (2010) 5 SCC 23 Bengal Chemists and Druggists Association v. Kalyan Chowdhury, (2018) 3 SCC 41) .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6358,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1663,
+        "Arguments of Respondent": 0.1623,
+        "Decision": 0.0018,
+        "Facts": 0.0328,
+        "Issue": 0.0009,
+        "Reasoning": 0.6358
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 146,
+      "text": "The answer to the two issues set out in Section C of the judgement (i) when will the clock for calculating the limitation period run for proceedings under the IBC and (ii) is the annexation of a certified copy mandatory for an appeal to the NCLAT against an order passed under the IBC must be based on a harmonious interpretation of the applicable legal regime, given that the IBC is a Code in itself and has overriding effect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.495,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.053,
+        "Facts": 0.0966,
+        "Issue": 0.3429,
+        "Reasoning": 0.495
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 147,
+      "text": "Sections 61(1) and (2) of the IBC consciously omit the requirement of limitation being computed from when the order is made available to the aggrieved party, in contradistinction to Section 421(3) of the Companies Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2894,
+        "Arguments of Respondent": 0.3021,
+        "Decision": 0.0005,
+        "Facts": 0.0275,
+        "Issue": 0.0001,
+        "Reasoning": 0.3804
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 148,
+      "text": "Owing to the special nature of the IBC, the aggrieved party is expected to exercise due diligence and apply for a certified copy upon pronouncement of the order it seeks to assail, in consonance with the requirements of Rule 22(2) of the NCLAT Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0109,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.0058,
+        "Facts": 0.0169,
+        "Issue": 0.0005,
+        "Reasoning": 0.9482
+      }
+    },
+    {
+      "sentence_id": 149,
+      "text": "Section 12(2) of the Limitation Act allows for an exclusion of the time requisite for obtaining a copy of the decree or order appealed against.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.0011,
+        "Facts": 0.0113,
+        "Issue": 0.0003,
+        "Reasoning": 0.9587
+      }
+    },
+    {
+      "sentence_id": 150,
+      "text": "It is not open to a person aggrieved by an order under the IBC to await the receipt of a free certified copy under Section 420(3) of the Companies Act 2013 read with Rule 50 of the NCLT and prevent limitation from running.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4417,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2628,
+        "Arguments of Respondent": 0.1864,
+        "Decision": 0.0424,
+        "Facts": 0.0663,
+        "Issue": 0.0004,
+        "Reasoning": 0.4417
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 151,
+      "text": "Accepting such a construction will upset the timely framework of the IBC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6224,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0673,
+        "Arguments of Respondent": 0.1801,
+        "Decision": 0.0089,
+        "Facts": 0.1209,
+        "Issue": 0.0003,
+        "Reasoning": 0.6224
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 152,
+      "text": "The litigant has to file its appeal within thirty days, which can be extended up to a period of fifteen days, and no more, upon showing sufficient cause.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1195,
+        "Arguments of Respondent": 0.0565,
+        "Decision": 0.0011,
+        "Facts": 0.0281,
+        "Issue": 0.0006,
+        "Reasoning": 0.7941
+      }
+    },
+    {
+      "sentence_id": 153,
+      "text": "A sleight of interpretation of procedural rules cannot be used to defeat the substantive objective of a legislation that has an impact on the economic health of a nation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8146,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1119,
+        "Arguments of Respondent": 0.0496,
+        "Decision": 0.0021,
+        "Facts": 0.021,
+        "Issue": 0.0007,
+        "Reasoning": 0.8146
+      }
+    },
+    {
+      "sentence_id": 154,
+      "text": "On the second question, Rule 22(2) of the NCLAT Rules mandates the certified copy being annexed to an appeal, which continues to bind litigants under the IBC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6782,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0157,
+        "Decision": 0.009,
+        "Facts": 0.0232,
+        "Issue": 0.2598,
+        "Reasoning": 0.6782
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 155,
+      "text": "While it is true that the tribunals, and even this Court, may choose to exempt parties from compliance with this procedural requirement in the interest of substantial justice, as reiterated in Rule 14 of the NCLAT Rules, the discretionary waiver does not act as an automatic exception where litigants make no efforts to pursue a timely resolution of their grievance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0021,
+        "Facts": 0.006,
+        "Issue": 0.0007,
+        "Reasoning": 0.9792
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "The appellant having failed to apply for a certified copy, rendered the appeal filed before the NCLAT as clearly barred by limitation.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.319,
+        "Arguments of Respondent": 0.3625,
+        "Decision": 0.0008,
+        "Facts": 0.1314,
+        "Issue": 0.001,
+        "Reasoning": 0.1854
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 157,
+      "text": "The appellant was present before the NCLT on 31 December 2019 when interim relief was denied and the miscellaneous application was dismissed.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4688,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4688,
+        "Arguments of Respondent": 0.0315,
+        "Decision": 0.0051,
+        "Facts": 0.0647,
+        "Issue": 0.0016,
+        "Reasoning": 0.4282
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 158,
+      "text": "The appellant has demonstrated no effort on his part to secure a certified copy of the said order and has relied on the date of the uploading of the order (12 March 2020) on the website.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0599,
+        "Arguments of Respondent": 0.0873,
+        "Decision": 0.0016,
+        "Facts": 0.0152,
+        "Issue": 0.0003,
+        "Reasoning": 0.8357
+      }
+    },
+    {
+      "sentence_id": 159,
+      "text": "The period of limitation for filing an appeal under Section 61(1) against the order of the NCLT dated 31 December 2019, expired on 30 January 2020 in view of the thirtyday period prescribed under Section 61(2).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4273,
+        "Arguments of Respondent": 0.1929,
+        "Decision": 0.012,
+        "Facts": 0.018,
+        "Issue": 0.0016,
+        "Reasoning": 0.3483
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 160,
+      "text": "Any scope for a condonation of delay expired on 14 February 2020, in view of the outer limit of fifteen days prescribed under the proviso to Section 61(2).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3616,
+        "Arguments of Respondent": 0.1411,
+        "Decision": 0.0059,
+        "Facts": 0.0532,
+        "Issue": 0.0402,
+        "Reasoning": 0.3982
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 161,
+      "text": "The lockdown from 23 March 2020 on account of the COVID19 pandemic and the suo motu order of this Court has had no impact on the rights of the appellant to institute an appeal in this proceeding and the NCLAT has correctly dismissed the appeal on limitation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.4075,
+        "Decision": 0.0156,
+        "Facts": 0.0078,
+        "Issue": 0.0008,
+        "Reasoning": 0.5498
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 162,
+      "text": "Accordingly, the present appeal under Section 62 of the IBC stands dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0148,
+        "Decision": 0.705,
+        "Facts": 0.1751,
+        "Issue": 0.0012,
+        "Reasoning": 0.0992
+      }
+    },
+    {
+      "sentence_id": 163,
+      "text": "Pending application(s) if any, stand disposed of.",
+      "predicted_label": "Decision",
+      "confidence": 0.9822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9822,
+        "Facts": 0.0088,
+        "Issue": 0.0002,
+        "Reasoning": 0.0085
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "No order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9487,
+        "Facts": 0.0379,
+        "Issue": 0.0002,
+        "Reasoning": 0.0123
+      }
+    }
+  ]
+}

@@ -1,0 +1,956 @@
+{
+  "case_id": "6822",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " The question that emerges for decision on this writ petition is, whether the Industrial Development Bank of India Limited (hereafter IDBI Limited, for short) can be regarded as an undertaking of the Government of India If the answer is in the affirmative, the same would enure to the benefit of the petitioner, for, in such case, she can avail of the exception clause engrafted in paragraph 4.8.1 of the Medical Entrance Information Brochure pertaining to the National Eligibility and Entrance Test UG2020 (hereafter NEET 2020, for short).",
+      "predicted_label": "Issue",
+      "confidence": 0.9802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0002,
+        "Facts": 0.0109,
+        "Issue": 0.9802,
+        "Reasoning": 0.0048
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The petitioner, desirous of becoming a doctor, had participated in the NEET2020.",
+      "predicted_label": "Facts",
+      "confidence": 0.7653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0452,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0008,
+        "Facts": 0.7653,
+        "Issue": 0.0014,
+        "Reasoning": 0.1703
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The Information Brochure for NEET2020 provides that a candidate aspiring for admission in the MBBS course in the 85 State quota, reserved for Maharashtra candidates, is required to be a domicile of Maharashtra apart from having passed the 10th standard S.S.C. or equivalent examination and the 12th standard H.S.C. or equivalent examination from schools in Maharashtra.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0503,
+        "Arguments of Respondent": 0.067,
+        "Decision": 0.0009,
+        "Facts": 0.0353,
+        "Issue": 0.0005,
+        "Reasoning": 0.846
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "Admittedly, the petitioner is a domicile of Maharashtra and passed the 10th standard S.S.C. examination from a school in Maharashtra however, she cleared the 12th standard H.S.C. examination after pursuing studies in the 11th and the 12th standards in a school in Telangana while residing with her father.",
+      "predicted_label": "Facts",
+      "confidence": 0.6106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1135,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.0024,
+        "Facts": 0.6106,
+        "Issue": 0.04,
+        "Reasoning": 0.2198
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "Incidentally, the petitioners father is an employee of IDBI Limited who was posted in Telangana at the relevant point of time and has since been transferred and posted in Maharashtra with effect from November 19, 2020.",
+      "predicted_label": "Facts",
+      "confidence": 0.5904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2213,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0037,
+        "Facts": 0.5904,
+        "Issue": 0.0167,
+        "Reasoning": 0.1645
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "In support of the contention that IDBI Limited, in fact, is a Government of India undertaking, Shri Bapat, learned advocate appearing for the petitioner had on November 25, 2020 (when we considered the writ petition for the first time), placed heavy reliance on letters dated December 31, 2007 and December 17, 2019 of the Ministry of Finance, Government of India.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9738,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0005,
+        "Facts": 0.0099,
+        "Issue": 0.0011,
+        "Reasoning": 0.0116
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The first of the aforesaid two letters conveyed to the Secretaries of all Ministries and or departments of the Government of India the decision of the Ministry of Finance to treat IDBI Limited on par with Nationalized Banks State Bank of India by Government Departments Public Sector Undertakings other entities for all purpose, including deposits bonds investments guarantees etc. and Government business.",
+      "predicted_label": "Facts",
+      "confidence": 0.6403,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0196,
+        "Arguments of Respondent": 0.0438,
+        "Decision": 0.0001,
+        "Facts": 0.6403,
+        "Issue": 0.0007,
+        "Reasoning": 0.2956
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "By the other letter, which is of recent origin, the Ministry of Finance conveyed to the addressees that pursuant to the acquisition of stake in IDBI Limited by the Life Insurance Corporation of India (hereafter LICI, for short) to the extent of 51 of the share capital, and keeping in view the fact that LICI is wholly owned by the Government of India and also that the Government of Indias holding in IDBI is 46.46, the direct and indirect Government holding in IDBI is 97.46 hence, the Central State Government departments agencies institutions may continue to consider IDBI Limited for grant of Government business.",
+      "predicted_label": "Facts",
+      "confidence": 0.9491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0,
+        "Facts": 0.9491,
+        "Issue": 0.0027,
+        "Reasoning": 0.0358
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "On the aforesaid date, i.e., November 25, 2020, Shri Rodriques, learned advocate representing the respondent no.4, i.e., Competent Authority Commissioner, State Common Entrance Cell, Government of Maharashtra, had brought to our notice a letter dated March 14, 2019 of the Reserve Bank of India (hereafter RBI, for short), whereby RBI categorized IDBI Limited as a Private Sector Bank and contended that IDBI Limited cannot be regarded as an undertaking of the Government of India.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8907,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.8907,
+        "Decision": 0.0004,
+        "Facts": 0.0522,
+        "Issue": 0.0145,
+        "Reasoning": 0.0176
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "In view of such letter, we required the assistance of Shri Anil Singh, learned Additional Solicitor General.",
+      "predicted_label": "Facts",
+      "confidence": 0.8142,
+      "probabilities": {
+        "Arguments of Petitioner": 0.052,
+        "Arguments of Respondent": 0.0677,
+        "Decision": 0.0046,
+        "Facts": 0.8142,
+        "Issue": 0.0007,
+        "Reasoning": 0.0608
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "He was requested to apprise us of the status of IDBI Limited in the light of the letters dated December 17, 2019 and March 14, 2019, referred to above.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3442,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2851,
+        "Arguments of Respondent": 0.3442,
+        "Decision": 0.0613,
+        "Facts": 0.216,
+        "Issue": 0.0036,
+        "Reasoning": 0.0897
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "While adjourning hearing, we had directed that until further orders, one seat in the medical course may not be allotted to anybody.",
+      "predicted_label": "Facts",
+      "confidence": 0.8675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0154,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.0144,
+        "Facts": 0.8675,
+        "Issue": 0.0008,
+        "Reasoning": 0.0943
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Shri Singh has placed before us written instructions received by him from the Ministry of Finance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1097,
+        "Arguments of Respondent": 0.2194,
+        "Decision": 0.0024,
+        "Facts": 0.057,
+        "Issue": 0.0001,
+        "Reasoning": 0.6114
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "Copy of such instructions has been shared with Shri Bapat.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3038,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2404,
+        "Arguments of Respondent": 0.3038,
+        "Decision": 0.0016,
+        "Facts": 0.2323,
+        "Issue": 0.0004,
+        "Reasoning": 0.2216
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 14,
+      "text": "With regard to the above, the undersigned is directed to apprise as under (a) The Reserve Bank of India (RBI) categorises Scheduled Commercial Banks into various categories such as Public Sector Banks, Private Sector Banks, etc. RBI, vide its letter no.DBOD.BP.1630/21.4.152/200405, dated 15.4.2005 (copy enclosed) addressed to IDBI Limited (renamed as IDBI Bank Limited in 2008), had informed that considering the latters shareholding pattern, it is categorized as Other Public Sector Bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.8825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0501,
+        "Arguments of Respondent": 0.0394,
+        "Decision": 0.0003,
+        "Facts": 0.8825,
+        "Issue": 0.0014,
+        "Reasoning": 0.0263
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "RBI, vide its subsequent press release dated 14.3.2019 (copy enclosed), has recategorised IDBI Bank Limited (IDBI Bank) as a private sector bank with effect from 21.1.2019 consequent upon the Life Insurance Corporation of India acquiring 51 share capital of the bank.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6533,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0866,
+        "Arguments of Respondent": 0.188,
+        "Decision": 0.0008,
+        "Facts": 0.0703,
+        "Issue": 0.001,
+        "Reasoning": 0.6533
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "Thus, with effect from 21.1.2019, IDBI Bank has ceased to be a Public Sector Bank and is now a Private Sector Bank.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6676,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6676,
+        "Arguments of Respondent": 0.1146,
+        "Decision": 0.0008,
+        "Facts": 0.0521,
+        "Issue": 0.0051,
+        "Reasoning": 0.1597
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "(b) Following the above press release dated 14.3.2019 recategorising the bank as a Private Sector Bank, IDBI Bank Limited issued instructions dated 15.3.2019 to its various offices (copy enclosed), communicating the aforesaid press release and advising them to remove the words Govt.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6336,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6336,
+        "Arguments of Respondent": 0.1467,
+        "Decision": 0.0011,
+        "Facts": 0.1979,
+        "Issue": 0.002,
+        "Reasoning": 0.0187
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "of India owned Bank from the banks signboards.",
+      "predicted_label": "Facts",
+      "confidence": 0.7463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0309,
+        "Arguments of Respondent": 0.0534,
+        "Decision": 0.0002,
+        "Facts": 0.7463,
+        "Issue": 0.0014,
+        "Reasoning": 0.1678
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "3. The undersigned is directed to further convey with regard to the import of this Departments letter dated 17.12.2019 (copy enclosed), referred to in paragraph 4 of the Honble Courts aforementioned order, that the said letter is an advisory conveying that Central State Governments Departments Agencies Institutions may continue to consider IDBI Bank for grant of government business.",
+      "predicted_label": "Facts",
+      "confidence": 0.8473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0977,
+        "Arguments of Respondent": 0.0341,
+        "Decision": 0.0005,
+        "Facts": 0.8473,
+        "Issue": 0.0031,
+        "Reasoning": 0.0172
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "In other words, the Central Government does not have any objection if governments or their agencies etc. choose to grant government business to IDBI Bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.4343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0855,
+        "Arguments of Respondent": 0.1552,
+        "Decision": 0.0005,
+        "Facts": 0.4343,
+        "Issue": 0.0023,
+        "Reasoning": 0.3222
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Such advisory was issued in light of earlier advisory placing an embargo on grant of government business to private sector banks.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1146,
+        "Arguments of Respondent": 0.2485,
+        "Decision": 0.0006,
+        "Facts": 0.2462,
+        "Issue": 0.0052,
+        "Reasoning": 0.3849
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "However, the advisory dated 17.12.2019 in no way determines the status of the bank to which grant of government business has been permitted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1343,
+        "Arguments of Respondent": 0.3558,
+        "Decision": 0.0012,
+        "Facts": 0.0481,
+        "Issue": 0.0003,
+        "Reasoning": 0.4603
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "In this regard, it is pertinent that as per RBIs circulars no.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8504,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0305,
+        "Arguments of Respondent": 0.0435,
+        "Decision": 0.001,
+        "Facts": 0.0745,
+        "Issue": 0.0001,
+        "Reasoning": 0.8504
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "DGBA.GAD.No.218/42.01.001/2003 04 and DGBA.GAD.No.220/42.01.001/200304, both dated 27.8.2003",
+      "predicted_label": "Facts",
+      "confidence": 0.9061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0005,
+        "Facts": 0.9061,
+        "Issue": 0.0003,
+        "Reasoning": 0.0831
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "(copies enclosed), certain Private Sector Banks (e.g. ICICI Bank Limited and Axis Bank Limited) were authorized for grant of government business to them.",
+      "predicted_label": "Facts",
+      "confidence": 0.8451,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0303,
+        "Arguments of Respondent": 0.0379,
+        "Decision": 0.0002,
+        "Facts": 0.8451,
+        "Issue": 0.0003,
+        "Reasoning": 0.0863
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "7. Based on the above instructions, it is Shri Singhs categorical submission that the letter dated December 17, 2019 is in the nature of advisory which was required to be issued in view of a previous embargo that had been placed on grant of Government business to private sector banks like IDBI, ICICI Bank, Axis Bank, etc. and that the said advisory can, in no way, be regarded as decisive to determine the status of IDBI Limited.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5726,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3533,
+        "Arguments of Respondent": 0.5726,
+        "Decision": 0.0002,
+        "Facts": 0.0351,
+        "Issue": 0.0005,
+        "Reasoning": 0.0383
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Responding to our query, Shri Singh submits that IDBI Limited cannot be regarded as a Government of India undertaking for the purpose of entitling the petitioner to avail of the exception clause in paragraph 4.8.1.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5354,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3929,
+        "Arguments of Respondent": 0.5354,
+        "Decision": 0.0004,
+        "Facts": 0.0022,
+        "Issue": 0.0001,
+        "Reasoning": 0.069
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 28,
+      "text": "Upon hearing Shri Singh, we gave Shri Bapat an opportunity to respond.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0678,
+        "Arguments of Respondent": 0.4549,
+        "Decision": 0.0066,
+        "Facts": 0.1382,
+        "Issue": 0.0008,
+        "Reasoning": 0.3317
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "He once again relies on the letters dated December 31, 2007 and December 17, 2019 of the Ministry of Finance.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5619,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5619,
+        "Arguments of Respondent": 0.4207,
+        "Decision": 0.0002,
+        "Facts": 0.002,
+        "Issue": 0.0001,
+        "Reasoning": 0.015
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "In addition, he relies on a compilation of documents to drive home the point that IDBI Limited is indeed an undertaking of the Government of India and, therefore, the petitioner is entitled to the benefit of exception clause in question.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6165,
+        "Arguments of Respondent": 0.3597,
+        "Decision": 0.0001,
+        "Facts": 0.009,
+        "Issue": 0.0004,
+        "Reasoning": 0.0143
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "(b) Press release by RBI dated March 14, 2019 categorising IDBI Limited as a Private Sector Bank (c) Letter dated May 31, 2019 of the Under Secretary (Vigilance), Ministry of Finance, Government of India, conveying to the Chief Vigilance Officer, IDBI Bank, that LICI is a body within the jurisdiction of the Central Vigilance Commission and since LICI holds 51 shares of IDBI Bank Ltd., the vigilance administration of IDBI Bank Ltd. automatically falls within the jurisdiction of the Commission and (d) Letter dated June 3, 2019 of the General Manager (Legal) of IDBI Bank clarifying applicability and continuance of the present vigilance set up in IDBI Bank.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7022,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7022,
+        "Arguments of Respondent": 0.2455,
+        "Decision": 0.0005,
+        "Facts": 0.0156,
+        "Issue": 0.006,
+        "Reasoning": 0.0302
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Referring to the Central Vigilance Commission Act, 2003 (hereafter the CVC Act, for short), it is the contention of Shri Bapat that the Central Vigilance Commission has been allowed to exercise vigilance control over IDBI Limited and, a fortiori, the petitioners father would be treated as a public servant to whom the Prevention of Corruption Act, 1987 would apply.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5391,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4421,
+        "Arguments of Respondent": 0.5391,
+        "Decision": 0.0002,
+        "Facts": 0.0056,
+        "Issue": 0.0004,
+        "Reasoning": 0.0126
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 33,
+      "text": "If indeed that be so, i.e., the petitioners father is a public servant by reason of his employment in IDBI Limited, denying the petitioner benefit of the exception clause in paragraph 4.8.1 of the Information Brochure on the ground that IDBI Limited is not an undertaking of the Government of India has no rational basis and would work out serious injustice to her.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.495,
+      "probabilities": {
+        "Arguments of Petitioner": 0.495,
+        "Arguments of Respondent": 0.0289,
+        "Decision": 0.0005,
+        "Facts": 0.0617,
+        "Issue": 0.004,
+        "Reasoning": 0.41
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "Shri Bapat further contends that the status of the IDBI Limited available on the official website of the Ministry of Corporate Affairs under the caption Company Master Data records that IDBI Limited is a Union Govt.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5099,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3937,
+        "Arguments of Respondent": 0.5099,
+        "Decision": 0.0011,
+        "Facts": 0.0067,
+        "Issue": 0.0005,
+        "Reasoning": 0.0882
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "co Regard being had to the same, there is no reason to treat IDBI Limited as anything other than a Government of India undertaking.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8518,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0174,
+        "Arguments of Respondent": 0.0845,
+        "Decision": 0.0007,
+        "Facts": 0.0455,
+        "Issue": 0.0001,
+        "Reasoning": 0.8518
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "Shri Bapat also contends that having regard to the shareholding pattern of LICI and the Government of India (51 46.46), it is clear that IDBI Limited is a Government of India owned and controlled undertaking and the decision to deny the petitioner the benefit of the exception clause in paragraph 4.8.1 of the Information Brochure is grossly illegal, arbitrary and without jurisdiction.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9,
+        "Arguments of Respondent": 0.047,
+        "Decision": 0.0005,
+        "Facts": 0.0149,
+        "Issue": 0.0003,
+        "Reasoning": 0.0373
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Shri Bapat, accordingly, prays for a declaration that IDBI Limited be declared as an undertaking of the Government of India and consequent relief be granted to the petitioner by directing the respondent no.4 to allow the petitioner admission in the MBBS course upon extending to her the benefit of the exception clause in paragraph 4.8.1 of the Information Brochure.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9904,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0002,
+        "Facts": 0.0026,
+        "Issue": 0.0014,
+        "Reasoning": 0.0029
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "Consequent to the enactment of the Industrial Development Bank of India Act, 1964 (hereafter the IDBI Act, for short) and issuance of notification in terms of Section 3 thereof, the Industrial Development Bank of India (hereafter the Development Bank, for short) was brought into existence as a body corporate with effect from June 20, 1964.",
+      "predicted_label": "Facts",
+      "confidence": 0.9388,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0001,
+        "Facts": 0.9388,
+        "Issue": 0.0543,
+        "Reasoning": 0.0027
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The Industrial Development Bank (Transfer of Undertaking and Repeal) Act, 2003 (hereafter the 2003 Act, for short) was enacted by the Parliament to provide for transfer and vesting of undertaking of the Development Bank to and in the Company to be formed and registered as a Company under the Companies Act, 1956 (hereafter the 1956 Act, for short) to carry on banking business and for matters connected therewith or incidental thereto and also to repeal the IDBI Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.7013,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0007,
+        "Facts": 0.7013,
+        "Issue": 0.2791,
+        "Reasoning": 0.0107
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Section 3 of the 2003 Act provides that on and from the date the Central Government may, by notification, appoint, the undertaking of the Development Bank shall be transferred to, and vest in, the Company, meaning thereby the Industrial Development Bank of India Limited to be formed and registered under the 1956 Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.6349,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0732,
+        "Arguments of Respondent": 0.0244,
+        "Decision": 0.0012,
+        "Facts": 0.6349,
+        "Issue": 0.0004,
+        "Reasoning": 0.2659
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "We find that from October 1, 2004, the undertaking of the Development Bank stood transferred to, and vested in, the Company in terms of Section 3(1) of the 2003 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9535,
+      "probabilities": {
+        "Arguments of Petitioner": 0.016,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0019,
+        "Facts": 0.0241,
+        "Issue": 0.0002,
+        "Reasoning": 0.9535
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "Section 5 of the 2003 Act contains provisions in respect of officers and other employees of IDBI Limited.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5544,
+      "probabilities": {
+        "Arguments of Petitioner": 0.162,
+        "Arguments of Respondent": 0.0756,
+        "Decision": 0.0014,
+        "Facts": 0.205,
+        "Issue": 0.0017,
+        "Reasoning": 0.5544
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "Sub section (1) thereof provides that every officer or other employee of the Development Bank (except a director of the Board or the chairman and managing director or any wholetime director) serving in the employment immediately before the appointed day shall, insofar as such officer or other employee is employed in connection with the undertaking which has vested in the Company by virtue of such Act, become, as from the appointed day, an officer or, as the case may be, other employee of the Company and shall hold his office or service therein by the same tenure, at the same remuneration, upon the same terms and conditions, with the same obligations and with the same rights and privileges in respect of matters mentioned therein and other benefits as he would have held under the Development Bank if its undertaking had not vested in the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8324,
+      "probabilities": {
+        "Arguments of Petitioner": 0.026,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0001,
+        "Facts": 0.8324,
+        "Issue": 0.001,
+        "Reasoning": 0.1305
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "In our considered view, section 5 of the 2003 Act is crucial and clinches the issue against the petitioner and for the respondents.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8351,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0203,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0007,
+        "Facts": 0.1261,
+        "Issue": 0.0058,
+        "Reasoning": 0.8351
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "Perusal of the 2003 Act clearly reveals cessation of the Development Bank as a body corporate which, by operation of the said Act, would stand transferred to and vested in the Company to be formed and registered under the 1956 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0827,
+        "Arguments of Respondent": 0.0393,
+        "Decision": 0.0021,
+        "Facts": 0.0208,
+        "Issue": 0.0002,
+        "Reasoning": 0.8549
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The Development Bank, from a body corporate, by reason of the 2003 Act (which also repealed the IDBI Act) attained an identity of a Company governed by the 1956 Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6416,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1791,
+        "Arguments of Respondent": 0.0503,
+        "Decision": 0.0006,
+        "Facts": 0.1273,
+        "Issue": 0.0011,
+        "Reasoning": 0.6416
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Though undertaking is a word of large import, it has to be read and understood in the context where it occurs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0739,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0008,
+        "Facts": 0.023,
+        "Issue": 0.0005,
+        "Reasoning": 0.8707
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "In the present context, a Government of India undertaking would mean an undertaking run by the Government of India, that is to say, it belongs to the Government of India.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0385,
+        "Arguments of Respondent": 0.0753,
+        "Decision": 0.0011,
+        "Facts": 0.0242,
+        "Issue": 0.0003,
+        "Reasoning": 0.8606
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "We regret to record, it has not been so shown that IDBI Limited belongs to the Government of India and is run by it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8231,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0118,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0023,
+        "Facts": 0.1571,
+        "Issue": 0.0005,
+        "Reasoning": 0.8231
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "The transition of the Development Bank from a body corporate to a Company (IDBI Limited) without deep and pervasive administrative, financial and functional control of the Government of India over such Company having been shown gives us little reason to hold that after the enactment of the 2003 Act, IDBI Limited could still be regarded as an undertaking of the Government of India.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.0008,
+        "Facts": 0.0076,
+        "Issue": 0.0002,
+        "Reasoning": 0.9589
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "We place on record that Shri Bapat has not referred to any authority which lays down the test for identifying an entity as an undertaking of the Government of India and, hence, we have proceeded to decide the issue formulated at the beginning of the judgment based on our reading of the IDBI Act and the 2003 Act and our understanding of the meaning of the word undertaking referred to above.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0044,
+        "Facts": 0.0205,
+        "Issue": 0.0026,
+        "Reasoning": 0.957
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Submission of Shri Bapat that the CVC Act has been made applicable to IDBI Limited and that the Ministry of Corporate affairs having recorded IDBI Limited as a non banking Company and, therefore, IDBI Limited ought to be regarded as an undertaking of the Government of India, has failed to impress us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9799,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0004,
+        "Facts": 0.0088,
+        "Issue": 0.0003,
+        "Reasoning": 0.9799
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The vigilance control over IDBI Limited by the Central Vigilance Commission cannot be the guiding factor for exploring the answer to the issue which we are primarily tasked to decide.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9741,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0104,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0013,
+        "Facts": 0.0045,
+        "Issue": 0.0009,
+        "Reasoning": 0.9741
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "On this writ petition, we are not called upon to decide whether exercise of vigilance control over IDBI Limited by the Central Vigilance Commission is legal and valid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6117,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0297,
+        "Facts": 0.2432,
+        "Issue": 0.098,
+        "Reasoning": 0.6117
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "Such a question can be dealt with in an appropriate proceeding, if the occasion therefor arises.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0216,
+        "Arguments of Respondent": 0.0424,
+        "Decision": 0.0062,
+        "Facts": 0.0312,
+        "Issue": 0.0006,
+        "Reasoning": 0.898
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "Further, nothing substantial turns on holding of 51 share capital in IDBI Limited by LICI.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7678,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0487,
+        "Arguments of Respondent": 0.0664,
+        "Decision": 0.0007,
+        "Facts": 0.1158,
+        "Issue": 0.0006,
+        "Reasoning": 0.7678
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "By reason of the definition in section 2(45) of the Companies Act, 2013, IDBI Limited is not a Government company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3345,
+        "Arguments of Respondent": 0.3635,
+        "Decision": 0.0004,
+        "Facts": 0.1256,
+        "Issue": 0.0015,
+        "Reasoning": 0.1746
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "LICI could be a State as defined in Article 12 of the Constitution but by reason thereof, it does not necessarily follow that IDBI Limited would attain the status of State within the meaning of Article 12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1949,
+        "Arguments of Respondent": 0.2711,
+        "Decision": 0.0013,
+        "Facts": 0.0288,
+        "Issue": 0.0012,
+        "Reasoning": 0.5026
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "Also, reliance placed by the petitioner on the data maintained by the Ministry of Corporate Affairs on the Company (IDBI Limited) as per the requirement of the 1956 Act or the Companies Act, 2013 cannot be accepted as sacrosanct for ruling in favour of the petitioner having regard to the clear provisions of the applicable statutory enactments, as noted above.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0315,
+        "Arguments of Respondent": 0.0196,
+        "Decision": 0.0006,
+        "Facts": 0.1663,
+        "Issue": 0.0005,
+        "Reasoning": 0.7814
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "For the reasons aforesaid, the writ petition stands dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9274,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.9274,
+        "Facts": 0.0549,
+        "Issue": 0.0007,
+        "Reasoning": 0.0151
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "There shall be no orders as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9792,
+        "Facts": 0.0154,
+        "Issue": 0.0001,
+        "Reasoning": 0.0046
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "At this stage, Mr. Bapat prays that the interim order passed earlier may be continued for some time.",
+      "predicted_label": "Decision",
+      "confidence": 0.9234,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.9234,
+        "Facts": 0.0386,
+        "Issue": 0.0046,
+        "Reasoning": 0.017
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "In view of our conclusions, we see no reason to grant the prayer.",
+      "predicted_label": "Decision",
+      "confidence": 0.8948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.8948,
+        "Facts": 0.0137,
+        "Issue": 0.0003,
+        "Reasoning": 0.0895
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "This order will be digitally signed by the Private Secretary Personal Assistant of this court.",
+      "predicted_label": "Facts",
+      "confidence": 0.886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0151,
+        "Decision": 0.0483,
+        "Facts": 0.886,
+        "Issue": 0.0012,
+        "Reasoning": 0.0349
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "All concerned will act on production by fax or email of a digitally signed copy of this order.",
+      "predicted_label": "Facts",
+      "confidence": 0.958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0115,
+        "Facts": 0.958,
+        "Issue": 0.0004,
+        "Reasoning": 0.0167
+      }
+    }
+  ]
+}

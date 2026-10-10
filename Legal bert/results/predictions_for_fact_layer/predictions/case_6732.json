@@ -1,0 +1,1570 @@
+{
+  "case_id": "6732",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " Oral Judgment (P.B. Majmudar, J.)This appeal is directed against the judgment and order dated May 04, 2007 passed by the learned single Judge in Suit No.1724 of 1978.",
+      "predicted_label": "Issue",
+      "confidence": 0.6236,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0048,
+        "Facts": 0.3694,
+        "Issue": 0.6236,
+        "Reasoning": 0.0013
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "By the impugned judgment, the learned single Judge dismissed the suit of the appellant.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.6449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0006,
+        "Facts": 0.6449,
+        "Issue": 0.3518,
+        "Reasoning": 0.0017
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The appellant is the plaintiff in the aforesaid suit.",
+      "predicted_label": "Facts",
+      "confidence": 0.8302,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0005,
+        "Facts": 0.8302,
+        "Issue": 0.1592,
+        "Reasoning": 0.0081
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The plaintiff is a Public Limited Company registered under the Companies Act, 1913.",
+      "predicted_label": "Facts",
+      "confidence": 0.9838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9838,
+        "Issue": 0.003,
+        "Reasoning": 0.0096
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The defendants carry on general insurance business.",
+      "predicted_label": "Facts",
+      "confidence": 0.9479,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0002,
+        "Facts": 0.9479,
+        "Issue": 0.0181,
+        "Reasoning": 0.0252
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "During the period between 1st January, 1976 and 1st January, 1977, the plaintiff obtained five insurance policies from the defendants.",
+      "predicted_label": "Facts",
+      "confidence": 0.9727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9727,
+        "Issue": 0.0191,
+        "Reasoning": 0.007
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Each of the said five policies are in connection with covering the stock and stock in process of the Rayon Division Tyre Cord Division of the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0005,
+        "Facts": 0.9029,
+        "Issue": 0.0572,
+        "Reasoning": 0.0363
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The first four policies are described as policies in connection with the fire insurance and the same have been extended to cover a risk of loss and damage caused by riot and strike and malicious damage.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0355,
+        "Arguments of Respondent": 0.0244,
+        "Decision": 0.0002,
+        "Facts": 0.2774,
+        "Issue": 0.0163,
+        "Reasoning": 0.6462
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The agitating workmen alleged to have gathered in a mob and have attempted to reach the residence of the Senior VicePresident of the appellant company.",
+      "predicted_label": "Facts",
+      "confidence": 0.7817,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0335,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0004,
+        "Facts": 0.7817,
+        "Issue": 0.0024,
+        "Reasoning": 0.1678
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Since the management apprehended the risk about riot and widespread damage, ultimately declared a lock out from 2.00 a.m. on 26th July, 1976 in the Rayon and Tyre Cord Divisions.",
+      "predicted_label": "Facts",
+      "confidence": 0.8237,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0717,
+        "Decision": 0.0002,
+        "Facts": 0.8237,
+        "Issue": 0.0003,
+        "Reasoning": 0.0911
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "It is the case of the plaintiff that inspite of notice of lock out, the workmen remained within the factory and they were alleged to have stopped work in protest against the lock out until they left the premises with the assistance of police.",
+      "predicted_label": "Facts",
+      "confidence": 0.793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0261,
+        "Arguments of Respondent": 0.0149,
+        "Decision": 0.0002,
+        "Facts": 0.793,
+        "Issue": 0.0008,
+        "Reasoning": 0.1649
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The factory remained under lock out till 30th July, 1976 which was subsequently lifted on the intervention of Labour Minister of the State.",
+      "predicted_label": "Facts",
+      "confidence": 0.8564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0426,
+        "Arguments of Respondent": 0.0328,
+        "Decision": 0.0002,
+        "Facts": 0.8564,
+        "Issue": 0.0016,
+        "Reasoning": 0.0665
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "It is the further case of the plaintiff that as a result of refusal of the workers to continue to work, various processes could not be attended to as a result the viscos in the Rayon and Tyrecord Divisions, in the tanks and pipelines, machines and accessories coagulated and solidified.",
+      "predicted_label": "Facts",
+      "confidence": 0.8341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0266,
+        "Arguments of Respondent": 0.0455,
+        "Decision": 0.0004,
+        "Facts": 0.8341,
+        "Issue": 0.0004,
+        "Reasoning": 0.093
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The coagulation of viscose and dismantling and cleaning of the machinery is alleged to have resulted in damage to the plaintiff.",
+      "predicted_label": "Facts",
+      "confidence": 0.6899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0658,
+        "Arguments of Respondent": 0.0253,
+        "Decision": 0.001,
+        "Facts": 0.6899,
+        "Issue": 0.0367,
+        "Reasoning": 0.1813
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "The surveyor of the defendants, Mehta and Padamsey Pvt. Ltd., submitted a survey report on 12th January, 1997 and 5th December, 1977, quantifying the losses suffered by the plaintiff.",
+      "predicted_label": "Facts",
+      "confidence": 0.9849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0001,
+        "Facts": 0.9849,
+        "Issue": 0.0003,
+        "Reasoning": 0.0115
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The Defendant insurance Company, however, denied the claim of the plaintiff on the ground that the loss falls within an excepted peril and hence not covered by the five policies of insurance.",
+      "predicted_label": "Facts",
+      "confidence": 0.9825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0,
+        "Facts": 0.9825,
+        "Issue": 0.0068,
+        "Reasoning": 0.0084
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "It is the say of the defendant that the loss which the plaintiff claims to have sustained arose due to stoppage or cessation of work which is expressly excluded from the purview of the five insurance policies.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4395,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.4395,
+        "Decision": 0.0003,
+        "Facts": 0.2597,
+        "Issue": 0.0014,
+        "Reasoning": 0.2827
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "The learned single Judge framed various issues arising out of the pleadings and after considering the evidence on record and insurance policies came to the conclusion that the damage suffered by the Plaintiff has been caused by excluded perils consequent upon which the plaintiff is not entitled to recover any amount.",
+      "predicted_label": "Facts",
+      "confidence": 0.9745,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9745,
+        "Issue": 0.0064,
+        "Reasoning": 0.017
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The learned Judge found that in the present case, the damage caused to the plaintiff has not been caused by perils insured under the first four policies of insurance.",
+      "predicted_label": "Facts",
+      "confidence": 0.8781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0004,
+        "Facts": 0.8781,
+        "Issue": 0.0029,
+        "Reasoning": 0.1152
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The spoilage risk clause of the consequential loss policy would, therefore, not cover the claim raised by the plaintiff.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0629,
+        "Arguments of Respondent": 0.0353,
+        "Decision": 0.0294,
+        "Facts": 0.0784,
+        "Issue": 0.0008,
+        "Reasoning": 0.7932
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The learned single Judge dismissed the suit against which the present appeal has been filed by the original plaintiff.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9865,
+        "Issue": 0.0118,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Mr. Rahul Narichania, learned counsel appearing for the appellant, vehemently submitted that the learned single Judge has gravely erred in dismissing the claim of the plaintiff, though according to him, as per the insurance policies, risk was covered and the defendants having accepted the premium for covering such a loss was bound to compensate the plaintiff in the matter of making necessary payments towards the loss suffered by the plaintiff.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9907,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9907,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.0018,
+        "Issue": 0.0004,
+        "Reasoning": 0.006
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "It is submitted by the learned counsel for the appellant that the plaintiff has already led proper evidence before the learned single Judge pointing out as to how the machineries of the Company were damaged in view of the strike of the employees.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9075,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9075,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0029,
+        "Facts": 0.0114,
+        "Issue": 0.0005,
+        "Reasoning": 0.0726
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "It is submitted that the sophisticated machines are required to be attended continuously and if it is not properly attended and allowed to continue in the running position, it is bound to suffer heavy damage which fact, according to him, is proved by the Surveyors report also.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3545,
+        "Arguments of Respondent": 0.6106,
+        "Decision": 0.0003,
+        "Facts": 0.0167,
+        "Issue": 0.0002,
+        "Reasoning": 0.0176
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "It is submitted by the learned counsel for the appellant that the insurance policy and special conditions attached to it are required to be read in a harmonious manner.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9298,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0004,
+        "Facts": 0.0031,
+        "Issue": 0.0005,
+        "Reasoning": 0.0622
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "It is submitted that if the workers, without attending the machinery, allowed the machines to run as it is, it can be said to be a wilful act of a striker in furtherance of a strike and it need not be that there should be a specific act on the part of the striker by resorting to any violence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5269,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5269,
+        "Arguments of Respondent": 0.4023,
+        "Decision": 0.0003,
+        "Facts": 0.0065,
+        "Issue": 0.001,
+        "Reasoning": 0.063
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "Learned counsel for the appellant submitted that when a striker fails to attend machinery and if the machinery is allowed to work continuously without any supervision and if the machinery becomes useless and loss is caused, as per clause 3 of the policy, the insured is entitled to receive the amount from the Insurance Company towards the loss and damage sustained by the insured.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9766,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9766,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0002,
+        "Facts": 0.0028,
+        "Issue": 0.0004,
+        "Reasoning": 0.0176
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "It is submitted that the Insurance Company, without any basis, has denied the just claim of the plaintiff, even though the case is already covered by the insurance policies in question.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6824,
+        "Arguments of Respondent": 0.215,
+        "Decision": 0.0011,
+        "Facts": 0.0565,
+        "Issue": 0.0033,
+        "Reasoning": 0.0416
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "It is submitted that the special conditions attached thereto has no application to deny the just claim of the plaintiff.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3375,
+        "Arguments of Respondent": 0.5846,
+        "Decision": 0.0008,
+        "Facts": 0.0529,
+        "Issue": 0.0013,
+        "Reasoning": 0.0229
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The learned counsel for the appellant has taken us through the various clauses of policies in question along with the special conditions attached to it.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9408,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9408,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0006,
+        "Facts": 0.008,
+        "Issue": 0.0009,
+        "Reasoning": 0.0466
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The learned counsel for the appellant has also relied upon the decision of the Kerala High Court in the case of Sujir Ganesh Nayak Co., Quilon vs. National Insurance Co. Ltd., Calcutta and another AIR 1996 Kerala 49 as well as the decision of the learned single Judge of this Court dated 10th June, 2009 in the case of The NRC Ltd. and another vs. The New India Assurance Company Ltd., in Suit No.1164 to 1166 of 1979, to substantiate his say that special condition No.5(i)(b) has no application in the facts of the case and that the appeal is required to be allowed by decreeing the suit of the plaintiff.5.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9139,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0006,
+        "Facts": 0.0168,
+        "Issue": 0.001,
+        "Reasoning": 0.0654
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Mr. Cyrus Bharucha, learned counsel appearing for the respondents, with the assistance of Mr. E.P. Bharucha, senior counsel, in his turn submits that on a perusal of the various clauses of the insurance policy, it is clear that the risk in question is not covered by the insurance policies and, therefore, the plaintiff is not entitled to receive any amount so far as loss which the plaintiff has suffered in connection with the damage to the machineries of the plaintiff.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.9926,
+        "Decision": 0.0002,
+        "Facts": 0.0007,
+        "Issue": 0.0002,
+        "Reasoning": 0.0039
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The learned counsel further submits that the special conditions are part and parcel of the riot and strike endorsement in the policy.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5142,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4765,
+        "Arguments of Respondent": 0.5142,
+        "Decision": 0.0002,
+        "Facts": 0.0031,
+        "Issue": 0.0003,
+        "Reasoning": 0.0057
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 33,
+      "text": "The claim of the plaintiff is, therefore, always subject to the special conditions forming part of strike and riot endorsement in the policies obtained by the plaintiff and clause (3) in the endorsement cannot be read in isolation but it has to be read with special conditions attached with the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0448,
+        "Arguments of Respondent": 0.0218,
+        "Decision": 0.0072,
+        "Facts": 0.101,
+        "Issue": 0.0007,
+        "Reasoning": 0.8245
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The learned counsel further submits that as per the special conditions attached with the endorsement, loss or damage resulting from total or partial cessation of work or retarding or interruption or cessation of any process or operation is excluded from the risk covered by the insurance company and accordingly the learned single has rightly dismissed the suit of the plaintiff as the risk in question has not been covered nor any premium is paid in connection with the said risk by the plaintiff.6.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1865,
+        "Arguments of Respondent": 0.8047,
+        "Decision": 0.0001,
+        "Facts": 0.0038,
+        "Issue": 0.0002,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The principal question which requires consideration is as to whether the loss sustained by the plaintiff can be said to be covered by the insurance policies and whether the plaintiff can be said to be insured in connection with such loss or damage sustained by the plaintiff.8.",
+      "predicted_label": "Issue",
+      "confidence": 0.9046,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0002,
+        "Facts": 0.0716,
+        "Issue": 0.9046,
+        "Reasoning": 0.017
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "On behalf of the plaintiff, another affidavit in lieu of examinationinchief was tendered of a witness viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.8153,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0508,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0004,
+        "Facts": 0.8153,
+        "Issue": 0.0008,
+        "Reasoning": 0.1212
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Prahladrai Mohanlal Singrodia, who was working as an Officerincharge of the Costing, Insurance and Finance Department of the Company at its factory at Shahad, Dist.",
+      "predicted_label": "Facts",
+      "confidence": 0.9808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9808,
+        "Issue": 0.0038,
+        "Reasoning": 0.0135
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "Thane.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7671,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0522,
+        "Facts": 0.1561,
+        "Issue": 0.0005,
+        "Reasoning": 0.7671
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "In the affidavit he has given description about the strike resorted to by the workmen.",
+      "predicted_label": "Facts",
+      "confidence": 0.4822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0306,
+        "Decision": 0.0009,
+        "Facts": 0.4822,
+        "Issue": 0.0003,
+        "Reasoning": 0.4563
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "In the crossexamination, the said witness has given reply to question No.17 and stated that there were regular slogan shouting at the time of the change of shifts by the workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6031,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0424,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.0013,
+        "Facts": 0.3365,
+        "Issue": 0.0002,
+        "Reasoning": 0.6031
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "On behalf of the defendants, affidavit of Mr. Virendra Shah, Director of M s. Mehta and Padamsey Private limited, Surveyors, Assessors and Valuers, in lieu of examinationinchief was tendered.",
+      "predicted_label": "Facts",
+      "confidence": 0.8425,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0451,
+        "Arguments of Respondent": 0.0611,
+        "Decision": 0.0003,
+        "Facts": 0.8425,
+        "Issue": 0.0013,
+        "Reasoning": 0.0497
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "In paragraph 7 of the affidavit he has averred that there was substantial damage caused to the stock in process and machinery and accessories of the Plaintiffs Rayon and Tyre Cord Divisions.",
+      "predicted_label": "Facts",
+      "confidence": 0.5182,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0378,
+        "Arguments of Respondent": 0.0376,
+        "Decision": 0.0007,
+        "Facts": 0.5182,
+        "Issue": 0.0003,
+        "Reasoning": 0.4054
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 43,
+      "text": "The damage was caused by the coagulation solidification of viscose in the machines and accessories of the Plaintiffs Rayon and Tyre Cord Divisions.",
+      "predicted_label": "Facts",
+      "confidence": 0.8579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0014,
+        "Facts": 0.8579,
+        "Issue": 0.0015,
+        "Reasoning": 0.1245
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "In his affidavit he has stated that there was no broken machinery.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6921,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0808,
+        "Arguments of Respondent": 0.0728,
+        "Decision": 0.0016,
+        "Facts": 0.1525,
+        "Issue": 0.0001,
+        "Reasoning": 0.6921
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "According to the said witness, since the workmen had not resorted to violence or there was no overt act in the matter of damaging the machinery, the risk is not covered by the insurance policies.",
+      "predicted_label": "Facts",
+      "confidence": 0.4923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1514,
+        "Arguments of Respondent": 0.1147,
+        "Decision": 0.0003,
+        "Facts": 0.4923,
+        "Issue": 0.0009,
+        "Reasoning": 0.2404
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "This is the only oral evidence on record of the case.11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5256,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0003,
+        "Facts": 0.4521,
+        "Issue": 0.0002,
+        "Reasoning": 0.5256
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "The question which requires consideration is as to whether by not attending the machineries because of the strike and if any damage has been caused to the machineries which ultimately resulted loss to the company, whether the insurance company is bound to indemnify such loss in view of the insurance policies in question.",
+      "predicted_label": "Issue",
+      "confidence": 0.8229,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0007,
+        "Facts": 0.0477,
+        "Issue": 0.8229,
+        "Reasoning": 0.1152
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "As pointed out earlier, riot and strike endorsement has been subsequently added in the original insurance policies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0335,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.0041,
+        "Facts": 0.1038,
+        "Issue": 0.0011,
+        "Reasoning": 0.8338
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The insurance company has taken the risk of indemnifying the insured in case of damage sustained by the Company in case of riot and strike.",
+      "predicted_label": "Facts",
+      "confidence": 0.6273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0203,
+        "Arguments of Respondent": 0.0231,
+        "Decision": 0.0011,
+        "Facts": 0.6273,
+        "Issue": 0.003,
+        "Reasoning": 0.3252
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "However, such riot and strike policy is subject to special conditions attached with the riot and strike endorsement.",
+      "predicted_label": "Facts",
+      "confidence": 0.4621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.192,
+        "Arguments of Respondent": 0.1244,
+        "Decision": 0.0022,
+        "Facts": 0.4621,
+        "Issue": 0.0016,
+        "Reasoning": 0.2178
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "As per condition No.3, if there is any wilful act of any striker or locked out worker done in furtherance of a strike or in resistance to a lock out and if any loss or damage to the property occurred which may be attributed directly by such wilful act of a striker, then the insurance company is bound to indemnify such loss.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8152,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0003,
+        "Facts": 0.168,
+        "Issue": 0.0007,
+        "Reasoning": 0.8152
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "It is, however, required to be noted that clause (3) is subject to special conditions attached with the aforesaid endorsement on the policy i.e. Riot and strike endorsement in the policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0232,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0015,
+        "Facts": 0.0406,
+        "Issue": 0.0009,
+        "Reasoning": 0.9279
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "So far as special conditions are concerned, condition No.5(b) clearly provides that the insurance does not cover any damage or loss resulting from total or partial cessation of work or the retarding or interruption or cessation of any process or operation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0001,
+        "Facts": 0.0208,
+        "Issue": 0.0003,
+        "Reasoning": 0.964
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Therefore clause (b) cannot be made applicable in the present case to deny the claim of the plaintiff as, according to him, in every case of strike there is always a cessation of work and when insurance company has taken extra premium in connection with any loss caused by way of any wilful act of a striker, the insurance company cannot deny the just claim of the plaintiff by resorting to clause 5 (b) of the policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8991,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.0347,
+        "Decision": 0.0007,
+        "Facts": 0.0264,
+        "Issue": 0.0006,
+        "Reasoning": 0.8991
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "It is further submitted that such clause is to be interpreted in case where there is a loss or damage due to cessation of work which cessation of work can be attributed to any other eventuality like natural calamity, flood or in a given case there should be malfunctioning of the machinery or power failure or lack of raw material etc.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5133,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5133,
+        "Arguments of Respondent": 0.4331,
+        "Decision": 0.0001,
+        "Facts": 0.011,
+        "Issue": 0.0004,
+        "Reasoning": 0.042
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 56,
+      "text": "If any damage is caused to the machinery, the insurance company is bound to indemnify such loss in view of the fact that the Company has taken riot and strike policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6288,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0715,
+        "Arguments of Respondent": 0.0554,
+        "Decision": 0.0068,
+        "Facts": 0.2257,
+        "Issue": 0.0118,
+        "Reasoning": 0.6288
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "If the machine is damaged on the ground that the workers have not attended the same by virtue of cessation of work, in such eventuality the insurance company is bound to indemnify such loss.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8576,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0235,
+        "Arguments of Respondent": 0.0298,
+        "Decision": 0.0006,
+        "Facts": 0.0848,
+        "Issue": 0.0036,
+        "Reasoning": 0.8576
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "It is submitted by the learned counsel for the appellant that in the instant case the workmen abstained from attending the machines and these machines were highly sophisticated one which requires total monitoring from time to time and when the machines were allowed to run in the manner in which they were allowed to run ultimately resulted damage to such machineries for which Surveyors report is also very clear.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8612,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.003,
+        "Facts": 0.0247,
+        "Issue": 0.0005,
+        "Reasoning": 0.1034
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "In order to substantiate his say the learned counsel has relied upon the judgment of the Kerala High Court in the case of Sujir Ganesh Nayak (supra).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.621,
+        "Arguments of Respondent": 0.2856,
+        "Decision": 0.0002,
+        "Facts": 0.0063,
+        "Issue": 0.0001,
+        "Reasoning": 0.0867
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 60,
+      "text": "The Division Bench of the Kerala High Court has considered similar type of policy and similar type of clauses in the insurance policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7821,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0629,
+        "Arguments of Respondent": 0.0496,
+        "Decision": 0.0018,
+        "Facts": 0.1027,
+        "Issue": 0.0008,
+        "Reasoning": 0.7821
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "In the aforesaid case, the learned single Judge rejected the claim of the plaintiff therein on the ground that as per the special conditions similar to our case, the loss cannot be stated to have been covered by the insurance policies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8171,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0694,
+        "Arguments of Respondent": 0.0538,
+        "Decision": 0.0011,
+        "Facts": 0.0581,
+        "Issue": 0.0004,
+        "Reasoning": 0.8171
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "The single Judge accordingly dismissed the suit filed by the insured.",
+      "predicted_label": "Facts",
+      "confidence": 0.9318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0003,
+        "Facts": 0.9318,
+        "Issue": 0.0438,
+        "Reasoning": 0.0214
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "The Division Bench while reversing the judgment of the single Judge held as underFrom a reading of the special conditions it is clear that what the contracting parties intended was that if any loss is caused due to cessation of work or interruption of work and for that reasons loss is caused, that will not be covered by the policy.",
+      "predicted_label": "Facts",
+      "confidence": 0.9475,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0002,
+        "Facts": 0.9475,
+        "Issue": 0.0046,
+        "Reasoning": 0.0374
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "If the cessation or interruption of work can be directly attributed to the strike by the workers, that will not exclude the liability of the insurance company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8647,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0543,
+        "Arguments of Respondent": 0.0503,
+        "Decision": 0.0011,
+        "Facts": 0.0192,
+        "Issue": 0.0103,
+        "Reasoning": 0.8647
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "If such an interpretation is accepted, under no circumstances, the loss if any sustained by the insured due to riot and strike can be said to be under the cover of the insurance policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1001,
+        "Arguments of Respondent": 0.056,
+        "Decision": 0.0018,
+        "Facts": 0.0458,
+        "Issue": 0.0031,
+        "Reasoning": 0.7932
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "Ordinarily, the strike by the workers will cause cessation or interruption of work.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9193,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0337,
+        "Arguments of Respondent": 0.0198,
+        "Decision": 0.0004,
+        "Facts": 0.0243,
+        "Issue": 0.0023,
+        "Reasoning": 0.9193
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "If the loss sustained due to such cessation or interruption of work is not covered by the policy, the special conditions will have an overriding effect on the riot and strike endorsement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0401,
+        "Arguments of Respondent": 0.0363,
+        "Decision": 0.0005,
+        "Facts": 0.1868,
+        "Issue": 0.0025,
+        "Reasoning": 0.7338
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "Therefore, in our view, the special conditions stated in clause 5 (i) (b) is not applicable to the facts of the case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0181,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0006,
+        "Facts": 0.0504,
+        "Issue": 0.0003,
+        "Reasoning": 0.9227
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "Here the loss sustained by the appellant is directly attributable to the strike by the workers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0233,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0088,
+        "Facts": 0.0166,
+        "Issue": 0.0006,
+        "Reasoning": 0.9428
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "If the cessation or interruption of work was caused by any break down of machinery or other reason, such loss would not be covered under the policy.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.0002,
+        "Facts": 0.0591,
+        "Issue": 0.0013,
+        "Reasoning": 0.8934
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "We have considered both these judgments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0444,
+        "Arguments of Respondent": 0.0609,
+        "Decision": 0.0015,
+        "Facts": 0.011,
+        "Issue": 0.0016,
+        "Reasoning": 0.8806
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Though the argument of the learned counsel for the appellant at the first blush looks attractive but, in our view, on closure scrutiny of the policies in question, along with the special conditions attached thereto, it is not possible for us to accept the view canvassed by the learned counsel for the appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0267,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0011,
+        "Facts": 0.009,
+        "Issue": 0.0005,
+        "Reasoning": 0.9539
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "It is indeed true that the machineries in question were damaged because of the fact that the same were not properly attended to by the striking workers and it was allowed to continue in the running position, without taking care of either switching off the running machines or by not allowing the same to be functional by properly putting the raw material etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0179,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.0113,
+        "Facts": 0.1334,
+        "Issue": 0.001,
+        "Reasoning": 0.8227
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "In this behalf we accept the evidence of the plaintiff that the machineries have become useless because of not being properly attended to by the striking workmen and the same were allowed to remain in running condition as it is.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0104,
+        "Facts": 0.0343,
+        "Issue": 0.0003,
+        "Reasoning": 0.9339
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "It is also true that by not attending the machineries by the striking workers, one can say that it is a wilful act of a striker in furtherance of a strike or in resistance to a lock out, as the case may be.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0009,
+        "Facts": 0.0243,
+        "Issue": 0.0022,
+        "Reasoning": 0.9357
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "We agree with the learned counsel for the appellant that it may not be necessary that the wilful act may be treated as any overt act in such manner that it can have a direct impact to the damage caused to the machinery in question.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0235,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0077,
+        "Facts": 0.0108,
+        "Issue": 0.0024,
+        "Reasoning": 0.9498
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "However, as pointed out earlier, the special conditions which form part and parcel of the riot and strike endorsement and more particularly condition 5(i)(b) which clearly provides that the insurance policy does not cover loss or damage resulting from total or partial cessation of work or the retarding or interruption or cessation of any process or operation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8998,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0309,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0004,
+        "Facts": 0.0432,
+        "Issue": 0.0017,
+        "Reasoning": 0.8998
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "Once these special conditions are attached with the riot and strike policy, clause 3 has to be read along with condition No.5 attached with the policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7244,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1118,
+        "Arguments of Respondent": 0.0888,
+        "Decision": 0.0008,
+        "Facts": 0.0732,
+        "Issue": 0.001,
+        "Reasoning": 0.7244
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "These special conditions are accordingly part and parcel of the insurance policy itself.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9359,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0011,
+        "Facts": 0.0507,
+        "Issue": 0.0003,
+        "Reasoning": 0.9359
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "Reading the said clause 5(i)(b), it is clear that if any loss or damage is sustained by the insured in view of total or partial cessation of work or the retarding or interruption or cessation of any process or operation, such loss is not insured by the insurance company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0001,
+        "Facts": 0.0182,
+        "Issue": 0.0004,
+        "Reasoning": 0.9585
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "We cannot give such a restrictive meaning to clause (b) that cessation of work should only be considered in case of other natural calamities and not in the case where such cessation of work is due to any act of the striker.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9688,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0135,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0001,
+        "Facts": 0.01,
+        "Issue": 0.0005,
+        "Reasoning": 0.9688
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "Once these special conditions are attached to the policy which cover the risk in case of riot and strike, naturally condition 5(i)(b) is said to be part and parcel of riot and strike endorsement which is added in the policy later on.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9211,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0245,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.0001,
+        "Facts": 0.0349,
+        "Issue": 0.0006,
+        "Reasoning": 0.9211
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Clause 3 in the policy is required to be read with special conditions attached with the policy and the said clause cannot be read in isolation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5332,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2057,
+        "Arguments of Respondent": 0.1606,
+        "Decision": 0.0058,
+        "Facts": 0.0942,
+        "Issue": 0.0004,
+        "Reasoning": 0.5332
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "It is clear that if any damage is caused to the machinery by virtue of any overt act by the workmen during the strike, the insurance company is bound to indemnify the losses but not for any loss which is caused to the machinery in case of cessation of work.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0397,
+        "Arguments of Respondent": 0.0187,
+        "Decision": 0.0005,
+        "Facts": 0.0098,
+        "Issue": 0.004,
+        "Reasoning": 0.9273
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "The learned counsel for the appellant submits that, in other words, in no case the insured can get any amount in case of strike even though insurance company accepts the premium in this behalf.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8827,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.003,
+        "Facts": 0.0203,
+        "Issue": 0.0011,
+        "Reasoning": 0.089
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "So far as this argument is concerned, the simple answer to this is that in a case where by any overt act of a striker, by which the machinery is made nonoperational, by resorting to any violence or damaging the machinery by physical act, in that case naturally the insurance company is bound to indemnify the insured.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9523,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0005,
+        "Facts": 0.0081,
+        "Issue": 0.0013,
+        "Reasoning": 0.9523
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "On a closure scrutiny of Clause 3 read with Condition No.5 (i) (b), in our view, in case where a workman who has resorted to strike by which the machinery is damaged by some positive act on the part of workmen, such loss sustained by the insured is required to be indemnified by the insurance company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0193,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0014,
+        "Facts": 0.0041,
+        "Issue": 0.0028,
+        "Reasoning": 0.9665
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "In a case where by passive act of the workers if the machinery is ultimately damaged on account of the fact that the same was not being attended to by the workers, such risk in the policies, in our view, is not covered in view of the special conditions attached with the policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0138,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0011,
+        "Facts": 0.0108,
+        "Issue": 0.0006,
+        "Reasoning": 0.9666
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "In our view, what is covered by the policy is only damage to the machinery by which the insured has sustained loss.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0016,
+        "Facts": 0.0075,
+        "Issue": 0.0008,
+        "Reasoning": 0.9735
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "In the instant case the loss or damage that was sustained by the plaintiff was occasioned by a cessation of work or by a retardation, interruption or cessation of the process of operation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0175,
+        "Decision": 0.0007,
+        "Facts": 0.0131,
+        "Issue": 0.0007,
+        "Reasoning": 0.9383
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "A loss caused by the cessation of work is expressly excluded from the insured perils in the first four policies as well as in the policy providing for consequential loss.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9124,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0303,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.0006,
+        "Facts": 0.0378,
+        "Issue": 0.0012,
+        "Reasoning": 0.9124
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "It is submitted that even a passive act of the workmen is sufficient to hold that because of something which has been done by the workmen in furtherance of the strike that such damage has been caused to the machinery of the Company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6494,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6494,
+        "Arguments of Respondent": 0.2933,
+        "Decision": 0.0003,
+        "Facts": 0.0073,
+        "Issue": 0.0016,
+        "Reasoning": 0.0481
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 93,
+      "text": "Mr. Bharucha, the learned counsel for the respondents has argued that if any extra premium is paid by the insured for covering the risk when there is a damage to the machinery on account of cessation of work by the workmen, then in such eventuality even the insurance company is required to indemnify the insured.16.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9387,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.9387,
+        "Decision": 0.0003,
+        "Facts": 0.0009,
+        "Issue": 0.0002,
+        "Reasoning": 0.0547
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "Considering the recitals in the insurance policy including the special conditions, we are not in a position to accept the view taken by the Division Bench of the Kerala High Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9658,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0171,
+        "Facts": 0.0046,
+        "Issue": 0.0003,
+        "Reasoning": 0.9658
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "At the cost of repetition, we may say that in a given case if there is any positive act on the part of the workmen by damaging the machinery in furtherance of the strike, such loss sustained by the company is required to the indemnified by the insurance company as per the policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0004,
+        "Facts": 0.0042,
+        "Issue": 0.007,
+        "Reasoning": 0.969
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "In a case where physical act or violence or overt act is directly attributed to the damage or loss to the machinery due to the act of the striking workmen, such risk can be said to have been covered under the policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0436,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.0034,
+        "Facts": 0.012,
+        "Issue": 0.0217,
+        "Reasoning": 0.8952
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "We are, therefore not in a position to accept the view of the Kerala High Court that in no case such risk can be said to have been covered even though insurance company accept the premium towards riot and strike policy.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0046,
+        "Facts": 0.0064,
+        "Issue": 0.0003,
+        "Reasoning": 0.9743
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "So far as the decision of the learned single Judge in the case of the NRC Ltd. (supra) is concerned, as per the evidence available in that case it was found that the workmen resorted to violence and the said act was directly attributed to the loss sustained by the company and the machinery was damaged because of violence carried out by the striking workers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0587,
+        "Arguments of Respondent": 0.0553,
+        "Decision": 0.0082,
+        "Facts": 0.0382,
+        "Issue": 0.0004,
+        "Reasoning": 0.8393
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "That is not the factual aspect in the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9571,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0005,
+        "Facts": 0.0149,
+        "Issue": 0.0002,
+        "Reasoning": 0.9571
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "In the instant case, the evidence on record clearly establish that admittedly the striking workmen had not resorted to any violence but it was a peaceful strike.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0723,
+        "Arguments of Respondent": 0.0544,
+        "Decision": 0.0081,
+        "Facts": 0.0132,
+        "Issue": 0.002,
+        "Reasoning": 0.8499
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "This aspect has not been disputed by the learned counsel for the appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0825,
+        "Arguments of Respondent": 0.0715,
+        "Decision": 0.0039,
+        "Facts": 0.0605,
+        "Issue": 0.0038,
+        "Reasoning": 0.7778
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "The main argument of the learned counsel for the appellant is that even if the workmen resorted to peaceful demonstration but by not attending the machineries if there is any loss caused to the insured as the machinery has ultimately become nonfunctional, such loss is also covered under the riot and fire policy.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.941,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0003,
+        "Facts": 0.0089,
+        "Issue": 0.0013,
+        "Reasoning": 0.0455
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "It is also required to be noted that the special conditions are part and parcel of riot and strike policy and this riot and strike policy contains such special clause prescribed in the policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0124,
+        "Decision": 0.0009,
+        "Facts": 0.1495,
+        "Issue": 0.0006,
+        "Reasoning": 0.8194
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "The special conditions have been attached in the riot and strike endorsement and the same is to be read in connection with the riot and strike endorsement in the policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1342,
+        "Arguments of Respondent": 0.1691,
+        "Decision": 0.0053,
+        "Facts": 0.1082,
+        "Issue": 0.0007,
+        "Reasoning": 0.5825
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 105,
+      "text": "In view of what is stated above, we are unable to accept the said submission canvassed by the learned counsel for the appellant.18.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0332,
+        "Arguments of Respondent": 0.0223,
+        "Decision": 0.0018,
+        "Facts": 0.0056,
+        "Issue": 0.0003,
+        "Reasoning": 0.9367
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "In our view, unless both the eventualities are present i.e. strike of the workmen and when there is an overt act on the part of the workmen during such strike which has a direct bearing to the loss suffered by the company, in such an eventuality the insurance company is required to indemnify such loss as per the riot and strike policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9312,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0303,
+        "Arguments of Respondent": 0.0171,
+        "Decision": 0.0015,
+        "Facts": 0.0179,
+        "Issue": 0.002,
+        "Reasoning": 0.9312
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "In fact, as per the evidence on record, it is clear that the workmen had not resorted to any violent act or not resorted to any violence and tried to damage the machinery by way of violent act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0202,
+        "Arguments of Respondent": 0.0191,
+        "Decision": 0.0273,
+        "Facts": 0.0369,
+        "Issue": 0.0032,
+        "Reasoning": 0.8933
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "In view of the same, we agree with the ultimate decision by the learned single Judge to the effect that no relief can be granted to the plaintiff as claimed by the plaintiff in the suit.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9523,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0174,
+        "Facts": 0.0226,
+        "Issue": 0.0002,
+        "Reasoning": 0.9523
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "We accordingly find that the appeal is devoid of merit and hence the same is dismissed with no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9869,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.9869,
+        "Facts": 0.0041,
+        "Issue": 0.0001,
+        "Reasoning": 0.008
+      }
+    }
+  ]
+}

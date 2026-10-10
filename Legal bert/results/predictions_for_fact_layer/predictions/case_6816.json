@@ -1,0 +1,931 @@
+{
+  "case_id": "6816",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "All these three petitions under Article 226 of the Constitution of India purporting to be public interest litigation, have been filed by the same petitioner  Sambhaji Savakar Jadhav, mainly alleging violation of Guidelines for Foreign Direct Investment (FDI), particularly the Guideline imposing 26 Cap on FDI in Insurance Sector.2.",
+      "predicted_label": "Issue",
+      "confidence": 0.7604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0009,
+        "Facts": 0.2373,
+        "Issue": 0.7604,
+        "Reasoning": 0.0006
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "In PIL No.34 of 2013, the petitioner is complaining about alleged violation of FDI Regulations by Future Generali Life Insurance Company Ltd. (Future Generali) and for seeking suspension of its licence and for removing its Directors and members of the Managing Committee.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.7994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0013,
+        "Facts": 0.7994,
+        "Issue": 0.1965,
+        "Reasoning": 0.0015
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "In PIL No.42 of 2013, the petitioner is seeking a direction against Insurance Regulatory Development Authority (IRDA) to (i) levy monetary penalty on Future Generali for alleged FDI violation(ii) to conduct probe into capital structuring by Future Generali and to direct IRDA to withhold its approval to the transaction of stake sale by Future Generalis any of the insurance ventures or by any other promoters to any entity(iii) on the ground of illegal transactions undertaken by Participatie Maathaschappij Graafschaap Generali) to direct IRDA to deny the continuation of the business by the said Company or any of their group company.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.5881,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1164,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0037,
+        "Facts": 0.5881,
+        "Issue": 0.2665,
+        "Reasoning": 0.0235
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "In PIL No.41 of 2013, the petitioner has sought probe into (i) the share holdings of Bank of India and Union of India in the Board of Star Union",
+      "predicted_label": "Facts",
+      "confidence": 0.7751,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0647,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0063,
+        "Facts": 0.7751,
+        "Issue": 0.0015,
+        "Reasoning": 0.1465
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The serious objection raised by the learned counsel for the Respondents is that the Petitioner is only a front put up by Shri Partha Sarathy Sarkar (his Advocate), who was an employee of Future Generali and was posted under Shri Girish Kulkarni, Shri Partha Sarathy Sarkar came to be dismissed from service of Future Generali and, therefore, the present petitions have been filed to take revenge of his dismissal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.9115,
+        "Decision": 0.0001,
+        "Facts": 0.0165,
+        "Issue": 0.0006,
+        "Reasoning": 0.0679
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The petitions are thus filed out of vendetta against Future Generali and against Shri Girish Kulkarni.",
+      "predicted_label": "Facts",
+      "confidence": 0.5746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1055,
+        "Arguments of Respondent": 0.2357,
+        "Decision": 0.0006,
+        "Facts": 0.5746,
+        "Issue": 0.0019,
+        "Reasoning": 0.0817
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "On merits, it is submitted on behalf of the Respondents that the Respondents have not committed violation or breach of FDI Policy FDI Regulations and that present three PILs are filed mala fide and out of vendetta against Future Generali and against Shri Girish Kulkarni.7.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.744,
+        "Decision": 0.0002,
+        "Facts": 0.2331,
+        "Issue": 0.0007,
+        "Reasoning": 0.0175
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The learned Advocate for the petitioner, however, would submit that Future Generali has committed serious violations of FDI Guidelines by manipulating the prices of shares.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8327,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8327,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0018,
+        "Facts": 0.1017,
+        "Issue": 0.0024,
+        "Reasoning": 0.0593
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "It is contended that as per FDI Guidelines at the relevant time, there could not have been any FDI exceeding 26.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.605,
+        "Arguments of Respondent": 0.3128,
+        "Decision": 0.0005,
+        "Facts": 0.0403,
+        "Issue": 0.0028,
+        "Reasoning": 0.0386
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "But, it is alleged that, Shri Girish Kulkarni was a senior management employee of Future Grup of Companies  Pantaloon Retail Financial Services.",
+      "predicted_label": "Facts",
+      "confidence": 0.3603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3403,
+        "Arguments of Respondent": 0.1887,
+        "Decision": 0.0004,
+        "Facts": 0.3603,
+        "Issue": 0.0034,
+        "Reasoning": 0.1069
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 10,
+      "text": "Within a year or so of his joining, he got started Future Generali Life and Nonlife Insurance in which the actual FDI of the Holland based company Participatie Maatschappij Graffschaap was about 50.",
+      "predicted_label": "Facts",
+      "confidence": 0.9682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9682,
+        "Issue": 0.0007,
+        "Reasoning": 0.0285
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "However, it was disguised to sub 26 so as to fit within the FDI cap.",
+      "predicted_label": "Facts",
+      "confidence": 0.8482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0395,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0001,
+        "Facts": 0.8482,
+        "Issue": 0.0023,
+        "Reasoning": 0.0905
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "It is contended that the manipulation has taken place by Pantaloons by manipulating the prices of its shares.10.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7292,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7292,
+        "Arguments of Respondent": 0.1094,
+        "Decision": 0.0002,
+        "Facts": 0.1395,
+        "Issue": 0.0016,
+        "Reasoning": 0.0201
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The advocate for the petitioner does not dispute the application of Clause 3.4.2 of the Consolidated FDI Policy.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5752,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0052,
+        "Facts": 0.3087,
+        "Issue": 0.0124,
+        "Reasoning": 0.0894
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "It is clear that the Consolidated FDI Policy provides that clause (a) will apply only where the shares of the company are listed on any recognized stock exchange in India.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.66,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0006,
+        "Facts": 0.3256,
+        "Issue": 0.0017,
+        "Reasoning": 0.66
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "Future Generali is not listed on any recognized stock exchange in India.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3613,
+        "Arguments of Respondent": 0.2864,
+        "Decision": 0.0004,
+        "Facts": 0.2319,
+        "Issue": 0.002,
+        "Reasoning": 0.118
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "Hence, clause (a) will not apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0621,
+        "Arguments of Respondent": 0.0404,
+        "Decision": 0.003,
+        "Facts": 0.1392,
+        "Issue": 0.0005,
+        "Reasoning": 0.7549
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Now, it is not the case of the petitioner that price of shares issued to Participatie Maathaschappij Graafschaap was less than the fair valuation of the shares done by SEBI registered categoryI Merchant Banker or a Chartered Accountant as per the discounted free cash flow method or that the price was less than the price as applicable to transfer of shares from resident to nonresident as per the pricing guidelines laid down by the Reserve Bank of India from time to time, where the issue of shares is on preferential allotment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6233,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0004,
+        "Facts": 0.3356,
+        "Issue": 0.0006,
+        "Reasoning": 0.6233
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "On the contrary, it is the case of the Respondents, and not disputed by the Petitioner, that the price at which the shares in Future Generali were offered to Participatie Maathaschappij Graafschaap, a Holland based company, was more than the price determined under the above formula prescribed in clauses (b) and (c) of the FDI Policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4082,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0286,
+        "Arguments of Respondent": 0.1706,
+        "Decision": 0.0001,
+        "Facts": 0.3909,
+        "Issue": 0.0016,
+        "Reasoning": 0.4082
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "The petitioner has also not invoked the last part of Regulation 3.4.2.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5011,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1515,
+        "Arguments of Respondent": 0.0239,
+        "Decision": 0.002,
+        "Facts": 0.3177,
+        "Issue": 0.0038,
+        "Reasoning": 0.5011
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "We, therefore, fail to appreciate as to on what basis the petitioner can possibly contend the violation of the FDI Policy.12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7762,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0265,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0014,
+        "Facts": 0.1889,
+        "Issue": 0.0008,
+        "Reasoning": 0.7762
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "In PIL No. 41 of 2013, the petitioner has focused his attention on selection and appointment of Shri Girish Kulkarni as CEO and Managing Director of Star Union and prayed for removal of Shri Girish Kulkarni from the service of Star Union on the ground of alleged illegalities committed by him in violation of the FDI Policy when he was a senior management employee of Future Group of Companies and he also became CEO of Future General.13.",
+      "predicted_label": "Facts",
+      "confidence": 0.9202,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0557,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0012,
+        "Facts": 0.9202,
+        "Issue": 0.0017,
+        "Reasoning": 0.0202
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Now it is necessary to note that as per the affidavit dated 17 December 2013 of Shri K.B. Nageswara Rao, Assistant General Manager of Bank of India Bank of India, Union Bank of India and Daichi Life Insurance Co. Ltd. of Japan formed a Joint Venture to enter into a Life Insurance business in India and an MOU was signed between the parties on 21 December 2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.6882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0002,
+        "Facts": 0.6882,
+        "Issue": 0.0003,
+        "Reasoning": 0.2968
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "The shareholding pattern in the said Company is as underBank of India48.00Union Bank of India26.00Daichi Life Insurance Co. Ltd., Japan26.00Total100.00 There is no dispute about the above shareholding and there is no allegation that there is any violation of FDI cap of 26 in so far as the shareholding in Star Union is concerned.",
+      "predicted_label": "Facts",
+      "confidence": 0.9638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0001,
+        "Facts": 0.9638,
+        "Issue": 0.0016,
+        "Reasoning": 0.0239
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The Chairman Managing Director of Union Bank of India is the Chairman of Star Union.",
+      "predicted_label": "Facts",
+      "confidence": 0.8866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0428,
+        "Arguments of Respondent": 0.0162,
+        "Decision": 0.0004,
+        "Facts": 0.8866,
+        "Issue": 0.0088,
+        "Reasoning": 0.0453
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Two General Managers of Bank of India are nominee Directors on the Board of Star Union.",
+      "predicted_label": "Facts",
+      "confidence": 0.7437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1153,
+        "Arguments of Respondent": 0.0217,
+        "Decision": 0.001,
+        "Facts": 0.7437,
+        "Issue": 0.0181,
+        "Reasoning": 0.1003
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The registered office of Star Union is in the same building where head office of Bank of India is located.",
+      "predicted_label": "Facts",
+      "confidence": 0.5873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1661,
+        "Arguments of Respondent": 0.0515,
+        "Decision": 0.0018,
+        "Facts": 0.5873,
+        "Issue": 0.0106,
+        "Reasoning": 0.1827
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Star Union is controlled by Board of Directors as per the Joint Venture Agreement whereunder Bank of India and Union Bank of India have 74 stake in Star Union.",
+      "predicted_label": "Facts",
+      "confidence": 0.8694,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0705,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0011,
+        "Facts": 0.8694,
+        "Issue": 0.0055,
+        "Reasoning": 0.0368
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "As per the JV Agreement, Bank of India has to nominate three directors, Union Bank of India has to nominate two directors and Daichi Life Insurance Co. Ltd. of Japan has to nominate two directors on the Board of Star Union, and the nonExecutive Chairman has to be nominated alternately every three years from Bank of India and Union Bank of India.",
+      "predicted_label": "Facts",
+      "confidence": 0.557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1423,
+        "Arguments of Respondent": 0.0876,
+        "Decision": 0.0005,
+        "Facts": 0.557,
+        "Issue": 0.0019,
+        "Reasoning": 0.2106
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "80 of business of Star Union as on 31 March 2013 was generated by Bank of India and Union Bank of India and their sponsored banks.",
+      "predicted_label": "Facts",
+      "confidence": 0.6577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0415,
+        "Arguments of Respondent": 0.0485,
+        "Decision": 0.0029,
+        "Facts": 0.6577,
+        "Issue": 0.0064,
+        "Reasoning": 0.243
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "The term of Shri Kamaljit Sahai, Managing Director CEO of Star Union was to come to an end on 14 May 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.9726,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0002,
+        "Facts": 0.9726,
+        "Issue": 0.0013,
+        "Reasoning": 0.0136
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "By a Board Resolution dated 20 October 2011, Star Union constituted a Joint Selection Committee for selection of Managing Director and CEO of Star Union.",
+      "predicted_label": "Facts",
+      "confidence": 0.9717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0001,
+        "Facts": 0.9717,
+        "Issue": 0.0031,
+        "Reasoning": 0.0072
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "It formed a Search Committee and engaged a globally reputed HR firm to find out eligible candidates.",
+      "predicted_label": "Facts",
+      "confidence": 0.8109,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0407,
+        "Arguments of Respondent": 0.0766,
+        "Decision": 0.0004,
+        "Facts": 0.8109,
+        "Issue": 0.022,
+        "Reasoning": 0.0494
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The HR firm shortlisted four candidates.",
+      "predicted_label": "Facts",
+      "confidence": 0.8026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0467,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0004,
+        "Facts": 0.8026,
+        "Issue": 0.0785,
+        "Reasoning": 0.0514
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "After considering all candidates, the Selection Committee approved and recommended the candidature of Shri Girish Kulkarni at the second meeting of the Search Committee held on 28 February 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.7458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0521,
+        "Arguments of Respondent": 0.1679,
+        "Decision": 0.0003,
+        "Facts": 0.7458,
+        "Issue": 0.0029,
+        "Reasoning": 0.0309
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Star Union then sought approval from IRDA as per letter dated 14 April 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.8098,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0241,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0003,
+        "Facts": 0.8098,
+        "Issue": 0.0047,
+        "Reasoning": 0.1368
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "Thereafter IRDA by its letter dated 9 May 2012 conveyed approval of selection of Shri Girish Kulkarni as MD and CEO of Star Union for a period of 3 years with effect from 15 May 2012 to 14 May 2015 in place of Shri Kamaljit Sahai, whose term expired on 14 May 2012.15.",
+      "predicted_label": "Facts",
+      "confidence": 0.9735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0001,
+        "Facts": 0.9735,
+        "Issue": 0.0015,
+        "Reasoning": 0.0102
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "While denying the allegations made by the petitioner, it is contended by Bank of India and Union Bank of India that Star Union is not a public sector undertaking and that appointment of MD and CEO of Star Union was made by Star Union as per Article 38(a) of the Articles of Association of Star Union.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9306,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0372,
+        "Arguments of Respondent": 0.9306,
+        "Decision": 0.0001,
+        "Facts": 0.0246,
+        "Issue": 0.0006,
+        "Reasoning": 0.0069
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "It is also submitted that the selection and appointment of Shri Girish Kulkarni as MD and CEO of Star Union is not made by Bank of India or Union Bank of India, but by Star Union.16.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6978,
+        "Arguments of Respondent": 0.2106,
+        "Decision": 0.0003,
+        "Facts": 0.0794,
+        "Issue": 0.0004,
+        "Reasoning": 0.0115
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "Without going into the question, whether any petition would be maintainable against Star Union, It is clear that in PIL No. 41 of 2013, the petitioner has challenged the appointment of Shri Girish Kulkarni as MD and CEO of Star Union merely on the ground of his alleged role in the alleged violation of FDI guidelines in the matter of shareholding of a Holland based company, Participatie Maathaschappij Grraafschaap, in Future Generali.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0074,
+        "Facts": 0.1834,
+        "Issue": 0.0031,
+        "Reasoning": 0.7886
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "The petitioner and his advocate Shri Partha Sarathy Sarkar do not dispute the fact that Shri Sarkar was an employee of Future Generali and was working under Shri Girish Kulkarni in the same company.",
+      "predicted_label": "Facts",
+      "confidence": 0.5402,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2616,
+        "Arguments of Respondent": 0.0382,
+        "Decision": 0.0006,
+        "Facts": 0.5402,
+        "Issue": 0.0008,
+        "Reasoning": 0.1586
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "Whether Shri Sarkar was dismissed from service of Future Generali or Shri Sarkar resigned after Shri Girish Kulkarni left Future Generali are not matters to be probed into in these PILs, but the fact remains that some of the communications, which are produced as annexures to PIL Nos. 34 and 42 of 2013 regarding alleged violation of FDI Policy by Future Generali, are replies which were received by the father of Shri Partha Sarathy Sarkar under the Right to Information Act, 2005.",
+      "predicted_label": "Facts",
+      "confidence": 0.6946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0119,
+        "Decision": 0.0003,
+        "Facts": 0.6946,
+        "Issue": 0.0026,
+        "Reasoning": 0.2817
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "According to the petitioner, he thought of filing this PIL because he was not satisfied with the returns he was getting on his insurance policies taken from Birla Sun Life and Bajaj Allianze.",
+      "predicted_label": "Facts",
+      "confidence": 0.8406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.044,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0001,
+        "Facts": 0.8406,
+        "Issue": 0.0011,
+        "Reasoning": 0.1123
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Admittedly the petitioner has not taken any policy of Future Generali.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4597,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0793,
+        "Arguments of Respondent": 0.0791,
+        "Decision": 0.0028,
+        "Facts": 0.3765,
+        "Issue": 0.0025,
+        "Reasoning": 0.4597
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "When questions were put to the petitioner from where he got the letters documents pertaining to Future Generali produced as annexures to the PILs, the replies given by the petitioner were not satisfactory and advocate Shri Partha Sarathy Sarkar tried to help or prompt the petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.4939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0994,
+        "Arguments of Respondent": 0.0911,
+        "Decision": 0.0002,
+        "Facts": 0.4939,
+        "Issue": 0.0003,
+        "Reasoning": 0.3151
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "All this is recorded in our separate order dated 24 July 2014.18.",
+      "predicted_label": "Facts",
+      "confidence": 0.788,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0256,
+        "Facts": 0.788,
+        "Issue": 0.0001,
+        "Reasoning": 0.1567
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "It is necessary to note that these PILs were not filed at the relevant time when the alleged FDI violations took place, but they were filed after Shri Girish Kulkarni came to be appointed as Managing Director and CEO of Star Union Daichi Life Insurance Co. Ltd., which is a Joint Venture Company set up by Bank of India, Union Bank of India and Daichi Life Insurance Co. Ltd. of Japan.",
+      "predicted_label": "Facts",
+      "confidence": 0.7836,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0002,
+        "Facts": 0.7836,
+        "Issue": 0.0026,
+        "Reasoning": 0.201
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "No allegations are made against any of these three companies or against Star Union about any FDI violations.19.",
+      "predicted_label": "Facts",
+      "confidence": 0.4973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.023,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.0005,
+        "Facts": 0.4973,
+        "Issue": 0.0009,
+        "Reasoning": 0.4543
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "In State of Uttaranchal vs. Balwant Singh Chaufal, (2010) 3 SCC 402 , also the Supreme Court has laid down the following directions to preserve the purity and sanctity of PILs(1)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0433,
+        "Arguments of Respondent": 0.1243,
+        "Decision": 0.229,
+        "Facts": 0.1234,
+        "Issue": 0.0018,
+        "Reasoning": 0.4783
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The courts must encourage genuine and bona fide PIL and effectively discourage and curb the PIL filed for extraneous considerations.(2) Instead of every individual judge devising his own procedure for dealing with the public interest litigation, it would be appropriate for each High Court to properly formulate rules for encouraging the genuine PIL and discouraging the PIL filed with oblique motives.",
+      "predicted_label": "Decision",
+      "confidence": 0.5723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0247,
+        "Arguments of Respondent": 0.0463,
+        "Decision": 0.5723,
+        "Facts": 0.0211,
+        "Issue": 0.0006,
+        "Reasoning": 0.3349
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "Consequently, we request that the High Courts who have not yet framed the rules, should frame the rules within three months.",
+      "predicted_label": "Decision",
+      "confidence": 0.7247,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.7247,
+        "Facts": 0.1141,
+        "Issue": 0.0005,
+        "Reasoning": 0.1519
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The Registrar General of each High Court is directed to ensure that a copy of the Rules prepared by the High Court is sent to the Secretary General of this court immediately thereafter.(3)",
+      "predicted_label": "Decision",
+      "confidence": 0.8792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.8792,
+        "Facts": 0.0603,
+        "Issue": 0.0002,
+        "Reasoning": 0.0554
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The courts should prima facie verify the credentials of the petitioner before entertaining a P.I.L.(4)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8042,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8042,
+        "Arguments of Respondent": 0.0731,
+        "Decision": 0.0394,
+        "Facts": 0.0582,
+        "Issue": 0.011,
+        "Reasoning": 0.0141
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The court should be prima facie satisfied regarding the correctness of the contents of the petition before entertaining a PIL.(5)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4521,
+        "Arguments of Respondent": 0.1751,
+        "Decision": 0.0313,
+        "Facts": 0.0807,
+        "Issue": 0.0013,
+        "Reasoning": 0.2595
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "The court should be fully satisfied that substantial public interest is involved before entertaining the petition.(6)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4602,
+        "Arguments of Respondent": 0.1463,
+        "Decision": 0.0164,
+        "Facts": 0.2081,
+        "Issue": 0.0227,
+        "Reasoning": 0.1463
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "The court should ensure that the petition which involves larger public interest, gravity and urgency must be given priority over other petitions.(7)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.354,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3314,
+        "Arguments of Respondent": 0.354,
+        "Decision": 0.0143,
+        "Facts": 0.0994,
+        "Issue": 0.002,
+        "Reasoning": 0.1989
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 56,
+      "text": "The courts before entertaining the PIL should ensure that the PIL is aimed at redressal of genuine public harm or public injury.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6315,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2132,
+        "Arguments of Respondent": 0.1459,
+        "Decision": 0.0013,
+        "Facts": 0.0073,
+        "Issue": 0.0009,
+        "Reasoning": 0.6315
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "The court should also ensure that there is no personal gain, private motive or oblique motive behind filing the public interest litigation.(8)",
+      "predicted_label": "Decision",
+      "confidence": 0.6157,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1017,
+        "Arguments of Respondent": 0.0717,
+        "Decision": 0.6157,
+        "Facts": 0.0527,
+        "Issue": 0.0034,
+        "Reasoning": 0.1547
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "The court should also ensure that the petitions filed by busybodies for extraneous and ulterior motives must be discouraged by imposing exemplary costs or by adopting similar novel methods to curb frivolous petitions and the petitions filed for extraneous considerations.22.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0396,
+        "Decision": 0.1016,
+        "Facts": 0.0085,
+        "Issue": 0.0008,
+        "Reasoning": 0.8372
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Applying the above principles and having carefully considered the preliminary objections of the respondents, we are satisfied that the petitioner cannot be considered as a person having sufficient interest in the proceedings of these three PILs and that not merely from the allegations made in the petitions but also the tenor of allegations and the manner in which the allegations are made and prayers are framed, these three PILs are coloured by the personal prejudice of the advocate for the petitioner who was himself an employee of Future Generali when Shri Girish Kulkarni was his superior in the said company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9616,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0062,
+        "Facts": 0.0248,
+        "Issue": 0.0007,
+        "Reasoning": 0.9616
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "It cannot be said that in filing these three PILs, the petitioner is acting bonafide and has sufficient interest in the proceedings of these three PILs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0056,
+        "Facts": 0.3301,
+        "Issue": 0.0014,
+        "Reasoning": 0.6383
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 61,
+      "text": "We are, therefore, not inclined to entertain these petitions as bonafide PILs.23.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0154,
+        "Facts": 0.0157,
+        "Issue": 0.0002,
+        "Reasoning": 0.9614
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "We have also recorded the finding that in view of shareholding pattern indicated in para 7 hereinabove and in view of the fact that even according to the petitioner, the issue price of shares issued by Future Generali to Holand based Participatie Maathaschappij Grraafschaap was not lower than the price worked out as per the formula prescribed in Guideline No. 3.4.2 of FDI Guidelines, the petitioner has also not made out a prima facie case of alleged violation of FDI cap of 26 on shareholding of a nonresident company.24.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5654,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.01,
+        "Facts": 0.4199,
+        "Issue": 0.0008,
+        "Reasoning": 0.5654
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 63,
+      "text": "In view of the above discussion, all the three petitions are dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.8698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.8698,
+        "Facts": 0.1031,
+        "Issue": 0.0011,
+        "Reasoning": 0.0239
+      }
+    }
+  ]
+}

@@ -1,0 +1,1558 @@
+{
+  "case_id": "6765",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This common judgment shall dispose of both the appeals since they involve common facts and questions of law.",
+      "predicted_label": "Issue",
+      "confidence": 0.6883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0007,
+        "Facts": 0.3066,
+        "Issue": 0.6883,
+        "Reasoning": 0.0032
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "By consent of the parties, the present appeals are taken up for final adjudication at the stage of admission itself.2.",
+      "predicted_label": "Issue",
+      "confidence": 0.526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0009,
+        "Facts": 0.4681,
+        "Issue": 0.526,
+        "Reasoning": 0.0033
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 2,
+      "text": "Heard Mr. Dessai, learned Senior Counsel appearing on behalf of the appellants and Mr. Lawande, learned Counsel appearing on behalf of the respondent.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.985,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.985,
+        "Issue": 0.0095,
+        "Reasoning": 0.0016
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "These appeals are directed against the order dated 17/12/2013 passed by the learned Civil Judge, Senior Division, Panaji (trial Court, for short) in Special Civil Suits No. 23/2010/B and 24/2010/B.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.5664,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.002,
+        "Facts": 0.5664,
+        "Issue": 0.4292,
+        "Reasoning": 0.0008
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 4,
+      "text": "The appellants are the defendants whereas the respondent is the plaintiff in the said suits.",
+      "predicted_label": "Facts",
+      "confidence": 0.6908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0008,
+        "Facts": 0.6908,
+        "Issue": 0.2953,
+        "Reasoning": 0.0116
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "Parties shall, hereinafter, be referred to as per their status in the said suits.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0003,
+        "Facts": 0.9876,
+        "Issue": 0.0089,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The plaintiffs have filed the said suits for eviction of the defendants from the suit property respectively described in each suit for recovery of arrears rent, damages, etc.",
+      "predicted_label": "Facts",
+      "confidence": 0.9263,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0014,
+        "Facts": 0.9263,
+        "Issue": 0.0073,
+        "Reasoning": 0.0598
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The plaintiffs claim to be the owners of the suit properties and that since each plaintiff was one of the then directors of defendant no. 1Company, at the request of defendant no. 1, he had agreed that after acquisition of the suit property, the same would be leased out by him to the defendant no. 1, for five years.",
+      "predicted_label": "Facts",
+      "confidence": 0.8956,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0293,
+        "Arguments of Respondent": 0.0422,
+        "Decision": 0.0002,
+        "Facts": 0.8956,
+        "Issue": 0.0005,
+        "Reasoning": 0.0322
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The plaintiffs further allege that accordingly, the suit property, in each case was leased to the defendant no. 1 vide registered Lease Deed dated 26/10/2004.",
+      "predicted_label": "Facts",
+      "confidence": 0.9798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.9798,
+        "Issue": 0.0014,
+        "Reasoning": 0.011
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Alleging breach of covenants contained in the Lease Deed on account of nonpayment of rent and on account of subletting the suit property by the defendant no. 1 to the defendant no. 2, the plaintiffs filed the said suits.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.995,
+        "Issue": 0.0037,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The defendants filed their written statement thereby denying the case of the plaintiffs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0001,
+        "Facts": 0.9482,
+        "Issue": 0.0005,
+        "Reasoning": 0.0306
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The defendant no. 1 had filed a counter claim, in each suit, for declaration that the plaintiff holds the suit property in trust for defendant no. 1 for a direction to the plaintiff to execute a conveyance in respect of the suit property in favour of the defendant no. 1 and to do all acts, deeds and things that may be necessary to perfect the title of the defendant no. 1 in respect of the suit property for permanent injunction and for recovery of money, being amount misappropriated by him for personal use.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0001,
+        "Facts": 0.9849,
+        "Issue": 0.0011,
+        "Reasoning": 0.0061
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The plaintiff, in each suit, filed an application under Order VII, Rule 11 of the Code of Civil Procedure (CPC) for rejection of the said counter claim filed by the defendant no. 1, on the ground that the same does not disclose cause of action that the same is barred by law of limitation and that the trial Court did not have territorial jurisdiction to entertain the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.9766,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0001,
+        "Facts": 0.9766,
+        "Issue": 0.0045,
+        "Reasoning": 0.0112
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The defendant no. 1 filed reply to the said application.",
+      "predicted_label": "Facts",
+      "confidence": 0.9483,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0002,
+        "Facts": 0.9483,
+        "Issue": 0.0013,
+        "Reasoning": 0.0307
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Parties filed written arguments before the learned trial Court besides making oral submissions.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9965,
+        "Issue": 0.0004,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Learned Trial Court held that thought there was provision under Order 8 Rule 6C of CPC for exclusion of counter claim, however, the provision of Order VII Rule 11 was still applicable to the counter claim.",
+      "predicted_label": "Facts",
+      "confidence": 0.8884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.0003,
+        "Facts": 0.8884,
+        "Issue": 0.0014,
+        "Reasoning": 0.0754
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The trial Court further held that Section 10 of the Limitation Act was not applicable to the plaintiff who was not a trustee and, therefore, the limitation cannot be said to be excluded by virtue of Section 10 of the Limitation Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9198,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0001,
+        "Facts": 0.9198,
+        "Issue": 0.0038,
+        "Reasoning": 0.0689
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The trial Court held that the specific averment in the counter claim showed that the subject matter of the same pertained to the year 20042005 and that the criminal complaint, which was filed made it clear that the facts were to the knowledge of the defendant no. 1 prior to the filing of the counter claim, which had been filed in the year 2011 and, therefore, the counter claim was barred by Law of Limitation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9817,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0001,
+        "Facts": 0.9817,
+        "Issue": 0.0007,
+        "Reasoning": 0.0122
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Consequently, the counter claim filed by the defendant no. 1 came to be rejected, in both the suits.",
+      "predicted_label": "Facts",
+      "confidence": 0.955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.955,
+        "Issue": 0.0274,
+        "Reasoning": 0.0151
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "These orders are impugned in the present appeals.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.9816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9816,
+        "Issue": 0.0131,
+        "Reasoning": 0.0014
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Mr. Dessai, learned Senior Counsel for the defendants submitted that they had filed the counter claim, in terms of Section 10 of the Limitation Act under which there is exclusion of the limitation period and therefore there was no need to specifically mention the date of cause of action.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7132,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2208,
+        "Arguments of Respondent": 0.7132,
+        "Decision": 0.0006,
+        "Facts": 0.0143,
+        "Issue": 0.0001,
+        "Reasoning": 0.051
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "He submitted that in so far as the rejection of the plaint under Order VII, Rule 11 of C.P.C. is concerned, the plaint has to be meaningfully read.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5381,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4386,
+        "Arguments of Respondent": 0.5381,
+        "Decision": 0.0009,
+        "Facts": 0.0064,
+        "Issue": 0.0002,
+        "Reasoning": 0.0157
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "He read out paragraphs 24 and 28 of the counter claim in Special Civil Suit No. 23/2010 and paragraphs no.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3746,
+        "Arguments of Respondent": 0.17,
+        "Decision": 0.0002,
+        "Facts": 0.3444,
+        "Issue": 0.0002,
+        "Reasoning": 0.1106
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "28 and 32 of the counter claim in Special Civil Suit no.",
+      "predicted_label": "Facts",
+      "confidence": 0.3968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0581,
+        "Arguments of Respondent": 0.1489,
+        "Decision": 0.015,
+        "Facts": 0.3968,
+        "Issue": 0.0119,
+        "Reasoning": 0.3694
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 24,
+      "text": "24/2010",
+      "predicted_label": "Decision",
+      "confidence": 0.7878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.7878,
+        "Facts": 0.1186,
+        "Issue": 0.0042,
+        "Reasoning": 0.0592
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "and submitted that relevant pleadings were made in the counter claims for application of Section 10 of the Limitation Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.62,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3509,
+        "Arguments of Respondent": 0.62,
+        "Decision": 0.0002,
+        "Facts": 0.0121,
+        "Issue": 0.0003,
+        "Reasoning": 0.0165
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "He further submitted that the plaintiffs in both the suits were directors of the defendant no. 1 and that the Directors of the Company are trustees and therefore, Section 10 of the Limitation Act is applicable to them.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6598,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3158,
+        "Arguments of Respondent": 0.6598,
+        "Decision": 0.0004,
+        "Facts": 0.0074,
+        "Issue": 0.0003,
+        "Reasoning": 0.0163
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "He also contended that even otherwise Section 10 does not speak about trustees within the meaning of Indian Trust Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4968,
+        "Arguments of Respondent": 0.4737,
+        "Decision": 0.0003,
+        "Facts": 0.0081,
+        "Issue": 0.0003,
+        "Reasoning": 0.0207
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 28,
+      "text": "According to him, therefore, Section 10 includes constructive trustees also.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4398,
+        "Arguments of Respondent": 0.5057,
+        "Decision": 0.0002,
+        "Facts": 0.0039,
+        "Issue": 0.0002,
+        "Reasoning": 0.0502
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "Learned Counsel further submitted that the counter claim has been filed under Order VIII, Rule 6A and that there is provision for exclusion of the counter claim under Rule 6C and, therefore, Order VII, Rule 11 of C.P.C. is not applicable.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.664,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3123,
+        "Arguments of Respondent": 0.664,
+        "Decision": 0.0006,
+        "Facts": 0.0057,
+        "Issue": 0.0003,
+        "Reasoning": 0.0171
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "Learned Senior Counsel relied upon the following judgments(i)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6374,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6374,
+        "Arguments of Respondent": 0.3528,
+        "Decision": 0.0002,
+        "Facts": 0.0053,
+        "Issue": 0.0004,
+        "Reasoning": 0.0039
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "NanalalZaver Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2534,
+        "Arguments of Respondent": 0.2316,
+        "Decision": 0.0572,
+        "Facts": 0.104,
+        "Issue": 0.007,
+        "Reasoning": 0.3469
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 32,
+      "text": "Bombay Life Assurance Co. Ltd, 1950 Bombay Law Reporter (Volume LII)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4437,
+        "Arguments of Respondent": 0.2053,
+        "Decision": 0.0012,
+        "Facts": 0.1325,
+        "Issue": 0.0013,
+        "Reasoning": 0.2161
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "SC 745(ii) WaliMohammed (Dead) by LRs Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5811,
+        "Arguments of Respondent": 0.2833,
+        "Decision": 0.0015,
+        "Facts": 0.0555,
+        "Issue": 0.0028,
+        "Reasoning": 0.0759
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "Rahmat Bee (Smt) and others, (1999) 3 SCC 14510.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4,
+      "probabilities": {
+        "Arguments of Petitioner": 0.392,
+        "Arguments of Respondent": 0.4,
+        "Decision": 0.0016,
+        "Facts": 0.0377,
+        "Issue": 0.0005,
+        "Reasoning": 0.1681
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "On the other hand, Mr. Lawande, learned Counsel appearing for the plaintiff submitted that there is no resolution authorising Mr. Manuel Paully D,Souza to file the appeals nor there is any statement in the appeal memos about the same.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7136,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2345,
+        "Arguments of Respondent": 0.7136,
+        "Decision": 0.0002,
+        "Facts": 0.0307,
+        "Issue": 0.0002,
+        "Reasoning": 0.0208
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "He submitted that in the absence of resolution, the appeals are not maintainable.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9084,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0789,
+        "Arguments of Respondent": 0.9084,
+        "Decision": 0.0004,
+        "Facts": 0.0065,
+        "Issue": 0.0002,
+        "Reasoning": 0.0056
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "He further submitted that admittedly the suits were barred by limitation and therefore exemption under section 10 of the Limitation Act had been claimed.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4946,
+        "Arguments of Respondent": 0.4519,
+        "Decision": 0.0003,
+        "Facts": 0.0319,
+        "Issue": 0.0006,
+        "Reasoning": 0.0208
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "He vehemently submitted, with regard to Section 10 of the Limitation Act, that the Directors of Company cannot be taken to be trustees.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4704,
+        "Arguments of Respondent": 0.4866,
+        "Decision": 0.0002,
+        "Facts": 0.0028,
+        "Issue": 0.0002,
+        "Reasoning": 0.0398
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "He pointed out the provision of Order VII, Rule 1(e) of CPC and contended that there was nothing in the counter claims to show as to when the cause of action had arisen.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4169,
+        "Arguments of Respondent": 0.5556,
+        "Decision": 0.0004,
+        "Facts": 0.0199,
+        "Issue": 0.0003,
+        "Reasoning": 0.0068
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "According to the learned Counsel, in terms of Article 58 of the Limitation Act, the period of limitation for seeking declaration is three years.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4993,
+        "Arguments of Respondent": 0.4837,
+        "Decision": 0.0001,
+        "Facts": 0.0023,
+        "Issue": 0.0003,
+        "Reasoning": 0.0143
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "He submitted that a perusal of paragraph 6 of the counter claim in suit no.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4402,
+        "Arguments of Respondent": 0.5481,
+        "Decision": 0.0002,
+        "Facts": 0.0035,
+        "Issue": 0.0001,
+        "Reasoning": 0.0077
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "23/2010 and paragraph 10 of the counter claim in suit no.",
+      "predicted_label": "Facts",
+      "confidence": 0.4864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1796,
+        "Arguments of Respondent": 0.0902,
+        "Decision": 0.0237,
+        "Facts": 0.4864,
+        "Issue": 0.002,
+        "Reasoning": 0.2181
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "24/2010 revealed that the cause of action had arisen on 05/03/2006, but the counterclaim was filed on 17/02/2011.",
+      "predicted_label": "Facts",
+      "confidence": 0.8212,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0256,
+        "Arguments of Respondent": 0.0382,
+        "Decision": 0.0004,
+        "Facts": 0.8212,
+        "Issue": 0.0017,
+        "Reasoning": 0.113
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "He submitted that the property was not vested in the defendant no. 1.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4301,
+        "Arguments of Respondent": 0.4971,
+        "Decision": 0.0013,
+        "Facts": 0.0394,
+        "Issue": 0.0006,
+        "Reasoning": 0.0314
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "According to him, the question of limitation was not a mixed question of law and fact, in these particular cases.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2961,
+        "Arguments of Respondent": 0.6618,
+        "Decision": 0.0003,
+        "Facts": 0.0088,
+        "Issue": 0.0002,
+        "Reasoning": 0.033
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "He further submitted that the provision of Order VII, Rule 11 of C.P.C. has nothing to do with the Provisions of Order VIII, Rule 6C of CPC.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.569,
+        "Arguments of Respondent": 0.424,
+        "Decision": 0.0004,
+        "Facts": 0.0013,
+        "Issue": 0.0002,
+        "Reasoning": 0.005
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Learned Counsel relied upon the following judgments(i) State Bank of Travancore Vs. Kingston Computers India Private Limited, (2011)11 SCC 524 (ii) Bangalore Turf Club Limited Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5539,
+        "Arguments of Respondent": 0.4385,
+        "Decision": 0.0001,
+        "Facts": 0.0016,
+        "Issue": 0.0002,
+        "Reasoning": 0.0056
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "Regional Director, Employees State Insurance Corporation, (2009) 15 SCC 33 (iii) Dale and Carrington INVT.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8347,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8347,
+        "Arguments of Respondent": 0.1305,
+        "Decision": 0.0003,
+        "Facts": 0.0144,
+        "Issue": 0.0004,
+        "Reasoning": 0.0197
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "(P) Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.3209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2089,
+        "Arguments of Respondent": 0.1397,
+        "Decision": 0.0088,
+        "Facts": 0.3209,
+        "Issue": 0.0231,
+        "Reasoning": 0.2986
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 50,
+      "text": "Vs. P.K Prathapan and others, (2005)1 SCC 212 (iv) Satishand Company Vs. S. R. Traders, (1997)1 ALT (Cri.)696(v) Judgment of the High Court of Bombay at Goa, dated 24/06/2010 in W. P. No. 48/2009 (M s. Fomento Resorts and Hotels Ltd.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4804,
+        "Arguments of Respondent": 0.4338,
+        "Decision": 0.0003,
+        "Facts": 0.0626,
+        "Issue": 0.0004,
+        "Reasoning": 0.0225
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 51,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 52,
+      "text": "Dr. Amilcar Cunha Souza and another)(vi)",
+      "predicted_label": "Facts",
+      "confidence": 0.9466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0059,
+        "Facts": 0.9466,
+        "Issue": 0.0019,
+        "Reasoning": 0.0059
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "V.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5049,
+        "Arguments of Respondent": 0.116,
+        "Decision": 0.0555,
+        "Facts": 0.2188,
+        "Issue": 0.04,
+        "Reasoning": 0.0649
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "Narsimha Aiyangar, official Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.2973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2973,
+        "Arguments of Respondent": 0.2914,
+        "Decision": 0.01,
+        "Facts": 0.1673,
+        "Issue": 0.0418,
+        "Reasoning": 0.1922
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 55,
+      "text": "The Official Assignee of Madras, (1931) 60 M.L.J. 28011.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2702,
+        "Arguments of Respondent": 0.1815,
+        "Decision": 0.0005,
+        "Facts": 0.0147,
+        "Issue": 0.0002,
+        "Reasoning": 0.5329
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "Mr. Dessai, learned Senior Counsel, in rejoinder, pointed out that along with the Vakalatnama filed in both the appeals, there is a resolution produced by the defendants which duly authirises said Manuel Paully DSouza to file the appeals and, therefore, it is false to allege that there is no resolution.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9474,
+        "Arguments of Respondent": 0.0365,
+        "Decision": 0.0001,
+        "Facts": 0.0017,
+        "Issue": 0.0002,
+        "Reasoning": 0.0141
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "He further submitted that the applications filed by the plaintiff for rejection of counter claims did not contain several propositions now advanced by the learned Counsel for the plaintiff.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0949,
+        "Arguments of Respondent": 0.8953,
+        "Decision": 0.0002,
+        "Facts": 0.0043,
+        "Issue": 0.0001,
+        "Reasoning": 0.0052
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "He submitted that the date of cause of action is required to be mentioned for the purpose of knowing whether the suit was within limitation and that such a defect is curable.12.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.512,
+      "probabilities": {
+        "Arguments of Petitioner": 0.512,
+        "Arguments of Respondent": 0.4656,
+        "Decision": 0.0003,
+        "Facts": 0.0052,
+        "Issue": 0.0002,
+        "Reasoning": 0.0168
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 59,
+      "text": "In the present appeals, along with Vakalatnama of the Advocate, the defendants have filed before this Court, a certified true copy of the resolution dated 20/04/2011, passed by the Board of Directors of the defendant no. 1 thereby authorising said Shri Manuel Paully DSouza to appear for and on behalf of the Company before police or other authority or before any Court, criminal or civil, including without limitation, courts of first instance or appellate courts and revisional courts, in order to initiate or prosecute criminal and civil cases (including ancillary, incidental or consequential proceedings) against exdirectors of Far Pavilion Tours and Travels Private limited named therein for offences mentioned therein and also against other known or unknown persons involved in the said offences and in this regard to sign, verify and file criminal complaints, FIRs, claims, plaints, writ petitions, written statements, rejoinders, replications.",
+      "predicted_label": "Facts",
+      "confidence": 0.3184,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3128,
+        "Arguments of Respondent": 0.1137,
+        "Decision": 0.0017,
+        "Facts": 0.3184,
+        "Issue": 0.0004,
+        "Reasoning": 0.2529
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 60,
+      "text": "Vakalatnamas, affidavits, papers and documents as may be necessary, in the name of and on behalf of the Company and generally to do all acts, deeds or things as may be necessary or proper for the purpose mentioned above.",
+      "predicted_label": "Facts",
+      "confidence": 0.7649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0526,
+        "Arguments of Respondent": 0.0412,
+        "Decision": 0.0007,
+        "Facts": 0.7649,
+        "Issue": 0.0009,
+        "Reasoning": 0.1397
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "A notarised true copy of the letter of authority dated 21/04/2010 given to said Manuel Paully DSouza by the defendant no. 2 and accepted by him has also been produced.",
+      "predicted_label": "Facts",
+      "confidence": 0.5697,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0931,
+        "Arguments of Respondent": 0.0812,
+        "Decision": 0.0009,
+        "Facts": 0.5697,
+        "Issue": 0.0023,
+        "Reasoning": 0.2529
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "Still, if any irregularity is there, then the same can be rectified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0824,
+        "Arguments of Respondent": 0.0812,
+        "Decision": 0.0016,
+        "Facts": 0.0875,
+        "Issue": 0.0009,
+        "Reasoning": 0.7465
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "Hence, it would not be proper to say that the appeals are not maintainable for want of resolution of authorisation.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0151,
+        "Arguments of Respondent": 0.0935,
+        "Decision": 0.0048,
+        "Facts": 0.0459,
+        "Issue": 0.0002,
+        "Reasoning": 0.8405
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "The next point for determination is whether the counter claims were liable to be rejected under Rule 11 of order VII of CPC, as time barred.15.",
+      "predicted_label": "Issue",
+      "confidence": 0.8915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.017,
+        "Decision": 0.0008,
+        "Facts": 0.0208,
+        "Issue": 0.8915,
+        "Reasoning": 0.0613
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "In the case of T. Arivandandam V s T. V. Satyapal and Anr., reported in (1997) 4 SCC 467, the Apex Court has held that if on a meaningful, not formal, reading of the plaint it is manifestly vexatious and merit less, in the sense of not disclosing a clear right to sue, the Court should exercise its power under Order VII Rule 11 of the Code taking care to see that the ground mentioned therein is fulfilled.",
+      "predicted_label": "Facts",
+      "confidence": 0.683,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.0387,
+        "Decision": 0.0007,
+        "Facts": 0.683,
+        "Issue": 0.0018,
+        "Reasoning": 0.255
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "In the present case, the defendants have pleaded that the cause of action for the counter claim is covered by Section 10 of the Limitation Act and, therefore, the reliefs are not barred by time.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0125,
+        "Arguments of Respondent": 0.0119,
+        "Decision": 0.0008,
+        "Facts": 0.0056,
+        "Issue": 0.0001,
+        "Reasoning": 0.9691
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "There was a specific pleading in the counter claims that the plaintiff was holding the suit property and the monies for the benefit of and in trust for the defendant no.",
+      "predicted_label": "Facts",
+      "confidence": 0.5291,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0584,
+        "Decision": 0.0006,
+        "Facts": 0.5291,
+        "Issue": 0.0004,
+        "Reasoning": 0.3928
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 68,
+      "text": "1.",
+      "predicted_label": "Facts",
+      "confidence": 0.591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1692,
+        "Arguments of Respondent": 0.0581,
+        "Decision": 0.0119,
+        "Facts": 0.591,
+        "Issue": 0.0566,
+        "Reasoning": 0.1132
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "Mr. Lawande, learned Counsel for the plaintiff has not disputed the position that if the Directors are trustees, then Section 10 is applicable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5226,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2776,
+        "Arguments of Respondent": 0.1556,
+        "Decision": 0.002,
+        "Facts": 0.0397,
+        "Issue": 0.0026,
+        "Reasoning": 0.5226
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "According to him, however, the Directors of a Company can never be termed as trustees within the meaning of Section 10 of the Limitation Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5744,
+        "Arguments of Respondent": 0.2788,
+        "Decision": 0.0001,
+        "Facts": 0.0057,
+        "Issue": 0.0002,
+        "Reasoning": 0.1408
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 71,
+      "text": "Learned Counsel submitted that the Judgment in the case of Nanalal Zaver (supra), cannot be applied to the present case.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2811,
+        "Arguments of Respondent": 0.6804,
+        "Decision": 0.0006,
+        "Facts": 0.0019,
+        "Issue": 0.0001,
+        "Reasoning": 0.0358
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "He submitted that in the case of Nanalal Zaver (supra), the position of Directors was considered with regard to the provision of Section 105C of the Indian Companies Act whereas in the present case the position of the Directors with regard to Section 10 of the Limitation Act is in question.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3584,
+        "Arguments of Respondent": 0.6206,
+        "Decision": 0.0001,
+        "Facts": 0.0032,
+        "Issue": 0.0001,
+        "Reasoning": 0.0176
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "In the case of Bangalore Turf Club Limited (supra), relied upon by the learned Counsel for the plaintiff, in this regard, the Apex Court has held thus7.",
+      "predicted_label": "Facts",
+      "confidence": 0.3938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0655,
+        "Arguments of Respondent": 0.2659,
+        "Decision": 0.0004,
+        "Facts": 0.3938,
+        "Issue": 0.0003,
+        "Reasoning": 0.2741
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 74,
+      "text": "Under various labour laws different definitions have been given to the words industry or factory, etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8672,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0618,
+        "Arguments of Respondent": 0.025,
+        "Decision": 0.0001,
+        "Facts": 0.0444,
+        "Issue": 0.0015,
+        "Reasoning": 0.8672
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "and we cannot apply the definition in one Act to that in another Act (unless the statute specifically says so).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0425,
+        "Arguments of Respondent": 0.0541,
+        "Decision": 0.0001,
+        "Facts": 0.0306,
+        "Issue": 0.0022,
+        "Reasoning": 0.8705
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "It is only where the language used in the definition is in pari material that this may be possible.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8159,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0646,
+        "Arguments of Respondent": 0.0975,
+        "Decision": 0.0003,
+        "Facts": 0.021,
+        "Issue": 0.0007,
+        "Reasoning": 0.8159
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "Hence, we are of the opinion that the decision of this Court in .Hyderabad",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.005,
+        "Facts": 0.0804,
+        "Issue": 0.0005,
+        "Reasoning": 0.8898
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "Race Club should be reconsidered by a larger Bench.",
+      "predicted_label": "Facts",
+      "confidence": 0.4009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2507,
+        "Arguments of Respondent": 0.0854,
+        "Decision": 0.0448,
+        "Facts": 0.4009,
+        "Issue": 0.0336,
+        "Reasoning": 0.1846
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "In the meantime, the respondents shall not raise any demand against the appellantClub.22.",
+      "predicted_label": "Decision",
+      "confidence": 0.9057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.9057,
+        "Facts": 0.015,
+        "Issue": 0.0002,
+        "Reasoning": 0.077
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "The Judgment in the case of Bangalore Turf Club Limited (supra), in our view is not applicable to the present cases, since there is no question of any definition of any words involved here.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9226,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0319,
+        "Arguments of Respondent": 0.0288,
+        "Decision": 0.0004,
+        "Facts": 0.0159,
+        "Issue": 0.0003,
+        "Reasoning": 0.9226
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "The interpretation of the expression director of Company is involved here.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0596,
+        "Arguments of Respondent": 0.0644,
+        "Decision": 0.0021,
+        "Facts": 0.1559,
+        "Issue": 0.0251,
+        "Reasoning": 0.6928
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "Considering the above judgments, more particularly, the Judgment in the case of Wali Mohammed (dead) by LRs (supra) and in the case of V. Narsimha Aiyangar, official (supra), we are of the view that the trial Court will have to determine whether the defendants were constructive trustees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0016,
+        "Facts": 0.0263,
+        "Issue": 0.0069,
+        "Reasoning": 0.9507
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "It is not possible to say at this stage that the defendant no. 1 does not have an arguable case at all.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9301,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0141,
+        "Facts": 0.0304,
+        "Issue": 0.0035,
+        "Reasoning": 0.9301
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "In paragraph 22 of the counter claim, the defendant no. 1 has specifically pleaded that the plaintiff in law holds the suit property in trust for the defendant no. 1 and has prayed for declaration that the suit property is held in trust by the plaintiff on behalf of the defendant no.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.021,
+        "Arguments of Respondent": 0.0621,
+        "Decision": 0.001,
+        "Facts": 0.2504,
+        "Issue": 0.0007,
+        "Reasoning": 0.6648
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "1.",
+      "predicted_label": "Facts",
+      "confidence": 0.591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1692,
+        "Arguments of Respondent": 0.0581,
+        "Decision": 0.0119,
+        "Facts": 0.591,
+        "Issue": 0.0566,
+        "Reasoning": 0.1132
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "The defendant no. 1 has also specifically pleaded in the counter claims that the cause of action for the suit is covered by the provisions of Section 10 of the Limitation Act and the reliefs, therefore, are not barred by limitation.",
+      "predicted_label": "Facts",
+      "confidence": 0.3682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.2549,
+        "Decision": 0.0006,
+        "Facts": 0.3682,
+        "Issue": 0.0006,
+        "Reasoning": 0.3631
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 87,
+      "text": "The defendant no. 1 in the counter claims has pleaded for a direction that the plaintiff holds the suit property, more particularly described in schedule, in trust for the defendant no. 1",
+      "predicted_label": "Facts",
+      "confidence": 0.7308,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0428,
+        "Decision": 0.0021,
+        "Facts": 0.7308,
+        "Issue": 0.0009,
+        "Reasoning": 0.2151
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "and it has prayed for a direction to the plaintiff to execute a conveyance in respect of the suit property in favour of the defendant no.",
+      "predicted_label": "Facts",
+      "confidence": 0.9652,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0003,
+        "Facts": 0.9652,
+        "Issue": 0.0048,
+        "Reasoning": 0.028
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "1 and to do all acts, deeds and things that may be necessary to perfect the defendant",
+      "predicted_label": "Facts",
+      "confidence": 0.9419,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0202,
+        "Decision": 0.0003,
+        "Facts": 0.9419,
+        "Issue": 0.0002,
+        "Reasoning": 0.0257
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "no.",
+      "predicted_label": "Facts",
+      "confidence": 0.7486,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0736,
+        "Arguments of Respondent": 0.0568,
+        "Decision": 0.015,
+        "Facts": 0.7486,
+        "Issue": 0.0151,
+        "Reasoning": 0.0909
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "1s title in respect of the suit property.",
+      "predicted_label": "Facts",
+      "confidence": 0.8482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0049,
+        "Facts": 0.8482,
+        "Issue": 0.0139,
+        "Reasoning": 0.1217
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "The Court cannot take into account any material beyond the counter claims.",
+      "predicted_label": "Facts",
+      "confidence": 0.4984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0439,
+        "Arguments of Respondent": 0.1393,
+        "Decision": 0.0165,
+        "Facts": 0.4984,
+        "Issue": 0.0005,
+        "Reasoning": 0.3014
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 93,
+      "text": "In view of the above, the counter claims, at this stage, do not appear to be barred by any law from the statements made therein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7446,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0576,
+        "Decision": 0.0042,
+        "Facts": 0.1808,
+        "Issue": 0.0004,
+        "Reasoning": 0.7446
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "The learned trial Court held that Section 10 of the Limitation Act is not applicable to the case.",
+      "predicted_label": "Facts",
+      "confidence": 0.9349,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0002,
+        "Facts": 0.9349,
+        "Issue": 0.0047,
+        "Reasoning": 0.0534
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "The trial Court ought to have directed the plaintiff to file written statement to the counter claims and to take all the objections and ought to have framed the issues and if necessary could have directed that the question of limitation ought to be decided as a preliminary issue.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8453,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0572,
+        "Arguments of Respondent": 0.0187,
+        "Decision": 0.0044,
+        "Facts": 0.0739,
+        "Issue": 0.0005,
+        "Reasoning": 0.8453
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "In our view, the learned trial Court has committed error in rejecting the counter claims, at this stage only.24.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0139,
+        "Facts": 0.0076,
+        "Issue": 0.0001,
+        "Reasoning": 0.9707
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "we are, therefore, of the considered view that the impugned order of rejection of the counter claims is not sustainable and, therefore, deserves to be dismissed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.383,
+        "Facts": 0.0234,
+        "Issue": 0.0006,
+        "Reasoning": 0.5884
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "The point of application of Section 10 of the Limitation Act and the point whether the counter claims are barred by limitation, ought to be decided after framing of the issues and leading evidence on the said points.",
+      "predicted_label": "Decision",
+      "confidence": 0.4492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0245,
+        "Arguments of Respondent": 0.0477,
+        "Decision": 0.4492,
+        "Facts": 0.0932,
+        "Issue": 0.0026,
+        "Reasoning": 0.3828
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 99,
+      "text": "Hence, we pass the followingORDERThe appeal is allowed.(a)",
+      "predicted_label": "Decision",
+      "confidence": 0.735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.735,
+        "Facts": 0.2399,
+        "Issue": 0.0004,
+        "Reasoning": 0.0227
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "The impugned order is quashed and set aside.(b)",
+      "predicted_label": "Decision",
+      "confidence": 0.708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.708,
+        "Facts": 0.2608,
+        "Issue": 0.0004,
+        "Reasoning": 0.0285
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "The counter claims filed by the defendant no. 1 are restored to the file of the trial Court.(c)",
+      "predicted_label": "Decision",
+      "confidence": 0.5681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.5681,
+        "Facts": 0.3796,
+        "Issue": 0.0004,
+        "Reasoning": 0.0488
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 102,
+      "text": "The trial Court shall decide the question of limitation or exclusion of limitation under Section 10 of the Limitation Act on merits.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.3396,
+        "Facts": 0.1468,
+        "Issue": 0.0008,
+        "Reasoning": 0.5052
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 103,
+      "text": "If necessary, the trial Court may consider if the said issue should be decided as a preliminary issue.(d)",
+      "predicted_label": "Decision",
+      "confidence": 0.8061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.8061,
+        "Facts": 0.1591,
+        "Issue": 0.0004,
+        "Reasoning": 0.0296
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "The trial court shall not be influenced by any of the observations made above by this Court.",
+      "predicted_label": "Decision",
+      "confidence": 0.8798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.8798,
+        "Facts": 0.0414,
+        "Issue": 0.0002,
+        "Reasoning": 0.077
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "All contentions are left open.25.",
+      "predicted_label": "Decision",
+      "confidence": 0.7048,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.7048,
+        "Facts": 0.0346,
+        "Issue": 0.0005,
+        "Reasoning": 0.2544
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "Appeals stand disposed of accordingly.",
+      "predicted_label": "Decision",
+      "confidence": 0.9556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.9556,
+        "Facts": 0.0281,
+        "Issue": 0.0002,
+        "Reasoning": 0.0148
+      }
+    }
+  ]
+}

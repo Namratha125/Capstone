@@ -1,0 +1,1208 @@
+{
+  "case_id": "6480",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The petitioner, (hereafter variously IIT or the Institute) is aggrieved by a judgment of the single judge, of the Calcutta High Court(WPA No. 11673/ 2020 decided on 25082021) , which allowed a writ petition, filed by the respondent herein (hereafter called by his name, Soutrik) holding that the rejection of his candidature for admission to the Joint Entrance Examination (JEE) Advanced, was not justified, and further directing the IIT to decide the issue afresh, and till its decision was taken, permit him to register for the JEE and appear in the examination if no decision were taken.",
+      "predicted_label": "Issue",
+      "confidence": 0.9094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0007,
+        "Facts": 0.0887,
+        "Issue": 0.9094,
+        "Reasoning": 0.0004
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "Soutrik appeared in the Joint Entrance Examination (Main), 2020 and on the basis of the percentile obtained by him was qualified and eligible to appear in the JEE (Advanced), 2020.",
+      "predicted_label": "Facts",
+      "confidence": 0.8946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0004,
+        "Facts": 0.8946,
+        "Issue": 0.0086,
+        "Reasoning": 0.0664
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "He scored rank 4015 which was not up to his expectation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0608,
+        "Arguments of Respondent": 0.0427,
+        "Decision": 0.0008,
+        "Facts": 0.3958,
+        "Issue": 0.0003,
+        "Reasoning": 0.4997
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 3,
+      "text": "He participated in the counselling process for admission in the institute and secured admission in the Chemical Engineering Dual Course, at IIT Kharagpur.",
+      "predicted_label": "Facts",
+      "confidence": 0.8997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0001,
+        "Facts": 0.8997,
+        "Issue": 0.0054,
+        "Reasoning": 0.082
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The common entrance examination system for the 23 IITs is based on the JEE (Main) examination, conducted by the National Testing Agency in four phases, which culminates in a merit list drawn up for students vying for admission in the 23 IITs and 87 National Institute of Technologies (NITs), Indian Institute of Information Technology (IIIT) and certain government funded institutes.",
+      "predicted_label": "Facts",
+      "confidence": 0.888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0009,
+        "Facts": 0.888,
+        "Issue": 0.0095,
+        "Reasoning": 0.0824
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The four phases of these JEE (Main) examinations are conducted on various dates.",
+      "predicted_label": "Facts",
+      "confidence": 0.6059,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0181,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0007,
+        "Facts": 0.6059,
+        "Issue": 0.0002,
+        "Reasoning": 0.3629
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "Amongst those who compete for the JEE (Main) exam, those falling in the top 2.5 lakhs of those students, based on merit are allowed to register for admission to the JEE (Advanced) examination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.443,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0225,
+        "Arguments of Respondent": 0.0886,
+        "Decision": 0.0047,
+        "Facts": 0.4368,
+        "Issue": 0.0045,
+        "Reasoning": 0.443
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "Soutrik wished to appear in JEE, 2021 to secure admission to a course of his choice, but the eligibility criteria for appearing in JEE (Advanced), 2021 prevented him from doing so.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4042,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4042,
+        "Arguments of Respondent": 0.0647,
+        "Decision": 0.0037,
+        "Facts": 0.1545,
+        "Issue": 0.0046,
+        "Reasoning": 0.3683
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The eligibility criteria, is so framed that a candidate can attempt JEE (Advanced) a maximum of two times in consecutive years irrespective of whether or not he passed the qualifying examination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1401,
+        "Arguments of Respondent": 0.1111,
+        "Decision": 0.0003,
+        "Facts": 0.1119,
+        "Issue": 0.0009,
+        "Reasoning": 0.6357
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "It further stipulates that a candidate who had taken admission in any institute other than IITs in 2020 is eligible to appear in JEE (Advanced), 2021 provided she or he satisfies other eligibility criteria.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5211,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1336,
+        "Arguments of Respondent": 0.1697,
+        "Decision": 0.0018,
+        "Facts": 0.1582,
+        "Issue": 0.0155,
+        "Reasoning": 0.5211
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "In view of the aforesaid restriction Soutrik could not compete in JEE (Advanced), 2021 as he got himself admitted in IIT Kharagpur in the year 2020.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4395,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2233,
+        "Arguments of Respondent": 0.075,
+        "Decision": 0.0007,
+        "Facts": 0.2612,
+        "Issue": 0.0003,
+        "Reasoning": 0.4395
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "In these circumstances, he approached the court, complaining arbitrariness and also challenging the concerned eligibility criteria.",
+      "predicted_label": "Facts",
+      "confidence": 0.4463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2937,
+        "Arguments of Respondent": 0.0824,
+        "Decision": 0.0061,
+        "Facts": 0.4463,
+        "Issue": 0.0064,
+        "Reasoning": 0.1652
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "The IIT which resisted the writ petition justified the impugned criterion, i.e. No.5, contending that it was neither illegal nor unconstitutional and was based on sound public policy considerations.",
+      "predicted_label": "Facts",
+      "confidence": 0.8787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0497,
+        "Decision": 0.0003,
+        "Facts": 0.8787,
+        "Issue": 0.0031,
+        "Reasoning": 0.0617
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "It was argued that the JEE (Advanced) Information Brochure contained uniform criteria applicable to all candidates appearing for the competitive examination for admission to IITs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4065,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4065,
+        "Arguments of Respondent": 0.4009,
+        "Decision": 0.0002,
+        "Facts": 0.1026,
+        "Issue": 0.0005,
+        "Reasoning": 0.0892
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 14,
+      "text": "It was submitted that the withdrawal option was so designed as to achieve two primary objectives, firstly, avoidance of wastage or blockage of seats and consequently to enable students to improve their performance in the subsequent year and if eligible, to participate again.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2395,
+        "Arguments of Respondent": 0.742,
+        "Decision": 0.0001,
+        "Facts": 0.0082,
+        "Issue": 0.0002,
+        "Reasoning": 0.01
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "It was, therefore, argued that in the event the candidate did not exercise an option and did not reject the seat already accepted, her or his candidature would be precluded for the subsequent year for the reason that in the year that she did not opt to continue in the course, it would not have been possible to fill up the seat for the rest of the course.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4339,
+        "Arguments of Respondent": 0.2644,
+        "Decision": 0.0001,
+        "Facts": 0.0142,
+        "Issue": 0.0003,
+        "Reasoning": 0.2871
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "It was further pointed out that conditions such as Criteria no.5 is in the public domain from 06.03.2020, on the one hand and that similar provisions were consistently followed and applied for over five years.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5026,
+        "Arguments of Respondent": 0.4552,
+        "Decision": 0.0004,
+        "Facts": 0.0056,
+        "Issue": 0.0014,
+        "Reasoning": 0.0349
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 17,
+      "text": "Pointing out that the JEE (Advanced) was conducted on 27.09.2020 involving six rounds of counselling which finally concluded on 07.11.2020 for IITs in accordance with the rules, the IIT objected to the petitioners conduct in waiting till the end of the entire process and then approaching the Court in third week of December 2020.",
+      "predicted_label": "Facts",
+      "confidence": 0.624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0304,
+        "Arguments of Respondent": 0.3111,
+        "Decision": 0.0007,
+        "Facts": 0.624,
+        "Issue": 0.0046,
+        "Reasoning": 0.0291
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "Soutrik had argued that he could not withdraw from the seat allocation (i.e. the admission to IIT Kharagpur) after the fifth round due to inadvertence.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2827,
+        "Arguments of Respondent": 0.3663,
+        "Decision": 0.0003,
+        "Facts": 0.03,
+        "Issue": 0.0003,
+        "Reasoning": 0.3205
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "This submission was contested and the IIT alleged that he was estopped from so contending.",
+      "predicted_label": "Facts",
+      "confidence": 0.8752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0203,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0001,
+        "Facts": 0.8752,
+        "Issue": 0.0079,
+        "Reasoning": 0.0823
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The learned Single Judge, by the impugned judgment, faulted the impugned criteria for discriminating against a successful candidate who secures a seat in one of the IITs and preventing her or him from competing in the subsequent examination whereas permitting candidates who secure admissions in nonIIT institutions, to do so.",
+      "predicted_label": "Facts",
+      "confidence": 0.8712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0179,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0003,
+        "Facts": 0.8712,
+        "Issue": 0.0145,
+        "Reasoning": 0.0938
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "It was reasoned that in either case, an available asset in the form of a seat in an engineering institution gets wasted a logic which applies to both IITs and nonIIT institutions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4244,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0894,
+        "Arguments of Respondent": 0.2918,
+        "Decision": 0.0002,
+        "Facts": 0.193,
+        "Issue": 0.0013,
+        "Reasoning": 0.4244
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The learned Single Judge also referred to those who withdrew their candidature voluntarily.",
+      "predicted_label": "Facts",
+      "confidence": 0.8444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0006,
+        "Facts": 0.8444,
+        "Issue": 0.0058,
+        "Reasoning": 0.1325
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "In 2020, there were 847 such candidates who did so because the seat was not according to their liking or the subject combination was not in accordance with their wishes.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2621,
+        "Arguments of Respondent": 0.3463,
+        "Decision": 0.0039,
+        "Facts": 0.0424,
+        "Issue": 0.0316,
+        "Reasoning": 0.3136
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 24,
+      "text": "Such candidates were permitted to appear in the subsequent examination process.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.402,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0727,
+        "Arguments of Respondent": 0.126,
+        "Decision": 0.0026,
+        "Facts": 0.3955,
+        "Issue": 0.0012,
+        "Reasoning": 0.402
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "There was no prejudice or injustice caused to them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4502,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0955,
+        "Arguments of Respondent": 0.2947,
+        "Decision": 0.0075,
+        "Facts": 0.1513,
+        "Issue": 0.0008,
+        "Reasoning": 0.4502
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "However, in cases, where the candidates did not opt to withdraw their candidature after securing a seat, there is prejudice in the sense that they are not allowed to appear in a subsequent examination to test their merit and secure admission in better ranking institute or in different substreams on the basis of rank based purely on their meritorious performance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0205,
+        "Arguments of Respondent": 0.08,
+        "Decision": 0.0109,
+        "Facts": 0.0174,
+        "Issue": 0.0003,
+        "Reasoning": 0.8708
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "On the basis of this reasoning it was held that Soutrik was debarred from appearing in the JEE for the second time only on the basis of being an IITian who was admitted in Chemistry in IIT Kharagpur but was desirous of studying in computer science.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7536,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0728,
+        "Arguments of Respondent": 0.068,
+        "Decision": 0.0002,
+        "Facts": 0.1047,
+        "Issue": 0.0007,
+        "Reasoning": 0.7536
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Mr. Sonal Jain, Advocate, appearing on behalf of the IIT urged that the High Court fell into error in holding that the impugned stipulation unfairly kept out candidates for admission to IITs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9798,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.0001,
+        "Facts": 0.0012,
+        "Issue": 0.0004,
+        "Reasoning": 0.0022
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "He emphasised that such a criterion has been in place for over five years and the High Court, by interfering with it has disturbed a carefully designed admission program.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9358,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9358,
+        "Arguments of Respondent": 0.0566,
+        "Decision": 0.0001,
+        "Facts": 0.001,
+        "Issue": 0.0001,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "It was highlighted that the admission program criteria are evolved after careful deliberation to provide access to the participating institutions through admissions in an equitable and reasonable manner.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.69,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2165,
+        "Arguments of Respondent": 0.69,
+        "Decision": 0.0009,
+        "Facts": 0.0334,
+        "Issue": 0.0009,
+        "Reasoning": 0.0582
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "Permitting successful candidates to challenge and overreach the system with the speculative hope of improving the performance despite securing admission and proceeding to abandon the seats offered to them after foregoing the option to withdraw, would spell disaster and undermine the entire examination process besides it would be contrary to public interest.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0539,
+        "Arguments of Respondent": 0.032,
+        "Decision": 0.0007,
+        "Facts": 0.0115,
+        "Issue": 0.0001,
+        "Reasoning": 0.9016
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "It was highlighted further that permitting the respondent to appear in the JEE (Advanced) for the subsequent examination would be inequitable given that the same pattern is uniformly accepted and applied across over 100 institutions and accepted by over 2 lakh candidates, who had appeared in the examination process.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7409,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1401,
+        "Arguments of Respondent": 0.7409,
+        "Decision": 0.0005,
+        "Facts": 0.0669,
+        "Issue": 0.0003,
+        "Reasoning": 0.0513
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8212,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8212,
+        "Arguments of Respondent": 0.0424,
+        "Decision": 0.0025,
+        "Facts": 0.101,
+        "Issue": 0.0063,
+        "Reasoning": 0.0266
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "It was urged that the High Court erred in law in equating IIT seats with non IIT seats without appreciating that the statutory rules were not under challenge.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.969,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.0001,
+        "Facts": 0.002,
+        "Issue": 0.0003,
+        "Reasoning": 0.0168
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Furthermore, the impugned criteria operates for the forthcoming year as well and not confined to 2021.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5671,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1112,
+        "Arguments of Respondent": 0.5671,
+        "Decision": 0.005,
+        "Facts": 0.0111,
+        "Issue": 0.0004,
+        "Reasoning": 0.3053
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "As a consequence, a large number of candidates had already fixed their position by following the rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3356,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1687,
+        "Arguments of Respondent": 0.2887,
+        "Decision": 0.0027,
+        "Facts": 0.2039,
+        "Issue": 0.0005,
+        "Reasoning": 0.3356
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "Interfering with the process would irrevocably prejudice such candidates who had accepted its mandate.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4232,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4232,
+        "Arguments of Respondent": 0.1922,
+        "Decision": 0.0042,
+        "Facts": 0.0783,
+        "Issue": 0.0003,
+        "Reasoning": 0.3018
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "It was argued that Soutrik, the respondent misled the High Court by suppressing material facts that he had never opted for computer science, contrary to his averments in the JEE (Mains) examination 2020 and furthermore by deceit and withholding information that he had been admitted to a course in IIT Kharagpur and proceeding to accept the seat in IIT Bombay (in BS Mathematics) based on his performance in the International Olympiad.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9082,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9082,
+        "Arguments of Respondent": 0.0527,
+        "Decision": 0.0001,
+        "Facts": 0.0043,
+        "Issue": 0.0001,
+        "Reasoning": 0.0346
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Mr. S.K. Bhattacharya, learned counsel for the respondent, Soutrik argued at the outset that the appeal should not be maintained for the reason that IIT has directly approached this Court without availing itself of the normal remedy of an appeal before the LPA Bench.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9921,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.9921,
+        "Decision": 0.0001,
+        "Facts": 0.0008,
+        "Issue": 0.0001,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "It was emphasized that if the matter were to be proceeded with, the respondent Soutrik would be placed at a disadvantage because he would have in the event of a decision by this court, no recourse to further appeal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8785,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0492,
+        "Arguments of Respondent": 0.8785,
+        "Decision": 0.0004,
+        "Facts": 0.0163,
+        "Issue": 0.0001,
+        "Reasoning": 0.0555
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Mr. Bhattacharya underlined that even otherwise, this Court has, as a matter of practice, desisted from entertaining the appeals from the learned Single Judges decisions, if appeals are available in the form of Letters Patents or writ appeals in the concerned High Courts.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3944,
+        "Arguments of Respondent": 0.5758,
+        "Decision": 0.0015,
+        "Facts": 0.0054,
+        "Issue": 0.0003,
+        "Reasoning": 0.0227
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "Mr. S.K. Bhattacharya, learned counsel urged that Criterion 5 is plainly discriminatory because it differentiates between candidates who are successful in securing admission to IITs and those who secured admission to nonIIT institutions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9429,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9429,
+        "Arguments of Respondent": 0.0499,
+        "Decision": 0.0001,
+        "Facts": 0.0008,
+        "Issue": 0.0002,
+        "Reasoning": 0.0062
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Highlighting that both categories of candidates appear in the same examination, it was emphasized that the socalled subcategorisation is irrational.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8581,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8581,
+        "Arguments of Respondent": 0.0834,
+        "Decision": 0.0001,
+        "Facts": 0.0142,
+        "Issue": 0.0002,
+        "Reasoning": 0.0441
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "Echoing the reasoning of the High Court, Mr. Bhattacharya urged that the IITs grounds for framing such a discriminatory policy are faulty because whether it is the ITT or a nonIIT technical institution the consequence of a candidate opting out of a particular course and seeking admission in a different institution would lead to the same consequence, i.e. loss of one seat.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9854,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0,
+        "Facts": 0.0006,
+        "Issue": 0.0002,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "In the circumstances, it cannot be said that there is a distinction between the two kinds of institutions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9136,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0286,
+        "Arguments of Respondent": 0.0474,
+        "Decision": 0.0005,
+        "Facts": 0.0098,
+        "Issue": 0.0001,
+        "Reasoning": 0.9136
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "It was submitted that Soutrik opted for the seat in IIT Kharagpur but could not pull out of the admission process before expiry of the last date for doing so due to inadvertence.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3803,
+        "Arguments of Respondent": 0.5448,
+        "Decision": 0.0001,
+        "Facts": 0.0321,
+        "Issue": 0.0003,
+        "Reasoning": 0.0423
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "In these circumstances, he ought to be given the choice of appearing in the current JEE (Advanced) examination since his career is at stake and he has an equal right to better his opportunity as candidate who succeeds in securing admission in nonIIT institutions but do not opt to continue.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5285,
+        "Arguments of Respondent": 0.3896,
+        "Decision": 0.002,
+        "Facts": 0.0249,
+        "Issue": 0.0007,
+        "Reasoning": 0.0543
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "At the outset, this Court holds as insubstantial the objection on behalf of the respondent, Soutrik that the IIT should have approached the Division Bench in Letter Patent jurisdiction of the Calcutta High Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0149,
+        "Decision": 0.0004,
+        "Facts": 0.0384,
+        "Issue": 0.0003,
+        "Reasoning": 0.936
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The ordinary rule of necessity that litigants should approach and avail of appellate remedies exhausting them before approaching this Court is a rule of convenience and not an immutable practice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0047,
+        "Facts": 0.0119,
+        "Issue": 0.0003,
+        "Reasoning": 0.9506
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "It has been held to be so by this Court (Ref State of UP v Harish Chandra Ors 1996 (9) SCC 309) .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2626,
+        "Arguments of Respondent": 0.1688,
+        "Decision": 0.0018,
+        "Facts": 0.0694,
+        "Issue": 0.0011,
+        "Reasoning": 0.4964
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "Moreover, the discretion under Article 136 of the Constitution is flexible and sufficiently wide, to correct glaring errors and injustices.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0471,
+        "Arguments of Respondent": 0.3842,
+        "Decision": 0.0014,
+        "Facts": 0.0084,
+        "Issue": 0.0001,
+        "Reasoning": 0.5587
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "Furthermore, this Court had issued notice on 09.09.2021 and granted an interim order suspending the directions of the High Court.",
+      "predicted_label": "Decision",
+      "confidence": 0.2646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1662,
+        "Arguments of Respondent": 0.2113,
+        "Decision": 0.2646,
+        "Facts": 0.1036,
+        "Issue": 0.0046,
+        "Reasoning": 0.2496
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 53,
+      "text": "On the two subsequent dates of hearing, i.e. 17.09.2021 and 24.09.2021, there was no objection on the part of the respondent with respect to the maintainability of the present petition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5025,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0675,
+        "Arguments of Respondent": 0.0242,
+        "Decision": 0.0145,
+        "Facts": 0.3873,
+        "Issue": 0.004,
+        "Reasoning": 0.5025
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 54,
+      "text": "Having regard to all these facts, the objection is hereby overruled.",
+      "predicted_label": "Facts",
+      "confidence": 0.5654,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0242,
+        "Arguments of Respondent": 0.0521,
+        "Decision": 0.0518,
+        "Facts": 0.5654,
+        "Issue": 0.0016,
+        "Reasoning": 0.3048
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "Candidates who have been admitted to a preparatory course in any of the IITs for the first time in 2019 can appear in JEE (Advanced) 2020.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0317,
+        "Arguments of Respondent": 0.0432,
+        "Decision": 0.1799,
+        "Facts": 0.0265,
+        "Issue": 0.0017,
+        "Reasoning": 0.717
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "The appellant contends that IITs have created a world class academic platform dynamically sustained through quality teaching and internationally acclaimed research with excellent infrastructure and the best minds available.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5526,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0004,
+        "Facts": 0.4134,
+        "Issue": 0.024,
+        "Reasoning": 0.0082
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 57,
+      "text": "The top 2.5 lakh successful candidates in the JEE (Mains) examination category wise are allowed to appear in the JEE (Advanced) examination provided they fulfill other eligibility criteria.",
+      "predicted_label": "Facts",
+      "confidence": 0.5305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.0316,
+        "Decision": 0.0016,
+        "Facts": 0.5305,
+        "Issue": 0.0032,
+        "Reasoning": 0.4083
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "Candidates who reject their seat during the first five (5) rounds or withdraw from allocated seat, by completing all formalities specified herein, can appear for JEE (Advanced) 2021 provided they meet all other eligibility requirements.",
+      "predicted_label": "Facts",
+      "confidence": 0.8169,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0481,
+        "Arguments of Respondent": 0.0225,
+        "Decision": 0.0275,
+        "Facts": 0.8169,
+        "Issue": 0.0407,
+        "Reasoning": 0.0443
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "In the present case, the undoubted facts are that Soutrik was successful in the JEE 2020 (Mains) examination and on the basis of his performance, was offered a set in the IIT Kharagpur.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0008,
+        "Facts": 0.0111,
+        "Issue": 0.0003,
+        "Reasoning": 0.9758
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "The IITs pleading before this Court revealed that on 09.11.2020, this Court had opposed the interim order in a Civil Appeal.(Sidhant",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1688,
+        "Arguments of Respondent": 0.3522,
+        "Decision": 0.0026,
+        "Facts": 0.3472,
+        "Issue": 0.0021,
+        "Reasoning": 0.127
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 61,
+      "text": "Batra v. Director IIT Bombay CA 4029/2020) IIT alleges that inspired by the interim order granted by this Court, Soutrik approached the Calcutta High Court on 23.12.2020 and filed his writ petition without making appropriate disclosures about his securing admission in IIT Bombay and that at the time of securing such admission, suppressing information that he had secured admission in IIT Kharagpur.",
+      "predicted_label": "Facts",
+      "confidence": 0.9735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0002,
+        "Facts": 0.9735,
+        "Issue": 0.0008,
+        "Reasoning": 0.0179
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "The reasoning of the High Court of Criterion 5 not permitting IIT students to participate in IIT (Advanced) for the second time being arbitrary, in the opinion of this Court is not supportable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0691,
+        "Arguments of Respondent": 0.0187,
+        "Decision": 0.0019,
+        "Facts": 0.0374,
+        "Issue": 0.0004,
+        "Reasoning": 0.8725
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "This Court has repeatedly emphasized that in matters such as devising admissions criteria or other issues engaging academic institutions, the courts scrutiny in judicial review has to be careful and circumspect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0148,
+        "Decision": 0.0276,
+        "Facts": 0.0059,
+        "Issue": 0.0013,
+        "Reasoning": 0.9449
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "Unless shown to be plainly arbitrary or discriminatory, the court would defer to the wisdom of administrators in academic institutions who might devise policies in regard to curricular admission process, career progression of their employees, matters of discipline or other general administrative issues concerning the institution or university See Basavaiah (Dr.) v. Dr. H.L. Ramesh Ors (2010) 8 SCC 372 .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0003,
+        "Facts": 0.0056,
+        "Issue": 0.0005,
+        "Reasoning": 0.971
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "It was held by this court in All India Council for Technical Education v. Surinder Kumar Dhawan (2009) 11 SCC 726 .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2587,
+        "Arguments of Respondent": 0.1144,
+        "Decision": 0.0006,
+        "Facts": 0.1196,
+        "Issue": 0.0006,
+        "Reasoning": 0.5061
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "The courts are neither equipped nor have the academic or technical background to substitute themselves in place of statutory professional technical bodies and take decisions in academic matters involving standards and quality of technical education.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7099,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1144,
+        "Arguments of Respondent": 0.0628,
+        "Decision": 0.012,
+        "Facts": 0.1004,
+        "Issue": 0.0005,
+        "Reasoning": 0.7099
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "If the courts start entertaining petitions from individual institutions or students to permit courses of their choice, either for their convenience or to alleviate hardship or to provide better opportunities, or because they think that one course is equal to another, without realizing the repercussions on the field of technical education in general, it will lead to chaos in education and deterioration in standards of education.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7284,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1211,
+        "Arguments of Respondent": 0.112,
+        "Decision": 0.0096,
+        "Facts": 0.0286,
+        "Issue": 0.0004,
+        "Reasoning": 0.7284
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "Given this general reluctance of courts to substitute the views of academic and expert bodies, the approach of the High Court in proceeding straightaway to characterize the rationale given by the IIT in fashioning the Criteria No. 5 cannot be supported.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0016,
+        "Facts": 0.0039,
+        "Issue": 0.0002,
+        "Reasoning": 0.9681
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "This court is of opinion that the impugned judgement is in error in holding that the exclusion of a candidate who secures admission but does not opt out of it and virtually abandons it as in the case of Soutrik from participating in the subsequent JEE (Advanced) examination is arbitrary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8671,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0418,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.006,
+        "Facts": 0.0757,
+        "Issue": 0.0046,
+        "Reasoning": 0.8671
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "As recounted earlier, criteria, including Criteria no.5 were devised after extensive consultations between all the IITs and other officials of the Union Government as well as the CBSE.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0006,
+        "Facts": 0.3629,
+        "Issue": 0.0011,
+        "Reasoning": 0.618
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 71,
+      "text": "The High Court proceeded to facially compare IITs and nonIIT institutions and hold that candidates who are admitted to nonIIT institutions and who do not proceed in the institution and who are allowed to participate in the subsequent JEE (Advanced) amounts to hostile discrimination and those who secure admission but do not proceed with the course in any given year.",
+      "predicted_label": "Facts",
+      "confidence": 0.8936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0002,
+        "Facts": 0.8936,
+        "Issue": 0.0057,
+        "Reasoning": 0.0859
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "In this Courts opinion, given that the Criteria no.5 is a part of the information Brochure, settled as a condition of admission in terms of of JoSAA Rules of 2020 meant that all IITs had adopted a uniform criteria of not permitting candidates who were successful in a previous year but did not pursue their course and did not opt out of taking another chance in the subsequent year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1927,
+        "Arguments of Respondent": 0.178,
+        "Decision": 0.0025,
+        "Facts": 0.0529,
+        "Issue": 0.0095,
+        "Reasoning": 0.5644
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "This was a binding norm applicable to all IIT institutions.",
+      "predicted_label": "Facts",
+      "confidence": 0.7625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0348,
+        "Arguments of Respondent": 0.0986,
+        "Decision": 0.0001,
+        "Facts": 0.7625,
+        "Issue": 0.0006,
+        "Reasoning": 0.1033
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "If one considers the fact that JEE (Advanced) is governed by rules framed under the Act, and regulations, the further detail that it permitted non IIT candidates who were admitted in a previous year (but did not pursue their course nor withdrew the option in a previous year) is logical.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9222,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0284,
+        "Decision": 0.0015,
+        "Facts": 0.0317,
+        "Issue": 0.0002,
+        "Reasoning": 0.9222
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "Such nonIIT institutions are not governed by the Act and regulations framed under it or even for that matter JoSAA Business Rules.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4603,
+        "Arguments of Respondent": 0.3288,
+        "Decision": 0.0006,
+        "Facts": 0.0249,
+        "Issue": 0.0004,
+        "Reasoning": 0.185
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 76,
+      "text": "Furthermore, in the opinion of this Court, securing a seat in any one of the 23 IITs stands on a different footing than securing a seat in nonIIT institution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1052,
+        "Arguments of Respondent": 0.2354,
+        "Decision": 0.0008,
+        "Facts": 0.287,
+        "Issue": 0.0037,
+        "Reasoning": 0.3679
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 77,
+      "text": "This is not to in any manner undermine the worth or academic curricula or ranking of such nonIIT institutions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1237,
+        "Arguments of Respondent": 0.1773,
+        "Decision": 0.016,
+        "Facts": 0.1798,
+        "Issue": 0.0002,
+        "Reasoning": 0.503
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 78,
+      "text": "The classification of IITs, on the one hand and nonIIT institutions on the other hand is warranted.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1762,
+        "Arguments of Respondent": 0.4618,
+        "Decision": 0.0048,
+        "Facts": 0.0561,
+        "Issue": 0.0017,
+        "Reasoning": 0.2994
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "This Court does not wish to emphasise this aspect further except to say that the classification is justified both statutorily and in terms of Parliamentary declaration that the Act was conceived as one meant to setup institutions of excellence having national status.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0006,
+        "Facts": 0.0202,
+        "Issue": 0.0007,
+        "Reasoning": 0.9637
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "This Court hold Criterion 5 to be valid, aimed at conserving a valuable public resource, i.e. seats in IITs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.164,
+        "Arguments of Respondent": 0.1222,
+        "Decision": 0.0006,
+        "Facts": 0.0537,
+        "Issue": 0.0005,
+        "Reasoning": 0.6591
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "For the above reasons, the impugned judgment and directions of the High Court are hereby set aside the writ petition of the respondent, is consequently dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9575,
+        "Facts": 0.016,
+        "Issue": 0.0001,
+        "Reasoning": 0.0256
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "In the circumstances, there shall be no order on costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9847,
+        "Facts": 0.0045,
+        "Issue": 0.0001,
+        "Reasoning": 0.01
+      }
+    }
+  ]
+}

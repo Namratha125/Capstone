@@ -1,0 +1,784 @@
+{
+  "case_id": "6584",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "On February 23, 1972, respondent No. 1, Udharam Bhagwanda Japanwalla, as a constituted Attorney of Venus polish, filed a complaint in the court of the Presidency Magistrate, 28th Court, Esplanade, Bombay, alleging that, (1) the applicant, Esso Standard company which was described in the complaint as accused No. 1, (2) one Z. A. Merchant, an officer of the company who was described as accused No. 2, (3) one R. K. Gupta, a sales officer of the company, described as accused No. 3, (4) and R. D. Vyas, sales manager of the company, described as accused No. 4, and (5) C. B. Thomas, general manager of the company, described as accused No. 5, committed offences under sections 420, 417 read with sections 34, 109 and 114 of the Indian Penal Code.",
+      "predicted_label": "Facts",
+      "confidence": 0.9947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0,
+        "Facts": 0.9947,
+        "Issue": 0.0005,
+        "Reasoning": 0.0032
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The learned Magistrate issued summonses on a perusal of the complaint and hearing the complainant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0761,
+        "Arguments of Respondent": 0.1108,
+        "Decision": 0.0007,
+        "Facts": 0.3345,
+        "Issue": 0.0017,
+        "Reasoning": 0.4761
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The complaint is numbered as Case No. 18/s of 1972.",
+      "predicted_label": "Facts",
+      "confidence": 0.9662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0005,
+        "Facts": 0.9662,
+        "Issue": 0.0258,
+        "Reasoning": 0.0066
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "It is common ground that accused Nos. 1 to 3 were served with summonses but accused Nos. 4 and 5 who are residing in the United States are not yet served.",
+      "predicted_label": "Facts",
+      "confidence": 0.7111,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0104,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0009,
+        "Facts": 0.7111,
+        "Issue": 0.1538,
+        "Reasoning": 0.1161
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "On July 3, 1972, respondent No. 1 moved the Magistrate for extradition proceedings being taken against accused Nos. 4 and 5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0001,
+        "Facts": 0.9767,
+        "Issue": 0.0055,
+        "Reasoning": 0.0133
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "(2) THE above application is filed by Esso company contending that the continuation of the proceedings before the Magistrate is a gross abuse of the courts process and praying that in exercise of the powers of this court under section 561A of the criminal procedure code the proceedings in Case No. 18/s of 1972, pending in the court of the Presidency Magistrate, 28th court, Esplanade, Bombay, should be quashed and the complaint dismissed, or, in the alternative, the process issued by the learned Magistrate be set aside and the complaint required to the disposed of the after holding an inquiry under section 202 of the Criminal Procedure Code.",
+      "predicted_label": "Facts",
+      "confidence": 0.6288,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3183,
+        "Arguments of Respondent": 0.0328,
+        "Decision": 0.0006,
+        "Facts": 0.6288,
+        "Issue": 0.0026,
+        "Reasoning": 0.0169
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "The application of the Company is opposed by respondent No. 1",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0233,
+        "Arguments of Respondent": 0.9047,
+        "Decision": 0.0002,
+        "Facts": 0.0439,
+        "Issue": 0.0005,
+        "Reasoning": 0.0275
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "Mr. M. B. Kadam, learned Assistant government Pleader, appearing for the State of Maharashtra, supports the application.(3) MR.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5336,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3149,
+        "Arguments of Respondent": 0.5336,
+        "Decision": 0.0005,
+        "Facts": 0.1429,
+        "Issue": 0.0017,
+        "Reasoning": 0.0064
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "Jethmalani, the learned counsel appearing for the applicant company, submitted that having regard to the categories of cases settled, though not exhaustive of all other cases as mentioned in R. P. Kapur v. State of Punjab, the complaint filed by respondent No. 1 squarely falls within the second category, i. e. , the category of cases where the allegations in the first information report or the complaint even if they are taken on their face value and accepted in their entirety do not constitute an offence alleged and, apart from that, the ends on justice require that the proceedings pending before the Presidency Magistrate should be quashed against the applicantcompany and its officers who are mentioned as accused Nos. 2 to 5.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9784,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0002,
+        "Facts": 0.0099,
+        "Issue": 0.0005,
+        "Reasoning": 0.0051
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "He submitted that on the face of it the complaint disclosed no criminal offence under any section of the Indian penal Code under which process has been issued by the learned Magistrate, viz. , sections 420, 417 read with sections 34, 109 and 114 of the Indian Penal code because the allegations made in the complaint were wholly false and even assuming them to the true they did not establish the ingredients of the said offence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5713,
+        "Arguments of Respondent": 0.4113,
+        "Decision": 0.0003,
+        "Facts": 0.0116,
+        "Issue": 0.0004,
+        "Reasoning": 0.0051
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "He argued that the dispute between the parties was at the worst a civil dispute and even according to the complaint the claim of the complaint was time barred.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4952,
+        "Arguments of Respondent": 0.4852,
+        "Decision": 0.0002,
+        "Facts": 0.01,
+        "Issue": 0.0002,
+        "Reasoning": 0.0091
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "He pointed out that in the year 1963, with respect to the same dispute, respondent No. 1 made claim of Rs. 85,000 in May 1969, he made a claim of Rs. 7,56,840 and in February, 1971, he inflated in to Rs. 22,56,840 with the ulterior motive of blackmailing the officers of the applicantcompany and to force a settlement of a frivolous and timebarred claim.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7579,
+        "Arguments of Respondent": 0.2148,
+        "Decision": 0.0001,
+        "Facts": 0.0166,
+        "Issue": 0.0001,
+        "Reasoning": 0.0105
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "He argued further that although the complaint repeatedly refers to assurance and representations which were false, it is not stated as to which of the representations was false and in view of this was clear that the complaint was abusing the process of the court by king the court to issue process particularly when the complaint filed earlier on the same facts in the same court before another presidency Magistrate was withdrawn after issuing process of December 8, 1971 and was, therefore, dismissed by the learned Magistrate.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4577,
+        "Arguments of Respondent": 0.522,
+        "Decision": 0.0002,
+        "Facts": 0.0118,
+        "Issue": 0.0002,
+        "Reasoning": 0.0081
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 13,
+      "text": "He submitted that even on the allegations of the complaint it was obvious that the alleged offences took place in the year 1963, and it was discovered by the complainant of February 8, 1968 and the learned Presidency Magistrate had not exercised his discretion properly in issuing process without even making an enquiry under section 202 on a stale complaint filed in 1972.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7949,
+        "Arguments of Respondent": 0.1891,
+        "Decision": 0.0002,
+        "Facts": 0.0077,
+        "Issue": 0.0002,
+        "Reasoning": 0.0079
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Mr. Jethmalani argued that a although there is reference in the complaint to both section 417 and section 420, section 420 is the more serious section which will be attracted if the complaint wants to suggest cheating as the offence by the allegations made in the case and the complaint would be barred against the applicantcompany in view of the decision of this court in State of Maharashtra v.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9527,
+        "Arguments of Respondent": 0.0373,
+        "Decision": 0.0002,
+        "Facts": 0.0012,
+        "Issue": 0.0003,
+        "Reasoning": 0.0084
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Syndicate Transport Co. Ltd.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4347,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1406,
+        "Arguments of Respondent": 0.0963,
+        "Decision": 0.0085,
+        "Facts": 0.2959,
+        "Issue": 0.0241,
+        "Reasoning": 0.4347
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "Further relying on the principles enunciated regarding the liability by a corporation or company in Tesco Supermarkets Ltd. v. Nattrass, he submitted that the complaint was liable to be dismissed against the applicantcompany on the ground that there was no allegation in the complaint that accused Nos. 2 to 5 were acting under authority to the company and further the no act was attributed to them which could be the act of the company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4914,
+        "Arguments of Respondent": 0.4815,
+        "Decision": 0.0001,
+        "Facts": 0.0202,
+        "Issue": 0.0003,
+        "Reasoning": 0.0064
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 17,
+      "text": "He further submitted that having regard to the allegations made in the complaint that the offences were committed by all the accused with a common intention the complaint was liable to be dismissed against all the accused as the company could not be indicted on charge under section 420 or section 417 of the Indian Penal Code in the facts and circumstances of the case.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4455,
+        "Arguments of Respondent": 0.4723,
+        "Decision": 0.0003,
+        "Facts": 0.0723,
+        "Issue": 0.0006,
+        "Reasoning": 0.0091
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 18,
+      "text": "Mr. Jethmalani further submitted that, although the applications is filed only by Esso standard Incorporated Co. , the ends of justice require that the proceedings should be quashed against all the accused and this court has power to quash the proceedings even against persons who had not moved this court under section 439 of the Criminal Procedure code as held in Parbati Devi v. State.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8858,
+        "Arguments of Respondent": 0.1084,
+        "Decision": 0.0003,
+        "Facts": 0.0016,
+        "Issue": 0.0003,
+        "Reasoning": 0.0037
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "(4) THESE arguments of Mr. Jethmalani were sought to be repelled by Mr. Paranjpe, learned counsel for the complainant, reading the entire complaint and by contending that the allegations made in the complaint prima facie fulfilled all the ingredients of section 417 of the Indian Penal code against all the accused including the company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7982,
+        "Arguments of Respondent": 0.1186,
+        "Decision": 0.0003,
+        "Facts": 0.0332,
+        "Issue": 0.0005,
+        "Reasoning": 0.0493
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "He submitted the though the company cannot be indicated under section 420 of the Penal Code as held in State of Maharashtra v. Syndicate Transport Co. Ltd. , the applicantcompany and its officers were liable for criminal action in the facts and circumstances having regard to the nature of the offences disclosed in the allegations in the complaint, the relative position of the officers visvis the company and other relevant facts and circumstances which clearly showed that the company had meant or intended to cheat the complainant through its agents, Nos. 2 to 5.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3872,
+        "Arguments of Respondent": 0.5614,
+        "Decision": 0.0002,
+        "Facts": 0.0432,
+        "Issue": 0.0003,
+        "Reasoning": 0.0077
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "As far as we can see, what is alleged is nothing more than a breach of an assurance or undertaking or representation made by accused Nos. 2,3, and 4 to the complainant that even though the agreement was not an agreement for 50 years as it was automatically renewable every year it mounted to an automatic agreement renewable for 50 years and, hence, when they wrote on April, 3, 1968, that the agreement was terminated, the said accused Nos. 2, 3 and 4 and the company committed breach of the agreement to renew the agreement for 50 years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7733,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0002,
+        "Facts": 0.2053,
+        "Issue": 0.0008,
+        "Reasoning": 0.7733
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Merely stating in the complaint that the termination showed that the parties were dishonest from the beginning cannot convert a purely civil dispute like the present one into a crime.(18)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.0031,
+        "Facts": 0.0075,
+        "Issue": 0.0002,
+        "Reasoning": 0.9596
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "A civil proceeding has for its object the recovery of money or other property, or the enforcement of a right for the advantage of the person suing, while criminal proceeding has for its object the punishment of a public offence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.0373,
+        "Decision": 0.0003,
+        "Facts": 0.0087,
+        "Issue": 0.0011,
+        "Reasoning": 0.9209
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Criminal proceedings cannot be used as a means of recovering a civil debt in the absence of express provision to that effect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.057,
+        "Arguments of Respondent": 0.0763,
+        "Decision": 0.0023,
+        "Facts": 0.0041,
+        "Issue": 0.001,
+        "Reasoning": 0.8593
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "(See Halsburys Laws of england, Volume X, para.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9099,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.0537,
+        "Decision": 0.0052,
+        "Facts": 0.0072,
+        "Issue": 0.0017,
+        "Reasoning": 0.9099
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "502, page 271, and R. v. Peel).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1087,
+        "Arguments of Respondent": 0.2104,
+        "Decision": 0.002,
+        "Facts": 0.013,
+        "Issue": 0.0003,
+        "Reasoning": 0.6657
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Merely because he signed it believing the assurances of the officers that if he did not commit breach of the agreement the agreement would be renewed, it could not make the conduct of accused Nos. 2 to 4 dishonest in any manner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0542,
+        "Arguments of Respondent": 0.0647,
+        "Decision": 0.0002,
+        "Facts": 0.0358,
+        "Issue": 0.0003,
+        "Reasoning": 0.8449
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The complainant is a business man.",
+      "predicted_label": "Facts",
+      "confidence": 0.7543,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0102,
+        "Decision": 0.0019,
+        "Facts": 0.7543,
+        "Issue": 0.001,
+        "Reasoning": 0.2188
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "He has signed the agreement with open eyes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7312,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0885,
+        "Arguments of Respondent": 0.0713,
+        "Decision": 0.0009,
+        "Facts": 0.1073,
+        "Issue": 0.0007,
+        "Reasoning": 0.7312
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "It was clear that the agreement was renewable every year.",
+      "predicted_label": "Facts",
+      "confidence": 0.4918,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0842,
+        "Arguments of Respondent": 0.0899,
+        "Decision": 0.0004,
+        "Facts": 0.4918,
+        "Issue": 0.0009,
+        "Reasoning": 0.3327
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "It could not be so renewed without the consent of both the parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.5132,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0464,
+        "Arguments of Respondent": 0.0229,
+        "Decision": 0.0007,
+        "Facts": 0.5132,
+        "Issue": 0.0016,
+        "Reasoning": 0.4152
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 32,
+      "text": "In the face of the written agreement it is not open to the complainant to allege dishonest intention against the officers of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5146,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0763,
+        "Arguments of Respondent": 0.1272,
+        "Decision": 0.0009,
+        "Facts": 0.2806,
+        "Issue": 0.0003,
+        "Reasoning": 0.5146
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "In these circumstances it is doubtful whether even a civil claim could be made by the complainant against the accused.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0489,
+        "Arguments of Respondent": 0.0422,
+        "Decision": 0.0074,
+        "Facts": 0.1573,
+        "Issue": 0.0005,
+        "Reasoning": 0.7437
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The complainant has inferred a dishonest intention on the part of the officers by their subsequent declaration that the agreement was already terminated as one year had expired.",
+      "predicted_label": "Facts",
+      "confidence": 0.4123,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1022,
+        "Arguments of Respondent": 0.0886,
+        "Decision": 0.0009,
+        "Facts": 0.4123,
+        "Issue": 0.0004,
+        "Reasoning": 0.3955
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "This inference is not open to him because on his own allegations he had signed the agreement renewable every years believing that it was renewable for a period of 50 years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0393,
+        "Arguments of Respondent": 0.0314,
+        "Decision": 0.0006,
+        "Facts": 0.0469,
+        "Issue": 0.0003,
+        "Reasoning": 0.8816
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "He need not have signed the agreement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0494,
+        "Arguments of Respondent": 0.0326,
+        "Decision": 0.0006,
+        "Facts": 0.0291,
+        "Issue": 0.0024,
+        "Reasoning": 0.886
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "He has said in the complaint itself that the legal department of the applicantcompany had said that the officers could not put in 50 years in the agreement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1091,
+        "Arguments of Respondent": 0.1202,
+        "Decision": 0.001,
+        "Facts": 0.3085,
+        "Issue": 0.0004,
+        "Reasoning": 0.4608
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "Hence it is clear that the complainant knew that the officers could not assure him at all that the agreement was renewable for 50 years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.659,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.011,
+        "Decision": 0.0002,
+        "Facts": 0.3164,
+        "Issue": 0.0006,
+        "Reasoning": 0.659
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "The allegations made in the complaint itself disclose only at the highest a mere breach of the contract which cannot give rise to a criminal proceeding against any of the accused.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1258,
+        "Arguments of Respondent": 0.1309,
+        "Decision": 0.004,
+        "Facts": 0.0894,
+        "Issue": 0.0009,
+        "Reasoning": 0.649
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "(31) IN view of these principles it was submitted by Mr. Jethmalani that although L. M. Paranjpe j. was right in holding in State of Maharashtra v. Syndicate Transport Co. that a company cannot be indictable for offences which can only be committed by a human individual, like treason, murder, bigamy, perjury, rape, etc. , or for offences punishable with imprisonment or corporal punishment, the propositions made at page 200 by L. M. Paranjpe J. that . . . . .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7982,
+        "Arguments of Respondent": 0.1319,
+        "Decision": 0.0001,
+        "Facts": 0.0032,
+        "Issue": 0.0003,
+        "Reasoning": 0.0664
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "a corporate body ought to be indictable for criminal acts or omissions of its directors, or authorised agents or servants, whether they involve mens area or not, provided they have acted or have purported to act under authority of the corporate body or in pursuance of the aims or objects of the corporate body and that the question whether a corporate body should or should not be liable for criminal action resulting from the acts of some individual must depend on the nature of the offence disclosed by the allegations in the complaint or in the chargesheet, the relative position of the officer or agent, visvis, the corporate body and the other relevant facts and circumstances which could show that the corporate body, as such, meant or intended to commit that act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4099,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3936,
+        "Arguments of Respondent": 0.1537,
+        "Decision": 0.0009,
+        "Facts": 0.0406,
+        "Issue": 0.0014,
+        "Reasoning": 0.4099
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "and further that each case will have necessarily to depend on its own facts, must be considered as propositions which ignore the constitution of corporate bodies under the memorandum of association and articles of association.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6853,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1775,
+        "Arguments of Respondent": 0.1131,
+        "Decision": 0.0037,
+        "Facts": 0.0196,
+        "Issue": 0.0009,
+        "Reasoning": 0.6853
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "This criticism appears to us to be justified having regard to what Lord Diplock has stated in his speech but the remarks of L. M. Paranjpe J. were obiter as the case was decided in the context of the question of liability of a company under section 420 of the Indian Penal Code alone and it was rightly held by L. M. Paranjpe J. that as section 420, Indian Penal Code, made it necessary for the court to inflict imprisonment, a company could not be indicted under that section.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9076,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0391,
+        "Arguments of Respondent": 0.0423,
+        "Decision": 0.0006,
+        "Facts": 0.0101,
+        "Issue": 0.0002,
+        "Reasoning": 0.9076
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "On the contrary the averments made in the complaint this, in our judgment, is nothing but confused thinking on the matter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0009,
+        "Facts": 0.0065,
+        "Issue": 0.0001,
+        "Reasoning": 0.9753
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "The law attributes to the company intention of the officers of the company under certain circumstances.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0669,
+        "Arguments of Respondent": 0.064,
+        "Decision": 0.0001,
+        "Facts": 0.0318,
+        "Issue": 0.0005,
+        "Reasoning": 0.8367
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The companys intention could be ascertained only when the company in a general body or at the meeting of the board of directors or in accordance with the memorandum of association or articles of association has expressed that intention in the form in which it should be expressed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9054,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0628,
+        "Arguments of Respondent": 0.0211,
+        "Decision": 0.0001,
+        "Facts": 0.0102,
+        "Issue": 0.0005,
+        "Reasoning": 0.9054
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "In the absence of any such averments it is clear that the complaint against the applicantcompany is clearly not maintainable in law having regard to the general principles of criminal liability enunciated by the House of Lords in the above case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0608,
+        "Arguments of Respondent": 0.0239,
+        "Decision": 0.0054,
+        "Facts": 0.053,
+        "Issue": 0.0004,
+        "Reasoning": 0.8565
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Jethmalani, in our opinion, is also right in his contention that as the substance of the complaint is with respect to the loss sustained by the complainant in giving up his claim against the Esso Co. , although section 417, Indian Penal Code, is referred to in the complaint and in the process issued by the learned Magistrate the only section which could be, if at all, invoked by the complainant on the basis of his allegations was section 420, Indian Penal Code, and not section 417, Indian Penal Code, and hence the ratio of L. M. Paranjpe J. s judgment in State of maharashtra v. Syndicate Transport Co. would also apply and no indictment could be made against the company under section 420, Indian Penal Code.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0022,
+        "Facts": 0.0148,
+        "Issue": 0.0002,
+        "Reasoning": 0.9684
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "Paranjpe, learned counsel for the complainant, fairly stated that he could not submit that this court had no jurisdiction under section 561A read with section 439 of the Criminal procedure Code to quash the proceedings against all the accused on an application filed by the applicantcompany if this court found, as it has found, that the allegations made in the complaint did not constitute any offence and the complaint was not maintainable as it involves a civil dispute.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6179,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0206,
+        "Arguments of Respondent": 0.6179,
+        "Decision": 0.0021,
+        "Facts": 0.042,
+        "Issue": 0.0007,
+        "Reasoning": 0.3166
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "Jethmalani submitted that as the present complaint was filed on the same allegations on the basis of which the earlier complaint was filed and withdrawn, it was clear that the complainants motive in filing this complaint was not to vindicate the law but to coerce the accused by criminal process to enter into a settlement with regard to his false claim.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9391,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9391,
+        "Arguments of Respondent": 0.0487,
+        "Decision": 0.0001,
+        "Facts": 0.0038,
+        "Issue": 0.0001,
+        "Reasoning": 0.0083
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "He, therefore, submitted that this was a case in which compensation should be ordered under section 516AA of the Criminal Procedure Code.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6508,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6508,
+        "Arguments of Respondent": 0.2888,
+        "Decision": 0.0008,
+        "Facts": 0.039,
+        "Issue": 0.0004,
+        "Reasoning": 0.02
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "In view of that dispute it is possible that the complainant was advised to file a complaint and it cannot be said that it is without any reasonable or proper cause.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8697,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0016,
+        "Facts": 0.0822,
+        "Issue": 0.0011,
+        "Reasoning": 0.8697
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "(38) FOR the above reasons, we allow the application and quash all the proceedings against the applicant and all the other accused pending in the court of the learned Presidency Magistrate, 28th Court, in Case No. 18/s of 1972.",
+      "predicted_label": "Decision",
+      "confidence": 0.7246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.7246,
+        "Facts": 0.2274,
+        "Issue": 0.001,
+        "Reasoning": 0.044
+      }
+    }
+  ]
+}

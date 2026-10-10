@@ -1,0 +1,1238 @@
+{
+  "case_id": "7032",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The appeal has been preferred by the First Defendant against an order of the learned Single Judge on a Summons for Judgment taken out in a summary suit under Order XXXVII of the Code of Civil Procedure, 1908.",
+      "predicted_label": "Issue",
+      "confidence": 0.7566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0014,
+        "Facts": 0.2337,
+        "Issue": 0.7566,
+        "Reasoning": 0.0066
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "By the impugned judgment, the Appellant has been granted leave to defend the suit conditional on a deposit of an amount of Rs.50.00 lakhs within a period of eight weeks.",
+      "predicted_label": "Facts",
+      "confidence": 0.6484,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0099,
+        "Facts": 0.6484,
+        "Issue": 0.142,
+        "Reasoning": 0.1649
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The Summons for Judgment has been made absolute against the Second and Third Defendants who have not entered appearance despite service of the summons.",
+      "predicted_label": "Facts",
+      "confidence": 0.4494,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0778,
+        "Arguments of Respondent": 0.0743,
+        "Decision": 0.0262,
+        "Facts": 0.4494,
+        "Issue": 0.0475,
+        "Reasoning": 0.3248
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 3,
+      "text": "Since the appeal is only by the First Defendant, this order is confined to the correctness of the order of the learned Single Judge insofar as the Appellant was granted conditional leave to defend.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.96,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0003,
+        "Facts": 0.96,
+        "Issue": 0.034,
+        "Reasoning": 0.0017
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The suit has been instituted for the recovery of an amount of Rs.81.33 lakhs together with interest at the rate of 18 per cent per annum on the principal sum of Rs.75.65 lakhs.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0002,
+        "Facts": 0.9952,
+        "Issue": 0.0016,
+        "Reasoning": 0.0017
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The Appellant was appointed as a Chief Financial Officer (CFO) by the First Respondent on 16 June 2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.9922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0,
+        "Facts": 0.9922,
+        "Issue": 0.0029,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "According to the First Respondent, as a CFO, the Appellant was conferred with the power to take financial decisions on behalf of the First Respondent independently.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.5572,
+        "Decision": 0.0003,
+        "Facts": 0.3789,
+        "Issue": 0.0051,
+        "Reasoning": 0.0542
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "On 18 May 2009 the Appellant was appointed as an Executive Director with a power, inter alia, to supervise the funding of an Alumina Refinery project of the First Respondent.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0004,
+        "Facts": 0.994,
+        "Issue": 0.0017,
+        "Reasoning": 0.0014
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The case of the First Respondent is that by misusing his position, the Appellant introduced the Third Respondent (the Second Defendant) who was a Chairman of an entity by the name of Aajay Consultants, with a view to arrange finance of Rs.2,700 crores for the project of the Alumina Refinery at Kutch.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.6976,
+        "Decision": 0.0002,
+        "Facts": 0.2268,
+        "Issue": 0.0025,
+        "Reasoning": 0.0687
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "According to the First Respondent, the Third Respondent represented that he would ensure the remittance of funds by a foreign investment company by the name of Plan Insure Limited.",
+      "predicted_label": "Facts",
+      "confidence": 0.9369,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.0001,
+        "Facts": 0.9369,
+        "Issue": 0.0026,
+        "Reasoning": 0.0397
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "For that purpose, it is alleged that the First Respondent was required to arrange funds to facilitate the issuance of a bank guarantee from HSBC Bank, London against the loan facility.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0001,
+        "Facts": 0.9864,
+        "Issue": 0.0008,
+        "Reasoning": 0.0015
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "On 11 September 2009, the Appellant tendered his resignation from service on which an endorsement was made by the First Respondent that he would be relieved on 30 November 2009.",
+      "predicted_label": "Facts",
+      "confidence": 0.9739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0001,
+        "Facts": 0.9739,
+        "Issue": 0.0047,
+        "Reasoning": 0.0103
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "On 6 October 2009, an invoice was raised by Plan Insure Limited in the amount of Euros 1,10,000 on the First Respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.9908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0,
+        "Facts": 0.9908,
+        "Issue": 0.0023,
+        "Reasoning": 0.0055
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "On 9 October 2009 the Appellant together with another employee of the company, by the name of Chitre, issued an advise to Yes Bank Limited, the bankers of the First Respondent, authorizing the making of a remittance of Euros 1,10,000 towards advance payment towards insurance.",
+      "predicted_label": "Facts",
+      "confidence": 0.9847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0,
+        "Facts": 0.9847,
+        "Issue": 0.0005,
+        "Reasoning": 0.0109
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The amount was wire transferred.",
+      "predicted_label": "Facts",
+      "confidence": 0.7595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0363,
+        "Arguments of Respondent": 0.0412,
+        "Decision": 0.0025,
+        "Facts": 0.7595,
+        "Issue": 0.0069,
+        "Reasoning": 0.1538
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The case of the First Respondent is that this amount was instructed to be remitted by the Appellant to the bankers of the First Respondent unauthorizedly and without consulting the officials of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.37,
+        "Decision": 0.0004,
+        "Facts": 0.435,
+        "Issue": 0.0022,
+        "Reasoning": 0.1868
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "On 20 October 2009, a cheque in the amount of Rs.35.00 lakhs was issued by International Invest and Trade Management Services to the First Respondent as the first installment towards the loan which was dishonoured on presentation.",
+      "predicted_label": "Facts",
+      "confidence": 0.992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.992,
+        "Issue": 0.0041,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Subsequently, on 23 October 2009, the Third Respondent issued a cheque in the amount of Rs.85.00 lakhs which was also dishonoured on presentation.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9967,
+        "Issue": 0.0015,
+        "Reasoning": 0.0006
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "In this background, it has been stated that the Appellant issued a letter dated 25 November 2009 to the First Respondent stating that the payment of Euros 1,10,000 had been made in order to raise money for funding the project, that he accepted personal responsibility for the decision and was indicating a payment schedule for repayment.",
+      "predicted_label": "Facts",
+      "confidence": 0.7355,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0325,
+        "Arguments of Respondent": 0.0537,
+        "Decision": 0.0003,
+        "Facts": 0.7355,
+        "Issue": 0.0004,
+        "Reasoning": 0.1775
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The Appellant stated that since he was leaving the organization, it would be proper for him to settle the dues and leave.",
+      "predicted_label": "Facts",
+      "confidence": 0.9011,
+      "probabilities": {
+        "Arguments of Petitioner": 0.016,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0006,
+        "Facts": 0.9011,
+        "Issue": 0.0002,
+        "Reasoning": 0.0799
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The payment schedule indicated in the letter was as followsRs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.9878,
+        "Issue": 0.0005,
+        "Reasoning": 0.0071
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "in Lacs1Chequedrawn on HSBC (personal account)50.002Amount due from the company on settlement7.003Amount receivable for the months of July to November7.50 Total 64.504Balance payable (will be paid by 15th December 2009)5.50 Total 70.00 8.",
+      "predicted_label": "Facts",
+      "confidence": 0.942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0166,
+        "Arguments of Respondent": 0.0282,
+        "Decision": 0.0001,
+        "Facts": 0.942,
+        "Issue": 0.0006,
+        "Reasoning": 0.0125
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The Appellant issued a cheque of Rs.50.00 lakhs dated 25 November 2009.",
+      "predicted_label": "Facts",
+      "confidence": 0.8428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0429,
+        "Arguments of Respondent": 0.0132,
+        "Decision": 0.0019,
+        "Facts": 0.8428,
+        "Issue": 0.009,
+        "Reasoning": 0.0902
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The cheque was returned on presentation on 10 December 2009 on the ground that payment had been stopped by the drawer.",
+      "predicted_label": "Facts",
+      "confidence": 0.8182,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0108,
+        "Decision": 0.0009,
+        "Facts": 0.8182,
+        "Issue": 0.0255,
+        "Reasoning": 0.1328
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "On 10 December 2009, the Appellant issued a letter to the First Respondent stating that the cheque had been issued by him to the First Respondent as a part of his moral responsibility.",
+      "predicted_label": "Facts",
+      "confidence": 0.9944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9944,
+        "Issue": 0.0011,
+        "Reasoning": 0.0035
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The Appellant claimed that though no amount was due by him to the First Respondent, the cheque was deposited by the First Respondent despite an assurance that the cheque would not be deposited.",
+      "predicted_label": "Facts",
+      "confidence": 0.9551,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0007,
+        "Facts": 0.9551,
+        "Issue": 0.0024,
+        "Reasoning": 0.0262
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The Appellant stated that his terminal dues of Rs.14.50 lakhs were lying with the Respondent and asked for the dues to be repaid.",
+      "predicted_label": "Facts",
+      "confidence": 0.9857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9857,
+        "Issue": 0.0005,
+        "Reasoning": 0.0092
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The suit was instituted after the issuance of an Advocates notice.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.9628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0138,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0002,
+        "Facts": 0.9628,
+        "Issue": 0.001,
+        "Reasoning": 0.0142
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The learned Single Judge has primarily relied on the provisions of Section 118 of Negotiable Instruments Act, 1881 in holding that there is a presumption of consideration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0352,
+        "Arguments of Respondent": 0.0119,
+        "Decision": 0.0011,
+        "Facts": 0.4322,
+        "Issue": 0.0103,
+        "Reasoning": 0.5093
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "According to the learned Single Judge, the presumption that the issuance of the cheque was for valid consideration was not rebutted.",
+      "predicted_label": "Facts",
+      "confidence": 0.925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0004,
+        "Facts": 0.925,
+        "Issue": 0.0166,
+        "Reasoning": 0.0527
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The learned Single Judge was also of the view that the retraction by the Appellant on 10 December 2009 after he had issued the letter and a cheque on 23 October 2009 was not at the earliest opportunity.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.9659,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0,
+        "Facts": 0.9659,
+        "Issue": 0.0004,
+        "Reasoning": 0.0244
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "During the course of the hearing of the appeal, the learned Senior Counsel appearing on behalf of the Appellant has submitted that(i) The case of the First Respondent to the effect that the remittance by the Appellant was unauthorized is belied by the documentary material on the record.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8747,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0015,
+        "Facts": 0.0874,
+        "Issue": 0.0017,
+        "Reasoning": 0.0332
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "In particular, the minutes of a meeting that was held on 30 June 2009 (Exhibit3 to the reply) would indicate that among others, the First Respondent was represented by its Director Mr.Chetan Shah.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0562,
+        "Arguments of Respondent": 0.428,
+        "Decision": 0.0003,
+        "Facts": 0.2602,
+        "Issue": 0.0002,
+        "Reasoning": 0.255
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "Moreover, reliance has also been placed on a communication dated 16 October 2009 (ExhibitF) which would indicate that the remittance was not unauthorized and that Mr.Chetan Shah on behalf of the First Respondent was aware of the entire transaction(ii) The Appellant was the CFO who had tendered his resignation on 11 September 2009 and which was to be enforced, even according to the First Respondent, on 30 November 2009.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.864,
+        "Arguments of Respondent": 0.0851,
+        "Decision": 0.0001,
+        "Facts": 0.0233,
+        "Issue": 0.0006,
+        "Reasoning": 0.0268
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "There is nothing to indicate that any benefit had flowed to the Appellant out of the transaction and even the letter of the Appellant dated 25 November 2009 only accepted moral responsibility for the decision taken to remit the funds.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3615,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3384,
+        "Arguments of Respondent": 0.3615,
+        "Decision": 0.0009,
+        "Facts": 0.0569,
+        "Issue": 0.0002,
+        "Reasoning": 0.2421
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "The issuance of the cheque by the Appellant was, therefore, without any consideration whatsoever as is evident by the Appellants letter dated 10 December 2009(iii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8697,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8697,
+        "Arguments of Respondent": 0.0854,
+        "Decision": 0.0006,
+        "Facts": 0.0375,
+        "Issue": 0.0014,
+        "Reasoning": 0.0054
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "In the present case, the cheque that was issued was in the amount of Rs.50 lakhs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8414,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0682,
+        "Arguments of Respondent": 0.0339,
+        "Decision": 0.0109,
+        "Facts": 0.04,
+        "Issue": 0.0055,
+        "Reasoning": 0.8414
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "If as is contended by the First Respondent, the summary suit has been instituted on the basis of the cheque and the alleged written contract, as evidenced by the Appellants letter dated 25 November 2009, it would be evident that the amount which was payable by the Appellant was no more than Rs.55.50 lakhs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.102,
+        "Arguments of Respondent": 0.05,
+        "Decision": 0.0051,
+        "Facts": 0.066,
+        "Issue": 0.0015,
+        "Reasoning": 0.7753
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The summary suit, however, was instituted for recovery of the entire amount of Euros 1,10,000 equivalent to Rs.75.65 lakhs together with interest and the consequence of the failure of compliance would be that a decree for the entire amount would follow.",
+      "predicted_label": "Facts",
+      "confidence": 0.4804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.054,
+        "Arguments of Respondent": 0.0331,
+        "Decision": 0.0216,
+        "Facts": 0.4804,
+        "Issue": 0.0033,
+        "Reasoning": 0.4076
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "In sum and substance, it has been urged that the Appellant has raised a bona fide triable defense and having regard to the well settled position in law, unconditional leave ought to have been granted to defend the suit.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6914,
+        "Arguments of Respondent": 0.2328,
+        "Decision": 0.0002,
+        "Facts": 0.0077,
+        "Issue": 0.0007,
+        "Reasoning": 0.0672
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "Moreover, it has been submitted that the proceedings under Section 138 of the Negotiable Instruments Act, 1881 which were adopted by the First Respondent have been dismissed for non appearance, against which a revision has been filed which is pending.11.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4929,
+        "Arguments of Respondent": 0.3894,
+        "Decision": 0.0016,
+        "Facts": 0.0903,
+        "Issue": 0.0013,
+        "Reasoning": 0.0246
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "On the other hand, it has been urged on behalf of the First Respondent that(i)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0306,
+        "Arguments of Respondent": 0.9499,
+        "Decision": 0.0001,
+        "Facts": 0.0091,
+        "Issue": 0.0004,
+        "Reasoning": 0.0098
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The Appellant was a responsible officer who was appointed as a CFO and was aware of the legal consequences emanating from his letter dated 25 November 2009(ii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6194,
+        "Arguments of Respondent": 0.2697,
+        "Decision": 0.0005,
+        "Facts": 0.0875,
+        "Issue": 0.0035,
+        "Reasoning": 0.0194
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "The retraction of 10 December 2009 makes no reference to the earlier letter and the cheque having been issued under coercion or undue influence which defence has been taken belatedly in the reply to the Summons for Judgment and(iii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9304,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9304,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0009,
+        "Facts": 0.0384,
+        "Issue": 0.0025,
+        "Reasoning": 0.0094
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The Appellant had structured the entire transaction and having unauthorizedly issued instructions for remitting funds abroad, owned up responsibility to avoid the legal consequences.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5243,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1412,
+        "Arguments of Respondent": 0.5243,
+        "Decision": 0.0014,
+        "Facts": 0.2081,
+        "Issue": 0.0008,
+        "Reasoning": 0.1242
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "The letter dated 10 December 2009, it was urged, was issued only in order to avoid being faced with proceedings under Section 138.12.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4578,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4578,
+        "Arguments of Respondent": 0.4211,
+        "Decision": 0.0002,
+        "Facts": 0.0914,
+        "Issue": 0.0006,
+        "Reasoning": 0.0289
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 46,
+      "text": "The material on record indicates that on 30 June 2009 a meeting was held.",
+      "predicted_label": "Facts",
+      "confidence": 0.5946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0005,
+        "Facts": 0.5946,
+        "Issue": 0.0011,
+        "Reasoning": 0.3975
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "In attendance at the meeting, among other persons, was a Director of the First Respondent, Mr.Chetan Shah as well as Mr.Hemant Chitre, who was the second signatory to the letter that was issued to Yes Bank Limited subsequently authorizing the remittance of Euros 1,10,000.",
+      "predicted_label": "Facts",
+      "confidence": 0.8987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0206,
+        "Decision": 0.0002,
+        "Facts": 0.8987,
+        "Issue": 0.0028,
+        "Reasoning": 0.0604
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "The minutes of the meeting have not been disclosed with the plaint and subsequently have come to be filed by the appellant together with the affidavitinreply to the Summons for Judgment.",
+      "predicted_label": "Facts",
+      "confidence": 0.6729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0635,
+        "Arguments of Respondent": 0.0219,
+        "Decision": 0.0023,
+        "Facts": 0.6729,
+        "Issue": 0.0022,
+        "Reasoning": 0.2372
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The minutes, which are not disputed, would indicate that a detailed reference to the nature of the transaction and to the structure under which the transaction was to take place has been made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8573,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0304,
+        "Arguments of Respondent": 0.0264,
+        "Decision": 0.0002,
+        "Facts": 0.0855,
+        "Issue": 0.0003,
+        "Reasoning": 0.8573
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "On 9 October 2009 a letter was addressed by the Appellant to Yes Bank authorizing remittance of funds in the amount of Euros 1,10,000.",
+      "predicted_label": "Facts",
+      "confidence": 0.979,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.979,
+        "Issue": 0.0023,
+        "Reasoning": 0.0106
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "There are two signatories to the letter, including the Appellant and another officer of the First Respondent, Hemant Chitre, who was also a party to the meeting which was held on 30 June 2009.",
+      "predicted_label": "Facts",
+      "confidence": 0.5004,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0637,
+        "Arguments of Respondent": 0.0353,
+        "Decision": 0.0005,
+        "Facts": 0.5004,
+        "Issue": 0.0018,
+        "Reasoning": 0.3983
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 52,
+      "text": "As noted earlier, that meeting was also attended by Mr.Chetan Shah, a Director of the First Respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.8206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0002,
+        "Facts": 0.8206,
+        "Issue": 0.0014,
+        "Reasoning": 0.1622
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "On 16 October 2009 a communication was addressed to the Managing Director of the First Respondent, which was to be attended by Mr.Chetan Shah.",
+      "predicted_label": "Facts",
+      "confidence": 0.9813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0,
+        "Facts": 0.9813,
+        "Issue": 0.0003,
+        "Reasoning": 0.0115
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "The letter made a specific reference to the fact that a remittance had been made by the First Respondent to facilitate the issuance of a bank guarantee by HDFC Bank London.",
+      "predicted_label": "Facts",
+      "confidence": 0.7006,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.0338,
+        "Decision": 0.0003,
+        "Facts": 0.7006,
+        "Issue": 0.0009,
+        "Reasoning": 0.2474
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Therefore, from the material on record it cannot be asserted that transmission of funds abroad was something which was carried out by the Appellant on his sole authority and power and without the knowledge of the First Respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9351,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0004,
+        "Facts": 0.0367,
+        "Issue": 0.0002,
+        "Reasoning": 0.9351
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "Mr.Chetan Shah who is a Director of the First Respondent and who was a party to the meeting and to the correspondence significantly, has neither verified the plaint nor the rejoinder which was filed in response to the reply of the Appellant to the Summons for Judgment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0911,
+        "Arguments of Respondent": 0.1932,
+        "Decision": 0.0005,
+        "Facts": 0.1424,
+        "Issue": 0.0004,
+        "Reasoning": 0.5723
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "In the affidavitinreply that was filed to the Summons for Judgment, there is a detailed reference to the discussions which had taken place with the officers of the company including Mr.Chetan Shah in paragraph 5(f) and 5(g).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0472,
+        "Arguments of Respondent": 0.0653,
+        "Decision": 0.0002,
+        "Facts": 0.3462,
+        "Issue": 0.0004,
+        "Reasoning": 0.5406
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "There is a specific reference to the fact that a post dated cheque in the amount of Rs.85.00 lakhs had been procured from the Second Defendant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0292,
+        "Arguments of Respondent": 0.0532,
+        "Decision": 0.0009,
+        "Facts": 0.2253,
+        "Issue": 0.0011,
+        "Reasoning": 0.6902
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "In paragraph 18 of the rejoinder that has been filed by the First Respondent it has been stated that the post dated cheque of Rs.85.00 lakhs was taken by way of security against the transfer of Euros 1,10,000 which cheque was subsequently dishonoured.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6332,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.2753,
+        "Decision": 0.0009,
+        "Facts": 0.0676,
+        "Issue": 0.0003,
+        "Reasoning": 0.6332
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 60,
+      "text": "The case of the First Respondent is that the transmission of funds took place without consulting the Board or the authorities of the First Respondent.13.",
+      "predicted_label": "Facts",
+      "confidence": 0.4754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.3666,
+        "Decision": 0.0004,
+        "Facts": 0.4754,
+        "Issue": 0.002,
+        "Reasoning": 0.1483
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 61,
+      "text": "Now it is in this background that the case of the First Respondent would have to be evaluated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8266,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0727,
+        "Decision": 0.0006,
+        "Facts": 0.0748,
+        "Issue": 0.0086,
+        "Reasoning": 0.8266
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "The defence of the Appellant is that the transaction, far from being unauthorized, was to the knowledge of the First Respondent and of its Director, Mr.Chetan Shah.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4474,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0003,
+        "Facts": 0.4214,
+        "Issue": 0.0012,
+        "Reasoning": 0.1039
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 63,
+      "text": "This defence raises a triable issue and cannot be regarded as frivolous or sham.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.1024,
+        "Decision": 0.0096,
+        "Facts": 0.0749,
+        "Issue": 0.0002,
+        "Reasoning": 0.8029
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "As a matter of fact, as noted earlier, the defence is sought to be substantiated on the basis of the material on record.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8551,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0447,
+        "Arguments of Respondent": 0.0254,
+        "Decision": 0.0017,
+        "Facts": 0.0713,
+        "Issue": 0.0018,
+        "Reasoning": 0.8551
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "Section 118 of the Negotiable Instruments Act, 1881 raises a rebuttable presumption that every negotiable instrument has been made or drawn for consideration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9268,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0202,
+        "Arguments of Respondent": 0.0227,
+        "Decision": 0.0016,
+        "Facts": 0.0106,
+        "Issue": 0.0181,
+        "Reasoning": 0.9268
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "As was held by the Supreme Court in Bharat Barrel and Drum Manufacturing Company Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8345,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0711,
+        "Arguments of Respondent": 0.0312,
+        "Decision": 0.0026,
+        "Facts": 0.06,
+        "Issue": 0.0005,
+        "Reasoning": 0.8345
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "Amin Chand Payrelal (1999)3SCC35), the presumption under Section 118(a) can be rebutted by the Defendant by proving non existence of the consideration, by raising a probable defence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8179,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1122,
+        "Arguments of Respondent": 0.044,
+        "Decision": 0.0012,
+        "Facts": 0.0234,
+        "Issue": 0.0012,
+        "Reasoning": 0.8179
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "If the Defendant discharges the initial onus of showing that the existence of consideration was doubtful or that it was illegal, the onus would shift upon the Plaintiff who would be obliged to prove it as a matter of fact and upon its failure to do so, would be disentitled to the grant of relief under the Negotiable Instruments Act, 1881.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9188,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0333,
+        "Arguments of Respondent": 0.022,
+        "Decision": 0.0003,
+        "Facts": 0.014,
+        "Issue": 0.0116,
+        "Reasoning": 0.9188
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "The Appellant was a CFO of the First Respondent whose letter of resignation dated 11 September 2009 was to come into effect, as decided by the First Respondent, on 30 November 2009.",
+      "predicted_label": "Facts",
+      "confidence": 0.9003,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0255,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0002,
+        "Facts": 0.9003,
+        "Issue": 0.0135,
+        "Reasoning": 0.0502
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "The letter dated 26 November 2009 was issued barely a few days before the Appellant was to leave the service and the defence that the letter was procured only to enable the Appellant to leave service cannot be regarded as improper or moon shine.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.0252,
+        "Decision": 0.0004,
+        "Facts": 0.0242,
+        "Issue": 0.0001,
+        "Reasoning": 0.9255
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "Moreover, as we have noted earlier, the suit which has been instituted by the First Respondent is not merely for the recovery of an amount of Rs.50.00 lakhs representing the dishonoured cheque but is for the recovery of the entire amount of Euros 1,10,000 (equivalent to Rs.75.65 lakhs) together with interest.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0876,
+        "Facts": 0.018,
+        "Issue": 0.001,
+        "Reasoning": 0.8841
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "If the Appellant fails to comply with the condition which has been imposed by the learned Single Judge, a decree would follow for the entirety of the claim in the suit.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0109,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0066,
+        "Facts": 0.0321,
+        "Issue": 0.0003,
+        "Reasoning": 0.9376
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "For these reasons, we are of the view that the learned Single Judge was in error in coming to the conclusion that the defence is completely sham, bogus and moon shine.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0777,
+        "Facts": 0.0506,
+        "Issue": 0.0002,
+        "Reasoning": 0.8642
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "There was no justification, in our view, for directing the Appellant to deposit an amount of Rs.50.00 lakhs for being granted leave to defend the suit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9021,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0748,
+        "Facts": 0.0094,
+        "Issue": 0.0006,
+        "Reasoning": 0.9021
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "The Appellant has raised a bona fide triable defence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6599,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0621,
+        "Arguments of Respondent": 0.1403,
+        "Decision": 0.0951,
+        "Facts": 0.0409,
+        "Issue": 0.0018,
+        "Reasoning": 0.6599
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "Having regard to the decision of the Supreme Court in M s.Mechelec Engineers and Manufacturers Vs.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3606,
+        "Arguments of Respondent": 0.5661,
+        "Decision": 0.0006,
+        "Facts": 0.0429,
+        "Issue": 0.0019,
+        "Reasoning": 0.0279
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "M s.Basic Equipment Corporation (1976)4SCC687), the Appellant was entitled to unconditional leave to defend.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3813,
+        "Arguments of Respondent": 0.1488,
+        "Decision": 0.0049,
+        "Facts": 0.2695,
+        "Issue": 0.0306,
+        "Reasoning": 0.1649
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 78,
+      "text": "The defence raises triable issues and cannot be regarded as sham.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8075,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.1104,
+        "Decision": 0.0074,
+        "Facts": 0.0612,
+        "Issue": 0.0001,
+        "Reasoning": 0.8075
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "For these reasons we allow the appeal by setting aside the order of the learned Single Judge as against the Appellant, granting conditional leave to defend subject to the deposit of an amount of Rs.50.00 lakhs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9822,
+        "Facts": 0.0021,
+        "Issue": 0.0001,
+        "Reasoning": 0.0151
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "The condition which has been imposed by the learned Single Judge is set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.8273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.8273,
+        "Facts": 0.1081,
+        "Issue": 0.0003,
+        "Reasoning": 0.0623
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "The Appellant would be entitled to defend the suit unconditionally.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4317,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0832,
+        "Arguments of Respondent": 0.0649,
+        "Decision": 0.3801,
+        "Facts": 0.0387,
+        "Issue": 0.0014,
+        "Reasoning": 0.4317
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 82,
+      "text": "The written statement shall be filed within a period of six weeks from today.18.",
+      "predicted_label": "Decision",
+      "confidence": 0.8467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.8467,
+        "Facts": 0.0564,
+        "Issue": 0.0001,
+        "Reasoning": 0.0934
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Since the suit has now been transferred to the City Civil Court in view of the transfer of jurisdiction, the learned Trial Judge is requested to expedite the disposal of the suit.19.",
+      "predicted_label": "Decision",
+      "confidence": 0.4191,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0136,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.4191,
+        "Facts": 0.3803,
+        "Issue": 0.0004,
+        "Reasoning": 0.1677
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 84,
+      "text": "The appeal is allowed in these terms.",
+      "predicted_label": "Decision",
+      "confidence": 0.9863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9863,
+        "Facts": 0.009,
+        "Issue": 0.0002,
+        "Reasoning": 0.0042
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "There shall be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.981,
+        "Facts": 0.0131,
+        "Issue": 0.0001,
+        "Reasoning": 0.0052
+      }
+    }
+  ]
+}

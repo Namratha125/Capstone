@@ -1,0 +1,581 @@
+{
+  "case_id": "6909",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " Petitioner is an individual assessed to tax.",
+      "predicted_label": "Facts",
+      "confidence": 0.8801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0008,
+        "Facts": 0.8801,
+        "Issue": 0.082,
+        "Reasoning": 0.0229
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "Petitioner had, for the Assessment Year 20132014 filed return of income under Section 139 of the Income Tax Act, 1961 (the said Act) on 14th September, 2013 declaring a total income of Rs.2,22,25,120/. Petitioner thereafter received a notice dated 11th November, 2016 under Section 142(1) of the Act, calling upon Petitioner to produce the accounts and documents mentioned therein.",
+      "predicted_label": "Facts",
+      "confidence": 0.9929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9929,
+        "Issue": 0.0011,
+        "Reasoning": 0.0037
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "One item which is relevant to the Petition at hand is at serial No.8 in the said notice and it reads, details of capital gains losses with supportives.",
+      "predicted_label": "Facts",
+      "confidence": 0.7136,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0004,
+        "Facts": 0.7136,
+        "Issue": 0.0008,
+        "Reasoning": 0.2717
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "By a letter dated 2nd December, 2016, Petitioner filed a response to the notice and provided details of capital gains losses and also enclosed copy of client trade report issued by the broker.",
+      "predicted_label": "Facts",
+      "confidence": 0.9865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9865,
+        "Issue": 0.0008,
+        "Reasoning": 0.0072
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "In these documents to which Mr. Thakkar took us through, Petitioner has disclosed the purchase and sale of shares in Finalysis Credit and Guarantee Company Ltd. (Finalysis).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6235,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6235,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.0003,
+        "Facts": 0.2629,
+        "Issue": 0.0005,
+        "Reasoning": 0.095
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "Prior to the notice dated 11th November, 2016, there was a search action on Petitioner under Section 153A of the Act, in response to which Petitioner once again filed his return of income for the year under consideration, i.e., A.Y. 20132014 on 15th July, 2016.",
+      "predicted_label": "Facts",
+      "confidence": 0.9274,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0285,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0002,
+        "Facts": 0.9274,
+        "Issue": 0.0039,
+        "Reasoning": 0.0352
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Following this, an assessment order dated 8th December, 2016 came to be passed, accepting Petitioners income as per the return of income filed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9533,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0003,
+        "Facts": 0.9533,
+        "Issue": 0.0079,
+        "Reasoning": 0.0282
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "In the assessment order, it is also mentioned that there was a search action under Section 132, notices were issued under Sections 142(1) and 143(2) and Petitioner had also submitted all documents including copies of audit report, balancesheet and profit and loss account.",
+      "predicted_label": "Facts",
+      "confidence": 0.8494,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0231,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0005,
+        "Facts": 0.8494,
+        "Issue": 0.0009,
+        "Reasoning": 0.1178
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "2. Over four years later, Petitioner received a notice dated 28th March, 2021 under Section 148 of thealleging that there were reasons to believe that Petitioners income chargeable to tax for A.Y. 201314 has escaped assessment within the meaning of Section 147 of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.972,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.972,
+        "Issue": 0.0202,
+        "Reasoning": 0.0045
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "At Petitioners request, reasons recorded for reopening was also provided vide communication dated 1st July, 2021.",
+      "predicted_label": "Facts",
+      "confidence": 0.9018,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0311,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0002,
+        "Facts": 0.9018,
+        "Issue": 0.0017,
+        "Reasoning": 0.0609
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "As per the reasons recorded, based on information received from DDIT (Inv), Mumbai, Petitioner had done transactions in the share of Finalysis which is a penny stock company traded in the Bombay Stock Exchange.",
+      "predicted_label": "Facts",
+      "confidence": 0.9216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0296,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0001,
+        "Facts": 0.9216,
+        "Issue": 0.001,
+        "Reasoning": 0.0373
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The share price of Finalysis moved from a low of Rs.7/ per share in March 2012 to Rs.180/ in March 2013 and dipped to Rs.5/ in October 2013.",
+      "predicted_label": "Facts",
+      "confidence": 0.7229,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0459,
+        "Arguments of Respondent": 0.0563,
+        "Decision": 0.0002,
+        "Facts": 0.7229,
+        "Issue": 0.0008,
+        "Reasoning": 0.1739
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Since the financials of Finalysis for that period did not support such a huge share price move, investigations have been carried out by SEBI on Finalysis.",
+      "predicted_label": "Facts",
+      "confidence": 0.636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0466,
+        "Arguments of Respondent": 0.0951,
+        "Decision": 0.001,
+        "Facts": 0.636,
+        "Issue": 0.0009,
+        "Reasoning": 0.2204
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "The reasons also mentioned that statements of directors of Finalysis have been recorded and they have admitted that the Company was a paper company.",
+      "predicted_label": "Facts",
+      "confidence": 0.5471,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0431,
+        "Arguments of Respondent": 0.0893,
+        "Decision": 0.0002,
+        "Facts": 0.5471,
+        "Issue": 0.0009,
+        "Reasoning": 0.3194
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Investigation revealed that Petitioner had sold shares of Finalysis worth Rs.29,43,148/ during the relevant assessment year and therefore, assessment of the said transactions has escaped assessment.",
+      "predicted_label": "Facts",
+      "confidence": 0.8157,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0883,
+        "Arguments of Respondent": 0.0573,
+        "Decision": 0.0007,
+        "Facts": 0.8157,
+        "Issue": 0.0064,
+        "Reasoning": 0.0315
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "As per the reasons, admittedly Petitioner has disclosed during the assessment proceedings and it is seen that Petitioner has claimed long term capital gain at 10 of Rs.29,43,148/. Thus, information received by the DDIT (Inv) has live link with the financials of Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9242,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0007,
+        "Facts": 0.9242,
+        "Issue": 0.0008,
+        "Reasoning": 0.0519
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "We have to emphasize that in the reasons itself Respondents admit that Petitioner has disclosed during the assessment proceedings that Petitioner had traded in Finalysis.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0015,
+        "Facts": 0.2118,
+        "Issue": 0.0008,
+        "Reasoning": 0.7708
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "This is a case where the proposed reopening is after expiry of four years from the end of the relevant assessment year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0694,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0009,
+        "Facts": 0.0225,
+        "Issue": 0.0032,
+        "Reasoning": 0.8883
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Admittedly, assessment under Section 143(3) has been completed and an assessment order dated 8th December, 2016 has also been passed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5226,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0862,
+        "Arguments of Respondent": 0.0676,
+        "Decision": 0.0199,
+        "Facts": 0.2734,
+        "Issue": 0.0302,
+        "Reasoning": 0.5226
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "In fact, the assessment order is under Section 153C r w. 143(3) of .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5453,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1033,
+        "Arguments of Respondent": 0.1183,
+        "Decision": 0.0043,
+        "Facts": 0.2262,
+        "Issue": 0.0026,
+        "Reasoning": 0.5453
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "Therefore, the proviso to Section 147 of thewould apply which provides that reopening of assessment after four years from the expiry of the end of the relevant assessment year is barred unless escapement of income has happened due to failure on the part of assessee to truly and fully disclose material fact for the relevant assessment year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.082,
+        "Arguments of Respondent": 0.035,
+        "Decision": 0.0021,
+        "Facts": 0.1887,
+        "Issue": 0.0024,
+        "Reasoning": 0.6898
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "The onus is on Respondents to show that there was such a failure on the part of Petitioner to truly and fully disclose.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8257,
+      "probabilities": {
+        "Arguments of Petitioner": 0.051,
+        "Arguments of Respondent": 0.0211,
+        "Decision": 0.0011,
+        "Facts": 0.1008,
+        "Issue": 0.0003,
+        "Reasoning": 0.8257
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "It is also trite that if during the assessment proceedings a query is raised and the assessee has replied to it, it follows that the query raised was a subject of consideration of the Assessing Officer while completing the assessment and it is not necessary that the Assessment Order should contain reference and or discussion to disclose its satisfaction in respect of the query raised.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9782,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0002,
+        "Facts": 0.0103,
+        "Issue": 0.0001,
+        "Reasoning": 0.9782
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "(Aroni Commercials Ltd. v. Deputy Commissioner of Income Tax 2(1) 2014 44 taxmann.com 304 (Bombay))).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0611,
+        "Arguments of Respondent": 0.0646,
+        "Decision": 0.0013,
+        "Facts": 0.0585,
+        "Issue": 0.0006,
+        "Reasoning": 0.8139
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "It is not clear when the investigation was commenced, though Mr. Thakkar states that investigation commenced on Finalysis much before the assessment order in Petitioners case was passed and the search action under Section 132(1) of theon Petitioner was also in furtherance to the investigation being carried out on Finalysis.",
+      "predicted_label": "Facts",
+      "confidence": 0.3639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3162,
+        "Arguments of Respondent": 0.0881,
+        "Decision": 0.0006,
+        "Facts": 0.3639,
+        "Issue": 0.0014,
+        "Reasoning": 0.2297
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "The entire basis of Respondents case is that in 2020 Respondent No.1 got information that Finalysis was a paper company or a penny stock company based on certain investigations.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6219,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.6219,
+        "Decision": 0.0002,
+        "Facts": 0.2622,
+        "Issue": 0.0006,
+        "Reasoning": 0.1057
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "Mr. Suresh Kumar submitted that it came to light during the investigation that Petitioner also had traded in the scrip of Finalysis during A.Y. 20132014 and therefore, Respondent was entitled to reopen.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9406,
+        "Arguments of Respondent": 0.0487,
+        "Decision": 0.0001,
+        "Facts": 0.0071,
+        "Issue": 0.0008,
+        "Reasoning": 0.0027
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "Mr. Suresh Kumar submitted that revenue has to go to the root of the matter and take action against those involved in this price rigging and assess people claiming non genuine transactions in its books.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5786,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3845,
+        "Arguments of Respondent": 0.5786,
+        "Decision": 0.0002,
+        "Facts": 0.0195,
+        "Issue": 0.0003,
+        "Reasoning": 0.0169
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "We have to note that there is no allegation at all in the reasons recorded for reopening or in the Affidavit in Reply that investigations have revealed that Petitioner was the master mind or actively involved in rigging of share price of Finalysis in the stock market.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7438,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0003,
+        "Facts": 0.2128,
+        "Issue": 0.0007,
+        "Reasoning": 0.7438
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "Whether trading in Finalysis shares would result in escapement of income is a separate question which we are not dealing with in this matter because, that is not the subject of consideration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8079,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0147,
+        "Facts": 0.0862,
+        "Issue": 0.0715,
+        "Reasoning": 0.8079
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Even in the statement of Mr. Bipin Divecha on which reliance has been placed, it does not show anywhere Petitioner was involved.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.259,
+        "Arguments of Respondent": 0.1273,
+        "Decision": 0.0015,
+        "Facts": 0.1167,
+        "Issue": 0.0004,
+        "Reasoning": 0.4952
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "Therefore, what we have to see in this case, since reopening is proposed after the expiry of four years from the end of the relevant assessment year, whether there has been any failure on the part of Petitioner to disclose truly and fully material facts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0096,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.001,
+        "Facts": 0.0373,
+        "Issue": 0.0118,
+        "Reasoning": 0.9343
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "As noted earlier the reasons recorded admit that Petitioner had disclosed that it had traded in the shares of Finalysis.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6235,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0327,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0009,
+        "Facts": 0.3288,
+        "Issue": 0.001,
+        "Reasoning": 0.6235
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "To a query raised under Section 142(1), Petitioner has also admitted that it has traded in Finalysis and even provided documents thereto.",
+      "predicted_label": "Facts",
+      "confidence": 0.5023,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1452,
+        "Arguments of Respondent": 0.1185,
+        "Decision": 0.0029,
+        "Facts": 0.5023,
+        "Issue": 0.0015,
+        "Reasoning": 0.2296
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "The issue of capital gains from shares which included the shares of Finalysis was under active consideration before the Assessing Officer.",
+      "predicted_label": "Facts",
+      "confidence": 0.6162,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0251,
+        "Arguments of Respondent": 0.0281,
+        "Decision": 0.001,
+        "Facts": 0.6162,
+        "Issue": 0.0005,
+        "Reasoning": 0.3291
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "That would also show there was no failure to disclose.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1642,
+        "Arguments of Respondent": 0.1562,
+        "Decision": 0.0005,
+        "Facts": 0.0422,
+        "Issue": 0.0002,
+        "Reasoning": 0.6366
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "Therefore, it cannot be stated that Respondents have crossed the threshold or the fetter provided for in the proviso to Section 147 of thethat reopening after the expiry of four years is permissible only when there is failure to truly and fully disclosed material facts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0108,
+        "Arguments of Respondent": 0.0124,
+        "Decision": 0.0005,
+        "Facts": 0.0253,
+        "Issue": 0.0001,
+        "Reasoning": 0.9509
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "In these circumstances, in our view, Petitioner should be granted relief in terms of prayer clause (a), which we hereby grant and the same is reproduced hereunder (a) that this Honble Court be pleased to issue a Writ of Certiorari or any other writ order or direction under Article 226/227 of the Constitution of India calling for the records of the case leading to the issue of the Impugned Notice dated March 28, 2021 (Exhibit E)",
+      "predicted_label": "Facts",
+      "confidence": 0.8492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0981,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0018,
+        "Facts": 0.8492,
+        "Issue": 0.0066,
+        "Reasoning": 0.0354
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": ", Impugned Scrutiny Notice dated June 28, 2021 (Exhibit G), the Impugned Sanction dated March 27, 2021 (Exhibit O) and Impugned Order dated January 29, 2022 (Exhibit M) and after going through the same and examining the question of legality thereof quash, cancel and set aside the Impugned Notice dated March 28, 2021 (Exhibit E), Impugned Scrutiny Notice dated June 28, 2021 (Exhibit G), the Impugned Sanction dated March 27, 2021 (Exhibit O) and Impugned Order dated January 29, 2022 (Exhibit M).",
+      "predicted_label": "Decision",
+      "confidence": 0.877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.877,
+        "Facts": 0.0752,
+        "Issue": 0.0099,
+        "Reasoning": 0.02
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Petition disposed accordingly.",
+      "predicted_label": "Decision",
+      "confidence": 0.6509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.6509,
+        "Facts": 0.333,
+        "Issue": 0.0022,
+        "Reasoning": 0.0114
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

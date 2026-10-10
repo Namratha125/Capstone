@@ -1,0 +1,30 @@
+{
+  "val": {
+    "split": "val",
+    "accuracy": 0.7094,
+    "f1_macro": 0.6562,
+    "f1_weighted": 0.7046,
+    "f1_per_class": {
+      "Arguments of Petitioner": 0.5972,
+      "Arguments of Respondent": 0.4621,
+      "Decision": 0.733,
+      "Facts": 0.753,
+      "Issue": 0.6259,
+      "Reasoning": 0.7663
+    }
+  },
+  "test": {
+    "split": "test",
+    "accuracy": 0.6443,
+    "f1_macro": 0.5778,
+    "f1_weighted": 0.6355,
+    "f1_per_class": {
+      "Arguments of Petitioner": 0.5013,
+      "Arguments of Respondent": 0.3787,
+      "Decision": 0.6562,
+      "Facts": 0.6863,
+      "Issue": 0.5197,
+      "Reasoning": 0.7249
+    }
+  }
+}

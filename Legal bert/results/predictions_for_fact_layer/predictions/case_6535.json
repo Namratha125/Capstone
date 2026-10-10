@@ -1,0 +1,1374 @@
+{
+  "case_id": "6535",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "Indian Railways is the largest civilian employer in the country comprising of six production units and eighteen zones, with each zone having three to six divisions.(Indian Railways Annual Report and Accounts 201920 pg.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3669,
+        "Arguments of Respondent": 0.127,
+        "Decision": 0.0006,
+        "Facts": 0.1648,
+        "Issue": 0.0142,
+        "Reasoning": 0.3264
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 1,
+      "text": "6.)",
+      "predicted_label": "Facts",
+      "confidence": 0.6308,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3,
+        "Arguments of Respondent": 0.0329,
+        "Decision": 0.0061,
+        "Facts": 0.6308,
+        "Issue": 0.003,
+        "Reasoning": 0.0272
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The total number of employees as on 31.03.2005 was stated to be about 14 lakh with the following distribution of",
+      "predicted_label": "Facts",
+      "confidence": 0.6614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0972,
+        "Arguments of Respondent": 0.1303,
+        "Decision": 0.0001,
+        "Facts": 0.6614,
+        "Issue": 0.0007,
+        "Reasoning": 0.1102
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "staff strength Group",
+      "predicted_label": "Facts",
+      "confidence": 0.9698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0096,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0005,
+        "Facts": 0.9698,
+        "Issue": 0.0009,
+        "Reasoning": 0.0166
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "In position A 8285 B 7247 C 873536 D 521578 Total 1410646 As per the Indian Railways Annual Report and Accounts 201920, the current strength is about 12,53,592 as on 31.03.2020. 2.",
+      "predicted_label": "Facts",
+      "confidence": 0.8994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0324,
+        "Arguments of Respondent": 0.0327,
+        "Decision": 0.0003,
+        "Facts": 0.8994,
+        "Issue": 0.0187,
+        "Reasoning": 0.0163
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The Sixth Central Pay Commission (6th CPC) report in chapter 7.36 deals with the Ministry of Railways and shows that it has fourteen departments, including the Railway Board.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9154,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0486,
+        "Arguments of Respondent": 0.0275,
+        "Decision": 0.0004,
+        "Facts": 0.0076,
+        "Issue": 0.0005,
+        "Reasoning": 0.9154
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The report examined the demands of these different departments seeking higher payscales and allowances for various categories in different departments.",
+      "predicted_label": "Facts",
+      "confidence": 0.6177,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0221,
+        "Arguments of Respondent": 0.1758,
+        "Decision": 0.0009,
+        "Facts": 0.6177,
+        "Issue": 0.0034,
+        "Reasoning": 0.1799
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "We are concerned in the present matter with claims made by Private Secretaries (GradeII) (PSII) employed in the Eastern Central Railways (Field Office Zonal Railways),for parity in pay with their counterparts working in the Central Secretariat Stenographers Service (CSSS) Railway Board Secretariat Stenographers Service (RBSSS) Central Administrative Tribunal (CAT).",
+      "predicted_label": "Issue",
+      "confidence": 0.6691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0003,
+        "Facts": 0.3168,
+        "Issue": 0.6691,
+        "Reasoning": 0.0109
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "We may note at this stage itself that there have been conflicting judicial views on the claim for such parity which we will come to later.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7963,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0371,
+        "Arguments of Respondent": 0.0387,
+        "Decision": 0.0002,
+        "Facts": 0.1026,
+        "Issue": 0.025,
+        "Reasoning": 0.7963
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Beyond this, it may not be possible or even justified to grant complete parity because the hierarchy and career progression will need to be different taking in view the functional considerations and relativities across the board.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0238,
+        "Arguments of Respondent": 0.0566,
+        "Decision": 0.0016,
+        "Facts": 0.0196,
+        "Issue": 0.0003,
+        "Reasoning": 0.8981
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The recommendations in para 3.1.9 have been made for various posts from the LDC to the Director including Section Officer, with a caveat that in the case of Sections Officers having pay scale of Rs. 8000 13500, the scale would only be available to such of these organizations services which have had a historical parity with CSS CSSS.",
+      "predicted_label": "Facts",
+      "confidence": 0.787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0447,
+        "Arguments of Respondent": 0.0393,
+        "Decision": 0.001,
+        "Facts": 0.787,
+        "Issue": 0.0008,
+        "Reasoning": 0.1272
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "We, however, note that before setting forth in a tabular form the revised payscales of the different posts, it has been observed in para 3.1.9 that these recommendations shall apply mutatismutandis to post of Private Secretary equivalent in these services as well.",
+      "predicted_label": "Facts",
+      "confidence": 0.4793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0978,
+        "Arguments of Respondent": 0.142,
+        "Decision": 0.0051,
+        "Facts": 0.4793,
+        "Issue": 0.0011,
+        "Reasoning": 0.2747
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "We may note that the submission of the respondents is that it is this clause which ought to govern and that it recommends parity between the post of Private Secretaries equivalent and the post of a Section Officer.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0293,
+        "Arguments of Respondent": 0.4919,
+        "Decision": 0.0003,
+        "Facts": 0.0201,
+        "Issue": 0.0002,
+        "Reasoning": 0.4581
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 13,
+      "text": "We now turn to clause 3.1.14 which deals with recommendations for non Secretariat Organizations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8275,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0289,
+        "Arguments of Respondent": 0.0116,
+        "Decision": 0.0008,
+        "Facts": 0.1269,
+        "Issue": 0.0043,
+        "Reasoning": 0.8275
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "According to the appellants, the aspects sought to be raised before us are specifically dealt with under this paragraph and thus, the respondents claim that their payscale ought to be governed by para 3.1.9 is misplaced.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.837,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0004,
+        "Facts": 0.0379,
+        "Issue": 0.0008,
+        "Reasoning": 0.1222
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "A perusal of paragraph 3.1.14 would show that Steno (GradeII) has specifically been mentioned under this paragraph and it deals with the aspect of parity between field and Secretariat offices.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9239,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0002,
+        "Facts": 0.0535,
+        "Issue": 0.0001,
+        "Reasoning": 0.9239
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "We consider it appropriate to settle the aforesaid issue which is on a plain reading of the recommendations of the 6th CPC as a lot of other arguments and claims of parity will flow from which clause would govern.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0265,
+        "Arguments of Respondent": 0.0265,
+        "Decision": 0.0015,
+        "Facts": 0.1453,
+        "Issue": 0.0013,
+        "Reasoning": 0.7988
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "There is no doubt, in our considered view, that though there is an observation that the recommendations shall apply mutatis mutandis to Private Secretaries and posts equivalent thereto in the service under para 3.1.9 the subsequent paragraph 3.1.14 has specifically dealt with the aspect of parity between the field and Secretariat offices, which is really the subject matter of the claim before us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9154,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0005,
+        "Facts": 0.0709,
+        "Issue": 0.0002,
+        "Reasoning": 0.9154
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The plea of the respondents is that para 3.1.9 of the recommendations of the 6th CPC has been issued pursuant to paras 7.36.95 and 7.36.96.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.6469,
+        "Decision": 0.0003,
+        "Facts": 0.1003,
+        "Issue": 0.0008,
+        "Reasoning": 0.2449
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "No separate recommendations for Stenographers in zonal offices of Railways have been made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5214,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0896,
+        "Arguments of Respondent": 0.3316,
+        "Decision": 0.004,
+        "Facts": 0.0509,
+        "Issue": 0.0025,
+        "Reasoning": 0.5214
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "Para 3.1.9, which relates specifically to Section Officers also provides that it applies mutatis mutandis to private secretaries in these services.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0613,
+        "Arguments of Respondent": 0.035,
+        "Decision": 0.0004,
+        "Facts": 0.0374,
+        "Issue": 0.0001,
+        "Reasoning": 0.8657
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "The premise of this plea is therefore that para 3.1.14 deals with the recommendations for nonSecretariat Organizations other than the Railways, and that they should be treated as Secretariat organizations.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5403,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5403,
+        "Arguments of Respondent": 0.1385,
+        "Decision": 0.0002,
+        "Facts": 0.0236,
+        "Issue": 0.0037,
+        "Reasoning": 0.2937
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "In our view this becomes a crucial issue.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0178,
+        "Arguments of Respondent": 0.0102,
+        "Decision": 0.0017,
+        "Facts": 0.0961,
+        "Issue": 0.0269,
+        "Reasoning": 0.8474
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "In the spectrum of conflicting views of different Central Administrative Tribunals, the view of the CAT, Bangalore in Original Application Nos. 640649 and 10011030 of 2014 seek to favour the case of the appellants.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1247,
+        "Arguments of Respondent": 0.0273,
+        "Decision": 0.013,
+        "Facts": 0.1419,
+        "Issue": 0.0042,
+        "Reasoning": 0.6889
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "If we turn to that judgment (V.N. Narayanappa Ors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1576,
+        "Arguments of Respondent": 0.1659,
+        "Decision": 0.0011,
+        "Facts": 0.0359,
+        "Issue": 0.001,
+        "Reasoning": 0.6385
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "v. The Secretary, Railway Board Etc.)",
+      "predicted_label": "Facts",
+      "confidence": 0.4627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0448,
+        "Arguments of Respondent": 0.063,
+        "Decision": 0.015,
+        "Facts": 0.4627,
+        "Issue": 0.029,
+        "Reasoning": 0.3855
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "decided on 13.04.2016, the factual matrix deals with a case of similarly situated Private Secretaries (Grade II) in the Southern Railways.",
+      "predicted_label": "Facts",
+      "confidence": 0.4835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0374,
+        "Arguments of Respondent": 0.0302,
+        "Decision": 0.0004,
+        "Facts": 0.4835,
+        "Issue": 0.0035,
+        "Reasoning": 0.4451
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 27,
+      "text": "In considering this plea, the Tribunal took note of a different view in O.A. No.658/2010 decided on 05.06.2012 by the Madras Bench of the Tribunal, which the applicants therein sought to rely upon.",
+      "predicted_label": "Facts",
+      "confidence": 0.9113,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0104,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0002,
+        "Facts": 0.9113,
+        "Issue": 0.0017,
+        "Reasoning": 0.0697
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "That judgment in turn was based on an earlier view of the Principal Bench of the CAT at Delhi in the case of OA No.164/2009 decided on 19.02.2009 (S.R. Dheer Ors.",
+      "predicted_label": "Facts",
+      "confidence": 0.5265,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0608,
+        "Arguments of Respondent": 0.0521,
+        "Decision": 0.0019,
+        "Facts": 0.5265,
+        "Issue": 0.0343,
+        "Reasoning": 0.3244
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "v. Union of India Ors.)",
+      "predicted_label": "Facts",
+      "confidence": 0.8072,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0305,
+        "Arguments of Respondent": 0.0166,
+        "Decision": 0.0195,
+        "Facts": 0.8072,
+        "Issue": 0.0078,
+        "Reasoning": 0.1185
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": ", in respect of Private Secretaries (GradeII) of the CAT.",
+      "predicted_label": "Facts",
+      "confidence": 0.8067,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0341,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.001,
+        "Facts": 0.8067,
+        "Issue": 0.0222,
+        "Reasoning": 0.1216
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "At this juncture, it may be important to note that the respondents herein in their OA before the CAT Patna, also claimed parity with the aforementioned decision of the CAT Madras.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0984,
+        "Arguments of Respondent": 0.086,
+        "Decision": 0.0013,
+        "Facts": 0.309,
+        "Issue": 0.0005,
+        "Reasoning": 0.5047
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "The Madras Bench of the CAT had noticed that no recruitment rules had been placed on record by the Government while stating that different standards of academic and professional qualifications, etc. exist.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0401,
+        "Arguments of Respondent": 0.0774,
+        "Decision": 0.0009,
+        "Facts": 0.2289,
+        "Issue": 0.0006,
+        "Reasoning": 0.6521
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "Thus, the view of the Madras Bench of the Tribunal was based on absence of material and on a reason of parity with the Principal Bench at Delhi, even though the Principal Bench at Delhi dealt with the case of CAT Stenographers (Grade II) officers and had allowed the OA on the basis of historical parity.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6074,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6074,
+        "Arguments of Respondent": 0.0611,
+        "Decision": 0.0005,
+        "Facts": 0.0403,
+        "Issue": 0.0004,
+        "Reasoning": 0.2902
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "We may add here that the views of the Madras CAT have not been interfered with by this Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9066,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0343,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0083,
+        "Facts": 0.036,
+        "Issue": 0.0005,
+        "Reasoning": 0.9066
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Both an SLP challenging the decision and a subsequent Review Petition met with a summary dismissal and resultantly, the question to be decided in this case has not been specifically dealt with by this Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6617,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1228,
+        "Arguments of Respondent": 0.1296,
+        "Decision": 0.0023,
+        "Facts": 0.0657,
+        "Issue": 0.0179,
+        "Reasoning": 0.6617
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "This has resulted in the implementation of different orders in different matters, which are really contradictory in nature.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3531,
+        "Arguments of Respondent": 0.1491,
+        "Decision": 0.0081,
+        "Facts": 0.1235,
+        "Issue": 0.0005,
+        "Reasoning": 0.3657
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "v. Union of India Ors.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4318,
+        "Arguments of Respondent": 0.1972,
+        "Decision": 0.008,
+        "Facts": 0.1432,
+        "Issue": 0.002,
+        "Reasoning": 0.2178
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "If we notice the discussion in V.N. Narayanappa Ors.(supra), historical parity is one of the aspects which has been examined.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.94,
+      "probabilities": {
+        "Arguments of Petitioner": 0.018,
+        "Arguments of Respondent": 0.038,
+        "Decision": 0.0002,
+        "Facts": 0.0036,
+        "Issue": 0.0002,
+        "Reasoning": 0.94
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The factual matrix in the present case is that there was such historical parity under the first and second Pay Commissions recommendations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0816,
+        "Arguments of Respondent": 0.0542,
+        "Decision": 0.0005,
+        "Facts": 0.0388,
+        "Issue": 0.0003,
+        "Reasoning": 0.8246
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "However, the third and fourth Pay Commissions did not give parity and the fifth Pay Commission gave parity to a limited extent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0546,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.0002,
+        "Facts": 0.4,
+        "Issue": 0.0008,
+        "Reasoning": 0.5255
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "Thus, there is no continued history of parity insofar the present case is concerned, i.e., sometimes parity was given and sometimes not.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8694,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0563,
+        "Arguments of Respondent": 0.07,
+        "Decision": 0.0001,
+        "Facts": 0.0041,
+        "Issue": 0.0001,
+        "Reasoning": 0.8694
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "We now turn to the aspect of whether the post in the case in hand can be said to be that of a Secretariat or nonSecretariat organization.",
+      "predicted_label": "Issue",
+      "confidence": 0.7737,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0007,
+        "Facts": 0.0062,
+        "Issue": 0.7737,
+        "Reasoning": 0.2003
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "This aspect, once again, has been dealt with in the judgment in V.N. Narayanappa Ors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.0004,
+        "Facts": 0.0067,
+        "Issue": 0.0005,
+        "Reasoning": 0.9645
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "(supra), taking note of Swamys Compilation of 6th CPC Report Part I (pages 141 to 147) and Swamys Manual on Office Procedure 2006 and 2009.",
+      "predicted_label": "Facts",
+      "confidence": 0.4527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0517,
+        "Arguments of Respondent": 0.0767,
+        "Decision": 0.0029,
+        "Facts": 0.4527,
+        "Issue": 0.0006,
+        "Reasoning": 0.4155
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "In the definition Chapter at entry 53, Secretariat Offices are said to have been defined as those which are responsible for formulation of the policies of the Government and also for the execution and review of those policies.",
+      "predicted_label": "Facts",
+      "confidence": 0.3961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.15,
+        "Arguments of Respondent": 0.0838,
+        "Decision": 0.0001,
+        "Facts": 0.3961,
+        "Issue": 0.0008,
+        "Reasoning": 0.3692
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 46,
+      "text": "Relying on this definition, it was opined that the organizations where the applicants in V.N. Narayanappa Ors.(supra) were working, were not Secretariat Organizations, but were nonSecretariat Organizations or attached offices or subordinate offices thereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7749,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.02,
+        "Decision": 0.0002,
+        "Facts": 0.176,
+        "Issue": 0.0012,
+        "Reasoning": 0.7749
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The meaning of subordinate offices is stated to signify their function as field establishments or as agencies responsible for the detailed execution of the policies of Government.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6868,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2046,
+        "Arguments of Respondent": 0.0754,
+        "Decision": 0.0001,
+        "Facts": 0.0325,
+        "Issue": 0.0007,
+        "Reasoning": 0.6868
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "They function under the direction of an attached office or directly under a department.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0634,
+        "Arguments of Respondent": 0.0584,
+        "Decision": 0.0003,
+        "Facts": 0.014,
+        "Issue": 0.0002,
+        "Reasoning": 0.8638
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "In that context, it was opined that there exists a distinction in the works, functions and responsibilities between Secretariat and nonSecretariat organizations.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4158,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1305,
+        "Arguments of Respondent": 0.4158,
+        "Decision": 0.0006,
+        "Facts": 0.2237,
+        "Issue": 0.0016,
+        "Reasoning": 0.2277
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "As such, it was noted that if there are functional dissimilarities between the cadres, there are bound to be financial disparities in pay and allowances.",
+      "predicted_label": "Facts",
+      "confidence": 0.4893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0366,
+        "Arguments of Respondent": 0.0456,
+        "Decision": 0.0002,
+        "Facts": 0.4893,
+        "Issue": 0.0005,
+        "Reasoning": 0.4278
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 51,
+      "text": "It would be useful to reproduce paras 38 and 39 of the judgment in V.N. Narayanappa Ors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0978,
+        "Arguments of Respondent": 0.0873,
+        "Decision": 0.0005,
+        "Facts": 0.0378,
+        "Issue": 0.0005,
+        "Reasoning": 0.7761
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "(supra), which read as under 38.",
+      "predicted_label": "Facts",
+      "confidence": 0.6664,
+      "probabilities": {
+        "Arguments of Petitioner": 0.163,
+        "Arguments of Respondent": 0.0587,
+        "Decision": 0.0007,
+        "Facts": 0.6664,
+        "Issue": 0.0007,
+        "Reasoning": 0.1105
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "As it would be evident from the discussions in the preceding paras, there is a significant difference in the recruitment rules, promotional hierarchy etc. between the applicants who are Private Secretaries GradeII in the Zonal Railways with that of Private Secretaries in the Railway Board Central Secretariat Services CSSS or CAT.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7674,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0005,
+        "Facts": 0.207,
+        "Issue": 0.0032,
+        "Reasoning": 0.7674
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "There also no case of any historical parity between the applicants and their counterparts in CSSS or CAT or RBSS.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3362,
+        "Arguments of Respondent": 0.1423,
+        "Decision": 0.0005,
+        "Facts": 0.1072,
+        "Issue": 0.0029,
+        "Reasoning": 0.4108
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 55,
+      "text": "Therefore the applicants cannot claim the benefits of pay scales allowed to CSSS in the ratio of judgments in OA No.164/2009 in S.R. Dheer Ors.",
+      "predicted_label": "Facts",
+      "confidence": 0.4658,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0978,
+        "Arguments of Respondent": 0.1231,
+        "Decision": 0.0016,
+        "Facts": 0.4658,
+        "Issue": 0.0004,
+        "Reasoning": 0.3113
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "v. Union of India wherein the Private Secretaries in the CAT were granted the benefit on the basis of establishment of a historical parity with CSS. 39.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4682,
+        "Arguments of Respondent": 0.198,
+        "Decision": 0.0006,
+        "Facts": 0.0748,
+        "Issue": 0.001,
+        "Reasoning": 0.2574
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "In this context, we also note the submission made by the respondents about the consequential implications on various other categories groups under the respondents if such benefit is granted to the applicants even though they do not have any parity with RBSS and CSSS and are not entitled to the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8442,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.1129,
+        "Decision": 0.0005,
+        "Facts": 0.0364,
+        "Issue": 0.0002,
+        "Reasoning": 0.8442
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "The Railways is a vast organization where there are many cadres category of employees having identical pay scales and equal parity with that of Private Secretaries GradeII in the Zonal Railways.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6759,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0617,
+        "Arguments of Respondent": 0.0911,
+        "Decision": 0.0004,
+        "Facts": 0.1668,
+        "Issue": 0.004,
+        "Reasoning": 0.6759
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "A list of such groups has been highlighted in the reply statement.",
+      "predicted_label": "Facts",
+      "confidence": 0.3689,
+      "probabilities": {
+        "Arguments of Petitioner": 0.182,
+        "Arguments of Respondent": 0.2126,
+        "Decision": 0.0011,
+        "Facts": 0.3689,
+        "Issue": 0.0004,
+        "Reasoning": 0.235
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 60,
+      "text": "Therefore, grant of benefit which the applicants are otherwise not entitled to will also have an effect on the other cadres of Railways as contended.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.08,
+        "Arguments of Respondent": 0.0878,
+        "Decision": 0.0026,
+        "Facts": 0.1223,
+        "Issue": 0.0019,
+        "Reasoning": 0.7056
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "We do believe in the conspectus of the aforesaid discussion that the correct perspective has been taken in V.N. Narayanappa Ors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0322,
+        "Arguments of Respondent": 0.0182,
+        "Decision": 0.0015,
+        "Facts": 0.0038,
+        "Issue": 0.0002,
+        "Reasoning": 0.944
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "(supra) insofar as which clause of the 6th CPC recommendations would be applicable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8306,
+      "probabilities": {
+        "Arguments of Petitioner": 0.051,
+        "Arguments of Respondent": 0.0301,
+        "Decision": 0.0082,
+        "Facts": 0.0538,
+        "Issue": 0.0262,
+        "Reasoning": 0.8306
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "We find that once we come to the conclusion that the regional offices of the Railways are to be treated as nonSecretariat Organizations, then the specific recommendations in para 3.1.14 relating to such nonSecretariat Organizations will apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8711,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0005,
+        "Facts": 0.0748,
+        "Issue": 0.0008,
+        "Reasoning": 0.8711
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "The observations made in para 3.1.9 which are qua Secretariat offices giving parity between the Private Secretary equivalent to a Section Officer cannot be said to be mutatis mutandis applicable even to nonSecretariat Organizations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7378,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0356,
+        "Arguments of Respondent": 0.0553,
+        "Decision": 0.0015,
+        "Facts": 0.1696,
+        "Issue": 0.0001,
+        "Reasoning": 0.7378
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "If we were to opine otherwise and equate everybody there would have been no purpose in the 6th CPC making separate recommendations for nonSecretariat Organizations in their wisdom.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1562,
+        "Arguments of Respondent": 0.119,
+        "Decision": 0.0008,
+        "Facts": 0.0275,
+        "Issue": 0.0009,
+        "Reasoning": 0.6954
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "It is not as if the Commission was unaware of the plea of disparity between the Secretariat and field offices as that was dealt with in paras 3.1.2 and 3.1.3 but despite having taken note of the same some difference was sought to be made between Secretariat and nonSecretariat offices.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0005,
+        "Facts": 0.0478,
+        "Issue": 0.0002,
+        "Reasoning": 0.9361
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "We may also notice another aspect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9159,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.0187,
+        "Facts": 0.0329,
+        "Issue": 0.0026,
+        "Reasoning": 0.9159
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "There is a plea by the respondents that the recruitment process for the two cadres was common and persons used to be transferred from one to the other.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0305,
+        "Arguments of Respondent": 0.1382,
+        "Decision": 0.0002,
+        "Facts": 0.3219,
+        "Issue": 0.0021,
+        "Reasoning": 0.5071
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "Some illustrations have been given of this.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6031,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2444,
+        "Arguments of Respondent": 0.1331,
+        "Decision": 0.0008,
+        "Facts": 0.0183,
+        "Issue": 0.0004,
+        "Reasoning": 0.6031
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "In fact, the plea of the respondents is that there have been times when a common competitive exam was conducted and sometimes the exams were conducted separately.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7191,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.2422,
+        "Decision": 0.0002,
+        "Facts": 0.0271,
+        "Issue": 0.0003,
+        "Reasoning": 0.7191
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "In this regard, it has been explained by the learned Additional Solicitor General on behalf of the appellants that the cadres are separate and the rules governing them are also separate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3934,
+        "Arguments of Respondent": 0.0205,
+        "Decision": 0.0158,
+        "Facts": 0.0104,
+        "Issue": 0.0009,
+        "Reasoning": 0.559
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "The Stenographers under the Railway Board are governed by the RBSS Rules, 1971, the Central Secretariat Stenographers are governed by the CSS Rules, 1969 and the CSSS Rules, 2010 and the Stenographers in the Central Administrative Tribunal are governed by the CATSS Rules, 2013.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6292,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0901,
+        "Arguments of Respondent": 0.2638,
+        "Decision": 0.0048,
+        "Facts": 0.0111,
+        "Issue": 0.001,
+        "Reasoning": 0.6292
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "These are the posts with which the respondents sought parity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4266,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1281,
+        "Arguments of Respondent": 0.1721,
+        "Decision": 0.0012,
+        "Facts": 0.2714,
+        "Issue": 0.0005,
+        "Reasoning": 0.4266
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "On the other hand, the respondents working in the Zonal Railways were governed by Rule 107 of the Indian Railway Establishment Code.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4127,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2554,
+        "Arguments of Respondent": 0.4127,
+        "Decision": 0.0004,
+        "Facts": 0.1282,
+        "Issue": 0.0012,
+        "Reasoning": 0.2021
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "The avenue and channel of promotion of stenographers in the Railway Board and the Zonal Railways, it has been stated, are entirely different.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3087,
+        "Arguments of Respondent": 0.3679,
+        "Decision": 0.0003,
+        "Facts": 0.0351,
+        "Issue": 0.0021,
+        "Reasoning": 0.2859
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 76,
+      "text": "Learned counsel for the appellants did accept that there were some cases of transfer, but those were persons who were brought to the Railway Board for exigency of work it was not as if they were absorbed in the Railway Board.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5416,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4071,
+        "Arguments of Respondent": 0.0247,
+        "Decision": 0.001,
+        "Facts": 0.0251,
+        "Issue": 0.0005,
+        "Reasoning": 0.5416
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 77,
+      "text": "There were also cases where transfers took place from the Railway Board to the Zonal Railway offices, but that was on the specific request of such officers and considered on a casetocase basis and they had to take then seniority at the bottom of the list.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0824,
+        "Arguments of Respondent": 0.2036,
+        "Decision": 0.0002,
+        "Facts": 0.3398,
+        "Issue": 0.0009,
+        "Reasoning": 0.3732
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 78,
+      "text": "Para 3.1.3 which dealt with the disparity between the Secretariat and field offices has canvassed a case for parity between similarly placed persons employed in field offices and the Secretariat in view of the field offices being at the cutting edge of administration.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.168,
+        "Arguments of Respondent": 0.4056,
+        "Decision": 0.0003,
+        "Facts": 0.0663,
+        "Issue": 0.0007,
+        "Reasoning": 0.3591
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 79,
+      "text": "However, it came to the conclusion that parity would need to be absolute till the grade of Assistant.",
+      "predicted_label": "Facts",
+      "confidence": 0.5745,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.0239,
+        "Decision": 0.0002,
+        "Facts": 0.5745,
+        "Issue": 0.0013,
+        "Reasoning": 0.3753
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "It was clearly stipulated that beyond that it may not be possible or even justified to grant complete parity because the hierarchy and career progression will need to be different taking in view the functional considerations and relativities across the board.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0952,
+        "Arguments of Respondent": 0.2403,
+        "Decision": 0.0005,
+        "Facts": 0.0861,
+        "Issue": 0.0002,
+        "Reasoning": 0.5778
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "If this principle is observed, the benefit cannot accrue to the respondents and we cannot accept the plea that as a result of parity being given up to the level of Assistant (which would put them in the grade of Rs.4200 (later Rs.4600)), the respondents, being one post higher, would automatically have to get one higher grade.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9281,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0007,
+        "Facts": 0.0396,
+        "Issue": 0.0002,
+        "Reasoning": 0.9281
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "We are fortified in the view we are seeking to adopt in interpreting the aforesaid paragraphs of the Pay Commission by the observations in Union of India v. Tarit Ranjan Das, (2003) 11 SCC 658.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0002,
+        "Facts": 0.0108,
+        "Issue": 0.0003,
+        "Reasoning": 0.9646
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "where it was opined that the principle of equal pay for equal work cannot be applied merely on basis of designation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3863,
+        "Arguments of Respondent": 0.1806,
+        "Decision": 0.0011,
+        "Facts": 0.0812,
+        "Issue": 0.0017,
+        "Reasoning": 0.3491
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 84,
+      "text": "While dealing with the 5th Pay Commission recommendations with respect to functional requirements, it was held that there was no question of any equivalence on that basis.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.115,
+        "Arguments of Respondent": 0.1614,
+        "Decision": 0.0009,
+        "Facts": 0.334,
+        "Issue": 0.0028,
+        "Reasoning": 0.3859
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 85,
+      "text": "The said case dealt with Stenographers of the Geological Survey of India.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.292,
+        "Arguments of Respondent": 0.2955,
+        "Decision": 0.0002,
+        "Facts": 0.0154,
+        "Issue": 0.0002,
+        "Reasoning": 0.3967
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 86,
+      "text": "While observing that as a general statement it was correct to state that the basic nature of work of a Stenographer remained by and large the same whether they were working for an officer in the Secretariat or for an officer in a subordinate office it was held that Courts ought not to interfere if the Commission itself had considered all aspects and after due consideration opined that absolute equality ought not to be given.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7156,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0193,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.0002,
+        "Facts": 0.2488,
+        "Issue": 0.0008,
+        "Reasoning": 0.7156
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "In the end we would like to reiterate that the aspect of disparity between the Secretariat and the field offices was a matter taken note of by the Commission itself while making the recommendations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0031,
+        "Facts": 0.066,
+        "Issue": 0.0002,
+        "Reasoning": 0.919
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "Yet to some extent, a separate recommendation was made qua Secretariat Organizations and nonSecretariat Organizations.",
+      "predicted_label": "Facts",
+      "confidence": 0.4278,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1096,
+        "Arguments of Respondent": 0.0546,
+        "Decision": 0.0032,
+        "Facts": 0.4278,
+        "Issue": 0.0019,
+        "Reasoning": 0.4029
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 89,
+      "text": "Once these recommendations are separately made, to direct absolute parity would be to make the separate recommendations qua nonSecretariat Organizations otiose.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1645,
+        "Arguments of Respondent": 0.1749,
+        "Decision": 0.0003,
+        "Facts": 0.012,
+        "Issue": 0.0002,
+        "Reasoning": 0.6481
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 90,
+      "text": "If one may say, there would have been no requirement to make these separate recommendations if everyone was to be treated on parity on every aspect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0562,
+        "Arguments of Respondent": 0.0384,
+        "Decision": 0.0005,
+        "Facts": 0.0341,
+        "Issue": 0.0002,
+        "Reasoning": 0.8707
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "In view of the aforesaid reasons, we find the impugned judgment, which in turn relies upon other orders passed by different Tribunals and Courts unsustainable, and is accordingly set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.7409,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.7409,
+        "Facts": 0.0052,
+        "Issue": 0.0002,
+        "Reasoning": 0.2503
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "The appeals are accordingly allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9824,
+        "Facts": 0.0042,
+        "Issue": 0.0001,
+        "Reasoning": 0.0126
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "We hope this puts to rest this controversy which has been agitated before different forums without receiving a final reasoned view of this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.4944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.1679,
+        "Facts": 0.4944,
+        "Issue": 0.0106,
+        "Reasoning": 0.317
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

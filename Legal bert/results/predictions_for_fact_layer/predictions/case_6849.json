@@ -1,0 +1,591 @@
+{
+  "case_id": "6849",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " ( 1 ) THESE appeals are directed against the Awards made by the Motor Accidents Claims Tribunal, Margao, in four petitions for compensation filed under S. 110A of the Motor Vehicles Act, 1939.",
+      "predicted_label": "Issue",
+      "confidence": 0.6933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.002,
+        "Facts": 0.3025,
+        "Issue": 0.6933,
+        "Reasoning": 0.0015
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "( 2 ) AN accident took place on 20th Dec. , 1980 at Vazem, Shiroda, Goa, involving a bus No. GDT2129 belonging to the respondent Teotonio Pereira which was being driven at the relevant time by the respondent Patric Dsouza.",
+      "predicted_label": "Facts",
+      "confidence": 0.9353,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0005,
+        "Facts": 0.9353,
+        "Issue": 0.059,
+        "Reasoning": 0.0024
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The vehicle went off the road while negotiating a turn and was balancing on the edge of the road.",
+      "predicted_label": "Facts",
+      "confidence": 0.5894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0393,
+        "Arguments of Respondent": 0.1187,
+        "Decision": 0.0167,
+        "Facts": 0.5894,
+        "Issue": 0.0057,
+        "Reasoning": 0.2301
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "Some passengers tried to come out of the bus and then, the vehicle turned turtle and went down some ten metres away from the road.",
+      "predicted_label": "Facts",
+      "confidence": 0.8683,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0108,
+        "Arguments of Respondent": 0.0303,
+        "Decision": 0.0013,
+        "Facts": 0.8683,
+        "Issue": 0.0019,
+        "Reasoning": 0.0873
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "According to the petitioners in the said cases, the accident was due to the rash and negligent driving of the vehicle by the respondent Patric who did not take the necessary precautions while negotiating a turn of the road and was driving the bus at a high speed.",
+      "predicted_label": "Facts",
+      "confidence": 0.4752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1065,
+        "Arguments of Respondent": 0.0261,
+        "Decision": 0.0017,
+        "Facts": 0.4752,
+        "Issue": 0.0128,
+        "Reasoning": 0.3777
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "As a result of the said accident, one Mrs. Assumption Dsouza, one Ganpat Bhikaji Sawant and one Ramesh Datta Naik came to die and the respondent Vijay Rama Patil sustained serious injuries.",
+      "predicted_label": "Facts",
+      "confidence": 0.982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.982,
+        "Issue": 0.0156,
+        "Reasoning": 0.0017
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "In the case filed by the heirs of Mrs. Assumption Dsouza, a compensation of Rs. 52,000/ was awarded to the petitioners and directed to be paid by the respondents in the petition jointly and severally with interest of 6 from the date of the claim till complete satisfaction.",
+      "predicted_label": "Facts",
+      "confidence": 0.8869,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.004,
+        "Facts": 0.8869,
+        "Issue": 0.0095,
+        "Reasoning": 0.0886
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "In the case filed by the heirs of Ganpat Bhikaji Sawant, a compensation of Rs. 50,000/ was awarded also to be paid jointly and severally by the respondents in the petition with interest at the rate of 6 from the date of the claim till satisfaction in the case filed by the heirs of Ramesh Datta Naik, a compensation of Rs. 78,000/ was awarded and it was ordered that the amount of Rs. 75,000/ was to be paid by all the respondents in the petition jointly and severally being the balance amount including interest at the rate of 6 from the date of the claim till its satisfaction to the respondents Nos. 1 and 2 in the petition only and in the petition filed by the injured Vijay, a compensation of Rs. 25,000/ was awarded and ordered to be paid jointly and severally with interest at 6 per annum by all the respondents.",
+      "predicted_label": "Facts",
+      "confidence": 0.9357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.004,
+        "Facts": 0.9357,
+        "Issue": 0.0102,
+        "Reasoning": 0.0472
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The amount of compensation awarded is not also challenged and the short point raised by the appellant is that its liability goes up to Rs. 75,000/ only in all the four cases, but the Tribunal has awarded the compensation without making it clear that the liability of the appellant was restricted in all to Rs. 75,000/ .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.458,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0069,
+        "Facts": 0.1717,
+        "Issue": 0.0552,
+        "Reasoning": 0.3046
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "( 5 ) MR.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9077,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9077,
+        "Arguments of Respondent": 0.0248,
+        "Decision": 0.0022,
+        "Facts": 0.0341,
+        "Issue": 0.0047,
+        "Reasoning": 0.0264
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Rebello, the learned counsel appearing for the appellant, invited our attention to the impugned Awards and specially to the fact that the four petitions claiming compensation had arisen out of the same accident and had been tried together by the Tribunal.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9325,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9325,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0006,
+        "Facts": 0.0038,
+        "Issue": 0.0004,
+        "Reasoning": 0.0542
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "Though the Tribunal had considered that the overall liability of the appellant towards all the passengers in the bus is limited to Rs. 75,000/, yet it has awarded compensation exceeding the said limit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5157,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4063,
+        "Arguments of Respondent": 0.0209,
+        "Decision": 0.0167,
+        "Facts": 0.0365,
+        "Issue": 0.0039,
+        "Reasoning": 0.5157
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "The learned counsel submitted, placing reliance on the decision in shivahari Rama Tiloji v. Kashi Vishnu Agarwadekar, 1985 Mah LJ 22 and in national Insurance Co. Ltd. v. Deepathumma, 1986 Acc CJ 520, that the overall liability of the Insurance Company towards all the passengers travelling in the bus and entitled to the compensation is restricted to Rs. 75,000/ only.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.73,
+      "probabilities": {
+        "Arguments of Petitioner": 0.73,
+        "Arguments of Respondent": 0.2469,
+        "Decision": 0.0002,
+        "Facts": 0.0036,
+        "Issue": 0.0003,
+        "Reasoning": 0.019
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The Tribunal however, has wrongly awarded compensation in excess of the said limit of Rs. 75,000/ for in each of the four claim petitions it held the Insurance Company liable jointly and severally with the other respondents in the petitions to the payment of the compensations granted, which taken together exceed largely the said limit of Rs. 75,000/ .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7325,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0935,
+        "Arguments of Respondent": 0.0171,
+        "Decision": 0.0975,
+        "Facts": 0.0556,
+        "Issue": 0.0038,
+        "Reasoning": 0.7325
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "( 6 ) MR.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8942,
+        "Arguments of Respondent": 0.0273,
+        "Decision": 0.0026,
+        "Facts": 0.0445,
+        "Issue": 0.0056,
+        "Reasoning": 0.0259
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Coelho Pereira, the learned counsel appearing for the respondent Teotonio Pereira, has, however, contended that there is no reason for interference with the Awards, as the Tribunal has properly applied the law as laid down in the above decisions quoted by Mr. Rebello.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.985,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.985,
+        "Decision": 0.0001,
+        "Facts": 0.0009,
+        "Issue": 0.0001,
+        "Reasoning": 0.009
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "He further placing reliance on the decision of the Madhya Pradesh High Court in sabira Begum v. Raipur Transport Co.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.484,
+        "Arguments of Respondent": 0.4933,
+        "Decision": 0.0001,
+        "Facts": 0.0103,
+        "Issue": 0.0001,
+        "Reasoning": 0.0122
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 17,
+      "text": "Pvt. Ltd. , Raipur, 1986 Acc CJ 713 and of the Patna High Court in tara Pada Roy v. Dwijendra Nath Sen, 1986 Acc CJ 299 , submitted that in view of the decision of the Supreme Court in motor Owners Insurance Co. Ltd. v. Jadavji Keshavji Modi, 1981 Acc CJ 507 , the accident has to be looked at not from the angle of the vehicle owner of the vehicle, but from the angle of the victims of the accident.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6689,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6689,
+        "Arguments of Respondent": 0.2952,
+        "Decision": 0.0001,
+        "Facts": 0.0222,
+        "Issue": 0.0004,
+        "Reasoning": 0.0131
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "Therefore, since four claim petitions had been filed and there were accordingly four accidents, the liability of the Insurance Company in each of the cases travels up to the limit of Rs. 75,000/ .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.07,
+        "Arguments of Respondent": 0.0714,
+        "Decision": 0.0039,
+        "Facts": 0.221,
+        "Issue": 0.0244,
+        "Reasoning": 0.6093
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "( 7 ) WE do not think that the view advanced by the learned counsel for the owner of the vehicle is correct.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0408,
+        "Arguments of Respondent": 0.0323,
+        "Decision": 0.013,
+        "Facts": 0.0477,
+        "Issue": 0.0017,
+        "Reasoning": 0.8644
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "( 9 ) MR.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8924,
+        "Arguments of Respondent": 0.0275,
+        "Decision": 0.0022,
+        "Facts": 0.049,
+        "Issue": 0.0062,
+        "Reasoning": 0.0227
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Coelho Pereira has contended that this is not the real meaning and import of the above decisions of this Court, for any one accident, spoken of in SubS. (2) of S. 95 has to be looked into from the angle of the victim of the accident as held in Modis case (AIR 1981 SC 2059 ) and that since there existed four separate accidents from the angle of each of the victims of the accident, the liability of the Insurance Company goes in each of such cases up to the limit of Rs. 75,000/ .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8712,
+        "Arguments of Respondent": 0.0683,
+        "Decision": 0.0001,
+        "Facts": 0.0039,
+        "Issue": 0.0006,
+        "Reasoning": 0.0559
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "In Modis case, the Supreme Court has been dealing with the provisions of S. 95 (2) (a) as they stood before the amendment and it was in the context of the said provisions of law that the Court held that the expression any one accident occurring in the Section had to be looked into from the point of view of the various claimants, each of whom is entitled to make a separate claim for the accident suffered by him and not from the point of view of the insurer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0505,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.0003,
+        "Facts": 0.0077,
+        "Issue": 0.0006,
+        "Reasoning": 0.9168
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Then, the Court proceeded to make a reference in para 24 to its judgement in sheikhupura Transport Co. Ltd. v. Northern India Transporters Insurance Co. Ltd. , 1971 Acc CJ 206 (AIR 1971 SC 1624 ) to observe that the said judgement was not an authority on the interpretation of Cl.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7244,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0001,
+        "Facts": 0.2511,
+        "Issue": 0.0015,
+        "Reasoning": 0.7244
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "(a) of S. 95 (2), for the matter before the Supreme Court in that case was in respect of Cl.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0471,
+        "Arguments of Respondent": 0.0298,
+        "Decision": 0.0006,
+        "Facts": 0.0348,
+        "Issue": 0.0027,
+        "Reasoning": 0.885
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "(b ).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7935,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1159,
+        "Arguments of Respondent": 0.0225,
+        "Decision": 0.0095,
+        "Facts": 0.0463,
+        "Issue": 0.0124,
+        "Reasoning": 0.7935
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Then, after quoting the observations made in Sheikhupuras case to the effect that it is clear that the statutory liability of the insurer to indemnify the insured is as prescribed in S. 95 (2), their Lordships observed in Modis case that in view of the limit on the insurers liability in respect of each passenger, the argument on the construction of the words any one accident had no relevance and had therefore neither been made nor considered by the Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9272,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0376,
+        "Arguments of Respondent": 0.0288,
+        "Decision": 0.0003,
+        "Facts": 0.0058,
+        "Issue": 0.0003,
+        "Reasoning": 0.9272
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "It was added that different consideration may arise under Cl.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1148,
+        "Arguments of Respondent": 0.1031,
+        "Decision": 0.0003,
+        "Facts": 0.115,
+        "Issue": 0.0007,
+        "Reasoning": 0.666
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "(b) as amended.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.56,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2539,
+        "Arguments of Respondent": 0.0636,
+        "Decision": 0.004,
+        "Facts": 0.1038,
+        "Issue": 0.0146,
+        "Reasoning": 0.56
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "It is thus clear that though in Modis case the Supreme Court has not taken a view different from the earlier view in Sheikhupuras case inasmuch as the statutory liability of the insurer to indemnify the insured is as prescribed in S. 95 (2), nonetheless it left the issue open.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0005,
+        "Facts": 0.0135,
+        "Issue": 0.0006,
+        "Reasoning": 0.9764
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Now, as it is seen, this Court has in the circumstances held in the cases of Kashi Vishnu and Deepathumma that the expression any one accident has also to be looked into from the angle of the victim of the accident of Cl.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0004,
+        "Facts": 0.005,
+        "Issue": 0.0009,
+        "Reasoning": 0.9679
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "(b) and considering the express provision of SubS. (4), further held that in any event, the liability of the Insurance Company will not exceed the outer limits fixed in the Section.",
+      "predicted_label": "Facts",
+      "confidence": 0.8246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.8246,
+        "Issue": 0.0047,
+        "Reasoning": 0.1647
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "This view is, in our opinion, in conformity with the law laid down by the Supreme Court in Sheikhupura and Modis case taken together and interprets it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9127,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0263,
+        "Decision": 0.0192,
+        "Facts": 0.027,
+        "Issue": 0.0006,
+        "Reasoning": 0.9127
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Thus, the view taken by this Court in Kashi Vishnu and Deepathummas cases is binding on us, for it is wellsettled that an interpretation and equally, a misinterpretation of a binding decision of the Supreme Court will itself be binding subsequently on a coordinate Court and must be got corrected by a higher Court and no coordinate Court on that ground may refuse to follow an earlier decision opining that in its view the earlier decision had wrongly understood and improperly applied a decision of a higher Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0595,
+        "Decision": 0.003,
+        "Facts": 0.0606,
+        "Issue": 0.0083,
+        "Reasoning": 0.8406
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "This proposition of law gets support in the observations made in Halsburys Laws of England, Third Edition Vol. 22, page 80 and in the decision of a Division Bench of this Court in Panjumal Hassomal Advani v. Harpal Singh Abnashi Singh Sawhney, AIR 1975",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0471,
+        "Arguments of Respondent": 0.0466,
+        "Decision": 0.001,
+        "Facts": 0.0078,
+        "Issue": 0.0007,
+        "Reasoning": 0.8967
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "( 10 ) WE already observed that in Deepathummas case (1986 Acc CJ 52d) the Division Bench has held that the liability of the Insurance Company is to be distributed pro rata among the several claimants.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1116,
+        "Arguments of Respondent": 0.0301,
+        "Decision": 0.0379,
+        "Facts": 0.0824,
+        "Issue": 0.0009,
+        "Reasoning": 0.7372
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "In the present cases, the amounts of compensation awarded are not the same, for in Appeal No. 46/85 the compensation awarded was of Rs. 52,000/, in Appeal No. 47/85 of Rs. 50,000/ in Appeal No. 50/85, of Rs. 78,000/ and finally, in Appeal No. 51/85, of Rs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.057,
+        "Facts": 0.129,
+        "Issue": 0.0129,
+        "Reasoning": 0.7876
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "In the first three cases, the victims met with their deaths in the accident, while in the fourth the claimant got injured.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3601,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0028,
+        "Facts": 0.3495,
+        "Issue": 0.2712,
+        "Reasoning": 0.3601
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "We find it rather difficult to apportion to total liability (Rs. 75,000/) of the Insurance Company (Appellant) among the claimants in each of the petitions, but since the total amount of the compensation to be paid to the claimants in the four petitions is of Rs. 2,05,000/ and the balance of Rs. 1,30,000/ is to be paid by the owner of the vehicle, we think that in the circumstances, the said liability of the appellant should be up to the limit of Rs. 18,750/ in each of the petitions, the remainder of the compensation being to be paid by the owner of the vehicle, the respondent Teotonio Pereira.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0436,
+        "Facts": 0.0296,
+        "Issue": 0.0102,
+        "Reasoning": 0.9049
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Costs by the respondents.",
+      "predicted_label": "Decision",
+      "confidence": 0.9852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9852,
+        "Facts": 0.006,
+        "Issue": 0.0001,
+        "Reasoning": 0.0082
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Appeal allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.9964,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0016
+      }
+    }
+  ]
+}

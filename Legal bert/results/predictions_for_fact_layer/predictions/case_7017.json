@@ -1,0 +1,649 @@
+{
+  "case_id": "7017",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " ORAL JUDGMENTD.G. Karnik, J.This appeal is directed against the judgment and order dated 30/4/2001 passed by the IInd Additional Sessions Judge, Thane, convicting the appellant  Alok Kumar Subhedar Singh for offence of murder of Rajnarayan Suryanarayan Dube Pandit under section 302 of the Indian Penal Code and the sentence of life imprisonment and fine of Rs.5,000/.",
+      "predicted_label": "Issue",
+      "confidence": 0.8068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.003,
+        "Facts": 0.1889,
+        "Issue": 0.8068,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "Yuvraj Avghade (PW1) and Ramdas Mhatre (PW2) employed in Reliance Silicon Company (for short, the Company) were taking a round in the Companys premises bearing Plot No.W192 in MIDC Khairna, near Turbha.",
+      "predicted_label": "Facts",
+      "confidence": 0.9776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0003,
+        "Facts": 0.9776,
+        "Issue": 0.0194,
+        "Reasoning": 0.0014
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The watchmen felt a foul smell of something burning and, therefore, searched for the origin of the smell.",
+      "predicted_label": "Facts",
+      "confidence": 0.9187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0013,
+        "Facts": 0.9187,
+        "Issue": 0.0002,
+        "Reasoning": 0.0589
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "They saw something is burning in the adjoining Plot No.212.",
+      "predicted_label": "Facts",
+      "confidence": 0.8522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0012,
+        "Facts": 0.8522,
+        "Issue": 0.0002,
+        "Reasoning": 0.1415
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "They also saw the accused standing near by.",
+      "predicted_label": "Facts",
+      "confidence": 0.5447,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0228,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.0008,
+        "Facts": 0.5447,
+        "Issue": 0.0004,
+        "Reasoning": 0.4116
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "Becoming suspicious, they called the third watchman and went near the burning spot.",
+      "predicted_label": "Facts",
+      "confidence": 0.985,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0002,
+        "Facts": 0.985,
+        "Issue": 0.0003,
+        "Reasoning": 0.0116
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Seeing the watchmen, the accused attempted to run away but the two watchmen followed and caught hold of him.",
+      "predicted_label": "Facts",
+      "confidence": 0.9184,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0008,
+        "Facts": 0.9184,
+        "Issue": 0.0009,
+        "Reasoning": 0.0647
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "They found one half burnt body of a man being burnt at the spot.",
+      "predicted_label": "Facts",
+      "confidence": 0.9311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0004,
+        "Facts": 0.9311,
+        "Issue": 0.0005,
+        "Reasoning": 0.0605
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "They, therefore, telephoned the police.",
+      "predicted_label": "Facts",
+      "confidence": 0.9526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0001,
+        "Facts": 0.9526,
+        "Issue": 0.0007,
+        "Reasoning": 0.0334
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "PSI Arun Kadam (PW5) came to the spot and apprehended the accused.",
+      "predicted_label": "Facts",
+      "confidence": 0.9866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9866,
+        "Issue": 0.0005,
+        "Reasoning": 0.0109
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "It is the case of the prosecution that when the watchmen apprehended the accused, he said to them mai jisco marna tha mar diya, jo kam karna tha who kar diya.",
+      "predicted_label": "Facts",
+      "confidence": 0.5128,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0601,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.0001,
+        "Facts": 0.5128,
+        "Issue": 0.0005,
+        "Reasoning": 0.4024
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "(I killed the person whom I wanted to kill.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4044,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3125,
+        "Arguments of Respondent": 0.0392,
+        "Decision": 0.001,
+        "Facts": 0.2425,
+        "Issue": 0.0005,
+        "Reasoning": 0.4044
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "I completed the work which I wanted to complete.)",
+      "predicted_label": "Facts",
+      "confidence": 0.4567,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1078,
+        "Arguments of Respondent": 0.0251,
+        "Decision": 0.0021,
+        "Facts": 0.4567,
+        "Issue": 0.0005,
+        "Reasoning": 0.4078
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 13,
+      "text": "The accused was carrying one black bag.",
+      "predicted_label": "Facts",
+      "confidence": 0.7371,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.002,
+        "Facts": 0.7371,
+        "Issue": 0.0037,
+        "Reasoning": 0.2421
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The black bag and the clothes of the accused were seized.",
+      "predicted_label": "Facts",
+      "confidence": 0.9031,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0006,
+        "Facts": 0.9031,
+        "Issue": 0.0037,
+        "Reasoning": 0.0861
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "After completion of the investigation, the accused was charged for having committed murder of Rajnarayan Suryanarayan Dube (for short, the deceased) in Room No.2 in Plot No.A32, near Synthetic Stone Companys construction work by assaulting him with an iron rod.",
+      "predicted_label": "Facts",
+      "confidence": 0.9885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9885,
+        "Issue": 0.0088,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The accused was further charged for attempting to cause disappearance of evidence of murder by burning the body of the deceased.3.The prosecution examined seven witnesses.",
+      "predicted_label": "Facts",
+      "confidence": 0.9607,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9607,
+        "Issue": 0.0363,
+        "Reasoning": 0.0019
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "PW1 Yuvraj Avghade, PW2 Ramdas Mhatre and PW3 Kamal Anthawal are the watchmen employed in the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9833,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0001,
+        "Facts": 0.9833,
+        "Issue": 0.0015,
+        "Reasoning": 0.0087
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The prosecution also examined PW4 Vidyadhar Palkar to prove the spot panchnama and the arrest.",
+      "predicted_label": "Facts",
+      "confidence": 0.9753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9753,
+        "Issue": 0.0003,
+        "Reasoning": 0.0193
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "PW5 PSI Arun Kadam, PW6 PI Shaikh Nizam are the Investigating Officers and PW7 Ramprasad Shukla is the inquest pancha.",
+      "predicted_label": "Facts",
+      "confidence": 0.9959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9959,
+        "Issue": 0.0011,
+        "Reasoning": 0.0024
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The postmortem notes disclose that the deceased died because of fracture of skull and injury to brain due to impact with a hard and blunt object, associated with extensive burns.4.At the outset, it must be stated that there is no eyewitness and the conviction is based solely on circumstantial evidence.",
+      "predicted_label": "Facts",
+      "confidence": 0.99,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0002,
+        "Facts": 0.99,
+        "Issue": 0.0004,
+        "Reasoning": 0.0057
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "It is, however, necessary to examine whether the circumstances established in the present case are such that they lead to the only conclusion that the accused is guilty and the chain of evidence is so complete as not to leave any reasonable doubt in reaching the conclusion of the guilt of the accused and the circumstances are inconsistent with the innocence of the accused.6.The arrest panchnama states that the clothes of the accused were blood stained.",
+      "predicted_label": "Issue",
+      "confidence": 0.4841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0322,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0012,
+        "Facts": 0.3372,
+        "Issue": 0.4841,
+        "Reasoning": 0.1274
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The blood stained clothes of the accused were seized at the time of his arrest.",
+      "predicted_label": "Facts",
+      "confidence": 0.6948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0119,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0011,
+        "Facts": 0.6948,
+        "Issue": 0.0046,
+        "Reasoning": 0.2734
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "The evidence of the chemical analyser about the clothes has not been produced in the court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1156,
+        "Arguments of Respondent": 0.0793,
+        "Decision": 0.0154,
+        "Facts": 0.0484,
+        "Issue": 0.0006,
+        "Reasoning": 0.7406
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "No explanation is offered therefor.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8126,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0631,
+        "Arguments of Respondent": 0.0635,
+        "Decision": 0.0107,
+        "Facts": 0.0496,
+        "Issue": 0.0005,
+        "Reasoning": 0.8126
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "If the blood stained clothes which seized soon after the alleged offence and were sent to the chemical analyser, the report of the chemical analyser was important to connect the accused with the crime.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1256,
+        "Arguments of Respondent": 0.2327,
+        "Decision": 0.0033,
+        "Facts": 0.0265,
+        "Issue": 0.0004,
+        "Reasoning": 0.6115
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "Absence of the report of the chemical analyser regarding the presence of human blood and the blood group of the blood stains on the clothes of the accused is a circumstance which ought to have been explained by the prosecution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2684,
+        "Arguments of Respondent": 0.0516,
+        "Decision": 0.0009,
+        "Facts": 0.016,
+        "Issue": 0.0001,
+        "Reasoning": 0.663
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "He relied upon the decision of the Supreme Court in Kavita v State of Tamil Nadu reported in 1998 Cri.L.J. 3624, wherein the Supreme Court has observed There is no doubt that convictions can be based on extrajudicial confession but it is well settled that in the very nature of things, it is a weak piece of evidence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6424,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6424,
+        "Arguments of Respondent": 0.3442,
+        "Decision": 0.0001,
+        "Facts": 0.0039,
+        "Issue": 0.0001,
+        "Reasoning": 0.0093
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "It is to be proved just like any other fact and the value thereof depends upon the veracity of the witness to whom it is made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0001,
+        "Facts": 0.0081,
+        "Issue": 0.0003,
+        "Reasoning": 0.9662
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "It may not be necessary that the actual words used by the accused must be given by the witness but it is for the Court to decide on the acceptability of the evidence having regard to the credibility of the witnesses.11.It is true that a conviction can be based on extra judicial confession but it is a weak piece of evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9356,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0397,
+        "Arguments of Respondent": 0.0205,
+        "Decision": 0.0005,
+        "Facts": 0.0026,
+        "Issue": 0.001,
+        "Reasoning": 0.9356
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Extra judicial confession can be proved like any other fact and the value thereof would depend upon the veracity of the witnesses to whom it is made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0326,
+        "Arguments of Respondent": 0.0656,
+        "Decision": 0.0021,
+        "Facts": 0.0011,
+        "Issue": 0.0017,
+        "Reasoning": 0.8969
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "In the FIR, PW1 Yuvraj has stated that the accused confessed before him and his two colleagues mai jisko marna",
+      "predicted_label": "Facts",
+      "confidence": 0.4393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1096,
+        "Arguments of Respondent": 0.1931,
+        "Decision": 0.0013,
+        "Facts": 0.4393,
+        "Issue": 0.0009,
+        "Reasoning": 0.2558
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "tha mar diya jo kam karna tha",
+      "predicted_label": "Facts",
+      "confidence": 0.71,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0509,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.003,
+        "Facts": 0.71,
+        "Issue": 0.0003,
+        "Reasoning": 0.2244
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "woh kar diya.",
+      "predicted_label": "Facts",
+      "confidence": 0.9489,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0006,
+        "Facts": 0.9489,
+        "Issue": 0.0004,
+        "Reasoning": 0.0339
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "PW2 Ramdas in his deposition after repeating these words of confession has stated that the accused stated further apko jo karna hai kar dijiye.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7419,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0822,
+        "Arguments of Respondent": 0.0356,
+        "Decision": 0.0001,
+        "Facts": 0.1399,
+        "Issue": 0.0001,
+        "Reasoning": 0.7419
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Even otherwise, the evidence of PW1 Yuvraj, PW2 Ramdas and PW3 Kamal on this aspect of extra judicial confession does not inspire any confidence in us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9243,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0616,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0013,
+        "Facts": 0.0026,
+        "Issue": 0.0006,
+        "Reasoning": 0.9243
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "We have gone through their depositions and we are not inclined to accept that the accused made the extra judicial confession to them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0377,
+        "Arguments of Respondent": 0.0216,
+        "Decision": 0.0017,
+        "Facts": 0.0047,
+        "Issue": 0.0025,
+        "Reasoning": 0.9318
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "There are contradictions in their evidence regarding how they noticed the incidence of burning.",
+      "predicted_label": "Facts",
+      "confidence": 0.5135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1097,
+        "Arguments of Respondent": 0.0552,
+        "Decision": 0.0016,
+        "Facts": 0.5135,
+        "Issue": 0.0002,
+        "Reasoning": 0.3198
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "In the examinationinchief, PW1 Yuvraj has stated that they were moving around in the campus of the Company when they first received the smell of burning.",
+      "predicted_label": "Facts",
+      "confidence": 0.4974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0341,
+        "Arguments of Respondent": 0.1811,
+        "Decision": 0.0016,
+        "Facts": 0.4974,
+        "Issue": 0.0002,
+        "Reasoning": 0.2857
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "According to PW1 Yuvraj, he smelt it when they were taking a round while according to PW2, they got the burning smell while they were sitting at the cabin.",
+      "predicted_label": "Facts",
+      "confidence": 0.9417,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0005,
+        "Facts": 0.9417,
+        "Issue": 0.0001,
+        "Reasoning": 0.0368
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Jamdar the learned counsel for the appellant stated before us that the accused was a passerby who saw a body burning and, therefore, was standing near the spot when the watchmen came there and mistakenly thought the accused was the offender.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9047,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0036,
+        "Facts": 0.0086,
+        "Issue": 0.0003,
+        "Reasoning": 0.0727
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "In the circumstances, the accused is entitled to the benefit of reasonable doubt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1365,
+        "Arguments of Respondent": 0.1142,
+        "Decision": 0.141,
+        "Facts": 0.046,
+        "Issue": 0.0019,
+        "Reasoning": 0.5603
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "ORDERThe appeal is allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9793,
+        "Facts": 0.0162,
+        "Issue": 0.0002,
+        "Reasoning": 0.0037
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The judgment and order dated 30/4/2001 passed by the IInd Additional Sessions Judge, Thane, is set aside and the accused is acquitted of all the charges levelled against him in Sessions Case No.231 of 1999.",
+      "predicted_label": "Decision",
+      "confidence": 0.9514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9514,
+        "Facts": 0.0244,
+        "Issue": 0.0003,
+        "Reasoning": 0.0231
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The accused appellant Alok Kumar Subhedar Singh be released forthwith unless required in any other case.13.Before we part, we must record our appreciation of the able assistance rendered to us by Mr. Jamdar as amicus curie.",
+      "predicted_label": "Decision",
+      "confidence": 0.9628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9628,
+        "Facts": 0.0018,
+        "Issue": 0.0002,
+        "Reasoning": 0.0338
+      }
+    }
+  ]
+}

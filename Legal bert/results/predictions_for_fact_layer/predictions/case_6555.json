@@ -1,0 +1,696 @@
+{
+  "case_id": "6555",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The appellants seek to assail the judgment of the Division Bench of the Allahabad High Court in terms whereof the respondent before us has been granted the benefit of compassionate appointment under the Uttar Pradesh Recruitment of Dependants of Government Servants Dying in Harness Rules, 1974 (hereinafter referred to as the Rules) on account of demise of his father, who was working with the appellants.",
+      "predicted_label": "Issue",
+      "confidence": 0.909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0005,
+        "Facts": 0.0834,
+        "Issue": 0.909,
+        "Reasoning": 0.0017
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "2. The father of the respondent had earlier waged a legal battle against the appellantDepartment arising out of his endeavour to get his appointment post his selection for the post of Tubewell Operator.",
+      "predicted_label": "Facts",
+      "confidence": 0.8794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0009,
+        "Facts": 0.8794,
+        "Issue": 0.1021,
+        "Reasoning": 0.0106
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The High Court in the impugned order opined that the selection process of the father of the respondent was unambiguous and against the regular vacancy whereby he had submitted all the requisite documents to the Irrigation Department.",
+      "predicted_label": "Facts",
+      "confidence": 0.8512,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0004,
+        "Facts": 0.8512,
+        "Issue": 0.0029,
+        "Reasoning": 0.1355
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The case of the respondent is that the appellants held up this issue over six years and the actual appointment took place only on 29.01.2003.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5677,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.5677,
+        "Decision": 0.0005,
+        "Facts": 0.2451,
+        "Issue": 0.0019,
+        "Reasoning": 0.1781
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "The respondents father continued to work and draw emoluments for a period of 13 years equivalent to the regular payscale till he unfortunately passed away on 09.03.2016.",
+      "predicted_label": "Facts",
+      "confidence": 0.3701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1443,
+        "Arguments of Respondent": 0.201,
+        "Decision": 0.0009,
+        "Facts": 0.3701,
+        "Issue": 0.0043,
+        "Reasoning": 0.2795
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "The case of the respondent is also that in identical matters, the appellants have appointed one Balram and one Smt.",
+      "predicted_label": "Facts",
+      "confidence": 0.394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.3281,
+        "Decision": 0.0024,
+        "Facts": 0.394,
+        "Issue": 0.0023,
+        "Reasoning": 0.2663
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "Geeta Devi, whose father and husband respectively died in harness, as Part Time Tubewell Operators and many other candidates of whose record is not available.",
+      "predicted_label": "Facts",
+      "confidence": 0.5559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2305,
+        "Arguments of Respondent": 0.0978,
+        "Decision": 0.0053,
+        "Facts": 0.5559,
+        "Issue": 0.0068,
+        "Reasoning": 0.1037
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The respondent argues that he was singled out in being denied the benefit possibly on account of the earlier litigation between the father of the respondent and the appellantDepartment.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8998,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.8998,
+        "Decision": 0.0005,
+        "Facts": 0.0302,
+        "Issue": 0.0008,
+        "Reasoning": 0.066
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The case of the appellants is that the father of the respondent had not been regularized and merely grant of equivalent benefits on the principle of equal pay for equal work would not make him regular employee and thus the respondent is not entitled to the benefit of the Rules for compassionate employment.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7809,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0008,
+        "Facts": 0.1279,
+        "Issue": 0.0094,
+        "Reasoning": 0.0783
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "In this behalf reference is made to the judgment of this Court in Gen. Manager, Uttaranchal Jal Sansthan vs Laxmi Devi Ors.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6043,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3272,
+        "Arguments of Respondent": 0.6043,
+        "Decision": 0.0001,
+        "Facts": 0.0026,
+        "Issue": 0.0001,
+        "Reasoning": 0.0656
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "(2009) 7 SCC 205 stated to be dealing with the very Rule in question.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.35,
+        "Arguments of Respondent": 0.1601,
+        "Decision": 0.0004,
+        "Facts": 0.0412,
+        "Issue": 0.001,
+        "Reasoning": 0.4474
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "It will be useful to reproduce the relevant extract of the Rules where Rule 2 (a)(iii) reads as under 2.Definitions (a) Government servant means a Government employed in connection with the affairs of Uttar Pradesh who (i) xxxxx (ii) Xxxxx (iii) though not regularly appointment, had put in three years continuous service in regular vacancy in such employment Explanation regularly appointed means appointed in accordance with the procedure laid down for recruitment to the post of service, as the case may be 5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9152,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0263,
+        "Arguments of Respondent": 0.0114,
+        "Decision": 0.0,
+        "Facts": 0.9152,
+        "Issue": 0.0006,
+        "Reasoning": 0.0464
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Thus the respondent contends that since his father was employed for more than 3 years in continuous service, he was bound to be considered as a Government Servant and thus the benefit should extend to the respondent.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9235,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.9235,
+        "Decision": 0.0004,
+        "Facts": 0.0372,
+        "Issue": 0.0008,
+        "Reasoning": 0.0352
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "We may, however, note that the Court had opined on the facts of that case holding that benefit would not accrue to the respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0416,
+        "Arguments of Respondent": 0.0316,
+        "Decision": 0.0054,
+        "Facts": 0.0588,
+        "Issue": 0.0013,
+        "Reasoning": 0.8614
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The regular vacancy was held to mean a vacancy which occurred in posts sanctioned by the competent authority.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0691,
+        "Arguments of Respondent": 0.0549,
+        "Decision": 0.0002,
+        "Facts": 0.0824,
+        "Issue": 0.0023,
+        "Reasoning": 0.7911
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The service of the deceased employee had not actually been regularized though they have claimed regularization.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0489,
+        "Arguments of Respondent": 0.0454,
+        "Decision": 0.007,
+        "Facts": 0.1491,
+        "Issue": 0.0019,
+        "Reasoning": 0.7478
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The fact that the deceased employee was drawing salary in a regular payscale was held not to mean that they are against a regular vacancy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7333,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0447,
+        "Arguments of Respondent": 0.0832,
+        "Decision": 0.0003,
+        "Facts": 0.1366,
+        "Issue": 0.002,
+        "Reasoning": 0.7333
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "We may note an interesting aspect pointed out by the learned counsel for the respondent, inter alia, in his synopsis (as usual the appellants did not consider it appropriate to assist this Court by filing a synopsis as had been directed vide the last order, apart from the note on the cause list).",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.6743,
+        "Decision": 0.0007,
+        "Facts": 0.1034,
+        "Issue": 0.0006,
+        "Reasoning": 0.2104
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "The respondent has stated that during the period of 13 years of the employment of the father of the respondent, he was transferred from the Irrigation Department to Panchayati Raj Department as Gram Panchayat Vikas Adhikari and vice versa, i.e, he was transferred 2 or 3 times by the appellants and was even appointed as a polling officer by State Election Commission on 15.10.2015, 26.11.2015 and 03.12.2015.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4307,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.4307,
+        "Decision": 0.0005,
+        "Facts": 0.144,
+        "Issue": 0.0003,
+        "Reasoning": 0.418
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "It is thus the submission that there could not have been such interdepartmental transfers and retransfers if the father of the respondent was not being considered as a regular employee.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2816,
+        "Arguments of Respondent": 0.514,
+        "Decision": 0.0002,
+        "Facts": 0.0328,
+        "Issue": 0.0002,
+        "Reasoning": 0.1712
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "Not only that, it is contended that there would possibly be no case where a person is deployed under the Representation of People Act, 1951, who is not a Government employee.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3602,
+        "Arguments of Respondent": 0.3187,
+        "Decision": 0.0003,
+        "Facts": 0.036,
+        "Issue": 0.0036,
+        "Reasoning": 0.2811
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "This is apart from the fact that the respondents father was the operator of 2 Government tubewells which was stated to be equivalent to the job of a regular tubewell operator i.e., a 9 a.m. to 5. P.m., which some times ran over more than 8 hours, subject to the demand of farmers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6617,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0766,
+        "Arguments of Respondent": 0.1174,
+        "Decision": 0.0004,
+        "Facts": 0.144,
+        "Issue": 0.0001,
+        "Reasoning": 0.6617
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "7. Learned counsel for the appellants however gives an explanation by stating that these persons were originally deployed as Gram Panchayat Vikas Adhikari, transferred and retransferred back and the challenge to the same was repelled in U.P. Gram Panchayat Adhikari vs Daya Ram Saroj Ors., (2007) 2 SCC 138.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8334,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8334,
+        "Arguments of Respondent": 0.0229,
+        "Decision": 0.0005,
+        "Facts": 0.0225,
+        "Issue": 0.0001,
+        "Reasoning": 0.1206
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "If we turn to the impugned order of the Division Bench, the High Court has taken note of the Full Bench of the Allahabad High Court which is in consonance with the view propounded by this Court in the case of Gen. Manager, Uttaranchal Jal Sansthan vs Laxmi Devi Ors, (2009) 7 SCC 205 (supra)(Pavan Kumar Yadav v. State of Uttar Pradesh Ors., (2010) 18",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7036,
+      "probabilities": {
+        "Arguments of Petitioner": 0.03,
+        "Arguments of Respondent": 0.2064,
+        "Decision": 0.0013,
+        "Facts": 0.0564,
+        "Issue": 0.0023,
+        "Reasoning": 0.7036
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "ADJ 664).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7652,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0273,
+        "Arguments of Respondent": 0.0237,
+        "Decision": 0.0022,
+        "Facts": 0.1774,
+        "Issue": 0.0041,
+        "Reasoning": 0.7652
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "However, it noted the contention that though the father of the respondent was termed as a Part Time tubewell operator but he was always treated as a regular employee.",
+      "predicted_label": "Facts",
+      "confidence": 0.9,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0004,
+        "Facts": 0.9,
+        "Issue": 0.0019,
+        "Reasoning": 0.0888
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The Court took note of the rule referred to aforesaid and the explanation given thereto which requires that an appointment with procedure laid down for recruitment to the post or the service.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0191,
+        "Decision": 0.0006,
+        "Facts": 0.2994,
+        "Issue": 0.0006,
+        "Reasoning": 0.6626
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "The order of appointment in the case of the father of the respondent has been found to be unambiguous in its terms in accordance with norms after verification of all his certificates.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0183,
+        "Decision": 0.005,
+        "Facts": 0.3953,
+        "Issue": 0.0078,
+        "Reasoning": 0.5566
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "A complete process of selection was conducted by the appellants as the employer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0819,
+        "Arguments of Respondent": 0.2377,
+        "Decision": 0.0017,
+        "Facts": 0.1157,
+        "Issue": 0.0009,
+        "Reasoning": 0.5623
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "At the first instance, appointment was denied to him on account of he not being a resident of the command area of the tubewell concerned but this ground was found unsustainable by the judicial view taken by the High Court by an earlier order dated 29.01.2003 and consequently the father of the respondent was appointed.",
+      "predicted_label": "Facts",
+      "confidence": 0.7227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.0356,
+        "Decision": 0.0011,
+        "Facts": 0.7227,
+        "Issue": 0.0046,
+        "Reasoning": 0.2145
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "It is in these given facts of the case that it has been found that the benefit should be made available to the respondent under the Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0079,
+        "Facts": 0.1144,
+        "Issue": 0.0012,
+        "Reasoning": 0.856
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The facts have been found sufficient by the High Court to come to the conclusion that the appointment of the father of the respondent was against a regular vacancy and that is why in that background from the inception regular payscale was allowed to him and he thus satisfied the parameters of the Rules aforesaid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0448,
+        "Decision": 0.0009,
+        "Facts": 0.0335,
+        "Issue": 0.0007,
+        "Reasoning": 0.9045
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "We are in complete agreement with the view taken by the High Court in the given factual scenario.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0156,
+        "Facts": 0.0048,
+        "Issue": 0.0005,
+        "Reasoning": 0.9709
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "We may say, it appears that the appellants, for reasons best known to them, endeavoured to deny the father of the respondent his dues even though the appointment was through a proper process.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0096,
+        "Arguments of Respondent": 0.0162,
+        "Decision": 0.0072,
+        "Facts": 0.1916,
+        "Issue": 0.0016,
+        "Reasoning": 0.7738
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The High Court opined against the manner in which the father of the respondent was denied employment.",
+      "predicted_label": "Facts",
+      "confidence": 0.6884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0034,
+        "Facts": 0.6884,
+        "Issue": 0.1056,
+        "Reasoning": 0.1763
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "That is the reason that from the very inception he was given the benefits of a regular employee while designating him as a Part Time tubewell operator.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8671,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.0267,
+        "Decision": 0.0002,
+        "Facts": 0.067,
+        "Issue": 0.0002,
+        "Reasoning": 0.8671
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The High Court has found that these facts show that the appointment was against the regular vacancy though it continued to be termed as a Part Time appointment apart from the fact that his work hours were of a regular employee entitling him to equal pay for equal work.",
+      "predicted_label": "Facts",
+      "confidence": 0.5946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0328,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.0006,
+        "Facts": 0.5946,
+        "Issue": 0.0019,
+        "Reasoning": 0.3516
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "We have also taken note of the fact that during his 13 long years of employment and before that having battled the appellants for the period of 6 years to get his dues, the father of the respondent was also transferred from one department to the other, normally an aspect which would be associated with a person who had a regular employment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.008,
+        "Facts": 0.0307,
+        "Issue": 0.0006,
+        "Reasoning": 0.9462
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The most significant aspect is that had the father of the respondent not been considered a regular appointee, there would be no occasion for the Department to volunteer his services to the State Election Commission to perform election duties, which could have been done only by a Government employee, as is specified under Section 159 of the Representation of the People Act, 1950 (Staff of certain authorities to be made available for election work).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0202,
+        "Arguments of Respondent": 0.0542,
+        "Decision": 0.0017,
+        "Facts": 0.0952,
+        "Issue": 0.0007,
+        "Reasoning": 0.828
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The present case is thus one which is peculiar in its given factual scenario which we have discussed above and thus for all practical purposes, it is a case of an appointment against a regular vacancy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9543,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0024,
+        "Facts": 0.036,
+        "Issue": 0.0023,
+        "Reasoning": 0.9543
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "The respondents father was treated as a regular employee by the aforesaid conduct of the appellants even though he was labelled as a Part Time tubewell operator.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1158,
+        "Arguments of Respondent": 0.2852,
+        "Decision": 0.0013,
+        "Facts": 0.1931,
+        "Issue": 0.0002,
+        "Reasoning": 0.4045
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "We may like to further say that from the illustrations given by the appellants, at least 2 persons, as noted before, were employed in a similar scenario i.e., Balram and Smt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9656,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0032,
+        "Facts": 0.0065,
+        "Issue": 0.0001,
+        "Reasoning": 0.9656
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "Geeta Devi whose father and husband respectively died in harness as Part Time tubewell operators.",
+      "predicted_label": "Facts",
+      "confidence": 0.8725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0012,
+        "Facts": 0.8725,
+        "Issue": 0.0249,
+        "Reasoning": 0.0637
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "It is quite obvious that there is an discrimination against the respondent possibly arising from the previous litigation between the appellants and the deceased father of the respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.901,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0347,
+        "Decision": 0.0202,
+        "Facts": 0.0281,
+        "Issue": 0.0021,
+        "Reasoning": 0.901
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "There is no satisfactory explanation for the same and we cannot permit the appellantDepartment to harass the respondent in this manner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0464,
+        "Decision": 0.0211,
+        "Facts": 0.04,
+        "Issue": 0.0002,
+        "Reasoning": 0.8854
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "We are thus of the opinion that the course adopted by the Division Bench of the High Court is in accordance with law and the impugned order does not call for any interference.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7378,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0116,
+        "Decision": 0.2426,
+        "Facts": 0.0055,
+        "Issue": 0.001,
+        "Reasoning": 0.7378
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The appeal is dismissed with costs throughout.",
+      "predicted_label": "Decision",
+      "confidence": 0.9952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9952,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0027
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The necessary orders be issued in the case of the respondent within one month from date the order.",
+      "predicted_label": "Decision",
+      "confidence": 0.5496,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.5496,
+        "Facts": 0.3817,
+        "Issue": 0.0005,
+        "Reasoning": 0.0579
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

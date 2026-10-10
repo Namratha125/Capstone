@@ -1,0 +1,635 @@
+{
+  "case_id": "6740",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The present Letters Patent Appeal is directed against the judgment and order dated 23.12.2005 passed in Writ Petition No.4846/2005 by the learned Single Judge of this Court, which inter alia, sets aside the judgment dated 05.08.2005 passed by the Appellant No.2 i.e. the Chief Controlling Revenue Authority, Maharashtra.",
+      "predicted_label": "Issue",
+      "confidence": 0.7882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0025,
+        "Facts": 0.207,
+        "Issue": 0.7882,
+        "Reasoning": 0.0017
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The brief facts which required to be considered are not in dispute and are as follows (i)",
+      "predicted_label": "Facts",
+      "confidence": 0.9955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9955,
+        "Issue": 0.0022,
+        "Reasoning": 0.0016
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The sister concern subsidiary Company of the Respondent viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.5442,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0632,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0042,
+        "Facts": 0.5442,
+        "Issue": 0.0171,
+        "Reasoning": 0.3472
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "M s. Jaika Motors (Independent Company) raised a loan from United Commercial Bank of Rs.7 crores.",
+      "predicted_label": "Facts",
+      "confidence": 0.8396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0438,
+        "Arguments of Respondent": 0.0252,
+        "Decision": 0.0001,
+        "Facts": 0.8396,
+        "Issue": 0.0017,
+        "Reasoning": 0.0895
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "Out of this Rs.5 crores was raised against hypothecation of stocks whereas Rs.2 crores was raised against book debts of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8132,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0363,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0001,
+        "Facts": 0.8132,
+        "Issue": 0.0016,
+        "Reasoning": 0.115
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "(ii) In respect of this, two deeds of hypothecation viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.4437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3372,
+        "Arguments of Respondent": 0.0856,
+        "Decision": 0.0054,
+        "Facts": 0.4437,
+        "Issue": 0.0068,
+        "Reasoning": 0.1213
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "One in relation to stocks and movable whereas the other in relation to book debts was entered into by the said company with United Commercial Bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.6854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0327,
+        "Arguments of Respondent": 0.0379,
+        "Decision": 0.0007,
+        "Facts": 0.6854,
+        "Issue": 0.006,
+        "Reasoning": 0.2374
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "A third document namely SecuritycumMortgage bond Instrument was also executed by the Respondent in relation to guarantee the payment of the aforementioned loan amount as collateral security for the said loan.",
+      "predicted_label": "Facts",
+      "confidence": 0.8676,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0004,
+        "Facts": 0.8676,
+        "Issue": 0.0005,
+        "Reasoning": 0.1061
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "This Mortgage Instrument was with respect to movable and immovable properties of the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9185,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0001,
+        "Facts": 0.9185,
+        "Issue": 0.0075,
+        "Reasoning": 0.0674
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "All the aforesaid three documents were executed on 23.08.2002.",
+      "predicted_label": "Facts",
+      "confidence": 0.8029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0006,
+        "Facts": 0.8029,
+        "Issue": 0.0058,
+        "Reasoning": 0.1659
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "(iii) The Respondent company paid total stampduty of Rs.1,73,700/ on the aforementioned loan amount disbursed by United Commercial Bank on the two hypothecation agreements.",
+      "predicted_label": "Facts",
+      "confidence": 0.4768,
+      "probabilities": {
+        "Arguments of Petitioner": 0.319,
+        "Arguments of Respondent": 0.1357,
+        "Decision": 0.0018,
+        "Facts": 0.4768,
+        "Issue": 0.0221,
+        "Reasoning": 0.0446
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "Insofar as the SecuritycumMortgage bond for collateral security was concerned, the Respondent paid stampduty as per the provisions of Article 40(c) of ScheduleI to the Maharashtra Stamp Act, 1958 (hereinafter referred to as the Stamp Act).",
+      "predicted_label": "Facts",
+      "confidence": 0.9776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0002,
+        "Facts": 0.9776,
+        "Issue": 0.002,
+        "Reasoning": 0.0128
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Thus, the Respondent paid stampduty of Rs.200/ on the SecuritycumMortgage bond Instrument.",
+      "predicted_label": "Facts",
+      "confidence": 0.9036,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0003,
+        "Facts": 0.9036,
+        "Issue": 0.0021,
+        "Reasoning": 0.0793
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "(iv) After a period of three years, the audit party of the Accountant General (II), Nagpur, in its regular inspection of the Office of the Joint Registrar observed that the Respondent had under valued stampduty on the SecuritycumMortgage bond Instrument and therefore, issued notice dated 01.01.2005 to the Respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1265,
+        "Arguments of Respondent": 0.1221,
+        "Decision": 0.0039,
+        "Facts": 0.464,
+        "Issue": 0.0008,
+        "Reasoning": 0.2827
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Incidently this notice was issued on the premise that the Respondent had entered into a Mortgage deed with the Bank for a sum of Rs.7 crores and in terms of provisions of Article 40(b) of ScheduleI to the Stamp Act, the Respondent was liable to pay stampduty 1 on the total amount and therefore the Respondent had undervalued the stampduty.",
+      "predicted_label": "Facts",
+      "confidence": 0.9685,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9685,
+        "Issue": 0.0185,
+        "Reasoning": 0.0116
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Respondent was therefore called upon to deposit a differential amount of Rs. 5,26,300/ after adjusting the amount of Rs.1,73,700/ already paid.",
+      "predicted_label": "Facts",
+      "confidence": 0.9787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9787,
+        "Issue": 0.0028,
+        "Reasoning": 0.0151
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "It is pertinent to note that there was no mention of the two Hypothecation agreements in this demand notice.",
+      "predicted_label": "Facts",
+      "confidence": 0.8778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0003,
+        "Facts": 0.8778,
+        "Issue": 0.0014,
+        "Reasoning": 0.1016
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "4. Being aggrieved by this notice the Respondent filed appeal bearing No. 1/2005 before the Appellant No.2, inter alia, narrating the aforementioned facts and the relevant provisions as contained in Article 40(c) of Schedule (I) to the Stamp Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0,
+        "Facts": 0.9974,
+        "Issue": 0.0012,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "On 5th August, 2005, Appellant No. 2 dismissed the Appeal on the ground that the Respondent was liable to pay stampduty under the provisions of Article 40(b) of ScheduleI of the Stamp Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9922,
+        "Issue": 0.004,
+        "Reasoning": 0.0024
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The Appellant No. 2 while dismissing the appeal of the Respondent interpreted the provisions of SubSections (1) (2) (3) of Section 4 of the Stamp Act and concluded that if there are several instruments in respect of the same transaction then, no matter what the concerned party may call a particular document as principal Instrument, the one chargeable with the highest stamp duty shall be considered for payment of stampduty.",
+      "predicted_label": "Facts",
+      "confidence": 0.9213,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0002,
+        "Facts": 0.9213,
+        "Issue": 0.0068,
+        "Reasoning": 0.0627
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Thus, according to Appellant No.2, out of the aforesaid three documents, the Respondent was liable to pay stampduty on the third document i.e. the SecuritycumMortgage deed which was construed as the principal Instrument.",
+      "predicted_label": "Facts",
+      "confidence": 0.8632,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1103,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0004,
+        "Facts": 0.8632,
+        "Issue": 0.0064,
+        "Reasoning": 0.0192
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "However, while passing this order the Appellant No. 2 did not interpret the provisions of Section 4 (2) and the proviso thereto of the Stamp Act, which w as the case pleaded by the Respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0089,
+        "Facts": 0.4408,
+        "Issue": 0.0012,
+        "Reasoning": 0.5255
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The Respondent being aggrieved filed Writ Petition No.4846/2005 before this Court to challenge the order dated 05.08.2005 passed by Appellant No.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.9885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9885,
+        "Issue": 0.008,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The learned Single Judge, while dealing with the controversy in question and the provisions of Article 40 (c) Article 54 of ScheduleI read alongwith Section 4 of the Stamp Act gave finding that in the present case the Mortgage deed was executed as additional security by way of further assurance and therefore it was covered under Article 40(c) and it was not the principal or primary document Instrument between the parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.8576,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0002,
+        "Facts": 0.8576,
+        "Issue": 0.0022,
+        "Reasoning": 0.1314
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The learned Single Judge held that the reasoning given by the Appellant No. 2 to deny advantage of Article 40(c) to the Respondent was clearly erroneous in as much as the principle or primary security document between the parties was not the mortgage deed but the two hypothecation deeds which were duly stamped.",
+      "predicted_label": "Facts",
+      "confidence": 0.9746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0,
+        "Facts": 0.9746,
+        "Issue": 0.0008,
+        "Reasoning": 0.0227
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Further, the learned Single Judge held that the SecuritycumMortgage deed was the document executed by the Respondent to guarantee due performance of and discharge of obligation already cast upon the Respondent by virtue of the two hypothecation deeds.",
+      "predicted_label": "Facts",
+      "confidence": 0.9085,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9085,
+        "Issue": 0.0012,
+        "Reasoning": 0.0858
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "While interpreting Article 54 r w Article 40 of ScheduleI to the Stamp Act, the learned Single Judge in paragraph no. 7 held thus Thus, the purpose of Security or mortgage contemplated by Article 54 is not as that of a security contemplated under Article 40 of ScheduleI of the Stamp Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.5313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.024,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0002,
+        "Facts": 0.5313,
+        "Issue": 0.001,
+        "Reasoning": 0.4373
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 27,
+      "text": "The very opening clause of Article 40 excludes documents covered by Article 54.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1319,
+        "Arguments of Respondent": 0.1373,
+        "Decision": 0.0003,
+        "Facts": 0.0465,
+        "Issue": 0.0002,
+        "Reasoning": 0.6837
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "Article 54 does not contemplate document which is by way of Security for repayment of money advanced or to be advanced to its executor or on its strength as loan.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8316,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0437,
+        "Arguments of Respondent": 0.1128,
+        "Decision": 0.0001,
+        "Facts": 0.0116,
+        "Issue": 0.0002,
+        "Reasoning": 0.8316
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The basic purpose of document covered under Article 54 is to secure discharge of some already existing obligation from the executor of the document.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0553,
+        "Arguments of Respondent": 0.0408,
+        "Decision": 0.0001,
+        "Facts": 0.0081,
+        "Issue": 0.0006,
+        "Reasoning": 0.8952
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The Appellants filed the present Letters Patent Appeal on the principal ground that the order dated 05.08.2005 passed by the learned Single Judge had erroneously and wrongfully relied upon Section 4 of the Stamp Act and determined that the principal document was the deed of hypothecation between the parties which was considered for payment of Stampduty and sought to challenge the same on the interpretation of Section 4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0125,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0003,
+        "Facts": 0.9405,
+        "Issue": 0.0416,
+        "Reasoning": 0.0049
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The Appellants contended that all three documents i.e. the two hypothecation agreements and the SecuritycumMortgage deed were executed on the same date i.e. 23.08.2002 and therefore, the presence of the word collateral in Article 40(c) ought to have been understood in the context of any document presupposing prior existence of a principal or main document.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9119,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9119,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0002,
+        "Facts": 0.0472,
+        "Issue": 0.0013,
+        "Reasoning": 0.0375
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The thrust of submissions on the part of the Appellants before us was that the two instruments of hypothecation would hardly be called as adequate security for sanctioning a loan of Rs. 7 crores and thus, in that background the document of SecuritycumMortgage deed had to be construed as the principal Instrument on which stamp duty was leviable payable by the Respondent.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9502,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9502,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0001,
+        "Facts": 0.0183,
+        "Issue": 0.001,
+        "Reasoning": 0.0281
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Mr. Manohar drew our attention to the clauses of the SecuritycumMortgage deed dated 23.08.2002 and more specifically to Clause 21 therein which reads thus 21.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4643,
+        "Arguments of Respondent": 0.4873,
+        "Decision": 0.0005,
+        "Facts": 0.0015,
+        "Issue": 0.0002,
+        "Reasoning": 0.0461
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "Cash credit limit of Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0511,
+        "Arguments of Respondent": 0.0574,
+        "Decision": 0.0006,
+        "Facts": 0.8398,
+        "Issue": 0.0027,
+        "Reasoning": 0.0483
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "7,00,00,000/ (Rs. 7 crores) has been sanction in the name of M s. Jaika Motors Limited, on the condition that the borrower company shall furnish the principal and primary security by executing the hypothecation agreement deed, giving the exclusive first charge of the entire stock, plant and machineries and book debts of the borrower company present and future.",
+      "predicted_label": "Facts",
+      "confidence": 0.7766,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0658,
+        "Arguments of Respondent": 0.0986,
+        "Decision": 0.0008,
+        "Facts": 0.7766,
+        "Issue": 0.0031,
+        "Reasoning": 0.0552
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "From the above Clause appearing in the SecuritycumMortgage deed between the RespondentCompany and United Commercial Bank it is clear that the Respondent Company had specifically deemed that the two hypothecation agreements would be the principal instruments in consonance with the provisions of Section 4 (2) of the Stamp Act, thereby negating the employment of Section 4 (3) to the facts of the Respondents case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0002,
+        "Facts": 0.0085,
+        "Issue": 0.0002,
+        "Reasoning": 0.9706
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "hypothecation of plant and machineries, Telco vehicles, stores and spares lying at Nagpur, Chandrapur, Amravati, Raipur, Jagadalpur or elsewhere in the Companys godowns, book debts and all current assets of the company were taken at the invoice Price or Market Price.",
+      "predicted_label": "Facts",
+      "confidence": 0.575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.048,
+        "Arguments of Respondent": 0.0497,
+        "Decision": 0.0002,
+        "Facts": 0.575,
+        "Issue": 0.0005,
+        "Reasoning": 0.3267
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "Further, the immovable properties of the RespondentCompany situated at Amravati, Chandrapur and Nagpur was itself valued at Rs.720.18 lakhs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4053,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1994,
+        "Arguments of Respondent": 0.3141,
+        "Decision": 0.0013,
+        "Facts": 0.0797,
+        "Issue": 0.0002,
+        "Reasoning": 0.4053
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "Apart from this, the Respondent was required to produce the personal guarantees of its five Directors and Corporate guarantees of six associate companies as mentioned therein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0359,
+        "Arguments of Respondent": 0.0211,
+        "Decision": 0.0008,
+        "Facts": 0.2588,
+        "Issue": 0.0007,
+        "Reasoning": 0.6828
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "Therefore, we are in agreement with the submissions made on behalf of the Respondent that the SecuritycumMortgage Instrument which was entered into by the Respondent with United Commercial Bank was not the principal instrument and it will have to be construed as a collateral document in view of the provisions of Section 4(2) of the Stamp Act in the facts of the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9819,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0017,
+        "Facts": 0.0043,
+        "Issue": 0.0006,
+        "Reasoning": 0.9819
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "In view of the above, we find no merits in the submissions advanced on behalf of the Appellants and do not find it necessary to interfere with the order and judgment passed by the learned Single Judge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.3301,
+        "Facts": 0.1249,
+        "Issue": 0.0009,
+        "Reasoning": 0.534
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "The Letters Patent Appeal is dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9311,
+        "Facts": 0.0509,
+        "Issue": 0.0004,
+        "Reasoning": 0.0164
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The order and judgment dated 23.12.2005 is upheld.",
+      "predicted_label": "Decision",
+      "confidence": 0.9138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.9138,
+        "Facts": 0.0257,
+        "Issue": 0.0002,
+        "Reasoning": 0.0589
+      }
+    }
+  ]
+}

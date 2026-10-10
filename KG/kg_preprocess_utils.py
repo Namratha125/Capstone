@@ -151,18 +151,23 @@ def is_plausible_section(statute_str: str) -> bool:
     return int(m.group(1)) <= 10000
 
 
-def infer_act_from_context(principles_text: str) -> str | None:
-    text = (principles_text or "").lower()
+def infer_act_from_context(context_text: str) -> str | None:
+    text = (context_text or "").lower()
     for act, keywords in ACT_KEYWORDS.items():
         if any(kw in text for kw in keywords):
             return act
     return None
 
 
-def normalize_statute(statute_raw: str, principles_text: str,
+def normalize_statute(statute_raw: str, context_text: str,
                       case_type: str = "") -> dict:
     """
     Returns a structured statute record ready for Statute node creation.
+
+    `context_text` should combine principles + issue + facts + reasoning
+    summary (widened from principles-only — the Act name is often
+    mentioned in `issue` or `facts` rather than `principles` alone). See
+    build_statute_context() in clean_fact_layer.py for how it's assembled.
 
     Fields:
       statute_id   — deduplicated MERGE key for Neo4j
@@ -197,7 +202,7 @@ def normalize_statute(statute_raw: str, principles_text: str,
             "domain":       "Constitutional Law",
         }
 
-    act = infer_act_from_context(principles_text)
+    act = infer_act_from_context(context_text)
     return {
         "statute_id":   f"{act}_{statute_raw}" if act else statute_raw,
         "act_name":     act,
@@ -208,7 +213,7 @@ def normalize_statute(statute_raw: str, principles_text: str,
     }
 
 
-def normalize_statutes_for_case(raw_statutes: list, principles_text: str,
+def normalize_statutes_for_case(raw_statutes: list, context_text: str,
                                  case_type: str = "") -> list:
     """
     Processes the full statutes list for one case.
@@ -220,7 +225,7 @@ def normalize_statutes_for_case(raw_statutes: list, principles_text: str,
     for raw in (raw_statutes or []):
         if not raw or not isinstance(raw, str):
             continue
-        entry = normalize_statute(raw, principles_text, case_type)
+        entry = normalize_statute(raw, context_text, case_type)
         if entry["statute_id"] not in seen:
             seen.add(entry["statute_id"])
             result.append(entry)
@@ -359,6 +364,7 @@ SUFFIX_PATTERNS = [
     r'\s+and\s+ors\.?$', r'\s+and\s+anr\.?$', r'\s+etc\.?(\s+etc\.?)*$',
     r'\s+and\s+others$', r'\s+&\s+ors\.?$', r'\s+and\s+another$',
     r'\s+ors\.?$', r'\s+anr\.?$',
+    r'\s+and\s*$', r'\s+&\s*$',  # dangling connector left after a partial strip
 ]
 
 
@@ -366,8 +372,15 @@ def normalize_party_name(name: str) -> str:
     if not name:
         return ""
     low = name.strip().lower()
-    for pat in SUFFIX_PATTERNS:
-        low = re.sub(pat, '', low, flags=re.IGNORECASE).strip()
+    # Strip repeatedly until stable — a single pass can leave a dangling
+    # "and"/"&" when multiple suffixes are stacked (e.g. "X And Ors Etc"
+    # only fully resolves after two rounds: "...ors etc" -> "...and ors" ->
+    # "...and" -> "...").
+    prev = None
+    while prev != low:
+        prev = low
+        for pat in SUFFIX_PATTERNS:
+            low = re.sub(pat, '', low, flags=re.IGNORECASE).strip()
     return low.strip().rstrip('.').strip()
 
 

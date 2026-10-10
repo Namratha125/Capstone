@@ -1,0 +1,1596 @@
+{
+  "case_id": "6751",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "No. 2 is a private limited company having factory at Pimpri Industrial Area, Pimpri, in Pune district, while petitioner No. 1 is a public limited company having factory at Bombay  Pune Road, Pimpri.",
+      "predicted_label": "Facts",
+      "confidence": 0.9888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9888,
+        "Issue": 0.0059,
+        "Reasoning": 0.0033
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "Petitioner No. 1 company is engaged in the manufacture of a product known as card clothing.",
+      "predicted_label": "Facts",
+      "confidence": 0.9742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9742,
+        "Issue": 0.0172,
+        "Reasoning": 0.0049
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The product is used in textile mills along with machines known as carding machines.",
+      "predicted_label": "Facts",
+      "confidence": 0.9478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0002,
+        "Facts": 0.9478,
+        "Issue": 0.0033,
+        "Reasoning": 0.0292
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "For the purpose of making card clothing, an intermediate product known as foundation cloth is required.",
+      "predicted_label": "Facts",
+      "confidence": 0.8725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0749,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0004,
+        "Facts": 0.8725,
+        "Issue": 0.0015,
+        "Reasoning": 0.0441
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The card clothing is a highly specialised product and there are only two or three manufacturers in India.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.447,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1468,
+        "Arguments of Respondent": 0.0969,
+        "Decision": 0.0006,
+        "Facts": 0.3072,
+        "Issue": 0.0016,
+        "Reasoning": 0.447
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "Foundation cloth which is an intermediate product is also a specialised product and can be used only for the purpose of making card clothing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5075,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2832,
+        "Arguments of Respondent": 0.0289,
+        "Decision": 0.0038,
+        "Facts": 0.1763,
+        "Issue": 0.0003,
+        "Reasoning": 0.5075
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "Foundation cloth is not used for any other purpose and is also not available in the market.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4595,
+        "Arguments of Respondent": 0.0341,
+        "Decision": 0.0015,
+        "Facts": 0.292,
+        "Issue": 0.001,
+        "Reasoning": 0.2119
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "Petitioner No. 1 company supplies cotton fabrics to petitioner No. 2 company and petitioner No. 2 manufactures foundation cloth by subjecting cotton fabrics to a number of processes.",
+      "predicted_label": "Facts",
+      "confidence": 0.9609,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9609,
+        "Issue": 0.0086,
+        "Reasoning": 0.0192
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "Petitioner No. 2 company then returns the foundation cloth to petitioner No. 1 company for the manufacture of card clothing.",
+      "predicted_label": "Facts",
+      "confidence": 0.8604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0381,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0002,
+        "Facts": 0.8604,
+        "Issue": 0.0006,
+        "Reasoning": 0.0952
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "( 2 ) PETITIONER No. 2 company which is manufacturing foundation cloth classified the said manufacture initially under Tariff Item No. 19I (b) of the First Schedule to the Central Excises and Salt Act, 1944 (hereinafter referred to as the act ).",
+      "predicted_label": "Facts",
+      "confidence": 0.9703,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9703,
+        "Issue": 0.0271,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Petitioner No. 2 company before any clearance was made realised that an error was committed in classifying the foundation cloth and thereupon by letter dated October 3, 1980 addressed to the Superintendent of Central Excise submitted a fresh classification list classifying foundation cloth under Tariff Item No. 68 which is a residuary item under First Schedule to the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9374,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0001,
+        "Facts": 0.9374,
+        "Issue": 0.0009,
+        "Reasoning": 0.044
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The Asst.",
+      "predicted_label": "Facts",
+      "confidence": 0.5071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.054,
+        "Arguments of Respondent": 0.0795,
+        "Decision": 0.0015,
+        "Facts": 0.5071,
+        "Issue": 0.0007,
+        "Reasoning": 0.3572
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Collector by communication dated November 29, 1980 informed petitioner No. 2 that the classification under Tariff Item No. 68 is approved.",
+      "predicted_label": "Facts",
+      "confidence": 0.9734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9734,
+        "Issue": 0.0162,
+        "Reasoning": 0.0084
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "On February 16, 1981, the Assistant Collector of Central Excise, Pune informed petitioner No. 2 company that the question of classification of foundation cloth stands reopened and the company should file reply, if any.",
+      "predicted_label": "Facts",
+      "confidence": 0.9678,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0002,
+        "Facts": 0.9678,
+        "Issue": 0.0004,
+        "Reasoning": 0.0274
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The Asstt.",
+      "predicted_label": "Facts",
+      "confidence": 0.727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0568,
+        "Arguments of Respondent": 0.1086,
+        "Decision": 0.0036,
+        "Facts": 0.727,
+        "Issue": 0.0031,
+        "Reasoning": 0.1009
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Collector after examining the reply filed by the company by order dated March 20, 1981 again accepted the claim of the company and held that manufacture of foundation cloth is liable to payment of excise duty under Tariff Item No. 68 of the First Schedule.",
+      "predicted_label": "Facts",
+      "confidence": 0.9555,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0001,
+        "Facts": 0.9555,
+        "Issue": 0.0031,
+        "Reasoning": 0.037
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "On July 9, 1981, the Collector of Central Excise and Customs, Pune, served show cause notice under Section 35a of the Act on petitioner No. 2 company to show cause why the order passed by the Assistant Collector classifying foundation cloth under Tariff Item No. 68 of the First schedule should not be reviewed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9899,
+        "Issue": 0.0011,
+        "Reasoning": 0.0061
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The show cause notice inter alia claims that foundation cloth is liable to payment of excise duty under Tariff Item No. 19I (b) of the First Schedule.",
+      "predicted_label": "Facts",
+      "confidence": 0.9495,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0002,
+        "Facts": 0.9495,
+        "Issue": 0.0039,
+        "Reasoning": 0.0412
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "( 3 ) ON September 8, 1981, the Superintendent of Central Excise, Pune, served show causecumdemand notice on petitioner No. 2 company demanding an amount of Rs. 2,27,964.",
+      "predicted_label": "Facts",
+      "confidence": 0.93,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0539,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0005,
+        "Facts": 0.93,
+        "Issue": 0.0008,
+        "Reasoning": 0.0093
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "25 towards excise duty for clearance of foundation cloth from the factory for the period commencing from September 16, 1980 and ending with March 16, 1981.",
+      "predicted_label": "Facts",
+      "confidence": 0.9292,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0074,
+        "Facts": 0.9292,
+        "Issue": 0.0199,
+        "Reasoning": 0.0359
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Another notice dated October 6, 1981 was served on the company demanding a sum of Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9835,
+        "Issue": 0.002,
+        "Reasoning": 0.0129
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "5,29,116.",
+      "predicted_label": "Facts",
+      "confidence": 0.9045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0009,
+        "Facts": 0.9045,
+        "Issue": 0.0028,
+        "Reasoning": 0.08
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "54 for clearance effected for the months of April to July 1981.",
+      "predicted_label": "Facts",
+      "confidence": 0.4452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0301,
+        "Arguments of Respondent": 0.0157,
+        "Decision": 0.2159,
+        "Facts": 0.4452,
+        "Issue": 0.0371,
+        "Reasoning": 0.2561
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "The petitioners thereupon filed the present petition under Article 226 of the Constitution on April 5, 1982 to challenge the issuance of show cause notice by the Collector on July 8, 1981 for review of the order passed by the Assistant Collector and also to challenge demand notices dated September 8, 1981 and October 6, 1981.",
+      "predicted_label": "Facts",
+      "confidence": 0.9759,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9759,
+        "Issue": 0.0095,
+        "Reasoning": 0.0085
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The petition was admitted on April 12, 1982 and interim relief was granted on April 27, 1982.",
+      "predicted_label": "Facts",
+      "confidence": 0.7808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0311,
+        "Arguments of Respondent": 0.0209,
+        "Decision": 0.0007,
+        "Facts": 0.7808,
+        "Issue": 0.0216,
+        "Reasoning": 0.145
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "By interim relief, the Collector was permitted to proceed with the hearing of suo motu notice issued for reviewing the order passed by the Assistant Collector approving the classification of foundation cloth under Tariff Item No. 68.",
+      "predicted_label": "Facts",
+      "confidence": 0.752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0299,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.001,
+        "Facts": 0.752,
+        "Issue": 0.0549,
+        "Reasoning": 0.1429
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The demand notices calling upon petitioner No. 2 company to pay diverse amounts for clearance of foundation cloth were stayed on the petitioners furnishing bank guarantees.",
+      "predicted_label": "Facts",
+      "confidence": 0.8557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0312,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.0007,
+        "Facts": 0.8557,
+        "Issue": 0.0026,
+        "Reasoning": 0.0858
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The petitioners were also directed to furnish bank guarantees in respect of differential duty on foundation cloth cleared during the pendency of petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.9791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0005,
+        "Facts": 0.9791,
+        "Issue": 0.0081,
+        "Reasoning": 0.0104
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "In pursuance of the interim order passed by this Court, the Collector of Central Excise, Pune, by order dated September 2, 1982, confirmed the suo motu notice issued and set aside the classification approved by the Assistant Collector and held that the product foundation cloth should be reclassified under Tariff Item No. 16I (b) of the First Schedule.",
+      "predicted_label": "Facts",
+      "confidence": 0.9642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0004,
+        "Facts": 0.9642,
+        "Issue": 0.0129,
+        "Reasoning": 0.0186
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The petitioners, thereafter, amended the petition and challenged the order passed by the Collector of Central Excise.",
+      "predicted_label": "Facts",
+      "confidence": 0.9337,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0005,
+        "Facts": 0.9337,
+        "Issue": 0.0034,
+        "Reasoning": 0.0382
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "( 4 ) MR.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8977,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8977,
+        "Arguments of Respondent": 0.0294,
+        "Decision": 0.0026,
+        "Facts": 0.0359,
+        "Issue": 0.0065,
+        "Reasoning": 0.028
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Setalvad, learned counsel appearing on behalf of the petitioners, submitted that the order passed by the Collector on September 2, 1982 is contrary to the wellsettled principles and the classification of foundation cloth under Tariff Item 19I (b) is entirely incorrect.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.978,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0003,
+        "Facts": 0.0058,
+        "Issue": 0.0009,
+        "Reasoning": 0.0137
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The learned counsel urged that the Collector examined the question on misconception that the burden to establish that foundation cloth is liable to duty under Tariff Item No. 68 is upon the assessee.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8473,
+        "Arguments of Respondent": 0.1356,
+        "Decision": 0.0001,
+        "Facts": 0.0026,
+        "Issue": 0.0003,
+        "Reasoning": 0.014
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Mr. Setalvad also submitted that the Collector did not appreciate that foundation cloth cannot be treated as cotton fabric for the purpose of levy of duty under Tariff Item No. 19I (b) as after the process undertaken by petitioner No. 2 company, the product which comes into existence is totally distinct and different from cotton fabric.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8569,
+        "Arguments of Respondent": 0.1215,
+        "Decision": 0.0003,
+        "Facts": 0.0037,
+        "Issue": 0.0002,
+        "Reasoning": 0.0174
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "As cotton fabric loses its identity and a new product foundation cloth comes into existence, the Collector was not right in holding that foundation cloth should classified under Tariff Item No. 19I (b).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7405,
+        "Arguments of Respondent": 0.0439,
+        "Decision": 0.0027,
+        "Facts": 0.0335,
+        "Issue": 0.0009,
+        "Reasoning": 0.1785
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Mr. Setalvad also submitted that the Collector was in error in ignoring the evidence led by the petitioners as to how the product is known in trade parlance by persons who are dealing in cotton fabrics.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.572,
+        "Arguments of Respondent": 0.4111,
+        "Decision": 0.0003,
+        "Facts": 0.0014,
+        "Issue": 0.0002,
+        "Reasoning": 0.015
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "The learned counsel disputed the approach of the Collector of visual inspection of the foundation cloth to suggest that identity of the cotton fabrics is not entirely lost.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5242,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5242,
+        "Arguments of Respondent": 0.458,
+        "Decision": 0.0001,
+        "Facts": 0.0046,
+        "Issue": 0.0001,
+        "Reasoning": 0.0129
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "It was also contended that the decision recorded by the Central Government in exercise of revisional jurisdiction while examining the application under Tariff Item No. 19III was ignored by the Collector on an unsustainable ground.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6388,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6388,
+        "Arguments of Respondent": 0.0374,
+        "Decision": 0.0009,
+        "Facts": 0.2116,
+        "Issue": 0.0061,
+        "Reasoning": 0.1052
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "Mr. Desai, learned counsel appearing on behalf of the revenue, on the other hand, submitted that Tariff Item No. 19 defines what cotton fabrics means and Item No. 19I (b) and urged that the foundation cloth is manufactured merely by placing layers after layers of rubber upon cotton fabrics and, therefore, the identity of the cotton fabrics is not lost when foundation cloth is manufactured.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9306,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0585,
+        "Arguments of Respondent": 0.9306,
+        "Decision": 0.0007,
+        "Facts": 0.0011,
+        "Issue": 0.0003,
+        "Reasoning": 0.0086
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Mr. Desai also submitted that though the Collector was not right in suggesting that the burden of proof is upon the assessee to establish that foundation cloth is liable to payment of excise duty under Tariff Item No. 68, the Collector was justified in discarding the evidence led by the petitioners to establish how foundation cloth is known in commercial market and the expression is understood by trade parlance.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8092,
+        "Arguments of Respondent": 0.1821,
+        "Decision": 0.0005,
+        "Facts": 0.001,
+        "Issue": 0.0007,
+        "Reasoning": 0.0065
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "In view of the rival submissions, the principal question which requires determination is whether cotton fabrics on which process is done by petitioner No. 2 company to manufacture foundation cloth still retains its identity as cotton fabric and is liable to pay excise duty under Tariff Item No. 19I (b) of the first Schedule.",
+      "predicted_label": "Issue",
+      "confidence": 0.9576,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0005,
+        "Facts": 0.0229,
+        "Issue": 0.9576,
+        "Reasoning": 0.0117
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "( 6 ) BEFORE examining the issue as to whether foundation cloth is liable to payment of excise duty under Tariff Item No. 19I (b), it would be appropriate to set out the method by which foundation cloth is manufactured by petitioner No. 2 company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9686,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0166,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0002,
+        "Facts": 0.9686,
+        "Issue": 0.0039,
+        "Reasoning": 0.0095
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The natural rubber is plasticised on two roll mills.",
+      "predicted_label": "Facts",
+      "confidence": 0.4833,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2954,
+        "Arguments of Respondent": 0.1309,
+        "Decision": 0.0011,
+        "Facts": 0.4833,
+        "Issue": 0.019,
+        "Reasoning": 0.0703
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "Then zinc oxide and stearic acid are added.",
+      "predicted_label": "Facts",
+      "confidence": 0.8287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0406,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0012,
+        "Facts": 0.8287,
+        "Issue": 0.0011,
+        "Reasoning": 0.1101
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The fillers and plasticisers are also added and finally, sulphur and accelerators are added to get the compound.",
+      "predicted_label": "Facts",
+      "confidence": 0.5006,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2421,
+        "Arguments of Respondent": 0.0561,
+        "Decision": 0.0018,
+        "Facts": 0.5006,
+        "Issue": 0.0028,
+        "Reasoning": 0.1966
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "This compound is applied to cotton fabrics and according to the requirements, 4 and 9 such rubber coated fabrics are laminated and bonded by natural rubber.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.743,
+        "Arguments of Respondent": 0.0696,
+        "Decision": 0.0012,
+        "Facts": 0.0846,
+        "Issue": 0.0051,
+        "Reasoning": 0.0965
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The product is thus obtained by lamination of several layers of rubber coated cotton fabrics and assembled pressed by rubber compound and natural rubber.",
+      "predicted_label": "Facts",
+      "confidence": 0.8386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0891,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0009,
+        "Facts": 0.8386,
+        "Issue": 0.0118,
+        "Reasoning": 0.0553
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "There is no dispute about the process undertaken by petitioner No. 2 company for manufacture of foundation cloth.",
+      "predicted_label": "Facts",
+      "confidence": 0.6322,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0196,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.002,
+        "Facts": 0.6322,
+        "Issue": 0.0033,
+        "Reasoning": 0.3317
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "The Collector in the impugned order has set out the process undertaken.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0515,
+        "Arguments of Respondent": 0.1751,
+        "Decision": 0.0022,
+        "Facts": 0.3258,
+        "Issue": 0.0003,
+        "Reasoning": 0.4452
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The order of the Collector indicates that the twill side of the special cotton fabric is coated with mix B by spreading on the spreading machine and the reverse side of the fabric is coated with mix B by spreading on the spreading machine and the reverse side of the fabric is coated with mix A by frictioning on a calendar machine.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0319,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0009,
+        "Facts": 0.4698,
+        "Issue": 0.0011,
+        "Reasoning": 0.4903
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 50,
+      "text": "Bottom ply of the foundation cloth is coated on one side only and since in friction coating the compound penetrates and comes out of the other side and likely to spoil the appearance and finish, the bottom ply is again coated with mix A after dissolving in solvent.",
+      "predicted_label": "Facts",
+      "confidence": 0.7624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0635,
+        "Arguments of Respondent": 0.013,
+        "Decision": 0.0009,
+        "Facts": 0.7624,
+        "Issue": 0.0007,
+        "Reasoning": 0.1595
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The fabrics are then bonded together on the doubling machine starting from the bottom ply.",
+      "predicted_label": "Facts",
+      "confidence": 0.7491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0778,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0026,
+        "Facts": 0.7491,
+        "Issue": 0.0028,
+        "Reasoning": 0.1497
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "After bonding, mix is applied on one side and curing effect or the valcanising effect is achieved by bringing mix in contact with both the sides.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0397,
+        "Arguments of Respondent": 0.038,
+        "Decision": 0.0017,
+        "Facts": 0.1844,
+        "Issue": 0.0005,
+        "Reasoning": 0.7357
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Collector, after setting out this process, held that in manufacture of foundation cloth, identity of cotton fabrics is not lost and this conclusion was arrived at only on the basis of visual inspection.",
+      "predicted_label": "Facts",
+      "confidence": 0.7449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0203,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0001,
+        "Facts": 0.7449,
+        "Issue": 0.0013,
+        "Reasoning": 0.227
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Mr. Setalvad very rightly submitted that the question as to whether the cotton fabric which is used for the purpose of manufacture of foundation cloth loses its identity cannot be made dependent upon visual inspection of the Collector.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3382,
+        "Arguments of Respondent": 0.1004,
+        "Decision": 0.0053,
+        "Facts": 0.0048,
+        "Issue": 0.0062,
+        "Reasoning": 0.5452
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "It is undoubtedly true that in manufacture of foundation cloth, cotton fabric is one of the ingredients, but it is a far cry to suggest that cotton fabric retains its identity even after the foundation cloth comes into existence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0199,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0007,
+        "Facts": 0.0034,
+        "Issue": 0.0008,
+        "Reasoning": 0.9725
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "To determine as to whether the foundation cloth retains its identity and known as cotton fabrics the petitioners relied upon letter dated February 23, 1982 addressed by M s. B. Maganlal Goolabchand and Sons of Pune.",
+      "predicted_label": "Facts",
+      "confidence": 0.503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.342,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0008,
+        "Facts": 0.503,
+        "Issue": 0.0022,
+        "Reasoning": 0.138
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "This letter was written in answer to the enquiry made by petitioner No. 1 company by communication dated February 12, 1982.",
+      "predicted_label": "Facts",
+      "confidence": 0.9298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0005,
+        "Facts": 0.9298,
+        "Issue": 0.0017,
+        "Reasoning": 0.0454
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "M s. B. Maganlal Goolabchand and Sons are dealers in textile fabrics of various types, including cotton fabrics, for over 50 years as agents of M s. Binny Ltd., a wellknown manufacturing company of cotton fabrics.",
+      "predicted_label": "Facts",
+      "confidence": 0.9937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0,
+        "Facts": 0.9937,
+        "Issue": 0.0025,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Petitioner No. 1 company forwarded samples of foundation cloth and enquired whether M s. B. Mangal Goolabchand and Sons could supply such foundation cloth.",
+      "predicted_label": "Facts",
+      "confidence": 0.9269,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0001,
+        "Facts": 0.9269,
+        "Issue": 0.0001,
+        "Reasoning": 0.0553
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "M s. B. Maganlal Goolabchand and Sons were also requested to furnish names and addresses of traders who could supply foundation cloth.",
+      "predicted_label": "Facts",
+      "confidence": 0.8665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0182,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0001,
+        "Facts": 0.8665,
+        "Issue": 0.0014,
+        "Reasoning": 0.1069
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "In answer to the request, M s. B. Maganlal Goolabchand and Sons addressed letter dated February 23, 1982 and expressed their inability to supply foundation cloth.",
+      "predicted_label": "Facts",
+      "confidence": 0.9255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0001,
+        "Facts": 0.9255,
+        "Issue": 0.0014,
+        "Reasoning": 0.0535
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "The letter recites that M s. B. Maganlal goolabchand and Sons had never dealt in foundation cloth nor M s. Binny Ltd. , because foundation cloth is a specified material.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0449,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0002,
+        "Facts": 0.2125,
+        "Issue": 0.0004,
+        "Reasoning": 0.7339
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "The letter expresses inability to supply the names of suppliers of foundation cloth is a specialised material.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4054,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3002,
+        "Arguments of Respondent": 0.0565,
+        "Decision": 0.0008,
+        "Facts": 0.2351,
+        "Issue": 0.0021,
+        "Reasoning": 0.4054
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 64,
+      "text": "The letter expresses inability to supply the names of suppliers of foundation cloth.",
+      "predicted_label": "Facts",
+      "confidence": 0.4066,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2886,
+        "Arguments of Respondent": 0.0451,
+        "Decision": 0.0005,
+        "Facts": 0.4066,
+        "Issue": 0.0013,
+        "Reasoning": 0.258
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 65,
+      "text": "Mr. Setalvad submitted, and in our judgment with considerable merit, that the dealer in cotton fabrics for over 50 years does not deal in foundation cloth which is a specialised material and, therefore, it is obvious that in trade parlance, foundation cloth is not considered as cotton fabric.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8031,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1502,
+        "Arguments of Respondent": 0.0376,
+        "Decision": 0.0006,
+        "Facts": 0.0075,
+        "Issue": 0.001,
+        "Reasoning": 0.8031
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The Collector brushed aside this evidence by observing that the dealer deals only in cotton fabrics as are commonly used and, therefore, would not store other varieties of cotton fabrics.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.588,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0245,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0003,
+        "Facts": 0.38,
+        "Issue": 0.002,
+        "Reasoning": 0.588
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 67,
+      "text": "This is an easy way of avoiding evidence which is not palatable to the conclusion reached by the Collector.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0004,
+        "Facts": 0.0082,
+        "Issue": 0.0001,
+        "Reasoning": 0.9784
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "It must be noted that the department did not produce any evidence or material to indicate that foundation cloth is known or understood in trade as cotton fabric.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.85,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0355,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0048,
+        "Facts": 0.0994,
+        "Issue": 0.0032,
+        "Reasoning": 0.85
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "In our judgment, the Collector was clearly in error in ignoring the evidence led by the petitioners as to how the foundation cloth understood by the traders.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.005,
+        "Facts": 0.0091,
+        "Issue": 0.0002,
+        "Reasoning": 0.978
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "It is also required to be stated that the Collector in the impugned order observed that the fact that cotton fabric is not a predominant part of foundation cloth is not relevant while determining the classification of foundation cloth.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0007,
+        "Facts": 0.0205,
+        "Issue": 0.0008,
+        "Reasoning": 0.9706
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "In our judgment, the observation is not accurate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0339,
+        "Arguments of Respondent": 0.0144,
+        "Decision": 0.0017,
+        "Facts": 0.0224,
+        "Issue": 0.0002,
+        "Reasoning": 0.9273
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Merely because cotton fabric is one of the ingredients in the manufacture of foundation cloth, it cannot be concluded that foundation cloth which is a separate article still retains its identity as cotton fabric.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6536,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3145,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0029,
+        "Facts": 0.0159,
+        "Issue": 0.0021,
+        "Reasoning": 0.6536
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "In this connection, it would be appropriate to make reference to return filed by B. S. Pawar, Assistant Collector of Central Excise and Customs, Pune.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.0009,
+        "Facts": 0.0857,
+        "Issue": 0.0005,
+        "Reasoning": 0.8889
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "In para 8 of the return, it is claimed that foundation cloth by itself is a distinct, separate and identifiable product.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2645,
+        "Arguments of Respondent": 0.0841,
+        "Decision": 0.0007,
+        "Facts": 0.239,
+        "Issue": 0.0002,
+        "Reasoning": 0.4115
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 75,
+      "text": "This admission in the return, in our judgment, clearly supports the submission of Mr. Setalvad that foundation cloth is a separate identifiable article and cotton fabric which is used as one of the ingredients loses its identity when foundation cloth comes into existence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0007,
+        "Facts": 0.0035,
+        "Issue": 0.0001,
+        "Reasoning": 0.9754
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "( 7 ) MR.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.89,
+      "probabilities": {
+        "Arguments of Petitioner": 0.89,
+        "Arguments of Respondent": 0.0248,
+        "Decision": 0.0035,
+        "Facts": 0.051,
+        "Issue": 0.0063,
+        "Reasoning": 0.0243
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "Desai strenuously relied upon Tariff Item No. 19I (b) to urge that when cotton fabrics is subjected to the process of rubberisation, it would still retain the identity of cotton fabric and is liable to payment of excise duty under Tariff Item No. 19I (b ).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8594,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8594,
+        "Arguments of Respondent": 0.032,
+        "Decision": 0.0003,
+        "Facts": 0.0277,
+        "Issue": 0.0015,
+        "Reasoning": 0.079
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "It was urged that the manufacture of foundation cloth is nothing but coating layer after layer of rubber on cotton fabric.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8158,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8158,
+        "Arguments of Respondent": 0.0889,
+        "Decision": 0.0003,
+        "Facts": 0.0431,
+        "Issue": 0.0005,
+        "Reasoning": 0.0514
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "The submission is not correct and it is not accurate to suggest that the process undertaken for manufacture of foundation cloth is nothing but putting layers after layers of rubber on cotton fabric.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0625,
+        "Arguments of Respondent": 0.0249,
+        "Decision": 0.0003,
+        "Facts": 0.0371,
+        "Issue": 0.0001,
+        "Reasoning": 0.875
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "As pointed out hereinabove, the process is a complicated one and foundation cloth comes into existence after several steps are taken.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9677,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0021,
+        "Facts": 0.0197,
+        "Issue": 0.0001,
+        "Reasoning": 0.9677
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "Tariff Item No. 19I (b) comes into play when cotton fabric is subjected to process of bleaching, mercerising, dyeing, printing, waterproofing, rubberising, shrinkproofing, organdie processing or any other process or any two or more of these processes.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5537,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5537,
+        "Arguments of Respondent": 0.0578,
+        "Decision": 0.0027,
+        "Facts": 0.0633,
+        "Issue": 0.0099,
+        "Reasoning": 0.3127
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "What is crucial to be understood is that in spite of these modes of processing, cotton fabric does not lose its identity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.326,
+        "Arguments of Respondent": 0.0417,
+        "Decision": 0.0026,
+        "Facts": 0.0582,
+        "Issue": 0.0007,
+        "Reasoning": 0.5708
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "The processes set out under tariff item like bleaching, mercerising, dyeing, printing, etc. are only to increase the value and utility of cotton fabric.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5789,
+        "Arguments of Respondent": 0.0952,
+        "Decision": 0.003,
+        "Facts": 0.0216,
+        "Issue": 0.0006,
+        "Reasoning": 0.3007
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "By process of bleaching, mercerising, dyeing, or printing the cotton fabrics which are referred to under Tariff Item No. 19 like duties, sarees, chadders, bedsheets, etc. are made marketable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2208,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0017,
+        "Facts": 0.1724,
+        "Issue": 0.0085,
+        "Reasoning": 0.5835
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "The process is undertaken merely with a view to increase the utility and to refine the cotton fabric and in spite of all these processings, the identity of the cotton fabric is never lost.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.467,
+        "Arguments of Respondent": 0.1167,
+        "Decision": 0.007,
+        "Facts": 0.1604,
+        "Issue": 0.0005,
+        "Reasoning": 0.2484
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "The process undertaken is for improvement of the cotton fabric and for commercial sale of the fabrics and by these processings, another article different and distinct from cotton fabric does not come into existence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3018,
+        "Arguments of Respondent": 0.0316,
+        "Decision": 0.0078,
+        "Facts": 0.0988,
+        "Issue": 0.001,
+        "Reasoning": 0.5589
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "Once this aspect is understood, then it is obvious that foundation cloth which is manufactured by petitioner No. 2 can by no stretch of imagination be treated as cotton fabrics.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9038,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0436,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0101,
+        "Facts": 0.0359,
+        "Issue": 0.0004,
+        "Reasoning": 0.9038
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "The foundation cloth, as mentioned hereinabove, even according to the department, is a different, distinct and identifiable article and, therefore, it is not permissible to equate foundation cloth with cotton fabrics to attract levy of excise duty under Tariff Item No. 19I (b).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.137,
+        "Arguments of Respondent": 0.0389,
+        "Decision": 0.0173,
+        "Facts": 0.0305,
+        "Issue": 0.0025,
+        "Reasoning": 0.7739
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "In our judgment, the Collector was clearly in error in disturbing the conclusion reached by the Assistant Collector and holding that foundation cloth should be classified under Tariff Item No. 19I (b ).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0557,
+        "Facts": 0.0116,
+        "Issue": 0.0007,
+        "Reasoning": 0.9216
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "( 8 ) THE reliance placed by Mr. Setalvad on Order No. 11691171 of 1980 passed by the government of India in revision application on October 28, 1980 and copy of which is annexed as exhibit c to the petition is also appropriate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0455,
+        "Arguments of Respondent": 0.1991,
+        "Decision": 0.0247,
+        "Facts": 0.0437,
+        "Issue": 0.0004,
+        "Reasoning": 0.6865
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "In that case, the goods manufactured were P. V. C. conveyor belting.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.672,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1959,
+        "Arguments of Respondent": 0.0931,
+        "Decision": 0.0018,
+        "Facts": 0.0361,
+        "Issue": 0.001,
+        "Reasoning": 0.672
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 92,
+      "text": "The Excise authorities had held that the goods should be classified as cotton fabric under Tariff Item No. 19III and rejected the claim of the manufacturer that conveyer belting is not known in the trade or in commercial parlance as cotton fabrics.",
+      "predicted_label": "Facts",
+      "confidence": 0.7295,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0011,
+        "Facts": 0.7295,
+        "Issue": 0.2106,
+        "Reasoning": 0.0475
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "The government in revision held that the goods which are not marketed as cotton fabrics in commercial parlance did not attract levy of duty under Tariff Item No. 19 of the First Schedule.",
+      "predicted_label": "Facts",
+      "confidence": 0.8074,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0135,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0005,
+        "Facts": 0.8074,
+        "Issue": 0.0918,
+        "Reasoning": 0.0813
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "The Government further held that even if one goes by the extended meaning of cotton fabrics, the end product, viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1691,
+        "Arguments of Respondent": 0.1307,
+        "Decision": 0.0002,
+        "Facts": 0.634,
+        "Issue": 0.0038,
+        "Reasoning": 0.0622
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 95,
+      "text": ", P. V. C. belting which is produced by fusion of various layers with fabrics dipped in a special type of solution loses its identity as cotton fabric and, therefore, cannot be said to fall within the expression of cotton fabrics under Tariff Item No. 19.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6782,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6782,
+        "Arguments of Respondent": 0.0602,
+        "Decision": 0.0219,
+        "Facts": 0.0807,
+        "Issue": 0.0022,
+        "Reasoning": 0.1567
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 96,
+      "text": "In our judgment, in the present case also, the final product, viz., foundation cloth which is produced by fusion various layers with fabrics dipped in a special type of solution loses its identity as cotton fabric and, therefore, cannot fall within the expression of cotton fabrics under Item No. 19I (b).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0284,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0165,
+        "Facts": 0.0109,
+        "Issue": 0.0007,
+        "Reasoning": 0.9394
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "The collector in the impugned order bypassed the decision of the Government on a specious ground that the decision was in relation to Tariff Item No. 19III and, therefore, has no application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7991,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1074,
+        "Arguments of Respondent": 0.0678,
+        "Decision": 0.0015,
+        "Facts": 0.0235,
+        "Issue": 0.0007,
+        "Reasoning": 0.7991
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "The collector should have realised that the decision is relied upon to establish as to how Tariff Item no. 19 is not attracted when cotton fabric loses its identify after undergoing complicated process.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2548,
+        "Arguments of Respondent": 0.0313,
+        "Decision": 0.0009,
+        "Facts": 0.0138,
+        "Issue": 0.0012,
+        "Reasoning": 0.698
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "In our judgment, the order of the Collector in these circumstances cannot be sustained as the conclusion reached by the Collector is almost perverse.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0104,
+        "Facts": 0.0106,
+        "Issue": 0.0002,
+        "Reasoning": 0.9712
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "The entire approach of the Collector proceeds on the misconception that the burden was upon the assessee to establish that duty is not payable under Tariff Item No. 19I (b).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0746,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.0015,
+        "Facts": 0.0122,
+        "Issue": 0.0002,
+        "Reasoning": 0.8934
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "Once it is found that the manufacture of foundation cloth is not liable to payment of duty under Tariff Item 19I (b), then the liability to pay duty arises only under residuary Item No. 68.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.578,
+      "probabilities": {
+        "Arguments of Petitioner": 0.578,
+        "Arguments of Respondent": 0.0846,
+        "Decision": 0.0044,
+        "Facts": 0.007,
+        "Issue": 0.0013,
+        "Reasoning": 0.3247
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 102,
+      "text": "In our judgment, the conclusion reached by the Assistant collector initially on November 29, 1980 and subsequently on March 20, 1981 was accurate and was not required to be disturbed by the Collector.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9651,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0173,
+        "Facts": 0.0084,
+        "Issue": 0.0003,
+        "Reasoning": 0.9651
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "As we are holding in favour of the petitioners on this aspect, it is not necessary to examine other contentions raised by Mr. Setalvad like (a) the Assistant Collector had no jurisdiction to reopen the approval granted to classification on November 29, 1980 and (b) the weight of cotton in foundation cloth being less than 50 per cent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7943,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1628,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.013,
+        "Facts": 0.0127,
+        "Issue": 0.0016,
+        "Reasoning": 0.7943
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "The product cannot be liable to duty under Tariff item No. 19I (b ).",
+      "predicted_label": "Facts",
+      "confidence": 0.4278,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3081,
+        "Arguments of Respondent": 0.0882,
+        "Decision": 0.0185,
+        "Facts": 0.4278,
+        "Issue": 0.0019,
+        "Reasoning": 0.1555
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 105,
+      "text": "As the manufacture of foundation cloth is liable to payment of duty under tariff Item No. 68, the demand notices dated September 8, 1981 and October 6, 1981 issued by the Superintendent of Central Excise, Pune, for payment of differential duty are required to be struck down.",
+      "predicted_label": "Facts",
+      "confidence": 0.4746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1234,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0685,
+        "Facts": 0.4746,
+        "Issue": 0.0031,
+        "Reasoning": 0.311
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 106,
+      "text": "( 9 ) ACCORDINGLY, petition succeeds and order dated September 2, 1982 passed by the Collector of central Excise and Customs, Pune and copy of which is annexed as exhibit u to the petition is set aside and orders passed by the Assistant Collector of Central Excise, Pune, on November 29, 1980 and March 20, 1981 and copies of which are annexed as exhibits d and h to the petition are upheld.",
+      "predicted_label": "Decision",
+      "confidence": 0.5216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.5216,
+        "Facts": 0.4047,
+        "Issue": 0.0007,
+        "Reasoning": 0.0675
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 107,
+      "text": "The demand notices dated September 8, 1981 and October 6, 1981 issued by the superintendent of Central Excise, Pune, are struck down.",
+      "predicted_label": "Decision",
+      "confidence": 0.8825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.8825,
+        "Facts": 0.0965,
+        "Issue": 0.0004,
+        "Reasoning": 0.0192
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "Petitioner No. 2 company is entitled to apply for refund as a consequence of this order and such refund application shall be disposed of by the Superintendent of Central Excise as early as possible.",
+      "predicted_label": "Decision",
+      "confidence": 0.5066,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.5066,
+        "Facts": 0.4421,
+        "Issue": 0.0005,
+        "Reasoning": 0.0464
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 109,
+      "text": "The bank guarantees furnished by the petitioners in pursuance of the interim order to stand discharged.",
+      "predicted_label": "Decision",
+      "confidence": 0.7718,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0135,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.7718,
+        "Facts": 0.1401,
+        "Issue": 0.002,
+        "Reasoning": 0.0658
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "In the circumstances of the case, there will be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9852,
+        "Facts": 0.0045,
+        "Issue": 0.0001,
+        "Reasoning": 0.0095
+      }
+    }
+  ]
+}

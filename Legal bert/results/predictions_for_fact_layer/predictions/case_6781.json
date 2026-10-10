@@ -1,0 +1,2096 @@
+{
+  "case_id": "6781",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "2. The Petitioner, JK Paper Limited, requested the Respondent Securities and Exchange Board of India for a personal hearing regarding exemption application filed by it under a regulation governing employee stock options.",
+      "predicted_label": "Facts",
+      "confidence": 0.9478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9478,
+        "Issue": 0.0465,
+        "Reasoning": 0.0032
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The Board of SEBI refused the request for personal hearing and permitted additional written submissions.",
+      "predicted_label": "Facts",
+      "confidence": 0.8707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.0237,
+        "Decision": 0.0005,
+        "Facts": 0.8707,
+        "Issue": 0.0018,
+        "Reasoning": 0.0786
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Petitioner has filed this petition to direct the Board to grant a personal hearing.",
+      "predicted_label": "Facts",
+      "confidence": 0.5182,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0332,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.003,
+        "Facts": 0.5182,
+        "Issue": 0.4171,
+        "Reasoning": 0.0258
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 3,
+      "text": "The question therefore is whether the Board is obliged to grant a personal hearing to the petitioner while considering an exemption application under the Securities and Exchange Board of India (Share Based Employee Benefits) Regulations, 2014.",
+      "predicted_label": "Issue",
+      "confidence": 0.7834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0018,
+        "Facts": 0.0528,
+        "Issue": 0.7834,
+        "Reasoning": 0.143
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Petitioner JK Paper Limited is a public limited company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9345,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0201,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0002,
+        "Facts": 0.9345,
+        "Issue": 0.0145,
+        "Reasoning": 0.0254
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The Petitioner manufactures and supplies paper and board.",
+      "predicted_label": "Facts",
+      "confidence": 0.9547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0104,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0003,
+        "Facts": 0.9547,
+        "Issue": 0.0044,
+        "Reasoning": 0.0293
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The Respondent, Securities and Exchange Board of India, SEBI, is established under the Securities and Exchange Board of India Act, 1992.",
+      "predicted_label": "Facts",
+      "confidence": 0.9386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0002,
+        "Facts": 0.9386,
+        "Issue": 0.0456,
+        "Reasoning": 0.0107
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "5. SEBI, in the year 1999, had framed Securities and Exchange Board of India (Employee Stock Option Scheme and Employee Stock Purchase Scheme) Guidelines, 1999 which provided for the stockbased incentive schemes to employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.9914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0,
+        "Facts": 0.9914,
+        "Issue": 0.0004,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "On 28 October 2014, SEBI notified Securities and Exchange Board of India (Share Based Employee Benefits) Regulations, 2014, (Regulations of 014).",
+      "predicted_label": "Facts",
+      "confidence": 0.8797,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0209,
+        "Arguments of Respondent": 0.0228,
+        "Decision": 0.0001,
+        "Facts": 0.8797,
+        "Issue": 0.0007,
+        "Reasoning": 0.0759
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "SEBI has framed the Regulations of 2014 in the exercise of the power conferred by sections 11, 11A and 30 of the Act of 1992 read with section 62 of the Companies Act of 2013 and rule 12 of Companies (Share Capital and Debentures) Rules, 2014.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1105,
+        "Arguments of Respondent": 0.1481,
+        "Decision": 0.0059,
+        "Facts": 0.0578,
+        "Issue": 0.0005,
+        "Reasoning": 0.6772
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "The Regulations govern the following schemes (a) employee stock option schemes (b) employee stock purchase schemes (c)stock appreciation rights schemes (d) general employee benefits schemes and (e)retirement benefit schemes consequent upon which the existing guidelines have been repealed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.369,
+        "Arguments of Respondent": 0.0587,
+        "Decision": 0.0007,
+        "Facts": 0.0919,
+        "Issue": 0.0005,
+        "Reasoning": 0.4793
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "The Regulations shall apply to those companies whose shares are listed on any recognised stock exchange in India, and which fulfils the following (i) has a scheme for the direct or indirect benefit of employees (ii )involves dealing in or subscribing to or purchasing securities of the company, directly or indirectly and which has a scheme set up by the company or any other company in its group the scheme is funded or guaranteed by the company or any other company in its group the scheme is controlled or managed by the company or any other company in its group.",
+      "predicted_label": "Facts",
+      "confidence": 0.6606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1066,
+        "Arguments of Respondent": 0.0338,
+        "Decision": 0.0005,
+        "Facts": 0.6606,
+        "Issue": 0.0027,
+        "Reasoning": 0.1959
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "The Regulations of 2014 lay down various regulatory measures regarding such a scheme.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.694,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1219,
+        "Arguments of Respondent": 0.1143,
+        "Decision": 0.001,
+        "Facts": 0.0673,
+        "Issue": 0.0015,
+        "Reasoning": 0.694
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "The object of the Regulations of 2014 is to check and prevent manipulation of share prices in the larger interest of the investors.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0761,
+        "Arguments of Respondent": 0.5473,
+        "Decision": 0.0007,
+        "Facts": 0.034,
+        "Issue": 0.0003,
+        "Reasoning": 0.3416
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "The Petitioner, in January 2004, formed an employee welfare trust named JK Paper Welfare Trust.",
+      "predicted_label": "Facts",
+      "confidence": 0.9675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0,
+        "Facts": 0.9675,
+        "Issue": 0.001,
+        "Reasoning": 0.0216
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Around ninety seven percent of its assets are shares of the Petitioner and around 4.73 of its share capital.",
+      "predicted_label": "Facts",
+      "confidence": 0.5791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1251,
+        "Arguments of Respondent": 0.0543,
+        "Decision": 0.0012,
+        "Facts": 0.5791,
+        "Issue": 0.0366,
+        "Reasoning": 0.2039
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "The Trust administers Continuity Facility Assistance Scheme Medical Assistance Scheme Education Scholarship Scheme and Prize Scheme for Sports.",
+      "predicted_label": "Facts",
+      "confidence": 0.9477,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0002,
+        "Facts": 0.9477,
+        "Issue": 0.0005,
+        "Reasoning": 0.0324
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "On 7 May 2018, the Petitioner sought clarification regarding the Regulations of 2014.",
+      "predicted_label": "Facts",
+      "confidence": 0.6733,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1845,
+        "Arguments of Respondent": 0.0175,
+        "Decision": 0.0029,
+        "Facts": 0.6733,
+        "Issue": 0.0039,
+        "Reasoning": 0.1179
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "By letter dated 29 June 2018, SEBI provided guidance to the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9345,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0187,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0002,
+        "Facts": 0.9345,
+        "Issue": 0.0019,
+        "Reasoning": 0.0414
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "SEBI informed that the Regulations of 2014 apply to the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.7768,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0825,
+        "Arguments of Respondent": 0.0278,
+        "Decision": 0.0019,
+        "Facts": 0.7768,
+        "Issue": 0.0052,
+        "Reasoning": 0.1057
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "On 24 October 2019, the Petitioner applied seeking relaxation from the applicability of Regulations under the Regulation 29 of the Regulations of 2014, the SEBI is empowered to grant relaxation for the strict compliance of the Regulations Relying upon Regulation 29, the Petitioner sought exemption from the strict compliance of Regulations 1(3), 1(4), 3(1), 26(2) and 31(2)(b)(i) and (ii).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.704,
+      "probabilities": {
+        "Arguments of Petitioner": 0.704,
+        "Arguments of Respondent": 0.069,
+        "Decision": 0.0068,
+        "Facts": 0.0655,
+        "Issue": 0.0032,
+        "Reasoning": 0.1515
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Reasons for exemption were in the application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0942,
+        "Arguments of Respondent": 0.0776,
+        "Decision": 0.0016,
+        "Facts": 0.2114,
+        "Issue": 0.0017,
+        "Reasoning": 0.6135
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "By communication dated 3 February 2020, the SEBI rejected the Petitioners request for exemption.",
+      "predicted_label": "Facts",
+      "confidence": 0.8394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0158,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0009,
+        "Facts": 0.8394,
+        "Issue": 0.1222,
+        "Reasoning": 0.0198
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The communication did not spell out any reasons for rejection.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.525,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1021,
+        "Arguments of Respondent": 0.028,
+        "Decision": 0.0007,
+        "Facts": 0.3421,
+        "Issue": 0.0022,
+        "Reasoning": 0.525
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "The Petitioner filed an appeal before the Securities Appellate Tribunal under the Act of 1992 and the Securities Appellate Tribunal (Procedure) Rules, 2000.",
+      "predicted_label": "Facts",
+      "confidence": 0.9508,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0004,
+        "Facts": 0.9508,
+        "Issue": 0.0021,
+        "Reasoning": 0.0285
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The Appellate Tribunal allowed the appeal on 11 August 2020.",
+      "predicted_label": "Facts",
+      "confidence": 0.9481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0003,
+        "Facts": 0.9481,
+        "Issue": 0.0344,
+        "Reasoning": 0.012
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The Appellate Tribunal held that the SEBI had to give reasons in the order rejecting the exemption application.",
+      "predicted_label": "Facts",
+      "confidence": 0.9636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0002,
+        "Facts": 0.9636,
+        "Issue": 0.0091,
+        "Reasoning": 0.023
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The Tribunal directed the SEBI to pass a reasoned order within the set time limit.",
+      "predicted_label": "Facts",
+      "confidence": 0.9547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0006,
+        "Facts": 0.9547,
+        "Issue": 0.0056,
+        "Reasoning": 0.0353
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The SEBI, by an email communication dated 26 August 2020, sought certain information from the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0004,
+        "Facts": 0.9579,
+        "Issue": 0.0084,
+        "Reasoning": 0.0222
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The Petitioner responded on 2 September 2020 and submitted information.",
+      "predicted_label": "Facts",
+      "confidence": 0.9322,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0379,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0012,
+        "Facts": 0.9322,
+        "Issue": 0.0042,
+        "Reasoning": 0.0232
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The Petitioner sought a personal hearing before any decision is taken on the exemption application.",
+      "predicted_label": "Facts",
+      "confidence": 0.5995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1161,
+        "Arguments of Respondent": 0.0448,
+        "Decision": 0.0016,
+        "Facts": 0.5995,
+        "Issue": 0.0022,
+        "Reasoning": 0.2358
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "By communication dated 7 September 2020, the SEBI informed the Petitioner to make submissions in writing by 12 September 2020.",
+      "predicted_label": "Facts",
+      "confidence": 0.9396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0055,
+        "Facts": 0.9396,
+        "Issue": 0.0075,
+        "Reasoning": 0.0316
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The Petitioner again, by an email dated 11 September 2020, requested an opportunity to make submissions in person.",
+      "predicted_label": "Facts",
+      "confidence": 0.905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0525,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0011,
+        "Facts": 0.905,
+        "Issue": 0.0045,
+        "Reasoning": 0.034
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The SEBI replied on 14 September 2020 stating that according to it, all the relevant submissions have been brought on record and there is no such requirement for a personal hearing.",
+      "predicted_label": "Facts",
+      "confidence": 0.9687,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0004,
+        "Facts": 0.9687,
+        "Issue": 0.0063,
+        "Reasoning": 0.0205
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "However, the Petitioner was given liberty to file additional information through written submissions, if necessary.",
+      "predicted_label": "Facts",
+      "confidence": 0.9334,
+      "probabilities": {
+        "Arguments of Petitioner": 0.027,
+        "Arguments of Respondent": 0.0129,
+        "Decision": 0.0015,
+        "Facts": 0.9334,
+        "Issue": 0.0016,
+        "Reasoning": 0.0236
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Since the request for a personal hearing was refused, the Petitioner has approached this Court with a prayer that SEBI be directed to give an opportunity of hearing to the Petitioner in respect its exemption application.",
+      "predicted_label": "Facts",
+      "confidence": 0.6247,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2048,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0026,
+        "Facts": 0.6247,
+        "Issue": 0.0562,
+        "Reasoning": 0.0978
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "The SEBI has filed its reply and has opposed the petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.5707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0449,
+        "Arguments of Respondent": 0.2188,
+        "Decision": 0.0063,
+        "Facts": 0.5707,
+        "Issue": 0.0216,
+        "Reasoning": 0.1377
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "12.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7793,
+        "Arguments of Respondent": 0.0423,
+        "Decision": 0.0024,
+        "Facts": 0.0919,
+        "Issue": 0.0095,
+        "Reasoning": 0.0746
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "13.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8168,
+        "Arguments of Respondent": 0.0351,
+        "Decision": 0.0033,
+        "Facts": 0.0695,
+        "Issue": 0.0095,
+        "Reasoning": 0.0659
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The Petitioner has founded its prayer on three grounds.",
+      "predicted_label": "Issue",
+      "confidence": 0.3645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3546,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0025,
+        "Facts": 0.1952,
+        "Issue": 0.3645,
+        "Reasoning": 0.0739
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "First, the proceedings are quasijudicial, and therefore a personal hearing is necessary.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4874,
+        "Arguments of Respondent": 0.0419,
+        "Decision": 0.0026,
+        "Facts": 0.0453,
+        "Issue": 0.0006,
+        "Reasoning": 0.4222
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The language of Regulation 29 provides for a personal hearing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1484,
+        "Arguments of Respondent": 0.0388,
+        "Decision": 0.0014,
+        "Facts": 0.0333,
+        "Issue": 0.0004,
+        "Reasoning": 0.7777
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "Last, whatever may be the nature of the power, considering the consequences, a personal hearing should be given.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5751,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2298,
+        "Arguments of Respondent": 0.1819,
+        "Decision": 0.002,
+        "Facts": 0.0109,
+        "Issue": 0.0002,
+        "Reasoning": 0.5751
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "Besides the legal position, the Petitioner requests that in the facts of the case, it would serve the ends of justice, if a personal hearing is given.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4791,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0055,
+        "Facts": 0.3632,
+        "Issue": 0.0431,
+        "Reasoning": 0.0914
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "14.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6361,
+        "Arguments of Respondent": 0.068,
+        "Decision": 0.0035,
+        "Facts": 0.1054,
+        "Issue": 0.0132,
+        "Reasoning": 0.1739
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "The Petitioners have not challenged the applicability of the Regulations of 2014 in this petition, and we proceed on the basis that the Petitioner is governed under the said regulations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0419,
+        "Arguments of Respondent": 0.0275,
+        "Decision": 0.0054,
+        "Facts": 0.0917,
+        "Issue": 0.0014,
+        "Reasoning": 0.832
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "15.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8076,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8076,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0026,
+        "Facts": 0.0349,
+        "Issue": 0.0099,
+        "Reasoning": 0.1003
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "Relying upon Regulation 29, the Petitioner sought exemption from the strict compliance of Regulations 1(3), 1(4), 3(1), 26(2) and 31(2)(b)(i) and (ii).",
+      "predicted_label": "Facts",
+      "confidence": 0.7738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1666,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0003,
+        "Facts": 0.7738,
+        "Issue": 0.0054,
+        "Reasoning": 0.0423
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "(3) The provisions of these regulations shall apply to following,(i) employee stock option schemes (ii) employee stock purchase schemes (iii) stock appreciation rights schemes (iv) general employee benefits schemes and (v) retirement benefit schemes.",
+      "predicted_label": "Facts",
+      "confidence": 0.2939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2776,
+        "Arguments of Respondent": 0.152,
+        "Decision": 0.0009,
+        "Facts": 0.2939,
+        "Issue": 0.0048,
+        "Reasoning": 0.2709
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 49,
+      "text": "(4) The provisions of these regulations shall apply to any company whose shares are listed on a recognised stock exchange in India, and has a scheme (i) for direct or indirect benefit of employees and (ii) involving dealing in or subscribing to or purchasing securities of the company, directly or indirectly and (iii) satisfying, directly or indirectly, any one of the following conditions a. the scheme is set up by the company or any other company in its group b.",
+      "predicted_label": "Facts",
+      "confidence": 0.5164,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2465,
+        "Arguments of Respondent": 0.0433,
+        "Decision": 0.0005,
+        "Facts": 0.5164,
+        "Issue": 0.0029,
+        "Reasoning": 0.1904
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "The Petitioners first contention is that the Appellate Tribunal in its order dated 11 August 2020 has held that the power under Regulation 29 is a quasijudicial power and since it is a finding rendered in the litigation between the parties the same is binding on SEBI.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9459,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0003,
+        "Facts": 0.0284,
+        "Issue": 0.0106,
+        "Reasoning": 0.0129
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The SEBI has argued that there is no such finding.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.365,
+        "Arguments of Respondent": 0.1622,
+        "Decision": 0.0043,
+        "Facts": 0.0197,
+        "Issue": 0.0007,
+        "Reasoning": 0.4482
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 52,
+      "text": "When SEBI had rejected the application of the Petitioner for exemption relaxation on 3 February 2020, the Petitioner filed an appeal before the Securities Appellate Tribunal.",
+      "predicted_label": "Facts",
+      "confidence": 0.7662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1027,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0006,
+        "Facts": 0.7662,
+        "Issue": 0.0224,
+        "Reasoning": 0.0954
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Petitioner contended that the communication was nonspeaking.",
+      "predicted_label": "Facts",
+      "confidence": 0.7997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1172,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0002,
+        "Facts": 0.7997,
+        "Issue": 0.0012,
+        "Reasoning": 0.0622
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "The stand taken by SEBI was that it is only when an exemption is granted that the reasons need to be given.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4611,
+      "probabilities": {
+        "Arguments of Petitioner": 0.276,
+        "Arguments of Respondent": 0.0872,
+        "Decision": 0.0003,
+        "Facts": 0.1742,
+        "Issue": 0.0013,
+        "Reasoning": 0.4611
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "There is no obligation to provide any reasons when the exemption application is rejected.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8373,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0692,
+        "Arguments of Respondent": 0.0487,
+        "Decision": 0.0008,
+        "Facts": 0.0434,
+        "Issue": 0.0006,
+        "Reasoning": 0.8373
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "The Tribunal noted the phrase for reasons to be recorded and observed that this requirement would apply in both contingencies, i.e. for rejection of the application and for grant of the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.7095,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0003,
+        "Facts": 0.7095,
+        "Issue": 0.0029,
+        "Reasoning": 0.2739
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "After interpreting the language of Regulation 29(1) in this manner, the Appellate Tribunal also made a general comment on the evolution of law regarding the right to information.",
+      "predicted_label": "Facts",
+      "confidence": 0.8116,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0002,
+        "Facts": 0.8116,
+        "Issue": 0.002,
+        "Reasoning": 0.1807
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "In paragraph11 of the order, the Appellate Tribunal observed thus 11.",
+      "predicted_label": "Facts",
+      "confidence": 0.9526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0001,
+        "Facts": 0.9526,
+        "Issue": 0.0002,
+        "Reasoning": 0.0398
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "We would also like to reiterate at this stage that implementation of the Right to Information Act, 2005 and the various judgments emanating on from the same have emphasised the need for greater transparency as well as for providing reasons, at least in brief, in even in ordinary administrative communications issued by various authorities.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9003,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0185,
+        "Facts": 0.0673,
+        "Issue": 0.0042,
+        "Reasoning": 0.9003
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "Therefore, application of such transparency requirements on the part of quasijudicial authorities has to be of a much higher order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.0004,
+        "Facts": 0.0114,
+        "Issue": 0.0001,
+        "Reasoning": 0.9559
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "Petitioners sole emphasis is on the last line of this paragraph.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7532,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1507,
+        "Arguments of Respondent": 0.0378,
+        "Decision": 0.0011,
+        "Facts": 0.0562,
+        "Issue": 0.0009,
+        "Reasoning": 0.7532
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "No other observation is shown to us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0101,
+        "Facts": 0.0196,
+        "Issue": 0.0003,
+        "Reasoning": 0.9468
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "Except for a general reference to the quasijudicial authorities in this sentence, there is no finding by the Appellate Tribunal much less any specific finding interpreting Regulation 29.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0311,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0008,
+        "Facts": 0.0172,
+        "Issue": 0.0001,
+        "Reasoning": 0.9445
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "Therefore, the contention of the Petitioner that because of the finding of the Appellate Tribunal that exercise of power under Regulation 29 being quasijudicial, personal hearing has to be provided cannot be accepted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0223,
+        "Decision": 0.0008,
+        "Facts": 0.2022,
+        "Issue": 0.0004,
+        "Reasoning": 0.7657
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "We do not need to comment on the interpretation of Regulation 29 by the Appellate Tribunal regarding providing of reasons while not granting the exemption, as the said issue is not debated before us in this petition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8358,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0119,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0397,
+        "Facts": 0.102,
+        "Issue": 0.0031,
+        "Reasoning": 0.8358
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The petitioners second contention is that irrespective of the finding of the Tribunal, this court should hold that the power under Regulation 29 is quasijudicial power and therefore, a personal hearing is mandated.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9019,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0005,
+        "Facts": 0.0392,
+        "Issue": 0.0056,
+        "Reasoning": 0.0465
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "SEBI contends that Regulation 29 is not a quasi judicial power.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6326,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6326,
+        "Arguments of Respondent": 0.2727,
+        "Decision": 0.0012,
+        "Facts": 0.017,
+        "Issue": 0.0009,
+        "Reasoning": 0.0756
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "The power to grant relaxation under Regulation 29 is a discretion to be exercised by the SEBI, and the conditions to be imposed are in the interest of the investors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0649,
+        "Arguments of Respondent": 0.2715,
+        "Decision": 0.0014,
+        "Facts": 0.0094,
+        "Issue": 0.0001,
+        "Reasoning": 0.6528
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "Besides contending that serious consequences would flow from not granting exemption nothing else is pointed out to us as to how the exercise of this power can be called as quasijudicial power to import duty of personal hearing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.001,
+        "Facts": 0.0075,
+        "Issue": 0.0005,
+        "Reasoning": 0.9539
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "We find no merit in the consequencebased argument that is that since serious consequences would flow from the rejection of the exemption under Regulation 29, a personal hearing must be mandated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9702,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0007,
+        "Facts": 0.0153,
+        "Issue": 0.0002,
+        "Reasoning": 0.9702
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "No such absolute proposition, without reference to the scheme and purpose of the statutory instrument in question, can be accepted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.0002,
+        "Facts": 0.0112,
+        "Issue": 0.0005,
+        "Reasoning": 0.9546
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Having governed by the Regulations, if any entity is in breach thereof, the consequences would follow as provided in Regulation 30, unless the entity is exempted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0296,
+        "Arguments of Respondent": 0.0679,
+        "Decision": 0.0016,
+        "Facts": 0.0196,
+        "Issue": 0.0001,
+        "Reasoning": 0.8812
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "Liability thus originates from the breach of the Regulations 2014.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.146,
+        "Arguments of Respondent": 0.1631,
+        "Decision": 0.0036,
+        "Facts": 0.0458,
+        "Issue": 0.0019,
+        "Reasoning": 0.6396
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "Refusal to grant an exception under Regulation 29 is not the origin of liability.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1865,
+        "Arguments of Respondent": 0.1209,
+        "Decision": 0.0007,
+        "Facts": 0.0293,
+        "Issue": 0.0003,
+        "Reasoning": 0.6623
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "Grant of exemption is a matter of exception from the general rule contained under the Regulations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0486,
+        "Arguments of Respondent": 0.0252,
+        "Decision": 0.0005,
+        "Facts": 0.0226,
+        "Issue": 0.0001,
+        "Reasoning": 0.903
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "The contention of the Petitioner that right of personal hearing must follow because the power under Regulation 29 is a quasijudicial power, cannot be accepted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.1583,
+        "Decision": 0.0005,
+        "Facts": 0.0934,
+        "Issue": 0.0003,
+        "Reasoning": 0.7376
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "The next limb argument of the Petitioner is that looking at the consequences that would follow, whatever may be the nature of Regulation 29, in requirement of fairness, transparency and principles of natural justice, personal hearing be read into these provisions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9586,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9586,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0001,
+        "Facts": 0.0047,
+        "Issue": 0.0011,
+        "Reasoning": 0.0317
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "Reliance is placed on the decisions of the Supreme Court in the cases of Swadeshi Cotton Mills v. Union of India (1981) 1 SCC 664 , The Siemens Engineering Manufacturing Co. of India Ltd. v. The Union of India (1976) 2 SCC 981 and Sahara India (Firm), Lucknow v. Commissioner of Income Tax, CentralI (2008) 4 SCC 151 .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6239,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6239,
+        "Arguments of Respondent": 0.3425,
+        "Decision": 0.0001,
+        "Facts": 0.0199,
+        "Issue": 0.0008,
+        "Reasoning": 0.0127
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "SEBI, on the other hand, has relied on the following decisions to contend that the principles of natural justice are flexible and the scheme of the Regulations of 2014 is just and fair to the applicants Gorkha Security Services v. Government (NCT of Delhi) (2014) 9 SCC 105 and State Bank of India v. M s.Jah Developers Pvt.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2928,
+        "Arguments of Respondent": 0.6946,
+        "Decision": 0.0003,
+        "Facts": 0.0044,
+        "Issue": 0.0004,
+        "Reasoning": 0.0073
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "Ltd. Civil Appeal No.4776/2019 decided on 8 May 2019.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3592,
+        "Arguments of Respondent": 0.1877,
+        "Decision": 0.0019,
+        "Facts": 0.0847,
+        "Issue": 0.0018,
+        "Reasoning": 0.3648
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 81,
+      "text": ".",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1104,
+        "Arguments of Respondent": 0.0993,
+        "Decision": 0.0346,
+        "Facts": 0.2625,
+        "Issue": 0.1798,
+        "Reasoning": 0.3134
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 82,
+      "text": "The Petitioner relied upon the Supreme Court judgment in the case of Sahara India and more particularly paragraph20 thereof.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4943,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4943,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.001,
+        "Facts": 0.4609,
+        "Issue": 0.0029,
+        "Reasoning": 0.0316
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 83,
+      "text": "In this decision, the Supreme Court has observed that requirement of giving reasonable opportunity of being heard is generally read into the provisions of a statute, particularly when the order has adverse civil consequences and this principle will hold good irrespective of whether the power conferred on the statutory body or the tribunal is administrative or quasijudicial.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5075,
+      "probabilities": {
+        "Arguments of Petitioner": 0.32,
+        "Arguments of Respondent": 0.1376,
+        "Decision": 0.0007,
+        "Facts": 0.0336,
+        "Issue": 0.0007,
+        "Reasoning": 0.5075
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "In this case, the Supreme Court framed a question as to whether any predecisional hearing is required before any direction is issued under section 142(2A) of the Income Tax Act, 1961 regarding special audit of the accounts of the assessee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.711,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1303,
+        "Arguments of Respondent": 0.1069,
+        "Decision": 0.0015,
+        "Facts": 0.0367,
+        "Issue": 0.0136,
+        "Reasoning": 0.711
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "It is, in this context, the Bench of three learned Judges observed that predecisional hearing should be read into the provision.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6803,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0945,
+        "Arguments of Respondent": 0.0682,
+        "Decision": 0.0012,
+        "Facts": 0.1542,
+        "Issue": 0.0016,
+        "Reasoning": 0.6803
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "In the case of The Siemens Engineering Manufacturing Co. of India Ltd., the Supreme Court was considering a question as to what was the correct amount of import duty chargeable on pot motors when imported separately from rayon spinning machines.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.843,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0625,
+        "Arguments of Respondent": 0.0224,
+        "Decision": 0.0012,
+        "Facts": 0.0647,
+        "Issue": 0.0062,
+        "Reasoning": 0.843
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "Having answered this question, the Supreme Court disapproved the hurried manner the Collector in that case had disposed of the proceedings which were quasijudicial proceedings and stressed on the need to give reasons.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9088,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0327,
+        "Arguments of Respondent": 0.0403,
+        "Decision": 0.0003,
+        "Facts": 0.0176,
+        "Issue": 0.0003,
+        "Reasoning": 0.9088
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "The Supreme Court also observed that administrative authorities and Tribunal exercising quasijudicial functions should observe the principle of audi alteram partem Relying on these decision, the Petitioner further submits that it cannot be the contention that hearing need not be given as it will be a useless formality.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7285,
+        "Arguments of Respondent": 0.0762,
+        "Decision": 0.0004,
+        "Facts": 0.1245,
+        "Issue": 0.0024,
+        "Reasoning": 0.0681
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "However, in the case of Sahara India, the Supreme Court has further observed that reading of requirement of personal hearing in a statute when there are consequences cannot be applied as a rule.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5301,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1551,
+        "Arguments of Respondent": 0.1979,
+        "Decision": 0.0134,
+        "Facts": 0.1027,
+        "Issue": 0.0007,
+        "Reasoning": 0.5301
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 90,
+      "text": "The Supreme Court has observed that no general rule of universal application can be laid down to the applicability of principle audi alteram partem in addition to the provision.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.131,
+        "Arguments of Respondent": 0.0776,
+        "Decision": 0.0006,
+        "Facts": 0.0188,
+        "Issue": 0.0008,
+        "Reasoning": 0.7712
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "The Supreme Court has clarified this position in the judgment in the case of Gorkha Security Services v. Government (NCT of Delhi) (2014) 9 SCC 105 , wherein the appellant before the Supreme Court had questioned the form and content of show cause notice to be issued to blacklist the petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5123,
+      "probabilities": {
+        "Arguments of Petitioner": 0.145,
+        "Arguments of Respondent": 0.1865,
+        "Decision": 0.0029,
+        "Facts": 0.1476,
+        "Issue": 0.0057,
+        "Reasoning": 0.5123
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 92,
+      "text": "One question framed by the Supreme Court was the necessity to serve show cause notice as requisite of principles of natural justice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.032,
+        "Decision": 0.0005,
+        "Facts": 0.1885,
+        "Issue": 0.0327,
+        "Reasoning": 0.7241
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "The Supreme Court observed that once a show cause notice is given and an opportunity is accorded to give a reply, it is not necessary to give personal hearing.",
+      "predicted_label": "Facts",
+      "confidence": 0.48,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0323,
+        "Arguments of Respondent": 0.0375,
+        "Decision": 0.002,
+        "Facts": 0.48,
+        "Issue": 0.002,
+        "Reasoning": 0.4462
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 94,
+      "text": "The case of State Bank of India v. M s.Jah Developers Pvt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.733,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1795,
+        "Arguments of Respondent": 0.0569,
+        "Decision": 0.0029,
+        "Facts": 0.0273,
+        "Issue": 0.0004,
+        "Reasoning": 0.733
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "Ltd. Civil Appeal No.4776/2019 decided on 8 May 2019.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3592,
+        "Arguments of Respondent": 0.1877,
+        "Decision": 0.0019,
+        "Facts": 0.0847,
+        "Issue": 0.0018,
+        "Reasoning": 0.3648
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 96,
+      "text": ", came up before the Supreme Court in respect of the declaration of a borrower as a willful defaulter under the circulars issued by the Reserve Bank of India.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5304,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0212,
+        "Arguments of Respondent": 0.0344,
+        "Decision": 0.0006,
+        "Facts": 0.3789,
+        "Issue": 0.0345,
+        "Reasoning": 0.5304
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 97,
+      "text": "The question was whether an advocate ought to be allowed to represent the borrower before the Committee taking a decision.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.148,
+        "Arguments of Respondent": 0.1185,
+        "Decision": 0.0012,
+        "Facts": 0.0683,
+        "Issue": 0.0137,
+        "Reasoning": 0.6503
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "The issue was answered in negative.",
+      "predicted_label": "Facts",
+      "confidence": 0.6502,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0318,
+        "Arguments of Respondent": 0.0223,
+        "Decision": 0.0018,
+        "Facts": 0.6502,
+        "Issue": 0.0112,
+        "Reasoning": 0.2827
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "The Supreme Court, in State Bank of India, reiterated the principle that natural justice is a flexible tool used in order to arrive at a just result and such result can be achieved without a personal hearing, on written representations given by the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7853,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0868,
+        "Arguments of Respondent": 0.0481,
+        "Decision": 0.002,
+        "Facts": 0.0771,
+        "Issue": 0.0008,
+        "Reasoning": 0.7853
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "The Petitioner seeks to distinguish these two judgments on the ground that these judgments pertain to show cause notice for which nature of the proceeding is different and in the present case, according to the Petitioner, nongrant of exemption would straightway result in serious consequences.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6581,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6581,
+        "Arguments of Respondent": 0.157,
+        "Decision": 0.0005,
+        "Facts": 0.0362,
+        "Issue": 0.0011,
+        "Reasoning": 0.147
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 101,
+      "text": "This cannot be the sole ground for distinguishing the dicta laid down.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0363,
+        "Arguments of Respondent": 0.0565,
+        "Decision": 0.0004,
+        "Facts": 0.0127,
+        "Issue": 0.0001,
+        "Reasoning": 0.894
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "In the case of State Bank of India, the Supreme Court has emphasized that what is required is a just result.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8253,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0884,
+        "Arguments of Respondent": 0.0661,
+        "Decision": 0.001,
+        "Facts": 0.019,
+        "Issue": 0.0002,
+        "Reasoning": 0.8253
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "Therefore, the purpose, ambit and the measures under the statutory instrument have to be seen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0831,
+        "Arguments of Respondent": 0.0665,
+        "Decision": 0.0001,
+        "Facts": 0.0098,
+        "Issue": 0.0009,
+        "Reasoning": 0.8397
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "The Regulations of 2014 are a code in itself.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0596,
+        "Arguments of Respondent": 0.273,
+        "Decision": 0.002,
+        "Facts": 0.0124,
+        "Issue": 0.0002,
+        "Reasoning": 0.6528
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 105,
+      "text": "They regulate employee stock option schemes in the larger interest of the investors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.083,
+        "Arguments of Respondent": 0.0908,
+        "Decision": 0.0001,
+        "Facts": 0.0505,
+        "Issue": 0.0004,
+        "Reasoning": 0.7752
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "They incorporate conditions, regulate the activity and provide for consequences.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.757,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1079,
+        "Arguments of Respondent": 0.1042,
+        "Decision": 0.0005,
+        "Facts": 0.0282,
+        "Issue": 0.0021,
+        "Reasoning": 0.757
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "The reason for exemption can be elaborated in the application.",
+      "predicted_label": "Facts",
+      "confidence": 0.4635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.13,
+        "Arguments of Respondent": 0.0423,
+        "Decision": 0.0012,
+        "Facts": 0.4635,
+        "Issue": 0.0031,
+        "Reasoning": 0.3599
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 108,
+      "text": "If additional material is required, it can be submitted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7843,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0261,
+        "Arguments of Respondent": 0.0288,
+        "Decision": 0.0116,
+        "Facts": 0.1482,
+        "Issue": 0.001,
+        "Reasoning": 0.7843
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "Based on this material, SEBI will take a decision whether to grant exemption or refuse it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6446,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1013,
+        "Arguments of Respondent": 0.1185,
+        "Decision": 0.002,
+        "Facts": 0.1318,
+        "Issue": 0.0017,
+        "Reasoning": 0.6446
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "The conditions to be imposed are in the interest of the investors.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5062,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0626,
+        "Arguments of Respondent": 0.5062,
+        "Decision": 0.0032,
+        "Facts": 0.063,
+        "Issue": 0.0005,
+        "Reasoning": 0.3645
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 111,
+      "text": "Thus, it is for the SEBI to deliberate upon the extent and ambit of the conditions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0495,
+        "Arguments of Respondent": 0.0722,
+        "Decision": 0.0017,
+        "Facts": 0.0134,
+        "Issue": 0.0002,
+        "Reasoning": 0.863
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "This process can be easily achieved by the Petitioner by submitting submissions in writing.",
+      "predicted_label": "Facts",
+      "confidence": 0.5904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0828,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.0181,
+        "Facts": 0.5904,
+        "Issue": 0.002,
+        "Reasoning": 0.2949
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 113,
+      "text": "If SEBI finds that exemption need not be granted, it will give reasons for the same which can be tested in appeal.",
+      "predicted_label": "Decision",
+      "confidence": 0.4256,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0195,
+        "Arguments of Respondent": 0.0138,
+        "Decision": 0.4256,
+        "Facts": 0.2733,
+        "Issue": 0.0015,
+        "Reasoning": 0.2664
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 114,
+      "text": "If the conditions are arbitrarily imposed or that the exercise is perverse, the validity can be challenged.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8176,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0832,
+        "Arguments of Respondent": 0.0564,
+        "Decision": 0.0004,
+        "Facts": 0.0377,
+        "Issue": 0.0047,
+        "Reasoning": 0.8176
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "The Petitioners argument proceeds on the footing that the principles of natural justice in all circumstances include personal hearing which is not a correct position of law.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4605,
+        "Arguments of Respondent": 0.0597,
+        "Decision": 0.0009,
+        "Facts": 0.0312,
+        "Issue": 0.0005,
+        "Reasoning": 0.4471
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 116,
+      "text": "The Petitioner also erroneously proceeds on the basis that the need and extent of imposition of conditions can be a matter of debate for which personal hearing is required.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7387,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0983,
+        "Arguments of Respondent": 0.0254,
+        "Decision": 0.008,
+        "Facts": 0.1286,
+        "Issue": 0.001,
+        "Reasoning": 0.7387
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "As stated earlier, the power in question is a discretionary power and the use of this discretion can be challenged in appeal within the well settled parameters.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0542,
+        "Arguments of Respondent": 0.0355,
+        "Decision": 0.0003,
+        "Facts": 0.0151,
+        "Issue": 0.0041,
+        "Reasoning": 0.8908
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "Full transparency is maintained by permitting written submissions providing reasons and the right to appeal .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7323,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0311,
+        "Arguments of Respondent": 0.2205,
+        "Decision": 0.0056,
+        "Facts": 0.0104,
+        "Issue": 0.0001,
+        "Reasoning": 0.7323
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "It is a settled position that the requirement of compliance with the principle of natural justice can vary in different situations and conditions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0197,
+        "Arguments of Respondent": 0.0193,
+        "Decision": 0.0001,
+        "Facts": 0.0166,
+        "Issue": 0.0012,
+        "Reasoning": 0.9431
+      }
+    },
+    {
+      "sentence_id": 120,
+      "text": "Even where situations where principles of natural justice require an opportunity of hearing, it does not in all circumstances mean a personal hearing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0517,
+        "Arguments of Respondent": 0.0269,
+        "Decision": 0.0017,
+        "Facts": 0.021,
+        "Issue": 0.0003,
+        "Reasoning": 0.8984
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "SEBI has placed two Regulations before us and has pointed out two of the provisions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3951,
+        "Arguments of Respondent": 0.2586,
+        "Decision": 0.0005,
+        "Facts": 0.0231,
+        "Issue": 0.0003,
+        "Reasoning": 0.3225
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 122,
+      "text": "First is Regulation 5 of the SEBI (Substantial Acquisition of Shares and Takeover) Regulations, 2011.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6696,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1897,
+        "Arguments of Respondent": 0.0984,
+        "Decision": 0.0005,
+        "Facts": 0.0402,
+        "Issue": 0.0017,
+        "Reasoning": 0.6696
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 123,
+      "text": "It incorporates a condition of giving a reasonable opportunity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1748,
+        "Arguments of Respondent": 0.0565,
+        "Decision": 0.0004,
+        "Facts": 0.0147,
+        "Issue": 0.0003,
+        "Reasoning": 0.7534
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "Second is Regulation 25A(4) of the SEBI (Delisting of Equity Shares) Regulation, 2009.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1104,
+        "Arguments of Respondent": 0.1081,
+        "Decision": 0.0004,
+        "Facts": 0.0185,
+        "Issue": 0.0017,
+        "Reasoning": 0.761
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "It provides for a reasonable opportunity of being heard to the applicant before deciding exemption application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1644,
+        "Arguments of Respondent": 0.0896,
+        "Decision": 0.0006,
+        "Facts": 0.066,
+        "Issue": 0.0003,
+        "Reasoning": 0.679
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 126,
+      "text": "Therefore whenever it is found necessary to provide for an opportunity, SEBI has expressly incorporated it in such provisions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5695,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2324,
+        "Arguments of Respondent": 0.1728,
+        "Decision": 0.0002,
+        "Facts": 0.0249,
+        "Issue": 0.0001,
+        "Reasoning": 0.5695
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 127,
+      "text": "No such stipulation is found in the Regulation at hand.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9065,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0373,
+        "Arguments of Respondent": 0.0363,
+        "Decision": 0.0002,
+        "Facts": 0.0195,
+        "Issue": 0.0003,
+        "Reasoning": 0.9065
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "The apprehension expressed by the SEBI that by reading duty to give personal hearing in this Regulation would have adverse ramifications on its working cannot be said to be unwarranted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0037,
+        "Facts": 0.0252,
+        "Issue": 0.0002,
+        "Reasoning": 0.9596
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "The SEBI has framed several regulations on various aspects of the securities market.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2283,
+        "Arguments of Respondent": 0.0621,
+        "Decision": 0.0005,
+        "Facts": 0.1533,
+        "Issue": 0.0032,
+        "Reasoning": 0.5526
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "A large number of applications are filed before it.",
+      "predicted_label": "Facts",
+      "confidence": 0.5945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0008,
+        "Facts": 0.5945,
+        "Issue": 0.0218,
+        "Reasoning": 0.349
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 131,
+      "text": "It will hamper the functioning of the SEBI if the exercise of its every power is preceded by mandatory personal hearing, whether the regulation provides for it or not.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9105,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0481,
+        "Arguments of Respondent": 0.0244,
+        "Decision": 0.0065,
+        "Facts": 0.0104,
+        "Issue": 0.0001,
+        "Reasoning": 0.9105
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "We conclude, therefore that there is no duty on the Board while considering an exemption application under Regulation 29 of the Securities and Exchange Board of India (Share Based Employee Benefits) Regulations, 2014, to give a personal hearing to the applicant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9306,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0043,
+        "Facts": 0.0537,
+        "Issue": 0.0006,
+        "Reasoning": 0.9306
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "Petitioner lastly contends that in the facts of this case, it will be in the interest of justice to give a personal hearing to the Petitioner.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6045,
+        "Arguments of Respondent": 0.0419,
+        "Decision": 0.0116,
+        "Facts": 0.2348,
+        "Issue": 0.0057,
+        "Reasoning": 0.1015
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 134,
+      "text": "The argument of the Petitioner that since SEBI has formed an opinion and the rigid application of the Regulations, it is necessary to give an opportunity of personal hearing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4087,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1066,
+        "Arguments of Respondent": 0.1033,
+        "Decision": 0.0179,
+        "Facts": 0.3616,
+        "Issue": 0.002,
+        "Reasoning": 0.4087
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 135,
+      "text": "As rightly pointed out by SEBI, there is no such formation of opinion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9555,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.0096,
+        "Decision": 0.0005,
+        "Facts": 0.0112,
+        "Issue": 0.0006,
+        "Reasoning": 0.9555
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "There were no reasons given in the earlier order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1094,
+        "Arguments of Respondent": 0.0838,
+        "Decision": 0.0296,
+        "Facts": 0.2904,
+        "Issue": 0.0005,
+        "Reasoning": 0.4863
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 137,
+      "text": "The Petitioner has submitted the relevant material.",
+      "predicted_label": "Facts",
+      "confidence": 0.5033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2422,
+        "Arguments of Respondent": 0.0161,
+        "Decision": 0.015,
+        "Facts": 0.5033,
+        "Issue": 0.0131,
+        "Reasoning": 0.2103
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 138,
+      "text": "Petitioner has also been given an opportunity to submit additional written submissions.",
+      "predicted_label": "Facts",
+      "confidence": 0.6168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.084,
+        "Arguments of Respondent": 0.0394,
+        "Decision": 0.0167,
+        "Facts": 0.6168,
+        "Issue": 0.0082,
+        "Reasoning": 0.2348
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 139,
+      "text": "Once there is no requirement of a personal hearing under Regulation 29, we do not find that there is a special case made out by the Petitioner or any extraordinary circumstances exist to give special direction for the Petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.731,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0175,
+        "Facts": 0.2379,
+        "Issue": 0.0005,
+        "Reasoning": 0.731
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "Writ Petition is dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.7209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.7209,
+        "Facts": 0.257,
+        "Issue": 0.0013,
+        "Reasoning": 0.0178
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "Rule is discharged.",
+      "predicted_label": "Decision",
+      "confidence": 0.8132,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.8132,
+        "Facts": 0.1601,
+        "Issue": 0.0005,
+        "Reasoning": 0.0243
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "We extend the period for submitting of the additional material submissions by fifteen days from the date this order is uploaded on the server.",
+      "predicted_label": "Facts",
+      "confidence": 0.8412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.048,
+        "Arguments of Respondent": 0.0253,
+        "Decision": 0.0635,
+        "Facts": 0.8412,
+        "Issue": 0.0024,
+        "Reasoning": 0.0195
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "This judgment order will be digitally signed by the Personal Assistant Private Secretary of this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.6657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.2939,
+        "Facts": 0.6657,
+        "Issue": 0.0006,
+        "Reasoning": 0.0329
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 144,
+      "text": "All concerned to act on production by fax or email of a digitally signed copy of this order.",
+      "predicted_label": "Facts",
+      "confidence": 0.9089,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0404,
+        "Facts": 0.9089,
+        "Issue": 0.0005,
+        "Reasoning": 0.0244
+      }
+    }
+  ]
+}

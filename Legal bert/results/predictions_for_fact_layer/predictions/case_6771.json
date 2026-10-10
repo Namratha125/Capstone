@@ -1,0 +1,628 @@
+{
+  "case_id": "6771",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The petitioners are a Cooperative Society doing banking business and are registered under the CoOperative Societies Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0178,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0002,
+        "Facts": 0.9491,
+        "Issue": 0.0212,
+        "Reasoning": 0.0107
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The second respondent was an employee of petitioners and he came to be dismissed, under circumstances which are not relevant, by the petitioners on 11th November 1954.",
+      "predicted_label": "Facts",
+      "confidence": 0.9766,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9766,
+        "Issue": 0.011,
+        "Reasoning": 0.0105
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The second respondent applied to the first Respondent, who is the Judge of the Labour Court at Ahmedabad for reinstatement of the petitioners and compensation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9758,
+        "Issue": 0.0132,
+        "Reasoning": 0.009
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The Petitioners contended that the first respondent had no jurisdiction to entertain that petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.8165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1215,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0004,
+        "Facts": 0.8165,
+        "Issue": 0.0102,
+        "Reasoning": 0.0465
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The learned Judge held against the petitioners.",
+      "predicted_label": "Facts",
+      "confidence": 0.9215,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0003,
+        "Facts": 0.9215,
+        "Issue": 0.0199,
+        "Reasoning": 0.0483
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The petitioners went in appeal to the Industrial Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.94,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0108,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0003,
+        "Facts": 0.94,
+        "Issue": 0.0045,
+        "Reasoning": 0.0408
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The Industrial Court held that no appeal lay from that decision and the petitioners have now come before us under Article 227.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.8439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0003,
+        "Facts": 0.8439,
+        "Issue": 0.147,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The question that we have to consider is whether the activity carried on by the petitioners is an activity, which is an industry, to which the Bombay Industrial Relations Act, (Act XI of 1947) applies.",
+      "predicted_label": "Issue",
+      "confidence": 0.8136,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0005,
+        "Facts": 0.0867,
+        "Issue": 0.8136,
+        "Reasoning": 0.0848
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "46/1 and the notification was in the following terms In exercise of the powers conferred by subsection (3) of section 2 of the Bombay Industrial Disputes Act (Bombay Act XXV of 1938) and in supersession of Government Notification in the Political and Services Department No. 396/46/1 dated 26th February 1946, the Government of Bombay is pleased to direct that all the provisions of the said Act shall apply to the business of banking companies registered under any of the enactments relating to companies for the time being in force in any part of His Majestys Dominions of elsewhere or incorporated by an Act of Parliament or by an Indian law or by Royal Charters or by Letters Patent.",
+      "predicted_label": "Facts",
+      "confidence": 0.8987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0001,
+        "Facts": 0.8987,
+        "Issue": 0.0011,
+        "Reasoning": 0.0824
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Now what is contended by the Petitioners is that inasmuch as the petitioners are a society incorporated under the CoOperative Societies Act they are not a banking company registered as contemplated by the notification and that any dispute between its employee and itself can only be litigated in the manner provided by the CoOperative Societies Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6782,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6782,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.0012,
+        "Facts": 0.0906,
+        "Issue": 0.0029,
+        "Reasoning": 0.2119
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "It is further pointed out that under section 68 the provisions of the Indian Companies Act are not to apply to societies registered under this Act, and section 54 provides for compulsory arbitration when there is a dispute between a society and its employee, and under section 70 jurisdiction of Civil Courts is ousted.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4429,
+        "Arguments of Respondent": 0.4981,
+        "Decision": 0.0002,
+        "Facts": 0.0106,
+        "Issue": 0.0005,
+        "Reasoning": 0.0478
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "Now Mr. Rane has very rightly pointed out that the disputes contemplated by section 54 are disputes of a civil nature which could have been decided by Civil Courts but for the provisions with regard to compulsory arbitration provided in section 54.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9337,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0283,
+        "Arguments of Respondent": 0.0339,
+        "Decision": 0.0007,
+        "Facts": 0.0025,
+        "Issue": 0.0008,
+        "Reasoning": 0.9337
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The second respondent is not claiming to assert any civil rights against the petitioners.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0563,
+        "Arguments of Respondent": 0.1206,
+        "Decision": 0.0047,
+        "Facts": 0.2516,
+        "Issue": 0.0004,
+        "Reasoning": 0.5663
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "What he is claiming is certain rights which are now conferred upon workmen and employees as a result of principles of social justice which are now almost universally acknowledged all the world over.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0287,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.0003,
+        "Facts": 0.0188,
+        "Issue": 0.0143,
+        "Reasoning": 0.922
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "No contract of personal service can be specifically enforced by a civil Court nor does a civil Court determine whether the wages paid to an employee are proper wages or not.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1322,
+        "Arguments of Respondent": 0.0568,
+        "Decision": 0.0016,
+        "Facts": 0.0217,
+        "Issue": 0.0007,
+        "Reasoning": 0.787
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Civil Courts are bound down by the law of contract and it is under the law of contract that the Civil Courts decide disputes between a master and his servant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1232,
+        "Arguments of Respondent": 0.1548,
+        "Decision": 0.0003,
+        "Facts": 0.0494,
+        "Issue": 0.0025,
+        "Reasoning": 0.6698
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "Industrial Courts decide the disputes between a master and his servant on principles of social justice and whereas the Civil Courts consider what are the actual terms of the contract regulating the rights of master and servant the industrial Courts consider not the terms of contract but what is just and fair and what is proper for the master to pay to his servant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1039,
+        "Arguments of Respondent": 0.0625,
+        "Decision": 0.0002,
+        "Facts": 0.0394,
+        "Issue": 0.0093,
+        "Reasoning": 0.7847
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Therefore, if we were to accept Mr. Parpias contention the result would be that although the petitioners are doing banking business and although other banks in the country and in the State are governed by the Act and the employees of those banks have the rights given to them under the industrial law as far as the employees of the petitioners are concerned they have none of the rights which the industrial law confers upon employees of other banks.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9316,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0329,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.0004,
+        "Facts": 0.0183,
+        "Issue": 0.0003,
+        "Reasoning": 0.9316
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "We should be most reluctant to come to such a conclusion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9193,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0306,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0055,
+        "Facts": 0.0127,
+        "Issue": 0.0008,
+        "Reasoning": 0.9193
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "If the language of the notification is plain it is our duty to give effect to it because we are not concerned with questions of policy but if it is possible to construe the notification in favour of the second respondent it is also equally our duty to put that construction upon the notification.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.0003,
+        "Facts": 0.0063,
+        "Issue": 0.0039,
+        "Reasoning": 0.9608
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Fortunately, in our opinion the notification is capable of the construction which Mr. Rane asks us to give to it.3.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8819,
+      "probabilities": {
+        "Arguments of Petitioner": 0.072,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0011,
+        "Facts": 0.0295,
+        "Issue": 0.0016,
+        "Reasoning": 0.8819
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Now, we are in agreement with Mr. Parpia that this is not a banking company which is incorporated by Indian Law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8768,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0711,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0018,
+        "Facts": 0.0259,
+        "Issue": 0.0004,
+        "Reasoning": 0.8768
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Mr. Rane did suggest that although it was not incorporated under the Indian Companies Act it was incorporated under the Cooperative Societies Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.413,
+        "Arguments of Respondent": 0.4585,
+        "Decision": 0.0007,
+        "Facts": 0.012,
+        "Issue": 0.0002,
+        "Reasoning": 0.1155
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "But what in our opinion the notification contemplates is not incorporation under an Indian Law but by an Indian law which means that a special law should incorporate the particular company or association.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0509,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0003,
+        "Facts": 0.0193,
+        "Issue": 0.0003,
+        "Reasoning": 0.9201
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Now the object obviously was to apply this notification not to associations of less than ten persons who were doing business of banking and who could not be incorporated but to confine the operation of this notification to ten persons or more who could be and would have to be registered, either under the Indian Companies Act or some other Act relating to companies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8755,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0001,
+        "Facts": 0.0987,
+        "Issue": 0.0005,
+        "Reasoning": 0.8755
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Therefore, any society, any association, any group which comes together having a common purpose is, in the eye of law, a company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0694,
+        "Arguments of Respondent": 0.0211,
+        "Decision": 0.0002,
+        "Facts": 0.0461,
+        "Issue": 0.0008,
+        "Reasoning": 0.8624
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "But every company is not a juristic person.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8676,
+      "probabilities": {
+        "Arguments of Petitioner": 0.052,
+        "Arguments of Respondent": 0.0333,
+        "Decision": 0.0001,
+        "Facts": 0.0467,
+        "Issue": 0.0003,
+        "Reasoning": 0.8676
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "It has no legal entity and it is incorporation which gives it a persona and legal entity and the result of incorporation is, as pointed out by Halsbury, that it becomes a body corporate with perpetual succession and a common seal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0699,
+        "Arguments of Respondent": 0.0296,
+        "Decision": 0.0002,
+        "Facts": 0.0085,
+        "Issue": 0.0002,
+        "Reasoning": 0.8916
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Therefore, in the wide and proper legal sense the petitioners are a company although they may choose to call themselves a society or even if CoOperative Societies Act requires that they should call themselves a society and in the eye of the law they are a company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1061,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0009,
+        "Facts": 0.1479,
+        "Issue": 0.002,
+        "Reasoning": 0.7094
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The petitioners are a society registered under that Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0076,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0003,
+        "Facts": 0.9134,
+        "Issue": 0.0551,
+        "Reasoning": 0.0211
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Indeed they have to be registered in order that the Act should apply to them and on the petitioners being registered the result of registration is set out in S. 23.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0192,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0002,
+        "Facts": 0.0984,
+        "Issue": 0.0004,
+        "Reasoning": 0.8758
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Now the result of registration under S. 23 of the Cooperative Societies Act is identical with the result of registration under the Indian Companies Act and the effect of registration under that Act is set out in S. 23 (2) of that Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.247,
+        "Arguments of Respondent": 0.0332,
+        "Decision": 0.0002,
+        "Facts": 0.0181,
+        "Issue": 0.001,
+        "Reasoning": 0.7005
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Therefore, there is no special charm or magic in a company being registered under the Companies Act or under the Cooperative Societies Act, as far as the result of registration is concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1734,
+        "Arguments of Respondent": 0.0418,
+        "Decision": 0.0002,
+        "Facts": 0.0116,
+        "Issue": 0.0001,
+        "Reasoning": 0.7728
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "If the intention of the State Government was, that the notification should only apply to the companies registered under the Indian Companies Act or Acts corresponding to Indian Companies Act nothing was easier than for the Government to have stated so.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0373,
+        "Arguments of Respondent": 0.0376,
+        "Decision": 0.0001,
+        "Facts": 0.0573,
+        "Issue": 0.0002,
+        "Reasoning": 0.8675
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "If the intention was to exclude the banking companies registered under the Cooperative Societies Act that also could have been set out in the notification itself.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0839,
+        "Arguments of Respondent": 0.0511,
+        "Decision": 0.0001,
+        "Facts": 0.0245,
+        "Issue": 0.0007,
+        "Reasoning": 0.8397
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Therefore, nothing was simpler or easier than for the State Government to have stated doing business of Banking Companies registered under enactments other than the Cooperative Societies Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6337,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0856,
+        "Arguments of Respondent": 0.1683,
+        "Decision": 0.0001,
+        "Facts": 0.1121,
+        "Issue": 0.0002,
+        "Reasoning": 0.6337
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "When a Court is called upon to interpret a notification which is capable of more than one meaning it is not amiss to consider the reason and principle underlying the notification.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0512,
+        "Arguments of Respondent": 0.0616,
+        "Decision": 0.0002,
+        "Facts": 0.0081,
+        "Issue": 0.0017,
+        "Reasoning": 0.8772
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "There is no reason or principle why a cooperative society doing banking business should be put on a different footing with regard to industrial law from other companies doing identical business.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0964,
+        "Arguments of Respondent": 0.1055,
+        "Decision": 0.0003,
+        "Facts": 0.0149,
+        "Issue": 0.0004,
+        "Reasoning": 0.7825
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "If we were satisfied that there was some reason or principle which would lead us to put upon this notification the interpretation which Mr. Parpia suggests we might have put such an interpretation on the notification, but all the considerations are in favour of the interpretation suggested by Mr. Rane.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9163,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0499,
+        "Arguments of Respondent": 0.029,
+        "Decision": 0.0012,
+        "Facts": 0.003,
+        "Issue": 0.0005,
+        "Reasoning": 0.9163
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "There is nothing in the notification which prevents us from giving the interpretation which we have ultimately decided to give to this notification.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9733,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0039,
+        "Facts": 0.0123,
+        "Issue": 0.0007,
+        "Reasoning": 0.9733
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Therefore, we are of the opinion that the petitioners are doing business of Banking and are registered under an enactment relating to companies, which is the Cooperative Societies Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0675,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0007,
+        "Facts": 0.1561,
+        "Issue": 0.0028,
+        "Reasoning": 0.7589
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "The learned Judge was right in taking the view that he had jurisdiction to deal with the matter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8124,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0253,
+        "Arguments of Respondent": 0.087,
+        "Decision": 0.0092,
+        "Facts": 0.0656,
+        "Issue": 0.0005,
+        "Reasoning": 0.8124
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The petition fails and is dismissed with costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9845,
+        "Facts": 0.0104,
+        "Issue": 0.0002,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Petition dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9862,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9862,
+        "Facts": 0.0103,
+        "Issue": 0.0002,
+        "Reasoning": 0.003
+      }
+    }
+  ]
+}

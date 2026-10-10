@@ -1,0 +1,621 @@
+{
+  "case_id": "6643",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "By this Petition which is filed under Article 226 of the Constitution of India, Petitioner is seeking an appropriate writ, order and direction for quashing and setting aside the order dated 30/03/2012 passed by Respondent No.1 and, secondly, for an appropriate writ, order and direction, directing Respondents not to charge, levy any fine and or penalty as imposed in the impugned order.2.",
+      "predicted_label": "Issue",
+      "confidence": 0.7106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0017,
+        "Facts": 0.2839,
+        "Issue": 0.7106,
+        "Reasoning": 0.0017
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "Respondent No.2 is a Company which is registered in California in United States of America and also in India under the name and style of INTELGAIN TECHNOLOGIES Pvt Ltd. Petitioner Company received a legal notice dated 29/9/2010 sent by Respondent No.2, alleging that there was an infringement of their trade mark INTEL by the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.9962,
+        "Issue": 0.0015,
+        "Reasoning": 0.0013
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "By the said notice, Petitioner was asked to refrain from using the mark INTEL as a part of their corporate name.",
+      "predicted_label": "Facts",
+      "confidence": 0.9088,
+      "probabilities": {
+        "Arguments of Petitioner": 0.034,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0002,
+        "Facts": 0.9088,
+        "Issue": 0.0027,
+        "Reasoning": 0.0458
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "In the said notice, it was stated that the worldwide sales turnover of Respondent No.2 for the year 2008 was in excess of 37.6 billion and that Respondent No.2 had been exporting goods to India as early as and as far back as 1972.",
+      "predicted_label": "Facts",
+      "confidence": 0.8918,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0655,
+        "Decision": 0.0003,
+        "Facts": 0.8918,
+        "Issue": 0.0035,
+        "Reasoning": 0.0303
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "Thirdly, it was stated that the INTEL brand had been consistently ranked among the first 10 brands by leading independent publications.",
+      "predicted_label": "Facts",
+      "confidence": 0.6734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.218,
+        "Arguments of Respondent": 0.0742,
+        "Decision": 0.0002,
+        "Facts": 0.6734,
+        "Issue": 0.0137,
+        "Reasoning": 0.0205
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "Fourthly, it was submitted that Respondent No.2 is the proprietor of trade mark INTEL under various Registration Numbers.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5422,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5422,
+        "Arguments of Respondent": 0.4322,
+        "Decision": 0.0001,
+        "Facts": 0.0169,
+        "Issue": 0.0005,
+        "Reasoning": 0.0081
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "It was further stated that Respondent No.2 had recently come to know that the Petitioner had been using the trade name INTELGAIN TECHNOLOGIES Pvt. Ltd which contains the mark INTEL of Respondent No.2 and it formed a predominant part of the said name.",
+      "predicted_label": "Facts",
+      "confidence": 0.9171,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0295,
+        "Arguments of Respondent": 0.0459,
+        "Decision": 0.0001,
+        "Facts": 0.9171,
+        "Issue": 0.0012,
+        "Reasoning": 0.0062
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "It was contended that it amounted to trade mark infringement, passing off and dilution of trade marks.",
+      "predicted_label": "Facts",
+      "confidence": 0.7301,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1211,
+        "Arguments of Respondent": 0.0326,
+        "Decision": 0.001,
+        "Facts": 0.7301,
+        "Issue": 0.0129,
+        "Reasoning": 0.1023
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "A reply was given by the Petitioner on 7/10/2010 to the said notice.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9968,
+        "Issue": 0.0012,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "In the meantime, Respondent No.2 and the Petitioner tried to amicably resolve the dispute and correspondence between the parties was exchanged.",
+      "predicted_label": "Facts",
+      "confidence": 0.9822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0001,
+        "Facts": 0.9822,
+        "Issue": 0.0018,
+        "Reasoning": 0.0126
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "During the pendency of the said proceedings of reconciliation and amicable settlement, Respondent No.2 filed an application under section 22 of the Companies Act on 15/11/2011 in the office of Respondent No.1 who issued notice to the Petitioner on 02/02/2012 to show cause as to why direction for change of name should not be issued.5. Petitioner appeared before Respondent No.1 through its Managing Director on 15/3/2012 and filed a detailed reply.",
+      "predicted_label": "Facts",
+      "confidence": 0.9978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9978,
+        "Issue": 0.0005,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "It was stated in the reply that Respondent No.2 had initiated the dispute by sending a legal notice on 29/9/2010 for infringement of trade mark and thereafter the application was filed by Respondent No.2 in the Office of Respondent No.1.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0,
+        "Facts": 0.9865,
+        "Issue": 0.0002,
+        "Reasoning": 0.0027
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Thereafter, Respondent No.1 was pleased to pass the order dated 30/9/2012 which has been challenged by the Petitioner on various grounds.7 Firstly, it is submitted by the learned Counsel appearing on behalf of the Petitioner that Respondent No.1 had not taken into consideration the period of limitation prescribed for making an application under section 22.",
+      "predicted_label": "Facts",
+      "confidence": 0.7422,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2357,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0002,
+        "Facts": 0.7422,
+        "Issue": 0.0084,
+        "Reasoning": 0.0117
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "He submitted that powers vested could be invoked within 12 months.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6196,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2838,
+        "Arguments of Respondent": 0.6196,
+        "Decision": 0.0036,
+        "Facts": 0.0369,
+        "Issue": 0.0003,
+        "Reasoning": 0.0558
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "He then submitted although section 22 expressly provides for institution and disposal of the application, no application could be made after the period of five years and it could not be decided under the provisions of clause (b) of Section 22(1) of the said Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6016,
+        "Arguments of Respondent": 0.3662,
+        "Decision": 0.0003,
+        "Facts": 0.0188,
+        "Issue": 0.0003,
+        "Reasoning": 0.0128
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "He then submitted that the impugned order entertaining the application made under section 22 of the Companies Act by Respondent No.1 is bad in law and suffers from nonapplication of mind.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9625,
+        "Arguments of Respondent": 0.0328,
+        "Decision": 0.0001,
+        "Facts": 0.0016,
+        "Issue": 0.0003,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "It is submitted that the said application ought to have been dismissed at the threshold and Respondent No.2 should have been informed that though the said application was validly filed under limitation, Respondent No.1 did not have jurisdiction to entertain it after expiry of 12 months.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9261,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9261,
+        "Arguments of Respondent": 0.0494,
+        "Decision": 0.0002,
+        "Facts": 0.0057,
+        "Issue": 0.0018,
+        "Reasoning": 0.0169
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "He relied upon the Judgment of Division Bench of this Court in MRC Logistics Pvt Ltd vs. Regional Director, Western Region Anr (2010 155 Comp Cas 395 (Karn)).",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4617,
+        "Arguments of Respondent": 0.5245,
+        "Decision": 0.0002,
+        "Facts": 0.0043,
+        "Issue": 0.0001,
+        "Reasoning": 0.0092
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 18,
+      "text": "He also relied upon the 1 (2010) 1 CompLJ 35 (Bom) judgment of Karnataka High Court in Technova Tapes (India) P. Ltd. vs. Regional Director, Ministry of Company Affairs, Southern Region and Another ((2010) 1 CompLJ 35 (Bom)) .",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5162,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4462,
+        "Arguments of Respondent": 0.5162,
+        "Decision": 0.0001,
+        "Facts": 0.017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0204
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "He also relied upon the judgment of Calcutta High Court in Sen and Pandit Electronics Pvt. Ltd. vs. Union of India and Others (2003 Company Cases Vol. 115, page 299).8.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5689,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5689,
+        "Arguments of Respondent": 0.411,
+        "Decision": 0.0001,
+        "Facts": 0.0142,
+        "Issue": 0.0002,
+        "Reasoning": 0.0056
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "On the other hand, the learned Counsel for Respondent No.2 submitted that Respondent No.1 had properly construed the provisions of section 22 and had properly exercised the jurisdiction vested in him under the said section and, therefore, he submitted that this Court may not interfere with the said order while exercising its writ jurisdiction under Article 226 and 227 of the Constitution of India.9.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.9908,
+        "Decision": 0.0001,
+        "Facts": 0.0019,
+        "Issue": 0.0001,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "In our view, therefore, Respondent No.1 was justified in entertaining the said application and the contention of the Petitioner that it was not filed within a period of limitation of 12 months cannot be accepted.12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0053,
+        "Facts": 0.029,
+        "Issue": 0.0001,
+        "Reasoning": 0.9557
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Reliance has been placed by the learned Counsel appearing on behalf of the Petitioner on the judgment of this Court in MRC Logistics Pvt Ltd vs. Regional Director, Western Region Anr ((2010) 1 CompLJ 35 (Bom)) .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6056,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0037,
+        "Facts": 0.1938,
+        "Issue": 0.0122,
+        "Reasoning": 0.1746
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "Reliance has also been placed by the learned Counsel appearing on behalf of the Petitioner on the judgment of the Karnataka High Court in Technova Tapes (India) P. Ltd. vs. Regional Director, Ministry of Company Affairs, Southern Region and Another (2010 155 Comp Cas 395 (Karn)).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7127,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7127,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0023,
+        "Facts": 0.143,
+        "Issue": 0.005,
+        "Reasoning": 0.13
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "In the said case, PetitionerCompany changed its name and registered the Company under the name Technova in the year 1995.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4054,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3323,
+        "Arguments of Respondent": 0.1306,
+        "Decision": 0.0015,
+        "Facts": 0.1292,
+        "Issue": 0.001,
+        "Reasoning": 0.4054
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "The second Respondent had also changed its name in 1993 but the word Technova had been and was part of its corporate identity since 1979.",
+      "predicted_label": "Facts",
+      "confidence": 0.7344,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0643,
+        "Arguments of Respondent": 0.067,
+        "Decision": 0.0003,
+        "Facts": 0.7344,
+        "Issue": 0.0024,
+        "Reasoning": 0.1316
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The second Respondent filed an application under section 22 of the Companies Act, 1956 on January 6, 2004 seeking a direction to the Petitioner for deleting the word Technova or any variant thereof from its name.",
+      "predicted_label": "Facts",
+      "confidence": 0.9645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0001,
+        "Facts": 0.9645,
+        "Issue": 0.0007,
+        "Reasoning": 0.0204
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The Regional Director accordingly issued the said direction to the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0003,
+        "Facts": 0.9507,
+        "Issue": 0.0022,
+        "Reasoning": 0.0375
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "This was challenged before the Karnataka High Court and it was urged that the Petitioner had been using the name for almost nine years and the period of limitation prescribed under section 22 of the 1956 Act prior to the amendment in the year 2000 having expired, a subsequent amendment enlarging the period of limitation could not revive the rights which had already become barred by limitation.",
+      "predicted_label": "Facts",
+      "confidence": 0.5438,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1632,
+        "Arguments of Respondent": 0.1158,
+        "Decision": 0.0004,
+        "Facts": 0.5438,
+        "Issue": 0.0065,
+        "Reasoning": 0.1703
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The Karnataka High Court, in the facts of the said case, therefore, held that second Respondents remedy under section 22 of the 1956 Act had become barred under the unamended provision and it could not as a proprietor of a registered trade mark, claim an extended period of limitation for the purpose of the Companies Act, 1956.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.151,
+        "Arguments of Respondent": 0.108,
+        "Decision": 0.0008,
+        "Facts": 0.0452,
+        "Issue": 0.0004,
+        "Reasoning": 0.6946
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "In our view, again, the facts of the said case were entirely different and, therefore, ratio of the said judgment will not apply to the facts of the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0558,
+        "Arguments of Respondent": 0.0915,
+        "Decision": 0.002,
+        "Facts": 0.0409,
+        "Issue": 0.0004,
+        "Reasoning": 0.8093
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "We are also unable to agree with the observations made by the learned Single Judge in the said judgment, which read as underThe language of the Section is certainly found wanting in clarity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8505,
+      "probabilities": {
+        "Arguments of Petitioner": 0.054,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0006,
+        "Facts": 0.0793,
+        "Issue": 0.0002,
+        "Reasoning": 0.8505
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "If the section is construed, on a plain reading, that the Central Government or such other competent authority is empowered to direct rectification of the name of a company which is identical with or resembles the name of a company which is already in existence, within twelve months of the registration of such company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6751,
+      "probabilities": {
+        "Arguments of Petitioner": 0.123,
+        "Arguments of Respondent": 0.1002,
+        "Decision": 0.0005,
+        "Facts": 0.0996,
+        "Issue": 0.0016,
+        "Reasoning": 0.6751
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "The proviso affording a registered proprietor of a trade mark five years time, after coming to its notice of a registered company, with an identical or nearly resembling its own registered trade mark, while there is no corresponding enabling power or jurisdiction afforded to entertain an application by the competent authority or the Central Government in the section, it is only to be implied, this is an apparent incongruity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0493,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0006,
+        "Facts": 0.0171,
+        "Issue": 0.0003,
+        "Reasoning": 0.9134
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "But in order to avoid rendering the provision nugatory, where it seeks to protect the interest of a registered proprietor of a trade mark, the section would necessarily have to be given the interpretation suggested by respondent No. 2 herein, namely, that under the unamended section, the limitation of one year was prescribed for applications by a registered company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0639,
+        "Arguments of Respondent": 0.0517,
+        "Decision": 0.0002,
+        "Facts": 0.007,
+        "Issue": 0.0003,
+        "Reasoning": 0.877
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The proviso however makes a separate provision for the new category of applicants namely, the holders of registered trade marks and for such applicants, the period of five years would run from the date when the applicant who is the registered trade mark holder came to know of the existence of the company with a similar name and the limitation of one year for the authority to exercise the power would necessarily have to be read as having been enabled to accommodate the applications filed within the period contemplated under the proviso.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8748,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0761,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0002,
+        "Facts": 0.0288,
+        "Issue": 0.0001,
+        "Reasoning": 0.8748
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "Firstly, the said question did not fall for consideration before the learned Single Judge since the only issue involved was whether the unamended provision of section 22 would apply or amended provisions would apply and having held that proprietor of registered trade mark could not claim the extended period of limitation, it was not necessary to deal with the period of five years which was provided under section 22(1)(b).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7167,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0503,
+        "Arguments of Respondent": 0.0255,
+        "Decision": 0.0005,
+        "Facts": 0.2057,
+        "Issue": 0.0013,
+        "Reasoning": 0.7167
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Even otherwise, we have observed the reason for giving five years time for registered proprietor of a trade mark.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9127,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0044,
+        "Facts": 0.064,
+        "Issue": 0.0008,
+        "Reasoning": 0.9127
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "In our view, therefore, there is no incongruity as suggested by the learned Single Judge of Karnataka High Court nor do we agree with the observations made by the learned Single Judge in respect of the said amended proviso to section 22(1)(b).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0008,
+        "Facts": 0.0081,
+        "Issue": 0.0001,
+        "Reasoning": 0.9835
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Ratio of the judgment of Calcutta High Court in Sen and Pandit Electronics Pvt. Ltd. vs. Union of India and Others (2003 Company Cases Vol. 115, page 299) also will not apply to the facts of the present case and, therefore, we do not propose to deal with the said judgment on which reliance has been placed by the learned Counsel appearing on behalf of the Petitioner.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1025,
+        "Arguments of Respondent": 0.0569,
+        "Decision": 0.0008,
+        "Facts": 0.2412,
+        "Issue": 0.0046,
+        "Reasoning": 0.5939
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "In our view, there is no infirmity or illegality committed by Respondent No.1 in giving direction to the Petitioner to change its name.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0037,
+        "Facts": 0.0941,
+        "Issue": 0.0002,
+        "Reasoning": 0.8894
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "We are therefore not interfering with the direction given by Respondent No.1 in the impugned order while exercising our writ jurisdiction under Articles 226 227 of the Constitution of India.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8064,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.1742,
+        "Facts": 0.0135,
+        "Issue": 0.0004,
+        "Reasoning": 0.8064
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "Petition is dismissed in limine.",
+      "predicted_label": "Facts",
+      "confidence": 0.8854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0356,
+        "Arguments of Respondent": 0.0283,
+        "Decision": 0.0082,
+        "Facts": 0.8854,
+        "Issue": 0.0005,
+        "Reasoning": 0.042
+      }
+    }
+  ]
+}

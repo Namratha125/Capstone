@@ -1,0 +1,791 @@
+{
+  "case_id": "6787",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The petitioner has put forth prayer clause (B) and (C) as under B) To quash and set aside letter dated 10.01.2020 and direct the respondents to grant retail outlet dealership at location No.2006 in Dhule District pursuance to advertisement dated 25.11.2018 and selection dated 27.06.2019 by issuing appropriate writ, orders or direction as the case may be.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6709,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0019,
+        "Facts": 0.1577,
+        "Issue": 0.1424,
+        "Reasoning": 0.0232
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "C) To grant stay to letter dated 10.01.2020 and direct the respondents to grant retail outlet dealership at location No.2006 in Dhule District pursuance to advertisement dated 25.11.2018 and selection dated 27.06.2019 pending hearing and fnal disposal of the present writ petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.6731,
+      "probabilities": {
+        "Arguments of Petitioner": 0.046,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.145,
+        "Facts": 0.6731,
+        "Issue": 0.1067,
+        "Reasoning": 0.0179
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The petitioner is aggrieved by the communication dated 10012020 addressed to him by the Head of the Divisional Ofce, Indian Oil Corporation, Ltd., which is respondent No.2 herein.",
+      "predicted_label": "Facts",
+      "confidence": 0.8318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0004,
+        "Facts": 0.8318,
+        "Issue": 0.1476,
+        "Reasoning": 0.0121
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "By the impugned communication dated 10012020, the petitioner was informed that his candidature has not been found to be eligible for Retail Outlet (R.O.) dealership on the basis of the documents submitted by him for the reasons as were detailed as under a) Appendix III A and Appendix III B is of ofer date of fling application Eligible Certifcate for the category Appendix VII A not submitted.",
+      "predicted_label": "Facts",
+      "confidence": 0.947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0001,
+        "Facts": 0.947,
+        "Issue": 0.0018,
+        "Reasoning": 0.0302
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "By the order dated 04022020, passed by this Court, adinterim protection was granted to the petitioner by directing that respondents may proceed further with the process, however, shall not issue fnal allotment order.",
+      "predicted_label": "Facts",
+      "confidence": 0.7309,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0438,
+        "Arguments of Respondent": 0.0247,
+        "Decision": 0.0181,
+        "Facts": 0.7309,
+        "Issue": 0.0235,
+        "Reasoning": 0.1589
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Respondent No.4 herein was the selected candidate.",
+      "predicted_label": "Facts",
+      "confidence": 0.9454,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0002,
+        "Facts": 0.9454,
+        "Issue": 0.022,
+        "Reasoning": 0.0259
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Owing to the interim order of this Court, though respondent No.4 was held to be eligible and was selected for grant of R.O. dealership, respondent Nos. 2 and 3, the company, have not yet issued the fnal order of allotment.",
+      "predicted_label": "Facts",
+      "confidence": 0.366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.037,
+        "Arguments of Respondent": 0.0544,
+        "Decision": 0.2577,
+        "Facts": 0.366,
+        "Issue": 0.0086,
+        "Reasoning": 0.2763
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "It is undisputed that, clause (4)(vi)(b) of the Brochure for the selection of the candidates for the R.O. dealership specifcally provides that the candidates will be required to submit as and when advised by the Oil Company, a certifcate issued by the competent authority notifed by the Government of India and or by the concerned State in which the location has been advertised certifying that the candidate belongs to Other Backward Classes recognized as OBC by a Resolution Gazette Notifcation issued by the Government of India (Central Government State Government) 6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9821,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0,
+        "Facts": 0.9821,
+        "Issue": 0.0008,
+        "Reasoning": 0.0122
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "It is equally undisputed that the note below clause 4 of the Brochure specifcally states that 1.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0506,
+        "Arguments of Respondent": 0.0279,
+        "Decision": 0.0008,
+        "Facts": 0.2781,
+        "Issue": 0.0108,
+        "Reasoning": 0.6318
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "All certifcates documents required for meeting Eligibility Specifc Eligibility Criteria should be in possession of the applicant and valid as on the date of application.",
+      "predicted_label": "Facts",
+      "confidence": 0.7094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1522,
+        "Arguments of Respondent": 0.0382,
+        "Decision": 0.001,
+        "Facts": 0.7094,
+        "Issue": 0.0398,
+        "Reasoning": 0.0595
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "It is, therefore, beyond debate that the documents which are to be supplied with the application form and which can be tendered (hard copies) within such period as may be permitted by the company, should be in possession of the applicant on the date of his application, to indicate that when he applied for the R.O. dealership, he was fulflling the eligibility criteria as prescribed by the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9099,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0003,
+        "Facts": 0.0688,
+        "Issue": 0.0004,
+        "Reasoning": 0.9099
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "It is, therefore, clear from the rules made applicable by the company that on the date of the application by an interested candidate seeking R.O. dealership, he should be in possession of all the documents required, including the caste certifcate, as the cutof date for considering eligible candidates was 22122018.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7124,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0486,
+        "Arguments of Respondent": 0.055,
+        "Decision": 0.0002,
+        "Facts": 0.1836,
+        "Issue": 0.0002,
+        "Reasoning": 0.7124
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "We have no hesitation in concluding that on 22122018, candidates who possessed these documents and the caste certifcate were eligible and those candidates who did not possess any of the required documents and importantly, the caste certifcate, on the date of application, were obviously ineligible candidates.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0004,
+        "Facts": 0.0728,
+        "Issue": 0.0003,
+        "Reasoning": 0.906
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The learned advocate for the petitioner submits, on the basis of the record, that he had received a communication dated 27062019, by which he was given ten days time for submitting the said documents and for remitting Rs.40,000/ as a security deposit, online.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5285,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0041,
+        "Facts": 0.3416,
+        "Issue": 0.0054,
+        "Reasoning": 0.1085
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "He concedes, on the basis of the record, that the petitioner did not have Appendix III B (Advocates letter) along with appendix III A (For ofer of land), as on 22122018, which was the cutof date for entering applications for R.O. dealership by interested candidates.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6688,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2519,
+        "Arguments of Respondent": 0.6688,
+        "Decision": 0.0003,
+        "Facts": 0.0404,
+        "Issue": 0.0005,
+        "Reasoning": 0.0381
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "He frankly submits on the basis of the record that these two documents are dated 03072019 and they were prepared after the petitioner received the communication dated 27 102019, for tendering the said documents.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3824,
+        "Arguments of Respondent": 0.159,
+        "Decision": 0.0006,
+        "Facts": 0.1979,
+        "Issue": 0.0006,
+        "Reasoning": 0.2596
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "He also submits, on the basis of the record, that the Eligibility Certifcate for OBC category was not in his possession, when he applied on 22122018 and the R.O. dealership at issue, was reserved for candidates belonging to the OBC category.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7229,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2114,
+        "Arguments of Respondent": 0.7229,
+        "Decision": 0.0002,
+        "Facts": 0.035,
+        "Issue": 0.0007,
+        "Reasoning": 0.0298
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The Company has entered an afdavitinreply on behalf of respondent Nos. 2 and 3 and have stated in paragraph No. 04 as under 04.",
+      "predicted_label": "Facts",
+      "confidence": 0.6359,
+      "probabilities": {
+        "Arguments of Petitioner": 0.025,
+        "Arguments of Respondent": 0.1491,
+        "Decision": 0.0004,
+        "Facts": 0.6359,
+        "Issue": 0.0004,
+        "Reasoning": 0.1893
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "I say that, there is no dispute regarding the following facts.",
+      "predicted_label": "Facts",
+      "confidence": 0.6788,
+      "probabilities": {
+        "Arguments of Petitioner": 0.046,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.0004,
+        "Facts": 0.6788,
+        "Issue": 0.003,
+        "Reasoning": 0.2583
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "A. Advertisement dated 25112018 was issued for allotment of Regular and Retail outlet in various parts of Maharashtra, including for location From Pimpalner Post Ofce towards Navapur within 2 M from OBC category.",
+      "predicted_label": "Facts",
+      "confidence": 0.929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0119,
+        "Arguments of Respondent": 0.0344,
+        "Decision": 0.0001,
+        "Facts": 0.929,
+        "Issue": 0.0003,
+        "Reasoning": 0.0243
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "B. Petitioner has fled application on 22.12.2018 and he is declared to be selected for establishment of dealership.",
+      "predicted_label": "Facts",
+      "confidence": 0.8285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1399,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0015,
+        "Facts": 0.8285,
+        "Issue": 0.0055,
+        "Reasoning": 0.0125
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Clause No.9 of the application states that, the Advocate of the applicant has certifed the land to be belonging to Group1.",
+      "predicted_label": "Facts",
+      "confidence": 0.6996,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0007,
+        "Facts": 0.6996,
+        "Issue": 0.0007,
+        "Reasoning": 0.2738
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "C. The applicant has ofered land owned by his father Mr. Dilipsing Rajput (page 17).",
+      "predicted_label": "Facts",
+      "confidence": 0.4362,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3785,
+        "Arguments of Respondent": 0.1182,
+        "Decision": 0.0039,
+        "Facts": 0.4362,
+        "Issue": 0.0032,
+        "Reasoning": 0.06
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "In the draw of lots held on 26.06.2019.",
+      "predicted_label": "Facts",
+      "confidence": 0.9492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0009,
+        "Facts": 0.9492,
+        "Issue": 0.0105,
+        "Reasoning": 0.0225
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "E. Petitioner submitted opinion of Advocate Mr. Dnyaneshwar Ekhande, dated 03.07.2019 (page29) and afdavit of his father dated 03.07.2019 (page 30 to 34).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9388,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9388,
+        "Arguments of Respondent": 0.0367,
+        "Decision": 0.0002,
+        "Facts": 0.0216,
+        "Issue": 0.0003,
+        "Reasoning": 0.0023
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "F. The petitioner has submitted caste certifcate of OBC category dated 02.07.2019.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8736,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0018,
+        "Facts": 0.1032,
+        "Issue": 0.003,
+        "Reasoning": 0.0087
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "G. Candidature of the petitioner came to be cancelled by the communication dated 10.01.2020, candidature of the petitioner is rejected on the ground that, the caste certifcate submitted is later than the date of advertisement and Appendix IIIA and IIIB are of a date after the date of fling of the application.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5501,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5501,
+        "Arguments of Respondent": 0.1373,
+        "Decision": 0.0159,
+        "Facts": 0.1405,
+        "Issue": 0.0042,
+        "Reasoning": 0.1521
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "H. Petitioner possesses certifcate of belonging to Rajput Bhamta (OBC) Caste.",
+      "predicted_label": "Facts",
+      "confidence": 0.7939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1555,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.0013,
+        "Facts": 0.7939,
+        "Issue": 0.0071,
+        "Reasoning": 0.0208
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "However, the same is issued on 02.07.2019 (Page 36).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.08,
+        "Arguments of Respondent": 0.0729,
+        "Decision": 0.0862,
+        "Facts": 0.2731,
+        "Issue": 0.0018,
+        "Reasoning": 0.4861
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The certifcate at page 12 of petition is dated 28.08.2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.5206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0529,
+        "Arguments of Respondent": 0.0506,
+        "Decision": 0.0209,
+        "Facts": 0.5206,
+        "Issue": 0.009,
+        "Reasoning": 0.3459
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "However, the same certifes that, the petitioner is belonging to Vimukta Jati and there is no certifcation of OBC status.",
+      "predicted_label": "Facts",
+      "confidence": 0.8189,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0546,
+        "Arguments of Respondent": 0.0246,
+        "Decision": 0.0003,
+        "Facts": 0.8189,
+        "Issue": 0.0009,
+        "Reasoning": 0.1006
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "It is further submitted in the afdavitinreply in paragraph Nos. 04",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3414,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2463,
+        "Arguments of Respondent": 0.3414,
+        "Decision": 0.0006,
+        "Facts": 0.2147,
+        "Issue": 0.0001,
+        "Reasoning": 0.1969
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 32,
+      "text": "(2nd paragraph with the same number) and 05 as under 04.",
+      "predicted_label": "Facts",
+      "confidence": 0.7426,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0011,
+        "Facts": 0.7426,
+        "Issue": 0.002,
+        "Reasoning": 0.2384
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "I say that, as the petitioner has failed to satisfy the requirement of possessing the OBC certifcate, as applicable on the date of submission of the application, the candidature of the petitioner came to be cancelled.",
+      "predicted_label": "Facts",
+      "confidence": 0.8407,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0321,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0007,
+        "Facts": 0.8407,
+        "Issue": 0.002,
+        "Reasoning": 0.1158
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The petitioner has relied upon the earlier certifcate dated 28.08.2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.6372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.153,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0065,
+        "Facts": 0.6372,
+        "Issue": 0.0275,
+        "Reasoning": 0.1636
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "However, said certifcate is recognizing the petitioner as a person belonging to Vimukta Jati.",
+      "predicted_label": "Facts",
+      "confidence": 0.6033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1495,
+        "Arguments of Respondent": 0.0267,
+        "Decision": 0.0009,
+        "Facts": 0.6033,
+        "Issue": 0.0011,
+        "Reasoning": 0.2185
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "Furthermore, subsequent certifcate submitted by the petitioner is secured after submission of application.",
+      "predicted_label": "Facts",
+      "confidence": 0.5367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1921,
+        "Arguments of Respondent": 0.1346,
+        "Decision": 0.0106,
+        "Facts": 0.5367,
+        "Issue": 0.0032,
+        "Reasoning": 0.1228
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "05.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5058,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5058,
+        "Arguments of Respondent": 0.0426,
+        "Decision": 0.0093,
+        "Facts": 0.3316,
+        "Issue": 0.0339,
+        "Reasoning": 0.0768
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "I say that, Clause (4)(vi)(b) of the Brochure for selection specifcally contemplates that, the candidates will be required to submit as and when advised by the Oil Company, a certifcate issued by the competent authority notifed by the Government of India and or by the concerned State in which the location has been advertised certifying that the candidate belongs to Other Backward Classes recognized as OBC by a Resolution Gazette Notifcation issued by the Government of India (Central Government State Government) 12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5548,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0839,
+        "Arguments of Respondent": 0.0306,
+        "Decision": 0.001,
+        "Facts": 0.3287,
+        "Issue": 0.0011,
+        "Reasoning": 0.5548
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "In some what similar facts, in Writ Petition No.9974 of 2019 fled by Rajendra Bapurao Hande Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6228,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1322,
+        "Arguments of Respondent": 0.0253,
+        "Decision": 0.003,
+        "Facts": 0.211,
+        "Issue": 0.0058,
+        "Reasoning": 0.6228
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "Bharat Petroleum Corporation Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.3418,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2247,
+        "Arguments of Respondent": 0.1274,
+        "Decision": 0.0244,
+        "Facts": 0.3418,
+        "Issue": 0.0705,
+        "Reasoning": 0.2111
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "And Another, the learned Division Bench of this Court has noted that some of the documents, that were required as a part of the eligibility criteria on the date of entering the application by the interested candidate, were not available with the petitioner and those were prepared after the cutof date.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1612,
+        "Arguments of Respondent": 0.1239,
+        "Decision": 0.0068,
+        "Facts": 0.2434,
+        "Issue": 0.0029,
+        "Reasoning": 0.4618
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "This Court, therefore, held that such a candidate would not be eligible.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1427,
+        "Arguments of Respondent": 0.144,
+        "Decision": 0.0019,
+        "Facts": 0.2319,
+        "Issue": 0.0043,
+        "Reasoning": 0.4752
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "In Writ petition No. 5812 of 2019, fled by another similarly placed candidate Navnath s o Shankar Badage Vs. Indian Oil Corporation, Ltd. and Another, the learned Division Bench of this Court delivered an order on 18062019, holding the same view.",
+      "predicted_label": "Facts",
+      "confidence": 0.8847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.027,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0053,
+        "Facts": 0.8847,
+        "Issue": 0.0167,
+        "Reasoning": 0.06
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "13.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8168,
+        "Arguments of Respondent": 0.0351,
+        "Decision": 0.0033,
+        "Facts": 0.0695,
+        "Issue": 0.0095,
+        "Reasoning": 0.0659
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "In view of the above, we do not fnd that the company has committed any error in conveying to the petitioner, vide the impugned communication dated 10012020, that he was found ineligible for being considered for the grant of R.O. dealership.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7842,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0034,
+        "Facts": 0.2056,
+        "Issue": 0.0011,
+        "Reasoning": 0.7842
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "This petition, being devoid of merits is being dismissed.",
+      "predicted_label": "Facts",
+      "confidence": 0.596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0136,
+        "Arguments of Respondent": 0.0891,
+        "Decision": 0.1907,
+        "Facts": 0.596,
+        "Issue": 0.0024,
+        "Reasoning": 0.1083
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Rule is discharged.",
+      "predicted_label": "Decision",
+      "confidence": 0.8132,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.8132,
+        "Facts": 0.1601,
+        "Issue": 0.0005,
+        "Reasoning": 0.0243
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "14.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6361,
+        "Arguments of Respondent": 0.068,
+        "Decision": 0.0035,
+        "Facts": 0.1054,
+        "Issue": 0.0132,
+        "Reasoning": 0.1739
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The learned advocate for the petitioner submits on instructions, that this order be kept in abeyance for a period of eight weeks and the adinterim protection granted by this Court on 0402 2020, may be continued.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4157,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4157,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.2548,
+        "Facts": 0.1716,
+        "Issue": 0.0214,
+        "Reasoning": 0.1283
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "Consistently, the learned Division Bench of this Court has taken the view as has been taken by this Court in this judgment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0324,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0042,
+        "Facts": 0.0716,
+        "Issue": 0.0007,
+        "Reasoning": 0.8775
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "15.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8076,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8076,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0026,
+        "Facts": 0.0349,
+        "Issue": 0.0099,
+        "Reasoning": 0.1003
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The Learned advocate for respondent No.4 submits that he is prepared to enter an afdavit in this Court and supply a copy of the same to the company at its ofce at Aurangabad, within 10 days from today, declaring that in the event the petitioner approaches the Honble Apex Court and in the event he secures a favourable order thereby disentitling respondent No.4 for being granted the R.O. dealership, no equities would be created in his favour, if the company now grants the dealership by virtue of the dismissal of this petition and he would abide by the orders of the Honble Apex Court.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5687,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.5687,
+        "Decision": 0.0027,
+        "Facts": 0.3774,
+        "Issue": 0.0007,
+        "Reasoning": 0.0383
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "In view of the above, we reject the request of the petitioner for continuing the adinterim order considering that the public at large is the benefciary of the allotment of the dealership and we clarify that respondent No.4 shall enter an afdavit as stated above, within ten days from today in this Court with a copy to the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.6353,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.1625,
+        "Facts": 0.6353,
+        "Issue": 0.0006,
+        "Reasoning": 0.1968
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

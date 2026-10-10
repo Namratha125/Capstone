@@ -1,0 +1,681 @@
+{
+  "case_id": "7070",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " A. Britto, J.The dispute between the parties is as regards the quantum of compensation awarded to the claimants (respondents no. 1 to 3 herein) as against a claim for Rs. 25,00,000/.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.5169,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0012,
+        "Facts": 0.5169,
+        "Issue": 0.4793,
+        "Reasoning": 0.0018
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The learned MACT (Motor Accidents Claims Tribunal) has awarded compensation of Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.7007,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0038,
+        "Facts": 0.7007,
+        "Issue": 0.0918,
+        "Reasoning": 0.1784
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The accident took place on 6/12/2001 between a scooter driven by the deceased and truck no.",
+      "predicted_label": "Facts",
+      "confidence": 0.9591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0011,
+        "Facts": 0.9591,
+        "Issue": 0.0066,
+        "Reasoning": 0.0287
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "KA 213/498 driven by respondent no.4, owned by respondent no.5 and insured with the appellant herein, who was respondent no.3, in the claim petition.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0002,
+        "Facts": 0.9924,
+        "Issue": 0.0048,
+        "Reasoning": 0.0006
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The claim petition was filed by the claimants (respondent nos.",
+      "predicted_label": "Facts",
+      "confidence": 0.9647,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0007,
+        "Facts": 0.9647,
+        "Issue": 0.0075,
+        "Reasoning": 0.0234
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "1 to 3) who are the widow and children of the deceased Savio Nigel Fernandes.",
+      "predicted_label": "Facts",
+      "confidence": 0.968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0006,
+        "Facts": 0.968,
+        "Issue": 0.013,
+        "Reasoning": 0.0083
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Claimant no.1 was 32 years of age, claimant no.2 was 4 years of age, and claimant no.3 was 2 years of age.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0,
+        "Facts": 0.9917,
+        "Issue": 0.0002,
+        "Reasoning": 0.004
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The deceased was 32 years of age.",
+      "predicted_label": "Facts",
+      "confidence": 0.6456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0479,
+        "Arguments of Respondent": 0.0288,
+        "Decision": 0.0009,
+        "Facts": 0.6456,
+        "Issue": 0.0029,
+        "Reasoning": 0.2739
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The deceased was working as a Junior Manager in the Production Department of the German Remedies Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.9547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0002,
+        "Facts": 0.9547,
+        "Issue": 0.0147,
+        "Reasoning": 0.0223
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "To prove the income of the deceased the claimants had examined the Senior Manager in the Department of Personnel Administration of the said Company and who had given the details of the salary drawn by the deceased.",
+      "predicted_label": "Facts",
+      "confidence": 0.651,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0644,
+        "Arguments of Respondent": 0.0589,
+        "Decision": 0.0003,
+        "Facts": 0.651,
+        "Issue": 0.0004,
+        "Reasoning": 0.225
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "He had categorically stated that the total salary of the deceased was Rs. 2,37,627/ per year and in addition, the deceased was getting medical reimbursement of Rs. 6,250/ and that he was given average raise of 20.59 in the salary for the year 20012002.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1941,
+        "Arguments of Respondent": 0.3406,
+        "Decision": 0.0001,
+        "Facts": 0.2242,
+        "Issue": 0.0003,
+        "Reasoning": 0.2406
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "He had also stated that the deceased was earning a basic pay of Rs. 9,950/ and was getting HRA of Rs. 1,990/, educational allowance of Rs. 600/ and conveyance allowance of Rs. 1,100/, thus a total amount of Rs. 13,640/ per month besides Rs. 14,925/ as LTA and Rs. 20,000/ as bonus per year.",
+      "predicted_label": "Facts",
+      "confidence": 0.7465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0003,
+        "Facts": 0.7465,
+        "Issue": 0.0002,
+        "Reasoning": 0.2215
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "He had produced the certificate issued by the Company at Exhibit 44.6.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0897,
+        "Arguments of Respondent": 0.0412,
+        "Decision": 0.0003,
+        "Facts": 0.2884,
+        "Issue": 0.0003,
+        "Reasoning": 0.5801
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "Nevertheless, the learned MACT came to the conclusion that the deceased was drawing a salary of Rs. 18,965/ including conveyance allowance and further held that conveyance allowance could not be considered for the purpose of computing compensation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0001,
+        "Facts": 0.9649,
+        "Issue": 0.0011,
+        "Reasoning": 0.0297
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The learned MACT therefore considered monthly income of deceased as Rs. 15,792/ and then deducted 1/3rd towards personal expenses and taking the multiplier of 17, worked out the loss of dependency at Rs. 21,47,712/.",
+      "predicted_label": "Facts",
+      "confidence": 0.9591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9591,
+        "Issue": 0.0025,
+        "Reasoning": 0.0371
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The learned MACT awarded a sum of Rs. 5,000/ towards loss of consortium, Rs. 2,000/ towards funeral expenses, Rs. 2,000/ for transport and other miscellaneous expenses and Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.6653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0007,
+        "Facts": 0.6653,
+        "Issue": 0.0047,
+        "Reasoning": 0.3241
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "Shri Mulgaonkar, the learned Counsel on behalf of the appellant has submitted that the learned MACT was right in excluding the conveyance allowance and in case the said allowance was deducted and then another 1/3rd was deducted towards the personal expenses of the deceased, the compensation payable would not have worked out to more than Rs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.983,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0001,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0113
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "17,17,054.40 by using the same multiplier.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0004,
+        "Facts": 0.9623,
+        "Issue": 0.0004,
+        "Reasoning": 0.0327
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "On the other hand, it has been submitted by Shri Sonak, the learned Counsel on behalf of the claimants that conveyance allowance is also part of the income and in this context Shri Sonak has placed reliance on the case of National Insurance Co. Ltd.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7008,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1976,
+        "Arguments of Respondent": 0.7008,
+        "Decision": 0.0005,
+        "Facts": 0.0104,
+        "Issue": 0.0003,
+        "Reasoning": 0.0903
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "V s. Indira Srivastava Ors.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5026,
+        "Arguments of Respondent": 0.202,
+        "Decision": 0.0095,
+        "Facts": 0.0832,
+        "Issue": 0.0019,
+        "Reasoning": 0.2009
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "(2008 (2) SCC 763 ).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3349,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2374,
+        "Arguments of Respondent": 0.1891,
+        "Decision": 0.0037,
+        "Facts": 0.218,
+        "Issue": 0.0169,
+        "Reasoning": 0.3349
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Learned Counsel has further submitted that it was undisputed that the total salary per annum of the deceased was Rs. 2,37,627/ as stated by the said Senior Manager, Personnel and Administration of the said company, and besides the deceased was also entitled to medical reimbursement up to a maximum of Rs. 6,250/ and was given an average raise of 20.59 in salary for the financial year 200102.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7345,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2496,
+        "Arguments of Respondent": 0.7345,
+        "Decision": 0.0002,
+        "Facts": 0.01,
+        "Issue": 0.0002,
+        "Reasoning": 0.0056
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Learned Counsel has also pointed out that the evidence of the said witness wherein he had stated that the yearly emoluments in the year 2005 of Junior Department Manager was Rs. 2,60,000/ and the deceased had promotional avenues as well to the posts of Department Manager and then to Senior Department Manager and that by 01/04/2004, the deceased might have been promoted as Department Manager and his yearly emoluments would have been between Rs. 2,60,000/ to Rs. 2,70,000/ per annum.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6209,
+        "Arguments of Respondent": 0.3647,
+        "Decision": 0.0001,
+        "Facts": 0.0041,
+        "Issue": 0.0002,
+        "Reasoning": 0.01
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "Learned Counsel, therefore, submits that considering the promotional avenues which the deceased would have been entitled to, a higher estimate of his income ought to have been made by the learned MACT and compensation sought for, awarded to the claimants.9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8957,
+        "Arguments of Respondent": 0.0905,
+        "Decision": 0.0001,
+        "Facts": 0.0025,
+        "Issue": 0.0001,
+        "Reasoning": 0.0112
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "V s. Indira Srivastava Ors.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5026,
+        "Arguments of Respondent": 0.202,
+        "Decision": 0.0095,
+        "Facts": 0.0832,
+        "Issue": 0.0019,
+        "Reasoning": 0.2009
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "V s. Indira Srivastava Ors.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5026,
+        "Arguments of Respondent": 0.202,
+        "Decision": 0.0095,
+        "Facts": 0.0832,
+        "Issue": 0.0019,
+        "Reasoning": 0.2009
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "The claimants had also claimed an amount of Rs. 25,000/ on account of damage to the scooter of the deceased, and, had examined a chartered mechanical engineer to support their claim and who, upon inspection, had found that the vehicle was badly damaged, beyond repairs and he had assessed total loss at Rs. 25,000/.",
+      "predicted_label": "Facts",
+      "confidence": 0.9485,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0003,
+        "Facts": 0.9485,
+        "Issue": 0.002,
+        "Reasoning": 0.0385
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "Whatever has been paid to the claimants shall be deducted and the balance amount will carry interest at the rate of 8 till it is paid.18.",
+      "predicted_label": "Decision",
+      "confidence": 0.899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.899,
+        "Facts": 0.0145,
+        "Issue": 0.0002,
+        "Reasoning": 0.0852
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Before concluding, we must note that this appeal could be filed by the insurer only because of lack of due diligence on the part of the learned MACT.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.3254,
+        "Facts": 0.0114,
+        "Issue": 0.0004,
+        "Reasoning": 0.6583
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "It is now well settled that an insurer cannot file an appeal disputing the quantum of compensation unless the insurer obtains an order under Section 170 of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9346,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0015,
+        "Facts": 0.0156,
+        "Issue": 0.0044,
+        "Reasoning": 0.9346
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Obtaining an order under the said section is no empty formality.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6979,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0575,
+        "Arguments of Respondent": 0.2211,
+        "Decision": 0.0025,
+        "Facts": 0.0207,
+        "Issue": 0.0003,
+        "Reasoning": 0.6979
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "Perusal of Section 170 shows that permission can be given only after recording of reasons in writing and when the tribunal is satisfied that (a) there is collusion between the person making the claim and the person against whom the claim is made, or (b) the person against whom the claim is made has failed to contest the claim.19.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.019,
+        "Decision": 0.0005,
+        "Facts": 0.0058,
+        "Issue": 0.0003,
+        "Reasoning": 0.9582
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "In this case, we find that after it was found that the driver and the owner of the vehicle had not contested the petition, an application was filed on 7/12/2004 purporting it to be an application under Section 170 of the Act and the learned MACT even without calling for a say or no objection from the claimants proceeded mechanically to grant the same without assigning any reasons.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0198,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0108,
+        "Facts": 0.0338,
+        "Issue": 0.0013,
+        "Reasoning": 0.9287
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "It has also come to our notice that in some cases the claimants too give no objection as a matter of course but it is the learned MACT who is expected to deal with the same irrespective of no objection given by the claimants.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0265,
+        "Arguments of Respondent": 0.0549,
+        "Decision": 0.0079,
+        "Facts": 0.1463,
+        "Issue": 0.0017,
+        "Reasoning": 0.7627
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "No objection to the application certainly would not give the tribunal jurisdiction to grant it without application of mind and giving reasons.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9356,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0174,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0007,
+        "Facts": 0.0313,
+        "Issue": 0.0004,
+        "Reasoning": 0.9356
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The Apex Court in Shankarayya anr.",
+      "predicted_label": "Facts",
+      "confidence": 0.8019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0678,
+        "Decision": 0.0013,
+        "Facts": 0.8019,
+        "Issue": 0.0015,
+        "Reasoning": 0.1132
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "V s. United India Insurance Co. Ltd.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2831,
+        "Arguments of Respondent": 0.1998,
+        "Decision": 0.0201,
+        "Facts": 0.1811,
+        "Issue": 0.0102,
+        "Reasoning": 0.3057
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "(1998 ACJ 513 ) has stated that The provisions of Section 170 of the Act clearly show that the insurance company when impleaded as a party by the Court can be permitted to contest the proceedings on merits only if the condition precedent mentioned in the section are found to be satisfied and for that purpose the insurance company has to obtain order in writing from the Tribunal and which should be a reasoned order by the Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1063,
+        "Arguments of Respondent": 0.067,
+        "Decision": 0.0012,
+        "Facts": 0.0405,
+        "Issue": 0.0004,
+        "Reasoning": 0.7846
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "Unless that procedure is followed, the insurance company cannot have a wider defence on merits than what is available to it by way of statutory defence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0682,
+        "Arguments of Respondent": 0.0589,
+        "Decision": 0.001,
+        "Facts": 0.0249,
+        "Issue": 0.0003,
+        "Reasoning": 0.8467
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "In the absence of permission in that case it was held that the insurer was not entitled to file an appeal on the merits of the claim which was awarded by the tribunal.20.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2493,
+        "Arguments of Respondent": 0.1668,
+        "Decision": 0.0015,
+        "Facts": 0.0261,
+        "Issue": 0.0003,
+        "Reasoning": 0.556
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "A Division Bench of Kerala High Court in National Insurance Co.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8037,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0343,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0046,
+        "Facts": 0.1204,
+        "Issue": 0.0072,
+        "Reasoning": 0.8037
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Ltd. V s. Mary Janet Ors.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3333,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3333,
+        "Arguments of Respondent": 0.2085,
+        "Decision": 0.0185,
+        "Facts": 0.135,
+        "Issue": 0.0032,
+        "Reasoning": 0.3015
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "(1999 ACJ 736 ) has interpreted the expression or in between clauses (a) (b) of Section 170 of the Act as and.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0959,
+        "Arguments of Respondent": 0.0696,
+        "Decision": 0.0018,
+        "Facts": 0.239,
+        "Issue": 0.0066,
+        "Reasoning": 0.587
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "For the present we need only emphasize that no permission under Section 170 of the Act can be given mechanically without giving reasons in support thereof.21.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0032,
+        "Facts": 0.003,
+        "Issue": 0.0001,
+        "Reasoning": 0.9776
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "In view of the above, we proceed to dismiss the appeal and allow the crossobjections and award Rs.",
+      "predicted_label": "Decision",
+      "confidence": 0.8437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.8437,
+        "Facts": 0.0706,
+        "Issue": 0.0005,
+        "Reasoning": 0.084
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "25,00,000/ as compensation payable to the claimants.",
+      "predicted_label": "Facts",
+      "confidence": 0.9103,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0255,
+        "Facts": 0.9103,
+        "Issue": 0.0077,
+        "Reasoning": 0.0439
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "A sum of Rs.10,000/ shall be paid by the appellant to the claimants as costs of this appeal.",
+      "predicted_label": "Decision",
+      "confidence": 0.9521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9521,
+        "Facts": 0.005,
+        "Issue": 0.0002,
+        "Reasoning": 0.0415
+      }
+    }
+  ]
+}

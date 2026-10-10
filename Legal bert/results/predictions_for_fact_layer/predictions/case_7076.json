@@ -1,0 +1,2274 @@
+{
+  "case_id": "7076",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The petitioner is a public limited company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0004,
+        "Facts": 0.9583,
+        "Issue": 0.0174,
+        "Reasoning": 0.0145
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "It is engaged in infrastructure development and it contends that it has presence in various states of India, including the State of Maharashtra.",
+      "predicted_label": "Facts",
+      "confidence": 0.7343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0519,
+        "Arguments of Respondent": 0.0286,
+        "Decision": 0.0007,
+        "Facts": 0.7343,
+        "Issue": 0.016,
+        "Reasoning": 0.1685
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The petitioner company was registered under the provisions of erstwhile State Sales Tax Act and after the Sales Tax was subsumed into the Goods and Service Tax vide the Central Goods and Services Tax Act, 2017 (CGST Act for short) which came into force with effect from 12.4.2017, the company was deemed to be registered under the CGST Act, by virtue of operation of section 26 of the CGST Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.7957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1436,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0003,
+        "Facts": 0.7957,
+        "Issue": 0.036,
+        "Reasoning": 0.018
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "In the year 2020, there were certain changes in the management of the company and, therefore, it sought amendment to the registration certificate, which was granted on 18.7.2020.",
+      "predicted_label": "Facts",
+      "confidence": 0.3887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3429,
+        "Arguments of Respondent": 0.0793,
+        "Decision": 0.0007,
+        "Facts": 0.3887,
+        "Issue": 0.0112,
+        "Reasoning": 0.1772
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 4,
+      "text": "Thereafter, the company changed its registered address and again sought amendment to the registration certificate as regards change of address which was granted on 2.11.2020.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3515,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3515,
+        "Arguments of Respondent": 0.1302,
+        "Decision": 0.0009,
+        "Facts": 0.3162,
+        "Issue": 0.0067,
+        "Reasoning": 0.1945
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "The petitioner submits that after commencement of GST regime, the petitioner regularly filed its returns till September 2020.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8484,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8484,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0007,
+        "Facts": 0.1301,
+        "Issue": 0.0055,
+        "Reasoning": 0.0118
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Till that time, the petitioner further submits, it had also availed of the credit available in its Electronic Credit Ledger (ECL for short) to the extent of Rs.48,79,61,446/ as permissible under law.",
+      "predicted_label": "Facts",
+      "confidence": 0.8042,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1711,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0003,
+        "Facts": 0.8042,
+        "Issue": 0.0133,
+        "Reasoning": 0.0078
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The petitioner submits that operation of ECL went on smoothly till 1.7.2021, despite initiation of some illegal action in the nature of registration of a criminal case against the petitioner, and its investigation, which has been questioned for its legality and validity by the petitioner by filing a Criminal Writ Petition No.5/2020, which is pending for the present.",
+      "predicted_label": "Facts",
+      "confidence": 0.68,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2947,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0008,
+        "Facts": 0.68,
+        "Issue": 0.0127,
+        "Reasoning": 0.0099
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The petitioner submits that day of 1.7.2021 came as a surprise for it when it noticed that its ECL was not operational and the portal showed that the ECL was blocked by the Deputy Commissioner, State Sales Tax, MIDC, Nagpur.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7098,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7098,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0007,
+        "Facts": 0.246,
+        "Issue": 0.0098,
+        "Reasoning": 0.029
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "According to the petitioner, when the official of the Company opened the portal on 1.7.2021 its screen showed that petitioners ECL was blocked.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5807,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0008,
+        "Facts": 0.364,
+        "Issue": 0.0238,
+        "Reasoning": 0.027
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "Blocking of the ECL, according to the petitioner, had its own adverse impact on the functioning of the petitioner as the petitioner was unable to update its ECL, could not avail of the credit therein to discharge its liability to pay the CGST and could not file its returns.",
+      "predicted_label": "Facts",
+      "confidence": 0.6713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2782,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0003,
+        "Facts": 0.6713,
+        "Issue": 0.0078,
+        "Reasoning": 0.0399
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "The petitioner submits that the credit amount available in the ECL is the property of the petitioner and the blocking of the ECL of the petitioner amounts to illegal provisional attachment of the property of the petitioner under Section 83 of the CGST Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8161,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1401,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0006,
+        "Facts": 0.8161,
+        "Issue": 0.0179,
+        "Reasoning": 0.0214
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The petitioner further submits that such attachment can be done only if any proceeding is pending or initiated under any of sections such as sections 62, 63, 64, 67, 73 and 74.",
+      "predicted_label": "Facts",
+      "confidence": 0.7096,
+      "probabilities": {
+        "Arguments of Petitioner": 0.228,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0025,
+        "Facts": 0.7096,
+        "Issue": 0.0103,
+        "Reasoning": 0.0432
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The petitioner further submits that there is no proceeding whatsoever pending under any of these sections and, therefore, there cannot be any provisional attachment of the petitioners property.",
+      "predicted_label": "Facts",
+      "confidence": 0.5002,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4125,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0025,
+        "Facts": 0.5002,
+        "Issue": 0.0263,
+        "Reasoning": 0.0511
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 14,
+      "text": "The petitioner further submits that the only authority for making such attachment is the Commissioner, as provided under subsection (24) of section 2 of the CGST Act but, there is no order of provisional attachment passed under section 83 of the CGST Act and no procedure whatsoever, as required under law has been followed.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6084,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6084,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0021,
+        "Facts": 0.3161,
+        "Issue": 0.0242,
+        "Reasoning": 0.0443
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "It is also submitted that there is no provision in the CGST Act authorising any authority to freeze or block the ECL. 9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7412,
+        "Arguments of Respondent": 0.2313,
+        "Decision": 0.0003,
+        "Facts": 0.0199,
+        "Issue": 0.0004,
+        "Reasoning": 0.0069
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The petitioner submits that it sent representation on 2.7.2021, protesting against the unlawful attachment of its property and blocking of ECL and also sent a reminder on 14.7.2021 with a request to unblock the ECL.",
+      "predicted_label": "Facts",
+      "confidence": 0.6306,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2962,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0022,
+        "Facts": 0.6306,
+        "Issue": 0.0046,
+        "Reasoning": 0.0593
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "The petitioner submits that the representation, however, was rejected by respondent no.1 for reasons not earlier recorded.",
+      "predicted_label": "Facts",
+      "confidence": 0.7864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1577,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0002,
+        "Facts": 0.7864,
+        "Issue": 0.0028,
+        "Reasoning": 0.0491
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The petitioner further submits that it was at this time that the petitioner learnt about the fact that blocking of petitioners ECL was done under rule 86A of the Central Goods and Service Tax Rules, 2017 (for short Rules, 2017).",
+      "predicted_label": "Facts",
+      "confidence": 0.6234,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3513,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0004,
+        "Facts": 0.6234,
+        "Issue": 0.0053,
+        "Reasoning": 0.0139
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "The petitioner maintains that the procedure prescribed in rule 86A, however, was not followed.",
+      "predicted_label": "Facts",
+      "confidence": 0.5819,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2807,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0016,
+        "Facts": 0.5819,
+        "Issue": 0.0103,
+        "Reasoning": 0.1205
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "The petitioner further submits that such an action on the part of the respondents is illegal and contrary to the provisions of section 83 of the CGST Act and also 86A of Rules, 2017.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.681,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.001,
+        "Facts": 0.241,
+        "Issue": 0.0339,
+        "Reasoning": 0.0379
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "The petitioner has termed this action unconstitutional although, there is no prayer made for declaring rule 86A of Rules, 2017 as ultra vires the Constitution or any substantive provision of the CGST Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6773,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0022,
+        "Facts": 0.1936,
+        "Issue": 0.0126,
+        "Reasoning": 0.1093
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The petitioner also submits that power to attach the ECL which is the result of the blocking of ECL, cannot be exercised without quantifying the amount of wrong availment of credit in ECL as per the provisions of rule 86A. 11.",
+      "predicted_label": "Facts",
+      "confidence": 0.5596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.391,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0013,
+        "Facts": 0.5596,
+        "Issue": 0.0083,
+        "Reasoning": 0.0329
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "On these grounds, the petitioner has prayed for quashing of action of blocking of ECL and has also prayed for issuance of a direction to respondent no.2  Union of India to come out with proper guidelines for responsible exercise of power under rule 86A of the Rules, 2017, as in the opinion of the petitioner, provisions of rule 86A of the Rules, 2017, are being misused with detrimental effect on the business of assessees like the petitioner.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5245,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0009,
+        "Facts": 0.4265,
+        "Issue": 0.0296,
+        "Reasoning": 0.0159
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 24,
+      "text": "Respondent nos.1 and 4 have filed one reply and respondent no.3 has filed a separate reply.",
+      "predicted_label": "Facts",
+      "confidence": 0.7945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.1551,
+        "Decision": 0.0019,
+        "Facts": 0.7945,
+        "Issue": 0.0101,
+        "Reasoning": 0.0338
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Both the replies strongly oppose the petition and contend that the action taken against the petitioner is strictly in accordance with law inasmuch as during the investigation carried on by respondent no.3, it was found that the petitioner had fraudulently availed of credit in its ECL as the petitioner company was not found to be in existence in Maharashtra and was not carrying on its business in the State of Maharashtra.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.855,
+        "Decision": 0.0002,
+        "Facts": 0.1235,
+        "Issue": 0.0005,
+        "Reasoning": 0.0147
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "It has been stated, in particular by respondent no.3, that the principal place of business shown by the petitioner and reflected in the registration certificate was fraudulent as the investigation made by respondent no.3 disclosed that the petitioner company never existed at this address and that the petitioner did not occupy these premises for conducting its business.",
+      "predicted_label": "Facts",
+      "confidence": 0.5192,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.3662,
+        "Decision": 0.0003,
+        "Facts": 0.5192,
+        "Issue": 0.0014,
+        "Reasoning": 0.1056
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Respondent no.3 has further stated that it was found that one document uploaded on the CGST portal in proof of address of principal place of business of the petitioner, a rental agreement dated 3.10.2017, was in respect of different address and showed that the name of the owner was not correctly written.",
+      "predicted_label": "Facts",
+      "confidence": 0.8092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.1245,
+        "Decision": 0.0003,
+        "Facts": 0.8092,
+        "Issue": 0.0053,
+        "Reasoning": 0.0548
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Respondent no.3 submits that invoices and ebills prepared online by company disclosed an address from where the company never operated.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.634,
+        "Decision": 0.0003,
+        "Facts": 0.3182,
+        "Issue": 0.0014,
+        "Reasoning": 0.0415
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "Respondent no.3 further submits that this investigation ultimately has showed that the petitioner company has availed of credit to the extent of Rs.49.19 crore in the ECL during the period from July 2017 to September 2020 fraudulently and illegally and, therefore, it is liable to be recovered along with interest and consequential penalties.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7013,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.7013,
+        "Decision": 0.0007,
+        "Facts": 0.261,
+        "Issue": 0.0018,
+        "Reasoning": 0.0314
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "It is also submitted by respondent no.3 that as there was no facility available for blocking ECL at the central level, recommendation was made to respondent nos.1 and 4 for blocking of the same.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.8016,
+        "Decision": 0.0004,
+        "Facts": 0.1007,
+        "Issue": 0.0005,
+        "Reasoning": 0.0894
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Respondent nos.1 and 4 have also on their part submitted that as it was desired by respondent no.3 that ECL be blocked, it was blocked by them by invoking the power under rule 86A of the Rules, 2017.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.9648,
+        "Decision": 0.0001,
+        "Facts": 0.013,
+        "Issue": 0.0002,
+        "Reasoning": 0.0192
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Shri Mirza, learned counsel for the petitioner submits that the entire action of respondents is arbitrary, illegal and contrary to express provisions of CGST Act and Rules, 2017 made thereunder.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9368,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9368,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0007,
+        "Facts": 0.0381,
+        "Issue": 0.0023,
+        "Reasoning": 0.021
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "He submits that there is no provision in the Act or Rules, which enables the authorities to block or freeze the ECL.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5669,
+        "Arguments of Respondent": 0.4195,
+        "Decision": 0.0005,
+        "Facts": 0.0049,
+        "Issue": 0.0003,
+        "Reasoning": 0.0079
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "He further submits that the illegal blocking of ECL has resulted into attachment of the property of the petitioner, which cannot be done without following the provisions made under section 83 of the CGST Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8706,
+        "Arguments of Respondent": 0.0957,
+        "Decision": 0.0005,
+        "Facts": 0.0263,
+        "Issue": 0.0006,
+        "Reasoning": 0.0063
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "He further submits that in any case section 83 of the CGST Act is not applicable here.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4829,
+        "Arguments of Respondent": 0.5049,
+        "Decision": 0.0004,
+        "Facts": 0.0036,
+        "Issue": 0.0004,
+        "Reasoning": 0.0078
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 36,
+      "text": "He further submits that even the procedure prescribed under rule 86A of the Rules, 2017 has not been been followed in the present case in the sense that there is no order passed by respondent no.1 to the effect that upon consideration of some material before it, it was satisfied that there was fraudulent availment of the credit in ECL account or such credit was availed of even though the petitioner was not eligible for the same.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9702,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9702,
+        "Arguments of Respondent": 0.0259,
+        "Decision": 0.0001,
+        "Facts": 0.0017,
+        "Issue": 0.0005,
+        "Reasoning": 0.0016
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "He further submits without such an order recording reasons in writing, blocking of the ECL of the petitioner could not have been done, and even if there was any order, the blocking could have been only to the extent of the amount of credit determined to be fraudulently or wrongly availed and specifically stated therein.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7467,
+        "Arguments of Respondent": 0.2125,
+        "Decision": 0.0002,
+        "Facts": 0.0231,
+        "Issue": 0.0006,
+        "Reasoning": 0.0168
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "He further submits that there is a tendency on the part of the authorities to arbitrarily invoke the provisions of rule 86A and, therefore, it is necessary that respondent no.2 comes out with proper guidelines regulating the exercise of power under this provision of law by the authority.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5792,
+        "Arguments of Respondent": 0.3948,
+        "Decision": 0.0014,
+        "Facts": 0.01,
+        "Issue": 0.0002,
+        "Reasoning": 0.0143
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "Shri Neeraj Patil, learned AGP defending the action of respondent nos.1 and 4 submits that it is perfectly within four corners of law and there is no scope for making any interference with the action taken by the authorities.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9302,
+      "probabilities": {
+        "Arguments of Petitioner": 0.063,
+        "Arguments of Respondent": 0.9302,
+        "Decision": 0.0001,
+        "Facts": 0.0028,
+        "Issue": 0.0001,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "According to him, the action impugned herein is justifiable under rule 86A of the Rules, 2017, as the provisions made therein are wide enough in their connotation to convey the existence of power to block the ECL. 15.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5419,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5419,
+        "Arguments of Respondent": 0.4504,
+        "Decision": 0.0003,
+        "Facts": 0.0031,
+        "Issue": 0.0003,
+        "Reasoning": 0.0039
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The learned AGP further submits that indepth investigation has been carried out in this case by respondent no.3 and the investigation has revealed that the petitioner company misrepresented that it carried on its business from the address shown in the registration certificate during the period from July 2017 to September 2020 and that the petitioner company uploaded a false document as address proof because of which it has been rightly concluded by respondent no.3 that the petitioner company was not in existence at the address shown in the registration certificate during the said period and, therefore, availment of the credit in the ECL account by the petitioner was fraudulent.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5177,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5177,
+        "Arguments of Respondent": 0.4712,
+        "Decision": 0.0001,
+        "Facts": 0.0048,
+        "Issue": 0.0003,
+        "Reasoning": 0.0057
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "He further submits that such fraudulent availment of credit in its ECL by the petitioner was to the extent of Rs.49 crore and odd and this amount is liable to be recovered with penalty from the petitioner.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4633,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4633,
+        "Arguments of Respondent": 0.3352,
+        "Decision": 0.0009,
+        "Facts": 0.1771,
+        "Issue": 0.0011,
+        "Reasoning": 0.0225
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 43,
+      "text": "The learned AGP further submits that there is a delegation of authority by the Commissioner in favour of respondent no.1 regarding exercise of the power under rule 86A of the Rules, 2017 and, therefore, there is no substance in the argument that in this case, the power has been exercised by respondent no.1 without any jurisdiction.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3302,
+        "Arguments of Respondent": 0.6547,
+        "Decision": 0.0002,
+        "Facts": 0.0038,
+        "Issue": 0.0003,
+        "Reasoning": 0.0108
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "He further submits that in any case, the blocking of ECL is only for a temporary period of one year and this blocking is not equivalent to attachment of the property and at the most it amounts to imposing a restriction on the capacity of the petitioner to use credit available in its ECL.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7416,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7416,
+        "Arguments of Respondent": 0.221,
+        "Decision": 0.0004,
+        "Facts": 0.0268,
+        "Issue": 0.0007,
+        "Reasoning": 0.0095
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "The learned AGP further submits that rule 86A of the Rules, 2017 itself contains conditions without fulfillment of which power thereunder cannot be exercised, and therefore, there is no need for this Court to issue any direction to respondent no.2 for prescribing any guidelines regulating any procedure for such invocation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5483,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5483,
+        "Arguments of Respondent": 0.44,
+        "Decision": 0.0004,
+        "Facts": 0.0026,
+        "Issue": 0.0004,
+        "Reasoning": 0.0083
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 46,
+      "text": "He also submits that this petition is not maintainable as alternate remedy of appeal is available under Section 107 of CGST Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3036,
+        "Arguments of Respondent": 0.6246,
+        "Decision": 0.0022,
+        "Facts": 0.0462,
+        "Issue": 0.0009,
+        "Reasoning": 0.0226
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Shri Bhattad, learned counsel for respondent no.3 submits that the action of respondent no.1 is based upon sound reasons provided by what was revealed in the investigation carried out by respondent no.3.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.986,
+        "Decision": 0.0001,
+        "Facts": 0.0009,
+        "Issue": 0.0001,
+        "Reasoning": 0.0069
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "He further submits that this is not a case of different address or even a case of any mistake having been committed by the petitioner in stating the correct address of its principal place of business but, a case based upon documentary evidence clearly showing that the petitioner was not operating its business from any place mentioned in the registration certificate during the period from July 2017 to September 2020 and, therefore, no error could be found in the action of blocking of ECL of the petitioner by respondent no.1.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3648,
+        "Arguments of Respondent": 0.6285,
+        "Decision": 0.0002,
+        "Facts": 0.0032,
+        "Issue": 0.0003,
+        "Reasoning": 0.0031
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "He also submits that the petitioner having been registered with the State authorities and there being no facility available at the central level for blocking of ECL, request was made to respondent no.4 for blocking the same which was actually done by respondent no.1 at the request of respondent nos.3 and 4 and that too, only after being satisfied about the need for doing the same.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4318,
+        "Arguments of Respondent": 0.5542,
+        "Decision": 0.0002,
+        "Facts": 0.0057,
+        "Issue": 0.0001,
+        "Reasoning": 0.008
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 50,
+      "text": "He also submits that rule 86A of the Rules, 2017, does not require any hearing to be granted but, it requires reaching of satisfaction by the authority to invoke the power under rule 86A, and in this case, the material provided by respondent no.3 was sufficient for respondent no.1 to entertain such satisfaction to find that it was necessary for her to block the ECL of the petitioner.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3101,
+        "Arguments of Respondent": 0.6859,
+        "Decision": 0.0002,
+        "Facts": 0.0009,
+        "Issue": 0.0003,
+        "Reasoning": 0.0027
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "He also submits that there is no need for issuing any direction to the Union of India for framing of guidelines to regulate exercise of power under rule 86A by the authorities as the rule itself regulates it.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8064,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1821,
+        "Arguments of Respondent": 0.8064,
+        "Decision": 0.0008,
+        "Facts": 0.0019,
+        "Issue": 0.0001,
+        "Reasoning": 0.0086
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "On these grounds, he urges that the petition be dismissed.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.9876,
+        "Decision": 0.0005,
+        "Facts": 0.0007,
+        "Issue": 0.0002,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The first issue is about maintainability of this petition, there being an alternate remedy available under section 107 of the CGST Act, as contended by the respondent nos.1 and 4.",
+      "predicted_label": "Issue",
+      "confidence": 0.8055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0207,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0019,
+        "Facts": 0.0235,
+        "Issue": 0.8055,
+        "Reasoning": 0.1339
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "The second issue is as regards the power of respondent no.1, a Deputy Commissioner, to pass the order of blocking of ECL without having any authority, a contention raised by the petitioner.",
+      "predicted_label": "Issue",
+      "confidence": 0.7334,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0634,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0011,
+        "Facts": 0.0801,
+        "Issue": 0.7334,
+        "Reasoning": 0.111
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Under section 107(1), any person aggrieved by any decision or order passed under the CGST Act or the State GST Act or the Union Territory GST Act by an adjudicating authority may appeal to such Appellate Authority as may be prescribed within three months from the date on which the said decision or order is communicated to such person.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1745,
+        "Arguments of Respondent": 0.046,
+        "Decision": 0.003,
+        "Facts": 0.0236,
+        "Issue": 0.0009,
+        "Reasoning": 0.752
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "Reading the provision, we can see that appeal under section 107(1) can be filed against a decision or order passed under Central GST Act or State GST Act or the Union Territory GST Act by an adjudicating authority.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9368,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0266,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0088,
+        "Facts": 0.0192,
+        "Issue": 0.0013,
+        "Reasoning": 0.9368
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "It is also clear that this provision does not include any decision or order passed under the Rules framed under Central GST Act or any other Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8345,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1152,
+        "Arguments of Respondent": 0.0283,
+        "Decision": 0.0017,
+        "Facts": 0.0194,
+        "Issue": 0.0009,
+        "Reasoning": 0.8345
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "In this case, the respondents maintain that the impugned order and action has been passed and taken under rule 86A of the Rules, 2017.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0476,
+        "Arguments of Respondent": 0.3439,
+        "Decision": 0.0019,
+        "Facts": 0.2263,
+        "Issue": 0.0141,
+        "Reasoning": 0.3663
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 59,
+      "text": "Therefore, we find that no appeal remedy could have been available to the petitioner under this provision.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9234,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0229,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0006,
+        "Facts": 0.0383,
+        "Issue": 0.0003,
+        "Reasoning": 0.9234
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "A careful perusal of the provision would show that the revisional power conferred upon the Commissioner is in respect of an order passed by an adjudicating authority and the expression, adjudicating authority, as defined in section 2(4) excludes the Revisional Authority from its ambit, as rightly submitted by Shri Mirza, learned counsel for the petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9392,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0153,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0004,
+        "Facts": 0.0345,
+        "Issue": 0.0009,
+        "Reasoning": 0.9392
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "It is, therefore, clear that the petitioner could not have filed any revision petition before the Commissioner under section 107(2) of the CGST Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7494,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0412,
+        "Arguments of Respondent": 0.0217,
+        "Decision": 0.0036,
+        "Facts": 0.1834,
+        "Issue": 0.0006,
+        "Reasoning": 0.7494
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "In any case, no authority, Commissioner here, can be a revisional authority against his own order, though he can be a reviewing authority against his own order, if power of review is expressly conferred upon him.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0714,
+        "Arguments of Respondent": 0.103,
+        "Decision": 0.0008,
+        "Facts": 0.0182,
+        "Issue": 0.0005,
+        "Reasoning": 0.8061
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "Thus, neither under subsection (1) nor under subsection (2) of section 107, the petitioner could have found any succour for resolution of its grievance and, therefore, we reject the contention of the respondents that this petition is not maintainable due to availability of an alternate remedy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9014,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0171,
+        "Facts": 0.0658,
+        "Issue": 0.0007,
+        "Reasoning": 0.9014
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "24.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7923,
+        "Arguments of Respondent": 0.0609,
+        "Decision": 0.0039,
+        "Facts": 0.0179,
+        "Issue": 0.0143,
+        "Reasoning": 0.1108
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "The petitioner has raised an issue of jurisdiction contending that the impugned order of blocking the ECL could not have been passed by an authority like the Deputy Commissioner i.e. respondent no.1 and ought to have been passed, if at all, by the Commissioner as per rule 86A. We find no merit in the contention as this rule itself shows that the power can be exercised not only by the Commissioner but also by an officer authorised by him in this behalf and only restriction is that the delegate of the Commissioner cannot be an officer who is below the rank of an Assistant Commissioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2437,
+        "Arguments of Respondent": 0.0297,
+        "Decision": 0.0015,
+        "Facts": 0.1738,
+        "Issue": 0.0107,
+        "Reasoning": 0.5405
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "In this case, there is no dispute about the fact that respondent no.1, a Deputy Commissioner holding the rank above an Assistant Commissioner, was duly authorised by the Commissioner to initiate action under section 86A of the CGST Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9021,
+      "probabilities": {
+        "Arguments of Petitioner": 0.03,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0006,
+        "Facts": 0.0565,
+        "Issue": 0.0013,
+        "Reasoning": 0.9021
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "Now, let us consider the main issues involved in the petition.",
+      "predicted_label": "Issue",
+      "confidence": 0.7316,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0005,
+        "Facts": 0.1064,
+        "Issue": 0.7316,
+        "Reasoning": 0.1437
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "These issues, in our opinion, raise following questions (i) Whether blocking of Electronic Credit Ledger (ECL) under Rule 86A of the Central Goods and Services Tax Rules, 2017 amounts to provisional attachment of property under section 83 of the Central Goods and Services Act, 2017 and if so, whether it could have been done without following conditions and procedure prescribed in section 83 of the Central Goods and Services Tax Act, 2017 (ii) Whether rule 86A of Rules, 2017 permits blocking of the ECL, and if yes, to what extent (iii) Whether the order of blocking of Electronic Credit Ledger (ECL) is arbitrary and illegal (iv) Whether, in the facts and circumstances of this case, the respondents are justified in blocking Electronic Credit Ledger (ECL) under rule 86A of Central Goods and Services Tax Rules, 2017 26.",
+      "predicted_label": "Issue",
+      "confidence": 0.7441,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0064,
+        "Facts": 0.1388,
+        "Issue": 0.7441,
+        "Reasoning": 0.1047
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "The effect of the power exercised under this provision of law, is that of an embargo placed upon utilisation of the amount of credit or refund of the unutilised amount of credit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1019,
+        "Arguments of Respondent": 0.0464,
+        "Decision": 0.0006,
+        "Facts": 0.0599,
+        "Issue": 0.0009,
+        "Reasoning": 0.7902
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "It is quite like maintaining status quo in respect of the amount of credit available in the ECL.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0202,
+        "Arguments of Respondent": 0.1662,
+        "Decision": 0.0045,
+        "Facts": 0.0625,
+        "Issue": 0.0004,
+        "Reasoning": 0.7463
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "This effect is not akin to seizure of the credit amount for its consequent appropriation for realisation of tax dues as would happen in the case of attachment of property.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9268,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0134,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0019,
+        "Facts": 0.0424,
+        "Issue": 0.0001,
+        "Reasoning": 0.9268
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "While amount of credit lying in the ECL could be considered to be the property of the tax payer, if viewed from perspective of ownership or entitlement of the tax payer over the same, not allowing use of such property for discharging liability to pay tax, penalty etc. under section 49 of the Central GST or not permitting its refund to the tax payer cannot seen as seizure or attachment of the property.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0494,
+        "Arguments of Respondent": 0.0292,
+        "Decision": 0.0048,
+        "Facts": 0.0093,
+        "Issue": 0.0002,
+        "Reasoning": 0.9071
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "In attachment of property, the custody of the property is, actually or symbolically, taken over by the department with a view to protect the property from being transferred or altered in character, so that it can be appropriated, if the need arises, for realising tax dues.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0197,
+        "Arguments of Respondent": 0.0259,
+        "Decision": 0.0003,
+        "Facts": 0.0102,
+        "Issue": 0.0004,
+        "Reasoning": 0.9435
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "But, in case of blocking of ECL under rule 86A, the custody of the property remains with the tax prayer but disability is created on his capacity to utilise it or receive the refund of unutilised credit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1074,
+        "Arguments of Respondent": 0.1708,
+        "Decision": 0.0049,
+        "Facts": 0.0265,
+        "Issue": 0.0004,
+        "Reasoning": 0.6899
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "The power of provisional attachment of the property under section 83 of the CGST Act can be exercised only after initiation of any proceeding under Chapters XII, XIV and XV, which relate to assessment, inspection, search, seizure, arrest and demands and recovery of tax not paid or shortly paid or erroneously paid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0863,
+        "Arguments of Respondent": 0.0473,
+        "Decision": 0.026,
+        "Facts": 0.0273,
+        "Issue": 0.0005,
+        "Reasoning": 0.8125
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "For invoking the power under rule 86A, it is not necessary that proceeding under any of the said Chapters is initiated and it can be exercised, when conditions prescribed therein are met.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8072,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1535,
+        "Arguments of Respondent": 0.0284,
+        "Decision": 0.0015,
+        "Facts": 0.0091,
+        "Issue": 0.0003,
+        "Reasoning": 0.8072
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "It is thus clear that the power under rule 86A is quite distinct from the power under section 83 and, therefore, any order passed under rule 86A cannot be treated as the order amounting to the provisional attachment of property under section 83 of CGST Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0843,
+        "Arguments of Respondent": 0.0242,
+        "Decision": 0.0048,
+        "Facts": 0.0324,
+        "Issue": 0.0001,
+        "Reasoning": 0.8542
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "For the aforestated reasons, the argument made by learned counsel for the petitioner that the impugned order is no less than an order for provisional attachment under section 83 is rejected and the first question is answered in terms that the impugned order could not be understood as the order amounting to provisional attachment of property under section 83 of the CGST Act and, therefore, further question regarding following of the procedure prescribed in section 83 would not arise.",
+      "predicted_label": "Decision",
+      "confidence": 0.5342,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.5342,
+        "Facts": 0.0595,
+        "Issue": 0.0007,
+        "Reasoning": 0.4024
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 79,
+      "text": "The learned counsel for the petitioner has relied upon the case of Radha Krishan Industries Vs. State of Himachal Pradesh and others (2021)6 SCC 771 to support his argument that the procedure prescribed in section 83 must be followed and that the exercise of power under section 83 must be preceded by formation of opinion of the Commissioner that it is necessary for him so to do for the purpose of protecting the interest of the Government which is not reflected in the impugned order.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9392,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9392,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0006,
+        "Facts": 0.0218,
+        "Issue": 0.0013,
+        "Reasoning": 0.0352
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "However, as we have found that the impugned order could not be considered as the one passed in exercise of power under section 83 of the CGST Act, in our respectful submission, the case of Radha Krishan Industries (supra) would render no assistance to the petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0013,
+        "Facts": 0.0375,
+        "Issue": 0.0005,
+        "Reasoning": 0.9487
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "Coming to the second and third questions, which can be answered together, we are of the view that a closure examination of the provisions made in rule 86A would throw much required light on these questions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0022,
+        "Facts": 0.0084,
+        "Issue": 0.0422,
+        "Reasoning": 0.938
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "A careful perusal of the above referred provisions would show that there is no specific mention therein about the blocking of the ECL and what is stated is that the Competent Authority may not allow debit of an amount equivalent to an amount determined or found to be fraudulently or wrongly shown as credit available in the ECL for discharge of any liability under Section 49 or any equivalent refund of an unutilised amount of credit in the ECL.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0001,
+        "Facts": 0.0222,
+        "Issue": 0.0003,
+        "Reasoning": 0.9605
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Disallowing debit of an amount to the ECL is nothing but blocking of the ECL.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1198,
+        "Arguments of Respondent": 0.1474,
+        "Decision": 0.0004,
+        "Facts": 0.0353,
+        "Issue": 0.0002,
+        "Reasoning": 0.6968
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "But, such blocking of the ECL cannot be for an amount which is more than the amount found to be fraudulently or wrongly availed of.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9155,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0345,
+        "Arguments of Respondent": 0.0305,
+        "Decision": 0.0007,
+        "Facts": 0.0185,
+        "Issue": 0.0003,
+        "Reasoning": 0.9155
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "The answer to the second question, therefore, is that rule 86A of Rules, 2017 does permit disallowance of debit of an amount to the electronic credit ledger only to the extent of fraudulent or wrong availment of credit in the ECL and such disallowance can be done through blocking of the ECL to the extent of the amount fraudulently or wrongly shown as lying in credit in the ECL. 32.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.935,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0248,
+        "Facts": 0.017,
+        "Issue": 0.0108,
+        "Reasoning": 0.935
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "Coming to the third question, we would say that rule 86A has two prerequisites to be fulfilled before the power of disallowing of debit of suitable amount to the Electronic Credit Ledger or blocking of ECL to the extent of the amount fraudulently or wrongly availed of is exercised.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9693,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0118,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0007,
+        "Facts": 0.0042,
+        "Issue": 0.0087,
+        "Reasoning": 0.9693
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "The first prerequisite is of the Competent Authority or the Commissioner having been satisfied on the basis of material available before him that blocking of ECL for the aforestated reasons is necessary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0757,
+        "Arguments of Respondent": 0.2045,
+        "Decision": 0.0018,
+        "Facts": 0.0314,
+        "Issue": 0.0046,
+        "Reasoning": 0.682
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 88,
+      "text": "The second prerequisite is of recording the reasons in writing for such an exercise of the power.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0778,
+        "Arguments of Respondent": 0.0498,
+        "Decision": 0.0001,
+        "Facts": 0.008,
+        "Issue": 0.0015,
+        "Reasoning": 0.8627
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "From the language used in rule 86A it becomes very clear that unless both these prerequisites are fulfilled, the authority cannot disallow the debit of the determined amount to the ECL or cannot block the ECL even to the extent of amount found to be fraudulently or wrongly availed of.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0135,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0002,
+        "Facts": 0.0314,
+        "Issue": 0.0009,
+        "Reasoning": 0.9448
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "In the case of Maneka Gandhi Vs. Union of India AIR 1978 SC 597 , it was held that the principle of reasonableness which legally as well as philosophically, is an essential element of equity or nonarbitrariness and it pervades Article 14 like a brooding omnipresence and the procedure contemplated by Article 21 must answer the test of reasonableness in order to be in conformity with Article 14.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3931,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3289,
+        "Arguments of Respondent": 0.3931,
+        "Decision": 0.0002,
+        "Facts": 0.0307,
+        "Issue": 0.0008,
+        "Reasoning": 0.2463
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 91,
+      "text": "Fair and reasonable exercise of power would be there only when the power is exercised in the manner prescribed in the provision of law conferring the power and for the purpose for achievement of which it exists.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0479,
+        "Arguments of Respondent": 0.0552,
+        "Decision": 0.0003,
+        "Facts": 0.013,
+        "Issue": 0.0004,
+        "Reasoning": 0.8832
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "This would underline the importance of existence of reasons to believe that there is fraudulent or erroneous availment of credit standing in the ECL.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9087,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0038,
+        "Facts": 0.0695,
+        "Issue": 0.0008,
+        "Reasoning": 0.9087
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "In other words, the power under rule 86A cannot be exercised unless there is a subjective satisfaction made on the basis of objective material by the authority.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7101,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2402,
+        "Arguments of Respondent": 0.0295,
+        "Decision": 0.0039,
+        "Facts": 0.016,
+        "Issue": 0.0002,
+        "Reasoning": 0.7101
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "As regards the following of principles of natural justice, the law is now well settled.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0329,
+        "Arguments of Respondent": 0.0312,
+        "Decision": 0.0002,
+        "Facts": 0.0151,
+        "Issue": 0.0015,
+        "Reasoning": 0.919
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "In cases involving civil consequences, these principles would be required to be followed although, the width, amplitude and extent of their applicability may differ from case to case depending upon the nature of the power to be exercised and the speed with which the power is to be used.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9144,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0686,
+        "Decision": 0.0005,
+        "Facts": 0.003,
+        "Issue": 0.0003,
+        "Reasoning": 0.9144
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "Usually, it would suppose prior hearing before its exercise (See Swadeshi Cotton Mills Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9334,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0259,
+        "Arguments of Respondent": 0.0296,
+        "Decision": 0.0005,
+        "Facts": 0.0103,
+        "Issue": 0.0004,
+        "Reasoning": 0.9334
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "Union of India (1981) 1 SCC 664 and Nirma Industries Limited and another Vs. Securities and Exchange Board of India (2013) 8 SCC 20) .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2813,
+        "Arguments of Respondent": 0.1491,
+        "Decision": 0.0097,
+        "Facts": 0.1959,
+        "Issue": 0.0037,
+        "Reasoning": 0.3603
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 98,
+      "text": "But, it is not necessary that such prior hearing would be granted in each and every case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0476,
+        "Arguments of Respondent": 0.0328,
+        "Decision": 0.0196,
+        "Facts": 0.0517,
+        "Issue": 0.0009,
+        "Reasoning": 0.8473
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "Sometimes, the power may be conferred to meet some urgency and in such a case expedition would be the hallmark of the power.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0267,
+        "Arguments of Respondent": 0.0389,
+        "Decision": 0.0002,
+        "Facts": 0.0053,
+        "Issue": 0.0002,
+        "Reasoning": 0.9287
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "In such a case, it would be practically impossible to give prior notice or prior hearing and here the rule of natural justice would expect that at least a post decisional hearing or remedial hearing is granted so that the damage done due to irrational exercise of power, if any, can be removed before things get worse.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9066,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0278,
+        "Arguments of Respondent": 0.028,
+        "Decision": 0.0007,
+        "Facts": 0.0363,
+        "Issue": 0.0005,
+        "Reasoning": 0.9066
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "In Smt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8269,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0666,
+        "Arguments of Respondent": 0.0508,
+        "Decision": 0.0007,
+        "Facts": 0.0545,
+        "Issue": 0.0005,
+        "Reasoning": 0.8269
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "Maneka Gandhi (supra), it was laid down that where there is an emergent situation requiring immediate action, giving of prior notice or opportunity to be heard may not be practicable but a full remedial hearing would have to be granted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0512,
+        "Arguments of Respondent": 0.0411,
+        "Decision": 0.0013,
+        "Facts": 0.0251,
+        "Issue": 0.0002,
+        "Reasoning": 0.8811
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "The power conferred upon the Commissioner under rule 86A is one of such kind.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0364,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0004,
+        "Facts": 0.0069,
+        "Issue": 0.0001,
+        "Reasoning": 0.9461
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "It has civil consequences though for a limited period not exceeding one year and has an element of urgency which perhaps explains why the rule does not expressly speak of any show cause notice or opportunity of hearing before the ECL is blocked.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9607,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0225,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0003,
+        "Facts": 0.0111,
+        "Issue": 0.0003,
+        "Reasoning": 0.9607
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "Of course, in order to guard against arbitrary exercise of power, the rule creates certain checks which are found in the twin requirements explained by us earlier.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9786,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0108,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0003,
+        "Facts": 0.0047,
+        "Issue": 0.0004,
+        "Reasoning": 0.9786
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "But, in our view, that may not be enough, given the nature of power, and what settled principles of law tell us in the matter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0158,
+        "Arguments of Respondent": 0.0129,
+        "Decision": 0.0002,
+        "Facts": 0.0071,
+        "Issue": 0.0004,
+        "Reasoning": 0.9635
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "They would, in such a case, require this Court to read into the provisions of rule 86A something not expressly stated therein, and so, we find that post decisional or remedial hearing would have to be granted to the person affected by blocking of his ECL.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.031,
+        "Arguments of Respondent": 0.0819,
+        "Decision": 0.1904,
+        "Facts": 0.061,
+        "Issue": 0.0018,
+        "Reasoning": 0.6339
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 108,
+      "text": "We may add that such post decisional hearing may be granted within a reasonable period of time which may not be beyond two weeks from the date of the order blocking the ECL.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.401,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.1246,
+        "Decision": 0.3817,
+        "Facts": 0.0595,
+        "Issue": 0.0015,
+        "Reasoning": 0.401
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 109,
+      "text": "After such hearing is granted, the authority may proceed to confirm the order for such period as may be permissible under the rule or revoke the order, as the case may be.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5259,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2012,
+        "Arguments of Respondent": 0.2119,
+        "Decision": 0.0017,
+        "Facts": 0.056,
+        "Issue": 0.0033,
+        "Reasoning": 0.5259
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "The second prerequisite of rule 86A is of recording of reasons in writing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1968,
+        "Arguments of Respondent": 0.027,
+        "Decision": 0.0003,
+        "Facts": 0.0115,
+        "Issue": 0.0007,
+        "Reasoning": 0.7637
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "It comes with the use of the word may, which, in our opinion, needs to be construed as conveying an imperative command of the rule maker, and that means, reasons must be recorded in writing in each and every case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0184,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0001,
+        "Facts": 0.0037,
+        "Issue": 0.0002,
+        "Reasoning": 0.9736
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "This is because of the fact that any order which brings to bear adverse consequences upon the person against whom the order is passed, must disclose the reasons for it so that the person affected thereby would know why he is being made to suffer or otherwise he would not be able to seek appropriate redressal of his grievance arising from such an order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9237,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0178,
+        "Arguments of Respondent": 0.0456,
+        "Decision": 0.005,
+        "Facts": 0.0077,
+        "Issue": 0.0003,
+        "Reasoning": 0.9237
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "Right to know the reasons behind an administrative order having civil consequences is a well embedded principle forming part of doctrine of fair play which runs like a thread through the warp and weft of the fabric of our Constitutional order made up by Articles 14 and 21 of the Constitution of India.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0106,
+        "Facts": 0.063,
+        "Issue": 0.0519,
+        "Reasoning": 0.8435
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "In the case of Andhra Bank V s. Official Liquidator (2005) 3 SCJ 762 , the Apex Court has held that an unreasoned order does not subserve the doctrine of fair play.",
+      "predicted_label": "Facts",
+      "confidence": 0.881,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0005,
+        "Facts": 0.881,
+        "Issue": 0.0011,
+        "Reasoning": 0.0979
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "It then follows that the word, may used before the words, for the reasons recorded in writing signifies nothing but a mandatory duty of the competent authority to record reasons in writing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9695,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0005,
+        "Facts": 0.0046,
+        "Issue": 0.0001,
+        "Reasoning": 0.9695
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "There is another reason which we would like to state here to support our conclusion just made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.979,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0054,
+        "Facts": 0.006,
+        "Issue": 0.0004,
+        "Reasoning": 0.979
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "The power under rule 86A is of enabling kind and it is conferred upon the Commissioner for public benefit and, therefore, it is in the nature of a public duty.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4037,
+        "Arguments of Respondent": 0.0767,
+        "Decision": 0.001,
+        "Facts": 0.022,
+        "Issue": 0.0004,
+        "Reasoning": 0.4961
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 118,
+      "text": "Essential attribute of a public duty is that it is exercised only when the circumstances so demand and not when they do not justify its performance (see Commissioner of Police, Bombay Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0965,
+        "Arguments of Respondent": 0.0458,
+        "Decision": 0.0006,
+        "Facts": 0.0101,
+        "Issue": 0.0072,
+        "Reasoning": 0.8398
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "Gordhandas Bhanji AIR (39) 1952",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4032,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2852,
+        "Arguments of Respondent": 0.2457,
+        "Decision": 0.0009,
+        "Facts": 0.0635,
+        "Issue": 0.0014,
+        "Reasoning": 0.4032
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 120,
+      "text": "Supreme Court 16).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0831,
+        "Arguments of Respondent": 0.1141,
+        "Decision": 0.0112,
+        "Facts": 0.1818,
+        "Issue": 0.0145,
+        "Reasoning": 0.5953
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 121,
+      "text": "It would then mean that justification for exercise of the power has to be found by the authority by making a subjective satisfaction on the basis of objective material and such satisfaction must be reflected in the reasons recorded in writing while exercising the power.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.059,
+        "Arguments of Respondent": 0.0835,
+        "Decision": 0.0002,
+        "Facts": 0.018,
+        "Issue": 0.0007,
+        "Reasoning": 0.8386
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "38. Examined in the light of above principles of law, the provisions made in rule 86A would require the Competent Authority to first satisfy itself, on the basis of objective material, that there are reasons to believe that credit of input tax available in ECL has been fraudulently or wrongly utilised and secondly to record these reasons in writing before the order of disallowing debit of requisite amount to the ECL or requisite refund of unutilised credit, is passed or otherwise the order of blocking the ECL under rule 86A would be unsustainable in the eye of law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0009,
+        "Facts": 0.0341,
+        "Issue": 0.0008,
+        "Reasoning": 0.9527
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "This is also the view taken in the case of M s HEC India LLP Vs. Commissioner of GST and Central Excise AuditII",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8084,
+      "probabilities": {
+        "Arguments of Petitioner": 0.145,
+        "Arguments of Respondent": 0.0257,
+        "Decision": 0.001,
+        "Facts": 0.0193,
+        "Issue": 0.0006,
+        "Reasoning": 0.8084
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "and another (WA No.2341 of 2021 dated 16.09.2021), which commends to us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3111,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1509,
+        "Arguments of Respondent": 0.2443,
+        "Decision": 0.0041,
+        "Facts": 0.284,
+        "Issue": 0.0055,
+        "Reasoning": 0.3111
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 125,
+      "text": "When the first requirement of rule 86A is of, having reasons to believe and it has manifestly been not followed, the impugned order would have to be treated as bad in law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7704,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2068,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0035,
+        "Facts": 0.0093,
+        "Issue": 0.001,
+        "Reasoning": 0.7704
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "The second requirement regarding recording of reasons in writing, it is obvious, is also followed in breach.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0314,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.001,
+        "Facts": 0.0091,
+        "Issue": 0.0002,
+        "Reasoning": 0.9528
+      }
+    },
+    {
+      "sentence_id": 127,
+      "text": "The impugned order is, therefore, an instance of arbitrary exercise of the power under rule 86A and so it is illegal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4385,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.014,
+        "Facts": 0.057,
+        "Issue": 0.0005,
+        "Reasoning": 0.4723
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 128,
+      "text": "The impugned order is illegal for another reason, as well.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0941,
+        "Arguments of Respondent": 0.0538,
+        "Decision": 0.0217,
+        "Facts": 0.0559,
+        "Issue": 0.0016,
+        "Reasoning": 0.7729
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "It does not specify the amount to the extent to which the ECL has been blocked.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0665,
+        "Arguments of Respondent": 0.0797,
+        "Decision": 0.0022,
+        "Facts": 0.1983,
+        "Issue": 0.0006,
+        "Reasoning": 0.6527
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "As explained by us earlier, the power under rule 86A does not enable the authority to impose a blanket prohibition upon utilization of credit available in the ECL.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0189,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0019,
+        "Facts": 0.033,
+        "Issue": 0.0008,
+        "Reasoning": 0.9367
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "It permits the authority to disallow debit of only that amount which has been found to be fraudulently or wrongly availed of and, therefore, if the credit amount available in the ECL is more than the amount found to be fraudulently or erroneously availed of, the entire credit amount amount lying in the ECL cannot be subjected to the disability of rule 86A.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0382,
+        "Arguments of Respondent": 0.0381,
+        "Decision": 0.0004,
+        "Facts": 0.0705,
+        "Issue": 0.0008,
+        "Reasoning": 0.852
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "The disallowance has to be restricted to only such amount which is equivalent to the amount found to be fraudulently or erroneously availed of in respect of which the credit has accumulated in the ECL, and it is only debit of this amount to the ECL which can be forbidden and not the debit of the entire amount lying in credit in the ECL.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7109,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.0018,
+        "Facts": 0.2432,
+        "Issue": 0.004,
+        "Reasoning": 0.7109
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "The impugned order has the effect of imposing complete ban on utilisation of any credit amount and not just the credit amount found to be fraudulently or erroneously and, therefore, it is illegal for this additional reason.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4625,
+        "Arguments of Respondent": 0.0732,
+        "Decision": 0.0029,
+        "Facts": 0.3528,
+        "Issue": 0.0017,
+        "Reasoning": 0.107
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 134,
+      "text": "The learned AGP for respondent nos.1, 2 and 4 and learned counsel for respondent no.3 have placed reliance upon certain correspondence between these authorities which revealed as to what weighed with the authority for issuing a direction to respondent no.1 via respondent no.4 for blocking of the ECL.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.9227,
+        "Decision": 0.0003,
+        "Facts": 0.008,
+        "Issue": 0.0002,
+        "Reasoning": 0.0642
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "These communications are of dates 27.1.2021 and 25.6.2021.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3075,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3075,
+        "Arguments of Respondent": 0.2191,
+        "Decision": 0.0155,
+        "Facts": 0.2921,
+        "Issue": 0.0401,
+        "Reasoning": 0.1256
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 136,
+      "text": "The communication dated 27.1.2021 did not give any reasons as to why the ECL of the petitioner was merited and it only said that as certain material was found during the course of investigation made against the petitioner, the blocking was found necessary.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5478,
+        "Arguments of Respondent": 0.1707,
+        "Decision": 0.0017,
+        "Facts": 0.0456,
+        "Issue": 0.0003,
+        "Reasoning": 0.2337
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 137,
+      "text": "Therefore, this communication would not help further the case of the respondents.",
+      "predicted_label": "Facts",
+      "confidence": 0.372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0992,
+        "Arguments of Respondent": 0.3074,
+        "Decision": 0.0015,
+        "Facts": 0.372,
+        "Issue": 0.0003,
+        "Reasoning": 0.2195
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 138,
+      "text": "The communication dated 25.6.2021 does no better.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0344,
+        "Arguments of Respondent": 0.0573,
+        "Decision": 0.0025,
+        "Facts": 0.0361,
+        "Issue": 0.0005,
+        "Reasoning": 0.8692
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "By this communication respondent no.4 directed respondent no.1 to take necessary action at her end by blocking of ITC of listed tax payers as per rule86A. Respondent no.1 complying with the direction, passed the impugned order of blocking of the ECL on 1.7.2021.",
+      "predicted_label": "Facts",
+      "confidence": 0.8431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0434,
+        "Decision": 0.0014,
+        "Facts": 0.8431,
+        "Issue": 0.0123,
+        "Reasoning": 0.0899
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "In the reply filed by respondent no.1, it is admitted that the blocking of ECL was done by her because there was direction received by her from respondent no.3 via respondent no.4 regarding blocking of the ECL as per rule 86A.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5328,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.5328,
+        "Decision": 0.0003,
+        "Facts": 0.2294,
+        "Issue": 0.0005,
+        "Reasoning": 0.2269
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 141,
+      "text": "This admission shows that there was an abdication of authority conferred upon respondent no.1 regarding exercise of power under rule 86A which ought to have been exercised by her after applying her mind independently in the matter, but that was not to be.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0229,
+        "Arguments of Respondent": 0.0281,
+        "Decision": 0.0004,
+        "Facts": 0.011,
+        "Issue": 0.0001,
+        "Reasoning": 0.9376
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "The surrender of the authority made by her was in favour of respondent no.3, although respondent no.3, on its part had only recommended for blocking of the ECL.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1156,
+        "Arguments of Respondent": 0.6055,
+        "Decision": 0.0009,
+        "Facts": 0.1026,
+        "Issue": 0.0004,
+        "Reasoning": 0.175
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 143,
+      "text": "This shows that exercise of power under rule 86A made by respondent no.1 was not because she was independently satisfied about the need for blocking the ECL but, was due to the fact that she felt compelled to obey the command of her superior.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5411,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.5411,
+        "Decision": 0.0009,
+        "Facts": 0.0081,
+        "Issue": 0.0001,
+        "Reasoning": 0.4326
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 144,
+      "text": "In other words, the order was passed virtually by respondent no.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0274,
+        "Arguments of Respondent": 0.0609,
+        "Decision": 0.0015,
+        "Facts": 0.595,
+        "Issue": 0.0123,
+        "Reasoning": 0.3029
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 145,
+      "text": "This is not the manner in which the law expects the power under rule 86A to be exercised.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9156,
+      "probabilities": {
+        "Arguments of Petitioner": 0.051,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0003,
+        "Facts": 0.0091,
+        "Issue": 0.0001,
+        "Reasoning": 0.9156
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "When a thing is directed to be done in a particular manner, it must be done in that manner or not at all is the well established principle of administrative law (see Chandra Kishor Jha V s. Mahavir Prasad, AIR 1999 SC 3558 and Dhananjay Reddy V s. State of Karnataka, AIR 2001 SC 1512 ), which has not been followed here.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9132,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0295,
+        "Arguments of Respondent": 0.0232,
+        "Decision": 0.0043,
+        "Facts": 0.0296,
+        "Issue": 0.0002,
+        "Reasoning": 0.9132
+      }
+    },
+    {
+      "sentence_id": 147,
+      "text": "This is one more reason for us to hold that the impugned order is arbitrary and illegal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0269,
+        "Facts": 0.0109,
+        "Issue": 0.0005,
+        "Reasoning": 0.9406
+      }
+    },
+    {
+      "sentence_id": 148,
+      "text": "For the reasons stated hereinabove, we find that the impugned order is arbitrary and illegal and it must be quashed and set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.5089,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.5089,
+        "Facts": 0.0079,
+        "Issue": 0.0003,
+        "Reasoning": 0.4789
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 149,
+      "text": "As regards fourth question, we must say here that it is not necessary for us to answer it in specific terms as the impugned order itself has been found to be not worthy of upholding.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8655,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0164,
+        "Facts": 0.0715,
+        "Issue": 0.0365,
+        "Reasoning": 0.8655
+      }
+    },
+    {
+      "sentence_id": 150,
+      "text": "The necessity for examining justification for issuance of the impugned order would have arisen, had it been held that the impugned order is sustainable in law on the touchstone of due process but requires consideration on merits, which is not the case here.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0387,
+        "Arguments of Respondent": 0.0711,
+        "Decision": 0.0042,
+        "Facts": 0.0118,
+        "Issue": 0.002,
+        "Reasoning": 0.8722
+      }
+    },
+    {
+      "sentence_id": 151,
+      "text": "The petitioner has also sought issuance of direction to the Union of India for coming out with appropriate guidelines for exercise of the power available under rule 86A. As of now, we do not think that there is any need for this Court to issue a direction as desired by the petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.47,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1406,
+        "Arguments of Respondent": 0.0217,
+        "Decision": 0.0359,
+        "Facts": 0.3258,
+        "Issue": 0.006,
+        "Reasoning": 0.47
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 152,
+      "text": "We are of the opinion that rule 86A has been adequately framed by the rule making authority so as to take care of any possible misuse of the power.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0013,
+        "Facts": 0.0037,
+        "Issue": 0.0002,
+        "Reasoning": 0.9838
+      }
+    },
+    {
+      "sentence_id": 153,
+      "text": "The authority has ensured that sufficient safeguards against the misuse of power are embedded in rule 86A itself and accordingly the rule has been framed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6121,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0996,
+        "Arguments of Respondent": 0.2442,
+        "Decision": 0.0024,
+        "Facts": 0.0412,
+        "Issue": 0.0005,
+        "Reasoning": 0.6121
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 154,
+      "text": "We have already explained in detail the meaning, extent, necessity and manner of operation of these safeguards and, therefore, we do not think that anything more than what we have done here is required to be done.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0045,
+        "Facts": 0.0096,
+        "Issue": 0.0001,
+        "Reasoning": 0.971
+      }
+    },
+    {
+      "sentence_id": 155,
+      "text": "In the result, we are of the opinion that this petition deserves to be partly allowed and it is partly allowed accordingly.",
+      "predicted_label": "Decision",
+      "confidence": 0.9624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9624,
+        "Facts": 0.0073,
+        "Issue": 0.0002,
+        "Reasoning": 0.0294
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "The impugned order of blocking of the ECL of the petitioner is hereby quashed and set aside.",
+      "predicted_label": "Facts",
+      "confidence": 0.9161,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0545,
+        "Facts": 0.9161,
+        "Issue": 0.0003,
+        "Reasoning": 0.0206
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "The respondents are at liberty to consider invocation of power under rule 86A of the Central Goods and Service Tax Rules, 2017, afresh in accordance with law and in the light of the observations made hereinabove.",
+      "predicted_label": "Decision",
+      "confidence": 0.8857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.8857,
+        "Facts": 0.0473,
+        "Issue": 0.0004,
+        "Reasoning": 0.0654
+      }
+    }
+  ]
+}

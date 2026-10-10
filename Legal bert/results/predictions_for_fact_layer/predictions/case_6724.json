@@ -1,0 +1,2501 @@
+{
+  "case_id": "6724",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "These two petitions raise identical issues based on the same set of facts.",
+      "predicted_label": "Issue",
+      "confidence": 0.6261,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0032,
+        "Facts": 0.3409,
+        "Issue": 0.6261,
+        "Reasoning": 0.0233
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "They have therefore been heard together.",
+      "predicted_label": "Issue",
+      "confidence": 0.7458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0005,
+        "Facts": 0.2496,
+        "Issue": 0.7458,
+        "Reasoning": 0.0023
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Writ Petition No.8505 of 2009 has been filed by the NRC employees union and some of its members (for the sake of convenience, the petitioners in this petition will be referred to as the staff union).",
+      "predicted_label": "Facts",
+      "confidence": 0.7389,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0208,
+        "Facts": 0.7389,
+        "Issue": 0.2338,
+        "Reasoning": 0.0043
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "Writ Petition No. 8574 of 2009 has been filed by individual workers employed in the factory of the respondent company for themselves and on behalf of 2083 workers whose names are listed in exhibit A to the Writ Petition.",
+      "predicted_label": "Issue",
+      "confidence": 0.6004,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0453,
+        "Facts": 0.3374,
+        "Issue": 0.6004,
+        "Reasoning": 0.0116
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "(for the sake of convenience, the petitioners in this petition will be referred as individual workmen).",
+      "predicted_label": "Facts",
+      "confidence": 0.8443,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0005,
+        "Facts": 0.8443,
+        "Issue": 0.1408,
+        "Reasoning": 0.0071
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Both these writ petitions, have been filed to challenge the execution and implementation of settlements which the employer i.e. the NRC Limited (for short, hereinafter referred to as the company) has arrived at with NRC Mazdoor Sangh (for short, the Mazdoor Sangh), which claims to be a recognised union under the Maharashtra Recognition of Trade Unions and Prevention of Unfair Labour Practices Act, 1971 (for brevity the MRTU an PULP Act).",
+      "predicted_label": "Issue",
+      "confidence": 0.8389,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0013,
+        "Facts": 0.1587,
+        "Issue": 0.8389,
+        "Reasoning": 0.0005
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The principal challenge in both these petitions is to the settlement which is purportedly signed on 5.9.2008 in conciliation on the ground that the mandatory requirements of section 12 of the Industrial Disputes Act,1947 and Rule 11 of the Industrial Disputes (Bombay) Rules, 1957 have been breached and, it is therefore, not binding on either the staff union and its members or the individual workmen of the factory.",
+      "predicted_label": "Issue",
+      "confidence": 0.622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0004,
+        "Facts": 0.3441,
+        "Issue": 0.622,
+        "Reasoning": 0.0174
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The settlement has also been challenged on the ground that it violates the provisions of section 25O and section 25N of the Industrial Disputes Act.2.",
+      "predicted_label": "Issue",
+      "confidence": 0.8138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0006,
+        "Facts": 0.1741,
+        "Issue": 0.8138,
+        "Reasoning": 0.0061
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The Company was running three plants with a composite factory licence for the manufacture of nylon, rayon and chemicals in its factory at Mohane in District Thane.",
+      "predicted_label": "Facts",
+      "confidence": 0.9792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0,
+        "Facts": 0.9792,
+        "Issue": 0.0024,
+        "Reasoning": 0.0111
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The factory was established over 442.55 acres of land.",
+      "predicted_label": "Facts",
+      "confidence": 0.8813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.013,
+        "Arguments of Respondent": 0.017,
+        "Decision": 0.0001,
+        "Facts": 0.8813,
+        "Issue": 0.0011,
+        "Reasoning": 0.0874
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The individual workmen were engaged in the factory and were represented by the Maharashtra General Kamgar Union till 2001.",
+      "predicted_label": "Facts",
+      "confidence": 0.7869,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0288,
+        "Arguments of Respondent": 0.0277,
+        "Decision": 0.0001,
+        "Facts": 0.7869,
+        "Issue": 0.0032,
+        "Reasoning": 0.1533
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "Thereafter, the certificate of recognition was granted to Respondent No.3 union i.e. the Mazdoor Sangh on an application being filed by it u s 14 of the MRTU PULP Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.7749,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0792,
+        "Arguments of Respondent": 0.0579,
+        "Decision": 0.0014,
+        "Facts": 0.7749,
+        "Issue": 0.0058,
+        "Reasoning": 0.0808
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The staff employed by the company worked in the Head Office which was situated outside the precincts of the factory and in Mumbai city.",
+      "predicted_label": "Facts",
+      "confidence": 0.849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0183,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.0001,
+        "Facts": 0.849,
+        "Issue": 0.0012,
+        "Reasoning": 0.1155
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The staff union was accorded recognition in 1991 under the MRTU PULP Act and continued to represent the staff employed by the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.6015,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2274,
+        "Arguments of Respondent": 0.1228,
+        "Decision": 0.0007,
+        "Facts": 0.6015,
+        "Issue": 0.0033,
+        "Reasoning": 0.0444
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Several settlements were signed by it with the company in respect of the service conditions of the staff employed by the company the last of such settlements was dated 25.8.1993 which was in force till 1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.9162,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0001,
+        "Facts": 0.9162,
+        "Issue": 0.0018,
+        "Reasoning": 0.054
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Thereafter, the staff union raised a charter of demands for revision of the service conditions of the staff.",
+      "predicted_label": "Facts",
+      "confidence": 0.8499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0219,
+        "Arguments of Respondent": 0.0367,
+        "Decision": 0.0004,
+        "Facts": 0.8499,
+        "Issue": 0.0016,
+        "Reasoning": 0.0895
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The demands were referred for adjudication to the Industrial Tribunal under Reference (IT) No.10 of 1997.",
+      "predicted_label": "Facts",
+      "confidence": 0.9639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9639,
+        "Issue": 0.033,
+        "Reasoning": 0.0023
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The Company too raised its demands qua the service conditions of the members of the staff union which were also referred for adjudication being Reference (IT) No.12 of 1997.",
+      "predicted_label": "Facts",
+      "confidence": 0.925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0002,
+        "Facts": 0.925,
+        "Issue": 0.0015,
+        "Reasoning": 0.0551
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Both these references are pending before the Industrial Tribunal.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0002,
+        "Facts": 0.9945,
+        "Issue": 0.0029,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The staff was shifted from the Mumbai offices located in the Eros Building and in Ewart House to the factory premises in Mohane during the period from April 1995 to March 1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.6093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.033,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.0001,
+        "Facts": 0.6093,
+        "Issue": 0.0005,
+        "Reasoning": 0.3414
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "The Mazdoor Sangh which claims to have obtained recognition under the MRTU PULP Act in the place of the Maharashtra General Kamgar Union in 2001 did not file an application in either of the references being Reference Nos.(IT) Nos.10 of 1997 and 12 of 1997 to permit it instead of the staff union to represent the workmen i.e. the staff before the Tribunal.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0011,
+        "Facts": 0.9849,
+        "Issue": 0.0008,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "It appears that the company was declared a sick company in 1987.",
+      "predicted_label": "Facts",
+      "confidence": 0.7275,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0258,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0008,
+        "Facts": 0.7275,
+        "Issue": 0.0049,
+        "Reasoning": 0.2143
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "As its net worth increased, by an order dated 10.1.1994 the Board for Industrial and Financial Reconstruction (for short, BIFR) discharged the company from the purview of the Sick Industrial Companies (Special Provisions) Act, 1985 (for short, SICA).",
+      "predicted_label": "Facts",
+      "confidence": 0.9832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9832,
+        "Issue": 0.014,
+        "Reasoning": 0.0013
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "According to the Company, it undertook several measures in order to reduce the losses which it had incurred.",
+      "predicted_label": "Facts",
+      "confidence": 0.9227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0175,
+        "Decision": 0.0001,
+        "Facts": 0.9227,
+        "Issue": 0.0007,
+        "Reasoning": 0.0525
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "However, in the financial year 20052006, there was a gradual erosion of the working capital of the company and consequently it was faced by a financial crunch.",
+      "predicted_label": "Facts",
+      "confidence": 0.8313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0002,
+        "Facts": 0.8313,
+        "Issue": 0.0004,
+        "Reasoning": 0.1305
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "It appears that the Company decided to dispose off surplus land owned by it in the factory precincts in 20052006 in order to raise funds for the financial restructuring of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.7724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0002,
+        "Facts": 0.7724,
+        "Issue": 0.0005,
+        "Reasoning": 0.2028
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "On 1.3.2007 it entered into an agreement to sell approximately 344 acres of land to K.Raheja Universal Ltd. On obtaining no objection certificates from its secured creditors, namely, several nationalised banks.",
+      "predicted_label": "Facts",
+      "confidence": 0.9343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0001,
+        "Facts": 0.9343,
+        "Issue": 0.0041,
+        "Reasoning": 0.0216
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The production activities in the nylon plant were discontinued by the company in November 2007.",
+      "predicted_label": "Facts",
+      "confidence": 0.9235,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0001,
+        "Facts": 0.9235,
+        "Issue": 0.0009,
+        "Reasoning": 0.0488
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "According to the company, it was required to undertake multifarious measures for restructuring its finances and while doing so, it entered into a settlement with the Mazdoor Sangh on 5.9.2008, which included a clause for an early retirement scheme.",
+      "predicted_label": "Facts",
+      "confidence": 0.9578,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.0,
+        "Facts": 0.9578,
+        "Issue": 0.0007,
+        "Reasoning": 0.0164
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The company claims that out of the total strength of 3725 employees, including the clerical staff, , about 577 opted for the scheme.",
+      "predicted_label": "Facts",
+      "confidence": 0.8066,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.0323,
+        "Decision": 0.0001,
+        "Facts": 0.8066,
+        "Issue": 0.0021,
+        "Reasoning": 0.1321
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The operations in the Rayon plant were stopped in July 2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.5213,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0903,
+        "Arguments of Respondent": 0.0838,
+        "Decision": 0.0003,
+        "Facts": 0.5213,
+        "Issue": 0.0002,
+        "Reasoning": 0.3042
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "An application was submitted by the company to the BIFR u s 15(1) of the SICA.",
+      "predicted_label": "Facts",
+      "confidence": 0.9477,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0001,
+        "Facts": 0.9477,
+        "Issue": 0.0006,
+        "Reasoning": 0.0385
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "It was declared a sick company u s 17(3) of the SICA by the BIFR on 16.7.2009.",
+      "predicted_label": "Facts",
+      "confidence": 0.9455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0002,
+        "Facts": 0.9455,
+        "Issue": 0.0049,
+        "Reasoning": 0.0401
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "An appeal was filed by the company before the AAIFR.",
+      "predicted_label": "Facts",
+      "confidence": 0.9666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0001,
+        "Facts": 0.9666,
+        "Issue": 0.0037,
+        "Reasoning": 0.0238
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The AAIFR reversed the findings of the BIFR and, therefore, writ petitions were filed in this Court by the company as also by the NRC Employees Union and the NRC Mazdoor Sangh.",
+      "predicted_label": "Facts",
+      "confidence": 0.9543,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0004,
+        "Facts": 0.9543,
+        "Issue": 0.0233,
+        "Reasoning": 0.0164
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "This Court disposed off those writ petitions by judgement and order dated 29.7.2011.",
+      "predicted_label": "Facts",
+      "confidence": 0.9778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0002,
+        "Facts": 0.9778,
+        "Issue": 0.0072,
+        "Reasoning": 0.0121
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The order passed by the appellate authority was set aside and the order passed by the BIFR was confirmed in those petitions by the Division Bench of this court to which one of us (Marlapalle, J.) was a party.6",
+      "predicted_label": "Facts",
+      "confidence": 0.8726,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0005,
+        "Facts": 0.8726,
+        "Issue": 0.0065,
+        "Reasoning": 0.0791
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The staff union became aware of the settlement between the company and the Mazdoor Sangh which claimed to represent the individual workmen and other manual workers as well as the staff only when an application was submitted before the Tribunal by the company in the aforesaid references on 12.12.2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.4104,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1113,
+        "Arguments of Respondent": 0.1104,
+        "Decision": 0.0003,
+        "Facts": 0.4104,
+        "Issue": 0.002,
+        "Reasoning": 0.3655
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "In its application, the company requested the Tribunal to dispose off the references since it had entered into a settlement in conciliation on 5.9.2008 with the recognised union, namely, the Mazdoor Sangh.",
+      "predicted_label": "Facts",
+      "confidence": 0.9625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0002,
+        "Facts": 0.9625,
+        "Issue": 0.0017,
+        "Reasoning": 0.0269
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The staff union has opposed this application submitted by the company on 12.12.2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.7203,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0651,
+        "Arguments of Respondent": 0.0585,
+        "Decision": 0.0008,
+        "Facts": 0.7203,
+        "Issue": 0.0024,
+        "Reasoning": 0.1529
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "No orders have been passed as yet on that application.",
+      "predicted_label": "Facts",
+      "confidence": 0.6361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0394,
+        "Arguments of Respondent": 0.0211,
+        "Decision": 0.0123,
+        "Facts": 0.6361,
+        "Issue": 0.0695,
+        "Reasoning": 0.2217
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "A lockout notice dated 15.11.2009 was issued by the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0001,
+        "Facts": 0.9844,
+        "Issue": 0.0032,
+        "Reasoning": 0.0098
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "That lockout has not been lifted as yet.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0003,
+        "Facts": 0.9861,
+        "Issue": 0.0009,
+        "Reasoning": 0.0068
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Three settlements have been challenged in these petitions i.e. the settlement of 5.9.2008, which the company claims is a settlement in conciliation and the subsequent settlements dated 10.12.2008 and 17.1.2009 signed u s 2(p) by the company with the Mazdoor Sangh, extending the period within which the settlement dated 5.9.2008 was to take effect.",
+      "predicted_label": "Issue",
+      "confidence": 0.7634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0003,
+        "Facts": 0.2027,
+        "Issue": 0.7634,
+        "Reasoning": 0.0111
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The principal grounds on which these settlements have been challenged in Writ Petition No.8505 of 2009 filed by the Staff Union are(i) the Mazdoor Sangh could not enter into a settlement with respect to the staff as it did not represent the staff (ii) the settlement dated 5.9.2008 is not a settlement signed in conciliation as the provisions of the Industrial Disputes Act and the Rules framed thereunder have been violated (iii) the settlement cannot be said to be binding on the staff when historically the service conditions of the staff have always been different from the factory workmen (iv) the recognition accorded to the staff union in 1991 does not automatically come to an end because their workplace is shifted (v) the settlements are in breach of section 33(1) of the Industrial Disputes Act as no permission has been obtained from the Industrial Tribunal where the aforesaid references are pending, before effecting a change in the working conditions of the staff by the three settlements challenged in the petition and (vi) these settlements have changed the service conditions, without issuing a notice of change under Section 9A of the Industrial Disputes Act.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.8633,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0456,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0002,
+        "Facts": 0.8633,
+        "Issue": 0.0412,
+        "Reasoning": 0.0357
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "The individual workmen have challenged these settlements in the writ petition filed by them being writ petition No.8574 of 2009 on the grounds that (i) no charter of demands was raised by the Mazdoor Sangh in respect of the terms of the settlement (ii) the demands of the management which were admitted in conciliation were with respect to enhancing the production norms and reduction of 1800 persons through an early retirement scheme (iii) the settlement violates the provisions of section 25O, 25M and 25N of the Industrial Disputes Act and, therefore, cannot be binding on the individual workmen (iv) the conciliation officer has abdicated his statutory duties while terming the settlement of 5.9.2008 as a settlement signed in conciliation (v) demands which were not admitted into conciliation could not be a part of a settlement in conciliation.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.8455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0884,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0005,
+        "Facts": 0.8455,
+        "Issue": 0.0416,
+        "Reasoning": 0.0173
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "At the hearing of these two petitions, Mr. Talsania, the learned Counsel appearing for the Company, and Mr. Bapat, appearing for the Mazdoor Sangh, raised two preliminary issues, namely, that the writ petitions challenging the settlement in conciliation were not maintainable and that the petitioners in either petition did not have the locus to challenge the settlement, as the Mazdoor Sangh was the recognised union.",
+      "predicted_label": "Facts",
+      "confidence": 0.7018,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0347,
+        "Arguments of Respondent": 0.2205,
+        "Decision": 0.0004,
+        "Facts": 0.7018,
+        "Issue": 0.0186,
+        "Reasoning": 0.0241
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "It has been submitted on behalf of the respondents that once a settlement is signed in conciliation the only remedy which the union or individual workmen may have is to challenge that settlement by raising an industrial dispute.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8186,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.8186,
+        "Decision": 0.0003,
+        "Facts": 0.0066,
+        "Issue": 0.0003,
+        "Reasoning": 0.1672
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "According to the learned Counsel appearing for the respondents, the present individual workmen or the staff union would have to raise an industrial dispute in respect of the settlement dated 5.9.2008 in order to have it set aside and the High Court cannot do so in exercise of its powers under Articles 226 and 227 of the Constitution of India.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8243,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.8243,
+        "Decision": 0.0006,
+        "Facts": 0.0185,
+        "Issue": 0.0003,
+        "Reasoning": 0.1458
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "Reliance is placed by the learned Counsel for the respondents on the judgements of the Supreme Court in the case of K.C.P. Ltd. v s Presiding Officer ors., (1996) 10 SCC 446 National Engineering Industries Ltd. vs. State of Rajasthan, (2000) 1 SCC 372 State of Uttaranchal vs. Jaipal Singh, (2005) 8 SCC 49 Jaihind Roadways vs. Maharashtra Rajya Mathadi and Transport General Kamgar Union Ors., (2005)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8716,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.8716,
+        "Decision": 0.0002,
+        "Facts": 0.0089,
+        "Issue": 0.0004,
+        "Reasoning": 0.1146
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "It has been urged by Mrs. Doshi, learned Counsel appearing for the staff union, that this issue had been raised by the respondents when the petitions were heard for admission and it was only after the Court was satisfied that the petitions were maintainable that Rule was issued in both the petitions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6426,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6426,
+        "Arguments of Respondent": 0.2547,
+        "Decision": 0.0006,
+        "Facts": 0.0221,
+        "Issue": 0.001,
+        "Reasoning": 0.079
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "According to her, the respondent company had approached the Supreme Court by way of Special Leave Petitions challenging the interim order passed by this Court while admitting the petition.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5062,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4223,
+        "Arguments of Respondent": 0.5062,
+        "Decision": 0.0004,
+        "Facts": 0.0512,
+        "Issue": 0.0001,
+        "Reasoning": 0.0198
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 52,
+      "text": "Grounds with regard to the maintainability of the petition were raised before the Supreme Court by the Respondents.",
+      "predicted_label": "Facts",
+      "confidence": 0.5803,
+      "probabilities": {
+        "Arguments of Petitioner": 0.018,
+        "Arguments of Respondent": 0.0969,
+        "Decision": 0.0087,
+        "Facts": 0.5803,
+        "Issue": 0.0421,
+        "Reasoning": 0.254
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Special Leave Petitions were dismissed and, therefore, the respondents cannot raise the issue regarding the maintainability of the petition at this stage again, urged the learned Counsel.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.56,
+      "probabilities": {
+        "Arguments of Petitioner": 0.56,
+        "Arguments of Respondent": 0.3989,
+        "Decision": 0.0004,
+        "Facts": 0.0145,
+        "Issue": 0.0004,
+        "Reasoning": 0.0258
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "She has submitted that since there is a breach of section 12 of the Industrial Disputes Act and Rule 11 of the Industrial Disputes (Bombay) Rules while recording the settlement of 5.9.2008 as a settlement in conciliation the only remedy available to the staff union is to file the present petition.13.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4975,
+        "Arguments of Respondent": 0.4562,
+        "Decision": 0.0007,
+        "Facts": 0.0331,
+        "Issue": 0.0003,
+        "Reasoning": 0.0123
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 55,
+      "text": "Ms. Singh, appearing in the petition filed by the individual workmen reiterated the submissions advanced by Mrs. Doshi regarding the maintainability of the writ petition.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6331,
+        "Arguments of Respondent": 0.3539,
+        "Decision": 0.0002,
+        "Facts": 0.0043,
+        "Issue": 0.0003,
+        "Reasoning": 0.0082
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "She also submitted that a settlement could be signed by a recognised union only with respect to an industrial dispute and not regarding any and every dispute.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4871,
+        "Arguments of Respondent": 0.5045,
+        "Decision": 0.0002,
+        "Facts": 0.0022,
+        "Issue": 0.0001,
+        "Reasoning": 0.006
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 57,
+      "text": "According to her, some workmen including the petitioners who have been terminated from service as a consequence of the settlement of 5.9.2008 have challenged their respective termination orders on the ground that individual disputes cannot be settled by a recognised union when they are in respect of the suspension or the termination of service of the individuals, by way of discharge, dismissal, retrenchment, etc.14.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5012,
+      "probabilities": {
+        "Arguments of Petitioner": 0.399,
+        "Arguments of Respondent": 0.5012,
+        "Decision": 0.0003,
+        "Facts": 0.0709,
+        "Issue": 0.0003,
+        "Reasoning": 0.0284
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "The Division Bench of this Court while admitting the present petitions and granting interim relief has observed thus7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9004,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0006,
+        "Facts": 0.9004,
+        "Issue": 0.0036,
+        "Reasoning": 0.0789
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "In our opinion, prima facie even assuming that the representative Union has entered into a settlement it can only be in respect of dispute which would partake of an industrial dispute and in respect of individual dispute which it has raised.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0011,
+        "Facts": 0.0118,
+        "Issue": 0.0019,
+        "Reasoning": 0.9583
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "It will not be open to the recognised union under the guise of settlement either to settle the disputes which are not industrial dispute and or individual disputes which have been raised by the individual workmen in their personal capacity and are pending before the industrial forum for rights which they are entitled to under the existing service conditions or other settlements.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6152,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.3191,
+        "Facts": 0.0326,
+        "Issue": 0.0008,
+        "Reasoning": 0.6152
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 61,
+      "text": "On behalf of the company, it was submitted that the question raised before the learned Single Judge ought to have been adjudicated upon by raising an industrial dispute and not in the exercise of powers under Article 226 of the Constitution of India.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6292,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6292,
+        "Arguments of Respondent": 0.1385,
+        "Decision": 0.0006,
+        "Facts": 0.1704,
+        "Issue": 0.001,
+        "Reasoning": 0.0603
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "The Division Bench observed that when certain features of the settlement established that there were gross violations of the mandate of law, a writ petition was maintainable and there was no need to dismiss the writ petition on this ground.",
+      "predicted_label": "Facts",
+      "confidence": 0.698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0005,
+        "Facts": 0.698,
+        "Issue": 0.0089,
+        "Reasoning": 0.2715
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "LOCUS OF THE PETITIONERS19.",
+      "predicted_label": "Facts",
+      "confidence": 0.874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0395,
+        "Arguments of Respondent": 0.0129,
+        "Decision": 0.0008,
+        "Facts": 0.874,
+        "Issue": 0.0296,
+        "Reasoning": 0.0432
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "It has been argued by the learned Counsel appearing for the respondents that since the settlement was signed by the company with a recognised union, no other union or individual workmen, whether members of the recognised union or not, had any locus to challenge the settlement.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8379,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.8379,
+        "Decision": 0.0003,
+        "Facts": 0.005,
+        "Issue": 0.0004,
+        "Reasoning": 0.151
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "It was pointed out that under the proviso to section 18 of the Industrial Disputes Act, only a recognised union for any undertaking has the right to arrive at a settlement with the employer in respect of all other disputes except a dispute relating to the dismissal, discharge, removal, retrenchment, termination of service or suspension of an employee.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3173,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3173,
+        "Arguments of Respondent": 0.3156,
+        "Decision": 0.0004,
+        "Facts": 0.0835,
+        "Issue": 0.0018,
+        "Reasoning": 0.2814
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 66,
+      "text": "Such a settlement is binding on all the persons referred to under clause (c) and (d) of subsection 3 of section 18.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7031,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0978,
+        "Arguments of Respondent": 0.1488,
+        "Decision": 0.0015,
+        "Facts": 0.0486,
+        "Issue": 0.0002,
+        "Reasoning": 0.7031
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "They have also submitted that the settlement of 5.9.2008 deals with various conditions of service and not merely about the dismissal, discharge, retrenchment or suspension of individual workmen and, therefore, the individual workmen of the factory had no right to challenge the settlement.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2949,
+        "Arguments of Respondent": 0.6357,
+        "Decision": 0.0002,
+        "Facts": 0.0375,
+        "Issue": 0.0004,
+        "Reasoning": 0.0313
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "The recognised union for the factory in 1996 was the Maharashtra General Kamgar Union (MGKU) and, therefore, no other union could be considered as the recognised union although the workmen may have been members of a union recognised for a particular establishment at an earlier point of time.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4249,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4249,
+        "Arguments of Respondent": 0.1076,
+        "Decision": 0.0005,
+        "Facts": 0.1347,
+        "Issue": 0.0014,
+        "Reasoning": 0.3309
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 69,
+      "text": "It was submitted that the recognition which is accorded by the Industrial Court under the MRTU PULP Act is relates to the premises of an industry.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5747,
+        "Arguments of Respondent": 0.3236,
+        "Decision": 0.0014,
+        "Facts": 0.0797,
+        "Issue": 0.0014,
+        "Reasoning": 0.0192
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "Therefore, according to the learned Counsel, there cannot be a recognised union separately for the staff and individual workmen when they operate in the same premises.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4727,
+        "Arguments of Respondent": 0.5125,
+        "Decision": 0.0001,
+        "Facts": 0.0028,
+        "Issue": 0.0003,
+        "Reasoning": 0.0116
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 71,
+      "text": "The submission of the learned Counsel for the respondents that the staff union has lost its status as a recognised union for the staff when the staff was shifted to the factory premises is fallacious.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.1763,
+        "Decision": 0.0003,
+        "Facts": 0.0106,
+        "Issue": 0.0006,
+        "Reasoning": 0.8092
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "The Mazdoor Sangh applied for registration as a recognised union of the workmen in the factory in place of the MGKU in 1995 on the basis of their membership in the factory between October 1994 and March 1995.",
+      "predicted_label": "Facts",
+      "confidence": 0.966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0001,
+        "Facts": 0.966,
+        "Issue": 0.0026,
+        "Reasoning": 0.0273
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "It did not simultaneously make any application for clubbing the concern at the factory with the concern at the office premises into one undertaking as is permissible in law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9162,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0245,
+        "Arguments of Respondent": 0.0227,
+        "Decision": 0.0013,
+        "Facts": 0.035,
+        "Issue": 0.0003,
+        "Reasoning": 0.9162
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "Shifting of the location of the work place of the members of the recognised union is not one such ground.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0796,
+        "Arguments of Respondent": 0.0255,
+        "Decision": 0.0024,
+        "Facts": 0.0139,
+        "Issue": 0.0005,
+        "Reasoning": 0.878
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "Neither is there any concept of merger as the counsel for the respondents would have us believe.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0274,
+        "Decision": 0.0004,
+        "Facts": 0.0156,
+        "Issue": 0.0003,
+        "Reasoning": 0.9465
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "The recognition of one union cannot merge into the recognition of another.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.135,
+        "Arguments of Respondent": 0.0884,
+        "Decision": 0.0525,
+        "Facts": 0.0168,
+        "Issue": 0.0025,
+        "Reasoning": 0.7049
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "The members of one would have to resign and join the union which is in existence at the new workplace.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7247,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1272,
+        "Arguments of Respondent": 0.1004,
+        "Decision": 0.0008,
+        "Facts": 0.0465,
+        "Issue": 0.0004,
+        "Reasoning": 0.7247
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "Admittedly in the present case the members of the staff union have not forsaken it and joined the Mazdoor Sangh.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0007,
+        "Facts": 0.0166,
+        "Issue": 0.0014,
+        "Reasoning": 0.9604
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "Therefore the staff union would still continue as the recognised union for its members although the staff is now located in another unit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1846,
+        "Arguments of Respondent": 0.1164,
+        "Decision": 0.0014,
+        "Facts": 0.2198,
+        "Issue": 0.0005,
+        "Reasoning": 0.4773
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "Moreover the recognition accorded to MGKU was only in respect of the workers employed in the factory and not for the staff.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7161,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1507,
+        "Arguments of Respondent": 0.0972,
+        "Decision": 0.0008,
+        "Facts": 0.035,
+        "Issue": 0.0002,
+        "Reasoning": 0.7161
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "Mazdoor Sangh has been recognised in place of the MGKU as it filed an application under s.14 in 1994.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0685,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0007,
+        "Facts": 0.1364,
+        "Issue": 0.0004,
+        "Reasoning": 0.7738
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "The application was allowed in 2001 after verification of the membership for the six months between October 1994 and March 1995.",
+      "predicted_label": "Facts",
+      "confidence": 0.6459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0754,
+        "Arguments of Respondent": 0.0734,
+        "Decision": 0.0009,
+        "Facts": 0.6459,
+        "Issue": 0.0048,
+        "Reasoning": 0.1995
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "The staff was shifted only in 199596 and therefore could never have been considered while ascertaining the membership.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3629,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1904,
+        "Arguments of Respondent": 0.3629,
+        "Decision": 0.0006,
+        "Facts": 0.0942,
+        "Issue": 0.0008,
+        "Reasoning": 0.351
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 84,
+      "text": "The company raised demands simultaneously with respect to the service conditions of the workmen represented by the staff union alone, which have been referred to under reference (IT) No. 12 of 1997.",
+      "predicted_label": "Facts",
+      "confidence": 0.887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0006,
+        "Facts": 0.887,
+        "Issue": 0.0041,
+        "Reasoning": 0.0818
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "Mr. Bapat appearing for the Mazdoor Sangh has drawn our attention to section 36 of the Industrial Disputes Act to submit that as the Mazdoor Sangh is the recognised union for the undertaking, no workman in such an undertaking is entitled to be represented before the Tribunal by any other union, nor can he appear individually if the proceeding does not pertain to the legality or propriety of an order of dismissal or discharge or removal, suspension, etc.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4306,
+        "Arguments of Respondent": 0.5405,
+        "Decision": 0.0002,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0269
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 86,
+      "text": "Significantly, the Mazdoor Sangh which claims to have been accorded recognition under the MRTU PULP Act in 2001 did not care to apply to the court in the aforesaid References which are pending to permit it to represent the workmen in the References, to the exclusion of the staff union or individual workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6248,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2649,
+        "Arguments of Respondent": 0.0333,
+        "Decision": 0.0063,
+        "Facts": 0.0702,
+        "Issue": 0.0005,
+        "Reasoning": 0.6248
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "Therefore this submission of Mr. Bapat is an after thought.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0414,
+        "Arguments of Respondent": 0.0558,
+        "Decision": 0.0099,
+        "Facts": 0.0092,
+        "Issue": 0.0003,
+        "Reasoning": 0.8835
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "Moreover the Mazdoor Sangh has not placed on record before us the application filed by it u s 14 of the MRTU PULP Act for cancellation of the recognition of MGKU and for being recognised in its place.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0365,
+        "Arguments of Respondent": 0.0318,
+        "Decision": 0.0098,
+        "Facts": 0.0418,
+        "Issue": 0.0006,
+        "Reasoning": 0.8795
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "There is no material before us to suggest that the members of the staff union had been included by the Mazdoor Sangh while seeking recognition.24.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0015,
+        "Facts": 0.0047,
+        "Issue": 0.0002,
+        "Reasoning": 0.9735
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "It is true that the Mazdoor Sangh was accorded recognition under the MRTU PULP Act in place of the Maharashtra General Kamgar Union in 2001 when the members of the MGKU became members of the Mazdoor Sangh.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0845,
+        "Arguments of Respondent": 0.0205,
+        "Decision": 0.0003,
+        "Facts": 0.0685,
+        "Issue": 0.0007,
+        "Reasoning": 0.8255
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "However, it must be borne in mind that although the recognised union has precedence over all other unions and individual workmen when an issue is raised regarding the service conditions, this embargo on the appearance of other unions and individual workmen does not operate with respect to disputes regarding termination of service by way of retrenchment, dismissal, discharge, suspension, etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9381,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0395,
+        "Arguments of Respondent": 0.0144,
+        "Decision": 0.0011,
+        "Facts": 0.0063,
+        "Issue": 0.0007,
+        "Reasoning": 0.9381
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "On a perusal of the settlement of 5.9.2008, it is clear that the settlement speaks about the automatic termination of the services of individual workmen who do not accept the terms of the settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.045,
+        "Arguments of Respondent": 0.0346,
+        "Decision": 0.0005,
+        "Facts": 0.0557,
+        "Issue": 0.0029,
+        "Reasoning": 0.8613
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "Clauses 6 and 7 envisage a reduction of 1500 workers from the complement of workers employed by the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.7677,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0182,
+        "Arguments of Respondent": 0.0242,
+        "Decision": 0.0005,
+        "Facts": 0.7677,
+        "Issue": 0.0003,
+        "Reasoning": 0.189
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "As a consequence of the impugned settlement the workmen would have to face termination of service without the due process of law being followed.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3604,
+        "Arguments of Respondent": 0.1622,
+        "Decision": 0.0071,
+        "Facts": 0.2038,
+        "Issue": 0.0009,
+        "Reasoning": 0.2657
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 95,
+      "text": "The law laid down in the case of Oswal Agro Furane Ltd. anr.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4259,
+      "probabilities": {
+        "Arguments of Petitioner": 0.21,
+        "Arguments of Respondent": 0.0363,
+        "Decision": 0.275,
+        "Facts": 0.0508,
+        "Issue": 0.0019,
+        "Reasoning": 0.4259
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 96,
+      "text": "Vs Oswal Agro Furane Workers Union Ors., (2005) 3 SCC 224 , would permit the workmen to challenge the settlement though signed before the Conciliation Officer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.632,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1266,
+        "Arguments of Respondent": 0.1781,
+        "Decision": 0.0024,
+        "Facts": 0.0563,
+        "Issue": 0.0046,
+        "Reasoning": 0.632
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 97,
+      "text": "In our opinion, the writ petition filed by both the staff union as well as individual workmen are maintainable and they have the locus to file the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0245,
+        "Facts": 0.0166,
+        "Issue": 0.0024,
+        "Reasoning": 0.9393
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "It has been argued on behalf of the petitioners in both the petitions that the settlement of 5.9.2008 is not in fact a settlement in conciliation as claimed by the respondents.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8217,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8217,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0012,
+        "Facts": 0.0908,
+        "Issue": 0.0107,
+        "Reasoning": 0.0727
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "Both Mrs. Doshi as well as Ms. Singh has submitted that a settlement can be signed in conciliation only when the demands raised by the workmen or by the company are admitted in conciliation, and that demands were not admitted in conciliation find place in the settlement.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6975,
+        "Arguments of Respondent": 0.1998,
+        "Decision": 0.0005,
+        "Facts": 0.0077,
+        "Issue": 0.0005,
+        "Reasoning": 0.094
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 100,
+      "text": "It is also pointed out that a settlement in conciliation can be arrived at only with the conciliation officer fulfilling his role u s 12 of the Industrial Disputes Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6306,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1877,
+        "Arguments of Respondent": 0.6306,
+        "Decision": 0.0009,
+        "Facts": 0.0374,
+        "Issue": 0.0013,
+        "Reasoning": 0.1422
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 101,
+      "text": "Since in the present case, the conciliation officer had violated the provisions of section 12 as well as Rule 11 of the Industrial Disputes (Bombay) Rules, according to the learned Counsel, the settlement was not one in conciliation.26.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4889,
+        "Arguments of Respondent": 0.4835,
+        "Decision": 0.0002,
+        "Facts": 0.0041,
+        "Issue": 0.0004,
+        "Reasoning": 0.0229
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 102,
+      "text": "Therefore, in our opinion, the settlement cannot be termed as one signed in conciliation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.0003,
+        "Facts": 0.0948,
+        "Issue": 0.0003,
+        "Reasoning": 0.8627
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "Rule 11 requires the conciliation officer to give a formal intimation in writing to the parties concerned declaring his intention to commence conciliation proceedings from such date as may be specified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8218,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0551,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0004,
+        "Facts": 0.0962,
+        "Issue": 0.0025,
+        "Reasoning": 0.8218
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "Unless the conciliation officer indicates his intention to intervene in the dispute and calls the parties for conciliation, the conciliation proceedings do not commence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0005,
+        "Facts": 0.0549,
+        "Issue": 0.0028,
+        "Reasoning": 0.9206
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "Before deciding to intervene in any matter after the receipt of the justification statement from the party who has raised the industrial dispute, the conciliation officer may call the parties individually for a meeting to assess whether an industrial dispute in fact exists or is apprehended.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0682,
+        "Decision": 0.0068,
+        "Facts": 0.0586,
+        "Issue": 0.0073,
+        "Reasoning": 0.8428
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "It is only when the intimation of the intention of the conciliation officer to intervene and commence conciliation proceedings is sent to the parties and they appear before the conciliation officer that it can be said that conciliation proceedings have commenced.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0004,
+        "Facts": 0.0249,
+        "Issue": 0.0026,
+        "Reasoning": 0.9386
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "A settlement signed after the conciliation officer decides to intervene in the industrial dispute in order to bring about a resolution of the dispute can be considered as a settlement signed in conciliation.27.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9741,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0004,
+        "Facts": 0.004,
+        "Issue": 0.0007,
+        "Reasoning": 0.9741
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "But in the present case the demands were admitted in conciliation on 5.9.2008 and the settlement was signed on the same day.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7001,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0757,
+        "Arguments of Respondent": 0.106,
+        "Decision": 0.0005,
+        "Facts": 0.1165,
+        "Issue": 0.0011,
+        "Reasoning": 0.7001
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "A settlement in conciliation would require the active assistance of the conciliation officer to ensure that parties resolve their disputes and enter into settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9672,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0005,
+        "Facts": 0.0149,
+        "Issue": 0.0002,
+        "Reasoning": 0.9672
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "The conciliation officer in the case before us, took no part in the discussions before the settlement was arrived at and merely appended his signature to the document.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0019,
+        "Facts": 0.0723,
+        "Issue": 0.0053,
+        "Reasoning": 0.903
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "The only demands which the Mazdoor Sangh had raised were that production should be started in the factory and the workers should be paid their legal dues.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0352,
+        "Arguments of Respondent": 0.0607,
+        "Decision": 0.0003,
+        "Facts": 0.1212,
+        "Issue": 0.0001,
+        "Reasoning": 0.7824
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "This demand was raised on 20.8.2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.7883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0216,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0009,
+        "Facts": 0.7883,
+        "Issue": 0.031,
+        "Reasoning": 0.1437
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "Similarly, the company merely put forth its own terms and conditions for restarting the production in the factory.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0853,
+        "Arguments of Respondent": 0.1662,
+        "Decision": 0.0012,
+        "Facts": 0.3727,
+        "Issue": 0.0003,
+        "Reasoning": 0.3743
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 114,
+      "text": "The parties were invited by the conciliation officer for considering whether to the admit the demands in conciliation on 5.9.2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.9821,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9821,
+        "Issue": 0.0019,
+        "Reasoning": 0.0142
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "It appears that on that day, the parties, i.e., the company and the Mazdoor Sangh appearing before the conciliation officer, produced a settlement dated 5.9.2008 signed by the respective parties and requested that it be recorded as a settlement in conciliation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9846,
+        "Issue": 0.0017,
+        "Reasoning": 0.0128
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "In our opinion, such a settlement cannot be termed as one in conciliation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0221,
+        "Arguments of Respondent": 0.0305,
+        "Decision": 0.0004,
+        "Facts": 0.042,
+        "Issue": 0.0002,
+        "Reasoning": 0.9049
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "The affidavit devoid of any details as to when he received a copy of the demands raised by the Company or the Mazdoor Sangh, the date of admission of the demands in conciliation, the efforts made by him to induce parties to settle their disputes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1541,
+        "Arguments of Respondent": 0.1131,
+        "Decision": 0.0003,
+        "Facts": 0.1189,
+        "Issue": 0.0002,
+        "Reasoning": 0.6135
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 118,
+      "text": "There is no averment as to whether he had ascertained the fairness and reasonableness of the settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0569,
+        "Arguments of Respondent": 0.0622,
+        "Decision": 0.0016,
+        "Facts": 0.3986,
+        "Issue": 0.0011,
+        "Reasoning": 0.4795
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 119,
+      "text": "He has not stated whether he has complied with Rule 11 of the Industrial Disputes (Bombay) Rules by giving adequate notice to the workmen including the staff.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6116,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0655,
+        "Arguments of Respondent": 0.0685,
+        "Decision": 0.0368,
+        "Facts": 0.2169,
+        "Issue": 0.0007,
+        "Reasoning": 0.6116
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "Further, he has not stated whether a report was submitted by him to the appropriate government in accordance with section 12(3).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6259,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1239,
+        "Arguments of Respondent": 0.0636,
+        "Decision": 0.0017,
+        "Facts": 0.1847,
+        "Issue": 0.0002,
+        "Reasoning": 0.6259
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 121,
+      "text": "Undoubtedly, the Assistant Commissioner has been remiss in performing his role as stipulated in section 12 of the Industrial Disputes Act r w Rule 11 and in fact has abdicated his duties.30.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0069,
+        "Facts": 0.0065,
+        "Issue": 0.0003,
+        "Reasoning": 0.981
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "Apart from this, the terms of settlement indicate that the settlement is not wholly regarding industrial disputes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0232,
+        "Arguments of Respondent": 0.0397,
+        "Decision": 0.0023,
+        "Facts": 0.0403,
+        "Issue": 0.0003,
+        "Reasoning": 0.8942
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "Therefore, in our opinion, a settlement which deals with aspects other than an industrial dispute as defined under section 2(k) of the Industrial Disputes Act cannot be termed as a settlement in conciliation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0116,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0002,
+        "Facts": 0.0067,
+        "Issue": 0.0004,
+        "Reasoning": 0.9643
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "We have no manner of doubt that the settlement dated 5.9.2008 is not a settlement in conciliation.31.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0007,
+        "Facts": 0.0101,
+        "Issue": 0.0002,
+        "Reasoning": 0.9622
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "In Oswal Agro Furane Ltd. anr.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0878,
+        "Arguments of Respondent": 0.0706,
+        "Decision": 0.0014,
+        "Facts": 0.0331,
+        "Issue": 0.0003,
+        "Reasoning": 0.8068
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "vs. Oswal Agro Furane Workers Union Ors., (2005) 3 SCC 224 , the Supreme Court considered whether the settlement arrived at between the employer and the workmen would prevail over the mandatory statutory requirements contained in section 25N and 25O of the Industrial Disputes Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0255,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0003,
+        "Facts": 0.055,
+        "Issue": 0.0086,
+        "Reasoning": 0.866
+      }
+    },
+    {
+      "sentence_id": 127,
+      "text": "The employer in that case contended that a notice for closure of the undertaking had been issued in terms of section 25O of the Industrial Disputes Act to the State Government and to the workmen employed by it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0676,
+        "Arguments of Respondent": 0.0836,
+        "Decision": 0.0005,
+        "Facts": 0.0711,
+        "Issue": 0.0025,
+        "Reasoning": 0.7747
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "A settlement was arrived at with the workmen in terms of section 12(3) of the Industrial Disputes Act under which the workers had agreed to the closure without waiting for the appropriate government to grant permission for the closure.",
+      "predicted_label": "Facts",
+      "confidence": 0.5007,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0557,
+        "Arguments of Respondent": 0.1049,
+        "Decision": 0.0006,
+        "Facts": 0.5007,
+        "Issue": 0.0012,
+        "Reasoning": 0.3369
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 129,
+      "text": "The provisions of section 25N and section 25O of the Act are mandatory.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.177,
+        "Arguments of Respondent": 0.1334,
+        "Decision": 0.0236,
+        "Facts": 0.1796,
+        "Issue": 0.0009,
+        "Reasoning": 0.4856
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "The judgement in Oswal Agro Furane Ltd. anr.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2015,
+        "Arguments of Respondent": 0.1503,
+        "Decision": 0.0082,
+        "Facts": 0.0412,
+        "Issue": 0.0005,
+        "Reasoning": 0.5983
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 131,
+      "text": "(supra), clearly stipulates that any settlement to the contrary would not be binding on the workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1615,
+        "Arguments of Respondent": 0.1128,
+        "Decision": 0.0012,
+        "Facts": 0.048,
+        "Issue": 0.0007,
+        "Reasoning": 0.6758
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 132,
+      "text": "The clauses of the settlement dated 5.9.2008 in our opinion have far reaching consequences.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9102,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0159,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.005,
+        "Facts": 0.0577,
+        "Issue": 0.0001,
+        "Reasoning": 0.9102
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "The parties to that settlement have in fact agreed to bypass section 25O and section 25N of the Industrial Disputes Act which is apparent on scanning its terms.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0518,
+        "Arguments of Respondent": 0.081,
+        "Decision": 0.0008,
+        "Facts": 0.0693,
+        "Issue": 0.0012,
+        "Reasoning": 0.7958
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "This is impermissible and illegal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1698,
+        "Arguments of Respondent": 0.1575,
+        "Decision": 0.0036,
+        "Facts": 0.1887,
+        "Issue": 0.0007,
+        "Reasoning": 0.4798
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 135,
+      "text": "Merely because no termination of service has been effected under the settlement as yet, as contended by Mr. Talsania, it would not mean that the settlement is legal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8438,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0293,
+        "Arguments of Respondent": 0.1033,
+        "Decision": 0.0016,
+        "Facts": 0.0217,
+        "Issue": 0.0003,
+        "Reasoning": 0.8438
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "An application has been made by the company to the Industrial Tribunal to dispose of the references in terms of the settlement dated 5.9.2008 which according to the company is a settlement signed in conciliation.",
+      "predicted_label": "Facts",
+      "confidence": 0.4722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.064,
+        "Arguments of Respondent": 0.0812,
+        "Decision": 0.003,
+        "Facts": 0.4722,
+        "Issue": 0.0027,
+        "Reasoning": 0.3768
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 137,
+      "text": "Thus, unless the demands raised and referred for adjudication are settled between the parties, the question of disposing off the references does not arise.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0438,
+        "Arguments of Respondent": 0.1549,
+        "Decision": 0.0075,
+        "Facts": 0.0684,
+        "Issue": 0.0014,
+        "Reasoning": 0.724
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "As noted by us earlier, no application has been filed by the Mazdoor Sangh to dispose off the references although it is now claimed before us that no other union can appear before the Tribunal except the Mazdoor Sangh in the aforesaid references.37.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0068,
+        "Facts": 0.0038,
+        "Issue": 0.0007,
+        "Reasoning": 0.9708
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "The Reference has to be answered.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.0374,
+        "Decision": 0.0503,
+        "Facts": 0.1487,
+        "Issue": 0.0622,
+        "Reasoning": 0.6872
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 140,
+      "text": "It cannot be disposed off merely because there is a settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0383,
+        "Arguments of Respondent": 0.0728,
+        "Decision": 0.0036,
+        "Facts": 0.0285,
+        "Issue": 0.0006,
+        "Reasoning": 0.856
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "If there is a settlement, the Tribunal is expected to consider whether the settlement deals with the demands which are referred for adjudication before it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9552,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0002,
+        "Facts": 0.0094,
+        "Issue": 0.0005,
+        "Reasoning": 0.9552
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "If it comes to the conclusion that the settlement does indeed cover the demands referred for adjudication it can then assess whether the settlement is fair and reasonable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.483,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0241,
+        "Facts": 0.3212,
+        "Issue": 0.1515,
+        "Reasoning": 0.483
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 143,
+      "text": "On finding the settlement to be fair and reasonable, the Industrial Tribunal may proceed to make an award in terms of the settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0114,
+        "Decision": 0.0005,
+        "Facts": 0.0072,
+        "Issue": 0.0005,
+        "Reasoning": 0.9646
+      }
+    },
+    {
+      "sentence_id": 144,
+      "text": "The contention of the company that because it has entered into a settlement in conciliation with the Mazdoor Sangh, the demands referred for adjudication before the Tribunal no longer survive is fallacious.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.774,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.157,
+        "Decision": 0.0004,
+        "Facts": 0.0457,
+        "Issue": 0.0003,
+        "Reasoning": 0.774
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "Unless the references are answered by the Industrial Tribunal the disputes referred still exist and must be adjudicated upon.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6685,
+      "probabilities": {
+        "Arguments of Petitioner": 0.076,
+        "Arguments of Respondent": 0.0312,
+        "Decision": 0.1255,
+        "Facts": 0.0856,
+        "Issue": 0.0133,
+        "Reasoning": 0.6685
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 146,
+      "text": "Furthermore, clauses 6 and 7 deal with the reduction of the complement of workmen by 1500 on account of outsourcing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4597,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2099,
+        "Arguments of Respondent": 0.1523,
+        "Decision": 0.0006,
+        "Facts": 0.1766,
+        "Issue": 0.0009,
+        "Reasoning": 0.4597
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 147,
+      "text": "Clause 13 provides that the company is entitled to layoff or retrench the workmen or close any plant or department or section of any establishment without any objection being raised by the Mazdoor Sangh and it would result in termination of the services of the employees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0318,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0004,
+        "Facts": 0.3654,
+        "Issue": 0.0003,
+        "Reasoning": 0.5915
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 148,
+      "text": "The references pending before the Industrial Tribunal are with respect to wage adjudication, leave and various other demands.",
+      "predicted_label": "Facts",
+      "confidence": 0.8463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0037,
+        "Facts": 0.8463,
+        "Issue": 0.0418,
+        "Reasoning": 0.1035
+      }
+    },
+    {
+      "sentence_id": 149,
+      "text": "The terms and conditions of service governing the workmen covered by the reference would include their statutory rights under Chapters VA and VB of the Industrial Disputes Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8191,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0269,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0503,
+        "Facts": 0.0729,
+        "Issue": 0.0167,
+        "Reasoning": 0.8191
+      }
+    },
+    {
+      "sentence_id": 150,
+      "text": "The service conditions of the workmen are sought to be changed by the employer through the instrument of a settlement when the references are pending.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9037,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0056,
+        "Facts": 0.0581,
+        "Issue": 0.0016,
+        "Reasoning": 0.9037
+      }
+    },
+    {
+      "sentence_id": 151,
+      "text": "The settlement alters the service conditions applicable to the staff immediately prior to the commencement of the reference.40.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7607,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0754,
+        "Arguments of Respondent": 0.0916,
+        "Decision": 0.0025,
+        "Facts": 0.0693,
+        "Issue": 0.0004,
+        "Reasoning": 0.7607
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "Admittedly no permission has been obtained from the Industrial Tribunal before whom the references are pending before effecting such changes and therefore there is a breach of section 33(1).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1321,
+        "Arguments of Respondent": 0.0304,
+        "Decision": 0.0016,
+        "Facts": 0.1032,
+        "Issue": 0.0022,
+        "Reasoning": 0.7305
+      }
+    },
+    {
+      "sentence_id": 153,
+      "text": "The service conditions of the individual workmen were governed by the settlement dated 3.7.2002 which have been sought to be changed by the settlement of 5.8.2009.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.159,
+        "Arguments of Respondent": 0.1039,
+        "Decision": 0.019,
+        "Facts": 0.1098,
+        "Issue": 0.0022,
+        "Reasoning": 0.6061
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 154,
+      "text": "It has been argued by the learned Counsel appearing for the respondents that section 33(1) has no applicability in the present case as the alteration in the service conditions have been made with the consent of the recognised union.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.8866,
+        "Decision": 0.0003,
+        "Facts": 0.0039,
+        "Issue": 0.0004,
+        "Reasoning": 0.1043
+      }
+    },
+    {
+      "sentence_id": 155,
+      "text": "According to them, it is only when the employer unilaterally changes the service conditions that the section comes into play.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4506,
+        "Arguments of Respondent": 0.4206,
+        "Decision": 0.0002,
+        "Facts": 0.0581,
+        "Issue": 0.0019,
+        "Reasoning": 0.0686
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 156,
+      "text": "It is true that section 33 stipulates that no employer shall alter to the prejudice of the workmen concerned in a reference their conditions of service without the permission of the Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9374,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0289,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0002,
+        "Facts": 0.0189,
+        "Issue": 0.004,
+        "Reasoning": 0.9374
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "However, in the present case, since the settlement itself cannot be said to be binding on the staff union, it is the employer which has unilaterally changed the service conditions of the staff to their detriment while the references are pending before the Industrial Tribunal and, therefore, there has been a breach of section 33(1) of the Industrial Disputes Act.41.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8336,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0877,
+        "Arguments of Respondent": 0.042,
+        "Decision": 0.0124,
+        "Facts": 0.0233,
+        "Issue": 0.0009,
+        "Reasoning": 0.8336
+      }
+    },
+    {
+      "sentence_id": 158,
+      "text": "Mr.Talsania as a last resort submitted that there is no need for this court to interfere in these writ petitions since an overwhelming majority of the workmen had accepted the settlements.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.991,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.991,
+        "Decision": 0.0004,
+        "Facts": 0.001,
+        "Issue": 0.0001,
+        "Reasoning": 0.0044
+      }
+    },
+    {
+      "sentence_id": 159,
+      "text": "However, from the material on record it does not appear that this statement is true.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7054,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0376,
+        "Arguments of Respondent": 0.0321,
+        "Decision": 0.0015,
+        "Facts": 0.2228,
+        "Issue": 0.0006,
+        "Reasoning": 0.7054
+      }
+    },
+    {
+      "sentence_id": 160,
+      "text": "The Company has filed a statement showing that out of a total number of 2633 workmen which included 62 clerical staff, 653 persons had applied for the Early Retirement Scheme.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0901,
+        "Arguments of Respondent": 0.2246,
+        "Decision": 0.0007,
+        "Facts": 0.2446,
+        "Issue": 0.0004,
+        "Reasoning": 0.4396
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 161,
+      "text": "13 of these 653 workmen were clerical staff.",
+      "predicted_label": "Facts",
+      "confidence": 0.802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0184,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.0002,
+        "Facts": 0.802,
+        "Issue": 0.0026,
+        "Reasoning": 0.1605
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "However, only 122 of the manual workmen i.e. the factory staff have been paid and relieved after they opted for the Early Retirement Scheme.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.392,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2797,
+        "Arguments of Respondent": 0.1247,
+        "Decision": 0.0004,
+        "Facts": 0.2027,
+        "Issue": 0.0005,
+        "Reasoning": 0.392
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 163,
+      "text": "In these circumstances it is not possible to accept this submission.42.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9141,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0351,
+        "Arguments of Respondent": 0.0436,
+        "Decision": 0.0022,
+        "Facts": 0.0049,
+        "Issue": 0.0002,
+        "Reasoning": 0.9141
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "In the result, we are of the view that the petitions are maintainable.",
+      "predicted_label": "Decision",
+      "confidence": 0.8338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.8338,
+        "Facts": 0.0104,
+        "Issue": 0.0003,
+        "Reasoning": 0.1541
+      }
+    },
+    {
+      "sentence_id": 165,
+      "text": "The petitioners have locus to file the petitions.",
+      "predicted_label": "Facts",
+      "confidence": 0.485,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0972,
+        "Arguments of Respondent": 0.1574,
+        "Decision": 0.0052,
+        "Facts": 0.485,
+        "Issue": 0.0169,
+        "Reasoning": 0.2383
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 166,
+      "text": "The settlement dated 5.9.2008 is not a settlement in conciliation as it has been arrived at in breach of s.12 of the I. D. Act r w Rule 11 of the I. D. (Bombay) Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.415,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2199,
+        "Arguments of Respondent": 0.2247,
+        "Decision": 0.0082,
+        "Facts": 0.1309,
+        "Issue": 0.0012,
+        "Reasoning": 0.415
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 167,
+      "text": "It is not binding on the staff union for the reasons we have stated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0096,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0122,
+        "Facts": 0.0125,
+        "Issue": 0.0003,
+        "Reasoning": 0.9582
+      }
+    },
+    {
+      "sentence_id": 168,
+      "text": "The settlement provides for automatic termination of service and affects the rights of the individual workmen with regard to their termination from service, whether by retrenchment, automatic termination from service or otherwise and hence cannot bind them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4286,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2732,
+        "Arguments of Respondent": 0.1821,
+        "Decision": 0.0017,
+        "Facts": 0.1072,
+        "Issue": 0.0072,
+        "Reasoning": 0.4286
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 169,
+      "text": "The settlement is opposed to public policy and is illegal as it contracts out of the provisions of the Industrial Disputes Act by contravening section 25O and 25N of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3501,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1969,
+        "Arguments of Respondent": 0.0954,
+        "Decision": 0.0194,
+        "Facts": 0.3292,
+        "Issue": 0.009,
+        "Reasoning": 0.3501
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 170,
+      "text": "The Writ Petitions are allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.916,
+        "Facts": 0.0747,
+        "Issue": 0.0008,
+        "Reasoning": 0.0076
+      }
+    },
+    {
+      "sentence_id": 171,
+      "text": "Rule made absolute accordingly in both the petitions.",
+      "predicted_label": "Facts",
+      "confidence": 0.8216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.1514,
+        "Facts": 0.8216,
+        "Issue": 0.006,
+        "Reasoning": 0.0145
+      }
+    },
+    {
+      "sentence_id": 172,
+      "text": "No order as to costs.45.",
+      "predicted_label": "Decision",
+      "confidence": 0.9674,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9674,
+        "Facts": 0.0048,
+        "Issue": 0.0001,
+        "Reasoning": 0.0269
+      }
+    },
+    {
+      "sentence_id": 173,
+      "text": "In view of the disposal of the Writ Petition, nothing remains in Civil application No.942 of 2011 and the same is disposed of as such.",
+      "predicted_label": "Decision",
+      "confidence": 0.8732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.8732,
+        "Facts": 0.0845,
+        "Issue": 0.0007,
+        "Reasoning": 0.0402
+      }
+    }
+  ]
+}

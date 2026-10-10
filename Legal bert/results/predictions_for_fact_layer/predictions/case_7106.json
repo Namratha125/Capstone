@@ -1,0 +1,1532 @@
+{
+  "case_id": "7106",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The First Petitioner is an association of Customs House Agents (CHAs).",
+      "predicted_label": "Facts",
+      "confidence": 0.9063,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0003,
+        "Facts": 0.9063,
+        "Issue": 0.0778,
+        "Reasoning": 0.0055
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The Second and Third Petitioners are members of the First Petitioner both of whom passed a written examination conducted under Regulation 9 of the Customs House Agents Licensing Regulations 1984.",
+      "predicted_label": "Facts",
+      "confidence": 0.8681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0257,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.001,
+        "Facts": 0.8681,
+        "Issue": 0.0284,
+        "Reasoning": 0.0705
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "In these proceedings under Article 226 of the Constitution the Petitioners have sought to impugn (i)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5345,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5345,
+        "Arguments of Respondent": 0.0301,
+        "Decision": 0.0034,
+        "Facts": 0.3468,
+        "Issue": 0.0091,
+        "Reasoning": 0.0761
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "The constitutional validity of Regulations 8 and 15 of the Customs House Agents Licensing Regulations 2004 (ii) A notification dated 8 April 2010 issued by the First Respondent and (iii) A public notice issued on 15 June 2011 by the Commissioner of Customs.",
+      "predicted_label": "Issue",
+      "confidence": 0.8348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0009,
+        "Facts": 0.1471,
+        "Issue": 0.8348,
+        "Reasoning": 0.009
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "Briefly stated, the issue which is raised by the Petitioners is whether candidates who have passed the examination conducted under Regulation 9 of the earlier Regulations of 1984, but were not granted licenses under the earlier regulations can be required under the new Regulations of 2004 to appear for certain additional subjects in order to obtain a licence after the enforcement of the new regulations.",
+      "predicted_label": "Issue",
+      "confidence": 0.7721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0986,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0006,
+        "Facts": 0.0723,
+        "Issue": 0.7721,
+        "Reasoning": 0.0526
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "According to the Petitioners, a candidate upon passing the examination held under the 1984 Regulations, had a vested right to obtain a licence even though as a matter of fact no licence was issued or granted until the new regulations came into force in 2004.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9172,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9172,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0003,
+        "Facts": 0.0436,
+        "Issue": 0.0056,
+        "Reasoning": 0.0302
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "On the other hand, according to the Respondents the mere passing of the examination held under the erstwhile regulations did not confer a vested right to obtain a licence.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.8834,
+        "Decision": 0.0001,
+        "Facts": 0.018,
+        "Issue": 0.0003,
+        "Reasoning": 0.0894
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "Once new statutory regulations have been framed in 2004 following the decision of an expert committee which recommended steps to upgrade the skills and competencies of Customs House Agents, an application for a fresh licence must comply with the new regulations insofar as they require inter alia the passing of an examination in certain additional subjects.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.3615,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1575,
+        "Arguments of Respondent": 0.0237,
+        "Decision": 0.087,
+        "Facts": 0.3615,
+        "Issue": 0.1068,
+        "Reasoning": 0.2635
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "Section 146 of the Customs Act 1962 provides that no person shall carry on business as an agent relating to the entry or departure of a conveyance or the import or export of goods at any customsstation unless such person holds a licence granted in this behalf in accordance with the regulations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0691,
+        "Arguments of Respondent": 0.0672,
+        "Decision": 0.0002,
+        "Facts": 0.0263,
+        "Issue": 0.0007,
+        "Reasoning": 0.8366
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Under subsection (2) of Section 146 the Board is empowered to make regulations to carry out the provisions of the Section and the regulations may provide among other things for the qualification of persons who may apply for a licence and qualifications of persons to be employed by a licensee to assist him in his work as an agent and the restrictions and conditions subject to which a licence may be granted.",
+      "predicted_label": "Facts",
+      "confidence": 0.5259,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0773,
+        "Arguments of Respondent": 0.0782,
+        "Decision": 0.0002,
+        "Facts": 0.5259,
+        "Issue": 0.0016,
+        "Reasoning": 0.3168
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "In exercise of the power conferred by Section 146, the Central Board of Excise and Customs notified the Customs House Agents Licensing Regulations 1984.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6797,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0505,
+        "Arguments of Respondent": 0.098,
+        "Decision": 0.0003,
+        "Facts": 0.1711,
+        "Issue": 0.0005,
+        "Reasoning": 0.6797
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "Under clause (c) of Regulation 2 a Customs House Agent was defined to mean a person licensed under the regulations to act as agent for the transaction of any business relating to the entry or departure of conveyances or the import or export of goods at any customs station.",
+      "predicted_label": "Facts",
+      "confidence": 0.5693,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0233,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0001,
+        "Facts": 0.5693,
+        "Issue": 0.001,
+        "Reasoning": 0.3895
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Under Regulation 4 the Commissioner was empowered to invite applications for the grant of such number of licences as assessed by him to act as Customs House Agents, in the month of January every year for clearance work falling in his jurisdiction.",
+      "predicted_label": "Facts",
+      "confidence": 0.8989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0001,
+        "Facts": 0.8989,
+        "Issue": 0.0019,
+        "Reasoning": 0.0911
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Under Regulation 5, if the applicant was either a firm or a company the application was to inter alia contain the name of a duly authorized employee or, as the case may be, a partner, director or manager who would actually be engaged in the clearance of goods or conveyances through the customs.",
+      "predicted_label": "Facts",
+      "confidence": 0.7561,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.0166,
+        "Decision": 0.0002,
+        "Facts": 0.7561,
+        "Issue": 0.0019,
+        "Reasoning": 0.2038
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Regulation 6 spelt out the conditions to be fulfilled by each applicant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9082,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0001,
+        "Facts": 0.9082,
+        "Issue": 0.0018,
+        "Reasoning": 0.0701
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Under Regulation 8 a temporary licence was required to be granted initially for a period of one year.",
+      "predicted_label": "Facts",
+      "confidence": 0.7613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0325,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0001,
+        "Facts": 0.7613,
+        "Issue": 0.0036,
+        "Reasoning": 0.1842
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "An examination was provided in Regulation 9 under which either the holder of a temporary licence in the case of an individual and the person or persons who would be actually engaged in the work of clearance on behalf of the firm or the company which held a temporary licence were to qualify in an examination within a period of two years availing of not more than three chances.",
+      "predicted_label": "Facts",
+      "confidence": 0.6772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.024,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.0001,
+        "Facts": 0.6772,
+        "Issue": 0.0013,
+        "Reasoning": 0.2856
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "The subjects of the examination included the following (a) preparation of various kinds of bills of entry and shipping bills(b) arrival entry and clearance of vessels(c) tariff classification and rates of duty(d) determination of value for assessment(e) conversion of currency(f) nature and description of documents to be filed with various kinds of bills of entry and shipping bills(g) procedure for assessment and payment of duty(h) examination of merchandise of the Customs stations(i) provisions of the Trade and Merchandise Marks Act, 1958 (43 of 1958)(j) prohibitions on import and export(k) bonding procedure and clearance from bond(l) reimportation and conditions for free reentry(m) drawback(n) offences under the Act(o) the provisions of allied Acts including Imports and Exports (Control) Act, 1947 (18 of 1947), Foreign Exchange Regulation Act, 1973 (46 of 1973), Indian Explosives Act, 1884 (4 of 1884), Arms Act, 1959 (54 of 1959), Opium Act, 1878 (1 of 1878), Drugs and Cosmetics Act, 1940 (23 of 1940), Destructive Insects and Pests Act, 1914 (2 of 1914), Dangerous Drugs Act 1930, (2 of 1930) insofar as they are relevant to the clearance of goods through customs.(p) procedure in the matter of refund of duty paid, appeals and revision petitions under the Act.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9116,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0001,
+        "Facts": 0.9116,
+        "Issue": 0.0133,
+        "Reasoning": 0.0685
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Under Regulation 10 the Commissioner was empowered to grant a regular licence to the holder of a temporary licence upon qualification in an examination referred to in Regulation 9 and whose performance was found satisfactory.",
+      "predicted_label": "Facts",
+      "confidence": 0.875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0001,
+        "Facts": 0.875,
+        "Issue": 0.0016,
+        "Reasoning": 0.1133
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The licence under Regulation 12 was to be valid for five years and was subject to renewal.",
+      "predicted_label": "Facts",
+      "confidence": 0.8043,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0307,
+        "Arguments of Respondent": 0.0213,
+        "Decision": 0.0001,
+        "Facts": 0.8043,
+        "Issue": 0.0024,
+        "Reasoning": 0.1413
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Regulation 14 provided for the obligations of a Customs House Agent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6501,
+      "probabilities": {
+        "Arguments of Petitioner": 0.036,
+        "Arguments of Respondent": 0.0665,
+        "Decision": 0.0002,
+        "Facts": 0.2467,
+        "Issue": 0.0006,
+        "Reasoning": 0.6501
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Under Regulation 18, a person who was qualified in the examination referred to in Regulation 9 was permitted to engage in the work relating to the clearance of goods through customs on behalf of a firm or company licensed under Regulation 10.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5059,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0406,
+        "Arguments of Respondent": 0.0294,
+        "Decision": 0.0002,
+        "Facts": 0.4223,
+        "Issue": 0.0016,
+        "Reasoning": 0.5059
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "Any change in the persons qualified in the examination and actually engaged in the work in the customs station on behalf of the licensee was required to be communicated to the Assistant or Deputy Commissioner of Customs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.695,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0389,
+        "Arguments of Respondent": 0.0441,
+        "Decision": 0.0002,
+        "Facts": 0.2207,
+        "Issue": 0.0012,
+        "Reasoning": 0.695
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "Under Regulation 20 a licensee was permitted to employ one or more persons to assist him in the work, this being subject to the condition that he shall within six months from the date of appointment pass an examination conducted by the competent authority.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0,
+        "Facts": 0.994,
+        "Issue": 0.0008,
+        "Reasoning": 0.0024
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The earlier regulations of 1984 came to be superseded except as respect things done or omitted to be done before such supersession upon the notification of the Customs House Agents Licensing Regulations 2004 on 23 February 2004.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6264,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1586,
+        "Arguments of Respondent": 0.1602,
+        "Decision": 0.0014,
+        "Facts": 0.0532,
+        "Issue": 0.0003,
+        "Reasoning": 0.6264
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "The new regulations of 2004 were framed pursuant to the recommendations of the Kelkar Committee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0871,
+        "Arguments of Respondent": 0.1617,
+        "Decision": 0.0044,
+        "Facts": 0.1816,
+        "Issue": 0.0002,
+        "Reasoning": 0.565
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "The Committee had recommended that there should be a review of the technical qualifications of Customs House Agents.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6011,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0784,
+        "Arguments of Respondent": 0.1382,
+        "Decision": 0.0006,
+        "Facts": 0.1808,
+        "Issue": 0.0009,
+        "Reasoning": 0.6011
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "The Central Board of Excise and Customs revisited the earlier regulations and while notifying the new regulations of 2004 considered that there was a need to ensure upgradation of levels of competencies and knowledge on the part of CHAs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6817,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0224,
+        "Arguments of Respondent": 0.0767,
+        "Decision": 0.0029,
+        "Facts": 0.2158,
+        "Issue": 0.0005,
+        "Reasoning": 0.6817
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "The new regulations do not provide for a restriction on the number of CHAs since it is considered that market forces should govern the number of proficient and qualified persons required to carry out the job of CHAs commensurate with the volume of import and export cargo.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0897,
+        "Arguments of Respondent": 0.4187,
+        "Decision": 0.001,
+        "Facts": 0.1887,
+        "Issue": 0.0003,
+        "Reasoning": 0.3016
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The new regulations of 2004 stipulate in Regulation 3 that no person shall carry on business as a CHA relating to the entry or departure of a conveyance or the import or export of goods at any customs station unless such person holds a licence granted under the Regulations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0792,
+        "Arguments of Respondent": 0.0518,
+        "Decision": 0.0015,
+        "Facts": 0.1348,
+        "Issue": 0.0016,
+        "Reasoning": 0.7313
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Regulation 6 stipulates the conditions to be fulfilled by each applicant and is to the following effect6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9536,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0001,
+        "Facts": 0.9536,
+        "Issue": 0.0011,
+        "Reasoning": 0.0236
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Conditions to be fulfilled by the applicant The applicant referred to in clause (b) of subregulations (2) and (3) of regulation 5, as the case may be, or a person who has passed the examination referred to in regulation 8, shall prove to the satisfaction of the Commissioner of Customs, that(a) the applicant, or his authorized employee, is a graduate from a recognized University and possesses a professional degree viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.6665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0622,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.0029,
+        "Facts": 0.6665,
+        "Issue": 0.0119,
+        "Reasoning": 0.2388
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "C.A. M.B.A. LL.B. Diploma in Customs Clearance work from any Institute or University recognized by the Government with a working knowledge of computers and customs procedures, or is a graduate having at least three years experience in transacting Custom House Agent work as a GCard holder, or a person who has passed the examination referred to in regulation 8, or is a retired Group",
+      "predicted_label": "Facts",
+      "confidence": 0.9562,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0125,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0008,
+        "Facts": 0.9562,
+        "Issue": 0.0039,
+        "Reasoning": 0.024
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "A officer from the Indian Customs and Central Excise Service (ICCES) having a minimum of ten years experience in Group A(b) the applicant has financial viability supported by a certificate issued by a Scheduled Bank or such other proof acceptable to the Commissioner of Customs evidencing possession of assets of value of not less that Rs.2 lakhs(c) the applicant is a citizen of India.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0806,
+        "Arguments of Respondent": 0.0333,
+        "Decision": 0.0008,
+        "Facts": 0.865,
+        "Issue": 0.0065,
+        "Reasoning": 0.0138
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Regulation 8 provides for an examination which is to be conducted by the Director General of Inspection twice every year.",
+      "predicted_label": "Facts",
+      "confidence": 0.9175,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0004,
+        "Facts": 0.9175,
+        "Issue": 0.0003,
+        "Reasoning": 0.0692
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The subjects in which the examination is to be conducted include the subjects which were stipulated in Regulation 9(3) of the earlier regulations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0429,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.002,
+        "Facts": 0.0459,
+        "Issue": 0.0002,
+        "Reasoning": 0.8967
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "Regulation 8 provides for an examination in certain additional areas, such as for instance, the online filing of electronic shipping bills or bills of entry and Indian Customs and Central Excise Electronic Commerce Electronic Data Interchange Gateway and Indian Customs Electronic Data Interchange Systems.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7718,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.1136,
+        "Decision": 0.0025,
+        "Facts": 0.0837,
+        "Issue": 0.0016,
+        "Reasoning": 0.7718
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Under Regulation 9(2) a Customs House Agent who is granted a licence is eligible to work in all customs stations within the country.",
+      "predicted_label": "Facts",
+      "confidence": 0.4513,
+      "probabilities": {
+        "Arguments of Petitioner": 0.058,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0003,
+        "Facts": 0.4513,
+        "Issue": 0.0008,
+        "Reasoning": 0.445
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "The obligations of Customs House Agents are stipulated in Regulation 13.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.042,
+        "Arguments of Respondent": 0.0521,
+        "Decision": 0.0005,
+        "Facts": 0.0291,
+        "Issue": 0.0003,
+        "Reasoning": 0.8761
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Under Regulation 17 a person who has qualified in the examination under Regulation 8 may engage himself in the work relating to the clearance of goods through customs on behalf of a firm or company licensed under Regulation 9.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8229,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0351,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0004,
+        "Facts": 0.1248,
+        "Issue": 0.0012,
+        "Reasoning": 0.8229
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Any change in the person so qualified and actually engaged in the work of a customs station on behalf of a licensee, firm or company is required to be communicated forthwith to the Deputy or Assistant Commissioner of Customs.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.5439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0968,
+        "Arguments of Respondent": 0.0697,
+        "Decision": 0.0003,
+        "Facts": 0.5439,
+        "Issue": 0.0013,
+        "Reasoning": 0.288
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "On 8 April 2010 the provisions of Regulation 8 were amended.",
+      "predicted_label": "Facts",
+      "confidence": 0.8863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0002,
+        "Facts": 0.8863,
+        "Issue": 0.0021,
+        "Reasoning": 0.0806
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "In Regulation 8, clause (9) came to be introduced to the following effect(9)",
+      "predicted_label": "Facts",
+      "confidence": 0.9321,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0002,
+        "Facts": 0.9321,
+        "Issue": 0.0002,
+        "Reasoning": 0.0572
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Notwithstanding anything contained in these regulations, any person who had passed the examination conducted in regulation 9 of the Customs House Agents Licensing Regulation, 1984, and has not yet been granted license under these regulations, upon declaring successful in a written examination conducted on the following subjects, shall be deemed to have passed the examination referred to in regulation 8 for the purpose of these regulations.(a)",
+      "predicted_label": "Facts",
+      "confidence": 0.7776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.001,
+        "Facts": 0.7776,
+        "Issue": 0.0011,
+        "Reasoning": 0.1781
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The Patents Act, 1970 and Indian Copyright Act, 1957(b) Central Excise Act, 1944(c)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4603,
+        "Arguments of Respondent": 0.1182,
+        "Decision": 0.0151,
+        "Facts": 0.3087,
+        "Issue": 0.0315,
+        "Reasoning": 0.0661
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "Export promotion schemes(d) Procedure on appeal and revision petition(e) Prevention of Corruption Act, 1988(f)",
+      "predicted_label": "Facts",
+      "confidence": 0.7692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0761,
+        "Arguments of Respondent": 0.0889,
+        "Decision": 0.0006,
+        "Facts": 0.7692,
+        "Issue": 0.0121,
+        "Reasoning": 0.0531
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "Online filing of electronic Customs declarations(g) Narcotic Drugs and Psychotropic Substances Act, 1985 and(h)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3001,
+        "Arguments of Respondent": 0.3129,
+        "Decision": 0.0036,
+        "Facts": 0.2583,
+        "Issue": 0.0233,
+        "Reasoning": 0.1019
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Foreign Exchange Management Act, 1999.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.8938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0568,
+        "Arguments of Respondent": 0.0341,
+        "Decision": 0.0004,
+        "Facts": 0.8938,
+        "Issue": 0.004,
+        "Reasoning": 0.0109
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Following the amendment a public notice was issued on 15 June 2011 by the Commissioner of Customs, Mumbai inviting applications for the grant of new Customs House Agents licences under the regulations of 2004.",
+      "predicted_label": "Facts",
+      "confidence": 0.8192,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.0161,
+        "Decision": 0.0002,
+        "Facts": 0.8192,
+        "Issue": 0.0081,
+        "Reasoning": 0.1301
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The public notice stipulated that where the applicant in question is a proprietary concern, the applicant must be a person who has passed the examination under Regulation 8.",
+      "predicted_label": "Facts",
+      "confidence": 0.4732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0699,
+        "Arguments of Respondent": 0.0382,
+        "Decision": 0.0004,
+        "Facts": 0.4732,
+        "Issue": 0.0027,
+        "Reasoning": 0.4156
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 50,
+      "text": "Similarly, in the case of a firm or company, the partner, director, manager or duly authorized employee who would actually be engaged in the clearance of goods or conveyance through customs, was required to have passed the examination under Regulation 8.8.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7416,
+      "probabilities": {
+        "Arguments of Petitioner": 0.081,
+        "Arguments of Respondent": 0.0407,
+        "Decision": 0.0007,
+        "Facts": 0.1341,
+        "Issue": 0.0019,
+        "Reasoning": 0.7416
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "These proceedings have been instituted in order to challenge the requirement which is embodied in the regulations of 2004 to the effect that a person who has passed the examination conducted under Regulation 9 of 1984 regulations, but has not yet been granted a licence would be deemed to have passed the examination under Regulation 8 of the 2004 regulations, upon passing a written examination conducted in certain additional subjects.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.8975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0003,
+        "Facts": 0.8975,
+        "Issue": 0.0603,
+        "Reasoning": 0.0065
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Counsel appearing on behalf of the Petitioners submitted that(i) A candidate would stand declared as a CHA immediately upon passing the examination under Regulation 9 of the 1984 regulations(ii) Such a candidate could be engaged by any company or firm to carry on the business of a CHA(iii)The right of such a candidate to obtain a licence under the regulations of 1984 stood crystallized since nothing more was required to be done on the part of the candidate.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9732,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0007,
+        "Facts": 0.0106,
+        "Issue": 0.0005,
+        "Reasoning": 0.0118
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "As a matter of fact, however, the Commissioner of Mumbai did not invite applications for the grant of licences since 1989(iv)Under Section 159(9) upon the repeal of the earlier regulations rights which had accrued were saved.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6815,
+        "Arguments of Respondent": 0.2454,
+        "Decision": 0.0012,
+        "Facts": 0.0301,
+        "Issue": 0.0003,
+        "Reasoning": 0.0415
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "The right which was acquired by persons who had passed the examination under the earlier regulations was to carry on business as CHAs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0485,
+        "Arguments of Respondent": 0.0477,
+        "Decision": 0.0003,
+        "Facts": 0.046,
+        "Issue": 0.0001,
+        "Reasoning": 0.8575
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Such candidates, even upon the enforcement of the new regulations would be entitled to continue in the employment of an existing licensee under the 1984 regulations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.042,
+        "Arguments of Respondent": 0.0313,
+        "Decision": 0.0072,
+        "Facts": 0.0407,
+        "Issue": 0.0006,
+        "Reasoning": 0.8781
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "However, it is urged that they are unjustifiably being denied the opportunity of obtaining a licence in their own name without passing an examination in certain additional subjects(v) Even after the enforcement of the regulations of 2004, licenses have been issued by the Commissionerates to persons who have passed the examination held under the earlier regulations and such persons would be entitled to carry on business all over the country.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3913,
+        "Arguments of Respondent": 0.591,
+        "Decision": 0.0007,
+        "Facts": 0.0069,
+        "Issue": 0.0002,
+        "Reasoning": 0.0099
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "On these grounds it was submitted that the requirement that persons who have passed the examination under the earlier regulations of 1984 must appear in and pass an examination in certain additional subjects as a condition precedent to the grant of a new licence is arbitrary and violative of the fundamental rights conferred by Articles 14 and 19(1)(g) of the Constitution.10.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9552,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9552,
+        "Arguments of Respondent": 0.0138,
+        "Decision": 0.0001,
+        "Facts": 0.0221,
+        "Issue": 0.0009,
+        "Reasoning": 0.008
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "On the other hand, Counsel appearing on behalf of the Respondents has adverted to the background and rationale underlying the enforcement of the new regulations in 2004.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9686,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.9686,
+        "Decision": 0.0002,
+        "Facts": 0.0019,
+        "Issue": 0.0003,
+        "Reasoning": 0.0272
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Learned counsel submitted that(i) The new regulations of 2004 were brought into force following the recommendations of the Kelkar Committee which suggested a review of the qualifications for CHAs(ii) A candidate who had passed the examination held under the 1984 regulations, but has not been granted a licence under those regulations had no vested right to obtain a licence(iii)Upon the enforcement of the new regulations in 2004 the rights which have enured to persons who had been granted licences under the 1984 regulations have been saved.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.142,
+        "Arguments of Respondent": 0.8541,
+        "Decision": 0.0003,
+        "Facts": 0.0006,
+        "Issue": 0.0002,
+        "Reasoning": 0.0029
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "Similarly, a person who on the strength of having passed the earlier examination had obtained employment with a licensee would be entitled to continue in employment of an erstwhile licensee However, if a candidate who has passed the examination under the regulations of 1984 chooses to obtain a fresh licence in his own name, there is nothing arbitrary about requiring him to pass the examination under the 2004 regulations in certain additional subjects(iv)The right to carry on business as a CHA has not been abrogated.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.696,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2106,
+        "Arguments of Respondent": 0.696,
+        "Decision": 0.0087,
+        "Facts": 0.0064,
+        "Issue": 0.0003,
+        "Reasoning": 0.0781
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 61,
+      "text": "In any event consistent with the provisions of Section 146(2) conditions can be imposed reasonably and in the public interest to prescribe the qualifications for persons who may apply for a licence and for qualifications of persons to be employed by a licensee to assist him in his work.11.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1009,
+        "Arguments of Respondent": 0.4602,
+        "Decision": 0.0005,
+        "Facts": 0.0503,
+        "Issue": 0.0007,
+        "Reasoning": 0.3874
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 62,
+      "text": "Under the earlier regulations of 1984, the procedure envisaged contemplated the grant of temporary licences initially for a period of one year under Regulation 8.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7098,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0618,
+        "Arguments of Respondent": 0.0363,
+        "Decision": 0.0002,
+        "Facts": 0.1916,
+        "Issue": 0.0003,
+        "Reasoning": 0.7098
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "A person who had qualified in the examination under Regulation 9 could engage in the work relating to the clearance of goods through customs on behalf of a duly licensed firm or company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9272,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0211,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0015,
+        "Facts": 0.032,
+        "Issue": 0.0003,
+        "Reasoning": 0.9272
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "Section 146 of the Customs Act 1962 mandates that in order to carry on the business of an agent relating to the entry or departure of a conveyance or of import of export goods at any customs station, a licence must be obtained in accordance with the regulations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7063,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1155,
+        "Arguments of Respondent": 0.0963,
+        "Decision": 0.0003,
+        "Facts": 0.0786,
+        "Issue": 0.003,
+        "Reasoning": 0.7063
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "Regulation 6 provides the conditions which have to be fulfilled by the applicant.",
+      "predicted_label": "Facts",
+      "confidence": 0.6721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0565,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.0006,
+        "Facts": 0.6721,
+        "Issue": 0.0064,
+        "Reasoning": 0.2507
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "The regulations of 2004 have been further amended on 8 April 2010 to stipulate that a person who had passed the examination conducted under Regulation 9 of the erstwhile regulations but had not yet been granted a licence would be deemed to have passed the examination referred to in Regulation 8 of the new regulation upon passing an examination in certain additional subjects.13.",
+      "predicted_label": "Facts",
+      "confidence": 0.4869,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1555,
+        "Arguments of Respondent": 0.0551,
+        "Decision": 0.0002,
+        "Facts": 0.4869,
+        "Issue": 0.0018,
+        "Reasoning": 0.3005
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 67,
+      "text": "The mere passing of an examination held under the regulations of 1984 would not render a candidate eligible to obtain a licence under the regulations of 2004.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4286,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1595,
+        "Arguments of Respondent": 0.3742,
+        "Decision": 0.0215,
+        "Facts": 0.0158,
+        "Issue": 0.0004,
+        "Reasoning": 0.4286
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 68,
+      "text": "The regulations of 2004 superseded the earlier regulations and stipulated the passing of an examination as provided for in Regulation 8.",
+      "predicted_label": "Facts",
+      "confidence": 0.5863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0337,
+        "Arguments of Respondent": 0.0484,
+        "Decision": 0.0002,
+        "Facts": 0.5863,
+        "Issue": 0.0007,
+        "Reasoning": 0.3306
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "Amended Regulation 8(9), however, stipulates that a candidate who had passed the examination held under the Regulations of 1984 would be deemed to have passed the examination held under Regulation 8 of the 2004 regulations subject to passing in certain additional subjects.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0999,
+        "Arguments of Respondent": 0.0309,
+        "Decision": 0.0008,
+        "Facts": 0.1868,
+        "Issue": 0.0021,
+        "Reasoning": 0.6795
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "This was a concession which was granted to candidates who had passed the examination held under the earlier regulations and with a view to enabling them to qualify under the new regulations subject to passing in certain additional subjects.",
+      "predicted_label": "Facts",
+      "confidence": 0.5179,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0377,
+        "Arguments of Respondent": 0.0288,
+        "Decision": 0.0001,
+        "Facts": 0.5179,
+        "Issue": 0.0006,
+        "Reasoning": 0.415
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 71,
+      "text": "The rationale for introducing this requirement has been explained in the affidavit filed on behalf of the Respondents.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5536,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0474,
+        "Arguments of Respondent": 0.3793,
+        "Decision": 0.0003,
+        "Facts": 0.0191,
+        "Issue": 0.0002,
+        "Reasoning": 0.5536
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "In the affidavit in reply it has been stated that the Kelkar Committee recommended a review of the technical qualifications of Customs House Agents.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1172,
+        "Arguments of Respondent": 0.1525,
+        "Decision": 0.0001,
+        "Facts": 0.1397,
+        "Issue": 0.0001,
+        "Reasoning": 0.5904
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "The decision of the Central Board of Excise and Customs to require candidates who had passed the earlier examination under the 1984 regulations to qualify in additional subjects was based upon the need to ensure the same competence and knowledge levels among successful applicants under both sets of regulations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0527,
+        "Arguments of Respondent": 0.1151,
+        "Decision": 0.0009,
+        "Facts": 0.0514,
+        "Issue": 0.0005,
+        "Reasoning": 0.7794
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "The requirement of passing an examination in additional subjects cannot, in our view, be held to be arbitrary or lacking a reasonable nexus with the object sought to be achieved.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0201,
+        "Facts": 0.0069,
+        "Issue": 0.0006,
+        "Reasoning": 0.965
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "The object underlying the requirement of passing an examination under Regulation 8 is to ensure that a person who comes to carry on business as a CHA has a basic level of competence and knowledge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8404,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0561,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0005,
+        "Facts": 0.0908,
+        "Issue": 0.0013,
+        "Reasoning": 0.8404
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "Persons who had passed the earlier examination held under the regulations of 1984 had no vested right to obtain a licence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3051,
+        "Arguments of Respondent": 0.1337,
+        "Decision": 0.0022,
+        "Facts": 0.0953,
+        "Issue": 0.0003,
+        "Reasoning": 0.4634
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "As a matter of fact, such persons who had not obtained licences in their own name by the time that the regulations of 1984 were superseded by the regulations of 2004, would have been required otherwise to fulfill all the requirements of the regulations of 2004.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1048,
+        "Arguments of Respondent": 0.1134,
+        "Decision": 0.0005,
+        "Facts": 0.0237,
+        "Issue": 0.0002,
+        "Reasoning": 0.7575
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "What Regulation 8(9) brings about is to grant a degree of concession to those who had passed the examination which was held under the regulations of 1984 by requiring them to pass an examination only in certain additional subjects.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0002,
+        "Facts": 0.0058,
+        "Issue": 0.0001,
+        "Reasoning": 0.9705
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "A licence is a privilege to carry on business.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0579,
+        "Arguments of Respondent": 0.0667,
+        "Decision": 0.0008,
+        "Facts": 0.0149,
+        "Issue": 0.0008,
+        "Reasoning": 0.859
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "An applicant for a licence has a right only to be considered for the grant of a licence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.609,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0958,
+        "Arguments of Respondent": 0.251,
+        "Decision": 0.0048,
+        "Facts": 0.039,
+        "Issue": 0.0004,
+        "Reasoning": 0.609
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "Neither in law or as a matter of first principle does any applicant possess a vested right to the grant of a licence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8689,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0369,
+        "Arguments of Respondent": 0.0596,
+        "Decision": 0.0002,
+        "Facts": 0.0332,
+        "Issue": 0.0012,
+        "Reasoning": 0.8689
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "Hence, when the regulations of 2004 stipulate that in order to obtain a licence in his own name, an applicant must have qualified at the examination as mandated under Regulation 8, there is nothing arbitrary or illegal in imposing such a requirement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7584,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0927,
+        "Arguments of Respondent": 0.1266,
+        "Decision": 0.0003,
+        "Facts": 0.0218,
+        "Issue": 0.0002,
+        "Reasoning": 0.7584
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Undoubtedly Article 14 of the Constitution prohibits a discrimination which is not based on an intelligible reason or justification.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0253,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0002,
+        "Facts": 0.0166,
+        "Issue": 0.0062,
+        "Reasoning": 0.9305
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "In the present case, it cannot be asserted that the requirement of passing an examination in additional subjects is lacking in an intelligible rationale.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0043,
+        "Facts": 0.0061,
+        "Issue": 0.0003,
+        "Reasoning": 0.9793
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "The requirement has a reasonable nexus with the object which is sought to be achieved viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0931,
+        "Arguments of Respondent": 0.1033,
+        "Decision": 0.001,
+        "Facts": 0.0089,
+        "Issue": 0.0007,
+        "Reasoning": 0.7929
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "Similarly, as regards the Chennai Customs, it has been submitted that by an order dated 31 March 2010, a Learned Single Judge of the Madras High Court had directed the customs authorities to issue certificates under Regulation 8 of the new regulations of 2004.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6881,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2013,
+        "Arguments of Respondent": 0.6881,
+        "Decision": 0.0012,
+        "Facts": 0.0555,
+        "Issue": 0.0003,
+        "Reasoning": 0.0535
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "This order was the subject matter of an appeal before the Division Bench of the Madras High Court which is pending.",
+      "predicted_label": "Facts",
+      "confidence": 0.6749,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0765,
+        "Arguments of Respondent": 0.0578,
+        "Decision": 0.0048,
+        "Facts": 0.6749,
+        "Issue": 0.0137,
+        "Reasoning": 0.1724
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 88,
+      "text": "Subsequently, a contempt petition was taken out for nonimplementation of the order dated 31 March 2010 and three CHA licences were issued subject to the outcome of the appeal filed by the department.",
+      "predicted_label": "Facts",
+      "confidence": 0.7726,
+      "probabilities": {
+        "Arguments of Petitioner": 0.046,
+        "Arguments of Respondent": 0.0504,
+        "Decision": 0.0009,
+        "Facts": 0.7726,
+        "Issue": 0.0026,
+        "Reasoning": 0.1276
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "Besides this, it has also been stated in the further affidavit dated 11 November 2011 that in Mumbai 40 persons who had qualified under the 1984 regulation appeared pursuant to a special examination conducted by the Customs House on 15 July 2010 of whom 13 were declared to have passed the examination.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1379,
+        "Arguments of Respondent": 0.098,
+        "Decision": 0.0001,
+        "Facts": 0.182,
+        "Issue": 0.0001,
+        "Reasoning": 0.5818
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 90,
+      "text": "The view which we have taken in regard to the validity of the regulations is consistent with the view taken by a Division Bench of the Madras High Court in C.V. Karunakaran v. Chairman, Central Board of Excise and Customs 2010 (249) E.L.T. 324 (Mad.).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0785,
+        "Facts": 0.0088,
+        "Issue": 0.0008,
+        "Reasoning": 0.9033
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "The Division Bench of the Madras High Court presided over by Mr. Justice H.L. Gokhale (as His Lordship then was) held that an applicant who had passed the examination held under the regulations of 1984 had no vested right to obtain a licence.",
+      "predicted_label": "Facts",
+      "confidence": 0.7089,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0005,
+        "Facts": 0.7089,
+        "Issue": 0.0263,
+        "Reasoning": 0.2531
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "Such an applicant had at best an opportunity to apply for licences which could not be treated as a vested right.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2955,
+        "Arguments of Respondent": 0.3039,
+        "Decision": 0.0005,
+        "Facts": 0.039,
+        "Issue": 0.0001,
+        "Reasoning": 0.361
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 93,
+      "text": "A contrary view has been taken in a judgment of a Division Bench of the Gujarat High Court in D.N. Thakkar v. Union of India (Special Leave Application 6152 of 2010 and connected cases) decided on 13 July 2010.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1032,
+        "Arguments of Respondent": 0.0814,
+        "Decision": 0.0061,
+        "Facts": 0.2559,
+        "Issue": 0.003,
+        "Reasoning": 0.5503
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 94,
+      "text": "Leave has been granted by the Supreme Court to appeal against the judgment of the Gujarat High Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.6472,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0206,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0146,
+        "Facts": 0.6472,
+        "Issue": 0.2024,
+        "Reasoning": 0.1011
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 95,
+      "text": "The Gujarat High Court has held that persons who had cleared the examination which was held under Regulation 9 of the 1984 regulations and were otherwise qualified for the grant of a licence subject to fulfillment of certain conditions fell in one class.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7066,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0977,
+        "Arguments of Respondent": 0.0679,
+        "Decision": 0.0008,
+        "Facts": 0.126,
+        "Issue": 0.0009,
+        "Reasoning": 0.7066
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "Such persons were working in some capacity or other with regular licence holders.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8424,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0003,
+        "Facts": 0.134,
+        "Issue": 0.0007,
+        "Reasoning": 0.8424
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "According to the judgment, the regulations of 2004 have created two classes of persons viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.4608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0338,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0013,
+        "Facts": 0.4608,
+        "Issue": 0.0242,
+        "Reasoning": 0.4533
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 98,
+      "text": "those who had obtained licenses prior to the regulations of 2004 and those who on account of the failure of the concerned Commissionerate to notify applications could not obtain licences before the new regulations came into force.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8096,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0549,
+        "Arguments of Respondent": 0.0972,
+        "Decision": 0.0033,
+        "Facts": 0.0344,
+        "Issue": 0.0007,
+        "Reasoning": 0.8096
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "In our respectful view the judgment delivered by the Madras High Court commends itself for acceptance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0023,
+        "Facts": 0.0094,
+        "Issue": 0.0006,
+        "Reasoning": 0.9742
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "The mere passing of an examination under the 1984 regulations did not confer a vested right to the grant of a licence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8063,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1153,
+        "Arguments of Respondent": 0.0554,
+        "Decision": 0.0014,
+        "Facts": 0.0211,
+        "Issue": 0.0004,
+        "Reasoning": 0.8063
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "Upon the enforcement of the regulations of 2004 every applicant for the grant of a new licence must comply with the regulations which were made in the exercise of the statutory power conferred by Section 146(2).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8101,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0609,
+        "Arguments of Respondent": 0.1009,
+        "Decision": 0.002,
+        "Facts": 0.0253,
+        "Issue": 0.0008,
+        "Reasoning": 0.8101
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "The requirement of passing an examination in additional subjects is based on an intelligible consideration which is to upgrade the skills and competencies of persons who seek to apply for a licence as CHAs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9087,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.0312,
+        "Decision": 0.0369,
+        "Facts": 0.0092,
+        "Issue": 0.0007,
+        "Reasoning": 0.9087
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "A person who seeks a licence after the enforcement of the Regulation of 2004 must therefore comply with the requirements of the new regulations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0628,
+        "Arguments of Respondent": 0.1787,
+        "Decision": 0.0079,
+        "Facts": 0.0127,
+        "Issue": 0.0002,
+        "Reasoning": 0.7377
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "For these reasons we are of the view that no case for interference under Article 226 of the Constitution has been made out.",
+      "predicted_label": "Decision",
+      "confidence": 0.5737,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.5737,
+        "Facts": 0.0092,
+        "Issue": 0.0003,
+        "Reasoning": 0.4107
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 105,
+      "text": "The Petition shall accordingly stand dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.928,
+        "Facts": 0.039,
+        "Issue": 0.0003,
+        "Reasoning": 0.0295
+      }
+    }
+  ]
+}

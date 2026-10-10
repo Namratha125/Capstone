@@ -1,0 +1,2209 @@
+{
+  "case_id": "6609",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " I. REBELLO, J.The petitioners have filed this petition against the Company under sections 433 and 434 of the Companies Act, 1956.",
+      "predicted_label": "Facts",
+      "confidence": 0.5813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0009,
+        "Facts": 0.5813,
+        "Issue": 0.4143,
+        "Reasoning": 0.0022
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The statutory notice dated September 22, 1997 has been served on the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6154,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1108,
+        "Arguments of Respondent": 0.1157,
+        "Decision": 0.0079,
+        "Facts": 0.1486,
+        "Issue": 0.0016,
+        "Reasoning": 0.6154
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "In reply by letter of October 24, 1997 the Company stated that the demand as made was not tenable and contended that there were serious disputes.",
+      "predicted_label": "Facts",
+      "confidence": 0.9579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0,
+        "Facts": 0.9579,
+        "Issue": 0.0013,
+        "Reasoning": 0.0333
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "It was further set out that the conduct of the petitioners was malicious and vexatious.",
+      "predicted_label": "Facts",
+      "confidence": 0.7675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0949,
+        "Arguments of Respondent": 0.0755,
+        "Decision": 0.0005,
+        "Facts": 0.7675,
+        "Issue": 0.0008,
+        "Reasoning": 0.0609
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The interest and charges was also disputed.",
+      "predicted_label": "Facts",
+      "confidence": 0.925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0002,
+        "Facts": 0.925,
+        "Issue": 0.0025,
+        "Reasoning": 0.0532
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "It is contended that the petitioners received excess payments by way of interest.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4792,
+        "Arguments of Respondent": 0.2063,
+        "Decision": 0.002,
+        "Facts": 0.2009,
+        "Issue": 0.0068,
+        "Reasoning": 0.1047
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "It was further pointed out that the Company could cancel the transactions entered into by the Directors which were detrimental to the business interests of the Company and its shareholders.",
+      "predicted_label": "Facts",
+      "confidence": 0.475,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1289,
+        "Arguments of Respondent": 0.2674,
+        "Decision": 0.0005,
+        "Facts": 0.475,
+        "Issue": 0.0008,
+        "Reasoning": 0.1273
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "Lastly it is contended that there was a bona fide dispute.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4242,
+        "Arguments of Respondent": 0.4955,
+        "Decision": 0.0005,
+        "Facts": 0.0375,
+        "Issue": 0.0036,
+        "Reasoning": 0.0387
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "It is further averred that the Company is liable to pay the amounts decided by the Competent Court or by mutual negotiations.",
+      "predicted_label": "Facts",
+      "confidence": 0.678,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0677,
+        "Arguments of Respondent": 0.11,
+        "Decision": 0.0008,
+        "Facts": 0.678,
+        "Issue": 0.0078,
+        "Reasoning": 0.1357
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The case of the petitioners is that the Company had approached the petitioners for deposits and at the request of the Company the petitioners lent and advanced working capital between 5th December, 1995 to 23rd October, 1996 as intercorporate deposit totalling to Rs. 2,30,00,000/.",
+      "predicted_label": "Facts",
+      "confidence": 0.8086,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1645,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0001,
+        "Facts": 0.8086,
+        "Issue": 0.0017,
+        "Reasoning": 0.0219
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "To secure due repayment the Company issued 8 postdated cheques.",
+      "predicted_label": "Facts",
+      "confidence": 0.7764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0801,
+        "Arguments of Respondent": 0.0631,
+        "Decision": 0.0004,
+        "Facts": 0.7764,
+        "Issue": 0.0029,
+        "Reasoning": 0.0771
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "In the meantime the Company approached the petitioners for renewing the deposits as the Company was not in a position to repay the amounts on maturity.",
+      "predicted_label": "Facts",
+      "confidence": 0.915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0378,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0002,
+        "Facts": 0.915,
+        "Issue": 0.0025,
+        "Reasoning": 0.0348
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "At the request of the Company the petitioners agreed to further renew the deposit totalling Rs. 2,30,00,000/ on the Company executing fresh sets of security documents.",
+      "predicted_label": "Facts",
+      "confidence": 0.9605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0189,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0002,
+        "Facts": 0.9605,
+        "Issue": 0.0007,
+        "Reasoning": 0.0169
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Towards the various amounts which were renewed the petitioners were secured by the following documents(i) Demand Promissory Note.(ii) Postdated cheques for the same.(iii) Intercorporate Deposit Receipt.(iv) Letters of assurance.",
+      "predicted_label": "Facts",
+      "confidence": 0.9865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0,
+        "Facts": 0.9865,
+        "Issue": 0.0018,
+        "Reasoning": 0.0075
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The various dates are not being referred to as they differ from deposit to deposit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8109,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0633,
+        "Arguments of Respondent": 0.079,
+        "Decision": 0.0004,
+        "Facts": 0.0455,
+        "Issue": 0.0009,
+        "Reasoning": 0.8109
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The various amounts and their renewal are set out in paragraph 10(a) and 10(h) of the petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0377,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.0224,
+        "Facts": 0.722,
+        "Issue": 0.0036,
+        "Reasoning": 0.1968
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "By separate letters the Company agreed to pay interest at the rate of 22.5 per annum and had in fact paid interest at the said rate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5517,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1475,
+        "Arguments of Respondent": 0.1001,
+        "Decision": 0.0392,
+        "Facts": 0.1573,
+        "Issue": 0.0041,
+        "Reasoning": 0.5517
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "It is also averred in para 12 that Mr. Dhirajlal H. Vora, Mrs. Ranjana Dhirajlal Vora, Mr. Rajesh Dhirajlal Vora, Mrs. Sunayana Rajesh Vora, Dhirajlal H. Vora (HUF) and Rajesh Dhirajlal",
+      "predicted_label": "Facts",
+      "confidence": 0.5927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0159,
+        "Arguments of Respondent": 0.0282,
+        "Decision": 0.0003,
+        "Facts": 0.5927,
+        "Issue": 0.0001,
+        "Reasoning": 0.3627
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "Vora (HUF) were the contractual tenants of certain properties on the 4th Floor of a building known as Mehta Mahal which belonged owned by the trust known as Mehta Charitable Trust.",
+      "predicted_label": "Facts",
+      "confidence": 0.9917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0,
+        "Facts": 0.9917,
+        "Issue": 0.0047,
+        "Reasoning": 0.0027
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The said persons had agreed to give collateral security of the tenanted premises in favour of the petitioners by six agreements of Leave and License.",
+      "predicted_label": "Facts",
+      "confidence": 0.9229,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0231,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0002,
+        "Facts": 0.9229,
+        "Issue": 0.0012,
+        "Reasoning": 0.042
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Creation of license requires the permission of the landlord.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6054,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1703,
+        "Arguments of Respondent": 0.1462,
+        "Decision": 0.0004,
+        "Facts": 0.0772,
+        "Issue": 0.0006,
+        "Reasoning": 0.6054
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "The petitioners requested the office bearers of the Company to obtain the necessary permission.",
+      "predicted_label": "Facts",
+      "confidence": 0.9267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.9267,
+        "Issue": 0.0004,
+        "Reasoning": 0.0611
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Under some pretext or the other written permission of the landlord was not obtained and as such the said agreements had not been acted upon nor did the agreements create any collateral security as was intended when the agreements were entered into.",
+      "predicted_label": "Facts",
+      "confidence": 0.5267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0942,
+        "Arguments of Respondent": 0.1108,
+        "Decision": 0.0015,
+        "Facts": 0.5267,
+        "Issue": 0.002,
+        "Reasoning": 0.2648
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "The petitioners after giving notice to the Company presented 8 postdated cheques.",
+      "predicted_label": "Facts",
+      "confidence": 0.8498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0502,
+        "Arguments of Respondent": 0.0281,
+        "Decision": 0.0009,
+        "Facts": 0.8498,
+        "Issue": 0.0068,
+        "Reasoning": 0.0642
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The said cheques, however, when presented were dishonoured either on account of payment stopped by the drawer or exceeding arrangement.",
+      "predicted_label": "Facts",
+      "confidence": 0.8807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0007,
+        "Facts": 0.8807,
+        "Issue": 0.0979,
+        "Reasoning": 0.0174
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The petitioners have filed separate proceedings under section 138 of the Negotiable Instruments Act on account of dishonour of cheques.",
+      "predicted_label": "Facts",
+      "confidence": 0.7905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0798,
+        "Arguments of Respondent": 0.0096,
+        "Decision": 0.007,
+        "Facts": 0.7905,
+        "Issue": 0.0032,
+        "Reasoning": 0.1099
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Thereafter the statutory notice was served.",
+      "predicted_label": "Facts",
+      "confidence": 0.4812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0629,
+        "Arguments of Respondent": 0.0501,
+        "Decision": 0.0023,
+        "Facts": 0.4812,
+        "Issue": 0.01,
+        "Reasoning": 0.3934
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 27,
+      "text": "It is contended that the Company did not dispute their liabilities by replying to the notice nor secured the petitioner and as such the Company was due and owing to the petitioners an amount of Rs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4624,
+        "Arguments of Respondent": 0.1521,
+        "Decision": 0.0005,
+        "Facts": 0.3395,
+        "Issue": 0.003,
+        "Reasoning": 0.0426
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 28,
+      "text": "2,54,54,349,31 paise with further interest as set out therein.",
+      "predicted_label": "Facts",
+      "confidence": 0.9888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0004,
+        "Facts": 0.9888,
+        "Issue": 0.0019,
+        "Reasoning": 0.0065
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "In para 19 of the petition it is pointed out that the Company is indebted to the petitioners and Associate Companies in a sum of more than Rs. 4.00 crores.",
+      "predicted_label": "Facts",
+      "confidence": 0.4338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2171,
+        "Arguments of Respondent": 0.0409,
+        "Decision": 0.0014,
+        "Facts": 0.4338,
+        "Issue": 0.0015,
+        "Reasoning": 0.3052
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "It is also averred that the petitioners have come to know that there are a large number of creditors whose debts have not been liquidated by the Company including Dena Bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.5784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1539,
+        "Arguments of Respondent": 0.1452,
+        "Decision": 0.0009,
+        "Facts": 0.5784,
+        "Issue": 0.0031,
+        "Reasoning": 0.1185
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "On behalf of the Company, Rajesh B. Vora, Managing Director has filed reply.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.4884,
+        "Decision": 0.0014,
+        "Facts": 0.4267,
+        "Issue": 0.0008,
+        "Reasoning": 0.0529
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 32,
+      "text": "It is pointed out that the petition is not bona fide and the petitioners have approached the Court with unclean hands by suppressing material facts from the Court.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8346,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0626,
+        "Arguments of Respondent": 0.8346,
+        "Decision": 0.001,
+        "Facts": 0.0599,
+        "Issue": 0.0006,
+        "Reasoning": 0.0414
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "It is then also contended that when the statutory notice was issued no amounts were due and payable and as such no cause of action has accrued in favour of the petitioners.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4902,
+        "Arguments of Respondent": 0.4325,
+        "Decision": 0.0005,
+        "Facts": 0.0294,
+        "Issue": 0.0041,
+        "Reasoning": 0.0434
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "It is also pointed out without prejudice that all the amounts advanced have been secured.",
+      "predicted_label": "Facts",
+      "confidence": 0.7821,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0399,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0901,
+        "Facts": 0.7821,
+        "Issue": 0.0035,
+        "Reasoning": 0.0632
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "It is also pointed out that the Company is a running concern.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.2989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2476,
+        "Arguments of Respondent": 0.2989,
+        "Decision": 0.0035,
+        "Facts": 0.2197,
+        "Issue": 0.0023,
+        "Reasoning": 0.2281
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 36,
+      "text": "It has been elected as one of the 500 most valuable companies in India by the Magazine Business Today and reported to be amongst the fastest growing companies.",
+      "predicted_label": "Facts",
+      "confidence": 0.8891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0003,
+        "Facts": 0.8891,
+        "Issue": 0.0394,
+        "Reasoning": 0.0565
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "In that light of the matter if the petition for winding up is ordered, it will be against the interest of the creditors and shareholders as also against the public and national interest.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0509,
+        "Arguments of Respondent": 0.0984,
+        "Decision": 0.0122,
+        "Facts": 0.2004,
+        "Issue": 0.0008,
+        "Reasoning": 0.6372
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "The Company, it is pointed out, has 350 employees and 1680 shareholders.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3998,
+        "Arguments of Respondent": 0.4499,
+        "Decision": 0.0004,
+        "Facts": 0.0888,
+        "Issue": 0.0036,
+        "Reasoning": 0.0575
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "The products manufactured by the Company are used by leading automobile manufacturers in the country.",
+      "predicted_label": "Facts",
+      "confidence": 0.9591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.9591,
+        "Issue": 0.0193,
+        "Reasoning": 0.0169
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "The amounts at any rate have been secured by valid leave and license agreement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1483,
+        "Arguments of Respondent": 0.1209,
+        "Decision": 0.0469,
+        "Facts": 0.0776,
+        "Issue": 0.0024,
+        "Reasoning": 0.6039
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "Various other contentions have been set out.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6504,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6504,
+        "Arguments of Respondent": 0.1705,
+        "Decision": 0.0027,
+        "Facts": 0.0726,
+        "Issue": 0.0046,
+        "Reasoning": 0.0992
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "Reliance has been placed on the Leave and License Agreements and other documents in support of their contention that the amounts have been secured.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.193,
+        "Arguments of Respondent": 0.6779,
+        "Decision": 0.0009,
+        "Facts": 0.0489,
+        "Issue": 0.0006,
+        "Reasoning": 0.0786
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "On behalf of the Company their learned Counsel has submitted as under (1) That the transactions are with a group of companies and liabilities are subject to making up accounts and consequently the accounts having not been made up, the Company petition should be rejected.(2)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2343,
+        "Arguments of Respondent": 0.6872,
+        "Decision": 0.0002,
+        "Facts": 0.0611,
+        "Issue": 0.0003,
+        "Reasoning": 0.0169
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "The statutory notice was not based on any cause of action when served in March, 1997.(3)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5221,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5221,
+        "Arguments of Respondent": 0.1401,
+        "Decision": 0.1038,
+        "Facts": 0.1809,
+        "Issue": 0.0045,
+        "Reasoning": 0.0485
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "The petitioners are guilty of suppressing material facts by not disclosing the large amounts that they had received from the Company and its sister concerns and the various agreements to secure the petitioners.(4)",
+      "predicted_label": "Facts",
+      "confidence": 0.7724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1108,
+        "Arguments of Respondent": 0.0931,
+        "Decision": 0.0013,
+        "Facts": 0.7724,
+        "Issue": 0.001,
+        "Reasoning": 0.0215
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The petition being not been bona fide must also be rejected.(5)",
+      "predicted_label": "Decision",
+      "confidence": 0.8187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.8187,
+        "Facts": 0.1301,
+        "Issue": 0.0005,
+        "Reasoning": 0.0414
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "Some of the promissory notes as well as receipts have not been duly stamped and in the light of that it would be inadmissible in evidence and consequently the petition based on the unstamped promissory note as also unstamped receipts would not be maintainable.",
+      "predicted_label": "Facts",
+      "confidence": 0.3383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2742,
+        "Arguments of Respondent": 0.1935,
+        "Decision": 0.0041,
+        "Facts": 0.3383,
+        "Issue": 0.0028,
+        "Reasoning": 0.1871
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "Reference has been made to several documents to that effect.(6)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5576,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5576,
+        "Arguments of Respondent": 0.2742,
+        "Decision": 0.0016,
+        "Facts": 0.1119,
+        "Issue": 0.0026,
+        "Reasoning": 0.0521
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The liability has been transferred to the persons mentioned in the license agreements and as such also the Company is not liable on that count.(7)",
+      "predicted_label": "Facts",
+      "confidence": 0.3893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2438,
+        "Arguments of Respondent": 0.2245,
+        "Decision": 0.0328,
+        "Facts": 0.3893,
+        "Issue": 0.0012,
+        "Reasoning": 0.1083
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 50,
+      "text": "The transaction is a money lending transaction prohibited by the Bombay Money Lenders Act, 1946 and in that light of the matter also the petition ought to be dismissed.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0988,
+        "Arguments of Respondent": 0.6846,
+        "Decision": 0.0114,
+        "Facts": 0.1436,
+        "Issue": 0.0027,
+        "Reasoning": 0.0588
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "On behalf of the petitioners their learned Counsel sought to contend that the petition as filed both under section 433(1)(a) of the Companies Act and by virtue of the statutory notice served and consequent failure by the Company to pay and or raise a bona fide dispute it is deemed that the Company is justly indebted to the petitioners by virtue of section 434(1)(a) of the Companies Act and as such the Company be wound up.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9198,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9198,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0008,
+        "Facts": 0.0328,
+        "Issue": 0.0043,
+        "Reasoning": 0.0406
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "It is pointed out that in a case under section 434(1)(a) all that the petitioner must establish is that the Company is indebted in a sum of over Rs. 500/ and once it is so established and the Company having failed and neglected to pay or secure the petitioners the order of admission of the petition must follow.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3307,
+        "Arguments of Respondent": 0.5777,
+        "Decision": 0.0002,
+        "Facts": 0.0202,
+        "Issue": 0.0004,
+        "Reasoning": 0.0708
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "At the outset I may point out that in so far as the petition for winding up on the ground that the contingent and prospective liabilities of the Company are more than its assets or net worth must be rejected.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0276,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0125,
+        "Facts": 0.1094,
+        "Issue": 0.0018,
+        "Reasoning": 0.8313
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Apart from the averments in para 19 there is no other material placed in support thereof.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.66,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0239,
+        "Arguments of Respondent": 0.0459,
+        "Decision": 0.0006,
+        "Facts": 0.2694,
+        "Issue": 0.0002,
+        "Reasoning": 0.66
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "In fact in para 5 of the petition, the petitioners themselves have pointed out that the issue and subscribed share capital of the Company is Rs. 15.00 crores.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0688,
+        "Arguments of Respondent": 0.0754,
+        "Decision": 0.0038,
+        "Facts": 0.1531,
+        "Issue": 0.0005,
+        "Reasoning": 0.6983
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "In that light of the matter I do not propose to consider the petition for winding up.",
+      "predicted_label": "Facts",
+      "confidence": 0.5945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0189,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0613,
+        "Facts": 0.5945,
+        "Issue": 0.002,
+        "Reasoning": 0.312
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "The first contention is that these are all group transactions by various companies of the petitioners and sister companies having advanced various amounts to the petitioners.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7019,
+        "Arguments of Respondent": 0.0972,
+        "Decision": 0.0002,
+        "Facts": 0.0458,
+        "Issue": 0.0009,
+        "Reasoning": 0.154
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "That may be true.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0749,
+        "Arguments of Respondent": 0.0377,
+        "Decision": 0.0019,
+        "Facts": 0.046,
+        "Issue": 0.0013,
+        "Reasoning": 0.8383
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "However, the fact remains that in so far as the petitioners are concerned, the petitioners have advanced to the Company an amount of Rs. 2,30,00,000/ as set out therein and it has been renewed from time to time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4769,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0503,
+        "Arguments of Respondent": 0.0469,
+        "Decision": 0.006,
+        "Facts": 0.4191,
+        "Issue": 0.0008,
+        "Reasoning": 0.4769
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 60,
+      "text": "The fact that the other sister companies may have made payments can be no answer in so far as the petitioners are concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9265,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0007,
+        "Facts": 0.0437,
+        "Issue": 0.0001,
+        "Reasoning": 0.9265
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The petitioner is a legal entity.",
+      "predicted_label": "Facts",
+      "confidence": 0.5753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1465,
+        "Arguments of Respondent": 0.061,
+        "Decision": 0.0051,
+        "Facts": 0.5753,
+        "Issue": 0.0092,
+        "Reasoning": 0.203
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "The Company must show that it has secured and or paid to the petitioners herein the amounts claimed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1063,
+        "Arguments of Respondent": 0.0556,
+        "Decision": 0.0066,
+        "Facts": 0.2303,
+        "Issue": 0.0038,
+        "Reasoning": 0.5974
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "If it has paid excess amounts to the said sister companies the Company can seek relief against those sister companies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0649,
+        "Arguments of Respondent": 0.1411,
+        "Decision": 0.0025,
+        "Facts": 0.2022,
+        "Issue": 0.001,
+        "Reasoning": 0.5883
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "It can be no answer in so far as the claim of the present petitioner is concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0119,
+        "Arguments of Respondent": 0.0647,
+        "Decision": 0.0071,
+        "Facts": 0.1459,
+        "Issue": 0.0003,
+        "Reasoning": 0.7701
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "Hence, that contention must be rejected.5.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1323,
+        "Arguments of Respondent": 0.3122,
+        "Decision": 0.0036,
+        "Facts": 0.1517,
+        "Issue": 0.0018,
+        "Reasoning": 0.3983
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 66,
+      "text": "The second contention is that on the date of the statutory notice there was no cause of action.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5939,
+        "Arguments of Respondent": 0.1911,
+        "Decision": 0.0005,
+        "Facts": 0.0211,
+        "Issue": 0.0133,
+        "Reasoning": 0.18
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 67,
+      "text": "The petitioners in the petition have pleaded and set out that intercorporate deposit was first effected by payment of various amounts from 5th December, 1995 to 23rd October, 1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.4961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2621,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0014,
+        "Facts": 0.4961,
+        "Issue": 0.0008,
+        "Reasoning": 0.2058
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "These have been renewed from time to time.",
+      "predicted_label": "Facts",
+      "confidence": 0.7743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0385,
+        "Arguments of Respondent": 0.0481,
+        "Decision": 0.0004,
+        "Facts": 0.7743,
+        "Issue": 0.0245,
+        "Reasoning": 0.1141
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "Against the renewal the Company has secured the petitioners by separate documents in the form of promissory notes, intercorporate deposit receiptspostdated cheques and letter of assurance.",
+      "predicted_label": "Facts",
+      "confidence": 0.7953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1187,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.0018,
+        "Facts": 0.7953,
+        "Issue": 0.0022,
+        "Reasoning": 0.0622
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "Apart from that the leave and license agreement itself evidence the fact that the petitioners had advanced moneys to the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0347,
+        "Arguments of Respondent": 0.0461,
+        "Decision": 0.0009,
+        "Facts": 0.1289,
+        "Issue": 0.0004,
+        "Reasoning": 0.7891
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "Therefore, on the date of the statutory notice the Company was due and owing moneys to the petitioners.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4375,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1242,
+        "Arguments of Respondent": 0.0476,
+        "Decision": 0.0033,
+        "Facts": 0.3838,
+        "Issue": 0.0036,
+        "Reasoning": 0.4375
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 72,
+      "text": "The contention that there was no cause of action must consequently also be rejected.6.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9221,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0315,
+        "Decision": 0.0242,
+        "Facts": 0.0157,
+        "Issue": 0.0002,
+        "Reasoning": 0.9221
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "The third contention has been suppression of material facts.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5678,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5678,
+        "Arguments of Respondent": 0.0536,
+        "Decision": 0.0011,
+        "Facts": 0.0391,
+        "Issue": 0.0218,
+        "Reasoning": 0.3166
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "I am unimpressed by the said contention.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0369,
+        "Arguments of Respondent": 0.0302,
+        "Decision": 0.0022,
+        "Facts": 0.0204,
+        "Issue": 0.001,
+        "Reasoning": 0.9093
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "The petitioners in their petition have set out various details.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4549,
+        "Arguments of Respondent": 0.0132,
+        "Decision": 0.0074,
+        "Facts": 0.3924,
+        "Issue": 0.0068,
+        "Reasoning": 0.1253
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 76,
+      "text": "The omission to point out some transactions cannot make it a case of suppression of material facts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0421,
+        "Arguments of Respondent": 0.0471,
+        "Decision": 0.0003,
+        "Facts": 0.022,
+        "Issue": 0.0003,
+        "Reasoning": 0.8882
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "At any rate in a case under section 434(1)(a) all that the petitioner must establish is that the Company is indebted to the petitioners in an amount of over Rs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5354,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0496,
+        "Arguments of Respondent": 0.0282,
+        "Decision": 0.0015,
+        "Facts": 0.3832,
+        "Issue": 0.0019,
+        "Reasoning": 0.5354
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 78,
+      "text": "This the petitioners have established.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0698,
+        "Arguments of Respondent": 0.0547,
+        "Decision": 0.006,
+        "Facts": 0.1326,
+        "Issue": 0.0006,
+        "Reasoning": 0.7364
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "That contention of the respondent must also be rejected.7.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.021,
+        "Decision": 0.0058,
+        "Facts": 0.0201,
+        "Issue": 0.0003,
+        "Reasoning": 0.9444
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "The fourth contention is that the petition was based on the unstamped promissory notes and receipts and as such could not have been taken in evidence by any Court.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8461,
+        "Arguments of Respondent": 0.0302,
+        "Decision": 0.0005,
+        "Facts": 0.0294,
+        "Issue": 0.0119,
+        "Reasoning": 0.0819
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "I need not refer to the authorities relied upon as I propose to accept the said contention that the promissory notes which were not properly stamped or the receipts which were not stamped could not have been tendered in evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1183,
+        "Arguments of Respondent": 0.0338,
+        "Decision": 0.0015,
+        "Facts": 0.1542,
+        "Issue": 0.0019,
+        "Reasoning": 0.6904
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "The petition, however, is not based on the promissory notes or the receipts alone.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0415,
+        "Arguments of Respondent": 0.0609,
+        "Decision": 0.0024,
+        "Facts": 0.258,
+        "Issue": 0.0006,
+        "Reasoning": 0.6366
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "They were merely collateral securities and as such even if such documents are excluded the petitioners have independently been able to show that the amounts were advanced and secured by the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.381,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1339,
+        "Arguments of Respondent": 0.3082,
+        "Decision": 0.0018,
+        "Facts": 0.1744,
+        "Issue": 0.0007,
+        "Reasoning": 0.381
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 84,
+      "text": "Hence, the said contention is rejected.8.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0954,
+        "Arguments of Respondent": 0.1563,
+        "Decision": 0.0036,
+        "Facts": 0.2611,
+        "Issue": 0.0028,
+        "Reasoning": 0.4809
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "The fifth contention is that the amounts were secured by way of leave and licence agreement.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7933,
+        "Arguments of Respondent": 0.0517,
+        "Decision": 0.0004,
+        "Facts": 0.0287,
+        "Issue": 0.0037,
+        "Reasoning": 0.1221
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "A reading of the agreement itself shows that the agreements were entered into as a collateral security.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7352,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0608,
+        "Arguments of Respondent": 0.1072,
+        "Decision": 0.0008,
+        "Facts": 0.0943,
+        "Issue": 0.0017,
+        "Reasoning": 0.7352
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "That security was for the due repayment of the loan by the Company to the petitioners.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4253,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1937,
+        "Arguments of Respondent": 0.1444,
+        "Decision": 0.0009,
+        "Facts": 0.2343,
+        "Issue": 0.0014,
+        "Reasoning": 0.4253
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 88,
+      "text": "Even otherwise in para 12 of the petition the petitioners have pointed out that the agreements were never acted upon.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1179,
+        "Arguments of Respondent": 0.0451,
+        "Decision": 0.0032,
+        "Facts": 0.2937,
+        "Issue": 0.0005,
+        "Reasoning": 0.5397
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "It is no doubt true that the Company contended that the Power of Attorney had been given in favour of the petitioners by the persons with whom the leave and licence agreement had been entered into.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0459,
+        "Arguments of Respondent": 0.013,
+        "Decision": 0.0004,
+        "Facts": 0.0622,
+        "Issue": 0.0004,
+        "Reasoning": 0.8781
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "Even assuming that such a Power of Attorney had been granted no permission of the landlord has been obtained till date.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1406,
+        "Arguments of Respondent": 0.1116,
+        "Decision": 0.0013,
+        "Facts": 0.1932,
+        "Issue": 0.0012,
+        "Reasoning": 0.5521
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "Hence, it cannot be a security for due repayment of the loan.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3901,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3901,
+        "Arguments of Respondent": 0.169,
+        "Decision": 0.0036,
+        "Facts": 0.1577,
+        "Issue": 0.0005,
+        "Reasoning": 0.2791
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 92,
+      "text": "The agreements do not show as was sought to be contended on behalf of the Company that the debts have been transferred to the account of the persons whose names were shown in the agreements.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0273,
+        "Arguments of Respondent": 0.0306,
+        "Decision": 0.0007,
+        "Facts": 0.0865,
+        "Issue": 0.0003,
+        "Reasoning": 0.8546
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "The additional argument advanced on behalf of the Company is in respect of the contention namely that the transaction being a loan was hit by the provisions of the Bombay MoneyLenders Act, 1946.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4435,
+        "Arguments of Respondent": 0.3785,
+        "Decision": 0.0002,
+        "Facts": 0.0191,
+        "Issue": 0.0009,
+        "Reasoning": 0.1578
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 94,
+      "text": "It is contended that for the purpose of the Act the Company is a money lender.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5727,
+        "Arguments of Respondent": 0.2834,
+        "Decision": 0.0007,
+        "Facts": 0.054,
+        "Issue": 0.007,
+        "Reasoning": 0.0822
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 95,
+      "text": "Once it is a money lender it could not have advanced moneys without due license.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0862,
+        "Arguments of Respondent": 0.1016,
+        "Decision": 0.0004,
+        "Facts": 0.158,
+        "Issue": 0.0011,
+        "Reasoning": 0.6527
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 96,
+      "text": "It is further sought to be contended that in respect of a money lending transaction by a person who is a money lender in the event a suit was filed by virtue of section 10 of the Act no decree could have been passed.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7488,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7488,
+        "Arguments of Respondent": 0.1528,
+        "Decision": 0.0001,
+        "Facts": 0.0179,
+        "Issue": 0.001,
+        "Reasoning": 0.0794
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "At the hearing of the petition on 12th February, 1999 it was strenuously sought to be contended on behalf of the Company that the loan granted is an act of money lending.",
+      "predicted_label": "Facts",
+      "confidence": 0.807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0368,
+        "Arguments of Respondent": 0.0465,
+        "Decision": 0.0002,
+        "Facts": 0.807,
+        "Issue": 0.0023,
+        "Reasoning": 0.1072
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "The Company placed reliance on the statement and objects clause at the time the Act was amended to include 2(9)(ee).",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.2839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2729,
+        "Arguments of Respondent": 0.2839,
+        "Decision": 0.0004,
+        "Facts": 0.2212,
+        "Issue": 0.0009,
+        "Reasoning": 0.2207
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 99,
+      "text": "However, in the other petition which was being argued Counsel therein brought to my notice additional material including the meaning of incorporated by Act of Parliament as set out in Strouds Judicial Dictionary, 4th Edition.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3002,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3002,
+        "Arguments of Respondent": 0.1928,
+        "Decision": 0.0024,
+        "Facts": 0.2723,
+        "Issue": 0.0048,
+        "Reasoning": 0.2275
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 100,
+      "text": "Reference, therefore, needs to be made to that meaning, which reads as underA Company incorporated by the Act of Parliament means one which by an Act is brought into existence does and not include a Company incorporated under an Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7166,
+      "probabilities": {
+        "Arguments of Petitioner": 0.124,
+        "Arguments of Respondent": 0.1135,
+        "Decision": 0.0003,
+        "Facts": 0.0443,
+        "Issue": 0.0014,
+        "Reasoning": 0.7166
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "Looking at the definition clauses wherein reference is made to a Company as defined under the Companies Act, the exclusion of deposit in a Company, a loan by an Insurance Corporation or by a bank it is clear what the Legislature had in mind while introducing section 2(9)(ee) were those Corporations or Companies incorporated by an Act.11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9259,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0275,
+        "Arguments of Respondent": 0.04,
+        "Decision": 0.0001,
+        "Facts": 0.0062,
+        "Issue": 0.0003,
+        "Reasoning": 0.9259
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "However, after I resumed hearing on 16th April, 1999, learned Counsel for the petitioners pointed out that at any rate the loan as advanced if it be a loan, is excluded from the definition of loan by virtue of section 2(2)(a) being a deposit in a Company or an advance on the basis of Negotiable Instrument and or at any rate an advance made bona fide by any person carrying on any business not having his primary object of lending of money, if such advance is made in the regular course of his business.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4891,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0037,
+        "Facts": 0.3126,
+        "Issue": 0.0057,
+        "Reasoning": 0.1782
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 103,
+      "text": "My attention was invited to the definition of advance as contained in the Law Lexicon, Volume I, 1989 Fourth Revised Enlarged Edition wherein the learned Author EarlJowitt in his law Dictionary has given the following meaning to the word advance at page 68Money paid before it is due, a loan.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4759,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4385,
+        "Arguments of Respondent": 0.4759,
+        "Decision": 0.0003,
+        "Facts": 0.0037,
+        "Issue": 0.0002,
+        "Reasoning": 0.0814
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 104,
+      "text": "It depends upon the circumstances of each case and the terms of the contract between the parties whether an advance payment made by one to the other is in the nature of the loan or not.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0001,
+        "Facts": 0.0106,
+        "Issue": 0.0066,
+        "Reasoning": 0.9628
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "If the advance is repayable it certainly has an element of loan in its composition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9271,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0286,
+        "Arguments of Respondent": 0.0185,
+        "Decision": 0.0003,
+        "Facts": 0.0234,
+        "Issue": 0.0021,
+        "Reasoning": 0.9271
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "Payments advanced to the owner of property by factor or broker on the price of goods which the latter has in his hands or is to receive for sale.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7084,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0938,
+        "Arguments of Respondent": 0.0822,
+        "Decision": 0.0003,
+        "Facts": 0.1095,
+        "Issue": 0.0058,
+        "Reasoning": 0.7084
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "My attention was also invited to judgments of this Court.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4221,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4221,
+        "Arguments of Respondent": 0.2848,
+        "Decision": 0.002,
+        "Facts": 0.0546,
+        "Issue": 0.0011,
+        "Reasoning": 0.2354
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 108,
+      "text": "In the case of (Sitaram Laxminarayan Rathi v. Sitaram Kashiram Koli and others)1, 1984(2) Bom.C.R. 81 1985 Mh.L.J. 430 the issue was, whether the provisions of the Act would apply in respect of a postdated cheque.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0836,
+        "Arguments of Respondent": 0.0538,
+        "Decision": 0.0028,
+        "Facts": 0.0566,
+        "Issue": 0.0038,
+        "Reasoning": 0.7994
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "A learned Single Judge held, that the loan was admittedly against post dated cheques and as per the provisions of section 2(9)(f) of the MoneyLenders Act any payment made as an advance against cheques was excluded under the provisions of the Money Lenders Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0096,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0002,
+        "Facts": 0.8987,
+        "Issue": 0.0088,
+        "Reasoning": 0.0768
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "The next judgment relied on was in the case of (Nandram Kaniram and others v. N.B. Rahatekar)2, 1994(1) Bom.C.R. 28 1994 Mh.L.J. 380.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4042,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2646,
+        "Arguments of Respondent": 0.2619,
+        "Decision": 0.0001,
+        "Facts": 0.0688,
+        "Issue": 0.0004,
+        "Reasoning": 0.4042
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 111,
+      "text": "These elements have been held to be absent in the instant case and I see no perversity in reaching that conclusion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9307,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.002,
+        "Facts": 0.0342,
+        "Issue": 0.0009,
+        "Reasoning": 0.9307
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "Indian Limitation Act of 1908 provided for separate periods of limitation for money lent and money deposited.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0662,
+        "Arguments of Respondent": 0.085,
+        "Decision": 0.0002,
+        "Facts": 0.0088,
+        "Issue": 0.0003,
+        "Reasoning": 0.8396
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "It is in that context this Court considered the expression loan or deposit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9378,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0305,
+        "Arguments of Respondent": 0.0232,
+        "Decision": 0.0002,
+        "Facts": 0.0076,
+        "Issue": 0.0006,
+        "Reasoning": 0.9378
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "That, however, may not be very relevant for the purpose of the present case where the loan means has been defined as an advance at interest, but excludes a deposit in a Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9226,
+      "probabilities": {
+        "Arguments of Petitioner": 0.022,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.0001,
+        "Facts": 0.0353,
+        "Issue": 0.0003,
+        "Reasoning": 0.9226
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "In other words the transaction if it is an advance at interest would be a loan.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0734,
+        "Arguments of Respondent": 0.0391,
+        "Decision": 0.0002,
+        "Facts": 0.0222,
+        "Issue": 0.0017,
+        "Reasoning": 0.8634
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "A deposit carrying interest would also be a loan but it is excluded by virtue of section 2(9)(a).12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9111,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0322,
+        "Arguments of Respondent": 0.0381,
+        "Decision": 0.0003,
+        "Facts": 0.0181,
+        "Issue": 0.0001,
+        "Reasoning": 0.9111
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "Having said so, learned Counsel has drawn my attention to the averments in the petition.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6371,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6371,
+        "Arguments of Respondent": 0.2698,
+        "Decision": 0.0007,
+        "Facts": 0.0271,
+        "Issue": 0.0005,
+        "Reasoning": 0.0647
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 118,
+      "text": "In paragraph (6) (a), (b), (c), (d), (e), (f), (g), and (h), reference is made to the postdated cheques issued by the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6446,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0383,
+        "Arguments of Respondent": 0.0249,
+        "Decision": 0.0019,
+        "Facts": 0.29,
+        "Issue": 0.0003,
+        "Reasoning": 0.6446
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 119,
+      "text": "A cheque would be a negotiable instrument.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0314,
+        "Arguments of Respondent": 0.0252,
+        "Decision": 0.0027,
+        "Facts": 0.1062,
+        "Issue": 0.0145,
+        "Reasoning": 0.8201
+      }
+    },
+    {
+      "sentence_id": 120,
+      "text": "From a consideration of the above it will therefore, be clear that though the petitioners would not be excluded by section 2(9)(ee) yet the transaction would be excluded by virtue of section 2(9)(a) and or 2(9)(f).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0104,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0004,
+        "Facts": 0.092,
+        "Issue": 0.0017,
+        "Reasoning": 0.8897
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "Reference may now be made to paragraphs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0365,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0021,
+        "Facts": 0.4421,
+        "Issue": 0.0135,
+        "Reasoning": 0.4815
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 122,
+      "text": "It can be seen from the said paragraph that it is not the primary object of the Company to carry on business of money lending.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0505,
+        "Arguments of Respondent": 0.0254,
+        "Decision": 0.0004,
+        "Facts": 0.1256,
+        "Issue": 0.0005,
+        "Reasoning": 0.7975
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "The said transaction would, therefore, be excluded from the definition of moneylending by virtue of section 2(9)(f).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1979,
+        "Arguments of Respondent": 0.1825,
+        "Decision": 0.0009,
+        "Facts": 0.1202,
+        "Issue": 0.001,
+        "Reasoning": 0.4975
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 124,
+      "text": "Such an interpretation must also follow to protect thousands of individuals who deposit their life savings with Companies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8803,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0357,
+        "Arguments of Respondent": 0.0709,
+        "Decision": 0.0008,
+        "Facts": 0.0122,
+        "Issue": 0.0001,
+        "Reasoning": 0.8803
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "It was urged that the petition should be rejected as the debt is not legally recoverable.",
+      "predicted_label": "Facts",
+      "confidence": 0.7087,
+      "probabilities": {
+        "Arguments of Petitioner": 0.081,
+        "Arguments of Respondent": 0.1519,
+        "Decision": 0.0006,
+        "Facts": 0.7087,
+        "Issue": 0.0059,
+        "Reasoning": 0.0519
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "It was contended that if no relief could be granted if a suit was filed then the Company petition would not be maintainable.",
+      "predicted_label": "Facts",
+      "confidence": 0.3825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2599,
+        "Arguments of Respondent": 0.1878,
+        "Decision": 0.0013,
+        "Facts": 0.3825,
+        "Issue": 0.0031,
+        "Reasoning": 0.1654
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 127,
+      "text": "Learned Counsel has relied upon a judgement of this Court in (Dabholkar Enterprises v. Padma Alloy Castings Pvt. Ltd.)6, 1994 Mh.L.J. 1715.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5097,
+        "Arguments of Respondent": 0.459,
+        "Decision": 0.0001,
+        "Facts": 0.0058,
+        "Issue": 0.0001,
+        "Reasoning": 0.0252
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 128,
+      "text": "A learned Single Judge of this Court held that the petition was not maintainable as an unregistered partnership could not have filed a suit for recovery of money.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0681,
+        "Arguments of Respondent": 0.0522,
+        "Decision": 0.0009,
+        "Facts": 0.1698,
+        "Issue": 0.0041,
+        "Reasoning": 0.7049
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "Reliance was also placed in the case of (M s Baba Finance Corporation v. Mohd.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4221,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4038,
+        "Arguments of Respondent": 0.4221,
+        "Decision": 0.0002,
+        "Facts": 0.0208,
+        "Issue": 0.0002,
+        "Reasoning": 0.1529
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 130,
+      "text": "Nayeem and another)7, 1997 All.M.R.(Cri.)",
+      "predicted_label": "Facts",
+      "confidence": 0.9692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0024,
+        "Facts": 0.9692,
+        "Issue": 0.0025,
+        "Reasoning": 0.0215
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "Journal 1.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2414,
+        "Arguments of Respondent": 0.3558,
+        "Decision": 0.0023,
+        "Facts": 0.1343,
+        "Issue": 0.0144,
+        "Reasoning": 0.2518
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 132,
+      "text": "In that case a Single Judge of the Andhra Pradesh High Court was considering the question on the complaint filed by a money lender doing moneylending business without license.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5162,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1991,
+        "Arguments of Respondent": 0.2289,
+        "Decision": 0.0004,
+        "Facts": 0.0534,
+        "Issue": 0.0019,
+        "Reasoning": 0.5162
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 133,
+      "text": "The learned Single Judge I held that the cheque must relate to a debt or liability enforceable in law.",
+      "predicted_label": "Facts",
+      "confidence": 0.7263,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0271,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0028,
+        "Facts": 0.7263,
+        "Issue": 0.0162,
+        "Reasoning": 0.2174
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "I find no difficulty in so also construing section 434(1)(c) to held that a petition for winding up, under section 433(e) read with section 434(1)(a) of the Companies Act would only lie only if the debt was legally recoverable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8199,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0522,
+        "Arguments of Respondent": 0.0195,
+        "Decision": 0.0079,
+        "Facts": 0.0978,
+        "Issue": 0.0027,
+        "Reasoning": 0.8199
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "The fact that the present is a Company petition and under the Bombay Money tenders Act no relief will be granted if the suit is filed would also make the debt unenforceable under the Companies Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4807,
+        "Arguments of Respondent": 0.1236,
+        "Decision": 0.0054,
+        "Facts": 0.1436,
+        "Issue": 0.0012,
+        "Reasoning": 0.2456
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 136,
+      "text": "It is no doubt true that a company petition is not a petition for recovery of dues from a Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8184,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1073,
+        "Arguments of Respondent": 0.0454,
+        "Decision": 0.0004,
+        "Facts": 0.0277,
+        "Issue": 0.0007,
+        "Reasoning": 0.8184
+      }
+    },
+    {
+      "sentence_id": 137,
+      "text": "Nevertheless to wind up a Company under section 434(1)(a) the amount must be a debt which is legally recoverable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7315,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0867,
+        "Arguments of Respondent": 0.1081,
+        "Decision": 0.0007,
+        "Facts": 0.0715,
+        "Issue": 0.0014,
+        "Reasoning": 0.7315
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "If the recovery itself is barred under section 10 of the Bombay Money Lenders Act, I am of the opinion, therefore, that in such a case the petition filed on the ground that the Company is unable to pay such a debt, would also not be maintainable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4615,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1137,
+        "Arguments of Respondent": 0.0354,
+        "Decision": 0.0068,
+        "Facts": 0.3761,
+        "Issue": 0.0065,
+        "Reasoning": 0.4615
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 139,
+      "text": "A consistent view has been taken that in respect of time barred debts, no petition would be maintainable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8087,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0819,
+        "Arguments of Respondent": 0.083,
+        "Decision": 0.0037,
+        "Facts": 0.0224,
+        "Issue": 0.0003,
+        "Reasoning": 0.8087
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "This is because a time barred debt is not legally recoverable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0284,
+        "Arguments of Respondent": 0.0327,
+        "Decision": 0.0012,
+        "Facts": 0.0085,
+        "Issue": 0.0004,
+        "Reasoning": 0.9287
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "The same reasoning must also be adopted in the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0298,
+        "Arguments of Respondent": 0.0479,
+        "Decision": 0.0076,
+        "Facts": 0.0288,
+        "Issue": 0.0002,
+        "Reasoning": 0.8857
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "However, in the instant case as I have held the transaction would be excluded from the definition of loan the petition cannot be dismissed on that count.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8096,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0212,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0008,
+        "Facts": 0.1618,
+        "Issue": 0.0006,
+        "Reasoning": 0.8096
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "My attention has also been invited to the order dated 21st December, 1998 in Company Petition No. 48 of 1998, wherein in respect of the present petitioners an order admitting the petition had been passed against another group Company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6309,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6309,
+        "Arguments of Respondent": 0.1852,
+        "Decision": 0.0011,
+        "Facts": 0.0844,
+        "Issue": 0.0012,
+        "Reasoning": 0.097
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 144,
+      "text": "I need not go into that aspect of the judgement as independently in the facts of the presents case I have held that the petitioners have established that the Company is justly indebted to the petitioners.",
+      "predicted_label": "Facts",
+      "confidence": 0.853,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0148,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0025,
+        "Facts": 0.853,
+        "Issue": 0.0005,
+        "Reasoning": 0.1221
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "The Company to pay or deposit Rs. 2,54,54,349,31, paise within 8 weeks from today.",
+      "predicted_label": "Facts",
+      "confidence": 0.5437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.3541,
+        "Facts": 0.5437,
+        "Issue": 0.0007,
+        "Reasoning": 0.0854
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 146,
+      "text": "On payment or deposit the petition to stand dismissed.",
+      "predicted_label": "Facts",
+      "confidence": 0.6389,
+      "probabilities": {
+        "Arguments of Petitioner": 0.016,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.2576,
+        "Facts": 0.6389,
+        "Issue": 0.0015,
+        "Reasoning": 0.0785
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 147,
+      "text": "Liberty to the petitioners to withdraw the amount if deposited.(ii)",
+      "predicted_label": "Facts",
+      "confidence": 0.9782,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0038,
+        "Facts": 0.9782,
+        "Issue": 0.0005,
+        "Reasoning": 0.0063
+      }
+    },
+    {
+      "sentence_id": 148,
+      "text": "On failure to pay or deposit the petition to stand admitted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1703,
+        "Arguments of Respondent": 0.1477,
+        "Decision": 0.0176,
+        "Facts": 0.2223,
+        "Issue": 0.0051,
+        "Reasoning": 0.437
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 149,
+      "text": "Liberty to the petitioners to apply for further directions.",
+      "predicted_label": "Facts",
+      "confidence": 0.9378,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0296,
+        "Facts": 0.9378,
+        "Issue": 0.0014,
+        "Reasoning": 0.0194
+      }
+    },
+    {
+      "sentence_id": 150,
+      "text": "Company petition stands disposed of accordingly.",
+      "predicted_label": "Facts",
+      "confidence": 0.8228,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.1442,
+        "Facts": 0.8228,
+        "Issue": 0.0014,
+        "Reasoning": 0.0264
+      }
+    },
+    {
+      "sentence_id": 151,
+      "text": "Petition allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9844,
+        "Facts": 0.0124,
+        "Issue": 0.0003,
+        "Reasoning": 0.0024
+      }
+    }
+  ]
+}

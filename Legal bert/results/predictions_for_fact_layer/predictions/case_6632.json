@@ -1,0 +1,2839 @@
+{
+  "case_id": "6632",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The appellants are original petitioners.",
+      "predicted_label": "Facts",
+      "confidence": 0.6365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0013,
+        "Facts": 0.6365,
+        "Issue": 0.3546,
+        "Reasoning": 0.0052
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "They are a public limited company engaged in the business of supply of electricity in the suburbs and surrounding areas of Mumbai and Thane District.",
+      "predicted_label": "Facts",
+      "confidence": 0.9702,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9702,
+        "Issue": 0.027,
+        "Reasoning": 0.0018
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "They shall be referred to as the appellant company for convenience.",
+      "predicted_label": "Facts",
+      "confidence": 0.7745,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0008,
+        "Facts": 0.7745,
+        "Issue": 0.2158,
+        "Reasoning": 0.0057
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The appellant company is covered by the provisions of the Bombay Industrial Relations Act, 1946 (for short, the BIR Act).",
+      "predicted_label": "Facts",
+      "confidence": 0.9073,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0002,
+        "Facts": 0.9073,
+        "Issue": 0.0732,
+        "Reasoning": 0.0071
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "Respondent 1 is a union registered under the Trade Unions Act, 1946.",
+      "predicted_label": "Facts",
+      "confidence": 0.9577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0002,
+        "Facts": 0.9577,
+        "Issue": 0.0262,
+        "Reasoning": 0.0098
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "It represents 41 workmen with whom we are concerned here.",
+      "predicted_label": "Facts",
+      "confidence": 0.8809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0004,
+        "Facts": 0.8809,
+        "Issue": 0.0655,
+        "Reasoning": 0.044
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "For convenience, we shall refer to them as the said employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.9467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0002,
+        "Facts": 0.9467,
+        "Issue": 0.0463,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "Respondent 2 is the contractor and shall be so referred to.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0003,
+        "Facts": 0.9883,
+        "Issue": 0.0088,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "It would be appropriate to state the case of the complainantunion, the appellant company and the contractor in short.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9915,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9915,
+        "Issue": 0.0069,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The said employees are working with the appellant company for the last about 25 years.",
+      "predicted_label": "Facts",
+      "confidence": 0.9216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0004,
+        "Facts": 0.9216,
+        "Issue": 0.0103,
+        "Reasoning": 0.0604
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "During 25 years, three contractors were interposed by the appellant company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0002,
+        "Facts": 0.8827,
+        "Issue": 0.013,
+        "Reasoning": 0.0933
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The contractor is the last of the three.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0355,
+        "Arguments of Respondent": 0.0298,
+        "Decision": 0.001,
+        "Facts": 0.276,
+        "Issue": 0.0101,
+        "Reasoning": 0.6474
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Though the contractors have come and gone, the said employees have continued to work with the appellant company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1362,
+        "Arguments of Respondent": 0.1204,
+        "Decision": 0.034,
+        "Facts": 0.2789,
+        "Issue": 0.0037,
+        "Reasoning": 0.4267
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 13,
+      "text": "The said employees are working in the housekeeping department.",
+      "predicted_label": "Facts",
+      "confidence": 0.9515,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0096,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0001,
+        "Facts": 0.9515,
+        "Issue": 0.0035,
+        "Reasoning": 0.0302
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The work of housekeeping is regular, permanent and of perennial nature.",
+      "predicted_label": "Facts",
+      "confidence": 0.4983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0491,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.001,
+        "Facts": 0.4983,
+        "Issue": 0.0001,
+        "Reasoning": 0.4274
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "The introduction of the contractors is a ruse or camouflage.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.122,
+        "Arguments of Respondent": 0.1107,
+        "Decision": 0.0008,
+        "Facts": 0.1308,
+        "Issue": 0.0015,
+        "Reasoning": 0.6341
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "The said employees are covered by the definition of the term employee given under section 3(13) of the BIR Act and, therefore, they are the employees of the appellant company alone.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3957,
+        "Arguments of Respondent": 0.1055,
+        "Decision": 0.0222,
+        "Facts": 0.0803,
+        "Issue": 0.0082,
+        "Reasoning": 0.3881
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 17,
+      "text": "On 15/2/2007, the appellant company in collusion with the contractor issued cheques for certain amounts in full and final settlement of their dues.",
+      "predicted_label": "Facts",
+      "confidence": 0.8948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0317,
+        "Arguments of Respondent": 0.0316,
+        "Decision": 0.0002,
+        "Facts": 0.8948,
+        "Issue": 0.001,
+        "Reasoning": 0.0408
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The said employees have not encashed the said cheques.",
+      "predicted_label": "Facts",
+      "confidence": 0.635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.065,
+        "Arguments of Respondent": 0.0582,
+        "Decision": 0.0138,
+        "Facts": 0.635,
+        "Issue": 0.0077,
+        "Reasoning": 0.2203
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Housekeeping is the integral part of the appellant companys regular activities.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.483,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1546,
+        "Arguments of Respondent": 0.0507,
+        "Decision": 0.0015,
+        "Facts": 0.3101,
+        "Issue": 0.0001,
+        "Reasoning": 0.483
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "Aggrieved by the unfair labour practices of the appellant company and apprehending termination of the services of the said employees, the complainant union filed the instant complaint praying inter alia for a declaration that the appellant company has engaged in unfair labour practices, for a direction restraining it from engaging in unfair labour practices and for a direction to the appellant company to reinstate the said employees with full back wages and continuity of service if their services are terminated.",
+      "predicted_label": "Facts",
+      "confidence": 0.9192,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0002,
+        "Facts": 0.9192,
+        "Issue": 0.0779,
+        "Reasoning": 0.0019
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "An application for interim relief was filed praying that the appellant company may be directed to maintain status quo in respect of the employment of the said employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.9777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0003,
+        "Facts": 0.9777,
+        "Issue": 0.0043,
+        "Reasoning": 0.0134
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The complaint and the application for interim relief were filed on 23/2/2007.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.993,
+        "Issue": 0.0002,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "On 23/2/2007 the Labour Court passed the following orderHeard the learned Advocate for the complainant union and the learned Advocate for the respondent No.2 too.",
+      "predicted_label": "Facts",
+      "confidence": 0.988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0003,
+        "Facts": 0.988,
+        "Issue": 0.0004,
+        "Reasoning": 0.0085
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The status quo as on today stands granted till filing of reply as it is informed across the bar that the enlisted workmen have been as on today in the employment of the respondent No.2.Issue Show Cause Notice to the Respondents returnable on 22/3/2007.There is no dispute before us about the fact that when this order was passed learned counsel for the appellant company was present.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0003,
+        "Facts": 0.9858,
+        "Issue": 0.0001,
+        "Reasoning": 0.0092
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "On 19/7/2007, the complainant union filed application for additional interim reliefs on the ground that on 2/4/2007 the appellant company had refused entry, work and wages to the said employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.9854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0002,
+        "Facts": 0.9854,
+        "Issue": 0.002,
+        "Reasoning": 0.0077
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The complainant union alleged that the services of the said employees have been terminated without following due process of law in breach of status quo order dated 23/2/2007.",
+      "predicted_label": "Facts",
+      "confidence": 0.974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0002,
+        "Facts": 0.974,
+        "Issue": 0.0041,
+        "Reasoning": 0.0143
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The complainant union contended that the said employees are the employees of the appellant company only though their wages are routed through the contractor.",
+      "predicted_label": "Facts",
+      "confidence": 0.6185,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0764,
+        "Arguments of Respondent": 0.041,
+        "Decision": 0.0011,
+        "Facts": 0.6185,
+        "Issue": 0.0163,
+        "Reasoning": 0.2467
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "The complainant union inter alia prayed that the appellant company and or the contractor may be directed to pay full wages to the said employees every month pending final hearing of the complaint.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9967,
+        "Issue": 0.0007,
+        "Reasoning": 0.0014
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The determination of the said contract is neither under challenge nor can be challenged in the instant complaint and as such the appellant company cannot be held to be the principal employer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1484,
+        "Arguments of Respondent": 0.1862,
+        "Decision": 0.005,
+        "Facts": 0.1855,
+        "Issue": 0.0087,
+        "Reasoning": 0.4662
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "The said employees are paid wages by the contractor and the supervision and control of the work is done by the personnel of the contractor.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0267,
+        "Arguments of Respondent": 0.032,
+        "Decision": 0.0003,
+        "Facts": 0.1357,
+        "Issue": 0.0015,
+        "Reasoning": 0.8039
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The appellant company denied that the work of housekeeping is integral part of the regular work of the appellant company.",
+      "predicted_label": "Facts",
+      "confidence": 0.7721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0671,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0004,
+        "Facts": 0.7721,
+        "Issue": 0.0002,
+        "Reasoning": 0.1403
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Allegations of unfair labour practices were denied.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.9717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0,
+        "Facts": 0.9717,
+        "Issue": 0.0006,
+        "Reasoning": 0.0084
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The contractor resisted the interim application.",
+      "predicted_label": "Facts",
+      "confidence": 0.9093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0003,
+        "Facts": 0.9093,
+        "Issue": 0.0041,
+        "Reasoning": 0.071
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The case of the contractor as evident from the affidavit of Shri Sahadev Betkar its proprietor is as underThe said employees are employed by the contractor and they have been deployed by the contractor at the premises of the appellant company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4529,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0526,
+        "Arguments of Respondent": 0.0472,
+        "Decision": 0.0003,
+        "Facts": 0.446,
+        "Issue": 0.001,
+        "Reasoning": 0.4529
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "The wages and other service conditions of the said employees are determined and administered by the contractor.",
+      "predicted_label": "Facts",
+      "confidence": 0.4777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0351,
+        "Decision": 0.0003,
+        "Facts": 0.4777,
+        "Issue": 0.0048,
+        "Reasoning": 0.4542
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 36,
+      "text": "The contract between the appellant company and the contractor has come to an end by 31/3/2007 by efflux of time and till date the contractor has not terminated the services of the said employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.5855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1462,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.018,
+        "Facts": 0.5855,
+        "Issue": 0.0034,
+        "Reasoning": 0.2132
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "Prior to the contract coming to an end the contractor had told the said employees to report for work at the other sites where it is having similar contracts.",
+      "predicted_label": "Facts",
+      "confidence": 0.5902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0236,
+        "Arguments of Respondent": 0.0417,
+        "Decision": 0.001,
+        "Facts": 0.5902,
+        "Issue": 0.0013,
+        "Reasoning": 0.3422
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "However, the said employees told the contractor to settle their accounts finally as they did not wish to work further.",
+      "predicted_label": "Facts",
+      "confidence": 0.9019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.019,
+        "Decision": 0.0007,
+        "Facts": 0.9019,
+        "Issue": 0.0004,
+        "Reasoning": 0.0707
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "They asked for exgratia payments which was also offered by the contractor.",
+      "predicted_label": "Facts",
+      "confidence": 0.7454,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0253,
+        "Arguments of Respondent": 0.0478,
+        "Decision": 0.0016,
+        "Facts": 0.7454,
+        "Issue": 0.001,
+        "Reasoning": 0.1788
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "However, after accepting the cheques the said employees have approached the court challenging the alleged termination.",
+      "predicted_label": "Facts",
+      "confidence": 0.5822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1335,
+        "Arguments of Respondent": 0.0936,
+        "Decision": 0.0037,
+        "Facts": 0.5822,
+        "Issue": 0.0058,
+        "Reasoning": 0.1812
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "Contractors readiness and willingness to give work to the said employees at other sites where the contractor is having similar housekeeping contracts is expressed in the affidavit.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.8538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0257,
+        "Arguments of Respondent": 0.0487,
+        "Decision": 0.0002,
+        "Facts": 0.8538,
+        "Issue": 0.0012,
+        "Reasoning": 0.0704
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The Labour Court by its judgment and order dated 31/3/2008 decided both the applications.",
+      "predicted_label": "Facts",
+      "confidence": 0.9861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9861,
+        "Issue": 0.0108,
+        "Reasoning": 0.0022
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The Labour Court held that considering the definition of the term employer given in Section 3(14)(e) of the BIR Act, the owner of the undertaking is the appellant company and, therefore, it is the principal employer.",
+      "predicted_label": "Facts",
+      "confidence": 0.9247,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0002,
+        "Facts": 0.9247,
+        "Issue": 0.0153,
+        "Reasoning": 0.0523
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The Labour Court concluded that the appellant union has committed unfair labour practices against the said employees i.e. work was not provided to them though they were ready to work that they were removed from the place of work with the help of police and that they were not paid wages.",
+      "predicted_label": "Facts",
+      "confidence": 0.933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0007,
+        "Facts": 0.933,
+        "Issue": 0.0181,
+        "Reasoning": 0.0425
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "The Labour Court held that balance of convenience is in favour of the employees and they will suffer irreparable loss, if interim relief is not granted in their favour.",
+      "predicted_label": "Facts",
+      "confidence": 0.8972,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0012,
+        "Facts": 0.8972,
+        "Issue": 0.0066,
+        "Reasoning": 0.0821
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The Labour Court directed the appellant company and the contractor to jointly or severally pay full wages to the said employees every month till the disposal of the complaint.",
+      "predicted_label": "Facts",
+      "confidence": 0.8469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.002,
+        "Facts": 0.8469,
+        "Issue": 0.0783,
+        "Reasoning": 0.0671
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "It directed the appellant company and the contractor to pay jointly or severally full wages of the said employees from 2/4/2007 during the pendency of the complaint.",
+      "predicted_label": "Facts",
+      "confidence": 0.7769,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0013,
+        "Facts": 0.7769,
+        "Issue": 0.1531,
+        "Reasoning": 0.0647
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "It directed the appellant company and the contractor to jointly or severally reinstate all the said employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.6411,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.003,
+        "Facts": 0.6411,
+        "Issue": 0.2119,
+        "Reasoning": 0.1374
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "It further directed that, if the work is not provided the appellant company and the contractor shall jointly or severally pay wages to the said employees during the pendency of the case till the final disposal of the complaint.11.",
+      "predicted_label": "Facts",
+      "confidence": 0.9832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0002,
+        "Facts": 0.9832,
+        "Issue": 0.006,
+        "Reasoning": 0.0094
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "The appellant company as well as the complainant union challenged the said order by filing revision applications.",
+      "predicted_label": "Facts",
+      "confidence": 0.9209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0002,
+        "Facts": 0.9209,
+        "Issue": 0.0685,
+        "Reasoning": 0.0083
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The appellant company filed an application praying for the stay of the Labour Courts order.",
+      "predicted_label": "Facts",
+      "confidence": 0.8768,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.008,
+        "Facts": 0.8768,
+        "Issue": 0.0081,
+        "Reasoning": 0.085
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The said application was rejected.",
+      "predicted_label": "Facts",
+      "confidence": 0.8006,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0428,
+        "Arguments of Respondent": 0.0321,
+        "Decision": 0.0018,
+        "Facts": 0.8006,
+        "Issue": 0.0117,
+        "Reasoning": 0.1109
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The appellant company, therefore, challenged the Labour Courts order by filing Writ Petition No.3116 of 2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.9757,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9757,
+        "Issue": 0.0043,
+        "Reasoning": 0.0162
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "By judgment and order dated 9/7/2008 learned Single Judge of this court disposed of the said writ petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.9899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9899,
+        "Issue": 0.0046,
+        "Reasoning": 0.0039
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Learned Single Judge noted that counsel for the parties are agreed that they will not seek adjournment before the Revisional Court with a view to disposing of the complaint within the stipulated time.",
+      "predicted_label": "Facts",
+      "confidence": 0.947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.001,
+        "Facts": 0.947,
+        "Issue": 0.0042,
+        "Reasoning": 0.0434
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "Learned Single Judge directed the Industrial Court to dispose of the pending revision applications latest by July, 2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.9679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0006,
+        "Facts": 0.9679,
+        "Issue": 0.0095,
+        "Reasoning": 0.0198
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "A statement was made on behalf of the complainant union that it shall not proceed with the criminal complaint filed before the Labour Court till the revisions are decided.",
+      "predicted_label": "Facts",
+      "confidence": 0.8788,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.001,
+        "Facts": 0.8788,
+        "Issue": 0.0029,
+        "Reasoning": 0.0849
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "Learned Single Judge noted that the order was passed in view of the consensus arrived at between the parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.8426,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0129,
+        "Decision": 0.0008,
+        "Facts": 0.8426,
+        "Issue": 0.0035,
+        "Reasoning": 0.132
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Accordingly Industrial Court decided the revision applications by its order dated 28/7/2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.9758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0002,
+        "Facts": 0.9758,
+        "Issue": 0.004,
+        "Reasoning": 0.0133
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "Industrial Court concurred with the Labour Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.7293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0105,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0007,
+        "Facts": 0.7293,
+        "Issue": 0.0067,
+        "Reasoning": 0.2416
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "Industrial Court observed that real intention of the appellant company was to interpose contractors, so as to prevent the said employees from raising the plea of permanency.",
+      "predicted_label": "Facts",
+      "confidence": 0.7138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.0289,
+        "Decision": 0.0003,
+        "Facts": 0.7138,
+        "Issue": 0.0029,
+        "Reasoning": 0.2315
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "On a consideration of relevant judgments and relevant provisions of the BIR Act, particularly Section 3(13) and 3(14) thereof, the Industrial Court concluded that the said employees are workmen and the appellant company is the employer within the meaning of the BIR Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9537,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9537,
+        "Issue": 0.0051,
+        "Reasoning": 0.0329
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "While dealing with the submission that existence of a valid contract between the contractor and the principal employer is a sinequa non for invoking Sections 3(13) and 3(14) of the BIR Act and since the contract had come to an end by efflux of time, there was no statutory relationship of employer employee between the appellant company and the said employees and hence the complaint was not tenable, the Industrial Court observed that on the date of filing of the complaint the contract was in existence and hence protection of the MRTU PULP Act was available to the said employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.9595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9595,
+        "Issue": 0.0076,
+        "Reasoning": 0.0265
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "They had, therefore, rightly invoked the jurisdiction of the Labour Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0624,
+        "Arguments of Respondent": 0.177,
+        "Decision": 0.0088,
+        "Facts": 0.0706,
+        "Issue": 0.0006,
+        "Reasoning": 0.6806
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "The Industrial Court felt that no interference was necessary with the impugned order.",
+      "predicted_label": "Facts",
+      "confidence": 0.8138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0006,
+        "Facts": 0.8138,
+        "Issue": 0.0144,
+        "Reasoning": 0.1572
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "Both the revision applications came to be dismissed.12.",
+      "predicted_label": "Facts",
+      "confidence": 0.9882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9882,
+        "Issue": 0.0045,
+        "Reasoning": 0.0054
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "Being aggrieved by the said judgment and order the appellant company preferred Writ Petition (L) No.1938 of 2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.9947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0,
+        "Facts": 0.9947,
+        "Issue": 0.0022,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "Learned Single Judge dismissed the said petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.9289,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0006,
+        "Facts": 0.9289,
+        "Issue": 0.0394,
+        "Reasoning": 0.0232
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "We have heard Mr. Cama learned counsel appearing for the appellant company at some length.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1902,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0655,
+        "Facts": 0.1348,
+        "Issue": 0.1019,
+        "Reasoning": 0.4937
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "He submitted that the Labour Court and the Industrial Court have fallen into a serious error in directing the appellant company to reinstate the said employees and pay them wages when the contract between the appellant company and the contractor had come to an end and, therefore, there was no statutory relationship of employer employee between them.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9912,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0001,
+        "Facts": 0.0015,
+        "Issue": 0.0004,
+        "Reasoning": 0.0019
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "Mr. Cama submitted that the said employees are the employees of the contractor.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5977,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5977,
+        "Arguments of Respondent": 0.3242,
+        "Decision": 0.0016,
+        "Facts": 0.0104,
+        "Issue": 0.0007,
+        "Reasoning": 0.0654
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "Mr. Cama pointed out that the contractor had made a statement that he had not terminated their services.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6632,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6632,
+        "Arguments of Respondent": 0.1481,
+        "Decision": 0.0009,
+        "Facts": 0.0184,
+        "Issue": 0.0004,
+        "Reasoning": 0.1691
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "He had offered them work at the places where he is having contracts but the said employees refused to work.",
+      "predicted_label": "Facts",
+      "confidence": 0.5722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0633,
+        "Arguments of Respondent": 0.0415,
+        "Decision": 0.0018,
+        "Facts": 0.5722,
+        "Issue": 0.0023,
+        "Reasoning": 0.3188
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "Mr. Cama submitted that learned Single Judge has failed to notice this.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8255,
+        "Arguments of Respondent": 0.0357,
+        "Decision": 0.0015,
+        "Facts": 0.0299,
+        "Issue": 0.0008,
+        "Reasoning": 0.1066
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "Mr. Cama further submitted that though the complainant union had in its application for interim relief prayed that the appellant company may be directed to maintain status quo on 23/2/2007 the Labour Court observed that the said employees have been in the employment of the contractor and hence status quo as on that day stands granted.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9417,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9417,
+        "Arguments of Respondent": 0.0446,
+        "Decision": 0.0002,
+        "Facts": 0.0096,
+        "Issue": 0.0003,
+        "Reasoning": 0.0037
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "The status quo order, submitted Mr. Cama, therefore, operates qua the contractor and not the appellant company.14.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9749,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9749,
+        "Arguments of Respondent": 0.0084,
+        "Decision": 0.0001,
+        "Facts": 0.002,
+        "Issue": 0.0004,
+        "Reasoning": 0.0142
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "Mr. Cama further submitted that the Industrial Court has misconstrued the provisions of section 3(13)(a) and section 3(14)(e) and has not considered the relevant case law cited before it.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.985,
+      "probabilities": {
+        "Arguments of Petitioner": 0.985,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0001,
+        "Facts": 0.0031,
+        "Issue": 0.0006,
+        "Reasoning": 0.008
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "Mr. Cama submitted that existence of contract between the appellant company and the contractor is an essential ingredient of the definition of the term employer envisaged in section 3(14)(e) of the BIR Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.955,
+        "Arguments of Respondent": 0.0254,
+        "Decision": 0.0001,
+        "Facts": 0.0013,
+        "Issue": 0.0007,
+        "Reasoning": 0.0176
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "Since the contract has come to an end the Labour Court could not have entertained the complaint under the MRTU PULP Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5121,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5121,
+        "Arguments of Respondent": 0.1908,
+        "Decision": 0.0325,
+        "Facts": 0.1323,
+        "Issue": 0.0027,
+        "Reasoning": 0.1297
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "Whether the contract labourers have become the employees of the principal employer and whether the contract is a mere camouflage can only be decided by the Labour Court and the Industrial Tribunal under the Industrial Disputes Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7127,
+      "probabilities": {
+        "Arguments of Petitioner": 0.114,
+        "Arguments of Respondent": 0.1144,
+        "Decision": 0.0011,
+        "Facts": 0.0482,
+        "Issue": 0.0097,
+        "Reasoning": 0.7127
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "v. Steel Authority of India Ors. 1994",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3386,
+        "Arguments of Respondent": 0.1719,
+        "Decision": 0.0085,
+        "Facts": 0.2644,
+        "Issue": 0.0025,
+        "Reasoning": 0.2141
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 82,
+      "text": "(5) SCC 304.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3708,
+        "Arguments of Respondent": 0.3101,
+        "Decision": 0.0015,
+        "Facts": 0.0954,
+        "Issue": 0.0037,
+        "Reasoning": 0.2186
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 83,
+      "text": "15.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8076,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8076,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0026,
+        "Facts": 0.0349,
+        "Issue": 0.0099,
+        "Reasoning": 0.1003
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "Mr. Cama further submitted that in the judgment of this Court in State of Bombay v. The Maharashtra Sugar Mills Limited, AIR (38) 1951 Bombay 68, this court has elucidated the concept of statutory employee in relation to the BIR Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8439,
+        "Arguments of Respondent": 0.1408,
+        "Decision": 0.0001,
+        "Facts": 0.0016,
+        "Issue": 0.0002,
+        "Reasoning": 0.0134
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "He referred to the judgment of the Supreme Court in Steel Authority of India Ltd.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4242,
+        "Arguments of Respondent": 0.5468,
+        "Decision": 0.0002,
+        "Facts": 0.0151,
+        "Issue": 0.0001,
+        "Reasoning": 0.0137
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 86,
+      "text": "v. National Union Water Front Workers Ors. etc. etc. 2001 III CLR 349",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3314,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2368,
+        "Arguments of Respondent": 0.2473,
+        "Decision": 0.0038,
+        "Facts": 0.1774,
+        "Issue": 0.0032,
+        "Reasoning": 0.3314
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 87,
+      "text": "and pointed out that in that case the Supreme Court has clarified that decision in Maharashtra Sugar Mills Limited (supra) cannot be read as holding that when a contractor engages contract labourer in connection with the work of the principal employer, the relationship of master and servant is created between the principal employer and the contract labour.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5403,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4174,
+        "Arguments of Respondent": 0.5403,
+        "Decision": 0.0002,
+        "Facts": 0.0193,
+        "Issue": 0.0007,
+        "Reasoning": 0.0221
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 88,
+      "text": "The Supreme Court has answered the issue whether on a contractor engaging contract labour in connection with the work entrusted to him by a principal employer the relationship of master and servant between the principal employer and the contract labour emerges in the negative.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0908,
+        "Arguments of Respondent": 0.1258,
+        "Decision": 0.0005,
+        "Facts": 0.0975,
+        "Issue": 0.0604,
+        "Reasoning": 0.625
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "Mr. Cama submitted that the appellant company has denied that the work of housekeeping is integral part of its regular work.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4152,
+        "Arguments of Respondent": 0.5602,
+        "Decision": 0.0002,
+        "Facts": 0.0038,
+        "Issue": 0.0002,
+        "Reasoning": 0.0204
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 90,
+      "text": "He referred to Full Bench decision of this court in Tukaram Mandhare v. Raymond Woollen Mills Ltd. 2005 (4) LLN 1039, where the Full Bench has held that if the complaint fails to disclose the jurisdictional fact that the work being ordinarily part of the undertaking in relation to the work which was entrusted to the workman of the contractor, the workman must get established the employer employee relationship by adopting appropriate proceedings before the appropriate forum under the BIR Act and it is only after the status of workman or employee is established in appropriate Forum that a complaint would lie under the provisions of the MRTU PULP Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7035,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2851,
+        "Arguments of Respondent": 0.7035,
+        "Decision": 0.0002,
+        "Facts": 0.0049,
+        "Issue": 0.0003,
+        "Reasoning": 0.006
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "Mr. Cama submitted that therefore while dealing with the instant complaint the Industrial Court could not have decided whether housekeeping was ordinarily the work of the appellant company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9553,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0002,
+        "Facts": 0.0026,
+        "Issue": 0.0002,
+        "Reasoning": 0.0286
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "These issues must be first decided by adopting appropriate proceedings before the appropriate forum.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.1978,
+        "Facts": 0.038,
+        "Issue": 0.0009,
+        "Reasoning": 0.7474
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "Mr. Cama submitted that the Labour Court as well as the Industrial Court have granted final relief in the interim relief application which they could not have done.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9478,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0007,
+        "Facts": 0.0096,
+        "Issue": 0.0006,
+        "Reasoning": 0.0307
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "He submitted that learned Single Judge has also observed that the Labour Court has virtually granted final relief to the said employees but has wrongly condoned this by observing that the relief has been granted because there was a breach of status quo order.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8028,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8028,
+        "Arguments of Respondent": 0.1787,
+        "Decision": 0.0002,
+        "Facts": 0.011,
+        "Issue": 0.0003,
+        "Reasoning": 0.0071
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "Mr. Cama submitted that it is amply clear that status quo was operating against the contractor.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7773,
+        "Arguments of Respondent": 0.1797,
+        "Decision": 0.001,
+        "Facts": 0.0132,
+        "Issue": 0.0004,
+        "Reasoning": 0.0284
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "There is no privity of contract between the appellant company and the said employees and therefore learned Single Judge has proceeded on a wrong premise.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5333,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5333,
+        "Arguments of Respondent": 0.0296,
+        "Decision": 0.013,
+        "Facts": 0.1192,
+        "Issue": 0.0018,
+        "Reasoning": 0.3031
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 97,
+      "text": "In this connection, Mr. Cama relied on the judgment of the Supreme Court in Bank of Maharashtra v. Race Shipping and Transport Company Private Limited and Anr. 1995",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9714,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9714,
+        "Arguments of Respondent": 0.0144,
+        "Decision": 0.0001,
+        "Facts": 0.0042,
+        "Issue": 0.0001,
+        "Reasoning": 0.0097
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "(3) SCC 257 and judgment of this court in Ichalkaranji Municipal Council v. Raju Bandu Taral Ors. 1999 1 CLR 1257.18.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6572,
+        "Arguments of Respondent": 0.1826,
+        "Decision": 0.0006,
+        "Facts": 0.071,
+        "Issue": 0.0008,
+        "Reasoning": 0.0878
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "Mr. Cama further submitted that the Industrial Court could not have concluded that the contract was a camouflage.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9623,
+        "Arguments of Respondent": 0.0191,
+        "Decision": 0.0001,
+        "Facts": 0.0027,
+        "Issue": 0.0004,
+        "Reasoning": 0.0155
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "This question cannot be determined by the Labour Court or the Industrial Court constituted under the MRTU PULP Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.3323,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3279,
+        "Arguments of Respondent": 0.0794,
+        "Decision": 0.0407,
+        "Facts": 0.3323,
+        "Issue": 0.0043,
+        "Reasoning": 0.2154
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 101,
+      "text": "In this connection, he relied on the Supreme Courts judgment in Cipla Limited v. Maharashtra General Kamgar Union Ors.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5014,
+      "probabilities": {
+        "Arguments of Petitioner": 0.49,
+        "Arguments of Respondent": 0.5014,
+        "Decision": 0.0001,
+        "Facts": 0.0028,
+        "Issue": 0.0001,
+        "Reasoning": 0.0055
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 102,
+      "text": "2001 1 CLR 754.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4201,
+        "Arguments of Respondent": 0.2458,
+        "Decision": 0.0009,
+        "Facts": 0.0688,
+        "Issue": 0.0033,
+        "Reasoning": 0.2611
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 103,
+      "text": "Mr. Cama submitted that the contractor has offered work to the said employees but they have refused to accept the offer.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7444,
+        "Arguments of Respondent": 0.1636,
+        "Decision": 0.0033,
+        "Facts": 0.0299,
+        "Issue": 0.0006,
+        "Reasoning": 0.0582
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "It was wrong to hold that balance of convenience tilts in their favour.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5605,
+        "Arguments of Respondent": 0.136,
+        "Decision": 0.006,
+        "Facts": 0.0567,
+        "Issue": 0.0007,
+        "Reasoning": 0.24
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 105,
+      "text": "Mr. Cama submitted that reliefs granted by courts must be logical and tenable and courts must not be guided by misplaced sympathy.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8363,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8363,
+        "Arguments of Respondent": 0.1412,
+        "Decision": 0.0003,
+        "Facts": 0.001,
+        "Issue": 0.0002,
+        "Reasoning": 0.0211
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "In this connection, he relied on the Supreme Courts judgment in Kerala Solvent Extractions Limited v. Unnikrishnan 1994 1 CLR 820.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5015,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5015,
+        "Arguments of Respondent": 0.4844,
+        "Decision": 0.0001,
+        "Facts": 0.0048,
+        "Issue": 0.0001,
+        "Reasoning": 0.0091
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 107,
+      "text": "Mr. Cama submitted that in the circumstances, the impugned judgment and order deserves to be set aside.19.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9805,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0002,
+        "Facts": 0.0012,
+        "Issue": 0.0003,
+        "Reasoning": 0.0143
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "We must also mention that Mr. Cama has tendered in this court copy of complaint (",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0911,
+        "Arguments of Respondent": 0.0381,
+        "Decision": 0.3628,
+        "Facts": 0.0943,
+        "Issue": 0.0023,
+        "Reasoning": 0.4114
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 109,
+      "text": "ULP) No.1269 of 1997 filed by Bombay Suburban Electric Workers Union against BSES Limited being the employer, against the contractor herein and against one Kumar who is also stated to be a contractor alleging unfair labour practice.",
+      "predicted_label": "Facts",
+      "confidence": 0.6515,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.08,
+        "Facts": 0.6515,
+        "Issue": 0.251,
+        "Reasoning": 0.0151
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "This complaint was dismissed by the Industrial Court on 2/5/2001 on the ground that the complainant has alleged that the contract is sham and bogus and hence in view of Cipla judgment (supra), the Complaint is not maintainable.",
+      "predicted_label": "Facts",
+      "confidence": 0.9199,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0003,
+        "Facts": 0.9199,
+        "Issue": 0.0106,
+        "Reasoning": 0.0553
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "Mr. Cama submitted that the said employees were concerned with the said complaint and hence, it is not open for them to file this complaint.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7677,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7677,
+        "Arguments of Respondent": 0.102,
+        "Decision": 0.0026,
+        "Facts": 0.0438,
+        "Issue": 0.0005,
+        "Reasoning": 0.0833
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "We cannot take cognizance of the said complaint filed in this court at this stage.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0332,
+        "Arguments of Respondent": 0.0449,
+        "Decision": 0.0125,
+        "Facts": 0.2047,
+        "Issue": 0.0007,
+        "Reasoning": 0.7039
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "It is not clear whether the parties are same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0251,
+        "Arguments of Respondent": 0.0239,
+        "Decision": 0.0028,
+        "Facts": 0.4364,
+        "Issue": 0.0666,
+        "Reasoning": 0.4452
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 114,
+      "text": "This argument of Mr. Cama, therefore, cannot be considered.20.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0187,
+        "Arguments of Respondent": 0.0301,
+        "Decision": 0.0027,
+        "Facts": 0.0087,
+        "Issue": 0.0001,
+        "Reasoning": 0.9397
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "Mr. Shaikh learned counsel for the complainantunion submitted that the appellants have challenged interim order passed by the Labour Court, confirmed by the Industrial Court and further confirmed by learned Single Judge in his jurisdiction under Article 226 of the Constitution of India.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.019,
+        "Arguments of Respondent": 0.933,
+        "Decision": 0.0004,
+        "Facts": 0.0147,
+        "Issue": 0.0003,
+        "Reasoning": 0.0326
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "Mr. Shaikh submitted that it is well settled that while exercising its jurisdiction under Articles 226 and 227, the High Court does not reappreciate the evidence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9656,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9656,
+        "Arguments of Respondent": 0.0262,
+        "Decision": 0.0003,
+        "Facts": 0.0008,
+        "Issue": 0.0001,
+        "Reasoning": 0.007
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "Only a patent error which does not require lengthy arguments is amenable to certiorari jurisdiction and if two options on the same material are reasonably possible the finding arrived one way or the other cannot be called a patent error.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9408,
+      "probabilities": {
+        "Arguments of Petitioner": 0.026,
+        "Arguments of Respondent": 0.0242,
+        "Decision": 0.0009,
+        "Facts": 0.0058,
+        "Issue": 0.0023,
+        "Reasoning": 0.9408
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "In this connection, he relied on Ranjeet Singh v. Ravi Prakash, 2004 (3) SCC 682.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4959,
+        "Arguments of Respondent": 0.4813,
+        "Decision": 0.0001,
+        "Facts": 0.0031,
+        "Issue": 0.0001,
+        "Reasoning": 0.0194
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 119,
+      "text": "He also relied on the judgment of the Supreme Court in ONGC Limited v. Sendhabhai Vastram Patel Ors. 2005",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5295,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4585,
+        "Arguments of Respondent": 0.5295,
+        "Decision": 0.0001,
+        "Facts": 0.0048,
+        "Issue": 0.0001,
+        "Reasoning": 0.0069
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 120,
+      "text": "(6) SCC 454 where the Supreme Court has held that the High Court and the Supreme Court while exercising their equity jurisdiction under Articles 226 and 32 of the Constitution as also Article 136 thereof may not strike down even a wrong order only because it will be lawful to do so.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3803,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3448,
+        "Arguments of Respondent": 0.3803,
+        "Decision": 0.0011,
+        "Facts": 0.0285,
+        "Issue": 0.001,
+        "Reasoning": 0.2444
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 121,
+      "text": "A discretionary relief may be refused to be extended in a given case although the court may find the same to be justified in law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9221,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0426,
+        "Arguments of Respondent": 0.0251,
+        "Decision": 0.0012,
+        "Facts": 0.007,
+        "Issue": 0.0019,
+        "Reasoning": 0.9221
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "Mr. Shaikh submitted that the present case needs to be examined in the light of the above judgments.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4011,
+        "Arguments of Respondent": 0.5752,
+        "Decision": 0.0026,
+        "Facts": 0.0016,
+        "Issue": 0.0002,
+        "Reasoning": 0.0192
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 123,
+      "text": "He submitted that this court in its writ jurisdiction and in a consequent appeal arising out order passed in writ jurisdiction should not interfere with interim orders.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9617,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0311,
+        "Arguments of Respondent": 0.9617,
+        "Decision": 0.0004,
+        "Facts": 0.0011,
+        "Issue": 0.0001,
+        "Reasoning": 0.0056
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "Mr. Shaikh also referred to the Supreme Courts judgment in The Premier Automobiles Limited v. Kamlakar Shantaram Wadke Ors., AIR 1975 SC 2238 , where the Supreme Court has held that while deciding industrial dispute, the industrial adjudicator can create new contracts, lay new industrial policy for industrial peace, order reinstatement of dismissed workmen which ordinarily a civil court could not do.21.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6476,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2964,
+        "Arguments of Respondent": 0.6476,
+        "Decision": 0.0025,
+        "Facts": 0.0013,
+        "Issue": 0.0002,
+        "Reasoning": 0.0521
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 125,
+      "text": "Mr. Shaikh relied on the judgment of this court in Maharashtra Sugar Mills Limited (supra), which is affirmed by the Supreme Court.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4934,
+        "Arguments of Respondent": 0.4577,
+        "Decision": 0.0026,
+        "Facts": 0.0019,
+        "Issue": 0.0002,
+        "Reasoning": 0.0442
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 126,
+      "text": "He submitted that the said judgment is still a good law and is not set aside by the Supreme Court in its judgment in Steel Authoritys case (supra).",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3677,
+        "Arguments of Respondent": 0.6115,
+        "Decision": 0.0013,
+        "Facts": 0.0104,
+        "Issue": 0.0003,
+        "Reasoning": 0.0087
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 127,
+      "text": "He submitted that in Steel Authoritys case (supra), the Supreme Court was considering the provisions of Contract Labour (Regulations and Abolitions) Act, 1970 and not of the BIR Act and, hence, reliance placed on the said judgment by the appellant company is misplaced.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0262,
+        "Arguments of Respondent": 0.9648,
+        "Decision": 0.0002,
+        "Facts": 0.0032,
+        "Issue": 0.0002,
+        "Reasoning": 0.0055
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "Mr. Shaikh also relied on the Full Bench decision of this court in Tukaram Mandhares case (supra) in support of the contention that a complaint under the MRTU PULP Act by an employee as defined under section 3(13) of the BIR Act is maintainable although no direct relationship of employeremployee exists between him and the employer.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7532,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2362,
+        "Arguments of Respondent": 0.7532,
+        "Decision": 0.002,
+        "Facts": 0.0029,
+        "Issue": 0.0004,
+        "Reasoning": 0.0052
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "He also relied on the Supreme Courts judgment in Hindustan Lever Limited v. Ashok Kate, 1995 II CLR 823 SC where the Supreme Court has held that one of the purposes for which the MRTU PULP Act has been enacted is to prevent an unfair labour practice from taking place and the court seized of a complaint under item 1 of Schedule IV of the MRTU PULP Act can prevent such unfair labour practices by passing interim orders with a view to preventing such alleged unfair labour practices from getting fructified.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4753,
+        "Arguments of Respondent": 0.4967,
+        "Decision": 0.0005,
+        "Facts": 0.0196,
+        "Issue": 0.0007,
+        "Reasoning": 0.0073
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 130,
+      "text": "Mr. Shaikh submitted that the Labour Court and the Industrial Court, therefore, cannot be faulted for passing the instant interim order which is confirmed by learned Single Judge.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5612,
+        "Arguments of Respondent": 0.4302,
+        "Decision": 0.0012,
+        "Facts": 0.0014,
+        "Issue": 0.0001,
+        "Reasoning": 0.0059
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 131,
+      "text": "Mr. Shaikh submitted that the said employees have been working with the appellant company for the last about 23 years.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7427,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7427,
+        "Arguments of Respondent": 0.2419,
+        "Decision": 0.0022,
+        "Facts": 0.0038,
+        "Issue": 0.0002,
+        "Reasoning": 0.0093
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "Balance of convenience also tilts in their favour and, therefore, this court should not interfere with the impugned order.22.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9535,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.9535,
+        "Decision": 0.0027,
+        "Facts": 0.0036,
+        "Issue": 0.0002,
+        "Reasoning": 0.0377
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "Mr. Talsania learned counsel appearing for the contractor reiterated the contractors stand taken in the affidavit filed in the Labour Court.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6771,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2916,
+        "Arguments of Respondent": 0.6771,
+        "Decision": 0.0001,
+        "Facts": 0.0095,
+        "Issue": 0.0002,
+        "Reasoning": 0.0215
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 134,
+      "text": "He submitted that the said employees continue to be in the service of the contractor.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5119,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3186,
+        "Arguments of Respondent": 0.5119,
+        "Decision": 0.0019,
+        "Facts": 0.0807,
+        "Issue": 0.0007,
+        "Reasoning": 0.0861
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 135,
+      "text": "The contractor has not terminated their services and the contractor is ready to give work to them at other sites.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6199,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0192,
+        "Arguments of Respondent": 0.0195,
+        "Decision": 0.0058,
+        "Facts": 0.3185,
+        "Issue": 0.017,
+        "Reasoning": 0.6199
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 136,
+      "text": "He submitted that the contract between the contractor and the appellant company has come to an end by efflux of time by 31/3/2007.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8181,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8181,
+        "Arguments of Respondent": 0.1169,
+        "Decision": 0.0016,
+        "Facts": 0.0344,
+        "Issue": 0.0007,
+        "Reasoning": 0.0283
+      }
+    },
+    {
+      "sentence_id": 137,
+      "text": "Mr. Talsania relied on the judgment of learned Single Judge of this court in Sonal Garments v. Trimbak Karve, 2003 (1) LLN 91 where learned Single Judge has held that whenever employer offers to reinstate workman at any stage of the dispute and the same is not accepted by the workman without prejudice to his rights, the workman will not be entitled to continue his claim for reinstatement or for his claim for backwages from the date of such offer.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7211,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2477,
+        "Arguments of Respondent": 0.7211,
+        "Decision": 0.0006,
+        "Facts": 0.0014,
+        "Issue": 0.0001,
+        "Reasoning": 0.0292
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "Mr. Talsania submitted that if the said employees now offer to work, the contractor should not be saddled with backwages.23.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0711,
+        "Arguments of Respondent": 0.8705,
+        "Decision": 0.0019,
+        "Facts": 0.0027,
+        "Issue": 0.0001,
+        "Reasoning": 0.0537
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "Undoubtedly if two views on the same material are reasonably possible, then the learned Single Judge was perfectly justified in adopting one of the two views.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0002,
+        "Facts": 0.025,
+        "Issue": 0.0012,
+        "Reasoning": 0.9556
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "He was entitled to refuse discretionary relief or pass appropriate order on considerations like maintenance of industrial peace.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1185,
+        "Arguments of Respondent": 0.0651,
+        "Decision": 0.0012,
+        "Facts": 0.0317,
+        "Issue": 0.0008,
+        "Reasoning": 0.7829
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "Learned Single Judge was not bound to strike down even a wrong order only because it will be lawful to do so.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.095,
+        "Arguments of Respondent": 0.2075,
+        "Decision": 0.0027,
+        "Facts": 0.0397,
+        "Issue": 0.0001,
+        "Reasoning": 0.6549
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 142,
+      "text": "Keeping in mind these principles laid down by the Supreme Court to which our attention is drawn by learned counsel, we have approached this case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9326,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0155,
+        "Arguments of Respondent": 0.0342,
+        "Decision": 0.0012,
+        "Facts": 0.0046,
+        "Issue": 0.0118,
+        "Reasoning": 0.9326
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "We are concerned here with MRTU PULP Act and the BIR Act with particular reference to the definitions of the terms employer and employee delineated in the BIR Act.24.",
+      "predicted_label": "Facts",
+      "confidence": 0.5036,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2799,
+        "Arguments of Respondent": 0.1346,
+        "Decision": 0.0003,
+        "Facts": 0.5036,
+        "Issue": 0.014,
+        "Reasoning": 0.0676
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 144,
+      "text": "In Maharashtra Sugar Mills Limiteds case (supra), the industrial dispute between the Maharashtra Sugar Mills and its employees including the seasonal and contract labour was referred under section 13 of the BIR Act to the Industrial Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.045,
+        "Arguments of Respondent": 0.0674,
+        "Decision": 0.0028,
+        "Facts": 0.009,
+        "Issue": 0.0005,
+        "Reasoning": 0.8753
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "The Company contended that the Industrial Tribunal had no jurisdiction to arbitrate with reference to the contract labour employed in the industry.",
+      "predicted_label": "Facts",
+      "confidence": 0.8296,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0458,
+        "Arguments of Respondent": 0.0395,
+        "Decision": 0.0006,
+        "Facts": 0.8296,
+        "Issue": 0.0079,
+        "Reasoning": 0.0766
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "The Industrial Tribunal held that there was relationship of employer and employee between the company and the contract labour and hence it had jurisdiction to arbitrate the reference pertaining to contract labour.",
+      "predicted_label": "Facts",
+      "confidence": 0.8639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0004,
+        "Facts": 0.8639,
+        "Issue": 0.0384,
+        "Reasoning": 0.0849
+      }
+    },
+    {
+      "sentence_id": 147,
+      "text": "The Company challenged the Industrial Tribunals award.",
+      "predicted_label": "Facts",
+      "confidence": 0.6024,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0406,
+        "Arguments of Respondent": 0.0312,
+        "Decision": 0.0018,
+        "Facts": 0.6024,
+        "Issue": 0.0504,
+        "Reasoning": 0.2736
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 148,
+      "text": "Learned Single Judge upheld the companys contention and quashed the award.",
+      "predicted_label": "Facts",
+      "confidence": 0.945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0002,
+        "Facts": 0.945,
+        "Issue": 0.0039,
+        "Reasoning": 0.0457
+      }
+    },
+    {
+      "sentence_id": 149,
+      "text": "In Ciplas case (supra), the Supreme Court held that if the employees are working under a contract covered by the Contract Labour (Regulations Abolition) Act, then the Labour Court or the industrial adjudicating authorities cannot have any jurisdiction to deal with the matter as it falls within the province of an appropriate court to abolish the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8483,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0746,
+        "Arguments of Respondent": 0.0514,
+        "Decision": 0.0028,
+        "Facts": 0.0223,
+        "Issue": 0.0007,
+        "Reasoning": 0.8483
+      }
+    },
+    {
+      "sentence_id": 150,
+      "text": "If the case put forth by the workmen is that they have been directly employed by the Company but the contract itself is a camouflage and therefore needs to be adjudicated is a matter which can be gone into by appropriate Industrial Tribunal or Labour Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0619,
+        "Arguments of Respondent": 0.0389,
+        "Decision": 0.0082,
+        "Facts": 0.1145,
+        "Issue": 0.0173,
+        "Reasoning": 0.7591
+      }
+    },
+    {
+      "sentence_id": 151,
+      "text": "Such question cannot be examined by the Labour Court or the Industrial Court constituted under the MRTU PULP Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4274,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4274,
+        "Arguments of Respondent": 0.0877,
+        "Decision": 0.0415,
+        "Facts": 0.3318,
+        "Issue": 0.0021,
+        "Reasoning": 0.1095
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 152,
+      "text": "The Supreme Court further held that, that can be done in a regular Industrial Tribunal Court under the Industrial Disputes Act.26.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7295,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0949,
+        "Arguments of Respondent": 0.0903,
+        "Decision": 0.0008,
+        "Facts": 0.0838,
+        "Issue": 0.0007,
+        "Reasoning": 0.7295
+      }
+    },
+    {
+      "sentence_id": 153,
+      "text": "In that case, the Supreme Court has referred to the judgment of this Court in Maharashtra Sugar Mills Limiteds case (supra).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5531,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1923,
+        "Arguments of Respondent": 0.1646,
+        "Decision": 0.0056,
+        "Facts": 0.0841,
+        "Issue": 0.0004,
+        "Reasoning": 0.5531
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 154,
+      "text": "The Supreme Court has observed that therefore the observations of this Court in that judgment cannot be read as holding that when a contractor engages contract labourers in connection with the work of the principal employer, the relationship of master and servant is created between the principal employer and the contract labour.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4336,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0811,
+        "Arguments of Respondent": 0.0804,
+        "Decision": 0.001,
+        "Facts": 0.4011,
+        "Issue": 0.0029,
+        "Reasoning": 0.4336
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 155,
+      "text": "However, if the complaint fails to disclose the jurisdictional fact that the work being ordinarily part of the undertaking in relation to the work which was entrusted to the workman of the contractor, the workman must first get established the employeremployee relationship by adopting appropriate proceedings before the appropriate forum under the BIR Act and it is only after status of the workman or employee is established in appropriate forum that a complaint would lie under the provisions of the MRTU PULP Act.29.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7261,
+      "probabilities": {
+        "Arguments of Petitioner": 0.095,
+        "Arguments of Respondent": 0.1412,
+        "Decision": 0.0042,
+        "Facts": 0.0278,
+        "Issue": 0.0057,
+        "Reasoning": 0.7261
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "The above settled law can be applied to the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0417,
+        "Arguments of Respondent": 0.0374,
+        "Decision": 0.0004,
+        "Facts": 0.0153,
+        "Issue": 0.0003,
+        "Reasoning": 0.9049
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "So long as the contract between the appellant company and the contractor was subsisting in view of section 3(13) of the BIR Act, the said employees were statutory employees of the appellant company even though there was no direct relationship of employer employee existing between them and the appellant company and a complaint filed by the said employees under the MRTU and PULP Act was perfectly maintainable.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3398,
+        "Arguments of Respondent": 0.3872,
+        "Decision": 0.008,
+        "Facts": 0.1069,
+        "Issue": 0.0031,
+        "Reasoning": 0.1551
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 158,
+      "text": "Undoubtedly, as held by the Full Bench in Tukaram Mandhares case (supra), if the complaint fails to disclose the jurisdictional fact that the work being ordinarily part of the undertaking in relation to the work which was entrusted to the workman of the contractor, the workman must first get the employer employee relationship established by adopting appropriate proceedings before the appropriate forum under the BIR Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9211,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0224,
+        "Arguments of Respondent": 0.0327,
+        "Decision": 0.0011,
+        "Facts": 0.0149,
+        "Issue": 0.0079,
+        "Reasoning": 0.9211
+      }
+    },
+    {
+      "sentence_id": 159,
+      "text": "But we find that in this case, the said employees have clearly disclosed this jurisdictional fact in the complaint.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0254,
+        "Arguments of Respondent": 0.0183,
+        "Decision": 0.0044,
+        "Facts": 0.0535,
+        "Issue": 0.0003,
+        "Reasoning": 0.8982
+      }
+    },
+    {
+      "sentence_id": 160,
+      "text": "Thus the work of housekeeping i.e. sweeping the premises, keeping the premises clean and neat and all other incidental jobs, is a work of permanent, perennial and regular nature commented with the daytoday activities of the Respondent No.1 company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0359,
+        "Arguments of Respondent": 0.0636,
+        "Decision": 0.0005,
+        "Facts": 0.0859,
+        "Issue": 0.0002,
+        "Reasoning": 0.8138
+      }
+    },
+    {
+      "sentence_id": 161,
+      "text": "It is true that the appellant company has denied this fact.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0416,
+        "Arguments of Respondent": 0.0227,
+        "Decision": 0.0037,
+        "Facts": 0.0651,
+        "Issue": 0.0019,
+        "Reasoning": 0.8649
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "But the appellant company cannot be heard to say that this jurisdictional fact is not disclosed in the complaint as required by the Full Bench in Tukaram Mandhares case (supra).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8977,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0212,
+        "Arguments of Respondent": 0.0191,
+        "Decision": 0.0013,
+        "Facts": 0.0601,
+        "Issue": 0.0006,
+        "Reasoning": 0.8977
+      }
+    },
+    {
+      "sentence_id": 163,
+      "text": "Industrial Court has on consideration of the judgments of the Supreme Court in Commissioner of Customs, Mumbai v. M s. J.D. Orgochem Ltd., 2008 AIR SCW 3893 and Pabbojan Tea Co. Ltd. v. Deputy Commissioner Lakhinpur Ors. etc. 1968 (I6) FLR 1 held that it was not necessary for the complainant union even to plead that housekeeping is ordinarily part of the work of the undertaking of the appellant company because facts speak for themselves.",
+      "predicted_label": "Facts",
+      "confidence": 0.7496,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0005,
+        "Facts": 0.7496,
+        "Issue": 0.0033,
+        "Reasoning": 0.212
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "The Industrial Court has observed that housekeeping is ordinarily part of the work of the undertaking of the appellant company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0391,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.0014,
+        "Facts": 0.3498,
+        "Issue": 0.0004,
+        "Reasoning": 0.5957
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 165,
+      "text": "It is urged by Mr. Cama that this finding could not have been given by the Industrial Court in these proceedings.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7487,
+        "Arguments of Respondent": 0.0637,
+        "Decision": 0.0004,
+        "Facts": 0.0068,
+        "Issue": 0.0004,
+        "Reasoning": 0.1799
+      }
+    },
+    {
+      "sentence_id": 166,
+      "text": "In our opinion, once the jurisdictional facts are stated in the complaint, unless the dispute raised by the appellant company that work of housekeeping is ordinarily not part of its work, appears to have substance, there is no question of getting it decided independently under the provisions of the BIR Act before approaching the Labour Court under the MRTU PULP Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9352,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0074,
+        "Facts": 0.033,
+        "Issue": 0.0018,
+        "Reasoning": 0.9352
+      }
+    },
+    {
+      "sentence_id": 167,
+      "text": "In the facts of this case, we cannot fault the Labour Court for having proceeded with the matter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0303,
+        "Facts": 0.019,
+        "Issue": 0.0005,
+        "Reasoning": 0.9439
+      }
+    },
+    {
+      "sentence_id": 168,
+      "text": "This submission of Mr. Cama must, therefore, fail.31.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0033,
+        "Facts": 0.0027,
+        "Issue": 0.0001,
+        "Reasoning": 0.9763
+      }
+    },
+    {
+      "sentence_id": 169,
+      "text": "It is true that whether the contract is a camouflage or not cannot be decided by the Labour Court or the Industrial Court in a complaint filed under the MRTU PULP Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1273,
+        "Arguments of Respondent": 0.0419,
+        "Decision": 0.0058,
+        "Facts": 0.2377,
+        "Issue": 0.0136,
+        "Reasoning": 0.5736
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 170,
+      "text": "It has to be decided by the appropriate forum under the Industrial Disputes Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1663,
+        "Arguments of Respondent": 0.1309,
+        "Decision": 0.0014,
+        "Facts": 0.0655,
+        "Issue": 0.0089,
+        "Reasoning": 0.627
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 171,
+      "text": "Learned Single Judge has explained that the Industrial Court has used the word camouflage more in the sense of an excuse.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0304,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0019,
+        "Facts": 0.4639,
+        "Issue": 0.001,
+        "Reasoning": 0.4969
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 172,
+      "text": "In any case, these observations of the Industrial Court can be kept and should be kept out of consideration and obliterated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.18,
+        "Arguments of Respondent": 0.048,
+        "Decision": 0.0193,
+        "Facts": 0.0917,
+        "Issue": 0.0003,
+        "Reasoning": 0.6608
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 173,
+      "text": "We are really concerned here with the question whether the order of status quo passed by the Labour Court on 23/2/2007 binds the appellant company as well as the contractor.",
+      "predicted_label": "Facts",
+      "confidence": 0.4768,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0014,
+        "Facts": 0.4768,
+        "Issue": 0.3626,
+        "Reasoning": 0.1493
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 174,
+      "text": "When this order was passed admittedly counsel for all the parties were present.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0237,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0011,
+        "Facts": 0.4394,
+        "Issue": 0.0079,
+        "Reasoning": 0.4988
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 175,
+      "text": "The Labour Court has noted the statement made by learned counsel for the contractor that the said employees were in the employment of the contractor as on 23/2/2007.",
+      "predicted_label": "Facts",
+      "confidence": 0.5854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.0233,
+        "Decision": 0.002,
+        "Facts": 0.5854,
+        "Issue": 0.001,
+        "Reasoning": 0.3771
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 176,
+      "text": "Since on that day the contract between the appellant company and the contractor was subsisting in the light of the judgment of this court in Maharashtra Sugar Mills Limiteds case (supra) and in Tukaram Mandhares case (supra), the said employees were the employees of the appellant company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2291,
+        "Arguments of Respondent": 0.0399,
+        "Decision": 0.0023,
+        "Facts": 0.3144,
+        "Issue": 0.0035,
+        "Reasoning": 0.4108
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 177,
+      "text": "The Industrial Court recorded, and in our prima facie opinion rightly so, that the connivance between the appellant company and the contractor is writ large on the face of record.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0017,
+        "Facts": 0.013,
+        "Issue": 0.0009,
+        "Reasoning": 0.9735
+      }
+    },
+    {
+      "sentence_id": 178,
+      "text": "The Industrial Court observed that the offer to provide work to the said employees made by the contractor is unprecedented.",
+      "predicted_label": "Facts",
+      "confidence": 0.9183,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0006,
+        "Facts": 0.9183,
+        "Issue": 0.0093,
+        "Reasoning": 0.0638
+      }
+    },
+    {
+      "sentence_id": 179,
+      "text": "The Industrial Court referred to the Supreme Courts judgments which lay down that final relief should not be granted at interim stage and distinguished the present case from the said judgments on the ground that it is an exceptional case and granted reliefs in the nature of final reliefs.33.",
+      "predicted_label": "Facts",
+      "confidence": 0.7068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0778,
+        "Arguments of Respondent": 0.0593,
+        "Decision": 0.0003,
+        "Facts": 0.7068,
+        "Issue": 0.0007,
+        "Reasoning": 0.1552
+      }
+    },
+    {
+      "sentence_id": 180,
+      "text": "In the impugned judgment, learned Single Judge also commented on the conduct of the appellant company.",
+      "predicted_label": "Facts",
+      "confidence": 0.6297,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0385,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0013,
+        "Facts": 0.6297,
+        "Issue": 0.0022,
+        "Reasoning": 0.3042
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 181,
+      "text": "He observed that there was an order of status quo and the said employees were removed from the premises albeit on the ground that the contract between the appellant company and contractor had come to an end.",
+      "predicted_label": "Facts",
+      "confidence": 0.8976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0006,
+        "Facts": 0.8976,
+        "Issue": 0.0012,
+        "Reasoning": 0.074
+      }
+    },
+    {
+      "sentence_id": 182,
+      "text": "Learned Single Judge observed that circumstances justify the grant of what appears to be final relief because the Labour Court had initially granted relief which was rendered ineffective by the act of parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.5165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0005,
+        "Facts": 0.5165,
+        "Issue": 0.0026,
+        "Reasoning": 0.4629
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 183,
+      "text": "Mr. Shaikh learned counsel for the complainantunion submitted that the appellant company is covered by the BIR Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0198,
+        "Arguments of Respondent": 0.8637,
+        "Decision": 0.0005,
+        "Facts": 0.0076,
+        "Issue": 0.0003,
+        "Reasoning": 0.1081
+      }
+    },
+    {
+      "sentence_id": 184,
+      "text": "There is protection of the service conditions of the said employees which will be lost if they go to companies which are not covered by the BIR Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2702,
+        "Arguments of Respondent": 0.3037,
+        "Decision": 0.0148,
+        "Facts": 0.0616,
+        "Issue": 0.0011,
+        "Reasoning": 0.3487
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 185,
+      "text": "He submitted that if the said employees take employment in other industries, if they succeed in the complaint they would not be able to get back to the appellant company even if their lien is preserved because the new employees will resist such a move.36.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5863,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3035,
+        "Arguments of Respondent": 0.5863,
+        "Decision": 0.0065,
+        "Facts": 0.026,
+        "Issue": 0.0003,
+        "Reasoning": 0.0773
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 186,
+      "text": "The said employees are in the employment of the appellant company for the last about 25 years.",
+      "predicted_label": "Facts",
+      "confidence": 0.9705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9705,
+        "Issue": 0.0093,
+        "Reasoning": 0.0183
+      }
+    },
+    {
+      "sentence_id": 187,
+      "text": "They are working in the housekeeping department.",
+      "predicted_label": "Facts",
+      "confidence": 0.8554,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0001,
+        "Facts": 0.8554,
+        "Issue": 0.0013,
+        "Reasoning": 0.1283
+      }
+    },
+    {
+      "sentence_id": 188,
+      "text": "They have been removed from the appellant companys premises with police help on the spacious ground that the status quo order does not bind the appellant company.",
+      "predicted_label": "Facts",
+      "confidence": 0.5083,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0788,
+        "Arguments of Respondent": 0.0516,
+        "Decision": 0.0014,
+        "Facts": 0.5083,
+        "Issue": 0.0012,
+        "Reasoning": 0.3587
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 189,
+      "text": "The appellant company failed to observe restraint and tried to frustrate the status quo order.",
+      "predicted_label": "Facts",
+      "confidence": 0.6021,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1029,
+        "Arguments of Respondent": 0.1017,
+        "Decision": 0.0194,
+        "Facts": 0.6021,
+        "Issue": 0.0009,
+        "Reasoning": 0.1731
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 190,
+      "text": "It is this conduct of the appellant company and the legal principles enunciated by the Supreme Court and by this court in the aforementioned judgments and not misplaced sympathy, generosity and private benevolence which persuade us to confirm the impugned order passed by Learned Single Judge confirming the orders passed by the Labour Court and the Industrial Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8344,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.1347,
+        "Facts": 0.0263,
+        "Issue": 0.0005,
+        "Reasoning": 0.8344
+      }
+    },
+    {
+      "sentence_id": 191,
+      "text": "The appeal will have to be, therefore, dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.9634,
+        "Facts": 0.0012,
+        "Issue": 0.0002,
+        "Reasoning": 0.0299
+      }
+    },
+    {
+      "sentence_id": 192,
+      "text": "We, however, make it clear that anything said by us touching the merits of the case should not be treated as our final expression on the merits of the case.",
+      "predicted_label": "Decision",
+      "confidence": 0.8331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.8331,
+        "Facts": 0.0145,
+        "Issue": 0.0003,
+        "Reasoning": 0.1501
+      }
+    },
+    {
+      "sentence_id": 193,
+      "text": "The complaint is expedited by learned Single Judge.",
+      "predicted_label": "Facts",
+      "confidence": 0.9237,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0121,
+        "Facts": 0.9237,
+        "Issue": 0.0064,
+        "Reasoning": 0.0443
+      }
+    },
+    {
+      "sentence_id": 194,
+      "text": "We expect the parties to cooperate and get the complaint disposed of expeditiously.",
+      "predicted_label": "Decision",
+      "confidence": 0.6203,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.6203,
+        "Facts": 0.1295,
+        "Issue": 0.0007,
+        "Reasoning": 0.2453
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 195,
+      "text": "The Court seized of the complaint should deal with it independently and in accordance with law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0288,
+        "Arguments of Respondent": 0.3317,
+        "Decision": 0.0236,
+        "Facts": 0.0115,
+        "Issue": 0.0004,
+        "Reasoning": 0.6041
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 196,
+      "text": "Appeal is dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9919,
+        "Facts": 0.0036,
+        "Issue": 0.0001,
+        "Reasoning": 0.0037
+      }
+    }
+  ]
+}

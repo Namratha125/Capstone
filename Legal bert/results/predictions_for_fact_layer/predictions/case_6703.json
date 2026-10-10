@@ -1,0 +1,606 @@
+{
+  "case_id": "6703",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "Heard Mr. J.E. Coelho Pereira, learned Senior Counsel appearing for the appellants and Mr. A. DSilva, learned counsel appearing for the respondent Nos. 1(a), 2 and 3.",
+      "predicted_label": "Facts",
+      "confidence": 0.808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1028,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0008,
+        "Facts": 0.808,
+        "Issue": 0.0537,
+        "Reasoning": 0.0248
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "Heard forthwith with the consent of the learned counsel.",
+      "predicted_label": "Facts",
+      "confidence": 0.7782,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0336,
+        "Arguments of Respondent": 0.027,
+        "Decision": 0.0247,
+        "Facts": 0.7782,
+        "Issue": 0.0478,
+        "Reasoning": 0.0888
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The notice indicated that the matter would be disposed of finally at the stage of admission.",
+      "predicted_label": "Facts",
+      "confidence": 0.9223,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0006,
+        "Facts": 0.9223,
+        "Issue": 0.0016,
+        "Reasoning": 0.0697
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "On the last date of hearing, an opportunity was given to the respondent no.4 who was not represented to appear but however, none appears for the said respondent today as well.",
+      "predicted_label": "Facts",
+      "confidence": 0.9243,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0022,
+        "Facts": 0.9243,
+        "Issue": 0.0172,
+        "Reasoning": 0.0377
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The challenge in the above appeal is to the order passed by the learned Civil Judge Senior Judge, Panaji, dated 12.11.2013 whereby the plaint filed by the appellants against the respondents came to be rejected in terms of Order 7, Rule 11 (d) of the CPC.",
+      "predicted_label": "Issue",
+      "confidence": 0.8784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0008,
+        "Facts": 0.1179,
+        "Issue": 0.8784,
+        "Reasoning": 0.0019
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Mr. Coelho Pereira, learned Senior Counsel appearing for the appellants has pointed out that the learned Judge has misconstrued the provisions of Section 10GB of the Companies Act, 1956 to come to the conclusion that the jurisdiction of the Civil Court is barred.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8992,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0008,
+        "Facts": 0.011,
+        "Issue": 0.0004,
+        "Reasoning": 0.0859
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The learned Senior Counsel further pointed out that the suit filed by the Company as well as two directors of the Company is on the ground that there was a fraud committed by the respondent no.1 whilst running the affairs of the plaintiff no.1/Company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3748,
+        "Arguments of Respondent": 0.5982,
+        "Decision": 0.0002,
+        "Facts": 0.0134,
+        "Issue": 0.0002,
+        "Reasoning": 0.0132
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "It is further pointed out that documents were not available but however documents were fabricated to defraud.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3581,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3581,
+        "Arguments of Respondent": 0.2663,
+        "Decision": 0.0005,
+        "Facts": 0.2196,
+        "Issue": 0.0014,
+        "Reasoning": 0.154
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "Accordingly, the following reliefs were sought.",
+      "predicted_label": "Facts",
+      "confidence": 0.9324,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0003,
+        "Facts": 0.9324,
+        "Issue": 0.0322,
+        "Reasoning": 0.0161
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "(a) For a decree and order of this Honble Court declaring that Form No.5 filed by the defendant no.1 at annexureQ before the Registrar of Companies, purporting to be the Share Capital from 51 to 70 as null and void and or inoperative and order, it to be cancelled.",
+      "predicted_label": "Facts",
+      "confidence": 0.8892,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0542,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0008,
+        "Facts": 0.8892,
+        "Issue": 0.0327,
+        "Reasoning": 0.0107
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "(b) For a Judgment and decree declaring that Form No.32 filed at AnnexureT and Annexure U by the defendant no.1, before the Registrar of Companies, purporting to intimate the Registrar of Companies, that plaintiffs no.2 and 3 resigned as Directors and purporting to appoint defendant no.2 and defendant no.3 as Directors of the said Company, as null and void and or inoperative and order it to be cancelled.",
+      "predicted_label": "Facts",
+      "confidence": 0.9793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0002,
+        "Facts": 0.9793,
+        "Issue": 0.0073,
+        "Reasoning": 0.005
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "(c) For a judgment and decree, directing the defendant no.1 to recoup and or pay to the said Company an amount of Rs.6,53,35,699.01 detailed at AnnexureZ17 along with interest due thereon at the rate of 18 as from the date of institution of the suit until its effective payment to the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0007,
+        "Facts": 0.9773,
+        "Issue": 0.0044,
+        "Reasoning": 0.0098
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "(d) For a Mandatory injunction directing the defendant no.1 to hand over the vehicle bearing no.",
+      "predicted_label": "Facts",
+      "confidence": 0.885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0696,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0008,
+        "Facts": 0.885,
+        "Issue": 0.0208,
+        "Reasoning": 0.0106
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "(e) For a permanent injunction, restraining the defendants no.1, 2 and 3 from acting and or posing themselves as Directors of the Company and or causing any interference to plaintiff no.2 and 3 in the management of the affairs of the said company as its directors.",
+      "predicted_label": "Facts",
+      "confidence": 0.9618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0001,
+        "Facts": 0.9618,
+        "Issue": 0.0025,
+        "Reasoning": 0.0133
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "(f)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9045,
+        "Arguments of Respondent": 0.0205,
+        "Decision": 0.0016,
+        "Facts": 0.0467,
+        "Issue": 0.0099,
+        "Reasoning": 0.0168
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "For a Mandatory injunction directing the defendant no.1 to hand over the documents listed at AnnexureZ18 to the plaintiffs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9494,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0018,
+        "Facts": 0.9494,
+        "Issue": 0.011,
+        "Reasoning": 0.0119
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The defendants filed an application for rejection of plaint on the ground that the jurisdiction of the Civil Court is barred under Order 7, Rule 11 (d) of the CPC which came to be allowed by the impugned order dated 12.11.2013. 8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0002,
+        "Facts": 0.9959,
+        "Issue": 0.0009,
+        "Reasoning": 0.0012
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Mr. DSilva, learned counsel appearing for the respondent nos.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2912,
+        "Arguments of Respondent": 0.6984,
+        "Decision": 0.0003,
+        "Facts": 0.0042,
+        "Issue": 0.0007,
+        "Reasoning": 0.0052
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "1(a), 2 and 3 has pointed out that the suit is barred under Section 10GB of the Companies Act as according to him on plain reading of the plaint, the allegations by the Company cannot be adjudicated under Sections 397 and 398 of the Companies Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4552,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3703,
+        "Arguments of Respondent": 0.4552,
+        "Decision": 0.0003,
+        "Facts": 0.1486,
+        "Issue": 0.0009,
+        "Reasoning": 0.0247
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "The learned counsel further pointed out that the learned Judge has rightly passed the impugned order.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9197,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0693,
+        "Arguments of Respondent": 0.9197,
+        "Decision": 0.0003,
+        "Facts": 0.0043,
+        "Issue": 0.0001,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "In support of his submissions, the learned counsel has relied upon the judgment of the Apex Court reported in (2008) 3 SCC 363 in the case of V. S. Krishnan and others v. Westfort Hitech Hospital Ltd., Ors. 9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5188,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5188,
+        "Arguments of Respondent": 0.3891,
+        "Decision": 0.0003,
+        "Facts": 0.0798,
+        "Issue": 0.0008,
+        "Reasoning": 0.0112
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "On the other hand, Mr. Coelho Pereira, learned Senior Counsel has relied upon the judgment reported in (2003) 6 SCC 220 in the case of Dwarka Prasad Agarwal and Anr.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3407,
+        "Arguments of Respondent": 0.6466,
+        "Decision": 0.0002,
+        "Facts": 0.0029,
+        "Issue": 0.0003,
+        "Reasoning": 0.0093
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "v. Ramesh Chander Agarwal and others.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.5029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2784,
+        "Arguments of Respondent": 0.0938,
+        "Decision": 0.0064,
+        "Facts": 0.5029,
+        "Issue": 0.0129,
+        "Reasoning": 0.1056
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "It is the contention of the appellants that the plaintiff no. 2 has blood relationship with the Respondent no. 1 and that he had issued a General Power of Attorney which has been misused.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7619,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7619,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0013,
+        "Facts": 0.1076,
+        "Issue": 0.0022,
+        "Reasoning": 0.1199
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "It is also contended that the Respondent no.1 represented to the Appellant no.2 that the Company required money to complete the project as there was good demand for Block A.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8095,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8095,
+        "Arguments of Respondent": 0.1344,
+        "Decision": 0.0001,
+        "Facts": 0.0378,
+        "Issue": 0.0004,
+        "Reasoning": 0.0179
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The main contention prima facie is to claim that there was mistrust and misuse of the authority by the Respondent no.1.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8624,
+        "Arguments of Respondent": 0.0344,
+        "Decision": 0.0003,
+        "Facts": 0.0305,
+        "Issue": 0.0059,
+        "Reasoning": 0.0665
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Looking into the allegations in the plaint, the reliance to the provisions of the Companies Act and the judgment in the case of V. S. Krishnan Ors (supra ) is not applicable to the facts of the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7271,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0252,
+        "Arguments of Respondent": 0.0546,
+        "Decision": 0.0019,
+        "Facts": 0.1908,
+        "Issue": 0.0004,
+        "Reasoning": 0.7271
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The exclusion of jurisdiction cannot be readily inferred.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6183,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1162,
+        "Arguments of Respondent": 0.2126,
+        "Decision": 0.0022,
+        "Facts": 0.0499,
+        "Issue": 0.0008,
+        "Reasoning": 0.6183
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "Section 10GB has been inserted by the Companies (Second Amendment) Act, 2002 in order to provide for two main matters.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1153,
+        "Arguments of Respondent": 0.075,
+        "Decision": 0.001,
+        "Facts": 0.0153,
+        "Issue": 0.0006,
+        "Reasoning": 0.7928
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "One of them is that no Civil Court is to have any jurisdiction to entertain any suit or proceeding in respect of any matter vested in the Tribunal or Appellate Tribunal for its determination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2389,
+        "Arguments of Respondent": 0.0531,
+        "Decision": 0.0004,
+        "Facts": 0.0468,
+        "Issue": 0.0007,
+        "Reasoning": 0.6602
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "The second is that no injunction is to be granted by any Court or other authority in respect of any action taken or proposed to be taken in exercise of powers conferred on the Tribunal or Appellate Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1041,
+        "Arguments of Respondent": 0.0234,
+        "Decision": 0.0009,
+        "Facts": 0.0264,
+        "Issue": 0.0003,
+        "Reasoning": 0.8448
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The Code of Civil Procedure, states in Section 9 that the Civil Courts shall have jurisdiction to try all suits of a civil nature except suits of which cognizance is expressly or impliedly barred.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0845,
+        "Arguments of Respondent": 0.0626,
+        "Decision": 0.0005,
+        "Facts": 0.0141,
+        "Issue": 0.0005,
+        "Reasoning": 0.8377
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The scope of an exclusion of jurisdiction of the Civil Code is not to be readily inferred but that such exclusion must either be explicit, expressed or clearly implied.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2279,
+        "Arguments of Respondent": 0.165,
+        "Decision": 0.0013,
+        "Facts": 0.0124,
+        "Issue": 0.0017,
+        "Reasoning": 0.5916
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "Looking into the observations made in the said Judgment based on the Judgment of the Division Bench of this Court and the allegations made in the plaint, we find that the learned Trial Judge was not justified to come to the conclusion that the suit is barred in terms of Order 7, Rule 11 of the Civil Procedure Code.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9314,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0093,
+        "Facts": 0.0524,
+        "Issue": 0.0003,
+        "Reasoning": 0.9314
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The jurisdiction of the Civil Court is not barred taking into account the relief sought by the Appellants which, prima facie, suggests that they are under the general law applicable to the facts of the case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0674,
+        "Arguments of Respondent": 0.1357,
+        "Decision": 0.0067,
+        "Facts": 0.0623,
+        "Issue": 0.0034,
+        "Reasoning": 0.7245
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The suit is also filed on behalf of the Complainant who is the Appellant no. 1 herein.",
+      "predicted_label": "Facts",
+      "confidence": 0.8241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0015,
+        "Facts": 0.8241,
+        "Issue": 0.1304,
+        "Reasoning": 0.0348
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "Whether the Company has been duly represented is a matter which has to be examined on its own merits in accordance with law and not while examining the application for rejection.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8737,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0335,
+        "Arguments of Respondent": 0.0458,
+        "Decision": 0.0036,
+        "Facts": 0.0429,
+        "Issue": 0.0005,
+        "Reasoning": 0.8737
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The question as to whether the suit itself is maintainable will have to be considered looking into the defence of the Respondents which exercise cannot be carried out whilst considering an application under Order 7, Rule 11 .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8356,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0335,
+        "Arguments of Respondent": 0.0321,
+        "Decision": 0.0212,
+        "Facts": 0.0624,
+        "Issue": 0.0151,
+        "Reasoning": 0.8356
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "In such circumstances, the learned Judge was not justified to pass the impugned Order and, as such, the impugned Order 12.11.2013 deserves to be quashed and set aside.",
+      "predicted_label": "Facts",
+      "confidence": 0.3665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3637,
+        "Arguments of Respondent": 0.02,
+        "Decision": 0.0352,
+        "Facts": 0.3665,
+        "Issue": 0.0011,
+        "Reasoning": 0.2135
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "(iii) The Special Civil Suit No.122/2000 is restored to the file of the learned Civil Judge Senior Division, Panaji.",
+      "predicted_label": "Decision",
+      "confidence": 0.8621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.8621,
+        "Facts": 0.1064,
+        "Issue": 0.0008,
+        "Reasoning": 0.0263
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "(iv) The learned Judge is directed to proceed and decide the suit in accordance with law.",
+      "predicted_label": "Decision",
+      "confidence": 0.4446,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0497,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.4446,
+        "Facts": 0.3133,
+        "Issue": 0.0039,
+        "Reasoning": 0.1832
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The appeal stands disposed of accordingly.",
+      "predicted_label": "Decision",
+      "confidence": 0.9468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.9468,
+        "Facts": 0.0423,
+        "Issue": 0.0004,
+        "Reasoning": 0.0092
+      }
+    }
+  ]
+}

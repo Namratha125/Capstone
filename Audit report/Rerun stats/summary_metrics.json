@@ -1,0 +1,1449 @@
+{
+ "integrity": {
+  "json_files": 9986,
+  "loaded": 9986,
+  "load_errors": 0,
+  "unique_case_ids": 9986,
+  "duplicate_case_ids": 0,
+  "missing_case_id": 0,
+  "cases_before_2000": 0,
+  "cases_year_unparsed": 0
+ },
+ "method_counts": {
+  "case:groq|analysis:groq": 9986
+ },
+ "fallback": {
+  "regex_fallback_cases": 0,
+  "pct": 0.0,
+  "call1_ok_pct": 100.0,
+  "call2_ok_pct": 100.0
+ },
+ "cases_per_year": {
+  "2000": 392,
+  "2001": 399,
+  "2002": 397,
+  "2003": 396,
+  "2004": 394,
+  "2005": 392,
+  "2006": 395,
+  "2007": 399,
+  "2008": 400,
+  "2009": 26,
+  "2010": 400,
+  "2011": 400,
+  "2012": 399,
+  "2013": 399,
+  "2014": 400,
+  "2015": 398,
+  "2016": 400,
+  "2017": 400,
+  "2018": 400,
+  "2019": 400,
+  "2020": 400,
+  "2021": 400,
+  "2022": 400,
+  "2023": 400,
+  "2024": 400,
+  "2025": 400
+ },
+ "cases_per_band": {
+  "2000-06": 2765,
+  "2007-13": 2423,
+  "2020-25": 2400,
+  "2014-19": 2398
+ },
+ "completeness": [
+  {
+   "field": "title",
+   "populated": 9986,
+   "n": 9986,
+   "populated_pct": 100.0,
+   "ci_lo": 100.0,
+   "ci_hi": 100.0,
+   "2000-06": 100.0,
+   "2007-13": 100.0,
+   "2014-19": 100.0,
+   "2020-25": 100.0
+  },
+  {
+   "field": "issue",
+   "populated": 9958,
+   "n": 9986,
+   "populated_pct": 99.7,
+   "ci_lo": 99.6,
+   "ci_hi": 99.8,
+   "2000-06": 99.7,
+   "2007-13": 99.7,
+   "2014-19": 99.6,
+   "2020-25": 99.9
+  },
+  {
+   "field": "facts",
+   "populated": 9910,
+   "n": 9986,
+   "populated_pct": 99.2,
+   "ci_lo": 99.0,
+   "ci_hi": 99.4,
+   "2000-06": 98.9,
+   "2007-13": 99.3,
+   "2014-19": 99.2,
+   "2020-25": 99.5
+  },
+  {
+   "field": "case summary",
+   "populated": 8192,
+   "n": 9986,
+   "populated_pct": 82.0,
+   "ci_lo": 81.3,
+   "ci_hi": 82.8,
+   "2000-06": 81.4,
+   "2007-13": 80.4,
+   "2014-19": 82.3,
+   "2020-25": 84.1
+  },
+  {
+   "field": "reasoning summary",
+   "populated": 6418,
+   "n": 9986,
+   "populated_pct": 64.3,
+   "ci_lo": 63.3,
+   "ci_hi": 65.2,
+   "2000-06": 64.3,
+   "2007-13": 63.8,
+   "2014-19": 62.4,
+   "2020-25": 66.6
+  },
+  {
+   "field": "principles",
+   "populated": 5440,
+   "n": 9986,
+   "populated_pct": 54.5,
+   "ci_lo": 53.5,
+   "ci_hi": 55.5,
+   "2000-06": 55.0,
+   "2007-13": 54.6,
+   "2014-19": 51.6,
+   "2020-25": 56.6
+  },
+  {
+   "field": "outcome",
+   "populated": 9768,
+   "n": 9986,
+   "populated_pct": 97.8,
+   "ci_lo": 97.5,
+   "ci_hi": 98.1,
+   "2000-06": 98.5,
+   "2007-13": 96.5,
+   "2014-19": 97.4,
+   "2020-25": 98.9
+  },
+  {
+   "field": "decision details",
+   "populated": 9579,
+   "n": 9986,
+   "populated_pct": 95.9,
+   "ci_lo": 95.5,
+   "ci_hi": 96.3,
+   "2000-06": 96.3,
+   "2007-13": 94.2,
+   "2014-19": 95.2,
+   "2020-25": 97.9
+  },
+  {
+   "field": "outcome reasoning",
+   "populated": 9581,
+   "n": 9986,
+   "populated_pct": 95.9,
+   "ci_lo": 95.5,
+   "ci_hi": 96.3,
+   "2000-06": 96.3,
+   "2007-13": 94.1,
+   "2014-19": 95.3,
+   "2020-25": 97.9
+  },
+  {
+   "field": "statutes",
+   "populated": 9456,
+   "n": 9986,
+   "populated_pct": 94.7,
+   "ci_lo": 94.2,
+   "ci_hi": 95.1,
+   "2000-06": 93.6,
+   "2007-13": 96.0,
+   "2014-19": 93.4,
+   "2020-25": 96.0
+  },
+  {
+   "field": "citations",
+   "populated": 9071,
+   "n": 9986,
+   "populated_pct": 90.8,
+   "ci_lo": 90.3,
+   "ci_hi": 91.4,
+   "2000-06": 85.2,
+   "2007-13": 92.6,
+   "2014-19": 91.3,
+   "2020-25": 95.1
+  },
+  {
+   "field": "legal concepts",
+   "populated": 8630,
+   "n": 9986,
+   "populated_pct": 86.4,
+   "ci_lo": 85.7,
+   "ci_hi": 87.1,
+   "2000-06": 87.7,
+   "2007-13": 84.1,
+   "2014-19": 85.3,
+   "2020-25": 88.4
+  },
+  {
+   "field": "petitioner args",
+   "populated": 9365,
+   "n": 9986,
+   "populated_pct": 93.8,
+   "ci_lo": 93.3,
+   "ci_hi": 94.2,
+   "2000-06": 93.0,
+   "2007-13": 94.3,
+   "2014-19": 92.7,
+   "2020-25": 95.2
+  },
+  {
+   "field": "respondent args",
+   "populated": 7573,
+   "n": 9986,
+   "populated_pct": 75.8,
+   "ci_lo": 75.0,
+   "ci_hi": 76.7,
+   "2000-06": 69.7,
+   "2007-13": 76.8,
+   "2014-19": 75.6,
+   "2020-25": 82.2
+  },
+  {
+   "field": "parties (both sides)",
+   "populated": 9967,
+   "n": 9986,
+   "populated_pct": 99.8,
+   "ci_lo": 99.7,
+   "ci_hi": 99.9,
+   "2000-06": 99.9,
+   "2007-13": 99.7,
+   "2014-19": 99.7,
+   "2020-25": 99.9
+  }
+ ],
+ "completeness_by_year": {
+  "2000": {
+   "title": 100.0,
+   "issue": 100.0,
+   "facts": 98.5,
+   "case summary": 79.8,
+   "reasoning summary": 64.0,
+   "principles": 54.3,
+   "outcome": 97.7,
+   "decision details": 96.2,
+   "outcome reasoning": 95.7,
+   "statutes": 92.6,
+   "citations": 79.8,
+   "legal concepts": 88.0,
+   "petitioner args": 88.8,
+   "respondent args": 58.7,
+   "parties (both sides)": 100.0
+  },
+  "2001": {
+   "title": 100.0,
+   "issue": 100.0,
+   "facts": 98.7,
+   "case summary": 79.2,
+   "reasoning summary": 63.7,
+   "principles": 51.4,
+   "outcome": 97.7,
+   "decision details": 95.0,
+   "outcome reasoning": 95.2,
+   "statutes": 93.7,
+   "citations": 81.7,
+   "legal concepts": 88.0,
+   "petitioner args": 87.7,
+   "respondent args": 62.4,
+   "parties (both sides)": 99.5
+  },
+  "2002": {
+   "title": 100.0,
+   "issue": 99.2,
+   "facts": 98.0,
+   "case summary": 81.9,
+   "reasoning summary": 64.5,
+   "principles": 54.9,
+   "outcome": 98.7,
+   "decision details": 97.5,
+   "outcome reasoning": 97.7,
+   "statutes": 92.9,
+   "citations": 84.6,
+   "legal concepts": 89.9,
+   "petitioner args": 90.7,
+   "respondent args": 61.5,
+   "parties (both sides)": 99.7
+  },
+  "2003": {
+   "title": 100.0,
+   "issue": 99.5,
+   "facts": 98.5,
+   "case summary": 79.8,
+   "reasoning summary": 61.6,
+   "principles": 53.8,
+   "outcome": 98.5,
+   "decision details": 95.7,
+   "outcome reasoning": 95.5,
+   "statutes": 90.7,
+   "citations": 83.8,
+   "legal concepts": 87.1,
+   "petitioner args": 96.2,
+   "respondent args": 74.5,
+   "parties (both sides)": 100.0
+  },
+  "2004": {
+   "title": 100.0,
+   "issue": 99.7,
+   "facts": 99.2,
+   "case summary": 84.3,
+   "reasoning summary": 67.3,
+   "principles": 60.2,
+   "outcome": 98.2,
+   "decision details": 95.7,
+   "outcome reasoning": 96.2,
+   "statutes": 94.2,
+   "citations": 88.1,
+   "legal concepts": 87.6,
+   "petitioner args": 95.4,
+   "respondent args": 77.2,
+   "parties (both sides)": 100.0
+  },
+  "2005": {
+   "title": 100.0,
+   "issue": 99.5,
+   "facts": 99.2,
+   "case summary": 80.1,
+   "reasoning summary": 62.8,
+   "principles": 52.6,
+   "outcome": 99.2,
+   "decision details": 96.7,
+   "outcome reasoning": 96.4,
+   "statutes": 95.4,
+   "citations": 87.0,
+   "legal concepts": 87.8,
+   "petitioner args": 96.7,
+   "respondent args": 75.3,
+   "parties (both sides)": 99.7
+  },
+  "2006": {
+   "title": 100.0,
+   "issue": 100.0,
+   "facts": 100.0,
+   "case summary": 84.8,
+   "reasoning summary": 66.3,
+   "principles": 58.0,
+   "outcome": 99.2,
+   "decision details": 97.7,
+   "outcome reasoning": 97.7,
+   "statutes": 95.4,
+   "citations": 91.4,
+   "legal concepts": 85.8,
+   "petitioner args": 95.4,
+   "respondent args": 78.5,
+   "parties (both sides)": 100.0
+  },
+  "2007": {
+   "title": 100.0,
+   "issue": 99.5,
+   "facts": 99.5,
+   "case summary": 80.5,
+   "reasoning summary": 62.7,
+   "principles": 52.4,
+   "outcome": 99.2,
+   "decision details": 96.7,
+   "outcome reasoning": 96.5,
+   "statutes": 93.0,
+   "citations": 88.5,
+   "legal concepts": 84.5,
+   "petitioner args": 96.0,
+   "respondent args": 78.9,
+   "parties (both sides)": 99.5
+  },
+  "2008": {
+   "title": 100.0,
+   "issue": 100.0,
+   "facts": 99.5,
+   "case summary": 83.2,
+   "reasoning summary": 67.8,
+   "principles": 60.2,
+   "outcome": 97.8,
+   "decision details": 95.0,
+   "outcome reasoning": 94.5,
+   "statutes": 95.2,
+   "citations": 91.8,
+   "legal concepts": 85.0,
+   "petitioner args": 95.5,
+   "respondent args": 80.2,
+   "parties (both sides)": 100.0
+  },
+  "2009": {
+   "title": 100.0,
+   "issue": 100.0,
+   "facts": 100.0,
+   "case summary": 76.9,
+   "reasoning summary": 50.0,
+   "principles": 50.0,
+   "outcome": 96.2,
+   "decision details": 96.2,
+   "outcome reasoning": 96.2,
+   "statutes": 96.2,
+   "citations": 96.2,
+   "legal concepts": 80.8,
+   "petitioner args": 92.3,
+   "respondent args": 84.6,
+   "parties (both sides)": 100.0
+  },
+  "2010": {
+   "title": 100.0,
+   "issue": 99.5,
+   "facts": 98.8,
+   "case summary": 79.2,
+   "reasoning summary": 58.8,
+   "principles": 52.0,
+   "outcome": 95.8,
+   "decision details": 93.2,
+   "outcome reasoning": 93.2,
+   "statutes": 96.2,
+   "citations": 92.8,
+   "legal concepts": 84.0,
+   "petitioner args": 94.0,
+   "respondent args": 75.0,
+   "parties (both sides)": 99.8
+  },
+  "2011": {
+   "title": 100.0,
+   "issue": 100.0,
+   "facts": 99.8,
+   "case summary": 78.5,
+   "reasoning summary": 64.8,
+   "principles": 52.5,
+   "outcome": 97.0,
+   "decision details": 94.5,
+   "outcome reasoning": 94.5,
+   "statutes": 96.8,
+   "citations": 95.0,
+   "legal concepts": 84.0,
+   "petitioner args": 93.8,
+   "respondent args": 74.2,
+   "parties (both sides)": 99.8
+  },
+  "2012": {
+   "title": 100.0,
+   "issue": 99.7,
+   "facts": 99.7,
+   "case summary": 81.2,
+   "reasoning summary": 64.9,
+   "principles": 55.4,
+   "outcome": 95.2,
+   "decision details": 93.5,
+   "outcome reasoning": 93.7,
+   "statutes": 98.5,
+   "citations": 93.2,
+   "legal concepts": 84.7,
+   "petitioner args": 95.0,
+   "respondent args": 74.9,
+   "parties (both sides)": 99.7
+  },
+  "2013": {
+   "title": 100.0,
+   "issue": 99.5,
+   "facts": 98.7,
+   "case summary": 80.2,
+   "reasoning summary": 64.7,
+   "principles": 55.4,
+   "outcome": 93.7,
+   "decision details": 92.0,
+   "outcome reasoning": 92.2,
+   "statutes": 96.0,
+   "citations": 94.2,
+   "legal concepts": 82.7,
+   "petitioner args": 91.5,
+   "respondent args": 76.7,
+   "parties (both sides)": 99.5
+  },
+  "2014": {
+   "title": 100.0,
+   "issue": 99.2,
+   "facts": 99.2,
+   "case summary": 81.8,
+   "reasoning summary": 63.2,
+   "principles": 55.5,
+   "outcome": 96.2,
+   "decision details": 94.0,
+   "outcome reasoning": 94.2,
+   "statutes": 94.2,
+   "citations": 92.8,
+   "legal concepts": 86.8,
+   "petitioner args": 93.5,
+   "respondent args": 76.5,
+   "parties (both sides)": 99.2
+  },
+  "2015": {
+   "title": 100.0,
+   "issue": 99.7,
+   "facts": 99.7,
+   "case summary": 84.4,
+   "reasoning summary": 68.1,
+   "principles": 55.0,
+   "outcome": 98.7,
+   "decision details": 96.0,
+   "outcome reasoning": 96.7,
+   "statutes": 96.0,
+   "citations": 92.2,
+   "legal concepts": 87.9,
+   "petitioner args": 94.2,
+   "respondent args": 76.6,
+   "parties (both sides)": 100.0
+  },
+  "2016": {
+   "title": 100.0,
+   "issue": 99.2,
+   "facts": 98.5,
+   "case summary": 82.8,
+   "reasoning summary": 58.2,
+   "principles": 47.0,
+   "outcome": 97.0,
+   "decision details": 96.5,
+   "outcome reasoning": 96.2,
+   "statutes": 92.5,
+   "citations": 87.2,
+   "legal concepts": 85.5,
+   "petitioner args": 93.8,
+   "respondent args": 76.0,
+   "parties (both sides)": 99.8
+  },
+  "2017": {
+   "title": 100.0,
+   "issue": 99.8,
+   "facts": 100.0,
+   "case summary": 80.2,
+   "reasoning summary": 57.5,
+   "principles": 47.0,
+   "outcome": 96.8,
+   "decision details": 95.5,
+   "outcome reasoning": 95.0,
+   "statutes": 91.5,
+   "citations": 88.8,
+   "legal concepts": 83.0,
+   "petitioner args": 91.0,
+   "respondent args": 74.2,
+   "parties (both sides)": 100.0
+  },
+  "2018": {
+   "title": 100.0,
+   "issue": 100.0,
+   "facts": 99.8,
+   "case summary": 82.8,
+   "reasoning summary": 62.0,
+   "principles": 51.0,
+   "outcome": 98.5,
+   "decision details": 94.8,
+   "outcome reasoning": 95.0,
+   "statutes": 92.2,
+   "citations": 91.5,
+   "legal concepts": 83.2,
+   "petitioner args": 90.8,
+   "respondent args": 71.0,
+   "parties (both sides)": 100.0
+  },
+  "2019": {
+   "title": 100.0,
+   "issue": 99.5,
+   "facts": 98.2,
+   "case summary": 82.0,
+   "reasoning summary": 65.2,
+   "principles": 54.0,
+   "outcome": 97.0,
+   "decision details": 94.8,
+   "outcome reasoning": 94.8,
+   "statutes": 94.0,
+   "citations": 95.2,
+   "legal concepts": 85.2,
+   "petitioner args": 93.2,
+   "respondent args": 79.2,
+   "parties (both sides)": 99.5
+  },
+  "2020": {
+   "title": 100.0,
+   "issue": 100.0,
+   "facts": 100.0,
+   "case summary": 84.0,
+   "reasoning summary": 65.2,
+   "principles": 55.0,
+   "outcome": 98.8,
+   "decision details": 98.2,
+   "outcome reasoning": 98.5,
+   "statutes": 94.2,
+   "citations": 93.8,
+   "legal concepts": 86.8,
+   "petitioner args": 95.2,
+   "respondent args": 83.0,
+   "parties (both sides)": 100.0
+  },
+  "2021": {
+   "title": 100.0,
+   "issue": 99.8,
+   "facts": 99.8,
+   "case summary": 85.0,
+   "reasoning summary": 68.5,
+   "principles": 60.8,
+   "outcome": 97.8,
+   "decision details": 96.8,
+   "outcome reasoning": 96.8,
+   "statutes": 97.0,
+   "citations": 97.2,
+   "legal concepts": 89.8,
+   "petitioner args": 97.0,
+   "respondent args": 88.0,
+   "parties (both sides)": 100.0
+  },
+  "2022": {
+   "title": 100.0,
+   "issue": 99.8,
+   "facts": 98.8,
+   "case summary": 83.5,
+   "reasoning summary": 66.5,
+   "principles": 56.8,
+   "outcome": 99.2,
+   "decision details": 98.2,
+   "outcome reasoning": 98.0,
+   "statutes": 96.0,
+   "citations": 97.8,
+   "legal concepts": 90.0,
+   "petitioner args": 96.5,
+   "respondent args": 83.5,
+   "parties (both sides)": 99.8
+  },
+  "2023": {
+   "title": 100.0,
+   "issue": 100.0,
+   "facts": 99.8,
+   "case summary": 82.8,
+   "reasoning summary": 64.2,
+   "principles": 54.5,
+   "outcome": 99.2,
+   "decision details": 97.5,
+   "outcome reasoning": 97.5,
+   "statutes": 96.2,
+   "citations": 95.0,
+   "legal concepts": 89.8,
+   "petitioner args": 95.8,
+   "respondent args": 81.5,
+   "parties (both sides)": 100.0
+  },
+  "2024": {
+   "title": 100.0,
+   "issue": 100.0,
+   "facts": 99.8,
+   "case summary": 86.2,
+   "reasoning summary": 70.0,
+   "principles": 61.0,
+   "outcome": 98.2,
+   "decision details": 97.2,
+   "outcome reasoning": 97.0,
+   "statutes": 99.8,
+   "citations": 97.5,
+   "legal concepts": 88.0,
+   "petitioner args": 96.0,
+   "respondent args": 85.5,
+   "parties (both sides)": 100.0
+  },
+  "2025": {
+   "title": 100.0,
+   "issue": 99.8,
+   "facts": 99.2,
+   "case summary": 83.0,
+   "reasoning summary": 65.2,
+   "principles": 51.7,
+   "outcome": 100.0,
+   "decision details": 99.2,
+   "outcome reasoning": 99.8,
+   "statutes": 92.8,
+   "citations": 89.2,
+   "legal concepts": 86.0,
+   "petitioner args": 91.0,
+   "respondent args": 71.8,
+   "parties (both sides)": 99.8
+  }
+ },
+ "outcome_distribution": {
+  "Accept": 5319,
+  "Reject": 3322,
+  "Partially Accept": 589,
+  "Directions Issued": 538,
+  "MISSING": 218
+ },
+ "outcome_by_band": {
+  "2000-06": {
+   "Accept": 51.0,
+   "Directions Issued": 4.3,
+   "MISSING": 1.5,
+   "Partially Accept": 4.8,
+   "Reject": 38.3
+  },
+  "2007-13": {
+   "Accept": 51.3,
+   "Directions Issued": 4.5,
+   "MISSING": 3.5,
+   "Partially Accept": 5.1,
+   "Reject": 35.6
+  },
+  "2014-19": {
+   "Accept": 54.4,
+   "Directions Issued": 6.8,
+   "MISSING": 2.6,
+   "Partially Accept": 6.0,
+   "Reject": 30.2
+  },
+  "2020-25": {
+   "Accept": 56.8,
+   "Directions Issued": 6.2,
+   "MISSING": 1.1,
+   "Partially Accept": 7.8,
+   "Reject": 28.1
+  }
+ },
+ "outcome_by_year": {
+  "2000": {
+   "Accept": 53.3,
+   "Directions Issued": 2.6,
+   "MISSING": 2.3,
+   "Partially Accept": 3.8,
+   "Reject": 38.0
+  },
+  "2001": {
+   "Accept": 46.6,
+   "Directions Issued": 3.8,
+   "MISSING": 2.3,
+   "Partially Accept": 3.3,
+   "Reject": 44.1
+  },
+  "2002": {
+   "Accept": 51.4,
+   "Directions Issued": 4.5,
+   "MISSING": 1.3,
+   "Partially Accept": 7.3,
+   "Reject": 35.5
+  },
+  "2003": {
+   "Accept": 49.0,
+   "Directions Issued": 3.0,
+   "MISSING": 1.5,
+   "Partially Accept": 3.5,
+   "Reject": 42.9
+  },
+  "2004": {
+   "Accept": 49.5,
+   "Directions Issued": 5.1,
+   "MISSING": 1.8,
+   "Partially Accept": 5.6,
+   "Reject": 38.1
+  },
+  "2005": {
+   "Accept": 51.0,
+   "Directions Issued": 7.4,
+   "MISSING": 0.8,
+   "Partially Accept": 4.1,
+   "Reject": 36.7
+  },
+  "2006": {
+   "Accept": 56.5,
+   "Directions Issued": 3.8,
+   "MISSING": 0.8,
+   "Partially Accept": 6.1,
+   "Reject": 32.9
+  },
+  "2007": {
+   "Accept": 50.4,
+   "Directions Issued": 2.0,
+   "MISSING": 0.8,
+   "Partially Accept": 4.8,
+   "Reject": 42.1
+  },
+  "2008": {
+   "Accept": 58.0,
+   "Directions Issued": 2.8,
+   "MISSING": 2.2,
+   "Partially Accept": 5.0,
+   "Reject": 32.0
+  },
+  "2009": {
+   "Accept": 38.5,
+   "Directions Issued": 3.8,
+   "MISSING": 3.8,
+   "Partially Accept": 23.1,
+   "Reject": 30.8
+  },
+  "2010": {
+   "Accept": 46.5,
+   "Directions Issued": 4.8,
+   "MISSING": 4.2,
+   "Partially Accept": 5.8,
+   "Reject": 38.8
+  },
+  "2011": {
+   "Accept": 54.2,
+   "Directions Issued": 5.0,
+   "MISSING": 3.0,
+   "Partially Accept": 3.2,
+   "Reject": 34.5
+  },
+  "2012": {
+   "Accept": 48.9,
+   "Directions Issued": 6.5,
+   "MISSING": 4.8,
+   "Partially Accept": 5.8,
+   "Reject": 34.1
+  },
+  "2013": {
+   "Accept": 50.4,
+   "Directions Issued": 6.0,
+   "MISSING": 6.3,
+   "Partially Accept": 5.0,
+   "Reject": 32.3
+  },
+  "2014": {
+   "Accept": 54.2,
+   "Directions Issued": 7.2,
+   "MISSING": 3.8,
+   "Partially Accept": 6.2,
+   "Reject": 28.5
+  },
+  "2015": {
+   "Accept": 55.5,
+   "Directions Issued": 4.0,
+   "MISSING": 1.3,
+   "Partially Accept": 7.0,
+   "Reject": 32.2
+  },
+  "2016": {
+   "Accept": 53.0,
+   "Directions Issued": 7.5,
+   "MISSING": 3.0,
+   "Partially Accept": 4.2,
+   "Reject": 32.2
+  },
+  "2017": {
+   "Accept": 52.5,
+   "Directions Issued": 7.8,
+   "MISSING": 3.2,
+   "Partially Accept": 5.5,
+   "Reject": 31.0
+  },
+  "2018": {
+   "Accept": 57.2,
+   "Directions Issued": 8.8,
+   "MISSING": 1.5,
+   "Partially Accept": 5.8,
+   "Reject": 26.8
+  },
+  "2019": {
+   "Accept": 53.8,
+   "Directions Issued": 5.2,
+   "MISSING": 3.0,
+   "Partially Accept": 7.2,
+   "Reject": 30.8
+  },
+  "2020": {
+   "Accept": 47.8,
+   "Directions Issued": 8.0,
+   "MISSING": 1.2,
+   "Partially Accept": 7.8,
+   "Reject": 35.2
+  },
+  "2021": {
+   "Accept": 55.5,
+   "Directions Issued": 4.8,
+   "MISSING": 2.2,
+   "Partially Accept": 8.8,
+   "Reject": 28.7
+  },
+  "2022": {
+   "Accept": 61.0,
+   "Directions Issued": 5.5,
+   "MISSING": 0.8,
+   "Partially Accept": 8.5,
+   "Reject": 24.2
+  },
+  "2023": {
+   "Accept": 58.8,
+   "Directions Issued": 5.2,
+   "MISSING": 0.8,
+   "Partially Accept": 4.8,
+   "Reject": 30.5
+  },
+  "2024": {
+   "Accept": 55.2,
+   "Directions Issued": 7.8,
+   "MISSING": 1.8,
+   "Partially Accept": 8.8,
+   "Reject": 26.5
+  },
+  "2025": {
+   "Accept": 62.3,
+   "Directions Issued": 5.8,
+   "MISSING": 0.0,
+   "Partially Accept": 8.5,
+   "Reject": 23.5
+  }
+ },
+ "inversion_candidates": {
+  "n": 211,
+  "pct": 2.11,
+  "ci": [
+   1.85,
+   2.41
+  ],
+  "types": {
+   "Reject_but_text_says_allowed": 158,
+   "Accept_but_text_says_dismissed": 53
+  },
+  "sample_case_ids": [
+   "2000_0c006a575522",
+   "2000_3faf8317d51d",
+   "2000_60b1da5257ee",
+   "2000_6c941e2104ed",
+   "2000_82732ccc405e",
+   "2000_a94eff3c5993",
+   "2000_b48faf134d8e",
+   "2000_c78e4c075773",
+   "2001_01904ca25632",
+   "2001_48c79f6e51c2",
+   "2001_737b7b86a7a6",
+   "2001_8da70dc6dca5",
+   "2001_cc125aa1126a",
+   "2001_fb08c35d3fc8",
+   "2002_15a699e1b68c",
+   "2002_4aefd2741e9f",
+   "2002_6abccd1f3e20",
+   "2002_7f212d178fae",
+   "2002_80deabde3491",
+   "2002_8e07ceee6694",
+   "2002_af70851f4407",
+   "2003_0538cb03280f",
+   "2003_4f195c737f5e",
+   "2003_5f868a487e33",
+   "2003_b6969ad1200e",
+   "2003_bcff2a114ed2",
+   "2003_bfd5d5453b73",
+   "2003_ca565b3c0032",
+   "2003_e4179fc76adc",
+   "2003_eb7dca117a7f",
+   "2004_2177845c88da",
+   "2004_22dbf7a828c4",
+   "2004_2338f4521e76",
+   "2004_625ff76a2d43",
+   "2004_9a2f340b724d",
+   "2004_e7591a1ba1d5",
+   "2004_ede8b5e50aa8",
+   "2005_1ee315c6586b",
+   "2005_3051012f5a97",
+   "2005_71bb7beb90c4",
+   "2005_8071de879594",
+   "2005_afc2f0af3f72",
+   "2005_b92a0f74e2ae",
+   "2005_bb3553b65bb6",
+   "2006_1595a7631012",
+   "2006_1eda8b70f8f1",
+   "2006_70f3ef333e9e",
+   "2006_9deb4a75ddf7",
+   "2006_b6391080f122",
+   "2007_1cdfff43ac3a"
+  ]
+ },
+ "statutes": {
+  "cases_with_statutes": 9456,
+  "entries_total": 90614,
+  "mean_per_case": 9.07,
+  "median_per_case": 6.0,
+  "p95_per_case": 26.0,
+  "max_per_case": 300,
+  "named_entries": 41881,
+  "bare_section_entries": 36549,
+  "bare_entries_pct": 40.3,
+  "bare_duplicates_of_named": 2436,
+  "cases_with_bare_duplicates": 1126,
+  "cases_with_any_bare": 6151,
+  "cases_fully_named_pct": 35.0
+ },
+ "top_statutes": [
+  [
+   "Section 302 IPC",
+   1035
+  ],
+  [
+   "Constitution_Art_226",
+   990
+  ],
+  [
+   "Section_3",
+   840
+  ],
+  [
+   "Constitution_Art_14",
+   804
+  ],
+  [
+   "Section_2",
+   690
+  ],
+  [
+   "Constitution_Art_136",
+   685
+  ],
+  [
+   "Section_4",
+   623
+  ],
+  [
+   "Section_5",
+   565
+  ],
+  [
+   "Section 34 IPC",
+   556
+  ],
+  [
+   "Constitution_Art_21",
+   514
+  ],
+  [
+   "Section_11",
+   508
+  ],
+  [
+   "Section_6",
+   429
+  ],
+  [
+   "Constitution_Art_32",
+   425
+  ],
+  [
+   "Section_9",
+   413
+  ],
+  [
+   "Article 14 of the Constitution of India",
+   383
+  ],
+  [
+   "Constitution_Art_142",
+   380
+  ],
+  [
+   "Section_8",
+   367
+  ],
+  [
+   "Section_7",
+   352
+  ],
+  [
+   "Section_13",
+   350
+  ],
+  [
+   "Section_17",
+   348
+  ],
+  [
+   "Section_10",
+   347
+  ],
+  [
+   "Section_14",
+   341
+  ],
+  [
+   "Section_15",
+   324
+  ],
+  [
+   "Section 307 IPC",
+   324
+  ],
+  [
+   "Section 149 IPC",
+   303
+  ],
+  [
+   "Section_34",
+   301
+  ],
+  [
+   "Section_12",
+   300
+  ],
+  [
+   "Section_20",
+   298
+  ],
+  [
+   "Section_25",
+   293
+  ],
+  [
+   "Section_18",
+   288
+  ],
+  [
+   "Section_313",
+   285
+  ],
+  [
+   "Section_16",
+   283
+  ],
+  [
+   "Section 120B IPC",
+   276
+  ],
+  [
+   "Section_19",
+   275
+  ],
+  [
+   "Section 148 IPC",
+   273
+  ],
+  [
+   "Section_21",
+   273
+  ],
+  [
+   "Section 323 IPC",
+   255
+  ],
+  [
+   "Section_30",
+   253
+  ],
+  [
+   "Constitution_Art_227",
+   252
+  ],
+  [
+   "Article 226 of the Constitution of India",
+   245
+  ]
+ ],
+ "citations": {
+  "cases_with_citations": 9071,
+  "entries_total": 89997,
+  "mean_per_case": 9.01,
+  "median_per_case": 6.0,
+  "named_entries": 17390,
+  "bare_reporter_entries": 54871,
+  "named_share_pct": 19.3,
+  "cases_with_zero_named": 4145
+ },
+ "concepts": {
+  "cases_with_concepts": 8630,
+  "mean_per_case": 2.21,
+  "distinct_concepts": 53,
+  "top1_concept_share_of_cases_pct": 24.1,
+  "frequency": [
+   [
+    "judicial_review",
+    2404
+   ],
+   [
+    "natural_justice",
+    2229
+   ],
+   [
+    "delegated_legislation",
+    1674
+   ],
+   [
+    "precedent",
+    1424
+   ],
+   [
+    "rule_of_law",
+    1216
+   ],
+   [
+    "burden_of_proof",
+    1181
+   ],
+   [
+    "service_law",
+    1006
+   ],
+   [
+    "property_law",
+    934
+   ],
+   [
+    "quasi_judicial",
+    898
+   ],
+   [
+    "due_process",
+    869
+   ],
+   [
+    "reasonable_doubt",
+    717
+   ],
+   [
+    "public_interest",
+    711
+   ],
+   [
+    "tax_law",
+    588
+   ],
+   [
+    "circumstantial_evidence",
+    538
+   ],
+   [
+    "limitation",
+    531
+   ],
+   [
+    "beyond_reasonable_doubt",
+    522
+   ],
+   [
+    "writ_jurisdiction",
+    433
+   ],
+   [
+    "arbitration",
+    368
+   ],
+   [
+    "bail_jurisprudence",
+    327
+   ],
+   [
+    "ultra_vires",
+    327
+   ],
+   [
+    "fundamental_rights",
+    308
+   ],
+   [
+    "right_to_equality",
+    301
+   ],
+   [
+    "specific_performance",
+    206
+   ],
+   [
+    "separation_of_powers",
+    182
+   ],
+   [
+    "mala_fides",
+    137
+   ],
+   [
+    "consumer_protection",
+    128
+   ],
+   [
+    "res_judicata",
+    128
+   ],
+   [
+    "vicarious_liability",
+    126
+   ],
+   [
+    "preventive_detention",
+    122
+   ],
+   [
+    "hostile_witness",
+    121
+   ],
+   [
+    "right_to_life",
+    111
+   ],
+   [
+    "mens_rea",
+    110
+   ],
+   [
+    "fair_trial",
+    97
+   ],
+   [
+    "estoppel",
+    95
+   ],
+   [
+    "rule_against_bias",
+    91
+   ],
+   [
+    "dying_declaration",
+    91
+   ],
+   [
+    "legitimate_expectation",
+    90
+   ],
+   [
+    "good_faith",
+    83
+   ],
+   [
+    "stare_decisis",
+    76
+   ],
+   [
+    "doctrine_of_severability",
+    70
+   ],
+   [
+    "unjust_enrichment",
+    68
+   ],
+   [
+    "doctrine_of_merger",
+    67
+   ],
+   [
+    "hearsay_evidence",
+    62
+   ],
+   [
+    "locus_standi",
+    57
+   ],
+   [
+    "adverse_possession",
+    44
+   ],
+   [
+    "habeas_corpus",
+    42
+   ],
+   [
+    "audi_alteram_partem",
+    40
+   ],
+   [
+    "basic_structure",
+    40
+   ],
+   [
+    "double_jeopardy",
+    25
+   ],
+   [
+    "promissory_estoppel",
+    25
+   ],
+   [
+    "right_to_privacy",
+    22
+   ],
+   [
+    "force_majeure",
+    15
+   ],
+   [
+    "right_against_self_incrimination",
+    9
+   ]
+  ],
+  "rare_concepts_lt_20_cases": [
+   "force_majeure",
+   "right_against_self_incrimination"
+  ],
+  "basic_structure_cases": 40,
+  "right_to_privacy_cases": 22
+ },
+ "arguments": {
+  "pet_args_mean": 2.66,
+  "res_args_mean": 1.86,
+  "pet_empty_pct": 6.2,
+  "res_empty_pct": 24.2,
+  "both_empty_pct": 4.1,
+  "one_sided_pct": 22.2
+ },
+ "parties": {
+  "both_sides_present_pct": 99.8,
+  "role_swap_candidates": 101,
+  "testable_cases": 9853,
+  "role_swap_candidate_pct": 1.03,
+  "ci": [
+   0.84,
+   1.24
+  ],
+  "sample_case_ids": [
+   "2000_43795217c96f",
+   "2000_9b87ca598a29",
+   "2000_bee1bec3da77",
+   "2000_e1540c641389",
+   "2001_d83252b7aea4",
+   "2001_e9a8deebb2ec",
+   "2002_2e2046573c80",
+   "2002_3b84f0255f4c",
+   "2002_3dc6e8746188",
+   "2002_5009310a1571",
+   "2002_677ce8d87635",
+   "2002_95aa644d5d27",
+   "2002_b2d452448528",
+   "2002_dd7a335b8135",
+   "2002_e5808d6caff8",
+   "2003_129899eec0ac",
+   "2003_37b71784a924",
+   "2003_48caa0788049",
+   "2003_4ac00364b6de",
+   "2003_50dafcaf5b5a",
+   "2003_65c1a13e9c68",
+   "2003_86276c7c4e20",
+   "2004_13fbc8bc470e",
+   "2004_3f49d329e1a3",
+   "2004_5fa5ee3cd72e",
+   "2004_674b1c4f99d6",
+   "2004_6de14286096d",
+   "2004_70ebb6940b09",
+   "2004_9b952844d70b",
+   "2004_a2f74e12c51b",
+   "2004_ad0ef842099d",
+   "2004_e5b220ab7208",
+   "2005_2f03f454d5d6",
+   "2005_519086bd4164",
+   "2005_9f96bec4b8a5",
+   "2005_c31a48b98648",
+   "2005_e5229f30ae28",
+   "2006_2346e09d6732",
+   "2006_25814ffa7c99",
+   "2006_39fdf18d3b70",
+   "2006_a20650404f46",
+   "2006_a463861fc76e",
+   "2006_b20b0c19d488",
+   "2006_e63bbd7e7326",
+   "2006_ec8b9bc53a93",
+   "2006_f95bd11d47ab",
+   "2007_00e6d3dac934",
+   "2007_489537542d1d",
+   "2007_c690b438abbd",
+   "2008_22a0069f7d92"
+  ]
+ }
+}

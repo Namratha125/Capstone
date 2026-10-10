@@ -1,0 +1,402 @@
+{
+  "case_id": "6735",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "THE petitioner has challenged the order dated January 22, 1996 passed by the Industrial Court, Mumbai rejecting his application for interim relief in this petition under Article 226 of the Constitution.",
+      "predicted_label": "Issue",
+      "confidence": 0.4967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0055,
+        "Facts": 0.4781,
+        "Issue": 0.4967,
+        "Reasoning": 0.0092
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 1,
+      "text": "( 2 ) THE petitioner filed a complaint under M. R. T. U. and P. U. L. P. Act before the Industrial Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.4617,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3716,
+        "Arguments of Respondent": 0.0688,
+        "Decision": 0.0093,
+        "Facts": 0.4617,
+        "Issue": 0.0147,
+        "Reasoning": 0.0738
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 2,
+      "text": "Alongwith the complaint, he filed an application under Section 30 (2) of the M. R. T. U. and P. U. L. P. Act for staying the operation of the transfer order.",
+      "predicted_label": "Facts",
+      "confidence": 0.8792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0323,
+        "Arguments of Respondent": 0.0208,
+        "Decision": 0.0011,
+        "Facts": 0.8792,
+        "Issue": 0.0048,
+        "Reasoning": 0.0619
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The Industrial Court after considering the rival contentions raised by the parties came to the conclusion that the transfer is justified and he accordingly rejected the application.",
+      "predicted_label": "Facts",
+      "confidence": 0.9184,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0003,
+        "Facts": 0.9184,
+        "Issue": 0.014,
+        "Reasoning": 0.0554
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "( 3 ) THE respondentManagement in their affidavit filed before the Industrial Court opposing the application for interim relief states thus it is the contention of the respondents by this affidavit that the complainant who has been working as a Senior Accounts Officer and has very good knowledge, experience and training in the Accounts of the projects and sites accounts and transactions, was therefore, urgently required to be transferred to Delhi Site Office temporarily till the projects are completed by the respondent Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.6735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1089,
+        "Arguments of Respondent": 0.1383,
+        "Decision": 0.0003,
+        "Facts": 0.6735,
+        "Issue": 0.0005,
+        "Reasoning": 0.0785
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "Therefore, the complainant was issued with transfer letter dated 22121995 transferring him to Delhi Site Office.",
+      "predicted_label": "Facts",
+      "confidence": 0.9363,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0001,
+        "Facts": 0.9363,
+        "Issue": 0.0002,
+        "Reasoning": 0.0449
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "It is the contention of the respondents that it is not complainant alone who has been transferred to Delhi Site Office but several others from various parts of India where present projects are going on and from Mumbai as well.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5489,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.5489,
+        "Decision": 0.0005,
+        "Facts": 0.1586,
+        "Issue": 0.0005,
+        "Reasoning": 0.2837
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The respondents have given the names of other employees who are transferred to Delhi those are as under  Name of Designation Transfer employer letter dated 1.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.382,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.3776,
+        "Decision": 0.0006,
+        "Facts": 0.2127,
+        "Issue": 0.0027,
+        "Reasoning": 0.382
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "Mr. D. J. Sr .",
+      "predicted_label": "Facts",
+      "confidence": 0.3501,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2283,
+        "Arguments of Respondent": 0.1125,
+        "Decision": 0.1393,
+        "Facts": 0.3501,
+        "Issue": 0.0088,
+        "Reasoning": 0.161
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 9,
+      "text": "Mr. K. Jr.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2496,
+        "Arguments of Respondent": 0.4061,
+        "Decision": 0.0225,
+        "Facts": 0.145,
+        "Issue": 0.0157,
+        "Reasoning": 0.1611
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "It is the contention of the affidavit that these transfers are not permanent and the complainants transfer also not permanent.",
+      "predicted_label": "Facts",
+      "confidence": 0.5577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.08,
+        "Arguments of Respondent": 0.0681,
+        "Decision": 0.0006,
+        "Facts": 0.5577,
+        "Issue": 0.0004,
+        "Reasoning": 0.2931
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "He will be brought back to Mumbai as soon as the represent contract job is completed.",
+      "predicted_label": "Facts",
+      "confidence": 0.8623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0457,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0025,
+        "Facts": 0.8623,
+        "Issue": 0.0023,
+        "Reasoning": 0.073
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Therefore all employees in the company are transferable to these project sites temporarily till the projects are over.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1059,
+        "Arguments of Respondent": 0.2283,
+        "Decision": 0.0004,
+        "Facts": 0.2751,
+        "Issue": 0.0005,
+        "Reasoning": 0.3899
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 13,
+      "text": "Since the present project is prestigious projects of the total value of Rs. 29.",
+      "predicted_label": "Facts",
+      "confidence": 0.9171,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0272,
+        "Decision": 0.0014,
+        "Facts": 0.9171,
+        "Issue": 0.0008,
+        "Reasoning": 0.039
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "02 crores and since the project is being monitored by the Honourable Supreme Court of India, it has become a life and death for the respondent Company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5001,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0797,
+        "Arguments of Respondent": 0.5001,
+        "Decision": 0.0035,
+        "Facts": 0.3585,
+        "Issue": 0.0009,
+        "Reasoning": 0.0573
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "In this affidavit the financial position of the respondent Company is given by the affiant in paragraph 12 of this affidavit.",
+      "predicted_label": "Facts",
+      "confidence": 0.6876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0319,
+        "Arguments of Respondent": 0.0845,
+        "Decision": 0.0009,
+        "Facts": 0.6876,
+        "Issue": 0.0004,
+        "Reasoning": 0.1948
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "In sum it has submitted that the company is suffering continuous loss since year ended on 3131991 and as on today the accumulated losses are to the tune of Rs. 382.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2481,
+        "Arguments of Respondent": 0.4784,
+        "Decision": 0.0005,
+        "Facts": 0.2398,
+        "Issue": 0.0006,
+        "Reasoning": 0.0327
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "30 lakhs.",
+      "predicted_label": "Facts",
+      "confidence": 0.4497,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0667,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0232,
+        "Facts": 0.4497,
+        "Issue": 0.005,
+        "Reasoning": 0.4442
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 18,
+      "text": "Considering the financial position of the company the company is trying to survive in the heavy competitive business.",
+      "predicted_label": "Facts",
+      "confidence": 0.5752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0578,
+        "Arguments of Respondent": 0.1797,
+        "Decision": 0.0027,
+        "Facts": 0.5752,
+        "Issue": 0.0008,
+        "Reasoning": 0.1838
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Therefore, it has put strict ban on the fresh recruitment unless the same is of highly technical or specialised vacancies, for execution of projects.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0858,
+        "Arguments of Respondent": 0.1019,
+        "Decision": 0.0003,
+        "Facts": 0.2055,
+        "Issue": 0.0008,
+        "Reasoning": 0.6057
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "It is the contention of the affiant that the complainant being highly experienced and Senior Accounts Officer, the executive of the Company want him to keep a proper supervision of the Site Accounts and push the project for its speedier completion to meet the deadline of the affiant that even assuming that the Senior Accounts Officer can be locally recruited at Delhi, it must be noted that no experienced and trained Senior Accounts Officer will join the company on temporary basis.",
+      "predicted_label": "Facts",
+      "confidence": 0.4901,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1383,
+        "Arguments of Respondent": 0.2787,
+        "Decision": 0.0003,
+        "Facts": 0.4901,
+        "Issue": 0.0012,
+        "Reasoning": 0.0914
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "The Company has expended huge amount on the complainant for giving training and therefore this transfer of the complainant on temporary basis to Delhi Site Office is inevitable.",
+      "predicted_label": "Facts",
+      "confidence": 0.9218,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0259,
+        "Arguments of Respondent": 0.0257,
+        "Decision": 0.0002,
+        "Facts": 0.9218,
+        "Issue": 0.0002,
+        "Reasoning": 0.0262
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "( 5 ) THE learned counsel for the petitioner stated that the petitioners father is unwell and his presence is essential at Bombay.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7233,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7233,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0165,
+        "Facts": 0.1842,
+        "Issue": 0.002,
+        "Reasoning": 0.0583
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The management for sound reasons has effected transfer and it cannot be interdicted on the ground that the petitioners father is unwell and he has to attend to his father.",
+      "predicted_label": "Facts",
+      "confidence": 0.5597,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1899,
+        "Arguments of Respondent": 0.0668,
+        "Decision": 0.0071,
+        "Facts": 0.5597,
+        "Issue": 0.0042,
+        "Reasoning": 0.1723
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "The petitioners submission was taken into consideration and it did not find favour with the Industrial Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.5562,
+      "probabilities": {
+        "Arguments of Petitioner": 0.067,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0019,
+        "Facts": 0.5562,
+        "Issue": 0.001,
+        "Reasoning": 0.3428
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "We find no ground to interfere with the discretion exercised by the management.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9086,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.027,
+        "Facts": 0.0532,
+        "Issue": 0.0003,
+        "Reasoning": 0.9086
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Accordingly, petition is rejected.",
+      "predicted_label": "Facts",
+      "confidence": 0.9624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0051,
+        "Facts": 0.9624,
+        "Issue": 0.0034,
+        "Reasoning": 0.0188
+      }
+    }
+  ]
+}

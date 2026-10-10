@@ -1,0 +1,937 @@
+{
+  "case_id": "7081",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This Letters Patent Appeal is directed against the judgement and order passed by the learned single judge of this Court in Writ Petition No.4974 of 2001, whereby the order of rejecting Reference passed by the Presiding Officer, First Labour Court, Pune was set aside and the Petitioner workman was directed to be reinstated with continuity of service and back wages from date of reference till reinstatement of service.",
+      "predicted_label": "Issue",
+      "confidence": 0.8139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0042,
+        "Facts": 0.18,
+        "Issue": 0.8139,
+        "Reasoning": 0.0013
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "2. Brief facts giving rise to this Appeal are as underOne Balasaheb Maruti Poojari, Respondent No.1 in the present appeal, was working with Bharat Sanchar Nigam Ltd. as a Casual Mazdoor since 22/05/1984.",
+      "predicted_label": "Facts",
+      "confidence": 0.9976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9976,
+        "Issue": 0.0011,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "According to him, he continuously served there upto 28/2/1985, on which day his services were orally terminated.",
+      "predicted_label": "Facts",
+      "confidence": 0.8655,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0554,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0003,
+        "Facts": 0.8655,
+        "Issue": 0.0098,
+        "Reasoning": 0.055
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "As he had served continuously for more than 240 days and was terminated without any notice or payment of wages of one month in lieu of notice, he raised Industrial Dispute and prayed for reinstatement in service and back wages.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9832,
+        "Issue": 0.0152,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Department of Telecommunication filed their written statement Exh11and contended that as there is inordinate delay of about 9 years in filing the Reference the same is not maintainable.",
+      "predicted_label": "Facts",
+      "confidence": 0.9856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0001,
+        "Facts": 0.9856,
+        "Issue": 0.0011,
+        "Reasoning": 0.0093
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "They admitted that the present Respondent was working as casual labourer from 22/05/1984 to 28/02/1985 on which day he himself remained absent without intimating and thereby abandoned his service.",
+      "predicted_label": "Facts",
+      "confidence": 0.9473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0001,
+        "Facts": 0.9473,
+        "Issue": 0.0008,
+        "Reasoning": 0.0432
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "According to them, Respondents service was never terminated by them.",
+      "predicted_label": "Facts",
+      "confidence": 0.4894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1234,
+        "Arguments of Respondent": 0.2121,
+        "Decision": 0.0013,
+        "Facts": 0.4894,
+        "Issue": 0.002,
+        "Reasoning": 0.1719
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "As he was working purely on temporary basis as casual labourer and was paid on daily wages and his services were engaged as and when there was necessity of work, there was no question of issuing any notice or making payment in lieu of notice to him.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0706,
+        "Arguments of Respondent": 0.0542,
+        "Decision": 0.0014,
+        "Facts": 0.2741,
+        "Issue": 0.0005,
+        "Reasoning": 0.5993
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "Thus, it is their contention that provisions of Section 25F of the Industrial Disputes Act 1947 (hereinafter referred to as the said Act) were not applicable to the Respondent workman.",
+      "predicted_label": "Facts",
+      "confidence": 0.6318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2501,
+        "Arguments of Respondent": 0.0738,
+        "Decision": 0.0005,
+        "Facts": 0.6318,
+        "Issue": 0.0239,
+        "Reasoning": 0.0199
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "Bharat Sanchar Nigam therefore prayed that Reference be dismissed.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0234,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0001,
+        "Facts": 0.9556,
+        "Issue": 0.0034,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "After considering the evidence adduced by both the parties, the learned Presiding Officer of First Labour Court, Pune came to the conclusion that the Appellant Bharat Sanchar Nigam has failed to prove that respondent workman has abandoned the service.",
+      "predicted_label": "Facts",
+      "confidence": 0.9445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0002,
+        "Facts": 0.9445,
+        "Issue": 0.0045,
+        "Reasoning": 0.0467
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The learned Labour Judge however held that even if it is presumed that worker had worked for a period of 240 days continuously still he was a casual worker not taken on permanent establishment and was not terminated by any written order and as such the question as to whether his termination is legal or not does not arise.",
+      "predicted_label": "Facts",
+      "confidence": 0.9234,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0001,
+        "Facts": 0.9234,
+        "Issue": 0.0038,
+        "Reasoning": 0.064
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "He therefore rejected the Reference.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.992,
+        "Issue": 0.0048,
+        "Reasoning": 0.0014
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Being aggrieved by the above mentioned order, the workman filed writ petition No. 4974/2001.",
+      "predicted_label": "Facts",
+      "confidence": 0.9954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.9954,
+        "Issue": 0.001,
+        "Reasoning": 0.0027
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "After hearing both the learned Advocates, the learned single Judge of this Court came to the conclusion that once the Labour Court had held that there was no abandonment of service it was necessary for the Labour Court to consider whether the workers services were illegally terminated.",
+      "predicted_label": "Facts",
+      "confidence": 0.4329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0441,
+        "Arguments of Respondent": 0.1005,
+        "Decision": 0.0013,
+        "Facts": 0.4329,
+        "Issue": 0.0105,
+        "Reasoning": 0.4107
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "According to the learned single Judge the Labour Court ought to have held that once a temporary workman has completed 240 days in service, it is necessary for the employer to issue a notice of termination or tender wages in lieu of notice and as this was not done by Bharat Sanchar Nigam the termination of present Respondent workman was illegal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.9638,
+        "Issue": 0.0061,
+        "Reasoning": 0.0245
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The learned single Judge therefore issued direction for reinstatement of the worker with continuity of service and back wages from the date of reference till the reinstatement of service.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.99,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.99,
+        "Issue": 0.0022,
+        "Reasoning": 0.0065
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "In this Letters Patent Appeal, Mrs. Masurkar, learned Advocate for the Appellant Bharat Sanchar Nigam Ltd. has urged 3 points.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9831,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0002,
+        "Facts": 0.0067,
+        "Issue": 0.0028,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Firstly, she submitted that finding recorded by the learned Labour Judge that worker in question has not abandoned the service is wrong and the learned single Judge simply accepted the same without considering whether such finding was borne out from the evidence on record.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.966,
+        "Arguments of Respondent": 0.028,
+        "Decision": 0.0001,
+        "Facts": 0.0019,
+        "Issue": 0.0001,
+        "Reasoning": 0.0039
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "Secondly, she canvassed before us that the learned single Judge failed to take into consideration that the case of the present worker falls under section 2(oo)(bb) of the said Act and as such provision of section 25F is not attracted.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8932,
+        "Arguments of Respondent": 0.057,
+        "Decision": 0.0007,
+        "Facts": 0.0136,
+        "Issue": 0.0002,
+        "Reasoning": 0.0353
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Lastly, she submitted that merely because the worker had worked for 240 days it can not be said that his termination was illegal, particularly when he had not acquired status of temporary worker.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3373,
+        "Arguments of Respondent": 0.6459,
+        "Decision": 0.0004,
+        "Facts": 0.0041,
+        "Issue": 0.0001,
+        "Reasoning": 0.0121
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Hence, on all these grounds she prayed that appeal be allowed and the order of reinstatement with continuity in service and back wages be set aside.8.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9108,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.0813,
+        "Issue": 0.0016,
+        "Reasoning": 0.0037
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "As against this, Shri Bapat, Learned Advocate for the respondent worker supported the judgement and order passed by the learned single Judge and submitted that from the evidence on record and in particular from certificate issued by Bharat Sanchar Nigam it is clear that respondent worked in the said department for 240 days continuously and as such notice under section 25F of I.D. Act was necessary and as admittedly the same was not given the learned single Judge was right in passing the said order.9.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.9912,
+        "Decision": 0.0001,
+        "Facts": 0.0023,
+        "Issue": 0.0001,
+        "Reasoning": 0.0031
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "It is an admitted fact that in the instant case the Respondent worker was working as a casual labourer or mazdoor.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0007,
+        "Facts": 0.0862,
+        "Issue": 0.0015,
+        "Reasoning": 0.8841
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "According to him, on 28/02/1985 SubDivisional Engineer one Mr. Deshpande told him that he should not come on duty.",
+      "predicted_label": "Facts",
+      "confidence": 0.7477,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0153,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0001,
+        "Facts": 0.7477,
+        "Issue": 0.0002,
+        "Reasoning": 0.2331
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "It is pertinent to note that the said worker has clearly admitted in his crossexamination that he never made any complaint to any superior officer of Mr. Deshpande when he told him not to come on duty.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9137,
+      "probabilities": {
+        "Arguments of Petitioner": 0.013,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0006,
+        "Facts": 0.0625,
+        "Issue": 0.0001,
+        "Reasoning": 0.9137
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Not only that but the Respondent worker has also admitted that six years after 28/02/1985 for the first time, he approached conciliation officer and raised dispute by way of Reference, after nine years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0642,
+        "Arguments of Respondent": 0.0389,
+        "Decision": 0.0006,
+        "Facts": 0.0553,
+        "Issue": 0.0003,
+        "Reasoning": 0.8406
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "In that also he had not specifically named Mr. Deshpande He has also admitted that he never resumed duty after termination on 28/02/1985.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6703,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1817,
+        "Arguments of Respondent": 0.0451,
+        "Decision": 0.0003,
+        "Facts": 0.1023,
+        "Issue": 0.0003,
+        "Reasoning": 0.6703
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "So, this very conduct viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1371,
+        "Arguments of Respondent": 0.113,
+        "Decision": 0.0087,
+        "Facts": 0.3441,
+        "Issue": 0.0005,
+        "Reasoning": 0.3967
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "keeping mum and not taking any action for a long period of about 9 years and not ventilating the grievance clearly indicates that Respondent worker had at that time no intention to continue with the service and on the contrary he had an intention to abandon the service.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8077,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0388,
+        "Arguments of Respondent": 0.0407,
+        "Decision": 0.0028,
+        "Facts": 0.1088,
+        "Issue": 0.0011,
+        "Reasoning": 0.8077
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Any worker who is interested in the job would not keep mum when he is simply asked by one officer that he should not join duty.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.551,
+      "probabilities": {
+        "Arguments of Petitioner": 0.08,
+        "Arguments of Respondent": 0.0543,
+        "Decision": 0.0068,
+        "Facts": 0.3073,
+        "Issue": 0.0007,
+        "Reasoning": 0.551
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "He would definitely insist for some written order or would make grievance about the officer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8716,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0369,
+        "Arguments of Respondent": 0.0181,
+        "Decision": 0.0026,
+        "Facts": 0.0696,
+        "Issue": 0.0013,
+        "Reasoning": 0.8716
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "However, no such thing has taken place in the instant case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0522,
+        "Arguments of Respondent": 0.0411,
+        "Decision": 0.0069,
+        "Facts": 0.0582,
+        "Issue": 0.0004,
+        "Reasoning": 0.8412
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "This obviously shows that respondent worker must not be interested in the said job.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7064,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0323,
+        "Arguments of Respondent": 0.0485,
+        "Decision": 0.0204,
+        "Facts": 0.1918,
+        "Issue": 0.0006,
+        "Reasoning": 0.7064
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "He might have received some other job.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.013,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0062,
+        "Facts": 0.0401,
+        "Issue": 0.0016,
+        "Reasoning": 0.9311
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Otherwise it is very difficult to believe that such person would keep mum for years together.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5127,
+      "probabilities": {
+        "Arguments of Petitioner": 0.117,
+        "Arguments of Respondent": 0.0782,
+        "Decision": 0.0021,
+        "Facts": 0.2852,
+        "Issue": 0.0049,
+        "Reasoning": 0.5127
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "So, the facts and circumstances of this case are in fact quite eloquent to establish the contention of the employer that Respondent worker abandoned the services and they never terminated his service.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0022,
+        "Facts": 0.0724,
+        "Issue": 0.0006,
+        "Reasoning": 0.9129
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "However, unfortunately, the learned Labour Judge did not properly consider all the above mentioned facts and circumstances and as a result of the same reached to a wrong conclusion that the employer has failed to prove the case of abandonment.",
+      "predicted_label": "Facts",
+      "confidence": 0.663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0158,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0021,
+        "Facts": 0.663,
+        "Issue": 0.0009,
+        "Reasoning": 0.3117
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "With respect, we are of the considered opinion that the learned single Judge has also not dwelled on this point and has only accepted the finding recorded by the learned Labour Judge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0008,
+        "Facts": 0.0421,
+        "Issue": 0.0002,
+        "Reasoning": 0.9393
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "So, in our considered view, Reference in question as well as writ petition filed by the worker are liable to be dismissed on this ground alone.12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0022,
+        "Facts": 0.1056,
+        "Issue": 0.0002,
+        "Reasoning": 0.8778
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Shri Bapat, learned Advocate for the Respondent worker strenuously argued before us that once it is proved that worker had worked for 240 days continuously then even though he is a casual worker it is necessary to comply with the provisions of Sec.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0103,
+        "Arguments of Respondent": 0.9487,
+        "Decision": 0.0004,
+        "Facts": 0.001,
+        "Issue": 0.0002,
+        "Reasoning": 0.0394
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "25F of the said Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.3711,
+      "probabilities": {
+        "Arguments of Petitioner": 0.152,
+        "Arguments of Respondent": 0.0757,
+        "Decision": 0.0175,
+        "Facts": 0.3711,
+        "Issue": 0.0915,
+        "Reasoning": 0.2922
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "He has placed reliance on a case Uttar Pradesh State Electricity Board V s. Rajesh Kumar reported in (2003) 12 SCC 548.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5073,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5073,
+        "Arguments of Respondent": 0.459,
+        "Decision": 0.0002,
+        "Facts": 0.0091,
+        "Issue": 0.0002,
+        "Reasoning": 0.0242
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 43,
+      "text": "In that case, the worker was regularly appointed and shown on the list of workers while in the instant case admittedly, at no point of time the Respondent worker has been appointed on a particular vacant post by the employer and it is only when work was available the services of Respondent worker were taken.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2281,
+        "Arguments of Respondent": 0.192,
+        "Decision": 0.0016,
+        "Facts": 0.0962,
+        "Issue": 0.0009,
+        "Reasoning": 0.4812
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "So, the above cited case is of no use to the present respondent.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0294,
+        "Arguments of Respondent": 0.0822,
+        "Decision": 0.0011,
+        "Facts": 0.0163,
+        "Issue": 0.0002,
+        "Reasoning": 0.8709
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "An attempt was made on behalf of the Respondent worker to show that one Mr. Reddy who was working with him was subsequently absolved and made permanent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.38,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0284,
+        "Arguments of Respondent": 0.3158,
+        "Decision": 0.0003,
+        "Facts": 0.2748,
+        "Issue": 0.0006,
+        "Reasoning": 0.38
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 46,
+      "text": "However, admittedly, the respondent has failed to adduce any cogent evidence in this behalf to show that though Reddys name was not in the list of workers appointed by the company he has been absolved in the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9632,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0003,
+        "Facts": 0.0214,
+        "Issue": 0.0003,
+        "Reasoning": 0.9632
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The Company has produced letter dated 07/11/1989 at Exh36, showing details of the grant of temporary status and regularisation scheme meant for the workers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0501,
+        "Arguments of Respondent": 0.192,
+        "Decision": 0.0008,
+        "Facts": 0.2753,
+        "Issue": 0.0002,
+        "Reasoning": 0.4816
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "From the said scheme it appears that if casual labourer are designated as temporary mazdoor they are not taken on permanent establishment unless they are selected during the regular selection process for grade D post.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0278,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0002,
+        "Facts": 0.4633,
+        "Issue": 0.0004,
+        "Reasoning": 0.4945
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 49,
+      "text": "However, in the instant case there is absolutely no material on record to show that the Respondent worker had acquired the status of temporary worker.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0371,
+        "Arguments of Respondent": 0.0249,
+        "Decision": 0.0107,
+        "Facts": 0.0692,
+        "Issue": 0.0025,
+        "Reasoning": 0.8557
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "So, under such circumstances merely because Respondent worked continuously for 240 days, it can not be said that it was necessary for the employer to issue notice and follow the provisions under I.D. Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0456,
+        "Arguments of Respondent": 0.1301,
+        "Decision": 0.0031,
+        "Facts": 0.253,
+        "Issue": 0.0007,
+        "Reasoning": 0.5675
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "In fact, in a case M.P. Housing Board and Anr.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0969,
+        "Arguments of Respondent": 0.0628,
+        "Decision": 0.0027,
+        "Facts": 0.058,
+        "Issue": 0.0004,
+        "Reasoning": 0.7791
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "V s. Manoj Shrivastava 2006 AIR SCW 1235 the Apex Court has observedWhere the employee was appointed as daily wager but not against a vacant post which was duly sanctioned by the statutory authority nor his appointment was made upon following the statutory law operating in the field, he can not be made permanent employee.",
+      "predicted_label": "Facts",
+      "confidence": 0.9286,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0002,
+        "Facts": 0.9286,
+        "Issue": 0.0028,
+        "Reasoning": 0.0568
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "A daily wager does not hold a post unless he is appointed in terms of the Act and the rules framed thereunder.",
+      "predicted_label": "Facts",
+      "confidence": 0.6165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0014,
+        "Facts": 0.6165,
+        "Issue": 0.003,
+        "Reasoning": 0.3494
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "He does not derive any legal right in relation thereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.901,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0258,
+        "Arguments of Respondent": 0.0435,
+        "Decision": 0.0072,
+        "Facts": 0.0218,
+        "Issue": 0.0006,
+        "Reasoning": 0.901
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Further, only because a person had been working for more than 240 days, he does not derive any legal right to be regularised in service.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5535,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2146,
+        "Arguments of Respondent": 0.2036,
+        "Decision": 0.0008,
+        "Facts": 0.0274,
+        "Issue": 0.0001,
+        "Reasoning": 0.5535
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "Similar view is taken by their Lordships of the Apex Court in a case Branch Manager, M.P. State Agro.",
+      "predicted_label": "Facts",
+      "confidence": 0.8993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0005,
+        "Facts": 0.8993,
+        "Issue": 0.0003,
+        "Reasoning": 0.0819
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "Industrial Development Corporation V s. S.C.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3291,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3003,
+        "Arguments of Respondent": 0.2366,
+        "Decision": 0.0224,
+        "Facts": 0.108,
+        "Issue": 0.0037,
+        "Reasoning": 0.3291
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "Pande 2006 (1) CLR 1066.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1089,
+        "Arguments of Respondent": 0.0769,
+        "Decision": 0.0003,
+        "Facts": 0.0532,
+        "Issue": 0.0004,
+        "Reasoning": 0.7604
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Thus, having regard to the above mentioned recent decisions of the Apex Court and considering the facts and circumstances of the present case we are of the view that the present Appellant Bharat Sanchar Nigam was not under statutory obligation in this case to issue notice of termination to respondent worker and follow the procedure as laid down under section 25F of the I.D. Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0061,
+        "Facts": 0.2069,
+        "Issue": 0.0009,
+        "Reasoning": 0.7814
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "The present Respondent worker has in fact abandoned his service.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1557,
+        "Arguments of Respondent": 0.1941,
+        "Decision": 0.0244,
+        "Facts": 0.2061,
+        "Issue": 0.0029,
+        "Reasoning": 0.4168
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 61,
+      "text": "He made no grievance about the alleged termination for a period of about 89 years and as such he is certainly not entitled for reinstatement.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.92,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0251,
+        "Arguments of Respondent": 0.0372,
+        "Decision": 0.0032,
+        "Facts": 0.0141,
+        "Issue": 0.0004,
+        "Reasoning": 0.92
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "In this view of the matter, the appeal is allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9724,
+        "Facts": 0.0139,
+        "Issue": 0.0002,
+        "Reasoning": 0.0127
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "The order passed in Writ Petition No.4974 of 2005 on 11/10/2005 is set aside.18.",
+      "predicted_label": "Decision",
+      "confidence": 0.8999,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.8999,
+        "Facts": 0.027,
+        "Issue": 0.0002,
+        "Reasoning": 0.0715
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "The Writ Petition No.4974 of 2005 stands dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9458,
+        "Facts": 0.0307,
+        "Issue": 0.0003,
+        "Reasoning": 0.0222
+      }
+    }
+  ]
+}

@@ -1,0 +1,1471 @@
+{
+  "case_id": "6928",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "An agreement was entered into on 4 October 2000 between Maharashtra State Electricity Board (MSEB) and Dirk India Private Limited (DIPL).",
+      "predicted_label": "Facts",
+      "confidence": 0.9905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9905,
+        "Issue": 0.0036,
+        "Reasoning": 0.0043
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The agreement envisaged that Pulverized Fly Ash (PFA) that is generated from MSEBs Thermal Power Station at Nasik would be transported to four hoppers which were to be constructed by DIPL at site.",
+      "predicted_label": "Facts",
+      "confidence": 0.9825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0002,
+        "Facts": 0.9825,
+        "Issue": 0.0003,
+        "Reasoning": 0.0044
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "DIPL was to utilise PFA in its PFA handling plant for the manufacture of POZZOCRETE concrete.",
+      "predicted_label": "Facts",
+      "confidence": 0.8366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0286,
+        "Arguments of Respondent": 0.0261,
+        "Decision": 0.0001,
+        "Facts": 0.8366,
+        "Issue": 0.0004,
+        "Reasoning": 0.1083
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "This was to protect the environment against the degrading impact of PFA.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4326,
+      "probabilities": {
+        "Arguments of Petitioner": 0.093,
+        "Arguments of Respondent": 0.1315,
+        "Decision": 0.0011,
+        "Facts": 0.3415,
+        "Issue": 0.0003,
+        "Reasoning": 0.4326
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 4,
+      "text": "An arbitration agreement was contained in the contract between the parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.5402,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0199,
+        "Arguments of Respondent": 0.0364,
+        "Decision": 0.0004,
+        "Facts": 0.5402,
+        "Issue": 0.0091,
+        "Reasoning": 0.394
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "Disputes and differences arose between the parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.8362,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.0014,
+        "Facts": 0.8362,
+        "Issue": 0.0259,
+        "Reasoning": 0.1194
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "These were referred to a threemember arbitral tribunal consisting of Mr.Justice B.N.Srikrishna, former Judge of the Supreme Court, Mr.Justice V.G.Palshikar and Mrs.Justice K.K.Baam, former Judges of this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.909,
+        "Issue": 0.0524,
+        "Reasoning": 0.0363
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The arbitral tribunal rendered its award on 31 March 2011 by which it dismissed the claim of DIPL as well as the counter claim of Maharashtra State Electricity Generation Company Limited (MSEGCL), the successorininterest of the erstwhile State Electricity Board.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0009,
+        "Facts": 0.9854,
+        "Issue": 0.0122,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "In order to understand the finding of the arbitral tribunal, a brief reference to the salient obligations assumed by and between the parties under the contract would be in order(i) Under clause 2.1, DIPL was required to construct at its own expense a PFA handling plant, including inter alia the construction of Silo(s), the common fabrication of connecting spool between the hoppers at the site within a period of 12 months(ii) Under clause 3.1, DIPL was required to erect at its cost four hoppers for collection of PFA within the precincts of the Thermal Power Station(iii)MSEB was required to provide PFA from the Electrostatic Precipitators and deliver it to DIPL by depositing it in the hoppers to be constructed by DIPL under clause 3.1(iv)",
+      "predicted_label": "Facts",
+      "confidence": 0.954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.954,
+        "Issue": 0.0029,
+        "Reasoning": 0.041
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "DIPL agreed to offtake a minimum quantity of 1,000 metric tons per day of PFA for a maximum period of 12 months from the commissioning after which it was required within a period of 48 months from the effective date to offtake a minimum quantity of 3,000 metric tons per day of PFA during the remaining term of the agreement and(v) DIPL was under clause 3.5 required to transfer the PFA from the hoppers to its PFA plant at its own cost and responsibility.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9919,
+        "Issue": 0.0003,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The arbitral tribunal by its Award came to the conclusion that though under the contract, DIPL was to erect at its cost silos or hoppers, it failed to discharge its contractual obligation of doing so and to ensure that the agreed quantity of PFA so stored could be transported to its PFA plant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9614,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9614,
+        "Issue": 0.0048,
+        "Reasoning": 0.0315
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The arbitral tribunal held that right from the inception, DIPL in breach of its obligation to erect four hoppers constructed only one hopper.",
+      "predicted_label": "Facts",
+      "confidence": 0.6601,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0011,
+        "Facts": 0.6601,
+        "Issue": 0.0009,
+        "Reasoning": 0.3233
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "The tribunal rejected the defence of DIPL that it did not erect the remaining hoppers because the MSEB failed to deliver PFA in the required quantity.",
+      "predicted_label": "Facts",
+      "confidence": 0.9814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0001,
+        "Facts": 0.9814,
+        "Issue": 0.0009,
+        "Reasoning": 0.0132
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The tribunal entered a finding of fact that though DIPL agreed to lift 3,000 metric tons of PFA per day after a stipulated period, yet even after three years it had not been able to lift more than 600 metric tons of PFA per day.",
+      "predicted_label": "Facts",
+      "confidence": 0.8995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0003,
+        "Facts": 0.8995,
+        "Issue": 0.002,
+        "Reasoning": 0.0901
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Inaction on the part of the Company to do anything this regard shows that it wanted to act under the Contract as it suits its purpose and not fulfilment of the entire contract.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0454,
+        "Arguments of Respondent": 0.0519,
+        "Decision": 0.0013,
+        "Facts": 0.239,
+        "Issue": 0.0001,
+        "Reasoning": 0.6623
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "From the Contract it will be seen that the Company was to erect at its cost enough Silos as would contain at least 3000 MTS of PFA per day so that the agreed quantity of PFA so stored could be transported to the Company site.",
+      "predicted_label": "Facts",
+      "confidence": 0.5655,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0005,
+        "Facts": 0.5655,
+        "Issue": 0.0008,
+        "Reasoning": 0.4129
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "It had agreed to fabricate common connecting spool for transportation of PFA.",
+      "predicted_label": "Facts",
+      "confidence": 0.7533,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0402,
+        "Decision": 0.0008,
+        "Facts": 0.7533,
+        "Issue": 0.0272,
+        "Reasoning": 0.1508
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "But it was never done by the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1313,
+        "Arguments of Respondent": 0.0847,
+        "Decision": 0.0029,
+        "Facts": 0.1178,
+        "Issue": 0.0006,
+        "Reasoning": 0.6628
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "The inability of the Company to fulfil its part of the Contract was demonstrated by it from the beginning.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6253,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0609,
+        "Arguments of Respondent": 0.0566,
+        "Decision": 0.0025,
+        "Facts": 0.2529,
+        "Issue": 0.0017,
+        "Reasoning": 0.6253
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "The Company was to erect 4 hoppers it however constructed only one hopper.",
+      "predicted_label": "Facts",
+      "confidence": 0.9056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0005,
+        "Facts": 0.9056,
+        "Issue": 0.0002,
+        "Reasoning": 0.0781
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The company claims that it did not erect the remaining 3 hoppers because Genco had failed to deliver PFA in required quantities.",
+      "predicted_label": "Facts",
+      "confidence": 0.4094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0379,
+        "Arguments of Respondent": 0.3762,
+        "Decision": 0.0009,
+        "Facts": 0.4094,
+        "Issue": 0.0013,
+        "Reasoning": 0.1743
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "This claim on the face of it is untenable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8652,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0468,
+        "Arguments of Respondent": 0.0445,
+        "Decision": 0.002,
+        "Facts": 0.0412,
+        "Issue": 0.0003,
+        "Reasoning": 0.8652
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The company always had the choice of units in the matter of collection of PFA.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1318,
+        "Arguments of Respondent": 0.4428,
+        "Decision": 0.0006,
+        "Facts": 0.2584,
+        "Issue": 0.0005,
+        "Reasoning": 0.1659
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "It had agreed to lift 3000 MTs PFA per day after completion of two years of the contract but even after 3 years therefrom the company never lifted anything more than 600 MTs PFA per day.",
+      "predicted_label": "Facts",
+      "confidence": 0.3941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1387,
+        "Arguments of Respondent": 0.1429,
+        "Decision": 0.0005,
+        "Facts": 0.3941,
+        "Issue": 0.0004,
+        "Reasoning": 0.3234
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 24,
+      "text": "This was therefore, a substantial failure on the part of the company in relation to another important feature of the contract namely lifting of 3000 MTs PFA per day for effective prevention of pollution.",
+      "predicted_label": "Facts",
+      "confidence": 0.8309,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0005,
+        "Facts": 0.8309,
+        "Issue": 0.0002,
+        "Reasoning": 0.1399
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "It did not achieve even 1/5th of the target it had solemnly contracted to.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1226,
+        "Arguments of Respondent": 0.1055,
+        "Decision": 0.0005,
+        "Facts": 0.2071,
+        "Issue": 0.0008,
+        "Reasoning": 0.5634
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "The Tribunal came to the conclusion that the termination of the contract was valid and lawful.",
+      "predicted_label": "Facts",
+      "confidence": 0.9037,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0004,
+        "Facts": 0.9037,
+        "Issue": 0.01,
+        "Reasoning": 0.0785
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "Finally, the Award summarised its findings on the breach of obligations by DIPL thusTo summarize we find the following substantial legal and valid reasons for termination of the contract by the Genco.i) Total failure to achieve prevention of environmental pollution due to inaction of the Claimant Company in not fulfilling substantial terms of the contract.ii) Failure of the company to lift 3000 MTS PFA per day though agreed specifically under the contract.iii) Failure on the part of the Claimant Company by not transporting even 1/5th of the agreed amount of PFA per day is certainly a failure to carry out substantial part of the responsibility under the contract.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0001,
+        "Facts": 0.9827,
+        "Issue": 0.0014,
+        "Reasoning": 0.0129
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "DIPL has filed a petition under Section 34 in order to challenge the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1226,
+        "Arguments of Respondent": 0.0561,
+        "Decision": 0.1152,
+        "Facts": 0.1802,
+        "Issue": 0.0065,
+        "Reasoning": 0.5194
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "During the pendency of the arbitral proceedings, proceedings were initiated under Section 9 of the Arbitration and Conciliation Act, 1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.9729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9729,
+        "Issue": 0.0015,
+        "Reasoning": 0.0224
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "In those proceedings, an order was passed by a Division Bench on 12 February 2009 which was further clarified on 18 June 2010.",
+      "predicted_label": "Facts",
+      "confidence": 0.6859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0649,
+        "Arguments of Respondent": 0.0478,
+        "Decision": 0.0021,
+        "Facts": 0.6859,
+        "Issue": 0.0102,
+        "Reasoning": 0.1891
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "After the arbitral tribunal delivered its Award, DIPL made an application before the Single Judge under Section 9.",
+      "predicted_label": "Facts",
+      "confidence": 0.874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0017,
+        "Facts": 0.874,
+        "Issue": 0.0089,
+        "Reasoning": 0.095
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Before the Single Judge, a preliminary objection was raised to the maintainability of the petition under Section 9 on the ground that there being no award in favour of DIPL which DIPL could enforce, a petition under Section 9 was not maintainable.",
+      "predicted_label": "Facts",
+      "confidence": 0.9581,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0004,
+        "Facts": 0.9581,
+        "Issue": 0.0183,
+        "Reasoning": 0.02
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The learned Single Judge held that prima facie there appeared substance in the submission of MSEGCL that proceedings under Section 9 may not be maintainable in the absence of any award in favour of DIPL.",
+      "predicted_label": "Facts",
+      "confidence": 0.9712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0003,
+        "Facts": 0.9712,
+        "Issue": 0.0043,
+        "Reasoning": 0.0217
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Yet, keeping the issue of maintainability open, the learned Single Judge addressed the question as to what interim order should be passed to govern the rights of the parties pending the hearing of the petition under Section 9 and the final hearing of the petition under Section 34.",
+      "predicted_label": "Facts",
+      "confidence": 0.8646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0006,
+        "Facts": 0.8646,
+        "Issue": 0.0056,
+        "Reasoning": 0.1167
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The interim arrangement which held the field during the pendency of the arbitral proceedings was modified so as to restrict the interim order to 30 of the PFA which would henceforth be generated in the thermal power plant of MSEGCL.",
+      "predicted_label": "Facts",
+      "confidence": 0.7988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0735,
+        "Arguments of Respondent": 0.0375,
+        "Decision": 0.0009,
+        "Facts": 0.7988,
+        "Issue": 0.0047,
+        "Reasoning": 0.0845
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The learned Single Judge adverted to the finding of the arbitral tribunal that DIPL had (i) constructed only one hopper as opposed to its contractual obligation to erect four hoppers (ii) substantially failed to comply with its obligation to lift 3,000 metric tons of PFA per day for the effective prevention of pollution and (iii) failed, as a matter of fact, to achieve even onefifth of the target.",
+      "predicted_label": "Facts",
+      "confidence": 0.9518,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0002,
+        "Facts": 0.9518,
+        "Issue": 0.001,
+        "Reasoning": 0.0442
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The learned Single Judge adverted to the statement made on affidavit by MSEGCL to the effect that in 200910 it had lifted 32 of the PFA available from 126 hoppers whereas other contractors had lifted 15 from the remaining 26 hoppers.",
+      "predicted_label": "Facts",
+      "confidence": 0.9224,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0002,
+        "Facts": 0.9224,
+        "Issue": 0.0006,
+        "Reasoning": 0.0694
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "As a result, DIPL had utilized only 47 of the PFA generated resulting in 53 being consigned to the lagoon.",
+      "predicted_label": "Facts",
+      "confidence": 0.8923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0116,
+        "Arguments of Respondent": 0.0253,
+        "Decision": 0.0026,
+        "Facts": 0.8923,
+        "Issue": 0.0009,
+        "Reasoning": 0.0673
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The order of the learned Single Judge noted that whereas the daily generation of PFA is in the range of 3400 metric tons, DIPL had stated on affidavit that it was collecting fly ash of between 950 metric tons to 1300 metric tons per day.",
+      "predicted_label": "Facts",
+      "confidence": 0.9516,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0004,
+        "Facts": 0.9516,
+        "Issue": 0.0005,
+        "Reasoning": 0.0381
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "The Single Judge has as an interim arrangement permitted DIPL to lift around onethird of the PFA in terms of the earlier interim order, allowing it the choice of hoppers from which it would collect PFA.",
+      "predicted_label": "Facts",
+      "confidence": 0.6798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0149,
+        "Decision": 0.0062,
+        "Facts": 0.6798,
+        "Issue": 0.0052,
+        "Reasoning": 0.2847
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The Single Judge has directed that DIPL can choose onethird of the hoppers which are operating and lift the PFA from the said hoppers.",
+      "predicted_label": "Facts",
+      "confidence": 0.4719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0351,
+        "Arguments of Respondent": 0.0645,
+        "Decision": 0.0074,
+        "Facts": 0.4719,
+        "Issue": 0.0007,
+        "Reasoning": 0.4205
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "In respect of the remaining hoppers, liberty has been furnished to MSEGCL to dispose of the PFA by auction in which DIPL has also been permitted to bid.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0274,
+        "Arguments of Respondent": 0.0175,
+        "Decision": 0.0051,
+        "Facts": 0.9386,
+        "Issue": 0.0009,
+        "Reasoning": 0.0105
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "In the appeal filed by MSEGCL, the maintainability of the petition under Section 9 of the Arbitration and Conciliation Act, 1996 is questioned.",
+      "predicted_label": "Facts",
+      "confidence": 0.357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1228,
+        "Arguments of Respondent": 0.0626,
+        "Decision": 0.0079,
+        "Facts": 0.357,
+        "Issue": 0.3028,
+        "Reasoning": 0.1469
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "Learned Senior Counsel appearing in support of the appeal by MSEGCL submitted that(i) The scheme of Section 9 is that a protective order can be passed before or during the arbitral proceedings and after the making of the arbitral Award, but before it is enforced in accordance with Section 36(ii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9893,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.0031,
+        "Issue": 0.001,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "The power of the Court to order an interim measure after the making of the arbitral Award and before it is enforced in accordance with Section 36 is to protect the party which has succeeded in the arbitral proceedings until the award is enforced(iii)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4419,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2969,
+        "Arguments of Respondent": 0.2365,
+        "Decision": 0.0024,
+        "Facts": 0.0187,
+        "Issue": 0.0035,
+        "Reasoning": 0.4419
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 46,
+      "text": "The Court exercising jurisdiction under Section 34 does not exercise the powers of a Court of appeal and can only set aside an award on a petition under Section 34 if the challenge were to succeed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4843,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3603,
+        "Arguments of Respondent": 0.1162,
+        "Decision": 0.0006,
+        "Facts": 0.0381,
+        "Issue": 0.0005,
+        "Reasoning": 0.4843
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Where a claim in arbitration has been dismissed, the Court under Section 34 cannot pass a decree in the manner of a Court of appeal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0991,
+        "Arguments of Respondent": 0.0766,
+        "Decision": 0.0011,
+        "Facts": 0.0277,
+        "Issue": 0.0003,
+        "Reasoning": 0.7952
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "An interim measure under Section 9 is in aid of the final order that can be passed and even if the petition under Section 34 were to succeed, that would result in setting aside of the award.(iv)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5626,
+        "Arguments of Respondent": 0.3618,
+        "Decision": 0.0074,
+        "Facts": 0.0361,
+        "Issue": 0.0021,
+        "Reasoning": 0.0299
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "A proceeding under Section 9 after the making of an arbitral award is at the instance of a party who wants the award to be enforced.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0354,
+        "Arguments of Respondent": 0.0591,
+        "Decision": 0.0003,
+        "Facts": 0.0059,
+        "Issue": 0.0003,
+        "Reasoning": 0.8989
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "If the arbitral tribunal has held against a party and has rejected its claim, there would be no occasion to maintain a petition under Section 9 since there is no question of the enforcement of the arbitral award at the behest of that party and(v)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5815,
+        "Arguments of Respondent": 0.2252,
+        "Decision": 0.0017,
+        "Facts": 0.0383,
+        "Issue": 0.0038,
+        "Reasoning": 0.1496
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "What DIPL in substance seeks is an interim specific performance of its claim and the agreement despite the fact that the arbitral tribunal has specifically rejected the claim holding that specific performance was not to be granted.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.6288,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0894,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0028,
+        "Facts": 0.6288,
+        "Issue": 0.1211,
+        "Reasoning": 0.1515
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "On the other hand, it has been urged on behalf of DIPL that(i)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2473,
+        "Arguments of Respondent": 0.7267,
+        "Decision": 0.0004,
+        "Facts": 0.0113,
+        "Issue": 0.0007,
+        "Reasoning": 0.0135
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The expression enforced in Section 9 means legally executed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0587,
+        "Arguments of Respondent": 0.3308,
+        "Decision": 0.0049,
+        "Facts": 0.0315,
+        "Issue": 0.0002,
+        "Reasoning": 0.5739
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "The dismissal of the claim of DIPL is questioned in the Arbitration Petition under 34 and would operate as res judicata unless the award is set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0701,
+        "Arguments of Respondent": 0.0535,
+        "Decision": 0.0167,
+        "Facts": 0.1207,
+        "Issue": 0.0449,
+        "Reasoning": 0.6941
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "The finality of the award is an issue of executability and there is nothing in Section 9 which would restrict a party which has lost in the arbitral proceedings from seeking continuation of the interim order(ii)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2952,
+        "Arguments of Respondent": 0.6444,
+        "Decision": 0.001,
+        "Facts": 0.0183,
+        "Issue": 0.0018,
+        "Reasoning": 0.0393
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "In several situations envisaged in the grounds of challenge under Section 34, it could be conceived that the arbitral proceedings can recommence and the mandate of the arbitral tribunal would not end such as where (a) the award has been passed in violation of the principles of natural justice or (b) the arbitral tribunal has not been properly constituted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0108,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0004,
+        "Facts": 0.0059,
+        "Issue": 0.0002,
+        "Reasoning": 0.978
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "Section 43(4) provides for the exclusion of the period between the date of commencement of the arbitration and the date of the order of the Court setting aside an arbitral award for the commencement of proceedings with respect to the dispute so submitted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0192,
+        "Arguments of Respondent": 0.0385,
+        "Decision": 0.0001,
+        "Facts": 0.0189,
+        "Issue": 0.0005,
+        "Reasoning": 0.9227
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "In breach of its obligation to construct four hoppers for the storage of PFA, DIPL constructed only one hopper (ii) As a matter of fact, DIPL constructed only one experimental hopper with a storage capacity of 60 metric tons which was completely inadequate to lift the offtake of 3,000 metric tons per day (iii) There is a detailed inquiry by the arbitral tribunal followed by the finding of fact that DIPL was unable to lift more than 600 metric tons of PFA per day (iv) Even the figures which have been taken note of by the learned Single Judge would demonstrate that though DIPL had 85 of the total number of hoppers (126 out of 152) it was able to lift only 32 of the fly ash resulting in a serious environmental situation.",
+      "predicted_label": "Facts",
+      "confidence": 0.6717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1529,
+        "Arguments of Respondent": 0.063,
+        "Decision": 0.0018,
+        "Facts": 0.6717,
+        "Issue": 0.0012,
+        "Reasoning": 0.1095
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "On these grounds it was submitted that there is no reason or justification for the learned Single Judge to pass an interim protective order, despite the finding of the arbitral tribunal in the course of the arbitral award.10.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5932,
+        "Arguments of Respondent": 0.1728,
+        "Decision": 0.0006,
+        "Facts": 0.2143,
+        "Issue": 0.0016,
+        "Reasoning": 0.0175
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 60,
+      "text": "An interim measure of protection within the meaning of Section 9(ii) is intended to protect through the measure, the fruits of a successful conclusion of the arbitral proceedings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9654,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0151,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0028,
+        "Facts": 0.0069,
+        "Issue": 0.0007,
+        "Reasoning": 0.9654
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The Court which exercises jurisdiction under Section 34 is not a court of first appeal under the provisions of the Code of Civil Procedure.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1815,
+        "Arguments of Respondent": 0.1294,
+        "Decision": 0.0004,
+        "Facts": 0.0195,
+        "Issue": 0.0002,
+        "Reasoning": 0.669
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "An appellate court to which recourse is taken against a decree of the trial Court has powers which are coextensive with those of the trial Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9116,
+      "probabilities": {
+        "Arguments of Petitioner": 0.035,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.001,
+        "Facts": 0.0379,
+        "Issue": 0.0003,
+        "Reasoning": 0.9116
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "A party which has failed in its claim before a trial Judge can in appeal seek a judgment of reversal and in consequence, the passing of a decree in terms of the claim in the suit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0542,
+        "Arguments of Respondent": 0.0361,
+        "Decision": 0.0021,
+        "Facts": 0.0078,
+        "Issue": 0.0008,
+        "Reasoning": 0.899
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "The court to which an arbitration petition challenging the award under Section 34 lies does not pass an order decreeing the claim.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0917,
+        "Arguments of Respondent": 0.0526,
+        "Decision": 0.0016,
+        "Facts": 0.0789,
+        "Issue": 0.0071,
+        "Reasoning": 0.7681
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "Where an arbitral claim has been rejected by the arbitral tribunal, the court under Section 34 may either dismiss the objection to the arbitral award or in the exercise of its jurisdiction set aside the arbitral award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9351,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0235,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0003,
+        "Facts": 0.0059,
+        "Issue": 0.0008,
+        "Reasoning": 0.9351
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The setting aside of an arbitral award rejecting a claim does not result in the claim which was rejected by the Arbitrator being decreed as a result of the judgement of the court in a petition under Section 34.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0867,
+        "Arguments of Respondent": 0.0742,
+        "Decision": 0.0007,
+        "Facts": 0.0101,
+        "Issue": 0.0013,
+        "Reasoning": 0.827
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "To hold that a petition under Section 9 would be maintainable after the passing of an arbitral award at the behest of DIPL whose claim has been rejected would result in a perversion of the object and purpose underlying Section 9 of the Arbitration and Conciliation Act, 1996.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9324,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0262,
+        "Arguments of Respondent": 0.0293,
+        "Decision": 0.0049,
+        "Facts": 0.0069,
+        "Issue": 0.0004,
+        "Reasoning": 0.9324
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "DIPLs application under Section 9, if allowed, would result in the grant of interim specific performance of a contract in the teeth of the findings recorded in the arbitral award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.121,
+        "Arguments of Respondent": 0.0357,
+        "Decision": 0.0139,
+        "Facts": 0.031,
+        "Issue": 0.0075,
+        "Reasoning": 0.7909
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "The interference by the Court at this stage to grant what in essence is a plea for a mandatory order for interim specific performance will negate the sanctity and efficacy of arbitration as a form of alternate disputes redressal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7189,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1314,
+        "Arguments of Respondent": 0.1167,
+        "Decision": 0.0015,
+        "Facts": 0.0301,
+        "Issue": 0.0014,
+        "Reasoning": 0.7189
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "What such a litigating party cannot possibly obtain even upon completion of the proceedings under Section 34, it cannot possibly secure in a petition under Section 9 after the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1993,
+        "Arguments of Respondent": 0.158,
+        "Decision": 0.0016,
+        "Facts": 0.0761,
+        "Issue": 0.0014,
+        "Reasoning": 0.5636
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 71,
+      "text": "The object and purpose of Section 9 is to provide an interim measure that would protect the subjectmatter of the arbitral proceedings whether before or during the continuance of the arbitral proceedings and even thereafter upon conclusion of the proceedings until the award is enforced.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9693,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0003,
+        "Facts": 0.006,
+        "Issue": 0.0003,
+        "Reasoning": 0.9693
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Once the award has been made and a claim has been rejected as in the present case, even a successful challenge to the award under Section 34 does not result an order decreeing the claim.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8488,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0529,
+        "Arguments of Respondent": 0.0829,
+        "Decision": 0.001,
+        "Facts": 0.0139,
+        "Issue": 0.0005,
+        "Reasoning": 0.8488
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "In this view of the matter, there could be no occasion to take recourse to Section 9.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0688,
+        "Arguments of Respondent": 0.1508,
+        "Decision": 0.0015,
+        "Facts": 0.0447,
+        "Issue": 0.0002,
+        "Reasoning": 0.734
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "Enforcement for the purpose of Section 36 as a decree of the Court is at the behest of a person who seeks to enforce the award.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8203,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0477,
+        "Arguments of Respondent": 0.1168,
+        "Decision": 0.0005,
+        "Facts": 0.0145,
+        "Issue": 0.0001,
+        "Reasoning": 0.8203
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "For this reason, we are of the view that the judgment and order of the learned Single Judge granting an adinterim measure of protection was wholly an error and in excess of jurisdiction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8244,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.1444,
+        "Facts": 0.0231,
+        "Issue": 0.0003,
+        "Reasoning": 0.8244
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "The learned Single Judge in the present case, it must be noted, found that prima facie there appeared substance in the submission of MSEGCL that proceedings under Section 9 would not be maintainable in the absence of an executable award in favour of DIPL.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.002,
+        "Facts": 0.3454,
+        "Issue": 0.0016,
+        "Reasoning": 0.636
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "Despite this, the learned Single Judge was completely in error in proceeding to decide as to what interim order could be passed to govern the rights of the parties pending the final hearing of the petition under Section 34.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0965,
+        "Arguments of Respondent": 0.0333,
+        "Decision": 0.0011,
+        "Facts": 0.0402,
+        "Issue": 0.0001,
+        "Reasoning": 0.8287
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "The learned Single Judge ought to have decided the preliminary issue as to the maintainability of the petition under Section 9, particularly having come to the conclusion prima facie that there was substance in the objection to the maintainability of the petition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2206,
+        "Arguments of Respondent": 0.0242,
+        "Decision": 0.0039,
+        "Facts": 0.045,
+        "Issue": 0.0008,
+        "Reasoning": 0.7055
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "On the issue of maintainability, we hold that the petition which was filed under Section 9 by DIPL was not maintainable and ought not to have been entertained.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.1976,
+        "Facts": 0.0075,
+        "Issue": 0.0011,
+        "Reasoning": 0.7856
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "Even otherwise, we have at the earlier stage of this judgment indicated the findings of fact which have been recorded by the arbitral tribunal in the course of the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8731,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0189,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0013,
+        "Facts": 0.0979,
+        "Issue": 0.0011,
+        "Reasoning": 0.8731
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "The tribunal has come to the conclusion that DIPL did not as a matter of fact erect a sufficient number of hoppers for collection of 3,000 metric tons of PFA per day that DIPL did not erect any transport system for transferring 3,000 metric tons of PFA per day from the thermal power station to its factory and this was a vital element in the execution of the contract which was intended for preventing atmospheric pollution.",
+      "predicted_label": "Facts",
+      "confidence": 0.7948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0014,
+        "Facts": 0.7948,
+        "Issue": 0.0016,
+        "Reasoning": 0.1947
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "The finding of fact is that under the contract, DIPL was initially to lift 1000 metric tons of PFA per day which quantity was to reach 3,000 metric tons of PFA per day in the next two years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5799,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0233,
+        "Arguments of Respondent": 0.0267,
+        "Decision": 0.0009,
+        "Facts": 0.368,
+        "Issue": 0.0013,
+        "Reasoning": 0.5799
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "As a matter of fact, DIPL could not lift more than 600 metric tons per day during the period.",
+      "predicted_label": "Facts",
+      "confidence": 0.4041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0829,
+        "Arguments of Respondent": 0.1497,
+        "Decision": 0.0019,
+        "Facts": 0.4041,
+        "Issue": 0.0005,
+        "Reasoning": 0.3609
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 84,
+      "text": "The arbitral tribunal found that on these facts, grant of specific performance would be unsound and unreasonable, besides being arbitrary.",
+      "predicted_label": "Facts",
+      "confidence": 0.5545,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0007,
+        "Facts": 0.5545,
+        "Issue": 0.0014,
+        "Reasoning": 0.4275
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 85,
+      "text": "On these facts as found by the arbitral tribunal and particularly after the award which construed the terms of contract and entered a finding of fact on the basis of the evidence on record, the passing of any interim order was, with great respect, unwarranted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9479,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0085,
+        "Facts": 0.0158,
+        "Issue": 0.0002,
+        "Reasoning": 0.9479
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "We clarify that these observations are only for the purpose of Section 9.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8274,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0406,
+        "Arguments of Respondent": 0.0135,
+        "Decision": 0.0485,
+        "Facts": 0.0685,
+        "Issue": 0.0015,
+        "Reasoning": 0.8274
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "They shall not come in the way of the disposal of the proceedings under Section 34 by the learned Single Judge.17.",
+      "predicted_label": "Decision",
+      "confidence": 0.8228,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.8228,
+        "Facts": 0.0391,
+        "Issue": 0.0002,
+        "Reasoning": 0.1351
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "For these reasons, we have come to the conclusion that (i) The petition under Section 9 of the Arbitration and Conciliation Act, 1996 filed by DIPL was not maintainable and (ii) In any event, no case was made out for grant of an interim measure of protection.",
+      "predicted_label": "Decision",
+      "confidence": 0.6898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.6898,
+        "Facts": 0.0229,
+        "Issue": 0.0007,
+        "Reasoning": 0.2838
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "The appeal filed by MSEGCL shall stand allowed in the aforesaid terms.",
+      "predicted_label": "Decision",
+      "confidence": 0.9788,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9788,
+        "Facts": 0.0055,
+        "Issue": 0.0001,
+        "Reasoning": 0.0151
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "The appeal filed by DIPL shall stand dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9737,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9737,
+        "Facts": 0.0018,
+        "Issue": 0.0001,
+        "Reasoning": 0.0237
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "On the conclusion of the judgment, learned Senior Counsel appearing on behalf of DIPL has sought an extension of the order dated 10 May 2012 which was passed in appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9249,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.0114,
+        "Decision": 0.0038,
+        "Facts": 0.9249,
+        "Issue": 0.0351,
+        "Reasoning": 0.0134
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "The learned Single Judge by his order dated 30 April 2012, while granting a stay to the operation of his order till 11 May 2012 had directed that the interim order which was already operating would continue to operate till then.",
+      "predicted_label": "Facts",
+      "confidence": 0.7872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0079,
+        "Facts": 0.7872,
+        "Issue": 0.0024,
+        "Reasoning": 0.1793
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "In our view and having carefully considered the application for stay, there are circumstances which would weigh against the continuation of the interim order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0432,
+        "Facts": 0.0971,
+        "Issue": 0.0012,
+        "Reasoning": 0.8469
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "First and the foremost, the arbitral Award contains a detailed and reasoned finding to the effect that DIPL was in breach of its contractual obligation and was unable to perform its part of the contract.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0017,
+        "Facts": 0.0155,
+        "Issue": 0.0009,
+        "Reasoning": 0.9712
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "Secondly, clause 11 of the agreement between the parties contemplates that it is terminable at will, with four months notice on either side.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1612,
+        "Arguments of Respondent": 0.0581,
+        "Decision": 0.0011,
+        "Facts": 0.2318,
+        "Issue": 0.0033,
+        "Reasoning": 0.5445
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 96,
+      "text": "To continue an interim mandatory order would militate against first principles.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0671,
+        "Arguments of Respondent": 0.125,
+        "Decision": 0.0013,
+        "Facts": 0.0157,
+        "Issue": 0.0006,
+        "Reasoning": 0.7902
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "Thirdly, the grant of any interim protection would virtually tantamount to an interim specific performance of a contract which has been terminated on 23 November 2006 despite the fact that the arbitral tribunal on a considered view of the matter has come to the conclusion that no specific performance could be granted.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6521,
+        "Arguments of Respondent": 0.0322,
+        "Decision": 0.0012,
+        "Facts": 0.0296,
+        "Issue": 0.0004,
+        "Reasoning": 0.2845
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "DIPL has failed in its contractual obligation to provide an important measure of environmental protection.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1069,
+        "Arguments of Respondent": 0.0658,
+        "Decision": 0.1172,
+        "Facts": 0.1238,
+        "Issue": 0.0035,
+        "Reasoning": 0.5829
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "Finally, this Court has come to the conclusion that the application under Section 9 was not maintainable.",
+      "predicted_label": "Facts",
+      "confidence": 0.5499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0127,
+        "Facts": 0.5499,
+        "Issue": 0.007,
+        "Reasoning": 0.4036
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 100,
+      "text": "In the circumstances, the prayer for stay is refused.19.",
+      "predicted_label": "Decision",
+      "confidence": 0.7677,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.7677,
+        "Facts": 0.0675,
+        "Issue": 0.0004,
+        "Reasoning": 0.1602
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "In view of the disposal of the appeals, the Notices of Motion in the appeals do not survive and are accordingly disposed of.",
+      "predicted_label": "Decision",
+      "confidence": 0.9195,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.9195,
+        "Facts": 0.025,
+        "Issue": 0.0004,
+        "Reasoning": 0.0498
+      }
+    }
+  ]
+}

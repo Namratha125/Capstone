@@ -1,0 +1,4378 @@
+{
+  "case_id": "6705",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The arbitral award passed by the Arbitrator was in favour of the Appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1156,
+        "Arguments of Respondent": 0.073,
+        "Decision": 0.0061,
+        "Facts": 0.2896,
+        "Issue": 0.0096,
+        "Reasoning": 0.5061
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "In a nutshell, the Arbitrator held that the 27 shareholding of the Respondent (30,85,712 equity shares) in a company called Maharashtra Scooters Ltd. (MSL), are to be valued, for the purposes of sale to the Appellant, at the rate of Rs.151.63 per share as on 3rd May, 2003.",
+      "predicted_label": "Facts",
+      "confidence": 0.8649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0003,
+        "Facts": 0.8649,
+        "Issue": 0.0011,
+        "Reasoning": 0.1316
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "MSL is jointly promoted by the Appellant and the Respondent and is a public company whose shares are listed on the Bombay Stock Exchange (BSE) and the National Stock Exchange (NSE).3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9895,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0003,
+        "Facts": 0.9895,
+        "Issue": 0.0071,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "Being dissatisfied with the arbitral award, the Respondent before us (original Petitioners) challenged the same before the learned Single Judge under the provisions of section 34 of the Arbitration and Conciliation Act, 1996 (Arbitration Act) on various grounds as set out in the Arbitration Petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.9579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9579,
+        "Issue": 0.0403,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "After hearing the parties, the learned Single Judge, by an elaborate and reasoned order, negated all the contentions of the Respondent, save and except one, on the basis of which the award was set aside.",
+      "predicted_label": "Facts",
+      "confidence": 0.9607,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0003,
+        "Facts": 0.9607,
+        "Issue": 0.0068,
+        "Reasoning": 0.0254
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "In a nutshell, the ground on which the award was set aside by the learned Judge was that Clause 7 of the Protocol Agreement entered into between the parties and which gave the right of first refusal to the Appellant to purchase the shareholding of the Respondent, was contrary to section 111A of the Companies Act, 1956 (the Companies Act).",
+      "predicted_label": "Facts",
+      "confidence": 0.8707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0002,
+        "Facts": 0.8707,
+        "Issue": 0.0949,
+        "Reasoning": 0.0305
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The learned Judge held that the effect of Clause 7 of the said Agreement was to create a right of preemption between the Appellant and the Respondent for the purchase of each others shares in MSL.",
+      "predicted_label": "Facts",
+      "confidence": 0.9868,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.9868,
+        "Issue": 0.0053,
+        "Reasoning": 0.0071
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The learned Judge held that MSL being a public company, the Appellant and the Respondent (being shareholders), could not have a preemption clause interse between themselves as the same was violative of section 111A(2) of the Companies Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0001,
+        "Facts": 0.9811,
+        "Issue": 0.0033,
+        "Reasoning": 0.0129
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "On that count alone the learned Judge set aside the arbitral award.",
+      "predicted_label": "Facts",
+      "confidence": 0.8831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0005,
+        "Facts": 0.8831,
+        "Issue": 0.0249,
+        "Reasoning": 0.0845
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Being aggrieved by this portion of the impugned order, the Appellant is in Appeal before us.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0003,
+        "Facts": 0.9681,
+        "Issue": 0.0291,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The brief facts that give rise to the controversy are that the Respondent (original Petitioner before the learned Single Judge) is a State Government Corporation and a wholly owned undertaking of the State of Maharashtra.",
+      "predicted_label": "Facts",
+      "confidence": 0.9959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0,
+        "Facts": 0.9959,
+        "Issue": 0.0019,
+        "Reasoning": 0.0017
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "As stated earlier, MSL is a listed public company incorporated and registered under the provisions of Companies Act, 1956.",
+      "predicted_label": "Facts",
+      "confidence": 0.8735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0262,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.0002,
+        "Facts": 0.8735,
+        "Issue": 0.0027,
+        "Reasoning": 0.0739
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The equity shares of MSL are listed on the Bombay Stock Exchange (BSE) and the National Stock Exchange (NSE).6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9749,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0002,
+        "Facts": 0.9749,
+        "Issue": 0.0063,
+        "Reasoning": 0.0015
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "MSL was incorporated pursuant to the Protocol Agreement dated 2nd October, 1974 entered into between the Appellant and the Respondent which interalia provided that the Appellant would grant benefit of knowhow and offer its assistance in the manufacture of two wheeler scooters to MSL and would also participate in the equity share capital of MSL on the terms and conditions as set out therein.",
+      "predicted_label": "Facts",
+      "confidence": 0.9796,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0002,
+        "Facts": 0.9796,
+        "Issue": 0.0029,
+        "Reasoning": 0.0053
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "In accordance with the terms and conditions of the said Agreement, the Respondent as of today continues to hold 27 of the equity shareholding of MSL and the Appellant continues to hold 24 thereof.",
+      "predicted_label": "Facts",
+      "confidence": 0.7924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0993,
+        "Arguments of Respondent": 0.0569,
+        "Decision": 0.0004,
+        "Facts": 0.7924,
+        "Issue": 0.0028,
+        "Reasoning": 0.0481
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The balance 49 of the equity shareholding of MSL is held by the public.",
+      "predicted_label": "Facts",
+      "confidence": 0.8151,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0974,
+        "Arguments of Respondent": 0.038,
+        "Decision": 0.0007,
+        "Facts": 0.8151,
+        "Issue": 0.0089,
+        "Reasoning": 0.0399
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The controversy in this Appeal No.153 of 2010 revolves around Clause 7 of the Protocol Agreement which inter alia provides that if either party desires to part with or transfer its shareholding or any part thereof, in the equity share capital of MSL, such party shall give first option to the other party for the purchase of such shares at such rate as may be agreed to between the parties or decided upon by arbitration.",
+      "predicted_label": "Facts",
+      "confidence": 0.9859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9859,
+        "Issue": 0.0105,
+        "Reasoning": 0.0024
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The procedure to be followed in such a situation is also set out in the said clause.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.5454,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0885,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.0007,
+        "Facts": 0.5454,
+        "Issue": 0.0012,
+        "Reasoning": 0.3467
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "It is the case of the Respondent that the Appellant had for the last 20 odd years repeatedly been requesting the Respondent to divest transfer its 27 shareholding to the Appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.7416,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.1469,
+        "Decision": 0.0004,
+        "Facts": 0.7416,
+        "Issue": 0.0017,
+        "Reasoning": 0.1054
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "On 30th June 2002, Mr. Raghuram of CRISIL carried out a valuation of the shareholding of the Respondent in MSL.",
+      "predicted_label": "Facts",
+      "confidence": 0.9911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0,
+        "Facts": 0.9911,
+        "Issue": 0.0004,
+        "Reasoning": 0.0056
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "It is the case of the Respondent that this valuation was done on the joint request of the Appellant and the Respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.4926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0116,
+        "Arguments of Respondent": 0.237,
+        "Decision": 0.0004,
+        "Facts": 0.4926,
+        "Issue": 0.0044,
+        "Reasoning": 0.254
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "This of course has been disputed by the Appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1074,
+        "Arguments of Respondent": 0.0677,
+        "Decision": 0.008,
+        "Facts": 0.2882,
+        "Issue": 0.033,
+        "Reasoning": 0.4957
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "Be that as it may, ultimately, some time in April 2003, the Respondent considered selling and transferring its 27 shareholding to the Appellant and in furtherance thereof, addressed a letter dated 9th April, 2003 offering to sell its 27 shareholding in MSL (30,85,712 shares) to the Appellant at a price of Rs.232.20 per share.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9949,
+        "Issue": 0.0005,
+        "Reasoning": 0.0019
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "In reply thereto, by their letter dated 3rd May, 2003, the Appellant, under clause 7 of the Protocol Agreement, confirmed their interest in buying the shareholding of the Respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.9778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0001,
+        "Facts": 0.9778,
+        "Issue": 0.0003,
+        "Reasoning": 0.0179
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "It was however stated that the price at which the shares were offered was not acceptable to the Appellant and therefore, requested that a meeting be called for by a High Level Committee to carry out official negotiations to reach a fair and marketable settlement.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.9928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0,
+        "Facts": 0.9928,
+        "Issue": 0.0004,
+        "Reasoning": 0.0023
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "In response thereto, the Respondent addressed a letter dated 7th May, 2003 calling upon the Appellant to confirm whether their letter dated 3rd May, 2003 was in response to the buy back by the Appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9796,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0,
+        "Facts": 0.9796,
+        "Issue": 0.0015,
+        "Reasoning": 0.0139
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "By their letter dated 10th May, 2003, the Appellant confirmed that their letter dated 3rd May, 2003 was a response to the offer made by the Respondent under clause 7 of the Protocol Agreement.",
+      "predicted_label": "Facts",
+      "confidence": 0.9675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0002,
+        "Facts": 0.9675,
+        "Issue": 0.0008,
+        "Reasoning": 0.0253
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "It was stated that in the letter dated 3rd May, 2003 they had confirmed their intention to purchase the shares but the price offered was not acceptable to the Appellant and therefore, requested that a meeting be called for by the High Level Committee to negotiate the price.",
+      "predicted_label": "Facts",
+      "confidence": 0.9458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0207,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0001,
+        "Facts": 0.9458,
+        "Issue": 0.0005,
+        "Reasoning": 0.0273
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Thereafter, by their letter dated 6th June 2003, the Appellant reiterated that they were not agreeable to the price of Rs.232.20 per share as demanded by the Respondent and offered to purchase the 27 shareholding of the Respondent at the rate of Rs.75/ per equity share.",
+      "predicted_label": "Facts",
+      "confidence": 0.9864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.9864,
+        "Issue": 0.0006,
+        "Reasoning": 0.0077
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "Again, by their letter dated 31st July, 2003 the Appellant informed the Respondent that if their offer of Rs.75/ per share was not acceptable to the Respondent then arbitration be initiated in terms of clause 7 of the Protocol Agreement.",
+      "predicted_label": "Facts",
+      "confidence": 0.9542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0003,
+        "Facts": 0.9542,
+        "Issue": 0.0003,
+        "Reasoning": 0.0354
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "It is the case of the Respondent that this correspondence clearly indicates that there was no concluded contract arrived at between the parties in respect of sale of the said shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.5279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.2189,
+        "Decision": 0.0004,
+        "Facts": 0.5279,
+        "Issue": 0.0009,
+        "Reasoning": 0.2458
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "We will deal with this argument later in this judgment, when we deal with the Cross Objections.10.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.519,
+      "probabilities": {
+        "Arguments of Petitioner": 0.519,
+        "Arguments of Respondent": 0.143,
+        "Decision": 0.0005,
+        "Facts": 0.181,
+        "Issue": 0.0063,
+        "Reasoning": 0.1502
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "Be that as it may, as there was no agreement on the rate at which the shareholding of the Respondent would be sold to the Appellant, in terms of clause 7 of the Protocol Agreement, the Respondent addressed a letter dated 27th October, 2003 to the Arbitrator requesting him to accept his appointment as a Sole Arbitrator for the assignment to determine the value of the shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.8184,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0007,
+        "Facts": 0.8184,
+        "Issue": 0.0014,
+        "Reasoning": 0.1686
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Paragraphs 2 4 of the said letter read as underAs per the Protocol Agreement, the Corporation has to make the first offer to Bajaj Auto Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.9692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0001,
+        "Facts": 0.9692,
+        "Issue": 0.0005,
+        "Reasoning": 0.0122
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "And in turn Bajaj Auto Ltd. has to accept or reject that offer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1096,
+        "Arguments of Respondent": 0.0605,
+        "Decision": 0.0016,
+        "Facts": 0.2133,
+        "Issue": 0.003,
+        "Reasoning": 0.612
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "This process has been completed and since no agreement has been reached on the value of the share, as per the Agreement, the parties involved have to proceed to appoint a Sole Arbitrator for the purposeYou are, therefore, requested to be kind enough to kindly forward your acceptance to be appointed as the Sole Arbitrator for this assignment and also communicate the retainership charges and venue suitable to you for the purpose of Arbitration.",
+      "predicted_label": "Facts",
+      "confidence": 0.9721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0076,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0003,
+        "Facts": 0.9721,
+        "Issue": 0.0009,
+        "Reasoning": 0.0102
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The detail Terms of Reference would be communicated to you later.(emphasis supplied)11.",
+      "predicted_label": "Facts",
+      "confidence": 0.9098,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0701,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0001,
+        "Facts": 0.9098,
+        "Issue": 0.0005,
+        "Reasoning": 0.0079
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Pursuant thereto, on 29th December, 2003 a joint reference was made to the Arbitrator to decide the rate at which the shares of the Respondent would be sold to the Appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9617,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0055,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0002,
+        "Facts": 0.9617,
+        "Issue": 0.002,
+        "Reasoning": 0.0239
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "This joint reference has been signed by the Appellant as well as the Respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.7895,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0027,
+        "Facts": 0.7895,
+        "Issue": 0.1486,
+        "Reasoning": 0.0479
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The said letter reads as underDear Sir,We thank you for consenting to be appointed as the Sole Arbitrator in the MSL arbitration assignment.",
+      "predicted_label": "Facts",
+      "confidence": 0.8808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0597,
+        "Arguments of Respondent": 0.0475,
+        "Decision": 0.0002,
+        "Facts": 0.8808,
+        "Issue": 0.0006,
+        "Reasoning": 0.0111
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "We are outlining below the terms of reference, in this matter.1.",
+      "predicted_label": "Facts",
+      "confidence": 0.9881,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0002,
+        "Facts": 0.9881,
+        "Issue": 0.0018,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "The appointment of Sole Arbitrator is made jointly by BAL and WMDC, in terms of the Clause No.7 of the Protocol Agreement dated 2 October 1974, between WMDC and BAL, the copromoters of MSL.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.9781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0022,
+        "Facts": 0.9781,
+        "Issue": 0.0012,
+        "Reasoning": 0.0035
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "BAL had expressed its willingness to buy the stake held by WMDC in MSL.",
+      "predicted_label": "Facts",
+      "confidence": 0.9085,
+      "probabilities": {
+        "Arguments of Petitioner": 0.053,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0021,
+        "Facts": 0.9085,
+        "Issue": 0.0041,
+        "Reasoning": 0.0196
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "WMDC had indicated its desire to sell its shareholding in MSL.",
+      "predicted_label": "Facts",
+      "confidence": 0.8058,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1103,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0049,
+        "Facts": 0.8058,
+        "Issue": 0.0048,
+        "Reasoning": 0.0471
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "However, price per share remained in dispute and hence in accordance with clause no.7 of the protocol agreement, the question of rate for the purchase by BAL of equity shares in MSL held by WMDC is hereby referred to the Sole Arbitrator.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0007,
+        "Facts": 0.9894,
+        "Issue": 0.0008,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "The Arbitrator shall take into account the Protocol Agreement covenants and all other concerned factors which may have impact on the share price of MSL shares, while giving his arbitral award.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9008,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0303,
+        "Arguments of Respondent": 0.0553,
+        "Decision": 0.0019,
+        "Facts": 0.9008,
+        "Issue": 0.0011,
+        "Reasoning": 0.0106
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The arbitral award will be final and binding on both parties.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0154,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0005,
+        "Facts": 0.9602,
+        "Issue": 0.0002,
+        "Reasoning": 0.0082
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The Arbitrator is requested to give his award within a period of 3 months from the date of this terms of reference.6. Arbitration proceedings will be held in Mumbai.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0066,
+        "Facts": 0.9795,
+        "Issue": 0.0002,
+        "Reasoning": 0.0086
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Cost of Arbitration shall be fixed by the Arbitration Tribunal in accordance with Sec. 31(8) of the Arbitration and Conciliation Act 1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.8785,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0264,
+        "Arguments of Respondent": 0.051,
+        "Decision": 0.0005,
+        "Facts": 0.8785,
+        "Issue": 0.0045,
+        "Reasoning": 0.0391
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "These costs will be shared equally by BAL and WMDC.8.",
+      "predicted_label": "Decision",
+      "confidence": 0.8243,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.8243,
+        "Facts": 0.1269,
+        "Issue": 0.0007,
+        "Reasoning": 0.0426
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "BAL and WMDC will be happy to provide any information as may be required by the Arbitrator.(emphasis supplied)12.",
+      "predicted_label": "Facts",
+      "confidence": 0.7729,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0187,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.1202,
+        "Facts": 0.7729,
+        "Issue": 0.0004,
+        "Reasoning": 0.0748
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "Pursuant to the aforesaid joint reference, parties appeared before the Arbitrator and led the necessary evidence.",
+      "predicted_label": "Facts",
+      "confidence": 0.9848,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9848,
+        "Issue": 0.0036,
+        "Reasoning": 0.0102
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The Respondent had also challenged the jurisdiction of the Arbitrator.",
+      "predicted_label": "Facts",
+      "confidence": 0.705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0315,
+        "Arguments of Respondent": 0.0453,
+        "Decision": 0.0022,
+        "Facts": 0.705,
+        "Issue": 0.0126,
+        "Reasoning": 0.2034
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Arbitrator, after considering the challenges and the evidence, by a detailed award, held in favour of the Appellant and declared that the 30,85,712 equity shares of MSL held by the Respondent (its 27 shareholding) and valued as on 3rd May 2003, are to be sold to the Appellant at a price of Rs.151.63 per share.13.",
+      "predicted_label": "Facts",
+      "confidence": 0.996,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.996,
+        "Issue": 0.0004,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Being aggrieved by the aforesaid award, the Respondent challenged the same before this Court under the provisions of section 34 of the Arbitration and Conciliation Act, 1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.9861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9861,
+        "Issue": 0.0073,
+        "Reasoning": 0.0046
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "As stated earlier, the learned Single Judge negated all the contentions of the Respondent herein save and except one, on the basis of which the award was set aside.",
+      "predicted_label": "Facts",
+      "confidence": 0.8595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.012,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0009,
+        "Facts": 0.8595,
+        "Issue": 0.0128,
+        "Reasoning": 0.112
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "Before the learned Single Judge, there was a challenge to the legality of clause 7 of the Protocol Agreement.",
+      "predicted_label": "Facts",
+      "confidence": 0.9125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0004,
+        "Facts": 0.9125,
+        "Issue": 0.0442,
+        "Reasoning": 0.0365
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "The submission of the Respondent before the learned Single Judge was that clause 7 created a right of preemption, and MSL being a listed public company, section 111A of the Companies Act 1956 was thereby violated.",
+      "predicted_label": "Facts",
+      "confidence": 0.9604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0001,
+        "Facts": 0.9604,
+        "Issue": 0.0034,
+        "Reasoning": 0.0273
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "It was the submission of the Respondent that section 111A provides that the shares or debentures of a public company and any interest therein shall be freely transferable.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.8482,
+        "Decision": 0.0001,
+        "Facts": 0.0465,
+        "Issue": 0.0005,
+        "Reasoning": 0.0973
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "It was the further submission of the Respondent that section 9 of the Companies Act further provides that the provisions of the Companies Act shall have effect notwithstanding anything to the contrary contained in the Memorandum and Articles of Association of the company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.8866,
+        "Decision": 0.0002,
+        "Facts": 0.0418,
+        "Issue": 0.0003,
+        "Reasoning": 0.0653
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "In other words, it was submitted that clause 7 of the Protocol Agreement being contrary to the provisions of the Companies Act, was unenforceable.",
+      "predicted_label": "Facts",
+      "confidence": 0.6923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.223,
+        "Arguments of Respondent": 0.0625,
+        "Decision": 0.0003,
+        "Facts": 0.6923,
+        "Issue": 0.0026,
+        "Reasoning": 0.0193
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 61,
+      "text": "The learned Single Judge, after hearing the parties, upheld this contention of the Respondent and set aside the arbitral award on this sole ground.",
+      "predicted_label": "Facts",
+      "confidence": 0.9459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0001,
+        "Facts": 0.9459,
+        "Issue": 0.011,
+        "Reasoning": 0.0369
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "Being aggrieved by this part of the impugned order, the Appellant has filed the present Appeal (Appeal No.153 of 2010) before us.14.",
+      "predicted_label": "Facts",
+      "confidence": 0.9922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9922,
+        "Issue": 0.0025,
+        "Reasoning": 0.0021
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "In this Appeal, the real controversy revolves around clause 7 of the Protocol Agreement and whether it impinges on the free transferability of shares of a public company as contemplated under section 111A of the Companies Act.",
+      "predicted_label": "Issue",
+      "confidence": 0.8193,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0005,
+        "Facts": 0.1572,
+        "Issue": 0.8193,
+        "Reasoning": 0.0157
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "Mr Chinoy, learned Senior Counsel appearing on behalf of the Appellant, submitted that clause 7 of the Protocol Agreement did not in any way impinge on the free transferability of shares as contemplated under section 111A of the Companies Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9711,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9711,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0004,
+        "Facts": 0.0042,
+        "Issue": 0.0001,
+        "Reasoning": 0.0213
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "He submitted that an agreement voluntarily entered into by a shareholder of a public company regarding its own shares, was not within the purview of nor affected by section 111A(2) of the Companies Act or its predecessor viz.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5529,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4355,
+        "Arguments of Respondent": 0.5529,
+        "Decision": 0.0001,
+        "Facts": 0.0064,
+        "Issue": 0.0002,
+        "Reasoning": 0.0049
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 66,
+      "text": "section 22A(2) as it then stood before its deletion of the Securities Contracts (Regulation) Act 1956.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8107,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0401,
+        "Arguments of Respondent": 0.047,
+        "Decision": 0.0004,
+        "Facts": 0.099,
+        "Issue": 0.0029,
+        "Reasoning": 0.8107
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "In support of the aforesaid submissions, Mr Chinoy placed heavy reliance on a Division Bench judgment of this Court in the case of Messer Holdings Ltd. v s S.M. Ruia and others.(2010 (59) Company Cases 29 (Bom).)He submitted that in the aforesaid judgment, the order impugned in this Appeal, has been specifically considered and the Division Bench has expressly disagreed with overruled the view expressed by the learned Single Judge in the order impugned before us.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.855,
+        "Arguments of Respondent": 0.1305,
+        "Decision": 0.0002,
+        "Facts": 0.0043,
+        "Issue": 0.0003,
+        "Reasoning": 0.0098
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "On the other hand, Mr Khambatta, learned Senior Counsel appearing on behalf of the Respondent, submitted that clause 7 of the Protocol Agreement and which was thereafter incorporated in the Articles of Association of MSL, was a highly restrictive preemptive clause that caused great fetters on the right of free transferability found in any ordinary preemption clause.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9881,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.9881,
+        "Decision": 0.0001,
+        "Facts": 0.0025,
+        "Issue": 0.0003,
+        "Reasoning": 0.0034
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "He submitted that (i) clause 7 fetters the right of the Respondent to sell its shares to any other person including any other existing member of MSL, without offering the same to the Appellant (ii) allows the Appellant to purchase the shares of the Respondent without accepting the price at which the shares were offered but at a price to be determined or fixed by arbitration.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9828,
+        "Arguments of Respondent": 0.0119,
+        "Decision": 0.0001,
+        "Facts": 0.0024,
+        "Issue": 0.0005,
+        "Reasoning": 0.0023
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "Such a provision, according to Mr. Khambatta, was therefore undoubtedly a fetter on the right of the Respondent to freely transfer its shares to a person of its choice and at a price of its choice and therefore clearly impinged upon the provisions of section 111A(2) of the Companies Act, which contemplated free transferability of shares.16.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9088,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9088,
+        "Arguments of Respondent": 0.063,
+        "Decision": 0.0001,
+        "Facts": 0.0015,
+        "Issue": 0.0003,
+        "Reasoning": 0.0263
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "Mr. Khambatta further submitted that since the Protocol Agreement was incorporated in the Articles of Association of MSL, upon incorporation of MSL and registration of its Articles of Association, the Protocol Agreement stood subsumed in its Articles.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6637,
+        "Arguments of Respondent": 0.3031,
+        "Decision": 0.0004,
+        "Facts": 0.0271,
+        "Issue": 0.001,
+        "Reasoning": 0.0047
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "Hence, on 29th December 2003, which is the date of reference to arbitration, clause 7 of the Protocol Agreement was nothing but a part and parcel of Articles of Association of MSL.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3326,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2243,
+        "Arguments of Respondent": 0.2548,
+        "Decision": 0.0005,
+        "Facts": 0.1874,
+        "Issue": 0.0005,
+        "Reasoning": 0.3326
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 73,
+      "text": "He submitted that Indian law has always prohibited restrictions on free transferability of shares of a public company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5028,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5028,
+        "Arguments of Respondent": 0.4884,
+        "Decision": 0.0002,
+        "Facts": 0.003,
+        "Issue": 0.0001,
+        "Reasoning": 0.0054
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 74,
+      "text": "In support of this argument, Mr Khambatta placed reliance on sections 3(1)(iii), 3(1) (iv) and section 43A of the Companies Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6236,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6236,
+        "Arguments of Respondent": 0.3146,
+        "Decision": 0.0003,
+        "Facts": 0.002,
+        "Issue": 0.0002,
+        "Reasoning": 0.0593
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "Darius Rutton Kavasmaneck v s Gharda Chemicals Ltd. and others(Judgment of the Supreme Court dated 28.10.2014 in Civil Appeal No.2481 of 2014)3.",
+      "predicted_label": "Facts",
+      "confidence": 0.7365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2199,
+        "Arguments of Respondent": 0.0273,
+        "Decision": 0.0023,
+        "Facts": 0.7365,
+        "Issue": 0.0084,
+        "Reasoning": 0.0055
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "V.B. Rangaraj v s V.B. Gopalkrishnan and others(1992) 1 SCC 160 ) and4.",
+      "predicted_label": "Facts",
+      "confidence": 0.6577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2121,
+        "Arguments of Respondent": 0.0488,
+        "Decision": 0.0061,
+        "Facts": 0.6577,
+        "Issue": 0.0635,
+        "Reasoning": 0.0118
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "Pushpa Katoch v s Manu Maharani Hotels Ltd. and others.(2005 (83) DRJ 246 (Delhi High Court).17.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3503,
+        "Arguments of Respondent": 0.2005,
+        "Decision": 0.0005,
+        "Facts": 0.1194,
+        "Issue": 0.0003,
+        "Reasoning": 0.329
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 78,
+      "text": "Mr Khambatta submitted that the above provisions of the Companies Act, as interpreted by the Supreme Court, would reveal that(i) the Articles of a private company must contain a restriction on free transferability of its shares, a section 43A company may contain such a restriction in its Articles, whereas the Articles of a public company cannot contain any restriction on free transferability(ii) unless restrictions on transferability are incorporated into the Articles, shares by their very nature remain freely transferable(iii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9391,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9391,
+        "Arguments of Respondent": 0.0469,
+        "Decision": 0.0001,
+        "Facts": 0.0011,
+        "Issue": 0.0001,
+        "Reasoning": 0.0127
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "no extraneous restrictions such as restrictions in a separate private agreement is valid or enforceable even in a private company, let alone a public company(iv) a public company is prohibited from incorporating any restriction on transferability of its shares in its Articles, and the said shares must necessarily remain freely transferable and cannot be subjected to any restriction.18.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6018,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2298,
+        "Arguments of Respondent": 0.6018,
+        "Decision": 0.007,
+        "Facts": 0.0338,
+        "Issue": 0.0003,
+        "Reasoning": 0.1274
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "Mr Khambatta additionally submitted that a preemption clause or what is some time known as a right of first refusal (ROFR clauses), is a classic restriction on transferability.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8709,
+        "Arguments of Respondent": 0.1039,
+        "Decision": 0.0002,
+        "Facts": 0.001,
+        "Issue": 0.0002,
+        "Reasoning": 0.0238
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "In light of the above, Mr Khambatta submitted that clause 7 of the Protocol Agreement and which was subsequently incorporated in the Articles of MSL, restricts the shareholders of MSL to sell its shares to buyers of its choice, and at a price of its choice, and thereby would undoubtedly be a restriction on its transferability.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7884,
+        "Arguments of Respondent": 0.1773,
+        "Decision": 0.0002,
+        "Facts": 0.0162,
+        "Issue": 0.0008,
+        "Reasoning": 0.0171
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "This being the case, he submitted that the said clause was invalid and unenforceable.19.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5906,
+        "Arguments of Respondent": 0.2847,
+        "Decision": 0.0005,
+        "Facts": 0.1019,
+        "Issue": 0.0003,
+        "Reasoning": 0.0219
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "In the alternative, Mr Khambatta submitted that even assuming that the Protocol Agreement survived as an independent contract after it was incorporated in the Articles of MSL, it would make no difference to his submissions.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.63,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3587,
+        "Arguments of Respondent": 0.63,
+        "Decision": 0.0001,
+        "Facts": 0.0018,
+        "Issue": 0.0004,
+        "Reasoning": 0.009
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "He submitted that if something cannot be done directly, it also cannot be done indirectly.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5207,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5207,
+        "Arguments of Respondent": 0.447,
+        "Decision": 0.0002,
+        "Facts": 0.0039,
+        "Issue": 0.0001,
+        "Reasoning": 0.028
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 85,
+      "text": "Once a restriction on transferability of shares in the Articles of a public company is invalid and unenforceable, the identical restriction cannot be permitted to reemerge in a different avatar.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.92,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0225,
+        "Arguments of Respondent": 0.0397,
+        "Decision": 0.0001,
+        "Facts": 0.0173,
+        "Issue": 0.0003,
+        "Reasoning": 0.92
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "Whether clause 7 is held as a part of the Articles of MSL, or a part of a free standing agreement, it remains equally restrictive and hence invalid and unenforceable.",
+      "predicted_label": "Facts",
+      "confidence": 0.5911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1276,
+        "Arguments of Respondent": 0.1607,
+        "Decision": 0.0088,
+        "Facts": 0.5911,
+        "Issue": 0.0009,
+        "Reasoning": 0.111
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "For all the aforesaid reasons, Mr Khambatta submitted that the order of the learned Single Judge cannot be faulted and the same requires no interference by us in Appeal.20.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0299,
+        "Arguments of Respondent": 0.7937,
+        "Decision": 0.0266,
+        "Facts": 0.0055,
+        "Issue": 0.0002,
+        "Reasoning": 0.1441
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "As stated earlier, the real controversy in this Appeal revolves around clause 7 of the Protocol Agreement and whether it impinges on free transferability under section 111A of the Companies Act.",
+      "predicted_label": "Issue",
+      "confidence": 0.5367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0014,
+        "Facts": 0.157,
+        "Issue": 0.5367,
+        "Reasoning": 0.2692
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "Clause 7 of the Protocol Agreement inter alia provides that if either party desires to part with or transfer its shareholding or any part thereof in the equity share capital of MSL, such party shall give first option to the other party for the purchase of such shares at the agreed price, or in the absence of such agreement, decided upon by arbitration.",
+      "predicted_label": "Facts",
+      "confidence": 0.9922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9922,
+        "Issue": 0.0004,
+        "Reasoning": 0.0039
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "Faced with the judgment in Messer Holdings Ltd., Mr. Khambatta, the learned senior counsel appearing on behalf of the Respondent, submitted that whether a particular clause was a restriction on transferability of shares had to be necessarily decided on a case to case basis.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9676,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.9676,
+        "Decision": 0.0002,
+        "Facts": 0.002,
+        "Issue": 0.0002,
+        "Reasoning": 0.0278
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "He submitted that the facts in the case of Messer Holdings Ltd.(Supra) were materially different than the ones before us.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2958,
+        "Arguments of Respondent": 0.6891,
+        "Decision": 0.0003,
+        "Facts": 0.0024,
+        "Issue": 0.0001,
+        "Reasoning": 0.0123
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 92,
+      "text": "The first distinguishing feature he pointed out was that, under Clause 6.1 in Messer Holdings Ltd., there was no restriction on price whereas Clause 7 of the Protocol Agreement before us compelled the Respondent to sell the shares at a price not determined by the Respondent but determined through the process of arbitration.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6326,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6326,
+        "Arguments of Respondent": 0.3368,
+        "Decision": 0.0001,
+        "Facts": 0.0046,
+        "Issue": 0.0001,
+        "Reasoning": 0.0258
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 93,
+      "text": "According to Mr Khambatta, this was a very significant distinguishing feature.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5385,
+        "Arguments of Respondent": 0.2231,
+        "Decision": 0.0002,
+        "Facts": 0.0167,
+        "Issue": 0.0001,
+        "Reasoning": 0.2214
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 94,
+      "text": "We cannot agree.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8733,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0684,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0017,
+        "Facts": 0.0223,
+        "Issue": 0.0006,
+        "Reasoning": 0.8733
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "We do not think that this distinguishing feature can make any difference to the ratio laid down in",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0134,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0002,
+        "Facts": 0.0063,
+        "Issue": 0.0002,
+        "Reasoning": 0.9721
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "Messer Holdings Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.5473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1177,
+        "Arguments of Respondent": 0.074,
+        "Decision": 0.0107,
+        "Facts": 0.5473,
+        "Issue": 0.0371,
+        "Reasoning": 0.2131
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 97,
+      "text": "Once it is held that consensual agreements arrangements entered into by the shareholders of a public company with a third party regarding his own specified shares (either by way of sale, preemption or otherwise), do not impinge on free transferability of shares as contemplated under section 111A, this so called distinction pails into insignificance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0478,
+        "Decision": 0.0003,
+        "Facts": 0.0375,
+        "Issue": 0.0033,
+        "Reasoning": 0.8835
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "We, therefore, find no substance in this argument.36.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0213,
+        "Arguments of Respondent": 0.0238,
+        "Decision": 0.0023,
+        "Facts": 0.0061,
+        "Issue": 0.0004,
+        "Reasoning": 0.9461
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "The second distinguishing feature that Mr. Khambatta sought to highlight is that in the facts of our case, this consensual arrangement as set out in clause 7 of the Protocol Agreement was also incorporated in Articles of Association of MSL whereas that was not the case before the Division Bench in the case of Messer Holdings Ltd.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8331,
+        "Arguments of Respondent": 0.0395,
+        "Decision": 0.0002,
+        "Facts": 0.0107,
+        "Issue": 0.0006,
+        "Reasoning": 0.1159
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "In furtherance of this argument, Mr. Khambatta submitted that the Protocol Agreement and more particularly Clause 7 thereof, was incorporated into the Articles of MSL and was therefore subsumed therein and did not independently survive.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9241,
+        "Arguments of Respondent": 0.0706,
+        "Decision": 0.0001,
+        "Facts": 0.0017,
+        "Issue": 0.0003,
+        "Reasoning": 0.0032
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "Once it was subsumed in the Articles and the same could not be incorporated the Articles of a public company, the same could not reemerge in a different avatar, was the submission.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.536,
+      "probabilities": {
+        "Arguments of Petitioner": 0.536,
+        "Arguments of Respondent": 0.3083,
+        "Decision": 0.0001,
+        "Facts": 0.0498,
+        "Issue": 0.0003,
+        "Reasoning": 0.1055
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 102,
+      "text": "We cannot agree with this argument.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0641,
+        "Arguments of Respondent": 0.0527,
+        "Decision": 0.008,
+        "Facts": 0.0122,
+        "Issue": 0.0012,
+        "Reasoning": 0.8618
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "Merely because the Protocol Agreement was incorporated into the Articles of MSL, does not mean that the Protocol Agreement by itself (or clause 7 thereof) ceased to exist.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1275,
+        "Arguments of Respondent": 0.3761,
+        "Decision": 0.0007,
+        "Facts": 0.1654,
+        "Issue": 0.0005,
+        "Reasoning": 0.3298
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 104,
+      "text": "The Protocol Agreement governs the rights and liabilities of the parties thereto and would continue notwithstanding the fact that they were incorporated in the Articles of MSL.",
+      "predicted_label": "Facts",
+      "confidence": 0.4238,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1133,
+        "Arguments of Respondent": 0.2694,
+        "Decision": 0.0057,
+        "Facts": 0.4238,
+        "Issue": 0.0014,
+        "Reasoning": 0.1863
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 105,
+      "text": "Therefore, even if we are to assume that such a clause was not permissible in the Articles of a public company, that would not in any way destroy the rights created under the said Agreement interse between the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0289,
+        "Arguments of Respondent": 0.0201,
+        "Decision": 0.0003,
+        "Facts": 0.0471,
+        "Issue": 0.0002,
+        "Reasoning": 0.9034
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "The rights and liabilities created under the said Protocol Agreement would continue to bind the parties thereto.",
+      "predicted_label": "Facts",
+      "confidence": 0.4086,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0952,
+        "Arguments of Respondent": 0.0999,
+        "Decision": 0.0185,
+        "Facts": 0.4086,
+        "Issue": 0.0014,
+        "Reasoning": 0.3764
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 107,
+      "text": "Even if we are to hold that the company (namely MSL) was not bound by the terms of the Protocol Agreement, it would only mean that if the Respondent sought to sell their shareholding in breach of Clause 7 of the Protocol Agreement, the company (MSL) would not be in a position to refuse such transfer, in the absence of any Court or other judicial authority granting an injunction restraining it from doing so.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0649,
+        "Arguments of Respondent": 0.0679,
+        "Decision": 0.0029,
+        "Facts": 0.0898,
+        "Issue": 0.0002,
+        "Reasoning": 0.7743
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "This does not mean that the parties to the Protocol Agreement cannot, in appropriate proceedings, seek to enforce its terms.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0151,
+        "Decision": 0.0272,
+        "Facts": 0.1418,
+        "Issue": 0.0004,
+        "Reasoning": 0.7988
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "It is one thing to say that the said clause will not bind the company and it is wholly another to contend that the said clause would not bind the parties thereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0392,
+        "Arguments of Respondent": 0.0328,
+        "Decision": 0.0008,
+        "Facts": 0.0613,
+        "Issue": 0.0017,
+        "Reasoning": 0.8643
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "We are, therefore, of the view that notwithstanding the fact that the Protocol Agreement was incorporated in the Articles of Association of MSL, the same would not change the nature of that agreement namely being a consensual agreement arrangement entered into between the parties determining the manner in which each party is allowed to dispose of its particular shareholding.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.012,
+        "Arguments of Respondent": 0.0144,
+        "Decision": 0.0003,
+        "Facts": 0.1065,
+        "Issue": 0.0002,
+        "Reasoning": 0.8665
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "At the highest and assuming everything in favour of the Respondent, it could be only be held that such a clause would not bind the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0609,
+        "Arguments of Respondent": 0.0751,
+        "Decision": 0.0005,
+        "Facts": 0.1113,
+        "Issue": 0.0016,
+        "Reasoning": 0.7507
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "However, it would certainly bind the parties to the Protocol Agreement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0522,
+        "Arguments of Respondent": 0.0726,
+        "Decision": 0.002,
+        "Facts": 0.125,
+        "Issue": 0.0037,
+        "Reasoning": 0.7445
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "We, therefore, find no substance in this argument.37.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9522,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0241,
+        "Decision": 0.0016,
+        "Facts": 0.0051,
+        "Issue": 0.0003,
+        "Reasoning": 0.9522
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "Even otherwise, we find force in the argument of Mr. Chinoy that such a clause (clause 7), even if incorporated in the Articles of Association of a public company, would not in any way violate the principles of free transferability of shares as contemplated under section 111A of the Companies Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9574,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0003,
+        "Facts": 0.0129,
+        "Issue": 0.0001,
+        "Reasoning": 0.9574
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "Clause 7 of the Protocol Agreement and which finds place in the Articles of MSL by virtue of incorporation of the Protocol Agreement in its Articles, only sets out how the Respondent and the Appellant are to deal with their respective shareholdings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0793,
+        "Arguments of Respondent": 0.0985,
+        "Decision": 0.0007,
+        "Facts": 0.1441,
+        "Issue": 0.0007,
+        "Reasoning": 0.6767
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 116,
+      "text": "Clause 7 of the Protocol Agreement and which has been incorporated in the Articles of Association of MSL, only relates to the shareholding of the Appellant and the Respondent and their rights and liabilities in relation thereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1557,
+        "Arguments of Respondent": 0.2234,
+        "Decision": 0.0013,
+        "Facts": 0.1188,
+        "Issue": 0.0026,
+        "Reasoning": 0.4983
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 117,
+      "text": "It does not in any way affect the rights and or liabilities of the other members of MSL.",
+      "predicted_label": "Facts",
+      "confidence": 0.884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0199,
+        "Arguments of Respondent": 0.0227,
+        "Decision": 0.0037,
+        "Facts": 0.884,
+        "Issue": 0.0006,
+        "Reasoning": 0.0691
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "In this view of the matter, we are of the view that merely because Clause 7 of the Protocol Agreement was incorporated in the Articles of MSL, would not invalidate the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.5044,
+      "probabilities": {
+        "Arguments of Petitioner": 0.027,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0083,
+        "Facts": 0.5044,
+        "Issue": 0.0004,
+        "Reasoning": 0.4453
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 119,
+      "text": "We are also persuaded to take this view because we find that in todays global reality, joint ventures are extremely common and clauses similar to Clause 7 of the Protocol Agreement may become necessary to ensure that a joint promotor of a company does not sell his shareholding to a competitor who then possibly could get control of his rival.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0323,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.001,
+        "Facts": 0.0277,
+        "Issue": 0.0002,
+        "Reasoning": 0.9276
+      }
+    },
+    {
+      "sentence_id": 120,
+      "text": "In this view of the matter and looking to the totality of the facts and circumstances of the case, we are clearly of the view that Clause 7 of the Protocol Agreement does not in any way impinge upon the principle of free transferability of shares as contemplated under section 111A of the Companies Act, 1956.38.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0078,
+        "Facts": 0.0079,
+        "Issue": 0.0001,
+        "Reasoning": 0.9779
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "For all the reasons set out earlier in this judgment, and coupled with the fact that the reasoning given in the impugned order before us has been specifically disagreed with by another Division Bench of this Court in the case of Messer Holdings Ltd.,(Supra) we are unable to uphold the order of the learned Single Judge insofar as it set aside the impugned award on the ground that Clause 7 of the Protocol Agreement imposed a restriction on free transferability of shares as contemplated under section 111A of the Companies Act, 1956.42.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0955,
+        "Facts": 0.034,
+        "Issue": 0.0004,
+        "Reasoning": 0.866
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "Having held so, we shall now deal with the judgments relied upon by Mr. Khambatta.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0193,
+        "Decision": 0.0005,
+        "Facts": 0.003,
+        "Issue": 0.0012,
+        "Reasoning": 0.9481
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "Neither of these judgments decide the issue that an agreement voluntarily entered into by an individual shareholder giving a right of preemption to a third person regarding his own shares, constitutes a restriction imposed on the right of a shareholder to transfer his shares and is therefore accordingly impermissible by virtue of section 111A of the Companies Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9198,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0377,
+        "Arguments of Respondent": 0.0292,
+        "Decision": 0.0002,
+        "Facts": 0.0119,
+        "Issue": 0.0012,
+        "Reasoning": 0.9198
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "The said two judgments hold that a private company, by virtue of section 3(1)(iii), must contain provisions in its Articles of Association placing a restriction on the right of shareholders to transfer their shares, whilst a public company cannot have such a general restriction on transfer of shares by its members.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3004,
+        "Arguments of Respondent": 0.1041,
+        "Decision": 0.0003,
+        "Facts": 0.0684,
+        "Issue": 0.0013,
+        "Reasoning": 0.5255
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 125,
+      "text": "We do not see how these judgments can be of any assistance in deciding the issue raised before us.43.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9082,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0414,
+        "Arguments of Respondent": 0.0448,
+        "Decision": 0.0013,
+        "Facts": 0.0039,
+        "Issue": 0.0004,
+        "Reasoning": 0.9082
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "In this view of the matter, we are clearly of the view that the order of the learned Single Judge is unsustainable, insofar as it set aside the impugned award on the ground that the effect of Clause 7 of the Protocol Agreement was to impose a restriction on the free transferability of shares as contemplated under section 111A of the Companies Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.025,
+        "Facts": 0.085,
+        "Issue": 0.0004,
+        "Reasoning": 0.882
+      }
+    },
+    {
+      "sentence_id": 127,
+      "text": "This is more so since the reasoning given by the learned Single Judge has been specifically disapproved by another Division Bench of this Court in the case of Messer Holdings Ltd.(Supra)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0468,
+        "Arguments of Respondent": 0.0264,
+        "Decision": 0.0142,
+        "Facts": 0.1337,
+        "Issue": 0.0002,
+        "Reasoning": 0.7787
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "In the Cross Objections, the Respondent has challenged the award mainly on two grounds.",
+      "predicted_label": "Facts",
+      "confidence": 0.8284,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.0781,
+        "Decision": 0.0006,
+        "Facts": 0.8284,
+        "Issue": 0.0467,
+        "Reasoning": 0.0385
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "The first ground of challenge to the impugned award is on the issue of jurisdiction and the scope of reference.",
+      "predicted_label": "Issue",
+      "confidence": 0.5016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1946,
+        "Arguments of Respondent": 0.0256,
+        "Decision": 0.001,
+        "Facts": 0.061,
+        "Issue": 0.5016,
+        "Reasoning": 0.2164
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "The second ground of challenge is on merits regarding the valuation of the Respondents 27 shareholding in MSL.JURISDICTION SCOPE OF REFERENCE 49.",
+      "predicted_label": "Issue",
+      "confidence": 0.7455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0192,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0013,
+        "Facts": 0.1351,
+        "Issue": 0.7455,
+        "Reasoning": 0.0899
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "He submitted that a combined reading of the joint reference dated 29th December, 2003 and clause 7 of the Protocol Agreement left no manner of doubt that the length and breadth of the Arbitrators jurisdiction was limited only to the determination of the rate.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4005,
+        "Arguments of Respondent": 0.5925,
+        "Decision": 0.0001,
+        "Facts": 0.0018,
+        "Issue": 0.0002,
+        "Reasoning": 0.0048
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 132,
+      "text": "Clause 7 of the Protocol Agreement alongwith the joint reference, did not empower the Arbitrator to decide any incidental question, especially in view of the fact that clause 7 of the Protocol Agreement was limited in its sphere, was the submission of Mr Samdani.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.722,
+        "Arguments of Respondent": 0.2326,
+        "Decision": 0.0001,
+        "Facts": 0.0142,
+        "Issue": 0.0004,
+        "Reasoning": 0.0307
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "He submitted that the scope of clause 7 of the Protocol Agreement being limited, is also borne out from the fact that the Protocol Agreement itself contained another arbitration clause (i.e. clause 19) that conferred a much wider jurisdiction on the Arbitrator and which was admittedly not invoked by any of the parties.53.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5304,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4593,
+        "Arguments of Respondent": 0.5304,
+        "Decision": 0.0001,
+        "Facts": 0.0018,
+        "Issue": 0.0001,
+        "Reasoning": 0.0082
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 134,
+      "text": "Mr Samdani submitted that valuation, being a matter of contract between the parties, requires that they be at adidem on the date with respect to which the valuation was required to be done.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3857,
+        "Arguments of Respondent": 0.5976,
+        "Decision": 0.0001,
+        "Facts": 0.0013,
+        "Issue": 0.0002,
+        "Reasoning": 0.0151
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 135,
+      "text": "According to him, the parties undisputedly were not at adidem inasmuch as the Respondent had taken a stand that no date has been agreed, and therefore there was no concluded contract.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5383,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5383,
+        "Arguments of Respondent": 0.3125,
+        "Decision": 0.0002,
+        "Facts": 0.1043,
+        "Issue": 0.0007,
+        "Reasoning": 0.0439
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 136,
+      "text": "In addition thereto, he submitted that the Appellant had taken a stand before the Arbitrator that the date of valuation should be as on 30th June, 2002 and in the alternative 3rd May, 2003.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4104,
+        "Arguments of Respondent": 0.5743,
+        "Decision": 0.0002,
+        "Facts": 0.0094,
+        "Issue": 0.0002,
+        "Reasoning": 0.0056
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 137,
+      "text": "In light of the stand taken by the Appellant as well as the Respondent, it was clear that there was no agreed date and therefore the Arbitrator, under Clause 7 of the Protocol Agreement read with the joint reference dated 29th December 2003, did not possess jurisdiction to adjudicate the said issue.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.287,
+        "Arguments of Respondent": 0.3809,
+        "Decision": 0.0037,
+        "Facts": 0.1762,
+        "Issue": 0.0003,
+        "Reasoning": 0.1519
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 138,
+      "text": "He submitted that this contention is further fortified by the fact that the Arbitrator had to direct the Appellant and the Respondent to file their respective pleadings in reference to what would be the relevant date for the purposes of valuing the Respondents 27 shareholding in MSL.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4231,
+        "Arguments of Respondent": 0.5625,
+        "Decision": 0.0001,
+        "Facts": 0.0029,
+        "Issue": 0.0001,
+        "Reasoning": 0.0113
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 139,
+      "text": "According to Mr Samdani, it was also the Appellants own case before the Arbitrator that without an agreed relevant date for valuation, the Respondent could not have made its offer and the Appellant could not have accepted the said offer.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8331,
+        "Arguments of Respondent": 0.1364,
+        "Decision": 0.0001,
+        "Facts": 0.0039,
+        "Issue": 0.0004,
+        "Reasoning": 0.0262
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "All these facts, according to Mr. Samdani, therefore clearly indicated that parties were not adidem on the date on which the shareholding of the Respondent was to be valued, and this exercise of determining the date was outside the scope of the joint reference made to the Arbitrator.54.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8435,
+        "Arguments of Respondent": 0.1202,
+        "Decision": 0.0001,
+        "Facts": 0.0042,
+        "Issue": 0.0001,
+        "Reasoning": 0.0319
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "Additionally, it was the submission of Mr Samdani that the correspondence exchanged between the parties in relation to the sale of the said shares of the Respondent, viz.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5166,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5166,
+        "Arguments of Respondent": 0.4041,
+        "Decision": 0.0002,
+        "Facts": 0.0226,
+        "Issue": 0.0002,
+        "Reasoning": 0.0563
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 142,
+      "text": "letters dated 9th April 2003, 3rd May 2003, 10th May 2003 and 6th June 2003 established that there was no concluded contract between the parties as on 3rd May, 2003.",
+      "predicted_label": "Facts",
+      "confidence": 0.4139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1314,
+        "Arguments of Respondent": 0.164,
+        "Decision": 0.0008,
+        "Facts": 0.4139,
+        "Issue": 0.0019,
+        "Reasoning": 0.288
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 143,
+      "text": "By their letter dated 10th May, 2003, the Appellant confirmed that their letter dated 3rd May, 2003 was under Clause 7 of the Protocol Agreement and was their confirmation to purchase the shares offered, though the price at which they were offered was not acceptable to them.",
+      "predicted_label": "Facts",
+      "confidence": 0.9482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0001,
+        "Facts": 0.9482,
+        "Issue": 0.0009,
+        "Reasoning": 0.0371
+      }
+    },
+    {
+      "sentence_id": 144,
+      "text": "This process has been completed and since no agreement has been reached on the value of the share, as per the Agreement, the parties involved have to proceed to appoint a Sole Arbitrator for the purpose.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.1262,
+        "Facts": 0.3609,
+        "Issue": 0.0012,
+        "Reasoning": 0.5
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 145,
+      "text": "The detail Terms of Reference would be communicated to you later.(emphasis supplied)56.",
+      "predicted_label": "Facts",
+      "confidence": 0.8138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1378,
+        "Arguments of Respondent": 0.0217,
+        "Decision": 0.0002,
+        "Facts": 0.8138,
+        "Issue": 0.0007,
+        "Reasoning": 0.0258
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "WMDC had indicated its desire to sell its shareholding in MSL.",
+      "predicted_label": "Facts",
+      "confidence": 0.8058,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1103,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0049,
+        "Facts": 0.8058,
+        "Issue": 0.0048,
+        "Reasoning": 0.0471
+      }
+    },
+    {
+      "sentence_id": 147,
+      "text": "However, price per share remained in dispute and hence in accordance with clause no.7 of the protocol agreement, the question of rate for the purchase by BAL of equity shares in MSL held by WMDC, is hereby referred to the Sole Arbitrator.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9901,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0007,
+        "Facts": 0.9901,
+        "Issue": 0.0007,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 148,
+      "text": "The Arbitrator shall take into account the Protocol Agreement covenants and all other concerned factors which may have impact on the share price of MSL shares, while giving his arbitral award.(emphasis supplied)57.",
+      "predicted_label": "Facts",
+      "confidence": 0.6906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0872,
+        "Arguments of Respondent": 0.1544,
+        "Decision": 0.0042,
+        "Facts": 0.6906,
+        "Issue": 0.0025,
+        "Reasoning": 0.0611
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 149,
+      "text": "This process (as recorded by the Respondent in their letter dated 27th October, 2003) has been completed and since no agreement has been reached on the value of the share, as per the Agreement, the parties involved have to appoint a Sole Arbitrator for the purpose.58.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5147,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.4252,
+        "Facts": 0.052,
+        "Issue": 0.0002,
+        "Reasoning": 0.5147
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 150,
+      "text": "Following the letter of 27th October 2003, a joint reference to arbitration was made on 29th December, 2003.",
+      "predicted_label": "Facts",
+      "confidence": 0.8873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0002,
+        "Facts": 0.8873,
+        "Issue": 0.0018,
+        "Reasoning": 0.0806
+      }
+    },
+    {
+      "sentence_id": 151,
+      "text": "The terms of reference contained an express statement of fact that the Appellant had expressed its willingness to buy the stake held by the Respondent in MSL and that the Respondent indicated its desire to sell its stake in MSL.",
+      "predicted_label": "Facts",
+      "confidence": 0.8572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0002,
+        "Facts": 0.8572,
+        "Issue": 0.0016,
+        "Reasoning": 0.1254
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "However, what remained in dispute was the price per share to be determined, and hence, in accordance with Clause 7 of the Protocol Agreement, the question of rate at which the Appellant was to purchase the equity shares held by the Respondent in MSL, was being referred.",
+      "predicted_label": "Facts",
+      "confidence": 0.7981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0481,
+        "Arguments of Respondent": 0.0438,
+        "Decision": 0.0004,
+        "Facts": 0.7981,
+        "Issue": 0.0015,
+        "Reasoning": 0.1081
+      }
+    },
+    {
+      "sentence_id": 153,
+      "text": "All this material would clearly indicate that there was a concluded contract between the parties as on 3rd May, 2003 and looking at the letter dated 27th October, 2003 as well as the joint reference dated 29th December 2003, clearly establishes that even the parties understood it to be so.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0592,
+        "Arguments of Respondent": 0.0751,
+        "Decision": 0.0006,
+        "Facts": 0.0576,
+        "Issue": 0.0014,
+        "Reasoning": 0.8061
+      }
+    },
+    {
+      "sentence_id": 154,
+      "text": "If according to the Respondent there was no concluded contract, then there would have been no occasion to either address the letter dated 27th October, 2003 to the Arbitrator or make a joint reference to him under clause 7 of the Protocol Agreement for determining the rate at which the shareholding of the Respondent would be sold to the Appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0881,
+        "Arguments of Respondent": 0.2689,
+        "Decision": 0.0005,
+        "Facts": 0.154,
+        "Issue": 0.0009,
+        "Reasoning": 0.4875
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 155,
+      "text": "It is only for the first time in the application filed by the Respondent before the Arbitrator on 6th April 2004, that the Respondent sought to question as to whether a concluded contract had been arrived at.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1037,
+        "Arguments of Respondent": 0.0808,
+        "Decision": 0.0012,
+        "Facts": 0.0549,
+        "Issue": 0.0011,
+        "Reasoning": 0.7583
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "We therefore have no hesitation in holding that on the basis of the correspondence exchanged between the parties and the Arbitrator, there was a concluded contract for sale of the Respondents 27 shareholding in MSL to the Appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.001,
+        "Facts": 0.0384,
+        "Issue": 0.0005,
+        "Reasoning": 0.954
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "The only question that the Arbitrator had to decide was the rate at which the said shares were to be sold as contemplated under Clause 7 of the Protocol Agreement and it was on this basis that a joint reference was made to the Arbitrator.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0762,
+        "Arguments of Respondent": 0.0894,
+        "Decision": 0.0006,
+        "Facts": 0.0744,
+        "Issue": 0.0005,
+        "Reasoning": 0.7589
+      }
+    },
+    {
+      "sentence_id": 158,
+      "text": "We, therefore, are unable to agree with the submission of Mr Samdani that on reading the correspondence between the parties viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9664,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0151,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.0002,
+        "Facts": 0.0064,
+        "Issue": 0.0001,
+        "Reasoning": 0.9664
+      }
+    },
+    {
+      "sentence_id": 159,
+      "text": "the letters dated 9th April 2003, 3rd May 2003, 10th May, 2003 and 6th June, 2003 it was established that there was no concluded contract as on 3rd May, 2003.59.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7321,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0668,
+        "Arguments of Respondent": 0.1212,
+        "Decision": 0.0051,
+        "Facts": 0.0743,
+        "Issue": 0.0004,
+        "Reasoning": 0.7321
+      }
+    },
+    {
+      "sentence_id": 160,
+      "text": "We are also unable to agree with the submission of Mr Samdani that because the parties were not adidem with respect to the date on which the valuation was required to be done, there was no concluded contract or that determining the same was outside the scope of the joint reference made to the Arbitrator.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0002,
+        "Facts": 0.0159,
+        "Issue": 0.0005,
+        "Reasoning": 0.9701
+      }
+    },
+    {
+      "sentence_id": 161,
+      "text": "It may be noted that the joint reference was made to the Arbitrator on the basis that there was a concluded contract between the parties with reference to the sale of the Respondents 27 shareholding in MSL to the Appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6254,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0005,
+        "Facts": 0.3557,
+        "Issue": 0.0015,
+        "Reasoning": 0.6254
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 162,
+      "text": "The only question that the Arbitrator was required to decide was the rate at which the said shareholding ought to be sold.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0882,
+        "Arguments of Respondent": 0.0841,
+        "Decision": 0.0007,
+        "Facts": 0.0792,
+        "Issue": 0.0018,
+        "Reasoning": 0.746
+      }
+    },
+    {
+      "sentence_id": 163,
+      "text": "In deciding this question, necessarily as a matter of fact, the Arbitrator had to ascertain the date on which the shares of the Respondent were to be valued.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0426,
+        "Arguments of Respondent": 0.044,
+        "Decision": 0.0004,
+        "Facts": 0.0476,
+        "Issue": 0.0028,
+        "Reasoning": 0.8626
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "A decision on the date was an integral part of deciding the rate at which the Respondents 27 shareholding was to be sold to the Appellant.60.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8584,
+      "probabilities": {
+        "Arguments of Petitioner": 0.055,
+        "Arguments of Respondent": 0.068,
+        "Decision": 0.0009,
+        "Facts": 0.0176,
+        "Issue": 0.0001,
+        "Reasoning": 0.8584
+      }
+    },
+    {
+      "sentence_id": 165,
+      "text": "To our mind, this is also contemplated in the joint reference dated 29th December, 2003 which specifically states that the Arbitrator shall take into account the Protocol Agreement covenants and all other concerned factors which may have an impact on the share price of MSL shares while giving the arbitral award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0544,
+        "Decision": 0.0009,
+        "Facts": 0.4433,
+        "Issue": 0.0017,
+        "Reasoning": 0.4834
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 166,
+      "text": "It cannot seriously be disputed that the date of valuation would certainly be one of the factors which would have an impact on the share price of MSL shares.61.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6387,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0267,
+        "Arguments of Respondent": 0.0828,
+        "Decision": 0.0013,
+        "Facts": 0.2497,
+        "Issue": 0.0008,
+        "Reasoning": 0.6387
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 167,
+      "text": "The Arbitrator held that the relevant date of valuation would be 3rd May 2003, which was the date on which the concluded contract was arrived at between the parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.7512,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0005,
+        "Facts": 0.7512,
+        "Issue": 0.0032,
+        "Reasoning": 0.2258
+      }
+    },
+    {
+      "sentence_id": 168,
+      "text": "In our view, in holding so, the Arbitrator had not transgressed and or exceeded his jurisdiction, and the determination of the date on which the valuation was to be done, was very much within the scope of the joint reference dated 29th December, 2003.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9457,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0023,
+        "Facts": 0.0465,
+        "Issue": 0.0004,
+        "Reasoning": 0.9457
+      }
+    },
+    {
+      "sentence_id": 169,
+      "text": "We find that the Arbitrator has correctly taken the date as 3rd May, 2003 being the date when a concluded contract was arrived at between the parties for the sale of the Respondents 27 shareholding in MSL to the Appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0466,
+        "Facts": 0.0581,
+        "Issue": 0.0015,
+        "Reasoning": 0.8858
+      }
+    },
+    {
+      "sentence_id": 170,
+      "text": "We find that the Arbitrator has dealt with this issue in detail from paragraphs 30 to 36 of the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0155,
+        "Arguments of Respondent": 0.0116,
+        "Decision": 0.0011,
+        "Facts": 0.0254,
+        "Issue": 0.0003,
+        "Reasoning": 0.9461
+      }
+    },
+    {
+      "sentence_id": 171,
+      "text": "We do not find any perversity in the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.05,
+        "Arguments of Respondent": 0.0746,
+        "Decision": 0.0014,
+        "Facts": 0.0232,
+        "Issue": 0.0007,
+        "Reasoning": 0.8499
+      }
+    },
+    {
+      "sentence_id": 172,
+      "text": "Similarly, we find that the learned Single Judge has dealt with this issue in paragraphs 16 to 19 of the impugned order and we are in full agreement with the reasoning contained therein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0037,
+        "Facts": 0.0328,
+        "Issue": 0.0002,
+        "Reasoning": 0.9499
+      }
+    },
+    {
+      "sentence_id": 173,
+      "text": "This contention, therefore, of Mr Samdani will also have to be rejected.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9334,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.037,
+        "Decision": 0.0004,
+        "Facts": 0.0041,
+        "Issue": 0.0003,
+        "Reasoning": 0.9334
+      }
+    },
+    {
+      "sentence_id": 174,
+      "text": "Mr Samdani submitted that MSL has been wrongly valued on a liquidation basis although admittedly MSL was a profit making going concern and was not ripe for winding up.63.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2338,
+        "Arguments of Respondent": 0.7549,
+        "Decision": 0.0003,
+        "Facts": 0.0046,
+        "Issue": 0.0002,
+        "Reasoning": 0.0062
+      }
+    },
+    {
+      "sentence_id": 175,
+      "text": "In support of the above submission, Mr Samdani adverted to the fact that Mr Raghuram of CRISIL, as on 30th June, 2002 valued the shares of MSL on the Net Asset Value (NAV) method on a going concern basis (hereinafter referred to as the first report).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7062,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7062,
+        "Arguments of Respondent": 0.2804,
+        "Decision": 0.0001,
+        "Facts": 0.0073,
+        "Issue": 0.0004,
+        "Reasoning": 0.0055
+      }
+    },
+    {
+      "sentence_id": 176,
+      "text": "He submitted that after examining different scenarios, Mr Raghuram accepted the historical breakeven level of sales (Scenario III in the first report) and carried out the valuation on that basis.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3837,
+        "Arguments of Respondent": 0.6057,
+        "Decision": 0.0002,
+        "Facts": 0.0025,
+        "Issue": 0.0001,
+        "Reasoning": 0.0079
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 177,
+      "text": "Mr Raghuram did not apply any discounts and valued the MSL shares at Rs.227/ per share.",
+      "predicted_label": "Facts",
+      "confidence": 0.5331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1455,
+        "Arguments of Respondent": 0.258,
+        "Decision": 0.0003,
+        "Facts": 0.5331,
+        "Issue": 0.0013,
+        "Reasoning": 0.0618
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 178,
+      "text": "Whilst doing so, Mr Raghuram also stated that in case the going concern assumption did not remain valid, then MSL could be valued on the liquidation basis.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4307,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1974,
+        "Arguments of Respondent": 0.4307,
+        "Decision": 0.0002,
+        "Facts": 0.302,
+        "Issue": 0.0004,
+        "Reasoning": 0.0692
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 179,
+      "text": "On this liquidation basis, Mr Raghuram gave discounts only on workmens dues and contingent liability and accordingly, valued the MSL shares at Rs.204/ per share, was the submission.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6222,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3134,
+        "Arguments of Respondent": 0.6222,
+        "Decision": 0.0001,
+        "Facts": 0.0494,
+        "Issue": 0.0003,
+        "Reasoning": 0.0145
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 180,
+      "text": "Mr. Samdani submitted that on the basis of this valuation, the offer dated 9th April, 2003 was made by the Respondent to the Appellant.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8553,
+        "Arguments of Respondent": 0.1336,
+        "Decision": 0.0001,
+        "Facts": 0.0015,
+        "Issue": 0.0002,
+        "Reasoning": 0.0093
+      }
+    },
+    {
+      "sentence_id": 181,
+      "text": "As the said offer was not accepted, a joint reference dated 29th December, 2003 was made to the learned Arbitrator for determining the rate at which the Respondents shareholding would be sold to the Appellant.64.",
+      "predicted_label": "Facts",
+      "confidence": 0.8477,
+      "probabilities": {
+        "Arguments of Petitioner": 0.014,
+        "Arguments of Respondent": 0.0207,
+        "Decision": 0.0003,
+        "Facts": 0.8477,
+        "Issue": 0.0008,
+        "Reasoning": 0.1166
+      }
+    },
+    {
+      "sentence_id": 182,
+      "text": "Mr. Samdani submitted that in the course of arbitral proceedings, the Respondent obtained another valuation from Mr Raghuram as on 3rd May, 2003 (hereinafter referred to as the second report).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7681,
+        "Arguments of Respondent": 0.2248,
+        "Decision": 0.0001,
+        "Facts": 0.0034,
+        "Issue": 0.0002,
+        "Reasoning": 0.0033
+      }
+    },
+    {
+      "sentence_id": 183,
+      "text": "Similarly, the Appellant also obtained the valuation of one Mr Bansi Mehta for the purposes of valuing the 27 shareholding of the Respondent in MSL as on 3rd May, 2003.",
+      "predicted_label": "Facts",
+      "confidence": 0.9814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0001,
+        "Facts": 0.9814,
+        "Issue": 0.0004,
+        "Reasoning": 0.0107
+      }
+    },
+    {
+      "sentence_id": 184,
+      "text": "Mr Samdani submitted that Mr Raghurams second report, which was prepared after the commencement of arbitration, valued the shares of MSL on the NAV method on a going concern basis.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1431,
+        "Arguments of Respondent": 0.847,
+        "Decision": 0.0002,
+        "Facts": 0.0046,
+        "Issue": 0.0002,
+        "Reasoning": 0.0049
+      }
+    },
+    {
+      "sentence_id": 185,
+      "text": "According to Mr Samdani, Mr Raghuram based his going concern assumption on the relevant accounting standards followed by MSL.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3774,
+        "Arguments of Respondent": 0.5699,
+        "Decision": 0.0002,
+        "Facts": 0.0141,
+        "Issue": 0.0002,
+        "Reasoning": 0.0382
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 186,
+      "text": "On the other hand, Mr Bansi Mehta valued the MSL shares on the NAV method on a liquidation basis.",
+      "predicted_label": "Facts",
+      "confidence": 0.691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0765,
+        "Arguments of Respondent": 0.1514,
+        "Decision": 0.0002,
+        "Facts": 0.691,
+        "Issue": 0.0027,
+        "Reasoning": 0.0782
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 187,
+      "text": "Mr Samdani submitted that Mr Bansi Mehtas report did not contain any explanation as to why the going concern basis was discarded and the liquidation basis was followed.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6621,
+        "Arguments of Respondent": 0.3112,
+        "Decision": 0.0002,
+        "Facts": 0.004,
+        "Issue": 0.0001,
+        "Reasoning": 0.0224
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 188,
+      "text": "He submitted that this was more so when it was not even in the contemplation of the parties that MSL was liable to be wound up or was ripe for winding up.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6202,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3621,
+        "Arguments of Respondent": 0.6202,
+        "Decision": 0.0003,
+        "Facts": 0.0119,
+        "Issue": 0.0002,
+        "Reasoning": 0.0054
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 189,
+      "text": "He submitted that the Arbitrator himself had held and accepted that the NAV method had two streams, viz.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3946,
+        "Arguments of Respondent": 0.5954,
+        "Decision": 0.0001,
+        "Facts": 0.0034,
+        "Issue": 0.0001,
+        "Reasoning": 0.0063
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 190,
+      "text": "(1) valuation on a going concern basis and (2) valuation on a liquidation basis.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3327,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3327,
+        "Arguments of Respondent": 0.1608,
+        "Decision": 0.0024,
+        "Facts": 0.25,
+        "Issue": 0.0309,
+        "Reasoning": 0.2231
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 191,
+      "text": "Mr Samdani submitted that the Arbitrator, without applying his mind and without any material on record, held that MSL is a loss making company and the valuation of MSL on liquidation basis was therefore justified.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8056,
+        "Arguments of Respondent": 0.1856,
+        "Decision": 0.0001,
+        "Facts": 0.0037,
+        "Issue": 0.0003,
+        "Reasoning": 0.0046
+      }
+    },
+    {
+      "sentence_id": 192,
+      "text": "According to Mr Samdani, the aforesaid findings were totally perverse and revealed a complete nonapplication of mind disregarding the material on record.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9658,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9658,
+        "Arguments of Respondent": 0.0152,
+        "Decision": 0.0001,
+        "Facts": 0.0054,
+        "Issue": 0.0002,
+        "Reasoning": 0.0134
+      }
+    },
+    {
+      "sentence_id": 193,
+      "text": "He submitted that the Arbitrator committed a fundamental error by ignoring the fact that MSL was in fact a profit making company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6857,
+        "Arguments of Respondent": 0.3067,
+        "Decision": 0.0002,
+        "Facts": 0.0032,
+        "Issue": 0.0003,
+        "Reasoning": 0.004
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 194,
+      "text": "This in itself takes away the very foundation of the Arbitrators decision for valuing MSL on a liquidation basis, was the submission of Mr. Samdani.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.608,
+        "Arguments of Respondent": 0.3641,
+        "Decision": 0.0001,
+        "Facts": 0.0057,
+        "Issue": 0.0001,
+        "Reasoning": 0.0219
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 195,
+      "text": "He submitted that while one segment of MSL (Operating Segment) was making operating losses, the Investment Segment was extremely profitable and MSL was thereby making profits.",
+      "predicted_label": "Facts",
+      "confidence": 0.5141,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0928,
+        "Arguments of Respondent": 0.3768,
+        "Decision": 0.0004,
+        "Facts": 0.5141,
+        "Issue": 0.0015,
+        "Reasoning": 0.0143
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 196,
+      "text": "This fact has been ignored by the Arbitrator which makes the award vulnerable to challenge, was the submission of Mr Samdani.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8932,
+        "Arguments of Respondent": 0.073,
+        "Decision": 0.0001,
+        "Facts": 0.0031,
+        "Issue": 0.0003,
+        "Reasoning": 0.0304
+      }
+    },
+    {
+      "sentence_id": 197,
+      "text": "For all the aforesaid reasons, Mr Samdani submitted that the Arbitrator was in fundamental error in accepting Mr Bansi Mehtas valuation that valued the MSL shares using the NAV method on a liquidation basis.65.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7267,
+        "Arguments of Respondent": 0.2609,
+        "Decision": 0.0001,
+        "Facts": 0.0044,
+        "Issue": 0.0003,
+        "Reasoning": 0.0076
+      }
+    },
+    {
+      "sentence_id": 198,
+      "text": "Mr Raghuram and Mr Bansi Mehta both adopted the NAV method, Mr Bansi Mehta in his report had taken into account certain discounts whilst arriving at his valuation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0817,
+        "Arguments of Respondent": 0.3384,
+        "Decision": 0.0005,
+        "Facts": 0.1875,
+        "Issue": 0.0005,
+        "Reasoning": 0.3914
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 199,
+      "text": "Despite this, both the valuers viz.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3135,
+        "Arguments of Respondent": 0.2416,
+        "Decision": 0.0013,
+        "Facts": 0.169,
+        "Issue": 0.0003,
+        "Reasoning": 0.2743
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 200,
+      "text": "Mr Raghuram as well as Mr Bansi Mehta did not adopt this method of valuation because the average quoted price of MSL shares in 2003 was approx Rs.65/ per share which did not reflect its true value.",
+      "predicted_label": "Facts",
+      "confidence": 0.5367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0954,
+        "Arguments of Respondent": 0.3249,
+        "Decision": 0.0001,
+        "Facts": 0.5367,
+        "Issue": 0.0007,
+        "Reasoning": 0.0422
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 201,
+      "text": "It is for this reason that both the valuers adopted the NAV method with one distinction viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0443,
+        "Arguments of Respondent": 0.1293,
+        "Decision": 0.0002,
+        "Facts": 0.0322,
+        "Issue": 0.0001,
+        "Reasoning": 0.7939
+      }
+    },
+    {
+      "sentence_id": 202,
+      "text": "Mr Raghuram valued it on a going concern basis without giving any discounts whereas Mr Bansi Mehta valued it on a liquidation basis and for the purposes of valuation, took into account certain discounts.",
+      "predicted_label": "Facts",
+      "confidence": 0.5975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0227,
+        "Arguments of Respondent": 0.0366,
+        "Decision": 0.0001,
+        "Facts": 0.5975,
+        "Issue": 0.0003,
+        "Reasoning": 0.3428
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 203,
+      "text": "In the facts of the present case, as stated earlier, Mr Raghuram as well as Mr Bansi Mehta both preferred to adopt the NAV method (which is really speaking the breakup value method, or valuation with reference to the assets of the company) subject to one distinction, viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0412,
+        "Arguments of Respondent": 0.2641,
+        "Decision": 0.0004,
+        "Facts": 0.0198,
+        "Issue": 0.0003,
+        "Reasoning": 0.6742
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 204,
+      "text": "that Mr Raghuram adopted the NAV method on a going concern basis without taking into account any discounts, whereas Mr Bansi Mehta adopted the NAV method on a liquidation basis and took into account certain discounts for the purposes of valuation.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6191,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2375,
+        "Arguments of Respondent": 0.6191,
+        "Decision": 0.0002,
+        "Facts": 0.0855,
+        "Issue": 0.0008,
+        "Reasoning": 0.0569
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 205,
+      "text": "This was done by Mr. Bansi Mehta in view of the peculiar circumstances of MSLs functioning and the fact that its operating segment was not only making repeated losses over the years but that admittedly it was incapable of making any profits.",
+      "predicted_label": "Facts",
+      "confidence": 0.9722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.0001,
+        "Facts": 0.9722,
+        "Issue": 0.0004,
+        "Reasoning": 0.0096
+      }
+    },
+    {
+      "sentence_id": 206,
+      "text": "After rejecting the report and evidence of Mr Raghuram, the Arbitrator, from paragraph 76 onwards, analyzed the valuation report and evidence led by Mr Bansi Mehta and came to the conclusion that the evidence of Mr Bansi Mehta ought to be accepted subject to two changes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7281,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0002,
+        "Facts": 0.2466,
+        "Issue": 0.0002,
+        "Reasoning": 0.7281
+      }
+    },
+    {
+      "sentence_id": 207,
+      "text": "After going through the arbitral award in great detail, we find that the learned Arbitrator has given cogent and plausible reasons for rejecting Mr. Raghurams second valuation report and accepting the valuation report of Mr. Bansi Mehta.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0015,
+        "Facts": 0.0315,
+        "Issue": 0.0005,
+        "Reasoning": 0.9623
+      }
+    },
+    {
+      "sentence_id": 208,
+      "text": "After taking into consideration the totality of the facts of the case and he peculiar circumstances of MSLs functioning and the fact that its operating segment (core business) was not only making repeated losses over the years, but admittedly it was incapable of making any profits, the Arbitrator accepted the valuation of Mr. Bansi Mehta, which valued the shares of MSL on the NAV method on liquidation basis.",
+      "predicted_label": "Facts",
+      "confidence": 0.8899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0248,
+        "Decision": 0.0005,
+        "Facts": 0.8899,
+        "Issue": 0.0004,
+        "Reasoning": 0.081
+      }
+    },
+    {
+      "sentence_id": 209,
+      "text": "It has come on record that the net profit of a company of this magnitude for the financial year 2003, was merely Rs. 34 lacs after adjusting the operating loss of Rs.5 Crores against the income received from the investments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.037,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0009,
+        "Facts": 0.0962,
+        "Issue": 0.0002,
+        "Reasoning": 0.8514
+      }
+    },
+    {
+      "sentence_id": 210,
+      "text": "As stated earlier, the core business of MSL (assembling scooters) was not only suffering repeated losses over the years but was not even in a position to breakeven, let alone make any profits.",
+      "predicted_label": "Facts",
+      "confidence": 0.8219,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0198,
+        "Arguments of Respondent": 0.0193,
+        "Decision": 0.0012,
+        "Facts": 0.8219,
+        "Issue": 0.0025,
+        "Reasoning": 0.1352
+      }
+    },
+    {
+      "sentence_id": 211,
+      "text": "We, therefore, find that the learned Arbitrator committed no error in accepting Mr. Bansi Mehtas valuation report which values the shares of MSL on the NAV method on a liquidation basis.",
+      "predicted_label": "Facts",
+      "confidence": 0.5138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.004,
+        "Facts": 0.5138,
+        "Issue": 0.0012,
+        "Reasoning": 0.4577
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 212,
+      "text": "The Arbitrator has accepted said report of Mr. Bansi Mehta after carefully taking into consideration the evidence of Mr. Bansi Mehta as well as his cross examination.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0336,
+        "Decision": 0.0005,
+        "Facts": 0.0672,
+        "Issue": 0.0,
+        "Reasoning": 0.8856
+      }
+    },
+    {
+      "sentence_id": 213,
+      "text": "Looking to the reasoning and the analysis of the evidence done by the Arbitrator, we do not think that the arbitral award suffers from any patent illegality or perversity either entitling the learned single judge (under section 34) or us (under section 37) to interfere with the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9683,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0108,
+        "Facts": 0.0159,
+        "Issue": 0.0003,
+        "Reasoning": 0.9683
+      }
+    },
+    {
+      "sentence_id": 214,
+      "text": "We therefore find that the learned Single Judge rightly declined to interfere with the arbitral award on this issue.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9008,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0038,
+        "Facts": 0.0839,
+        "Issue": 0.0006,
+        "Reasoning": 0.9008
+      }
+    },
+    {
+      "sentence_id": 215,
+      "text": "We must also mention here that the only distinction that was sought to be made by Mr Samdani between the going concern valuation and the liquidation basis valuation was that when the valuation was done on the NAV method on a going concern basis, there was no question of taking into account any discounts, whilst arriving at the valuation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.08,
+        "Arguments of Respondent": 0.2367,
+        "Decision": 0.0002,
+        "Facts": 0.0244,
+        "Issue": 0.0005,
+        "Reasoning": 0.6582
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 216,
+      "text": "However, Mr Samdani was unable to make good this submission.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1279,
+        "Arguments of Respondent": 0.321,
+        "Decision": 0.0019,
+        "Facts": 0.0077,
+        "Issue": 0.0002,
+        "Reasoning": 0.5412
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 217,
+      "text": "We fail to see on what basis this submission is made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0727,
+        "Arguments of Respondent": 0.094,
+        "Decision": 0.0066,
+        "Facts": 0.0152,
+        "Issue": 0.0018,
+        "Reasoning": 0.8097
+      }
+    },
+    {
+      "sentence_id": 218,
+      "text": "To our mind discounts are to be applied on the market value of the assets because what has to be worked out is what a shareholder can expect to get after all the assets of the Company are notionally sold and in abstract theory the entire sale proceeds are distributed to the shareholders.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8156,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0402,
+        "Arguments of Respondent": 0.106,
+        "Decision": 0.0002,
+        "Facts": 0.0375,
+        "Issue": 0.0004,
+        "Reasoning": 0.8156
+      }
+    },
+    {
+      "sentence_id": 219,
+      "text": "Whatever dues the Company would have to pay (statutory or otherwise) whilst selling its assets would have to be taken into account whilst arriving at the market value of the assets being sold.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7065,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1394,
+        "Arguments of Respondent": 0.1195,
+        "Decision": 0.0005,
+        "Facts": 0.034,
+        "Issue": 0.0002,
+        "Reasoning": 0.7065
+      }
+    },
+    {
+      "sentence_id": 220,
+      "text": "This to our mind, would be the position whether you value the Company on the NAV method on a going concern basis or on the NAV method on a liquidation basis.",
+      "predicted_label": "Facts",
+      "confidence": 0.4739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1181,
+        "Arguments of Respondent": 0.2122,
+        "Decision": 0.0006,
+        "Facts": 0.4739,
+        "Issue": 0.0018,
+        "Reasoning": 0.1934
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 221,
+      "text": "We therefore fail to see on what basis it is submitted that when a Company is valued on the NAV method on a going concern basis, there is no question of any discounts.74.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0242,
+        "Arguments of Respondent": 0.0552,
+        "Decision": 0.0003,
+        "Facts": 0.0149,
+        "Issue": 0.0002,
+        "Reasoning": 0.9052
+      }
+    },
+    {
+      "sentence_id": 222,
+      "text": "Mr Samdani next submitted that even if the NAV method on a liquidation basis was to be accepted, even then the impugned award was liable to be interfered with as Mr Bansi Mehta (in his valuation report) had taken into account certain discounts which were contrary to law.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8548,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8548,
+        "Arguments of Respondent": 0.1367,
+        "Decision": 0.0001,
+        "Facts": 0.0017,
+        "Issue": 0.0002,
+        "Reasoning": 0.0065
+      }
+    },
+    {
+      "sentence_id": 223,
+      "text": "According to Mr Samdani, the only discounts that could be taken into consideration were (a) workmens compensation (b) contingent liabilities if any and (c) liability towards capital gains tax.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7523,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7523,
+        "Arguments of Respondent": 0.188,
+        "Decision": 0.0001,
+        "Facts": 0.0086,
+        "Issue": 0.0002,
+        "Reasoning": 0.0509
+      }
+    },
+    {
+      "sentence_id": 224,
+      "text": "He submitted that the discounts that were taken into account by Mr Bansi Mehta and which were accepted by the Arbitrator, were not in consonance with the discounts that were permissible under a valuation on the NAV method on a liquidation basis.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5417,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4475,
+        "Arguments of Respondent": 0.5417,
+        "Decision": 0.0001,
+        "Facts": 0.0038,
+        "Issue": 0.0001,
+        "Reasoning": 0.0067
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 225,
+      "text": "The first discount that was assailed by Mr. Samdani was with reference to an amount of Rs.30 crores towards VRS (Voluntary Retirement Scheme).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6121,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6121,
+        "Arguments of Respondent": 0.1329,
+        "Decision": 0.0001,
+        "Facts": 0.0106,
+        "Issue": 0.0004,
+        "Reasoning": 0.2439
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 226,
+      "text": "The second discount which was assailed by Mr Samdani was a discount of 30 on the sale value of BAL (Bajaj Auto Ltd) shares held by MSL.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.461,
+        "Arguments of Respondent": 0.166,
+        "Decision": 0.0001,
+        "Facts": 0.1483,
+        "Issue": 0.0006,
+        "Reasoning": 0.224
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 227,
+      "text": "Mr Samdani also took exception to the fact that Mr Bansi Mehta had valued the nonBAL shares investments on a book value basis and not on their market value.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2697,
+        "Arguments of Respondent": 0.4627,
+        "Decision": 0.0001,
+        "Facts": 0.1827,
+        "Issue": 0.0003,
+        "Reasoning": 0.0845
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 228,
+      "text": "In the facts of the present case, we have already found that Mr Bansi Mehta adopted a recognised method of valuation which was accepted by the Arbitrator and did not proceed on a fundamentally erroneous basis so that the said valuation could be assailed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0011,
+        "Facts": 0.0042,
+        "Issue": 0.0002,
+        "Reasoning": 0.986
+      }
+    },
+    {
+      "sentence_id": 229,
+      "text": "As stated earlier, Mr Bansi Mehta chose to value the shares of MSL by adopting the NAV method on a liquidation basis looking to the peculiar functioning of MSL and the facts and circumstances of the case.",
+      "predicted_label": "Facts",
+      "confidence": 0.6504,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.1074,
+        "Decision": 0.0005,
+        "Facts": 0.6504,
+        "Issue": 0.0008,
+        "Reasoning": 0.2167
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 230,
+      "text": "Furthermore, it is not as if Mr Bansi Mehtas valuation report was treated as gospel truth and accepted by the Arbitrator.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8484,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0255,
+        "Arguments of Respondent": 0.0389,
+        "Decision": 0.0025,
+        "Facts": 0.0843,
+        "Issue": 0.0003,
+        "Reasoning": 0.8484
+      }
+    },
+    {
+      "sentence_id": 231,
+      "text": "The Arbitrator took into account the first and the second valuation reports of Mr Raghuram as well as the valuation report of Mr Bansi Mehta and after analyzing the detailed evidence led by the parties in relation to the said reports, sought to accept Mr Bansi Mehtas report subject to two changes as indicated earlier.",
+      "predicted_label": "Facts",
+      "confidence": 0.5842,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0003,
+        "Facts": 0.5842,
+        "Issue": 0.0002,
+        "Reasoning": 0.408
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 232,
+      "text": "Valuation being a question of fact as laid down by the Supreme Court in G.L. Sultanias case, coupled with the fact that the scope of interference with an arbitral award under section 34 of the Act is in any case only on certain limited parameters, we would be entitled to interfere with the award only if it is demonstrated that by accepting the discounts taken into consideration by Mr. Bansi Mehta in his valuation report, the Arbitrator committed any patent illegality or the award suffered from the vice of perversity.77.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9748,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0023,
+        "Facts": 0.0041,
+        "Issue": 0.0004,
+        "Reasoning": 0.9748
+      }
+    },
+    {
+      "sentence_id": 233,
+      "text": "Having said this, we shall now deal with each of the discounts independently.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0006,
+        "Facts": 0.0848,
+        "Issue": 0.0164,
+        "Reasoning": 0.8644
+      }
+    },
+    {
+      "sentence_id": 234,
+      "text": "The first discount taken into account was an amount of Rs.30 crores towards VRS (Voluntary Retirement Scheme).",
+      "predicted_label": "Facts",
+      "confidence": 0.8012,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0237,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0001,
+        "Facts": 0.8012,
+        "Issue": 0.0013,
+        "Reasoning": 0.1667
+      }
+    },
+    {
+      "sentence_id": 235,
+      "text": "Before we deal with this discount on merits, we must mention here that as rightly submitted by Mr Chinoy, no such ground is taken in section 34 petition and neither was the said contention urged before the learned Single Judge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9001,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0492,
+        "Arguments of Respondent": 0.0412,
+        "Decision": 0.0008,
+        "Facts": 0.0083,
+        "Issue": 0.0005,
+        "Reasoning": 0.9001
+      }
+    },
+    {
+      "sentence_id": 236,
+      "text": "In fact the contentions raised before the learned Single Judge have been listed at paragraph 13 of the impugned order and there is no mention of this contention.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5046,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1241,
+        "Arguments of Respondent": 0.0851,
+        "Decision": 0.006,
+        "Facts": 0.2797,
+        "Issue": 0.0006,
+        "Reasoning": 0.5046
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 237,
+      "text": "This is probably why we find no discussion on this issue in the impugned judgment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.0096,
+        "Decision": 0.0009,
+        "Facts": 0.0637,
+        "Issue": 0.0013,
+        "Reasoning": 0.893
+      }
+    },
+    {
+      "sentence_id": 238,
+      "text": "We would therefore be justified in not allowing Mr Samdani to urge this contention for the first time before us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9147,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0416,
+        "Arguments of Respondent": 0.0336,
+        "Decision": 0.0025,
+        "Facts": 0.0071,
+        "Issue": 0.0006,
+        "Reasoning": 0.9147
+      }
+    },
+    {
+      "sentence_id": 239,
+      "text": "In addition to the aforesaid, we may also note that Mr Raghuram himself in his first report (as on 30th June 2002), considering the value of MSL shares on the NAV method on a liquidation basis, had also provided for an adjustment of Rs.222.44 million towards VRS costs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6167,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.2069,
+        "Decision": 0.0029,
+        "Facts": 0.1574,
+        "Issue": 0.0019,
+        "Reasoning": 0.6167
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 240,
+      "text": "This in fact has been taken note of even by the Arbitrator in paragraph 60 of the arbitral award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8362,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0635,
+        "Arguments of Respondent": 0.062,
+        "Decision": 0.0005,
+        "Facts": 0.0375,
+        "Issue": 0.0002,
+        "Reasoning": 0.8362
+      }
+    },
+    {
+      "sentence_id": 241,
+      "text": "We therefore do not find any illegality or perversity in the arbitral award when this adjustment towards VRS was taken into account for the purpose of arriving at the valuation of MSL shares.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.016,
+        "Arguments of Respondent": 0.0274,
+        "Decision": 0.0015,
+        "Facts": 0.3401,
+        "Issue": 0.003,
+        "Reasoning": 0.612
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 242,
+      "text": "This argument of Mr Samdani will therefore have to be rejected.81.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9714,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.001,
+        "Facts": 0.002,
+        "Issue": 0.0002,
+        "Reasoning": 0.9714
+      }
+    },
+    {
+      "sentence_id": 243,
+      "text": "The second discount which was assailed by Mr. Samdani was the discount of 30 on the sale value of BAL shares held by MSL.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4825,
+        "Arguments of Respondent": 0.1561,
+        "Decision": 0.0001,
+        "Facts": 0.1146,
+        "Issue": 0.0011,
+        "Reasoning": 0.2456
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 244,
+      "text": "He submitted that Mr. Bansi Mehtas report suggests a discount of 30 on the sale value of BAL shares on account of three heads (I) Capital Gains, (II) Reserves and Surplus and (III) Dividend Tax.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6373,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6373,
+        "Arguments of Respondent": 0.3308,
+        "Decision": 0.0002,
+        "Facts": 0.0166,
+        "Issue": 0.0002,
+        "Reasoning": 0.0149
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 245,
+      "text": "He submitted that there was no question of any adjustment on account of Reserves and Surplus as well as Dividend Tax when MSL was valued on the NAV method on a liquidation basis.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1834,
+        "Arguments of Respondent": 0.8057,
+        "Decision": 0.0002,
+        "Facts": 0.0059,
+        "Issue": 0.0001,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 246,
+      "text": "He submitted that in liquidation there is no question of any Reserves and Surplus and dividend is paid to the shareholders only after all the liabilities, workmens dues and other statutory dues, if any, are paid.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.379,
+        "Arguments of Respondent": 0.6016,
+        "Decision": 0.0002,
+        "Facts": 0.0075,
+        "Issue": 0.0001,
+        "Reasoning": 0.0116
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 247,
+      "text": "He therefore submitted that by accepting the 30 discount on the sale value of BAL shares the Arbitrator committed a fundamental error and this was an error apparent on the face of award which rendered it vulnerable to challenge.82.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5222,
+      "probabilities": {
+        "Arguments of Petitioner": 0.466,
+        "Arguments of Respondent": 0.5222,
+        "Decision": 0.0002,
+        "Facts": 0.0058,
+        "Issue": 0.0002,
+        "Reasoning": 0.0056
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 248,
+      "text": "Mr Bansi Mehta has pointed out that in valuing the shares of MSL on the basis of the breakup value of its assets on a notional liquidation, what has to be worked out is what a shareholder can expect to get if the investee company (in this case, MSL) were to realize its investment, and in abstract theory distribute the entire proceeds of such asset sale to its shareholders.83.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2506,
+        "Arguments of Respondent": 0.4666,
+        "Decision": 0.0005,
+        "Facts": 0.079,
+        "Issue": 0.003,
+        "Reasoning": 0.2003
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 249,
+      "text": "The Arbitrator, after taking note of all the material on record, held that if MSL was to sell the BAL shares held by it, MSL would have to pay 10.5 towards capital gains tax, would have to transfer 10 of the receipt to Reserves and would have to pay 12.5 plus surcharge as the dividend tax.",
+      "predicted_label": "Facts",
+      "confidence": 0.966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0001,
+        "Facts": 0.966,
+        "Issue": 0.0006,
+        "Reasoning": 0.0305
+      }
+    },
+    {
+      "sentence_id": 250,
+      "text": "It is on this basis, and after carefully considering the evidence of Mr. Bansi Mehta, that the Arbitrator has discounted sale value of BAL shares by 30.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0194,
+        "Arguments of Respondent": 0.0534,
+        "Decision": 0.001,
+        "Facts": 0.0337,
+        "Issue": 0.0001,
+        "Reasoning": 0.8924
+      }
+    },
+    {
+      "sentence_id": 251,
+      "text": "We also find that if the shares of MSL were required to be valued on the basis of the NAV method on a notional sale liquidation basis, the value amount realized by a notional sale of its assets, would necessarily have to be discounted reduced by the costs which would have to be statutorily incurred on such notional sale.85.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5384,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0469,
+        "Arguments of Respondent": 0.0677,
+        "Decision": 0.0013,
+        "Facts": 0.3421,
+        "Issue": 0.0036,
+        "Reasoning": 0.5384
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 252,
+      "text": "Looking to the valuation report and the evidence of Mr. Bansi Mehta, as well as the detailed reasoning of the Arbitrator on this aspect, we are unable to agree with Mr. Samdani that the Arbitrator committed any fundamental error whilst accepting the discount of 30 on the sale value of BAL shares.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0004,
+        "Facts": 0.0051,
+        "Issue": 0.0002,
+        "Reasoning": 0.9855
+      }
+    },
+    {
+      "sentence_id": 253,
+      "text": "We do not find any perversity or patent illegality or any error apparent on the face of the award that makes it vulnerable to challenge on this aspect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.004,
+        "Facts": 0.009,
+        "Issue": 0.0009,
+        "Reasoning": 0.9709
+      }
+    },
+    {
+      "sentence_id": 254,
+      "text": "This argument of Mr. Samdani would therefore also have to be rejected.87.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0008,
+        "Facts": 0.0014,
+        "Issue": 0.0002,
+        "Reasoning": 0.9708
+      }
+    },
+    {
+      "sentence_id": 255,
+      "text": "Mr. Samdani next submitted that the arbitral award is in violation of Section 28(2) of the Arbitration and Conciliation Act, 1996, as the Arbitrator was not empowered under the Protocol Agreement to base his award on any equitable considerations and or on what he thought was just, fair and reasonable.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9497,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9497,
+        "Arguments of Respondent": 0.0457,
+        "Decision": 0.0001,
+        "Facts": 0.0009,
+        "Issue": 0.0003,
+        "Reasoning": 0.0033
+      }
+    },
+    {
+      "sentence_id": 256,
+      "text": "He submitted that looking at paragraph 100 of the arbitral award, it was clear that fixing the 30 discount on the sale value of BAL shares was done on the basis that it would be just, fair and reasonable and would meet the ends of justice, in the opinion of the Arbitrator.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4082,
+        "Arguments of Respondent": 0.5832,
+        "Decision": 0.0003,
+        "Facts": 0.0036,
+        "Issue": 0.0003,
+        "Reasoning": 0.0045
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 257,
+      "text": "He submitted that the Arbitrator had to decide the dispute as per the contract between the parties and there was no question of any just and equitable considerations being taken into account whilst fixing the 30 discount on the sale value of BAL shares.88.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6107,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3771,
+        "Arguments of Respondent": 0.6107,
+        "Decision": 0.0003,
+        "Facts": 0.0057,
+        "Issue": 0.0001,
+        "Reasoning": 0.0061
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 258,
+      "text": "However, in the facts of the present case, we find the reliance placed on the aforesaid provisions as wholly misplaced.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.013,
+        "Decision": 0.0005,
+        "Facts": 0.008,
+        "Issue": 0.0003,
+        "Reasoning": 0.962
+      }
+    },
+    {
+      "sentence_id": 259,
+      "text": "As noted earlier, Mr. Bansi Mehta in his evidence clearly stipulated in paragraph 5.4 of his report that the fair market value of BAL shares must allow for a discount of about 30 and that the BAL shares held by MSL valued at the six monthly average rate set out in Appendix  5 of his valuation report should be further discounted by no less than the 30.",
+      "predicted_label": "Facts",
+      "confidence": 0.7889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0508,
+        "Arguments of Respondent": 0.0458,
+        "Decision": 0.0013,
+        "Facts": 0.7889,
+        "Issue": 0.0025,
+        "Reasoning": 0.1106
+      }
+    },
+    {
+      "sentence_id": 260,
+      "text": "It is on the basis of this evidence that the Arbitrator had applied the discount of 30 to the value of BAL shares.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0641,
+        "Arguments of Respondent": 0.0455,
+        "Decision": 0.0005,
+        "Facts": 0.0433,
+        "Issue": 0.0001,
+        "Reasoning": 0.8464
+      }
+    },
+    {
+      "sentence_id": 261,
+      "text": "This figure of 30 is directly traceable to the evidence of Mr. Bansi Mehta, who has in categorical terms stated that the discount should be no less than the 30.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0403,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0002,
+        "Facts": 0.0108,
+        "Issue": 0.0001,
+        "Reasoning": 0.9341
+      }
+    },
+    {
+      "sentence_id": 262,
+      "text": "The observations of the Arbitrator in paragraph 100 of the arbitral award fixing the 30 discount on the ground that it should be just, fair and reasonable and would meet the ends of justice, cannot be read in isolation or be utilized to suggest that the Arbitrator was applying his own notion of what was fair, equitable and just.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9242,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0012,
+        "Facts": 0.0467,
+        "Issue": 0.0003,
+        "Reasoning": 0.9242
+      }
+    },
+    {
+      "sentence_id": 263,
+      "text": "We, therefore, do not find any substance in this argument.91.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9416,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0206,
+        "Arguments of Respondent": 0.0262,
+        "Decision": 0.0042,
+        "Facts": 0.0069,
+        "Issue": 0.0005,
+        "Reasoning": 0.9416
+      }
+    },
+    {
+      "sentence_id": 264,
+      "text": "However, whilst we are dealing with paragraph 100 of the arbitral award, it would be important to mention that in one area, there is an error of fact on the part of the Arbitrator where he refers to the first report of Raghuram as having indicated a discount of 30 to 40.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9574,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0019,
+        "Facts": 0.031,
+        "Issue": 0.0003,
+        "Reasoning": 0.9574
+      }
+    },
+    {
+      "sentence_id": 265,
+      "text": "Admittedly, the discount that was referred to in the first report of Raghuram dealt with the discount on MSLs shares and not BAL shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1437,
+        "Arguments of Respondent": 0.2507,
+        "Decision": 0.0005,
+        "Facts": 0.305,
+        "Issue": 0.0011,
+        "Reasoning": 0.299
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 266,
+      "text": "On this aspect, the Arbitrator has clearly made a mistake.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.028,
+        "Arguments of Respondent": 0.022,
+        "Decision": 0.0048,
+        "Facts": 0.0643,
+        "Issue": 0.0008,
+        "Reasoning": 0.8802
+      }
+    },
+    {
+      "sentence_id": 267,
+      "text": "However, we do not think that the mistake is such that would vitiate the entire arbitral award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9342,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0056,
+        "Facts": 0.049,
+        "Issue": 0.0008,
+        "Reasoning": 0.9342
+      }
+    },
+    {
+      "sentence_id": 268,
+      "text": "As discussed earlier, there was a wealth of evidence before the Arbitrator and which was accepted by him, to demonstrate that a discount of 30 on the sale value of BAL shares was sustainable, both on a conceptual as well as an empirical basis.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.05,
+        "Arguments of Respondent": 0.0324,
+        "Decision": 0.0009,
+        "Facts": 0.1189,
+        "Issue": 0.0038,
+        "Reasoning": 0.794
+      }
+    },
+    {
+      "sentence_id": 269,
+      "text": "Mr Samdani next submitted that Mr. Bansi Mehta in his valuation report had valued the nonBAL shares investments on their book value as opposed to their market value.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.523,
+      "probabilities": {
+        "Arguments of Petitioner": 0.523,
+        "Arguments of Respondent": 0.4544,
+        "Decision": 0.0001,
+        "Facts": 0.0043,
+        "Issue": 0.0001,
+        "Reasoning": 0.018
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 270,
+      "text": "According to Mr. Samdani, this too was a fundamental error in the valuation report of Mr. Bansi Mehta, and which was accepted by the Arbitrator whilst determining the valuation of the share price of MSL.93.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7321,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7321,
+        "Arguments of Respondent": 0.2381,
+        "Decision": 0.0001,
+        "Facts": 0.0051,
+        "Issue": 0.0002,
+        "Reasoning": 0.0243
+      }
+    },
+    {
+      "sentence_id": 271,
+      "text": "Prima facie , therefore, almost the entire appreciation may have arisen on account of MSLs shareholding in BAL, which we have considered separately after considering the average market rate for BALs shares.(emphasis supplied)94.",
+      "predicted_label": "Facts",
+      "confidence": 0.7412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0025,
+        "Facts": 0.7412,
+        "Issue": 0.0005,
+        "Reasoning": 0.2285
+      }
+    },
+    {
+      "sentence_id": 272,
+      "text": "Mr. Bansi Mehta, therefore, has stated his reasons for taking the book value of the nonBAL shares investments as opposed to their market value.",
+      "predicted_label": "Facts",
+      "confidence": 0.6291,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0275,
+        "Arguments of Respondent": 0.0399,
+        "Decision": 0.001,
+        "Facts": 0.6291,
+        "Issue": 0.0002,
+        "Reasoning": 0.3023
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 273,
+      "text": "He has further stated that he has adopted this approach since he believed that there may not be any material difference between the market value and the book value of these pure financial assets.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6441,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0846,
+        "Arguments of Respondent": 0.0466,
+        "Decision": 0.0008,
+        "Facts": 0.2237,
+        "Issue": 0.0002,
+        "Reasoning": 0.6441
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 274,
+      "text": "He has further stated that prima facie almost the entire appreciation may have arisen on account of MSLs share holding in BAL which were considered separately in the valuation report and have been valued on their market value.",
+      "predicted_label": "Facts",
+      "confidence": 0.7868,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0783,
+        "Arguments of Respondent": 0.1107,
+        "Decision": 0.0007,
+        "Facts": 0.7868,
+        "Issue": 0.0007,
+        "Reasoning": 0.0228
+      }
+    },
+    {
+      "sentence_id": 275,
+      "text": "As there was no material appreciation on these investments, Mr. Bansi Mehta thought that it was a fit case to value the nonBAL investments on their book value as opposed to their market value.",
+      "predicted_label": "Facts",
+      "confidence": 0.7481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0257,
+        "Arguments of Respondent": 0.043,
+        "Decision": 0.0002,
+        "Facts": 0.7481,
+        "Issue": 0.0006,
+        "Reasoning": 0.1824
+      }
+    },
+    {
+      "sentence_id": 276,
+      "text": "Mr. Bansi Mehta, in answer to Question No.173, has explained that if he had valued these investments on the market value basis, he would have had to apply a discount to that value as was done in the case of BAL shares and in such an eventuality the market value of these investments would have been lower than their book value.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0797,
+        "Arguments of Respondent": 0.0815,
+        "Decision": 0.0006,
+        "Facts": 0.0574,
+        "Issue": 0.0002,
+        "Reasoning": 0.7806
+      }
+    },
+    {
+      "sentence_id": 277,
+      "text": "On going through the evidence of Mr. Bansi Mehta as well as the reasoning of the Arbitrator, we do not find any fundamental error in the approach of Mr. Bansi Mehta in valuing the nonBAL shares investments on a book value basis as opposed to their market value.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0017,
+        "Facts": 0.1135,
+        "Issue": 0.0006,
+        "Reasoning": 0.877
+      }
+    },
+    {
+      "sentence_id": 278,
+      "text": "There is cogent justification with evidence for valuing the nonBAL shares investments on their book value as opposed to their market value.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5007,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0373,
+        "Arguments of Respondent": 0.2708,
+        "Decision": 0.0013,
+        "Facts": 0.189,
+        "Issue": 0.001,
+        "Reasoning": 0.5007
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 279,
+      "text": "We also find that the learned Single Judge has followed the same reasoning in paragraph 31 of the impugned order and we fully agree with the reasoning contained therein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0053,
+        "Facts": 0.0249,
+        "Issue": 0.0003,
+        "Reasoning": 0.9547
+      }
+    },
+    {
+      "sentence_id": 280,
+      "text": "We, therefore, are unable to agree with the submissions of Mr. Samdani that because the nonBAL shares investments were valued at their book value, the same was a fundamental error in the approach of valuation that opened up the arbitral award to challenge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0002,
+        "Facts": 0.0078,
+        "Issue": 0.0003,
+        "Reasoning": 0.9775
+      }
+    },
+    {
+      "sentence_id": 281,
+      "text": "This argument of Mr. Samdani would also therefore have to be rejected.96.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0009,
+        "Facts": 0.0015,
+        "Issue": 0.0001,
+        "Reasoning": 0.9767
+      }
+    },
+    {
+      "sentence_id": 282,
+      "text": "Mr. Samdani submitted that Mr. Raghuram in his second valuation report had added 84.85 to the fair value of MSLs shares as on 03.05.2003 towards control premium, and accordingly, valued MSLs shares at Rs.420.50 per share.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2511,
+        "Arguments of Respondent": 0.7331,
+        "Decision": 0.0001,
+        "Facts": 0.0104,
+        "Issue": 0.0003,
+        "Reasoning": 0.005
+      }
+    },
+    {
+      "sentence_id": 283,
+      "text": "On the other hand, Mr. Bansi Mehta as well as the Arbitrator ignored the aspect of control premium.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.797,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0647,
+        "Arguments of Respondent": 0.0206,
+        "Decision": 0.0009,
+        "Facts": 0.1166,
+        "Issue": 0.0003,
+        "Reasoning": 0.797
+      }
+    },
+    {
+      "sentence_id": 284,
+      "text": "Mr. Samdani submitted that the fair value of the Respondents share holding in MSL had to be determined by taking into consideration that the Appellant, by purchasing the Respondents shareholding in MSL, effectively gained full control of MSL (51) and MSL would become a subsidiary of the Appellant.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1972,
+        "Arguments of Respondent": 0.7917,
+        "Decision": 0.0001,
+        "Facts": 0.0026,
+        "Issue": 0.0001,
+        "Reasoning": 0.0083
+      }
+    },
+    {
+      "sentence_id": 285,
+      "text": "He, therefore, submitted that the Respondents 27 stake in MSL was of special interest to the Appellant.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5564,
+        "Arguments of Respondent": 0.3709,
+        "Decision": 0.0005,
+        "Facts": 0.0391,
+        "Issue": 0.0003,
+        "Reasoning": 0.0329
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 286,
+      "text": "This according to Mr. Samdani, would certainly have a bearing on the price of MSLs shares being sold to the Appellant, and therefore, the Arbitrator was in great error in coming to the conclusion that control premium was not to be taken into account in the facts of the present case.97.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6648,
+        "Arguments of Respondent": 0.3124,
+        "Decision": 0.0001,
+        "Facts": 0.0033,
+        "Issue": 0.0002,
+        "Reasoning": 0.0193
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 287,
+      "text": "On the aspect of control premium, we note that this issue has been discussed in great detail by the Arbitrator in paragraphs 59, 65, 74 and 75 of the arbitral award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9419,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0134,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.0022,
+        "Facts": 0.0349,
+        "Issue": 0.0003,
+        "Reasoning": 0.9419
+      }
+    },
+    {
+      "sentence_id": 288,
+      "text": "The Arbitrator, in paragraph 59 of the arbitral award has referred to the first valuation report of Mr Raghuram (as on 30th June, 2002) where he himself concluded that though the sale of the Respondents 27 shareholding to the Appellant would give the Appellant 51 shareholding in MSL, the nature of the shareholders agreement between the Appellant and the Respondent had already bestowed effective management control to the Appellant without boardroom control.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8531,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.0318,
+        "Decision": 0.0003,
+        "Facts": 0.101,
+        "Issue": 0.0002,
+        "Reasoning": 0.8531
+      }
+    },
+    {
+      "sentence_id": 289,
+      "text": "Mr Raghuram therefore himself concluded that the peculiar nature of the shareholders agreement between the Appellant and the Respondent would imply that the rationale for control premium might not exist.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1369,
+        "Arguments of Respondent": 0.1062,
+        "Decision": 0.0003,
+        "Facts": 0.0165,
+        "Issue": 0.0002,
+        "Reasoning": 0.7398
+      }
+    },
+    {
+      "sentence_id": 290,
+      "text": "The conclusion of Mr Raghuram in the said first valuation report was that taking into consideration the peculiar nature of the shareholders agreement between the Appellant and the Respondent would result in a market discount being offered to an alternative potential buyer to compensate for the lack of effective control.",
+      "predicted_label": "Facts",
+      "confidence": 0.5701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0446,
+        "Arguments of Respondent": 0.0745,
+        "Decision": 0.0001,
+        "Facts": 0.5701,
+        "Issue": 0.0003,
+        "Reasoning": 0.3103
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 291,
+      "text": "The concluding portion of paragraph 4.7 of Mr Raghurams first report is as under These aspects of the shareholders agreement would result in a market discount being offered to an alternative potential buyer to compensate the incumbent for the lack of effective control.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3317,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3317,
+        "Arguments of Respondent": 0.3135,
+        "Decision": 0.0002,
+        "Facts": 0.0745,
+        "Issue": 0.0002,
+        "Reasoning": 0.2798
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 292,
+      "text": "Having opined in his first valuation report that instead of any control premium being applied, the circumstances called for a discount being given on account of the fact that the Appellant was already having management control, Mr Raghuram in his second report did a complete turn around and concluded that in the same circumstances as stated above, a control premium to the extent of 84.85 would be applicable and that too on the fair value of share and not the market value thereof, which at that time was approximately Rs.65/ per share.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0406,
+        "Arguments of Respondent": 0.1075,
+        "Decision": 0.0003,
+        "Facts": 0.1148,
+        "Issue": 0.0002,
+        "Reasoning": 0.7366
+      }
+    },
+    {
+      "sentence_id": 293,
+      "text": "The Arbitrator considered all these factors (especially in paragraphs 59, 65, 70, 74 and 75 of the award) and concluded that there was no basis for the inclusion addition of any control premium.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8505,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0006,
+        "Facts": 0.1063,
+        "Issue": 0.0001,
+        "Reasoning": 0.8505
+      }
+    },
+    {
+      "sentence_id": 294,
+      "text": "We find that the Arbitrator has considered all the relevant evidence placed before him and then come to the conclusion that the rationale for control premium would, therefore, not exist in the facts of this case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0145,
+        "Facts": 0.0321,
+        "Issue": 0.001,
+        "Reasoning": 0.9431
+      }
+    },
+    {
+      "sentence_id": 295,
+      "text": "We do not think that the findings of the Arbitrator on this aspect suffer from any perversity or patent illegality, entitling us to interfere with the same under section 34 of the Arbitration and Conciliation Act, 1996.99.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.963,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0132,
+        "Facts": 0.0057,
+        "Issue": 0.0005,
+        "Reasoning": 0.963
+      }
+    },
+    {
+      "sentence_id": 296,
+      "text": "For the reasons stated earlier in this judgment, we do not find any merit in the Cross Objections.",
+      "predicted_label": "Decision",
+      "confidence": 0.6101,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.6101,
+        "Facts": 0.035,
+        "Issue": 0.0008,
+        "Reasoning": 0.3499
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 297,
+      "text": "We must mention here that under the arbitral award, the Arbitrator directed that the 30,85,712 equity shares of MSL held by the Respondent herein, are to be valued for the purpose of sale to the Appellant at Rs.151.63/ per share.",
+      "predicted_label": "Facts",
+      "confidence": 0.8725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0003,
+        "Facts": 0.8725,
+        "Issue": 0.0013,
+        "Reasoning": 0.1165
+      }
+    },
+    {
+      "sentence_id": 298,
+      "text": "As per the said direction, the amount that would have to be paid by the Appellant to the Respondent for the purchase of the said 30,85,712 equity shares would come to Rs.46,78,86,510.56.",
+      "predicted_label": "Facts",
+      "confidence": 0.8961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0056,
+        "Facts": 0.8961,
+        "Issue": 0.0035,
+        "Reasoning": 0.0756
+      }
+    },
+    {
+      "sentence_id": 299,
+      "text": "In the peculiar facts and circumstances of the case, and considering the fact that this amount has admittedly not been paid till date by the Appellant to the Respondent herein, we think that the interests of justice would be served, if this amount is paid by the Appellant to the Respondent together with simple interest 18 per annum from the date of the Award (14th January, 2006) till payment.100.",
+      "predicted_label": "Decision",
+      "confidence": 0.4952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.4952,
+        "Facts": 0.004,
+        "Issue": 0.0008,
+        "Reasoning": 0.4942
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 300,
+      "text": "In conclusion, we hold that Appeal No.153 of 2010 is allowed and the impugned order dated 15th February 2010 is set aside insofar as it set aside the arbitral award on the ground that Clause 7 of the Protocol Agreement was in the nature of a restriction on free transferability of the shares and was therefore contrary to section 111A of the Companies Act, 1956.",
+      "predicted_label": "Decision",
+      "confidence": 0.9649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9649,
+        "Facts": 0.0032,
+        "Issue": 0.0002,
+        "Reasoning": 0.0311
+      }
+    },
+    {
+      "sentence_id": 301,
+      "text": "The Cross Objections (L) No.13 of 2010 filed by the Respondent have no merit and therefore stand dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.5134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.5134,
+        "Facts": 0.3256,
+        "Issue": 0.0013,
+        "Reasoning": 0.1517
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 302,
+      "text": "The Appellant, for the purchase of the 30,85,712 equity shares of MSL, shall pay to the Respondent a sum of Rs. 46,78,86,510.56/ together with simple interest 18 per annum from 14th January, 2006 till payment.",
+      "predicted_label": "Decision",
+      "confidence": 0.8431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.8431,
+        "Facts": 0.0412,
+        "Issue": 0.0006,
+        "Reasoning": 0.1093
+      }
+    },
+    {
+      "sentence_id": 303,
+      "text": "Appeal No.153 of 2010 and Cross Objections (L) No.13 of 2010 are disposed of in the aforesaid terms.",
+      "predicted_label": "Decision",
+      "confidence": 0.9404,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9404,
+        "Facts": 0.0429,
+        "Issue": 0.0004,
+        "Reasoning": 0.0156
+      }
+    },
+    {
+      "sentence_id": 304,
+      "text": "In the facts and circumstances of the case, we leave the parties to bear their own costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9811,
+        "Facts": 0.003,
+        "Issue": 0.0001,
+        "Reasoning": 0.0151
+      }
+    }
+  ]
+}

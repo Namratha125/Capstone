@@ -1,0 +1,520 @@
+{
+  "case_id": "6813",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " N. CHANDURKAR, C.J.The question which has been seriously debated in this petition is whether the petitioner, which is a company, is entitled to a deduction on account of secondary packing, namely, the tin containers and the wooden and corrugated boxes in which packets of biscuits manufactured by the petitioner company are packed.2.",
+      "predicted_label": "Issue",
+      "confidence": 0.9054,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0004,
+        "Facts": 0.0914,
+        "Issue": 0.9054,
+        "Reasoning": 0.0017
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "On 4th January, 1983 a demand notice was issued to the petitioner company by the Excise Department that the company had not paid duty on the cost of secondary packing such as tins, corrugated boxes and wooden boxes etc. used by them for packing of biscuits and, therefore, the petitioner company was liable to pay a sum of Rs. 1,27,031.97 as basic excise duty and Rs. 6351.34 as special excise duty.",
+      "predicted_label": "Facts",
+      "confidence": 0.9845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9845,
+        "Issue": 0.0031,
+        "Reasoning": 0.0105
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The correctness of this demand was contested before the Assistant Collector of Central Excise.",
+      "predicted_label": "Facts",
+      "confidence": 0.9599,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9599,
+        "Issue": 0.0059,
+        "Reasoning": 0.0297
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "According to the petitioner, the Company sells biscuits in the wholesale market and at the factory gate duly packed in tins corrugated boxes cartons and, therefore, the entire value of the tins corrugated boxes should be excluded from the assessable value.",
+      "predicted_label": "Facts",
+      "confidence": 0.7216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2212,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0016,
+        "Facts": 0.7216,
+        "Issue": 0.0191,
+        "Reasoning": 0.0347
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Company had also contended before the Assistant Collector that tins or corrugated boxes were returnable and durable in nature.",
+      "predicted_label": "Facts",
+      "confidence": 0.5133,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0356,
+        "Arguments of Respondent": 0.0318,
+        "Decision": 0.0006,
+        "Facts": 0.5133,
+        "Issue": 0.0056,
+        "Reasoning": 0.4131
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "The Assistant Collector took the view on the decision of the Madhya Pradesh High Court in (Birla Jute Manufacturing Co. Ltd v. Union of India and others)1, 1980 E.L.T. 593, that in order that the value of the packing should be excluded, the packing has to be returnable by the buyers under the terms of the sale and the assessee had not brought further any contract wherein it was agreed upon between the assessee and the buyer that the packing would be returnable.",
+      "predicted_label": "Facts",
+      "confidence": 0.9342,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0001,
+        "Facts": 0.9342,
+        "Issue": 0.0032,
+        "Reasoning": 0.0497
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "This order is challenged by the petitioner company in this petition.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9848,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9848,
+        "Issue": 0.013,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "At the time of the hearing of the petition, the petitionerCompany by an affidavit dated 12th February, 1984 made it expressly clear that the petitionerCompany was not claiming any deduction on account of tin containers which were used as primary packing for loose biscuits and further that the Company was not claiming any deduction when loose biscuits were packed with grease proof paper and thereafter packed in a tin container.",
+      "predicted_label": "Facts",
+      "confidence": 0.7178,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0511,
+        "Arguments of Respondent": 0.0527,
+        "Decision": 0.0005,
+        "Facts": 0.7178,
+        "Issue": 0.0004,
+        "Reasoning": 0.1774
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The claim in the petition was restricted to the deductibility of the cost of tin corrugated containers which served as packing for biscuits which were primarily packed in a liner and thereafter in waxed paper which was known in the trade as E.W.P. (exclusively wrapped pack).",
+      "predicted_label": "Facts",
+      "confidence": 0.8544,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0295,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0003,
+        "Facts": 0.8544,
+        "Issue": 0.0091,
+        "Reasoning": 0.0977
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Deduction was also claimed in respect of corrugated containers in which biscuits which were primarily packed in polythene bag or liner and then packed in a corrugated air right carton.",
+      "predicted_label": "Facts",
+      "confidence": 0.8354,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0675,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.0002,
+        "Facts": 0.8354,
+        "Issue": 0.0018,
+        "Reasoning": 0.0755
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "These cartons were then packed in corrugated containers for the sake of convenience in handling and safe transportation .",
+      "predicted_label": "Facts",
+      "confidence": 0.8595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0118,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0006,
+        "Facts": 0.8595,
+        "Issue": 0.001,
+        "Reasoning": 0.116
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "In respect of chocolates, the demand was restricted to the corrugated containers in which were packed chocolates packed in aluminised foils and then in outer wrappers.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9905,
+        "Issue": 0.0008,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The main ground on which this exclusion of the cost of packing was sought by Mr. Hidayatullah appearing on behalf of the petitionerCompany was that the secondary packing consisting of the tin containers and the corrugated fibre containers was of a durable nature and was returnable by the buyer to the Company as contemplated by subclause (i) of Clause (d) of subsection (4) of section (4) of the Excise Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7629,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7629,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0005,
+        "Facts": 0.1528,
+        "Issue": 0.0095,
+        "Reasoning": 0.0718
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "In this subclause, packing means the wrapper, container, bobin, pirn, spool, reel or wrap beam or any other thing in which or on which the excisable goods are wrapped, contained or wound.",
+      "predicted_label": "Facts",
+      "confidence": 0.4557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0651,
+        "Arguments of Respondent": 0.0217,
+        "Decision": 0.0039,
+        "Facts": 0.4557,
+        "Issue": 0.0022,
+        "Reasoning": 0.4513
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Mr. Hidayatullah contended that what was required for the purpose of excluding the packing was that the packing had to be durable and returnable.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6898,
+        "Arguments of Respondent": 0.2174,
+        "Decision": 0.0004,
+        "Facts": 0.0019,
+        "Issue": 0.0002,
+        "Reasoning": 0.0904
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "With regard to the word durable the learned Counsel contended that the dictionary meaning of the word durable was able to exist for a long time.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6693,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6693,
+        "Arguments of Respondent": 0.2998,
+        "Decision": 0.0001,
+        "Facts": 0.0063,
+        "Issue": 0.0004,
+        "Reasoning": 0.0241
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "The word returnable must be construed as meaning capable of being returned and, according to the learned Counsel, what was relevant and material for deciding whether the value of the tin containers and the corrugated fibre containers was excludible or not was whether these containers were capable to being returned.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5075,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5075,
+        "Arguments of Respondent": 0.4523,
+        "Decision": 0.0006,
+        "Facts": 0.004,
+        "Issue": 0.0002,
+        "Reasoning": 0.0354
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 17,
+      "text": "According to the learned Counsel, the tin containers and the corrugated fibre containers, when they were used for secondary packing, were both durable and capable of being returned and therefore, in terms of the definition of value reproduced above, the cost of such packing had to be excluded for the determination of value of the excisable goods.5.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5146,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5146,
+        "Arguments of Respondent": 0.4616,
+        "Decision": 0.0002,
+        "Facts": 0.0076,
+        "Issue": 0.0003,
+        "Reasoning": 0.0157
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 18,
+      "text": "Mr. Sethna appearing on behalf of the Department has contended that having regard to the decision of the Supreme Court in (Union of India and others v. Bombay Tyre International Ltd.)2, 1983 E.L.T. 1896, no question of deducting the cost of a primary packing can ever arise and, according to the learned Counsel, even the cost of secondary packing has been held to be nondeductible by the Supreme Court in the said case.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6453,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3019,
+        "Arguments of Respondent": 0.6453,
+        "Decision": 0.0003,
+        "Facts": 0.0088,
+        "Issue": 0.0004,
+        "Reasoning": 0.0432
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Heavy reliable was placed by Mr. Sethna on paragraph 51 of the judgment in the Bombay Tyre Internationals case in the Bombay Tyre Internationals case, the Supreme Court has observed with regard to the facts of the case before them that it was apparent that the cost of primary packing, that is to say, the packing in which the article is contained and in which it is made marketable for the ordinary consumer, for example a tube of toothpaste or a bottle of tablets in a cardboard carton, or biscuits in a paper wrapper or in a tin container, must be regarded as falling within section 4(4)(d)(i).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1251,
+        "Arguments of Respondent": 0.1091,
+        "Decision": 0.0047,
+        "Facts": 0.0147,
+        "Issue": 0.0005,
+        "Reasoning": 0.746
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "It seems to us that the degree of secondary packing which is necessary for putting the excisable article in the condition in which it is generally sold in the wholesale market at the factory gate is the degree of packing whose cost can be included in the value of the article for the purpose of the Excise levy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0003,
+        "Facts": 0.0066,
+        "Issue": 0.001,
+        "Reasoning": 0.9732
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Mr. Sethna has vehemently contended before us that the test has now been laid down by the Supreme Court that is a secondary packing is necessary for putting the excisable article in the condition in which it is generally sold in the wholesale market at the factory gate, then the degree of secondary packing which is necessary is the degree of packing whose cost can be included in the value of the article for the purpose of excise duty.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.808,
+        "Arguments of Respondent": 0.0769,
+        "Decision": 0.0011,
+        "Facts": 0.0033,
+        "Issue": 0.0008,
+        "Reasoning": 0.1099
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "In so far as the present case is concerned, Mr. Sethna has contended that the tin containers and the corrugated fibre cartons are secondary packing which is necessary for putting the excisable article in the condition in which it is generally sold in the wholesale market at the factory gate and, therefore, the petitionercompany was not entitled to have value thereof excluded for the purposes of calculation of the excise duty.7.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3847,
+        "Arguments of Respondent": 0.5491,
+        "Decision": 0.0005,
+        "Facts": 0.0098,
+        "Issue": 0.0002,
+        "Reasoning": 0.0558
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "By excepting the cost or packing which is of a durable nature and is returnable by the buyer, the legislature was clearly giving effect to the principle that no excise duty would be leviable on a packing which was capable of being reused because this would mean that the value of the same packing would being subject to excise duty more than once.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9486,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0174,
+        "Arguments of Respondent": 0.0283,
+        "Decision": 0.0005,
+        "Facts": 0.0049,
+        "Issue": 0.0002,
+        "Reasoning": 0.9486
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "We are, therefore, of the view that the cost of only such packing which is of a durable nature and is returnable under the terms of the contract between the manufacturer and the wholesaler is excludable from the value for the purposes of excise duty.11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0029,
+        "Facts": 0.0076,
+        "Issue": 0.0006,
+        "Reasoning": 0.9784
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "It was contended before us by Mr. Hidayatullah that this construction would not be beneficial to the Revenue because even if the packing is not returned to the manufacturer, though there is a term in the contract regarding returnability, the Revenue will be put to a great loss because for the purposes merely of excise duty, by merely relying on the contract, the cost of packing will be excluded from the value.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4401,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3577,
+        "Arguments of Respondent": 0.1949,
+        "Decision": 0.0023,
+        "Facts": 0.0043,
+        "Issue": 0.0008,
+        "Reasoning": 0.4401
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "When the words of the statute are clear and are not, in our view, capable of any other construction the consideration that the cost of the packing will wrongly get excluded in our view, appears to be wholly irrelevant.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9842,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0008,
+        "Facts": 0.0023,
+        "Issue": 0.0003,
+        "Reasoning": 0.9842
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "Undoubtedly the Supreme Court has referred to the established practice of giving trade discount.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0363,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0012,
+        "Facts": 0.0666,
+        "Issue": 0.0045,
+        "Reasoning": 0.8789
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "But the Supreme Court also pointed out that the allowance and the nature of discount must be known at or prior to the removal of the goods.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0964,
+        "Arguments of Respondent": 0.015,
+        "Decision": 0.0004,
+        "Facts": 0.0808,
+        "Issue": 0.0022,
+        "Reasoning": 0.8052
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The value to be ascertained for the purposes of excise duty is the value at the time of removal of the goods.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0434,
+        "Decision": 0.0029,
+        "Facts": 0.0304,
+        "Issue": 0.0009,
+        "Reasoning": 0.889
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "If there has to be some certainty with regard to the method and the manner by which allowance in respect of durable and returnable packing is to be given, the only way by which this can be done is to ascertain at the time of removal of the goods as to whether it is a term of the sale that the durable packing will be liable to be returned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0005,
+        "Facts": 0.003,
+        "Issue": 0.0009,
+        "Reasoning": 0.9829
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "It cannot be left to doubt as to whether in a given case, there is a practice or usage of returning the packings or not, because, as earlier pointed out, what is the obligation of the manufacturer to accept the returned packing which can be reused and the price of such packing is left out of consideration because if the said packing is reused, it will become liable to excise duty for the second time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9803,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0025,
+        "Facts": 0.0061,
+        "Issue": 0.0005,
+        "Reasoning": 0.9803
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "We are, therefore, not satisfied that if it is not shown at the time of removal of the goods that under the terms of the sale, the packing was durable and liable to be returned, the price of such packing will still be excluded from the value.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0003,
+        "Facts": 0.0032,
+        "Issue": 0.0003,
+        "Reasoning": 0.9783
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "In this petition, the Company has proceeded on the footing that the packing is capable of being returned and not that it was returnable under the terms of the sale and, therefore, having regard to the view which we have taken, it is not possible to accept the contention of the petitioner company that they were not liable to pay the amount which was demanded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.013,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.0308,
+        "Facts": 0.1364,
+        "Issue": 0.0015,
+        "Reasoning": 0.7969
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "In this view of the matter, the petition must fail.",
+      "predicted_label": "Decision",
+      "confidence": 0.485,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.485,
+        "Facts": 0.0629,
+        "Issue": 0.0005,
+        "Reasoning": 0.4407
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "The Rule is discharged with costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9767,
+        "Facts": 0.013,
+        "Issue": 0.0001,
+        "Reasoning": 0.0096
+      }
+    }
+  ]
+}

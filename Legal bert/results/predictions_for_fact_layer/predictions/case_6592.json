@@ -1,0 +1,3557 @@
+{
+  "case_id": "6592",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This appeal under clause 15 of the Letters Patent is directed against an order passed by a learned Single Judge of this Court on the above Company Application.",
+      "predicted_label": "Issue",
+      "confidence": 0.5386,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0027,
+        "Facts": 0.4551,
+        "Issue": 0.5386,
+        "Reasoning": 0.0028
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 1,
+      "text": "By the order dated 13th April 1995 the learned Single Judge was pleased to make the company application absolute in terms of prayer clauses3 (a), (b) and (c).",
+      "predicted_label": "Facts",
+      "confidence": 0.802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0013,
+        "Facts": 0.802,
+        "Issue": 0.0018,
+        "Reasoning": 0.1823
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The learned Judge was also pleased to direct the Official Liquidator to make a report within eight weeks from the date of his order and thereafter the company application was to be placed on board for considering prayer clauses (d) and (e) thereof.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.996,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.996,
+        "Issue": 0.0003,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The company application was moved by Respondent No.3 before us which is the original Applicant.",
+      "predicted_label": "Facts",
+      "confidence": 0.8764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0029,
+        "Facts": 0.8764,
+        "Issue": 0.0477,
+        "Reasoning": 0.0601
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The company application was directed against the Official Liquidator of M s. Modella Textiles Industries Private Limited who was impleaded as Respondent No.1 and the Appellant before us was impleaded as respondent No.2 to the same.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0002,
+        "Facts": 0.9878,
+        "Issue": 0.0094,
+        "Reasoning": 0.0012
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "By the company application the original applicant sought a declaration that the second respondent (appellant) who is in occupation of an office premises bearing No.4C of 4th floor of Vulcan Insurance Building situate at Veer Nariman Road, Mumbai 400 020, is a trespasser, having no legal right to use and occupy these office premises and that a licence purported to have been created by the company in liquidation was patently illegal, fraudulent and void, abinitio.",
+      "predicted_label": "Facts",
+      "confidence": 0.9498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.9498,
+        "Issue": 0.0072,
+        "Reasoning": 0.0379
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "By prayer clause (c) a direction was sought to the second respondent to vacate and hand over peaceful possession of the office premises to the first respondent Official Liquidator within a period of four weeks from the date of order passed on the company application and in default, the first respondent Official Liquidator be directed to take forcible possession thereof.",
+      "predicted_label": "Facts",
+      "confidence": 0.9239,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0205,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0002,
+        "Facts": 0.9239,
+        "Issue": 0.0019,
+        "Reasoning": 0.0508
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "Prayer clauses (d) and (e) sought directions to the Official Liquidator firstly to take possession from the second respondent and hand it over to the applicant and thereafter inquiry be commenced to determine compensation damages at prevailing market rate up to the date of handing over possession and make payment thereof.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0,
+        "Facts": 0.9961,
+        "Issue": 0.0007,
+        "Reasoning": 0.0014
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The parties before us shall be referred to as described in the Company Application.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0002,
+        "Facts": 0.9951,
+        "Issue": 0.0021,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The undisputed facts are that Modella Textiles Industries Pvt. Ltd. is a company incorporated and registered under the Companies Act, 1956.",
+      "predicted_label": "Facts",
+      "confidence": 0.9666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0001,
+        "Facts": 0.9666,
+        "Issue": 0.0006,
+        "Reasoning": 0.0302
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Company Petition No.404 of 1986 was filed by one Rajesh Nathalal Sheth carrying on business in the name and style of M s. Giriraj Print Plast as its sole proprietor for winding up of Modella Textile Industries Pvt.",
+      "predicted_label": "Facts",
+      "confidence": 0.9662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0004,
+        "Facts": 0.9662,
+        "Issue": 0.0282,
+        "Reasoning": 0.004
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.3569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1732,
+        "Arguments of Respondent": 0.1217,
+        "Decision": 0.0075,
+        "Facts": 0.3569,
+        "Issue": 0.015,
+        "Reasoning": 0.3256
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "The company petition was filed invoking provisions of Sections 433 and 434 of the Indian Companies Act, 1956.",
+      "predicted_label": "Facts",
+      "confidence": 0.6525,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0702,
+        "Arguments of Respondent": 0.0615,
+        "Decision": 0.0018,
+        "Facts": 0.6525,
+        "Issue": 0.009,
+        "Reasoning": 0.205
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "The said company petition was filed on 31st July 1986.",
+      "predicted_label": "Facts",
+      "confidence": 0.728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0511,
+        "Arguments of Respondent": 0.0381,
+        "Decision": 0.003,
+        "Facts": 0.728,
+        "Issue": 0.019,
+        "Reasoning": 0.1608
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The said company petition being accepted by this Court came to be subsequently admitted on 11th December 1986.",
+      "predicted_label": "Facts",
+      "confidence": 0.7847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0434,
+        "Arguments of Respondent": 0.0505,
+        "Decision": 0.001,
+        "Facts": 0.7847,
+        "Issue": 0.0048,
+        "Reasoning": 0.1156
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "This Court while admitting the company petition was pleased to direct the Official Liquidator to act as Provisional Liquidator for the company in liquidation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9312,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0007,
+        "Facts": 0.9312,
+        "Issue": 0.0111,
+        "Reasoning": 0.0451
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "On 11th June 1987 the company was wound up by this Court and the order passed in that behalf directed the Official Liquidator to take charge of the assets of the company in liquidation.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9956,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9956,
+        "Issue": 0.0021,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The case of the applicant before learned Single Judge was that it is a Government Company and one of the subsidiaries of General Insurance Corporation of India.",
+      "predicted_label": "Facts",
+      "confidence": 0.9543,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0002,
+        "Facts": 0.9543,
+        "Issue": 0.005,
+        "Reasoning": 0.0248
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The General Insurance business came to be nationalized vide Nationalization Act passed in this behalf in 1973.",
+      "predicted_label": "Facts",
+      "confidence": 0.9711,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0,
+        "Facts": 0.9711,
+        "Issue": 0.0028,
+        "Reasoning": 0.0224
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "Pursuant to the scheme framed by the Central Government for taking over General Insurance business carried on by private insurance companies prior to passing of the Nationalization Act, subsidiary companies and corporations were set up and the applicant before us is one such subsidiary.",
+      "predicted_label": "Facts",
+      "confidence": 0.9772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9772,
+        "Issue": 0.0048,
+        "Reasoning": 0.0152
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The applicant took over the business of Vulcan Insurance Company Limited which was conducting insurance business privately.",
+      "predicted_label": "Facts",
+      "confidence": 0.9436,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.0102,
+        "Decision": 0.0002,
+        "Facts": 0.9436,
+        "Issue": 0.0028,
+        "Reasoning": 0.0164
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "The company was taken over by the applicant with all its assets and liabilities.",
+      "predicted_label": "Facts",
+      "confidence": 0.7172,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1293,
+        "Arguments of Respondent": 0.0615,
+        "Decision": 0.0016,
+        "Facts": 0.7172,
+        "Issue": 0.0055,
+        "Reasoning": 0.0849
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "By virtue of the take over, the applicant became owner of the Vulcan Insurance Building situate at the above mentioned address.",
+      "predicted_label": "Facts",
+      "confidence": 0.9804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0001,
+        "Facts": 0.9804,
+        "Issue": 0.0016,
+        "Reasoning": 0.0092
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The case of the applicant is that the second respondent is also tenant of office premises bearing No.5C on the 5th floor of this building.",
+      "predicted_label": "Facts",
+      "confidence": 0.9742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9742,
+        "Issue": 0.0025,
+        "Reasoning": 0.0079
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "It is the further case that second respondent and the company under liquidation are belonging to Modella Group and both companies are under the same arrangement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5524,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0959,
+        "Arguments of Respondent": 0.0735,
+        "Decision": 0.0096,
+        "Facts": 0.2656,
+        "Issue": 0.0032,
+        "Reasoning": 0.5524
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "At least till the date of order of the winding up by this Court, the registered office of the company in liquidation was located in the office premises No.4C on the 4th floor (subject premises).",
+      "predicted_label": "Facts",
+      "confidence": 0.8199,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0421,
+        "Arguments of Respondent": 0.0373,
+        "Decision": 0.0007,
+        "Facts": 0.8199,
+        "Issue": 0.0008,
+        "Reasoning": 0.0992
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "It is contended that the office premises on the 4th floor was originally let out to the company in liquidation by the erstwhile Vulcan Insurance Company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4844,
+        "Arguments of Respondent": 0.4115,
+        "Decision": 0.0003,
+        "Facts": 0.0592,
+        "Issue": 0.0011,
+        "Reasoning": 0.0436
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 27,
+      "text": "It is the further case that prior to winding up of the company in liquidation, second respondent entered into fraudulent arrangement in respect of said premises and took possession thereof under the guise of a licence created in its favour by the company in liquidation.",
+      "predicted_label": "Facts",
+      "confidence": 0.5612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1188,
+        "Arguments of Respondent": 0.0501,
+        "Decision": 0.0033,
+        "Facts": 0.5612,
+        "Issue": 0.002,
+        "Reasoning": 0.2646
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "The contention is that as per the records of the tenants of this building, the said premises admeasuring 2143 sq. ft.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4129,
+        "Arguments of Respondent": 0.158,
+        "Decision": 0.0008,
+        "Facts": 0.3323,
+        "Issue": 0.003,
+        "Reasoning": 0.093
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "on the 4th floor was let out on monthly rent of Rs.7,266/ to the company in liquidation.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0,
+        "Facts": 0.9949,
+        "Issue": 0.0005,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "We are not concerned with the premises at the 5th floor of this building but it was contended that even those premises were let out.",
+      "predicted_label": "Facts",
+      "confidence": 0.631,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0922,
+        "Arguments of Respondent": 0.0539,
+        "Decision": 0.0015,
+        "Facts": 0.631,
+        "Issue": 0.0014,
+        "Reasoning": 0.22
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "The same were let out to the second respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.7345,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0439,
+        "Arguments of Respondent": 0.0622,
+        "Decision": 0.0016,
+        "Facts": 0.7345,
+        "Issue": 0.0054,
+        "Reasoning": 0.1524
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "It is contended that after the insurance business was taken over, it is the applicant who has been issuing Rent Bills in respect of said premises.",
+      "predicted_label": "Facts",
+      "confidence": 0.4713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2847,
+        "Arguments of Respondent": 0.1739,
+        "Decision": 0.0022,
+        "Facts": 0.4713,
+        "Issue": 0.0101,
+        "Reasoning": 0.0579
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "The applicant is collecting rent from the tenants as per the Rent Bills and crediting the amount in its Books of Accounts maintained in the normal and ordinary course of business.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9574,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0195,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0002,
+        "Facts": 0.9574,
+        "Issue": 0.0024,
+        "Reasoning": 0.0088
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "It is contended that the company in liquidation was paying the rent regularly till December 1985.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3219,
+        "Arguments of Respondent": 0.4643,
+        "Decision": 0.0006,
+        "Facts": 0.1597,
+        "Issue": 0.0011,
+        "Reasoning": 0.0524
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "Thereafter, the payment was irregular.",
+      "predicted_label": "Facts",
+      "confidence": 0.5007,
+      "probabilities": {
+        "Arguments of Petitioner": 0.174,
+        "Arguments of Respondent": 0.1291,
+        "Decision": 0.004,
+        "Facts": 0.5007,
+        "Issue": 0.0021,
+        "Reasoning": 0.1901
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "In June 1986 a common Director of Modella Textile Industries Pvt. Ltd. and second respondent approached the applicant and requested for an accommodation in the payment of monthly rent in respect of said premises.",
+      "predicted_label": "Facts",
+      "confidence": 0.9947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.9947,
+        "Issue": 0.0007,
+        "Reasoning": 0.0032
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The request was that the payment of rent would be made by the second respondent for and on behalf of the company in liquidation, as the company in liquidation was facing financial problems and difficulties.",
+      "predicted_label": "Facts",
+      "confidence": 0.7056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0273,
+        "Decision": 0.0003,
+        "Facts": 0.7056,
+        "Issue": 0.0029,
+        "Reasoning": 0.2481
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "It is contended that this accommodation was sought in order to avoid forfeiture of tenancy rights of the company in liquidation on the ground of non payment of rent in respect of the subject premises.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5007,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3173,
+        "Arguments of Respondent": 0.5007,
+        "Decision": 0.0006,
+        "Facts": 0.1256,
+        "Issue": 0.0041,
+        "Reasoning": 0.0517
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "This request was accepted as a special case by the applicant.",
+      "predicted_label": "Facts",
+      "confidence": 0.8466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.045,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0004,
+        "Facts": 0.8466,
+        "Issue": 0.0046,
+        "Reasoning": 0.0839
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Normally, the policy is not to accept third party cheques but since the companies are under common group, the facility as aforesaid was extended.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.9865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0,
+        "Facts": 0.9865,
+        "Issue": 0.0013,
+        "Reasoning": 0.0034
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "It is the case of the applicant that in February 1990 second respondent approached it for transfer of tenancy in respect of the office premises that is subject premises on the ground that it has become a deemed tenant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9515,
+      "probabilities": {
+        "Arguments of Petitioner": 0.033,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0002,
+        "Facts": 0.9515,
+        "Issue": 0.0013,
+        "Reasoning": 0.0115
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "This ground was put forward on the basis of a decree passed by the Court of Small Causes, Mumbai in RAD Suit No.5937 of 1986.",
+      "predicted_label": "Facts",
+      "confidence": 0.8138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0407,
+        "Arguments of Respondent": 0.0196,
+        "Decision": 0.0016,
+        "Facts": 0.8138,
+        "Issue": 0.0412,
+        "Reasoning": 0.083
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "It is contended that the applicant was shocked and surprised by this demand.",
+      "predicted_label": "Facts",
+      "confidence": 0.5273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2388,
+        "Arguments of Respondent": 0.1422,
+        "Decision": 0.0004,
+        "Facts": 0.5273,
+        "Issue": 0.0021,
+        "Reasoning": 0.0892
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "They refused to make any changes in respect of tenancy of the said premises.",
+      "predicted_label": "Facts",
+      "confidence": 0.9231,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0002,
+        "Facts": 0.9231,
+        "Issue": 0.0018,
+        "Reasoning": 0.0586
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "They stopped accepting rent in respect of said premises which was tendered by the second respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.8644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0025,
+        "Facts": 0.8644,
+        "Issue": 0.0189,
+        "Reasoning": 0.0787
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "Since a reference was made to a decree passed by the Court of Small Causes, Mumbai in the aforesaid suit, the applicant called upon the second respondent to furnish papers and proceedings in the said suit.",
+      "predicted_label": "Facts",
+      "confidence": 0.9715,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0001,
+        "Facts": 0.9715,
+        "Issue": 0.0015,
+        "Reasoning": 0.0126
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "It was pointed out by the applicant that a decision on the request made by the second respondent would have to be taken by its Head office and therefore, all papers need be forwarded to it for due consideration of the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.9368,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0336,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0006,
+        "Facts": 0.9368,
+        "Issue": 0.0015,
+        "Reasoning": 0.0205
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "It is contended that after rejection of the oral request for change in tenancy rights as also refusal to accept cheques, that the papers and proceedings in the said suit came to be forwarded.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1843,
+        "Arguments of Respondent": 0.3639,
+        "Decision": 0.0007,
+        "Facts": 0.2643,
+        "Issue": 0.0011,
+        "Reasoning": 0.1856
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 49,
+      "text": "It is contended that till February 1990 the applicant had no idea of any proceeding in the Court of Small Causes instituted by the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.6403,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2064,
+        "Arguments of Respondent": 0.1104,
+        "Decision": 0.0006,
+        "Facts": 0.6403,
+        "Issue": 0.0033,
+        "Reasoning": 0.0389
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "The information about the decree was supplied orally and it is only in July 1990 that the applicant became aware of the proceedings in the Court of Small Causes.10.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1116,
+        "Arguments of Respondent": 0.0722,
+        "Decision": 0.001,
+        "Facts": 0.4044,
+        "Issue": 0.0014,
+        "Reasoning": 0.4092
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 51,
+      "text": "A reference is thereafter made in the affidavit in support of this company application to the suit filed in the Court of Small Causes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.059,
+        "Arguments of Respondent": 0.088,
+        "Decision": 0.0003,
+        "Facts": 0.4175,
+        "Issue": 0.0003,
+        "Reasoning": 0.4348
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 52,
+      "text": "It is contended that the suit was filed admittedly after the winding up petition was presented to this Court.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5297,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3377,
+        "Arguments of Respondent": 0.5297,
+        "Decision": 0.0014,
+        "Facts": 0.0444,
+        "Issue": 0.0028,
+        "Reasoning": 0.084
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "It was pointed out that the winding up petition was presented in July 1986 whereas the suit in which the decree came to be passed is filed on 28th November 1986.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3707,
+        "Arguments of Respondent": 0.3105,
+        "Decision": 0.0011,
+        "Facts": 0.1336,
+        "Issue": 0.0017,
+        "Reasoning": 0.1824
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 54,
+      "text": "On the same day, consent terms were tendered by the second respondent who is the original plaintiff in that suit and the company in liquidation which is the original defendant.",
+      "predicted_label": "Facts",
+      "confidence": 0.7887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0025,
+        "Facts": 0.7887,
+        "Issue": 0.055,
+        "Reasoning": 0.1368
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "By the consent terms, the parties recorded that since 1961 second respondent is in exclusive use, occupation and possession of the subject premises which are described in Red Wash at ExhibitA which was annexed to the plaint.",
+      "predicted_label": "Facts",
+      "confidence": 0.6889,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0006,
+        "Facts": 0.6889,
+        "Issue": 0.0039,
+        "Reasoning": 0.2913
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "The parties recorded that compensation of Rs.1,000/ per month has been agreed to be paid for said use and occupation.",
+      "predicted_label": "Facts",
+      "confidence": 0.7659,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0225,
+        "Facts": 0.7659,
+        "Issue": 0.0008,
+        "Reasoning": 0.1929
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "It was further admitted and agreed that leave and licence agreement in favour of the second respondent was subsisting prior to 1st February 1973 as well as on that date.",
+      "predicted_label": "Facts",
+      "confidence": 0.5341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0224,
+        "Arguments of Respondent": 0.0453,
+        "Decision": 0.0006,
+        "Facts": 0.5341,
+        "Issue": 0.0009,
+        "Reasoning": 0.3967
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "It is in the light of this that parties agreed that the second respondent becomes deemed tenant in respect of the subject premises.11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5411,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0204,
+        "Arguments of Respondent": 0.037,
+        "Decision": 0.0006,
+        "Facts": 0.3991,
+        "Issue": 0.0018,
+        "Reasoning": 0.5411
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 59,
+      "text": "It is further material to note that by these consent terms the common passage was to be used jointly by parties to the suit and cabin numbers 4 and 9 which were also described in Blue Wash to the plaint were to be used by the company in liquidation.",
+      "predicted_label": "Facts",
+      "confidence": 0.587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0003,
+        "Facts": 0.587,
+        "Issue": 0.0006,
+        "Reasoning": 0.4072
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 60,
+      "text": "In the light of this agreement the suit was decreed in terms of prayer clause (a) of the plaint.",
+      "predicted_label": "Facts",
+      "confidence": 0.9508,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9508,
+        "Issue": 0.0014,
+        "Reasoning": 0.045
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "These consent terms were taken on record by the Court of Small Causes on the very day of the institution of the suit and it issued a declaration of deemed tenancy in favour of the second respondent.12.",
+      "predicted_label": "Facts",
+      "confidence": 0.9361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0001,
+        "Facts": 0.9361,
+        "Issue": 0.0018,
+        "Reasoning": 0.0474
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "In the light of the above, the contention raised on behalf of the applicant was that the decree is vitiated by fraud perpetrated on the Court of Small Causes by the second respondent and company in liquidation acting in collusion.",
+      "predicted_label": "Facts",
+      "confidence": 0.7859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1468,
+        "Arguments of Respondent": 0.0116,
+        "Decision": 0.0005,
+        "Facts": 0.7859,
+        "Issue": 0.0017,
+        "Reasoning": 0.0535
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "It was contended that knowing fully well that a company petition is presented to this Court and is likely to result in appointment of Official Liquidator with further authority and power to take charge of the assets, that the plaintiff i.e. the second respondent and the defendant i.e. the company in liquidation filed this collusive suit and obtained a decree on the basis that the rights of second respondent are subsisting as licensee on the relevant date i.e. 1st February 1973.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5462,
+        "Arguments of Respondent": 0.1707,
+        "Decision": 0.0008,
+        "Facts": 0.1645,
+        "Issue": 0.001,
+        "Reasoning": 0.1168
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "According to the applicants, this date assumes significance because all such licenses which were subsisting as on this date, were protected by the amendment made to Bombay Rent, Hotels and Lodging Houses Rates Control Act, 1947 (hereinafter referred to as Bombay Rent Act).",
+      "predicted_label": "Facts",
+      "confidence": 0.6656,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2525,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.0011,
+        "Facts": 0.6656,
+        "Issue": 0.036,
+        "Reasoning": 0.0258
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "The applicants contend that not a single document evidencing payment of compensation prior to the relevant date, was either annexed or produced before the Court of Small Causes.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.84,
+      "probabilities": {
+        "Arguments of Petitioner": 0.84,
+        "Arguments of Respondent": 0.019,
+        "Decision": 0.0013,
+        "Facts": 0.0876,
+        "Issue": 0.0055,
+        "Reasoning": 0.0466
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The same was not produced during the course of hearing of the company application also.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.44,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2453,
+        "Arguments of Respondent": 0.1959,
+        "Decision": 0.0006,
+        "Facts": 0.1176,
+        "Issue": 0.0004,
+        "Reasoning": 0.44
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 67,
+      "text": "The applicants contended that the company in liquidation had admittedly defaulted in payment of rent and it was the second respondent who was paying rent on its behalf but its request for transfer of tenancy rights was expressly rejected.",
+      "predicted_label": "Facts",
+      "confidence": 0.4774,
+      "probabilities": {
+        "Arguments of Petitioner": 0.469,
+        "Arguments of Respondent": 0.0166,
+        "Decision": 0.0009,
+        "Facts": 0.4774,
+        "Issue": 0.0056,
+        "Reasoning": 0.0305
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 68,
+      "text": "It was contended that for the Court of Small Causes to have jurisdiction to go into the plaint averments, it is necessary that the second respondent avers as well as proves that license fee or charge was paid in respect of subject premises and that there was a subsisting license as on 1st February 1973.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4618,
+        "Arguments of Respondent": 0.3286,
+        "Decision": 0.0005,
+        "Facts": 0.0802,
+        "Issue": 0.0013,
+        "Reasoning": 0.1276
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 69,
+      "text": "Neither was any agreement of license produced nor any proof with regard to these material aspects placed before the Court of Small Causes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8733,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0557,
+        "Arguments of Respondent": 0.0395,
+        "Decision": 0.0007,
+        "Facts": 0.0305,
+        "Issue": 0.0003,
+        "Reasoning": 0.8733
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "Therefore, the Court of Small Causes was completely misled into passing a decree by consent and conferring upon the second respondent deemed tenancy rights in respect of the subject premises.13.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2941,
+        "Arguments of Respondent": 0.0514,
+        "Decision": 0.0016,
+        "Facts": 0.0459,
+        "Issue": 0.0002,
+        "Reasoning": 0.6068
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 71,
+      "text": "It is for the aforesaid reasons that the applicant invoked powers of this Court conferred by Sections 446 and 536(2) of the Companies Act, 1956 to declare that the second respondent is a trespasser and that the decree is vitiated by fraud, and therefore, a nullity.",
+      "predicted_label": "Facts",
+      "confidence": 0.4106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3198,
+        "Arguments of Respondent": 0.0729,
+        "Decision": 0.003,
+        "Facts": 0.4106,
+        "Issue": 0.0044,
+        "Reasoning": 0.1893
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 72,
+      "text": "The applicants attempt is to retrieve the assets and properties of the company in liquidation which according to them was the duty of the Official Liquidator but he having failed to do so, the applicants are entitled to present an application claiming the aforesaid reliefs.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.551,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2065,
+        "Arguments of Respondent": 0.0316,
+        "Decision": 0.0066,
+        "Facts": 0.2037,
+        "Issue": 0.0006,
+        "Reasoning": 0.551
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "The other aspect which was placed before the learned Single Judge and also set out in the affidavitinsupport is that being a Government Company incorporated under section 617 of the Companies Act, 1956, the applicants as well as their properties get covered by Public Premises (Eviction of Unauthorized Occupants) Act, 1971 (hereinafter referred to as the Public Premises Eviction Act).",
+      "predicted_label": "Facts",
+      "confidence": 0.7154,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1013,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.0002,
+        "Facts": 0.7154,
+        "Issue": 0.0073,
+        "Reasoning": 0.157
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "On and from the date of nationalization of the insurance companies and take over, subject premises assume character of public premises, as envisaged by the Public Premises Eviction Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7307,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1003,
+        "Arguments of Respondent": 0.1023,
+        "Decision": 0.0006,
+        "Facts": 0.0634,
+        "Issue": 0.0026,
+        "Reasoning": 0.7307
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "In the light of this development, the Court of Small Causes could not have passed any decree in the suit instituted by the second respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.107,
+        "Arguments of Respondent": 0.0832,
+        "Decision": 0.0112,
+        "Facts": 0.1016,
+        "Issue": 0.0006,
+        "Reasoning": 0.6965
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "It was contended that the Act applies to the premises and not to any relationship.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4044,
+      "probabilities": {
+        "Arguments of Petitioner": 0.292,
+        "Arguments of Respondent": 0.4044,
+        "Decision": 0.0009,
+        "Facts": 0.1439,
+        "Issue": 0.0049,
+        "Reasoning": 0.1539
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 77,
+      "text": "Therefore, the basis of the suit in the Court of Small Causes of relationship of licensor and licensee between the company in liquidation and second respondent is not of any relevance once the property itself is public premises.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.322,
+        "Arguments of Respondent": 0.2411,
+        "Decision": 0.001,
+        "Facts": 0.0632,
+        "Issue": 0.0003,
+        "Reasoning": 0.3723
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 78,
+      "text": "By virtue of Section 15 of the said Act the Court of Small Causes had no jurisdiction and competence, and therefore, on this ground also the decree is a nullity being not binding upon the applicant.15.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4063,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4063,
+        "Arguments of Respondent": 0.1252,
+        "Decision": 0.0009,
+        "Facts": 0.3058,
+        "Issue": 0.0015,
+        "Reasoning": 0.1603
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 79,
+      "text": "This company application is filed on 11th August 1993.",
+      "predicted_label": "Facts",
+      "confidence": 0.7041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0372,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.0013,
+        "Facts": 0.7041,
+        "Issue": 0.0076,
+        "Reasoning": 0.2284
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "Upon being served with the papers and proceedings, both, the Official Liquidator as well as the second respondent filed their affidavits.",
+      "predicted_label": "Facts",
+      "confidence": 0.9493,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0008,
+        "Facts": 0.9493,
+        "Issue": 0.0014,
+        "Reasoning": 0.0376
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "The second respondent principally contended that the issue as to whether the decree is vitiated by fraud and therefore a nullity, cannot be gone into in proceedings under the Companies Act, 1956.",
+      "predicted_label": "Facts",
+      "confidence": 0.4821,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.4452,
+        "Decision": 0.0004,
+        "Facts": 0.4821,
+        "Issue": 0.0023,
+        "Reasoning": 0.0604
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 82,
+      "text": "Moreso, at the instance of the applicant who is neither the original petitioner nor in any way a party before the Company Court.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3474,
+        "Arguments of Respondent": 0.201,
+        "Decision": 0.0059,
+        "Facts": 0.2372,
+        "Issue": 0.0028,
+        "Reasoning": 0.2057
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 83,
+      "text": "It was contended that the company in liquidation had specifically entered into an arrangement with the second respondent, which has not been denied by it or by the Official Liquidator.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4331,
+        "Arguments of Respondent": 0.4174,
+        "Decision": 0.0009,
+        "Facts": 0.0724,
+        "Issue": 0.0008,
+        "Reasoning": 0.0754
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 84,
+      "text": "The Official Liquidator has not come forward with the plea that the decree is not binding on him or the company in liquidation in any manner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8584,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0421,
+        "Arguments of Respondent": 0.0322,
+        "Decision": 0.0029,
+        "Facts": 0.064,
+        "Issue": 0.0005,
+        "Reasoning": 0.8584
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "Therefore, at the instance of the applicant who has a distinct right, title and interest in the premises, this Court cannot pass any order of eviction and delivery of possession, muchless issue a declaration that the second respondent is a trespasser.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2597,
+        "Arguments of Respondent": 0.261,
+        "Decision": 0.0018,
+        "Facts": 0.1249,
+        "Issue": 0.0012,
+        "Reasoning": 0.3514
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 86,
+      "text": "In short, the submission was that the Company Court had no jurisdiction to set aside the decree passed by the Court of Small Causes.16.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5097,
+        "Arguments of Respondent": 0.2293,
+        "Decision": 0.0002,
+        "Facts": 0.2064,
+        "Issue": 0.0007,
+        "Reasoning": 0.0537
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "Raising the aforesaid pleas, the company application was argued and the learned Single Judge by the impugned order found that the decree is vitiated by fraud in the light of admitted factual position.",
+      "predicted_label": "Facts",
+      "confidence": 0.9009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0134,
+        "Decision": 0.0006,
+        "Facts": 0.9009,
+        "Issue": 0.0045,
+        "Reasoning": 0.0713
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "Further, the premises being Public Premises and covered by Public Premises Eviction Act, there is no question of the Court of Small Causes passing any decree in respect thereof.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5083,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2336,
+        "Arguments of Respondent": 0.134,
+        "Decision": 0.0262,
+        "Facts": 0.0959,
+        "Issue": 0.0021,
+        "Reasoning": 0.5083
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "Even on merits, the decree was vitiated inasmuch as the learned Judge found that the second respondent was in possession of the said premises purely as a licensee in gratis and thus not protected by Section 15A of the Bombay Rent Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.4221,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1838,
+        "Arguments of Respondent": 0.036,
+        "Decision": 0.0045,
+        "Facts": 0.4221,
+        "Issue": 0.0086,
+        "Reasoning": 0.3451
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 90,
+      "text": "The learned Judge held that the decree is completely collusive and fraudulent.",
+      "predicted_label": "Facts",
+      "confidence": 0.7969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0012,
+        "Facts": 0.7969,
+        "Issue": 0.0027,
+        "Reasoning": 0.1898
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "It is further observed by him that on the strength of said decree the Official Liquidator cannot be prevented from taking possession of the subject premises, which admittedly form valuable asset of the company in liquidation.",
+      "predicted_label": "Facts",
+      "confidence": 0.4734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2139,
+        "Arguments of Respondent": 0.1787,
+        "Decision": 0.0009,
+        "Facts": 0.4734,
+        "Issue": 0.0022,
+        "Reasoning": 0.1309
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 92,
+      "text": "The learned Judge has referred to the Constitution Bench Decision in the case of Ashoka Marketing Ltd. and another Vs.",
+      "predicted_label": "Facts",
+      "confidence": 0.6245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.023,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0006,
+        "Facts": 0.6245,
+        "Issue": 0.0003,
+        "Reasoning": 0.3443
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 93,
+      "text": "The learned Judge has held that Section 446(2) of the Companies Act confers ample powers on the Company Court to entertain and dispose of any claim by or against the company and determine other questions whether of law or fact which may relate to or arise in course of winding up of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0001,
+        "Facts": 0.8559,
+        "Issue": 0.0012,
+        "Reasoning": 0.1292
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "Learned Judge also refers to Section 536(2) of the Companies Act and relying upon it further holds that the Company Court has jurisdiction to take cognizance of the company application and pass appropriate orders thereon.17.",
+      "predicted_label": "Facts",
+      "confidence": 0.7732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.0231,
+        "Decision": 0.0004,
+        "Facts": 0.7732,
+        "Issue": 0.0003,
+        "Reasoning": 0.1845
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "The applicants contention that the decree passed by the Court of Small Causes is a result of systematic conspiracy by the erstwhile management of the company in liquidation in order to get control over the premises lawfully belonging to it and defeat the Official Liquidators right to take over the subject premises is thus accepted by the learned Single Judge.18.",
+      "predicted_label": "Facts",
+      "confidence": 0.7735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.0135,
+        "Decision": 0.0001,
+        "Facts": 0.7735,
+        "Issue": 0.0006,
+        "Reasoning": 0.2021
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "Consistent with the aforesaid observations and findings, the learned Single Judge made the company application absolute as above.19.",
+      "predicted_label": "Facts",
+      "confidence": 0.959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0012,
+        "Facts": 0.959,
+        "Issue": 0.0003,
+        "Reasoning": 0.0366
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "Mr.Madon, learned Senior Counsel for the appellant contends that the Company Court has no jurisdiction to go into the question as to whether a decree passed by a competent Court is a nullity or vitiated by fraud.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9417,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9417,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0004,
+        "Facts": 0.0084,
+        "Issue": 0.0003,
+        "Reasoning": 0.046
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "He submits that far from issuing a declaration in favor of the applicant that the appellant is a trespasser, the Company Court has no power, authority or jurisdiction in law to decide the rights of parties who are not before it.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7686,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7686,
+        "Arguments of Respondent": 0.2162,
+        "Decision": 0.0002,
+        "Facts": 0.006,
+        "Issue": 0.0003,
+        "Reasoning": 0.0088
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "In other words, he submits that the company in liquidation and the appellant are two distinct legal entities.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8204,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8204,
+        "Arguments of Respondent": 0.1635,
+        "Decision": 0.0002,
+        "Facts": 0.0056,
+        "Issue": 0.0004,
+        "Reasoning": 0.0099
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "By assuming that they belong to the same group and are therefore, sister concerns, neither the applicant nor the learned Company Judge could have set aside the decree passed by the Court of Small Causes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5123,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0448,
+        "Arguments of Respondent": 0.0289,
+        "Decision": 0.0008,
+        "Facts": 0.4072,
+        "Issue": 0.0061,
+        "Reasoning": 0.5123
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 101,
+      "text": "He submits that the applicant is also not before the Company Court in any manner in the company proceedings.20.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4665,
+        "Arguments of Respondent": 0.4903,
+        "Decision": 0.0004,
+        "Facts": 0.0323,
+        "Issue": 0.0003,
+        "Reasoning": 0.0103
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 102,
+      "text": "Submissions of Mr.Madon proceed on the footing that assuming without admitting that the decree is fraudulent and therefore a nullity, the Company Court had no jurisdiction to either set it aside or hold it to be vitiated as such.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7788,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7788,
+        "Arguments of Respondent": 0.0464,
+        "Decision": 0.0005,
+        "Facts": 0.0032,
+        "Issue": 0.0007,
+        "Reasoning": 0.1705
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "He submits that the very basis of the order of learned Single Judge is thus erroneous.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8772,
+        "Arguments of Respondent": 0.0992,
+        "Decision": 0.0002,
+        "Facts": 0.0084,
+        "Issue": 0.0003,
+        "Reasoning": 0.0148
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "The assumption that fraud vitiates everything and therefore the decree passed by a competent Court could have been ignored by the Company Court, is thus fallacious.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8664,
+      "probabilities": {
+        "Arguments of Petitioner": 0.071,
+        "Arguments of Respondent": 0.04,
+        "Decision": 0.0005,
+        "Facts": 0.0218,
+        "Issue": 0.0002,
+        "Reasoning": 0.8664
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "He submits that creation of tenancy is not held to be fraudulent.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.232,
+        "Arguments of Respondent": 0.7527,
+        "Decision": 0.0005,
+        "Facts": 0.0041,
+        "Issue": 0.0002,
+        "Reasoning": 0.0106
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "So also mere filing of the suit in the Court of Small Causes cannot be said to be a fraudulent act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0174,
+        "Decision": 0.0006,
+        "Facts": 0.0749,
+        "Issue": 0.0001,
+        "Reasoning": 0.8905
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "Thus, creation of right in favour of the appellant apprehending liquidation, according to the learned Judge, being a fraudulent act and not binding on the Official Liquidator, is not a conclusion which can be arrived at when the aforesaid aspects become clear.",
+      "predicted_label": "Facts",
+      "confidence": 0.6155,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0222,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0001,
+        "Facts": 0.6155,
+        "Issue": 0.0004,
+        "Reasoning": 0.3476
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 108,
+      "text": "He submits that the company in liquidation is admittedly a tenant in respect of the subject premises.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4951,
+        "Arguments of Respondent": 0.4739,
+        "Decision": 0.0008,
+        "Facts": 0.0129,
+        "Issue": 0.001,
+        "Reasoning": 0.0163
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 109,
+      "text": "The appellants are claiming rights as sub tenant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0837,
+        "Arguments of Respondent": 0.0602,
+        "Decision": 0.0143,
+        "Facts": 0.0812,
+        "Issue": 0.0026,
+        "Reasoning": 0.758
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "Their rights blossom into sub tenancy on the basis that initial induction in the subject premises is as a licensee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0312,
+        "Arguments of Respondent": 0.0362,
+        "Decision": 0.0003,
+        "Facts": 0.2484,
+        "Issue": 0.0058,
+        "Reasoning": 0.6781
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 111,
+      "text": "That licence was subsisting on 1st February 1973 and therefore, the appellants are lawful sub tenants.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2499,
+        "Arguments of Respondent": 0.2925,
+        "Decision": 0.0032,
+        "Facts": 0.1021,
+        "Issue": 0.002,
+        "Reasoning": 0.3503
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 112,
+      "text": "He submits that the Company Judge had no jurisdiction to go behind this declaration of a competent Court in company jurisdiction.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6747,
+        "Arguments of Respondent": 0.2767,
+        "Decision": 0.0003,
+        "Facts": 0.0207,
+        "Issue": 0.0004,
+        "Reasoning": 0.0272
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 113,
+      "text": "He submits that the question whether the occupation by the appellant is as a Licencee or subtenant or can be termed as Trespass, are matters which are within exclusive domain of the Court of Small Causes.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5169,
+      "probabilities": {
+        "Arguments of Petitioner": 0.464,
+        "Arguments of Respondent": 0.5169,
+        "Decision": 0.0003,
+        "Facts": 0.0029,
+        "Issue": 0.0002,
+        "Reasoning": 0.0158
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 114,
+      "text": "In this behalf, he relies upon Section 28 of Bombay Rent Act, 1947.21.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5025,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5025,
+        "Arguments of Respondent": 0.4634,
+        "Decision": 0.0002,
+        "Facts": 0.004,
+        "Issue": 0.0001,
+        "Reasoning": 0.0297
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 115,
+      "text": "According to Mr.Madon the conduct of the appellant may be fraudulent but the Company Court could not have granted any relief in the company application as it lacked jurisdiction to take cognizance of the same.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7732,
+        "Arguments of Respondent": 0.1737,
+        "Decision": 0.0002,
+        "Facts": 0.0034,
+        "Issue": 0.0001,
+        "Reasoning": 0.0493
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "He submits that assuming that the Public Premises Eviction Act applies to the subject premises, as to whether it governs the relationship of the appellant and the company in liquidation, is something which the learned Judge could not have gone into and decided in the limited jurisdiction conferred upon him by the Companies Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8005,
+        "Arguments of Respondent": 0.1728,
+        "Decision": 0.0002,
+        "Facts": 0.008,
+        "Issue": 0.0005,
+        "Reasoning": 0.0179
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "He submits that it was always open for the applicant to invoke provisions of Public Premises Eviction Act and take appropriate steps and measures not only against the company in liquidation but present appellant as well.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5466,
+        "Arguments of Respondent": 0.4246,
+        "Decision": 0.0007,
+        "Facts": 0.0156,
+        "Issue": 0.0003,
+        "Reasoning": 0.0123
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 118,
+      "text": "That admittedly not being done, the applicant could not have been assisted by the learned Company Judge in the manner done in the present case.22.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0509,
+        "Arguments of Respondent": 0.0407,
+        "Decision": 0.0008,
+        "Facts": 0.0441,
+        "Issue": 0.0001,
+        "Reasoning": 0.8634
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "The second submission of Mr.Madon is that assuming that the Court had jurisdiction to take cognizance of the company application, a finding of fraud and nullity could not have been rendered by it unless evidence was recorded in the company application.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8137,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8137,
+        "Arguments of Respondent": 0.1092,
+        "Decision": 0.0001,
+        "Facts": 0.0023,
+        "Issue": 0.0003,
+        "Reasoning": 0.0743
+      }
+    },
+    {
+      "sentence_id": 120,
+      "text": "In a summary manner, the learned Judge has concluded that the decree is vitiated by fraud.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0009,
+        "Facts": 0.4348,
+        "Issue": 0.0031,
+        "Reasoning": 0.5437
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 121,
+      "text": "He submits that mere suspicion is not enough in such cases.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4727,
+        "Arguments of Respondent": 0.4969,
+        "Decision": 0.0006,
+        "Facts": 0.0054,
+        "Issue": 0.0003,
+        "Reasoning": 0.0242
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 122,
+      "text": "The circumstances may be suspicious and doubtful.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0007,
+        "Facts": 0.0081,
+        "Issue": 0.0004,
+        "Reasoning": 0.9705
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "However, when a finding of fraud has to be recorded, there must be cogent, satisfactory evidence and material before a Court of Law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9069,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0625,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.0006,
+        "Facts": 0.013,
+        "Issue": 0.0006,
+        "Reasoning": 0.9069
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "In the present case, the learned Judge has proceeded on affidavits and the impugned order, therefore, is unsustainable on this ground as well.23.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9672,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0063,
+        "Facts": 0.0058,
+        "Issue": 0.0001,
+        "Reasoning": 0.9672
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "The last contention of Mr.Madon is that the company application was barred by limitation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6431,
+        "Arguments of Respondent": 0.116,
+        "Decision": 0.0004,
+        "Facts": 0.0061,
+        "Issue": 0.0008,
+        "Reasoning": 0.2336
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 126,
+      "text": "He submits that after the amendment to the Code of Civil Procedure in 1976 the remedy of parties in such cases is to file an application under Order XXIII, Rule 3A if the decree is vitiated by fraud.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5393,
+        "Arguments of Respondent": 0.4499,
+        "Decision": 0.0002,
+        "Facts": 0.0024,
+        "Issue": 0.0003,
+        "Reasoning": 0.0079
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 127,
+      "text": "However, assuming that such remedy is available to the parties before the Court of Small Causes, in this case, as far as applicant is concerned, they could have gone to a competent Court and sought a declaration that the consent decree was vitiated by fraud and therefore, not binding on them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6032,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0814,
+        "Arguments of Respondent": 0.0407,
+        "Decision": 0.0028,
+        "Facts": 0.2695,
+        "Issue": 0.0024,
+        "Reasoning": 0.6032
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 128,
+      "text": "For such a declaration to be claimed by way of suit, the period of limitation prescribed under Article 59 is three years according to Mr.Madon.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5051,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4153,
+        "Arguments of Respondent": 0.5051,
+        "Decision": 0.0004,
+        "Facts": 0.0017,
+        "Issue": 0.0002,
+        "Reasoning": 0.0772
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 129,
+      "text": "Even under Article 137 of the Limitation Act which is a residuary provision, the company application was hopelessly time barred.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4517,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2399,
+        "Arguments of Respondent": 0.2046,
+        "Decision": 0.0077,
+        "Facts": 0.0952,
+        "Issue": 0.001,
+        "Reasoning": 0.4517
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "He submits that three years had admittedly lapsed from the date of knowledge of the decree, which is some time in February 1990.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5413,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5413,
+        "Arguments of Respondent": 0.4162,
+        "Decision": 0.0011,
+        "Facts": 0.0126,
+        "Issue": 0.0008,
+        "Reasoning": 0.028
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 131,
+      "text": "Therefore, company application instituted on 11th August 1993 ought to have been dismissed as time barred.24.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4918,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4918,
+        "Arguments of Respondent": 0.0369,
+        "Decision": 0.0043,
+        "Facts": 0.0176,
+        "Issue": 0.0005,
+        "Reasoning": 0.449
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 132,
+      "text": "In support of the aforesaid contentions Mr.Madon places strong reliance upon decisions of Supreme Court in case of Union of India Vs. M s.Chatrubhai M. Patel Co. reported in (1976)1SCC747, Indian Bank Vs. Official Liquidator, Chemmeens Exports (P) Ltd. and others reported in (1998)5SCC401 and Smt.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8632,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8632,
+        "Arguments of Respondent": 0.1174,
+        "Decision": 0.0001,
+        "Facts": 0.0029,
+        "Issue": 0.0002,
+        "Reasoning": 0.0163
+      }
+    },
+    {
+      "sentence_id": 133,
+      "text": "Nirmala R. Bafna Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3759,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3759,
+        "Arguments of Respondent": 0.3413,
+        "Decision": 0.0264,
+        "Facts": 0.0559,
+        "Issue": 0.008,
+        "Reasoning": 0.1924
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 134,
+      "text": "Khandesh Spinning and Weaving Mills Co. Ltd. reported in (1992) Volume 74Company Cases Page 1.25.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5091,
+        "Arguments of Respondent": 0.1458,
+        "Decision": 0.0007,
+        "Facts": 0.2086,
+        "Issue": 0.0006,
+        "Reasoning": 0.1353
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 135,
+      "text": "Appeal is contested principally by the original applicant.",
+      "predicted_label": "Facts",
+      "confidence": 0.8456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0265,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0014,
+        "Facts": 0.8456,
+        "Issue": 0.0989,
+        "Reasoning": 0.0253
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "The Official Liquidator who is present before us states that all steps postulated by law for taking possession of the assets and properties of the company, have been initiated and the process is under way.",
+      "predicted_label": "Facts",
+      "confidence": 0.6959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0427,
+        "Arguments of Respondent": 0.0566,
+        "Decision": 0.0131,
+        "Facts": 0.6959,
+        "Issue": 0.001,
+        "Reasoning": 0.1907
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 137,
+      "text": "He submits that he has taken possession of two cabins which are located in the subject premises.26.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2482,
+        "Arguments of Respondent": 0.4679,
+        "Decision": 0.003,
+        "Facts": 0.1674,
+        "Issue": 0.0002,
+        "Reasoning": 0.1132
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 138,
+      "text": "Ms.Phadke appearing for the Third respondent  original applicant submits that the subject premises are public premises and covered by an act of Parliament enacted in that behalf.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.9559,
+        "Decision": 0.0006,
+        "Facts": 0.0043,
+        "Issue": 0.0003,
+        "Reasoning": 0.0143
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "She submits that winding up is complete inasmuch as upon the order winding up the company being passed, the premises have to come back to the applicant who are legally entitled to them.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2915,
+        "Arguments of Respondent": 0.675,
+        "Decision": 0.0017,
+        "Facts": 0.0156,
+        "Issue": 0.0002,
+        "Reasoning": 0.0159
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 140,
+      "text": "Even the Official Liquidator could not have deprived the applicant of its right, title and interest in the subject premises.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3616,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3616,
+        "Arguments of Respondent": 0.1741,
+        "Decision": 0.0076,
+        "Facts": 0.1709,
+        "Issue": 0.0013,
+        "Reasoning": 0.2846
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 141,
+      "text": "He was duty bound in law to take possession of the same from the company in liquidation and hand them over to the applicants.",
+      "predicted_label": "Facts",
+      "confidence": 0.568,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1219,
+        "Arguments of Respondent": 0.0528,
+        "Decision": 0.004,
+        "Facts": 0.568,
+        "Issue": 0.0151,
+        "Reasoning": 0.2382
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 142,
+      "text": "She submits that all these aspects arise during the course of winding up and therefore, the Company Court has ample power, authority and jurisdiction.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2649,
+        "Arguments of Respondent": 0.6917,
+        "Decision": 0.0041,
+        "Facts": 0.0207,
+        "Issue": 0.0002,
+        "Reasoning": 0.0185
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 143,
+      "text": "She submits that all claims and questions arising out of and relating to winding up of a company or liquidation proceedings, have to be decided by the Company Court alone.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5479,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4434,
+        "Arguments of Respondent": 0.5479,
+        "Decision": 0.0003,
+        "Facts": 0.0022,
+        "Issue": 0.0001,
+        "Reasoning": 0.0061
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 144,
+      "text": "She relies upon Section 446 of the Companies Act in that behalf.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5595,
+        "Arguments of Respondent": 0.4112,
+        "Decision": 0.0003,
+        "Facts": 0.0094,
+        "Issue": 0.0002,
+        "Reasoning": 0.0194
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 145,
+      "text": "In the light of this statutory provision, according to her, the argument of Mr.Madon that the Company Court lack jurisdiction is untenable.27.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0441,
+        "Arguments of Respondent": 0.9394,
+        "Decision": 0.0001,
+        "Facts": 0.002,
+        "Issue": 0.0,
+        "Reasoning": 0.0144
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "Insofar as merits are concerned, she points out that the fraud is glaring and clear on the face of it.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7064,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2511,
+        "Arguments of Respondent": 0.7064,
+        "Decision": 0.0027,
+        "Facts": 0.0103,
+        "Issue": 0.0001,
+        "Reasoning": 0.0294
+      }
+    },
+    {
+      "sentence_id": 147,
+      "text": "She submits that no evidence is required when the collusion is crystal clear.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.599,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3877,
+        "Arguments of Respondent": 0.599,
+        "Decision": 0.0003,
+        "Facts": 0.0029,
+        "Issue": 0.0001,
+        "Reasoning": 0.0099
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 148,
+      "text": "She submits that there is no threat of eviction to the appellants before us.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9271,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0564,
+        "Arguments of Respondent": 0.9271,
+        "Decision": 0.001,
+        "Facts": 0.0023,
+        "Issue": 0.0001,
+        "Reasoning": 0.0131
+      }
+    },
+    {
+      "sentence_id": 149,
+      "text": "As to what prompted the appellants to institute the suit and claiming any declaration is not clear at all.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0317,
+        "Arguments of Respondent": 0.0282,
+        "Decision": 0.0012,
+        "Facts": 0.1059,
+        "Issue": 0.0025,
+        "Reasoning": 0.8305
+      }
+    },
+    {
+      "sentence_id": 150,
+      "text": "On the other hand, without paying any compensation or licence fees and apprehending that the Liquidator would dispossess the company in liquidation as well as appellant, a collusive suit was filed and a decree obtained on the very day of its institution.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4514,
+        "Arguments of Respondent": 0.0736,
+        "Decision": 0.0011,
+        "Facts": 0.174,
+        "Issue": 0.0008,
+        "Reasoning": 0.2991
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 151,
+      "text": "She has invited our attention to the averments in the plaint.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5176,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3957,
+        "Arguments of Respondent": 0.5176,
+        "Decision": 0.0009,
+        "Facts": 0.0038,
+        "Issue": 0.0001,
+        "Reasoning": 0.0819
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 152,
+      "text": "On this basis, she submits that the Court of Small Causes did not have jurisdiction to entertain and try the suit.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5777,
+        "Arguments of Respondent": 0.2321,
+        "Decision": 0.0024,
+        "Facts": 0.1322,
+        "Issue": 0.0028,
+        "Reasoning": 0.0528
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 153,
+      "text": "There is no relationship of licensor and licensee inasmuch as there is no evidence of payment of licence fees or charge.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5047,
+        "Arguments of Respondent": 0.1591,
+        "Decision": 0.009,
+        "Facts": 0.1519,
+        "Issue": 0.002,
+        "Reasoning": 0.1733
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 154,
+      "text": "The fraud is thus clear and the decree is therefore, a complete nullity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1244,
+        "Arguments of Respondent": 0.0336,
+        "Decision": 0.0503,
+        "Facts": 0.0601,
+        "Issue": 0.0005,
+        "Reasoning": 0.7311
+      }
+    },
+    {
+      "sentence_id": 155,
+      "text": "She submits that basic facts being admitted, no proof or evidence is necessary.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7054,
+      "probabilities": {
+        "Arguments of Petitioner": 0.266,
+        "Arguments of Respondent": 0.7054,
+        "Decision": 0.0025,
+        "Facts": 0.0074,
+        "Issue": 0.0002,
+        "Reasoning": 0.0186
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "Therefore, the learned Single Judge was right in his conclusion that the decree is not binding on the applicant.28.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9202,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.022,
+        "Decision": 0.0048,
+        "Facts": 0.0356,
+        "Issue": 0.0001,
+        "Reasoning": 0.9202
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "She invites our attention to the averments made in the company application with regard to negligence and inaction of the Official Liquidator and according to her, this has prompted the applicant to move the Company Court.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3923,
+        "Arguments of Respondent": 0.5165,
+        "Decision": 0.0026,
+        "Facts": 0.0166,
+        "Issue": 0.0002,
+        "Reasoning": 0.0718
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 158,
+      "text": "She has also invited our attention to Section 536 of the Companies Act and more particularly sub section 2 thereof.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.432,
+        "Arguments of Respondent": 0.5045,
+        "Decision": 0.001,
+        "Facts": 0.003,
+        "Issue": 0.0002,
+        "Reasoning": 0.0594
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 159,
+      "text": "She submits that when a fraud is apparent, every Court which has inherent power to do justice must pronounce that an order which is fraudulent and vitiated would not bind the parties.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6196,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6196,
+        "Arguments of Respondent": 0.3659,
+        "Decision": 0.0005,
+        "Facts": 0.0022,
+        "Issue": 0.0001,
+        "Reasoning": 0.0116
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 160,
+      "text": "Precisely this has been done in the instant case by the Company Judge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1004,
+        "Arguments of Respondent": 0.0414,
+        "Decision": 0.0005,
+        "Facts": 0.0465,
+        "Issue": 0.0001,
+        "Reasoning": 0.811
+      }
+    },
+    {
+      "sentence_id": 161,
+      "text": "Therefore, there is no substance in the contentions that the Company Judge was in error and the order passed by him is illegal or otherwise vitiated so as to be interfered with by us under clause 15 of the Letters Patent.29.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0013,
+        "Facts": 0.0137,
+        "Issue": 0.0002,
+        "Reasoning": 0.9681
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "She has also invited our attention to the relevant provisions of the Public Premises Eviction Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5678,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3609,
+        "Arguments of Respondent": 0.5678,
+        "Decision": 0.002,
+        "Facts": 0.0039,
+        "Issue": 0.0002,
+        "Reasoning": 0.0652
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 163,
+      "text": "She submits that the authorities and rulings relied upon by Mr.Madon would not apply in the facts and circumstances of present case, once the landlord is a public sector corporation and the premises are public premises.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8545,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1345,
+        "Arguments of Respondent": 0.8545,
+        "Decision": 0.0003,
+        "Facts": 0.003,
+        "Issue": 0.0001,
+        "Reasoning": 0.0075
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "In any event, there is no consent of the landlord so as to confer right of sub tenancy.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4216,
+        "Arguments of Respondent": 0.1684,
+        "Decision": 0.0042,
+        "Facts": 0.1128,
+        "Issue": 0.0015,
+        "Reasoning": 0.2916
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 165,
+      "text": "She submits that the decision of the Supreme Court in the case of Indian Bank could not apply because that interprets Section 446(4) of the Companies Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4357,
+        "Arguments of Respondent": 0.5435,
+        "Decision": 0.0007,
+        "Facts": 0.0075,
+        "Issue": 0.0002,
+        "Reasoning": 0.0124
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 166,
+      "text": "There the argument was not that the Court which passed a Decree was inherently lacking jurisdiction and otherwise incompetent to pass the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9216,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0438,
+        "Arguments of Respondent": 0.0257,
+        "Decision": 0.0006,
+        "Facts": 0.0063,
+        "Issue": 0.0021,
+        "Reasoning": 0.9216
+      }
+    },
+    {
+      "sentence_id": 167,
+      "text": "Once such pleas are raised, the subject matter is squarely within the ambit and powers of the company Court and therefore, the learned Judges order is perfectly justified and legal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5217,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0302,
+        "Arguments of Respondent": 0.5217,
+        "Decision": 0.0013,
+        "Facts": 0.0437,
+        "Issue": 0.0002,
+        "Reasoning": 0.403
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 168,
+      "text": "Consequently, she submits that the appeal be dismissed.30.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.9874,
+        "Decision": 0.002,
+        "Facts": 0.0005,
+        "Issue": 0.0003,
+        "Reasoning": 0.0044
+      }
+    },
+    {
+      "sentence_id": 169,
+      "text": "In support of her submissions she relies upon a decision of Supreme Court in the case of S.P.Chengalvaraya Naidu (dead) by LRs Vs. Jagannath (dead) by LRs and others reported in JT1993(6)SC331.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.612,
+        "Arguments of Respondent": 0.3764,
+        "Decision": 0.0002,
+        "Facts": 0.0039,
+        "Issue": 0.0001,
+        "Reasoning": 0.0075
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 170,
+      "text": "She has invited our attention to the decision of Bansi Lal and others Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4943,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4943,
+        "Arguments of Respondent": 0.4268,
+        "Decision": 0.0013,
+        "Facts": 0.0038,
+        "Issue": 0.0002,
+        "Reasoning": 0.0736
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 171,
+      "text": "Dhapo reported in (1902)24ILR242 and Section 44 of the Evidence Act, 1872.31.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4511,
+      "probabilities": {
+        "Arguments of Petitioner": 0.377,
+        "Arguments of Respondent": 0.1573,
+        "Decision": 0.0005,
+        "Facts": 0.0135,
+        "Issue": 0.0006,
+        "Reasoning": 0.4511
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 172,
+      "text": "In the present case the undisputed fact is that post nationalization of the Insurance business the subject premises stood vested in the applicant and therefore, according to them, assumed character of public premises.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8425,
+      "probabilities": {
+        "Arguments of Petitioner": 0.022,
+        "Arguments of Respondent": 0.0084,
+        "Decision": 0.0005,
+        "Facts": 0.1217,
+        "Issue": 0.005,
+        "Reasoning": 0.8425
+      }
+    },
+    {
+      "sentence_id": 173,
+      "text": "The submission proceeded on the basis that the Public Premises Eviction Act applies to the premises in question.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2788,
+        "Arguments of Respondent": 0.2298,
+        "Decision": 0.0018,
+        "Facts": 0.0983,
+        "Issue": 0.0105,
+        "Reasoning": 0.3809
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 174,
+      "text": "By virtue of its character as public premises and the Public Premises Eviction Act prevailing over the Bombay Rent Act, the Court of Small Causes had no jurisdiction, authority and power to pass any decree in respect thereof.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3757,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3727,
+        "Arguments of Respondent": 0.1037,
+        "Decision": 0.0054,
+        "Facts": 0.1415,
+        "Issue": 0.001,
+        "Reasoning": 0.3757
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 175,
+      "text": "The further basis upon which the learned Judge proceeded is that the premises in question would be an asset and property of the company in liquidation and therefore, the Official Liquidator was bound in law to take possession thereof.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0194,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.0002,
+        "Facts": 0.347,
+        "Issue": 0.0041,
+        "Reasoning": 0.6135
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 176,
+      "text": "The third assumption on the part of the learned Judge is that the Court of Small Causes passed a decree in a collusive suit inasmuch as without any evidence of relationship of licensor and licensee and any threat of eviction a declaration of deemed tenancy came to be issued by it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.038,
+        "Arguments of Respondent": 0.0225,
+        "Decision": 0.0002,
+        "Facts": 0.0837,
+        "Issue": 0.0009,
+        "Reasoning": 0.8547
+      }
+    },
+    {
+      "sentence_id": 177,
+      "text": "This declaration could not have been issued since requirements stipulated by Section 15A of the Bombay Rent Act namely subsistence of licence and payment of licence fee or charge as on the relevant date have not been satisfied in the present case.33.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0705,
+        "Arguments of Respondent": 0.0297,
+        "Decision": 0.0041,
+        "Facts": 0.0205,
+        "Issue": 0.0002,
+        "Reasoning": 0.875
+      }
+    },
+    {
+      "sentence_id": 178,
+      "text": "It is pertinent to note that company application has not been instituted by the Official Liquidator.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0475,
+        "Arguments of Respondent": 0.0486,
+        "Decision": 0.0123,
+        "Facts": 0.1861,
+        "Issue": 0.0017,
+        "Reasoning": 0.7039
+      }
+    },
+    {
+      "sentence_id": 179,
+      "text": "He does not claim any declaration of the nature claimed by the applicant much less any direction that the property be delivered to him.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.64,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0859,
+        "Arguments of Respondent": 0.0259,
+        "Decision": 0.0041,
+        "Facts": 0.2424,
+        "Issue": 0.0016,
+        "Reasoning": 0.64
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 180,
+      "text": "At the instance of the applicant who has a distinct right, title and interest in the premises based upon its character as public premises, it is extremely doubtful as to whether the learned Judge could have passed any orders on the company application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0281,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0022,
+        "Facts": 0.1592,
+        "Issue": 0.0004,
+        "Reasoning": 0.7993
+      }
+    },
+    {
+      "sentence_id": 181,
+      "text": "Moreso, when there is a further doubt as to whether the relationship of licensor and licensee which is claimed by the company in liquidation and the appellant before us, would be covered by the Public Premises Eviction Act, 1971.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0557,
+        "Arguments of Respondent": 0.0494,
+        "Decision": 0.014,
+        "Facts": 0.0831,
+        "Issue": 0.0063,
+        "Reasoning": 0.7916
+      }
+    },
+    {
+      "sentence_id": 182,
+      "text": "The forum, in this case, was elsewhere.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8153,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0788,
+        "Arguments of Respondent": 0.0511,
+        "Decision": 0.0011,
+        "Facts": 0.0513,
+        "Issue": 0.0025,
+        "Reasoning": 0.8153
+      }
+    },
+    {
+      "sentence_id": 183,
+      "text": "Either it was the Court of exclusive jurisdiction or the Civil Court which ordinarily has such authority.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8501,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0668,
+        "Arguments of Respondent": 0.0459,
+        "Decision": 0.0005,
+        "Facts": 0.0355,
+        "Issue": 0.0011,
+        "Reasoning": 0.8501
+      }
+    },
+    {
+      "sentence_id": 184,
+      "text": "Consequent upon termination of rights of the persons in occupation of public premises the Authority (Estate Officer) is empowered to issue appropriate directions including order of eviction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0464,
+        "Arguments of Respondent": 0.0365,
+        "Decision": 0.0005,
+        "Facts": 0.0474,
+        "Issue": 0.0049,
+        "Reasoning": 0.8642
+      }
+    },
+    {
+      "sentence_id": 185,
+      "text": "At the instance of the applicant who is the owner of the entire building and the subject premises, the learned Judge could not have gone into these aspects and proceed to quash and set aside the decree of the Court of Small Causes.34.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8972,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0349,
+        "Arguments of Respondent": 0.0318,
+        "Decision": 0.0023,
+        "Facts": 0.0336,
+        "Issue": 0.0003,
+        "Reasoning": 0.8972
+      }
+    },
+    {
+      "sentence_id": 186,
+      "text": "True it is that conduct of the appellant as well as the company in liquidation is reprehensible and deserves to be strongly deprecated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8843,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0269,
+        "Arguments of Respondent": 0.0138,
+        "Decision": 0.0042,
+        "Facts": 0.0702,
+        "Issue": 0.0005,
+        "Reasoning": 0.8843
+      }
+    },
+    {
+      "sentence_id": 187,
+      "text": "However, such conduct alone would not clothe the Company Court with the necessary jurisdiction, power and authority in law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6199,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1064,
+        "Arguments of Respondent": 0.1257,
+        "Decision": 0.0062,
+        "Facts": 0.1414,
+        "Issue": 0.0004,
+        "Reasoning": 0.6199
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 188,
+      "text": "The Company Court was exercising jurisdiction within four corners of the Companies Act, 1956.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2043,
+        "Arguments of Respondent": 0.3065,
+        "Decision": 0.0032,
+        "Facts": 0.0824,
+        "Issue": 0.0003,
+        "Reasoning": 0.4034
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 189,
+      "text": "It had before it the company petition for winding up upon which an order came to be passed of appointment of Provisional Liquidator and thereafter Official Liquidator.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.71,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0648,
+        "Arguments of Respondent": 0.0529,
+        "Decision": 0.0005,
+        "Facts": 0.1705,
+        "Issue": 0.0013,
+        "Reasoning": 0.71
+      }
+    },
+    {
+      "sentence_id": 190,
+      "text": "It has wound up the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.4775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0482,
+        "Arguments of Respondent": 0.0603,
+        "Decision": 0.0064,
+        "Facts": 0.4775,
+        "Issue": 0.0108,
+        "Reasoning": 0.3968
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 191,
+      "text": "It may be that during the course of winding up the Liquidator has powers to take charge of all assets and properties and therefore, whenever he acts in furtherance of such powers those will be subject to directions that may be issued in that behalf by the Company Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0518,
+        "Arguments of Respondent": 0.029,
+        "Decision": 0.0003,
+        "Facts": 0.009,
+        "Issue": 0.0002,
+        "Reasoning": 0.9097
+      }
+    },
+    {
+      "sentence_id": 192,
+      "text": "However, the question remains as to whether any directions could have been sought by him in respect of subject premises.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0272,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.0058,
+        "Facts": 0.0971,
+        "Issue": 0.1654,
+        "Reasoning": 0.6857
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 193,
+      "text": "That aspect is also not free from doubt inasmuch as tenancy rights of the company in liquidation may be property in law but for the purposes of winding up, they have been held to be not constituting an Asset.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.0147,
+        "Decision": 0.0003,
+        "Facts": 0.0173,
+        "Issue": 0.0012,
+        "Reasoning": 0.9481
+      }
+    },
+    {
+      "sentence_id": 194,
+      "text": "Admittedly, the company in liquidation is not the owner of the premises.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6221,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0903,
+        "Arguments of Respondent": 0.1159,
+        "Decision": 0.0111,
+        "Facts": 0.1448,
+        "Issue": 0.0158,
+        "Reasoning": 0.6221
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 195,
+      "text": "It is claiming tenancy rights in respect thereof.",
+      "predicted_label": "Facts",
+      "confidence": 0.4666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0253,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.0151,
+        "Facts": 0.4666,
+        "Issue": 0.0162,
+        "Reasoning": 0.458
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 196,
+      "text": "Therefore, whether such tenancy rights could have been taken over by the Liquidator is also not clear from the order of learned Single Judge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7576,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0284,
+        "Arguments of Respondent": 0.0116,
+        "Decision": 0.0015,
+        "Facts": 0.1986,
+        "Issue": 0.0022,
+        "Reasoning": 0.7576
+      }
+    },
+    {
+      "sentence_id": 197,
+      "text": "In fact, reliance placed by Mr.Madon in this behalf on the decision of Supreme Court in the case of Smt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0312,
+        "Arguments of Respondent": 0.0152,
+        "Decision": 0.0005,
+        "Facts": 0.0065,
+        "Issue": 0.0001,
+        "Reasoning": 0.9465
+      }
+    },
+    {
+      "sentence_id": 198,
+      "text": "Nirmala R. Bafna Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3759,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3759,
+        "Arguments of Respondent": 0.3413,
+        "Decision": 0.0264,
+        "Facts": 0.0559,
+        "Issue": 0.008,
+        "Reasoning": 0.1924
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 199,
+      "text": "Khandesh Spinning and Weaving Mills Co. Ltd. and another is appropriate.",
+      "predicted_label": "Facts",
+      "confidence": 0.5969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0359,
+        "Arguments of Respondent": 0.0218,
+        "Decision": 0.0275,
+        "Facts": 0.5969,
+        "Issue": 0.0034,
+        "Reasoning": 0.3146
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 200,
+      "text": "The Honble Supreme Court was considering some what similar controversy in that case.",
+      "predicted_label": "Facts",
+      "confidence": 0.6293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.09,
+        "Arguments of Respondent": 0.1224,
+        "Decision": 0.0015,
+        "Facts": 0.6293,
+        "Issue": 0.0012,
+        "Reasoning": 0.1557
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 201,
+      "text": "That matter was carried from an order passed by this very Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1302,
+        "Arguments of Respondent": 0.1812,
+        "Decision": 0.0132,
+        "Facts": 0.339,
+        "Issue": 0.0037,
+        "Reasoning": 0.3327
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 202,
+      "text": "In the light of the clear principle of law laid down in this decision we are of the view that the Company Court had no jurisdiction to declare, in the present case, that the decree passed by the Court of Small Causes was null, void and not binding on the applicant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0016,
+        "Facts": 0.0719,
+        "Issue": 0.0005,
+        "Reasoning": 0.9108
+      }
+    },
+    {
+      "sentence_id": 203,
+      "text": "Admittedly, the applicant had not instituted any proceedings against the company in Liquidation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1446,
+        "Arguments of Respondent": 0.1352,
+        "Decision": 0.0075,
+        "Facts": 0.2304,
+        "Issue": 0.0031,
+        "Reasoning": 0.4791
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 204,
+      "text": "It had also no claim against the applicant which could be continued against the Official Liquidator.",
+      "predicted_label": "Facts",
+      "confidence": 0.3042,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2457,
+        "Arguments of Respondent": 0.2329,
+        "Decision": 0.0087,
+        "Facts": 0.3042,
+        "Issue": 0.0032,
+        "Reasoning": 0.2052
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 205,
+      "text": "Nor was a prayer made to transfer any pending proceeding by or against the company in liquidation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7217,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1119,
+        "Arguments of Respondent": 0.0643,
+        "Decision": 0.0037,
+        "Facts": 0.0978,
+        "Issue": 0.0005,
+        "Reasoning": 0.7217
+      }
+    },
+    {
+      "sentence_id": 206,
+      "text": "Additionally, as noted above, it is the applicant which has approached the Company Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5303,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0943,
+        "Arguments of Respondent": 0.0463,
+        "Decision": 0.0021,
+        "Facts": 0.3256,
+        "Issue": 0.0014,
+        "Reasoning": 0.5303
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 207,
+      "text": "It has claimed reliefs principally against the appellant before us which is not a company in liquidation.",
+      "predicted_label": "Facts",
+      "confidence": 0.6477,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0034,
+        "Facts": 0.6477,
+        "Issue": 0.1123,
+        "Reasoning": 0.2257
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 208,
+      "text": "Ultimately, the declaration as claimed affects the appellant before us.",
+      "predicted_label": "Facts",
+      "confidence": 0.9357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0002,
+        "Facts": 0.9357,
+        "Issue": 0.0302,
+        "Reasoning": 0.0301
+      }
+    },
+    {
+      "sentence_id": 209,
+      "text": "As to how at the instance of the applicant the Company Court could have nullified the decree passed in favour of the appellant before us in its limited jurisdiction, is not clear to us at all.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9447,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0019,
+        "Facts": 0.0314,
+        "Issue": 0.003,
+        "Reasoning": 0.9447
+      }
+    },
+    {
+      "sentence_id": 210,
+      "text": "Impleading the company in liquidation through Official Liquidator is also of no assistance in this case once the nature of the rights of the company in liquidation in the subject premises is appreciated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0364,
+        "Arguments of Respondent": 0.0598,
+        "Decision": 0.0019,
+        "Facts": 0.0468,
+        "Issue": 0.0003,
+        "Reasoning": 0.8549
+      }
+    },
+    {
+      "sentence_id": 211,
+      "text": "Unless and until the Company Court was of the view that the tenancy rights constitute asset for the purposes of liquidation proceedings, it could not have taken cognizance of the company application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4064,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2649,
+        "Arguments of Respondent": 0.2887,
+        "Decision": 0.0018,
+        "Facts": 0.0377,
+        "Issue": 0.0006,
+        "Reasoning": 0.4064
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 212,
+      "text": "In indirect and oblique manner, the Company Court could not have recorded any finding on the nature of rights of the company in liquidation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6179,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2932,
+        "Arguments of Respondent": 0.0471,
+        "Decision": 0.0016,
+        "Facts": 0.04,
+        "Issue": 0.0002,
+        "Reasoning": 0.6179
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 213,
+      "text": "The Company Court could not have in such process pronounced upon rights of the appellant before us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1703,
+        "Arguments of Respondent": 0.1133,
+        "Decision": 0.0078,
+        "Facts": 0.1094,
+        "Issue": 0.0004,
+        "Reasoning": 0.5988
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 214,
+      "text": "Once there is a doubt expressed about right, title and interest of the company in windingup, in respect of subject premises, there was no occasion for the Company Court to have gone into the legality and validity of the decree passed by Court of Small Causes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0539,
+        "Arguments of Respondent": 0.0359,
+        "Decision": 0.0009,
+        "Facts": 0.0234,
+        "Issue": 0.0002,
+        "Reasoning": 0.8856
+      }
+    },
+    {
+      "sentence_id": 215,
+      "text": "Merely because the premises are public premises, according to the applicant, is also not of any relevance once these basic and fundamental aspects of the matter are appreciated and taken into consideration.37.",
+      "predicted_label": "Facts",
+      "confidence": 0.5436,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2898,
+        "Arguments of Respondent": 0.0919,
+        "Decision": 0.0009,
+        "Facts": 0.5436,
+        "Issue": 0.0022,
+        "Reasoning": 0.0716
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 216,
+      "text": "In our view, in the light of the clear pronouncement of law, the Company Court had no jurisdiction to take cognizance of the company application and pass any orders and directions in favour of the applicant before it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8756,
+      "probabilities": {
+        "Arguments of Petitioner": 0.018,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0123,
+        "Facts": 0.0869,
+        "Issue": 0.0003,
+        "Reasoning": 0.8756
+      }
+    },
+    {
+      "sentence_id": 217,
+      "text": "Since the Company Court had no jurisdiction in law to pass the impugned order, the appeal must succeed on this short ground alone.38.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9006,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0347,
+        "Arguments of Respondent": 0.0187,
+        "Decision": 0.0233,
+        "Facts": 0.0224,
+        "Issue": 0.0003,
+        "Reasoning": 0.9006
+      }
+    },
+    {
+      "sentence_id": 218,
+      "text": "In the light of the above conclusion, it is not necessary for us to go into the other contentions raised by Mr.Madon.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.2991,
+        "Facts": 0.0065,
+        "Issue": 0.0007,
+        "Reasoning": 0.6791
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 219,
+      "text": "It would not be proper to give any final and definite conclusion as to the nature of the proof required to substantiate a plea of fraud as everything depends upon facts and circumstances of each case.39.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9756,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.006,
+        "Facts": 0.0017,
+        "Issue": 0.0008,
+        "Reasoning": 0.9756
+      }
+    },
+    {
+      "sentence_id": 220,
+      "text": "Similarly, once, the Company Court had no jurisdiction to take cognizance of the company application, strictly, it is not necessary to go into the issue of limitation raised by Mr.Madon.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0885,
+        "Arguments of Respondent": 0.0956,
+        "Decision": 0.0013,
+        "Facts": 0.0695,
+        "Issue": 0.0004,
+        "Reasoning": 0.7448
+      }
+    },
+    {
+      "sentence_id": 221,
+      "text": "We have noted rival contentions only.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0444,
+        "Arguments of Respondent": 0.083,
+        "Decision": 0.0103,
+        "Facts": 0.0687,
+        "Issue": 0.0252,
+        "Reasoning": 0.7684
+      }
+    },
+    {
+      "sentence_id": 222,
+      "text": "There is no necessity to record any finding on the issue of limitation as the nature of proceeding under the Public Premises Eviction Act is distinct and separate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7364,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0354,
+        "Arguments of Respondent": 0.0625,
+        "Decision": 0.0833,
+        "Facts": 0.0817,
+        "Issue": 0.0006,
+        "Reasoning": 0.7364
+      }
+    },
+    {
+      "sentence_id": 223,
+      "text": "The company application was filed on 11th August 1993.",
+      "predicted_label": "Facts",
+      "confidence": 0.4369,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1222,
+        "Arguments of Respondent": 0.1223,
+        "Decision": 0.0012,
+        "Facts": 0.4369,
+        "Issue": 0.0048,
+        "Reasoning": 0.3126
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 224,
+      "text": "It is the case of the applicant that prior thereto it had no knowledge of the nature of decree passed by the Court of Small Causes at Mumbai.",
+      "predicted_label": "Facts",
+      "confidence": 0.8973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0591,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0003,
+        "Facts": 0.8973,
+        "Issue": 0.0037,
+        "Reasoning": 0.0253
+      }
+    },
+    {
+      "sentence_id": 225,
+      "text": "It was handicapped because relevant records and proceedings were not forwarded despite prolonged correspondence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4567,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4567,
+        "Arguments of Respondent": 0.0632,
+        "Decision": 0.0019,
+        "Facts": 0.1351,
+        "Issue": 0.0006,
+        "Reasoning": 0.3425
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 226,
+      "text": "The order of learned Judge being held to be without jurisdiction, it is not necessary to pronounce upon the issue as to whether the company application was time barred.40.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.1202,
+        "Facts": 0.0117,
+        "Issue": 0.0002,
+        "Reasoning": 0.8556
+      }
+    },
+    {
+      "sentence_id": 227,
+      "text": "In the light of the aforesaid, the appeal succeeds.",
+      "predicted_label": "Decision",
+      "confidence": 0.9666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.9666,
+        "Facts": 0.0117,
+        "Issue": 0.0002,
+        "Reasoning": 0.0199
+      }
+    },
+    {
+      "sentence_id": 228,
+      "text": "The impugned order is set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.8036,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.8036,
+        "Facts": 0.1091,
+        "Issue": 0.0004,
+        "Reasoning": 0.0847
+      }
+    },
+    {
+      "sentence_id": 229,
+      "text": "However, there shall be no order as to costs.41.",
+      "predicted_label": "Decision",
+      "confidence": 0.9653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9653,
+        "Facts": 0.0036,
+        "Issue": 0.0001,
+        "Reasoning": 0.0302
+      }
+    },
+    {
+      "sentence_id": 230,
+      "text": "We clarify that the observations made by us are for the purposes of disposal of the appeal arising out of an order passed on the company application and shall not in any manner affect the rights of the applicant to initiate and prosecute appropriate proceedings in accordance with law.",
+      "predicted_label": "Decision",
+      "confidence": 0.7536,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.7536,
+        "Facts": 0.1541,
+        "Issue": 0.0007,
+        "Reasoning": 0.088
+      }
+    },
+    {
+      "sentence_id": 231,
+      "text": "We have not gone into the findings recorded by the learned Single Judge on the aspect of fraud and we leave that aspect to be considered in appropriate proceedings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6196,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0086,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.2723,
+        "Facts": 0.0937,
+        "Issue": 0.0014,
+        "Reasoning": 0.6196
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 232,
+      "text": "Equally, it will be open for the applicants to rely upon the admitted facts to establish its case of fraud.42.",
+      "predicted_label": "Decision",
+      "confidence": 0.497,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.497,
+        "Facts": 0.1026,
+        "Issue": 0.0006,
+        "Reasoning": 0.3931
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 233,
+      "text": "The Third Respondent in this appeal has taken out a Notice of Motion being Notice of Motion No.1373 of 2002 and has claimed an order and direction to the Liquidator to make payment of the amount of compensation and hand over possession of two cabins.",
+      "predicted_label": "Facts",
+      "confidence": 0.6941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.108,
+        "Decision": 0.0087,
+        "Facts": 0.6941,
+        "Issue": 0.0319,
+        "Reasoning": 0.1511
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 234,
+      "text": "In the light of the fact that the appeal has succeeded, no orders can be passed on this Notice of Motion.",
+      "predicted_label": "Facts",
+      "confidence": 0.4701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.1559,
+        "Facts": 0.4701,
+        "Issue": 0.0014,
+        "Reasoning": 0.3478
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 235,
+      "text": "It will be open for the applicants to claim these reliefs in appropriate proceedings and in accordance with law.",
+      "predicted_label": "Facts",
+      "confidence": 0.7728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.149,
+        "Facts": 0.7728,
+        "Issue": 0.0007,
+        "Reasoning": 0.0684
+      }
+    },
+    {
+      "sentence_id": 236,
+      "text": "Disposal of present appeal would not constitute a bar in either initiation or prosecution of all proceedings including those under Public Premises Eviction Act.43.",
+      "predicted_label": "Decision",
+      "confidence": 0.8875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.8875,
+        "Facts": 0.0104,
+        "Issue": 0.0002,
+        "Reasoning": 0.0997
+      }
+    },
+    {
+      "sentence_id": 237,
+      "text": "At this stage Ms.Phadke for the original applicant prays that interim order passed in this appeal should continue for a period of three months to enable the applicant to either take out appropriate proceedings or to challenge our order further.",
+      "predicted_label": "Facts",
+      "confidence": 0.7196,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0701,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.1302,
+        "Facts": 0.7196,
+        "Issue": 0.0046,
+        "Reasoning": 0.066
+      }
+    },
+    {
+      "sentence_id": 238,
+      "text": "By the interim order passed in this appeal the Official Liquidator has been directed to take possession of the subject premises and appoint the appellant as his agent on payment of compensation determined by him.",
+      "predicted_label": "Facts",
+      "confidence": 0.4152,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.3221,
+        "Facts": 0.4152,
+        "Issue": 0.0449,
+        "Reasoning": 0.2067
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 239,
+      "text": "Mr.Madon states that there is due compliance of this interim order inasmuch as the compensation has been deposited with the Official Liquidator.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3813,
+        "Arguments of Respondent": 0.3291,
+        "Decision": 0.0295,
+        "Facts": 0.138,
+        "Issue": 0.0009,
+        "Reasoning": 0.1211
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 240,
+      "text": "He submits that now that the appeal has succeeded and the appellant has nothing to do with the windingup proceedings, the amounts be directed to be paid over to the appellant.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4953,
+        "Arguments of Respondent": 0.424,
+        "Decision": 0.0164,
+        "Facts": 0.0221,
+        "Issue": 0.0008,
+        "Reasoning": 0.0414
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 241,
+      "text": "This request is opposed by Ms.Phadke.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1321,
+        "Arguments of Respondent": 0.791,
+        "Decision": 0.0009,
+        "Facts": 0.0127,
+        "Issue": 0.0002,
+        "Reasoning": 0.0632
+      }
+    },
+    {
+      "sentence_id": 242,
+      "text": "In our view, it will be open for the appellant to approach the Official Liquidator in this behalf.44.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.009,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.2114,
+        "Facts": 0.0162,
+        "Issue": 0.0006,
+        "Reasoning": 0.7557
+      }
+    },
+    {
+      "sentence_id": 243,
+      "text": "In our view, interest of justice will be served if the interim order passed in this appeal is continued for a period of three months from today.",
+      "predicted_label": "Decision",
+      "confidence": 0.5016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.5016,
+        "Facts": 0.0683,
+        "Issue": 0.0014,
+        "Reasoning": 0.4212
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 244,
+      "text": "It will be open for the appellant to move thereafter the Liquidator for the above reliefs.",
+      "predicted_label": "Decision",
+      "confidence": 0.7039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.7039,
+        "Facts": 0.1753,
+        "Issue": 0.0004,
+        "Reasoning": 0.1146
+      }
+    }
+  ]
+}

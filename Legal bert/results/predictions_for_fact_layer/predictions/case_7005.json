@@ -1,0 +1,1291 @@
+{
+  "case_id": "7005",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This appeal challenges the order of the Incometax Appellate Tribunal, Mumbai Bench, dated April 13, 2012, in Income Tax Appeal No. 2652/Mum/2007.",
+      "predicted_label": "Issue",
+      "confidence": 0.8953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0033,
+        "Facts": 0.0999,
+        "Issue": 0.8953,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "He submits that the appellant is a company carrying on the business of manufacturing of transformers, switch gears, electrical products, home appliances, etc.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5694,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5694,
+        "Arguments of Respondent": 0.4117,
+        "Decision": 0.0002,
+        "Facts": 0.0119,
+        "Issue": 0.0005,
+        "Reasoning": 0.0064
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "It also has an engineering and project division.",
+      "predicted_label": "Facts",
+      "confidence": 0.899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0003,
+        "Facts": 0.899,
+        "Issue": 0.0087,
+        "Reasoning": 0.0603
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The appellant filed the return of income for the assessment year 200203 declaring the total income under the normal provisions as well as under section 115JB of the Incometax Act, 1961, at Rs. nil.",
+      "predicted_label": "Facts",
+      "confidence": 0.9917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9917,
+        "Issue": 0.0004,
+        "Reasoning": 0.0048
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "During the previous year relevant to the assessment year 200203, the appellant claimed a capital loss of Rs. 34,52,77,992 and required the same to be carried forward for set off in subsequent years.",
+      "predicted_label": "Facts",
+      "confidence": 0.9565,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0108,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0003,
+        "Facts": 0.9565,
+        "Issue": 0.0007,
+        "Reasoning": 0.0305
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The appellant was to receive amounts of Rs. 17,87,31,508 and Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9808,
+        "Issue": 0.0045,
+        "Reasoning": 0.0106
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "17,25,46,484 from M s. Bharat Starch Industries Ltd. and M s. JCT Ltd., respectively.",
+      "predicted_label": "Facts",
+      "confidence": 0.7287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0451,
+        "Arguments of Respondent": 0.0587,
+        "Decision": 0.0098,
+        "Facts": 0.7287,
+        "Issue": 0.0062,
+        "Reasoning": 0.1514
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The appellant received only shares worth of Rs. 60,00,000 from M s. Bharat Starch Industries Ltd. towards dues.",
+      "predicted_label": "Facts",
+      "confidence": 0.3627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3112,
+        "Arguments of Respondent": 0.1621,
+        "Decision": 0.0007,
+        "Facts": 0.3627,
+        "Issue": 0.001,
+        "Reasoning": 0.1624
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The wrote off balance of Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.5587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0539,
+        "Arguments of Respondent": 0.0481,
+        "Decision": 0.0218,
+        "Facts": 0.5587,
+        "Issue": 0.0022,
+        "Reasoning": 0.3153
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "34,52,77,992 was claimed as a capital loss.",
+      "predicted_label": "Facts",
+      "confidence": 0.9773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.9773,
+        "Issue": 0.0055,
+        "Reasoning": 0.0128
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The write off was in the course of schemes of arrangement which were subsequently sanctioned by the Gujarat and Punjab and Haryana High Courts, respectively.",
+      "predicted_label": "Facts",
+      "confidence": 0.363,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0766,
+        "Arguments of Respondent": 0.2323,
+        "Decision": 0.0009,
+        "Facts": 0.363,
+        "Issue": 0.0027,
+        "Reasoning": 0.3245
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "The respondent rejected the claim by holding that in order to be eligible to carry forward of the capital loss, there should be a capital asset as defined in section 2(14) and the same should be transferred in the manner as defined in section 2(47) of the Incometax Act, 1961.",
+      "predicted_label": "Facts",
+      "confidence": 0.9784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0001,
+        "Facts": 0.9784,
+        "Issue": 0.0033,
+        "Reasoning": 0.0112
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Since the deposits or advances given to M s. JCT Ltd. and M s. Bharat Starch Industries Ltd. and written off are not capital assets nor was there any transfer, no capital loss is allowed to be carried forward to the subsequent year.",
+      "predicted_label": "Facts",
+      "confidence": 0.6027,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0228,
+        "Arguments of Respondent": 0.0274,
+        "Decision": 0.003,
+        "Facts": 0.6027,
+        "Issue": 0.0004,
+        "Reasoning": 0.3438
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "That is how the Assessing Officer passed the order of assessment dated March 29, 2005.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9972,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.0001,
+        "Facts": 0.9972,
+        "Issue": 0.0016,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Being aggrieved and dissatisfied by this order, an appeal was filed before the Commissioner of Incometax (Appeals) on May 2, 2005, inter alia, objecting to the disallowance of capital loss claimed by the appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9943,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9943,
+        "Issue": 0.0009,
+        "Reasoning": 0.0031
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The Commissioner of Incometax (Appeals) rejected the claim for disallowance of capital loss.",
+      "predicted_label": "Facts",
+      "confidence": 0.9881,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9881,
+        "Issue": 0.003,
+        "Reasoning": 0.0074
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "That order passed on January 23, 2007, was appealed to the Tribunal and the Tribunal by the impugned order dismissed the appeal.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9833,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9833,
+        "Issue": 0.0145,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Mr. Rai submitted that the appeal deserves to be entertained on the substantial questions of law.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2146,
+        "Arguments of Respondent": 0.7738,
+        "Decision": 0.0003,
+        "Facts": 0.0015,
+        "Issue": 0.0002,
+        "Reasoning": 0.0096
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "They have been formulated in paragraph 3 of the memo of appeal at pages 6 and 7.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.483,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3105,
+        "Arguments of Respondent": 0.125,
+        "Decision": 0.0047,
+        "Facts": 0.0761,
+        "Issue": 0.0008,
+        "Reasoning": 0.483
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Mr. Rai has addressed us essentially on the question of law formulated at paragraph 3(a) and submitted that the impugned order fails to take note of the relevant legal provisions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9566,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0002,
+        "Facts": 0.0023,
+        "Issue": 0.0004,
+        "Reasoning": 0.0295
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "He submits that the appellantassessee had submitted before the Incometax Appellate Tribunal as also the Commissioner of Incometax (Appeals) that in the case of M s. Bharat Starch Industries Ltd. and M s. JCT Ltd., the advances have been written off.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3961,
+        "Arguments of Respondent": 0.5398,
+        "Decision": 0.0005,
+        "Facts": 0.0308,
+        "Issue": 0.0002,
+        "Reasoning": 0.0326
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "It is submitted that there was no possibility of recovery of loans and, hence, the same were written off.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3686,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3686,
+        "Arguments of Respondent": 0.3099,
+        "Decision": 0.0013,
+        "Facts": 0.2565,
+        "Issue": 0.0043,
+        "Reasoning": 0.0594
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The sum consisted of interest from both companies.",
+      "predicted_label": "Facts",
+      "confidence": 0.6962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0449,
+        "Arguments of Respondent": 0.0369,
+        "Decision": 0.0013,
+        "Facts": 0.6962,
+        "Issue": 0.0046,
+        "Reasoning": 0.2161
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "Since the interest has already been offered for tax on accrual basis, therefore, at least these amounts should be allowed.",
+      "predicted_label": "Facts",
+      "confidence": 0.5302,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3094,
+        "Arguments of Respondent": 0.0618,
+        "Decision": 0.0018,
+        "Facts": 0.5302,
+        "Issue": 0.0018,
+        "Reasoning": 0.0951
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "It may be that this part of the order of the Commissioner of Incometax (Appeals) takes care of this controversy.",
+      "predicted_label": "Facts",
+      "confidence": 0.846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0003,
+        "Facts": 0.846,
+        "Issue": 0.0007,
+        "Reasoning": 0.1502
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "However, what was argued was, there was intercorporate deposit (for short ICD).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1707,
+        "Arguments of Respondent": 0.1579,
+        "Decision": 0.0007,
+        "Facts": 0.3138,
+        "Issue": 0.0013,
+        "Reasoning": 0.3556
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "It has been submitted that in the case of M s. Bharat Starch Industries Ltd. there was reconstruction and its business was transferred to M s. English Clay India Ltd.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4127,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2971,
+        "Arguments of Respondent": 0.4127,
+        "Decision": 0.0029,
+        "Facts": 0.1118,
+        "Issue": 0.0007,
+        "Reasoning": 0.1749
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 27,
+      "text": "There is an order of the honourable Gujarat High Court dated February 8, 2002.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4422,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0564,
+        "Arguments of Respondent": 0.0885,
+        "Decision": 0.023,
+        "Facts": 0.3874,
+        "Issue": 0.0025,
+        "Reasoning": 0.4422
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 28,
+      "text": "Therefore, this was the case where right to recover the amount was extinguished by the order of the court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1062,
+        "Arguments of Respondent": 0.0942,
+        "Decision": 0.0016,
+        "Facts": 0.0486,
+        "Issue": 0.0012,
+        "Reasoning": 0.7482
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "In both cases, intercorporate deposits were capital assets in the hands of the assessee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0961,
+        "Arguments of Respondent": 0.0895,
+        "Decision": 0.0002,
+        "Facts": 0.0658,
+        "Issue": 0.0013,
+        "Reasoning": 0.747
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The term capital asset has been defined in section 2(14) of the Incometax Act, 1961, and would include such intercorporate deposits also in its ambit.5.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2264,
+        "Arguments of Respondent": 0.1594,
+        "Decision": 0.0032,
+        "Facts": 0.2011,
+        "Issue": 0.0006,
+        "Reasoning": 0.4093
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "It was argued before us that the Tribunal committed a grave error in rejecting the claim for capital loss of Rs. 21.40 crores.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6207,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6207,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0014,
+        "Facts": 0.0171,
+        "Issue": 0.0013,
+        "Reasoning": 0.3427
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "The argument before us is that if the intercorporate deposits (ICDs) were capital assets in terms of section 2(14) and there has been transfer of the same in terms of section 2(47) of the Incometax Act, 1961, then the appellant is entitled to claim a capital loss in the above figure.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7743,
+        "Arguments of Respondent": 0.0656,
+        "Decision": 0.0004,
+        "Facts": 0.0198,
+        "Issue": 0.0027,
+        "Reasoning": 0.1372
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The Tribunals conclusions, therefore, are totally contrary to law and should be quashed and set aside.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7778,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.008,
+        "Facts": 0.01,
+        "Issue": 0.0002,
+        "Reasoning": 0.1903
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Reliance is placed upon a decision of the honourable Supreme Court in Ahmed G.H. Ariff v. CWT 1970 76 ITR 471 (SC).6.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6606,
+        "Arguments of Respondent": 0.216,
+        "Decision": 0.0003,
+        "Facts": 0.1053,
+        "Issue": 0.0007,
+        "Reasoning": 0.0171
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "Mr. Tejveer Singh, learned counsel appearing on behalf of the respondentRevenue, on the other hand, supported the orders passed by the Commissioner of Incometax (Appeals) and the Tribunal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.9912,
+        "Decision": 0.0002,
+        "Facts": 0.0012,
+        "Issue": 0.0002,
+        "Reasoning": 0.0014
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "He submits that the appeal does not raise any substantial question of law and on a limited issue.7.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0654,
+        "Arguments of Respondent": 0.9276,
+        "Decision": 0.0002,
+        "Facts": 0.0035,
+        "Issue": 0.0004,
+        "Reasoning": 0.0029
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Suffice it to state that the authorities found that the assessee has written off the advances of the above sum and claimed the same as a capital loss to be carried forward for set off for subsequent years.",
+      "predicted_label": "Facts",
+      "confidence": 0.8777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0004,
+        "Facts": 0.8777,
+        "Issue": 0.0005,
+        "Reasoning": 0.1167
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The details have been noted and equally the relevant legal provisions.",
+      "predicted_label": "Facts",
+      "confidence": 0.4784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0682,
+        "Arguments of Respondent": 0.0403,
+        "Decision": 0.004,
+        "Facts": 0.4784,
+        "Issue": 0.0081,
+        "Reasoning": 0.401
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "The Assessing Officer has referred to the definitions of the terms capital asset and transfer appearing in section 2(14) and section 2(47) of the Incometax Act, 1961.",
+      "predicted_label": "Facts",
+      "confidence": 0.9531,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9531,
+        "Issue": 0.0009,
+        "Reasoning": 0.0427
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "He held that in order to be eligible for carry forward of capital loss, the capital asset should be of the nature defined in section 2(14) and should be transferred in the manner defined in section 2(47).",
+      "predicted_label": "Facts",
+      "confidence": 0.9298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0002,
+        "Facts": 0.9298,
+        "Issue": 0.0061,
+        "Reasoning": 0.0556
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "Equally, it should be subjected to tax as per section 45(1) of the Incometax Act, 1961.",
+      "predicted_label": "Facts",
+      "confidence": 0.394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2224,
+        "Arguments of Respondent": 0.0662,
+        "Decision": 0.0293,
+        "Facts": 0.394,
+        "Issue": 0.0224,
+        "Reasoning": 0.2657
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "The advances given to M s. JCT Ltd. and M s. Bharat Starch Industries Ltd. and written off are not the capital assets nor is there any transfer.",
+      "predicted_label": "Facts",
+      "confidence": 0.4873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1183,
+        "Arguments of Respondent": 0.1375,
+        "Decision": 0.0011,
+        "Facts": 0.4873,
+        "Issue": 0.0003,
+        "Reasoning": 0.2554
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "Therefore, they were not allowed to be carried forward to the subsequent years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0659,
+        "Arguments of Respondent": 0.03,
+        "Decision": 0.0043,
+        "Facts": 0.2116,
+        "Issue": 0.0025,
+        "Reasoning": 0.6857
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "It is the capital loss and, therefore, should be ignored.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3823,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3823,
+        "Arguments of Respondent": 0.1278,
+        "Decision": 0.0023,
+        "Facts": 0.1282,
+        "Issue": 0.0004,
+        "Reasoning": 0.3589
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "The claim was, thus, disallowed.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.9865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9865,
+        "Issue": 0.0018,
+        "Reasoning": 0.008
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "Before the Commissioner of Incometax (Appeals), the argument was almost identical and in paragraph 9.6 of the order of the Commissioner of Incometax (Appeals), it is held that the loss incurred by the appellantassessee is not a capital loss in relation to the transfer of asset.",
+      "predicted_label": "Facts",
+      "confidence": 0.7812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0003,
+        "Facts": 0.7812,
+        "Issue": 0.0018,
+        "Reasoning": 0.1939
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The company to whom the advance was given was amalgamated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0575,
+        "Arguments of Respondent": 0.0367,
+        "Decision": 0.0009,
+        "Facts": 0.4471,
+        "Issue": 0.0065,
+        "Reasoning": 0.4514
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "On amalgamation, it has given equity shares of Rs. 60 lakhs only as against an advance of Rs. 17.25 crores and Rs. 17.87 crores, respectively.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2357,
+        "Arguments of Respondent": 0.2948,
+        "Decision": 0.0009,
+        "Facts": 0.164,
+        "Issue": 0.0006,
+        "Reasoning": 0.3039
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The appellant, therefore, lost the advance due to amalgamation of the company with one of its sister concern.",
+      "predicted_label": "Facts",
+      "confidence": 0.5043,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1096,
+        "Arguments of Respondent": 0.0405,
+        "Decision": 0.0007,
+        "Facts": 0.5043,
+        "Issue": 0.0009,
+        "Reasoning": 0.3439
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "The loss has been rightly determined as a capital loss and that is how the Commissioner of Incometax (Appeals) agreed with the Assessing Officer.",
+      "predicted_label": "Facts",
+      "confidence": 0.8384,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0008,
+        "Facts": 0.8384,
+        "Issue": 0.0004,
+        "Reasoning": 0.1193
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "However, he partly allowed the appeal of the appellantassessee in so far as the claim or ground for interest portion is concerned.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.9722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0014,
+        "Facts": 0.9722,
+        "Issue": 0.0061,
+        "Reasoning": 0.019
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The matter was carried in appeal to the Incometax Appellate Tribunal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9846,
+        "Issue": 0.0034,
+        "Reasoning": 0.0108
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Tribunal, in paragraph 7 of the impugned order, has held that the assessee has written off the advances given to M s. Bharat Starch Industries Ltd. and",
+      "predicted_label": "Facts",
+      "confidence": 0.5619,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0049,
+        "Facts": 0.5619,
+        "Issue": 0.002,
+        "Reasoning": 0.4087
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "M s. JCT Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.5182,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0765,
+        "Arguments of Respondent": 0.1224,
+        "Decision": 0.0049,
+        "Facts": 0.5182,
+        "Issue": 0.0255,
+        "Reasoning": 0.2525
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "It also referred to the note which was filed.",
+      "predicted_label": "Facts",
+      "confidence": 0.5481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0298,
+        "Arguments of Respondent": 0.0275,
+        "Decision": 0.0014,
+        "Facts": 0.5481,
+        "Issue": 0.0024,
+        "Reasoning": 0.3909
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "It also referred to the findings of the Assessing Officer and the Commissioner of Incometax (Appeals).11.",
+      "predicted_label": "Facts",
+      "confidence": 0.9606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0,
+        "Facts": 0.9606,
+        "Issue": 0.0004,
+        "Reasoning": 0.0355
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "In dealing with the submission that there was intercorporate deposit (ICD) of Rs. 10 lakhs given to M s. JCT Ltd. in the year 199697 and further amount of interest of Rs. 7.25 crores was due on account of interest, so also, the contentions of the Revenue to the contrary, the Tribunal concluded that in the light of materials on record it is clear that the loans were not given in the ordinary course of business.",
+      "predicted_label": "Facts",
+      "confidence": 0.9115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9115,
+        "Issue": 0.0011,
+        "Reasoning": 0.0841
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "In fact no claim under the head bad debts has been made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8447,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0416,
+        "Arguments of Respondent": 0.0295,
+        "Decision": 0.0067,
+        "Facts": 0.0764,
+        "Issue": 0.0011,
+        "Reasoning": 0.8447
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "The claim is that the loan was in the form of intercorporate deposit which is a case of capital asset and it has been transferred.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.2993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2694,
+        "Arguments of Respondent": 0.2009,
+        "Decision": 0.0086,
+        "Facts": 0.2191,
+        "Issue": 0.0028,
+        "Reasoning": 0.2993
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 60,
+      "text": "The Tribunal found that there is no evidence to show that it is a case of an intercorporate deposit because before the Assessing Officer it was claimed that the loss was on account of writing off of the advances given to M s. Bharat Starch Industries Ltd. and",
+      "predicted_label": "Facts",
+      "confidence": 0.7241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0002,
+        "Facts": 0.7241,
+        "Issue": 0.0008,
+        "Reasoning": 0.2592
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "M s. JCT Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.5182,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0765,
+        "Arguments of Respondent": 0.1224,
+        "Decision": 0.0049,
+        "Facts": 0.5182,
+        "Issue": 0.0255,
+        "Reasoning": 0.2525
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "Then it was claimed that the advances were written off.",
+      "predicted_label": "Facts",
+      "confidence": 0.6279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0378,
+        "Arguments of Respondent": 0.0458,
+        "Decision": 0.0017,
+        "Facts": 0.6279,
+        "Issue": 0.0022,
+        "Reasoning": 0.2845
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "There is no material to show that the case of intercorporate deposit has been made out.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1025,
+        "Arguments of Respondent": 0.1831,
+        "Decision": 0.0011,
+        "Facts": 0.1601,
+        "Issue": 0.0005,
+        "Reasoning": 0.5526
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "The loans, therefore, cannot be termed or construed as capital assets.12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0365,
+        "Arguments of Respondent": 0.0362,
+        "Decision": 0.0004,
+        "Facts": 0.0264,
+        "Issue": 0.0001,
+        "Reasoning": 0.9005
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "The judgments relied upon have been, therefore, distinguished and we do not find that in the facts and circumstances of the present case, the Tribunal was required to render any other finding or conclusion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0011,
+        "Facts": 0.0078,
+        "Issue": 0.0003,
+        "Reasoning": 0.9813
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The observations from paragraph 13 onwards are based on assumption.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.1804,
+        "Facts": 0.0223,
+        "Issue": 0.0004,
+        "Reasoning": 0.7798
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "The assumption is made by the Tribunal and in that regard, reference to various judgments has been made including the order passed on the petition for amalgamation by the Gujarat High Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0222,
+        "Arguments of Respondent": 0.0229,
+        "Decision": 0.0008,
+        "Facts": 0.1814,
+        "Issue": 0.0007,
+        "Reasoning": 0.772
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "We are of the opinion that the Tribunal was strictly not required to go into any other matters.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0029,
+        "Facts": 0.0202,
+        "Issue": 0.0002,
+        "Reasoning": 0.964
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "Therefore, the findings based on assumption need not detain us.13.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0296,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0042,
+        "Facts": 0.0725,
+        "Issue": 0.0005,
+        "Reasoning": 0.8622
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "We are of the opinion that the findings of fact rendered in the peculiar factual backdrop do no give rise to any substantial question of law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9423,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0171,
+        "Facts": 0.034,
+        "Issue": 0.0012,
+        "Reasoning": 0.9423
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "The questions as projected before us cannot be said to be rising from the orders impugned before us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0697,
+        "Facts": 0.0158,
+        "Issue": 0.0013,
+        "Reasoning": 0.9029
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "In the facts and circumstances, we do not feel that the appeal is required to be entertained.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.011,
+        "Decision": 0.2953,
+        "Facts": 0.0091,
+        "Issue": 0.0005,
+        "Reasoning": 0.6809
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "In all fairness, we must refer to the judgments cited before us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9254,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0282,
+        "Arguments of Respondent": 0.0344,
+        "Decision": 0.0004,
+        "Facts": 0.0105,
+        "Issue": 0.0011,
+        "Reasoning": 0.9254
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "The argument is that the definition of capital asset in section 2(14) of the Incometax Act, 1961, is wide enough to include even advance of money.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4164,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4037,
+        "Arguments of Respondent": 0.4164,
+        "Decision": 0.0003,
+        "Facts": 0.0059,
+        "Issue": 0.0005,
+        "Reasoning": 0.1732
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 75,
+      "text": "In other words, the property of any kind held by the assessee, whether or not connected with his business or profession is a capital asset.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8171,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0639,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0003,
+        "Facts": 0.0919,
+        "Issue": 0.001,
+        "Reasoning": 0.8171
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "It is, therefore, capable of being transferred and the basis on which the authorities proceeded in this case is, thus, untenable in law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4133,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.0098,
+        "Facts": 0.0129,
+        "Issue": 0.0012,
+        "Reasoning": 0.5449
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 77,
+      "text": "The question that was raised before the honourable Supreme Court was that the right of the assessee to receive a specified share of the net income from the estate in respect of which wakfalalaulad has been created, is an asset assessable to wealthtax.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0004,
+        "Facts": 0.2403,
+        "Issue": 0.0716,
+        "Reasoning": 0.6583
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 78,
+      "text": "All conclusions which have been rendered by the honourable Supreme Court, must be, therefore, read in the peculiar factual situation and circumstances.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0174,
+        "Arguments of Respondent": 0.0429,
+        "Decision": 0.3328,
+        "Facts": 0.0424,
+        "Issue": 0.0008,
+        "Reasoning": 0.5636
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "In dealing with the argument that the right claimed of the nature cannot be termed as property that the honourable Supreme Court held that the property is a term of the widest import and subject to any limitation which in the context is required.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0581,
+        "Arguments of Respondent": 0.1041,
+        "Decision": 0.0005,
+        "Facts": 0.2564,
+        "Issue": 0.0022,
+        "Reasoning": 0.5787
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "It signifies every possible interest which a person can clearly hold and enjoy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8869,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0498,
+        "Arguments of Respondent": 0.0357,
+        "Decision": 0.0002,
+        "Facts": 0.0269,
+        "Issue": 0.0006,
+        "Reasoning": 0.8869
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "We are of the opinion that on the basis of the definition noted by us that the honourable Supreme Court held as above.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7497,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0838,
+        "Arguments of Respondent": 0.0604,
+        "Decision": 0.002,
+        "Facts": 0.1029,
+        "Issue": 0.0013,
+        "Reasoning": 0.7497
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "This judgment, therefore, cannot be of any assistance to the assessee before us.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0002,
+        "Facts": 0.0095,
+        "Issue": 0.0001,
+        "Reasoning": 0.9653
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "However, now what has been argued is that the advances were not as such but intercorporate deposits (ICDs).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0646,
+        "Arguments of Respondent": 0.04,
+        "Decision": 0.0004,
+        "Facts": 0.0337,
+        "Issue": 0.0011,
+        "Reasoning": 0.8602
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "Therefore, the alternative argument which was raised was in relation to the loss of advance due to amalgamation of the company to which it was advanced with one of the sister concern of the assessee before us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1088,
+        "Arguments of Respondent": 0.0569,
+        "Decision": 0.0017,
+        "Facts": 0.1114,
+        "Issue": 0.0017,
+        "Reasoning": 0.7194
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "That was an alternative argument and in relation to which the judgment of the Gujarat High Court was cited.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.2993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.298,
+        "Arguments of Respondent": 0.2993,
+        "Decision": 0.0018,
+        "Facts": 0.1139,
+        "Issue": 0.0005,
+        "Reasoning": 0.2865
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 86,
+      "text": "Once this issue did not arise for determination and consideration of the authorities and particularly because of the stand taken now before us that we are of the opinion that the judgment of the Gujarat High Court is of no assistance to the assessee.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9641,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0103,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0034,
+        "Facts": 0.012,
+        "Issue": 0.0004,
+        "Reasoning": 0.9641
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "As a result of the above discussion, we find that this appeal does not give rise to any substantial question of law.",
+      "predicted_label": "Decision",
+      "confidence": 0.5137,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.5137,
+        "Facts": 0.0136,
+        "Issue": 0.0015,
+        "Reasoning": 0.4673
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 88,
+      "text": "It is, accordingly, dismissed, but without any order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9862,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9862,
+        "Facts": 0.0084,
+        "Issue": 0.0001,
+        "Reasoning": 0.0048
+      }
+    }
+  ]
+}

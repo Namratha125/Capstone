@@ -1,0 +1,888 @@
+{
+  "case_id": "6628",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The Petitioner company is engaged in polyester chips manufacturing and its unit is located at Kurkumbh in Pune District.",
+      "predicted_label": "Facts",
+      "confidence": 0.9867,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9867,
+        "Issue": 0.0075,
+        "Reasoning": 0.0021
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The company was set up in 1993 however, due to the industrial sickness, it was required to be registered with the Board of Investment and Financial Reconstruction (BIFR), which proceedings concluded with the execution of an amended Loan Agreement dated 24 November 2003 with AFIC i.e. Respondent No.4 herein.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9944,
+        "Issue": 0.0031,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The Petitioner Company has borrowed from Respondent No.4 and the borrowing is in the nature of External Commercial Borrowings (ECB).",
+      "predicted_label": "Facts",
+      "confidence": 0.7458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0598,
+        "Arguments of Respondent": 0.1062,
+        "Decision": 0.0005,
+        "Facts": 0.7458,
+        "Issue": 0.0141,
+        "Reasoning": 0.0736
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The initial borrowing is in compliance with the provisions of the Foreign Exchange Management (Borrowing or lending in foreign exchange)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3265,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1578,
+        "Arguments of Respondent": 0.2115,
+        "Decision": 0.0008,
+        "Facts": 0.2935,
+        "Issue": 0.0099,
+        "Reasoning": 0.3265
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 4,
+      "text": "It is not the matter of doubt that as a result of the failure of the company to repay the debt, the loan agreement came to be terminated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0215,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0014,
+        "Facts": 0.1691,
+        "Issue": 0.0064,
+        "Reasoning": 0.789
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Loan amounting to US 3,128,855 together with interest of US 96,950.37 was due from the Petitioner as on 30 September 2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.8431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0283,
+        "Arguments of Respondent": 0.0218,
+        "Decision": 0.0006,
+        "Facts": 0.8431,
+        "Issue": 0.0024,
+        "Reasoning": 0.1038
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Respondent No.4 entered into a Sale and Purchase Agreement of the debt with Respondent No.1 and the Petitioners debt qua AFIC came to be assigned to Respondent No.1.",
+      "predicted_label": "Facts",
+      "confidence": 0.8637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0209,
+        "Decision": 0.0009,
+        "Facts": 0.8637,
+        "Issue": 0.0265,
+        "Reasoning": 0.0735
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "An Application was moved by Respondent No.1 for condonation of delay occurred in registering the debt with Registrar of CompanyRespondent No.2 herein, and on payment of the charges levied by Respondent No.2 on account of delay and in pursuance to the Application tendered by Respondent No.1, the debt came to be registered with Respondent No.2, on 29 July 2015.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0002,
+        "Facts": 0.989,
+        "Issue": 0.0093,
+        "Reasoning": 0.0006
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The Petitioner is praying for quashment of order dated 29 July 2015 whereby, the loan amount of US 4,500,000 approximately equivalent to Rs.1,395 lakhs sanctioned to the Petitionercompany and the outstanding debt of US 3,128,855 with underlying Securities, which has been assigned by AFIC to Respondent No.1Deutsche Bank, in terms of Sale and Purchase Agreement dated 30 March 2007, came to be registered.",
+      "predicted_label": "Facts",
+      "confidence": 0.5219,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1609,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0029,
+        "Facts": 0.5219,
+        "Issue": 0.3004,
+        "Reasoning": 0.0115
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The Petitioner is also praying for issue of writ of mandamus, directing Respondent No.2 to rectify its register of charges and delete the name of Respondent No.1 or Respondent No.4 therefrom with regard to the Petitionercompany.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4831,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0043,
+        "Facts": 0.3361,
+        "Issue": 0.0984,
+        "Reasoning": 0.0698
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 10,
+      "text": "The agreement entered into with Respondent Nos.1 and 4 is also not valid, since according to the Petitioner, it is ACTIS AFIC Credit Management Limited has executed assignment in favour of Respondent No.1 whereas, the Petitioner had the financial dealing with Respondent No.4AFIC.",
+      "predicted_label": "Facts",
+      "confidence": 0.8349,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.0475,
+        "Decision": 0.0057,
+        "Facts": 0.8349,
+        "Issue": 0.0004,
+        "Reasoning": 0.0987
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The unknown entity ACTIS AFIC Credit Management Limited does not have any entitlement to assign the debt in favour of Respondent No.1 and in turn, Respondent No.1 does not have any entitlement to maintain an application seeking registration of debt under Section 141 of the Companies Act, 1956.",
+      "predicted_label": "Facts",
+      "confidence": 0.3845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2235,
+        "Arguments of Respondent": 0.2831,
+        "Decision": 0.0344,
+        "Facts": 0.3845,
+        "Issue": 0.0019,
+        "Reasoning": 0.0727
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "The Petitioner also contends that the Sale and Purchase Agreement dated 30 March 2007, assigning the debt in favour of Respondent No.1, being without consent of Reserve Bank of India (RBI), is not legal.",
+      "predicted_label": "Facts",
+      "confidence": 0.7246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1833,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0015,
+        "Facts": 0.7246,
+        "Issue": 0.0503,
+        "Reasoning": 0.0332
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "It is also contended that the Petitionercompany shall be deemed to have repaid the loan and Respondent No.4 is not entitled to recover anything from the Petitionercompany, in view of bar of limitation.5.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5054,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5054,
+        "Arguments of Respondent": 0.4141,
+        "Decision": 0.0002,
+        "Facts": 0.0736,
+        "Issue": 0.0014,
+        "Reasoning": 0.0053
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Respondent No.1 has presented an affidavit in reply, objecting the contentions and has prayed for dismissal of the Petition.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8346,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.8346,
+        "Decision": 0.0004,
+        "Facts": 0.1293,
+        "Issue": 0.0016,
+        "Reasoning": 0.023
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "It is the contention of Respondent No.1 that the Petition is not maintainable in law and liable to be dismissed in view of availability of alternate and efficacious remedy for maintaining a challenge to the order dated 29 July 2015 under Section 10F of the Companies Act, 1956, which remedy, the Petitioner has admittedly, not availed of.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9027,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.9027,
+        "Decision": 0.0002,
+        "Facts": 0.0549,
+        "Issue": 0.002,
+        "Reasoning": 0.0363
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "It is also contended that the Petition is purely an abuse of process of law.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7294,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1832,
+        "Arguments of Respondent": 0.7294,
+        "Decision": 0.0005,
+        "Facts": 0.0328,
+        "Issue": 0.0062,
+        "Reasoning": 0.048
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Respondent No.1 had presented various proceedings before the various courts, earlier.",
+      "predicted_label": "Facts",
+      "confidence": 0.7304,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0187,
+        "Arguments of Respondent": 0.0885,
+        "Decision": 0.0048,
+        "Facts": 0.7304,
+        "Issue": 0.0054,
+        "Reasoning": 0.1523
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Respondent No.1 had also filed Company Petition No. 221 of 2012, praying for winding up of the Petitioner on the basis of debt owed by it.",
+      "predicted_label": "Facts",
+      "confidence": 0.9095,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0132,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0023,
+        "Facts": 0.9095,
+        "Issue": 0.0204,
+        "Reasoning": 0.0489
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The Petition was dismissed on the ground that, it raises disputed questions of fact.",
+      "predicted_label": "Facts",
+      "confidence": 0.7377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.0341,
+        "Decision": 0.0013,
+        "Facts": 0.7377,
+        "Issue": 0.051,
+        "Reasoning": 0.1623
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Respondent No.1 preferred an appeal, bearing Appeal No. 124 of 2013, which has been admitted by the Honble Court and is pending before the Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.9886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0001,
+        "Facts": 0.9886,
+        "Issue": 0.0014,
+        "Reasoning": 0.0046
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "The contentions raised by the Petitioner in the instant Petition in respect of assignment of the debt in favour of Respondent No.1 have already been raised by the Petitioner in the pending proceedings before the Honble Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.8957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0426,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0016,
+        "Facts": 0.8957,
+        "Issue": 0.0023,
+        "Reasoning": 0.0379
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "In order to avoid the liability of payment, the Petitioner is indulging the multiplicity of proceedings and the instant Petition is a stepinaid for the said objections.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0832,
+        "Arguments of Respondent": 0.4372,
+        "Decision": 0.0034,
+        "Facts": 0.3898,
+        "Issue": 0.0052,
+        "Reasoning": 0.0812
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "The Petitioner is trying to create a defence to the claim of Respondent No.1 in the winding up proceedings, by raising such contentions in the instant Writ Petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.5949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0407,
+        "Arguments of Respondent": 0.0417,
+        "Decision": 0.0082,
+        "Facts": 0.5949,
+        "Issue": 0.0014,
+        "Reasoning": 0.313
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "So far as the assignment of debt is concerned, it is pointed out that the ACTIS AFIC Credit Management Limited is a sister concern of AFIC.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.519,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3286,
+        "Arguments of Respondent": 0.519,
+        "Decision": 0.001,
+        "Facts": 0.0785,
+        "Issue": 0.0014,
+        "Reasoning": 0.0715
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "In view of certain internal arrangement, which is concluded in a Deed of Trust dated 7 June 2005, various financial assets were divided amongst three different companies.",
+      "predicted_label": "Facts",
+      "confidence": 0.542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1206,
+        "Arguments of Respondent": 0.142,
+        "Decision": 0.001,
+        "Facts": 0.542,
+        "Issue": 0.001,
+        "Reasoning": 0.1933
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "The outstanding debt owed by the Petitioner was agreed to be held by ACTIS AFIC Credit Management Limited.",
+      "predicted_label": "Facts",
+      "confidence": 0.5894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1421,
+        "Arguments of Respondent": 0.0558,
+        "Decision": 0.0036,
+        "Facts": 0.5894,
+        "Issue": 0.0195,
+        "Reasoning": 0.1896
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "AFIC acted in the capacity of a trustee in respect of the said outstanding debt of the Petitioner and continued to hold the securities and by agreement dated 30 March 2007, transferred the same by assignment to Respondent No.1 on its own behalf and on behalf of ACTIS AFIC Credit Management Limited.",
+      "predicted_label": "Facts",
+      "confidence": 0.7348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0934,
+        "Arguments of Respondent": 0.054,
+        "Decision": 0.0016,
+        "Facts": 0.7348,
+        "Issue": 0.0175,
+        "Reasoning": 0.0987
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "In this view of the matter, the challenge raised by the Petitioner in respect of the Agreement of Sale and Purchase arrived at between the AFIC and Respondent No.4 does not survive.6.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0715,
+        "Facts": 0.3638,
+        "Issue": 0.0003,
+        "Reasoning": 0.5557
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The Petitioner tendered an Application under Section 141 of the Companies Act, 1956, now under Section 87 of the Companies Act, 2013 praying for following reliefs( i) Declaration that the certificate of Registrar of Companies, Pune dated 21 June 2010 for modification of charge amounting to Rs.1,395 lakhs assigning the charge from AFIC Limited to Deutsche Bank as null and void and no force in law (ii) Declaration that Respondent No.2 to rectify its Register of Charges and delete the name of Deutsche Bank there from with regard to the Petitioner Company and (iii) Declaration that the registration of charge in favour of Deutsche Bank as against the Petitioner is nonest, null and void and voidabinitio.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9554,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0313,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0007,
+        "Facts": 0.9554,
+        "Issue": 0.0059,
+        "Reasoning": 0.0062
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Being aggrieved by the order, the Petitioner approached the Honble High Court of Bombay and filed Writ Petition No. 2037 of 2013.",
+      "predicted_label": "Facts",
+      "confidence": 0.981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.981,
+        "Issue": 0.0055,
+        "Reasoning": 0.0082
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The Writ Petition came to be allowed and matter came to be remitted back to the Regional Director Company Law Board with a direction to examine the case of the Petitioner and take decision on merits and in accordance with law.",
+      "predicted_label": "Facts",
+      "confidence": 0.861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0183,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0005,
+        "Facts": 0.861,
+        "Issue": 0.003,
+        "Reasoning": 0.1031
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The Honble High Court also observed that Section 141 of the Companies Act, 1956, clearly indicates that the Company Law Board is entitled to rectify any omission or misstatement made to the Registrar regarding particulars of any charge created by the Company and Company Law Board, therefore, can entertain the application for rectification which can be preferred either by company or any person interested as envisaged in subclause (b) of Section 141 (1).",
+      "predicted_label": "Facts",
+      "confidence": 0.8297,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0001,
+        "Facts": 0.8297,
+        "Issue": 0.0014,
+        "Reasoning": 0.1493
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "In the present case, the Petitioner who claims to be the person interested has filed the application on the ground that the change recorded in the Register of Charges has been done on account of omission or misstatement of facts with respect to such charge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8533,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0379,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0033,
+        "Facts": 0.0923,
+        "Issue": 0.0035,
+        "Reasoning": 0.8533
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Though it is well settled that under section 141, the Company Law Board is not to go into the validity of the charge, it can certainly consider the rectification of the omission or misstatement of particulars of any charge.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9353,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0001,
+        "Facts": 0.0289,
+        "Issue": 0.0003,
+        "Reasoning": 0.9353
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "It is further recorded by the High Court that, in the present case, according to the Court, the Company Law Board has overlooked the aspect of omission or misstatement and, therefore, has erred in holding that it did not have jurisdiction to entertain the Petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.53,
+      "probabilities": {
+        "Arguments of Petitioner": 0.019,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0007,
+        "Facts": 0.53,
+        "Issue": 0.0023,
+        "Reasoning": 0.4383
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 36,
+      "text": "The Company Law Board ought to have considered the Petition so far as it relates to allegation that Respondent No.1 had misrepresented or made misstatement of the particulars of charge and after giving an opportunity to the Petitioner, should have decided whether any rectification should be made or not by the Registrar.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0408,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0013,
+        "Facts": 0.3363,
+        "Issue": 0.0004,
+        "Reasoning": 0.6055
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "According to the High Court, the Company Law Board has clearly committed an error of Law which is apparent on the face of record.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.9208,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0002,
+        "Facts": 0.9208,
+        "Issue": 0.0162,
+        "Reasoning": 0.0442
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "That so far as the transaction between the ACTIS AFIC and AFIC as has been recorded, in view of the internal arrangement concluded by the Trust Deed dated 7 June 2005 between the Groups of Companies, the outstanding debt owed by the Petitioner was agreed to be held by ACTIS AFIC Credit Management Limited.",
+      "predicted_label": "Facts",
+      "confidence": 0.4411,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3878,
+        "Arguments of Respondent": 0.1291,
+        "Decision": 0.0012,
+        "Facts": 0.4411,
+        "Issue": 0.0018,
+        "Reasoning": 0.0392
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "The deed of assignment with Respondent No. 1 has been executed by Respondent No.4 in its capacity as Trustee of the outstanding debt of the Petitioner on its own behalf and on behalf of ACTIS AFIC credit Management Limited.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5059,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0772,
+        "Arguments of Respondent": 0.0718,
+        "Decision": 0.0051,
+        "Facts": 0.3328,
+        "Issue": 0.0072,
+        "Reasoning": 0.5059
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "The challenge to the Deed of Assignment, in fact, is beyond the scope and purview of the adjudicatory forum, since it is not a Civil Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5771,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1282,
+        "Arguments of Respondent": 0.2614,
+        "Decision": 0.0025,
+        "Facts": 0.0304,
+        "Issue": 0.0004,
+        "Reasoning": 0.5771
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The issues, including the validity of documents between two private parties cannot be adjudicated by the Company Law Board under the provisions of Section 141 of the Companies Act, 1956 and those are required to be adjudicated by a Civil Court.11.",
+      "predicted_label": "Facts",
+      "confidence": 0.5303,
+      "probabilities": {
+        "Arguments of Petitioner": 0.115,
+        "Arguments of Respondent": 0.0959,
+        "Decision": 0.0107,
+        "Facts": 0.5303,
+        "Issue": 0.0005,
+        "Reasoning": 0.2476
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "It is also pointed out that the cover page of Deed of Assignment dated 30 March 2007, mentions the title of document as Participation and Sale and Purchase Agreement between AFIC Limited on behalf of itself and as investment Manager as ACTIS AFIC Credit Management Limited and Deutsche Bank, London as the assignee.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4801,
+        "Arguments of Respondent": 0.4729,
+        "Decision": 0.0002,
+        "Facts": 0.0193,
+        "Issue": 0.001,
+        "Reasoning": 0.0265
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 43,
+      "text": "On the last page of the document, two parties have signed, out of which one is mentioned as AFIC Limited in its capacity as Investment Manager of ACTIS AFIC Credit Management Limited and the other party is Deutsche Bank, London.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1504,
+        "Arguments of Respondent": 0.1053,
+        "Decision": 0.0015,
+        "Facts": 0.3477,
+        "Issue": 0.0199,
+        "Reasoning": 0.3752
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "The Assignment Deed reveals that AFIC Ltd. is party to the document.12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5076,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0412,
+        "Arguments of Respondent": 0.0471,
+        "Decision": 0.001,
+        "Facts": 0.4026,
+        "Issue": 0.0005,
+        "Reasoning": 0.5076
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "So far as challenge raised to the legality and enforceability of document is concerned, the same does not fall within the purview of the Company Law Board and the liberty of the Petitioner to question the validity of the document has been kept open in the order dated 29 July 2015.",
+      "predicted_label": "Facts",
+      "confidence": 0.6994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0595,
+        "Arguments of Respondent": 0.0706,
+        "Decision": 0.0104,
+        "Facts": 0.6994,
+        "Issue": 0.0004,
+        "Reasoning": 0.1597
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "The Petitioner has also raised certain objections in respect of the proceedings initiated by Respondent No.1Deutsche Bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.7876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1453,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0014,
+        "Facts": 0.7876,
+        "Issue": 0.0167,
+        "Reasoning": 0.0452
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "In fact, those proceedings relate to the winding up of the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0996,
+        "Arguments of Respondent": 0.1423,
+        "Decision": 0.0085,
+        "Facts": 0.0794,
+        "Issue": 0.0035,
+        "Reasoning": 0.6666
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "The Company, in its capacity as the lender under the Sale and Purchase Agreement dated 30 march 2007, in its own right has presented the Company Petition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1639,
+        "Arguments of Respondent": 0.2537,
+        "Decision": 0.0061,
+        "Facts": 0.0676,
+        "Issue": 0.0017,
+        "Reasoning": 0.5071
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The Company Petition presented by Respondent No.1 was not entertained for the reason that it involves various questions, which need to be adjudicated before accepting the averments of",
+      "predicted_label": "Facts",
+      "confidence": 0.8954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0002,
+        "Facts": 0.8954,
+        "Issue": 0.0086,
+        "Reasoning": 0.0768
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "the present Petitioner Pearl Engineering Polymers Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.8612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0009,
+        "Facts": 0.8612,
+        "Issue": 0.1047,
+        "Reasoning": 0.0152
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "It is observed by the Court that, the transaction, based upon which the Company Petition was presented, unless screened and declared, the order in respect of winding up of the Company does not deserve to be passed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0511,
+        "Arguments of Respondent": 0.0385,
+        "Decision": 0.0012,
+        "Facts": 0.3113,
+        "Issue": 0.0011,
+        "Reasoning": 0.5968
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "The foundation of exercise of the discretion shall be, neglect to pay due and agreed amount.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.049,
+        "Arguments of Respondent": 0.0348,
+        "Decision": 0.0006,
+        "Facts": 0.0496,
+        "Issue": 0.0014,
+        "Reasoning": 0.8646
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "It is observed that since the Petition raises disputed questions and the writ petitioner i.e. Respondent No.1 is not remedyless to recover the amount, and as such, the Court refused to entertain the Company Petition.13.",
+      "predicted_label": "Facts",
+      "confidence": 0.8564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0108,
+        "Arguments of Respondent": 0.0201,
+        "Decision": 0.0003,
+        "Facts": 0.8564,
+        "Issue": 0.0013,
+        "Reasoning": 0.1111
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "The order passed in Company Petition No. 221 of 2012 is a matter of challenge in Appeal 124 of 2013 presented by Respondent No.1Deutsche Bank and the same is admitted and pending for adjudication.",
+      "predicted_label": "Facts",
+      "confidence": 0.5439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0199,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0357,
+        "Facts": 0.5439,
+        "Issue": 0.0018,
+        "Reasoning": 0.3881
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "The Petitioner herein has raised all the objections relating to the permissibility to recover the amount on account of bar of limitation, so also the issue relating to the validity of the Sale and Purchase Agreement with Respondent No.1Deutsche Bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.7348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0571,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0494,
+        "Facts": 0.7348,
+        "Issue": 0.0363,
+        "Reasoning": 0.1145
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "These objections are likely to be considered in the pending Appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.6841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0568,
+        "Arguments of Respondent": 0.0609,
+        "Decision": 0.0035,
+        "Facts": 0.6841,
+        "Issue": 0.0053,
+        "Reasoning": 0.1895
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "Even otherwise, considering the scope of Section 141 of the Companies Act, the prayers made in the instant Petition do not deserve to be considered.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6234,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0588,
+        "Arguments of Respondent": 0.1788,
+        "Decision": 0.0036,
+        "Facts": 0.1352,
+        "Issue": 0.0001,
+        "Reasoning": 0.6234
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "The instant Petition thus, does not deserve to be entertained, since the Respondent Company Law Board the Regional Director, Western Region was within its rights in registering charge of Respondent No. 1, in pursuance to the Application tendered in that regard, in exercise of Powers under Section 141 of the Companies Act, 1956.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9368,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0101,
+        "Facts": 0.031,
+        "Issue": 0.0001,
+        "Reasoning": 0.9368
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "The challenge raised by the Petitioner in the instant Petition does not come within the purview of Section 141 of the Act 1956, and it would be open for the Petitioner to raise the challenge relating to the documents, its enforceability, execution or the entitlement of the concerned Respondent to recover the amount from the Petitioner or defence in respect of bar of limitation, before an appropriate forum available in law.16.",
+      "predicted_label": "Decision",
+      "confidence": 0.4732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.4732,
+        "Facts": 0.0583,
+        "Issue": 0.0002,
+        "Reasoning": 0.459
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 60,
+      "text": "The Petition is devoid of substance, hence stands rejected.",
+      "predicted_label": "Facts",
+      "confidence": 0.9052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.0279,
+        "Facts": 0.9052,
+        "Issue": 0.0056,
+        "Reasoning": 0.0393
+      }
+    }
+  ]
+}

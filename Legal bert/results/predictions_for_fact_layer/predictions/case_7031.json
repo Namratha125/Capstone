@@ -1,0 +1,1688 @@
+{
+  "case_id": "7031",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The Appeal is directed against an Order dated 18th September 2018 passed by a learned Single Judge of this Court (SC Gupte, J).",
+      "predicted_label": "Issue",
+      "confidence": 0.9352,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.001,
+        "Facts": 0.0625,
+        "Issue": 0.9352,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The Appellant, Tata Consultancy Services Limited (TCS), was the original petitioner before Gupte J and the respondent in arbitration.",
+      "predicted_label": "Facts",
+      "confidence": 0.8476,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0002,
+        "Facts": 0.8476,
+        "Issue": 0.1393,
+        "Reasoning": 0.0089
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The Respondent in this Appeal is Inspira IT Products Private Limited (Inspira), also the respondent before the learned single Judge and the claimant in arbitration.",
+      "predicted_label": "Facts",
+      "confidence": 0.9577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0002,
+        "Facts": 0.9577,
+        "Issue": 0.0387,
+        "Reasoning": 0.0021
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "By the impugned order, Gupte J dismissed TCSs Petition under Section 34 of the Arbitration and Conciliation Act, 1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.8157,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0021,
+        "Facts": 0.8157,
+        "Issue": 0.1443,
+        "Reasoning": 0.0301
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "In that Petition, TCS challenged an order of the sole Arbitrator rejecting its application on an issue of limitation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.418,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1493,
+        "Arguments of Respondent": 0.2029,
+        "Decision": 0.0032,
+        "Facts": 0.2194,
+        "Issue": 0.0072,
+        "Reasoning": 0.418
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "TCSs application was under Section 31(6) of the Arbitration and Conciliation Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.3523,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1467,
+        "Arguments of Respondent": 0.1701,
+        "Decision": 0.0024,
+        "Facts": 0.3523,
+        "Issue": 0.003,
+        "Reasoning": 0.3256
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "Since the arbitral order disposed of the issue of limitation finally, this is deemed to be an interim award within the meaning of Section 2(1) (c) of the Arbitration and Conciliation Act 1996.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4672,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1661,
+        "Arguments of Respondent": 0.2062,
+        "Decision": 0.0058,
+        "Facts": 0.1532,
+        "Issue": 0.0015,
+        "Reasoning": 0.4672
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The facts are not in dispute.",
+      "predicted_label": "Facts",
+      "confidence": 0.8728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0009,
+        "Facts": 0.8728,
+        "Issue": 0.0305,
+        "Reasoning": 0.0895
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "On 24th June 2013, TCS placed a purchase order on Inspira for the supply of some IT equipment.",
+      "predicted_label": "Facts",
+      "confidence": 0.9424,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0197,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0001,
+        "Facts": 0.9424,
+        "Issue": 0.0028,
+        "Reasoning": 0.0223
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "That order required delivery to be made by 28th July 2013.",
+      "predicted_label": "Facts",
+      "confidence": 0.8199,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0134,
+        "Decision": 0.0005,
+        "Facts": 0.8199,
+        "Issue": 0.0029,
+        "Reasoning": 0.146
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Inspiras complaint was that although it was prepared to supply the equipment, TCS neglected or refused to accept delivery.",
+      "predicted_label": "Facts",
+      "confidence": 0.8987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.019,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0002,
+        "Facts": 0.8987,
+        "Issue": 0.0003,
+        "Reasoning": 0.0627
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "Inspira claimed that it suffered damages.",
+      "predicted_label": "Facts",
+      "confidence": 0.6787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.046,
+        "Arguments of Respondent": 0.0231,
+        "Decision": 0.0412,
+        "Facts": 0.6787,
+        "Issue": 0.0315,
+        "Reasoning": 0.1795
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "It sent a demand notice to TCS on 23rd March 2016 and followed this with a winding up notice on 30th March 2016.",
+      "predicted_label": "Facts",
+      "confidence": 0.8347,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0359,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0003,
+        "Facts": 0.8347,
+        "Issue": 0.0014,
+        "Reasoning": 0.1007
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "TCS replied in correspondence, after which, on 18th May 2016, Inspira filed a winding up petition against TCS before this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.9888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0,
+        "Facts": 0.9888,
+        "Issue": 0.0008,
+        "Reasoning": 0.006
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "While the petition was pending admission, the parties agreed to refer their disputes to arbitration.",
+      "predicted_label": "Facts",
+      "confidence": 0.9236,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0005,
+        "Facts": 0.9236,
+        "Issue": 0.0061,
+        "Reasoning": 0.0606
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "By consent, the matter was referred to a sole arbitrator.",
+      "predicted_label": "Facts",
+      "confidence": 0.859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.015,
+        "Decision": 0.0006,
+        "Facts": 0.859,
+        "Issue": 0.0235,
+        "Reasoning": 0.0958
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "All rights and contentions between the parties (except as to the constitution or composition of the Arbitral Tribunal) were expressly kept at large.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8083,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0254,
+        "Arguments of Respondent": 0.0454,
+        "Decision": 0.0024,
+        "Facts": 0.1183,
+        "Issue": 0.0002,
+        "Reasoning": 0.8083
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Before the first learned sole Arbitrator (there was a change in arbitrator thereafter), TCS raised a preliminary issue of limitation.",
+      "predicted_label": "Facts",
+      "confidence": 0.6921,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0483,
+        "Arguments of Respondent": 0.1364,
+        "Decision": 0.0007,
+        "Facts": 0.6921,
+        "Issue": 0.0018,
+        "Reasoning": 0.1207
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "Its submission was then, as it is even now, that as on the date of the reference, 12th February 2018, and which would be the relevant date of invocation for the purposes of Section 21 of the Arbitration Act, Inspiras claim was barred by limitation, more than three years having passed since the date of actual accrual of the cause of action, if any.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2758,
+        "Arguments of Respondent": 0.1327,
+        "Decision": 0.0004,
+        "Facts": 0.2615,
+        "Issue": 0.002,
+        "Reasoning": 0.3276
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Inspira responded that it was entitled to an exclusion of time taken during the winding up proceedings.",
+      "predicted_label": "Facts",
+      "confidence": 0.7954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0275,
+        "Arguments of Respondent": 0.0239,
+        "Decision": 0.0005,
+        "Facts": 0.7954,
+        "Issue": 0.0023,
+        "Reasoning": 0.1504
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "It submitted that the winding up petition was a civil proceeding for the purposes Section 14(1) of the Limitation Act 1963.",
+      "predicted_label": "Facts",
+      "confidence": 0.6453,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1239,
+        "Arguments of Respondent": 0.1553,
+        "Decision": 0.001,
+        "Facts": 0.6453,
+        "Issue": 0.0067,
+        "Reasoning": 0.0678
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Inspira argued that it was prosecuting its winding up petition with due diligence and good faith in a court of first instance and that this proceeding related to the same subject matter as existed in the arbitration reference.",
+      "predicted_label": "Facts",
+      "confidence": 0.6625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0259,
+        "Arguments of Respondent": 0.1991,
+        "Decision": 0.0012,
+        "Facts": 0.6625,
+        "Issue": 0.0009,
+        "Reasoning": 0.1103
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The company court, from a defect of jurisdiction or, more appropriately, other cause of like nature, was unable to entertain it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1572,
+        "Arguments of Respondent": 0.0383,
+        "Decision": 0.0022,
+        "Facts": 0.2296,
+        "Issue": 0.0043,
+        "Reasoning": 0.5684
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "Inspira also said that since the delivery date of 20th July 2013 had been extended to 27th January 2016, the reference was, in any case, within time.",
+      "predicted_label": "Facts",
+      "confidence": 0.4912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.157,
+        "Arguments of Respondent": 0.1387,
+        "Decision": 0.0004,
+        "Facts": 0.4912,
+        "Issue": 0.0003,
+        "Reasoning": 0.2125
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "This extension claimed by Inspira was disputed by TCS, which said that it had not expressly agreed to any such extension at all.",
+      "predicted_label": "Facts",
+      "confidence": 0.4634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2217,
+        "Arguments of Respondent": 0.1769,
+        "Decision": 0.0001,
+        "Facts": 0.4634,
+        "Issue": 0.001,
+        "Reasoning": 0.1369
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "Before Ms. Manjari Shah, the successor sole arbitrator, Inspira relied on several Supreme Court judgments.",
+      "predicted_label": "Facts",
+      "confidence": 0.7093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0341,
+        "Arguments of Respondent": 0.0509,
+        "Decision": 0.0019,
+        "Facts": 0.7093,
+        "Issue": 0.001,
+        "Reasoning": 0.2029
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Ms. Shah accepted Inspiras case that it was entitled to an exclusion of the time spent in prosecuting the winding up petition.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7562,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1938,
+        "Arguments of Respondent": 0.7562,
+        "Decision": 0.0019,
+        "Facts": 0.0013,
+        "Issue": 0.0002,
+        "Reasoning": 0.0466
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "She therefore, held that the arbitration reference was within time.",
+      "predicted_label": "Facts",
+      "confidence": 0.9093,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0004,
+        "Facts": 0.9093,
+        "Issue": 0.0032,
+        "Reasoning": 0.0773
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "6. Ms. Sethna, the learned Counsel for TCS made several submission before the learned Single Judge in TCSs Section 34 challenge petition.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3856,
+        "Arguments of Respondent": 0.3729,
+        "Decision": 0.0016,
+        "Facts": 0.2246,
+        "Issue": 0.0022,
+        "Reasoning": 0.013
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "She first submitted that a winding up petition is not a civil proceeding strictly socalled.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4303,
+        "Arguments of Respondent": 0.564,
+        "Decision": 0.0002,
+        "Facts": 0.001,
+        "Issue": 0.0002,
+        "Reasoning": 0.0044
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "It is therefore, excluded from the ambit of Section 14(1).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0954,
+        "Arguments of Respondent": 0.2374,
+        "Decision": 0.0015,
+        "Facts": 0.0302,
+        "Issue": 0.0006,
+        "Reasoning": 0.6348
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "Second, there was no question of the petition having been prosecuted in good faith.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6895,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1365,
+        "Arguments of Respondent": 0.0955,
+        "Decision": 0.0014,
+        "Facts": 0.0764,
+        "Issue": 0.0008,
+        "Reasoning": 0.6895
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "The reason for this is, in her submission, that a winding up petition cannot be utilised as a means of recovery of disputed claim or debt.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.371,
+        "Arguments of Respondent": 0.5925,
+        "Decision": 0.0002,
+        "Facts": 0.0025,
+        "Issue": 0.0001,
+        "Reasoning": 0.0336
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "Consequently, the winding up petition was not being prosecuted in good faith for recovery.",
+      "predicted_label": "Facts",
+      "confidence": 0.5967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1487,
+        "Arguments of Respondent": 0.1059,
+        "Decision": 0.012,
+        "Facts": 0.5967,
+        "Issue": 0.0034,
+        "Reasoning": 0.1333
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "Third, she submitted that the winding up petition was rejected not on account of a defect of jurisdiction or other cause of a like nature.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6434,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3371,
+        "Arguments of Respondent": 0.6434,
+        "Decision": 0.0003,
+        "Facts": 0.0057,
+        "Issue": 0.0002,
+        "Reasoning": 0.0134
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "Therefore the essential ingredients of Section 14(1) of the Limitation Act could not be said to be satisfied.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0631,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0005,
+        "Facts": 0.0173,
+        "Issue": 0.0001,
+        "Reasoning": 0.8898
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "In response, Inspira submitted before Gupte J that the expression civil proceeding is not to be narrowly construed to mean only as a civil suit.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1224,
+        "Arguments of Respondent": 0.7734,
+        "Decision": 0.0004,
+        "Facts": 0.0368,
+        "Issue": 0.0001,
+        "Reasoning": 0.0668
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "It is used in contradistinction to a criminal proceeding.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0452,
+        "Arguments of Respondent": 0.0669,
+        "Decision": 0.0006,
+        "Facts": 0.0087,
+        "Issue": 0.0003,
+        "Reasoning": 0.8784
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "Any proceeding before a court or tribunal in regard to a civil right and not a criminal complaint is a civil proceeding for the purposes of Section 14(1).",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0201,
+        "Arguments of Respondent": 0.5134,
+        "Decision": 0.0048,
+        "Facts": 0.0118,
+        "Issue": 0.0013,
+        "Reasoning": 0.4487
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "There is a distinction between Section 14(1) and Section 14(2).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.674,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0351,
+        "Arguments of Respondent": 0.2707,
+        "Decision": 0.0004,
+        "Facts": 0.0193,
+        "Issue": 0.0005,
+        "Reasoning": 0.674
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "Section 14(1) requires that the civil proceeding relate to the same subject matter in issue.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7868,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0588,
+        "Arguments of Respondent": 0.1309,
+        "Decision": 0.0005,
+        "Facts": 0.0214,
+        "Issue": 0.0016,
+        "Reasoning": 0.7868
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "It does not have to be for the same relief.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8382,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0618,
+        "Arguments of Respondent": 0.0718,
+        "Decision": 0.0039,
+        "Facts": 0.0233,
+        "Issue": 0.001,
+        "Reasoning": 0.8382
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "Given that there was a contract and demonstrable nonacceptance of ready delivery, Inspira said its winding up petition was indeed bona fide.",
+      "predicted_label": "Facts",
+      "confidence": 0.7832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0367,
+        "Arguments of Respondent": 0.1342,
+        "Decision": 0.0006,
+        "Facts": 0.7832,
+        "Issue": 0.0026,
+        "Reasoning": 0.0426
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Lastly, the words cause of a like nature extend to the inability of a Company Court to entertain a winding up petition for any of the well settled grounds applicable to this branch of law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0194,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0001,
+        "Facts": 0.0057,
+        "Issue": 0.0004,
+        "Reasoning": 0.9646
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "It is not necessary, Inspira argued, that for Section 14(1) there should be an express rejection only on the grounds of jurisdiction.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3603,
+        "Arguments of Respondent": 0.3953,
+        "Decision": 0.0001,
+        "Facts": 0.0058,
+        "Issue": 0.0008,
+        "Reasoning": 0.2378
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "As the emphasised portion shows, there is a material distinction between 14(1) and 14(2).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9429,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0363,
+        "Decision": 0.0002,
+        "Facts": 0.0115,
+        "Issue": 0.0003,
+        "Reasoning": 0.9429
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "We are only concerned with the former.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4836,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0621,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0012,
+        "Facts": 0.4183,
+        "Issue": 0.0081,
+        "Reasoning": 0.4836
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "As Ms. Sethna correctly points out, this has several components or ingredients that have to be met before the exclusion of time can operate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8074,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1342,
+        "Arguments of Respondent": 0.0469,
+        "Decision": 0.0011,
+        "Facts": 0.0101,
+        "Issue": 0.0002,
+        "Reasoning": 0.8074
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Each of these can be separately identified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1226,
+        "Arguments of Respondent": 0.2101,
+        "Decision": 0.0042,
+        "Facts": 0.1801,
+        "Issue": 0.0054,
+        "Reasoning": 0.4776
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "There is the question of due diligence the existence of a civil proceeding the same subject matter in issue the prosecution of the previous civil proceeding in good faith and the fact that a Court which from defect of jurisdiction or other cause of a like nature is unable to entertain it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0446,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0003,
+        "Facts": 0.011,
+        "Issue": 0.001,
+        "Reasoning": 0.9165
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "Ms. Sethna relies on the decision of a Single Judge of this Court in Ajab Enterprises v. Jayant Vegoiles And Chemicals Pvt.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.94,
+      "probabilities": {
+        "Arguments of Petitioner": 0.94,
+        "Arguments of Respondent": 0.0371,
+        "Decision": 0.0006,
+        "Facts": 0.0051,
+        "Issue": 0.0002,
+        "Reasoning": 0.0171
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "Ltd. AIR 1991",
+      "predicted_label": "Reasoning",
+      "confidence": 0.34,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2531,
+        "Arguments of Respondent": 0.1742,
+        "Decision": 0.0098,
+        "Facts": 0.2082,
+        "Issue": 0.0146,
+        "Reasoning": 0.34
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 52,
+      "text": "Bom 35 The learned Single Judge considered both Section 14(1) and 14(2).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8074,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.0274,
+        "Decision": 0.0002,
+        "Facts": 0.1541,
+        "Issue": 0.0004,
+        "Reasoning": 0.8074
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "He accepted the contention that a company petition for winding up cannot be considered as covering the same issue as in a civil suit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6174,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0676,
+        "Arguments of Respondent": 0.0677,
+        "Decision": 0.0003,
+        "Facts": 0.2458,
+        "Issue": 0.0011,
+        "Reasoning": 0.6174
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "The learned Single Judge relied on the decision of the Supreme Court in Yeswant Deorao Deshmukh v. Walchand Ramchand Kothari AIR 1951 SC 16 to say that there can be no exclusion of time under Section 14 of the time occupied by insolvency proceeding against the judgment debtor in continue the period of limitation in executing a decree against him as the proceedings are not for obtaining the same relief.",
+      "predicted_label": "Facts",
+      "confidence": 0.6877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0104,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0001,
+        "Facts": 0.6877,
+        "Issue": 0.0057,
+        "Reasoning": 0.2921
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "In addition Ms. Sethna refers to a Full Bench decision of the Lahore High Court in Jai Kishan Singh v. The Peoples Bank of Northern India.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6783,
+        "Arguments of Respondent": 0.2939,
+        "Decision": 0.0003,
+        "Facts": 0.0046,
+        "Issue": 0.0001,
+        "Reasoning": 0.0228
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "(1944) Vol XXV ILR Lahore Series 451 Ms. Sethna relies on the decision of the Supreme Court in SiddharamSatlingappaMhetre v. State of Maharashtra and Others, (2011) 1 SCC 694 paragraph 13 for the submission that the decision of the learned Single Judge in Ajab Enterprises was always binding on Gupte J and he could not possibly taken a different view.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6016,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3851,
+        "Arguments of Respondent": 0.6016,
+        "Decision": 0.0002,
+        "Facts": 0.003,
+        "Issue": 0.0001,
+        "Reasoning": 0.0101
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "A large part of the discussion before the learned Single Judge was on the question of what is meant by cause of a like nature.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0158,
+        "Arguments of Respondent": 0.0135,
+        "Decision": 0.0003,
+        "Facts": 0.4281,
+        "Issue": 0.053,
+        "Reasoning": 0.4893
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "It is here that the learned Single Judge considered the case of Ajab Enterprises.",
+      "predicted_label": "Facts",
+      "confidence": 0.6879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0004,
+        "Facts": 0.6879,
+        "Issue": 0.0019,
+        "Reasoning": 0.2842
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "In our view the learned Single Judge correctly held that the issue was no longer res integra at least in regard to the proposition that Section 14 of the Limitation Act must be interpreted to advance the cause of justice Union of India And Ors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0006,
+        "Facts": 0.0081,
+        "Issue": 0.0002,
+        "Reasoning": 0.9838
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "v. West Coast Paper Mills Ltd.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3823,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3823,
+        "Arguments of Respondent": 0.2119,
+        "Decision": 0.0199,
+        "Facts": 0.1095,
+        "Issue": 0.0025,
+        "Reasoning": 0.2739
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 61,
+      "text": "And Anr.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.529,
+      "probabilities": {
+        "Arguments of Petitioner": 0.529,
+        "Arguments of Respondent": 0.229,
+        "Decision": 0.0058,
+        "Facts": 0.0806,
+        "Issue": 0.0024,
+        "Reasoning": 0.1532
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "(2004) 3 SCC 458",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.349,
+      "probabilities": {
+        "Arguments of Petitioner": 0.349,
+        "Arguments of Respondent": 0.3454,
+        "Decision": 0.0011,
+        "Facts": 0.0778,
+        "Issue": 0.0041,
+        "Reasoning": 0.2226
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 63,
+      "text": "In regard to Ajab Enterprises, SC Gupte, J held that the narrower view taken there could not be said to be good law in view of the completely contrary proposition set out by the Supreme Court in West Coast Paper Mills Ltd. and followed by the Supreme Court itself in M.P. Steel Corporation v. Commissioner Of Central Excise.",
+      "predicted_label": "Facts",
+      "confidence": 0.8393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0003,
+        "Facts": 0.8393,
+        "Issue": 0.0003,
+        "Reasoning": 0.149
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "(2015) 7 SCC 58",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3479,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3479,
+        "Arguments of Respondent": 0.339,
+        "Decision": 0.0016,
+        "Facts": 0.0938,
+        "Issue": 0.0069,
+        "Reasoning": 0.2108
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 65,
+      "text": "The views in Ajab Enterprises are also contrary to the later decision of a Division Bench of this Court in Maharashtra State Farming Corporation Ltd. v. Belapur Sugar",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5121,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3612,
+        "Arguments of Respondent": 0.0774,
+        "Decision": 0.0013,
+        "Facts": 0.0479,
+        "Issue": 0.0001,
+        "Reasoning": 0.5121
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "And Allied Industries Ltd., (2004) 3",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3748,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2953,
+        "Arguments of Respondent": 0.3748,
+        "Decision": 0.0029,
+        "Facts": 0.0302,
+        "Issue": 0.0003,
+        "Reasoning": 0.2965
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 67,
+      "text": "Mh LJ 414 where this Court precisely ordered such an exclusion of time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2097,
+        "Arguments of Respondent": 0.1745,
+        "Decision": 0.0014,
+        "Facts": 0.0264,
+        "Issue": 0.0005,
+        "Reasoning": 0.5875
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "Of necessity, the submission by Ms. Sethna on Ajab Enterprises results in a completely unviable position.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9359,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0358,
+        "Decision": 0.0007,
+        "Facts": 0.0159,
+        "Issue": 0.0001,
+        "Reasoning": 0.9359
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "It means that Ajab Enterprises, though plainly contrary to later decisions of the Supreme Court and our Division Bench, was nonetheless binding on Gupte J. That surely cannot be.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6771,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1083,
+        "Arguments of Respondent": 0.0782,
+        "Decision": 0.002,
+        "Facts": 0.1332,
+        "Issue": 0.0012,
+        "Reasoning": 0.6771
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "We do not believe that the decision in SiddharamSatlingappaMhetre is an authority for any such proposition to constitute binding precedent, the previous decision must be good law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9617,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0182,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0014,
+        "Facts": 0.0058,
+        "Issue": 0.0016,
+        "Reasoning": 0.9617
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "Indeed, we are fully in agreement with the view of Gupte J that the decision in Ajab Enterprises is not and cannot be said to be good law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9145,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0118,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0432,
+        "Facts": 0.0264,
+        "Issue": 0.0004,
+        "Reasoning": 0.9145
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "On behalf of Inspira, apart from the factual conspectus which is not disputed, the submission before us by Dr. Saraf is that Section 14 is of wide amplitude.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6108,
+        "Arguments of Respondent": 0.2589,
+        "Decision": 0.0002,
+        "Facts": 0.0012,
+        "Issue": 0.0002,
+        "Reasoning": 0.1286
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "The test is to see whether there is a substantial identity of subject matter and a pragmatic approach must be taken RoshanlalKuthalia And Ors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0508,
+        "Arguments of Respondent": 0.0541,
+        "Decision": 0.0003,
+        "Facts": 0.0113,
+        "Issue": 0.0006,
+        "Reasoning": 0.8828
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "v. RB Mohan Singh Oberoi.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4169,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2919,
+        "Arguments of Respondent": 0.194,
+        "Decision": 0.0076,
+        "Facts": 0.0848,
+        "Issue": 0.0048,
+        "Reasoning": 0.4169
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 75,
+      "text": "(1975) 4 SCC 628 Section 14 is not limited or confined only to cases of defect of jurisdiction but extends to other causes also as held by the Supreme Court in SAL Narayan Row Anr.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1523,
+        "Arguments of Respondent": 0.1553,
+        "Decision": 0.0007,
+        "Facts": 0.0131,
+        "Issue": 0.0009,
+        "Reasoning": 0.6777
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "v. IshwarlalBhagwandasAnr.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4146,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4146,
+        "Arguments of Respondent": 0.3348,
+        "Decision": 0.0034,
+        "Facts": 0.0373,
+        "Issue": 0.0006,
+        "Reasoning": 0.2094
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 77,
+      "text": "(1966) 1",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4291,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4291,
+        "Arguments of Respondent": 0.2448,
+        "Decision": 0.0012,
+        "Facts": 0.0292,
+        "Issue": 0.0014,
+        "Reasoning": 0.2943
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 78,
+      "text": "SCR 190 , AIR 1965 SC 1818 , (1965)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2846,
+        "Arguments of Respondent": 0.2019,
+        "Decision": 0.0017,
+        "Facts": 0.0708,
+        "Issue": 0.0042,
+        "Reasoning": 0.4367
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "57 ITR 149 In SAL Narayan Row, the Supreme Court clearly said that the words civil proceedings (in that context in Article 132) were used in a wide sense in contradistinction to criminal proceedings and covered all actions that directly affected or related to civil rights.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8578,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0387,
+        "Arguments of Respondent": 0.0986,
+        "Decision": 0.0012,
+        "Facts": 0.0034,
+        "Issue": 0.0004,
+        "Reasoning": 0.8578
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "This view was reiterated in Ramesh Anr.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0687,
+        "Arguments of Respondent": 0.0849,
+        "Decision": 0.0014,
+        "Facts": 0.0164,
+        "Issue": 0.0002,
+        "Reasoning": 0.8285
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "v. Seth Gendalal Motilal Patni Anr.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3834,
+        "Arguments of Respondent": 0.3376,
+        "Decision": 0.0053,
+        "Facts": 0.0637,
+        "Issue": 0.0014,
+        "Reasoning": 0.2086
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 82,
+      "text": "(1966) 3",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.435,
+        "Arguments of Respondent": 0.2556,
+        "Decision": 0.001,
+        "Facts": 0.0268,
+        "Issue": 0.0011,
+        "Reasoning": 0.2806
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "SCR 198 , AIR 1966 SC 1445 for the purposes of Article 133 which confers appellate jurisdiction of the Supreme Court in appeals from High Court in regard to civil matters.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1863,
+        "Arguments of Respondent": 0.1663,
+        "Decision": 0.0012,
+        "Facts": 0.1123,
+        "Issue": 0.0649,
+        "Reasoning": 0.469
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "The learned Single Judge held that there was no reason to see the words civil proceedings any differently for the purposes of Section 14 of the Limitation Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.5445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0002,
+        "Facts": 0.5445,
+        "Issue": 0.0023,
+        "Reasoning": 0.4446
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 85,
+      "text": "No narrower view was justified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1127,
+        "Arguments of Respondent": 0.1214,
+        "Decision": 0.0085,
+        "Facts": 0.0618,
+        "Issue": 0.0001,
+        "Reasoning": 0.6955
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "Indeed the Supreme Court itself, in MP Steel Corporation held that Section 14 needs to be construed liberally so as to advance the cause of justice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0379,
+        "Arguments of Respondent": 0.0912,
+        "Decision": 0.0004,
+        "Facts": 0.0732,
+        "Issue": 0.0015,
+        "Reasoning": 0.7958
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "Its principle is that whenever a person pursues with due diligence another proceeding and does so bona fide, and this is proved to be abortive because it is without jurisdiction or otherwise such that no decision on merits is possible, that time ought to be excluded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9524,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0231,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0002,
+        "Facts": 0.0107,
+        "Issue": 0.0003,
+        "Reasoning": 0.9524
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "The rational behind this is, to our mind plain.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0002,
+        "Facts": 0.0128,
+        "Issue": 0.0002,
+        "Reasoning": 0.9692
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "In fact, this case probably provides very good illustration of why this salutary principle enunciated by Supreme Court should apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9702,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.0003,
+        "Facts": 0.0035,
+        "Issue": 0.0008,
+        "Reasoning": 0.9702
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "After all, TCS knew what Inspiras claim was.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1561,
+        "Arguments of Respondent": 0.1815,
+        "Decision": 0.0016,
+        "Facts": 0.0832,
+        "Issue": 0.0003,
+        "Reasoning": 0.5773
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "It opposed the winding up proceedings.",
+      "predicted_label": "Facts",
+      "confidence": 0.8425,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0278,
+        "Decision": 0.0016,
+        "Facts": 0.8425,
+        "Issue": 0.0061,
+        "Reasoning": 0.1058
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "It could hardly be suggested that those winding up proceedings should count for absolutely nothing that limitation should continue running without exclusion or that Inpira ought to have simultaneously filed a civil suit to save limitation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0207,
+        "Decision": 0.0008,
+        "Facts": 0.0239,
+        "Issue": 0.0001,
+        "Reasoning": 0.9458
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "No decision came to be rendered in the winding up petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.5992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0347,
+        "Arguments of Respondent": 0.0391,
+        "Decision": 0.0084,
+        "Facts": 0.5992,
+        "Issue": 0.0082,
+        "Reasoning": 0.3103
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 94,
+      "text": "Any narrower construction would only defeat justice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0314,
+        "Arguments of Respondent": 0.0572,
+        "Decision": 0.0009,
+        "Facts": 0.0241,
+        "Issue": 0.0004,
+        "Reasoning": 0.8861
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "This is also not the first time that the Court has taken a such a view, as is clear from Maharashtra State Farming Corporation where this Court allowed such an exclusion of time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8374,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0598,
+        "Arguments of Respondent": 0.07,
+        "Decision": 0.0027,
+        "Facts": 0.0295,
+        "Issue": 0.0007,
+        "Reasoning": 0.8374
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "16.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8032,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8032,
+        "Arguments of Respondent": 0.0477,
+        "Decision": 0.0028,
+        "Facts": 0.0317,
+        "Issue": 0.0101,
+        "Reasoning": 0.1045
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "This takes us to Ms. Sethnas next submission that a winding up petition is not a bona fide remedy for recovery of a debt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1338,
+        "Arguments of Respondent": 0.1141,
+        "Decision": 0.0014,
+        "Facts": 0.0028,
+        "Issue": 0.0009,
+        "Reasoning": 0.747
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "Stated thus, the principle is inaccurate, especially if it is based on the decision of the Supreme Court in IBA Health (India) Private Limited v. InfoDrive Systems SDN BHD.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7907,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1302,
+        "Arguments of Respondent": 0.0413,
+        "Decision": 0.0009,
+        "Facts": 0.0367,
+        "Issue": 0.0001,
+        "Reasoning": 0.7907
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "(2010) 10 SCC 553",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3625,
+        "Arguments of Respondent": 0.3257,
+        "Decision": 0.0013,
+        "Facts": 0.0873,
+        "Issue": 0.0047,
+        "Reasoning": 0.2185
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 100,
+      "text": "The relevant portion is that a winding up petition could not be said to be a bona fide remedy for recovery of a disputed claimi.e., one which a company court could not entertain on wellsettled principles.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6944,
+      "probabilities": {
+        "Arguments of Petitioner": 0.104,
+        "Arguments of Respondent": 0.0652,
+        "Decision": 0.0025,
+        "Facts": 0.1329,
+        "Issue": 0.001,
+        "Reasoning": 0.6944
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 101,
+      "text": "Otherwise, as the Supreme Court has itself held in Harinagar Sugar Mills Co. Ltd. v. MW Pradhan, Court Receiver, High Court, Bombay, (1966) 3",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.087,
+        "Arguments of Respondent": 0.0549,
+        "Decision": 0.0016,
+        "Facts": 0.0676,
+        "Issue": 0.0003,
+        "Reasoning": 0.7886
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "SCR 948 , AIR 1966 SC 1707 , (1966) 60 ITR 508 , (1966) 36 Com Cas 426 citing established law, a winding up petition is a perfectly proper remedy for enforcing payment of a just debt.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2076,
+        "Arguments of Respondent": 0.569,
+        "Decision": 0.0008,
+        "Facts": 0.0217,
+        "Issue": 0.0003,
+        "Reasoning": 0.2006
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 103,
+      "text": "It is a mode of execution which the Court gives to the creditor against a company unable to pay its debts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8136,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1071,
+        "Arguments of Respondent": 0.0549,
+        "Decision": 0.0008,
+        "Facts": 0.0232,
+        "Issue": 0.0004,
+        "Reasoning": 0.8136
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "Our Court has followed this authority in Modern Dekor Painting Contracts Private Ltd. v. Jenson Nicholson (India) Ltd. (1984)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0375,
+        "Arguments of Respondent": 0.0376,
+        "Decision": 0.001,
+        "Facts": 0.0481,
+        "Issue": 0.0007,
+        "Reasoning": 0.8752
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "Mh LJ 988, 1985 Tax LR 2090 17.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4995,
+        "Arguments of Respondent": 0.1992,
+        "Decision": 0.0004,
+        "Facts": 0.042,
+        "Issue": 0.0003,
+        "Reasoning": 0.2586
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 106,
+      "text": "We also find it extraordinarily strange that before the learned Single Judge hearing the company petition TCS should consent to the appointment of sole arbitrator to decide the very dispute that was before the company court, only to then contend that Inspiras claim was entirely timebarred.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.901,
+      "probabilities": {
+        "Arguments of Petitioner": 0.013,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0158,
+        "Facts": 0.0642,
+        "Issue": 0.0003,
+        "Reasoning": 0.901
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "18.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.805,
+        "Arguments of Respondent": 0.0511,
+        "Decision": 0.0032,
+        "Facts": 0.0305,
+        "Issue": 0.011,
+        "Reasoning": 0.0991
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "As to the question of whether the reference to arbitration relates to same subject matter, little needs to be said on that score.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9425,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0023,
+        "Facts": 0.0252,
+        "Issue": 0.0167,
+        "Reasoning": 0.9425
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "Clearly it does.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0355,
+        "Arguments of Respondent": 0.0209,
+        "Decision": 0.0014,
+        "Facts": 0.029,
+        "Issue": 0.0042,
+        "Reasoning": 0.909
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "Dr. Saraf submits that, if viewed as Ms. Sethna would have us do, Section 14(1) of the Limitation Act becomes a prohibitory and penal statue rather than the reverse which is its plain intent.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5634,
+        "Arguments of Respondent": 0.212,
+        "Decision": 0.0008,
+        "Facts": 0.0018,
+        "Issue": 0.0004,
+        "Reasoning": 0.2216
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 111,
+      "text": "It is a liberal provision and it is substantive law granting an applicant a right to exclusion of time, i.e. an extension of limitation as it were, provided the ingredients in that Section are properly made out.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0712,
+        "Arguments of Respondent": 0.0562,
+        "Decision": 0.0004,
+        "Facts": 0.0168,
+        "Issue": 0.0005,
+        "Reasoning": 0.8547
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "Viewed from this perspective, we do not think there is any reason for interference with the order of the learned Single Judge.",
+      "predicted_label": "Facts",
+      "confidence": 0.5128,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.1108,
+        "Facts": 0.5128,
+        "Issue": 0.0011,
+        "Reasoning": 0.3679
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 113,
+      "text": "The Appeal has no substance.",
+      "predicted_label": "Decision",
+      "confidence": 0.5408,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0161,
+        "Decision": 0.5408,
+        "Facts": 0.1559,
+        "Issue": 0.0016,
+        "Reasoning": 0.2821
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 114,
+      "text": "It is dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9826,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9826,
+        "Facts": 0.0115,
+        "Issue": 0.0002,
+        "Reasoning": 0.0051
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "In the facts and circumstances of the case, there will be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9888,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9888,
+        "Facts": 0.0028,
+        "Issue": 0.0001,
+        "Reasoning": 0.0077
+      }
+    }
+  ]
+}

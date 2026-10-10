@@ -1,0 +1,1504 @@
+{
+  "case_id": "6664",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " L. PENDSE, J. ( 1 ) THE petitioner No. 1 is an Existing Company within the meaning of Section 3 of the companies Act, 1956 and manufactures at the factory at Khadki, Pune, bimetal bearings suitable for various applications.",
+      "predicted_label": "Facts",
+      "confidence": 0.9927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9927,
+        "Issue": 0.0055,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The bimetal bearings are used in engines and chassis of motor vehicles and tractors and thus become parts of motor vehicles and tractors.",
+      "predicted_label": "Facts",
+      "confidence": 0.6947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0995,
+        "Arguments of Respondent": 0.0902,
+        "Decision": 0.0019,
+        "Facts": 0.6947,
+        "Issue": 0.012,
+        "Reasoning": 0.1018
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "Bimetal bearings manufactured by the Company are (1) Thinwalled bearings, (2) Thrust Half washers, (3)Wrapped Bushes, and (4) Thrust washers.",
+      "predicted_label": "Facts",
+      "confidence": 0.9666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0001,
+        "Facts": 0.9666,
+        "Issue": 0.0019,
+        "Reasoning": 0.0214
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The manufacture of products by the Company became liable to payment of excise duty after insertion of Tariff Item No. 34a in Schedule 1 to Central excises and Salt Act (hereafter referred to as the act) by Finance Act, 1971.",
+      "predicted_label": "Facts",
+      "confidence": 0.9702,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9702,
+        "Issue": 0.0256,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The description of goods under Tariff Item No. 34a isparts and accessories, not elsewhere specified, of motor vehicles and tractors, including trailers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0937,
+        "Arguments of Respondent": 0.0486,
+        "Decision": 0.018,
+        "Facts": 0.3304,
+        "Issue": 0.0216,
+        "Reasoning": 0.4877
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "The rate of duty prescribed is 20 ad valorem.",
+      "predicted_label": "Facts",
+      "confidence": 0.7322,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0393,
+        "Arguments of Respondent": 0.01,
+        "Decision": 0.0051,
+        "Facts": 0.7322,
+        "Issue": 0.03,
+        "Reasoning": 0.1833
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The Central Government, in excises of powers conferred by subrule (1) of Rule 8 of the Central excise Rules, 1944 (hereinafter referred to as the rules), published Notification dated May 29, 1971 exempting motor vehicles parts and accessories, falling under Item No. 34a of the First schedule to the Act other than those specified in the Schedule annexed to the Notification from the whole of the duty of excise leviable thereon.",
+      "predicted_label": "Facts",
+      "confidence": 0.9749,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9749,
+        "Issue": 0.0112,
+        "Reasoning": 0.0122
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The schedule sets out 11 items which are accessories or parts of motor vehicles and Item No. 9 is thin walled bearings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8382,
+      "probabilities": {
+        "Arguments of Petitioner": 0.062,
+        "Arguments of Respondent": 0.0451,
+        "Decision": 0.001,
+        "Facts": 0.0507,
+        "Issue": 0.0028,
+        "Reasoning": 0.8382
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "( 2 ) TILL September 22, 1978, the Company manufactured and cleared various bimetal bearings produced in the factory and paid excise duty on thin walled bearings heaving total thickness of 3/16 or below which, according to the opinion of the Central Board of Excise and Customs based on Circular dated August 3, 1971, were thin walled bearings.",
+      "predicted_label": "Facts",
+      "confidence": 0.9872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0,
+        "Facts": 0.9872,
+        "Issue": 0.0009,
+        "Reasoning": 0.0043
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The Company did not pay any amount of duty on the manufacture of thrust washers, thrust half washers and wrapped bushes in accordance with Exemption Notification dated May 29, 1971.",
+      "predicted_label": "Facts",
+      "confidence": 0.8964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0306,
+        "Arguments of Respondent": 0.0166,
+        "Decision": 0.0003,
+        "Facts": 0.8964,
+        "Issue": 0.0125,
+        "Reasoning": 0.0435
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "On September 23, 1978, the Superintendent of Central Excise, Kirloskar Oil Engines Range, Pune addressed letter to the Company advising that the thrust washers, thrust half washers and wrapped bushes attract excise duty provided they are manufactured to I. S. Specification No. IS 47741968 and are used to have application as motor vehicles parts.",
+      "predicted_label": "Facts",
+      "confidence": 0.9545,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.9545,
+        "Issue": 0.0003,
+        "Reasoning": 0.0408
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The Superintendent found that the Central Board of Excise has done away with D. G. T. Ds restrictive definition of thin walled bearings.",
+      "predicted_label": "Facts",
+      "confidence": 0.9289,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0001,
+        "Facts": 0.9289,
+        "Issue": 0.0003,
+        "Reasoning": 0.0638
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The Company was called upon to file a fresh classification list and pay appropriate excise duty from the date of receipt of the letter.",
+      "predicted_label": "Facts",
+      "confidence": 0.9313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0135,
+        "Decision": 0.0001,
+        "Facts": 0.9313,
+        "Issue": 0.0023,
+        "Reasoning": 0.0434
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The Company was also called upon to furnish particulars as regards clearance of bearings from the factory from August 7, 1978.",
+      "predicted_label": "Facts",
+      "confidence": 0.9183,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0,
+        "Facts": 0.9183,
+        "Issue": 0.0012,
+        "Reasoning": 0.0641
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The superintendent of Central Excise received the reply dated October 7, 1978 from the Company furnishing the requisite information and intimating that the goods would be cleared on payment excise duty, under protest.",
+      "predicted_label": "Facts",
+      "confidence": 0.9602,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9602,
+        "Issue": 0.0102,
+        "Reasoning": 0.0264
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "( 3 ) THE Superintendent of Central Excise on October 16, 1978 served notice of demand for duty of Rs. 1,79,504.",
+      "predicted_label": "Facts",
+      "confidence": 0.9822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.9822,
+        "Issue": 0.0024,
+        "Reasoning": 0.006
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "21 in accordance with Rule 10 of the Rules.",
+      "predicted_label": "Facts",
+      "confidence": 0.5452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1134,
+        "Arguments of Respondent": 0.0703,
+        "Decision": 0.0211,
+        "Facts": 0.5452,
+        "Issue": 0.0047,
+        "Reasoning": 0.2451
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "The Notice, inter alia, recites that as per Tariff Advice dated August 7, 1978 and Poona Central Excise Collectorate Trade Notice dated September 23, 1978 all the thin walled bearings attract central excise duty and in view of the fact that thrust washers and bushes are thin walled bearings, the Company is liable to pay excise duty on the clearance effected from August 7, 1978 onwards.",
+      "predicted_label": "Facts",
+      "confidence": 0.9012,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.9012,
+        "Issue": 0.0015,
+        "Reasoning": 0.0915
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "On November 18, 1978, the company sent reply claiming that the demand of duty from August 7, 1978 is incorrect and the company is prepared to pay duty on such bushes and washers with effect from September 23, 1978, i.e. the date on which the revised orders were communicated to the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0002,
+        "Facts": 0.9579,
+        "Issue": 0.0009,
+        "Reasoning": 0.0371
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The company also claimed that the classification list approved earlier was in operation till receipt of communication dated September 23, 1978 and, therefore, the duty with retrospective effect from august 7, 1978 cannot be recovered in violation of the provisions of Rule 173B of the Rules.",
+      "predicted_label": "Facts",
+      "confidence": 0.9495,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0001,
+        "Facts": 0.9495,
+        "Issue": 0.0023,
+        "Reasoning": 0.0369
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The Superintendent of Central Excise then fixed the hearing in respect of demand notice and the company was heard and permitted to file written submissions.",
+      "predicted_label": "Facts",
+      "confidence": 0.9571,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0001,
+        "Facts": 0.9571,
+        "Issue": 0.0008,
+        "Reasoning": 0.0321
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "In the written submissions, it was claimed that thrust washers and wrapped bushes cannot be treated as thin walled bearings although it was accepted that thrust washers, thrust half washers and wrapped bushes manufactured by the Company are bearings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2773,
+        "Arguments of Respondent": 0.247,
+        "Decision": 0.0008,
+        "Facts": 0.1288,
+        "Issue": 0.0004,
+        "Reasoning": 0.3459
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The only contention raised was that though thrust washers and wrapped bushes are bearings, they are not thin walled bearings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7145,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1666,
+        "Arguments of Respondent": 0.054,
+        "Decision": 0.0011,
+        "Facts": 0.0629,
+        "Issue": 0.0009,
+        "Reasoning": 0.7145
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The Company also claimed that Indian Standard Specifications describes thin walled bearings and thrust half washers and wrapped bushes as different articles and having different dimensions for the purpose of specifications and, therefore, thrust washers and wrapped bushes cannot be treated as thin walled bearings.",
+      "predicted_label": "Facts",
+      "confidence": 0.8536,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0218,
+        "Arguments of Respondent": 0.0181,
+        "Decision": 0.0001,
+        "Facts": 0.8536,
+        "Issue": 0.0009,
+        "Reasoning": 0.1054
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The Asst.",
+      "predicted_label": "Facts",
+      "confidence": 0.5071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.054,
+        "Arguments of Respondent": 0.0795,
+        "Decision": 0.0015,
+        "Facts": 0.5071,
+        "Issue": 0.0007,
+        "Reasoning": 0.3572
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "Collector, Central Excise, Pune by adjudication order dated June 22, 1979 came to the conclusion that the thrust washers and wrapped bushes are thin walled bearings falling under item No. 34a of First Schedule and are liable to payment of excise duty.",
+      "predicted_label": "Facts",
+      "confidence": 0.9764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9764,
+        "Issue": 0.0186,
+        "Reasoning": 0.0041
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The Asst.",
+      "predicted_label": "Facts",
+      "confidence": 0.5071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.054,
+        "Arguments of Respondent": 0.0795,
+        "Decision": 0.0015,
+        "Facts": 0.5071,
+        "Issue": 0.0007,
+        "Reasoning": 0.3572
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Collector felt that as the representative of the Company was present at the conference and was aware of the decision taken, the liability to pay duty arises from the date when the Government of India accepted the decision taken at the Conference, i.e. on August 7, 1978.",
+      "predicted_label": "Facts",
+      "confidence": 0.7187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0172,
+        "Arguments of Respondent": 0.0273,
+        "Decision": 0.0002,
+        "Facts": 0.7187,
+        "Issue": 0.0038,
+        "Reasoning": 0.2328
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The Superintendent of Central Excise observed that Tariff Advice makes the legal position clear and Tariff Advice is part of the law so far as it relates to the classification of goods.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0422,
+        "Arguments of Respondent": 0.0544,
+        "Decision": 0.0018,
+        "Facts": 0.1066,
+        "Issue": 0.0025,
+        "Reasoning": 0.7925
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "On the strength of this finding, the Asst.",
+      "predicted_label": "Facts",
+      "confidence": 0.9139,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0001,
+        "Facts": 0.9139,
+        "Issue": 0.0007,
+        "Reasoning": 0.0789
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Collector confirmed demand for Rs. 1,79,504.",
+      "predicted_label": "Facts",
+      "confidence": 0.9792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0001,
+        "Facts": 0.9792,
+        "Issue": 0.0012,
+        "Reasoning": 0.0106
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "21.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7779,
+        "Arguments of Respondent": 0.0465,
+        "Decision": 0.005,
+        "Facts": 0.0181,
+        "Issue": 0.0237,
+        "Reasoning": 0.1288
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "( 4 ) THE Company then preferred appeal, against the order of the Assistant Collector, before the collector of Central Excise (Appeals) Bombay.",
+      "predicted_label": "Facts",
+      "confidence": 0.9744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.9744,
+        "Issue": 0.001,
+        "Reasoning": 0.0197
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The appeal ended in dismissal by order dated December 23, 1981.",
+      "predicted_label": "Facts",
+      "confidence": 0.959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.959,
+        "Issue": 0.0311,
+        "Reasoning": 0.008
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The Appellate Authority held that thrust washers, thrust half washers and wrapped bushes are bearings and the thrust washers and wrapped bushes manufactured by the company are thin walled bearings as they are manufactured according to specifications given in is 47741968.",
+      "predicted_label": "Facts",
+      "confidence": 0.9034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0002,
+        "Facts": 0.9034,
+        "Issue": 0.0046,
+        "Reasoning": 0.0889
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The Appellate Authority did not accept the contention of the Appellant that the liability to pay duty can only arise from September 23, 1978 and not from August 7, 1978 by accepting the reasoning furnished by the Assistant Collector.",
+      "predicted_label": "Facts",
+      "confidence": 0.8438,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0005,
+        "Facts": 0.8438,
+        "Issue": 0.0422,
+        "Reasoning": 0.1084
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The Appellate Authority accepted the contention of the Company that total exemption in respect of products supplied as original equipment to the manufacturers of motor vehicles and tractors is available even though the Company had not followed Chapter X procedure in respect of such supplies.",
+      "predicted_label": "Facts",
+      "confidence": 0.8921,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0003,
+        "Facts": 0.8921,
+        "Issue": 0.0272,
+        "Reasoning": 0.0766
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The Appellate Authority directed the company to furnish its statement showing necessary information in respect of clearances of the goods as original equipments to the manufacturers of motor vehicles and the Assistant Collector was directed to verify the same and grant the benefit of the Exemption Notification dated May 29, 1971.",
+      "predicted_label": "Facts",
+      "confidence": 0.8483,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0003,
+        "Facts": 0.8483,
+        "Issue": 0.0407,
+        "Reasoning": 0.1026
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The order passed by the Appellate Authority is under challenge in this petition filed under Article 226 of the Constitution of India on March 11, 1982.",
+      "predicted_label": "Facts",
+      "confidence": 0.9534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0002,
+        "Facts": 0.9534,
+        "Issue": 0.0423,
+        "Reasoning": 0.0033
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Before date of passing of the order by the Appellate Authority, the Company was served with demand notice dated November 24, 1981 by Superintendent of Central Excise under Section 11a of the Act demanding duty of Rs. 40,18,899.",
+      "predicted_label": "Facts",
+      "confidence": 0.9595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0003,
+        "Facts": 0.9595,
+        "Issue": 0.007,
+        "Reasoning": 0.0268
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "50 for the period commencing from July, 1980 to August, 1981.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1224,
+        "Arguments of Respondent": 0.0252,
+        "Decision": 0.0373,
+        "Facts": 0.299,
+        "Issue": 0.0166,
+        "Reasoning": 0.4995
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The petitioners are challenging the legality of this demand notice also on the identical grounds which are raised for challenging the order of the Appellate Authority.",
+      "predicted_label": "Facts",
+      "confidence": 0.8094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0639,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0031,
+        "Facts": 0.8094,
+        "Issue": 0.0637,
+        "Reasoning": 0.0575
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "( 5 ) SHRI Nankani, learned counsel appearing on behalf of the petitioners, raised two contentions to challenge the legality of the order passed by the Appellate Authority.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9784,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.0124,
+        "Issue": 0.0017,
+        "Reasoning": 0.0055
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The first submission of the learned counsel is that the thrust washers, thrust half washers and wrapped bushes manufactured by the Company, though are bearings cannot be treated as thin walled beings.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7641,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7641,
+        "Arguments of Respondent": 0.1297,
+        "Decision": 0.0002,
+        "Facts": 0.0042,
+        "Issue": 0.0001,
+        "Reasoning": 0.1017
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The second contention urged by the learned counsel is that even if the contention of the Company is not correct, still the demand notice dated October 16, 1978 is invalid as far as the demand is made from August 7, 1978 instead of from September 23, 1978.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7513,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7513,
+        "Arguments of Respondent": 0.2166,
+        "Decision": 0.0001,
+        "Facts": 0.0036,
+        "Issue": 0.0021,
+        "Reasoning": 0.0264
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "In support of the principal contention that the thrust washers, thrust half washers and wrapped bushes are not thin walled bearings, it was contended by the learned counsel that the two authorities below have proceeded to confirm demand notice on misconstruction of the exemption Notification.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8586,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8586,
+        "Arguments of Respondent": 0.1124,
+        "Decision": 0.0001,
+        "Facts": 0.0048,
+        "Issue": 0.0002,
+        "Reasoning": 0.024
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "It was urged that thrust washers and wrapped bushes are classified separately in I. S. I. Specifications and this differentiation clearly establishes that thrust half washers are not thin walled bearings.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5449,
+        "Arguments of Respondent": 0.3293,
+        "Decision": 0.0002,
+        "Facts": 0.0091,
+        "Issue": 0.0001,
+        "Reasoning": 0.1164
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "The learned counsel did not dispute that thrust washers and wrapped bushes are bearings but submitted that they are not thin walled bearings.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6412,
+        "Arguments of Respondent": 0.3208,
+        "Decision": 0.0002,
+        "Facts": 0.0024,
+        "Issue": 0.0001,
+        "Reasoning": 0.0353
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "It was urged that the only permissible test for classifying goods for the purpose of levying duty is to find out how they are known in the trade parlance and the specification of the Indian Standards Institution furnish strong evidence of how an article is known in trade.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6738,
+        "Arguments of Respondent": 0.2266,
+        "Decision": 0.0004,
+        "Facts": 0.0352,
+        "Issue": 0.0007,
+        "Reasoning": 0.0634
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "Reliance was also placed on the decision of the Supreme Court in the case of Jain Engineering Co. v. Collector of Customs, Bombay reported in 1987 (32) E. L. T. 3 to urge that the distinction between bearings and bushes is accepted by the Courts, Shri Nankani also submitted that the Company had cleared the goods without payment of excise duty till September 23, 1978 when the communication was received from the Superintendent of central Excise and it is not permissible under Rule 10 of the Rules to demand duty with effect from August 7, 1978.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.276,
+        "Arguments of Respondent": 0.6908,
+        "Decision": 0.0002,
+        "Facts": 0.0151,
+        "Issue": 0.0001,
+        "Reasoning": 0.0178
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "Shri Desai, learned Counsel appearing on behalf of the Department, on the other hand, submitted that though it is undoubtedly true that the trade advice or the trade notice cannot be the sole criteria to determine the classification of articles, the trade advice can be taken into consideration for the purpose of determining whether an article falls under the tariff item.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9417,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0491,
+        "Arguments of Respondent": 0.9417,
+        "Decision": 0.0003,
+        "Facts": 0.0006,
+        "Issue": 0.0001,
+        "Reasoning": 0.0082
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "Shri Desai submitted that the impugned order does not rest merely on the trade advice but the two authorities have based their conclusion on Indian Standard Specifications.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4284,
+        "Arguments of Respondent": 0.5279,
+        "Decision": 0.0007,
+        "Facts": 0.0049,
+        "Issue": 0.0002,
+        "Reasoning": 0.038
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 52,
+      "text": "It was urged that the Company did not lead any evidence whatsoever to establish how the goods are known in the trade parlance and in absence thereof, the authorities were justified in basing conclusion on Indian Standard Specifications.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5731,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2403,
+        "Arguments of Respondent": 0.5731,
+        "Decision": 0.0005,
+        "Facts": 0.1236,
+        "Issue": 0.0006,
+        "Reasoning": 0.0618
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "The learned counsel urged that the view taken by the authorities is neither perverse, nor unreasonable and even assuming that another view is possible, it is not permissible to disturb the conclusion of the authorities in exercise of writ jurisdiction under article 226 of the Constitution of India.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0508,
+        "Arguments of Respondent": 0.9365,
+        "Decision": 0.0002,
+        "Facts": 0.0022,
+        "Issue": 0.0001,
+        "Reasoning": 0.0101
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Shri Desai did not dispute that the demand made by demand notice dated October 16, 1978 for payment of excise duty on the goods cleared from august 7, 1978 is not accurate and the demand must be restricted only in respect of duty for clearance effected from September 23, 1978.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4221,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1954,
+        "Arguments of Respondent": 0.2499,
+        "Decision": 0.0069,
+        "Facts": 0.1248,
+        "Issue": 0.0009,
+        "Reasoning": 0.4221
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "( 6 ) IN view of the rival submissions, the short question which falls for determination is whether thrust washers, thrust half washers and wrapped bushes manufactured by the Company, though admittedly are bearings, can also be treated as thin walled bearings.",
+      "predicted_label": "Issue",
+      "confidence": 0.9251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0005,
+        "Facts": 0.0154,
+        "Issue": 0.9251,
+        "Reasoning": 0.037
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "It cannot be disputed for a moment that the Assistant Collector and the Appellate Authority while exercising quasijudicial powers cannot fetter the discretion with the direction contained in the trade notice or by trade advice and the discretion must vest only upon the material available with the Department to determine how the goods should be classified.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9249,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0303,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0006,
+        "Facts": 0.0245,
+        "Issue": 0.0091,
+        "Reasoning": 0.9249
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "It is now well settled that the burden to establish that certain goods can be classified and excise duty can be levied under a particular tariff item is entirely on the Department.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9548,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0012,
+        "Facts": 0.008,
+        "Issue": 0.0105,
+        "Reasoning": 0.9548
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "It is also well settled that for classifying the goods for the purpose of levying duty, evidence can be led as to how the goods are known in the trade parlance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9475,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0012,
+        "Facts": 0.0188,
+        "Issue": 0.0054,
+        "Reasoning": 0.9475
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "In the present case, the Company led no evidence as to how the goods are known by the traders dealing in these goods in the market.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.939,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.0144,
+        "Decision": 0.0017,
+        "Facts": 0.0253,
+        "Issue": 0.0004,
+        "Reasoning": 0.939
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "The only material available to the Assistant Collector and the appellate authority was Indian Standard specifications and which was produced by the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1041,
+        "Arguments of Respondent": 0.1083,
+        "Decision": 0.0008,
+        "Facts": 0.3855,
+        "Issue": 0.0013,
+        "Reasoning": 0.4
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 61,
+      "text": "The contention of Shri Nankani that the Indian Standard Specification reflects trade understanding is not accurate.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2207,
+        "Arguments of Respondent": 0.4838,
+        "Decision": 0.0006,
+        "Facts": 0.0687,
+        "Issue": 0.0003,
+        "Reasoning": 0.226
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "Merely because the Committee constituted for determining the standard by Indian Standard Institution includes the representatives of the trade cannot lead to the conclusion that the Indian Standards Specification reflects the trade understanding and it is not necessary for the Company to lead any evidence to establish how the goods are known in the trade parlance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.726,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0434,
+        "Arguments of Respondent": 0.052,
+        "Decision": 0.0009,
+        "Facts": 0.1766,
+        "Issue": 0.0011,
+        "Reasoning": 0.726
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "The reliance by Shri Nankani in this connection on the decision in the case of collector of Central Excise, Kanpur v. Krishna Carbon Co. reported in 1988 (38) E. L. T. 480 is entirely incorrect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1014,
+        "Arguments of Respondent": 0.2092,
+        "Decision": 0.0006,
+        "Facts": 0.0381,
+        "Issue": 0.0001,
+        "Reasoning": 0.6506
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "The learned counsel referred to the observation made in paragraph 11 of the judgment but we are unable to conclude foam reading of this paragraph that the Supreme Court held that the Indian Standard Specifications reflect trade understanding.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4882,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4882,
+        "Arguments of Respondent": 0.1804,
+        "Decision": 0.0004,
+        "Facts": 0.007,
+        "Issue": 0.0006,
+        "Reasoning": 0.3234
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "What the Court observed was that Indian Standard Specifications can also be considered as evidence for ascertaining classification of the goods.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0829,
+        "Arguments of Respondent": 0.0249,
+        "Decision": 0.0007,
+        "Facts": 0.0384,
+        "Issue": 0.0011,
+        "Reasoning": 0.8521
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "The contention of Shri Nankani that the Supreme Court has held in 1987 (32) E. L. T. 3 that there is difference between bearings and bushes and, therefore, the orders passed by the authorities below treating thrust washers and wrapped bushes as thin walled bearings should be set aside is entirely incorrect.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6203,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6203,
+        "Arguments of Respondent": 0.2374,
+        "Decision": 0.0006,
+        "Facts": 0.0079,
+        "Issue": 0.0001,
+        "Reasoning": 0.1337
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 67,
+      "text": "It is not in dispute in the present case and that fact has been repeatedly stated by the Company in the petition that thrust washers and wrapped bushes are bearings and the only contention raised is that they are not thin walled bearings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9316,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0135,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0006,
+        "Facts": 0.0458,
+        "Issue": 0.0017,
+        "Reasoning": 0.9316
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "It is, therefore, futile to claim that this question is determined by the Supreme Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0444,
+        "Arguments of Respondent": 0.0966,
+        "Decision": 0.047,
+        "Facts": 0.1027,
+        "Issue": 0.0023,
+        "Reasoning": 0.707
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "We are not concerned in the present case as to whether there is distinction between the bearings and the bushes but required to answer the question as to whether the bearings in the present case can be treated as thin walled bearings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0031,
+        "Facts": 0.015,
+        "Issue": 0.018,
+        "Reasoning": 0.9526
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "( 7 ) AS mentioned hereinabove, the authorities below have relied upon Indian Standard specifications which was produced by the Company to hold that the bearings are thin walled bearings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.693,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1369,
+        "Arguments of Respondent": 0.0119,
+        "Decision": 0.0124,
+        "Facts": 0.1457,
+        "Issue": 0.0002,
+        "Reasoning": 0.693
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 71,
+      "text": "Turning to the IS 4774/ 1968, paragraph 0.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9327,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.0219,
+        "Decision": 0.0024,
+        "Facts": 0.028,
+        "Issue": 0.0003,
+        "Reasoning": 0.9327
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "2 sets out that the walled bearings were originally developed for use in the automobile engine due to their advantages, such as facility of replacement, smaller weight and space required.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7851,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0479,
+        "Arguments of Respondent": 0.0713,
+        "Decision": 0.0004,
+        "Facts": 0.0951,
+        "Issue": 0.0001,
+        "Reasoning": 0.7851
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "Paragraph 1. 1 sets out that the standard specified requirements for(a) Steelbacked, thinwalled, grooved bearing in the nominal diameter range 16 to 150 mm (b) steelbacked, thinwalled, ungrooved bearing in the nominal diameter, range 16 to 150 mm and (c) thinwalled, thrust halfwashers in the nominal diameter range 16 to 150 mm.",
+      "predicted_label": "Facts",
+      "confidence": 0.6015,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1404,
+        "Arguments of Respondent": 0.0471,
+        "Decision": 0.0011,
+        "Facts": 0.6015,
+        "Issue": 0.0006,
+        "Reasoning": 0.2092
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "Paragraph 2 gives definitions of various words and the expression bearing means an element of mechanism which allows a force to be transmitted between two relatively moving parts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8167,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1243,
+        "Arguments of Respondent": 0.0319,
+        "Decision": 0.0004,
+        "Facts": 0.0265,
+        "Issue": 0.0002,
+        "Reasoning": 0.8167
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "The expression journal bearing means a plain bearing in which the relatively sliding surfaces are cylindrical and the motion is rotary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0929,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0017,
+        "Facts": 0.0425,
+        "Issue": 0.0004,
+        "Reasoning": 0.8445
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "The expression thrust washers means a washers used at one or each end of a plain journal bearing in order to take lightduty thrust loads, and the expression thrust HalfWasher means one half of a split thrust washer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6046,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0589,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0099,
+        "Facts": 0.3105,
+        "Issue": 0.0027,
+        "Reasoning": 0.6046
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "Thin walled bearing line is defined as a bearing liner in which the wall thickness is sufficiently small for the geometrical truth of the working surface to depend on the accuracy of the bore surface of the housing, while bearing Liner means in a journal bearing, the tubular element (often in halves) whose inner surface is the bearing bore.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7292,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1103,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.0005,
+        "Facts": 0.1455,
+        "Issue": 0.0027,
+        "Reasoning": 0.7292
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "In IS 47571968, the expression wrapped Bush has been defined as a bush with a longitudinal split in one place.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6243,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0832,
+        "Arguments of Respondent": 0.03,
+        "Decision": 0.0005,
+        "Facts": 0.2612,
+        "Issue": 0.0007,
+        "Reasoning": 0.6243
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "(It is called wrapped because it is formed from a strip).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.163,
+        "Arguments of Respondent": 0.0423,
+        "Decision": 0.0017,
+        "Facts": 0.1402,
+        "Issue": 0.0008,
+        "Reasoning": 0.6521
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "The Assistant Collector and the Appellate Authority relied upon this specification to conclude that the function performed by thrust washers and wrapped bushes are the same as those performed by bearings and, therefore thrust washers and wrapped bushes must be treated as thin walled bearings provided the same are in accordance with the specifications given in IS 47741968.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0182,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0002,
+        "Facts": 0.0997,
+        "Issue": 0.0008,
+        "Reasoning": 0.8743
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "Shri Nankani submitted that I. S. I. specifications refer to thin walled bearings in Section 1 and covered by the dimensions in Tables Nos. 2 to 5 whereas thrust half washers are dealt in Section 2 of the Indian Standard Specification and this differentiation proves that thrust half washers are not thin walled bearings.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9033,
+        "Arguments of Respondent": 0.0641,
+        "Decision": 0.0001,
+        "Facts": 0.0012,
+        "Issue": 0.0001,
+        "Reasoning": 0.0313
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "It is not possible to accede to the submission.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9262,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0252,
+        "Arguments of Respondent": 0.0335,
+        "Decision": 0.0024,
+        "Facts": 0.0122,
+        "Issue": 0.0005,
+        "Reasoning": 0.9262
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Merely because the dimensions are set out in different tables cannot lead to the conclusion that thrust washers and wrapped bushes are not thin walled bearings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0346,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0018,
+        "Facts": 0.0341,
+        "Issue": 0.0001,
+        "Reasoning": 0.9091
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "Indeed, as mentioned hereinabove, the standard specifies requirements both for groove bearings and ungrooved bearings and thrust washers are identical.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9544,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0193,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0013,
+        "Facts": 0.0219,
+        "Issue": 0.0012,
+        "Reasoning": 0.9544
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "The nominal diameter range of adjective thin wall is to apply to all the three bearings, viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.529,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0455,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0022,
+        "Facts": 0.4138,
+        "Issue": 0.0005,
+        "Reasoning": 0.529
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 86,
+      "text": "thrust half washers, thrust washers and wrapped bushes.",
+      "predicted_label": "Facts",
+      "confidence": 0.8243,
+      "probabilities": {
+        "Arguments of Petitioner": 0.019,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0003,
+        "Facts": 0.8243,
+        "Issue": 0.0003,
+        "Reasoning": 0.15
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "The thrust washers and wrapped bushes have been defined as bearing liners and if used as bearings themselves and if they satisfy the requirement of wall thickness being proportionately small for the bore surface of the housing and, therefore, can well be treated as thin walled bearings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0447,
+        "Arguments of Respondent": 0.0084,
+        "Decision": 0.0015,
+        "Facts": 0.0191,
+        "Issue": 0.0003,
+        "Reasoning": 0.926
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "In our judgment, the view taken by the Assistant Collector and confirmed by the Appellate Authority cannot be described as perverse, unreasonable or entirely unsustainable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.005,
+        "Facts": 0.01,
+        "Issue": 0.0002,
+        "Reasoning": 0.9778
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "In the decision reported in A. I. R. 1963, supreme Court 1319 (Collector of Customs, Madras v. K. Ganga Setty) observed it is primarily for the Import Control authorities to determine the head or entry in tariff schedule under which any particular commodity fell but if in doing so, these authorities adopted a construction which no reasonable person could adopt i. e. if the construction is perverse, then it is a case in which the Court is competent to interfere.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0326,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0003,
+        "Facts": 0.0342,
+        "Issue": 0.0015,
+        "Reasoning": 0.8971
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "In other words, if there were two constructions which an entry could reasonably bear, and one of them which was in favour of revenue was adopted, the Court has no jurisdiction to interfere merely because the other interpretation favorable to the subject appeals to the Court as the better one to adopt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0002,
+        "Facts": 0.0099,
+        "Issue": 0.001,
+        "Reasoning": 0.9481
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "It is, therefore, clear that even assuming that the view, other than one, taken by the Assistant collector and confirmed by the Appellate Authority is possible, still, it is not permissible in exercise of writ jurisdiction to disturb the conclusion of the Authorities below.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.012,
+        "Facts": 0.0128,
+        "Issue": 0.0004,
+        "Reasoning": 0.9642
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "We are unable to accept the claim of the Company that the view taken by the Assistant Collector is either perverse or entirely unsustainable for lack of material.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.95,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0007,
+        "Facts": 0.0274,
+        "Issue": 0.0003,
+        "Reasoning": 0.95
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "The Company did not care to produce any evidence to establish how the goods are known in the trade circle or in common parlance and it is futile now to suggest that because other view is possible, the order of the authorities below should be set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9597,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0062,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0022,
+        "Facts": 0.019,
+        "Issue": 0.0002,
+        "Reasoning": 0.9597
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "In our judgment, the contention of the learned counsel that thrust washers, thrust half washers and wrapped bushes are not thin walled bearings cannot be accepted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0009,
+        "Facts": 0.0087,
+        "Issue": 0.0001,
+        "Reasoning": 0.9721
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "( 8 ) THE second contention of the learned counsel that the demand cannot be made in respect of clearance of the goods from August 7, 1978 but can only be from September 23, 1978 deserves acceptance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8633,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0643,
+        "Decision": 0.0046,
+        "Facts": 0.0288,
+        "Issue": 0.0057,
+        "Reasoning": 0.8633
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "The decision of the authorities below that the decision to treat thrust washers and wrapped bushes as thin walled bearings was taken at the conference held between the representatives of the Government of India and the trade on February 9, 1978 and the decision was accepted by the Government of India on August 7, 1978 and, therefore, the Company is liable to pay excise duty from that date cannot be accepted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0273,
+        "Facts": 0.0336,
+        "Issue": 0.0004,
+        "Reasoning": 0.916
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "The decision was communicated to the Company only on the September 23, 1978 and the liability to pay excise duty can arise only from that day.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5089,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1512,
+        "Arguments of Respondent": 0.1085,
+        "Decision": 0.006,
+        "Facts": 0.2225,
+        "Issue": 0.0029,
+        "Reasoning": 0.5089
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "Shri Desai very rightly did not support the conclusion of the Assistant Collector on this count.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0601,
+        "Arguments of Respondent": 0.0999,
+        "Decision": 0.0005,
+        "Facts": 0.0506,
+        "Issue": 0.0002,
+        "Reasoning": 0.7887
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "The demand made under demand notice dated October 16, 1978 is, therefore, required to be limited only in respect of clearance of goods from September 23, 1978 onwards.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8223,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0846,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.008,
+        "Facts": 0.0644,
+        "Issue": 0.001,
+        "Reasoning": 0.8223
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "( 9 ) SHRI Nankani submitted that the demand notice dated November 24, 1981 served by the superintendent of Central Excise under Section 11a of the Act is invalid because the demand is made for the period commencing from July, 1980 to August, 1981 and the demand prior to the period of six months from the date of service of notice is not valid.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.647,
+      "probabilities": {
+        "Arguments of Petitioner": 0.647,
+        "Arguments of Respondent": 0.3332,
+        "Decision": 0.0006,
+        "Facts": 0.0055,
+        "Issue": 0.0001,
+        "Reasoning": 0.0136
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 101,
+      "text": "The demand being in consequence to the adjudication that thrust washers and wrapped bushes are thin walled bearings, in our judgment, the limitation will not be attracted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0033,
+        "Facts": 0.0202,
+        "Issue": 0.0005,
+        "Reasoning": 0.9604
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "( 10 ) ACCORDINGLY, petition partly succeeds and while upholding the order passed by the Collector of Central Excise (Appeals), Bombay on December 5, 1981 it is made clear that the liability of the Company to pay excise duty on thrust washers, thrust half washers and wrapped bushes cleared from the factory arises only from September 23, 1978 onwards.",
+      "predicted_label": "Facts",
+      "confidence": 0.541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.3932,
+        "Facts": 0.541,
+        "Issue": 0.0013,
+        "Reasoning": 0.0584
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 103,
+      "text": "The demand made for the period from August 7, 1978 to September 23, 1978 is set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.9293,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9293,
+        "Facts": 0.0249,
+        "Issue": 0.0003,
+        "Reasoning": 0.0445
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "In the circumstances of the case, there will be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9852,
+        "Facts": 0.0045,
+        "Issue": 0.0001,
+        "Reasoning": 0.0095
+      }
+    }
+  ]
+}

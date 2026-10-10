@@ -1,0 +1,978 @@
+{
+  "case_id": "7002",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "2. These commercial appeals challenge an order passed by a learned Single Judge of this court under Section 9 of the Arbitration and Conciliation Act, 1996 (Act).",
+      "predicted_label": "Issue",
+      "confidence": 0.737,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0009,
+        "Facts": 0.2603,
+        "Issue": 0.737,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "By the impugned order, the learned Judge has granted interim relief to the Respondent herein (original petitioner) in terms of prayer clause (b)(i) of the Commercial Arbitration Petition, which requires the Appellants herein to deposit in court Rs.59,51,08,633/ viz.",
+      "predicted_label": "Issue",
+      "confidence": 0.7919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0055,
+        "Facts": 0.185,
+        "Issue": 0.7919,
+        "Reasoning": 0.0153
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "An amount of Rs.44,63,71,671 in the case of Jagdish Ahuja Anr.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.488,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2996,
+        "Arguments of Respondent": 0.1098,
+        "Decision": 0.0157,
+        "Facts": 0.0847,
+        "Issue": 0.0022,
+        "Reasoning": 0.488
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "and an amount of Rs.14,87,36,936/ in the case of Shree Ahuja Properties Realtors Pvt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1283,
+        "Arguments of Respondent": 0.0472,
+        "Decision": 0.2583,
+        "Facts": 0.2019,
+        "Issue": 0.0144,
+        "Reasoning": 0.3499
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Respondent herein is a Cyprus based company.",
+      "predicted_label": "Facts",
+      "confidence": 0.961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.961,
+        "Issue": 0.0312,
+        "Reasoning": 0.0058
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The Appellant in the companion appeal (COMAP No.11 of 2020)",
+      "predicted_label": "Facts",
+      "confidence": 0.6171,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0868,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0362,
+        "Facts": 0.6171,
+        "Issue": 0.1428,
+        "Reasoning": 0.1132
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "Shree Ahuja Properties Realtors Pvt. Ltd., an Indian company, carrying on real estate development business, issued fully convertible debentures (FCDs), which were subscribed to by the Respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.9564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0002,
+        "Facts": 0.9564,
+        "Issue": 0.0406,
+        "Reasoning": 0.0015
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The appellants in this appeal (COAPP No.12 of 2020) are promoters of this Indian company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0003,
+        "Facts": 0.8698,
+        "Issue": 0.1164,
+        "Reasoning": 0.0075
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "Between December 2012 and January 2015, the Appellants purchased all FCDs of the Indian company held by the Respondent in different tranches.",
+      "predicted_label": "Facts",
+      "confidence": 0.9829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9829,
+        "Issue": 0.0036,
+        "Reasoning": 0.0068
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The parties entered into diverse Debenture Purchase Agreements, the last of which was Share and Debenture Purchase Agreement dated 22 December 2015 (SDPA), under which the final tranche of FCDs was purchased by the Appellants.",
+      "predicted_label": "Facts",
+      "confidence": 0.9832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0,
+        "Facts": 0.9832,
+        "Issue": 0.0092,
+        "Reasoning": 0.0032
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The disputes between the parties arise out of this SDPA.",
+      "predicted_label": "Facts",
+      "confidence": 0.8956,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0005,
+        "Facts": 0.8956,
+        "Issue": 0.0472,
+        "Reasoning": 0.0525
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The SDPA inter alia allowed the Appellants to hold back amounts representing tax Tax Deducted at Source (TDS) on the price of the FCDs and interest payable to the Respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.9125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.9125,
+        "Issue": 0.0621,
+        "Reasoning": 0.0219
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The Appellants accordingly withheld sums of Rs.44,63,71,697/ and Rs.14,87,36,936/ from the amount payable to the Respondent towards purchase of the FCDs (Holdback Amount).",
+      "predicted_label": "Facts",
+      "confidence": 0.9688,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0001,
+        "Facts": 0.9688,
+        "Issue": 0.0025,
+        "Reasoning": 0.0097
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The SPDA inter alia required the Appellants (purchasers) to deposit the Holdback Amount with the income tax authority in the name of the Respondent (seller) within the time limit prescribed under the Income Tax Act and in any event, on or before 31 March 2015.",
+      "predicted_label": "Facts",
+      "confidence": 0.9783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9783,
+        "Issue": 0.0016,
+        "Reasoning": 0.0151
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "It is an admitted position that this amount, though withheld by the Appellants, has not been deposited into the treasury.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0548,
+        "Arguments of Respondent": 0.0466,
+        "Decision": 0.0625,
+        "Facts": 0.145,
+        "Issue": 0.0078,
+        "Reasoning": 0.6832
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "That was presumably on the footing that it was not payable to the revenue.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8766,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0307,
+        "Arguments of Respondent": 0.0237,
+        "Decision": 0.0007,
+        "Facts": 0.0665,
+        "Issue": 0.0019,
+        "Reasoning": 0.8766
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "If it was not payable to the revenue, it is the seller, who was entitled to receive this amount.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0331,
+        "Arguments of Respondent": 0.0227,
+        "Decision": 0.0052,
+        "Facts": 0.1758,
+        "Issue": 0.0076,
+        "Reasoning": 0.7556
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "It cannot be that the amount is neither deposited into the treasury towards the tax obligation of the seller nor paid directly to the seller towards the price of the FCDs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8358,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0231,
+        "Arguments of Respondent": 0.0517,
+        "Decision": 0.0047,
+        "Facts": 0.0838,
+        "Issue": 0.0009,
+        "Reasoning": 0.8358
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "That is apparently the basis on which the impugned order of deposit of the Holdback Amount into the court was passed by the learned Single Judge.",
+      "predicted_label": "Facts",
+      "confidence": 0.6357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0104,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0008,
+        "Facts": 0.6357,
+        "Issue": 0.0062,
+        "Reasoning": 0.3384
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Mr. Naphade, learned Senior Counsel appearing for the Appellants, submits that, firstly, under Section 205 of the Income Tax Act, once tax is deducted from the amount payable to the seller, it is the purchaser who is obligated to pay the same into the treasury the assessee seller cannot be called upon to pay the tax himself to the extent of the deduction.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9829,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0001,
+        "Facts": 0.0016,
+        "Issue": 0.0003,
+        "Reasoning": 0.0113
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "In other words, it is submitted that it would then be a claim of the revenue against the purchaser.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4146,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4146,
+        "Arguments of Respondent": 0.3083,
+        "Decision": 0.0004,
+        "Facts": 0.0104,
+        "Issue": 0.0014,
+        "Reasoning": 0.2648
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Learned Counsel submits that the purpose of the Respondents (i.e. the sellers) application under Section 9 of the Act cannot be to secure the claim of the revenue.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7767,
+        "Arguments of Respondent": 0.2024,
+        "Decision": 0.0003,
+        "Facts": 0.0044,
+        "Issue": 0.0004,
+        "Reasoning": 0.0159
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Learned Counsel, secondly, submits that even if this amount were to be secured as a claim of the Respondent seller, there is no case made out under Order 38 Rule 5 for seeking an order of deposit of this amount into court under Section 9 of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7444,
+        "Arguments of Respondent": 0.2146,
+        "Decision": 0.0003,
+        "Facts": 0.0044,
+        "Issue": 0.0004,
+        "Reasoning": 0.0358
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "In the first place, the purchasers liability to pay this amount (namely, the Holdback Amount) into the treasury towards the tax liability of the seller is essentially a matter of their inter se agreement, which is contained in clause 4.5.1 of the SDPA.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0001,
+        "Facts": 0.0082,
+        "Issue": 0.0005,
+        "Reasoning": 0.9721
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The payability of the tax for the consideration received under the SPDA may be a matter between the assessee i.e. (the Respondent seller) and the revenue, but so far as the deposit of the Holdback Amount into treasury towards the tax liability of the Respondent is concerned, it is certainly a matter as between the Respondent and its contracting counter party, namely, the Appellants.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9544,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0091,
+        "Facts": 0.0189,
+        "Issue": 0.0038,
+        "Reasoning": 0.9544
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "There is a clear obligation on the part of the Appellants to deposit the Holdback Amount into the treasury Section 205 of the Income Tax Act has nothing to do with the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8084,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.1419,
+        "Decision": 0.0064,
+        "Facts": 0.0268,
+        "Issue": 0.0001,
+        "Reasoning": 0.8084
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "As far as Section 9 of the Act is concerned, it cannot be said that this court, while considering a relief thereunder, is strictly bound by the provisions of Order 38 Rule 5.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0006,
+        "Facts": 0.0104,
+        "Issue": 0.0003,
+        "Reasoning": 0.966
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "As held by our Courts, the scope of Section 9 of the Act is very broad the court has a discretion to grant thereunder a wide range of interim measures of protection as may appear to the court to be just and convenient, though such discretion has to be exercised judiciously and not arbitrarily.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0376,
+        "Arguments of Respondent": 0.0499,
+        "Decision": 0.0018,
+        "Facts": 0.0147,
+        "Issue": 0.0003,
+        "Reasoning": 0.8957
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The court is, no doubt, guided by the principles which civil courts ordinarily employ for considering interim relief, particularly, Order 39 Rules 1 and 2 and Order 38 Rule 5 the court, however, is not unduly bound by their texts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9447,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0249,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0007,
+        "Facts": 0.0121,
+        "Issue": 0.0003,
+        "Reasoning": 0.9447
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "As this court held in Nimbus Communications Limited Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6282,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1644,
+        "Arguments of Respondent": 0.1118,
+        "Decision": 0.0024,
+        "Facts": 0.0906,
+        "Issue": 0.0026,
+        "Reasoning": 0.6282
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "Board of Control for Cricket in India1 (Per D.Y. Chandrachud J, as the learned Judge then was), the court, whilst exercising power under Section 9, must have due regard to the underlying purpose of the conferment of the power under the court which is to promote the efficacy of arbitration as a form of dispute resolution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0497,
+        "Arguments of Respondent": 0.0555,
+        "Decision": 0.0005,
+        "Facts": 0.0212,
+        "Issue": 0.0003,
+        "Reasoning": 0.8728
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "In an appropriate case, where the court is of the view that there is practically no defence to the payability of the amount and where it is in the interest of justice to secure the amount, which forms part of the subject matter of the proposed arbitration reference, even if no case strictly within the letter of Order 38 Rule 1 or 2 is made out, though there are serious allegations concerning such case, it is certainly within the power of the court to order a suitable interim measure of protection.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0243,
+        "Facts": 0.0102,
+        "Issue": 0.0016,
+        "Reasoning": 0.951
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "As we have noted above, the amount is either to be deposited into the treasury in accordance with the agreement between the parties or if, for any reason, it is not payable to the revenue towards the Respondents tax liability, as is the case of the Appellants here, it is to be paid to the Respondent itself as part of the price of debentures.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8788,
+      "probabilities": {
+        "Arguments of Petitioner": 0.014,
+        "Arguments of Respondent": 0.0821,
+        "Decision": 0.0065,
+        "Facts": 0.0182,
+        "Issue": 0.0004,
+        "Reasoning": 0.8788
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "In fact, when these two options were posed by the learned Single Judge to the Appellants counsel, in fairness both conceded that there was no third option.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9142,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0192,
+        "Arguments of Respondent": 0.0227,
+        "Decision": 0.0002,
+        "Facts": 0.043,
+        "Issue": 0.0006,
+        "Reasoning": 0.9142
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "In other words, neither Counsel could point out that the Appellants had any case for retaining the amount.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8224,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0242,
+        "Arguments of Respondent": 0.1261,
+        "Decision": 0.0007,
+        "Facts": 0.0264,
+        "Issue": 0.0002,
+        "Reasoning": 0.8224
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "If that is so, there is practically no defence on merits so far as this amount is concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0312,
+        "Arguments of Respondent": 0.0245,
+        "Decision": 0.0037,
+        "Facts": 0.0355,
+        "Issue": 0.0025,
+        "Reasoning": 0.9026
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "Mr. Naphade submits that his client cannot be called upon to deposit this amount in court, since the amount has already been assessed towards the tax liability of the Respondent and in any event, if the Appellants appeal ultimately goes against them, it would have to be paid by them into the treasury.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8058,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1066,
+        "Arguments of Respondent": 0.8058,
+        "Decision": 0.0268,
+        "Facts": 0.0139,
+        "Issue": 0.0003,
+        "Reasoning": 0.0466
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Learned Counsel submits that the Appellants cannot be subjected to such double jeopardy.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5238,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4561,
+        "Arguments of Respondent": 0.5238,
+        "Decision": 0.0002,
+        "Facts": 0.0014,
+        "Issue": 0.0002,
+        "Reasoning": 0.0183
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "There is no question of the Appellants being submitted to any double jeopardy in this matter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0497,
+        "Arguments of Respondent": 0.0404,
+        "Decision": 0.0111,
+        "Facts": 0.0137,
+        "Issue": 0.0007,
+        "Reasoning": 0.8844
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "After all, what the Appellants have been called upon to do is to deposit this amount in court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0301,
+        "Arguments of Respondent": 0.015,
+        "Decision": 0.0382,
+        "Facts": 0.0455,
+        "Issue": 0.0014,
+        "Reasoning": 0.8698
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "If the Appellants loose their appeal before the tax authorities and the amount is to be paid to the revenue, an order may well be obtained from this court for payment of the amount into the treasury.",
+      "predicted_label": "Decision",
+      "confidence": 0.7625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.7625,
+        "Facts": 0.0078,
+        "Issue": 0.0006,
+        "Reasoning": 0.2229
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "There is no question of any double jeopardy to the Appellants.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6268,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1536,
+        "Arguments of Respondent": 0.1397,
+        "Decision": 0.055,
+        "Facts": 0.0226,
+        "Issue": 0.0024,
+        "Reasoning": 0.6268
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "Besides, it is not that the case is bereft of serious allegations of an attempt on the part of the Appellants of attempting to dispose of their assets with a view to defeat the ultimate award that is likely to be passed against them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9185,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.0102,
+        "Decision": 0.0088,
+        "Facts": 0.0501,
+        "Issue": 0.0021,
+        "Reasoning": 0.9185
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "In para 18 of the original arbitration petition, the Respondent herein had indicated the financial circumstances of the Appellants.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4353,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1529,
+        "Arguments of Respondent": 0.0653,
+        "Decision": 0.0509,
+        "Facts": 0.2936,
+        "Issue": 0.002,
+        "Reasoning": 0.4353
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "The Appellant in the companion appeal had disclosed profit after tax for the year FY 201718 in the sum of Rs.1.43 crores as against this, its current total liabilities were to the tune of Rs.500 crores, a significant portion of which were secured debts for which a charge of Rs.200 crores was created in favour of",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2018,
+        "Arguments of Respondent": 0.0578,
+        "Decision": 0.0027,
+        "Facts": 0.3402,
+        "Issue": 0.0004,
+        "Reasoning": 0.3971
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "Indiabulls Housing Finance Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.6636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0865,
+        "Arguments of Respondent": 0.0485,
+        "Decision": 0.0078,
+        "Facts": 0.6636,
+        "Issue": 0.0288,
+        "Reasoning": 0.1649
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "A total of 94.12 of shareholding of this company, held by the Appellants and their family members as promoters, was pledged to lenders.",
+      "predicted_label": "Facts",
+      "confidence": 0.9622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0001,
+        "Facts": 0.9622,
+        "Issue": 0.0045,
+        "Reasoning": 0.0151
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "A number of claims were being pursued against the company in different fora.",
+      "predicted_label": "Facts",
+      "confidence": 0.6268,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0722,
+        "Arguments of Respondent": 0.1643,
+        "Decision": 0.0007,
+        "Facts": 0.6268,
+        "Issue": 0.0014,
+        "Reasoning": 0.1345
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "The allegations of disposal of assets are made in this context.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.127,
+        "Arguments of Respondent": 0.216,
+        "Decision": 0.0009,
+        "Facts": 0.1595,
+        "Issue": 0.0011,
+        "Reasoning": 0.4955
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "Mr. Andhyarujina, learned Senior Counsel appearing for the Appellant in the companion petition, whilst adopting Mr. Naphades submissions, makes an additional point.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9924,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0001,
+        "Facts": 0.0012,
+        "Issue": 0.0002,
+        "Reasoning": 0.0036
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "It is submitted that the Respondent has already had the benefit of tax insofar as the Holdback Amount is concerned and cannot pray for deposit of that amount in court.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3768,
+        "Arguments of Respondent": 0.4744,
+        "Decision": 0.0177,
+        "Facts": 0.0418,
+        "Issue": 0.0009,
+        "Reasoning": 0.0884
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 51,
+      "text": "The submission is incomprehensible.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.0261,
+        "Decision": 0.0004,
+        "Facts": 0.0231,
+        "Issue": 0.0002,
+        "Reasoning": 0.9331
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Let us examine it in both scenarios, that is to say, the first where the tax is in fact payable and the second, when it is not payable, as suggested by the Appellants in their appeal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0008,
+        "Facts": 0.0213,
+        "Issue": 0.0699,
+        "Reasoning": 0.8841
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "If it is payable and not paid into the treasury by the deductor of TDS, it is not possible for the assessee to take any tax credit of the TDS.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0788,
+        "Arguments of Respondent": 0.1022,
+        "Decision": 0.0008,
+        "Facts": 0.0725,
+        "Issue": 0.0018,
+        "Reasoning": 0.7439
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "If, on the other hand, it is not payable and accordingly not paid into the treasury, there is no question of claiming any credit for it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9027,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0187,
+        "Arguments of Respondent": 0.0205,
+        "Decision": 0.002,
+        "Facts": 0.0389,
+        "Issue": 0.0171,
+        "Reasoning": 0.9027
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "The deductor, both under the Income Tax Act and the contract between the parties (clause 4.5.1 of SDPA), is nevertheless required to deposit the amount deducted (the Holdback Amount) into the treasury.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8486,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0345,
+        "Arguments of Respondent": 0.0182,
+        "Decision": 0.0007,
+        "Facts": 0.0975,
+        "Issue": 0.0005,
+        "Reasoning": 0.8486
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "If no tax is payable, the deductee assessee would be entitled to refund of this amount.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0929,
+        "Arguments of Respondent": 0.0367,
+        "Decision": 0.0025,
+        "Facts": 0.2811,
+        "Issue": 0.0019,
+        "Reasoning": 0.5849
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "In any case, there is no way the deductor could retain the Holdback Amount.",
+      "predicted_label": "Facts",
+      "confidence": 0.346,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2223,
+        "Arguments of Respondent": 0.0863,
+        "Decision": 0.0148,
+        "Facts": 0.346,
+        "Issue": 0.0005,
+        "Reasoning": 0.3301
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "Accordingly, there is no merit in the appeals.",
+      "predicted_label": "Decision",
+      "confidence": 0.8701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0791,
+        "Decision": 0.8701,
+        "Facts": 0.0051,
+        "Issue": 0.0009,
+        "Reasoning": 0.0427
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "The appeals are dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9935,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9935,
+        "Facts": 0.003,
+        "Issue": 0.0001,
+        "Reasoning": 0.0028
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "In view of the dismissal of the appeals, the respective Interim Applications taken out therein do not survive and are also dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9773,
+        "Facts": 0.0101,
+        "Issue": 0.0001,
+        "Reasoning": 0.0118
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "Mr. Naphade, learned Senior Counsel for the Appellant, seeks stay of this order.",
+      "predicted_label": "Facts",
+      "confidence": 0.6278,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0978,
+        "Arguments of Respondent": 0.0257,
+        "Decision": 0.1591,
+        "Facts": 0.6278,
+        "Issue": 0.0565,
+        "Reasoning": 0.0331
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "Mr. Pandit, learned Counsel for the Respondent, states that his client has already moved an application for execution of the impugned order.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8088,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.8088,
+        "Decision": 0.0114,
+        "Facts": 0.1016,
+        "Issue": 0.001,
+        "Reasoning": 0.0731
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "Learned Counsel states that he would not press for hearing of that application for a period of four weeks from today.",
+      "predicted_label": "Facts",
+      "confidence": 0.603,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0359,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.2393,
+        "Facts": 0.603,
+        "Issue": 0.0032,
+        "Reasoning": 0.0915
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "In view of this statement, there is no need to pass any stay order.",
+      "predicted_label": "Decision",
+      "confidence": 0.45,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.0262,
+        "Decision": 0.45,
+        "Facts": 0.4408,
+        "Issue": 0.0008,
+        "Reasoning": 0.0709
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 65,
+      "text": "Needless to add, this statement shall not come in the way of prosecution of the arbitration reference, which is pending before the arbitral forum.",
+      "predicted_label": "Decision",
+      "confidence": 0.817,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.817,
+        "Facts": 0.1099,
+        "Issue": 0.0002,
+        "Reasoning": 0.0708
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "This order will be digitally signed by the Personal Assistant of this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.833,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0217,
+        "Arguments of Respondent": 0.0185,
+        "Decision": 0.0755,
+        "Facts": 0.833,
+        "Issue": 0.0018,
+        "Reasoning": 0.0496
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "All concerned will act on production by fax or email of a digitally signed copy of this order",
+      "predicted_label": "Facts",
+      "confidence": 0.9538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0175,
+        "Facts": 0.9538,
+        "Issue": 0.0004,
+        "Reasoning": 0.0163
+      }
+    }
+  ]
+}

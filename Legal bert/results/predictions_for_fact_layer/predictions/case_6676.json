@@ -1,0 +1,840 @@
+{
+  "case_id": "6676",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The senior citizen petitioner before us was at one time a Director of a limited company, Sujata Verbatim Limited.",
+      "predicted_label": "Facts",
+      "confidence": 0.9159,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0118,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0003,
+        "Facts": 0.9159,
+        "Issue": 0.031,
+        "Reasoning": 0.0395
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The company has now changed its name and is now known as PDG Infotech Limited.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9936,
+        "Issue": 0.0024,
+        "Reasoning": 0.0016
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "This company was incorporated on 24121985 and its name underwent a change sometime in April, 2004.",
+      "predicted_label": "Facts",
+      "confidence": 0.8801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0234,
+        "Arguments of Respondent": 0.0294,
+        "Decision": 0.0002,
+        "Facts": 0.8801,
+        "Issue": 0.0072,
+        "Reasoning": 0.0597
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The nature of business and the place from which the company carried out its activities are mentioned in para 5, and then it is stated that the company stopped its manufacturing activities and thereafter even the petitioner ceased to be a Director of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5234,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1053,
+        "Arguments of Respondent": 0.0654,
+        "Decision": 0.0006,
+        "Facts": 0.3047,
+        "Issue": 0.0005,
+        "Reasoning": 0.5234
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "Reliance is placed upon documents and records available in the office of the Registrar of Companies, State of Maharashtra, which, according to the petitioner, prove the point that the petitioner has no association with the company.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.6528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3264,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0001,
+        "Facts": 0.6528,
+        "Issue": 0.002,
+        "Reasoning": 0.0122
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "It is then alleged that there was an adjudication and stated to be into the matter of recovery of taxes, particularly the customs duty.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.987,
+        "Issue": 0.0016,
+        "Reasoning": 0.0037
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The fact that there were some legal proceedings became known to the petitioner only after he was confronted with a communication from the respondents.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.7887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1232,
+        "Arguments of Respondent": 0.0372,
+        "Decision": 0.0002,
+        "Facts": 0.7887,
+        "Issue": 0.0004,
+        "Reasoning": 0.0503
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "He says that a demand notice dated 28122018, copy of which is at ExhibitA, was served on him under which the 3rd respondent directed him to pay outstanding dues of the company, amounting to Rs.2,49,10,040/ along with interest and costs.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0,
+        "Facts": 0.997,
+        "Issue": 0.0003,
+        "Reasoning": 0.0018
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "On failure to pay, it was stated that the respondents would resort to the power conferred by Section 142(1)(c)(ii) of The Customs Act, 1962 (the Act for short) r w Rule 4 of The Customs (Attachment of Property of Defaulters for Recovery of Government Dues) Rules, 1995 (the Rules for short).",
+      "predicted_label": "Facts",
+      "confidence": 0.975,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0001,
+        "Facts": 0.975,
+        "Issue": 0.0177,
+        "Reasoning": 0.0036
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The demand notice was received on 312019 and challenging this demand notice and claiming a declaration to the effect that, the dues of the company cannot be recovered from the petitioner even if it is outstanding, this writ petition is filed.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9917,
+        "Issue": 0.0015,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Mr. Prakash Shah, appearing on behalf of the petitioner, would submit that merely because the petitioner is associated with the company and has disclosed in the body of the petition the nature of the companys business and alleged activities and the details from where the business was carried, who was associated with him, does not mean that he was in any way liable to meet the outstanding dues and which could have only been claimed and recovered from the company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9839,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0002,
+        "Facts": 0.0072,
+        "Issue": 0.0009,
+        "Reasoning": 0.0058
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "Asserting the position of a Director qua a company or a limited company, it is urged by Mr. Shah that unlike a partnership or a glorified partnership, the dues of the company cannot be recovered from its Director, for the company has an existence independent of the Director, in law.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5621,
+        "Arguments of Respondent": 0.4192,
+        "Decision": 0.0002,
+        "Facts": 0.0014,
+        "Issue": 0.0003,
+        "Reasoning": 0.0168
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Unlike a partnership firm, which has no independent existence, the company has and there is enough material available in law which could buttress this submission.9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4061,
+        "Arguments of Respondent": 0.3855,
+        "Decision": 0.0008,
+        "Facts": 0.1341,
+        "Issue": 0.0008,
+        "Reasoning": 0.0728
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 13,
+      "text": "Reliance is placed by Mr. Shah on the language of Section 142 of the Act and the relevant Rules and several Judgments of this Court and the Supreme Court compiled in a compilation handed over by him.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6392,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6392,
+        "Arguments of Respondent": 0.3351,
+        "Decision": 0.0002,
+        "Facts": 0.0024,
+        "Issue": 0.0001,
+        "Reasoning": 0.023
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Sunil Parmeshwar Mittal v. Dy. C. (Recovery Cell), C.Ex., MumbaiI, reported in 2005 (188) E.L.T. 268 (Bom.),5.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3813,
+        "Arguments of Respondent": 0.2301,
+        "Decision": 0.0006,
+        "Facts": 0.1604,
+        "Issue": 0.0005,
+        "Reasoning": 0.227
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "On the other hand, Mr. Pradeep Jetly would submit that the communication at ExhibitA does not allow any party, much less the petitioner, to raise a dispute about the dues of the company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2292,
+        "Arguments of Respondent": 0.7329,
+        "Decision": 0.0007,
+        "Facts": 0.007,
+        "Issue": 0.0002,
+        "Reasoning": 0.0299
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The company owes to the Government this money and its dues are in the form of taxes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1243,
+        "Arguments of Respondent": 0.0648,
+        "Decision": 0.0006,
+        "Facts": 0.1421,
+        "Issue": 0.0021,
+        "Reasoning": 0.666
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "After a proper adjudication the amount has been crystalised.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1608,
+        "Arguments of Respondent": 0.1942,
+        "Decision": 0.0807,
+        "Facts": 0.0558,
+        "Issue": 0.0099,
+        "Reasoning": 0.4986
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "The law is very clear in that there is a liability to pay taxes and the adjudication at best determines the quantum.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7258,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1327,
+        "Arguments of Respondent": 0.0908,
+        "Decision": 0.0057,
+        "Facts": 0.0414,
+        "Issue": 0.0035,
+        "Reasoning": 0.7258
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The dues are then crystalised in money and that is done by the adjudicatory process and which the company never questioned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1594,
+        "Arguments of Respondent": 0.1301,
+        "Decision": 0.0006,
+        "Facts": 0.0246,
+        "Issue": 0.0001,
+        "Reasoning": 0.6852
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "Thus, the orders passed by the Competent Authorities under the Act are final and binding.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7429,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0713,
+        "Arguments of Respondent": 0.0772,
+        "Decision": 0.0012,
+        "Facts": 0.1072,
+        "Issue": 0.0002,
+        "Reasoning": 0.7429
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "The question is only of recovery.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6373,
+      "probabilities": {
+        "Arguments of Petitioner": 0.135,
+        "Arguments of Respondent": 0.176,
+        "Decision": 0.0043,
+        "Facts": 0.0406,
+        "Issue": 0.0067,
+        "Reasoning": 0.6373
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "Mr. Jetly would submit that in this case it is the petitioner who was everything as far as the company is concerned.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5148,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5148,
+        "Arguments of Respondent": 0.3792,
+        "Decision": 0.0034,
+        "Facts": 0.0082,
+        "Issue": 0.0006,
+        "Reasoning": 0.0937
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "This is his company exclusively and its predominant shareholders were the petitioner and his wife.",
+      "predicted_label": "Facts",
+      "confidence": 0.5812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1082,
+        "Arguments of Respondent": 0.047,
+        "Decision": 0.0016,
+        "Facts": 0.5812,
+        "Issue": 0.0018,
+        "Reasoning": 0.2601
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "There is none other with substantial shareholding but for this couple.",
+      "predicted_label": "Facts",
+      "confidence": 0.4839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0876,
+        "Arguments of Respondent": 0.0761,
+        "Decision": 0.0016,
+        "Facts": 0.4839,
+        "Issue": 0.0086,
+        "Reasoning": 0.3422
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "It is in these circumstances and when the taxes have been evaded that a show cause notice was issued way back in 1997.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5575,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1208,
+        "Arguments of Respondent": 0.1214,
+        "Decision": 0.0293,
+        "Facts": 0.1668,
+        "Issue": 0.0042,
+        "Reasoning": 0.5575
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "There was a personal hearing in the matter and the OrderinOriginal is passed on 2662001.",
+      "predicted_label": "Facts",
+      "confidence": 0.9464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0011,
+        "Facts": 0.9464,
+        "Issue": 0.0022,
+        "Reasoning": 0.0398
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "That confirms the abovementioned dues.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0773,
+        "Arguments of Respondent": 0.0704,
+        "Decision": 0.0108,
+        "Facts": 0.3091,
+        "Issue": 0.0005,
+        "Reasoning": 0.5318
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "Thereafter, this Order was challenged in Appeal but it is common ground that the company throughout was represented by the petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.7989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0515,
+        "Arguments of Respondent": 0.0227,
+        "Decision": 0.0012,
+        "Facts": 0.7989,
+        "Issue": 0.0057,
+        "Reasoning": 0.12
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "Mr. Jetly heavily relies upon the statements made in the affidavit in reply and urges that in this case a letter was addressed to the Registrar of Companies for information about PDG Infotech Limited.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9379,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9379,
+        "Arguments of Respondent": 0.0347,
+        "Decision": 0.0001,
+        "Facts": 0.0022,
+        "Issue": 0.0002,
+        "Reasoning": 0.0249
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The documents supplied by him indicated that the petitioner, his wife Mrs. Priti Purshottam Das Gupta and Ms Anjali Omprakash Berlia were the only Directors.",
+      "predicted_label": "Facts",
+      "confidence": 0.8816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0369,
+        "Arguments of Respondent": 0.0277,
+        "Decision": 0.0001,
+        "Facts": 0.8816,
+        "Issue": 0.0002,
+        "Reasoning": 0.0535
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "There was none others and thus this is a company belonging to the petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.7365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0762,
+        "Arguments of Respondent": 0.0183,
+        "Decision": 0.0015,
+        "Facts": 0.7365,
+        "Issue": 0.0014,
+        "Reasoning": 0.1661
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The petitioner claims to be qualified and competent to carry out the business of the company even after it underwent a change in its name.",
+      "predicted_label": "Facts",
+      "confidence": 0.8728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0644,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0004,
+        "Facts": 0.8728,
+        "Issue": 0.0046,
+        "Reasoning": 0.0521
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Therefore, the dues which were crystalised were not interfered with.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1942,
+        "Arguments of Respondent": 0.1293,
+        "Decision": 0.0047,
+        "Facts": 0.2069,
+        "Issue": 0.0003,
+        "Reasoning": 0.4646
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "The OrderinOriginal and upheld in appeal throughout can now be challenged.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4485,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1863,
+        "Arguments of Respondent": 0.2465,
+        "Decision": 0.007,
+        "Facts": 0.1027,
+        "Issue": 0.009,
+        "Reasoning": 0.4485
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "In fact, the remand order from the Customs Excise and Service Tax Appellate Tribunal resulted in another order by the Commissioner of Customs (Appeal) rendered de novo on 822013.",
+      "predicted_label": "Facts",
+      "confidence": 0.6618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0327,
+        "Arguments of Respondent": 0.0348,
+        "Decision": 0.003,
+        "Facts": 0.6618,
+        "Issue": 0.0007,
+        "Reasoning": 0.2671
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "Now insofar as that order is concerned, there is no challenge thereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.74,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0313,
+        "Arguments of Respondent": 0.0208,
+        "Decision": 0.032,
+        "Facts": 0.171,
+        "Issue": 0.0049,
+        "Reasoning": 0.74
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "It is in these circumstances, Mr. Jetly urged that there being large scale tax evasion, we must allow the demand notice to be enforced and this is a fit case wherein a view other than taken by the Division Bench Judgments should be taken.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7866,
+        "Arguments of Respondent": 0.1163,
+        "Decision": 0.0011,
+        "Facts": 0.0022,
+        "Issue": 0.0006,
+        "Reasoning": 0.0933
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "Mr. Jetly relies upon the order of the Supreme Court in the case of Bikram Chatterji Others v. Union of India Others, reported in 2018 (11) Scale page 129 and eventually the Judgment in the case of Subrata Roy Sahara v. Union of India others, reported in (2014) 8 SCC 470. 12.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9402,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9402,
+        "Arguments of Respondent": 0.0514,
+        "Decision": 0.0001,
+        "Facts": 0.002,
+        "Issue": 0.0002,
+        "Reasoning": 0.0061
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The question is, when it comes to an artificial person can its Director be made personally liable, as in this case, for such dues17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0261,
+        "Arguments of Respondent": 0.0263,
+        "Decision": 0.0003,
+        "Facts": 0.0262,
+        "Issue": 0.1264,
+        "Reasoning": 0.7946
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "We do not think that any assistance can be derived by Mr. Jetly from this Judgment or from the general principle that it is possible to pierce the veil of a corporate entity and find out whether it is a glorified partnership.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9335,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0434,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0007,
+        "Facts": 0.0049,
+        "Issue": 0.0007,
+        "Reasoning": 0.9335
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "In the present case, according to Mr. Jetly, the piercing of veil has been done and that is why notices have been issued.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7967,
+        "Arguments of Respondent": 0.1262,
+        "Decision": 0.0005,
+        "Facts": 0.0022,
+        "Issue": 0.0004,
+        "Reasoning": 0.074
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "We are sorry we cannot accept his contention and for more than one reason.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6121,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2435,
+        "Arguments of Respondent": 0.1322,
+        "Decision": 0.0013,
+        "Facts": 0.0102,
+        "Issue": 0.0007,
+        "Reasoning": 0.6121
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "This conclusion must be clearly discernible from the orders in the adjudication proceedings, in the sense the show cause notices must be directed to the Director personally and in addition to the corporate entity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8963,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0329,
+        "Arguments of Respondent": 0.042,
+        "Decision": 0.0023,
+        "Facts": 0.0263,
+        "Issue": 0.0002,
+        "Reasoning": 0.8963
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "Secondly, such corporate entity together with the Director must be heard and the Director must be granted an opportunity to satisfy the Adjudicating Authority that insofar as the company and its business is concerned, the Director may, as a part and parcel of the Board, lay down broad policies and take decisions in relation thereto but the daytoday business is not discharged by him.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1432,
+        "Arguments of Respondent": 0.0573,
+        "Decision": 0.0003,
+        "Facts": 0.0161,
+        "Issue": 0.0008,
+        "Reasoning": 0.7824
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "That is carried out by other salaried persons, duly appointed for that purpose.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0284,
+        "Arguments of Respondent": 0.0105,
+        "Decision": 0.0004,
+        "Facts": 0.1041,
+        "Issue": 0.0003,
+        "Reasoning": 0.8564
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The responsibilities are fixed and it is they who have to discharge their obligations and duties by pointing out to the persons in charge of the finances or in the management of finances, so that the liabilities of the company can be met or dues payable by the company can be paid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1105,
+        "Arguments of Respondent": 0.0898,
+        "Decision": 0.0004,
+        "Facts": 0.1137,
+        "Issue": 0.0002,
+        "Reasoning": 0.6855
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Thus there is a team of officials which takes a decision in relation to the daytoday activities and management so also administration of the policy decisions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1825,
+        "Arguments of Respondent": 0.0585,
+        "Decision": 0.0005,
+        "Facts": 0.2537,
+        "Issue": 0.001,
+        "Reasoning": 0.5039
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "Something more than this and proof of involvement not only in the daytoday activities but all affairs will also have to be placed on record to establish the piercing of veil.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1933,
+        "Arguments of Respondent": 0.1794,
+        "Decision": 0.0007,
+        "Facts": 0.0417,
+        "Issue": 0.0004,
+        "Reasoning": 0.5845
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The argument now built, only on the basis of this principle and referred in the affidavit in reply is thus of no avail to Mr. Jetly.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9701,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0118,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0003,
+        "Facts": 0.0095,
+        "Issue": 0.0001,
+        "Reasoning": 0.9701
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "On that basis, we cannot hold that the petitioner is also liable for the dues of the company.23.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.886,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0686,
+        "Facts": 0.0248,
+        "Issue": 0.0006,
+        "Reasoning": 0.886
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "As a result of the above discussion, the writ petition succeeds.",
+      "predicted_label": "Decision",
+      "confidence": 0.9351,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9351,
+        "Facts": 0.037,
+        "Issue": 0.0005,
+        "Reasoning": 0.0264
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Rule is made absolute in terms of prayer clause (a).",
+      "predicted_label": "Facts",
+      "confidence": 0.9079,
+      "probabilities": {
+        "Arguments of Petitioner": 0.019,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0074,
+        "Facts": 0.9079,
+        "Issue": 0.0122,
+        "Reasoning": 0.052
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "We declare that the dues of the company cannot be recovered from the petitioner personally.",
+      "predicted_label": "Facts",
+      "confidence": 0.8011,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.1491,
+        "Facts": 0.8011,
+        "Issue": 0.0013,
+        "Reasoning": 0.0388
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "The demand notice to that extent is quashed and set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.7773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.7773,
+        "Facts": 0.1582,
+        "Issue": 0.0003,
+        "Reasoning": 0.0613
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "However, the notice can be pursued by the Authorities and the respondents insofar as the company and its properties and assets.",
+      "predicted_label": "Decision",
+      "confidence": 0.7177,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0193,
+        "Decision": 0.7177,
+        "Facts": 0.1146,
+        "Issue": 0.0002,
+        "Reasoning": 0.1402
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "All means of recovery as against the company are, therefore, open to be resorted to by the respondents.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7212,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0925,
+        "Arguments of Respondent": 0.1047,
+        "Decision": 0.0202,
+        "Facts": 0.0612,
+        "Issue": 0.0003,
+        "Reasoning": 0.7212
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "No order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9487,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9487,
+        "Facts": 0.0379,
+        "Issue": 0.0002,
+        "Reasoning": 0.0123
+      }
+    }
+  ]
+}

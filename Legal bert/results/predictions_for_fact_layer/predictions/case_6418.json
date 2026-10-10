@@ -1,0 +1,1677 @@
+{
+  "case_id": "6418",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "Feeling aggrieved and dissatisfied with the impugned judgment and order dated 18.02.2020 passed by the High Court of Madhya Pradesh Bench at Gwalior in MA No. 1319 of 2016, by which the High Court has partly allowed the said appeal preferred by the Union of India Railways and has reduced the amount of compensation from Rs.12,85,000/ (awarded by the claims tribunal) to Rs.6,10,000/, the original claimants have preferred the present appeal.",
+      "predicted_label": "Issue",
+      "confidence": 0.9113,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0007,
+        "Facts": 0.0869,
+        "Issue": 0.9113,
+        "Reasoning": 0.0004
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "In an accident which occurred on 12.09.2012, the son of the original claimants, Mr. Prashant died.",
+      "predicted_label": "Facts",
+      "confidence": 0.8005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0005,
+        "Facts": 0.8005,
+        "Issue": 0.1712,
+        "Reasoning": 0.02
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The deceased at the time of accident was a bachelor, aged 21 years and was studying in 3rd year of B.E.",
+      "predicted_label": "Facts",
+      "confidence": 0.8992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0196,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0002,
+        "Facts": 0.8992,
+        "Issue": 0.003,
+        "Reasoning": 0.0658
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The original claimants mother, father, brother and sister of the deceased filed the claim petition before the Motor Accident Claims Tribunal (MACT), being MACT case No.1/2013 claiming Rs.25 lakhs as compensation on different heads.",
+      "predicted_label": "Facts",
+      "confidence": 0.9764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9764,
+        "Issue": 0.021,
+        "Reasoning": 0.0019
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "It was the case on behalf of the original claimants that the deceased at the relevant time was earning Rs.8,000/ per month as he was engaged in tuition of other students.",
+      "predicted_label": "Facts",
+      "confidence": 0.6542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0958,
+        "Arguments of Respondent": 0.1078,
+        "Decision": 0.0005,
+        "Facts": 0.6542,
+        "Issue": 0.0017,
+        "Reasoning": 0.1399
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "On appreciation of evidence the learned Tribunal held that the deceased died due to rash and negligence on the part of the driver of the truck involved in the accident.",
+      "predicted_label": "Facts",
+      "confidence": 0.9752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.9752,
+        "Issue": 0.0018,
+        "Reasoning": 0.0208
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The learned Tribunal assessed the monthly income of the deceased as Rs.15,000/ per month, disbelieving the case on behalf of the claimants that he was getting Rs.25,000/ as salary from one Nectal Construction Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9438,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0001,
+        "Facts": 0.9438,
+        "Issue": 0.0008,
+        "Reasoning": 0.0521
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "Learned Tribunal also disbelieved the fact about earning of Rs.8,000/ by the deceased per month from private tuition.",
+      "predicted_label": "Facts",
+      "confidence": 0.7913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0004,
+        "Facts": 0.7913,
+        "Issue": 0.0009,
+        "Reasoning": 0.1978
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "However considering the young age and the educational qualification, the learned Tribunal keeping in mind the nature of work to be done by him in future and his future prospect, considered the future loss of income at Rs.15,000/ per month.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6292,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0776,
+        "Arguments of Respondent": 0.0322,
+        "Decision": 0.004,
+        "Facts": 0.2567,
+        "Issue": 0.0003,
+        "Reasoning": 0.6292
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The learned Tribunal deducted over his own personal expenses as he was a bachelor.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0006,
+        "Facts": 0.353,
+        "Issue": 0.0006,
+        "Reasoning": 0.636
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "However, the learned Tribunal applied the multiplier on the basis of the age of the parents of the deceased and consequently applied the 14 multiplier and awarded Rs.12,60,000/ towards future loss of income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5407,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0604,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.0042,
+        "Facts": 0.3769,
+        "Issue": 0.0026,
+        "Reasoning": 0.5407
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "The learned Tribunal also awarded Rs.25,000/ under other head, namely on the head of the last rites of the deceased.",
+      "predicted_label": "Facts",
+      "confidence": 0.8266,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0002,
+        "Facts": 0.8266,
+        "Issue": 0.0073,
+        "Reasoning": 0.1622
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Learned Tribunal in all awarded Rs.12,85,000/ with 7.5 interest per annum.",
+      "predicted_label": "Facts",
+      "confidence": 0.7279,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0012,
+        "Facts": 0.7279,
+        "Issue": 0.0124,
+        "Reasoning": 0.2518
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "3. Feeling aggrieved and dissatisfied with the judgment and award dated 16.09.2016 passed by the learned Tribunal, both, the original claimants as well as Union of India preferred separate appeals before the High Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.9834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0002,
+        "Facts": 0.9834,
+        "Issue": 0.0151,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Union of India preferred MA No. 1276 of 2016 and original claimants preferred MA No.1319 of 2016.",
+      "predicted_label": "Facts",
+      "confidence": 0.9801,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9801,
+        "Issue": 0.0066,
+        "Reasoning": 0.0107
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "By the impugned judgment and order, the High Court has reduced the amount of compensation from Rs.12,85,000/ to Rs.6,10,000/ assessing the income of the deceased at Rs.5,000/ per month instead of Rs.15,000/ per month as determined and awarded by the learned Tribunal.",
+      "predicted_label": "Facts",
+      "confidence": 0.5978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0024,
+        "Facts": 0.5978,
+        "Issue": 0.3666,
+        "Reasoning": 0.0291
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "The High Court corrected the error committed by the learned Tribunal and applied the multiplier considering the age of the deceased and applied the multiplier of 18 and has awarded Rs.5,40,000/ under the head of future loss of income.",
+      "predicted_label": "Facts",
+      "confidence": 0.6042,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0096,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0031,
+        "Facts": 0.6042,
+        "Issue": 0.009,
+        "Reasoning": 0.3656
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "Thereafter it has further awarded Rs.15,000/ as loss of estate Rs.15,000/ as funeral expenses and Rs.40,000/ as loss of love and affection.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5485,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0013,
+        "Facts": 0.4353,
+        "Issue": 0.0043,
+        "Reasoning": 0.5485
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 18,
+      "text": "The High Court has awarded a total sum of Rs.6,10,000/ instead of Rs.12,85,000/ as awarded by the learned Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0935,
+        "Arguments of Respondent": 0.018,
+        "Decision": 0.1249,
+        "Facts": 0.1149,
+        "Issue": 0.0067,
+        "Reasoning": 0.642
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "4. Feeling aggrieved and dissatisfied with the impugned judgment and order passed by the High Court reducing the amount of compensation from Rs.12,85,000/ to Rs.6,10,000/, determining the future loss of income at Rs.5,000/ per month, original claimants have preferred the present appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.8843,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0004,
+        "Facts": 0.8843,
+        "Issue": 0.1118,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "5. Learned counsel appearing on behalf of the appellants  original claimants has vehemently submitted that looking to the educational qualification and the bright future, the High Court has committed a grave error in considering the income of the deceased at Rs.5,000/ per month only 5.1 It is submitted that the deceased at the time of accident was aged 2122 years and was studying in B.E. and considering the fact that even the labourers were getting Rs.5,000/ per month even under the Minimum Wages Act in the year 2012, the High Court ought not to have considered the income of deceased at Rs.5,000/ per month.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9881,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9881,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.0021,
+        "Issue": 0.0004,
+        "Reasoning": 0.0087
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "5.2",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8913,
+        "Arguments of Respondent": 0.0322,
+        "Decision": 0.0019,
+        "Facts": 0.029,
+        "Issue": 0.0027,
+        "Reasoning": 0.043
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "It is further submitted that the High Court has not considered the future rise in income while awarding the future loss of income.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9735,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.0001,
+        "Facts": 0.002,
+        "Issue": 0.0001,
+        "Reasoning": 0.0067
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Leaned counsel appearing on behalf of the Union of India is not in a position to support the impugned judgment and order passed by the High Court awarding the future loss of income considering the income of the deceased at Rs.5,000/ per month.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5301,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1253,
+        "Arguments of Respondent": 0.5301,
+        "Decision": 0.0007,
+        "Facts": 0.0088,
+        "Issue": 0.0002,
+        "Reasoning": 0.3349
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "However, it is submitted that as the deceased was not earning anything at the time of accident and as the case on behalf of the claimants that he was earning Rs.25,000/ as a salary from Nectal Construction Company and that he was earning Rs.8,000/ from private tuition has been disbelieved and thereby he was not earning at all at the time of death, there shall not be any future rise in income while determining the future loss of income.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5148,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3979,
+        "Arguments of Respondent": 0.5148,
+        "Decision": 0.0005,
+        "Facts": 0.0371,
+        "Issue": 0.0003,
+        "Reasoning": 0.0495
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "It is further submitted by the learned counsel appearing on behalf of the Union of India that in the execution proceedings the entire amount as awarded by the High Court is paid, the claimants have stated that they accept the same as full and final settlements and therefore the present appeal may not be entertained.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.024,
+        "Arguments of Respondent": 0.9498,
+        "Decision": 0.0004,
+        "Facts": 0.0034,
+        "Issue": 0.0002,
+        "Reasoning": 0.0222
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "At the outset, it is required to be noted that deceased at the time of accident was aged 2122 years and that he was a 3rd year student in civil engineering.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8048,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.0009,
+        "Facts": 0.1664,
+        "Issue": 0.0022,
+        "Reasoning": 0.8048
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "Therefore, it can be said that looking to his educational qualification he was having a bright future.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6024,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0697,
+        "Arguments of Respondent": 0.0437,
+        "Decision": 0.0017,
+        "Facts": 0.2821,
+        "Issue": 0.0003,
+        "Reasoning": 0.6024
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "Learned Tribunal assessed the income of deceased at Rs.15,000/ per month for the purpose of awarding compensation under the head of future economic loss.",
+      "predicted_label": "Facts",
+      "confidence": 0.6569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.033,
+        "Arguments of Respondent": 0.022,
+        "Decision": 0.0012,
+        "Facts": 0.6569,
+        "Issue": 0.0013,
+        "Reasoning": 0.2857
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "However, by the impugned judgment and order, the High Court has reduced the compensation and determined the income of the deceased at Rs.5,000/ per month.",
+      "predicted_label": "Facts",
+      "confidence": 0.421,
+      "probabilities": {
+        "Arguments of Petitioner": 0.094,
+        "Arguments of Respondent": 0.0318,
+        "Decision": 0.0624,
+        "Facts": 0.421,
+        "Issue": 0.0218,
+        "Reasoning": 0.3691
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "Awarding the future economic loss to the claimants considering the income of the deceased as Rs.5,000/ is not sustainable at all.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6298,
+        "Arguments of Respondent": 0.057,
+        "Decision": 0.0046,
+        "Facts": 0.0525,
+        "Issue": 0.001,
+        "Reasoning": 0.2551
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "Even the labourers skilled labourers were getting Rs.5,000/ per month under the Minimum Wages Act in the year 2012.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4617,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1666,
+        "Arguments of Respondent": 0.2773,
+        "Decision": 0.0007,
+        "Facts": 0.0924,
+        "Issue": 0.0014,
+        "Reasoning": 0.4617
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "As the deceased was studying in the 3rd/4th semester of civil engineering, he cannot be considered worse than the labourers skilled labourers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0535,
+        "Arguments of Respondent": 0.1152,
+        "Decision": 0.0014,
+        "Facts": 0.3958,
+        "Issue": 0.0002,
+        "Reasoning": 0.4339
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 33,
+      "text": "Even the counsel appearing on behalf of the Union of India has fairly conceded that assessing the income of deceased at Rs.5,000/ per month for the purpose of awarding the compensation under the head of future economic loss can be said to be at lower side and as such is not justifiable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0416,
+        "Arguments of Respondent": 0.0832,
+        "Decision": 0.0085,
+        "Facts": 0.0142,
+        "Issue": 0.0004,
+        "Reasoning": 0.852
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "While awarding the future economical loss, when the deceased died at the young age 2122 years and was not earning at the time of death accident, as per catena of decisions of this court, the income for the purpose of determining the future economic loss is always done on the basis of guesswork considering many circumstances namely the educational qualification and background of the family, etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7956,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1267,
+        "Arguments of Respondent": 0.0295,
+        "Decision": 0.0019,
+        "Facts": 0.0437,
+        "Issue": 0.0026,
+        "Reasoning": 0.7956
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Therefore looking to the educational qualification and the family background and as observed herein above, the deceased was having a bright future studying in the 3rd year of civil engineering, we are of the opinion that the income of the deceased at least ought to have been considered at least Rs.10,000/ per month, more particularly considering the fact that the labourers skilled labourers were getting Rs.5,000/ per month even under the Minimum Wages Act in the year 2012.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9472,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0083,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0124,
+        "Facts": 0.0274,
+        "Issue": 0.0003,
+        "Reasoning": 0.9472
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The next question which is posed for the consideration before this court is whether anything further is required to be added towards the future rise in income?",
+      "predicted_label": "Issue",
+      "confidence": 0.91,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0004,
+        "Facts": 0.0086,
+        "Issue": 0.91,
+        "Reasoning": 0.0659
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "It is submitted that on behalf of the Union of India that as the deceased was not serving and earning at the time of accident death nothing further is to be added towards the future prospect future rise in income.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6574,
+      "probabilities": {
+        "Arguments of Petitioner": 0.31,
+        "Arguments of Respondent": 0.6574,
+        "Decision": 0.0002,
+        "Facts": 0.0101,
+        "Issue": 0.0002,
+        "Reasoning": 0.022
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "At this stage, the decision of this court in the case of National Insurance Company Limited vs. Pranay Sethi and Others (2017) 16 SCC 680, on addition of future prospects to determine the multiplicand is required to be referred to and considered.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8756,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0181,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0012,
+        "Facts": 0.0962,
+        "Issue": 0.0021,
+        "Reasoning": 0.8756
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "In the aforesaid decision the Constitution Bench of this court had an occasion to consider in detail the justification for addition of future prospects.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1954,
+        "Arguments of Respondent": 0.0919,
+        "Decision": 0.0003,
+        "Facts": 0.0176,
+        "Issue": 0.0002,
+        "Reasoning": 0.6947
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "In the aforesaid decision it is observed and held that while determining the income, an addition of 50 of actual salary to the income of the deceased towards future prospects, where the deceased had a permanent job and was below the age of 40 years, should be made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6836,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1595,
+        "Arguments of Respondent": 0.1182,
+        "Decision": 0.0007,
+        "Facts": 0.0375,
+        "Issue": 0.0005,
+        "Reasoning": 0.6836
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The addition should be 30, if the age of the deceased was between 40 to 50 years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0261,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0021,
+        "Facts": 0.1091,
+        "Issue": 0.0008,
+        "Reasoning": 0.8582
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "In case the deceased was between the age of 50 to 60 years, the addition should be 15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8181,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0079,
+        "Facts": 0.1536,
+        "Issue": 0.0008,
+        "Reasoning": 0.8181
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Actual salary should be read as actual salary less tax.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4703,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1966,
+        "Arguments of Respondent": 0.2353,
+        "Decision": 0.0025,
+        "Facts": 0.0941,
+        "Issue": 0.0011,
+        "Reasoning": 0.4703
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "It is also further held that in case the deceased was selfemployed or on a fixed salary, an addition of 40 of the established income should be the warrant where the deceased was below the age of 40 years.",
+      "predicted_label": "Facts",
+      "confidence": 0.5477,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0204,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0004,
+        "Facts": 0.5477,
+        "Issue": 0.0028,
+        "Reasoning": 0.4197
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "An addition of 25 where the deceased was between the age of 40 to 50 years and 10 where the deceased was between the age of 50 to 60 years should be regarded as the necessary method of computation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9174,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0267,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0035,
+        "Facts": 0.0428,
+        "Issue": 0.0008,
+        "Reasoning": 0.9174
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "It is also further held that the established income means the income minus the tax component.",
+      "predicted_label": "Facts",
+      "confidence": 0.9235,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.003,
+        "Facts": 0.9235,
+        "Issue": 0.0217,
+        "Reasoning": 0.0484
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "While holding so in paras 54 to 57, it is observed and held as under 54.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0322,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.015,
+        "Facts": 0.2632,
+        "Issue": 0.0009,
+        "Reasoning": 0.6832
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "In Santosh Devi Santosh Devi v. National Insurance Co. Ltd., (2012) 6 SCC 421 the Court has not accepted as a principle that a selfemployed person remains on a fixed salary throughout his life.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0418,
+        "Arguments of Respondent": 0.0403,
+        "Decision": 0.0003,
+        "Facts": 0.0183,
+        "Issue": 0.0005,
+        "Reasoning": 0.8989
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "It has taken note of the rise in the cost of living which affects everyone without making any distinction between the rich and the poor.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8332,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0351,
+        "Arguments of Respondent": 0.0729,
+        "Decision": 0.0019,
+        "Facts": 0.0563,
+        "Issue": 0.0008,
+        "Reasoning": 0.8332
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "Emphasis has been laid on the extra efforts made by this category of persons to generate additional income.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.339,
+        "Arguments of Respondent": 0.3452,
+        "Decision": 0.0029,
+        "Facts": 0.0683,
+        "Issue": 0.002,
+        "Reasoning": 0.2426
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 51,
+      "text": "That apart, judicial notice has been taken of the fact that the salaries of those who are employed in private sectors also with the passage of time increase manifold.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0476,
+        "Arguments of Respondent": 0.099,
+        "Decision": 0.0028,
+        "Facts": 0.0555,
+        "Issue": 0.0006,
+        "Reasoning": 0.7945
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "In Rajesh case Sarla Verma v. DTC, (2009) 6 SCC 121 , the Court had added 15 in the case where the victim is between the age group of 15 to 60 years so as to make the compensation just, equitable, fair and reasonable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0638,
+        "Arguments of Respondent": 0.0373,
+        "Decision": 0.0006,
+        "Facts": 0.0334,
+        "Issue": 0.0006,
+        "Reasoning": 0.8643
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "This addition has been made in respect of selfemployed or engaged on fixed wages.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9382,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0252,
+        "Arguments of Respondent": 0.0185,
+        "Decision": 0.0002,
+        "Facts": 0.0172,
+        "Issue": 0.0006,
+        "Reasoning": 0.9382
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "55. Section 168 of the Act deals with the concept of just compensation and the same has to be determined on the foundation of fairness, reasonableness and equitability on acceptable legal standard because such determination can never be in arithmetical exactitude.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9504,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.0182,
+        "Decision": 0.0036,
+        "Facts": 0.0095,
+        "Issue": 0.001,
+        "Reasoning": 0.9504
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "It can never be perfect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1572,
+        "Arguments of Respondent": 0.1162,
+        "Decision": 0.0017,
+        "Facts": 0.0342,
+        "Issue": 0.0002,
+        "Reasoning": 0.6904
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "The aim is to achieve an acceptable degree of proximity to arithmetical precision on the basis of materials brought on record in an individual case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0001,
+        "Facts": 0.0109,
+        "Issue": 0.0006,
+        "Reasoning": 0.9639
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "The conception of just compensation has to be viewed through the prism of fairness, reasonableness and nonviolation of the principle of equitability.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9027,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0329,
+        "Arguments of Respondent": 0.033,
+        "Decision": 0.0133,
+        "Facts": 0.0159,
+        "Issue": 0.0022,
+        "Reasoning": 0.9027
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "In a case of death, the legal heirs of the claimants cannot expect a windfall.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0697,
+        "Arguments of Respondent": 0.0436,
+        "Decision": 0.009,
+        "Facts": 0.0147,
+        "Issue": 0.0008,
+        "Reasoning": 0.8623
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Simultaneously, the compensation granted cannot be an apology for compensation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2556,
+        "Arguments of Respondent": 0.1928,
+        "Decision": 0.0048,
+        "Facts": 0.0747,
+        "Issue": 0.0002,
+        "Reasoning": 0.4719
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 60,
+      "text": "It cannot be a pittance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.756,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0371,
+        "Arguments of Respondent": 0.0477,
+        "Decision": 0.0038,
+        "Facts": 0.155,
+        "Issue": 0.0003,
+        "Reasoning": 0.756
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "Though the discretion vested in the tribunal is quite wide, yet it is obligatory on the part of the tribunal to be guided by the expression, that is, just compensation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9422,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0207,
+        "Decision": 0.001,
+        "Facts": 0.006,
+        "Issue": 0.0003,
+        "Reasoning": 0.9422
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "The determination has to be on the foundation of evidence brought on record as regards the age and income of the deceased and thereafter the apposite multiplier to be applied.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0013,
+        "Facts": 0.0226,
+        "Issue": 0.0037,
+        "Reasoning": 0.9547
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "The formula relating to multiplier has been clearly stated in Sarla Verma Sarla Verma v. DTC, (2009) 6 SCC 121 and it has been approved in Reshma Kumari Reshma Kumari v. Madan Mohan, (2013) 9 SCC 65 .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9113,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0339,
+        "Arguments of Respondent": 0.0307,
+        "Decision": 0.0002,
+        "Facts": 0.0237,
+        "Issue": 0.0002,
+        "Reasoning": 0.9113
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "The age and income, as stated earlier, have to be established by adducing evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0342,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0004,
+        "Facts": 0.0398,
+        "Issue": 0.0004,
+        "Reasoning": 0.9125
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "The tribunal and the courts have to bear in mind that the basic principle lies in pragmatic computation which is in proximity to reality.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0222,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.0002,
+        "Facts": 0.0071,
+        "Issue": 0.0001,
+        "Reasoning": 0.9585
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "It is a wellaccepted norm that money cannot substitute a life lost but an effort has to be made for grant of just compensation having uniformity of approach.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9621,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0012,
+        "Facts": 0.009,
+        "Issue": 0.0012,
+        "Reasoning": 0.9621
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "There has to be a balance between the two extremes, that is, a windfall and the pittance, a bonanza and the modicum.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0271,
+        "Arguments of Respondent": 0.0203,
+        "Decision": 0.0001,
+        "Facts": 0.006,
+        "Issue": 0.0003,
+        "Reasoning": 0.9462
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "In such an adjudication, the duty of the tribunal and the courts is difficult and hence, an endeavour has been made by this Court for standardisation which in its ambit includes addition of future prospects on the proven income at present.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8324,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0375,
+        "Arguments of Respondent": 0.0488,
+        "Decision": 0.0012,
+        "Facts": 0.0784,
+        "Issue": 0.0016,
+        "Reasoning": 0.8324
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "As far as future prospects are concerned, there has been standardisation keeping in view the principle of certainty, stability and consistency.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8664,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.1143,
+        "Decision": 0.0002,
+        "Facts": 0.0076,
+        "Issue": 0.0001,
+        "Reasoning": 0.8664
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "We approve the principle of standardisation so that a specific and certain multiplicand is determined for applying the multiplier on the basis of age.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0007,
+        "Facts": 0.035,
+        "Issue": 0.0014,
+        "Reasoning": 0.952
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "The seminal issue is the fixation of future prospects in cases of deceased who are selfemployed or on a fixed salary.",
+      "predicted_label": "Issue",
+      "confidence": 0.8924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0004,
+        "Facts": 0.0255,
+        "Issue": 0.8924,
+        "Reasoning": 0.0679
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Sarla Verma Sarla Verma v. DTC, (2009) 6 SCC 121 has carved out an exception permitting the claimants to bring materials on record to get the benefit of addition of future prospects.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0769,
+        "Arguments of Respondent": 0.0623,
+        "Decision": 0.0021,
+        "Facts": 0.0321,
+        "Issue": 0.0011,
+        "Reasoning": 0.8255
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "It has not, per se, allowed any future prospects in respect of the said category.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0708,
+        "Arguments of Respondent": 0.0294,
+        "Decision": 0.0009,
+        "Facts": 0.0401,
+        "Issue": 0.0005,
+        "Reasoning": 0.8582
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "Having bestowed our anxious consideration, we are disposed to think when we accept the principle of standardisation, there is really no rationale not to apply the said principle to the selfemployed or a person who is on a fixed salary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0003,
+        "Facts": 0.0118,
+        "Issue": 0.0003,
+        "Reasoning": 0.9783
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "To follow the doctrine of actual income at the time of death and not to add any amount with regard to future prospects to the income for the purpose of determination of multiplicand would be unjust.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0002,
+        "Facts": 0.0153,
+        "Issue": 0.0002,
+        "Reasoning": 0.965
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "The determination of income while computing compensation has to include future prospects so that the method will come within the ambit and sweep of just compensation as postulated under Section 168 of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0768,
+        "Arguments of Respondent": 0.0724,
+        "Decision": 0.0004,
+        "Facts": 0.0538,
+        "Issue": 0.0003,
+        "Reasoning": 0.7964
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "In case of a deceased who had held a permanent job with inbuilt grant of annual increment, there is an acceptable certainty.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9333,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0254,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0006,
+        "Facts": 0.0266,
+        "Issue": 0.0003,
+        "Reasoning": 0.9333
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "But to state that the legal representatives of a deceased who was on a fixed salary would not be entitled to the benefit of future prospects for the purpose of computation of compensation would be inapposite.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0004,
+        "Facts": 0.0137,
+        "Issue": 0.0002,
+        "Reasoning": 0.9587
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "It is because the criterion of distinction between the two in that event would be certainty on the one hand and staticness on the other.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9018,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0379,
+        "Arguments of Respondent": 0.0496,
+        "Decision": 0.0004,
+        "Facts": 0.0103,
+        "Issue": 0.0001,
+        "Reasoning": 0.9018
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "One may perceive that the comparative measure is certainty on the one hand and uncertainty on the other but such a perception is fallacious.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9668,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0001,
+        "Facts": 0.0048,
+        "Issue": 0.0002,
+        "Reasoning": 0.9668
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "It is because the price rise does affect a selfemployed person and that apart there is always an incessant effort to enhance ones income for sustenance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8031,
+      "probabilities": {
+        "Arguments of Petitioner": 0.059,
+        "Arguments of Respondent": 0.0633,
+        "Decision": 0.0006,
+        "Facts": 0.0736,
+        "Issue": 0.0004,
+        "Reasoning": 0.8031
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "The purchasing capacity of a salaried person on permanent job when increases because of grant of increments and pay revision or for some other change in service conditions, there is always a competing attitude in the private sector to enhance the salary to get better efficiency from the employees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.095,
+        "Arguments of Respondent": 0.0963,
+        "Decision": 0.0001,
+        "Facts": 0.0502,
+        "Issue": 0.0004,
+        "Reasoning": 0.758
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Similarly, a person who is selfemployed is bound to garner his resources and raise his charges fees so that he can live with same facilities.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7081,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1307,
+        "Arguments of Respondent": 0.1245,
+        "Decision": 0.0022,
+        "Facts": 0.0343,
+        "Issue": 0.0002,
+        "Reasoning": 0.7081
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "To have the perception that he is likely to remain static and his income to remain stagnant is contrary to the fundamental concept of human attitude which always intends to live with dynamism and move and change with the time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0173,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0004,
+        "Facts": 0.0734,
+        "Issue": 0.0002,
+        "Reasoning": 0.8997
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "Though it may seem appropriate that there cannot be certainty in addition of future prospects to the existing income unlike in the case of a person having a permanent job, yet the said perception does not really deserve acceptance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0326,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0012,
+        "Facts": 0.0674,
+        "Issue": 0.0005,
+        "Reasoning": 0.8839
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "We are inclined to think that there can be some degree of difference as regards the percentage that is meant for or applied to in respect of the legal representatives who claim on behalf of the deceased who had a permanent job than a person who is selfemployed or on a fixed salary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0175,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0003,
+        "Facts": 0.0056,
+        "Issue": 0.0008,
+        "Reasoning": 0.9679
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "But not to apply the principle of standardisation on the foundation of perceived lack of certainty would tantamount to remaining oblivious to the marrows of ground reality.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9188,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0265,
+        "Arguments of Respondent": 0.0217,
+        "Decision": 0.0002,
+        "Facts": 0.0322,
+        "Issue": 0.0006,
+        "Reasoning": 0.9188
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "And, therefore, degreetest is imperative.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2754,
+        "Arguments of Respondent": 0.0603,
+        "Decision": 0.0012,
+        "Facts": 0.0723,
+        "Issue": 0.0008,
+        "Reasoning": 0.5899
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "Unless the degreetest is applied and left to the parties to adduce evidence to establish, it would be unfair and inequitable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0749,
+        "Arguments of Respondent": 0.0201,
+        "Decision": 0.0004,
+        "Facts": 0.0134,
+        "Issue": 0.0001,
+        "Reasoning": 0.8911
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "The degreetest has to have the inbuilt concept of percentage.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9414,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0002,
+        "Facts": 0.0433,
+        "Issue": 0.001,
+        "Reasoning": 0.9414
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "Taking into consideration the cumulative factors, namely, passage of time, the changing society, escalation of price, the change in price index, the human attitude to follow a particular pattern of life, etc., an addition of 40 of the established income of the deceased towards future prospects and where the deceased was below 40 years an addition of 25 where the deceased was between the age of 40 to 50 years would be reasonable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0049,
+        "Facts": 0.0825,
+        "Issue": 0.0006,
+        "Reasoning": 0.8873
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "We see no reason why the aforesaid principle may not be applied, which apply to the salaried person and or deceased self employed and or a fixed salaried deceased, to the deceased who was not serving and or was not having any income at the time of accident death.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9733,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0004,
+        "Facts": 0.0104,
+        "Issue": 0.0006,
+        "Reasoning": 0.9733
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "In case of a deceased, who was not earning and or not doing any job and or self employed at the time of accident death, as observed herein above his income is to be determined on the guesswork looking to the circumstances narrated hereinabove.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0154,
+        "Facts": 0.0449,
+        "Issue": 0.0005,
+        "Reasoning": 0.9339
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "Once such an amount is arrived at he shall be entitled to the addition over the future prospect future rise in income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0314,
+        "Facts": 0.2529,
+        "Issue": 0.0005,
+        "Reasoning": 0.7049
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "It cannot be disputed that the rise in cost of living would also affect such a person.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9163,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.003,
+        "Facts": 0.0463,
+        "Issue": 0.0017,
+        "Reasoning": 0.9163
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "As observed by this court in the case of Pranay Sethi (Supra), the determination of income while computing compensation has to include future prospects so that the method will come within the ambit and sweep of just compensation as postulated under Section 168 of the Motor Vehicles Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0103,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0003,
+        "Facts": 0.0133,
+        "Issue": 0.0003,
+        "Reasoning": 0.9679
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "In case of a deceased who had held a permanent job with inbuilt grant of annual increment and or in case of a deceased who was on a fixed salary and or self employed would only get the benefit of future prospects and the legal representatives of the deceased who was not serving at the relevant time as he died at a young age and was studying, could not be entitled to the benefit of the future prospects for the purpose of computation of compensation would be inapposite.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8212,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0986,
+        "Arguments of Respondent": 0.0639,
+        "Decision": 0.0006,
+        "Facts": 0.0152,
+        "Issue": 0.0004,
+        "Reasoning": 0.8212
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "Because the price rise does affect them also and there is always an incessant effort to enhance ones income for sustenance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6678,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0931,
+        "Arguments of Respondent": 0.0582,
+        "Decision": 0.0009,
+        "Facts": 0.1793,
+        "Issue": 0.0006,
+        "Reasoning": 0.6678
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "It is not expected that the deceased who was not serving at all, his income is likely to remain static and his income would remain stagnant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2096,
+        "Arguments of Respondent": 0.0912,
+        "Decision": 0.0131,
+        "Facts": 0.1705,
+        "Issue": 0.0017,
+        "Reasoning": 0.5138
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 100,
+      "text": "As observed in Pranay Sethi (Supra) to have the perception that he is likely to remain static and his income to remain stagnant is contrary to the fundamental concept of human attitude which always intends to live with dynamism and move and change with the time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0004,
+        "Facts": 0.0183,
+        "Issue": 0.0003,
+        "Reasoning": 0.9747
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "Therefore we are of the opinion that even in case of a deceased who was not serving at the time of death and had no income at the time of death, their legal heirs shall also be entitled to future prospects by adding future rise in income as held by this court in the case of Pranay Sethi (supra) i.e. addition of 40 of the income determined on guesswork considering the educational qualification, family background etc., where the deceased was below the age of 40 years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0042,
+        "Facts": 0.0376,
+        "Issue": 0.0005,
+        "Reasoning": 0.9526
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "In light of the above, in the present case, the claimants shall be entitled to future economic loss at Rs.14,000/ per month.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8351,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0389,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0465,
+        "Facts": 0.06,
+        "Issue": 0.0007,
+        "Reasoning": 0.8351
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "The deceased at the time of accident was aged between 2122 years.",
+      "predicted_label": "Facts",
+      "confidence": 0.5877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0673,
+        "Arguments of Respondent": 0.0533,
+        "Decision": 0.0018,
+        "Facts": 0.5877,
+        "Issue": 0.0036,
+        "Reasoning": 0.2864
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 104,
+      "text": "Therefore, the multiplier has to be adopted applied considering the age of the deceased and not the age of the parents thus, multiplier 18 would apply.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0477,
+        "Arguments of Respondent": 0.0201,
+        "Decision": 0.0012,
+        "Facts": 0.0448,
+        "Issue": 0.0004,
+        "Reasoning": 0.8858
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "Therefore, the claimants shall be entitled to Rs.15,12,000/ towards the future economic loss.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0231,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.1101,
+        "Facts": 0.1369,
+        "Issue": 0.0006,
+        "Reasoning": 0.7129
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "Claimants shall also be entitled to Rs.15,000/ towards loss of estate, Rs.15,000/ towards funeral expenses and Rs.40,000/ towards loss of love and affection.",
+      "predicted_label": "Decision",
+      "confidence": 0.6648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.6648,
+        "Facts": 0.1052,
+        "Issue": 0.0012,
+        "Reasoning": 0.2266
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 107,
+      "text": "Thus, the claimants shall be entitled in all a sum of Rs.15,82,000/ with interest thereon at the rate of 7 per annum from the date of claims petition till realization.",
+      "predicted_label": "Facts",
+      "confidence": 0.5557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.257,
+        "Facts": 0.5557,
+        "Issue": 0.0008,
+        "Reasoning": 0.1817
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 108,
+      "text": "Now so far as the submission on behalf of the Union of India that as in the execution proceedings the claimants accepted the amount due and payable under the impugned judgment and order and accepted the same as full and final settlement, thereafter the claimants ought not to have preferred appeal for enhancement of the compensation is concerned, the aforesaid cannot be accepted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8803,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.0405,
+        "Decision": 0.0017,
+        "Facts": 0.0643,
+        "Issue": 0.0005,
+        "Reasoning": 0.8803
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "The claimants are entitled to just compensation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5786,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0272,
+        "Arguments of Respondent": 0.0444,
+        "Decision": 0.172,
+        "Facts": 0.1743,
+        "Issue": 0.0034,
+        "Reasoning": 0.5786
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "Merely because in the execution proceedings they might have accepted the amount as awarded by the High Court, may be as full and final settlement, it shall not take away the right of the claimants to claim just compensation and shall not preclude them from claiming the enhanced amount of compensation which they as such are held to be entitled to.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.942,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0234,
+        "Facts": 0.0067,
+        "Issue": 0.0013,
+        "Reasoning": 0.942
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "As such, the Motor Vehicles Act is a benevolent Act and as observed hereinabove the claimants are entitled to just compensation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9011,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0279,
+        "Decision": 0.0391,
+        "Facts": 0.0242,
+        "Issue": 0.0006,
+        "Reasoning": 0.9011
+      }
+    },
+    {
+      "sentence_id": 112,
+      "text": "As such, the Union of India ought not to have taken such a plea defence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.481,
+        "Arguments of Respondent": 0.2518,
+        "Decision": 0.0028,
+        "Facts": 0.0694,
+        "Issue": 0.0012,
+        "Reasoning": 0.1938
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 113,
+      "text": "In view of the above and for the reasons stated above, the present appeal succeeds in part.",
+      "predicted_label": "Decision",
+      "confidence": 0.976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.976,
+        "Facts": 0.0029,
+        "Issue": 0.0001,
+        "Reasoning": 0.0199
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "Impugned judgment and order passed by the High Court is modified and it is held that the claimants shall be entitled a total sum of Rs.15,82,000/ with interest thereon at the rate of 7 from the date of claims petition till the date of realization.",
+      "predicted_label": "Decision",
+      "confidence": 0.9295,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9295,
+        "Facts": 0.0351,
+        "Issue": 0.0002,
+        "Reasoning": 0.0345
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "Now the appellants to deposit the balance enhanced amount of compensation as per the present judgment and order with the learned Tribunal within a period of six weeks from today and also deposit the enhanced amount of compensation to be invested by the learned Tribunal in the name of the parents in fixed deposit in any Nationalized Bank for a period of 3 years however, the parents shall be entitled to the periodical interest on the same.",
+      "predicted_label": "Decision",
+      "confidence": 0.719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.719,
+        "Facts": 0.189,
+        "Issue": 0.0004,
+        "Reasoning": 0.0885
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "Present appeal is partly allowed to the aforesaid extent with token cost which is quantified at Rs.10,000/ to be paid to the original claimants also to be deposited in the learned Tribunal within a period of six weeks from today and the same may be paid to the original claimants.",
+      "predicted_label": "Decision",
+      "confidence": 0.9482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9482,
+        "Facts": 0.0261,
+        "Issue": 0.0002,
+        "Reasoning": 0.0248
+      }
+    }
+  ]
+}

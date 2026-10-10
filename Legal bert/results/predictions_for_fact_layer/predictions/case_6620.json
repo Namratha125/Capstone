@@ -1,0 +1,278 @@
+{
+  "case_id": "6620",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This Criminal Writ Petition is filed, seeking direction to respondent Nos.4 and 5 to register an offense as per complaint dated 29th March, 2005 and 8th April, 2005, lodged by the petitioner.",
+      "predicted_label": "Issue",
+      "confidence": 0.7064,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0056,
+        "Facts": 0.2838,
+        "Issue": 0.7064,
+        "Reasoning": 0.0027
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "It appears that the grievance of the petitioner, as reflected in the said complaint, is that the Insurance Company did not affix adequate stamp, as is required, as per relevant Rules.",
+      "predicted_label": "Facts",
+      "confidence": 0.9376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0005,
+        "Facts": 0.9376,
+        "Issue": 0.015,
+        "Reasoning": 0.037
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "As per the contents of the complaint, the Insurance Company was obliged to affix stamp of Rs.10/ on the policy of Rs.1,00,000/, however, the Company did affix stamp of Re.1/ and, according to the petitioner i.e. the complainant, thereby, the Insurance Company cheated the Government for its own benefit.",
+      "predicted_label": "Facts",
+      "confidence": 0.9518,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0002,
+        "Facts": 0.9518,
+        "Issue": 0.0018,
+        "Reasoning": 0.0219
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The said act of the Company is very serious and has caused loss of revenue to the Government and, therefore, inquiry should be made about the said allegations and appropriate action may be taken against the Insurance Company.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0005,
+        "Facts": 0.9852,
+        "Issue": 0.0004,
+        "Reasoning": 0.0048
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "In pursuance to notices issued in the petition, the respondents have filed replies.",
+      "predicted_label": "Facts",
+      "confidence": 0.8984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.033,
+        "Decision": 0.0005,
+        "Facts": 0.8984,
+        "Issue": 0.0253,
+        "Reasoning": 0.0392
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "It is the contention of the learned Counsel appearing for the respondent company that the Company did affix stamp of appropriate amount as per the Rules.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7796,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.7796,
+        "Decision": 0.0007,
+        "Facts": 0.0683,
+        "Issue": 0.0014,
+        "Reasoning": 0.1445
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "It is submitted that even if allegations in the complaint are taken as it is, without admitting that the Company did not affix the stamp of sufficient amount as per the Rules, at the most, it would amount to an irregularity.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4289,
+        "Arguments of Respondent": 0.5521,
+        "Decision": 0.0001,
+        "Facts": 0.0061,
+        "Issue": 0.0007,
+        "Reasoning": 0.012
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "It is submitted that respondent no.1 has filed affidavit in reply stating therein that in case there is any lapse on the part of the Insurance Company, it is for the officers from the Government Department to verify and ask the Insurance Company to affix deficit stamp, if any.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.471,
+      "probabilities": {
+        "Arguments of Petitioner": 0.471,
+        "Arguments of Respondent": 0.453,
+        "Decision": 0.0006,
+        "Facts": 0.0484,
+        "Issue": 0.0005,
+        "Reasoning": 0.0265
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "Learned A.P.P. appearing for the State invited our attention to the affidavit in reply filed by the State and submits that the concerned Department did issue notice to the Insurance Company and, in response to the said notice, the Company did pay the deficit stamp duty.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4554,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2566,
+        "Arguments of Respondent": 0.4554,
+        "Decision": 0.0062,
+        "Facts": 0.0202,
+        "Issue": 0.0009,
+        "Reasoning": 0.2607
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The learned Counsel appearing for the petitioner, is not present.",
+      "predicted_label": "Facts",
+      "confidence": 0.7485,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0717,
+        "Arguments of Respondent": 0.0228,
+        "Decision": 0.0718,
+        "Facts": 0.7485,
+        "Issue": 0.0166,
+        "Reasoning": 0.0687
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "With the able assistance of learned A.P.P. and learned Counsel for respondent no.3, we have perused the petition, annexures thereto and replies filed by the State as well as the Insurance Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0241,
+        "Arguments of Respondent": 0.0433,
+        "Decision": 0.0054,
+        "Facts": 0.1164,
+        "Issue": 0.292,
+        "Reasoning": 0.5187
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "In the first place, as rightly contended by learned A.P.P., in pursuance to the notices issued to the Insurance Company, the Insurance Company did pay deficit stamp duty.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9252,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0215,
+        "Arguments of Respondent": 0.0201,
+        "Decision": 0.0047,
+        "Facts": 0.0278,
+        "Issue": 0.0006,
+        "Reasoning": 0.9252
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "Secondly, upon reading the contents of the complaint, in its entirety, not affixing stamp of adequate amount would attract irregularity and it is always subject to verification check by the concerned Government Department.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.216,
+        "Arguments of Respondent": 0.2393,
+        "Decision": 0.0027,
+        "Facts": 0.1279,
+        "Issue": 0.0007,
+        "Reasoning": 0.4134
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "In the facts of the present case, in response to the notices issued by the concerned Government Department, the deficit stamp duty is paid by the Insurance Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8391,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0175,
+        "Decision": 0.0561,
+        "Facts": 0.0549,
+        "Issue": 0.0047,
+        "Reasoning": 0.8391
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Even if it is assumed for the moment that some amount is to be deposited by the Insurance Company, it is always open for the concerned Department to put forth a demand and in response to the same, the Insurance Company has to pay the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8217,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0662,
+        "Arguments of Respondent": 0.0769,
+        "Decision": 0.009,
+        "Facts": 0.0258,
+        "Issue": 0.0004,
+        "Reasoning": 0.8217
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Therefore, in our considered view, in the peculiar facts and circumstances of this case, the grievance raised in the complaint would not survive further.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.078,
+        "Facts": 0.0853,
+        "Issue": 0.0005,
+        "Reasoning": 0.8313
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Counsel appearing for respondent no.3 has tendered across the Bar copy of order passed by Division Bench of this Court on 2nd July, 2009 in Writ Petition No.7613/2005 and submits that in the said writ petition also, the petitioner did raise similar contentions with identical prayers and said writ petition was disposed of.5.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0291,
+        "Arguments of Respondent": 0.8735,
+        "Decision": 0.0005,
+        "Facts": 0.0864,
+        "Issue": 0.0012,
+        "Reasoning": 0.0093
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "In the light of the above, the petition stands dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.5709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.5709,
+        "Facts": 0.3822,
+        "Issue": 0.0023,
+        "Reasoning": 0.0342
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "Rule stands discharged.",
+      "predicted_label": "Decision",
+      "confidence": 0.7541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.7541,
+        "Facts": 0.2267,
+        "Issue": 0.0007,
+        "Reasoning": 0.0162
+      }
+    }
+  ]
+}

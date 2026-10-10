@@ -1,0 +1,1262 @@
+{
+  "case_id": "6988",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The judgment and order in Special Civil Application No. 1404 of 1962 will also govern the disposal of Special Civil Application No. 1460 of 1963.",
+      "predicted_label": "Decision",
+      "confidence": 0.9041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.9041,
+        "Facts": 0.0396,
+        "Issue": 0.0009,
+        "Reasoning": 0.0536
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "In both these applications, the petitioner, The Bombay Gas Co., Ltd., is an employer within the meaning of the Industrial Disputes Act.",
+      "predicted_label": "Issue",
+      "confidence": 0.6247,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0015,
+        "Facts": 0.3667,
+        "Issue": 0.6247,
+        "Reasoning": 0.0047
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The second respondents in both the applications are the two employees who originated the proceedings before the First Labour Court, Bombay, out of which these petitions arise.",
+      "predicted_label": "Facts",
+      "confidence": 0.6294,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0006,
+        "Facts": 0.6294,
+        "Issue": 0.3596,
+        "Reasoning": 0.0072
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "The first respondent in both these petitions is the First Labour Court itself presided over by Mr. H.N. Kulkarni.",
+      "predicted_label": "Facts",
+      "confidence": 0.8756,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.001,
+        "Facts": 0.8756,
+        "Issue": 0.0836,
+        "Reasoning": 0.0246
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "Sometime in the year 1953, disputes arose between the employer and his workmen, and the disputes were referred to the arbitration of Mr. S.H. Naik.",
+      "predicted_label": "Facts",
+      "confidence": 0.9924,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0,
+        "Facts": 0.9924,
+        "Issue": 0.0013,
+        "Reasoning": 0.0053
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Mr. Naik made an award on the 28th December 1953, and in the present petit ions we are concerned with one part of that award which deals with the benefit given to workmen of privilege leave.",
+      "predicted_label": "Facts",
+      "confidence": 0.9313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9313,
+        "Issue": 0.0055,
+        "Reasoning": 0.0609
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The benefit granted by the award was as appears from paragraphs 25 and 26 of that award, in the following terms  25.",
+      "predicted_label": "Facts",
+      "confidence": 0.954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.954,
+        "Issue": 0.0004,
+        "Reasoning": 0.0377
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "At present the Company grants 15 days privilege leave with pay per year to workmen (other than clerical staff), The Union has based this demand on two grounds, namely, that (1) the Company grants longer leave to the members of its senior clerical staff than that allowed to junior members of such staff, and (2) that need for rest and recuperation is greater in the case of senior workmen than in the case of junior workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1674,
+        "Arguments of Respondent": 0.095,
+        "Decision": 0.0002,
+        "Facts": 0.3474,
+        "Issue": 0.0025,
+        "Reasoning": 0.3874
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "In his award on the dispute between this Company and its staff Association made in September 194K Mr. P.S. Bakhale pointed out that the older a man grows the greater is his need for rest and therefore some differentiation in the period of leave based on the length of service is necessary, He based his conclusion on the award in Remington Rand Inc. Bombay and the workmen employed under it (Bombay Government Gazette Extraordinary, dated 18th December 1947.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6823,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0002,
+        "Facts": 0.2982,
+        "Issue": 0.0006,
+        "Reasoning": 0.6823
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "p. 4723).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.021,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0004,
+        "Facts": 0.0624,
+        "Issue": 0.0009,
+        "Reasoning": 0.9071
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "He therefore allowed different periods of privilege leave to the employees with service below 12 years and above 12 years (1948 I.C.R. 781 at p. 801).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0001,
+        "Facts": 0.021,
+        "Issue": 0.0002,
+        "Reasoning": 0.954
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "I would therefore like to keep in this case the differentiation in the periods of leave based upon length of service.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.0164,
+        "Facts": 0.09,
+        "Issue": 0.0011,
+        "Reasoning": 0.8779
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "In fixing the quantum of privilege leave regard must be had in this case to the fact that the Company is public utility concern manufacturing gas and therefore long leave granted to its workers is likely to have an adverse effect on its production.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0192,
+        "Facts": 0.0349,
+        "Issue": 0.0004,
+        "Reasoning": 0.914
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Besides it must be remembered that the Company grants to the workmen concerned in this reference sick leave on half pay and half dearness allowance for fifteen days every year with option to the worker to convert such leave to half its available period on full pay and allowance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0004,
+        "Facts": 0.0922,
+        "Issue": 0.0006,
+        "Reasoning": 0.8938
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The Company does not insist that the worker must exhaust the privilege leave to his credit before being entitled to sick leave.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.0174,
+        "Decision": 0.0009,
+        "Facts": 0.083,
+        "Issue": 0.0005,
+        "Reasoning": 0.8734
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The worker also gets 10(ten) paid holidays in a year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7382,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1196,
+        "Arguments of Respondent": 0.0369,
+        "Decision": 0.0014,
+        "Facts": 0.1033,
+        "Issue": 0.0005,
+        "Reasoning": 0.7382
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "There is need for greater production in India in consideration of all these facts.",
+      "predicted_label": "Facts",
+      "confidence": 0.6859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.0569,
+        "Decision": 0.0044,
+        "Facts": 0.6859,
+        "Issue": 0.0002,
+        "Reasoning": 0.2258
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "I direct the Company to allow to its employees (other than clerical) privilege leave at the rate of twentyone days in a year to those who have put in service of more than 12 years.",
+      "predicted_label": "Facts",
+      "confidence": 0.9,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0012,
+        "Facts": 0.9,
+        "Issue": 0.0029,
+        "Reasoning": 0.0767
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The amount of leave to be granted to employees who have put in a service of 12 years or less will remain the same as at present.",
+      "predicted_label": "Facts",
+      "confidence": 0.6847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0098,
+        "Facts": 0.6847,
+        "Issue": 0.0017,
+        "Reasoning": 0.296
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Since the making of that award, it appears that its terms were implemented without dispute till the year 1958.",
+      "predicted_label": "Facts",
+      "confidence": 0.8439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0002,
+        "Facts": 0.8439,
+        "Issue": 0.0043,
+        "Reasoning": 0.1443
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "As to how they were implemented is today in dispute.",
+      "predicted_label": "Facts",
+      "confidence": 0.8247,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.013,
+        "Decision": 0.0005,
+        "Facts": 0.8247,
+        "Issue": 0.0103,
+        "Reasoning": 0.1421
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "On 18th July 1958, the second respondent in Special Civil Application No. 1404 of 1962 made an application purporting to be under S. 33C(2) of the Industrial Disputes Act, 1947, claiming that the benefit of 21 days privilege leave be given to him.",
+      "predicted_label": "Facts",
+      "confidence": 0.9695,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0002,
+        "Facts": 0.9695,
+        "Issue": 0.0021,
+        "Reasoning": 0.0263
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "A similar application was subsequently preferred by the second respondent in Special Civil Application No. 1460 of 1963 on 25th July 1963.",
+      "predicted_label": "Facts",
+      "confidence": 0.9684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0001,
+        "Facts": 0.9684,
+        "Issue": 0.0031,
+        "Reasoning": 0.024
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Both the workers claimed that the amount at which the said benefit of privilege leave is given to them by Mr. Naiks award should be computed and the amount determinate by the Labour Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.6474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0039,
+        "Facts": 0.6474,
+        "Issue": 0.0018,
+        "Reasoning": 0.3299
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "It was the case of the employee in Special Civil Application No. 1404 of 1962 that the employer had not granted him the full 21 days privilege leave each year in 1954, 1955.",
+      "predicted_label": "Facts",
+      "confidence": 0.5373,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0353,
+        "Arguments of Respondent": 0.0134,
+        "Decision": 0.0039,
+        "Facts": 0.5373,
+        "Issue": 0.0033,
+        "Reasoning": 0.4068
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "1956 and 1957 in spite of the fact that he had been in his employment during those years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3248,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2595,
+        "Arguments of Respondent": 0.0991,
+        "Decision": 0.003,
+        "Facts": 0.3036,
+        "Issue": 0.0101,
+        "Reasoning": 0.3248
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "In the other Special Civil Application No. 1460 of 1963, the same right his been claimed except that it is for six years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0396,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0687,
+        "Facts": 0.2275,
+        "Issue": 0.0031,
+        "Reasoning": 0.6478
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "In answer to the applications, the employer not only denied the fact that he had not granted the full 21 days privilege leave per year but also raised other questions, particularly that did Labour Court had no jurisdiction to decide the question which was raised by the employees applications.",
+      "predicted_label": "Facts",
+      "confidence": 0.9533,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0001,
+        "Facts": 0.9533,
+        "Issue": 0.0017,
+        "Reasoning": 0.0322
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "It was contended on behalf of the employer that the benefit regarding which the employees had presented their applications was not one which was capable of being computed in terms of money, and therefore, the principal condition to the application of SubSection (2) of Section 33C of the Act has not been fulfilled, and the Labour Court had no jurisdiction to grant the applications.",
+      "predicted_label": "Facts",
+      "confidence": 0.6255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1699,
+        "Arguments of Respondent": 0.145,
+        "Decision": 0.0003,
+        "Facts": 0.6255,
+        "Issue": 0.0043,
+        "Reasoning": 0.055
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "Secondly, it was also contended that the very terms of the award indicated that 21 clays leave should be granted in a year.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3706,
+        "Arguments of Respondent": 0.1226,
+        "Decision": 0.0005,
+        "Facts": 0.3587,
+        "Issue": 0.0023,
+        "Reasoning": 0.1453
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "And the employer had actually granted the leave as ordered by the award, but upon the interpretation which the employees wanted to put upon that clause, the question raised would not be a question which would fall within the jurisdiction of the Labour Court under Section 33C, and that the employees should follow other remedies under the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1554,
+        "Arguments of Respondent": 0.2658,
+        "Decision": 0.0022,
+        "Facts": 0.1738,
+        "Issue": 0.001,
+        "Reasoning": 0.4019
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 31,
+      "text": "The Labour Court, which is the first respondent before us in both the petitions, has overruled all the contentions of the employer and has assessed the benefit of the privilege leave in terms of money and granted that amount plus costs of the proceedings to both the employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.7176,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0006,
+        "Facts": 0.7176,
+        "Issue": 0.2726,
+        "Reasoning": 0.0079
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "It is against that order that the employer has now come up in these petitions 5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9713,
+        "Issue": 0.0262,
+        "Reasoning": 0.0013
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Mr. Mehta on behalf of the petitioner in both the petitions has urged that the entire order passed by the first Labour Court was beyond its jurisdiction and competence for the reason that the benefit, which is conferred upon the employees by paragraphs 25 and 26 of Mr. Naiks award, is not a benefit which is capable of being computed in terms of money within the meaning of SubSection (2) of Section 33C of the Act, and therefore, the Labour Court exceeded its jurisdiction in computing the money value of that benefit and awarding it to the employees.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9314,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9314,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0004,
+        "Facts": 0.034,
+        "Issue": 0.0018,
+        "Reasoning": 0.0305
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "In fact, the preliminary condition for the exercise of its jurisdiction was that there must be a benefit which it capable of being computed in terms of money, and that was not the case here having regard to the nature of the benefit granted and the terms upon which it was granted under the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0535,
+        "Arguments of Respondent": 0.0484,
+        "Decision": 0.0002,
+        "Facts": 0.0207,
+        "Issue": 0.0003,
+        "Reasoning": 0.877
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The other contention of Mr. Mehta is that the award as such has not anywhere indicated that the benefit of privilege leave could be evaluated and money granted in lieu thereof, and that, therefore, the Labour Court in giving money compensation to the respondentsemployees was virtually enlarging the toward and so acting beyond the jurisdiction conferred on it by Section 33C.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.913,
+        "Arguments of Respondent": 0.0486,
+        "Decision": 0.0001,
+        "Facts": 0.0038,
+        "Issue": 0.0004,
+        "Reasoning": 0.0341
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "There was also a minor ancillary point argued based upon the findings of the Labour Court that in computing the year for the purposes of fixing the period of privilege leave, Sundays and paid holidays should be excluded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1839,
+        "Arguments of Respondent": 0.0986,
+        "Decision": 0.001,
+        "Facts": 0.1783,
+        "Issue": 0.0039,
+        "Reasoning": 0.5343
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "Mr. Mehta urged that that was directly contrary to the standing orders of the Company.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2319,
+        "Arguments of Respondent": 0.1588,
+        "Decision": 0.0002,
+        "Facts": 0.582,
+        "Issue": 0.0002,
+        "Reasoning": 0.0269
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "Bearing these principles in mind we proceed to consider the points raised on behalf of the petitioners.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8323,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0735,
+        "Arguments of Respondent": 0.0358,
+        "Decision": 0.0009,
+        "Facts": 0.0274,
+        "Issue": 0.0302,
+        "Reasoning": 0.8323
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Now, the cardinal point made on behalf of the petitioner is that the benefit of privilege leave, which has been granted by paragraphs 26 and 26 of the award of Mr. Naik, is not a benefit which is capable of being computed in terms of money within the meaning of those words in S. 33C(2).",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8478,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0003,
+        "Facts": 0.0114,
+        "Issue": 0.0018,
+        "Reasoning": 0.1342
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "On this point the cases to which reference has been made earlier, do indicate in particular instances whether it is a benefit which is capable of being computed in terms of money or not, but none of the cases has in terms interpreted tile governing words.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0004,
+        "Facts": 0.0054,
+        "Issue": 0.0016,
+        "Reasoning": 0.9725
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "We shall presently advert to those cases, but it seems to us that so far as the expression benefit which is capable of being computed in terms of money is concerned, in the absence of any definition of the word benefit or of the words capable of being computed, we can only give those words the normal connotation that they carry in the English language.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9642,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0001,
+        "Facts": 0.0087,
+        "Issue": 0.0014,
+        "Reasoning": 0.9642
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "By the word capable, according to the Oxford Dictionary is meant susceptible and by the word compute is meant to estimate or determine by arithmetical or mathematical reckoning.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0659,
+        "Arguments of Respondent": 0.0541,
+        "Decision": 0.0001,
+        "Facts": 0.0066,
+        "Issue": 0.0005,
+        "Reasoning": 0.8728
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The question then is, whether the benefit with which we are concerned, viz., privilege leave, is susceptible of being estimated or determined in terms of money by any arithmetical or mathematical reckoning that, is a question which in our opinion would fall to be determined upon a consideration of the nature of the benefit and the purpose for which it was granted to the workmen.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8041,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0136,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0004,
+        "Facts": 0.0113,
+        "Issue": 0.1569,
+        "Reasoning": 0.8041
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "It was then pointed out on behalf of the respondentemployees that the word benefit has been construed in a very wide sense as meaning any advantage or profit, and reference was made to the decision in (1962) 1 Lab LJ 234 (AIR 1963 SC 187).",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.8397,
+        "Decision": 0.0001,
+        "Facts": 0.0104,
+        "Issue": 0.0001,
+        "Reasoning": 0.1405
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "In that case, the argument was advanced that the word benefit should be limited only to monetary benefits and not to benefits which are not expressed in terms of money or monetary benefits, that contention was negatived, and in negativing that contention the Supreme Court remarked that, the word benefit in Section 330(2) is of wide import, and the accepted dictionary meaning thereof is advantage or profit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1236,
+        "Arguments of Respondent": 0.0778,
+        "Decision": 0.0002,
+        "Facts": 0.0182,
+        "Issue": 0.0007,
+        "Reasoning": 0.7795
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The paragraphs of the award by which this benefit was conferred upon the workers do not at all refer to any money equivalent or computation of any money equivalent in the event that privilege leave is not granted to any worker.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0129,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0004,
+        "Facts": 0.0265,
+        "Issue": 0.0004,
+        "Reasoning": 0.9558
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "Now, no doubt, in the discharge of its function as executing Court, the Labour Court can interpret the award, but howsoever it may interpret the award, it cannot read into that award any terms that a monetary compensation equivalent to the benefit of privilege leave was to be granted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0176,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0007,
+        "Facts": 0.0352,
+        "Issue": 0.0041,
+        "Reasoning": 0.934
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Such a question was not even considered by Mr. Naik when making the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2538,
+        "Arguments of Respondent": 0.0808,
+        "Decision": 0.0002,
+        "Facts": 0.026,
+        "Issue": 0.0003,
+        "Reasoning": 0.639
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "Therefore, it seems to us that when, for the first time, about five years after the award was made, the workers are asking for computation of the money equivalent of that benefit, there is no question here involved of interpreting any term of the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9517,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0099,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0003,
+        "Facts": 0.0258,
+        "Issue": 0.0025,
+        "Reasoning": 0.9517
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "What in effect is being asked for is that the workers be given an additional benefit, which was not the subject matter of the award and was not within the consideration of the Tribunal which made the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0459,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0003,
+        "Facts": 0.0107,
+        "Issue": 0.0016,
+        "Reasoning": 0.926
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "By refusing to give the privilege leave the employer deprives an employee of the benefit to slay away from work by getting the wages.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0258,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0003,
+        "Facts": 0.016,
+        "Issue": 0.0013,
+        "Reasoning": 0.9466
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "By refusing the privilege leave the employer puts the employee to two losses viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9193,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0583,
+        "Arguments of Respondent": 0.0161,
+        "Decision": 0.0007,
+        "Facts": 0.005,
+        "Issue": 0.0006,
+        "Reasoning": 0.9193
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "(1) loss of wages and (2) loss of leave or absence from work or rest.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0377,
+        "Arguments of Respondent": 0.0209,
+        "Decision": 0.0006,
+        "Facts": 0.0434,
+        "Issue": 0.0092,
+        "Reasoning": 0.8883
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "What the applicant has claimed in this case is wages for the leave period or days of privilege leave to which the applicant was entitled to and which the opponent refused to give.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0229,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0005,
+        "Facts": 0.2995,
+        "Issue": 0.0061,
+        "Reasoning": 0.6648
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "that the workers in these two petitions asked for privilege leave and were refused privilege leave by the employer.",
+      "predicted_label": "Facts",
+      "confidence": 0.951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0019,
+        "Facts": 0.951,
+        "Issue": 0.0024,
+        "Reasoning": 0.039
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "That is completely contrary to the facts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2898,
+        "Arguments of Respondent": 0.1342,
+        "Decision": 0.0012,
+        "Facts": 0.075,
+        "Issue": 0.0003,
+        "Reasoning": 0.4995
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "In tact, in paragraph 6 of the petition, it was the complaint of the employed that, at no time prior to the filing of the said application, did the second respondents complain that they had not been given privilege leave to which they were entitled.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6442,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0958,
+        "Arguments of Respondent": 0.1079,
+        "Decision": 0.001,
+        "Facts": 0.1507,
+        "Issue": 0.0003,
+        "Reasoning": 0.6442
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "Thus, it was the employer who was making a grievance of the fact that the workers had never asked for privilege leave before and that their application under S. 330(2) was not maintainable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0763,
+        "Arguments of Respondent": 0.1268,
+        "Decision": 0.0003,
+        "Facts": 0.042,
+        "Issue": 0.0012,
+        "Reasoning": 0.7534
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "Therefore, it is clear that there could have been no possible refusal to grant privilege leave.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8768,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0402,
+        "Arguments of Respondent": 0.0175,
+        "Decision": 0.0021,
+        "Facts": 0.063,
+        "Issue": 0.0004,
+        "Reasoning": 0.8768
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "Indeed, the statement, to which we have referred above, made in the petition, was never controverted on behalf of the workers in this Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.003,
+        "Facts": 0.0413,
+        "Issue": 0.0002,
+        "Reasoning": 0.917
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "They have mil filed any return whatsoever, and, therefore, the statement in paragraph 6 must he accepted as correct.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6324,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0515,
+        "Arguments of Respondent": 0.1073,
+        "Decision": 0.0016,
+        "Facts": 0.2068,
+        "Issue": 0.0004,
+        "Reasoning": 0.6324
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "If so, the one principal assumption which the Labour Court made that privilege leave was asked for and refused by the employer is contrary to the facts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9044,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0641,
+        "Arguments of Respondent": 0.0152,
+        "Decision": 0.0005,
+        "Facts": 0.0149,
+        "Issue": 0.0008,
+        "Reasoning": 0.9044
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "But then, even assuming that a refusal of privilege leave has taken place, we are unable to understand the further reasoning of the Labour Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0026,
+        "Facts": 0.0557,
+        "Issue": 0.0028,
+        "Reasoning": 0.9201
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "It seems to have taken the view that when privilege leave is refused by the employer, he is automatically entitled to compensation or the money equivalent, that is to say, to have the benefit computed.",
+      "predicted_label": "Facts",
+      "confidence": 0.7056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0003,
+        "Facts": 0.7056,
+        "Issue": 0.059,
+        "Reasoning": 0.2246
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "The other remark which the Labour Court made that it involved the employee in two losses, viz., the loss of wages and loss of leave or absence from work or rest is also not correct, because for the period of the leave the employee does work and is actually paid for it, Therefore, there is no loss of wages involved.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0005,
+        "Facts": 0.0086,
+        "Issue": 0.0001,
+        "Reasoning": 0.9746
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "All that is involved is the loss of the privilege itself.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7943,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0835,
+        "Arguments of Respondent": 0.1002,
+        "Decision": 0.0011,
+        "Facts": 0.0193,
+        "Issue": 0.0015,
+        "Reasoning": 0.7943
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "If no privilege leave is granted, the employee continues to work and receives his pay.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7516,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0975,
+        "Arguments of Respondent": 0.0638,
+        "Decision": 0.0024,
+        "Facts": 0.0839,
+        "Issue": 0.0008,
+        "Reasoning": 0.7516
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "The Labour Court, moreover, did not at all advert to the grounds upon which and the purpose for which his benefit was given by the award itself.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0525,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.0017,
+        "Facts": 0.0215,
+        "Issue": 0.0005,
+        "Reasoning": 0.9201
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "We are unable to sustain the decision of the Labour Court that the privilege leave was a benefit which was capable of being computed in terms of money.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0003,
+        "Facts": 0.0098,
+        "Issue": 0.0006,
+        "Reasoning": 0.9809
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "In our opinion, the privilege leave by its very nature cannot be computed in terms of money.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9695,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0003,
+        "Facts": 0.0092,
+        "Issue": 0.0004,
+        "Reasoning": 0.9695
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "Then we turn to the other point which was argued before us which, upon the view we have taken, is really not necessary to decide, but since it has been argued in full, we merely state the point here.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8218,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0861,
+        "Arguments of Respondent": 0.0326,
+        "Decision": 0.001,
+        "Facts": 0.0206,
+        "Issue": 0.0379,
+        "Reasoning": 0.8218
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Paragraph 26 of the award granted privilege leave to the workmen at the rate of 21 days in a year.",
+      "predicted_label": "Facts",
+      "confidence": 0.7453,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0002,
+        "Facts": 0.7453,
+        "Issue": 0.0015,
+        "Reasoning": 0.2418
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "Now, it must have struck the Labour Court that when the award says a year, it could not possibly mean a calendar year or 365 clays, because the employee, having regard to the other benefits which he receives of nonworking days, such as Sundays, paid holidays, unpaid holidays, etc., could not possibly work for the whole of the calendar year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0269,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0007,
+        "Facts": 0.0599,
+        "Issue": 0.0016,
+        "Reasoning": 0.905
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "Then arose the question as to what was involved in the direction of the award that the privilege leave shall be at the rate of 21 days in a year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5563,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0223,
+        "Arguments of Respondent": 0.0144,
+        "Decision": 0.0004,
+        "Facts": 0.2459,
+        "Issue": 0.1607,
+        "Reasoning": 0.5563
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "The Labour Court has, it seems, after a considerable amount of hesitation come to its own conclusion that the year must be 291 days, and the manner in which it arrived at 291 days is by calculating various benefits which the workers had of nonworking days including seven days of casual leave, 15 days of sick leave, 10 paid holidays and 10 unpaid festival days and other benefits.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6391,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0004,
+        "Facts": 0.3078,
+        "Issue": 0.0309,
+        "Reasoning": 0.6391
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "The employer has in his petition computed the year as being of 800 days, a calculation which the Labour Court did not accept.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.609,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1051,
+        "Arguments of Respondent": 0.0673,
+        "Decision": 0.0069,
+        "Facts": 0.2102,
+        "Issue": 0.0016,
+        "Reasoning": 0.609
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "Before us several other interpretations have been advanced.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0709,
+        "Arguments of Respondent": 0.0493,
+        "Decision": 0.0062,
+        "Facts": 0.0095,
+        "Issue": 0.0036,
+        "Reasoning": 0.8606
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "The extreme one is that so long as a worker works for a single day in a year, he would be entitled to the whole of the privilege leave so long as his name continues on the muster roll of the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8301,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0662,
+        "Arguments of Respondent": 0.0533,
+        "Decision": 0.001,
+        "Facts": 0.049,
+        "Issue": 0.0004,
+        "Reasoning": 0.8301
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "Then it was variously argued that sick leave and casual leave cannot be computed for the purpose of arriving at the year for calculation of privilege leave.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3613,
+        "Arguments of Respondent": 0.1413,
+        "Decision": 0.0003,
+        "Facts": 0.0226,
+        "Issue": 0.0009,
+        "Reasoning": 0.4735
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 80,
+      "text": "As we have said if is unnecessary for us to go into these rival contentions, because we have shown that, in the first place, the privilege leave was not a benefit which was capable of being computed in terms of money.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.963,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0116,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0023,
+        "Facts": 0.0123,
+        "Issue": 0.0012,
+        "Reasoning": 0.963
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "But we may say it here that the very fact that the expression used in the award of Mr. Naik is capable of such varied interpretations shows that initially the use of the word year in the award not having been defined, we would be, undoubtedly, adding to the award, were we today to hold that though a year is mentioned, it is something less than a year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0005,
+        "Facts": 0.0357,
+        "Issue": 0.0003,
+        "Reasoning": 0.9449
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "That again, as has been clearly held upon the authorities would be beyond the jurisdiction of the Labour Court to do.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8798,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0317,
+        "Arguments of Respondent": 0.025,
+        "Decision": 0.0019,
+        "Facts": 0.0613,
+        "Issue": 0.0004,
+        "Reasoning": 0.8798
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "In the view we have taken it is also not necessary to decide whether Sundays and paid holidays should be included or excluded in the computation of a year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8342,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.1481,
+        "Facts": 0.0071,
+        "Issue": 0.001,
+        "Reasoning": 0.8342
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "In our opinion, the question which was before the Labour Court clearly did not fall within the ambit of Section 330(2).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9685,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0015,
+        "Facts": 0.0177,
+        "Issue": 0.0008,
+        "Reasoning": 0.9685
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "The Labour Court thus had no jurisdiction to adjudicate upon the question, nor to award monetary compensation in lieu of the privilege leave.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0539,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0453,
+        "Facts": 0.1175,
+        "Issue": 0.0014,
+        "Reasoning": 0.7742
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "Both the petitions will, therefore, be allowed, the order of the Labour Court set aside, and the applications of the workers dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9195,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9195,
+        "Facts": 0.0209,
+        "Issue": 0.0002,
+        "Reasoning": 0.0582
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "In the circumstances of the case, there shall be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9857,
+        "Facts": 0.005,
+        "Issue": 0.0001,
+        "Reasoning": 0.0086
+      }
+    }
+  ]
+}

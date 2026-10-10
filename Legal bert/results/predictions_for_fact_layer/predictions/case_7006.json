@@ -1,0 +1,933 @@
+{
+  "case_id": "7006",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "Some of the material facts of the present case are briefly stated as under 2.The respondent No.1 is carrying on business of manufacture of rubber belts.",
+      "predicted_label": "Facts",
+      "confidence": 0.9948,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0,
+        "Facts": 0.9948,
+        "Issue": 0.0007,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The appellant is a Union representing the workmen working in the said respondentestablishment.",
+      "predicted_label": "Facts",
+      "confidence": 0.8424,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0006,
+        "Facts": 0.8424,
+        "Issue": 0.1542,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The appellant is a registered union.",
+      "predicted_label": "Facts",
+      "confidence": 0.9374,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0003,
+        "Facts": 0.9374,
+        "Issue": 0.0562,
+        "Reasoning": 0.0044
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "There are two other Unions in the said establishment of which one Nagpur Kamgar Union is a recognised union in accordance with the provisions of the Trade Unions Act.3.On or about 29th November, 1993 a settlement was arrived at by the respondentCompany with recognised union Nagpur Kamgar Union (hereinafter referred as NGU).",
+      "predicted_label": "Facts",
+      "confidence": 0.9963,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9963,
+        "Issue": 0.0024,
+        "Reasoning": 0.0007
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The appellant was not invited for negotiations and settlement which was arrived at by and between the respondent No.1 and the said NGU.",
+      "predicted_label": "Facts",
+      "confidence": 0.2997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2887,
+        "Arguments of Respondent": 0.2636,
+        "Decision": 0.0123,
+        "Facts": 0.2997,
+        "Issue": 0.0023,
+        "Reasoning": 0.1334
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "The negotiations were not fructified and, therefore, settlement was not arrived at.",
+      "predicted_label": "Facts",
+      "confidence": 0.7343,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0438,
+        "Arguments of Respondent": 0.0667,
+        "Decision": 0.0033,
+        "Facts": 0.7343,
+        "Issue": 0.0028,
+        "Reasoning": 0.1492
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Thus the matter was proceeded with for conciliation before the Conciliation Officer.",
+      "predicted_label": "Facts",
+      "confidence": 0.9813,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9813,
+        "Issue": 0.0015,
+        "Reasoning": 0.0138
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "Even before the Conciliation Officer, the matter was not settled and he filed failure report and the matter was thereafter referred to the Industrial Court.4.In this complaint, the appellantUnion contended that benefit of both the settlements of 1993 and 1998 should be extended to the members of the appellantunion also.",
+      "predicted_label": "Facts",
+      "confidence": 0.9965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.0001,
+        "Facts": 0.9965,
+        "Issue": 0.0016,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The basic contention is that even when settlements are challenged by the appellantunion still they are entitled to benefit thereof.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0715,
+        "Arguments of Respondent": 0.8914,
+        "Decision": 0.0001,
+        "Facts": 0.0096,
+        "Issue": 0.0007,
+        "Reasoning": 0.0267
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "It is further contended by the appellantunion that insofar as the obligation of the members of the appellantunion is concerned to give higher figure of production, they have complied with the same right from 1993 and thus, they are entitled to benefits of settlement, particularly, higher wages and higher payscales prescribed thereunder.",
+      "predicted_label": "Facts",
+      "confidence": 0.6742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2526,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0017,
+        "Facts": 0.6742,
+        "Issue": 0.0057,
+        "Reasoning": 0.0645
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "It is further contended that even though they are not accepting the said settlement yet, they are entitled to benefit which is acquired by the other respondents.5.On the other hand, learned Counsel for the respondents contended that the appellantunion has refused to accept the said settlement and, therefore, not entitled to the benefits thereunder.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9484,
+      "probabilities": {
+        "Arguments of Petitioner": 0.021,
+        "Arguments of Respondent": 0.9484,
+        "Decision": 0.0002,
+        "Facts": 0.0177,
+        "Issue": 0.0005,
+        "Reasoning": 0.0122
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "It is further contended that the settlement which was arrived at under section 18(1) of the Industrial Disputes Act, 1947 is binding only between the parties to the settlement and not to third parties who are not parties to the said settlement.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4632,
+        "Arguments of Respondent": 0.4804,
+        "Decision": 0.0005,
+        "Facts": 0.0193,
+        "Issue": 0.0031,
+        "Reasoning": 0.0334
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "It is also further contended by learned Counsel for the respondents that the settlement is not in the course of conciliation proceeding and, therefore, provisions of section 18(3) of the Industrial Disputes Act, 1947 are not applicable.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8176,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.8176,
+        "Decision": 0.0003,
+        "Facts": 0.0133,
+        "Issue": 0.0008,
+        "Reasoning": 0.162
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "It is, therefore, contended by the respondents to the written statement that members of the appellantunion have not complied with the obligations as contemplated by settlements of 1993 and 1998 of giving increased productions, it is further contended that the appellantUnion had not accepted the said settlements by filing necessary undertaking and thus, they are not entitled to extended benefit thereof and those who refused to accept settlement cannot claim benefit of the said settlements.6.On the aforesaid pleadings, the industrial Court framed following preliminary issues for determination Preliminary issues Findings1.",
+      "predicted_label": "Facts",
+      "confidence": 0.9955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0,
+        "Facts": 0.9955,
+        "Issue": 0.0011,
+        "Reasoning": 0.0018
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Whether the complainantemployees are entitled to the benefits of the settlements dated 29111993 and 451998 entered into under section 2(p) read with section 18(1) of the ID.",
+      "predicted_label": "Facts",
+      "confidence": 0.7865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0022,
+        "Facts": 0.7865,
+        "Issue": 0.1939,
+        "Reasoning": 0.0107
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Act when admittedly the complainants are not party to the settlements",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1398,
+        "Arguments of Respondent": 0.1942,
+        "Decision": 0.0014,
+        "Facts": 0.0433,
+        "Issue": 0.0045,
+        "Reasoning": 0.6168
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "No2.",
+      "predicted_label": "Facts",
+      "confidence": 0.8242,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0533,
+        "Decision": 0.028,
+        "Facts": 0.8242,
+        "Issue": 0.0043,
+        "Reasoning": 0.0771
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "What Order As per the final order.7.The matter was thereafter heard by the Industrial Court and by order and judgment dated 2472003, the Industrial Court dismissed the complaint on the preliminary issue itself and held that the appellants are not entitled to the benefits of settlement dated 29111993 and 451998 which are entered into under section 2(p) and 18(1) of the Industrial Disputes Act, 1947 and accordingly said complaint has been dismissed.8.The said order of dismissal of the complaint was a subject matter of challenge before the learned Single Judge by way of writ petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.9838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9838,
+        "Issue": 0.0105,
+        "Reasoning": 0.0043
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The learned Single Judge by order dated 29th January, 1993 considered various aspects and ultimately came to the conclusion that there is no merit in the writ petition and, therefore, same has been dismissed.9.This order of the learned Single Judge is the subject matter of challenge in the present appeal before us.",
+      "predicted_label": "Facts",
+      "confidence": 0.9917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9917,
+        "Issue": 0.0061,
+        "Reasoning": 0.0012
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The Learned Counsel for the appellant has more or less repeated same contentions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8983,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0031,
+        "Facts": 0.0226,
+        "Issue": 0.0019,
+        "Reasoning": 0.0709
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "He has inter alia contended that principle equal work equal pay is applicable to the members of the petitionerunion and they are thus entitled to the same pay scale as other workers of the respondentcompany are entitled to.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6228,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6228,
+        "Arguments of Respondent": 0.2182,
+        "Decision": 0.0005,
+        "Facts": 0.0919,
+        "Issue": 0.0008,
+        "Reasoning": 0.0659
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Thus he contended that their cannot be any discrimination in between the two sets of workers of the same establishment.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6651,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2787,
+        "Arguments of Respondent": 0.6651,
+        "Decision": 0.0002,
+        "Facts": 0.0117,
+        "Issue": 0.0002,
+        "Reasoning": 0.0441
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "It is contended that the workers of the appellantUnion in fact are entitled to benefits under settlement because the respondentCompany has taken enhanced production in accordance with the provisions of the said settlement, but has refused to grant enhanced wages as provided in the said settlements.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8754,
+        "Arguments of Respondent": 0.036,
+        "Decision": 0.0002,
+        "Facts": 0.0237,
+        "Issue": 0.003,
+        "Reasoning": 0.0618
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "It is therefore contended by the appellants that the members of the appellantUnion are entitled to the benefits of the said settlement notwithstanding that the very same settlement is challenged by the appellants by filing complaint in the Industrial Court under MRTP and PULP Act, 1971.10.Learned Counsel for the respondents has on the other hand urged that unless appellantUnion accepts settlements in toto, they are not entitled to any benefits which are acquired under the said settlement.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1521,
+        "Arguments of Respondent": 0.7135,
+        "Decision": 0.0002,
+        "Facts": 0.044,
+        "Issue": 0.0013,
+        "Reasoning": 0.089
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "He further urged that it is not settlement under section 18(3) of the I.D. Act and hence, appellants are not entitled to benefits of the said settlement as a matter of course.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5083,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5083,
+        "Arguments of Respondent": 0.4334,
+        "Decision": 0.0004,
+        "Facts": 0.0269,
+        "Issue": 0.0007,
+        "Reasoning": 0.0303
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "It is further contended that the appellants are not entitled to claim the benefits of the said settlement without complying with corresponding obligations thereunder.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4627,
+        "Arguments of Respondent": 0.4566,
+        "Decision": 0.0003,
+        "Facts": 0.0535,
+        "Issue": 0.0027,
+        "Reasoning": 0.0242
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "A settlement arrived at in the course of conciliation proceedings under this Act or an arbitration award in a case where notification has been issued under subsection (3A) of section 10A of an award of Labour Court, Tribunal or National Tribunal which has become enforceable shall be binding on(a) all parties to the industrial dispute.(b) all other parties summoned to appear in the proceedings as parties to the dispute, unless the Board, Arbitrator, Labour Court, Tribunal or National Tribunal, as the case may be, records the opinion that they were so summoned without proper cause.(c) where a party referred to in clause (a) or clause (b) is an employer, his heirs, successors and assignees in respect of the establishment to which the dispute relates.(d) where a party referred to in clause (a) or clause (b) is composed of workmen all persons who were employed in the establishment or part of the establishment, as the case may be, to which the dispute relates on the date of the dispute and all persons who subsequently become employed in that establishment or part.12.The present appeal raises a question of true and correct interpretation of section 18(1) and section 18(3) of the Industrial Disputes Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6237,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0565,
+        "Arguments of Respondent": 0.1217,
+        "Decision": 0.0008,
+        "Facts": 0.192,
+        "Issue": 0.0052,
+        "Reasoning": 0.6237
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "There are already number of judgments interpreting the aforesaid sections few of which are set out hereunder.13.Under section 18 of the Industrial Disputes Act it is clear that if a settlement is arrived at under subsection (1) by an agreement between an employer and workman otherwise than in the course of conciliation proceedings then the same shall be binding on the parties to the agreement, whereas, settlement arrived at during the course of conciliation proceeding under subsection (3) of the said section 18, then the same shall be binding on all the parties i.e. All the workmen whether they are party to the said settlement or not.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0451,
+        "Arguments of Respondent": 0.0575,
+        "Decision": 0.0002,
+        "Facts": 0.1796,
+        "Issue": 0.0293,
+        "Reasoning": 0.6883
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "It is his case that under the principle equal pay for equal work all benefits must be extended to the members of the appellantUnion herein.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7805,
+        "Arguments of Respondent": 0.0945,
+        "Decision": 0.0007,
+        "Facts": 0.0387,
+        "Issue": 0.0016,
+        "Reasoning": 0.084
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "In support of this argument, firstly, he relied upon judgment of the Apex Court in the case of Herbertsons Ltd. vs. The Workmen of Herbertsons Ltd., 1977 Lab.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5709,
+        "Arguments of Respondent": 0.366,
+        "Decision": 0.0001,
+        "Facts": 0.0501,
+        "Issue": 0.0004,
+        "Reasoning": 0.0126
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "Mills Association vs. Usha India and ors.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.416,
+      "probabilities": {
+        "Arguments of Petitioner": 0.416,
+        "Arguments of Respondent": 0.1167,
+        "Decision": 0.0058,
+        "Facts": 0.0889,
+        "Issue": 0.0011,
+        "Reasoning": 0.3716
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 31,
+      "text": "reported in 1999 (1) CLR 559.",
+      "predicted_label": "Facts",
+      "confidence": 0.3754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2813,
+        "Arguments of Respondent": 0.098,
+        "Decision": 0.0006,
+        "Facts": 0.3754,
+        "Issue": 0.0048,
+        "Reasoning": 0.24
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 32,
+      "text": "From para 21 of the said judgment, it is clear that the said judgment is against the appellant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6297,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1926,
+        "Arguments of Respondent": 0.0909,
+        "Decision": 0.0061,
+        "Facts": 0.0783,
+        "Issue": 0.0024,
+        "Reasoning": 0.6297
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "In paras 12 and 13 of the said judgment the Court has considered the effect of the provisions of section 18(3) of the I.D. Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6126,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1736,
+        "Arguments of Respondent": 0.1258,
+        "Decision": 0.0018,
+        "Facts": 0.0859,
+        "Issue": 0.0003,
+        "Reasoning": 0.6126
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "We find that the view which we are taking is in consonance with the view which Delhi High Court has taken that the settlement under section 18(1) cannot be enforced by the parties who are not parties to such settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9689,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0023,
+        "Facts": 0.0114,
+        "Issue": 0.0002,
+        "Reasoning": 0.9689
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Thereafter, reliance is placed on the judgment of the learned Single Judge of this Court in the case of Sarva Shramik Sangh vs. V.V.F. Ltd., 2002 (1) CLR 797.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4852,
+        "Arguments of Respondent": 0.2589,
+        "Decision": 0.0008,
+        "Facts": 0.1743,
+        "Issue": 0.0008,
+        "Reasoning": 0.08
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "In para 6 of the said judgment, the learned Single Judge of this Court has considered and followed judgment of the Apex Court in the case of Herbertsonss case (supra).",
+      "predicted_label": "Facts",
+      "confidence": 0.867,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0195,
+        "Arguments of Respondent": 0.0479,
+        "Decision": 0.0008,
+        "Facts": 0.867,
+        "Issue": 0.0007,
+        "Reasoning": 0.0642
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The learned Single Judge after considering the factors came to the conclusion that the settlement can be challenged by workmen who are not party to the settlement.",
+      "predicted_label": "Facts",
+      "confidence": 0.5202,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0308,
+        "Arguments of Respondent": 0.0471,
+        "Decision": 0.0008,
+        "Facts": 0.5202,
+        "Issue": 0.0019,
+        "Reasoning": 0.3993
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "In that event, if the settlement is just and fair this Court has power to bind other workers to such settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7149,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0819,
+        "Arguments of Respondent": 0.0972,
+        "Decision": 0.0076,
+        "Facts": 0.0919,
+        "Issue": 0.0065,
+        "Reasoning": 0.7149
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "We are not at all disputing the said proposition of law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7784,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0298,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0177,
+        "Facts": 0.1292,
+        "Issue": 0.0264,
+        "Reasoning": 0.7784
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "However, whether a union who is not a party to the settlement has a right to claim enforcement of the said agreement when the same is not acceptable to them and challenged in the pending proceedings.",
+      "predicted_label": "Issue",
+      "confidence": 0.7068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.004,
+        "Facts": 0.0713,
+        "Issue": 0.7068,
+        "Reasoning": 0.1973
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "In the present case, it is not their case that they are accepting the said settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0413,
+        "Arguments of Respondent": 0.0551,
+        "Decision": 0.0034,
+        "Facts": 0.0886,
+        "Issue": 0.0002,
+        "Reasoning": 0.8115
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "Thereafter, learned Counsel for the appellant has pointed out another Judgment of the learned Single Judge in the case of Gopinath Panchal vs. HES Ltd., 1996 (1) CLR 325 and contended that this judgment lays down a law that if a workman has not accepted settlement merely because he had not filed undertaking to accept the said settlement, he should not be deprived of such benefits.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9134,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0006,
+        "Facts": 0.0118,
+        "Issue": 0.0004,
+        "Reasoning": 0.0678
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "When a settlement is arrived at during the conciliation proceedings it is binding on the members of the Workers Union as laid down by section 18(3)(d) of the Industrial Disputes Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.031,
+        "Arguments of Respondent": 0.0304,
+        "Decision": 0.0008,
+        "Facts": 0.0122,
+        "Issue": 0.001,
+        "Reasoning": 0.9245
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "A bare perusal of the above quoted section would show that whereas a Settlement arrived at by agreement between the employer and the workmen otherwise than in the course of conciliation proceeding is binding only on the parties to the agreement, a settlement arrived at in the course of conciliation proceedings under the Act is binding not only on the parties to the industrial dispute but also on the other persons specified in clauses (b), (c) and (d) of subsection (3) of section 18 of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0001,
+        "Facts": 0.0183,
+        "Issue": 0.0019,
+        "Reasoning": 0.9628
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "We are fortified in this conclusion by a decision of this Court in Ramnagar Cane and Sugar Co. Ltd. vs. Jatin Chakravorty, 1960 (3) SCR 968 (AIR 1960 SC 1012 ) where it was held as follows (at p. 10 15 of AIR)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9322,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0321,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0009,
+        "Facts": 0.0106,
+        "Issue": 0.0001,
+        "Reasoning": 0.9322
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "When an industrial dispute is thus raised and is decided either by settlement or by an award the scope and effect of its operation is prescribed by section 18 of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0002,
+        "Facts": 0.0102,
+        "Issue": 0.004,
+        "Reasoning": 0.9675
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "Section 18(1) provides that a settlement arrived at by agreement between the employer and the workmen otherwise than in the course of conciliation proceeding shall be binding on the parties to the agreement, whereas section 18(3) provides that a settlement arrived at in the course of conciliation proceedings which has become enforceable shall be binding on all the parties specified in Cls.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0322,
+        "Arguments of Respondent": 0.0464,
+        "Decision": 0.0003,
+        "Facts": 0.0393,
+        "Issue": 0.0025,
+        "Reasoning": 0.8793
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "(a), (b), (c) and (d) of subsection (3) section 18(3)(d) makes it clear that, where a party referred to in Cl.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8215,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0501,
+        "Arguments of Respondent": 0.0538,
+        "Decision": 0.0004,
+        "Facts": 0.074,
+        "Issue": 0.0002,
+        "Reasoning": 0.8215
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "(a) or (b) is composed of workmen, all persons who are employed in the establishment or part of the establishment, as the case may be, to which the disputes relates on the date of the dispute and all persons who subsequently become employed in that establishment or part, would be bound by the settlement In order to bind the workman it is not necessary to show that the said workman belong to the Union which was a party to the dispute before the conciliator.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0542,
+        "Arguments of Respondent": 0.0593,
+        "Decision": 0.0009,
+        "Facts": 0.0165,
+        "Issue": 0.0131,
+        "Reasoning": 0.856
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "The whole policy of section 18 appears to be to give an extended operation to the settlement arrived at in the course of conciliation proceedings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9609,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0157,
+        "Decision": 0.0002,
+        "Facts": 0.0159,
+        "Issue": 0.0003,
+        "Reasoning": 0.9609
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "And that is the object with which four categories of persons bound by such settlement, are specified in section 18, subsection (3).14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8001,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0835,
+        "Arguments of Respondent": 0.082,
+        "Decision": 0.0001,
+        "Facts": 0.0341,
+        "Issue": 0.0001,
+        "Reasoning": 0.8001
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Similar view seems to have been held by another Division Bench of this Court in The Jhagrakhan Collieries (P) Ltd. vs. G.C. Agrawal, 1975 (3) SCC 613 (AIR 1975 SC 171 ).15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.13,
+        "Arguments of Respondent": 0.0481,
+        "Decision": 0.0003,
+        "Facts": 0.0573,
+        "Issue": 0.0008,
+        "Reasoning": 0.7635
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The legal position emerging from the aforementioned provisions of the Act being clear, we now proceed to tackle the questions set out above.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0015,
+        "Facts": 0.0059,
+        "Issue": 0.028,
+        "Reasoning": 0.9546
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "As the first two questions are inseparably linked up, we propose to deal with them together.",
+      "predicted_label": "Issue",
+      "confidence": 0.7589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0014,
+        "Facts": 0.0348,
+        "Issue": 0.7589,
+        "Reasoning": 0.1984
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Although prima facie there seems to be considerable force in the Sanghs stand that if paras 2.3, 3.1 and 3.3 of the aforesaid agreement of December 14, 1973 arrived at, between the employees union and the appellant Company related only to the special pay and did not cover the Sanghs demand for variable Dearness Allowance linked to the Ahmedabad cost of living index, we do not consider it necessary to go into this question, as the said agreement not having been arrived at during the course of conciliation proceeding, it could not, according to section 18(1) of the Act bind any one other than the parties thereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0187,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.0003,
+        "Facts": 0.0749,
+        "Issue": 0.0005,
+        "Reasoning": 0.8959
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "A fortiori, the fact that the employees union which had been duly recognised under the Code of Discipline arrived at the aforesaid agreement with the appellant Company could not operate as a legal impediment in the way of the Sangth (which was not a party to the agreement).to raise a demand or dispute with regard to the Variable Dearness Allowance linked to Ahmedabad cost of living index or affect the validity of the reference by the Government or the jurisdiction of the Industrial Tribunal to go into the dispute.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9363,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0182,
+        "Decision": 0.0003,
+        "Facts": 0.0325,
+        "Issue": 0.0003,
+        "Reasoning": 0.9363
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "The conclusion that minority union can validly raise an industrial dispute gains support from section 2(k) of the Act which does not restrict the ambit of the definition of industrial dispute to a dispute between an employer and recognised majority union but takes within its wide sweep may dispute or difference between employer and workmen including a minority union of workmen which is connected with employment or terms of employment or conditions of labour of workmen as well as the observations made by this Court in Workmen of Dharampal Premchand vs. Dharampal Premchand, 1965 (3) SCR 394 (AIR 1966 SC 182 ).17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9576,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0181,
+        "Decision": 0.0003,
+        "Facts": 0.0075,
+        "Issue": 0.0017,
+        "Reasoning": 0.9576
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "It may also be relevant to mention in this connection that both the Counsel for the Employees Union and the Counsel for the appellant Company admitted before the Industrial Tribunal that the aforesaid agreement had been terminated by two months notice (See p.39 of the Industrial Tribunals Award).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0003,
+        "Facts": 0.0807,
+        "Issue": 0.0004,
+        "Reasoning": 0.9092
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "We have, therefore, no hesitation in holding that neither the Sangh was precluded from raising the demand or the dispute, nor was the Government debarred from making the reference nor was the Industrial Tribunals competence to go into the dispute and make the award affected in any manner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0048,
+        "Facts": 0.0084,
+        "Issue": 0.0004,
+        "Reasoning": 0.9806
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "The first two questions are decided accordingly.18.On the perusal of the aforesaid judgments, in our view, following position clearly emergesFirstly, if a settlement is under section 18(1) of the Industrial Disputes Act and the same is not binding on the workers who are not party to the said settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0193,
+        "Facts": 0.0121,
+        "Issue": 0.0089,
+        "Reasoning": 0.9539
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "Secondly, a person who does not accept the settlement is not entitled to benefits of the said settlement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1123,
+        "Arguments of Respondent": 0.0654,
+        "Decision": 0.002,
+        "Facts": 0.0826,
+        "Issue": 0.0004,
+        "Reasoning": 0.7372
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "For the purpose of deriving benefits of the said settlement it is necessary that the workman must accept the said settlement, particularly, it is not permissible in law that the workman can claim the benefits of the settlement while he refuses to comply with obligations thereunder.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7145,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1187,
+        "Arguments of Respondent": 0.106,
+        "Decision": 0.0024,
+        "Facts": 0.0559,
+        "Issue": 0.0024,
+        "Reasoning": 0.7145
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "Thirdly, in case settlement is arrived at under section 18(3) of the I.D. Act, in the course of conciliation proceeding, then settlement becomes binding on all the parties and all the workmen irrespective of the fact whether such workman has been accepted such settlement or not.19.In view of the aforesaid position in law the appellants are not entitled to the benefits of the said settlement unless they accept the same and undertake to comply with the obligations therein.20.In the circumstances, we are of the opinion that present appeal deserves to be dismissed and the same is dismissed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9493,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0301,
+        "Facts": 0.0057,
+        "Issue": 0.0003,
+        "Reasoning": 0.9493
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "However, there shall be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9735,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9735,
+        "Facts": 0.0178,
+        "Issue": 0.0001,
+        "Reasoning": 0.0078
+      }
+    }
+  ]
+}

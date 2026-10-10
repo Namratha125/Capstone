@@ -1,0 +1,937 @@
+{
+  "case_id": "6671",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "THE respondents are a company registered under the Companies Act and its office, factory and residential quarters were initially situated in the local limits of a revenue village known as Kumathe in North Solapur taluka of Solapur district.",
+      "predicted_label": "Facts",
+      "confidence": 0.9917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0,
+        "Facts": 0.9917,
+        "Issue": 0.0013,
+        "Reasoning": 0.0048
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "There was an existing village panchayat constituted under the Bombay Village Panchayat Act, 1958 for revenue village Kumathe.",
+      "predicted_label": "Facts",
+      "confidence": 0.8868,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0001,
+        "Facts": 0.8868,
+        "Issue": 0.0002,
+        "Reasoning": 0.0855
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The State Government by notification dated 26/08/1976 extended the limits of Solapur city covering the limits of Kumatha village with effect from 1/09/1977.",
+      "predicted_label": "Facts",
+      "confidence": 0.9301,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0174,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0001,
+        "Facts": 0.9301,
+        "Issue": 0.0006,
+        "Reasoning": 0.0444
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The notification excluded the village from the village panchayat.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0937,
+        "Arguments of Respondent": 0.0838,
+        "Decision": 0.0009,
+        "Facts": 0.3395,
+        "Issue": 0.0002,
+        "Reasoning": 0.482
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 4,
+      "text": "Prior to 1/09/1976, the company was paying taxes to the village panchayat.",
+      "predicted_label": "Facts",
+      "confidence": 0.9008,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0001,
+        "Facts": 0.9008,
+        "Issue": 0.0016,
+        "Reasoning": 0.0732
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "On the area of the company being brought within the limits of Solapur city, the company was liable to pay municipal taxes to Solapur Municipal Corporation.",
+      "predicted_label": "Facts",
+      "confidence": 0.6929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1611,
+        "Arguments of Respondent": 0.0347,
+        "Decision": 0.0008,
+        "Facts": 0.6929,
+        "Issue": 0.0032,
+        "Reasoning": 0.1073
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "13 (2) Such public notice shall be given by advertisement in the local newspapers and also by posting placards in conspicuous places throughout the ward.",
+      "predicted_label": "Facts",
+      "confidence": 0.6195,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2144,
+        "Arguments of Respondent": 0.0249,
+        "Decision": 0.0041,
+        "Facts": 0.6195,
+        "Issue": 0.0011,
+        "Reasoning": 0.1361
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "( 3 ) ON 27/09/1976, the Solapur Municipal Corporation called upon the respondent company to furnish the information about the buildings owned by the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0183,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0001,
+        "Facts": 0.9583,
+        "Issue": 0.0003,
+        "Reasoning": 0.0132
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "On 5/10/1976, the company submitted a return.",
+      "predicted_label": "Facts",
+      "confidence": 0.9498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0001,
+        "Facts": 0.9498,
+        "Issue": 0.0017,
+        "Reasoning": 0.0396
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Thereafter, the special notice under Rule 15 (2) was issued by the Corporation to the company on 24/01/1977 and the company was informed that the properties would be assessed from 1/09/1976 and the rateable value was fixed at Rupees 5,39,725/ .",
+      "predicted_label": "Facts",
+      "confidence": 0.8253,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0398,
+        "Arguments of Respondent": 0.0421,
+        "Decision": 0.0002,
+        "Facts": 0.8253,
+        "Issue": 0.001,
+        "Reasoning": 0.0917
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Rule 16 enables the property owner to lodge a complaint against fixation of rateable value.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0745,
+        "Arguments of Respondent": 0.0334,
+        "Decision": 0.0004,
+        "Facts": 0.1912,
+        "Issue": 0.0029,
+        "Reasoning": 0.6976
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "The complaint filed by the company was rejected and thereafter a bill was forwarded to recover Rs. 42,176. 00",
+      "predicted_label": "Facts",
+      "confidence": 0.7161,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0269,
+        "Arguments of Respondent": 0.0269,
+        "Decision": 0.0007,
+        "Facts": 0.7161,
+        "Issue": 0.0071,
+        "Reasoning": 0.2223
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "towards property tax for the period commencing from September 1, 197 6/03/1977.",
+      "predicted_label": "Facts",
+      "confidence": 0.9682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0004,
+        "Facts": 0.9682,
+        "Issue": 0.0061,
+        "Reasoning": 0.0174
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The company, being aggrieved by the rateable value fixed by the Corporation preferred an appeal under Section 406 of the Bombay Provincial Municipal Corporations Act before Civil Judge, Senior Division, Solapur.",
+      "predicted_label": "Facts",
+      "confidence": 0.9854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0,
+        "Facts": 0.9854,
+        "Issue": 0.0033,
+        "Reasoning": 0.0088
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The appeal was allowed by order dated 11/08/1980 on the ground that the Corporation failed to carry out the procedure required under the rules before levying assessment of the properties of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9382,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0001,
+        "Facts": 0.9382,
+        "Issue": 0.0138,
+        "Reasoning": 0.0404
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The Civil Judge held that the Corporation had not given public notice as required under Rule 13 and that being a mandatory provision, the entire process of levy of rateable value was without any authority.",
+      "predicted_label": "Facts",
+      "confidence": 0.9644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9644,
+        "Issue": 0.0067,
+        "Reasoning": 0.0247
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The Corporation preferred Civil Appeal No. 2 of 1981 before the District Court, Solapur but the appeal ended in dismissal by judgment dated Sep 27/09/1983 delivered by Assistant Judge, Solapur.",
+      "predicted_label": "Facts",
+      "confidence": 0.9927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9927,
+        "Issue": 0.0033,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The decision of the Assistant Judge is under challenge in this petition filed under Article 227 of the Constitution.",
+      "predicted_label": "Facts",
+      "confidence": 0.9835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9835,
+        "Issue": 0.0076,
+        "Reasoning": 0.0072
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "( 4 ) SHRI Naik, learned counsel appearing on behalf of the Municipal Corporation, submitted that both the authorities below were in error in holding that the failure to give public notice under Rule 13 vitiated the entire proceedings of levy of rateable value.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9288,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9288,
+        "Arguments of Respondent": 0.0624,
+        "Decision": 0.0001,
+        "Facts": 0.0039,
+        "Issue": 0.0002,
+        "Reasoning": 0.0046
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The learned counsel submitted that the conclusion of the two authorities below that public notice under Rule 13 is mandatory is incorrect.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.94,
+      "probabilities": {
+        "Arguments of Petitioner": 0.94,
+        "Arguments of Respondent": 0.0545,
+        "Decision": 0.0001,
+        "Facts": 0.0013,
+        "Issue": 0.0002,
+        "Reasoning": 0.004
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "As mentioned hereinabove, the determination of rateable value in respect of the properties of the company was undertaken for the first time after the area of village Kumathe was included within the limits of Municipal Corporation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0179,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0026,
+        "Facts": 0.284,
+        "Issue": 0.0006,
+        "Reasoning": 0.6904
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "As rateable value was determined for the first time, it was incumbent upon the Corporation to follow taxation rules set out in Chapter VIII of the Schedule to the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.3458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2572,
+        "Arguments of Respondent": 0.1578,
+        "Decision": 0.0006,
+        "Facts": 0.3458,
+        "Issue": 0.0029,
+        "Reasoning": 0.2356
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 22,
+      "text": "It is not in dispute that the Commissioner had published a notice under subrule (1) of Rule 15 to enable the owners of the property including company to lodge a complaint against the amount of rateable value entered into assessment book.",
+      "predicted_label": "Facts",
+      "confidence": 0.6706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0119,
+        "Decision": 0.0006,
+        "Facts": 0.6706,
+        "Issue": 0.017,
+        "Reasoning": 0.281
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "It is also not in dispute that the special notice contemplated under subrule (2) of Rule 15 was served on the company and the premises of the company were assessed for property tax on the first occasion and the rate of tax was more than a tax which the company was paying to the village panchayat.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0237,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0008,
+        "Facts": 0.1091,
+        "Issue": 0.0059,
+        "Reasoning": 0.852
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The sole grievance of the company is that the entire procedure of levy of rateable value and recovery of tax was vitiated for failure to strictly comply with the requirement of subrule (1) of Rule 13.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.337,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2524,
+        "Arguments of Respondent": 0.028,
+        "Decision": 0.0027,
+        "Facts": 0.3295,
+        "Issue": 0.0504,
+        "Reasoning": 0.337
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "In our judgment, the two authorities below were clearly in error in proceeding to strike down the exercise carried out by the Corporation to levy property tax on assumption that the requirements of subrule (1) of Rule 13 are mandatory.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.009,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.026,
+        "Facts": 0.0042,
+        "Issue": 0.0007,
+        "Reasoning": 0.9572
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The plain reading of the subrule makes it clear that after the entries required to be made by clauses (a), (b), (c) and (d) of Rule 9 have been completed, the Commissioner shall give public notice thereof and of the place where the ward assessmentbook may be inspected.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.001,
+        "Facts": 0.0843,
+        "Issue": 0.0002,
+        "Reasoning": 0.9068
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The public notice contemplated under this subrule is to give notice to the owners of various properties that an assessment book prepared under Rule 9 is available for inspection at a particular place.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9101,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0001,
+        "Facts": 0.039,
+        "Issue": 0.0004,
+        "Reasoning": 0.9101
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The public notice is required to be given by advertisement in the local newspapers and also by posting placards in conspicuous places.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0929,
+        "Arguments of Respondent": 0.0794,
+        "Decision": 0.002,
+        "Facts": 0.027,
+        "Issue": 0.0003,
+        "Reasoning": 0.7984
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The two authorities below proceeded to hold that the requirement of giving public notice is mandatory because of the use of expression shall.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7173,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0151,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0007,
+        "Facts": 0.254,
+        "Issue": 0.0038,
+        "Reasoning": 0.7173
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The conclusion reached by the authorities below is clearly erroneous.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0489,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.036,
+        "Facts": 0.011,
+        "Issue": 0.0002,
+        "Reasoning": 0.8973
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "It is now well settled by catena of decisions of the Supreme Court and this Court that whether the provision is mandatory or directory is not dependent upon the use of expression shall or may.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0194,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0001,
+        "Facts": 0.0068,
+        "Issue": 0.0028,
+        "Reasoning": 0.954
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "What is required to be ascertained is the purpose or the object of the rule and whether any breach in following the rule affects substantial right of the person concerned.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0441,
+        "Arguments of Respondent": 0.0145,
+        "Decision": 0.0001,
+        "Facts": 0.0068,
+        "Issue": 0.0015,
+        "Reasoning": 0.933
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Applying this well settled test, it is obvious that the requirement of giving public notice under Rule 13 cannot be held to be mandatory.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0008,
+        "Facts": 0.0044,
+        "Issue": 0.0003,
+        "Reasoning": 0.966
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The object of giving public notice is informing the owners of buildings or land about the preparation of assessmentbook under Rule 9 and to enable the property owners to inspect the same if so desired.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0374,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0003,
+        "Facts": 0.0301,
+        "Issue": 0.0002,
+        "Reasoning": 0.9165
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "There is no obligation cast upon the property owners to inspect the same because the failure to do so does not result into any consequences adversely affecting the owners.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3223,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2058,
+        "Arguments of Respondent": 0.2016,
+        "Decision": 0.022,
+        "Facts": 0.2459,
+        "Issue": 0.0025,
+        "Reasoning": 0.3223
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 36,
+      "text": "In this connection, it would be appropriate to distinguish between the provisions of Rule 13 and Rule 15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0137,
+        "Arguments of Respondent": 0.016,
+        "Decision": 0.0002,
+        "Facts": 0.0119,
+        "Issue": 0.0079,
+        "Reasoning": 0.9503
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Rule 15 also demands that the Commissioner shall give a public notice and this notice is to be given to the property owners to enable them to lodge complaints against the amount of rateable value.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7516,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1292,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0003,
+        "Facts": 0.1053,
+        "Issue": 0.0008,
+        "Reasoning": 0.7516
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The failure to give public notice under Rule 15 (1) or special notice under subrule (2) of Rule 15 clearly affects the right of a property owner to lodge complaint and in that case the requirement of public notice has to be treated as mandatory.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6985,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2234,
+        "Arguments of Respondent": 0.0633,
+        "Decision": 0.0014,
+        "Facts": 0.0123,
+        "Issue": 0.0012,
+        "Reasoning": 0.6985
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "In our judgment, the two authorities below overlooked the object and the purpose of Rule 13 and erroneously proceeded to conclude that requirements of Rule 13 are mandatory because of the use of the expression shall.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9796,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0014,
+        "Facts": 0.0021,
+        "Issue": 0.0003,
+        "Reasoning": 0.9796
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "The decision of the two authorities below holding that the entire process of determination of rateable value is null and void for failure to give notice contemplated under Rule 13, therefore cannot be sustained.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9051,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0577,
+        "Facts": 0.027,
+        "Issue": 0.0003,
+        "Reasoning": 0.9051
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "It would not be out of place to state that the failure to give public notice under Rule 13 has in no manner adversely affected the interest of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.843,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0131,
+        "Facts": 0.1305,
+        "Issue": 0.0004,
+        "Reasoning": 0.843
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The learned counsel for the company very fairly stated that notice under subrule (2) of Rule 15 was served and consequently the company did lodge co plaint against the amount of rateable value.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1301,
+        "Arguments of Respondent": 0.3256,
+        "Decision": 0.0019,
+        "Facts": 0.1456,
+        "Issue": 0.0016,
+        "Reasoning": 0.3953
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 43,
+      "text": "In by the Corporation in determining rateable value in respect of properties which were originally situated within village Kumathe and which were subsequently included within the city limits of Corporation cannot be faulted with.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5427,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0005,
+        "Facts": 0.4309,
+        "Issue": 0.0005,
+        "Reasoning": 0.5427
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "( 5 ) SHRI Chandrachud, learned counsel appearing on behalf of the company, referred to the decision of Supreme Court reported in AIR 1975 SC 2172 (1975 Tax LR 2110) (Vishakhapatnam Municipality v. Kandregula Nukraju and others) to urge that the requirement of Rule 13 is obligatory.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7372,
+        "Arguments of Respondent": 0.2238,
+        "Decision": 0.0001,
+        "Facts": 0.0124,
+        "Issue": 0.0003,
+        "Reasoning": 0.0262
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "While considering the ambit of this proviso, the Supreme Court held that it is obligatory upon the council to invite objections and consider the same before proceeding to levy tax for the first time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0773,
+        "Arguments of Respondent": 0.0247,
+        "Decision": 0.0003,
+        "Facts": 0.0488,
+        "Issue": 0.0011,
+        "Reasoning": 0.8478
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The decision of the Supreme Court has no bearing to the facts of the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0474,
+        "Arguments of Respondent": 0.0717,
+        "Decision": 0.0032,
+        "Facts": 0.1856,
+        "Issue": 0.0022,
+        "Reasoning": 0.6898
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "As mentioned hereinabove, the requirement of giving public notice was not a basis for levy of tax, nor failure to give such notice has affected any interest of any property owner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9176,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0258,
+        "Facts": 0.0374,
+        "Issue": 0.001,
+        "Reasoning": 0.9176
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "In the case before the Supreme Court, the power to levy tax for the first time arose only after the objections were invited and determined.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1115,
+        "Arguments of Respondent": 0.0641,
+        "Decision": 0.0032,
+        "Facts": 0.0808,
+        "Issue": 0.0025,
+        "Reasoning": 0.738
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "Such is not the case in respect of Rule 13 and therefore, the decision of the Supreme Court has no application to the facts of the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0831,
+        "Arguments of Respondent": 0.0568,
+        "Decision": 0.0007,
+        "Facts": 0.02,
+        "Issue": 0.0001,
+        "Reasoning": 0.8394
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "Shri Chandrachud then submitted that for a part of the assessed area, the company had already paid property tax to Kumathe Village panchayat.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6414,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6414,
+        "Arguments of Respondent": 0.2856,
+        "Decision": 0.0004,
+        "Facts": 0.0044,
+        "Issue": 0.0001,
+        "Reasoning": 0.068
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "The learned counsel pointed out that the transitory provisions in Appendix IV of the Schedule prescribes that during the period the taxes are determined by the municipal corporation, the liability of the company to pay taxes to the village panchayat is not superseded and accordingly the company had paid taxes demanded by village panchayat.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5061,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4593,
+        "Arguments of Respondent": 0.5061,
+        "Decision": 0.0002,
+        "Facts": 0.0074,
+        "Issue": 0.0002,
+        "Reasoning": 0.0268
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 52,
+      "text": "Shri Chandrachud submitted that it is not open for the corporation to demand taxes for the official year ignoring the amount paid by the company to the village panchayat.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7954,
+        "Arguments of Respondent": 0.0838,
+        "Decision": 0.001,
+        "Facts": 0.0065,
+        "Issue": 0.0002,
+        "Reasoning": 0.1131
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The submission is correct and deserves acceptance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0332,
+        "Arguments of Respondent": 0.05,
+        "Decision": 0.001,
+        "Facts": 0.016,
+        "Issue": 0.0005,
+        "Reasoning": 0.8992
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "The company is entitled to the credit of the amount of tax which was paid to the village panchayat and the companys liability is limited only to the excess amount determined by the Corporation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2066,
+        "Arguments of Respondent": 0.1632,
+        "Decision": 0.1253,
+        "Facts": 0.1204,
+        "Issue": 0.0019,
+        "Reasoning": 0.3827
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "Shri Chandrachud also made a faint attempt to urge that the corporation cannot recover taxes for the expired period of the official year.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6204,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6204,
+        "Arguments of Respondent": 0.1369,
+        "Decision": 0.0007,
+        "Facts": 0.0032,
+        "Issue": 0.0002,
+        "Reasoning": 0.2386
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "We are unable to find any merit in this submission.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8335,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0568,
+        "Arguments of Respondent": 0.0862,
+        "Decision": 0.0097,
+        "Facts": 0.0128,
+        "Issue": 0.0011,
+        "Reasoning": 0.8335
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "It is now well settled that the right of Corporation to demand property taxes cannot travel beyond the current official year or in other words, the tax cannot be recovered with retrospective effect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4258,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2759,
+        "Arguments of Respondent": 0.1151,
+        "Decision": 0.0004,
+        "Facts": 0.1809,
+        "Issue": 0.0019,
+        "Reasoning": 0.4258
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "It is not open for the tax payer to claim that the tax cannot be recovered for the period of the official year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6508,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1187,
+        "Arguments of Respondent": 0.1195,
+        "Decision": 0.0375,
+        "Facts": 0.0712,
+        "Issue": 0.0023,
+        "Reasoning": 0.6508
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "The tax payer is given facility to pay the tax by instalment but that cannot enable the tax payer to claim that the Corporation cannot recover the tax for the expired period of the official year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0428,
+        "Arguments of Respondent": 0.0416,
+        "Decision": 0.0007,
+        "Facts": 0.0583,
+        "Issue": 0.0002,
+        "Reasoning": 0.8564
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "In our judgment, the claim of Shri Chandrachaud on this count cannot be accepted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9194,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.0124,
+        "Decision": 0.0021,
+        "Facts": 0.0472,
+        "Issue": 0.0001,
+        "Reasoning": 0.9194
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "( 6 ) ACCORDINGLY, petition succeeds and the order dated 11/08/1980 passed by Civil Judge, Senior Division, Solapur in Tax Appeal No. 91 of 1977 and order dated 27/09/1983 delivered by Assistant Judge, Solapur in Civil Appeal No. 2 of 1981 are set aside and the levy of property tax and the assessment of rateable value by the Corporation for the relevant year is upheld.",
+      "predicted_label": "Decision",
+      "confidence": 0.5617,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.5617,
+        "Facts": 0.3932,
+        "Issue": 0.0006,
+        "Reasoning": 0.039
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "It is made clear that the Corporation must give credit to the company in respect of property tax paid to the village panchayat and can recover the balance amount for the relevant period.",
+      "predicted_label": "Decision",
+      "confidence": 0.6774,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.6774,
+        "Facts": 0.1199,
+        "Issue": 0.0009,
+        "Reasoning": 0.1914
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "In the circumstances of the case, there will be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9852,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9852,
+        "Facts": 0.0045,
+        "Issue": 0.0001,
+        "Reasoning": 0.0095
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "Petition allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9844,
+        "Facts": 0.0124,
+        "Issue": 0.0003,
+        "Reasoning": 0.0024
+      }
+    }
+  ]
+}

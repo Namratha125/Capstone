@@ -1,0 +1,469 @@
+{
+  "case_id": "7112",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The appellant has pressed this appeal on the following question.",
+      "predicted_label": "Issue",
+      "confidence": 0.4994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0904,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0012,
+        "Facts": 0.4009,
+        "Issue": 0.4994,
+        "Reasoning": 0.007
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 1,
+      "text": "Whether a flat in a tenant cooperative housing society which is transferred to the name of an assessee on 17th April, 1993 and which comes to the legal ownership of the assessee only on that date, can be said to be belonging to the assessee as on the valuation date of 31st March, 1993 so as to be liable to wealth tax for the assessment year 1993944.",
+      "predicted_label": "Issue",
+      "confidence": 0.6192,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0021,
+        "Facts": 0.3128,
+        "Issue": 0.6192,
+        "Reasoning": 0.0552
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "A few jurisdictional facts.",
+      "predicted_label": "Facts",
+      "confidence": 0.9099,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0006,
+        "Facts": 0.9099,
+        "Issue": 0.0379,
+        "Reasoning": 0.048
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "There is no dispute that the society had granted no objection to the previous member to sell the property before 1.4.1993.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0362,
+        "Arguments of Respondent": 0.0202,
+        "Decision": 0.0006,
+        "Facts": 0.3313,
+        "Issue": 0.0227,
+        "Reasoning": 0.589
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "There is also no dispute that there was an agreement to sell between the appellant and the previous owner and full consideration had been paid before 1.4.1993.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.636,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0811,
+        "Arguments of Respondent": 0.0338,
+        "Decision": 0.0014,
+        "Facts": 0.2129,
+        "Issue": 0.0348,
+        "Reasoning": 0.636
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "There is also no dispute that the resolution was passed by the society admitting the appellant as a member before 1.4.1993.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0725,
+        "Arguments of Respondent": 0.0238,
+        "Decision": 0.0021,
+        "Facts": 0.3391,
+        "Issue": 0.075,
+        "Reasoning": 0.4876
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "There is a further finding that the appellant themselves included the said property as their assets in their books for the Annual year 199293.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.8802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0183,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0004,
+        "Facts": 0.8802,
+        "Issue": 0.0002,
+        "Reasoning": 0.0915
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "A reading of the said sub section would indicate, that the requirements are that the assessee must be a member and further that building or part thereof is allotted or leased to them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.91,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0361,
+        "Arguments of Respondent": 0.0148,
+        "Decision": 0.0007,
+        "Facts": 0.0378,
+        "Issue": 0.0006,
+        "Reasoning": 0.91
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "If these two conditions are satisfied then notwithstanding anything contained in the Act or any other law for the time being in force, such assessee would be deemed to be the owner of such building or part thereof and the valuation of such or part shall be included in computing the net wealth of the assessee.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.8227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0617,
+        "Arguments of Respondent": 0.0274,
+        "Decision": 0.0001,
+        "Facts": 0.8227,
+        "Issue": 0.0013,
+        "Reasoning": 0.0867
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The learned counsel for the appellant seeks to rely on the rules framed under the Maharashtra Co. operative Societies Rules, 1961 and placed emphasis on Rule 24 which reads as under.24.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9125,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0003,
+        "Facts": 0.0065,
+        "Issue": 0.0002,
+        "Reasoning": 0.0733
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Procedure for transfer of shares (1) No transfer of shares shall be effective unless(a) It is made in accordance with the provisions of the byelaws(b) A clear fifteen days notice in writing is given to the society indicating therein the name of the proposed transferee, his consent, his application for membership, where necessary and the value proposed to be paid by the transferee(c) All liabilities of the transferor due to the society are discharged and(d)",
+      "predicted_label": "Facts",
+      "confidence": 0.8611,
+      "probabilities": {
+        "Arguments of Petitioner": 0.022,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0002,
+        "Facts": 0.8611,
+        "Issue": 0.0007,
+        "Reasoning": 0.089
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The transfer is registered in the books of the society.(2) Any charge in favour of the society on the share so transferred will continue unless discharged otherwise.",
+      "predicted_label": "Facts",
+      "confidence": 0.6077,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0626,
+        "Arguments of Respondent": 0.0587,
+        "Decision": 0.0005,
+        "Facts": 0.6077,
+        "Issue": 0.0008,
+        "Reasoning": 0.2696
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "We may also refer to the definition of a member under Maharashtra Cooperative Societies Act, which reads as under.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8001,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1142,
+        "Arguments of Respondent": 0.0237,
+        "Decision": 0.0005,
+        "Facts": 0.0604,
+        "Issue": 0.0011,
+        "Reasoning": 0.8001
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Member means a person joining in an application for the registration of a cooperative society which is subsequently registered, or a person duly admitted to membership of a society after registration and includes a nominal, associate or sympathizer member.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6918,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0817,
+        "Arguments of Respondent": 0.0271,
+        "Decision": 0.0013,
+        "Facts": 0.194,
+        "Issue": 0.004,
+        "Reasoning": 0.6918
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Thus, it is clear that so far as the assessee is concerned the assessee was admitted as member before 1.4.1993.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.4949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0345,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0004,
+        "Facts": 0.4949,
+        "Issue": 0.0007,
+        "Reasoning": 0.4587
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "The argument canvassed by the assessee is that no transfer of shares shall be affected unless the transfer is registered in the books of the society.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3762,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3452,
+        "Arguments of Respondent": 0.243,
+        "Decision": 0.0006,
+        "Facts": 0.0346,
+        "Issue": 0.0005,
+        "Reasoning": 0.3762
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "In short, the learned counsel is seeking to place reliance on the aforesaid proviso which is introduced under the provisions of the State Act namely Maharashtra Cooperative Act, 1960.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7432,
+        "Arguments of Respondent": 0.2027,
+        "Decision": 0.0001,
+        "Facts": 0.0052,
+        "Issue": 0.0003,
+        "Reasoning": 0.0486
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "All that it requires is admission to membership and allotment of a building or part of a building.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1849,
+        "Arguments of Respondent": 0.0915,
+        "Decision": 0.0006,
+        "Facts": 0.0295,
+        "Issue": 0.0006,
+        "Reasoning": 0.6929
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "Allotment to that extent does not require transfer of shares of the society.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0645,
+        "Arguments of Respondent": 0.0535,
+        "Decision": 0.0073,
+        "Facts": 0.0919,
+        "Issue": 0.0002,
+        "Reasoning": 0.7827
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "Section 4(7) of the Wealth Tax Act which is a central legislation has not incorporated by reference or otherwise the definition of the State Act, or the rules made thereunder for the purpose of reading the provisions of the Wealth Tax Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8153,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1075,
+        "Arguments of Respondent": 0.0468,
+        "Decision": 0.0014,
+        "Facts": 0.0288,
+        "Issue": 0.0002,
+        "Reasoning": 0.8153
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "That would not be possible considering that each State will have its own laws.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0836,
+        "Arguments of Respondent": 0.1058,
+        "Decision": 0.0015,
+        "Facts": 0.031,
+        "Issue": 0.0002,
+        "Reasoning": 0.778
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "What therefore, must be considered are the provisions and the requirements as contained in the Wealth Tax Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9321,
+      "probabilities": {
+        "Arguments of Petitioner": 0.021,
+        "Arguments of Respondent": 0.028,
+        "Decision": 0.0005,
+        "Facts": 0.0164,
+        "Issue": 0.0021,
+        "Reasoning": 0.9321
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The Act requires only two requirements firstly that the assessee must be a member and secondly the assessee shall be allotted a building or part of the building.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2342,
+        "Arguments of Respondent": 0.0304,
+        "Decision": 0.0004,
+        "Facts": 0.0395,
+        "Issue": 0.0007,
+        "Reasoning": 0.6946
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "In the instant case, as noticed by us, both the requirements are satisfied.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0024,
+        "Facts": 0.0058,
+        "Issue": 0.001,
+        "Reasoning": 0.9699
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Allotment being by purchaser from the previous member and the society giving its no objection to the sale and the assessee being put in possession before the relevant date by the previous member.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.4387,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1138,
+        "Arguments of Respondent": 0.0618,
+        "Decision": 0.0003,
+        "Facts": 0.4387,
+        "Issue": 0.0021,
+        "Reasoning": 0.3832
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "On behalf of the appellant the learned counsel sought to place reliance on the judgment of the Supreme Court in the case of Late Nawab Sir Mir Osman Ali Khan Vs. Commissioner of Wealth Tax, Hyderabad (162 ITR 888) .",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8832,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0006,
+        "Facts": 0.0073,
+        "Issue": 0.0004,
+        "Reasoning": 0.1003
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "In that case what the Supreme Court was concerned was the expression belonging to an assessee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8274,
+      "probabilities": {
+        "Arguments of Petitioner": 0.089,
+        "Arguments of Respondent": 0.0639,
+        "Decision": 0.0002,
+        "Facts": 0.0193,
+        "Issue": 0.0003,
+        "Reasoning": 0.8274
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "On the facts there the Apex court noticed that there was no transfer of ownership of the property in the name of the vendee and the assessee continued to be the owner though in part performance of the contract the vendee had been put in possession.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8304,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0347,
+        "Arguments of Respondent": 0.0729,
+        "Decision": 0.0002,
+        "Facts": 0.0599,
+        "Issue": 0.0018,
+        "Reasoning": 0.8304
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Admittedly the said sale deed entered into had not been registered.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0657,
+        "Arguments of Respondent": 0.0468,
+        "Decision": 0.0065,
+        "Facts": 0.2399,
+        "Issue": 0.0099,
+        "Reasoning": 0.6311
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "Consequently, there was no transfer of ownership in favour of the assessee.",
+      "predicted_label": "Facts",
+      "confidence": 0.3424,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2241,
+        "Arguments of Respondent": 0.1739,
+        "Decision": 0.0039,
+        "Facts": 0.3424,
+        "Issue": 0.0008,
+        "Reasoning": 0.255
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "That judgment is distinguishable and therefore, would not apply.9.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1162,
+        "Arguments of Respondent": 0.1771,
+        "Decision": 0.0055,
+        "Facts": 0.0399,
+        "Issue": 0.0003,
+        "Reasoning": 0.661
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "In our opinion, the question of law as framed by the assessee in the present appeal would therefore, not arise and consequently the appeal stands dismissed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.1319,
+        "Facts": 0.0728,
+        "Issue": 0.001,
+        "Reasoning": 0.7872
+      }
+    }
+  ]
+}

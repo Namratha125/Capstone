@@ -1,0 +1,1206 @@
+{
+  "case_id": "6707",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This is an appeal under S. 202 of the Indian Companies Act VII of 1913, from the order of the District Judge, Ahmedabad.2.",
+      "predicted_label": "Issue",
+      "confidence": 0.5976,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0015,
+        "Facts": 0.3983,
+        "Issue": 0.5976,
+        "Reasoning": 0.0017
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The relevant facts are as follows In the former State of Idar a private limited company called the Himatnagar Glass and Ceramic Industries Ltd. was founded.",
+      "predicted_label": "Facts",
+      "confidence": 0.9964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.9964,
+        "Issue": 0.0012,
+        "Reasoning": 0.0014
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Originally it was a private limited company but eventually it was converted into a public limited company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0001,
+        "Facts": 0.8955,
+        "Issue": 0.0062,
+        "Reasoning": 0.0633
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "Just before this conversion the State of Idar purchased preference shares of the face value of Rs. 1,00,000 in this company and paid the full amount of the share money.",
+      "predicted_label": "Facts",
+      "confidence": 0.6994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0518,
+        "Arguments of Respondent": 0.0347,
+        "Decision": 0.0005,
+        "Facts": 0.6994,
+        "Issue": 0.0167,
+        "Reasoning": 0.197
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "Along with these, shares the State also purchased ordinary shares of the value of Rs. 1,00,000.",
+      "predicted_label": "Facts",
+      "confidence": 0.8896,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0234,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0002,
+        "Facts": 0.8896,
+        "Issue": 0.0038,
+        "Reasoning": 0.0674
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Only half of the share money had been called and, therefore, the State paid only Rs. 50,000.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3872,
+        "Arguments of Respondent": 0.1612,
+        "Decision": 0.0012,
+        "Facts": 0.276,
+        "Issue": 0.0008,
+        "Reasoning": 0.1737
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "Thus, a balance of Rs. 50,000 was the unpaid call in respect of these shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.8916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0125,
+        "Arguments of Respondent": 0.0116,
+        "Decision": 0.0003,
+        "Facts": 0.8916,
+        "Issue": 0.0041,
+        "Reasoning": 0.0799
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The State also lent Rs. 10,000 to the company partly on 5th March 1945 and partly on 6th April 1945.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9958,
+        "Issue": 0.0023,
+        "Reasoning": 0.0012
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "It would appear that this concern ran into difficulties and the Government of Idar was, therefore, desirous of getting rid of its shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.9586,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9586,
+        "Issue": 0.004,
+        "Reasoning": 0.0353
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "An agreement was thereupon entered into between a concern known as the M.D. Industries Ltd. of Ahmedabad and the Himatnagar Glass and Ceramic Industries Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.9879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0,
+        "Facts": 0.9879,
+        "Issue": 0.0024,
+        "Reasoning": 0.0076
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Under that agreement the former was to be appointed as the sole selling agents of the Himatnagar Glass and Ceramic Industries Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.9759,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0,
+        "Facts": 0.9759,
+        "Issue": 0.005,
+        "Reasoning": 0.0152
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "In consideration of their agreeing to render financial help to the aforesaid industries it was also agreed that the M.D. Industries Ltd. were to take over all the shares which stood in the name of Idar State in the Books of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0001,
+        "Facts": 0.9618,
+        "Issue": 0.0012,
+        "Reasoning": 0.0238
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "They were to pay an amount of Rs. 1,50,000 to the Idar State as purchase price of those shares within a certain period.",
+      "predicted_label": "Facts",
+      "confidence": 0.9244,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0001,
+        "Facts": 0.9244,
+        "Issue": 0.01,
+        "Reasoning": 0.0509
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "On 2411948 the State of Idar took possession of the factory with all the properties of the company and was in possession of those properties through its Director of Industries till the date of merger.",
+      "predicted_label": "Facts",
+      "confidence": 0.9468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0001,
+        "Facts": 0.9468,
+        "Issue": 0.0023,
+        "Reasoning": 0.0392
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The Idar State merged in the State of Bombay on 1041948 and it would appear that thereafter the Collector of Sabarkantha took possession of the factory and the other assets of the company on behalf of the State of Bombay.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9967,
+        "Issue": 0.0009,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "On 3081950 the Collector and two shareholders of the company made an application to the District Judge at Himatnagar for the compulsory winding up of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9919,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0,
+        "Facts": 0.9919,
+        "Issue": 0.0005,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "An order of compulsory winding up of the company was eventually made by the District Judge and the respondent No. 1, Jiwanlal Sankarchand Shah, was appointed Liquidator.",
+      "predicted_label": "Facts",
+      "confidence": 0.9671,
+      "probabilities": {
+        "Arguments of Petitioner": 0.002,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0001,
+        "Facts": 0.9671,
+        "Issue": 0.0146,
+        "Reasoning": 0.0132
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "On the 15th or 16th of April 1952 Jiwanlal addressed a letter to the Collector of Sabarkantha.",
+      "predicted_label": "Facts",
+      "confidence": 0.9745,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9745,
+        "Issue": 0.0008,
+        "Reasoning": 0.0235
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "In that letter the Liquidator made a demand from the Government for the unpaid call of Rs. 50,000 and also claimed from the Government a certain sum of money by way of rent and some other amounts.",
+      "predicted_label": "Facts",
+      "confidence": 0.8539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0091,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0004,
+        "Facts": 0.8539,
+        "Issue": 0.0009,
+        "Reasoning": 0.1237
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The Government did not make any payment and, therefore, the Liquidator made an application to the Court on 2521955 asking for certain reliefs.",
+      "predicted_label": "Facts",
+      "confidence": 0.9846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0004,
+        "Facts": 0.9846,
+        "Issue": 0.0004,
+        "Reasoning": 0.0124
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The most important reliefs are (a) Delivery of possession to him of the properties belonging to the company(b) Permission to the Liquidator to sell the properties by auction or otherwise as the Court may direct him(c)",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7544,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1281,
+        "Arguments of Respondent": 0.0373,
+        "Decision": 0.0041,
+        "Facts": 0.0747,
+        "Issue": 0.0014,
+        "Reasoning": 0.7544
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Ordering the State Government to pay Rs. 50,000 to the Liquidator with interest at 9 per cent per annum from 481946 (d) Ordering the State Government to pay arrears of rent.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.9764,
+        "Issue": 0.0091,
+        "Reasoning": 0.0042
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The Collector on behalf of the State Government denied the liability of the State to pay any money to the liquidator.",
+      "predicted_label": "Facts",
+      "confidence": 0.7015,
+      "probabilities": {
+        "Arguments of Petitioner": 0.036,
+        "Arguments of Respondent": 0.1203,
+        "Decision": 0.0003,
+        "Facts": 0.7015,
+        "Issue": 0.0032,
+        "Reasoning": 0.1387
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "According to the Collector a charge had been created in favour of the State of Idar in respect of one lakh and fifty thousand rupees which was the value of the shares held by the Idar State in the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9151,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0001,
+        "Facts": 0.9151,
+        "Issue": 0.0016,
+        "Reasoning": 0.074
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "It is also contended that by virtue of the agreement entered into in the year 1945 the liability was on the M.D. Industries Ltd. to pay the unpaid calls and not on the State Government.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4164,
+        "Arguments of Respondent": 0.4534,
+        "Decision": 0.0005,
+        "Facts": 0.0409,
+        "Issue": 0.001,
+        "Reasoning": 0.0878
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "Further, according to the Government it is not liable to pay interest or rent to the Liquidator.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.5338,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0853,
+        "Arguments of Respondent": 0.3299,
+        "Decision": 0.0002,
+        "Facts": 0.5338,
+        "Issue": 0.001,
+        "Reasoning": 0.0497
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "The Court below held that the State of Bombay was liable to pay the unpaid calls and it also held that it was liable to pay interest at 9 per cent on this amount from 481946 and was also liable to pay rent for a certain period irrespective of this agreement.",
+      "predicted_label": "Facts",
+      "confidence": 0.8087,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0008,
+        "Facts": 0.8087,
+        "Issue": 0.14,
+        "Reasoning": 0.048
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "It directed the State Government to hand over possession of the property of the company to the Liquidator and granted permission to the Liquidator to sell those properties.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0002,
+        "Facts": 0.9681,
+        "Issue": 0.0155,
+        "Reasoning": 0.0124
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Before us it was most strenuously urged by Mr. Rane, the Assistant Government Pleader, that the State of Bombay was not liable to pay any call money to the Liquidator.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5755,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5755,
+        "Arguments of Respondent": 0.2761,
+        "Decision": 0.0003,
+        "Facts": 0.0243,
+        "Issue": 0.0013,
+        "Reasoning": 0.1225
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "He disputed the liability of the State on three grounds.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.44,
+      "probabilities": {
+        "Arguments of Petitioner": 0.44,
+        "Arguments of Respondent": 0.3248,
+        "Decision": 0.0002,
+        "Facts": 0.2099,
+        "Issue": 0.0032,
+        "Reasoning": 0.0219
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "They are In the first place the obligations of the former Idar State did not devolve on the State of Bombay.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0408,
+        "Arguments of Respondent": 0.04,
+        "Decision": 0.0006,
+        "Facts": 0.0155,
+        "Issue": 0.0011,
+        "Reasoning": 0.9019
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "In the second place the legal effect of the agreement entered into in 1945 was to absolve the Idar State from paying the call money to the company and in the third place the State of Bombay was not a contributory whose name has been settled on the list of contributories by the Liquidator.9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5534,
+        "Arguments of Respondent": 0.0735,
+        "Decision": 0.0003,
+        "Facts": 0.0885,
+        "Issue": 0.0014,
+        "Reasoning": 0.2829
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "Relying upon a decision of a Divisional Bench of this Court in the case of Ganpatrao Shankarrao v. State of Bombay, 60 BLR 888 (AIR 1959 Bom 263 ), Mr. Rane contended that after the merger a former subject of the Idar State was incompetent to hold the State of Bombay liable upon any contract which had been entered into with him by the Idar State.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6822,
+        "Arguments of Respondent": 0.2829,
+        "Decision": 0.0001,
+        "Facts": 0.0033,
+        "Issue": 0.0002,
+        "Reasoning": 0.0313
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "It is well settled rule of international law that a successor State by whatever process the succession is effected whether by conquest, by merger, by agreement or by treaty is not under any obligation to recognise the liabilities of the former State, and unless the obligations have been recognised the municipal Courts of the successor State are not competent to enforce that liability against the successor State.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7678,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0758,
+        "Arguments of Respondent": 0.0994,
+        "Decision": 0.0003,
+        "Facts": 0.0533,
+        "Issue": 0.0034,
+        "Reasoning": 0.7678
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Here we have the fact that the State of Idar had entered into possession of this property by virtue of the agreements of 1945 on the ground that it was a shareholder to the extent of two lakhs of rupees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9104,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0003,
+        "Facts": 0.0766,
+        "Issue": 0.0005,
+        "Reasoning": 0.9104
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "After the merger the State of Bombay entered into possession of this property.",
+      "predicted_label": "Facts",
+      "confidence": 0.7961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0103,
+        "Arguments of Respondent": 0.0136,
+        "Decision": 0.0006,
+        "Facts": 0.7961,
+        "Issue": 0.0034,
+        "Reasoning": 0.1761
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "It would therefore, follow that the State of Bombay intended to assert the same rights which the former Idar State purported to assert when it had entered into the agreement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0002,
+        "Facts": 0.01,
+        "Issue": 0.0003,
+        "Reasoning": 0.9639
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Those rights were based, as already stated, upon the initial fact that the State of Idar was a shareholder to the extent of Rs. 2 lakhs and in respect of which it had paid,Rs. 1,50,000 by way of share money.",
+      "predicted_label": "Facts",
+      "confidence": 0.503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0191,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0002,
+        "Facts": 0.503,
+        "Issue": 0.0035,
+        "Reasoning": 0.4629
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "A balance of Rs. 50,000 was payable by the State to the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.7864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0138,
+        "Decision": 0.0004,
+        "Facts": 0.7864,
+        "Issue": 0.0016,
+        "Reasoning": 0.1882
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "This liability must naturally attach to the right which the State of Idar had by reason of the fact that it had paid Rs. 1,50,000.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0966,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.013,
+        "Facts": 0.0153,
+        "Issue": 0.0019,
+        "Reasoning": 0.8285
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Now the State of Idar could not have exercised those rights and ignored the liabilities which were attached to those rights.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9133,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0275,
+        "Arguments of Respondent": 0.0334,
+        "Decision": 0.0005,
+        "Facts": 0.0243,
+        "Issue": 0.0011,
+        "Reasoning": 0.9133
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "The State of Bombay did not repudiate expressly any liability after it entered into possession of this property.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0613,
+        "Arguments of Respondent": 0.0577,
+        "Decision": 0.0012,
+        "Facts": 0.0831,
+        "Issue": 0.0028,
+        "Reasoning": 0.7938
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "It could, therefore, be said that by implication the State of Bombay accepted that liability.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8299,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0526,
+        "Arguments of Respondent": 0.0637,
+        "Decision": 0.0005,
+        "Facts": 0.0508,
+        "Issue": 0.0024,
+        "Reasoning": 0.8299
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Apart from that the Court cannot permit a party to allow itself to take only the benefits arising out of a contract or a bargain and dispute the liabilities arising therefrom.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0813,
+        "Arguments of Respondent": 0.0645,
+        "Decision": 0.0065,
+        "Facts": 0.2643,
+        "Issue": 0.0008,
+        "Reasoning": 0.5827
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "Therefore, looking at the matter either way, it would be clear that the State of Bombay as the successor State is bound by the same obligation by which the State of Idar was bound.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0007,
+        "Facts": 0.0093,
+        "Issue": 0.0006,
+        "Reasoning": 0.9593
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "Alternatively it can be said that the State of Bombay cannot be allowed to assert their rights as shareholders but dispute the liabilities arising from the fact that they are the shareholders.10.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6195,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0831,
+        "Arguments of Respondent": 0.0647,
+        "Decision": 0.0019,
+        "Facts": 0.2277,
+        "Issue": 0.0031,
+        "Reasoning": 0.6195
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "As regards the second ground we may point out that though the agreement between the State of Idar and the M.D. Industries Ltd. whereunder the latter had undertaken to take over the shares standing in the name of the State and pay for them and though there is also an agreement between the company on the one hand and the M.D. Industries on the other that the latter would pay the price of the shares to the Idar State and get the shares transferred to themselves, there has in fact been no transfer of the shares in the name of M. D. Industries Ltd.In the absence of any such transfer we are clear that the liability of the original shareholders, i.e., the State of Idar, continued.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0242,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0016,
+        "Facts": 0.0623,
+        "Issue": 0.0029,
+        "Reasoning": 0.9034
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "Since the State of Idar was liable, the State of Bombay, which is the successor of the State Idar, is also liable.11.",
+      "predicted_label": "Facts",
+      "confidence": 0.8724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0332,
+        "Arguments of Respondent": 0.0175,
+        "Decision": 0.009,
+        "Facts": 0.8724,
+        "Issue": 0.0091,
+        "Reasoning": 0.0588
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "The third ground urged by Mr. Rane was that the order of the Court below requiring the Collector of Sabarkantha to hand over possession of the factory and the other assets of the company is bad because though it purports to be made under S. 185 of the Companies Act, the conditions of that section are not satisfied in this case.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9616,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9616,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0001,
+        "Facts": 0.0024,
+        "Issue": 0.0008,
+        "Reasoning": 0.0239
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "Mr. Rane points out that no such list has been made and at any rate the State of Bombay has not been settled in the list of contributories.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.582,
+      "probabilities": {
+        "Arguments of Petitioner": 0.582,
+        "Arguments of Respondent": 0.2688,
+        "Decision": 0.0011,
+        "Facts": 0.0048,
+        "Issue": 0.0004,
+        "Reasoning": 0.1428
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "That may be so.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8728,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0472,
+        "Arguments of Respondent": 0.0486,
+        "Decision": 0.0023,
+        "Facts": 0.0279,
+        "Issue": 0.0012,
+        "Reasoning": 0.8728
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "Here again the point was not taken either in the Court below or in the Memo of appeal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0266,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0022,
+        "Facts": 0.0876,
+        "Issue": 0.0019,
+        "Reasoning": 0.8719
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Then Mr. Rane contended that the claim of the Liquidator is barred by time.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5048,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5048,
+        "Arguments of Respondent": 0.4312,
+        "Decision": 0.0006,
+        "Facts": 0.0043,
+        "Issue": 0.0002,
+        "Reasoning": 0.0589
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 53,
+      "text": "In this connection he relies on Art.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6467,
+        "Arguments of Respondent": 0.3299,
+        "Decision": 0.0001,
+        "Facts": 0.0034,
+        "Issue": 0.0003,
+        "Reasoning": 0.0196
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "112 of the Limitation Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5998,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1022,
+        "Arguments of Respondent": 0.0384,
+        "Decision": 0.0055,
+        "Facts": 0.2319,
+        "Issue": 0.0221,
+        "Reasoning": 0.5998
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "That Article provides that the suit has to be instituted within three years of the date from which the call by a company is payable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1324,
+        "Arguments of Respondent": 0.0319,
+        "Decision": 0.0002,
+        "Facts": 0.087,
+        "Issue": 0.0012,
+        "Reasoning": 0.7473
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "Mr. Rane points out that a resolution was passed on 481946 by the Board of Directors calling for the money and providing for payment apparently by the end of September 1946.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2511,
+        "Arguments of Respondent": 0.4201,
+        "Decision": 0.0012,
+        "Facts": 0.0436,
+        "Issue": 0.0004,
+        "Reasoning": 0.2837
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 57,
+      "text": "Since the suit was not brought in time he contends that the Court could not allow the application of the Liquidator wherein he claims for recovery of an unpaid call money from the State of Bombay.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.706,
+        "Arguments of Respondent": 0.2055,
+        "Decision": 0.001,
+        "Facts": 0.053,
+        "Issue": 0.0026,
+        "Reasoning": 0.0318
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "Mr. Rane says that the Liquidators application must fall under S. 186 only because he wants to recover the unpaid call money in pursuance of the resolution of 481946.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5309,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5309,
+        "Arguments of Respondent": 0.1976,
+        "Decision": 0.0027,
+        "Facts": 0.0133,
+        "Issue": 0.0007,
+        "Reasoning": 0.2548
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "Apart from that, under that resolution only Rs. 25 per share, i.e., in all a sum of Rs. 25,000 was called, while the total amount of unpaid sharemoney was Rs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7281,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0202,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0006,
+        "Facts": 0.2331,
+        "Issue": 0.0006,
+        "Reasoning": 0.7281
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "50,000.The Liquidator in his letter had made a demand for the amount of Rs. 50,000.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4324,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1668,
+        "Arguments of Respondent": 0.1221,
+        "Decision": 0.0102,
+        "Facts": 0.2657,
+        "Issue": 0.0028,
+        "Reasoning": 0.4324
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 61,
+      "text": "Therefore, it is clear that his demand is not based upon the resolution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8169,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0428,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.0057,
+        "Facts": 0.0893,
+        "Issue": 0.0006,
+        "Reasoning": 0.8169
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "Since it is not based upon that resolution he could not have recourse to the provisions of S. 186 of the Act.13.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0731,
+        "Arguments of Respondent": 0.0904,
+        "Decision": 0.0009,
+        "Facts": 0.3724,
+        "Issue": 0.0004,
+        "Reasoning": 0.4627
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 63,
+      "text": "Mr. Rane then points out that in his application to the Court the Liquidator has claimed interest at 9 per cent from the date of the resolution and, therefore, it must be inferred that the demand made by the Liquidator was based on the resolution.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2961,
+        "Arguments of Respondent": 0.6547,
+        "Decision": 0.0008,
+        "Facts": 0.0011,
+        "Issue": 0.0002,
+        "Reasoning": 0.0472
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "The most that can be said is that the demand for interest was based on that resolution but nothing more.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9107,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.027,
+        "Decision": 0.0008,
+        "Facts": 0.041,
+        "Issue": 0.0005,
+        "Reasoning": 0.9107
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "We do not think that this circumstance conclusively indicates that the Liquidator had based his demand for the unpaid call money on the resolution of the Board of Directors.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0172,
+        "Arguments of Respondent": 0.0134,
+        "Decision": 0.0004,
+        "Facts": 0.01,
+        "Issue": 0.0001,
+        "Reasoning": 0.9589
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "Under the Companies Act a Liquidator is given a right to move the court for recovery of moneys due under certain provisions of that Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7443,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1791,
+        "Arguments of Respondent": 0.0592,
+        "Decision": 0.0004,
+        "Facts": 0.0165,
+        "Issue": 0.0006,
+        "Reasoning": 0.7443
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "Section 187 of the Act is a provision which empowers the Court to order in certain circumstances the payment to the Liquidator of moneys which he can claim under the Statute.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0447,
+        "Arguments of Respondent": 0.0483,
+        "Decision": 0.0008,
+        "Facts": 0.0097,
+        "Issue": 0.0002,
+        "Reasoning": 0.8964
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "It is contended by Mr. Rane that even in such a case the question of interest would arise.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2934,
+        "Arguments of Respondent": 0.4909,
+        "Decision": 0.0023,
+        "Facts": 0.0032,
+        "Issue": 0.0006,
+        "Reasoning": 0.2096
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "The Liquidator should have made an application in that particular form and given all the particulars which are required to be mentioned in the application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1533,
+        "Arguments of Respondent": 0.0455,
+        "Decision": 0.0008,
+        "Facts": 0.0364,
+        "Issue": 0.0004,
+        "Reasoning": 0.7635
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "Then again before the Court can grant an application under S. 187 it must be satisfied that the payment of the money sought by the Liquidator is necessary to satisfy the debts and liabilities of the company and costs, charges or expenses of the winding up or for the adjustment of the rates of the contributories themselves.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9502,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0302,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0001,
+        "Facts": 0.0048,
+        "Issue": 0.0007,
+        "Reasoning": 0.9502
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "The application which is before us cannot be ascribed to S. 187 of the Act because all the particulars which are necessary to be placed before the Court for enabling it to decide the various matters referred to in S. 187 are not set out in that application.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0174,
+        "Arguments of Respondent": 0.0175,
+        "Decision": 0.0002,
+        "Facts": 0.0198,
+        "Issue": 0.0003,
+        "Reasoning": 0.9448
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "There is apparently no time limit for making an application under this section, and it will be open to the Liquidator to make such an application even now.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6421,
+      "probabilities": {
+        "Arguments of Petitioner": 0.111,
+        "Arguments of Respondent": 0.0894,
+        "Decision": 0.0045,
+        "Facts": 0.1525,
+        "Issue": 0.0006,
+        "Reasoning": 0.6421
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "The consequence of our view would, therefore, be that the order of the court below requiring the State to pay Rs. 50,000 to the Liquidator in respect of the call money will have to be set aside.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.4507,
+        "Facts": 0.0046,
+        "Issue": 0.0005,
+        "Reasoning": 0.539
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 74,
+      "text": "The next question to be considered is whether the direction regarding the payment of interest at 9 per cent on Rs. 50,000 is correct.",
+      "predicted_label": "Issue",
+      "confidence": 0.9146,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0007,
+        "Facts": 0.0076,
+        "Issue": 0.9146,
+        "Reasoning": 0.064
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "Mr. Shah, who appears for the respondent, says that the State of Bombay had let out the buildings belonging to the company to the Civil Supplies Department on a rent of Rs. 500 per month and that after collecting the rent from the Civil Supplies Department, the State had actually paid a part of the rent so collected to one of the Directors of the Company and that consequently the State must be held liable to pay the rent for the entire period during which the Civil Supplies Department was in occupation of the building.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.936,
+        "Decision": 0.0005,
+        "Facts": 0.0033,
+        "Issue": 0.0002,
+        "Reasoning": 0.0533
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "For one thing it does not appear that any rent was collected by the State from the Civil Supplies Department except for a period of five months or so and a part of the rent for this period was actually paid by the Government to a Director of the Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8427,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0006,
+        "Facts": 0.1326,
+        "Issue": 0.001,
+        "Reasoning": 0.8427
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "Apart, however from that it cannot be disputed that the Civil Supplies Department is a limb of the State and is not a separate entity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9012,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0109,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0016,
+        "Facts": 0.0794,
+        "Issue": 0.001,
+        "Reasoning": 0.9012
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "Therefore, even though the premises may have been made available for the use of the Civil Supplies Department and even though a rent of Rs. 500 per month was fixed with respect to those premises and actually recovered for a period of five months, it cannot be said that the State had in its hands moneys belonging to the Company collected by the State from any person or entity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.87,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0463,
+        "Arguments of Respondent": 0.0528,
+        "Decision": 0.0018,
+        "Facts": 0.0287,
+        "Issue": 0.0004,
+        "Reasoning": 0.87
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "In these circumstances, we are of the opinion, that no order can be made against the Government requiring it to pay rent of Rs. 500 per month to the Company in respect of rent payable by the Civil Supplies Department.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0049,
+        "Facts": 0.0235,
+        "Issue": 0.0001,
+        "Reasoning": 0.9596
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "For these reasons we modify the order of the Court below by deleting the direction regarding the payment of Rs. 50,000 by the State to the Liquidator with interest at 9 per cent from 141952 and the direction for payment of rent at Rs. 500 per month from 871950 till possession of the property and the machinery is handed over to the Liquidator, and dismiss the crossobjections.18.",
+      "predicted_label": "Decision",
+      "confidence": 0.9205,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9205,
+        "Facts": 0.0047,
+        "Issue": 0.0002,
+        "Reasoning": 0.0734
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "As regards the costs we direct that the parties will bear their own costs of the appeal and the respondent will pay the costs of the crossobjections, to the appellant and bear his own costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9828,
+        "Facts": 0.0048,
+        "Issue": 0.0001,
+        "Reasoning": 0.012
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "As regards the costs in Court below those incurred so far will be borne as incurred.",
+      "predicted_label": "Decision",
+      "confidence": 0.9841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9841,
+        "Facts": 0.0018,
+        "Issue": 0.0001,
+        "Reasoning": 0.0135
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Order accordingly.",
+      "predicted_label": "Decision",
+      "confidence": 0.9702,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9702,
+        "Facts": 0.018,
+        "Issue": 0.0001,
+        "Reasoning": 0.0111
+      }
+    }
+  ]
+}

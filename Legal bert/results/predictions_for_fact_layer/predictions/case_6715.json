@@ -1,0 +1,911 @@
+{
+  "case_id": "6715",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "These two appeals Nos. 10 and 11 of 1962, arise out of two suits Nos. 70 and 71 of 1959 filed by the heirs of one Daooji Radhamohan Meherotra and by one Murli Dholandas respectively for damages in respect of a car accident which resulted in the death of Daooji and serious injury to Murli while the car was being driver by the defendant Pesumal.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.6885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0016,
+        "Facts": 0.6885,
+        "Issue": 0.3081,
+        "Reasoning": 0.001
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The short facts are that both the deceased Meherotra and Murli Dholandas accompanied the defendant on 13th March 1958 on a motor drive from Bombay to Poona by a motor car belonging to one Shamdas Nathumal Asvani.",
+      "predicted_label": "Facts",
+      "confidence": 0.9736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0003,
+        "Facts": 0.9736,
+        "Issue": 0.0008,
+        "Reasoning": 0.0247
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The defendant was in charge of the car and he was driving it with the consent and knowledge of Shamdas Nathumal Asvani.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0558,
+        "Arguments of Respondent": 0.0618,
+        "Decision": 0.0023,
+        "Facts": 0.2193,
+        "Issue": 0.0019,
+        "Reasoning": 0.6589
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "The plaintiffs allege that he was driving it rashly and negligently and while doing so, between Mile stones 93 and 94 there was a collision between the car and motor truck bearing No. BYT 2216 as a result of which Mehorotra died and Murli Dholandas suffered severe injuries.",
+      "predicted_label": "Facts",
+      "confidence": 0.9901,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9901,
+        "Issue": 0.001,
+        "Reasoning": 0.0079
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The heirs of Meherotra, and the injured Dholandas have filed these two suits respectively and claimed damages from the defendant.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0003,
+        "Facts": 0.966,
+        "Issue": 0.0322,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The Plaintiffs got a notice issued to the New Asiatic Insurance Co. Ltd., under S. 96(1) of the Motor Vehicles Act since tins Company had insured Aswani in respect of the car which was being driven by the defendant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9508,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0001,
+        "Facts": 0.9508,
+        "Issue": 0.0019,
+        "Reasoning": 0.0442
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "After the notice was received, the New Asiatic insurance Co. took out a Chamber Summons for the Discharge the notice.",
+      "predicted_label": "Facts",
+      "confidence": 0.9045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0003,
+        "Facts": 0.9045,
+        "Issue": 0.0022,
+        "Reasoning": 0.0841
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "It came before Mr. Justice Tarkunde who agreed with its contentions and discharged me notice.",
+      "predicted_label": "Facts",
+      "confidence": 0.9188,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0004,
+        "Facts": 0.9188,
+        "Issue": 0.0116,
+        "Reasoning": 0.0627
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The Defendant Pesumal has appealed against the order of the learned Judge.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.988,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0002,
+        "Facts": 0.988,
+        "Issue": 0.0072,
+        "Reasoning": 0.0019
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The contention urged on behalf of the insurer was that the insurance policy did net cover the defendant because of the proviso contained in clause 3 which was a driver extension clause.",
+      "predicted_label": "Facts",
+      "confidence": 0.4027,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1706,
+        "Arguments of Respondent": 0.1221,
+        "Decision": 0.0003,
+        "Facts": 0.4027,
+        "Issue": 0.0045,
+        "Reasoning": 0.2999
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 10,
+      "text": "Clause 3 reads thusIn terms of and subject to the limitations of the indemnity which is granted by this Section to the insured the company will indemnity any driver who is driving me Motor Car, on the Insureds order or with his permission provided that such Driver (3) is not entitled w indemnity under any other policy.",
+      "predicted_label": "Facts",
+      "confidence": 0.7997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0226,
+        "Arguments of Respondent": 0.013,
+        "Decision": 0.0001,
+        "Facts": 0.7997,
+        "Issue": 0.0013,
+        "Reasoning": 0.1632
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The insurer respondent places reliance on this clause, Clause 3 extends the insurance cover to any driver who is not ma owner of the car and indemnifies him if he is driving the motor car on the order of the insured or with his permission provided that he is not entitled, to indemnity under any other policy.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6539,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0351,
+        "Arguments of Respondent": 0.6539,
+        "Decision": 0.0003,
+        "Facts": 0.0449,
+        "Issue": 0.0013,
+        "Reasoning": 0.2646
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "Whose policy also contained similar vehicle extension clause.",
+      "predicted_label": "Facts",
+      "confidence": 0.6187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.098,
+        "Arguments of Respondent": 0.0707,
+        "Decision": 0.0027,
+        "Facts": 0.6187,
+        "Issue": 0.0135,
+        "Reasoning": 0.1965
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "Because of the indemnity provided by the vehicle extension clause in his policy in respect of his own vehicle with Indian Trade and General Insurance Co.",
+      "predicted_label": "Facts",
+      "confidence": 0.6048,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0407,
+        "Arguments of Respondent": 0.0196,
+        "Decision": 0.0026,
+        "Facts": 0.6048,
+        "Issue": 0.0324,
+        "Reasoning": 0.2999
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.3569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1732,
+        "Arguments of Respondent": 0.1217,
+        "Decision": 0.0075,
+        "Facts": 0.3569,
+        "Issue": 0.015,
+        "Reasoning": 0.3256
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "the respondent plausibly contended that it was discharged from all liability under clause 3 of the policy issued by it.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.018,
+        "Arguments of Respondent": 0.6478,
+        "Decision": 0.0009,
+        "Facts": 0.1511,
+        "Issue": 0.0033,
+        "Reasoning": 0.1789
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "We may advisedly call this clause the nonavoidance clause it is clear from this clause that if under S. 96 of the Motor Vehicles Act the respondent company is liable to the plaintiffs then nothing contained in the policy will relieve it of its liability.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0003,
+        "Facts": 0.2525,
+        "Issue": 0.0018,
+        "Reasoning": 0.7372
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "In order to consider the liability of the insurance Companies, one has to consider the scheme of Chapter VIII of the Motor Vehicles Act and particularly that of Sections 94, 95 and 95.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0244,
+        "Decision": 0.0012,
+        "Facts": 0.029,
+        "Issue": 0.2011,
+        "Reasoning": 0.7298
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Heading of the Chapter is insurance of Motor Vehicles.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0577,
+        "Arguments of Respondent": 0.0229,
+        "Decision": 0.0012,
+        "Facts": 0.1835,
+        "Issue": 0.0279,
+        "Reasoning": 0.7068
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "S. 94 makes it an offence for any person who uses a vehicle except as a passenger or who causes or allows any other person to use a motor vehicle in a public place unless there is in force in relation to the use of the vehicle by that person or That other person a policy of insurance which complies with the requirements of that Chapter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.048,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0012,
+        "Facts": 0.1944,
+        "Issue": 0.0069,
+        "Reasoning": 0.7372
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "By the very language the Section requires that there must be an insurance policy in relation to the vehicle which is being used and not that a driver is insured against claims for damages in respect of any vehiclewhether used or unused.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0242,
+        "Arguments of Respondent": 0.1026,
+        "Decision": 0.0012,
+        "Facts": 0.0092,
+        "Issue": 0.002,
+        "Reasoning": 0.8608
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "S. 95 which lays down the requirements of the policy, by clause (b) of subsection (1), requires that the policy must insure the person or classes of persons against any liability which may be incurred by them in respect of death or bodily injury to any person caused by or arising out of the use of we vehicle in a public place.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0623,
+        "Arguments of Respondent": 0.0427,
+        "Decision": 0.0012,
+        "Facts": 0.1062,
+        "Issue": 0.0065,
+        "Reasoning": 0.7812
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "S. 96 makes the insurer liable on judgment as if he were a judgmentdebtor, if recovered against the insured or against the class of persons insured by the policy in respect of liability covered by S. 95(1)(b) on certain conditions being satisfied.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9327,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0332,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0002,
+        "Facts": 0.0172,
+        "Issue": 0.0011,
+        "Reasoning": 0.9327
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Reading the Sections together it is dear that the insurance is required by S. 95(1) to be in respect of the vehicle which is being used and while driving which the accident is committed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9765,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.011,
+        "Decision": 0.0004,
+        "Facts": 0.0032,
+        "Issue": 0.0009,
+        "Reasoning": 0.9765
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "Mere insurance of the driver or a vehicle without reference to the use of any particular vehicle against claims made against him by reason of an accident that he may commit does not, in our opinion, make the insurer liable directly to the person who has suffered the injury.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0042,
+        "Facts": 0.0078,
+        "Issue": 0.0027,
+        "Reasoning": 0.9593
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The liability of the insurer arises only it has insured the driver in respect of the vehicle by the use or which the accident is committed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.044,
+        "Arguments of Respondent": 0.0755,
+        "Decision": 0.0148,
+        "Facts": 0.0799,
+        "Issue": 0.0108,
+        "Reasoning": 0.775
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "That being so.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1167,
+        "Arguments of Respondent": 0.1035,
+        "Decision": 0.0045,
+        "Facts": 0.09,
+        "Issue": 0.0008,
+        "Reasoning": 0.6844
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "inasmuch as the policy issued by the Indian.",
+      "predicted_label": "Facts",
+      "confidence": 0.5445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1808,
+        "Arguments of Respondent": 0.1139,
+        "Decision": 0.0269,
+        "Facts": 0.5445,
+        "Issue": 0.0122,
+        "Reasoning": 0.1216
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "Trade and General Insurance Co. Ltd. by clause (4) insured the defendant not in respect of the vehicle which was involved in the accident but in respect of another vehicle it would not be covered by S. 95(1) and consequently by S. 96(1), and that company would not be affected by the notice issued under SubSection (2) of Section 96.",
+      "predicted_label": "Facts",
+      "confidence": 0.694,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0002,
+        "Facts": 0.694,
+        "Issue": 0.0022,
+        "Reasoning": 0.2949
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The statutory liability under Section 96, in our opinion, attaches only to the respondent company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.007,
+        "Facts": 0.0153,
+        "Issue": 0.0004,
+        "Reasoning": 0.9431
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "Thus, the respondent Company being liable under S. 96 the nonavoidance clause applies notwithstanding me avoidance clause contained in the proviso to clause 3 of the policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1218,
+        "Arguments of Respondent": 0.0348,
+        "Decision": 0.0032,
+        "Facts": 0.0126,
+        "Issue": 0.0002,
+        "Reasoning": 0.8273
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "It is possible that as between the respondent and the appellant deferent, the latter may be liable to repay any sum which the respondent Company may be required to pay to the pontiffs in these suits.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0604,
+        "Facts": 0.0097,
+        "Issue": 0.0055,
+        "Reasoning": 0.8933
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "(b) of SubSection (1) of Section 95, be of no effectIt is clear from the wording of this clause that any condition restricting or avoiding the statutory liability of the insurer as provided in clause (1) of SubSection (1) of Section 95 which is not one of the conditions specified in clause (b) of Section 95(2) must be regarded as interactive for the purposes of the Act, though it may be binding between the company and the persons insured.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.028,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0004,
+        "Facts": 0.0448,
+        "Issue": 0.0026,
+        "Reasoning": 0.9115
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Now, the only conditions mentioned in clause (b) of SubSection (2) of S. 96 are three (i) that which excludes the use of the vehicle for hire or reward if the policy does not cover the risk and use for organised racing or speed testing in the case of public service a purpose not permitted by the permit (ii) that which excludes driving by a names person or persons or by any person who is not duly licences or by a disqualified person during the period of disqualification (iii) that which excludes liability for injury which is caused by or is contributed to by conditions of war, not or civil commotion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9588,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0154,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0002,
+        "Facts": 0.015,
+        "Issue": 0.0014,
+        "Reasoning": 0.9588
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "It cannot be gainsaid that the avoidance clause in the policy in the present case is not covered by any of these conditions and that is net even me contention of the respondent Company, since that clause seeks to avoid a liability covered by Section 95(1)(b).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9457,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0157,
+        "Arguments of Respondent": 0.0219,
+        "Decision": 0.0001,
+        "Facts": 0.0159,
+        "Issue": 0.0007,
+        "Reasoning": 0.9457
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "96.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6962,
+        "Arguments of Respondent": 0.1218,
+        "Decision": 0.018,
+        "Facts": 0.0178,
+        "Issue": 0.0327,
+        "Reasoning": 0.1136
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "therefore the respondent was not liable.",
+      "predicted_label": "Facts",
+      "confidence": 0.3772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2795,
+        "Arguments of Respondent": 0.1225,
+        "Decision": 0.0132,
+        "Facts": 0.3772,
+        "Issue": 0.0014,
+        "Reasoning": 0.2061
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "According to the learned Counsel, it is not compulsory under S. S4 or s. 95 for the Insurance.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5287,
+        "Arguments of Respondent": 0.4332,
+        "Decision": 0.0002,
+        "Facts": 0.0033,
+        "Issue": 0.0005,
+        "Reasoning": 0.034
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "Company to insure a driver of a vehicle while insuring the motor car and its owner and the effect of the avoidance clause in cl.(3) is much the same as if the Insurance Company had not agreed to indemnify the driver in which case, it is argued, no notice could have been sent to the insurance Company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3469,
+        "Arguments of Respondent": 0.3275,
+        "Decision": 0.0004,
+        "Facts": 0.0151,
+        "Issue": 0.0046,
+        "Reasoning": 0.3055
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "It an owner drives a motor vehicle which is not insured, he is liable to penalty but in the nature of things, no insurance company can be made liable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0388,
+        "Arguments of Respondent": 0.0638,
+        "Decision": 0.0039,
+        "Facts": 0.0591,
+        "Issue": 0.0024,
+        "Reasoning": 0.832
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "The question is, having issued the policy, whether the respondent is entitled to impose any condition in the policy which in any manner restricts the cover of the insurance, and if it cannot be permitted to do so in the case of the owner of the car, it cannot certainly be.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0187,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0007,
+        "Facts": 0.024,
+        "Issue": 0.422,
+        "Reasoning": 0.5106
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "asserted that it can be permitted to do so in the case of any other class of drivers in respect of whom the policy covers the risk, in both cases by reason of S. 96(3).11.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3612,
+        "Arguments of Respondent": 0.3047,
+        "Decision": 0.0004,
+        "Facts": 0.1234,
+        "Issue": 0.0037,
+        "Reasoning": 0.2065
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "It must be noted that S.94 refers to the persons to be insured and S.95 refers to the liability required to be covered.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9384,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0425,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0001,
+        "Facts": 0.0091,
+        "Issue": 0.0012,
+        "Reasoning": 0.9384
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Both enable the insurer to extend the indemnity to other driver and if the indemnity is so extended the case falls within S.96(1) and the Company becomes liable and Section 95(1)(b) is not relevant except for determining whether the indemnity under the policy tails within the ambit of that Section.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0458,
+        "Arguments of Respondent": 0.0475,
+        "Decision": 0.0004,
+        "Facts": 0.0088,
+        "Issue": 0.0005,
+        "Reasoning": 0.897
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The contention that the defences available to the insurer control the terms of the policy is also unsound.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.113,
+        "Decision": 0.0012,
+        "Facts": 0.0111,
+        "Issue": 0.0003,
+        "Reasoning": 0.8612
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "It does not affect the question of liability.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6757,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1211,
+        "Arguments of Respondent": 0.1599,
+        "Decision": 0.0054,
+        "Facts": 0.0371,
+        "Issue": 0.0008,
+        "Reasoning": 0.6757
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "Under Section 96(3) requirements for its applicability are that (1) a certificate must have been issued to the person who has effected the insurance, and (2) restrictions of the insurance of the persons insured other than those in clause (b) of SubSection (2) of S.96.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8733,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0415,
+        "Arguments of Respondent": 0.0232,
+        "Decision": 0.0002,
+        "Facts": 0.0603,
+        "Issue": 0.0014,
+        "Reasoning": 0.8733
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "It was strenuously urged by Mr. Advani on behalf of his client that the scheme of Ss. 94, 95 and 96 was rot to require the insurance of any particular class of persons in connection with the vehicle causing me accident but if there was an insurance which indemnified either the rarer or the driver against liability irrespective of the vehicle, then the conditions of trig Section were satisfied.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8134,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8134,
+        "Arguments of Respondent": 0.1664,
+        "Decision": 0.0002,
+        "Facts": 0.0033,
+        "Issue": 0.0004,
+        "Reasoning": 0.0163
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "We have not been pointed out either from the scheme of the Chapter or any part of the Motor vehicles Act anything which could persuade us to do such violence to the language of the statute.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9714,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0125,
+        "Arguments of Respondent": 0.0114,
+        "Decision": 0.0004,
+        "Facts": 0.0029,
+        "Issue": 0.0014,
+        "Reasoning": 0.9714
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "Reasonably and fairly read, Sections 94 and 95 mean that the owner and the person who drives the car have to be insured in respect of the vehicle by the use of which accident or death occurs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9337,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0262,
+        "Arguments of Respondent": 0.0308,
+        "Decision": 0.0004,
+        "Facts": 0.0085,
+        "Issue": 0.0005,
+        "Reasoning": 0.9337
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "Mr. Advani relied upon the view taken by the English Courts under Sections 35, 36 and 38 of the Road Traffic Act, 1930.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6723,
+        "Arguments of Respondent": 0.2814,
+        "Decision": 0.0004,
+        "Facts": 0.0015,
+        "Issue": 0.0002,
+        "Reasoning": 0.0441
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "The view is mat the extension in connection with a driver of a vehicle is qualified by a permissible provision requiring that the permitted Driver does not himself hold a personal insurance policy, it is sufficient in this connection to point out that though Ss. 33 and 36 of the English Act so far as relevant are almost in similar terms is Ss. 94 and 95 of our Motor vehicles Act, S.38 is materially different from S. 96(3) of our Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0044,
+        "Facts": 0.0128,
+        "Issue": 0.0012,
+        "Reasoning": 0.9526
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "S.38 of the English Act renders ineffective any condition in a policy providing for the avoiding of the liability in the event of specified thing being dons or omitted to be done after the happening of the event giving rise to a claim under the policy in connection with the claims as are mentioned in paragraph (b) of SubSection (1) of S.36, which is entirety different from saying that no condition which is not one of those in S.96(2)(b) shall be elective in displacing the liability under S.95(1).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9099,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0523,
+        "Arguments of Respondent": 0.0314,
+        "Decision": 0.0002,
+        "Facts": 0.0057,
+        "Issue": 0.0005,
+        "Reasoning": 0.9099
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "Lastly it is argued, which is almost an argument of dispair, that the appeal by the defendant is incompetent It is contended that the notice was got issued by the plaintiff on the respondent company which was discharged by the order of the learned Judge, that the defendant could not in any way be said to be affected in ms rights by the discharge of that notice and that, therefore, he had no right to appeal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2712,
+        "Arguments of Respondent": 0.4834,
+        "Decision": 0.0002,
+        "Facts": 0.0133,
+        "Issue": 0.0007,
+        "Reasoning": 0.2312
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "He claimed to reader both the respondent company as also his own Insurance Company liable for any Decree or judgment that might be passed against him.",
+      "predicted_label": "Facts",
+      "confidence": 0.9901,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0,
+        "Facts": 0.9901,
+        "Issue": 0.0015,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Since to discharge the notice as against the respondent Company would render his position very insecure in relation to the ultimate decree, it must be held that he is a Person who is aggrieved by the order made by the learned Judge and, therefore, entitled to appeal.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8979,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0355,
+        "Arguments of Respondent": 0.0264,
+        "Decision": 0.0016,
+        "Facts": 0.038,
+        "Issue": 0.0005,
+        "Reasoning": 0.8979
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "In the result, the prayers (a) and (b) of the Chamber summons in both the suits will fail and are dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9102,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.9102,
+        "Facts": 0.0157,
+        "Issue": 0.0002,
+        "Reasoning": 0.0726
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "The learned trial Judge before whom the Chamber summonses will now be placed will hear them as regards the prayers (c) and (d) therein and mate such orders as the justice of the cause may require.",
+      "predicted_label": "Decision",
+      "confidence": 0.5978,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.5978,
+        "Facts": 0.3248,
+        "Issue": 0.0003,
+        "Reasoning": 0.0705
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "The is respondent company will pay the costs of both the appeals and also of the hearing of the Chamber Summonses before the learned Judge as directed by Mr. justice Tarkunde by his order dated 12th September 1951.",
+      "predicted_label": "Decision",
+      "confidence": 0.9695,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9695,
+        "Facts": 0.0077,
+        "Issue": 0.0001,
+        "Reasoning": 0.0217
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "The costs will be Rs. 250/ in each.",
+      "predicted_label": "Decision",
+      "confidence": 0.9878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9878,
+        "Facts": 0.0041,
+        "Issue": 0.0001,
+        "Reasoning": 0.0076
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "Chamber summonses costs to be paid to the plaintiffs and the costs of me appeals to be paid to the appellantdefendant cross objections of the 1st Respondent are dismissed with costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.6102,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.6102,
+        "Facts": 0.3741,
+        "Issue": 0.0009,
+        "Reasoning": 0.0126
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 61,
+      "text": "Liberty to the appellants attorneys to withdraw the amount of security furnished by him.",
+      "predicted_label": "Decision",
+      "confidence": 0.5969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0181,
+        "Arguments of Respondent": 0.0114,
+        "Decision": 0.5969,
+        "Facts": 0.3293,
+        "Issue": 0.002,
+        "Reasoning": 0.0423
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "Order accordingly.",
+      "predicted_label": "Decision",
+      "confidence": 0.9702,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.9702,
+        "Facts": 0.018,
+        "Issue": 0.0001,
+        "Reasoning": 0.0111
+      }
+    }
+  ]
+}

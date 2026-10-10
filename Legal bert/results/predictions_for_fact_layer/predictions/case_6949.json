@@ -1,0 +1,1510 @@
+{
+  "case_id": "6949",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The defendant, who is the respondent before us, was at all material times a shareholder of the plaintiff company who are the appellants.",
+      "predicted_label": "Facts",
+      "confidence": 0.9345,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0002,
+        "Facts": 0.9345,
+        "Issue": 0.0404,
+        "Reasoning": 0.0224
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The plaintiff company filed a suit, out of which this appeal arises, to recover from the defendant a sum of Rs. 4,835/ being the amount due in respect of calls made by the company and interest thereon.",
+      "predicted_label": "Facts",
+      "confidence": 0.9722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0003,
+        "Facts": 0.9722,
+        "Issue": 0.0233,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The contention of the defendant was that the call was not validly made.",
+      "predicted_label": "Facts",
+      "confidence": 0.7458,
+      "probabilities": {
+        "Arguments of Petitioner": 0.035,
+        "Arguments of Respondent": 0.0562,
+        "Decision": 0.0003,
+        "Facts": 0.7458,
+        "Issue": 0.0024,
+        "Reasoning": 0.1603
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "That contention was accepted by the trial Court which proceeded to dismiss the plaintiffs suit.",
+      "predicted_label": "Facts",
+      "confidence": 0.8021,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0006,
+        "Facts": 0.8021,
+        "Issue": 0.0188,
+        "Reasoning": 0.1489
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "At a meeting of the board of directors held on 331948 the directors resolved that a further call of Rs. 40/ per share on B Class shares of the company and a notice of one month be given to all B class shareholders to pay the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.986,
+        "Issue": 0.0005,
+        "Reasoning": 0.0118
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The B class shares are of the face value of Rs. 50/ and 1956 Rs. 10/ were paid up, and the defendant held 100 B class shares of this company.",
+      "predicted_label": "Facts",
+      "confidence": 0.843,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0278,
+        "Arguments of Respondent": 0.0393,
+        "Decision": 0.0001,
+        "Facts": 0.843,
+        "Issue": 0.0011,
+        "Reasoning": 0.0888
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Another meeting of the board of directors was held on 2261948 and at this meeting the minutes showed that the opinion of the directors was divided as to the manner of requiring the calls to be paid, and the evidence of the manager, Mr. Samant, on this point is that the division of the directors was on the question as to whether the call should be for Rs. 40/ at one time or whether the call should be by instalments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5698,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0003,
+        "Facts": 0.4089,
+        "Issue": 0.0003,
+        "Reasoning": 0.5698
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "They were also divided as to what time should be given if the call was to be by instalments.",
+      "predicted_label": "Facts",
+      "confidence": 0.5589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0002,
+        "Facts": 0.5589,
+        "Issue": 0.003,
+        "Reasoning": 0.4327
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The minutes of this meeting goes on to state It was therefore resolved that the draft notice be finalised in consultation with the companys solicitors.",
+      "predicted_label": "Facts",
+      "confidence": 0.5023,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.0231,
+        "Decision": 0.0002,
+        "Facts": 0.5023,
+        "Issue": 0.0004,
+        "Reasoning": 0.4526
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 9,
+      "text": "It is also in the evidence of Mr. Samant that he had produced before the meeting of the board a notice to be sent to the shareholders with regard to this call prepared by the solicitors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9254,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0388,
+        "Arguments of Respondent": 0.0206,
+        "Decision": 0.0004,
+        "Facts": 0.0147,
+        "Issue": 0.0001,
+        "Reasoning": 0.9254
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "In this notice there were various blanks which were filled in by him, and turning to this draft notice it proceeds on the basis that the call was payable by four instalments and in this draft notice the dates of payment of the instalments are mentioned, the first instalment being payable on 581948, the second on 591948, the third on 5101948 and the fourth on 5111948.It is not quite clear from the language used in the minutes of this meeting as to what exactly was intended by the expressionIt was therefore resolved that the draft notice be finalised in consultation with the companys solicitors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5223,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0614,
+        "Arguments of Respondent": 0.0792,
+        "Decision": 0.0001,
+        "Facts": 0.3368,
+        "Issue": 0.0003,
+        "Reasoning": 0.5223
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "But the evidence of Mr. Samant is that he finalised the draft notice himself and then sent out notices to the shareholders in the form of the draft notice which was the final form of the notice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8104,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0851,
+        "Arguments of Respondent": 0.0733,
+        "Decision": 0.0002,
+        "Facts": 0.0309,
+        "Issue": 0.0001,
+        "Reasoning": 0.8104
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "It is common ground that the final form never came before the board of directors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.559,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0805,
+        "Arguments of Respondent": 0.0538,
+        "Decision": 0.0004,
+        "Facts": 0.3035,
+        "Issue": 0.0028,
+        "Reasoning": 0.559
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "This particular notice was sent to the defendant on the 7th/9th July 1948 and she was called upon to pay the first instalment on 581948.",
+      "predicted_label": "Facts",
+      "confidence": 0.905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0001,
+        "Facts": 0.905,
+        "Issue": 0.0003,
+        "Reasoning": 0.0872
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "As she failed to pay the first instalment, another notice was served upon her on 1781948 by which she was reminded that the first instalment remained unpaid and notice was given to her to pay the remaining three instalments on the due dates, viz., 5th September, 15th October and 5th November 1948.",
+      "predicted_label": "Facts",
+      "confidence": 0.9847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9847,
+        "Issue": 0.0009,
+        "Reasoning": 0.0138
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "She failed to pay also the second instalment on the due date and a notice was served upon her on 2891948 reminding her that the two instalments remained unpaid and calling upon her to pay the remaining two instalments on their due dates.",
+      "predicted_label": "Facts",
+      "confidence": 0.9824,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9824,
+        "Issue": 0.0032,
+        "Reasoning": 0.0135
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "A third reminder was sent to her on 10111948 when she had failed to pay the remaining two instalments and she was requested to pay the whole amount of Rs. 4,000/ with interest thereon due toy her.",
+      "predicted_label": "Facts",
+      "confidence": 0.9777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0003,
+        "Facts": 0.9777,
+        "Issue": 0.0013,
+        "Reasoning": 0.0189
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "By another resolution of the board of directors of the company dated 2261948 it was decided to forward to the shareholders the notice demanding payment of the said call in the manner decided at that time.",
+      "predicted_label": "Facts",
+      "confidence": 0.9714,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9714,
+        "Issue": 0.0007,
+        "Reasoning": 0.0254
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The letter further says that in pursuance of these resolutions various notices were sent to the defendant and she was called upon to pay the amount.",
+      "predicted_label": "Facts",
+      "confidence": 0.5611,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0004,
+        "Facts": 0.5611,
+        "Issue": 0.0006,
+        "Reasoning": 0.3937
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "As she failed to comply with this requisition a suit was filed in the city Civil Court on 1421951 which suit ultimately came to be dismissed by the learned Judge.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0,
+        "Facts": 0.9966,
+        "Issue": 0.0013,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "18 and 19.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2449,
+        "Arguments of Respondent": 0.1143,
+        "Decision": 0.0105,
+        "Facts": 0.1808,
+        "Issue": 0.019,
+        "Reasoning": 0.4305
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 21,
+      "text": "It is true, as pointed out by Mr. Desai that the directors can only act at a meeting of the board of directors through resolutions passed at such a meeting and therefore it was contended by Mr. Desai that the action of the directors both with respect to the making of the call and the imposition of the liability must be by resolution passed at a meeting of the board of directors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.78,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1603,
+        "Arguments of Respondent": 0.0464,
+        "Decision": 0.0003,
+        "Facts": 0.0125,
+        "Issue": 0.0005,
+        "Reasoning": 0.78
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "Our attention was drawn to Art. 115 which makes it competent for a meeting of directors to exercise all or any of the authorities, powers and discretions by or under the articles of the company for the time being vested in or exercisable by the directors generally, and it was rightly pointed out that but for this article action could only be taken by all the directors jointly, but Art.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1463,
+        "Arguments of Respondent": 0.0908,
+        "Decision": 0.0001,
+        "Facts": 0.0116,
+        "Issue": 0.0004,
+        "Reasoning": 0.7509
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "115 makes it competent to a meeting of directors, where all the directors are not present, provided a quorum is there, for such a meeting to transact the business which otherwise all the directors will have to transact.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1211,
+        "Arguments of Respondent": 0.0665,
+        "Decision": 0.0006,
+        "Facts": 0.0354,
+        "Issue": 0.0003,
+        "Reasoning": 0.776
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The question in controversy before us has been whether it is equally essential that the time when the call money should be paid by the shareholder should be mentioned in the resolution.",
+      "predicted_label": "Issue",
+      "confidence": 0.7022,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0134,
+        "Decision": 0.0006,
+        "Facts": 0.0338,
+        "Issue": 0.7022,
+        "Reasoning": 0.2348
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Apart from authority, it is difficult to understand how the fixing of the time for the payment of the call is not an essential feature of the making of the call.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0002,
+        "Facts": 0.0194,
+        "Issue": 0.0004,
+        "Reasoning": 0.9626
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "A call imposes a liability upon a shareholder and that liability only commences from the time when he becomes liable to pay the call, and therefore authorising the call and fixing the amount of the call by themselves do not fix the liability upon the shareholder.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2421,
+        "Arguments of Respondent": 0.2096,
+        "Decision": 0.0003,
+        "Facts": 0.0247,
+        "Issue": 0.0005,
+        "Reasoning": 0.5227
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "Art. 18 makes a distinction between the making of the call and the appointing by the directors of the place at which, the person to whom, and the time when the payment is to be made, and therefore it is urged that all these three factors must stand on the same footing.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4996,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4996,
+        "Arguments of Respondent": 0.2949,
+        "Decision": 0.0001,
+        "Facts": 0.0078,
+        "Issue": 0.0004,
+        "Reasoning": 0.1973
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "The fallacy underlying this argument is that although the second part of Art.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0818,
+        "Arguments of Respondent": 0.0261,
+        "Decision": 0.0004,
+        "Facts": 0.0081,
+        "Issue": 0.0006,
+        "Reasoning": 0.883
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "18 mentions all these factors, it does not, as already pointed out, indicate how these factors should be appointed by the directors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9256,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0323,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0004,
+        "Facts": 0.0302,
+        "Issue": 0.0001,
+        "Reasoning": 0.9256
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "It may be by a resolution or it may not be, the second part of Art.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0761,
+        "Arguments of Respondent": 0.0205,
+        "Decision": 0.0001,
+        "Facts": 0.0067,
+        "Issue": 0.0005,
+        "Reasoning": 0.8961
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "18 is silent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8373,
+      "probabilities": {
+        "Arguments of Petitioner": 0.097,
+        "Arguments of Respondent": 0.0248,
+        "Decision": 0.0005,
+        "Facts": 0.0396,
+        "Issue": 0.0008,
+        "Reasoning": 0.8373
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Therefore, if any of these factors are essential for the making of a call, then by reason of Art. 19 that factor must form part of a valid resolution making the call.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9319,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0421,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0001,
+        "Facts": 0.0124,
+        "Issue": 0.0007,
+        "Reasoning": 0.9319
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "Therefore, there is not much substance in the contention that no distinction can be made as between person and place on the one hand and time on the other, A distinction has to be made because these three factors do not stand on the same footing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0163,
+        "Arguments of Respondent": 0.0423,
+        "Decision": 0.0002,
+        "Facts": 0.007,
+        "Issue": 0.0002,
+        "Reasoning": 0.934
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Whereas the person to whom the payment is to be made and the place at which the payment is to be made are trifling requirements of no substance and of no consequence, the time at which the payment is to be made is of considerable substance and of great consequence to the shareholder.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8527,
+      "probabilities": {
+        "Arguments of Petitioner": 0.048,
+        "Arguments of Respondent": 0.0645,
+        "Decision": 0.0002,
+        "Facts": 0.0346,
+        "Issue": 0.0001,
+        "Reasoning": 0.8527
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "We might also look at the provision with regard to the call being made payable by instalments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0195,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0005,
+        "Facts": 0.0231,
+        "Issue": 0.0018,
+        "Reasoning": 0.9448
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "This provision appears at the end of Art. 18 after Art. 18 has dealt with the authority of directors to make the call and the conditions imposing the liability upon the shareholder, and in our opinion this provision relates to the making of the call and therefore it must form part of the resolution authorising the call.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9482,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0289,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0002,
+        "Facts": 0.0144,
+        "Issue": 0.0003,
+        "Reasoning": 0.9482
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "This again is a matter of substance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9311,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0013,
+        "Facts": 0.0425,
+        "Issue": 0.0115,
+        "Reasoning": 0.9311
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "Whether a call should be paid in one sum or by instalments goes to the question of the liability of the shareholder, and therefore this provision is as much of substance as the provision with regard to the fixing of time for the payment of the call.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0362,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0002,
+        "Facts": 0.0375,
+        "Issue": 0.0007,
+        "Reasoning": 0.9055
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "Therefore, the provision that a call should be made payable by instalments by reason of Art. 18 can only be made by resolution properly passed by the directors.5.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8086,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0928,
+        "Arguments of Respondent": 0.0298,
+        "Decision": 0.0003,
+        "Facts": 0.0683,
+        "Issue": 0.0002,
+        "Reasoning": 0.8086
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Turning to the first aspect of the matter whether it is essential to indicate the time of payment in the resolution authorising a call, it is not disputed in this case that neither the resolution of 331948 nor the resolution of 2261948 fix the time for payment, but what is urged by Mr. Engineer on behalf of the company is that it is not necessary for the validity of a resolution authorising a call that the time for the payment of the call must be stated in the resolution itself.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8404,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0296,
+        "Arguments of Respondent": 0.0311,
+        "Decision": 0.0003,
+        "Facts": 0.0124,
+        "Issue": 0.0862,
+        "Reasoning": 0.8404
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "18 and 19.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2449,
+        "Arguments of Respondent": 0.1143,
+        "Decision": 0.0105,
+        "Facts": 0.1808,
+        "Issue": 0.019,
+        "Reasoning": 0.4305
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "The second resolution gives the interesting information that the directors are divided in their view and resolves that the draft notice be finalised in consultation with the companys solicitors.",
+      "predicted_label": "Facts",
+      "confidence": 0.5896,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0044,
+        "Decision": 0.001,
+        "Facts": 0.5896,
+        "Issue": 0.0009,
+        "Reasoning": 0.3992
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "Therefore, in our opinion apart from any other consideration the two resolutions, even taken together and read together and accepting the view of Mr. Engineer that these two resolutions make a valid call, in our opinion as neither of these two resolutions specifies the time for making the payment they fail to make a valid call as required by law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9488,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0005,
+        "Facts": 0.0404,
+        "Issue": 0.0002,
+        "Reasoning": 0.9488
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "We are also in agreement with Mr. Desai that these resolutions suffer from another infirmity, and that is that they do not decide that the amount of the call should be paid by instalments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9617,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0003,
+        "Facts": 0.012,
+        "Issue": 0.0003,
+        "Reasoning": 0.9617
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "We have already indicated our opinion on a construction of Arts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0224,
+        "Arguments of Respondent": 0.0164,
+        "Decision": 0.0012,
+        "Facts": 0.0054,
+        "Issue": 0.0056,
+        "Reasoning": 0.949
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "18 and 19",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2201,
+        "Arguments of Respondent": 0.0887,
+        "Decision": 0.0082,
+        "Facts": 0.2629,
+        "Issue": 0.0206,
+        "Reasoning": 0.3995
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "that the payment of call by instalment is as essential a feature of a resolution making a call as fixing of time for payment and on the evidence of Mr. Samant it is clear that the directors had not made up their minds nor did they know their minds as to whether the call should be paid in one sum or by instalments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3429,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2998,
+        "Arguments of Respondent": 0.3378,
+        "Decision": 0.0004,
+        "Facts": 0.0186,
+        "Issue": 0.0005,
+        "Reasoning": 0.3429
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 48,
+      "text": "Therefore, the directors never resolved that this call should be paid by instalments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0912,
+        "Arguments of Respondent": 0.0444,
+        "Decision": 0.0006,
+        "Facts": 0.3027,
+        "Issue": 0.0005,
+        "Reasoning": 0.5606
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "Mr. Engineer advanced the proposition which seems to us rather startling that there is nothing in law to prevent the directors from delegating to a manager the power to make a call and according to him the directors could leave it to the manager to decide whether a call should be made at all, when it should be made and what the amount of the call should be.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4568,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3222,
+        "Arguments of Respondent": 0.4568,
+        "Decision": 0.0002,
+        "Facts": 0.004,
+        "Issue": 0.0003,
+        "Reasoning": 0.2166
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 50,
+      "text": "When one remembers that the power to make a call is in the nature of a trust and it is to be exercised in the interests of the company, it is rather difficult to accept the proposition that such an important power which is vested in the directors could be delegated by them to any one and could be exercised by any one.11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9379,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0343,
+        "Arguments of Respondent": 0.0148,
+        "Decision": 0.0001,
+        "Facts": 0.0127,
+        "Issue": 0.0002,
+        "Reasoning": 0.9379
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "It is significant that Art. 115 which deals with the exercise of powers by the directors at a meeting where a quorum is present, deals with the authorities, powers and directions vested in or exercisable by the directors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0443,
+        "Arguments of Respondent": 0.0138,
+        "Decision": 0.0001,
+        "Facts": 0.0324,
+        "Issue": 0.0003,
+        "Reasoning": 0.9091
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "125(3) also, which deals with setting up of a local management outside the place where the head office is situated, the power is given to the directors to delegate to any person appointed as a local manager any of the powers, authorities and discretions for the time being vested in the directors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5015,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2397,
+        "Arguments of Respondent": 0.0603,
+        "Decision": 0.0002,
+        "Facts": 0.1979,
+        "Issue": 0.0003,
+        "Reasoning": 0.5015
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "But when we turn to Art. 130",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0203,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0002,
+        "Facts": 0.0078,
+        "Issue": 0.005,
+        "Reasoning": 0.9558
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "obviously the intention was to confer upon the directors the right of delegation which was much narrower in its extent than the one referred to in Art.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9218,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0302,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0001,
+        "Facts": 0.0384,
+        "Issue": 0.0004,
+        "Reasoning": 0.9218
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "115 or Art.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2051,
+        "Arguments of Respondent": 0.1294,
+        "Decision": 0.0028,
+        "Facts": 0.116,
+        "Issue": 0.0555,
+        "Reasoning": 0.4913
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "115 and Art.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1586,
+        "Arguments of Respondent": 0.1298,
+        "Decision": 0.0026,
+        "Facts": 0.1476,
+        "Issue": 0.0202,
+        "Reasoning": 0.5412
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "125(3) before him and having used words of the widest import when he comes to Art.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0184,
+        "Arguments of Respondent": 0.0185,
+        "Decision": 0.0001,
+        "Facts": 0.0047,
+        "Issue": 0.0015,
+        "Reasoning": 0.9569
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "130 he uses an expression of a narrower application clearly the intention must be not to refer to every authority and every discretion exercisable by the directors under the articles.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3733,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3175,
+        "Arguments of Respondent": 0.3052,
+        "Decision": 0.0001,
+        "Facts": 0.0037,
+        "Issue": 0.0002,
+        "Reasoning": 0.3733
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 59,
+      "text": "It would indeed be a serious view to take that under Art.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9548,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0009,
+        "Facts": 0.0222,
+        "Issue": 0.0006,
+        "Reasoning": 0.9548
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "130 the directors could leave it to the manager to exercise the discretion or exercise the authority which the articles require they should exercise, and nothing is more patent than this that the contract between the company and the shareholders which is embodied in the articles requires that the directors must exercise their discretion and decide whether a call should be made at all and the amount of the call and the time when the call should be made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9368,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0253,
+        "Arguments of Respondent": 0.0172,
+        "Decision": 0.0001,
+        "Facts": 0.0204,
+        "Issue": 0.0002,
+        "Reasoning": 0.9368
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "We refuse to countenance the contention that such a power could be delegated by the directors to the manager or to any one else.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0542,
+        "Arguments of Respondent": 0.0354,
+        "Decision": 0.0002,
+        "Facts": 0.0253,
+        "Issue": 0.0004,
+        "Reasoning": 0.8846
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "But really in a sense this argument is academic.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0583,
+        "Arguments of Respondent": 0.0237,
+        "Decision": 0.0009,
+        "Facts": 0.0448,
+        "Issue": 0.0015,
+        "Reasoning": 0.8709
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "We only noticed it because it was strenuously urged before us, because as we have already pointed out, even Mr. Engineer concedes that even though there may be a power of delegation under Art.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9349,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0295,
+        "Arguments of Respondent": 0.0168,
+        "Decision": 0.0003,
+        "Facts": 0.0172,
+        "Issue": 0.0014,
+        "Reasoning": 0.9349
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "130 of the widest character when we look at Art. 18 and read it with Art. 19, a call can only be made by a resolution of the directors, and there fore as far as the making of the call is concerned that is a power or a discretion or an authority I which cannot be delegated to the manager or to any one else.12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0638,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0001,
+        "Facts": 0.0238,
+        "Issue": 0.0008,
+        "Reasoning": 0.8902
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "It is then urged that when we look at the second resolution of 2261948, in effect the directors have fixed the time for payment, and therefore even on the assumption that the fixing of time is essential for the validity of a resolution of call, the requirement is satisfied.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1984,
+        "Arguments of Respondent": 0.6968,
+        "Decision": 0.0002,
+        "Facts": 0.0043,
+        "Issue": 0.0005,
+        "Reasoning": 0.0998
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "One thing is clear that the directors could not make up their minds as to whether the call should be paid in one sum or by instalments and the time of the payment of instalments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8687,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0004,
+        "Facts": 0.113,
+        "Issue": 0.001,
+        "Reasoning": 0.8687
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "What is urged is that we must look at the second part of the resolution which resolves that the draft notice be finalised in consultation with the companys solicitors, and what is pointed out is that the evidence of Mr. Samant is that the draft notice which was placed before the board of directors was on the basis of call being paid by instalments and also mentioned the time when these instalments should be paid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6096,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1824,
+        "Arguments of Respondent": 0.1771,
+        "Decision": 0.0002,
+        "Facts": 0.03,
+        "Issue": 0.0008,
+        "Reasoning": 0.6096
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "We will accept the evidence of Mr. Samant  there is no reason why we should not , but even accepting that evidence it is impossible to take the view that the board of directors on 2261948 accepted the basis of that notice and concurred with the view of the manager which seemed to have been given expression to in the draft notice that the call should be made by instalments and the time when the instalments should be paid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9497,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0209,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.0002,
+        "Facts": 0.0132,
+        "Issue": 0.0002,
+        "Reasoning": 0.9497
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "If that had been the position, there was no reason why the resolution of 2261948 should have proclaimed to the world the disagreement among the directors, nor was it necessary to resolve that the draft notice should be finalised in consultation with the companys solicitors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0517,
+        "Arguments of Respondent": 0.0741,
+        "Decision": 0.0003,
+        "Facts": 0.0224,
+        "Issue": 0.0001,
+        "Reasoning": 0.8514
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "If the basis of the draft notice was accepted, nothing was simpler than to pass a resolution approving of the draft.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7896,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0512,
+        "Arguments of Respondent": 0.0781,
+        "Decision": 0.0004,
+        "Facts": 0.0803,
+        "Issue": 0.0004,
+        "Reasoning": 0.7896
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "But that was not done precisely because the draft was not approved.13.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5809,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0641,
+        "Arguments of Respondent": 0.0742,
+        "Decision": 0.0017,
+        "Facts": 0.2787,
+        "Issue": 0.0005,
+        "Reasoning": 0.5809
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "There is further confusion caused by this resolution because it does not state who is to finalise the notice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8956,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0117,
+        "Decision": 0.0041,
+        "Facts": 0.0713,
+        "Issue": 0.0002,
+        "Reasoning": 0.8956
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "Mr. Samant does suggest that he was given to understand that he had to go to the solicitors and get the notice finalised.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6051,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2081,
+        "Arguments of Respondent": 0.1578,
+        "Decision": 0.0169,
+        "Facts": 0.0118,
+        "Issue": 0.0004,
+        "Reasoning": 0.6051
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "But the expression finalised can only refer to the form and not to the substance.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8853,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0304,
+        "Decision": 0.0049,
+        "Facts": 0.0657,
+        "Issue": 0.0004,
+        "Reasoning": 0.8853
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "This part of the resolution does not seem to have left it to the manager to decide the substance of the notice or to resolve the conflict which was present among the directors as to whether the call should be paid in one amount or by instalments.",
+      "predicted_label": "Facts",
+      "confidence": 0.5321,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0002,
+        "Facts": 0.5321,
+        "Issue": 0.0006,
+        "Reasoning": 0.4608
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 76,
+      "text": "Therefore, if only the finalising in the sense of settling the proper form was left to the manager, then it is clear that the resolution expected the notice to come back to the directors for their imprimatur.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0377,
+        "Arguments of Respondent": 0.0464,
+        "Decision": 0.0002,
+        "Facts": 0.0835,
+        "Issue": 0.0002,
+        "Reasoning": 0.832
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "The most curious feature of this case is that at no time did the directors ever express their approval to the substance contained in the notice, substance of the most vital importance, substance with regard to the payment of the call by instalments, substance with regard to the time at which Chose instalments were to be paid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8228,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0009,
+        "Facts": 0.1691,
+        "Issue": 0.0007,
+        "Reasoning": 0.8228
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "But what we are dealing with here is the resolution which is before us and which speaks for itself.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9258,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0147,
+        "Decision": 0.0003,
+        "Facts": 0.0462,
+        "Issue": 0.0006,
+        "Reasoning": 0.9258
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "We are not concerned with any authority that the directors might have given to the manager independently of this resolution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.91,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0005,
+        "Facts": 0.0624,
+        "Issue": 0.0003,
+        "Reasoning": 0.91
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "It was therefore not a formal matter for the directors to decide that the notice should be issued.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0712,
+        "Arguments of Respondent": 0.0808,
+        "Decision": 0.0005,
+        "Facts": 0.0569,
+        "Issue": 0.0002,
+        "Reasoning": 0.7904
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "Having failed to agree on a substantial question, having directed the manager, assuming it was the manager, to finalise the notice in consultation with the Companys solicitors, it was essential that the board of directors, after the notice was finalised, should direct the manager to issue the notice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6374,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1597,
+        "Arguments of Respondent": 0.1804,
+        "Decision": 0.0005,
+        "Facts": 0.0217,
+        "Issue": 0.0003,
+        "Reasoning": 0.6374
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "Therefore, in this case this is not a mere technicality but something which goes to the root of the matter because it shows clearly that the directors never applied their minds to the question of the call being payable by instalments or the time when the instalments should be paid.14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0189,
+        "Decision": 0.0001,
+        "Facts": 0.0092,
+        "Issue": 0.0001,
+        "Reasoning": 0.9549
+      }
+    },
+    {
+      "sentence_id": 83,
+      "text": "Therefore, in our opinion, on the terms of this resolution, even assuming it was open to the directors to delegate to the manager the fixing of the time and the decision with regard to instalments, there is no clear delegation established on the terms of this resolution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9223,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0002,
+        "Facts": 0.0571,
+        "Issue": 0.0001,
+        "Reasoning": 0.9223
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "If the power of delegation is to be exercises, it must be clearly exercised.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7921,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1468,
+        "Arguments of Respondent": 0.0503,
+        "Decision": 0.0004,
+        "Facts": 0.0093,
+        "Issue": 0.0012,
+        "Reasoning": 0.7921
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "If the directors do not wish to do what the articles require them to do and leave the doing of it to some one else, they must clearly resolve to that effect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7243,
+      "probabilities": {
+        "Arguments of Petitioner": 0.082,
+        "Arguments of Respondent": 0.0382,
+        "Decision": 0.0005,
+        "Facts": 0.1543,
+        "Issue": 0.0006,
+        "Reasoning": 0.7243
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "We see nothing in the resolution of 2261948 to indicate that the directors, assuming they had the power of delegation, delegated to the manager not only the finalising of the notice in the sense of seeing that it was in proper form, but the substance of the matter that he was to decide whether the call was payable by instalments and the time when the instalments were to be paid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9631,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0002,
+        "Facts": 0.0223,
+        "Issue": 0.0002,
+        "Reasoning": 0.9631
+      }
+    },
+    {
+      "sentence_id": 87,
+      "text": "Therefore, the notice issued by the manager was without authority.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2367,
+        "Arguments of Respondent": 0.1465,
+        "Decision": 0.0061,
+        "Facts": 0.2828,
+        "Issue": 0.0007,
+        "Reasoning": 0.3273
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 88,
+      "text": "Therefore, even on this narrow ground apart from the more important ground that we have considered, there was no authority in the manager, no authority given to him by the directors, to Issue a notice calling upon the share holders to pay the call by instalments and the time when those instalments should be paid.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0141,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0003,
+        "Facts": 0.0106,
+        "Issue": 0.0001,
+        "Reasoning": 0.966
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "Another point has been urged by Mr. Desai to which a passing reference might be made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3509,
+        "Arguments of Respondent": 0.1614,
+        "Decision": 0.0014,
+        "Facts": 0.0031,
+        "Issue": 0.0017,
+        "Reasoning": 0.4815
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 90,
+      "text": "The original resolution of 331948 as already pointed out required that a notice of one month should be given to all the B class shareholders to pay the call, and Mr. Desai points out that when in fact the notice came to be given on the 7th/9th July 1948 the shareholder was called upon to pay the first instalment on 581948 which gave him less than one months notice.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6828,
+        "Arguments of Respondent": 0.0554,
+        "Decision": 0.0004,
+        "Facts": 0.0056,
+        "Issue": 0.0002,
+        "Reasoning": 0.2556
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "It was attempted to be argued by Mr. Engineer that in law the shareholder could only be proceeded against when he had failed to pay the last instalment and no liability would arise till the date fixed for the payment of the last instalment, and on that basis it was sought to be argued that the notice of the 7th/9th July really required the payment in law on 5111948 and not 581948, and therefore the notice was a proper notice.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1031,
+        "Arguments of Respondent": 0.4928,
+        "Decision": 0.0001,
+        "Facts": 0.0306,
+        "Issue": 0.0004,
+        "Reasoning": 0.373
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 92,
+      "text": "Mr. Desai has rightly drawn our attention to the articles, which require calls payable by instalments to be paid at the due date of every instalment and he has also pointed out that not only is there a liability upon the shareholder to pay the instalment on the due date, but the consequence of not paying the instalment on the due date is the liability to have his shares forfeited.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6182,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3009,
+        "Arguments of Respondent": 0.0728,
+        "Decision": 0.0014,
+        "Facts": 0.0066,
+        "Issue": 0.0002,
+        "Reasoning": 0.6182
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 93,
+      "text": "Therefore, whatever the decisions on which Mr. Engineer relies lay down  and those decisions would only be true with reference to the particular articles there on the articles that we have before us it is clear that there is a liability upon the shareholder to pay the first instalment on the due date and that liability could have been enforced by the companyand therefore Mr. Desai is right that one months notice was not given to pay the first instalment and to that extent the notice failed to carry out the mandate given by the resolution of 331948.There are two answers given by Mr. Engineer to this contention.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0292,
+        "Arguments of Respondent": 0.0717,
+        "Decision": 0.0004,
+        "Facts": 0.0103,
+        "Issue": 0.0005,
+        "Reasoning": 0.8879
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "One is that even assuming the notice with regard to the first instalment is insufficient, there is no answer with regard to the notice to the second, third and fourth instalments which are all made payable more than one month after the notice, and Mr. Engineer also relied on certain English cases for the purpose of contending that a notice which is irregular does not invalidate the call.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4645,
+        "Arguments of Respondent": 0.2864,
+        "Decision": 0.0002,
+        "Facts": 0.0116,
+        "Issue": 0.0005,
+        "Reasoning": 0.237
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 95,
+      "text": "We should have thought on first principle that a requirement with regard to a notice being a concession given to the shareholder by the articles, that concession may be waived, but if it is not waived the requirement of the notice must be strictly complied with, and as no plea has been made here of a waiver of the notice by the shareholder, it is difficult to understand how if the notice is bad the Court could uphold the claim for the call.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9404,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0182,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0003,
+        "Facts": 0.0229,
+        "Issue": 0.0004,
+        "Reasoning": 0.9404
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "But in our opinion, it is unnecessary to decide the rather interesting question raised by counsel at the Bar.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.02,
+        "Decision": 0.0103,
+        "Facts": 0.0121,
+        "Issue": 0.0022,
+        "Reasoning": 0.934
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "Some faint suggestion was also made by Mr. Engineer that the doctrine of ratification would come into play in this case and the doctrine of ratification is relied upon by reason of a resolution to which we have not yet referred, which was passed by the board of directors on 1291949, and that resolution considered the notice issued by the manager on the 7th/9th July 1948 and resolved to adopt and ratify the said notice in the manner, mode and time of recovering the said unpaid balance of Rs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.126,
+        "Arguments of Respondent": 0.3183,
+        "Decision": 0.0003,
+        "Facts": 0.01,
+        "Issue": 0.0005,
+        "Reasoning": 0.5448
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "Therefore, this was the first time, on 1291949, that the directors in their wisdom considered the notice which had been issued as far back as the 7th/9th July 1948.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0262,
+        "Arguments of Respondent": 0.0289,
+        "Decision": 0.0008,
+        "Facts": 0.3747,
+        "Issue": 0.0004,
+        "Reasoning": 0.569
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "It will be noticed that what has been ratified is the notice and the manner, mode and time of recovering the unpaid balance of Rs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9337,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0006,
+        "Facts": 0.0471,
+        "Issue": 0.0007,
+        "Reasoning": 0.9337
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "In that case the persons with the requisite authority may adopt the resolution validly passed and thereby ratify it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0428,
+        "Arguments of Respondent": 0.0245,
+        "Decision": 0.0003,
+        "Facts": 0.0079,
+        "Issue": 0.0016,
+        "Reasoning": 0.923
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "But where the objection to the resolution is not the wanting of authority i but illegality in the very making of it, in the very passing of it, then it is impossible to accept Mr. Engineers contention that the doctrine of ratification can validate a resolution which when it was passed was invalid.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9256,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0281,
+        "Arguments of Respondent": 0.0318,
+        "Decision": 0.0001,
+        "Facts": 0.0137,
+        "Issue": 0.0007,
+        "Reasoning": 0.9256
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "Under the circumstances we are of the opinion that the call was not validly made and the learned Judge below was right in dismissing the plaintiffs suit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.2992,
+        "Facts": 0.0125,
+        "Issue": 0.0007,
+        "Reasoning": 0.6818
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 103,
+      "text": "The result will be that the appeal is dismissed with costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9952,
+        "Facts": 0.0014,
+        "Issue": 0.0001,
+        "Reasoning": 0.003
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "Appeal dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.9958,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0022
+      }
+    }
+  ]
+}

@@ -1,0 +1,1310 @@
+{
+  "case_id": "7089",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This Petition under Article 226 of the Constitution of India is directed against an order passed by the Debts Recovery Appellate Tribunal on 6 October 2010.",
+      "predicted_label": "Issue",
+      "confidence": 0.8826,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0017,
+        "Facts": 0.1141,
+        "Issue": 0.8826,
+        "Reasoning": 0.001
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The order of the Appellate Tribunal was delivered in an Appeal filed by the Bank against an order by which the Tribunal had held that the Bank had unlawfully taken possession of a secured asset on 28 July 2010 under Section 13 (4) of the Securitisation and Reconstruction of Financial Assets and Enforcement of Security Interest Act, 2002.",
+      "predicted_label": "Facts",
+      "confidence": 0.4752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0021,
+        "Facts": 0.4752,
+        "Issue": 0.4563,
+        "Reasoning": 0.0522
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 2,
+      "text": "The Tribunal had directed redelivery of possession to the mortgagor, of the secured asset.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3401,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2013,
+        "Arguments of Respondent": 0.1433,
+        "Decision": 0.0245,
+        "Facts": 0.2684,
+        "Issue": 0.0223,
+        "Reasoning": 0.3401
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 3,
+      "text": "The Appellate Tribunal came to the conclusion that service of the notice under Section 13(2) had been validly effected and that the notice of possession under Section 13(4) was valid.",
+      "predicted_label": "Facts",
+      "confidence": 0.9371,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0002,
+        "Facts": 0.9371,
+        "Issue": 0.0166,
+        "Reasoning": 0.0427
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "However, the Appellate Tribunal came to the conclusion that the notice of sale was not validly issued.",
+      "predicted_label": "Facts",
+      "confidence": 0.9179,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0005,
+        "Facts": 0.9179,
+        "Issue": 0.0044,
+        "Reasoning": 0.0705
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Hence, the Appellate Tribunal came to the conclusion that the action of the Bank upto the stage of the publication of the possession notice under Rule 8(2) was valid.",
+      "predicted_label": "Facts",
+      "confidence": 0.9577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0001,
+        "Facts": 0.9577,
+        "Issue": 0.0018,
+        "Reasoning": 0.0373
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "The Bank has been permitted to proceed in the matter from the stage of Rule 8(5) of the Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3454,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2466,
+        "Arguments of Respondent": 0.2599,
+        "Decision": 0.0061,
+        "Facts": 0.1406,
+        "Issue": 0.0015,
+        "Reasoning": 0.3454
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The order passed by the Tribunal for the redelivery of possession of the secured asset to the mortgagor has been set aside.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.6577,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0169,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0059,
+        "Facts": 0.6577,
+        "Issue": 0.3114,
+        "Reasoning": 0.0066
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "In these proceedings the First Petitioner is a private limited company and is the borrower to whom credit facilities have been extended by the First Respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.6622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0006,
+        "Facts": 0.6622,
+        "Issue": 0.3319,
+        "Reasoning": 0.0039
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The Second Petitioner is a guarantor and mortgagor of a residential flat being Flat No.7A/8A, Suneeta Apartments, Ridge Road, Malabar Hill, Mumbai.",
+      "predicted_label": "Facts",
+      "confidence": 0.9899,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9899,
+        "Issue": 0.0015,
+        "Reasoning": 0.0065
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "On 17 May 2010 the Bank issued a notice under Section 13(2).",
+      "predicted_label": "Facts",
+      "confidence": 0.9206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0203,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0001,
+        "Facts": 0.9206,
+        "Issue": 0.0027,
+        "Reasoning": 0.0408
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The notice was issued in the name of a Director of the First Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.6787,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0312,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0007,
+        "Facts": 0.6787,
+        "Issue": 0.0109,
+        "Reasoning": 0.2674
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "The notice was acknowledged by the Second Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9186,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0103,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0004,
+        "Facts": 0.9186,
+        "Issue": 0.004,
+        "Reasoning": 0.0609
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The acknowledgment also bore the rubber stamp of the First Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.8618,
+      "probabilities": {
+        "Arguments of Petitioner": 0.021,
+        "Arguments of Respondent": 0.0097,
+        "Decision": 0.001,
+        "Facts": 0.8618,
+        "Issue": 0.0019,
+        "Reasoning": 0.1046
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "On 9 June 2010 the First Petitioner, as the borrower, replied to the notice.",
+      "predicted_label": "Facts",
+      "confidence": 0.9926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9926,
+        "Issue": 0.0011,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Following the reply, the Bank served a notice of possession dated 28 July 2010 under Section 13(4).",
+      "predicted_label": "Facts",
+      "confidence": 0.9505,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0002,
+        "Facts": 0.9505,
+        "Issue": 0.0044,
+        "Reasoning": 0.0335
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The notice was served at the premises on Murugan Pillai, an employee of the First Petitioner, holding the designation of ManagerAccounts.",
+      "predicted_label": "Facts",
+      "confidence": 0.8906,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0039,
+        "Decision": 0.0004,
+        "Facts": 0.8906,
+        "Issue": 0.0004,
+        "Reasoning": 0.095
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "An application was filed by the Petitioners before the Debts Recovery Tribunal under Section 17.",
+      "predicted_label": "Facts",
+      "confidence": 0.9644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0057,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0002,
+        "Facts": 0.9644,
+        "Issue": 0.003,
+        "Reasoning": 0.025
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The Tribunal by its judgment dated 29 June 2010 allowed the application and, while setting aside the taking over of possession, directed that possession shall be redelivered to the Petitioners.",
+      "predicted_label": "Facts",
+      "confidence": 0.9858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9858,
+        "Issue": 0.0053,
+        "Reasoning": 0.0061
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The Tribunal held that the measure which has been adopted by the Bank under Section 13(4) was unlawful for want of service of a notice of possession on the Second Petitioner and for failure to separately publish a possession and sale notice.",
+      "predicted_label": "Facts",
+      "confidence": 0.9423,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0002,
+        "Facts": 0.9423,
+        "Issue": 0.0052,
+        "Reasoning": 0.0463
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The Tribunal also entered into a finding of fact that possession was unlawfully taken by the Bank in a forcible manner without seeking recourse to the remedy provided under Section 14 of moving the Chief Metropolitan Magistrate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4294,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3486,
+        "Arguments of Respondent": 0.0767,
+        "Decision": 0.003,
+        "Facts": 0.1398,
+        "Issue": 0.0025,
+        "Reasoning": 0.4294
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "However, the Tribunal clarified that the final decision did not rest on that ground since independently the Tribunal was of the view that the measure under Section 13(4) was flawed for want of service of a notice of possession.",
+      "predicted_label": "Facts",
+      "confidence": 0.6737,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0368,
+        "Arguments of Respondent": 0.0166,
+        "Decision": 0.0009,
+        "Facts": 0.6737,
+        "Issue": 0.0018,
+        "Reasoning": 0.2702
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The order of the Tribunal has been confirmed in part by the Debts Recovery Appellate Tribunal in so far as the invalidity of the sale notice is concerned.",
+      "predicted_label": "Facts",
+      "confidence": 0.8226,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0045,
+        "Decision": 0.0014,
+        "Facts": 0.8226,
+        "Issue": 0.0991,
+        "Reasoning": 0.0658
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The Appellate Tribunal held that (i) There was delivery and service of the possession notice under Rule 8(1) on the Second Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.977,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0002,
+        "Facts": 0.977,
+        "Issue": 0.0027,
+        "Reasoning": 0.0162
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The finding of the Tribunal on this point was reversed.",
+      "predicted_label": "Facts",
+      "confidence": 0.6595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0207,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0007,
+        "Facts": 0.6595,
+        "Issue": 0.0024,
+        "Reasoning": 0.3055
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "(ii) The publication of the possession notice in the newspaper on 3 August 2010 under Rule 8(2) was lawful and the finding on that issue of the Tribunal was reversed (iii) The finding of the Tribunal that the sale notice published on 3 August 2010 was unlawful was upheld.",
+      "predicted_label": "Facts",
+      "confidence": 0.8649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0078,
+        "Arguments of Respondent": 0.0042,
+        "Decision": 0.0006,
+        "Facts": 0.8649,
+        "Issue": 0.0958,
+        "Reasoning": 0.0268
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "It is in that view of the matter that while setting aside the order of the Tribunal for the redelivery of possession, the Appellate Tribunal has permitted the Bank to proceed in accordance with law from the stage under Rule 8(5) of the Rules.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.8587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0444,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.0016,
+        "Facts": 0.8587,
+        "Issue": 0.0019,
+        "Reasoning": 0.0668
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "These proceedings have been initiated before the Court by the borrower, the First Petitioner and by the guarantor and mortgagor, the Second Petitioner.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.8866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0005,
+        "Facts": 0.8866,
+        "Issue": 0.1102,
+        "Reasoning": 0.0016
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Counsel appearing for the Petitioners urged the following submissions(i) The notice under Section 13(2) was not validly served on the First Petitioner(ii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9802,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0003,
+        "Facts": 0.0087,
+        "Issue": 0.0023,
+        "Reasoning": 0.0063
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The reply to the representation filed by the Petitioners against the notice under Section 13(2) was not dealt with by the Bank within a period of one week as required by subsection (3A) of Section 13(iii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5672,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5672,
+        "Arguments of Respondent": 0.0664,
+        "Decision": 0.0007,
+        "Facts": 0.3247,
+        "Issue": 0.0025,
+        "Reasoning": 0.0385
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "No notice of possession was validly served on the Second Petitioner who is the owner or on the First Petitioner who is the borrower.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4653,
+        "Arguments of Respondent": 0.1843,
+        "Decision": 0.0097,
+        "Facts": 0.1791,
+        "Issue": 0.0074,
+        "Reasoning": 0.1541
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "The Bank had while taking possession acted contrary to law by taking forcible possession without moving the Chief Metropolitan Magistrate under Section 14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3275,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2912,
+        "Arguments of Respondent": 0.2814,
+        "Decision": 0.01,
+        "Facts": 0.0855,
+        "Issue": 0.0044,
+        "Reasoning": 0.3275
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 32,
+      "text": "Possession was not handed over voluntarily as is found by the Debts Recovery Tribunal in its judgment.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.6036,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1415,
+        "Arguments of Respondent": 0.1372,
+        "Decision": 0.0012,
+        "Facts": 0.6036,
+        "Issue": 0.0009,
+        "Reasoning": 0.1158
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "On the other hand, it has been urged on behalf of the First Respondents that(i)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9704,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0138,
+        "Arguments of Respondent": 0.9704,
+        "Decision": 0.0001,
+        "Facts": 0.0053,
+        "Issue": 0.0003,
+        "Reasoning": 0.01
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The finding of fact which has been recorded by the Appellate Tribunal is that there was valid service of the notice under Section 13(2) and of the possession notice under Section 13(4).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0155,
+        "Arguments of Respondent": 0.0216,
+        "Decision": 0.0046,
+        "Facts": 0.0857,
+        "Issue": 0.0006,
+        "Reasoning": 0.872
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The notice under Section 13(2) was served as contemplated by Rule 3(1), whereas the possession notice was delivered validly as contemplated by Rule 8(1)(ii)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3488,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2048,
+        "Arguments of Respondent": 0.3488,
+        "Decision": 0.0025,
+        "Facts": 0.1351,
+        "Issue": 0.0054,
+        "Reasoning": 0.3034
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 36,
+      "text": "The First Petitioner, it is an admitted position, is a closely held private limited company of which the Second Petitioner and her spouse are directors.",
+      "predicted_label": "Facts",
+      "confidence": 0.8556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0002,
+        "Facts": 0.8556,
+        "Issue": 0.0033,
+        "Reasoning": 0.1224
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "Both the Second Petitioner as well as her spouse are guarantors.",
+      "predicted_label": "Facts",
+      "confidence": 0.6486,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0971,
+        "Arguments of Respondent": 0.0171,
+        "Decision": 0.0034,
+        "Facts": 0.6486,
+        "Issue": 0.0166,
+        "Reasoning": 0.2172
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "The Second Petitioner had filed a Petition in this Court in which there is a categoric admission of the circumstance that the person on whom notice was served was her employee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2485,
+        "Arguments of Respondent": 0.1648,
+        "Decision": 0.0041,
+        "Facts": 0.0971,
+        "Issue": 0.0016,
+        "Reasoning": 0.4839
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "The person concerned is an employee of the First Petitioner upon whom other correspondence by the Bank has also been served and acknowledged.",
+      "predicted_label": "Facts",
+      "confidence": 0.4982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1655,
+        "Arguments of Respondent": 0.0436,
+        "Decision": 0.0102,
+        "Facts": 0.4982,
+        "Issue": 0.0028,
+        "Reasoning": 0.2797
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "In these circumstances, the pure finding of fact by the Debts Recovery Appellate Tribunal should not be interfered in proceedings under Article 226 of the Constitution(iii)",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3718,
+        "Arguments of Respondent": 0.4684,
+        "Decision": 0.0073,
+        "Facts": 0.1353,
+        "Issue": 0.0024,
+        "Reasoning": 0.0148
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The notice dated 17 May 2010 under Section 13(2) was, as a matter of fact, responded to and replied by the First Petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1253,
+        "Arguments of Respondent": 0.1257,
+        "Decision": 0.0058,
+        "Facts": 0.1542,
+        "Issue": 0.0043,
+        "Reasoning": 0.5847
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "Even though the reply to the representation made by the Petitioners to the notice under Section 13(2) was transmitted by the Bank beyond a period of one week, that period under Section 13 (3A) is directory and not mandatory(iv) As a matter of fact, possession was not forcibly taken by the Bank.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4954,
+        "Arguments of Respondent": 0.317,
+        "Decision": 0.0033,
+        "Facts": 0.1569,
+        "Issue": 0.0096,
+        "Reasoning": 0.0178
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "No complaint was lodged on behalf of the Petitioners in regard to the allegation that possession was forcibly taken by the Bank at any stage until the Securitisation Application was filed before the Debts Recovery Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.129,
+        "Arguments of Respondent": 0.1486,
+        "Decision": 0.0003,
+        "Facts": 0.3362,
+        "Issue": 0.0005,
+        "Reasoning": 0.3854
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "The mere fact that the Bank had addressed letters to the police authorities and sought police assistance does not give rise to the conclusion that possession was forcibly taken.8.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3145,
+        "Arguments of Respondent": 0.3713,
+        "Decision": 0.0027,
+        "Facts": 0.0841,
+        "Issue": 0.0003,
+        "Reasoning": 0.2272
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 45,
+      "text": "Subrule (1) of Rule 3 of the Security Interest (Enforcement) Rules, 2002 contemplates that the service of a demand notice under Section 13(2) shall be made by delivering or transmitting at the place where the borrower actually and voluntarily resides or carries on business or personally works for gain, by registered post with acknowledgment due, or by speed post or by courier or by any other means of transmission of documents like fax message or electronic mail.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6247,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0909,
+        "Arguments of Respondent": 0.2699,
+        "Decision": 0.0008,
+        "Facts": 0.0133,
+        "Issue": 0.0004,
+        "Reasoning": 0.6247
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "Subrule (1) of Rule 8 requires that where the secured asset is an immovable property, the authorised officer shall take or cause to be taken possession, by delivering a possession notice conforming to Appendix IV to the borrower and by affixing the notice on the property.10.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3276,
+        "Arguments of Respondent": 0.1899,
+        "Decision": 0.0008,
+        "Facts": 0.2943,
+        "Issue": 0.0014,
+        "Reasoning": 0.186
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "Now, in the present case, the notice under Section 13(2) was sent in the name of the director of the First Petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.024,
+        "Arguments of Respondent": 0.0204,
+        "Decision": 0.0008,
+        "Facts": 0.0815,
+        "Issue": 0.0005,
+        "Reasoning": 0.8727
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "The notice was acknowledged by the Second Petitioner and the acknowledgment also bears the rubber stamp of the company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8544,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0006,
+        "Facts": 0.8544,
+        "Issue": 0.0021,
+        "Reasoning": 0.1236
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The Company, as a matter of fact, replied to the notice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0532,
+        "Arguments of Respondent": 0.0855,
+        "Decision": 0.0014,
+        "Facts": 0.1258,
+        "Issue": 0.001,
+        "Reasoning": 0.7331
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "From these facts, it is abundantly clear that the notice was duly served on both the Company and on the Second Petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0138,
+        "Decision": 0.0011,
+        "Facts": 0.1143,
+        "Issue": 0.0008,
+        "Reasoning": 0.8612
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The Second Petitioner is a director of the First Petitioner which is a closely held private limited company.",
+      "predicted_label": "Facts",
+      "confidence": 0.8812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0319,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0005,
+        "Facts": 0.8812,
+        "Issue": 0.0277,
+        "Reasoning": 0.0553
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "From the material on record, it is evident that the Second Petitioner was an agent authorised to accept notice on behalf of the First Petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0372,
+        "Arguments of Respondent": 0.0244,
+        "Decision": 0.001,
+        "Facts": 0.1404,
+        "Issue": 0.0019,
+        "Reasoning": 0.7951
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "In any event, the First Petitioner has also acknowledged service of the notice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3426,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2125,
+        "Arguments of Respondent": 0.0817,
+        "Decision": 0.0256,
+        "Facts": 0.3308,
+        "Issue": 0.0069,
+        "Reasoning": 0.3426
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 54,
+      "text": "There was, therefore, valid compliance with the requirement of Section 13(2) and the Rules in regard to the service of notice under Section 13(2).11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4746,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0886,
+        "Arguments of Respondent": 0.3933,
+        "Decision": 0.0045,
+        "Facts": 0.0388,
+        "Issue": 0.0002,
+        "Reasoning": 0.4746
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 55,
+      "text": "The submission that the action that has been taken by the Bank under Section 13(4) is rendered invalid because the objections of the Petitioners to the notice under Section 13(2) were dealt with in a reply which was remitted beyond a period of one week of the receipt of the representation is without any basis.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4907,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.3431,
+        "Decision": 0.0018,
+        "Facts": 0.1324,
+        "Issue": 0.0005,
+        "Reasoning": 0.4907
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 56,
+      "text": "Following the decision of the Supreme Court in Mardia Chemicals Ltd. vs. Union of India ors., (AIR 2004 SC 2371 ) subsection (3A) was inserted by Amending Act 30 of 2004 so as to enable a borrower to make a representation or to raise an objection upon a notice under subsection (2).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0859,
+        "Arguments of Respondent": 0.1617,
+        "Decision": 0.0002,
+        "Facts": 0.2058,
+        "Issue": 0.002,
+        "Reasoning": 0.5444
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "If the secured creditor comes to the conclusion that there is no basis in the objection, reasons have to be communicated within one week of the receipt of the representation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0842,
+        "Arguments of Respondent": 0.0751,
+        "Decision": 0.0011,
+        "Facts": 0.079,
+        "Issue": 0.0015,
+        "Reasoning": 0.7591
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "A Division Bench of the Gujarat High Court has, in Bansal vs. DGM Small Industries Development Bank of India, (AIR 2009 Gujarat 100) held that the requirement that the secured creditor must communicate the reasons for nonacceptance of the representation within one week is directory in regard to the period.12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4231,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1018,
+        "Arguments of Respondent": 0.0678,
+        "Decision": 0.0003,
+        "Facts": 0.406,
+        "Issue": 0.001,
+        "Reasoning": 0.4231
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 59,
+      "text": "We are in respectful agreement with the judgment of the Gujarat High Court which holds that every prescription of a period within which an act has to be done does not constitute a prescription of a period of limitation, a failure of compliance with which would render the action invalid.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0014,
+        "Facts": 0.0158,
+        "Issue": 0.0004,
+        "Reasoning": 0.9643
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "The object of subsection (3A) is to provide an expeditious method for the disposal of objections in order to ensure that the action of the secured creditor is not held up for an unduly long period of time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9001,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0219,
+        "Arguments of Respondent": 0.0436,
+        "Decision": 0.0007,
+        "Facts": 0.0335,
+        "Issue": 0.0003,
+        "Reasoning": 0.9001
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The period of one week that is prescribed in subsection (3A) is clearly directory.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7848,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1181,
+        "Arguments of Respondent": 0.0855,
+        "Decision": 0.0005,
+        "Facts": 0.0109,
+        "Issue": 0.0002,
+        "Reasoning": 0.7848
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "That apart, the Petitioners have not established that any prejudice was caused to them by the delay on the part of the Bank in responding to the representation submitted to the notice under Section 13(2).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.0256,
+        "Decision": 0.0011,
+        "Facts": 0.0165,
+        "Issue": 0.0001,
+        "Reasoning": 0.9459
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "There is no dispute about the fact that the notice was affixed as provided.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0149,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0017,
+        "Facts": 0.3304,
+        "Issue": 0.0112,
+        "Reasoning": 0.6287
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "As regards the issue of service, from the material on record, it has emerged that the notice was acknowledged at the premises by the ManagerAccounts of the First Petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0142,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0016,
+        "Facts": 0.1236,
+        "Issue": 0.0009,
+        "Reasoning": 0.8469
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "As a matter of fact Murugan Pillai, who acknowledged the notice had also acknowledged the notice of the Bank dated 25 May 2010 to a director and guarantor of the First Petitioner which was remitted to the very same address.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2452,
+        "Arguments of Respondent": 0.089,
+        "Decision": 0.0013,
+        "Facts": 0.2788,
+        "Issue": 0.0007,
+        "Reasoning": 0.385
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 66,
+      "text": "Counsel on behalf of the Petitioners has stated before the Court that the First Petitioner is a closely held company and it is not disputed that both the Second Petitioner and her spouse are directors of the company.15.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4997,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0059,
+        "Facts": 0.2489,
+        "Issue": 0.0029,
+        "Reasoning": 0.2311
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 67,
+      "text": "On the basis of the material on the record, the Debts Recovery Appellate Tribunal was justified in coming to the conclusion that the ManagerAccounts was duly authorised to accept notice and that there was valid service of the notice upon him, before possession was taken.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0386,
+        "Decision": 0.0411,
+        "Facts": 0.0723,
+        "Issue": 0.0014,
+        "Reasoning": 0.8406
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "While acknowledging the receipt of the notice, the ManagerAccounts entered no caveat below his endorsement to the effect that he was not duly authorised to accept service of notice.",
+      "predicted_label": "Facts",
+      "confidence": 0.5213,
+      "probabilities": {
+        "Arguments of Petitioner": 0.041,
+        "Arguments of Respondent": 0.1091,
+        "Decision": 0.0012,
+        "Facts": 0.5213,
+        "Issue": 0.0007,
+        "Reasoning": 0.3267
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "The Tribunal came to the conclusion that the Bank had taken forcible possession of the property without seeking recourse to an order of the Chief Metropolitan Magistrate under Section 14.",
+      "predicted_label": "Facts",
+      "confidence": 0.774,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0008,
+        "Facts": 0.774,
+        "Issue": 0.0176,
+        "Reasoning": 0.1831
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "Our legal system is governed by the rule of law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7199,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0982,
+        "Arguments of Respondent": 0.1231,
+        "Decision": 0.0036,
+        "Facts": 0.0506,
+        "Issue": 0.0046,
+        "Reasoning": 0.7199
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "If the borrower hands over possession voluntarily to the secured creditor in pursuance of a notice under Section 13(4), it would be open to the secured creditor to take possession.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0791,
+        "Arguments of Respondent": 0.3445,
+        "Decision": 0.0006,
+        "Facts": 0.076,
+        "Issue": 0.0005,
+        "Reasoning": 0.4993
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "But, if possession is not voluntarily handed over, the secured creditor cannot take the law into his own hands and secure vacant possession by taking recourse to the police machinery.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0882,
+        "Arguments of Respondent": 0.1158,
+        "Decision": 0.0016,
+        "Facts": 0.1093,
+        "Issue": 0.0023,
+        "Reasoning": 0.6828
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "In such an event, the only remedy that is available is to seek an appropriate order from the Chief Metropolitan Magistrate, or as the case may be, the District Magistrate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5432,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2133,
+        "Arguments of Respondent": 0.2171,
+        "Decision": 0.0093,
+        "Facts": 0.0157,
+        "Issue": 0.0013,
+        "Reasoning": 0.5432
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 74,
+      "text": "Parliament has specifically authorised in subsection (2) those authorities to take or cause to be taken such steps and use or caused to be used such force as may be necessary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7525,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0644,
+        "Arguments of Respondent": 0.1606,
+        "Decision": 0.0003,
+        "Facts": 0.0219,
+        "Issue": 0.0003,
+        "Reasoning": 0.7525
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "Authorisation of the use of force for taking possession is therefore a matter which lies in the jurisdiction and power of the authorities prescribed by Section 14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6592,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0677,
+        "Arguments of Respondent": 0.2532,
+        "Decision": 0.0007,
+        "Facts": 0.019,
+        "Issue": 0.0002,
+        "Reasoning": 0.6592
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "No secured creditor can by seeking assistance of police machinery unilaterally carry out the eviction of the borrower and take over forcible possession of the secured asset.20.",
+      "predicted_label": "Facts",
+      "confidence": 0.43,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1352,
+        "Arguments of Respondent": 0.1104,
+        "Decision": 0.0023,
+        "Facts": 0.43,
+        "Issue": 0.0001,
+        "Reasoning": 0.3219
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 77,
+      "text": "Having said this, it is clear from the record, that the Debt Recovery Tribunal did, as a matter of fact enter a finding of fact that possession was forcibly taken over by a secured creditor in this case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.925,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0364,
+        "Decision": 0.003,
+        "Facts": 0.0199,
+        "Issue": 0.0005,
+        "Reasoning": 0.925
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "However, the Tribunal clarified that it was not resting its decision on that finding, since quite independently the Tribunal had come to the conclusion that the notice of possession and the sale notice were invalid.",
+      "predicted_label": "Facts",
+      "confidence": 0.5912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.0138,
+        "Decision": 0.0027,
+        "Facts": 0.5912,
+        "Issue": 0.0009,
+        "Reasoning": 0.3598
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "When an Appeal was carried by the secured creditor, the Appellate Tribunal reversed the finding of fact of the Tribunal on issues pertaining to the service and delivery of the possession notice under Rule 8(1) and the publication of the possession notice in the newspaper under Rule 8(2).",
+      "predicted_label": "Facts",
+      "confidence": 0.8551,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0119,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.001,
+        "Facts": 0.8551,
+        "Issue": 0.0016,
+        "Reasoning": 0.1069
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "The Appellate Tribunal did not consider the correctness of the finding which was arrived at by the Tribunal that forcible possession was taken by the secured creditor.21.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7043,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0456,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0038,
+        "Facts": 0.2314,
+        "Issue": 0.0002,
+        "Reasoning": 0.7043
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "In consequence, we hold, while disposing of the proceeding that the finding of the Debts Recovery Appellate Tribunal that (i) there was valid delivery and service of the possession notice under Rule 8(1) and (ii) that there was a valid publication of the possession notice in the newspaper under Rule 8(2) is confirmed.",
+      "predicted_label": "Decision",
+      "confidence": 0.7034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.7034,
+        "Facts": 0.0623,
+        "Issue": 0.0006,
+        "Reasoning": 0.2311
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "Counsel appearing for the Bank has stated that the Bank has not challenged the finding of the Appellate Tribunal that the sale notice was not published in accordance with law.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2073,
+        "Arguments of Respondent": 0.455,
+        "Decision": 0.0112,
+        "Facts": 0.1255,
+        "Issue": 0.0024,
+        "Reasoning": 0.1986
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "That part of the finding is therefore not disturbed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0321,
+        "Facts": 0.1039,
+        "Issue": 0.0003,
+        "Reasoning": 0.854
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "In the circumstances, we remit the proceeding back to the Debts Recovery Appellate Tribunal to decide the correctness of the finding of the Debts Recovery Tribunal that possession was taken from the Petitioners forcibly and without seeking recourse to the remedy under Section 14.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.2366,
+        "Facts": 0.2255,
+        "Issue": 0.0007,
+        "Reasoning": 0.5276
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "We clarify that on this aspect of the matter, we leave it open to the Debts Recovery Appellate Tribunal to render a finding after hearing the parties on all aspects.23.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0059,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.3159,
+        "Facts": 0.0434,
+        "Issue": 0.0009,
+        "Reasoning": 0.6298
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "Counsel appearing on behalf of the secured creditor has stated before the Court that an inventory has been made of all movables found in the residential flat and it would be open to the Petitioners to remove the movables.24.",
+      "predicted_label": "Facts",
+      "confidence": 0.6816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0348,
+        "Decision": 0.03,
+        "Facts": 0.6816,
+        "Issue": 0.0004,
+        "Reasoning": 0.2254
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "The Petition is accordingly allowed and the rule is made absolute to the aforesaid extent.",
+      "predicted_label": "Decision",
+      "confidence": 0.7805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.7805,
+        "Facts": 0.1704,
+        "Issue": 0.0004,
+        "Reasoning": 0.0464
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "There shall be no order as to costs.25.",
+      "predicted_label": "Decision",
+      "confidence": 0.9431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.9431,
+        "Facts": 0.0032,
+        "Issue": 0.0001,
+        "Reasoning": 0.0517
+      }
+    },
+    {
+      "sentence_id": 89,
+      "text": "In order to ensure an expeditious disposal, we request the Appellate Tribunal, subject to the exigencies of its work, to endeavour an early disposal preferably within a period of four weeks from the date of receipt of a copy of this order.",
+      "predicted_label": "Decision",
+      "confidence": 0.6884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.6884,
+        "Facts": 0.206,
+        "Issue": 0.0008,
+        "Reasoning": 0.1007
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

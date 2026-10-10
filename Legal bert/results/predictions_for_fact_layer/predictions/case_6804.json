@@ -1,0 +1,4605 @@
+{
+  "case_id": "6804",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The Petitioner, Vodafone India Services Pvt. Ltd., is a wholly owned subsidiary of a nonresident company, Vodafone TeleServices (India) Holdings Limited (the holding company).",
+      "predicted_label": "Facts",
+      "confidence": 0.9436,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0002,
+        "Facts": 0.9436,
+        "Issue": 0.0475,
+        "Reasoning": 0.0036
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The Petitioner required funds for its telecommunication services project in India from its holding company during the financial year 200809 i.e. Assessment Year (AY) 200910.",
+      "predicted_label": "Facts",
+      "confidence": 0.9909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0,
+        "Facts": 0.9909,
+        "Issue": 0.0044,
+        "Reasoning": 0.0033
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "On 21 August 2008, the Petitioner issued 2,89,224 equity shares of the face value of Rs.10/ each on a premium of Rs.8,509/ per share to its holding company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0084,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9832,
+        "Issue": 0.0011,
+        "Reasoning": 0.0061
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "This resulted in the Petitioner receiving a total consideration of Rs.246.38 crores from its holding company on issue of shares between August and November 2008.",
+      "predicted_label": "Facts",
+      "confidence": 0.8943,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0647,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0001,
+        "Facts": 0.8943,
+        "Issue": 0.0023,
+        "Reasoning": 0.0256
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The fair market value of the issue of equity shares at Rs.8,519/ per share was determined by the Petitioner in accordance with the methodology prescribed by the Government of India under the Capital Issues (Control) Act, 1947.However, according to the Assessing Officer (AO) and Transfer Pricing Officer (TPO), the Petitioner ought to have valued each equity share at Rs.53,775/ as against the aforesaid valuation done under the Capital Issues (Control) Act, 1947 at Rs.8,519/ and on that basis shortfall in premium to the extent of Rs.45,256/ per share resulted into total shortfall of Rs.1308.91 crores.",
+      "predicted_label": "Facts",
+      "confidence": 0.9794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0,
+        "Facts": 0.9794,
+        "Issue": 0.0012,
+        "Reasoning": 0.009
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Both the AO and the TPO on application of the Transfer Pricing provisions in Chapter X of the Income Tax Act 1961, (the Act) held that this amount of Rs.1308.91 crores is income.",
+      "predicted_label": "Facts",
+      "confidence": 0.9604,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9604,
+        "Issue": 0.0178,
+        "Reasoning": 0.0164
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "Nor does the Act create any legal fiction to treat such alleged shortfall in capital receipt on issue of equity shares by an Indian company to its nonresident holding company, as income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.032,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0003,
+        "Facts": 0.2774,
+        "Issue": 0.0012,
+        "Reasoning": 0.6763
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "The Petitioner also contends that consequently, there could be no question of treating the alleged shortfall as a deemed loan or taxing the alleged deemed interest on a deemed loan.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4674,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4674,
+        "Arguments of Respondent": 0.0118,
+        "Decision": 0.0008,
+        "Facts": 0.4537,
+        "Issue": 0.0162,
+        "Reasoning": 0.0501
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "In VodafoneIII, the challenge by the Petitioner was to the order dated 28 January 2013 of the TPO passed in terms of Section 92CA of the Act and the consequent draft assessment order dated 22 March 2013 passed by the AO in terms of Section 143(3) read with Section 144(C)(1) of the Act, relating to A.Y. 200910.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.6033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1489,
+        "Arguments of Respondent": 0.1319,
+        "Decision": 0.0002,
+        "Facts": 0.6033,
+        "Issue": 0.004,
+        "Reasoning": 0.1117
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The basis of the challenge in VodafoneIII was that the issue of equity shares by the Petitioner to its holding company did not give rise to any income from International Transaction, so as to attract the provisions of Chapter X of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5843,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0605,
+        "Arguments of Respondent": 0.0256,
+        "Decision": 0.0002,
+        "Facts": 0.3155,
+        "Issue": 0.0138,
+        "Reasoning": 0.5843
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "This on the ground that arising of income on account of International Transaction is a condition precedent for application of Chapter X of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2451,
+        "Arguments of Respondent": 0.1277,
+        "Decision": 0.0003,
+        "Facts": 0.2317,
+        "Issue": 0.0036,
+        "Reasoning": 0.3916
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "Thus, it was a jurisdictional issue.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5612,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1318,
+        "Arguments of Respondent": 0.1993,
+        "Decision": 0.0011,
+        "Facts": 0.1041,
+        "Issue": 0.0025,
+        "Reasoning": 0.5612
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "However, the jurisdictional issue was neither determined by the TPO or the AO in spite of the Petitioner having raised it before both the Authorities.",
+      "predicted_label": "Facts",
+      "confidence": 0.5506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2237,
+        "Arguments of Respondent": 0.0391,
+        "Decision": 0.0044,
+        "Facts": 0.5506,
+        "Issue": 0.0041,
+        "Reasoning": 0.1782
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "This Court in VodafoneIII accepted the plea of the Petitioner that a jurisdictional issue of application of Chapter X of the Act does arise and the same was not considered either by the TPO or by the AO.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2037,
+        "Arguments of Respondent": 0.1252,
+        "Decision": 0.0017,
+        "Facts": 0.0866,
+        "Issue": 0.0044,
+        "Reasoning": 0.5783
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "At that time, we did not deal with the jurisdictional issue as the Counsel for the RespondentRevenue refused to address us on merits of the jurisdictional issue on the ground that same could be raised before the authorities under the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0188,
+        "Arguments of Respondent": 0.033,
+        "Decision": 0.0247,
+        "Facts": 0.4173,
+        "Issue": 0.0402,
+        "Reasoning": 0.466
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 15,
+      "text": "Thus, as the Petitioner had already filed its objections (excluding the issue of jurisdiction) to the Draft Assessment Order, before the Dispute Resolution Panel (DRP) under Section 144C(2) of the Act and it was pending, the DRP was directed to first decide only the jurisdictional issue raised by the Petitioner as preliminary issue within two months from the date on which the Petitioner files its objection on the question of jurisdiction.",
+      "predicted_label": "Facts",
+      "confidence": 0.8962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0314,
+        "Arguments of Respondent": 0.0397,
+        "Decision": 0.0004,
+        "Facts": 0.8962,
+        "Issue": 0.0012,
+        "Reasoning": 0.0311
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Consequent to the directions of this Court in VodafoneIII, the DRP has considered the issue of jurisdiction as raised by the Petitioner and by an order dated 11 February 2014 rejected the Petitioners preliminary objection thereto.",
+      "predicted_label": "Facts",
+      "confidence": 0.6567,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0421,
+        "Arguments of Respondent": 0.2147,
+        "Decision": 0.0005,
+        "Facts": 0.6567,
+        "Issue": 0.0022,
+        "Reasoning": 0.0839
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "(a) It is an undisputed position that the holding company is an Associated Enterprise (AE) of the Petitioner for the purpose of Chapter X as defined in Section 92A of the Act(b)",
+      "predicted_label": "Facts",
+      "confidence": 0.4986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3883,
+        "Arguments of Respondent": 0.0552,
+        "Decision": 0.002,
+        "Facts": 0.4986,
+        "Issue": 0.0237,
+        "Reasoning": 0.0322
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 18,
+      "text": "The Petitioner issued 2,89,224 equity shares of a face value of Rs.10/ each at the premium of Rs.8,519/ per share to its holding company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9651,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0165,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.9651,
+        "Issue": 0.0025,
+        "Reasoning": 0.0134
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "This resulted in the Petitioner receiving at the rate of Rs.8519/ per share a total consideration of Rs.246.38 crores from its holding company on issue of shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.9231,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0299,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0001,
+        "Facts": 0.9231,
+        "Issue": 0.0027,
+        "Reasoning": 0.0349
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The Petitioner received an amount of Rs.86.93 crores on 21 August 2008 and the balance amount of Rs.159.46 crores on 5 November 2008 from its holding company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9087,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0391,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0001,
+        "Facts": 0.9087,
+        "Issue": 0.0025,
+        "Reasoning": 0.0414
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "The allotment of the 2,89,224 equity shares was made on 5 February 2009.",
+      "predicted_label": "Facts",
+      "confidence": 0.4972,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1162,
+        "Arguments of Respondent": 0.0967,
+        "Decision": 0.0011,
+        "Facts": 0.4972,
+        "Issue": 0.0035,
+        "Reasoning": 0.2854
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The Fair Market Value of the issue of equity shares was determined by the Petitioner in accordance with the methodology prescribed under the Capital Issues (Control) Act 1947(c)",
+      "predicted_label": "Facts",
+      "confidence": 0.8983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0497,
+        "Arguments of Respondent": 0.0205,
+        "Decision": 0.0002,
+        "Facts": 0.8983,
+        "Issue": 0.0013,
+        "Reasoning": 0.03
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "On 30 September 2009, the Petitioner filed its return of income for Assessment Year 200910 with the respondentrevenue.",
+      "predicted_label": "Facts",
+      "confidence": 0.9963,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9963,
+        "Issue": 0.0009,
+        "Reasoning": 0.002
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "In the said Form3CEB, the transaction of issuance of equity shares by the Petitioner to its holding company was declared as an International Transaction and also the ALP of the shares so issued, was determined.",
+      "predicted_label": "Facts",
+      "confidence": 0.9404,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0002,
+        "Facts": 0.9404,
+        "Issue": 0.0016,
+        "Reasoning": 0.0441
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "However, a note was appended to its Form 3CEB report by the Accountant making it clear that the transaction of issue of equity shares did not affect the income of the Petitioner and was being reported only as a matter of abundant caution.",
+      "predicted_label": "Facts",
+      "confidence": 0.9326,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0241,
+        "Arguments of Respondent": 0.0137,
+        "Decision": 0.0001,
+        "Facts": 0.9326,
+        "Issue": 0.0005,
+        "Reasoning": 0.029
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The company has issued 289224 equity shares of Rs.10/each fully paid at a premium of Rs.8500 per share aggregating to total consideration of Rs.2,46,38,99,016.",
+      "predicted_label": "Facts",
+      "confidence": 0.9108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0263,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0004,
+        "Facts": 0.9108,
+        "Issue": 0.0031,
+        "Reasoning": 0.0382
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "As per Section 92(1) of the Income Tax Act, 1961 any income arising shall be computed having regard to the arms length price.",
+      "predicted_label": "Facts",
+      "confidence": 0.4385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1529,
+        "Arguments of Respondent": 0.2142,
+        "Decision": 0.0025,
+        "Facts": 0.4385,
+        "Issue": 0.0006,
+        "Reasoning": 0.1912
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "This transaction of issue of equity shares does not affect income of the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.4055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1081,
+        "Arguments of Respondent": 0.1424,
+        "Decision": 0.0007,
+        "Facts": 0.4055,
+        "Issue": 0.0004,
+        "Reasoning": 0.3429
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "However, out of abundant caution, the same is reported here.(d)",
+      "predicted_label": "Facts",
+      "confidence": 0.9812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0001,
+        "Facts": 0.9812,
+        "Issue": 0.001,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "On 30 August 2010, the A.O. issued a notice under Section 143(2) of the Act to the Petitioner for the purposes of carrying out scrutiny assessment.",
+      "predicted_label": "Facts",
+      "confidence": 0.991,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0,
+        "Facts": 0.991,
+        "Issue": 0.001,
+        "Reasoning": 0.0048
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "On 11 July 2011, the AO referred all the transactions reported by the Petitioner in Form 3CEB dated 28 September 2009 to the TPO.",
+      "predicted_label": "Facts",
+      "confidence": 0.9507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0001,
+        "Facts": 0.9507,
+        "Issue": 0.0009,
+        "Reasoning": 0.0375
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "This was for determining the ALP of the reported International Transactions in accordance with Section 92CA(1) of the Act(e)",
+      "predicted_label": "Facts",
+      "confidence": 0.8406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.046,
+        "Arguments of Respondent": 0.0953,
+        "Decision": 0.0001,
+        "Facts": 0.8406,
+        "Issue": 0.0013,
+        "Reasoning": 0.0166
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "On 14 December 2012, the TPO issued a show cause notice to the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9854,
+        "Issue": 0.0008,
+        "Reasoning": 0.0095
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "In the above notice, in so far as relevant to these proceedings, the Petitioner was inter alia, called upon to show cause why(i) the issue price (including the premium) of the equity shares to its holding company as declared by the Petitioner should be accepted for the purposes of computing ALP under the Act and(ii) the ALP of the shares issued by the Petitioner to its holding company be not determined on the basis of its Net Asset Value (in short NAV), after taking into account the transfer pricing adjustment for the Assessment Years 200708 and 200809.",
+      "predicted_label": "Facts",
+      "confidence": 0.9857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0,
+        "Facts": 0.9857,
+        "Issue": 0.0004,
+        "Reasoning": 0.0101
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The above adjustment would result in the NAV being enhanced from Rs.12,341.80 millions to Rs.75,564.28 millions.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0733,
+        "Arguments of Respondent": 0.7637,
+        "Decision": 0.0005,
+        "Facts": 0.0613,
+        "Issue": 0.0034,
+        "Reasoning": 0.0978
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "This would result in the ALP per share being enhanced leading to a price adjustment of Rs.2034.95 crores to arrive at the ALP of the equity shares.(f)",
+      "predicted_label": "Facts",
+      "confidence": 0.6649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1679,
+        "Arguments of Respondent": 0.1012,
+        "Decision": 0.0002,
+        "Facts": 0.6649,
+        "Issue": 0.0006,
+        "Reasoning": 0.0652
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "The Petitioner filed its replies on 24 December 2012, 7 January 2013 and 22 January 2013 to the show cause notice issued by the TPO.",
+      "predicted_label": "Facts",
+      "confidence": 0.9854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0001,
+        "Facts": 0.9854,
+        "Issue": 0.0007,
+        "Reasoning": 0.0095
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The Petitioner in all its replies contended that Chapter X i.e. Transfer Pricing provisions do not apply to the issue of equity shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.6086,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2686,
+        "Arguments of Respondent": 0.0546,
+        "Decision": 0.0004,
+        "Facts": 0.6086,
+        "Issue": 0.0006,
+        "Reasoning": 0.0672
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "Therefore, it was contended that the notice was completely without jurisdiction as Chapter X of the Act is inapplicable.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4738,
+        "Arguments of Respondent": 0.1618,
+        "Decision": 0.0008,
+        "Facts": 0.2596,
+        "Issue": 0.0052,
+        "Reasoning": 0.0989
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "It was also clarified that the replies should not be construed as submitting to jurisdiction under Chapter X of the Act(g)",
+      "predicted_label": "Facts",
+      "confidence": 0.9405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0222,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0004,
+        "Facts": 0.9405,
+        "Issue": 0.0003,
+        "Reasoning": 0.0174
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "On 28 January 2013, the TPO passed the impugned order, inter alia, recording the following(i) The issue of equity shares is an International Transaction governed by Chapter X of the Act as is evident from Form 3 CEB dated 28 September 2009 filed by the Petitioner(ii)",
+      "predicted_label": "Facts",
+      "confidence": 0.99,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.99,
+        "Issue": 0.001,
+        "Reasoning": 0.0059
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The transaction was an International Transaction as is evident from the Explanation (i)(c) and (e) to Section 92 B of the Act, which provides that capital financing and restructuring of business would be so(iii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6281,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6281,
+        "Arguments of Respondent": 0.1918,
+        "Decision": 0.0005,
+        "Facts": 0.1501,
+        "Issue": 0.0014,
+        "Reasoning": 0.0282
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "The issue whether any Income has arisen and or affected by the International Transaction for purposes of Chapter X of the Act would be determined by the A.O.",
+      "predicted_label": "Facts",
+      "confidence": 0.6738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0265,
+        "Arguments of Respondent": 0.0128,
+        "Decision": 0.0014,
+        "Facts": 0.6738,
+        "Issue": 0.0091,
+        "Reasoning": 0.2764
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "The jurisdiction exercised by TPO is only to determine the ALP of International Transactions and not compute and or assess the income arising out of such International Transactions(iv)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8354,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8354,
+        "Arguments of Respondent": 0.0752,
+        "Decision": 0.0008,
+        "Facts": 0.0787,
+        "Issue": 0.0025,
+        "Reasoning": 0.0074
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "The consequence of issue of shares by the Petitioner to its holding company at a lower premium resulted in the Petitioner subsidizing the price payable by the holding company.",
+      "predicted_label": "Facts",
+      "confidence": 0.531,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2243,
+        "Arguments of Respondent": 0.1538,
+        "Decision": 0.0004,
+        "Facts": 0.531,
+        "Issue": 0.0019,
+        "Reasoning": 0.0886
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "This deficit would be a loan extended by the Petitioner to its holding company and such loan would have bearing on the profit of the assessee in terms of interest(v) The ALP of the issue of equity shares by the Petitioner to its holding company as determined by the Accountant under Section 92E of the Act was rejected.",
+      "predicted_label": "Facts",
+      "confidence": 0.9284,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0321,
+        "Arguments of Respondent": 0.016,
+        "Decision": 0.0002,
+        "Facts": 0.9284,
+        "Issue": 0.001,
+        "Reasoning": 0.0223
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "This on the ground that methodology of valuation adopted is not suitable to derive the ALP(vi)",
+      "predicted_label": "Facts",
+      "confidence": 0.8168,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0888,
+        "Arguments of Respondent": 0.0204,
+        "Decision": 0.0041,
+        "Facts": 0.8168,
+        "Issue": 0.0006,
+        "Reasoning": 0.0692
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "The Transfer Pricing adjustment for the A.Y.s 200708 and 200809 have to be taken into account to determine the fair value of the Petitioners business(vii)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.623,
+        "Arguments of Respondent": 0.0163,
+        "Decision": 0.0007,
+        "Facts": 0.3433,
+        "Issue": 0.0018,
+        "Reasoning": 0.015
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "Finally, the TPO determined the ALP of equity shares issued by the Petitioner to its holding company as under 7.5 Determination of Arms Length PriceThus, based on the above discussion, the ALP of equity shares of the company as on 31032008 is computed as belowDescriptionAmount (Rs. Million)Number Amount (Rs.)Remarks(a)Networth of the assessee company based on audited balance sheet as on 3103200812341.8 As per the audited balance sheet of the assessee as on 31032008(b)Add OffBalance sheet items (for TP adjustment made in the earlier years, ALP valuation of sale of call centre business and ALP of assignment of call options) i. Shortfall (net of taxes) in charging for provision of IT enabled services for FY 200607331.53 As per information available in the order of the TPO for the FY 200708(c)ii.",
+      "predicted_label": "Facts",
+      "confidence": 0.9894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9894,
+        "Issue": 0.0005,
+        "Reasoning": 0.0058
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "Thus, the above shortfall of Rs.1308,91,21,344/ is treated as transfer pricing adjustment for the price charged by the assessee in these International Transactions in the nature of issue of equity shares.(viii)",
+      "predicted_label": "Facts",
+      "confidence": 0.795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0328,
+        "Arguments of Respondent": 0.0912,
+        "Decision": 0.0005,
+        "Facts": 0.795,
+        "Issue": 0.0004,
+        "Reasoning": 0.0802
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The short fall in the value of shares issued by the Petitioner to its holding company was treated as a deemed loan by the Petitioner to its holding company.",
+      "predicted_label": "Facts",
+      "confidence": 0.6367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.094,
+        "Arguments of Respondent": 0.0785,
+        "Decision": 0.0003,
+        "Facts": 0.6367,
+        "Issue": 0.0014,
+        "Reasoning": 0.1891
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "This deemed loan was sought to be charged with interest at 13.5 per annum.",
+      "predicted_label": "Facts",
+      "confidence": 0.9291,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0001,
+        "Facts": 0.9291,
+        "Issue": 0.0129,
+        "Reasoning": 0.0473
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "Consequently, the TPO arrived at the following transfer pricing adjustment as under 9.2.4 Computation of Arms Length PriceAmount of Deemed LoanRs.1308,91,21,344/Period6 monthsArms",
+      "predicted_label": "Facts",
+      "confidence": 0.9637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0001,
+        "Facts": 0.9637,
+        "Issue": 0.0025,
+        "Reasoning": 0.017
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Arms Length Price 13.97 p.a.Rs.88,35,15,691/9.2.5 Price Received visAvis the Arms Length PriceThe price charged by the assessee at Rs.",
+      "predicted_label": "Facts",
+      "confidence": 0.8499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.076,
+        "Arguments of Respondent": 0.03,
+        "Decision": 0.0001,
+        "Facts": 0.8499,
+        "Issue": 0.0007,
+        "Reasoning": 0.0433
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "Nil in the form of interest chargeable on the debts delayed from its Associated Enterprise is compared to the Arms Length Price or interest as underArms Length InterestRs.88,35,15,691/Interest receivedRs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.556,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1777,
+        "Arguments of Respondent": 0.1123,
+        "Decision": 0.0006,
+        "Facts": 0.1527,
+        "Issue": 0.0006,
+        "Reasoning": 0.556
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 56,
+      "text": "NilShortfall being adjustment 92CAu s Rs.88,35,15,691/The above amount of Rs.88,35,15,691/ is treated as an adjustment u s 92CA for the price chargeable as interest on the deemed loan to its AE for the F. Y. 200809.10 Summary of TP adjustmentsThe transfer pricing adjustments made in this order is summarized as belowSr.",
+      "predicted_label": "Facts",
+      "confidence": 0.9827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0004,
+        "Facts": 0.9827,
+        "Issue": 0.0005,
+        "Reasoning": 0.0124
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "No.Nature of International TransactionsAdjustment Amount (Rs.)1.Shortfall in price of shares issued to AE1308,91,21,3442.Interest on deemed loan88,35,15,691TOTAL1397,26,37,035Thus the above total amount of Rs.1397,26,37,035/ is treated as transfer pricing adjustment for the FY 200809, relevant for the AY 200910.II.",
+      "predicted_label": "Facts",
+      "confidence": 0.9502,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0002,
+        "Facts": 0.9502,
+        "Issue": 0.0004,
+        "Reasoning": 0.0344
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "(a) Consequent to the order dated 28 January 2013 of the TPO, the A.O. on 4 February 2013, issued notice to the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9773,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0002,
+        "Facts": 0.9773,
+        "Issue": 0.0004,
+        "Reasoning": 0.0158
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "The above notice under Section 142 (2) inter alia called upon the Petitioner to show cause as to why adjustment aggregating to Rs.1397.26 Crores as proposed by TPO should not be made to the total income of the Petitioner(b)",
+      "predicted_label": "Facts",
+      "confidence": 0.9829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0001,
+        "Facts": 0.9829,
+        "Issue": 0.0007,
+        "Reasoning": 0.0117
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "On 12 February 2013 and 19 March 2013, the Petitioner responded to the show cause notice dated 4 February 2013.",
+      "predicted_label": "Facts",
+      "confidence": 0.926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0229,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0011,
+        "Facts": 0.926,
+        "Issue": 0.0004,
+        "Reasoning": 0.0451
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The Petitioner submitted that the order of the TPO is without jurisdiction as the transfer pricing provisions do not apply to a transaction of issuing equity shares to its holding company.",
+      "predicted_label": "Facts",
+      "confidence": 0.5718,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3994,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0006,
+        "Facts": 0.5718,
+        "Issue": 0.0047,
+        "Reasoning": 0.0209
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "Besides, the transaction of issuing shares cannot be governed by Chapter X of the Act as no income arises and or affected by it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1777,
+        "Arguments of Respondent": 0.1067,
+        "Decision": 0.0009,
+        "Facts": 0.2171,
+        "Issue": 0.0009,
+        "Reasoning": 0.4968
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "Further, there is no occasion to recharacterize a bonafide transaction of issue of shares as deemed loan under the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6407,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1659,
+        "Arguments of Respondent": 0.1398,
+        "Decision": 0.0002,
+        "Facts": 0.0531,
+        "Issue": 0.0003,
+        "Reasoning": 0.6407
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "Thus, it was submitted that the proceeding seeking to apply Chapter X of the Act to issue of shares to its holding company is bad in law(c) On 22 March 2013, the A.O. passed the impugned Draft Assessment Order under Section 143 read with Section 144C(1) of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.5696,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3314,
+        "Arguments of Respondent": 0.0923,
+        "Decision": 0.0005,
+        "Facts": 0.5696,
+        "Issue": 0.0017,
+        "Reasoning": 0.0046
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "This without dealing with the Petitioners principal contention that Chapter X of the Act would not apply to the issue of equity shares to its holding company.",
+      "predicted_label": "Facts",
+      "confidence": 0.7428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.0192,
+        "Decision": 0.0009,
+        "Facts": 0.7428,
+        "Issue": 0.0009,
+        "Reasoning": 0.2094
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "This was not dealt with by the A.O. on the ground that in terms of Section 92CA (4) of the Act, the A.O. has to compute the total income in conformity with the ALP determined by the TPO.",
+      "predicted_label": "Facts",
+      "confidence": 0.9084,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0001,
+        "Facts": 0.9084,
+        "Issue": 0.0004,
+        "Reasoning": 0.0745
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "In view of the above, the A.O. added the entire amount of Rs.1397.26 Crores determined by the TPO to the Petitioners income(d) On 26 April 2013 the Petitioner filed its objection to the draft Assessment Order dated 22 March 2013 with the DRP under Section 144C of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9884,
+        "Issue": 0.0002,
+        "Reasoning": 0.0054
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "In its objections to DRP the Petitioner made it clear that the objection as filed was not with regard to the issue of jurisdiction but was only restricted to computation valuation quantification of ALP in respect of the issue of shares to its holding company(e) So far as the issue of jurisdiction is concerned, the Petitioner filed VodafoneIII Petition (W. P. No.1877 of 2013) in this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.9133,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0422,
+        "Arguments of Respondent": 0.0335,
+        "Decision": 0.0006,
+        "Facts": 0.9133,
+        "Issue": 0.0004,
+        "Reasoning": 0.01
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "In the above Petition, the jurisdiction of the RespondentRevenue to tax the issue of equity shares to its holding company under Chapter X of the Act was challenged.",
+      "predicted_label": "Facts",
+      "confidence": 0.9314,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0002,
+        "Facts": 0.9314,
+        "Issue": 0.0575,
+        "Reasoning": 0.0079
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "After hearing the parties, on 29 November 2013, this Court passed an order accepting the view that a jurisdictional issue arises for consideration.",
+      "predicted_label": "Facts",
+      "confidence": 0.8249,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.0208,
+        "Decision": 0.0006,
+        "Facts": 0.8249,
+        "Issue": 0.0281,
+        "Reasoning": 0.1164
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "III.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3827,
+        "Arguments of Respondent": 0.0336,
+        "Decision": 0.0825,
+        "Facts": 0.2992,
+        "Issue": 0.1684,
+        "Reasoning": 0.0335
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 72,
+      "text": "It is clear that in view of Section 92(1) , there must be income arising and or affected or potentially arising and or affected by an International Transaction for the purpose of application of Chapter X.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7829,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1188,
+        "Arguments of Respondent": 0.0334,
+        "Decision": 0.0002,
+        "Facts": 0.0624,
+        "Issue": 0.0022,
+        "Reasoning": 0.7829
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "This would appear to be in the nature of jurisdictional requirement and the Assessing officer must be satisfied that there is an income or a potential of an income arising and or being affected on determination of an ALP before he proceeds further in determining the ALP or referring the issue to the TPO to determine the ALP.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9463,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0216,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0007,
+        "Facts": 0.023,
+        "Issue": 0.0009,
+        "Reasoning": 0.9463
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "In this case, we find that the Petitioner has from the very beginning been challenging the jurisdiction to apply Chapter X on the ground that no income arises and or is affected or potentially arises and or is affected on account of issue of its shares to its holding company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0306,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.0001,
+        "Facts": 0.0818,
+        "Issue": 0.0018,
+        "Reasoning": 0.8781
+      }
+    },
+    {
+      "sentence_id": 75,
+      "text": "The Assessing officer does not deal with this objection issue before referring the matter to the TPO.",
+      "predicted_label": "Facts",
+      "confidence": 0.595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0395,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0006,
+        "Facts": 0.595,
+        "Issue": 0.0006,
+        "Reasoning": 0.3536
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "The TPO does not deal with the above objection on the ground that in terms of Section 92CA, his mandate is only to compute the ALP in relation to the International Transaction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6083,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0778,
+        "Arguments of Respondent": 0.0273,
+        "Decision": 0.0003,
+        "Facts": 0.283,
+        "Issue": 0.0033,
+        "Reasoning": 0.6083
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "The TPO in the impugned order dated 28 January 2012 meets the Petitioners objection by stating that the same would be dealt with by the Assessing Officer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5249,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0332,
+        "Arguments of Respondent": 0.0283,
+        "Decision": 0.0006,
+        "Facts": 0.4129,
+        "Issue": 0.0002,
+        "Reasoning": 0.5249
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 78,
+      "text": "However, when the same objection was raised before the Assessing Officer post the order of the TPO, the Assessing Officer does not consider the same in the impugned draft assessment order dated 22 March 2013 on the ground that in view of Section 92 CA (4), the Assessing Officer is obliged to pass an order in conformity with the ALP determined by the TPO.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1339,
+        "Arguments of Respondent": 0.0288,
+        "Decision": 0.0014,
+        "Facts": 0.3358,
+        "Issue": 0.0007,
+        "Reasoning": 0.4994
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "This jurisdictional issue has to be dealt with either by the TPO or the Assessing Officer when specifically raised by the Petitioner assessee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8174,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0718,
+        "Arguments of Respondent": 0.0486,
+        "Decision": 0.001,
+        "Facts": 0.0592,
+        "Issue": 0.0021,
+        "Reasoning": 0.8174
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "Thereafter in paragraph 52, this Court recorded as under52 The assessee is entitled to have its preliminary objections (against chargeability of the alleged short fall in share premium) dealt with.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0862,
+        "Arguments of Respondent": 0.0638,
+        "Decision": 0.0007,
+        "Facts": 0.1187,
+        "Issue": 0.0002,
+        "Reasoning": 0.7305
+      }
+    },
+    {
+      "sentence_id": 81,
+      "text": "Not a single authority has so far dealt with this issue and even the learned counsel for the revenue did not address us even briefly on merits of this controversy to show a plausible prima facie defence though the revenue sought to justify its stand in the affidavitinreply and in the written submissions after conclusion of the oral argument.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.0187,
+        "Decision": 0.0269,
+        "Facts": 0.0306,
+        "Issue": 0.0107,
+        "Reasoning": 0.8971
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "Though the Petitioner submitted that we decide the issue on merits, we have not done so for the present for all the reasons pointed out above.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.009,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.3331,
+        "Facts": 0.0701,
+        "Issue": 0.0021,
+        "Reasoning": 0.5795
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "Therefore, the submissions made on merits are not being considered by us and left open to be urged before the DRP for consideration by the DRP, but even proceeding on the basis that transaction in question is an International Transaction since the preliminary objection raised by the Petitioner raises a question of law and does not involve disputed questions of fact and having regard to how the Petitioners preliminary objection has so far not been dealt with by the Revenue, this appears to be a fit case to direct the DRP to decide the Petitioners objection regarding chargeability of alleged shortfall in share premium as a preliminary issue and further to observe that in case the decision of the DRP on the preliminary issue is adverse to the Petitioner, it would be open to the Petitionerassessee to challenge the decision of the DRP on the preliminary issue in a writ petition, in case the Petitioner makes out a case that stage that the decision of the DRP on the preliminary issue is patently illegal, notwithstanding the availability of alternate remedy before the ITAT.In paragraph 53, this Court disposed of the petition with the following directions53 (A) The Petitioner shall within two weeks from today submit before the DRP its preliminary objections to Draft Assessment Order and the TPOs order by raising jurisdictional issues.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.1322,
+        "Facts": 0.3081,
+        "Issue": 0.001,
+        "Reasoning": 0.553
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "B)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.791,
+        "Arguments of Respondent": 0.0233,
+        "Decision": 0.014,
+        "Facts": 0.1517,
+        "Issue": 0.0023,
+        "Reasoning": 0.0177
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "The DRP shall decide the issue of jurisdiction before considering issue of valuation quantification raised by the Petitioner in its objections filed before the DRP, this of course subject to the additional grounds on jurisdiction being filed by the Petitioner within two weeks from today.",
+      "predicted_label": "Facts",
+      "confidence": 0.5946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.3341,
+        "Facts": 0.5946,
+        "Issue": 0.0006,
+        "Reasoning": 0.0601
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "The DRP shall decide the issue of jurisdiction as a preliminary issue within two months from the date on which the Petitioner files its objections on the question of jurisdiction.(C)",
+      "predicted_label": "Facts",
+      "confidence": 0.6622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0394,
+        "Arguments of Respondent": 0.0735,
+        "Decision": 0.1497,
+        "Facts": 0.6622,
+        "Issue": 0.0022,
+        "Reasoning": 0.0731
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "We make it clear that since the question of jurisdiction for applicability of Chapter X for the Assessment Year 200910 is raised independently of the challenge to the orders of the TPO and the AO for the Assessment Year 200809, the DRP shall decide the preliminary issue about applicability of Chapter X to the assessment for the Assessment Year 200910, without awaiting for decision on the dispute relating to the Assessment Year 200809.(D)",
+      "predicted_label": "Facts",
+      "confidence": 0.3714,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.3184,
+        "Facts": 0.3714,
+        "Issue": 0.0019,
+        "Reasoning": 0.3009
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 88,
+      "text": "IV.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5753,
+        "Arguments of Respondent": 0.0359,
+        "Decision": 0.071,
+        "Facts": 0.1983,
+        "Issue": 0.0907,
+        "Reasoning": 0.0288
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "Hearing before DRP and impugned order of DRP 9.",
+      "predicted_label": "Facts",
+      "confidence": 0.9289,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0475,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.0001,
+        "Facts": 0.9289,
+        "Issue": 0.0012,
+        "Reasoning": 0.0057
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "In its preliminary objections, Petitioner objected to the jurisdiction of the Revenue to apply Chapter X of the Act, primarily on the ground that no income arises on issue of equity shares by Petitioner to its holding company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9644,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0002,
+        "Facts": 0.9644,
+        "Issue": 0.0046,
+        "Reasoning": 0.0163
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "This on the basis that such issue of shares neither gives rise to income and or impacts the income of the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.7098,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1526,
+        "Arguments of Respondent": 0.0689,
+        "Decision": 0.001,
+        "Facts": 0.7098,
+        "Issue": 0.0032,
+        "Reasoning": 0.0645
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "The TPO also filed its submission on 31 January, 2014 before the DRP.",
+      "predicted_label": "Facts",
+      "confidence": 0.7209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0393,
+        "Arguments of Respondent": 0.0456,
+        "Decision": 0.0012,
+        "Facts": 0.7209,
+        "Issue": 0.0017,
+        "Reasoning": 0.1913
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "The TPO in its submission contested the Petitioners submission that in the facts of the present case, Chapter X of the Act is inapplicable.",
+      "predicted_label": "Facts",
+      "confidence": 0.683,
+      "probabilities": {
+        "Arguments of Petitioner": 0.014,
+        "Arguments of Respondent": 0.2321,
+        "Decision": 0.0001,
+        "Facts": 0.683,
+        "Issue": 0.0014,
+        "Reasoning": 0.0695
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 94,
+      "text": "Thereafter, final personal hearing was granted on 2 February, 2014 at which time, the Petitioner filed its written submission in support of its preliminary objections on the issue of jurisdiction.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.9089,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0706,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0003,
+        "Facts": 0.9089,
+        "Issue": 0.0032,
+        "Reasoning": 0.0086
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "Broadly, the crux of the objections to jurisdiction taken by the Petitioner before the DRP, were as under(i) Chapter X of the Act will not apply as the issue of equity shares by the Petitioner to its holding company does not give rise to any income(ii) Chapter X of the Act will not apply as no expenditure is incurred that impacts computation of the taxable income(iii) Chapter X of the Act will not apply as issue of shares is transaction on capital account and thus does not impact computation of income and(iv)",
+      "predicted_label": "Facts",
+      "confidence": 0.9381,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0448,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0,
+        "Facts": 0.9381,
+        "Issue": 0.0068,
+        "Reasoning": 0.0056
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "Other issues raised were with regard to no jurisdiction to split a single transaction of issue of shares into issue of shares and grant of financial accommodation.",
+      "predicted_label": "Facts",
+      "confidence": 0.8439,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0248,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0002,
+        "Facts": 0.8439,
+        "Issue": 0.0078,
+        "Reasoning": 0.1091
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "So far as the revenue is concerned, the basis of its justification to exercise jurisdiction under Chapter X of the Act, taken by the TPO before the DRP, were as under(i) Chapter X of the Act is a separate code by itself and the difference in valuation between ALP and the contract transaction price would give rise to income(ii) Income as defined in Section 2(24) of the Act is inclusive definition and it does not prohibit taxing capital receipts as income(iii)",
+      "predicted_label": "Facts",
+      "confidence": 0.9744,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0001,
+        "Facts": 0.9744,
+        "Issue": 0.0019,
+        "Reasoning": 0.0125
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "The forgoing of premium on the part of the Petitioner amounts to extinguishment relinquishment of a right to receive fair market value.",
+      "predicted_label": "Facts",
+      "confidence": 0.523,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0795,
+        "Arguments of Respondent": 0.0313,
+        "Decision": 0.0006,
+        "Facts": 0.523,
+        "Issue": 0.0025,
+        "Reasoning": 0.3631
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "Therefore, the issue of shares is a transfer within themeaning of Section 2(47) of the Act and(iv)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5834,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5834,
+        "Arguments of Respondent": 0.0701,
+        "Decision": 0.001,
+        "Facts": 0.3056,
+        "Issue": 0.0158,
+        "Reasoning": 0.0242
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 100,
+      "text": "The meaning of International Transaction as given in clauses (c) and (e) of the Explanation (i) to Section 92B of the Act would include within its scope even capital account transaction.12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1082,
+        "Arguments of Respondent": 0.0581,
+        "Decision": 0.0009,
+        "Facts": 0.0421,
+        "Issue": 0.0004,
+        "Reasoning": 0.7904
+      }
+    },
+    {
+      "sentence_id": 101,
+      "text": "Thereafter, on 11 February, 2014, the DRP passed the impugned order.",
+      "predicted_label": "Facts",
+      "confidence": 0.7526,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0722,
+        "Arguments of Respondent": 0.0436,
+        "Decision": 0.0012,
+        "Facts": 0.7526,
+        "Issue": 0.0051,
+        "Reasoning": 0.1253
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "By the above impugned order, it was held that the nonreceipt of the premium to the extent not received, is an income arising from issue of shares.",
+      "predicted_label": "Facts",
+      "confidence": 0.8984,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0005,
+        "Facts": 0.8984,
+        "Issue": 0.0665,
+        "Reasoning": 0.0296
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "Thus, the impugned order holds that the AO has jurisdiction to invoke Chapter X of the Act.13.",
+      "predicted_label": "Facts",
+      "confidence": 0.8538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.001,
+        "Facts": 0.8538,
+        "Issue": 0.002,
+        "Reasoning": 0.125
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "The impugned order dated 11 February, 2014, holds that Section 92(1) of the Act, mandates computation of income arising out of International Transaction be determined, having regard to the ALP.",
+      "predicted_label": "Facts",
+      "confidence": 0.7736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0256,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.0009,
+        "Facts": 0.7736,
+        "Issue": 0.0176,
+        "Reasoning": 0.1682
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "It further holds that the term Income has not been defined in Chapter X of the Act unlike International Transaction.",
+      "predicted_label": "Facts",
+      "confidence": 0.8601,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0003,
+        "Facts": 0.8601,
+        "Issue": 0.0131,
+        "Reasoning": 0.1169
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "Therefore, the impugned order holds that term Income is to be construed in a broad manner embracing all types of receipts or incomings.",
+      "predicted_label": "Facts",
+      "confidence": 0.5926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0514,
+        "Arguments of Respondent": 0.0507,
+        "Decision": 0.0013,
+        "Facts": 0.5926,
+        "Issue": 0.0096,
+        "Reasoning": 0.2944
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 107,
+      "text": "In support, reliance is placed upon Section 2(24) of the Act which defines income in an inclusive manner and capital receipts which would otherwise not be covered by the term Income would also stand included in the definition.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6088,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6088,
+        "Arguments of Respondent": 0.3585,
+        "Decision": 0.0001,
+        "Facts": 0.0109,
+        "Issue": 0.0003,
+        "Reasoning": 0.0214
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 108,
+      "text": "Therefore, all incomings would fall within the concept of income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4115,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1596,
+        "Arguments of Respondent": 0.3711,
+        "Decision": 0.0007,
+        "Facts": 0.0568,
+        "Issue": 0.0002,
+        "Reasoning": 0.4115
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 109,
+      "text": "The impugned order while accepting the fact that the term Income could receive a narrow meaning as canvassed by the Petitioner, yet accepts the broader meaning of Income canvassed on behalf of the respondentrevenue on the basis that the broader interpretation of the word Income would advance the object of Chapter X of the Act and would be purposive interpretation of the statutory provision.",
+      "predicted_label": "Facts",
+      "confidence": 0.6966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0012,
+        "Facts": 0.6966,
+        "Issue": 0.0305,
+        "Reasoning": 0.2353
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "For this purpose, support was drawn from the definition of International Transaction as given in Section 92B of the Act and in particular to Explanation (i)(c) thereto which provides that the expression International Transaction includes capital financing like purchase of marketable securities.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5002,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3741,
+        "Arguments of Respondent": 0.5002,
+        "Decision": 0.0001,
+        "Facts": 0.0839,
+        "Issue": 0.0006,
+        "Reasoning": 0.0411
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 111,
+      "text": "If the normal meaning of Income as canvassed by the Petitioner is adopted, then purchase of marketable securities, could never give rise to Income, rendering the provision otiose.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5445,
+        "Arguments of Respondent": 0.0926,
+        "Decision": 0.0004,
+        "Facts": 0.1177,
+        "Issue": 0.0023,
+        "Reasoning": 0.2426
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 112,
+      "text": "Similarly, impugned order also draws support from clause (e) to Explanation (i) of Section 92B of the Act which includes a transaction of business restructuring or reorganization entered into as an International Transaction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5038,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0008,
+        "Facts": 0.4458,
+        "Issue": 0.0008,
+        "Reasoning": 0.5038
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 113,
+      "text": "This provision, according to the impugned order enables the A.O. to bring to tax income forgone while restructuring reorganizing the business.",
+      "predicted_label": "Facts",
+      "confidence": 0.765,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0006,
+        "Facts": 0.765,
+        "Issue": 0.029,
+        "Reasoning": 0.1829
+      }
+    },
+    {
+      "sentence_id": 114,
+      "text": "In such a case, though there is no formal transfer of source of income or tangibles, yet the income forgone would be notional income liable to tax under the provisions of Chapter X of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2605,
+        "Arguments of Respondent": 0.078,
+        "Decision": 0.0002,
+        "Facts": 0.1227,
+        "Issue": 0.0009,
+        "Reasoning": 0.5377
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 115,
+      "text": "On the aforesaid analysis, the impugned order holds that share premium not received on issue of shares is Income arising from International Transaction.14.",
+      "predicted_label": "Facts",
+      "confidence": 0.4469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0666,
+        "Arguments of Respondent": 0.0527,
+        "Decision": 0.0006,
+        "Facts": 0.4469,
+        "Issue": 0.0021,
+        "Reasoning": 0.4312
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 116,
+      "text": "The impugned order further holds that as a consequence of the Petitioners not receiving the ALP on the issue of shares, resulted in lesser premium being garnered by the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.7511,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0156,
+        "Decision": 0.0055,
+        "Facts": 0.7511,
+        "Issue": 0.0039,
+        "Reasoning": 0.1905
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "This would result, in the Petitioner having less liquid funds available at its command which in turn could have reduced its debts or the excess funds could have been invested to earn income.",
+      "predicted_label": "Facts",
+      "confidence": 0.4438,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3066,
+        "Arguments of Respondent": 0.0811,
+        "Decision": 0.0007,
+        "Facts": 0.4438,
+        "Issue": 0.0011,
+        "Reasoning": 0.1667
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 118,
+      "text": "Thus, the amount not received could have enhanced its potential income.",
+      "predicted_label": "Facts",
+      "confidence": 0.2901,
+      "probabilities": {
+        "Arguments of Petitioner": 0.289,
+        "Arguments of Respondent": 0.2068,
+        "Decision": 0.0009,
+        "Facts": 0.2901,
+        "Issue": 0.0004,
+        "Reasoning": 0.2129
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 119,
+      "text": "In view of the above, the impugned order also holds that the share premium forgone has impacted potential income.",
+      "predicted_label": "Facts",
+      "confidence": 0.5699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0506,
+        "Arguments of Respondent": 0.019,
+        "Decision": 0.0105,
+        "Facts": 0.5699,
+        "Issue": 0.0012,
+        "Reasoning": 0.3488
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "Thus, appropriately giving rise to application of Chapter X of the Act to the transaction of issues of share.15.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8966,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0474,
+        "Arguments of Respondent": 0.0236,
+        "Decision": 0.0002,
+        "Facts": 0.0316,
+        "Issue": 0.0007,
+        "Reasoning": 0.8966
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "In conclusion, the impugned order at paragraph 44 holds as underIn the light of the elaborate discussion above, the directions given by the Honble Bombay High Court in its order dated 29.11.2013, stands disposed off.",
+      "predicted_label": "Facts",
+      "confidence": 0.9623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0028,
+        "Facts": 0.9623,
+        "Issue": 0.0004,
+        "Reasoning": 0.0308
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "The DRPs findings are summarized as undera.",
+      "predicted_label": "Facts",
+      "confidence": 0.9661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.011,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0001,
+        "Facts": 0.9661,
+        "Issue": 0.0004,
+        "Reasoning": 0.0168
+      }
+    },
+    {
+      "sentence_id": 123,
+      "text": "On a broader and harmonious construction of the term income in Section 92(1), A.O. has jurisdiction to invoke Chapter X as share premium is an income arising from issue of shares (para 21)b.",
+      "predicted_label": "Issue",
+      "confidence": 0.3466,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0547,
+        "Arguments of Respondent": 0.3335,
+        "Decision": 0.0067,
+        "Facts": 0.1643,
+        "Issue": 0.3466,
+        "Reasoning": 0.0942
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 124,
+      "text": "Even if the term income is not given a broad interpretation, the A.O. has jurisdiction to invoke Chapter X as there is income potentially arising or affected by the short receipt of share premium (para 24)Petitioners Submissions16.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.791,
+        "Arguments of Respondent": 0.1628,
+        "Decision": 0.0003,
+        "Facts": 0.0278,
+        "Issue": 0.0007,
+        "Reasoning": 0.0175
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "On the aforesaid facts, Mr. Harish Salve, learned Sr. Counsel appearing in support of the Petition, submits as under(a) Chapter X of the Act is a special provisions relating to avoidance of tax.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9082,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9082,
+        "Arguments of Respondent": 0.0772,
+        "Decision": 0.0002,
+        "Facts": 0.0067,
+        "Issue": 0.0009,
+        "Reasoning": 0.0068
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "Section 92 of the Act provides for computation of income arising from International Transaction, having regard to ALP.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0672,
+        "Arguments of Respondent": 0.0542,
+        "Decision": 0.0003,
+        "Facts": 0.2365,
+        "Issue": 0.0023,
+        "Reasoning": 0.6394
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 127,
+      "text": "Section 92(1) of the Act which applies to the the present facts, directs that any income arising from an International Transaction should be computed, having regard to the ALP.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4172,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2025,
+        "Arguments of Respondent": 0.2085,
+        "Decision": 0.0007,
+        "Facts": 0.1692,
+        "Issue": 0.002,
+        "Reasoning": 0.4172
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 128,
+      "text": "In this case, it is submitted that no income arises from issue of equity shares by the Petitioner to its holding company(b) The impugned order dated 11 February, 2014 after correctly holding that the word Income has not been separately defined for the purpose of Chapter X of the Act, yet proceeds to give its own meaning to the word Income.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7794,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7794,
+        "Arguments of Respondent": 0.1265,
+        "Decision": 0.0003,
+        "Facts": 0.0295,
+        "Issue": 0.0017,
+        "Reasoning": 0.0626
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "This is clearly not permissible.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1288,
+        "Arguments of Respondent": 0.0545,
+        "Decision": 0.0028,
+        "Facts": 0.0439,
+        "Issue": 0.0002,
+        "Reasoning": 0.7699
+      }
+    },
+    {
+      "sentence_id": 130,
+      "text": "The word Income would have to be understood as defined by other provisions of the Act such as Section 2(24) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8441,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0342,
+        "Arguments of Respondent": 0.0567,
+        "Decision": 0.0007,
+        "Facts": 0.0626,
+        "Issue": 0.0017,
+        "Reasoning": 0.8441
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "A fiscal statute has to be strictly interpreted upon its own terms and the meaning of ordinary words cannot be expanded to give purposeful interpretation (c) Chapter X of the Act is not designed to bring to tax all sums involved in a transaction, which are otherwise not taxable.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8635,
+        "Arguments of Respondent": 0.0766,
+        "Decision": 0.0015,
+        "Facts": 0.0465,
+        "Issue": 0.0025,
+        "Reasoning": 0.0094
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "The purpose and objective is not to tax difference between the ALP and the contracted book value of said transaction but to reach the fair price consideration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.174,
+        "Arguments of Respondent": 0.1452,
+        "Decision": 0.0005,
+        "Facts": 0.2113,
+        "Issue": 0.0028,
+        "Reasoning": 0.4663
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 133,
+      "text": "Therefore, before any transaction could be brought to tax, a taxable income must arise.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3997,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2986,
+        "Arguments of Respondent": 0.1818,
+        "Decision": 0.0005,
+        "Facts": 0.1165,
+        "Issue": 0.0029,
+        "Reasoning": 0.3997
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 134,
+      "text": "The interpretation in the impugned order to tax any amounts involved in International Transaction tantamount to imposing a penalty for entering into a transaction (no way giving rise to taxable income) at a value which the revenue determines on application of ALP(d)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6613,
+        "Arguments of Respondent": 0.0532,
+        "Decision": 0.0016,
+        "Facts": 0.1679,
+        "Issue": 0.0014,
+        "Reasoning": 0.1146
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 135,
+      "text": "The impugned order itself demonstrates the fact that the share premium on issue of shares is per se not taxable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4252,
+      "probabilities": {
+        "Arguments of Petitioner": 0.112,
+        "Arguments of Respondent": 0.4247,
+        "Decision": 0.0007,
+        "Facts": 0.0369,
+        "Issue": 0.0005,
+        "Reasoning": 0.4252
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 136,
+      "text": "This is so as the amounts received by the Petitioner on account of share premium has not been taxed and only the amount of share premium which is deemed not to have been received on application of ALP, has alone been brought to tax (e)",
+      "predicted_label": "Facts",
+      "confidence": 0.6372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2969,
+        "Arguments of Respondent": 0.037,
+        "Decision": 0.0027,
+        "Facts": 0.6372,
+        "Issue": 0.0018,
+        "Reasoning": 0.0243
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 137,
+      "text": "In case of issue of shares, it comes into existence for the first time only when shares are allotted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8089,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0979,
+        "Arguments of Respondent": 0.05,
+        "Decision": 0.0002,
+        "Facts": 0.0428,
+        "Issue": 0.0003,
+        "Reasoning": 0.8089
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "It is the creation of the property for first time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5723,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1453,
+        "Arguments of Respondent": 0.1467,
+        "Decision": 0.0028,
+        "Facts": 0.1309,
+        "Issue": 0.002,
+        "Reasoning": 0.5723
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 139,
+      "text": "This is different from the transfer of an existing property.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0531,
+        "Arguments of Respondent": 0.086,
+        "Decision": 0.0001,
+        "Facts": 0.0476,
+        "Issue": 0.0003,
+        "Reasoning": 0.8129
+      }
+    },
+    {
+      "sentence_id": 140,
+      "text": "An issue of shares is a process of creation of shares and not a transfer of shares.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.039,
+        "Arguments of Respondent": 0.1216,
+        "Decision": 0.0003,
+        "Facts": 0.0918,
+        "Issue": 0.0003,
+        "Reasoning": 0.7469
+      }
+    },
+    {
+      "sentence_id": 141,
+      "text": "Therefore, there is no transfer of shares so as to make Section 45 of the Act applicable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3352,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2547,
+        "Arguments of Respondent": 0.2545,
+        "Decision": 0.0018,
+        "Facts": 0.1532,
+        "Issue": 0.0006,
+        "Reasoning": 0.3352
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 142,
+      "text": "It was submitted that if the contention of the Revenue is correct, then every issue of shares by any Company would be subjected to tax(f)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7467,
+        "Arguments of Respondent": 0.1982,
+        "Decision": 0.0001,
+        "Facts": 0.0343,
+        "Issue": 0.0003,
+        "Reasoning": 0.0204
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "The issue of shares by the Petitioner to its holding company and receipt of consideration of the same is a capital receipt under the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1346,
+        "Arguments of Respondent": 0.0999,
+        "Decision": 0.0011,
+        "Facts": 0.437,
+        "Issue": 0.0017,
+        "Reasoning": 0.3257
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 144,
+      "text": "Capital receipts cannot be brought to tax unless specifically expressly brought to tax by the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2556,
+        "Arguments of Respondent": 0.0765,
+        "Decision": 0.0002,
+        "Facts": 0.0407,
+        "Issue": 0.0009,
+        "Reasoning": 0.626
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 145,
+      "text": "It is well settled that capital receipts do not come within the ambit of the word Income under the Act, save when so expressly provided as in the case of Section 2 (24) (vi) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.908,
+      "probabilities": {
+        "Arguments of Petitioner": 0.023,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0002,
+        "Facts": 0.0562,
+        "Issue": 0.0044,
+        "Reasoning": 0.908
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "This brings capital gains chargeable under Section 45 of the Act, to tax within the meaning of the word Income(g)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7772,
+        "Arguments of Respondent": 0.0287,
+        "Decision": 0.0005,
+        "Facts": 0.1109,
+        "Issue": 0.0021,
+        "Reasoning": 0.0806
+      }
+    },
+    {
+      "sentence_id": 147,
+      "text": "Attention was drawn to the definition of Income in Section 2(24) (xvi) of the Act which includes in its scope amounts received arising or accruing within the provisions of section 56(2) (viib) of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4611,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4611,
+        "Arguments of Respondent": 0.4289,
+        "Decision": 0.0001,
+        "Facts": 0.019,
+        "Issue": 0.0003,
+        "Reasoning": 0.0906
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 148,
+      "text": "However, it applies to issue of shares to a resident.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.231,
+        "Arguments of Respondent": 0.1084,
+        "Decision": 0.0017,
+        "Facts": 0.0755,
+        "Issue": 0.0019,
+        "Reasoning": 0.5814
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 149,
+      "text": "Besides, it seeks to tax consideration received in excess of the fair market value of the shares and not the alleged shortfall in the issue price of equity shares.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2993,
+        "Arguments of Respondent": 0.1752,
+        "Decision": 0.0014,
+        "Facts": 0.0934,
+        "Issue": 0.0363,
+        "Reasoning": 0.3945
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 150,
+      "text": "Thus, this also indicates absence of any intent to tax the issue of shares below the alleged fair market value as in this case(h) The impugned order proceeds on an assumption, surmise or conjecture that in case the notional income i.e. the amount of share premium forgone was received, the Petitioner would have invested the same, giving rise to income.",
+      "predicted_label": "Facts",
+      "confidence": 0.5052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3571,
+        "Arguments of Respondent": 0.0182,
+        "Decision": 0.0004,
+        "Facts": 0.5052,
+        "Issue": 0.002,
+        "Reasoning": 0.1171
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 151,
+      "text": "It is submitted that no tax can be charged on guess work or assumption or conjecture in the absence of any such income arising and(i)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8131,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8131,
+        "Arguments of Respondent": 0.1505,
+        "Decision": 0.0004,
+        "Facts": 0.0246,
+        "Issue": 0.0006,
+        "Reasoning": 0.0108
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "The impugned order places reliance upon the meaning of International Transaction as provided in subsection (c) and (e) of Explanation (i) to Section 92B of the Act to conclude the Income arises.",
+      "predicted_label": "Facts",
+      "confidence": 0.6325,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0393,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0023,
+        "Facts": 0.6325,
+        "Issue": 0.0292,
+        "Reasoning": 0.2868
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 153,
+      "text": "It is submitted that Explanation (i)(c) to Section 92B of the Act only states that capital financing transaction such as borrowing money and or lending money to AE would be an International Transaction.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7189,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7189,
+        "Arguments of Respondent": 0.2579,
+        "Decision": 0.0001,
+        "Facts": 0.0106,
+        "Issue": 0.0005,
+        "Reasoning": 0.012
+      }
+    },
+    {
+      "sentence_id": 154,
+      "text": "However, what is brought to tax is not the quantum of amount lent and or borrowed but the impact on Income due to such lending or borrowing.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8188,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0897,
+        "Arguments of Respondent": 0.0283,
+        "Decision": 0.0002,
+        "Facts": 0.0614,
+        "Issue": 0.0016,
+        "Reasoning": 0.8188
+      }
+    },
+    {
+      "sentence_id": 155,
+      "text": "This impact is found in either under reporting over reporting the interest paid interest received etc., Similarly, Explanation (i)(e) to Section 92B of the Act, which covers business restructuring would only have application if said restructuring reorganizing impacts income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1951,
+        "Arguments of Respondent": 0.2155,
+        "Decision": 0.0013,
+        "Facts": 0.154,
+        "Issue": 0.0002,
+        "Reasoning": 0.4339
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 156,
+      "text": "If there is any impact of income on account of business restructuring reorganizing, then such income would be subjected to tax as and when it arises whether in present or in future.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3905,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2513,
+        "Arguments of Respondent": 0.1648,
+        "Decision": 0.0013,
+        "Facts": 0.1917,
+        "Issue": 0.0003,
+        "Reasoning": 0.3905
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 157,
+      "text": "In this case, such a contingency does not arise as there is no impact on Income which would be chargeable to tax due to issue of shares.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7378,
+      "probabilities": {
+        "Arguments of Petitioner": 0.084,
+        "Arguments of Respondent": 0.0546,
+        "Decision": 0.0004,
+        "Facts": 0.1228,
+        "Issue": 0.0004,
+        "Reasoning": 0.7378
+      }
+    },
+    {
+      "sentence_id": 158,
+      "text": "Respondents Submissions17. (a) As against the above, Mr. Ranjit Kumar, learned Solicitor General appearing on behalf of the respondentrevenue sought to support the impugned order dated 11th February, 2014 on completely new grounds i.e. grounds completely different from the grounds in the impugned order.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9898,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.9898,
+        "Decision": 0.0001,
+        "Facts": 0.0026,
+        "Issue": 0.0001,
+        "Reasoning": 0.0048
+      }
+    },
+    {
+      "sentence_id": 159,
+      "text": "However, as the new grounds were being canvassed only on legal issues, we were of the view that the same could be canvassed before us rather then sending it to the DRP for fresh consideration.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0479,
+        "Arguments of Respondent": 0.0319,
+        "Decision": 0.0151,
+        "Facts": 0.432,
+        "Issue": 0.0032,
+        "Reasoning": 0.4699
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 160,
+      "text": "Therefore, we informed the learned Solicitor General that it would only be fair that in case he is seeking to support the impugned order, with fresh reasons, then respondentrevenue should file an affidavit, indicating the new grounds of support to the impugned order.",
+      "predicted_label": "Facts",
+      "confidence": 0.4024,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0378,
+        "Arguments of Respondent": 0.059,
+        "Decision": 0.2334,
+        "Facts": 0.4024,
+        "Issue": 0.0078,
+        "Reasoning": 0.2596
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 161,
+      "text": "This would give an opportunity to the Petitioner also to respond to the same(c) Consequently, an affidavit of Mr. Bhanwar Singh Ratnoo, Dy, Commissioner of Income Tax dated 9 September, 2014 was filed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0483,
+        "Arguments of Respondent": 0.0227,
+        "Decision": 0.0008,
+        "Facts": 0.9071,
+        "Issue": 0.0025,
+        "Reasoning": 0.0186
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "In the above affidavit, it has been stated that Section 92(1) of the Act is to be read with Section 92(2) of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3492,
+        "Arguments of Respondent": 0.28,
+        "Decision": 0.0008,
+        "Facts": 0.1923,
+        "Issue": 0.001,
+        "Reasoning": 0.1767
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 163,
+      "text": "It is stated that a conjoint reading of two provisions would indicate that what is being brought to tax under Chapter X of the Act is not share premium but is the cost incurred by the Petitioner in passing on a benefit to its holding company by issue of shares at a premium less than ALP.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6792,
+        "Arguments of Respondent": 0.2136,
+        "Decision": 0.0001,
+        "Facts": 0.0331,
+        "Issue": 0.0021,
+        "Reasoning": 0.072
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 164,
+      "text": "This benefit is the difference between the ALP and the premium at which the shares were issued.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5467,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1379,
+        "Arguments of Respondent": 0.1036,
+        "Decision": 0.0008,
+        "Facts": 0.2088,
+        "Issue": 0.0022,
+        "Reasoning": 0.5467
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 165,
+      "text": "It is submitted in the affidavit that by issue of shares by the Petitioner to its holding company, resulted in the following benefits to its holding company(a) cost incurred by the Indian Co. for a corresponding benefit given to the Holding Co.",
+      "predicted_label": "Facts",
+      "confidence": 0.6305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0916,
+        "Arguments of Respondent": 0.1631,
+        "Decision": 0.0003,
+        "Facts": 0.6305,
+        "Issue": 0.0003,
+        "Reasoning": 0.114
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 166,
+      "text": "After all, the Holding Co. has actually got shares worth Rs.53,775/ each at a price of Rs.8,159/ each.,(b)",
+      "predicted_label": "Facts",
+      "confidence": 0.6316,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1788,
+        "Arguments of Respondent": 0.1137,
+        "Decision": 0.0043,
+        "Facts": 0.6316,
+        "Issue": 0.0016,
+        "Reasoning": 0.0701
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 167,
+      "text": "benefit also accrues to the valuation of Holding Co. in the international market by taking undervalued shares of the subsidiary Co., by increasing the real net worth of the Holding Co.18.",
+      "predicted_label": "Facts",
+      "confidence": 0.4832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0525,
+        "Arguments of Respondent": 0.0288,
+        "Decision": 0.0014,
+        "Facts": 0.4832,
+        "Issue": 0.0003,
+        "Reasoning": 0.4339
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 168,
+      "text": "Besides the above, at the hearing, following further submissions in support of the conclusion arrived by the impugned order were also advanced(a) The Petitioner does not challenge the constitutional validity of Chapter X of the Act or any of the Sections therein.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5862,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1698,
+        "Arguments of Respondent": 0.5862,
+        "Decision": 0.0005,
+        "Facts": 0.2198,
+        "Issue": 0.0004,
+        "Reasoning": 0.0233
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 169,
+      "text": "The Petitioner raises only an issue of interpretation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5515,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0997,
+        "Arguments of Respondent": 0.0807,
+        "Decision": 0.013,
+        "Facts": 0.1271,
+        "Issue": 0.128,
+        "Reasoning": 0.5515
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 170,
+      "text": "Moreover, the fact that the PetitionerCompany and its holding company are AEs within the meaning of Chapter X of the Act is also not disputed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5025,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0558,
+        "Arguments of Respondent": 0.0248,
+        "Decision": 0.0026,
+        "Facts": 0.3907,
+        "Issue": 0.0236,
+        "Reasoning": 0.5025
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 171,
+      "text": "Therefore, the provisions of Chapter X of the Act are fully satisfied and applicable to the facts of the present case(b) The Petitioner itself had submitted to the jurisdiction of Chapter X of the Act by filing submitting Form 3CEB, declaring the ALP.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2748,
+        "Arguments of Respondent": 0.4902,
+        "Decision": 0.0086,
+        "Facts": 0.1492,
+        "Issue": 0.0062,
+        "Reasoning": 0.071
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 172,
+      "text": "Thus, the respondentrevenue were under an obligation toscrutinize the same and when found that the ALP determined by the PetitionerCompany is not correct, the AO and the TPO were mandated to apply Chapter X of the Act and compute the correct ALP.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2023,
+        "Arguments of Respondent": 0.2656,
+        "Decision": 0.0007,
+        "Facts": 0.0427,
+        "Issue": 0.0004,
+        "Reasoning": 0.4883
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 173,
+      "text": "Therefore, the Petitioner should be relegated to the alternate remedy of approaching the Authorities under the Act(c)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6474,
+        "Arguments of Respondent": 0.1177,
+        "Decision": 0.0023,
+        "Facts": 0.1847,
+        "Issue": 0.0153,
+        "Reasoning": 0.0326
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 174,
+      "text": "The issue of Chapter X of the Act being applicable is no longer res integra as identical provision as found in Section 92 of the Act was available in Section 42(2) of the Income Tax Act, 1922 (1922 Act).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5129,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1916,
+        "Arguments of Respondent": 0.2604,
+        "Decision": 0.0008,
+        "Facts": 0.0336,
+        "Issue": 0.0008,
+        "Reasoning": 0.5129
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 175,
+      "text": "The Supreme Court in Mazagaon Dock Ltd. v. CIT 1988 34 ITR 368 upheld the action of revenue in seeking to tax a resident in respect of profit which he would have normally made but did not make because of his close association with a nonresident.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8497,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0518,
+        "Arguments of Respondent": 0.0228,
+        "Decision": 0.0003,
+        "Facts": 0.0734,
+        "Issue": 0.002,
+        "Reasoning": 0.8497
+      }
+    },
+    {
+      "sentence_id": 176,
+      "text": "The aforesaid provision of Section 42(2) of the 1922 Act were incorporated in its new avtar as Section 92 of the said Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1012,
+        "Arguments of Respondent": 0.1308,
+        "Decision": 0.0008,
+        "Facts": 0.2764,
+        "Issue": 0.0006,
+        "Reasoning": 0.4902
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 177,
+      "text": "It was thus emphasized that the legislative history supports the stand of the respondentrevenue that even in the absence of actual income, a notional income can be brought to tax(d) Section 92(1) of the Act uses the word Any income arising from an International Transaction.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8059,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8059,
+        "Arguments of Respondent": 0.1608,
+        "Decision": 0.0001,
+        "Facts": 0.0219,
+        "Issue": 0.0011,
+        "Reasoning": 0.0102
+      }
+    },
+    {
+      "sentence_id": 178,
+      "text": "This indicates that the income of either party to the transaction could be subject matter of tax and not the income of resident only.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7071,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0638,
+        "Arguments of Respondent": 0.0492,
+        "Decision": 0.0004,
+        "Facts": 0.1781,
+        "Issue": 0.0014,
+        "Reasoning": 0.7071
+      }
+    },
+    {
+      "sentence_id": 179,
+      "text": "Further, it is submitted that for the purpose of Chapter X of the Act, real income concept has no application, otherwise the words would have been actual Income.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6508,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6508,
+        "Arguments of Respondent": 0.3107,
+        "Decision": 0.0003,
+        "Facts": 0.022,
+        "Issue": 0.001,
+        "Reasoning": 0.0152
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 180,
+      "text": "Therefore, the difference between ALP and the contracted price would be added to the total Income(e)",
+      "predicted_label": "Facts",
+      "confidence": 0.6601,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1297,
+        "Arguments of Respondent": 0.068,
+        "Decision": 0.0004,
+        "Facts": 0.6601,
+        "Issue": 0.0005,
+        "Reasoning": 0.1412
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 181,
+      "text": "It was next submitted under the Act what is taxable is income when it accrues or arises or when it is deemed to accrue or arise and not only when it is received.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5818,
+        "Arguments of Respondent": 0.3292,
+        "Decision": 0.0001,
+        "Facts": 0.0115,
+        "Issue": 0.0008,
+        "Reasoning": 0.0766
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 182,
+      "text": "Therefore, even if an amount is not actually received, yet,in case income has arisen or deemed to arise, then the same is chargeable to tax.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0922,
+        "Arguments of Respondent": 0.0455,
+        "Decision": 0.0002,
+        "Facts": 0.087,
+        "Issue": 0.0012,
+        "Reasoning": 0.7739
+      }
+    },
+    {
+      "sentence_id": 183,
+      "text": "Thus, the difference between ALP and contract price is an income which has arisen but not received.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3668,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3668,
+        "Arguments of Respondent": 0.2567,
+        "Decision": 0.0013,
+        "Facts": 0.1143,
+        "Issue": 0.0007,
+        "Reasoning": 0.2602
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 184,
+      "text": "Thus, income forgone is also subject to tax(f) Chapter X of the Act is a complete code by itself and not merely a machinery provision to compute the ALP.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7613,
+        "Arguments of Respondent": 0.1327,
+        "Decision": 0.0013,
+        "Facts": 0.0872,
+        "Issue": 0.0006,
+        "Reasoning": 0.0169
+      }
+    },
+    {
+      "sentence_id": 185,
+      "text": "Chapter X of the Act applies wherever the ALP is to be determined by the A.O.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8077,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0716,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0106,
+        "Facts": 0.1009,
+        "Issue": 0.0009,
+        "Reasoning": 0.8077
+      }
+    },
+    {
+      "sentence_id": 186,
+      "text": "It is the hidden benefit in the transaction which is being charged to tax.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0767,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0001,
+        "Facts": 0.0133,
+        "Issue": 0.0003,
+        "Reasoning": 0.8883
+      }
+    },
+    {
+      "sentence_id": 187,
+      "text": "Therefore, the charging section is inherent in Chapter X of the Act(g) Even if there is no separate head of income under Section 14 of the Act in respect of International Transaction, such passing on of benefit by the Petitioner to its holding company would fall under the head Income from other sources under Section 56(1) of the Act and(h) Section 4 of the Act is the charging Section which provides that the charge will be in respect of the total Income for the Assessment Year.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7399,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7399,
+        "Arguments of Respondent": 0.068,
+        "Decision": 0.0004,
+        "Facts": 0.1663,
+        "Issue": 0.0042,
+        "Reasoning": 0.0212
+      }
+    },
+    {
+      "sentence_id": 188,
+      "text": "The scope of total Income is defined in Section 5 of the Act to include all Income from whatever source which is received or accrues or arises or deemed to be received, accrued or arisen would be a part of the total Income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7289,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0843,
+        "Arguments of Respondent": 0.0635,
+        "Decision": 0.0003,
+        "Facts": 0.1219,
+        "Issue": 0.0011,
+        "Reasoning": 0.7289
+      }
+    },
+    {
+      "sentence_id": 189,
+      "text": "Therefore, the word Income for purposes of Chapter X of the Act is to be given a widest meaning to be deemed to be income arising, for the purposes of total income in Section 5 of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0519,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0003,
+        "Facts": 0.0722,
+        "Issue": 0.0006,
+        "Reasoning": 0.845
+      }
+    },
+    {
+      "sentence_id": 190,
+      "text": "In view of the above, it was submitted that the Petition should not be entertained.19.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8359,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1213,
+        "Arguments of Respondent": 0.8359,
+        "Decision": 0.0003,
+        "Facts": 0.0288,
+        "Issue": 0.0002,
+        "Reasoning": 0.0136
+      }
+    },
+    {
+      "sentence_id": 191,
+      "text": "It was, therefore, in rejoinder that the Petitioner had to address us on the new ground taken to support the impugned order as stated in the further affidavit dated 9 September, 2014 filed by the revenue.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7337,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0782,
+        "Arguments of Respondent": 0.0277,
+        "Decision": 0.0032,
+        "Facts": 0.1554,
+        "Issue": 0.0018,
+        "Reasoning": 0.7337
+      }
+    },
+    {
+      "sentence_id": 192,
+      "text": "It was pointed out that Section 92(2) of the Act will have no application in the present facts as it deals with costs or expenditure allocated or apportioned between two or more AE.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4699,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4699,
+        "Arguments of Respondent": 0.4403,
+        "Decision": 0.0006,
+        "Facts": 0.0446,
+        "Issue": 0.0007,
+        "Reasoning": 0.0439
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 193,
+      "text": "The objective of Section 92(2) of the Act is only to ensure that profits are not understated nor losses over stated by disclosing higher cost or expenditure, then the benefit received.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5174,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5174,
+        "Arguments of Respondent": 0.265,
+        "Decision": 0.0004,
+        "Facts": 0.0527,
+        "Issue": 0.0013,
+        "Reasoning": 0.1632
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 194,
+      "text": "Therefore, it is submitted that Section 92(2) of the Act has no application to the present facts.20.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5994,
+        "Arguments of Respondent": 0.3443,
+        "Decision": 0.0009,
+        "Facts": 0.0254,
+        "Issue": 0.0013,
+        "Reasoning": 0.0288
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 195,
+      "text": "Section 56(1) Income of every kind which is not to be excluded from the total income under this Act shall be chargeable to incometax under the head income from other sources, if it is not chargeable to Incometax under any of the heads specified in section 14, items A to E.(2)",
+      "predicted_label": "Facts",
+      "confidence": 0.5859,
+      "probabilities": {
+        "Arguments of Petitioner": 0.064,
+        "Arguments of Respondent": 0.0693,
+        "Decision": 0.0001,
+        "Facts": 0.5859,
+        "Issue": 0.0021,
+        "Reasoning": 0.2786
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 196,
+      "text": "A plain reading of Section 92(1) of the Act very clearly brings out that income arising from a International Transaction is a condition precedent for application of Chapter X of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6421,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1308,
+        "Arguments of Respondent": 0.0824,
+        "Decision": 0.0003,
+        "Facts": 0.142,
+        "Issue": 0.0024,
+        "Reasoning": 0.6421
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 197,
+      "text": "The word income for the purpose of the Act has a well understood meaning as defined in Section 2(24) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7446,
+      "probabilities": {
+        "Arguments of Petitioner": 0.031,
+        "Arguments of Respondent": 0.0268,
+        "Decision": 0.0005,
+        "Facts": 0.1941,
+        "Issue": 0.0031,
+        "Reasoning": 0.7446
+      }
+    },
+    {
+      "sentence_id": 198,
+      "text": "This even when the definition in Section 2(24) of the Act is an inclusive definition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7594,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0958,
+        "Arguments of Respondent": 0.1246,
+        "Decision": 0.0016,
+        "Facts": 0.0184,
+        "Issue": 0.0002,
+        "Reasoning": 0.7594
+      }
+    },
+    {
+      "sentence_id": 199,
+      "text": "It cannot be disputed that income will not in its normal meaning include capital receipts unless it is so specified, as in Section 2(24) (vi) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8601,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0261,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0002,
+        "Facts": 0.0932,
+        "Issue": 0.0063,
+        "Reasoning": 0.8601
+      }
+    },
+    {
+      "sentence_id": 200,
+      "text": "In such a case, Capital Gains chargeable to tax under Section 45 of the Act are, defined to be income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8267,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1096,
+        "Arguments of Respondent": 0.0223,
+        "Decision": 0.0002,
+        "Facts": 0.04,
+        "Issue": 0.0012,
+        "Reasoning": 0.8267
+      }
+    },
+    {
+      "sentence_id": 201,
+      "text": "The amounts received on issue of share capital including the premium is undoubtedly on capital account.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8741,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0371,
+        "Arguments of Respondent": 0.0598,
+        "Decision": 0.0002,
+        "Facts": 0.0283,
+        "Issue": 0.0005,
+        "Reasoning": 0.8741
+      }
+    },
+    {
+      "sentence_id": 202,
+      "text": "Share premium have been made taxable by a legal fiction under Section 56(2)(viib) of the Act and the same is enumerated as Income in Section 2(24)(xvi) of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5068,
+        "Arguments of Respondent": 0.0961,
+        "Decision": 0.0007,
+        "Facts": 0.1392,
+        "Issue": 0.0036,
+        "Reasoning": 0.2535
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 203,
+      "text": "However, what is bought into the ambit of income is the premium received from a resident in excess of the fair market value of the shares.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.069,
+        "Arguments of Respondent": 0.0562,
+        "Decision": 0.0003,
+        "Facts": 0.174,
+        "Issue": 0.0054,
+        "Reasoning": 0.6952
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 204,
+      "text": "Therefore, absent express legislation, no amount received, accrued or arising on capital account transaction can be subjected to tax as Income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7516,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1162,
+        "Arguments of Respondent": 0.0627,
+        "Decision": 0.0001,
+        "Facts": 0.0687,
+        "Issue": 0.0006,
+        "Reasoning": 0.7516
+      }
+    },
+    {
+      "sentence_id": 205,
+      "text": "This is settled by the decision of this Court in Cadell Weaving Mill Co. v. CIT 2011 249 ITR 265/116 Taxman 77 was upheld by the Apex Court in CIT v. D.P Sandu Bros. Chember (P.) Ltd. 2005 273 ITR 1 /142",
+      "predicted_label": "Facts",
+      "confidence": 0.8049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0343,
+        "Arguments of Respondent": 0.0789,
+        "Decision": 0.0002,
+        "Facts": 0.8049,
+        "Issue": 0.0013,
+        "Reasoning": 0.0804
+      }
+    },
+    {
+      "sentence_id": 206,
+      "text": "Taxman 713 .",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8183,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1041,
+        "Arguments of Respondent": 0.0256,
+        "Decision": 0.0003,
+        "Facts": 0.0514,
+        "Issue": 0.0002,
+        "Reasoning": 0.8183
+      }
+    },
+    {
+      "sentence_id": 207,
+      "text": "Section 2(24) defines income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0521,
+        "Arguments of Respondent": 0.0396,
+        "Decision": 0.0002,
+        "Facts": 0.3488,
+        "Issue": 0.0023,
+        "Reasoning": 0.557
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 208,
+      "text": "We shall now consider the submissions on behalf of the Revenue in the context of the statutory provisions.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5039,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1988,
+        "Arguments of Respondent": 0.5039,
+        "Decision": 0.0006,
+        "Facts": 0.0115,
+        "Issue": 0.0143,
+        "Reasoning": 0.2708
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 209,
+      "text": "At one point of time we were toying with the idea of only dealing with the new grounds in support of the impugned order, as canvassed before us by the learned Solicitor General.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0125,
+        "Arguments of Respondent": 0.0207,
+        "Decision": 0.0124,
+        "Facts": 0.0568,
+        "Issue": 0.0019,
+        "Reasoning": 0.8957
+      }
+    },
+    {
+      "sentence_id": 210,
+      "text": "This was for the reason that the revenue itself did not adopt the basis grounds found in the impugned order viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7236,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0836,
+        "Arguments of Respondent": 0.1396,
+        "Decision": 0.0021,
+        "Facts": 0.0506,
+        "Issue": 0.0005,
+        "Reasoning": 0.7236
+      }
+    },
+    {
+      "sentence_id": 211,
+      "text": "the short receipt of share premium being sufficient justification to invoke Section 92(1) in Chapter X of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5235,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5235,
+        "Arguments of Respondent": 0.1163,
+        "Decision": 0.0003,
+        "Facts": 0.2612,
+        "Issue": 0.0028,
+        "Reasoning": 0.0959
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 212,
+      "text": "The ground found in the impugned order was substituted replaced at the hearing with a new ground viz benefit given by the Petitioner to its holding company on application of Section 92(2) of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.8499,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0273,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0014,
+        "Facts": 0.8499,
+        "Issue": 0.0072,
+        "Reasoning": 0.1039
+      }
+    },
+    {
+      "sentence_id": 213,
+      "text": "The first contention on behalf of the revenue is that no question of even examining the issue of jurisdiction to apply Chapter X of the Act arises in this case, as the Petitioner itself had filed Form 3CEB for purposes of Chapter X of the Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4544,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4293,
+        "Arguments of Respondent": 0.4544,
+        "Decision": 0.0004,
+        "Facts": 0.014,
+        "Issue": 0.0055,
+        "Reasoning": 0.0964
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 214,
+      "text": "The contention has to be stated to be rejected.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0382,
+        "Arguments of Respondent": 0.0474,
+        "Decision": 0.0024,
+        "Facts": 0.0467,
+        "Issue": 0.0018,
+        "Reasoning": 0.8634
+      }
+    },
+    {
+      "sentence_id": 215,
+      "text": "Mr. Salve rightly submitted that ex abundanti cautela, the Petitioner had submitted Form 3CEB and informed the respondentrevenue about the International Transaction of issue of share capital, while denying any income arises from the International Transaction.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1263,
+        "Arguments of Respondent": 0.6009,
+        "Decision": 0.0024,
+        "Facts": 0.0049,
+        "Issue": 0.0003,
+        "Reasoning": 0.2652
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 216,
+      "text": "After accepting the above defence of the Petitioner, this Court in VodafoneIII by its order dated 29 November 2012 concluded that the issue of jurisdiction as raised by the Petitioner of income arising, is a condition precedent for applicability of Section 92(1) of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.063,
+        "Arguments of Respondent": 0.0802,
+        "Decision": 0.0004,
+        "Facts": 0.736,
+        "Issue": 0.0039,
+        "Reasoning": 0.1164
+      }
+    },
+    {
+      "sentence_id": 217,
+      "text": "We directed the above issue of jurisdiction be placed before DRP to examine the same as a preliminary issue of jurisdiction.28.",
+      "predicted_label": "Facts",
+      "confidence": 0.708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0056,
+        "Decision": 0.0645,
+        "Facts": 0.708,
+        "Issue": 0.0012,
+        "Reasoning": 0.2084
+      }
+    },
+    {
+      "sentence_id": 218,
+      "text": "We shall first deal with the grounds recorded in the impugned order to justify the conclusion that the Revenue has jurisdiction to apply Chapter X of the Act to the transaction of issue of shares by the Petitioner to its holding company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5815,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0199,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0009,
+        "Facts": 0.2228,
+        "Issue": 0.1659,
+        "Reasoning": 0.5815
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 219,
+      "text": "This conclusion has been reached on application of Section 92(1) of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3792,
+        "Arguments of Respondent": 0.2806,
+        "Decision": 0.0103,
+        "Facts": 0.1198,
+        "Issue": 0.0029,
+        "Reasoning": 0.2072
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 220,
+      "text": "Section 92 of the Act provides for computation of income from International Taxation having regard to ALP.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0331,
+        "Arguments of Respondent": 0.0339,
+        "Decision": 0.0003,
+        "Facts": 0.2472,
+        "Issue": 0.0014,
+        "Reasoning": 0.6841
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 221,
+      "text": "Section 92(1) of the Act states that while determining computing assessing income from an International Taxation regard shall be had to ALP.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5222,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1117,
+        "Arguments of Respondent": 0.1898,
+        "Decision": 0.0006,
+        "Facts": 0.1751,
+        "Issue": 0.0006,
+        "Reasoning": 0.5222
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 222,
+      "text": "The impugned order correctly holds that although the words International Taxation has been defined in Section 92B of the Act for the purposes of Chapter X of the Act, the words Income has not been defined.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0547,
+        "Arguments of Respondent": 0.3456,
+        "Decision": 0.0264,
+        "Facts": 0.2605,
+        "Issue": 0.0023,
+        "Reasoning": 0.3106
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 223,
+      "text": "Thereafter, the impugned order seeks to widen the meaning of the word Income to include all incomings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1979,
+        "Arguments of Respondent": 0.0972,
+        "Decision": 0.0102,
+        "Facts": 0.2544,
+        "Issue": 0.0042,
+        "Reasoning": 0.4361
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 224,
+      "text": "This is sought to be supported by the intent object of Chapter X of the Act, particularly the definition of International Transaction given in Section 92B of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4601,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4601,
+        "Arguments of Respondent": 0.3715,
+        "Decision": 0.0002,
+        "Facts": 0.0355,
+        "Issue": 0.0025,
+        "Reasoning": 0.1302
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 225,
+      "text": "Similarly, the reliance by the revenue upon the definition of International Taxation in the sub clause (c) and (e) of Explanation (i) to Section 92B of the Act to conclude that Income has to be given a broader meaning to include notional income, as otherwise Chapter X of the Act would be rendered otiose is far fetched.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.757,
+      "probabilities": {
+        "Arguments of Petitioner": 0.079,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0013,
+        "Facts": 0.1504,
+        "Issue": 0.0003,
+        "Reasoning": 0.757
+      }
+    },
+    {
+      "sentence_id": 226,
+      "text": "The issue of shares at a premium does not exhaust the universe of applicability of Chapter X of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6977,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1155,
+        "Arguments of Respondent": 0.1131,
+        "Decision": 0.0003,
+        "Facts": 0.0731,
+        "Issue": 0.0002,
+        "Reasoning": 0.6977
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 227,
+      "text": "There are transactions which would otherwise qualify to be covered by the definition of International Transaction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.0262,
+        "Decision": 0.0001,
+        "Facts": 0.0364,
+        "Issue": 0.0024,
+        "Reasoning": 0.8962
+      }
+    },
+    {
+      "sentence_id": 228,
+      "text": "The transaction on capital account or on account of restructuring would become taxable to the extent it impacts income i.e. under reporting of interest or over reporting of interest paid or claiming of depreciation etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6471,
+      "probabilities": {
+        "Arguments of Petitioner": 0.19,
+        "Arguments of Respondent": 0.0677,
+        "Decision": 0.0004,
+        "Facts": 0.0941,
+        "Issue": 0.0007,
+        "Reasoning": 0.6471
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 229,
+      "text": "It is that income which is to be adjusted to the ALP price.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8568,
+      "probabilities": {
+        "Arguments of Petitioner": 0.068,
+        "Arguments of Respondent": 0.0254,
+        "Decision": 0.0006,
+        "Facts": 0.0489,
+        "Issue": 0.0003,
+        "Reasoning": 0.8568
+      }
+    },
+    {
+      "sentence_id": 230,
+      "text": "It is not a tax on the capital receipts.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0596,
+        "Arguments of Respondent": 0.0449,
+        "Decision": 0.001,
+        "Facts": 0.0223,
+        "Issue": 0.0003,
+        "Reasoning": 0.8719
+      }
+    },
+    {
+      "sentence_id": 231,
+      "text": "This aspect appears to have been completely lost sight of in the impugned order.32.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9681,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0166,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0011,
+        "Facts": 0.0073,
+        "Issue": 0.0002,
+        "Reasoning": 0.9681
+      }
+    },
+    {
+      "sentence_id": 232,
+      "text": "The other basis in the impugned order is that as a consequence of under valuation of shares, there is an impact on potential income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0906,
+        "Arguments of Respondent": 0.0639,
+        "Decision": 0.0008,
+        "Facts": 0.1338,
+        "Issue": 0.0017,
+        "Reasoning": 0.7092
+      }
+    },
+    {
+      "sentence_id": 233,
+      "text": "The reasoning is that if the ALP were received, the Petitioner would be able to invest the same and earn income, proceeds on a mere surmise assumption.",
+      "predicted_label": "Facts",
+      "confidence": 0.5258,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1069,
+        "Arguments of Respondent": 0.053,
+        "Decision": 0.0032,
+        "Facts": 0.5258,
+        "Issue": 0.0013,
+        "Reasoning": 0.3098
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 234,
+      "text": "This cannot be the basis of taxation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5017,
+      "probabilities": {
+        "Arguments of Petitioner": 0.199,
+        "Arguments of Respondent": 0.2437,
+        "Decision": 0.0021,
+        "Facts": 0.0533,
+        "Issue": 0.0002,
+        "Reasoning": 0.5017
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 235,
+      "text": "In any case, the entire exercise of charging to tax the amounts allegedly not received as share premium fails, as no tax is being charged on the amount received as share premium.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4263,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2385,
+        "Arguments of Respondent": 0.2278,
+        "Decision": 0.0048,
+        "Facts": 0.1005,
+        "Issue": 0.002,
+        "Reasoning": 0.4263
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 236,
+      "text": "Chapter X is invoked to ensure that the transaction is charged to tax only on working out the income after arriving at the ALP of the transaction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7088,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1694,
+        "Arguments of Respondent": 0.0481,
+        "Decision": 0.0003,
+        "Facts": 0.068,
+        "Issue": 0.0054,
+        "Reasoning": 0.7088
+      }
+    },
+    {
+      "sentence_id": 237,
+      "text": "This is only to ensure that there is no manipulation of prices consideration between AEs.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4072,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2724,
+        "Arguments of Respondent": 0.4072,
+        "Decision": 0.0007,
+        "Facts": 0.1187,
+        "Issue": 0.0008,
+        "Reasoning": 0.2003
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 238,
+      "text": "The entire consideration received would not be a subjectmatter of taxation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1238,
+        "Arguments of Respondent": 0.1834,
+        "Decision": 0.0006,
+        "Facts": 0.0228,
+        "Issue": 0.0003,
+        "Reasoning": 0.6691
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 239,
+      "text": "It appears for the above reason that the learned Solicitor General did not seek to defend the conclusion in the impugned order on the basis of the reasons found therein, but sought to support the conclusion with new reasons.33.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9722,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0092,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0015,
+        "Facts": 0.0049,
+        "Issue": 0.0003,
+        "Reasoning": 0.9722
+      }
+    },
+    {
+      "sentence_id": 240,
+      "text": "Before dealing with the submissions advanced by the learned Solicitor General in his reply, to support the impugned order on grounds different from those found therein, it would be necessary to note that taxing of premium not received as the ground in the impugned order is given up and the jurisdiction to tax a transaction of issue of shares is on the basis of benefit given to the holding company.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7428,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0561,
+        "Arguments of Respondent": 0.7428,
+        "Decision": 0.0002,
+        "Facts": 0.0148,
+        "Issue": 0.0007,
+        "Reasoning": 0.1855
+      }
+    },
+    {
+      "sentence_id": 241,
+      "text": "The basis justification of the impugned order is based upon Section 92(1) of the Act, while before us the learned Solicitor General places reliance upon Section 92(2) read with 92(1) of the Act to subject the transaction to tax on the basis of the cost of the benefit passed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.367,
+        "Arguments of Respondent": 0.0786,
+        "Decision": 0.0013,
+        "Facts": 0.1176,
+        "Issue": 0.0403,
+        "Reasoning": 0.3953
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 242,
+      "text": "Therefore, many of the decisions cited by the Petitioner in its opening submissions are no longer relevant and therefore, not dealt with in this order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.066,
+        "Arguments of Respondent": 0.1389,
+        "Decision": 0.009,
+        "Facts": 0.1612,
+        "Issue": 0.0008,
+        "Reasoning": 0.6241
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 243,
+      "text": "The learned Solicitor General submitted that Section 92(1) has to be read with Section 92(2) of the Act and a conjoint reading would indicate that the cost incurred in passing on the benefit to the holding company is being subjected to tax and not the share premium not received.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7118,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2701,
+        "Arguments of Respondent": 0.7118,
+        "Decision": 0.0003,
+        "Facts": 0.0034,
+        "Issue": 0.0001,
+        "Reasoning": 0.0142
+      }
+    },
+    {
+      "sentence_id": 244,
+      "text": "The difference between the ALP and the price charged for issue of shares is the benefit conferred upon the holding company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1254,
+        "Arguments of Respondent": 0.1459,
+        "Decision": 0.0005,
+        "Facts": 0.1531,
+        "Issue": 0.0004,
+        "Reasoning": 0.5747
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 245,
+      "text": "Thus passing of benefit to holding company, is the cost to the Petitioner, which is being brought to tax.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3156,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2965,
+        "Arguments of Respondent": 0.0988,
+        "Decision": 0.0007,
+        "Facts": 0.2874,
+        "Issue": 0.0009,
+        "Reasoning": 0.3156
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 246,
+      "text": "It is submitted that the benefit accrued to the holding company as set out in the affidavit dated 9 September, 2014 in the following manner(a) Cost incurred by Petitioner for a corresponding benefit to holding company i.e. it gets shares worth Rs.53,775 each at a price of Rs.8519/ each and(b)",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4909,
+        "Arguments of Respondent": 0.4574,
+        "Decision": 0.0003,
+        "Facts": 0.0391,
+        "Issue": 0.0005,
+        "Reasoning": 0.0118
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 247,
+      "text": "This indeed is a unique way of reading a provision i.e. to omit words in the Section.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0373,
+        "Arguments of Respondent": 0.0469,
+        "Decision": 0.0002,
+        "Facts": 0.0158,
+        "Issue": 0.0004,
+        "Reasoning": 0.8995
+      }
+    },
+    {
+      "sentence_id": 248,
+      "text": "This manner of reading a provision by ignoring rejecting certain words without any finding that in the absence of so rejecting, the provision would become unworkable, is certainly not a permitted mode of interpretation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8833,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0515,
+        "Arguments of Respondent": 0.0549,
+        "Decision": 0.0001,
+        "Facts": 0.0098,
+        "Issue": 0.0004,
+        "Reasoning": 0.8833
+      }
+    },
+    {
+      "sentence_id": 249,
+      "text": "It would lead to burial of the settled legal position that a provision should be read as a whole, without rejecting and or adding words thereto.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7725,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0516,
+        "Arguments of Respondent": 0.1595,
+        "Decision": 0.0002,
+        "Facts": 0.0153,
+        "Issue": 0.0009,
+        "Reasoning": 0.7725
+      }
+    },
+    {
+      "sentence_id": 250,
+      "text": "This rejecting of words in a statute to achieve a predetermined objective is not permissible.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0753,
+        "Arguments of Respondent": 0.3375,
+        "Decision": 0.0003,
+        "Facts": 0.0073,
+        "Issue": 0.0001,
+        "Reasoning": 0.5795
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 251,
+      "text": "This would amount to redrafting the legislation which is beyond outside the jurisdiction of Courts.36.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6551,
+      "probabilities": {
+        "Arguments of Petitioner": 0.073,
+        "Arguments of Respondent": 0.2533,
+        "Decision": 0.0047,
+        "Facts": 0.0138,
+        "Issue": 0.0001,
+        "Reasoning": 0.6551
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 252,
+      "text": "Be that as it may, Section 92(2) of the Act deals with a situation where two or more AEs enter into an arrangement whereby they are to receive any benefit, service or facility then the allocation, apportionment or contribution towards the cost or expenditure is to be determined in respect of each AE having regard to ALP.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.874,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0656,
+        "Arguments of Respondent": 0.0368,
+        "Decision": 0.0006,
+        "Facts": 0.0227,
+        "Issue": 0.0003,
+        "Reasoning": 0.874
+      }
+    },
+    {
+      "sentence_id": 253,
+      "text": "Thus, to illustrate, the cost of research carried on by an AE for the benefit of three AEs, then the cost will be distributed i.e. allocated, apportioned or contributed depending upon the ALP of such benefit to be received by the assessed AE.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7594,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0476,
+        "Arguments of Respondent": 0.0555,
+        "Decision": 0.0016,
+        "Facts": 0.1356,
+        "Issue": 0.0004,
+        "Reasoning": 0.7594
+      }
+    },
+    {
+      "sentence_id": 254,
+      "text": "It would have no application in the cases like the present one, where there is no occasion to allocate, apportion or contribute any cost and or expenses between the Petitioner and the holding company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2022,
+        "Arguments of Respondent": 0.1795,
+        "Decision": 0.0014,
+        "Facts": 0.0769,
+        "Issue": 0.0002,
+        "Reasoning": 0.5398
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 255,
+      "text": "Therefore, we find no substance in the above submission.37.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0162,
+        "Decision": 0.0011,
+        "Facts": 0.0048,
+        "Issue": 0.0002,
+        "Reasoning": 0.9663
+      }
+    },
+    {
+      "sentence_id": 256,
+      "text": "It is submitted that the above Section 42(2) of the 1922 Act dealt with transfer pricing.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5268,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5268,
+        "Arguments of Respondent": 0.4143,
+        "Decision": 0.0001,
+        "Facts": 0.0101,
+        "Issue": 0.0003,
+        "Reasoning": 0.0484
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 257,
+      "text": "If the above provision is contrasted with the provisions of Chapter X of the Act and in particular Section 92 thereof, it would be noticed that the crucial words shall be chargeable to income tax which are found in Section 42(2) of the 1922 Act are absent in Chapter X of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0002,
+        "Facts": 0.0094,
+        "Issue": 0.0003,
+        "Reasoning": 0.9742
+      }
+    },
+    {
+      "sentence_id": 258,
+      "text": "We pointed out this difference in the two provisions to the learned Solicitor General and he agreed that the above difference exists.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7881,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0573,
+        "Arguments of Respondent": 0.129,
+        "Decision": 0.0014,
+        "Facts": 0.0235,
+        "Issue": 0.0007,
+        "Reasoning": 0.7881
+      }
+    },
+    {
+      "sentence_id": 259,
+      "text": "However, according to him this was in view of the fact that Sections 4, 5, 14 and 56 of the Act does create a charge to income tax on deemed income earned from International taxation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4724,
+        "Arguments of Respondent": 0.4521,
+        "Decision": 0.0002,
+        "Facts": 0.0309,
+        "Issue": 0.0002,
+        "Reasoning": 0.0442
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 260,
+      "text": "Therefore, it is clear that the deemed income which was charged to tax under Section 42(2) of the 1922 Act was done away with under the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9089,
+      "probabilities": {
+        "Arguments of Petitioner": 0.015,
+        "Arguments of Respondent": 0.007,
+        "Decision": 0.0017,
+        "Facts": 0.0672,
+        "Issue": 0.0003,
+        "Reasoning": 0.9089
+      }
+    },
+    {
+      "sentence_id": 261,
+      "text": "The charge of Income now has to be found in Section 4 of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7015,
+      "probabilities": {
+        "Arguments of Petitioner": 0.076,
+        "Arguments of Respondent": 0.0497,
+        "Decision": 0.0003,
+        "Facts": 0.172,
+        "Issue": 0.0005,
+        "Reasoning": 0.7015
+      }
+    },
+    {
+      "sentence_id": 262,
+      "text": "If it is income which is chargeable to tax, under the normal provision of the Act, then alone Chapter X of the Act could be invoked.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4268,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1873,
+        "Arguments of Respondent": 0.1303,
+        "Decision": 0.0016,
+        "Facts": 0.1973,
+        "Issue": 0.0566,
+        "Reasoning": 0.4268
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 263,
+      "text": "Sections 4 and 5 of the Act brings charges to tax total income of the previous year.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8625,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0329,
+        "Arguments of Respondent": 0.0251,
+        "Decision": 0.0003,
+        "Facts": 0.0786,
+        "Issue": 0.0006,
+        "Reasoning": 0.8625
+      }
+    },
+    {
+      "sentence_id": 264,
+      "text": "This would take us to the meaning of the word income under the Act as defined in Section 2(24) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9719,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0001,
+        "Facts": 0.0113,
+        "Issue": 0.0009,
+        "Reasoning": 0.9719
+      }
+    },
+    {
+      "sentence_id": 265,
+      "text": "The amounts received on issue of shares is admittedly a capital account transaction not separately brought within the definition of Income, except in cases covered by Section 56(2) (viib) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8021,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0526,
+        "Arguments of Respondent": 0.0763,
+        "Decision": 0.0003,
+        "Facts": 0.0666,
+        "Issue": 0.0021,
+        "Reasoning": 0.8021
+      }
+    },
+    {
+      "sentence_id": 266,
+      "text": "Thus such capital account transaction not falling within a statutory exception cannot be brought to tax as already discussed herein above while considering the challenge to the grounds as mentioned in the impugned order.39.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9083,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0392,
+        "Arguments of Respondent": 0.0281,
+        "Decision": 0.0006,
+        "Facts": 0.0237,
+        "Issue": 0.0001,
+        "Reasoning": 0.9083
+      }
+    },
+    {
+      "sentence_id": 267,
+      "text": "The issue of shares at a premium is a capital account transaction and not income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3548,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2244,
+        "Arguments of Respondent": 0.3266,
+        "Decision": 0.0003,
+        "Facts": 0.0932,
+        "Issue": 0.0007,
+        "Reasoning": 0.3548
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 268,
+      "text": "It was contended by the Revenue that in view of Chapter X of the Act, the notional income is to be brought to tax and real income will have no place.",
+      "predicted_label": "Facts",
+      "confidence": 0.7286,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0976,
+        "Arguments of Respondent": 0.0334,
+        "Decision": 0.0005,
+        "Facts": 0.7286,
+        "Issue": 0.0107,
+        "Reasoning": 0.1292
+      }
+    },
+    {
+      "sentence_id": 269,
+      "text": "The entire exercise of determining the ALP is only to arrive at the real income earned i.e. the correct price of the transaction, shorn of the price arrived at between the parties on account of their relationship viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1006,
+        "Arguments of Respondent": 0.1343,
+        "Decision": 0.0007,
+        "Facts": 0.1111,
+        "Issue": 0.0026,
+        "Reasoning": 0.6507
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 270,
+      "text": "AEs.",
+      "predicted_label": "Decision",
+      "confidence": 0.7241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0113,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.7241,
+        "Facts": 0.1982,
+        "Issue": 0.0212,
+        "Reasoning": 0.0434
+      }
+    },
+    {
+      "sentence_id": 271,
+      "text": "In this case, the revenue seems to be confusing the measure to a charge and calling the measure a notional income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8791,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0536,
+        "Arguments of Respondent": 0.0255,
+        "Decision": 0.0004,
+        "Facts": 0.041,
+        "Issue": 0.0004,
+        "Reasoning": 0.8791
+      }
+    },
+    {
+      "sentence_id": 272,
+      "text": "We find that there is absence of any charge in the Act to subject issue of shares at a premium to tax.41.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9856,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0008,
+        "Facts": 0.0063,
+        "Issue": 0.0001,
+        "Reasoning": 0.9856
+      }
+    },
+    {
+      "sentence_id": 273,
+      "text": "We also find merit in the submission on behalf of the petitioners that w.e.f. 1 April 2013, the definition of income under Section 2(24)(xvi) of the Act includes within its scope the provisions of Section 56(2) (viib) of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9245,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0012,
+        "Facts": 0.0484,
+        "Issue": 0.0023,
+        "Reasoning": 0.9245
+      }
+    },
+    {
+      "sentence_id": 274,
+      "text": "This indicates the intent of the Parliament to tax issue of shares to a resident, when the issue price is above its fair market value.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6403,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0985,
+        "Arguments of Respondent": 0.1363,
+        "Decision": 0.0002,
+        "Facts": 0.1243,
+        "Issue": 0.0005,
+        "Reasoning": 0.6403
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 275,
+      "text": "The revenue has not been able to meet the above submission but have in their written submission only submitted that the above provisions would have no application to the present facts.42.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0673,
+        "Arguments of Respondent": 0.1822,
+        "Decision": 0.0018,
+        "Facts": 0.0065,
+        "Issue": 0.0003,
+        "Reasoning": 0.742
+      }
+    },
+    {
+      "sentence_id": 276,
+      "text": "It was contended by the Revenue that in any event the charge would be found in Section 56(1) of the Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.7162,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0767,
+        "Arguments of Respondent": 0.0562,
+        "Decision": 0.0008,
+        "Facts": 0.7162,
+        "Issue": 0.0072,
+        "Reasoning": 0.143
+      }
+    },
+    {
+      "sentence_id": 277,
+      "text": "Section 56 of the Act does provide that income of every kind which is not excluded from the total income is chargeable under the head income from other sources.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6879,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0688,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0002,
+        "Facts": 0.2061,
+        "Issue": 0.0027,
+        "Reasoning": 0.6879
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 278,
+      "text": "However, before Section 56 of the Act can be applied, there must be income which arises.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7205,
+      "probabilities": {
+        "Arguments of Petitioner": 0.129,
+        "Arguments of Respondent": 0.0501,
+        "Decision": 0.0003,
+        "Facts": 0.0976,
+        "Issue": 0.0024,
+        "Reasoning": 0.7205
+      }
+    },
+    {
+      "sentence_id": 279,
+      "text": "As pointed out above, the issue of shares at a premium is on Capital Account and gives rise to no income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8289,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0348,
+        "Arguments of Respondent": 0.0172,
+        "Decision": 0.0005,
+        "Facts": 0.1182,
+        "Issue": 0.0005,
+        "Reasoning": 0.8289
+      }
+    },
+    {
+      "sentence_id": 280,
+      "text": "The submission on behalf of the revenue that the shortfall in the ALP as computed for the purposes of Chapter X of the Act give rise to income is misplaced.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7594,
+      "probabilities": {
+        "Arguments of Petitioner": 0.046,
+        "Arguments of Respondent": 0.0557,
+        "Decision": 0.0031,
+        "Facts": 0.1356,
+        "Issue": 0.0001,
+        "Reasoning": 0.7594
+      }
+    },
+    {
+      "sentence_id": 281,
+      "text": "The ALP is meant to determine the real value of the transaction entered into between AEs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1299,
+        "Arguments of Respondent": 0.1361,
+        "Decision": 0.0018,
+        "Facts": 0.0665,
+        "Issue": 0.0012,
+        "Reasoning": 0.6645
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 282,
+      "text": "It does not warrant recomputation of a consideration received given on capital account.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2534,
+        "Arguments of Respondent": 0.4052,
+        "Decision": 0.0005,
+        "Facts": 0.0396,
+        "Issue": 0.0006,
+        "Reasoning": 0.3007
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 283,
+      "text": "It permits recomputation of Income arising out of a Capital Account Transaction, such as interest paid received on loans taken given, depreciation taken on machinery etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8256,
+      "probabilities": {
+        "Arguments of Petitioner": 0.085,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0002,
+        "Facts": 0.0632,
+        "Issue": 0.0002,
+        "Reasoning": 0.8256
+      }
+    },
+    {
+      "sentence_id": 284,
+      "text": "All the above would be cases of income being affected due to a transaction on capital account.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9315,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0247,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.0002,
+        "Facts": 0.0329,
+        "Issue": 0.0009,
+        "Reasoning": 0.9315
+      }
+    },
+    {
+      "sentence_id": 285,
+      "text": "This is not the revenues case here.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0009,
+        "Facts": 0.0243,
+        "Issue": 0.0001,
+        "Reasoning": 0.9593
+      }
+    },
+    {
+      "sentence_id": 286,
+      "text": "Therefore, although Section 56(1) of the Act would permit including within its head, all income not otherwise excluded, it does not provide for a charge to tax on Capital Account Transaction of issue of shares as is specifically provided for in Section 45 or Section 56(2)(viib) of the Act and included within the definition of income in Section 2(24) of the Act.43.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8782,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0436,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.0002,
+        "Facts": 0.0618,
+        "Issue": 0.0003,
+        "Reasoning": 0.8782
+      }
+    },
+    {
+      "sentence_id": 287,
+      "text": "It is submitted that even though the Petitioner did not receive the ALP value consideration for the issue of its shares to its holding company, the difference between the ALP and the contract price is an income, as it arises even if not received and the same must be subjected to tax.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6209,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6209,
+        "Arguments of Respondent": 0.2161,
+        "Decision": 0.001,
+        "Facts": 0.1243,
+        "Issue": 0.0033,
+        "Reasoning": 0.0345
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 288,
+      "text": "The chargeability to tax is when right to receive an income becomes vested in the assessee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7056,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1379,
+        "Arguments of Respondent": 0.0895,
+        "Decision": 0.0002,
+        "Facts": 0.0641,
+        "Issue": 0.0027,
+        "Reasoning": 0.7056
+      }
+    },
+    {
+      "sentence_id": 289,
+      "text": "However, the issue under consideration is different viz whether the amount said to accrue, arise or receive is at all income.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7201,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0426,
+        "Arguments of Respondent": 0.0416,
+        "Decision": 0.0008,
+        "Facts": 0.0946,
+        "Issue": 0.1003,
+        "Reasoning": 0.7201
+      }
+    },
+    {
+      "sentence_id": 290,
+      "text": "The issue of shares to the holding company is a capital account transaction, therefore, has nothing to do with income.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.424,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1326,
+        "Arguments of Respondent": 0.424,
+        "Decision": 0.0004,
+        "Facts": 0.0514,
+        "Issue": 0.0003,
+        "Reasoning": 0.3912
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 291,
+      "text": "We, thus do not find substance in the above submission.44.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.977,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0027,
+        "Facts": 0.0033,
+        "Issue": 0.0003,
+        "Reasoning": 0.977
+      }
+    },
+    {
+      "sentence_id": 292,
+      "text": "It is a hidden benefit of the transaction which is being charged to tax and the charging Section is inherent in Chapter X of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2433,
+        "Arguments of Respondent": 0.1218,
+        "Decision": 0.0003,
+        "Facts": 0.057,
+        "Issue": 0.0012,
+        "Reasoning": 0.5763
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 293,
+      "text": "It is well settled position in law that a charge to tax must be found specifically mentioned in the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9046,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0185,
+        "Decision": 0.0007,
+        "Facts": 0.0441,
+        "Issue": 0.0045,
+        "Reasoning": 0.9046
+      }
+    },
+    {
+      "sentence_id": 294,
+      "text": "In the absence of there being a charging Section in Chapter X of the Act, it is not possible to read a charging provision into Chapter X of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.799,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1228,
+        "Arguments of Respondent": 0.045,
+        "Decision": 0.0007,
+        "Facts": 0.0319,
+        "Issue": 0.0006,
+        "Reasoning": 0.799
+      }
+    },
+    {
+      "sentence_id": 295,
+      "text": "Chapter X of the Act is a machinery provision to arrive at the ALP of a transaction between AEs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5323,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2053,
+        "Arguments of Respondent": 0.1867,
+        "Decision": 0.0009,
+        "Facts": 0.0728,
+        "Issue": 0.002,
+        "Reasoning": 0.5323
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 296,
+      "text": "The substantive charging provisions are found in Sections 4, 5, 15 (Salaries), 22 (Income from house property), 28 (Profits and gains of business), 45 (Capital gain) and 56 (Income from other Sources).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.521,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0341,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0001,
+        "Facts": 0.4317,
+        "Issue": 0.0003,
+        "Reasoning": 0.521
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 297,
+      "text": "Even Income arising from International Transaction between A.E. must satisfy the test of Income under the Act and must find its home in one of the above heads i.e. charging provisions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1703,
+        "Arguments of Respondent": 0.0496,
+        "Decision": 0.0001,
+        "Facts": 0.0387,
+        "Issue": 0.0017,
+        "Reasoning": 0.7396
+      }
+    },
+    {
+      "sentence_id": 298,
+      "text": "The Act has to be read as an integrated whole.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6197,
+      "probabilities": {
+        "Arguments of Petitioner": 0.155,
+        "Arguments of Respondent": 0.158,
+        "Decision": 0.0106,
+        "Facts": 0.055,
+        "Issue": 0.0017,
+        "Reasoning": 0.6197
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 299,
+      "text": "On the aforesaid submission also, there can be no dispute.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8312,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0799,
+        "Arguments of Respondent": 0.05,
+        "Decision": 0.0025,
+        "Facts": 0.0333,
+        "Issue": 0.0032,
+        "Reasoning": 0.8312
+      }
+    },
+    {
+      "sentence_id": 300,
+      "text": "However, as observed by the Supreme Court in CIT v. B.C. Srinivasa Shetti 1981 128 ITR 294 /5 taxmann.com 1, there is a qualitative difference between the charging provisions and computation provisions and ordinarily the operation of the charging provisions cannot be affected by the construction of computation provisions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0562,
+        "Arguments of Respondent": 0.02,
+        "Decision": 0.0003,
+        "Facts": 0.125,
+        "Issue": 0.0027,
+        "Reasoning": 0.7958
+      }
+    },
+    {
+      "sentence_id": 301,
+      "text": "In the present case, there is no charging provision to tax capital account transaction in respect of issue of shares at a premium.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8105,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0956,
+        "Arguments of Respondent": 0.0466,
+        "Decision": 0.0003,
+        "Facts": 0.0468,
+        "Issue": 0.0003,
+        "Reasoning": 0.8105
+      }
+    },
+    {
+      "sentence_id": 302,
+      "text": "Computation provisions cannot replace substitute the charging provisions.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1196,
+        "Arguments of Respondent": 0.0547,
+        "Decision": 0.0012,
+        "Facts": 0.0537,
+        "Issue": 0.0002,
+        "Reasoning": 0.7705
+      }
+    },
+    {
+      "sentence_id": 303,
+      "text": "In fact, in B.C. Srinivasa Shetti (supra), there was charging provision but the computation provision failed and in such a case the Court held that the transaction cannot be brought to tax.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9184,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0407,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0006,
+        "Facts": 0.0157,
+        "Issue": 0.0003,
+        "Reasoning": 0.9184
+      }
+    },
+    {
+      "sentence_id": 304,
+      "text": "The present facts are on a higher pedestal as there is no charging provision to tax issue of shares at premium to a nonresident, then the occasion to invoke the computation provisions does not arise.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.831,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0357,
+        "Decision": 0.001,
+        "Facts": 0.1176,
+        "Issue": 0.0001,
+        "Reasoning": 0.831
+      }
+    },
+    {
+      "sentence_id": 305,
+      "text": "We, therefore, find no substance in the aforesaid submission made on behalf of the Revenue.47.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.98,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0033,
+        "Facts": 0.0031,
+        "Issue": 0.0002,
+        "Reasoning": 0.98
+      }
+    },
+    {
+      "sentence_id": 306,
+      "text": "During the course of hearing the learned Solicitor General also made submissions with regard to taxing income in the hands of the Petitioner even though the income has allegedly been earned by the holding company.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3317,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3317,
+        "Arguments of Respondent": 0.212,
+        "Decision": 0.0035,
+        "Facts": 0.2544,
+        "Issue": 0.0039,
+        "Reasoning": 0.1945
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 307,
+      "text": "None of the notices issued to the Petitioner on the draft order passed by AO on the impugned order passed by DRP even proposes to assess the Petitioner in its representative capacity.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3957,
+        "Arguments of Respondent": 0.2021,
+        "Decision": 0.0027,
+        "Facts": 0.116,
+        "Issue": 0.0005,
+        "Reasoning": 0.283
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 308,
+      "text": "Hence, the Petitioner had no occasion to challenge the jurisdiction of the Revenue on the above aspect.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1092,
+        "Arguments of Respondent": 0.1474,
+        "Decision": 0.0009,
+        "Facts": 0.1065,
+        "Issue": 0.0003,
+        "Reasoning": 0.6357
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 309,
+      "text": "Therefore, we see no reason to examine the issue.48.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0124,
+        "Arguments of Respondent": 0.0125,
+        "Decision": 0.0238,
+        "Facts": 0.0068,
+        "Issue": 0.0008,
+        "Reasoning": 0.9437
+      }
+    },
+    {
+      "sentence_id": 310,
+      "text": "Before parting, we may point out that in its written submissions, the revenue has raised an issue of alternative remedy which was not raised at the hearing and contended that there is no patent illegality in the impugned order warranting interference by this Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8454,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.1225,
+        "Decision": 0.0129,
+        "Facts": 0.0075,
+        "Issue": 0.002,
+        "Reasoning": 0.8454
+      }
+    },
+    {
+      "sentence_id": 311,
+      "text": "However, the very fact that at the time of oral submissions, the Revenue supported the conclusions in the impugned order on grounds different from those mentioned therein would itself speak volumes of the patent nonsustainability of the impugned order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8766,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0445,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0013,
+        "Facts": 0.0526,
+        "Issue": 0.001,
+        "Reasoning": 0.8766
+      }
+    },
+    {
+      "sentence_id": 312,
+      "text": "The preliminary objection, not raised at the hearing, is, completely devoid of any substance.49.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9479,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0076,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0188,
+        "Facts": 0.0153,
+        "Issue": 0.0004,
+        "Reasoning": 0.9479
+      }
+    },
+    {
+      "sentence_id": 313,
+      "text": "For all the above reasons, we find that in the present facts issue of shares at a premium by the Petitioner to its non resident holding company does not give rise to any income from an admitted International Transaction.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.552,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0061,
+        "Facts": 0.4311,
+        "Issue": 0.0018,
+        "Reasoning": 0.552
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 314,
+      "text": "Thus, no occasion to apply Chapter X of the Act can arise in such a case.50.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9006,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0496,
+        "Arguments of Respondent": 0.0413,
+        "Decision": 0.0015,
+        "Facts": 0.0069,
+        "Issue": 0.0001,
+        "Reasoning": 0.9006
+      }
+    },
+    {
+      "sentence_id": 315,
+      "text": "Accordingly, Petition is allowed in terms of the above finding and the following orders are quashed and set aside as being without jurisdiction, null and void(i) Reference dated 11 July 2011 by the A.O. to TPO to determine the ALP of issue of shares at a premium by the petitioner to its holding company which is a nonresident entity(ii) Order dated 28 January 2013 of the TPO(iii) Draft Assessment Order dated 22 March 2013 passed by AO under section 143 read with section 144C(1) of the Act and(iv)",
+      "predicted_label": "Facts",
+      "confidence": 0.9758,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0087,
+        "Facts": 0.9758,
+        "Issue": 0.0009,
+        "Reasoning": 0.0096
+      }
+    },
+    {
+      "sentence_id": 316,
+      "text": "Order dated 11 February 2014 of DRP on the preliminary issue of jurisdiction to tax issues of shares at a premium to its holding company.51.",
+      "predicted_label": "Facts",
+      "confidence": 0.4333,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1058,
+        "Arguments of Respondent": 0.0934,
+        "Decision": 0.001,
+        "Facts": 0.4333,
+        "Issue": 0.0027,
+        "Reasoning": 0.3638
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 317,
+      "text": "Rule is made absolute in the above terms.",
+      "predicted_label": "Facts",
+      "confidence": 0.5654,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.3808,
+        "Facts": 0.5654,
+        "Issue": 0.0007,
+        "Reasoning": 0.048
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

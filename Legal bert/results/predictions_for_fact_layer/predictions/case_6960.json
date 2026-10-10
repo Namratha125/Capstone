@@ -1,0 +1,864 @@
+{
+  "case_id": "6960",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "On 2nd January,2009 the appellant issued orders to ten employees engaged in the Share Department effecting transfer from Mumbai to diverse places, all over India.",
+      "predicted_label": "Facts",
+      "confidence": 0.9572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0,
+        "Facts": 0.9572,
+        "Issue": 0.001,
+        "Reasoning": 0.0315
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The administrative exigencies which warranted the orders of transfer have been explained by the employer thus2.Until 199697 transfers of shares were carried out in the physical form.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0266,
+        "Arguments of Respondent": 0.0723,
+        "Decision": 0.0001,
+        "Facts": 0.3359,
+        "Issue": 0.0003,
+        "Reasoning": 0.5649
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "Thereafter in accordance with the requirement introduced by the Securities and Exchange Board of India (SEBI) shares of publically held companies were dematerialised and electronic transfer became mandatory.",
+      "predicted_label": "Facts",
+      "confidence": 0.7289,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0518,
+        "Arguments of Respondent": 0.0696,
+        "Decision": 0.0001,
+        "Facts": 0.7289,
+        "Issue": 0.0021,
+        "Reasoning": 0.1474
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The letters of transfer addressed to the ten employees advert to the fact that the volume of physical transfers declined by 99 and, as on 31/12/2008 more than 93.8 of the shares of the company have been dematerialised.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.66,
+      "probabilities": {
+        "Arguments of Petitioner": 0.03,
+        "Arguments of Respondent": 0.0559,
+        "Decision": 0.0003,
+        "Facts": 0.2536,
+        "Issue": 0.0003,
+        "Reasoning": 0.66
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 4,
+      "text": "Out of 1,56,000 shareholders of the company 32,000 shareholders representing less than 7 of the total share capital were stated to hold shares in the physical form.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4706,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1041,
+        "Arguments of Respondent": 0.0787,
+        "Decision": 0.0001,
+        "Facts": 0.3442,
+        "Issue": 0.0023,
+        "Reasoning": 0.4706
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 5,
+      "text": "Consequently the workmen were informed that since the shares of the company have been traded in the Demat form involving a considerable reduction in the work of the Share Department, the Company was not able to gainfully utilise the services of the ten workmen in the share department.",
+      "predicted_label": "Facts",
+      "confidence": 0.9243,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.0001,
+        "Facts": 0.9243,
+        "Issue": 0.0006,
+        "Reasoning": 0.0583
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "In these circumstances, the Company issued orders of transfer to the workmen.3.A complaint of unfair labour practices was instituted by the Union under items 3 and 9 ScheduleIV of the Maharashtra Recognition of Trade Unions and Prevention of Unfair Labour Practices Act, 1971 (M.R.T.U.Act).",
+      "predicted_label": "Facts",
+      "confidence": 0.9963,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9963,
+        "Issue": 0.0016,
+        "Reasoning": 0.0014
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The complaints proceed on the basis that the employer had purported to effect transfers on the ground that there was no work for the concerned workmen in the Share Department as a result of the introduction of the Demat Facility and it was not due to the introduction of the SAP technology.4.The employer filed a reply to the application for interim relief before the Industrial Court setting out the job descriptions of each of the concerned workmen and the circumstances in which the transfers were being effected.",
+      "predicted_label": "Facts",
+      "confidence": 0.9897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0,
+        "Facts": 0.9897,
+        "Issue": 0.0003,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "According to the employer it was unable to effectively and gainfully utilise the services of the workmen in the Share Department and hence orders of transfer were issued.",
+      "predicted_label": "Facts",
+      "confidence": 0.9427,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0001,
+        "Facts": 0.9427,
+        "Issue": 0.0062,
+        "Reasoning": 0.0418
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "The following averments contained in the reply setforth the defence of the employer.",
+      "predicted_label": "Facts",
+      "confidence": 0.9156,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0555,
+        "Decision": 0.0002,
+        "Facts": 0.9156,
+        "Issue": 0.0004,
+        "Reasoning": 0.0243
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "With the introduction of Demat and Electronic transfer of shares,the volume of physical transfers have declined by over 99.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0728,
+        "Arguments of Respondent": 0.455,
+        "Decision": 0.0003,
+        "Facts": 0.1652,
+        "Issue": 0.0019,
+        "Reasoning": 0.3048
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 11,
+      "text": "As on 31.12.2008, more than 93.8 of shares of the company have been dematerialised.",
+      "predicted_label": "Facts",
+      "confidence": 0.5552,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1329,
+        "Arguments of Respondent": 0.0903,
+        "Decision": 0.0021,
+        "Facts": 0.5552,
+        "Issue": 0.0089,
+        "Reasoning": 0.2106
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "It is submitted that the Company has about 1,56,000 shareholders,out of which,around 32000 share holders representing less than 7 of the total shareholdings hold shares in the physical form.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6578,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3055,
+        "Arguments of Respondent": 0.6578,
+        "Decision": 0.0002,
+        "Facts": 0.0206,
+        "Issue": 0.0006,
+        "Reasoning": 0.0152
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "Further,there were only 1214 transfers of the shares in the year 200708, which reflect about four transfers a working day, as against a high number of 4,00,088 transfers ten years back, i.e.199798.The employer stated that the 10 employees upon their transfers would be required to carry out mainly clerical jobs which are commensurate with their grades that they would be provided with accommodation at the establishment of the respondent to which they were transferred and the transfers were without prejudice to their existing wages, emoluments and grades.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0953,
+        "Arguments of Respondent": 0.465,
+        "Decision": 0.0001,
+        "Facts": 0.2237,
+        "Issue": 0.0007,
+        "Reasoning": 0.2152
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "By a Judgment dated 30/1/2009 the Industrial Court allowed the application for interim relief stayed the orders of transfer and restrained the employer from giving effect to the order of transfer dated 2/1/2009 pending the disposal of the complaint.",
+      "predicted_label": "Facts",
+      "confidence": 0.9902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9902,
+        "Issue": 0.0034,
+        "Reasoning": 0.0044
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The Industrial Court held that (i) Transfer in the present case is a condition of service (ii) There is no material prima facie indicating that the orders of transfer had been issued malafide (iii) There was no material to indicate that sufficient work was available at the Head Office at Mumbai and (iv) The employees cannot be continued with idle wages forever.",
+      "predicted_label": "Facts",
+      "confidence": 0.9444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0001,
+        "Facts": 0.9444,
+        "Issue": 0.0014,
+        "Reasoning": 0.0461
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The observations of the Industrial Court in that regard are to the following effect.",
+      "predicted_label": "Facts",
+      "confidence": 0.6184,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0364,
+        "Arguments of Respondent": 0.0147,
+        "Decision": 0.0006,
+        "Facts": 0.6184,
+        "Issue": 0.0004,
+        "Reasoning": 0.3295
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "While considering the submissions of both parties,as per the pleadings and material on record,prima facie it seems that transfer order of the concerned employee is as per their contract of the employment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6823,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0084,
+        "Decision": 0.0036,
+        "Facts": 0.298,
+        "Issue": 0.0023,
+        "Reasoning": 0.6823
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "As per the appointment letters issued to the concerned employees, the concerned employees are liable to be posted to work in any of division,department,etc.of the Respondents, therefore, it cannot be said that transfer order of the concerned employees are without any power to transfer or term of employment.",
+      "predicted_label": "Facts",
+      "confidence": 0.4844,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.2077,
+        "Decision": 0.0005,
+        "Facts": 0.4844,
+        "Issue": 0.0003,
+        "Reasoning": 0.2863
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Prima facie, there is no material showing that transfer orders of the concerned employees are malafide under the guise of management policy as there is no material showing that there is sufficient work in Head Office for providing to the concerned employees.",
+      "predicted_label": "Facts",
+      "confidence": 0.6349,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0349,
+        "Arguments of Respondent": 0.0363,
+        "Decision": 0.0005,
+        "Facts": 0.6349,
+        "Issue": 0.0008,
+        "Reasoning": 0.2926
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "The concerned employees cannot be continued with idle wages forever.",
+      "predicted_label": "Facts",
+      "confidence": 0.3667,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1442,
+        "Arguments of Respondent": 0.1056,
+        "Decision": 0.0206,
+        "Facts": 0.3667,
+        "Issue": 0.0004,
+        "Reasoning": 0.3626
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Their services can be utilised as per exigency of work.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0886,
+        "Arguments of Respondent": 0.0858,
+        "Decision": 0.0056,
+        "Facts": 0.2233,
+        "Issue": 0.0014,
+        "Reasoning": 0.5952
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "Despite these observations the Industrial Court interfered with the order of transfer at the interim stage holding that a breach of section 9A of the Industrial Disputes Act,1947 had taken place in as much as the employer had reduced the number of persons employed in the Share Department without issuing a notice of change.5.The order of the Industrial Court was challenged by the employer in a Petition under Article226 of the Constitution of India.",
+      "predicted_label": "Facts",
+      "confidence": 0.992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0,
+        "Facts": 0.992,
+        "Issue": 0.0019,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The Petition was dismissed by the Judgment, in appeal, which was delivered on 16/2/2009.6.The learned counsel appearing on behalf of the appellant submitted that the Industrial Court having came to the conclusion that prima facie the transfer orders are not malafide and that transferability is a condition of service, there was no warrant for the interference of the Court at the interlocutory stage.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9023,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9023,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0003,
+        "Facts": 0.0865,
+        "Issue": 0.0012,
+        "Reasoning": 0.0075
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The learned counsel submitted that the grounds in regard to the breach of Section 9A are specious.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5126,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4701,
+        "Arguments of Respondent": 0.5126,
+        "Decision": 0.0002,
+        "Facts": 0.0033,
+        "Issue": 0.0001,
+        "Reasoning": 0.0137
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 25,
+      "text": "In so far as the ten complainants workmen are concerned the order of transfer would not affect them adversely and unless the orders were to have adverse effect there could be no breach of Section 9A. Transfer being an incident of service there is no question of the order of transfer being in violation of Section 9A. That apart, it was submitted that item 11 of Schedule IV of the Industrial Disputes Act is not attracted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4289,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2379,
+        "Arguments of Respondent": 0.3022,
+        "Decision": 0.002,
+        "Facts": 0.0277,
+        "Issue": 0.0014,
+        "Reasoning": 0.4289
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 26,
+      "text": "The transfers from the Share Department were not within the control of the employer and in any event there is no reduction in the number of posts in the department.7.On the other hand the learned counsel appearing on behalf of the respondentUnion supported the judgment of the Industrial Court and of the learned Single Judge and urged that the whole basis of the order of transfer was that the services of the workmen could be gainfully utilised, which is belied by the circumstance that the employer had issued a notice of Voluntary Retirement on 4/2/2009 in all its cement plants in the country the evidence produced on behalf of the employer in another complaint of unfair labour practices would show that the witness for the employer had admitted that he was unaware whether the company had carried out a study about the number of employees that would be required in the Share Department and if any of the employees in that department had been rendered surplus.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0116,
+        "Arguments of Respondent": 0.9638,
+        "Decision": 0.0001,
+        "Facts": 0.015,
+        "Issue": 0.0001,
+        "Reasoning": 0.0094
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The learned counsel submitted that the complaint raises triable issues and the learned Single Judge was in the circumstances justified in confirming the interim order of the Industrial Court.8.In evaluating the rival contentions of the learned counsel it would be necessary to emphasise that the Industrial Court allowed an application for the grant of interim relief in the complaint of unfair labour practices which arises out of the orders of transfer served by the employer on the employees concerned.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8761,
+      "probabilities": {
+        "Arguments of Petitioner": 0.109,
+        "Arguments of Respondent": 0.8761,
+        "Decision": 0.0002,
+        "Facts": 0.0054,
+        "Issue": 0.0003,
+        "Reasoning": 0.009
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "Undoubtedly the Industrial Court has jurisdiction to pass interim orders under section 30(2) of the M.R.T.U.and P.U.L.P. Act, 1971.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8099,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0479,
+        "Arguments of Respondent": 0.0402,
+        "Decision": 0.0214,
+        "Facts": 0.0707,
+        "Issue": 0.0099,
+        "Reasoning": 0.8099
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The complaint invokes items 3 and 9 of Schedule IV.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3666,
+        "Arguments of Respondent": 0.1347,
+        "Decision": 0.0021,
+        "Facts": 0.0976,
+        "Issue": 0.0281,
+        "Reasoning": 0.3709
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 30,
+      "text": "Under item3 the unfair labour practice consists in the transfer of an employeemalafide from one place to another in the guise of following management policy.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6755,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1541,
+        "Arguments of Respondent": 0.0314,
+        "Decision": 0.0005,
+        "Facts": 0.1225,
+        "Issue": 0.016,
+        "Reasoning": 0.6755
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 31,
+      "text": "At the prima facie stage the Industrial Court was of the view that no case of malafides has been established.",
+      "predicted_label": "Facts",
+      "confidence": 0.6506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0006,
+        "Facts": 0.6506,
+        "Issue": 0.004,
+        "Reasoning": 0.3292
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 33,
+      "text": "Ram Mohan Ray and Ors.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4055,
+        "Arguments of Respondent": 0.1969,
+        "Decision": 0.0025,
+        "Facts": 0.0667,
+        "Issue": 0.0012,
+        "Reasoning": 0.3272
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "(emphasis supplied)12.Now so far as the complainant workmen are concerned, once it is held that transferability is prima facie an incident of service it is impossible to deduce as to how the Tribunal could surmise that the transferred workmen would be adversely affected by an order of transfer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9683,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0002,
+        "Facts": 0.0192,
+        "Issue": 0.0002,
+        "Reasoning": 0.9683
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "Apart from this the learned counsel appearing on behalf of the management placed reliance upon (",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6308,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1848,
+        "Arguments of Respondent": 0.6308,
+        "Decision": 0.0004,
+        "Facts": 0.0209,
+        "Issue": 0.0002,
+        "Reasoning": 0.1629
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "Amrit Banaspati Co.Ltd.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2739,
+        "Arguments of Respondent": 0.1797,
+        "Decision": 0.0057,
+        "Facts": 0.1595,
+        "Issue": 0.01,
+        "Reasoning": 0.3712
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 38,
+      "text": "S.Taki Bilgrami and Ors. 1997 (II) LLJ 317) in support of his submissions13.It is not necessary for the Court to express a conclusive view on any aspect of the case since the trial of the complaint is still to take place before the Industrial Court.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5935,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3847,
+        "Arguments of Respondent": 0.5935,
+        "Decision": 0.0002,
+        "Facts": 0.0134,
+        "Issue": 0.0002,
+        "Reasoning": 0.008
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 39,
+      "text": "Vs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2723,
+        "Arguments of Respondent": 0.218,
+        "Decision": 0.0335,
+        "Facts": 0.0964,
+        "Issue": 0.0085,
+        "Reasoning": 0.3713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 40,
+      "text": "Ram Mohan Ray and Ors.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4055,
+        "Arguments of Respondent": 0.1969,
+        "Decision": 0.0025,
+        "Facts": 0.0667,
+        "Issue": 0.0012,
+        "Reasoning": 0.3272
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "AIR 1973 Supreme Court 1156 it is not possible to accept the submission that a mere an order of transfer would affect adversely the workmen concerned where transferability is a condition of service.14.While the Industrial Tribunal has jurisdiction to grant interim orders, such orders ought not to be passed as a matter of course unless a prima facie case is made out in regard to the commission of an unfair labour practice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9645,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0082,
+        "Decision": 0.0004,
+        "Facts": 0.0144,
+        "Issue": 0.0003,
+        "Reasoning": 0.9645
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "On the findings which the Industrial Court recorded the commission of unfair labour practices could not have been inferred at the interim stage.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4314,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4314,
+        "Arguments of Respondent": 0.1631,
+        "Decision": 0.0098,
+        "Facts": 0.0486,
+        "Issue": 0.0003,
+        "Reasoning": 0.3468
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 43,
+      "text": "The finding in regard to the breach of section 9A is prima facie unsustainable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7673,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1278,
+        "Arguments of Respondent": 0.0266,
+        "Decision": 0.021,
+        "Facts": 0.057,
+        "Issue": 0.0004,
+        "Reasoning": 0.7673
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "Consistent with the parameters of the writ jurisdiction under Articles 226 and 227 of the Constitution, the interference of the learned Single Judge in the present case was warranted in order to correct a manifest error on the part of the Industrial Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8749,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0199,
+        "Arguments of Respondent": 0.0392,
+        "Decision": 0.0047,
+        "Facts": 0.0601,
+        "Issue": 0.0013,
+        "Reasoning": 0.8749
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "So far as the submissions urged on behalf of the respondents are concerned, the mere fact that the management has issued a notice of voluntary retirement on 4/2/2009 at all cement plants in the country would not at the interim stage furnish a ground for interfering with the order of transfer.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0289,
+        "Decision": 0.0021,
+        "Facts": 0.0181,
+        "Issue": 0.0001,
+        "Reasoning": 0.9478
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "It is for the management to determine how its work force should be deployed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.485,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1281,
+        "Arguments of Respondent": 0.0779,
+        "Decision": 0.0025,
+        "Facts": 0.3058,
+        "Issue": 0.0007,
+        "Reasoning": 0.485
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "The reasons indicated by the management, relating to a reduction in the work of the Share Department over a period of time, cannot be regarded as extraneous or colourable, in any event at the interim stage.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.0209,
+        "Decision": 0.0003,
+        "Facts": 0.0882,
+        "Issue": 0.0001,
+        "Reasoning": 0.8721
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Those proceedings arose out of the introduction of the S.A.P. technology by the management.",
+      "predicted_label": "Facts",
+      "confidence": 0.4689,
+      "probabilities": {
+        "Arguments of Petitioner": 0.085,
+        "Arguments of Respondent": 0.1819,
+        "Decision": 0.0007,
+        "Facts": 0.4689,
+        "Issue": 0.0017,
+        "Reasoning": 0.2618
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The Industrial Court had injuncted the management from introducing or implementing the S.A.P. system till the disposal of the complaint or until a notice of change was issued under section 9A.This Court while setting aside the order of Industrial Court by its order dated 3.4.2007 passed in Writ Petition no.1287/2007 directed that the management shall not effect retrenchment of any employee on the ground that the workman is rendered surplus as a result of S.A.P. technology and no workman shall be redeployed or transferred without prior permission of the Industrial Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.6956,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0304,
+        "Arguments of Respondent": 0.071,
+        "Decision": 0.0026,
+        "Facts": 0.6956,
+        "Issue": 0.0086,
+        "Reasoning": 0.1919
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "It was in the context of the allegations in that complaint that the evidence which was adduced on behalf of the management would have to be read.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7567,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0818,
+        "Arguments of Respondent": 0.0897,
+        "Decision": 0.0002,
+        "Facts": 0.0714,
+        "Issue": 0.0001,
+        "Reasoning": 0.7567
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "In any event the evidence in the earlier complaint was adduced some time in August, 2008 while the impugned order was issued much thereafter in the month of January, 2009.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2751,
+        "Arguments of Respondent": 0.1633,
+        "Decision": 0.0041,
+        "Facts": 0.0833,
+        "Issue": 0.0007,
+        "Reasoning": 0.4736
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "The management is entitled to demonstrate at the trial the change in circumstances as of January, 2009.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8069,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0374,
+        "Arguments of Respondent": 0.0492,
+        "Decision": 0.0081,
+        "Facts": 0.0982,
+        "Issue": 0.0002,
+        "Reasoning": 0.8069
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "The impugned order of the learned Single Judge would have to be set aside.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0159,
+        "Decision": 0.4149,
+        "Facts": 0.1045,
+        "Issue": 0.0003,
+        "Reasoning": 0.4366
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 54,
+      "text": "Accordingly the order is thus ORDERThe judgment under appeal is set aside.",
+      "predicted_label": "Decision",
+      "confidence": 0.9218,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.9218,
+        "Facts": 0.0465,
+        "Issue": 0.0002,
+        "Reasoning": 0.0297
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "The application for the grant of interim relief before the Tribunal shall stand dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.8923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.8923,
+        "Facts": 0.0387,
+        "Issue": 0.0002,
+        "Reasoning": 0.0666
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "In the circumstances there shall be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9825,
+        "Facts": 0.006,
+        "Issue": 0.0001,
+        "Reasoning": 0.0107
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "In view of the disposal of the appeal, the Petition does not survive.",
+      "predicted_label": "Decision",
+      "confidence": 0.8958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0141,
+        "Decision": 0.8958,
+        "Facts": 0.0336,
+        "Issue": 0.0022,
+        "Reasoning": 0.0514
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "It is accordingly disposed of.",
+      "predicted_label": "Decision",
+      "confidence": 0.8497,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.8497,
+        "Facts": 0.1085,
+        "Issue": 0.0003,
+        "Reasoning": 0.0391
+      }
+    }
+  ]
+}

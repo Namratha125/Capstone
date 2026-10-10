@@ -1,0 +1,841 @@
+{
+  "case_id": "6950",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " M. Savant, J.By this Petition filed under Article 226 of the Constitution of India, the Petitioner who was working as a constable in the Central Industrial Security Force is challenging the order dated 13.9.1995 dismissing him from service.2.",
+      "predicted_label": "Issue",
+      "confidence": 0.7437,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0007,
+        "Facts": 0.2541,
+        "Issue": 0.7437,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The factual matrix involved in the Petition is set out thusThe Petitioner was appointed as a constable on 9.11.1981 in the Central Industrial Security Force.",
+      "predicted_label": "Facts",
+      "confidence": 0.9961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0,
+        "Facts": 0.9961,
+        "Issue": 0.0013,
+        "Reasoning": 0.0018
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The Petitioner was detailed for duty to guard the properties of Administrative Building of MGCC at Nagothane.",
+      "predicted_label": "Facts",
+      "confidence": 0.897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0234,
+        "Arguments of Respondent": 0.0158,
+        "Decision": 0.0001,
+        "Facts": 0.897,
+        "Issue": 0.0015,
+        "Reasoning": 0.0623
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The said property was guarded by the Central Security Force which is a paramilitary force constituted under the provisions of the Central Industrial Security Force Act, 1968.",
+      "predicted_label": "Facts",
+      "confidence": 0.9368,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.0246,
+        "Decision": 0.0001,
+        "Facts": 0.9368,
+        "Issue": 0.0021,
+        "Reasoning": 0.0259
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The Petitioner was detailed for duty on 20.1.1991 in the CIFS unit at MGCC, Nagothane and was deployed on patrolling beat in C shift between 21.00 hours to 5.00 hours.",
+      "predicted_label": "Facts",
+      "confidence": 0.9448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0,
+        "Facts": 0.9448,
+        "Issue": 0.0017,
+        "Reasoning": 0.0164
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The Petitioner accordingly reported at gate No.5 of the premises of the said Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9743,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0033,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0001,
+        "Facts": 0.9743,
+        "Issue": 0.0005,
+        "Reasoning": 0.0192
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "On the said day and during the duty hours of the Petitioner, it was reported that four typewriters of the Company were stolen and one Car bearing No.MMG 6068 carrying four typewriters of the Company was allowed to exit without proper and thorough search.",
+      "predicted_label": "Facts",
+      "confidence": 0.9451,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0002,
+        "Facts": 0.9451,
+        "Issue": 0.0038,
+        "Reasoning": 0.0379
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The Petitioner was served with a memorandum dated 9/12th February, 1991 issued by the Group Commandant, GP Headquarters, New Bombay alleging against the Petitioner the misconduct, negligence, dereliction of duty and an act of grave indiscipline resulting in theft of the four typewriters of the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.9902,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0001,
+        "Facts": 0.9902,
+        "Issue": 0.0015,
+        "Reasoning": 0.0049
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The charge alleged against the Petitioner is reproduced hereunderArticleI Gross misconduct, negligence, dereliction of duty and an act of grave indiscipline in that No.8105196 Constable N.B.Mulani of CISF Unit, MGCC Nagothane while deployed on patrolling beat No.3 in C shift on 20.1.91 from 2100 hrs to 0500 hrs on 21.1.91 withdrew himself from his duty unauthorisedly from 2200 hrs to 2245 hrs and went to gate No.5 engaged himself in checking of outgoing light vehicles without any orders from his superior officers where a car No.6068 carrying four typewriters of the undertaking was allowed exist without proper and thorough search of the said car which resulted into a theft of said four typewriters costing Rs.26,000/ (Appx) as reported by the Management on 21.1.91.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0167,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0001,
+        "Facts": 0.9682,
+        "Issue": 0.0002,
+        "Reasoning": 0.0107
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Prior to the issuance of the said memorandum, an F.I.R. was registered with Nagothane Police Station by the Manager of the Company and the same came to be registered as C.R. No.1/1991 on 21.1.1991.",
+      "predicted_label": "Facts",
+      "confidence": 0.8511,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0001,
+        "Facts": 0.8511,
+        "Issue": 0.0009,
+        "Reasoning": 0.1182
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The offence registered was under Section 380 read with 34 of the I.P.C. Four employees including the Petitioner were arrested for the said crime.",
+      "predicted_label": "Facts",
+      "confidence": 0.8909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0003,
+        "Facts": 0.8909,
+        "Issue": 0.02,
+        "Reasoning": 0.0788
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The said four employees were thereafter released on bail by the Judicial Magistrate First Class, Roha, District Raigard.",
+      "predicted_label": "Facts",
+      "confidence": 0.9262,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0006,
+        "Facts": 0.9262,
+        "Issue": 0.0074,
+        "Reasoning": 0.0462
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The said case was registered as Criminal Case No.12 of 1991, which was tried by the learned Judicial Magistrate First Class, Doha, who by his judgment and order dated 10.10.1994 acquitted the Petitioner.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9946,
+        "Issue": 0.0037,
+        "Reasoning": 0.0006
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "Pursuant to the memorandum dated 9/12th February, 1991, the Group Commandant, GPCC, New Bombay, informed the Petitioner that a departmental enquiry would be held against the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.9532,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0199,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0002,
+        "Facts": 0.9532,
+        "Issue": 0.001,
+        "Reasoning": 0.0226
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Along with the said letter dated 9/12th February, 1991, memorandum of charges were issued to the Petitioner.",
+      "predicted_label": "Facts",
+      "confidence": 0.8841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0004,
+        "Facts": 0.8841,
+        "Issue": 0.0034,
+        "Reasoning": 0.082
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "It appears that on 19.2.1991, the said memorandum of charges were withdrawn by the first Respondent.",
+      "predicted_label": "Facts",
+      "confidence": 0.9318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0003,
+        "Facts": 0.9318,
+        "Issue": 0.0147,
+        "Reasoning": 0.0449
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "Thereafter on 19/22.2.1991, another office memorandum was issued to the Petitioner which contained same charges as the charges mentioned in the earlier memorandum dated 9/12th February, 1991.",
+      "predicted_label": "Facts",
+      "confidence": 0.9151,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0228,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0001,
+        "Facts": 0.9151,
+        "Issue": 0.0006,
+        "Reasoning": 0.0527
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "By the said memorandum dated 19/22.2.1991, the Petitioner was called upon to submit his explanation within the time stipulated in the said memorandum.",
+      "predicted_label": "Facts",
+      "confidence": 0.6257,
+      "probabilities": {
+        "Arguments of Petitioner": 0.076,
+        "Arguments of Respondent": 0.0277,
+        "Decision": 0.0006,
+        "Facts": 0.6257,
+        "Issue": 0.0005,
+        "Reasoning": 0.2696
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "The said memorandum interalia also stated that due to the mistake earlier memorandum dated 9/12th February, 1991 was withdrawn and a fresh chargesheet has been served to the Petitioner on 19/22.2.1991.",
+      "predicted_label": "Facts",
+      "confidence": 0.8176,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0105,
+        "Arguments of Respondent": 0.0172,
+        "Decision": 0.0003,
+        "Facts": 0.8176,
+        "Issue": 0.0003,
+        "Reasoning": 0.1542
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "It appears that the departmental proceedings conducted pursuant to the said charge memorandum came to be dropped as the said proceedings were conducted exparte since the Petitioner did not participate in them.",
+      "predicted_label": "Facts",
+      "confidence": 0.9271,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0068,
+        "Arguments of Respondent": 0.0058,
+        "Decision": 0.0005,
+        "Facts": 0.9271,
+        "Issue": 0.001,
+        "Reasoning": 0.0587
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The D.I.G. (Western Zone) of the Respondents therefore directed denovo proceedings, therefore a fresh charge sheet came to be issued to the Petitioner on 25.1.1993, pursuant to which enquiry was conducted, and punishment imposed upon the Petitioner.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9949,
+        "Issue": 0.0004,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "In terms of the said memorandum and the chargesheet dated 25.1.1993, the departmental enquiry was instituted.",
+      "predicted_label": "Facts",
+      "confidence": 0.95,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0002,
+        "Facts": 0.95,
+        "Issue": 0.0015,
+        "Reasoning": 0.0421
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The Petitioner replied to the said memorandum and interalia contended that since the Petitioner is being criminally prosecuted in respect of the same allegations of theft, the departmental enquiry should not be proceeded with.",
+      "predicted_label": "Facts",
+      "confidence": 0.9663,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.0001,
+        "Facts": 0.9663,
+        "Issue": 0.0005,
+        "Reasoning": 0.0238
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The said contention of the Petitioner was not accepted by the Respondents and the departmental enquiry was proceeded with.",
+      "predicted_label": "Facts",
+      "confidence": 0.9382,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0002,
+        "Facts": 0.9382,
+        "Issue": 0.002,
+        "Reasoning": 0.0314
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The Petitioner was given the opportunity to defend himself.",
+      "predicted_label": "Facts",
+      "confidence": 0.8355,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0341,
+        "Arguments of Respondent": 0.0179,
+        "Decision": 0.0014,
+        "Facts": 0.8355,
+        "Issue": 0.0052,
+        "Reasoning": 0.1059
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The departmental enquiry was concluded by following the procedure and by an order dated 13.9.1995, the Petitioner came to dismissed from service as it was held that in the departmental enquiry the charges were proved against the Petitioner.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.9954,
+        "Issue": 0.0016,
+        "Reasoning": 0.0013
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "Aggrieved by the said order dated 13.9.1995, the Petitioner preferred a departmental Appeal on 15.2.1996, which Appeal lay before the Inspector General CISF Headquarters, Mumbai.",
+      "predicted_label": "Facts",
+      "confidence": 0.8094,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0901,
+        "Arguments of Respondent": 0.0298,
+        "Decision": 0.0001,
+        "Facts": 0.8094,
+        "Issue": 0.0011,
+        "Reasoning": 0.0696
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The Appellate Authority by the order passed some time in June, 1996, dismissed the Petitioners Appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0002,
+        "Facts": 0.9634,
+        "Issue": 0.0268,
+        "Reasoning": 0.008
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "It is the said order of dismissal dated 13.9.1995, passed by the disciplinary authority, which is the subject matter of the above Petition.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.9804,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0002,
+        "Facts": 0.9804,
+        "Issue": 0.0173,
+        "Reasoning": 0.0012
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "On behalf of the Respondents, an affidavit has been filed by Mr.S.P. Yadav, working as Commandant at the relevant time.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9172,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.9172,
+        "Decision": 0.0002,
+        "Facts": 0.0334,
+        "Issue": 0.0003,
+        "Reasoning": 0.0449
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The said affidavit interalia states that the Petitioners services were not unblemished as sought to be contended by the Petitioner and that he was punished on earlier three occasions.",
+      "predicted_label": "Facts",
+      "confidence": 0.447,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0738,
+        "Arguments of Respondent": 0.1077,
+        "Decision": 0.0015,
+        "Facts": 0.447,
+        "Issue": 0.0003,
+        "Reasoning": 0.3698
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 31,
+      "text": "The said affidavit goes on to state that on 21.1.1991 while he was deployed on the patrolling duty in beat No.3 from 21.00 hours to 5.00 hours.",
+      "predicted_label": "Facts",
+      "confidence": 0.5481,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0359,
+        "Arguments of Respondent": 0.0734,
+        "Decision": 0.0003,
+        "Facts": 0.5481,
+        "Issue": 0.0004,
+        "Reasoning": 0.3419
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "He reported at gate No.5 at about 22.00 hours for assisting the persons deployed on the said gate for checking incoming and outgoing vehicles and that he himself engaged in checking outgoing vehicles from 22.00 hours to 22.45 hours.",
+      "predicted_label": "Facts",
+      "confidence": 0.5631,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0151,
+        "Arguments of Respondent": 0.0435,
+        "Decision": 0.0002,
+        "Facts": 0.5631,
+        "Issue": 0.0003,
+        "Reasoning": 0.3778
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 33,
+      "text": "On the said day, he allowed Car No.MMG 6068 to pass through gate without proper checking as a result of which four typewriters were stolen from P.P. Building which were hidden in the Car as reported by the Manager.",
+      "predicted_label": "Facts",
+      "confidence": 0.9851,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0,
+        "Facts": 0.9851,
+        "Issue": 0.0004,
+        "Reasoning": 0.0106
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "It is further stated that the Petitioner failed to discharge his duties and was unable to protect the property of the Company.",
+      "predicted_label": "Facts",
+      "confidence": 0.6657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0809,
+        "Arguments of Respondent": 0.1731,
+        "Decision": 0.0008,
+        "Facts": 0.6657,
+        "Issue": 0.0019,
+        "Reasoning": 0.0776
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "In so far as the continuance of the departmental enquiry pending criminal trial is concerned, the affidavit states that the same could be proceeded with as the charges of misconduct alleged against the Petitioner was different and that there was no bar in law to proceed with the departmental enquiry.",
+      "predicted_label": "Facts",
+      "confidence": 0.4875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1746,
+        "Arguments of Respondent": 0.1075,
+        "Decision": 0.0009,
+        "Facts": 0.4875,
+        "Issue": 0.0004,
+        "Reasoning": 0.2291
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "The affidavit concludes by stating that the Petitioner was a member of the paramilitary force which was deployed to guard the property of the Company and the Petitioner by his conduct had belied the trust reposed in such a paramilitary personnel.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9418,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0041,
+        "Decision": 0.0001,
+        "Facts": 0.9418,
+        "Issue": 0.0002,
+        "Reasoning": 0.0501
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "On behalf of the Petitioner the principle contention advanced is that since the charges in the criminal case as well as the departmental enquiry were identical, the Petitioner on his acquittal, should not have been proceeded with and that he ought to have been reinstated in view of his acquittal in the criminal case.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8962,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0006,
+        "Facts": 0.038,
+        "Issue": 0.0086,
+        "Reasoning": 0.0513
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "It is further submitted by the learned counsel for the Petitioner that the evidence against the Petitioner is sketchy and is not sufficient to bring home the charge alleged against him.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8945,
+        "Arguments of Respondent": 0.0116,
+        "Decision": 0.0005,
+        "Facts": 0.0243,
+        "Issue": 0.001,
+        "Reasoning": 0.0681
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "The learned counsel for the Petitioner took us through the evidence which was recorded in Hindi and tried to demonstrate the inconsistencies in the depositions of various witnesses before the enquiry officer.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8846,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.0009,
+        "Facts": 0.0257,
+        "Issue": 0.0004,
+        "Reasoning": 0.0835
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Based on this alleged inconsistencies, it was submitted by the learned counsel for the Petitioner that the Petitioner was falsely implicated and the said charge therefore, could not be said to be proved against the Petitioner.9.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8435,
+        "Arguments of Respondent": 0.0227,
+        "Decision": 0.0004,
+        "Facts": 0.0679,
+        "Issue": 0.0006,
+        "Reasoning": 0.065
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "On behalf of the Respondents, it has been contended that there was no bar to proceed with the departmental enquiry even if the criminal trial is pending.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9307,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0074,
+        "Arguments of Respondent": 0.9307,
+        "Decision": 0.0002,
+        "Facts": 0.0106,
+        "Issue": 0.0002,
+        "Reasoning": 0.0509
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "It was submitted by Mr. Shetty, the learned counsel for the Respondents that the standard of proof required for bringing home the charge in a criminal trial is quite different than the standard of proof required in a departmental enquiry and therefore, there was no impediment in proceeding with the Petitioner departmentally though the criminal trial was pending.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.9638,
+        "Decision": 0.0002,
+        "Facts": 0.003,
+        "Issue": 0.0001,
+        "Reasoning": 0.0304
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "It was further submitted by the learned counsel for the Respondents that the acquittal of the Petitioner in the criminal case can have no bearing on the findings in the departmental enquiry as the standards of proof are different.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9193,
+      "probabilities": {
+        "Arguments of Petitioner": 0.004,
+        "Arguments of Respondent": 0.9193,
+        "Decision": 0.0002,
+        "Facts": 0.0095,
+        "Issue": 0.0003,
+        "Reasoning": 0.0668
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "The learned counsel submitted that the Petitioner was charged for negligence, dereliction of duty and grave indiscipline, the said charge in the departmental proceedings was therefore different from the charge of theft, which was the charge in the criminal trial.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5721,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4086,
+        "Arguments of Respondent": 0.5721,
+        "Decision": 0.0002,
+        "Facts": 0.0082,
+        "Issue": 0.0002,
+        "Reasoning": 0.0107
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "The learned counsel for the Respondents relied upon the depositions which he had got translated into English for our convenience and pointed out that the disciplinary authority as well as the appellate authority were right in imposing the punishment of dismissal upon the Petitioner.10.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.958,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.958,
+        "Decision": 0.0003,
+        "Facts": 0.0035,
+        "Issue": 0.0002,
+        "Reasoning": 0.0368
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "We have given our anxious consideration to the rival contentions of the respective parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9171,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0089,
+        "Facts": 0.0321,
+        "Issue": 0.0303,
+        "Reasoning": 0.9171
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "In the instant case, we have to bear in mind that the Petitioner is a member of paramilitary force like CISF.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9653,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0116,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0006,
+        "Facts": 0.0108,
+        "Issue": 0.0004,
+        "Reasoning": 0.9653
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "Therefore highest standards of honesty and integrity are expected from the members of such a paramilitary force especially when they are in a position of trust in guarding the properties of the Company like MGCC.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4576,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1322,
+        "Arguments of Respondent": 0.3622,
+        "Decision": 0.0009,
+        "Facts": 0.0467,
+        "Issue": 0.0003,
+        "Reasoning": 0.4576
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The Petitioner has been charged for a serious misconduct of negligence, dereliction of duty and an act of grave indiscipline, resulting in the theft of the four typewriters of the Company which were stolen on account of the Petitioner not checking the Car No.MMG 6068 properly, when it was passing through the gate at which the Petitioner had deployed himself.",
+      "predicted_label": "Facts",
+      "confidence": 0.7643,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0389,
+        "Arguments of Respondent": 0.0457,
+        "Decision": 0.0015,
+        "Facts": 0.7643,
+        "Issue": 0.0038,
+        "Reasoning": 0.1457
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "The learned counsel for the Respondents drew our attention to the evidence of D.K. Nayak, who was deployed with the Petitioner for night duty in beat No.3.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.8708,
+        "Decision": 0.0002,
+        "Facts": 0.0056,
+        "Issue": 0.0002,
+        "Reasoning": 0.1179
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "D.K. Nayak has specifically stated in his crossexamination that it was the Petitioner who was checking the cars at the out gate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1914,
+        "Arguments of Respondent": 0.0744,
+        "Decision": 0.0005,
+        "Facts": 0.0491,
+        "Issue": 0.0001,
+        "Reasoning": 0.6845
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "The other witness Havaldar Shelke also has deposed that it was the Petitioner, who was checking the cars at the out gate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0739,
+        "Arguments of Respondent": 0.0246,
+        "Decision": 0.0004,
+        "Facts": 0.1043,
+        "Issue": 0.0001,
+        "Reasoning": 0.7967
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "There is also evidence of one more witness M.D. Nayak, who has also deposed that the Petitioner was deployed at the out gate and that he was checking the cars.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8014,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0696,
+        "Arguments of Respondent": 0.0224,
+        "Decision": 0.0006,
+        "Facts": 0.1059,
+        "Issue": 0.0001,
+        "Reasoning": 0.8014
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "It is not a case where there is absolutely no evidence against the Petitioner.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7259,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0975,
+        "Arguments of Respondent": 0.0498,
+        "Decision": 0.0147,
+        "Facts": 0.1091,
+        "Issue": 0.003,
+        "Reasoning": 0.7259
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "The conclusions drawn therefore cannot be said to be perverse.12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9473,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0036,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0259,
+        "Facts": 0.0167,
+        "Issue": 0.0002,
+        "Reasoning": 0.9473
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "In our view therefore, the findings in the departmental enquiry and the punishment imposed upon the Petitioner by the disciplinary authority based on the said findings, do not call for any interference by this Court in its extraordinary writ jurisdiction under Article 226 of the Constitution of India.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9354,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0328,
+        "Facts": 0.0266,
+        "Issue": 0.0006,
+        "Reasoning": 0.9354
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "We have also perused the order passed by the Appellate Authority and therefore, do not find any ground to interfere with the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.005,
+        "Decision": 0.1402,
+        "Facts": 0.0286,
+        "Issue": 0.0028,
+        "Reasoning": 0.8187
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "In that view of the matter, the Petition would have to be dismissed and the Rule discharged, with no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.8576,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.8576,
+        "Facts": 0.0082,
+        "Issue": 0.0001,
+        "Reasoning": 0.1298
+      }
+    }
+  ]
+}

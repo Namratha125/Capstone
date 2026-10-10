@@ -1,0 +1,1278 @@
+{
+  "case_id": "6759",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "This is an appeal by the plaintiff against the dismissal of his suit by the Civil Judge, Senior Division, at Sangli.2.",
+      "predicted_label": "Issue",
+      "confidence": 0.8346,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0013,
+        "Facts": 0.1627,
+        "Issue": 0.8346,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The plaintiff is doing business in groundnuts and turmeric at Sangli.",
+      "predicted_label": "Facts",
+      "confidence": 0.9691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9691,
+        "Issue": 0.0008,
+        "Reasoning": 0.0226
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "The defendant No. 1 is a public limited company, which came into existence in the year 1951.",
+      "predicted_label": "Facts",
+      "confidence": 0.9799,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0,
+        "Facts": 0.9799,
+        "Issue": 0.0018,
+        "Reasoning": 0.0121
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The company was founded, as provided by Art.",
+      "predicted_label": "Facts",
+      "confidence": 0.7802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0184,
+        "Arguments of Respondent": 0.0077,
+        "Decision": 0.0002,
+        "Facts": 0.7802,
+        "Issue": 0.0029,
+        "Reasoning": 0.1907
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "3, for the purpose and the object of promoting the business of the Sangli Bazar in various commodities, such as, turmeric, groundnut oil and other oilseeds etc. and to regulate the same",
+      "predicted_label": "Facts",
+      "confidence": 0.9409,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0128,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0001,
+        "Facts": 0.9409,
+        "Issue": 0.0021,
+        "Reasoning": 0.0414
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "and it was also specifically provided by subclause (b) that the further object was to regulate forward dealings in the abovementioned commodities, which were not prohibited so far or would not be prohibited in future.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6175,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.0143,
+        "Decision": 0.0002,
+        "Facts": 0.346,
+        "Issue": 0.0006,
+        "Reasoning": 0.6175
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "The purposes were to provide all possible facilities to the producing agriculturists, to encourage and help them, to grow the best kind of agricultural produce, and such other purposes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7456,
+      "probabilities": {
+        "Arguments of Petitioner": 0.02,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0002,
+        "Facts": 0.2184,
+        "Issue": 0.0003,
+        "Reasoning": 0.7456
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "There were 50 or 60 shareholders of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5053,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0839,
+        "Arguments of Respondent": 0.053,
+        "Decision": 0.0004,
+        "Facts": 0.3558,
+        "Issue": 0.0016,
+        "Reasoning": 0.5053
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "Amongst them was the plaintiff, who held his share in the name of his minor brother, Mahendrakumar Babulal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9887,
+        "Issue": 0.0035,
+        "Reasoning": 0.0069
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "Now, this defendantcompany followed a Clearing House System as provided for by one of the Articles  Article 36  and under the Company byelaw, appointed the defendant No. 2 the Clearing Agent on 8121951.",
+      "predicted_label": "Facts",
+      "confidence": 0.9108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0126,
+        "Decision": 0.0001,
+        "Facts": 0.9108,
+        "Issue": 0.0001,
+        "Reasoning": 0.0718
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "The transactions in question were made according to the byelaw No. 24 framed by the defendantcompany between the plaintiff and some other shareholders.",
+      "predicted_label": "Facts",
+      "confidence": 0.7396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0075,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0003,
+        "Facts": 0.7396,
+        "Issue": 0.0011,
+        "Reasoning": 0.2451
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "It was the duty of the defendant No. 1 as clearing agent to distribute the money due to the members of the association from Comembers after it was paid by them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6204,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1093,
+        "Arguments of Respondent": 0.0986,
+        "Decision": 0.0007,
+        "Facts": 0.1708,
+        "Issue": 0.0003,
+        "Reasoning": 0.6204
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 12,
+      "text": "The transactions in question were between the 8th of December 1951 to the 19th of March 1952.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0161,
+        "Arguments of Respondent": 0.014,
+        "Decision": 0.0004,
+        "Facts": 0.3867,
+        "Issue": 0.005,
+        "Reasoning": 0.5778
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 13,
+      "text": "On 1931952 the Company (i.e. the Board of Directors) declared the rates at which all transactions had to be squared up and it further declared that the debtormembers should make the deposit as required by the rules with the defendantcompany in order that the amount be distributed to the creditor members concerned on the next day.",
+      "predicted_label": "Facts",
+      "confidence": 0.8418,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.0331,
+        "Decision": 0.0002,
+        "Facts": 0.8418,
+        "Issue": 0.0009,
+        "Reasoning": 0.1115
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "According to the Plaintiff, the plaintiff had to receive from his debtormembers a sum of Rs. 14,43050 and he had to pay to his creditor members Rs. 1,25460.",
+      "predicted_label": "Facts",
+      "confidence": 0.8507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0823,
+        "Arguments of Respondent": 0.0107,
+        "Decision": 0.0001,
+        "Facts": 0.8507,
+        "Issue": 0.001,
+        "Reasoning": 0.0552
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "Thus the plaintiff was entitled to receive a sum of Rs. 13,575150 from the defendantcompany.",
+      "predicted_label": "Facts",
+      "confidence": 0.8967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0001,
+        "Facts": 0.8967,
+        "Issue": 0.0002,
+        "Reasoning": 0.0946
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "According to the plaintiff three of the members who were indebted to him had defaulted and did not pay in full in Clearing House.",
+      "predicted_label": "Facts",
+      "confidence": 0.9528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0001,
+        "Facts": 0.9528,
+        "Issue": 0.0013,
+        "Reasoning": 0.037
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "Taking into account the defaults of the three members, according to the plaintiff, he would be entitled to receive a sum of Rs. 9,470 from the defendants Nos. 1 and 2 and interest of Rs. 804150 thereon at the rate of 6 per cent per annum, making a total of Rs. 10,274150.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0001,
+        "Facts": 0.9876,
+        "Issue": 0.0007,
+        "Reasoning": 0.0055
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "The defendants contested the suit.",
+      "predicted_label": "Facts",
+      "confidence": 0.9561,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0001,
+        "Facts": 0.9561,
+        "Issue": 0.003,
+        "Reasoning": 0.0354
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The defendant No. 1 denied that any declaration was made as stated by the plaintiff.",
+      "predicted_label": "Facts",
+      "confidence": 0.9354,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.0419,
+        "Decision": 0.0001,
+        "Facts": 0.9354,
+        "Issue": 0.0007,
+        "Reasoning": 0.0174
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "It also denied that neither the association nor the defendant No. 2, the Clearing Agent, are responsible to any member as such for the amount due to them from the debtormembers.",
+      "predicted_label": "Facts",
+      "confidence": 0.952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0072,
+        "Arguments of Respondent": 0.03,
+        "Decision": 0.0001,
+        "Facts": 0.952,
+        "Issue": 0.0026,
+        "Reasoning": 0.0082
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "It denied the correctness of the form submitted by the plaintiff and, therefore, said that the suit was defective.",
+      "predicted_label": "Facts",
+      "confidence": 0.8478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.0336,
+        "Decision": 0.0001,
+        "Facts": 0.8478,
+        "Issue": 0.0014,
+        "Reasoning": 0.1101
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The defendant No. 1 also denied that it was the agent or the trustee of the plaintiff.",
+      "predicted_label": "Facts",
+      "confidence": 0.8578,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0778,
+        "Decision": 0.0001,
+        "Facts": 0.8578,
+        "Issue": 0.0005,
+        "Reasoning": 0.0539
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "It contended that as full payment of the amount was not made by the debtormembers to the defendantcompany, the plaintiff was not entitled to claim any amount.",
+      "predicted_label": "Facts",
+      "confidence": 0.981,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0001,
+        "Facts": 0.981,
+        "Issue": 0.0021,
+        "Reasoning": 0.0085
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "That the suit of the plaintiff would be barred because the forward transactions in turmeric were held to be illegal by the Supreme Court on 2951952.",
+      "predicted_label": "Facts",
+      "confidence": 0.8011,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0453,
+        "Arguments of Respondent": 0.0804,
+        "Decision": 0.0004,
+        "Facts": 0.8011,
+        "Issue": 0.0013,
+        "Reasoning": 0.0716
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "That the plaintiff was not entitled to any amount of interest in the suit.",
+      "predicted_label": "Facts",
+      "confidence": 0.9451,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0138,
+        "Arguments of Respondent": 0.016,
+        "Decision": 0.0016,
+        "Facts": 0.9451,
+        "Issue": 0.0006,
+        "Reasoning": 0.0229
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The defendant No. 2 practically accepted the statement of the defendant No. 1 and made the same contentions.",
+      "predicted_label": "Facts",
+      "confidence": 0.9228,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0449,
+        "Decision": 0.0001,
+        "Facts": 0.9228,
+        "Issue": 0.0007,
+        "Reasoning": 0.0177
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "He contended that it was his duty to deposit the amount with the defendant No. 1 and since the entire amount was not received from the debtormembers he deposited a sum of Rs. 11,51850 in Bank of Maharashtra, Sangli, into account of the defendant No. 1.",
+      "predicted_label": "Facts",
+      "confidence": 0.8923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.0559,
+        "Decision": 0.0001,
+        "Facts": 0.8923,
+        "Issue": 0.0012,
+        "Reasoning": 0.0189
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "He is, therefore, not liable to pay any amount to the plaintiff.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.8659,
+      "probabilities": {
+        "Arguments of Petitioner": 0.032,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0044,
+        "Facts": 0.8659,
+        "Issue": 0.0007,
+        "Reasoning": 0.0792
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The learned Judge held that the plaintiff proved that the defendant No. 1 had agreed to make payment to creditor members of the amount due from the debtor members to the creditor member of the defendant No. 1 association as alleged by the plaintiff in paragraph 5 of the plaint that the defendant No. 1 association declared on 2031952 that clearing agent could distribute the amounts due to creditor members and the defendant",
+      "predicted_label": "Facts",
+      "confidence": 0.962,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0032,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0001,
+        "Facts": 0.962,
+        "Issue": 0.0011,
+        "Reasoning": 0.0305
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "No. 1 failed to distribute the amount accordingly.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0003,
+        "Facts": 0.9937,
+        "Issue": 0.0006,
+        "Reasoning": 0.0023
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The learned Judge also answered in favour of the plaintiff the issue No. 2 and held that Rs. 13,175150 were due to the plaintiff as creditor member from the members of the defendant No. 1 association on 2031952.",
+      "predicted_label": "Facts",
+      "confidence": 0.9916,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0,
+        "Facts": 0.9916,
+        "Issue": 0.0019,
+        "Reasoning": 0.006
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "He however, held in favour of the defendants that the transactions in respect of which the amounts were claimed were against policy and as such the plaintiff was not entitled to recover the amount claimed by him from the defendants Nos. 1 and 2.",
+      "predicted_label": "Facts",
+      "confidence": 0.9837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9837,
+        "Issue": 0.0085,
+        "Reasoning": 0.0067
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "It is against this dismissal of his suit that the plaintiff has come to this Court in appeal.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9731,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9731,
+        "Issue": 0.024,
+        "Reasoning": 0.0016
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Now, this company was formed with an avowed purpose of regulating the dealing in forward transactions in several commodities.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5148,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0227,
+        "Arguments of Respondent": 0.0204,
+        "Decision": 0.0002,
+        "Facts": 0.44,
+        "Issue": 0.0019,
+        "Reasoning": 0.5148
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "As such it had framed certain rules.",
+      "predicted_label": "Facts",
+      "confidence": 0.7762,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0147,
+        "Arguments of Respondent": 0.0205,
+        "Decision": 0.0003,
+        "Facts": 0.7762,
+        "Issue": 0.0033,
+        "Reasoning": 0.1851
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The rules of the company show that the members parties who had made transactions with each other had to meet and settle their liabilities and after settling the liability of each other they had to fill up certain documents provided by the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0631,
+        "Arguments of Respondent": 0.0699,
+        "Decision": 0.0003,
+        "Facts": 0.0835,
+        "Issue": 0.0001,
+        "Reasoning": 0.783
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The rule also specifically provides that after filling up the forms and giving them to the Clearing agent, i.e. the Company defendant No. 1, the debtor members had to pay up the amount to the company within a fixed time as provided.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0595,
+        "Arguments of Respondent": 0.0725,
+        "Decision": 0.0005,
+        "Facts": 0.0744,
+        "Issue": 0.0003,
+        "Reasoning": 0.7928
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "It also further provides that the company after deducting a commission of one anna per rupee should distribute the amount to the creditor members towards their dues from the debtorsmembers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0407,
+        "Arguments of Respondent": 0.0216,
+        "Decision": 0.0004,
+        "Facts": 0.1419,
+        "Issue": 0.0003,
+        "Reasoning": 0.7952
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "From the evidence also it appears that the transactions were entered into directly by the members with each other and the procedure which we have referred to above was thereafter followed in settling the transactions as has been admitted by the Chairman of the defendant No. 1company, in his evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9373,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0049,
+        "Decision": 0.0002,
+        "Facts": 0.0521,
+        "Issue": 0.0002,
+        "Reasoning": 0.9373
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "He says that after the clearing rate was declared, the creditor members and the debtor members concerned had to adjust their accounts and the balance was to be struck amongst them, and thereafter C form was filled in.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4489,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4489,
+        "Arguments of Respondent": 0.1754,
+        "Decision": 0.0004,
+        "Facts": 0.0887,
+        "Issue": 0.0002,
+        "Reasoning": 0.2865
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "Form D, however, was filled in by the debtormembers and submitted to their creditor members but form C was submitted to the Clearing Agent (the company) by the Creditor members.",
+      "predicted_label": "Facts",
+      "confidence": 0.7903,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0005,
+        "Facts": 0.7903,
+        "Issue": 0.006,
+        "Reasoning": 0.1824
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "He has also further stated that after 12 Oclock on Monday the amount due was to be deposited with the clearing agent by the debtor members.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.075,
+        "Arguments of Respondent": 0.0368,
+        "Decision": 0.0004,
+        "Facts": 0.3303,
+        "Issue": 0.0002,
+        "Reasoning": 0.5572
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "That also is the case of the plaintiff.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5414,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0652,
+        "Arguments of Respondent": 0.0448,
+        "Decision": 0.0022,
+        "Facts": 0.3454,
+        "Issue": 0.001,
+        "Reasoning": 0.5414
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "It is clear, therefore, that the agency of the defendant No. 1 was limited only to the extent of the collection of the amounts due from each of the members and after deduction of its commission payment to the creditor members, who were entitled to collect the amount from these debtor members.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0295,
+        "Arguments of Respondent": 0.0258,
+        "Decision": 0.0006,
+        "Facts": 0.1544,
+        "Issue": 0.0014,
+        "Reasoning": 0.7883
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "The company had nothing to do with the actual transactions themselves which were entered into by the members directly, with each other nor even with the settlements.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4377,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1615,
+        "Arguments of Respondent": 0.4377,
+        "Decision": 0.0011,
+        "Facts": 0.0884,
+        "Issue": 0.0006,
+        "Reasoning": 0.3107
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 46,
+      "text": "Even if therefore, the Transactions were illegal, the agency itself was not illegal.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.4171,
+      "probabilities": {
+        "Arguments of Petitioner": 0.109,
+        "Arguments of Respondent": 0.1976,
+        "Decision": 0.0019,
+        "Facts": 0.4171,
+        "Issue": 0.0014,
+        "Reasoning": 0.2731
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 47,
+      "text": "The learned Counsel appearing for the defendants has argued that there was no relationship of agent and principal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3215,
+        "Arguments of Respondent": 0.5108,
+        "Decision": 0.0006,
+        "Facts": 0.0233,
+        "Issue": 0.0006,
+        "Reasoning": 0.1432
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "Rule 24 which we have referred to earlier and the evidence of the chairman, lead to only conclusion that the relationship between the defendant and the plaintiff was that of an agent and a principal and the defendant No. 1 was the agent of the plaintiff for receiving the amounts from other members of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8793,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0143,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0013,
+        "Facts": 0.0892,
+        "Issue": 0.0004,
+        "Reasoning": 0.8793
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The second argument which has been advanced in this case and which had appealed to the Court below was that forward transactions in turmeric were illegal and, therefore, the plaintiff was not entitled to recover any amount on the footing of these transactions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4281,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4281,
+        "Arguments of Respondent": 0.0642,
+        "Decision": 0.0004,
+        "Facts": 0.1091,
+        "Issue": 0.0044,
+        "Reasoning": 0.3938
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 50,
+      "text": "Bom LR 883 (AIR 1952 SC 335 ), the accused was prosecuted for the breach of the provisions of the Essential Supplies (Temporary Powers) Act, 1946 read with the Spices (Forward Contracts Prohibition) Order, 1944, relating to turmeric.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8151,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0901,
+        "Arguments of Respondent": 0.0615,
+        "Decision": 0.0006,
+        "Facts": 0.031,
+        "Issue": 0.0017,
+        "Reasoning": 0.8151
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The Additional City Magistrate, First Class at Sangli, held that the accused was guilty and sentenced him to imprisonment and fine.",
+      "predicted_label": "Facts",
+      "confidence": 0.9878,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9878,
+        "Issue": 0.0051,
+        "Reasoning": 0.0064
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "On appeal the Sessions Judge, South Satara at Sangli, relied upon a judgment of this Court and held that the transactions in turmeric were not controlled under the provisions of the Spices (Forward Contracts Prohibition) Order, 1944, and quashed the conviction of the accused.",
+      "predicted_label": "Facts",
+      "confidence": 0.9783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9783,
+        "Issue": 0.003,
+        "Reasoning": 0.0162
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "An appeal by the State to the High Court also failed.",
+      "predicted_label": "Facts",
+      "confidence": 0.9075,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0006,
+        "Facts": 0.9075,
+        "Issue": 0.0594,
+        "Reasoning": 0.0256
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Thereafter an appeal by the State to the Supreme Court, succeeded, and it was there held that turmeric was an article of food and that the provisions of the Spices (Forward Contracts Prohibition) Order, 1944, in their application to turmeric were saved under the Essential Supplies (Temporary Powers) Act, 1946.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.101,
+        "Arguments of Respondent": 0.0511,
+        "Decision": 0.0013,
+        "Facts": 0.3792,
+        "Issue": 0.0012,
+        "Reasoning": 0.4662
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 55,
+      "text": "It has been argued by Mr. Albal that the illegality of the transactions between the members inter se did not affect the present question at all.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4357,
+        "Arguments of Respondent": 0.3277,
+        "Decision": 0.0007,
+        "Facts": 0.0077,
+        "Issue": 0.0003,
+        "Reasoning": 0.2279
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 56,
+      "text": "The defendant No. 1 as the agent of the plaintiff having received the amount on his behalf from the debtor members was bound to pay over the amount to the plaintiff.",
+      "predicted_label": "Facts",
+      "confidence": 0.4554,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1777,
+        "Arguments of Respondent": 0.1749,
+        "Decision": 0.0076,
+        "Facts": 0.4554,
+        "Issue": 0.0015,
+        "Reasoning": 0.183
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 57,
+      "text": "The defendants resistance to the suit is founded upon the maxim ex turpi causa non oritur actio.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7402,
+      "probabilities": {
+        "Arguments of Petitioner": 0.131,
+        "Arguments of Respondent": 0.7402,
+        "Decision": 0.0001,
+        "Facts": 0.0194,
+        "Issue": 0.0016,
+        "Reasoning": 0.1077
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "The defendant seeks naturally to rely on the observations in Harry Parker Ltd. v. Monson (1940) 2 KB 590 (1940) 4",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5947,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1265,
+        "Arguments of Respondent": 0.2472,
+        "Decision": 0.0007,
+        "Facts": 0.0307,
+        "Issue": 0.0003,
+        "Reasoning": 0.5947
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "All ER 199 at p. 203 With regard to the second contention, I can see no difference in principle between the case of a principal, seeking to recover money handed to an agent for an illegal purpose and that of one principal seeking to recover money paid by him to another principal in pursuance of an illegal contract.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0498,
+        "Arguments of Respondent": 0.0335,
+        "Decision": 0.0001,
+        "Facts": 0.0143,
+        "Issue": 0.0004,
+        "Reasoning": 0.9019
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "In neither case will the Court assist the parties, whether the claim be to obtain money paid for an unfulfilled or partly fulfilled illegal purpose or by way of damages for breach of an illegal contract.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0342,
+        "Arguments of Respondent": 0.023,
+        "Decision": 0.0002,
+        "Facts": 0.0169,
+        "Issue": 0.0006,
+        "Reasoning": 0.9251
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "Assuming that the rule should apply between principal and agent it is consistent with the rule as stated by Lord Mansfield in (1775) 1 Cowp 341.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7635,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0726,
+        "Arguments of Respondent": 0.1487,
+        "Decision": 0.0003,
+        "Facts": 0.0146,
+        "Issue": 0.0003,
+        "Reasoning": 0.7635
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "He also relies on the case in Goswami Shri Purushotamji Maharaj v. B. Robb, ILR 8",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5011,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4782,
+        "Arguments of Respondent": 0.5011,
+        "Decision": 0.0002,
+        "Facts": 0.0039,
+        "Issue": 0.0001,
+        "Reasoning": 0.0166
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 63,
+      "text": "There can be no doubt that there are occasional exceptions to this rule, as suggested in Bowmakers case, 19442 All ER 579 at p.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9316,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0364,
+        "Arguments of Respondent": 0.0249,
+        "Decision": 0.0004,
+        "Facts": 0.0063,
+        "Issue": 0.0003,
+        "Reasoning": 0.9316
+      }
+    },
+    {
+      "sentence_id": 64,
+      "text": "583.16.The question whether or not the rule applies as between principal and agent is a much wider question.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7745,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0294,
+        "Arguments of Respondent": 0.0268,
+        "Decision": 0.0005,
+        "Facts": 0.0113,
+        "Issue": 0.1575,
+        "Reasoning": 0.7745
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "In the case of Haji Habib Haji Pir Mohamed v. Bhikamchand Jankilal Shop,in AIR 1954 Nag 306 each of the learned Judges have given strong reasons for the opposing views though they agreed to dismiss the appeal on another ground.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7445,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0518,
+        "Arguments of Respondent": 0.0309,
+        "Decision": 0.0004,
+        "Facts": 0.1689,
+        "Issue": 0.0035,
+        "Reasoning": 0.7445
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "We do not decide that question as in this case it is clearly not necessary to do so, since we are of the view on the above reasoning that the rule in question does not apply to the facts of this case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9167,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0117,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0443,
+        "Facts": 0.0176,
+        "Issue": 0.0033,
+        "Reasoning": 0.9167
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "The Court below was clearly in error in holding that the plaintiff could not succeed, on the authority of this case.17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9647,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.0112,
+        "Decision": 0.0082,
+        "Facts": 0.0046,
+        "Issue": 0.0001,
+        "Reasoning": 0.9647
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "Now, the plaint shows that three of the members had not made the payments.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7226,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0599,
+        "Arguments of Respondent": 0.0269,
+        "Decision": 0.016,
+        "Facts": 0.1731,
+        "Issue": 0.0014,
+        "Reasoning": 0.7226
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "The rules of the company provide that if the amount due from debtormembers were not paid to the defendant No. 1 by the time provided then such members had to be declared defaulters.",
+      "predicted_label": "Facts",
+      "confidence": 0.8246,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0251,
+        "Arguments of Respondent": 0.0326,
+        "Decision": 0.0003,
+        "Facts": 0.8246,
+        "Issue": 0.0006,
+        "Reasoning": 0.1168
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "But it does not appear anywhere in the rule that unless those amounts were collected the creditor members would not be paid if that is so, it stands to reason to hold that the creditor members would receive their amounts after deduction pro rata, which the company was bound to pay them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9059,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0504,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0018,
+        "Facts": 0.0241,
+        "Issue": 0.001,
+        "Reasoning": 0.9059
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "Under the circumstances, the plaintiff must succeed and his claim to the extent of Rs. 9,470 from the defendant No. 1 must be allowed.19.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0102,
+        "Decision": 0.0387,
+        "Facts": 0.0161,
+        "Issue": 0.0001,
+        "Reasoning": 0.9305
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "The plaintiff has claimed a sum of Rs. 804150 as interest at 6 per cent per annum on the amount claimed by the plaintiff.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5842,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0947,
+        "Arguments of Respondent": 0.033,
+        "Decision": 0.0178,
+        "Facts": 0.265,
+        "Issue": 0.0054,
+        "Reasoning": 0.5842
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 73,
+      "text": "In the plaint he founds this claim as damages.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8342,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0109,
+        "Arguments of Respondent": 0.0047,
+        "Decision": 0.0009,
+        "Facts": 0.1483,
+        "Issue": 0.0009,
+        "Reasoning": 0.8342
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "There is no agreement averred, to pay the interest as claimed by the plaintiff.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5525,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0559,
+        "Arguments of Respondent": 0.0605,
+        "Decision": 0.0033,
+        "Facts": 0.3272,
+        "Issue": 0.0006,
+        "Reasoning": 0.5525
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "Mr. Albal, however, relies on notices, Exs. 43, 44, 65 and 67, which are telegrams, informing the defendant No. 1 that it would be liable to pay damages if the amount was not paid.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3494,
+        "Arguments of Respondent": 0.5033,
+        "Decision": 0.0003,
+        "Facts": 0.0243,
+        "Issue": 0.0001,
+        "Reasoning": 0.1225
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 76,
+      "text": "This is not enough to sustain a claim for interest.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9047,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0431,
+        "Arguments of Respondent": 0.0315,
+        "Decision": 0.0018,
+        "Facts": 0.0188,
+        "Issue": 0.0001,
+        "Reasoning": 0.9047
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "It does not state what the rate of interest would be nor the particulars of the period.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9438,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0271,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.0003,
+        "Facts": 0.0197,
+        "Issue": 0.0001,
+        "Reasoning": 0.9438
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "Moreover, if any amount were to be given by way of damages the plaintiff has not shown what are the damages that he has suffered.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6679,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0766,
+        "Arguments of Respondent": 0.0855,
+        "Decision": 0.0552,
+        "Facts": 0.1142,
+        "Issue": 0.0007,
+        "Reasoning": 0.6679
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "In this view of the matter he is not entitled to receive any amount by way of interest from the defendant No. 1.20.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6552,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.2013,
+        "Facts": 0.1314,
+        "Issue": 0.0002,
+        "Reasoning": 0.6552
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "So far as the defendant No. 2 is concerned he was made a clearing agent by the defendantcompany.",
+      "predicted_label": "Facts",
+      "confidence": 0.6117,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0487,
+        "Arguments of Respondent": 0.0381,
+        "Decision": 0.0014,
+        "Facts": 0.6117,
+        "Issue": 0.0005,
+        "Reasoning": 0.2995
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "He was therefore, clearly a servant of the company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7488,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0721,
+        "Arguments of Respondent": 0.0455,
+        "Decision": 0.0096,
+        "Facts": 0.1224,
+        "Issue": 0.0015,
+        "Reasoning": 0.7488
+      }
+    },
+    {
+      "sentence_id": 82,
+      "text": "There can, therefore, be no personal relationship of agent and principal between him and the plaintiff, there being no privity.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3683,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2154,
+        "Arguments of Respondent": 0.3683,
+        "Decision": 0.0022,
+        "Facts": 0.1502,
+        "Issue": 0.0022,
+        "Reasoning": 0.2617
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 83,
+      "text": "He had deposited the amount collected by him as clearing agent from the debtor members in the Bank to the credit of the defendant No. 1.",
+      "predicted_label": "Facts",
+      "confidence": 0.7841,
+      "probabilities": {
+        "Arguments of Petitioner": 0.025,
+        "Arguments of Respondent": 0.0381,
+        "Decision": 0.0006,
+        "Facts": 0.7841,
+        "Issue": 0.0097,
+        "Reasoning": 0.1426
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "Clearly therefore, the plaintiff is not entitled to a decree against the defendant No. 2 at all.21.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0198,
+        "Decision": 0.0173,
+        "Facts": 0.0676,
+        "Issue": 0.0002,
+        "Reasoning": 0.8854
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "The result is that there will be a decree in favour of the plaintiff and against the defendant No. 1 for a sum of Rs. 9,470 with interest at 4 per cent on the amount decreed from the date of the suit to the date of recovery, which we direct defendant No. 1 to pay to the Plaintiff.22.",
+      "predicted_label": "Decision",
+      "confidence": 0.6646,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.6646,
+        "Facts": 0.0175,
+        "Issue": 0.0003,
+        "Reasoning": 0.3154
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "The plaintiff will get his costs of the suit and the appeal from the defendant No. 1.",
+      "predicted_label": "Decision",
+      "confidence": 0.6295,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.6295,
+        "Facts": 0.2828,
+        "Issue": 0.0002,
+        "Reasoning": 0.084
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "So far as the defendant No. 2 is concerned the suit as also his appeal must be dismissed with costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.929,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.929,
+        "Facts": 0.0112,
+        "Issue": 0.0001,
+        "Reasoning": 0.058
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "Appeal allowed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0001,
+        "Arguments of Respondent": 0.0001,
+        "Decision": 0.9964,
+        "Facts": 0.0017,
+        "Issue": 0.0001,
+        "Reasoning": 0.0016
+      }
+    }
+  ]
+}

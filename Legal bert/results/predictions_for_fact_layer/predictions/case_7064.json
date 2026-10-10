@@ -1,0 +1,627 @@
+{
+  "case_id": "7064",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The petitioners have sought an order to set aside the decision of HPCL to scrap a merit list dated 20th January, 2010, and to hold a fresh interview.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5224,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5224,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0046,
+        "Facts": 0.3594,
+        "Issue": 0.0383,
+        "Reasoning": 0.0701
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The petitioners have also sought an order to set aside the statement of award of marks dated 7th December, 2010, by the selection committee of HPCL.2.",
+      "predicted_label": "Issue",
+      "confidence": 0.8627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0011,
+        "Facts": 0.1295,
+        "Issue": 0.8627,
+        "Reasoning": 0.0015
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "HPCL, by an advertisement dated 17th August, 2009, invited applications for the allotment of retail outlet dealership in the Satara District.",
+      "predicted_label": "Facts",
+      "confidence": 0.9624,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9624,
+        "Issue": 0.0197,
+        "Reasoning": 0.015
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "Six applicants, including the petitioners and respondent No.1, filed applications for the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.8763,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0008,
+        "Facts": 0.8763,
+        "Issue": 0.0868,
+        "Reasoning": 0.024
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The petitioners were invited for an interview.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9969,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9969,
+        "Issue": 0.001,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The selection committee declared a provisional mark list on 20th January, 2010.",
+      "predicted_label": "Facts",
+      "confidence": 0.9578,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0065,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0001,
+        "Facts": 0.9578,
+        "Issue": 0.0063,
+        "Reasoning": 0.0235
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "As per the said mark list, the petitioners were selected as they received the maximum marks of 251.40 out of 300.",
+      "predicted_label": "Facts",
+      "confidence": 0.9072,
+      "probabilities": {
+        "Arguments of Petitioner": 0.024,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0002,
+        "Facts": 0.9072,
+        "Issue": 0.0017,
+        "Reasoning": 0.0476
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "Respondent No.1 raised various grievances regarding the allocation of marks.",
+      "predicted_label": "Facts",
+      "confidence": 0.9821,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0002,
+        "Facts": 0.9821,
+        "Issue": 0.0044,
+        "Reasoning": 0.0077
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The grievances were raised as per the grievance redressal system.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4156,
+      "probabilities": {
+        "Arguments of Petitioner": 0.104,
+        "Arguments of Respondent": 0.3547,
+        "Decision": 0.0036,
+        "Facts": 0.1198,
+        "Issue": 0.0023,
+        "Reasoning": 0.4156
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 9,
+      "text": "The same were, however, rejected.",
+      "predicted_label": "Facts",
+      "confidence": 0.6883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0887,
+        "Arguments of Respondent": 0.0539,
+        "Decision": 0.0016,
+        "Facts": 0.6883,
+        "Issue": 0.0054,
+        "Reasoning": 0.1621
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 10,
+      "text": "Being aggrieved by the same, respondent No.1 filed Writ Petition No.5415 of 2010 to challenge the award of marks.",
+      "predicted_label": "Facts",
+      "confidence": 0.9928,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0,
+        "Facts": 0.9928,
+        "Issue": 0.0027,
+        "Reasoning": 0.0027
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The Writ Petition was opposed by HPCL.",
+      "predicted_label": "Facts",
+      "confidence": 0.9118,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.0207,
+        "Decision": 0.0005,
+        "Facts": 0.9118,
+        "Issue": 0.0142,
+        "Reasoning": 0.0427
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The officers of the oil company clarified and agreed that the merit list suffer from arithmetical mistakes.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4893,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0378,
+        "Arguments of Respondent": 0.0469,
+        "Decision": 0.0011,
+        "Facts": 0.4241,
+        "Issue": 0.0007,
+        "Reasoning": 0.4893
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 13,
+      "text": "It was under these circumstances that Shri D.S. Karkera, one of the officers of the Oil Company who is present before us has filed an affidavit stating that the Oil Company has decided to scrap the merit list which is the subject matter of challenge in this petition and hold a fresh interview of all the eligible candidates.",
+      "predicted_label": "Facts",
+      "confidence": 0.6585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0232,
+        "Arguments of Respondent": 0.0155,
+        "Decision": 0.0016,
+        "Facts": 0.6585,
+        "Issue": 0.0004,
+        "Reasoning": 0.3008
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 14,
+      "text": "It has been further clarified that after the de novo interviews fresh merit list will be published.2.",
+      "predicted_label": "Facts",
+      "confidence": 0.9187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0184,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0013,
+        "Facts": 0.9187,
+        "Issue": 0.0354,
+        "Reasoning": 0.0156
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "In the light of this affidavit filed by Shri D.S. Karkera, Mr. Mankapure, the learned Counsel for the petitioner seeks leave to withdraw the petition.",
+      "predicted_label": "Facts",
+      "confidence": 0.455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3751,
+        "Arguments of Respondent": 0.0268,
+        "Decision": 0.0292,
+        "Facts": 0.455,
+        "Issue": 0.0393,
+        "Reasoning": 0.0746
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 16,
+      "text": "Leave granted and the petition is disposed as withdrawn.3.",
+      "predicted_label": "Facts",
+      "confidence": 0.9727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0176,
+        "Facts": 0.9727,
+        "Issue": 0.0008,
+        "Reasoning": 0.005
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "We hope that after the de novo interviews, the entire process upto issuance of the L.O.I. will be completed before 31st December, 2010.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.7887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0081,
+        "Decision": 0.1133,
+        "Facts": 0.7887,
+        "Issue": 0.0027,
+        "Reasoning": 0.072
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Mr. Dhakephalkar, the learned senior counsel appearing on behalf of the petitioners contended that there were no arithmetical mistakes in the first list and, therefore, the entire process which was undertaken de novo is liable to be quashed and set aside.5.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9823,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9823,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0002,
+        "Facts": 0.0079,
+        "Issue": 0.001,
+        "Reasoning": 0.0048
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The first respondent had obtained under the RTI Act, the relevant documents in respect of the first exercise which was challenged by her in the said Writ Petition No.5415 of 2010.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4785,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1893,
+        "Arguments of Respondent": 0.0899,
+        "Decision": 0.0115,
+        "Facts": 0.2285,
+        "Issue": 0.0023,
+        "Reasoning": 0.4785
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 20,
+      "text": "She filed an affidavit in reply to the present Writ Petition in which she annexed, interalia, the TEC report which contained the evaluation by the site selection committee.",
+      "predicted_label": "Facts",
+      "confidence": 0.8106,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0296,
+        "Arguments of Respondent": 0.1098,
+        "Decision": 0.0004,
+        "Facts": 0.8106,
+        "Issue": 0.0005,
+        "Reasoning": 0.0492
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Marks were allocated in respect of about 14 criteria.",
+      "predicted_label": "Facts",
+      "confidence": 0.6637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0127,
+        "Decision": 0.0004,
+        "Facts": 0.6637,
+        "Issue": 0.0137,
+        "Reasoning": 0.2927
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "The aggregate marks were computed by the selection committee at 88 out of 100 in respect of the petitioners.",
+      "predicted_label": "Facts",
+      "confidence": 0.8724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0026,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0001,
+        "Facts": 0.8724,
+        "Issue": 0.0061,
+        "Reasoning": 0.116
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "This is an obvious arithmetical mistake for the aggregate mark obtained by the petitioners was 86 out of 100.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1424,
+        "Arguments of Respondent": 0.032,
+        "Decision": 0.0014,
+        "Facts": 0.2205,
+        "Issue": 0.0003,
+        "Reasoning": 0.6034
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "As a result thereof, there was a further arithmetical error in the weighted marks.",
+      "predicted_label": "Facts",
+      "confidence": 0.697,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0219,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0014,
+        "Facts": 0.697,
+        "Issue": 0.0012,
+        "Reasoning": 0.2691
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "One of the components involved in computing the weighted mark was the marks awarded by the site selection committee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8151,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0811,
+        "Arguments of Respondent": 0.0308,
+        "Decision": 0.0005,
+        "Facts": 0.0645,
+        "Issue": 0.008,
+        "Reasoning": 0.8151
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "As a result of the arithmetical error in that component viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7334,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1722,
+        "Arguments of Respondent": 0.0224,
+        "Decision": 0.0018,
+        "Facts": 0.0681,
+        "Issue": 0.0021,
+        "Reasoning": 0.7334
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "88 marks instead of 86, the calculation of the weighted marks also suffered from an arithmetical mistake.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9827,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0001,
+        "Facts": 0.9827,
+        "Issue": 0.0006,
+        "Reasoning": 0.0052
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "We are afraid it is not possible for us in this Writ Petition, to determine whether the said report is fabricated or even unreliable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8132,
+      "probabilities": {
+        "Arguments of Petitioner": 0.038,
+        "Arguments of Respondent": 0.0188,
+        "Decision": 0.0271,
+        "Facts": 0.1022,
+        "Issue": 0.0006,
+        "Reasoning": 0.8132
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "This is a question of fact in respect of which it is impossible to express any conclusive finding.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8266,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0379,
+        "Arguments of Respondent": 0.0198,
+        "Decision": 0.0136,
+        "Facts": 0.0923,
+        "Issue": 0.0098,
+        "Reasoning": 0.8266
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The difficulty is enhanced by the fact that a photo copy of this report was annexed to the affidavit in reply by respondent No.1.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8662,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0256,
+        "Arguments of Respondent": 0.0404,
+        "Decision": 0.0005,
+        "Facts": 0.0673,
+        "Issue": 0.0001,
+        "Reasoning": 0.8662
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The petitioners did not file an affidavit in rejoinder.",
+      "predicted_label": "Facts",
+      "confidence": 0.5089,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1036,
+        "Arguments of Respondent": 0.1564,
+        "Decision": 0.0113,
+        "Facts": 0.5089,
+        "Issue": 0.0015,
+        "Reasoning": 0.2183
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "They never alleged that the same was fabricated.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3018,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2914,
+        "Arguments of Respondent": 0.2846,
+        "Decision": 0.0026,
+        "Facts": 0.1177,
+        "Issue": 0.0019,
+        "Reasoning": 0.3018
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 33,
+      "text": "The original file was perused by us.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5205,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0508,
+        "Arguments of Respondent": 0.0261,
+        "Decision": 0.0023,
+        "Facts": 0.3966,
+        "Issue": 0.0037,
+        "Reasoning": 0.5205
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "The photo copy is, therefore, of the original which was produced in Court.8.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0548,
+        "Arguments of Respondent": 0.0219,
+        "Decision": 0.0019,
+        "Facts": 0.4175,
+        "Issue": 0.0005,
+        "Reasoning": 0.5034
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "Mr. Dhakephalkar then submitted that the members of the selection committee themselves had not filed any affidavit confirming that it is they who had made the erasures.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7828,
+        "Arguments of Respondent": 0.1949,
+        "Decision": 0.0002,
+        "Facts": 0.0036,
+        "Issue": 0.0001,
+        "Reasoning": 0.0185
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "He submitted, therefore, that the possibility of the report having been tampered with by other officers subsequently, to favour the first respondent, cannot be ruled out.9.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5162,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4598,
+        "Arguments of Respondent": 0.5162,
+        "Decision": 0.0002,
+        "Facts": 0.004,
+        "Issue": 0.0001,
+        "Reasoning": 0.0196
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "The petitioners not having challenged the report despite the fact that the same was annexed to the first respondents affidavit in reply, cannot be permitted to raise these allegations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6351,
+      "probabilities": {
+        "Arguments of Petitioner": 0.062,
+        "Arguments of Respondent": 0.2137,
+        "Decision": 0.0009,
+        "Facts": 0.0882,
+        "Issue": 0.0002,
+        "Reasoning": 0.6351
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "In view thereof, it was not necessary for HPCL to have filed an affidavit of the members of the selection committee.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4026,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3199,
+        "Arguments of Respondent": 0.2089,
+        "Decision": 0.0014,
+        "Facts": 0.0668,
+        "Issue": 0.0004,
+        "Reasoning": 0.4026
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "In any event, the same would constitute a seriously disputed question of fact.10.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5395,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5395,
+        "Arguments of Respondent": 0.1544,
+        "Decision": 0.0041,
+        "Facts": 0.1616,
+        "Issue": 0.0025,
+        "Reasoning": 0.1379
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "In these circumstances, it is not possible to entertain the Writ Petition on the above allegations.",
+      "predicted_label": "Facts",
+      "confidence": 0.4584,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0229,
+        "Arguments of Respondent": 0.0419,
+        "Decision": 0.0338,
+        "Facts": 0.4584,
+        "Issue": 0.0015,
+        "Reasoning": 0.4415
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 41,
+      "text": "The petitioners must be relegated to a regular suit for damages.11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0435,
+        "Arguments of Respondent": 0.0327,
+        "Decision": 0.0847,
+        "Facts": 0.0559,
+        "Issue": 0.0002,
+        "Reasoning": 0.783
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The Writ Petition is, therefore, dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.7492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0021,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.7492,
+        "Facts": 0.2055,
+        "Issue": 0.0009,
+        "Reasoning": 0.0399
+      }
+    }
+  ]
+}

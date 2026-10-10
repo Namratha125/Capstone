@@ -1,0 +1,883 @@
+{
+  "case_id": "6835",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "No. 1 is a Public Limited Company and on September 24, 1968 obtained a licence from Food and Drug Administration, Maharashtra, Bombay and commenced manufacture of pharmaceutical products, which are used in the drug formulations.",
+      "predicted_label": "Facts",
+      "confidence": 0.9317,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0193,
+        "Arguments of Respondent": 0.0224,
+        "Decision": 0.0001,
+        "Facts": 0.9317,
+        "Issue": 0.002,
+        "Reasoning": 0.0245
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "One of the items manufactured by the petitioners is",
+      "predicted_label": "Facts",
+      "confidence": 0.5491,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1442,
+        "Arguments of Respondent": 0.0098,
+        "Decision": 0.003,
+        "Facts": 0.5491,
+        "Issue": 0.0051,
+        "Reasoning": 0.2889
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "Citric Acid I. P. The Company filed classification lists from time to time classifying the product under Tariff Item No. 68 of the First Schedule of the Central excises and Salt Act, 1944, and the classification lists were duly approved by the Excise authorities.",
+      "predicted_label": "Facts",
+      "confidence": 0.982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.982,
+        "Issue": 0.0074,
+        "Reasoning": 0.0085
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "On March 1, 1975 the Central Government issued notification in exercise of powers conferred by sub rule (1) of Rule 8 of Central Excise Rules, 1944 exempting goods of the description specified in the Schedule annexed to the notification and falling under Item No. 68 of the First Schedule from the whole of the duty of excise leviable thereon.",
+      "predicted_label": "Facts",
+      "confidence": 0.9534,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0001,
+        "Facts": 0.9534,
+        "Issue": 0.0058,
+        "Reasoning": 0.0372
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "This Notification No. 55 of 1975 was amended on March, 1978 by Notification No. 62 of 1978 and certain additional items were introduced in the Schedule.",
+      "predicted_label": "Facts",
+      "confidence": 0.9385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0102,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.0001,
+        "Facts": 0.9385,
+        "Issue": 0.0055,
+        "Reasoning": 0.0419
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Item No. 9 reads as follows 19.",
+      "predicted_label": "Facts",
+      "confidence": 0.5987,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0799,
+        "Arguments of Respondent": 0.0153,
+        "Decision": 0.0002,
+        "Facts": 0.5987,
+        "Issue": 0.0006,
+        "Reasoning": 0.3052
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "All drugs medicines, pharmaceuticals and drug intermediates not elsewhere specified.",
+      "predicted_label": "Facts",
+      "confidence": 0.6297,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0343,
+        "Arguments of Respondent": 0.0139,
+        "Decision": 0.0031,
+        "Facts": 0.6297,
+        "Issue": 0.0006,
+        "Reasoning": 0.3185
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 7,
+      "text": "( 2 ) THE petitioners claimed that Citric Acid I. P. was manufactured strictly in accordance with the standards prescribed under the Indian Pharmacopoeia and was manufactured in terms of the drug Licence.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4705,
+        "Arguments of Respondent": 0.0409,
+        "Decision": 0.0011,
+        "Facts": 0.4363,
+        "Issue": 0.0006,
+        "Reasoning": 0.0506
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 8,
+      "text": "The petitioners filed fresh classification list on March 4, 1978 claiming benefit of exemption notification.",
+      "predicted_label": "Facts",
+      "confidence": 0.9303,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0108,
+        "Arguments of Respondent": 0.0054,
+        "Decision": 0.0004,
+        "Facts": 0.9303,
+        "Issue": 0.0017,
+        "Reasoning": 0.0514
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "On May 3, 1978 the Superintendent of Central Excise, Nasik approved the classification list confirming that the Company is entitled to the exemption under the notification.",
+      "predicted_label": "Facts",
+      "confidence": 0.9412,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0071,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0001,
+        "Facts": 0.9412,
+        "Issue": 0.0023,
+        "Reasoning": 0.0442
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "( 3 ) BETWEEN January 1, 1979 and April 24, 1981 the Company was served with eleven show cause notices by Superintendent of Central Excise, Nasik, calling upon to explain why the claim for exemption should not be rejected and excise duty levied on citric acid under Tariff Item No. 68.",
+      "predicted_label": "Facts",
+      "confidence": 0.9227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0532,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0004,
+        "Facts": 0.9227,
+        "Issue": 0.0005,
+        "Reasoning": 0.0101
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "In answer to the notices, the Company claimed that Citric Acid is item and in terms of provisions of Notification No. 62/78 excise duty cannot be levied on a drug item.",
+      "predicted_label": "Facts",
+      "confidence": 0.8974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0002,
+        "Facts": 0.8974,
+        "Issue": 0.0015,
+        "Reasoning": 0.0874
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "On September 29, 1991 the Assistant Collector discharged the show cause notices holding that Citric Acid is a drug item eligible for exemption under Notification No. 62/78.",
+      "predicted_label": "Facts",
+      "confidence": 0.9465,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0018,
+        "Facts": 0.9465,
+        "Issue": 0.0011,
+        "Reasoning": 0.0374
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "( 4 ) THE Order of the Assistant Collector holding that the Company is entitled to the benefit of exemption notification was examined by the Collector of Central Excise, Poona in exercise of revisional powers under Section 35a (2) of the Excise Act, and by order dated April 26, 1993 the Collector declared that the benefit of exemption under the notification cannot be claimed by the Company as the view taken by the Assistant Collector that Citric Acid is a drug or a pharmaceutical was erroneous.",
+      "predicted_label": "Facts",
+      "confidence": 0.9757,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0121,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0001,
+        "Facts": 0.9757,
+        "Issue": 0.0005,
+        "Reasoning": 0.0056
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The Collector also held that Citric Acid is only a basic chemical and not used directly as a drug intermediate.",
+      "predicted_label": "Facts",
+      "confidence": 0.8512,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0316,
+        "Arguments of Respondent": 0.047,
+        "Decision": 0.0002,
+        "Facts": 0.8512,
+        "Issue": 0.0014,
+        "Reasoning": 0.0686
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The Company challenged the order passed by the Collector by preferring an appeal as prescribed under Section 35b of the Excise Act before the Appellate Tribunal, New Delhi.",
+      "predicted_label": "Facts",
+      "confidence": 0.9376,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0001,
+        "Facts": 0.9376,
+        "Issue": 0.0181,
+        "Reasoning": 0.0382
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The tribunal by order dated March 4, 1985 came to the conclusion that the claim of the Department that Citric Acid is not a pharmaceutical cannot be accepted and the Collector was wrong in assessment that Citric Acid is merely a chemical.",
+      "predicted_label": "Facts",
+      "confidence": 0.9265,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0014,
+        "Facts": 0.9265,
+        "Issue": 0.0034,
+        "Reasoning": 0.0556
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "The Tribunal in paragraph 4 of the order rejected the contention of the Department that Citric Acid is not a pharmaceutical and should not be so classified notwithstanding its use as an acidulant in dye manufactures, food processing and metal treatment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5323,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0471,
+        "Arguments of Respondent": 0.0377,
+        "Decision": 0.0006,
+        "Facts": 0.3813,
+        "Issue": 0.001,
+        "Reasoning": 0.5323
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 18,
+      "text": "The Tribunal held that citric acid is widely used as pharmaceutical.",
+      "predicted_label": "Facts",
+      "confidence": 0.8571,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0122,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0012,
+        "Facts": 0.8571,
+        "Issue": 0.0027,
+        "Reasoning": 0.1173
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "The tribunal noticed that the Collector found that the manufacture of citric acid by the Company is in accordance with pharmacopoeial standards.",
+      "predicted_label": "Facts",
+      "confidence": 0.8299,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0002,
+        "Facts": 0.8299,
+        "Issue": 0.0017,
+        "Reasoning": 0.1609
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "After recording finding that citric acid finds use as a drug and pharmaceutical even though it has more uses in the food preparation industry and other process the Tribunal held that the exemption available under the notification is to drug, a drug intermediate, a pharmaceutical and not to citric acid.",
+      "predicted_label": "Facts",
+      "confidence": 0.8558,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0009,
+        "Facts": 0.8558,
+        "Issue": 0.0018,
+        "Reasoning": 0.1248
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "The Tribunal held in paragraph 26 of the orderWe, accordingly, order that the exemption should be extended to all citric acid cleared by M s. Citric India Ltd. and used in the manufacture of drug, medicines pharmaceuticals.",
+      "predicted_label": "Facts",
+      "confidence": 0.9285,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0003,
+        "Facts": 0.9285,
+        "Issue": 0.0016,
+        "Reasoning": 0.0657
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The Central excise may make enquiries and satisfy itself about the uses and M s. Citric India Ltd. should, to this end, furnish all help and aid to the Central Excise department so that the concession can be extended to all the deserving clearances, in accordance with the law.",
+      "predicted_label": "Facts",
+      "confidence": 0.4833,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.369,
+        "Facts": 0.4833,
+        "Issue": 0.0012,
+        "Reasoning": 0.1423
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 23,
+      "text": "But the citric acid not so used must be denied the exemption and we reject the appeal in regard to such clearances.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9179,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0154,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0198,
+        "Facts": 0.0268,
+        "Issue": 0.0002,
+        "Reasoning": 0.9179
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The conclusion recorded by Tribunal in paragraph 26 is on the basis that to ascertain whether the duty is leviable on manufacture of citric acid, it is necessary to ascertain the enduse of the product manufactured.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0024,
+        "Facts": 0.1558,
+        "Issue": 0.001,
+        "Reasoning": 0.8187
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The Company feeling aggrieved by the conclusion recorded in paragraph 26 of the order passed by the Tribunal, preferred this petition under Articles 226 and 227 of the constitution of India May 2, 1985.",
+      "predicted_label": "Facts",
+      "confidence": 0.9923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0001,
+        "Facts": 0.9923,
+        "Issue": 0.0031,
+        "Reasoning": 0.0032
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "The petition was admitted on May 3, 1985 and is now set down for final disposal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9254,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0085,
+        "Decision": 0.0006,
+        "Facts": 0.9254,
+        "Issue": 0.01,
+        "Reasoning": 0.0466
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "( 5 ) SHRI Pochkhanwala, learned counsel appearing on behalf of the petitioners, submitted that the declaration given by the Tribunal that exemption is available only to manufacture of citric acid which is cleared and used in the manufacture of drug medicines pharmaceuticals and the department should have enquired and satisfied about the end use is contrary to law and not sustainable.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.992,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.0029,
+        "Issue": 0.0006,
+        "Reasoning": 0.0037
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "The learned counsel urged that it is wholly unnecessary to examine what is the enduse of the manufactured product to determine whether the excise duty is leviable on the process of manufacture of a product.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5883,
+        "Arguments of Respondent": 0.3612,
+        "Decision": 0.0006,
+        "Facts": 0.0034,
+        "Issue": 0.0005,
+        "Reasoning": 0.046
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "The learned counsel urged that an identical question came up for consideration before one of us (Pendse, J.) and by judgment reported in 1986 (25) E. L. T. 906 (Rakesh Enterprises and Anr.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5818,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5818,
+        "Arguments of Respondent": 0.3677,
+        "Decision": 0.0005,
+        "Facts": 0.0094,
+        "Issue": 0.0002,
+        "Reasoning": 0.0404
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 30,
+      "text": "v. Union of India and Ors.)",
+      "predicted_label": "Facts",
+      "confidence": 0.8589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0131,
+        "Arguments of Respondent": 0.009,
+        "Decision": 0.0168,
+        "Facts": 0.8589,
+        "Issue": 0.0041,
+        "Reasoning": 0.0982
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "it was held that once a product is found to be a drug or drugintermediate or pharmaceutical then the advantage of exemption notification is available to the manufacturer and it is not permissible for the Department to claim that exemption can be claimed only if the endproduct of the manufactured item is used as a drug.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4971,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1802,
+        "Arguments of Respondent": 0.1143,
+        "Decision": 0.0039,
+        "Facts": 0.199,
+        "Issue": 0.0055,
+        "Reasoning": 0.4971
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "( 6 ) SHRI Desai, learned counsel appearing on behalf of the Department raised a preliminary objection to the maintainability of the petition filed by the Company under Article 226 of the constitution of India.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9141,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0699,
+        "Arguments of Respondent": 0.9141,
+        "Decision": 0.0002,
+        "Facts": 0.0116,
+        "Issue": 0.0003,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The learned counsel submitted that under Section 35l of the Excise Act it is open to challenge the order passed by the Appellate Tribunal by filing an appeal before the Supreme Court.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5401,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5401,
+        "Arguments of Respondent": 0.4189,
+        "Decision": 0.0012,
+        "Facts": 0.0157,
+        "Issue": 0.0007,
+        "Reasoning": 0.0235
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 34,
+      "text": "The learned counsel urged that as an adequate and efficacious remedy was available to the Company of filing appeal to the Supreme Court, it is not proper to entertain the petition under Article 226 of the Constitution of India.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4585,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3753,
+        "Arguments of Respondent": 0.4585,
+        "Decision": 0.0032,
+        "Facts": 0.041,
+        "Issue": 0.0012,
+        "Reasoning": 0.1209
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 35,
+      "text": "Shri Desai sought adjournment and which was readily granted to ascertain about the claim of pendency of the appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1917,
+        "Arguments of Respondent": 0.1041,
+        "Decision": 0.0355,
+        "Facts": 0.478,
+        "Issue": 0.0054,
+        "Reasoning": 0.1854
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "In spite of diligent search made by the learned counsel with the assistance of the officers of the Central excise, to trace can be found of any pendency of appeal against the order of the Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0407,
+        "Arguments of Respondent": 0.0365,
+        "Decision": 0.0149,
+        "Facts": 0.213,
+        "Issue": 0.0038,
+        "Reasoning": 0.6911
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "In these circumstances were proceed on the basis that either appeal which is alleged to have been filed in the Supreme Court by the Department was not prosecuted or was dismissed on merits.",
+      "predicted_label": "Facts",
+      "confidence": 0.7393,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0243,
+        "Arguments of Respondent": 0.0165,
+        "Decision": 0.0033,
+        "Facts": 0.7393,
+        "Issue": 0.006,
+        "Reasoning": 0.2107
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "In these circumstances the question to be determined is whether the petition filed under Article 226 of the Constitution to challenge the direction of the Tribunal in paragraph 26 quoted hereinabove, should be entertained.",
+      "predicted_label": "Issue",
+      "confidence": 0.4639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.0083,
+        "Decision": 0.0031,
+        "Facts": 0.0976,
+        "Issue": 0.4639,
+        "Reasoning": 0.4213
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "We are inclined to entertain the petition as the dispute is pending in this Court for last over seven years and driving the parties now to file an appeal to the supreme Court would lead to multiplicity of litigation and considerable expenses.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5926,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.037,
+        "Decision": 0.1082,
+        "Facts": 0.2432,
+        "Issue": 0.0113,
+        "Reasoning": 0.5926
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 40,
+      "text": "We are conscious that when remedy of appeal is available, this Court is reluctant to exercise writ jurisdiction, but taking into consideration the peculiar facts and circumstances of the case, we are not prepared to accede to the preliminary objection raised by Shri Desai that the petition should not be entertained.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0095,
+        "Decision": 0.0398,
+        "Facts": 0.0113,
+        "Issue": 0.0006,
+        "Reasoning": 0.934
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "( 7 ) SHRI Desai then submitted that the finding recorded by the Tribunal that the Citric Acid the product manufactured by the petitioners, is a drug, drugintermediate or pharmaceutical is incorrect.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9799,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9799,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0001,
+        "Facts": 0.0011,
+        "Issue": 0.0001,
+        "Reasoning": 0.0079
+      }
+    },
+    {
+      "sentence_id": 42,
+      "text": "The appeal alleged to have been filed is either not filed or stands summarily dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.7731,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.7731,
+        "Facts": 0.1782,
+        "Issue": 0.0017,
+        "Reasoning": 0.0438
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "Consequently the conclusion of the Tribunal as regards the nature of product manufactured has become final and it is not open for the department to reagitate in the present proceedings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2207,
+        "Arguments of Respondent": 0.2944,
+        "Decision": 0.009,
+        "Facts": 0.0798,
+        "Issue": 0.0008,
+        "Reasoning": 0.3954
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "Shri Desai then submitted that even accepting that Citric Acid is a drug, drugintermediate or pharmaceutical still the finding of the Tribunal that unless the Company established the enduse of the manufactured product, exemption is not available, should not be disturbed.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1844,
+        "Arguments of Respondent": 0.806,
+        "Decision": 0.0005,
+        "Facts": 0.0005,
+        "Issue": 0.0002,
+        "Reasoning": 0.0083
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "We are afraid we cannot acceded to the submission.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8314,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0703,
+        "Arguments of Respondent": 0.0764,
+        "Decision": 0.0101,
+        "Facts": 0.0107,
+        "Issue": 0.0011,
+        "Reasoning": 0.8314
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "It is necessary to reiterate that the impost of excise duty is in respect of manufacture of a product and the liability to pay excise duty accrues as soon as manufactured article comes into existence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9669,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0008,
+        "Facts": 0.0105,
+        "Issue": 0.0008,
+        "Reasoning": 0.9669
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The liability to pay duty is not dependent upon the enduse of the product and it is not open for the manufacturer to claim that the liability is dependent upon the enduse of the product and so also to the Department to claim that exemption cannot be claimed till it is established that the manufactured product is used for ultimate manufacture of a drug or drugintermediate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5979,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1583,
+        "Arguments of Respondent": 0.1351,
+        "Decision": 0.0425,
+        "Facts": 0.0647,
+        "Issue": 0.0016,
+        "Reasoning": 0.5979
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "( 8 ) SHRI Desai referred to the decision of the Supreme Court reported in 1988 (38) E. L. T. 564 (Collector of C. E. Guntur v. Andhra Sugar Ltd.) to urge that the requirement of enduse though not built into the exemption notification is not only implied but also becomes imperative in a situation when the product has uses other than drug intermediate.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7992,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7992,
+        "Arguments of Respondent": 0.1635,
+        "Decision": 0.0003,
+        "Facts": 0.0069,
+        "Issue": 0.0001,
+        "Reasoning": 0.03
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The learned counsel submitted that this is the ratio laid down by the Supreme Court.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4843,
+        "Arguments of Respondent": 0.4945,
+        "Decision": 0.0003,
+        "Facts": 0.0048,
+        "Issue": 0.0002,
+        "Reasoning": 0.016
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 50,
+      "text": "The submission is not accurate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0534,
+        "Arguments of Respondent": 0.0773,
+        "Decision": 0.0008,
+        "Facts": 0.0193,
+        "Issue": 0.0002,
+        "Reasoning": 0.849
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The issue before the Supreme Court was whether the Acetic Andydride manufactured by the respondents and sold to drug manufacturers is eligible to benefit of exemption under Notification No. 55/75 as amended by Notification No. 62/78 as drug intermediate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7081,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.0389,
+        "Decision": 0.0014,
+        "Facts": 0.1062,
+        "Issue": 0.1068,
+        "Reasoning": 0.7081
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The manufacturer has succeed before the tribunal and the appeal was carried to the Supreme Court by the Collector.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4333,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1375,
+        "Arguments of Respondent": 0.1577,
+        "Decision": 0.0046,
+        "Facts": 0.2593,
+        "Issue": 0.0077,
+        "Reasoning": 0.4333
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "The Supreme Court in paragraph 2 of the judgment observed that the question is was the item manufactured a drug or an intermediate in terms of the notification.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7197,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0864,
+        "Arguments of Respondent": 0.0588,
+        "Decision": 0.0011,
+        "Facts": 0.1319,
+        "Issue": 0.002,
+        "Reasoning": 0.7197
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "In paragraph 6 of the judgment the Supreme Court noted that on the facts of the case that Acetic Andydride manufactured was used in the manufacture of the drugs.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8329,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0608,
+        "Arguments of Respondent": 0.0433,
+        "Decision": 0.0008,
+        "Facts": 0.0615,
+        "Issue": 0.0007,
+        "Reasoning": 0.8329
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "In our judgment, the reliance on the decision of the Supreme Court in these circumstances is not accurate.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9637,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0165,
+        "Arguments of Respondent": 0.0089,
+        "Decision": 0.001,
+        "Facts": 0.0098,
+        "Issue": 0.0001,
+        "Reasoning": 0.9637
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "In our judgment the petitioners are entitled to the relief.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5053,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0022,
+        "Decision": 0.4212,
+        "Facts": 0.0662,
+        "Issue": 0.0009,
+        "Reasoning": 0.5053
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 57,
+      "text": "( 9 ) ACCORDINGLY, petition succeeds and the direction given by the Tribunal in paragraph 26 of the order dated March 4, 1985 is quashed.",
+      "predicted_label": "Decision",
+      "confidence": 0.628,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.628,
+        "Facts": 0.3269,
+        "Issue": 0.0009,
+        "Reasoning": 0.0344
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 58,
+      "text": "It is declared that the petitioners are entitled to exemption in respect of manufacture of citric acid and it is not permissible for the Department to make enquiry and satisfy about the enduse of the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.5396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.4106,
+        "Facts": 0.5396,
+        "Issue": 0.0006,
+        "Reasoning": 0.045
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 59,
+      "text": "( 10 ) THERE will be no order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9083,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.9083,
+        "Facts": 0.0611,
+        "Issue": 0.001,
+        "Reasoning": 0.0245
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "( 11 ) SHRI Pochkhanwala assures that the bond furnished by the petitioners in pursuance of the interim order passed by this Court will be kept alive for eight weeks.",
+      "predicted_label": "Facts",
+      "confidence": 0.5406,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1688,
+        "Arguments of Respondent": 0.128,
+        "Decision": 0.052,
+        "Facts": 0.5406,
+        "Issue": 0.0006,
+        "Reasoning": 0.1099
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

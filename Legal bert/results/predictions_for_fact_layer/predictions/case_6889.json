@@ -1,0 +1,3712 @@
+{
+  "case_id": "6889",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " The appellants being aggrieved by the judgment and order passed by the Additional Sessions Judge, Greater Bombay dated 20th February 2015 in Sessions Case No.336 of 2012 thereby sentencing them to imprisonment for life and fine of Rs.5,000/ in default to suffer imprisonment for a period of six months under section 302 r w 34 of Indian Penal Code have filed the present appeal.",
+      "predicted_label": "Issue",
+      "confidence": 0.8897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0014,
+        "Facts": 0.1073,
+        "Issue": 0.8897,
+        "Reasoning": 0.0008
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "2. Such of the facts necessary for the decision of this appeal are as follows  (i) On 9th January 2012, Prabhakar Joshi, PSO P.W.1 of Parksite Police Station was informed by the Police Constable Laxman Wagh P.W.5 that the dead body of a male was found in Swaminarayan Nagar, Hiranandani Street, Chandan Sharma Tekdi Compound and that the dead body was being taken to Rajawadi Hospital, Ghatkopar.",
+      "predicted_label": "Facts",
+      "confidence": 0.9974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0008,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0,
+        "Facts": 0.9974,
+        "Issue": 0.0006,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "P.W. 1 reached the Hospital.",
+      "predicted_label": "Facts",
+      "confidence": 0.5949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0534,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0013,
+        "Facts": 0.5949,
+        "Issue": 0.0008,
+        "Reasoning": 0.3206
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "Police Constable",
+      "predicted_label": "Facts",
+      "confidence": 0.799,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1033,
+        "Arguments of Respondent": 0.0288,
+        "Decision": 0.0026,
+        "Facts": 0.799,
+        "Issue": 0.0027,
+        "Reasoning": 0.0637
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "Mr. Laxman Wagh P.W.5 had informed him about the location where dead body was found.",
+      "predicted_label": "Facts",
+      "confidence": 0.6783,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0454,
+        "Arguments of Respondent": 0.0293,
+        "Decision": 0.0008,
+        "Facts": 0.6783,
+        "Issue": 0.0002,
+        "Reasoning": 0.2459
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 5,
+      "text": "P.W.1 registered A.D.R. No.5 of 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.7202,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0929,
+        "Arguments of Respondent": 0.063,
+        "Decision": 0.0023,
+        "Facts": 0.7202,
+        "Issue": 0.0238,
+        "Reasoning": 0.0978
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "P.W.1 had shown photographs of the dead body which was found on the earlier date.",
+      "predicted_label": "Facts",
+      "confidence": 0.4771,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0873,
+        "Arguments of Respondent": 0.0344,
+        "Decision": 0.0006,
+        "Facts": 0.4771,
+        "Issue": 0.0004,
+        "Reasoning": 0.4002
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "Kasim P.W.2 identified the photographs to be that of Iqbal his nephew.",
+      "predicted_label": "Facts",
+      "confidence": 0.5832,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0386,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0003,
+        "Facts": 0.5832,
+        "Issue": 0.0002,
+        "Reasoning": 0.3654
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 8,
+      "text": "P.W.2 had called upon Javed P.W.3, the brother of the deceased.",
+      "predicted_label": "Facts",
+      "confidence": 0.8148,
+      "probabilities": {
+        "Arguments of Petitioner": 0.022,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0002,
+        "Facts": 0.8148,
+        "Issue": 0.0002,
+        "Reasoning": 0.1537
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "They visited the mortuary at Rajawadi Hospital and identified the dead body to be that of Iqbal.",
+      "predicted_label": "Facts",
+      "confidence": 0.8395,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0229,
+        "Arguments of Respondent": 0.0091,
+        "Decision": 0.0008,
+        "Facts": 0.8395,
+        "Issue": 0.0043,
+        "Reasoning": 0.1235
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "(iii) The missing complaint filed at Vikhroli Police Station is missing from the records.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8812,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8812,
+        "Arguments of Respondent": 0.0264,
+        "Decision": 0.0047,
+        "Facts": 0.0452,
+        "Issue": 0.0019,
+        "Reasoning": 0.0405
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The Investigating Agency has neither placed the case diary on record to show that the missing complaint was ever filed at Vikhroli Police Station.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4738,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3542,
+        "Arguments of Respondent": 0.0943,
+        "Decision": 0.0031,
+        "Facts": 0.0739,
+        "Issue": 0.0007,
+        "Reasoning": 0.4738
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "(v) On 10th January 2012, the identity of the deceased was established.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8835,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8835,
+        "Arguments of Respondent": 0.0619,
+        "Decision": 0.0018,
+        "Facts": 0.0266,
+        "Issue": 0.0015,
+        "Reasoning": 0.0247
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "P.W.1 had lodged FIR (Exh.36) at Parksite Police Station against unknown persons for the offences punishable under section 302, 201 r w 34 of Indian Penal Code on the basis of which Crime No.18 of 2012 was registered at Parksite Police Station.",
+      "predicted_label": "Facts",
+      "confidence": 0.8846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0165,
+        "Arguments of Respondent": 0.012,
+        "Decision": 0.0005,
+        "Facts": 0.8846,
+        "Issue": 0.0004,
+        "Reasoning": 0.0861
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "Postmortem notes indicated that Iqbal had died a homicidal death due to strangulation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9356,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0006,
+        "Facts": 0.9356,
+        "Issue": 0.0009,
+        "Reasoning": 0.0465
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "He had drawn inquest panchanama.",
+      "predicted_label": "Facts",
+      "confidence": 0.6714,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0266,
+        "Arguments of Respondent": 0.0096,
+        "Decision": 0.0006,
+        "Facts": 0.6714,
+        "Issue": 0.001,
+        "Reasoning": 0.2908
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "The statement of the PI Wagh was recorded.",
+      "predicted_label": "Facts",
+      "confidence": 0.9231,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0031,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0002,
+        "Facts": 0.9231,
+        "Issue": 0.0002,
+        "Reasoning": 0.0706
+      }
+    },
+    {
+      "sentence_id": 17,
+      "text": "He had then registered A.D.R. No.5 of 2012 under section 174 of Cr.P.C. and sent the viscera for chemical analysis on 10th January 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.9031,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0144,
+        "Arguments of Respondent": 0.0147,
+        "Decision": 0.0001,
+        "Facts": 0.9031,
+        "Issue": 0.0005,
+        "Reasoning": 0.0672
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "P.W.1 in his deposition before the Court claims to have recorded the scene of offence panchanama on 10th January 2012 on the basis of the information given by Police Constable Mr. Wagh.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0629,
+        "Arguments of Respondent": 0.0456,
+        "Decision": 0.0002,
+        "Facts": 0.3057,
+        "Issue": 0.0001,
+        "Reasoning": 0.5855
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "It is surprising that within two days i.e. by 11th January 2012 the scene of offence panchanama was missing from the records.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9202,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0129,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.004,
+        "Facts": 0.0549,
+        "Issue": 0.0008,
+        "Reasoning": 0.9202
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "P.W.1 Joshi has also received the provisional death certificate and postmortem notes on 9th January 2012 itself and on perusal of the same, it was more than clear that it was a case of homicidal death.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.44,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4177,
+        "Arguments of Respondent": 0.44,
+        "Decision": 0.0009,
+        "Facts": 0.046,
+        "Issue": 0.0005,
+        "Reasoning": 0.0949
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 21,
+      "text": "Yet P.W.1 had registered A.D.R 4. P.W.1 could not place on record the scene of offence panchanama and accordingly, he has deposed as follows  Though I took search at police station I did not find panchanama of place of incident and to that effect I have filed Report to this Court on 5/10/2013.",
+      "predicted_label": "Facts",
+      "confidence": 0.7676,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0706,
+        "Arguments of Respondent": 0.0306,
+        "Decision": 0.0003,
+        "Facts": 0.7676,
+        "Issue": 0.0002,
+        "Reasoning": 0.1307
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The said report dated 5th October 2013 is at Exh.31.",
+      "predicted_label": "Facts",
+      "confidence": 0.6213,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0319,
+        "Arguments of Respondent": 0.0403,
+        "Decision": 0.0017,
+        "Facts": 0.6213,
+        "Issue": 0.0006,
+        "Reasoning": 0.3042
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 23,
+      "text": "It is reported that the scene of offence panchanama is misplaced.",
+      "predicted_label": "Facts",
+      "confidence": 0.9151,
+      "probabilities": {
+        "Arguments of Petitioner": 0.008,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0013,
+        "Facts": 0.9151,
+        "Issue": 0.0046,
+        "Reasoning": 0.0623
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "According to P.W.1, the statement of Hasina Shaikh  P.W.4 was recorded on 9th January 2012 only for the purpose of handing over the dead body to her.",
+      "predicted_label": "Facts",
+      "confidence": 0.6396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0364,
+        "Arguments of Respondent": 0.0109,
+        "Decision": 0.0003,
+        "Facts": 0.6396,
+        "Issue": 0.0001,
+        "Reasoning": 0.3126
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 25,
+      "text": "It is specifically conceded by P.W.1 that in the first statement P.W.4 had not given the names of accused.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8502,
+      "probabilities": {
+        "Arguments of Petitioner": 0.08,
+        "Arguments of Respondent": 0.0216,
+        "Decision": 0.0004,
+        "Facts": 0.0475,
+        "Issue": 0.0002,
+        "Reasoning": 0.8502
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "According to him, the said statement was recorded only for the purpose of handing over dead body of deceased Iqbal and although he had directed her to give details she had not suspected any particular person.",
+      "predicted_label": "Facts",
+      "confidence": 0.8241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0929,
+        "Arguments of Respondent": 0.0286,
+        "Decision": 0.0001,
+        "Facts": 0.8241,
+        "Issue": 0.0003,
+        "Reasoning": 0.054
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "P.W.1 has further stated that after recording first statement of P.W.4 it had transpired that Iqbal was notorious person in the vicinity and many offences were registered against him at different Police Stations in Mumbai.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4542,
+      "probabilities": {
+        "Arguments of Petitioner": 0.203,
+        "Arguments of Respondent": 0.0462,
+        "Decision": 0.0004,
+        "Facts": 0.2954,
+        "Issue": 0.0006,
+        "Reasoning": 0.4542
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "Kasim Shaikh  P.W.2 has deposed before the Court that he was aware that three criminal cases were registered against Iqbal at Santacruz and Vikhroli Police Station.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2111,
+        "Arguments of Respondent": 0.4339,
+        "Decision": 0.0015,
+        "Facts": 0.0476,
+        "Issue": 0.0041,
+        "Reasoning": 0.3018
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 29,
+      "text": "According to him, on 9th January 2012 at about 8.00 am, he was informed by his sister Hasina that her son Iqbal is missing since night of 8th January 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.9754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0009,
+        "Decision": 0.0001,
+        "Facts": 0.9754,
+        "Issue": 0.0023,
+        "Reasoning": 0.0153
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "They had searched for him and thereafter, at night on 9th January 2012 his brother Mustak had filed missing complaint at Vikhroli Police Station.",
+      "predicted_label": "Facts",
+      "confidence": 0.727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0823,
+        "Arguments of Respondent": 0.0402,
+        "Decision": 0.0011,
+        "Facts": 0.727,
+        "Issue": 0.0038,
+        "Reasoning": 0.1455
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "At the time of filing missing complaint Hasina had accompanied them to the Police Station.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6102,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0532,
+        "Arguments of Respondent": 0.0327,
+        "Decision": 0.0016,
+        "Facts": 0.3007,
+        "Issue": 0.0017,
+        "Reasoning": 0.6102
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "He has further deposed that on 10th January 2012 Mustak had called him at Parksite Police Station and therefore, he along with Javed Shaikh P.W.3 had been to Parksite Police Station.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8346,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0883,
+        "Arguments of Respondent": 0.0172,
+        "Decision": 0.0004,
+        "Facts": 0.0593,
+        "Issue": 0.0002,
+        "Reasoning": 0.8346
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "They had identified the photograph to be that of Iqbal about whom the missing complaint was filed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5008,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1913,
+        "Arguments of Respondent": 0.0529,
+        "Decision": 0.0005,
+        "Facts": 0.2536,
+        "Issue": 0.0008,
+        "Reasoning": 0.5008
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 34,
+      "text": "Thereafter, their statements were recorded.",
+      "predicted_label": "Facts",
+      "confidence": 0.8569,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.0101,
+        "Decision": 0.0002,
+        "Facts": 0.8569,
+        "Issue": 0.0007,
+        "Reasoning": 0.1166
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "According to him, the Police had informed them that the dead body was found at Chandan Sharma Tekdi Compound.",
+      "predicted_label": "Facts",
+      "confidence": 0.7871,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0649,
+        "Arguments of Respondent": 0.0285,
+        "Decision": 0.0002,
+        "Facts": 0.7871,
+        "Issue": 0.0004,
+        "Reasoning": 0.1189
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "It is admitted in the crossexamination that it was stated in the missing complaint that Iqbal was missing from 11.00 pm of 8th January 2012.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1152,
+        "Arguments of Respondent": 0.3526,
+        "Decision": 0.0004,
+        "Facts": 0.1479,
+        "Issue": 0.0011,
+        "Reasoning": 0.3828
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "Javed J. Shaikh  P.W.3 happens to be the brother of the deceased Iqbal.",
+      "predicted_label": "Facts",
+      "confidence": 0.853,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0542,
+        "Arguments of Respondent": 0.027,
+        "Decision": 0.0008,
+        "Facts": 0.853,
+        "Issue": 0.0085,
+        "Reasoning": 0.0565
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "He has deposed before the Court that Vyankatesh was a friend of Iqbal since 10 years.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.357,
+      "probabilities": {
+        "Arguments of Petitioner": 0.357,
+        "Arguments of Respondent": 0.351,
+        "Decision": 0.0008,
+        "Facts": 0.0537,
+        "Issue": 0.0006,
+        "Reasoning": 0.2368
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "He used to visit the house of the deceased quite often.",
+      "predicted_label": "Facts",
+      "confidence": 0.9529,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0002,
+        "Facts": 0.9529,
+        "Issue": 0.0006,
+        "Reasoning": 0.039
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "On 8th January 2012 at about 11.00 pm he had seen Iqbal and Vyankatesh together at Panther Nagar area.",
+      "predicted_label": "Facts",
+      "confidence": 0.7191,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0337,
+        "Arguments of Respondent": 0.0055,
+        "Decision": 0.0005,
+        "Facts": 0.7191,
+        "Issue": 0.0015,
+        "Reasoning": 0.2397
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "That night Iqbal had not returned home.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.479,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1295,
+        "Arguments of Respondent": 0.0647,
+        "Decision": 0.001,
+        "Facts": 0.3246,
+        "Issue": 0.0012,
+        "Reasoning": 0.479
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 42,
+      "text": "On the next day, they searched for him and finally his mother and maternal uncle filed a missing complaint at Vikhroli Police Station at about 4.00  5.00 pm.",
+      "predicted_label": "Facts",
+      "confidence": 0.9838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9838,
+        "Issue": 0.0022,
+        "Reasoning": 0.0105
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "At the first instance, he had not informed the Police that on the earlier day, he had seen Iqbal in the company of Vyankatesh.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3952,
+        "Arguments of Respondent": 0.1866,
+        "Decision": 0.0008,
+        "Facts": 0.0967,
+        "Issue": 0.0006,
+        "Reasoning": 0.3202
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 44,
+      "text": "From Rajawadi Hospital they were taken to Parksite Police Station where their statements were recorded.",
+      "predicted_label": "Facts",
+      "confidence": 0.9627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0,
+        "Facts": 0.9627,
+        "Issue": 0.0005,
+        "Reasoning": 0.0343
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "P.W.3 has made the following admissions (i) P.W.3 has conceded in the crossexamination that there were crimes registered against Iqbal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4616,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2916,
+        "Arguments of Respondent": 0.4616,
+        "Decision": 0.0044,
+        "Facts": 0.1411,
+        "Issue": 0.0017,
+        "Reasoning": 0.0996
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "He was always accompanied by his friends.",
+      "predicted_label": "Facts",
+      "confidence": 0.6034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0775,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.0018,
+        "Facts": 0.6034,
+        "Issue": 0.0003,
+        "Reasoning": 0.2984
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "The ground at Panther Nagar was mostly visited by people to consume alcohol at night.",
+      "predicted_label": "Facts",
+      "confidence": 0.8959,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0247,
+        "Arguments of Respondent": 0.0178,
+        "Decision": 0.0007,
+        "Facts": 0.8959,
+        "Issue": 0.0007,
+        "Reasoning": 0.0601
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "On the night of 8th January 2012 there were many people on the ground (ii) P.W.3 had not suspected the involvement of the present appellants in causing the homicidal death of Iqbal despite having knowledge about the quarrels between Iqbal, Shrinivas and Shiva at the time of Ganesh Festival and therefore, the same was not mentioned in his statements (iii) There is an admission of Javed  P.W.3 that he had learnt about the death of Iqbal for the first time on 10th January 2012.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9736,
+        "Arguments of Respondent": 0.0108,
+        "Decision": 0.0003,
+        "Facts": 0.0045,
+        "Issue": 0.0007,
+        "Reasoning": 0.01
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "The Police had called upon P.W.3 to Parksite Police Station and had shown the accused appellants to him and further informed that they were arrested (iv) There is a clear admission by Javed P.W.3, brother of deceased that Panther Nagar ground where the deceased was last seen in the company of Vyankatesh is at a distance of about 1012 kilometers from the place where the dead body of Iqbal was found on 9 th January 2012.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8591,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8591,
+        "Arguments of Respondent": 0.1101,
+        "Decision": 0.0003,
+        "Facts": 0.0174,
+        "Issue": 0.0005,
+        "Reasoning": 0.0127
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "(v) There is also an admission that several criminal cases were registered against the deceased.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7157,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7157,
+        "Arguments of Respondent": 0.0327,
+        "Decision": 0.0005,
+        "Facts": 0.0682,
+        "Issue": 0.0015,
+        "Reasoning": 0.1815
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "In fact, it was the Police who had informed P.W.3 that accused Vyankatesh happens to be the perpetrator of the crime.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1477,
+        "Arguments of Respondent": 0.0924,
+        "Decision": 0.0009,
+        "Facts": 0.2651,
+        "Issue": 0.0007,
+        "Reasoning": 0.4933
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "The witness was confronted with his previous statement and he has stated that he had never informed the Police on 12th January 2012 that he along with his mother and maternal uncle had been to Vikhroli Police Station and filed missing complaint.",
+      "predicted_label": "Facts",
+      "confidence": 0.5265,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0438,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0006,
+        "Facts": 0.5265,
+        "Issue": 0.0005,
+        "Reasoning": 0.4233
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 53,
+      "text": "Hence, the said portion is marked as portion marked  A.",
+      "predicted_label": "Facts",
+      "confidence": 0.913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0133,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0005,
+        "Facts": 0.913,
+        "Issue": 0.0017,
+        "Reasoning": 0.0662
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "He has also denied to have informed the Police that Vyankatesh is close friend of Shrinivas Swami and hence, the said contradiction is marked as portion mark B. 11.",
+      "predicted_label": "Facts",
+      "confidence": 0.6059,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2273,
+        "Arguments of Respondent": 0.048,
+        "Decision": 0.0003,
+        "Facts": 0.6059,
+        "Issue": 0.0003,
+        "Reasoning": 0.1182
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 55,
+      "text": "Hasina Shaikh  P.W.4 happens to be the mother of deceased Iqbal.",
+      "predicted_label": "Facts",
+      "confidence": 0.7675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1068,
+        "Arguments of Respondent": 0.0392,
+        "Decision": 0.0016,
+        "Facts": 0.7675,
+        "Issue": 0.0089,
+        "Reasoning": 0.076
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "According to her, on 8th January 2012, from 11.00 pm onwards Iqbal was missing.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4333,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3134,
+        "Arguments of Respondent": 0.4333,
+        "Decision": 0.0003,
+        "Facts": 0.0994,
+        "Issue": 0.0003,
+        "Reasoning": 0.1534
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 57,
+      "text": "On the next day, despite the search, he could not be traced and therefore, on 9th January 2012 she filed a missing complaint at Vikhroli Police Station.",
+      "predicted_label": "Facts",
+      "confidence": 0.985,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0001,
+        "Facts": 0.985,
+        "Issue": 0.0005,
+        "Reasoning": 0.0122
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "They were informed by Vikhroli Police Station to approach Parksite Police Station.",
+      "predicted_label": "Facts",
+      "confidence": 0.9517,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0002,
+        "Facts": 0.9517,
+        "Issue": 0.0004,
+        "Reasoning": 0.0414
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "At Parksite Police Station, Police informed her brother Mustak that they have found a dead body in abandoned condition at Chandan Tekdi at Swaminarayan Nagar.",
+      "predicted_label": "Facts",
+      "confidence": 0.9345,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0002,
+        "Facts": 0.9345,
+        "Issue": 0.0004,
+        "Reasoning": 0.0591
+      }
+    },
+    {
+      "sentence_id": 60,
+      "text": "Mustak conveyed the message to P.W.4 pursuant to which, she rushed to Rajawadi Hospital.",
+      "predicted_label": "Facts",
+      "confidence": 0.9398,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0001,
+        "Facts": 0.9398,
+        "Issue": 0.0005,
+        "Reasoning": 0.0468
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "After recording her statement, the dead body was handed over to her.",
+      "predicted_label": "Facts",
+      "confidence": 0.9133,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0004,
+        "Facts": 0.9133,
+        "Issue": 0.0003,
+        "Reasoning": 0.0768
+      }
+    },
+    {
+      "sentence_id": 62,
+      "text": "P.W.4 deposed that on 8th January 2012 at about 10.45 pm when she contacted her son Iqbal she was informed that he was on the ground at Panther Nagar.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5392,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0587,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0018,
+        "Facts": 0.3867,
+        "Issue": 0.0005,
+        "Reasoning": 0.5392
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 63,
+      "text": "Her communication with Javed  P.W.3 at the relevant time is not mentioned in her previous statement.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0655,
+        "Arguments of Respondent": 0.0286,
+        "Decision": 0.0003,
+        "Facts": 0.2233,
+        "Issue": 0.0001,
+        "Reasoning": 0.6822
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "She has further elaborated that 3 to 4 months earlier there was a quarrel between Iqbal on one side and Shrinivas and Shiva on the other and in the said altercation, Iqbal had assaulted Shiva with a razor and since then, there was enmity between Iqbal, Shrinivas Swami and Shiva.",
+      "predicted_label": "Facts",
+      "confidence": 0.497,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1815,
+        "Arguments of Respondent": 0.1576,
+        "Decision": 0.0006,
+        "Facts": 0.497,
+        "Issue": 0.0006,
+        "Reasoning": 0.1626
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "After the said incident, Iqbal was being threatened by Shrinivas.",
+      "predicted_label": "Facts",
+      "confidence": 0.3951,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3359,
+        "Arguments of Respondent": 0.1203,
+        "Decision": 0.0028,
+        "Facts": 0.3951,
+        "Issue": 0.001,
+        "Reasoning": 0.1448
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 66,
+      "text": "On one occasion, there was also a quarrel between Iqbal and Sushila Tevar wherein Sushila had stabbed Iqbal Gullu in the stomach and therefore, they were being prosecuted.",
+      "predicted_label": "Facts",
+      "confidence": 0.8064,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0956,
+        "Arguments of Respondent": 0.0457,
+        "Decision": 0.0005,
+        "Facts": 0.8064,
+        "Issue": 0.0015,
+        "Reasoning": 0.0503
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "P.W.4 claims to have seen Sushila Tevar and others near Vikhroli Station on 7th January 2012 and therefore, she suspected Shrinivas, Shiva, Sushila Tevar, Vyankatesh and Suresh Kallu as the assailants of Iqbal.",
+      "predicted_label": "Facts",
+      "confidence": 0.6537,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0482,
+        "Arguments of Respondent": 0.0286,
+        "Decision": 0.0005,
+        "Facts": 0.6537,
+        "Issue": 0.0007,
+        "Reasoning": 0.2684
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "Secondly, her supplementary statement was also recorded on the same day.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0495,
+        "Arguments of Respondent": 0.0283,
+        "Decision": 0.0004,
+        "Facts": 0.285,
+        "Issue": 0.0003,
+        "Reasoning": 0.6366
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "P.W. 4 has identified the accused.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8164,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0518,
+        "Arguments of Respondent": 0.0151,
+        "Decision": 0.0007,
+        "Facts": 0.1158,
+        "Issue": 0.0003,
+        "Reasoning": 0.8164
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "It is elicited in the crossexamination that on 11th January 2012 her statement was recorded by P.W.1.",
+      "predicted_label": "Facts",
+      "confidence": 0.5451,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0314,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0002,
+        "Facts": 0.5451,
+        "Issue": 0.0002,
+        "Reasoning": 0.4152
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 71,
+      "text": "She has affirmed before the Court the contents of her statement which is marked at Exh.37.",
+      "predicted_label": "Facts",
+      "confidence": 0.5068,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0513,
+        "Arguments of Respondent": 0.0355,
+        "Decision": 0.0008,
+        "Facts": 0.5068,
+        "Issue": 0.0002,
+        "Reasoning": 0.4055
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 72,
+      "text": "She has voluntarily stated that on the same day i.e. on 11th January 2012, Mr. Joshi had recorded only one statement.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4363,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3196,
+        "Arguments of Respondent": 0.4363,
+        "Decision": 0.0013,
+        "Facts": 0.0156,
+        "Issue": 0.0003,
+        "Reasoning": 0.227
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 73,
+      "text": "She further claims to have informed P.W.1 that her son Javed and his friend had told her that on 8 th January 2012 at 11.00 pm they had seen Iqbal in the company of Vyankatesh at Panther Nagar.",
+      "predicted_label": "Facts",
+      "confidence": 0.9207,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0217,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0002,
+        "Facts": 0.9207,
+        "Issue": 0.0004,
+        "Reasoning": 0.0503
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "She has conceded in the crossexamination that she had not filed any complaint report to the effect that Shrinivas had extended threats to Iqbal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5641,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0556,
+        "Arguments of Respondent": 0.1002,
+        "Decision": 0.0103,
+        "Facts": 0.2691,
+        "Issue": 0.0008,
+        "Reasoning": 0.5641
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "It is also conceded that action under section 151 of Cr.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3881,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1162,
+        "Arguments of Respondent": 0.3881,
+        "Decision": 0.0145,
+        "Facts": 0.1101,
+        "Issue": 0.0039,
+        "Reasoning": 0.3672
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 76,
+      "text": "P.C was intermittently taken against deceased Iqbal.",
+      "predicted_label": "Facts",
+      "confidence": 0.359,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1968,
+        "Arguments of Respondent": 0.3415,
+        "Decision": 0.0006,
+        "Facts": 0.359,
+        "Issue": 0.0018,
+        "Reasoning": 0.1002
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 77,
+      "text": "She has also conceded that after arrest the accused Shrinivas Swami, Vyankatesh and Suresh Kallu were shown to her in the Police Station and she was informed by the Police that they had caused homicidal death of Iqbal.",
+      "predicted_label": "Facts",
+      "confidence": 0.3955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1822,
+        "Arguments of Respondent": 0.3128,
+        "Decision": 0.0009,
+        "Facts": 0.3955,
+        "Issue": 0.0006,
+        "Reasoning": 0.1079
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 78,
+      "text": "P.W.4 had volunteered that on every occasion before visiting the Court she had visited the Parksite Police and she was told to depose before the Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5161,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1678,
+        "Arguments of Respondent": 0.0484,
+        "Decision": 0.0008,
+        "Facts": 0.2668,
+        "Issue": 0.0001,
+        "Reasoning": 0.5161
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "According to her, on 8th January when she called upon Iqbal he had informed her that he is in company of Vyankatesh 13.",
+      "predicted_label": "Facts",
+      "confidence": 0.805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0475,
+        "Arguments of Respondent": 0.0195,
+        "Decision": 0.0002,
+        "Facts": 0.805,
+        "Issue": 0.0001,
+        "Reasoning": 0.1276
+      }
+    },
+    {
+      "sentence_id": 80,
+      "text": "Ashupati Shivsharan  P.W.6 is the panch.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.67,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0682,
+        "Arguments of Respondent": 0.0251,
+        "Decision": 0.0013,
+        "Facts": 0.2347,
+        "Issue": 0.0007,
+        "Reasoning": 0.67
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "According to him, the accused Suresh Gupta Kallu had volunteered to show the place where Iqbal was killed on 13th January 2012.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4693,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2689,
+        "Arguments of Respondent": 0.4693,
+        "Decision": 0.0003,
+        "Facts": 0.1682,
+        "Issue": 0.0006,
+        "Reasoning": 0.0925
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "The memorandum of accused Suresh is at Exh.52.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0819,
+        "Arguments of Respondent": 0.0468,
+        "Decision": 0.0007,
+        "Facts": 0.2771,
+        "Issue": 0.0004,
+        "Reasoning": 0.5932
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "The accused Suresh had also led Police to his house situated in a chawl at Swaminarayan Nagar and a cell phone was recovered which according to the Police belonged to deceased Iqbal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9764,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0019,
+        "Decision": 0.0001,
+        "Facts": 0.9764,
+        "Issue": 0.0027,
+        "Reasoning": 0.0101
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "It is also admitted that when they reached the scene of offence many people had gathered there and they had learnt from the public that the dead body was found at that place.",
+      "predicted_label": "Facts",
+      "confidence": 0.5518,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0311,
+        "Arguments of Respondent": 0.072,
+        "Decision": 0.0006,
+        "Facts": 0.5518,
+        "Issue": 0.0006,
+        "Reasoning": 0.3439
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "No panchnama was drawn there.",
+      "predicted_label": "Facts",
+      "confidence": 0.4323,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1389,
+        "Arguments of Respondent": 0.0761,
+        "Decision": 0.0011,
+        "Facts": 0.4323,
+        "Issue": 0.0005,
+        "Reasoning": 0.351
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 86,
+      "text": "The panchanama was prepared at the Police Station which is at Exh.53.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6399,
+      "probabilities": {
+        "Arguments of Petitioner": 0.062,
+        "Arguments of Respondent": 0.0669,
+        "Decision": 0.0009,
+        "Facts": 0.2297,
+        "Issue": 0.0006,
+        "Reasoning": 0.6399
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "Overwriting in respect of time on the panchanama is admitted by the witness.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0803,
+        "Arguments of Respondent": 0.04,
+        "Decision": 0.0005,
+        "Facts": 0.0452,
+        "Issue": 0.0001,
+        "Reasoning": 0.8339
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "The crossexamination clearly establishes that the witness was tutored before deposing in the Court and the same is admitted by P.W.6.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4369,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3146,
+        "Arguments of Respondent": 0.2143,
+        "Decision": 0.0007,
+        "Facts": 0.0334,
+        "Issue": 0.0001,
+        "Reasoning": 0.4369
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 89,
+      "text": "According to Eknath Khade P.W.7, resident of Panther Nagar, when he was at the public toilet he had seen Iqbal Gullu and Vyankatesh proceeding towards Kannamvar Nagar.",
+      "predicted_label": "Facts",
+      "confidence": 0.8855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0095,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0001,
+        "Facts": 0.8855,
+        "Issue": 0.0002,
+        "Reasoning": 0.1011
+      }
+    },
+    {
+      "sentence_id": 90,
+      "text": "P.W.7 has stated that at about 9.30 pm on 8th January 2012, Gullu and Vyankatesh were seen together and they both were in inebriated condition.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0005,
+        "Facts": 0.4002,
+        "Issue": 0.0001,
+        "Reasoning": 0.5865
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 91,
+      "text": "On the very next day, in the morning, he had learnt that Iqbal had not returned home and accordingly, he had informed the mother of the deceased that on the previous night he had seen her son Gullu in the company of Vyankatesh and that they were being followed by Shrinivas.",
+      "predicted_label": "Facts",
+      "confidence": 0.9514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0234,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0002,
+        "Facts": 0.9514,
+        "Issue": 0.0011,
+        "Reasoning": 0.0173
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "On 10th January 2012, he learnt about the death of Gullu.",
+      "predicted_label": "Facts",
+      "confidence": 0.9498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9498,
+        "Issue": 0.0006,
+        "Reasoning": 0.0433
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "He has also affirmed about the quarrel between the deceased and Shrinivas at the time of Ganesh Festival.",
+      "predicted_label": "Facts",
+      "confidence": 0.7045,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0974,
+        "Arguments of Respondent": 0.0344,
+        "Decision": 0.0004,
+        "Facts": 0.7045,
+        "Issue": 0.0007,
+        "Reasoning": 0.1626
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "He had not met anyone near the public toilet which is situated at a distance of 30 meters from his house.",
+      "predicted_label": "Facts",
+      "confidence": 0.7634,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0452,
+        "Arguments of Respondent": 0.0148,
+        "Decision": 0.0007,
+        "Facts": 0.7634,
+        "Issue": 0.0003,
+        "Reasoning": 0.1755
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "The fact that FIR was registered against unknown persons on 11th January 2012 would falsify the statement of P.W.7 and P.W.10 that they had disclosed to the Police on 10th January 2012 that the deceased was last seen in the company of Vyankatesh.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4927,
+        "Arguments of Respondent": 0.3846,
+        "Decision": 0.0005,
+        "Facts": 0.0366,
+        "Issue": 0.0002,
+        "Reasoning": 0.0854
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 96,
+      "text": "Their evidence would further show that Iqbal had friends on the way from Kannamvar Nagar to Swami Narayan Nagar.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.203,
+        "Arguments of Respondent": 0.3838,
+        "Decision": 0.0002,
+        "Facts": 0.044,
+        "Issue": 0.0006,
+        "Reasoning": 0.3683
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 97,
+      "text": "He has conceded that he is one of the witnesses to the incident of scuffle between Iqbal and the Tevar family, in which Sushila had stabbed Iqbal.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4936,
+        "Arguments of Respondent": 0.2936,
+        "Decision": 0.0006,
+        "Facts": 0.0191,
+        "Issue": 0.0004,
+        "Reasoning": 0.1927
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "He happens to be a childhood friend of deceased Iqbal Gullu.",
+      "predicted_label": "Facts",
+      "confidence": 0.8516,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0237,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0009,
+        "Facts": 0.8516,
+        "Issue": 0.0477,
+        "Reasoning": 0.073
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "There is a specific admission by P.W.7 that the distance between Panther Nagar and the place where the dead body of Gullu was found is about 10 to 12 kilometers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0302,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.0002,
+        "Facts": 0.0616,
+        "Issue": 0.0001,
+        "Reasoning": 0.9005
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "His statement was recorded on 10th and yet the FIR was registered against unknown persons.",
+      "predicted_label": "Facts",
+      "confidence": 0.6325,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1307,
+        "Arguments of Respondent": 0.0342,
+        "Decision": 0.0008,
+        "Facts": 0.6325,
+        "Issue": 0.0009,
+        "Reasoning": 0.2008
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 101,
+      "text": "It is also admitted that Iqbal Gullu had friends on the way from Kannamvar Nagar to Swami Narayan Nagar.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0003,
+        "Facts": 0.3257,
+        "Issue": 0.0014,
+        "Reasoning": 0.6546
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 102,
+      "text": "He was in a habit of joining any friend whom he met on the way.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5535,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0005,
+        "Facts": 0.4122,
+        "Issue": 0.0005,
+        "Reasoning": 0.5535
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 103,
+      "text": "In answer to the Court question, it is stated that Gullu was seen in the company of Vyankatesh only 17.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1939,
+        "Arguments of Respondent": 0.1137,
+        "Decision": 0.0004,
+        "Facts": 0.1211,
+        "Issue": 0.0002,
+        "Reasoning": 0.5707
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 104,
+      "text": "Shyam Shinde  P.W.8 was a good friend of deceased and one Kunal Gaikwad (P.W.10).",
+      "predicted_label": "Facts",
+      "confidence": 0.9049,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0097,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0002,
+        "Facts": 0.9049,
+        "Issue": 0.0003,
+        "Reasoning": 0.0826
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "On 8th January 2012 at about 11.30 pm he had seen the deceased Gullu in the company of Kunal and Vyankatesh at Firoz Shah Nagar compound ground.",
+      "predicted_label": "Facts",
+      "confidence": 0.9233,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.0062,
+        "Decision": 0.0002,
+        "Facts": 0.9233,
+        "Issue": 0.0007,
+        "Reasoning": 0.054
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "They were all consuming alcohol at that time.",
+      "predicted_label": "Facts",
+      "confidence": 0.8811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0005,
+        "Facts": 0.8811,
+        "Issue": 0.0014,
+        "Reasoning": 0.1039
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "He spoke to P.W.10 and thereafter, he had even smoked a cigarette with the deceased.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4361,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1044,
+        "Arguments of Respondent": 0.0359,
+        "Decision": 0.0007,
+        "Facts": 0.4227,
+        "Issue": 0.0002,
+        "Reasoning": 0.4361
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 108,
+      "text": "On 9th January 2012, P.W.8 had been to Godrej ground for answering natures call and at that time, watchmen of the said ground had given cell phone of the deceased and informed him that the deceased had asked him to return it to the deceased.",
+      "predicted_label": "Facts",
+      "confidence": 0.9717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0106,
+        "Arguments of Respondent": 0.0046,
+        "Decision": 0.0001,
+        "Facts": 0.9717,
+        "Issue": 0.0006,
+        "Reasoning": 0.0124
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "Bharati Ruptakke  P.W.9 is a resident of Panther Nagar.",
+      "predicted_label": "Facts",
+      "confidence": 0.9693,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0024,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0002,
+        "Facts": 0.9693,
+        "Issue": 0.0054,
+        "Reasoning": 0.0216
+      }
+    },
+    {
+      "sentence_id": 110,
+      "text": "She also claims to have seen the deceased in the company of Vyankatesh at about 11.15 pm on 8th January 2012 when she had visited the public toilet along with her minor daughter.",
+      "predicted_label": "Facts",
+      "confidence": 0.9541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0011,
+        "Decision": 0.0002,
+        "Facts": 0.9541,
+        "Issue": 0.0002,
+        "Reasoning": 0.0378
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "It appears that all the witnesses were aware of the altercation between Shrinivas and deceased at the time of Ganesh festival.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4207,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1451,
+        "Arguments of Respondent": 0.1255,
+        "Decision": 0.0013,
+        "Facts": 0.3069,
+        "Issue": 0.0005,
+        "Reasoning": 0.4207
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 112,
+      "text": "On the next day, she had learnt about the death of Iqbal Gullu.",
+      "predicted_label": "Facts",
+      "confidence": 0.9476,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0093,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0003,
+        "Facts": 0.9476,
+        "Issue": 0.0013,
+        "Reasoning": 0.0384
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "It is conceded that the public toilet is situated at a distance of four minutes walk from her home.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5206,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1483,
+        "Arguments of Respondent": 0.119,
+        "Decision": 0.0151,
+        "Facts": 0.1962,
+        "Issue": 0.0008,
+        "Reasoning": 0.5206
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 114,
+      "text": "On 9th January 2012, she had not disclosed to the mother of the deceased that she had seen her son in the company of Vyankatesh but on 10th January 2012 she learnt that Gullu had told his mother about the same.",
+      "predicted_label": "Facts",
+      "confidence": 0.8858,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0192,
+        "Arguments of Respondent": 0.0066,
+        "Decision": 0.0002,
+        "Facts": 0.8858,
+        "Issue": 0.0005,
+        "Reasoning": 0.0878
+      }
+    },
+    {
+      "sentence_id": 115,
+      "text": "Thereafter, it was on 9 th January 2012 that he learnt about death of Gullu.",
+      "predicted_label": "Facts",
+      "confidence": 0.5335,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1016,
+        "Arguments of Respondent": 0.024,
+        "Decision": 0.0002,
+        "Facts": 0.5335,
+        "Issue": 0.0005,
+        "Reasoning": 0.3401
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 116,
+      "text": "Admission of P.W.10 that he does not recollect for how many days the Police had kept him in Police Station coupled with the admission that the Police provided meals on time when he was in their custody and the charges for his meals were being paid by Shyam Shinde who was also detained by the Police at that time would lead to an inference that Shyam and P.W.10 were detained by the Police in their custody without any warrant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8173,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1303,
+        "Arguments of Respondent": 0.0387,
+        "Decision": 0.0006,
+        "Facts": 0.0128,
+        "Issue": 0.0003,
+        "Reasoning": 0.8173
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "P.W.10 was not allowed to meet his family members when he was in Police custody, neither he was produced before the Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4342,
+      "probabilities": {
+        "Arguments of Petitioner": 0.251,
+        "Arguments of Respondent": 0.0259,
+        "Decision": 0.0006,
+        "Facts": 0.2877,
+        "Issue": 0.0006,
+        "Reasoning": 0.4342
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 118,
+      "text": "Besides P.W.10, Awara Sonu, Nadar and Shyam Shinde were also kept in police custody.",
+      "predicted_label": "Facts",
+      "confidence": 0.9734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0022,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0001,
+        "Facts": 0.9734,
+        "Issue": 0.0001,
+        "Reasoning": 0.0234
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "P.W.10 has candidly and positively admitted that Police were torturing them while in custody.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6144,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2356,
+        "Arguments of Respondent": 0.0786,
+        "Decision": 0.0083,
+        "Facts": 0.0621,
+        "Issue": 0.0009,
+        "Reasoning": 0.6144
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "They were kept in the lockup and the Police had never assigned any reason for detaining them in custody.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7298,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0944,
+        "Arguments of Respondent": 0.0789,
+        "Decision": 0.0006,
+        "Facts": 0.096,
+        "Issue": 0.0003,
+        "Reasoning": 0.7298
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "They were assaulted by flour mill belt and they were tortured separately twice a day.",
+      "predicted_label": "Facts",
+      "confidence": 0.9002,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0432,
+        "Arguments of Respondent": 0.0144,
+        "Decision": 0.0002,
+        "Facts": 0.9002,
+        "Issue": 0.0003,
+        "Reasoning": 0.0418
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "The detenue were not given any medical treatment nor taken for medical examination.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4703,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4703,
+        "Arguments of Respondent": 0.1466,
+        "Decision": 0.0068,
+        "Facts": 0.2467,
+        "Issue": 0.0019,
+        "Reasoning": 0.1276
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 123,
+      "text": "Dinkar Rane  P.W.11 was serving as watchman in Bakshi Securities Limited.",
+      "predicted_label": "Facts",
+      "confidence": 0.8186,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0501,
+        "Arguments of Respondent": 0.0181,
+        "Decision": 0.0002,
+        "Facts": 0.8186,
+        "Issue": 0.0049,
+        "Reasoning": 0.1082
+      }
+    },
+    {
+      "sentence_id": 124,
+      "text": "He was on duty on intervening night of 8th January 2012 and 9th January 2012 in Phirojshah Nagar, Godrej Compound, Vikhroli.",
+      "predicted_label": "Facts",
+      "confidence": 0.9366,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0002,
+        "Facts": 0.9366,
+        "Issue": 0.0444,
+        "Reasoning": 0.0121
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "He was discharged from deposing on the ground of his illness and thereafter, by a letter dated 12th August 2014, the prosecution had chosen to drop him as a witness for the reasons best known to the prosecution.",
+      "predicted_label": "Facts",
+      "confidence": 0.3885,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1655,
+        "Arguments of Respondent": 0.0979,
+        "Decision": 0.0004,
+        "Facts": 0.3885,
+        "Issue": 0.0008,
+        "Reasoning": 0.3469
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 126,
+      "text": "In fact, he would be the material witness for the prosecution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7789,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1097,
+        "Arguments of Respondent": 0.0475,
+        "Decision": 0.0028,
+        "Facts": 0.0603,
+        "Issue": 0.0009,
+        "Reasoning": 0.7789
+      }
+    },
+    {
+      "sentence_id": 127,
+      "text": "Jagannath  P.W.13 has also suffered the same trauma as that of P.W.10 Kunal Gaikwad and P.W.8  Shyam Shinde.",
+      "predicted_label": "Facts",
+      "confidence": 0.8771,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0258,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0012,
+        "Facts": 0.8771,
+        "Issue": 0.0011,
+        "Reasoning": 0.0935
+      }
+    },
+    {
+      "sentence_id": 128,
+      "text": "He is a resident of Panther Nagar.",
+      "predicted_label": "Facts",
+      "confidence": 0.8053,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0034,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0003,
+        "Facts": 0.8053,
+        "Issue": 0.1765,
+        "Reasoning": 0.0132
+      }
+    },
+    {
+      "sentence_id": 129,
+      "text": "On 16th January 2012 at about midnight the Police had taken him to Parksite Police Station, detained him in the Police Station till 6.00 am and he was subjected to the same treatment like that of P.W.10 only because the brother of accused Shrinivas viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.5968,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0998,
+        "Arguments of Respondent": 0.0191,
+        "Decision": 0.0002,
+        "Facts": 0.5968,
+        "Issue": 0.001,
+        "Reasoning": 0.2832
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "Rajesh was his friend.",
+      "predicted_label": "Facts",
+      "confidence": 0.8257,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0079,
+        "Arguments of Respondent": 0.0043,
+        "Decision": 0.0001,
+        "Facts": 0.8257,
+        "Issue": 0.0001,
+        "Reasoning": 0.1618
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "Accused Shrinivas Shenu was like an elder brother to P.W.13.",
+      "predicted_label": "Facts",
+      "confidence": 0.8242,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0473,
+        "Arguments of Respondent": 0.0229,
+        "Decision": 0.0003,
+        "Facts": 0.8242,
+        "Issue": 0.0003,
+        "Reasoning": 0.105
+      }
+    },
+    {
+      "sentence_id": 132,
+      "text": "The Police had taken his cell phone along with sim card and his signatures were obtained on a plain paper.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4375,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1654,
+        "Arguments of Respondent": 0.0986,
+        "Decision": 0.0022,
+        "Facts": 0.2946,
+        "Issue": 0.0017,
+        "Reasoning": 0.4375
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 133,
+      "text": "On 17th January 2012, he was freed from Police custody at about 4.00 pm and according to him, he had seen some more persons from the same locality in Police custody who were detained without being arrested.",
+      "predicted_label": "Facts",
+      "confidence": 0.9347,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0159,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0001,
+        "Facts": 0.9347,
+        "Issue": 0.0009,
+        "Reasoning": 0.0456
+      }
+    },
+    {
+      "sentence_id": 134,
+      "text": "He was declared hostile.",
+      "predicted_label": "Facts",
+      "confidence": 0.3994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1573,
+        "Arguments of Respondent": 0.2544,
+        "Decision": 0.0015,
+        "Facts": 0.3994,
+        "Issue": 0.0003,
+        "Reasoning": 0.1872
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 135,
+      "text": "Even if the witness is declared hostile by prosecution, it does not efface his evidence from the record altogether.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9145,
+      "probabilities": {
+        "Arguments of Petitioner": 0.028,
+        "Arguments of Respondent": 0.0409,
+        "Decision": 0.0007,
+        "Facts": 0.0159,
+        "Issue": 0.0001,
+        "Reasoning": 0.9145
+      }
+    },
+    {
+      "sentence_id": 136,
+      "text": "That much of the evidence of hostile witness can be relied upon by the prosecution, if that part of the statement is in conformity with other evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4362,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3202,
+        "Arguments of Respondent": 0.1934,
+        "Decision": 0.0017,
+        "Facts": 0.0476,
+        "Issue": 0.0009,
+        "Reasoning": 0.4362
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 137,
+      "text": "The accused can also rely upon that part of evidence which supports him.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9396,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0234,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0012,
+        "Facts": 0.0154,
+        "Issue": 0.0005,
+        "Reasoning": 0.9396
+      }
+    },
+    {
+      "sentence_id": 138,
+      "text": "Vikram S. Pawar  P.W.14 is a panch for the recovery of rope at the instance of accused Shrinivas.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5025,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1063,
+        "Arguments of Respondent": 0.1001,
+        "Decision": 0.0005,
+        "Facts": 0.2889,
+        "Issue": 0.0017,
+        "Reasoning": 0.5025
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 139,
+      "text": "According to him, the accused had led the Police to a hardware shop from where he had purchased the rope.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4933,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0452,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0002,
+        "Facts": 0.4367,
+        "Issue": 0.0003,
+        "Reasoning": 0.4933
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 140,
+      "text": "The accused was identified by the shopkeeper.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0437,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0004,
+        "Facts": 0.3472,
+        "Issue": 0.0006,
+        "Reasoning": 0.5838
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 141,
+      "text": "The memorandum is at Exh.71.",
+      "predicted_label": "Facts",
+      "confidence": 0.5416,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0355,
+        "Arguments of Respondent": 0.0458,
+        "Decision": 0.0012,
+        "Facts": 0.5416,
+        "Issue": 0.0005,
+        "Reasoning": 0.3754
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 142,
+      "text": "The said recovery panchanama is at Exh.72.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4692,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0863,
+        "Arguments of Respondent": 0.1608,
+        "Decision": 0.0017,
+        "Facts": 0.2816,
+        "Issue": 0.0005,
+        "Reasoning": 0.4692
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 143,
+      "text": "In fact, two ropes of same colour and size were produced in the present case.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8123,
+      "probabilities": {
+        "Arguments of Petitioner": 0.032,
+        "Arguments of Respondent": 0.0328,
+        "Decision": 0.0009,
+        "Facts": 0.1218,
+        "Issue": 0.0002,
+        "Reasoning": 0.8123
+      }
+    },
+    {
+      "sentence_id": 144,
+      "text": "The witness had identified one of them to be the rope which was taken from the hardware shop.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0795,
+        "Arguments of Respondent": 0.0199,
+        "Decision": 0.0004,
+        "Facts": 0.2101,
+        "Issue": 0.0004,
+        "Reasoning": 0.6897
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 145,
+      "text": "P.W.16 Satish Pawar is a panch to the recovery of a cell phone.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7792,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1098,
+        "Arguments of Respondent": 0.0863,
+        "Decision": 0.0005,
+        "Facts": 0.0239,
+        "Issue": 0.0003,
+        "Reasoning": 0.7792
+      }
+    },
+    {
+      "sentence_id": 146,
+      "text": "The said cell phone was recovered from the house of accused Shrinivas Swami on 20th January 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.6552,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0323,
+        "Arguments of Respondent": 0.0522,
+        "Decision": 0.0005,
+        "Facts": 0.6552,
+        "Issue": 0.0106,
+        "Reasoning": 0.2491
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 147,
+      "text": "It is conceded in the cross examination that the camera of the cell phone was broken and the Police had not opened the mobile phone for verifying sim card, memory card and battery.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1209,
+        "Arguments of Respondent": 0.0927,
+        "Decision": 0.0006,
+        "Facts": 0.1634,
+        "Issue": 0.0003,
+        "Reasoning": 0.622
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 148,
+      "text": "The digits of IMEI number is missing from the memorandum as well as recovery panchanama.",
+      "predicted_label": "Facts",
+      "confidence": 0.6434,
+      "probabilities": {
+        "Arguments of Petitioner": 0.132,
+        "Arguments of Respondent": 0.1018,
+        "Decision": 0.0012,
+        "Facts": 0.6434,
+        "Issue": 0.0016,
+        "Reasoning": 0.12
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 149,
+      "text": "Witness has admitted that the house of accused Shrinivas and deceased Gullu are facing each other.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5484,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1059,
+        "Arguments of Respondent": 0.12,
+        "Decision": 0.0004,
+        "Facts": 0.2249,
+        "Issue": 0.0004,
+        "Reasoning": 0.5484
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 150,
+      "text": "P.W.17 Mohd.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1659,
+        "Arguments of Respondent": 0.0516,
+        "Decision": 0.0007,
+        "Facts": 0.3271,
+        "Issue": 0.0006,
+        "Reasoning": 0.4541
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 151,
+      "text": "Siddiqui is a Carpenter.",
+      "predicted_label": "Facts",
+      "confidence": 0.8462,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0003,
+        "Facts": 0.8462,
+        "Issue": 0.004,
+        "Reasoning": 0.1421
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "At the instance of accused no.1 Shrinivas the Police had drawn the scene of offence panchanama.",
+      "predicted_label": "Facts",
+      "confidence": 0.6447,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0794,
+        "Arguments of Respondent": 0.0149,
+        "Decision": 0.0005,
+        "Facts": 0.6447,
+        "Issue": 0.0023,
+        "Reasoning": 0.2582
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 153,
+      "text": "The memorandum is at Exh.87.",
+      "predicted_label": "Facts",
+      "confidence": 0.5052,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0351,
+        "Arguments of Respondent": 0.0401,
+        "Decision": 0.001,
+        "Facts": 0.5052,
+        "Issue": 0.0005,
+        "Reasoning": 0.4181
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 154,
+      "text": "The accused had led them to Chandan Wadi Compound more particularly to the hill and had produced a piece of rope lying at that place.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5105,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0307,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.0002,
+        "Facts": 0.4403,
+        "Issue": 0.0004,
+        "Reasoning": 0.5105
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 155,
+      "text": "There was a compound wall of about 8 to 10 feet.",
+      "predicted_label": "Facts",
+      "confidence": 0.9091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0054,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0001,
+        "Facts": 0.9091,
+        "Issue": 0.0002,
+        "Reasoning": 0.0778
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "There was no watchman at the scene of offence.",
+      "predicted_label": "Facts",
+      "confidence": 0.6385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1028,
+        "Arguments of Respondent": 0.0615,
+        "Decision": 0.0047,
+        "Facts": 0.6385,
+        "Issue": 0.0012,
+        "Reasoning": 0.1914
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 157,
+      "text": "There was garbage including the waste material of stones, wood, paper and other scrap material and the distance between both the places shown by the accused is about 10 feet.",
+      "predicted_label": "Facts",
+      "confidence": 0.5103,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0339,
+        "Arguments of Respondent": 0.0406,
+        "Decision": 0.0005,
+        "Facts": 0.5103,
+        "Issue": 0.0002,
+        "Reasoning": 0.4144
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 158,
+      "text": "The scene of offence was in fact known to the Police as Mobile Van had picked up the dead body from that site and according to P.W.1, he had also drawn scene of offence panchanama on 9th January 2012 which is missing from the records.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4492,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4492,
+        "Arguments of Respondent": 0.1447,
+        "Decision": 0.0007,
+        "Facts": 0.0698,
+        "Issue": 0.0003,
+        "Reasoning": 0.3354
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 159,
+      "text": "In fact, the scene of offence was known prior to 16th January 2012, the day on which the accused Shrinivas was arrested.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5389,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2756,
+        "Arguments of Respondent": 0.1455,
+        "Decision": 0.0006,
+        "Facts": 0.0388,
+        "Issue": 0.0006,
+        "Reasoning": 0.5389
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 160,
+      "text": "P.W.18 Dr. Narendra Shinde had performed autopsy on the dead body of Iqbal Gullu.",
+      "predicted_label": "Facts",
+      "confidence": 0.9765,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9765,
+        "Issue": 0.0011,
+        "Reasoning": 0.0171
+      }
+    },
+    {
+      "sentence_id": 161,
+      "text": "He had noticed 18 artificial wounds.",
+      "predicted_label": "Facts",
+      "confidence": 0.5896,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0005,
+        "Facts": 0.5896,
+        "Issue": 0.0003,
+        "Reasoning": 0.3949
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 162,
+      "text": "After postmortem the Dr. had arrived at a conclusion that the cause of death was Asphyxia due to strangulation and multiple injuries with right lung Haematoma.",
+      "predicted_label": "Facts",
+      "confidence": 0.7058,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0411,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0013,
+        "Facts": 0.7058,
+        "Issue": 0.0005,
+        "Reasoning": 0.233
+      }
+    },
+    {
+      "sentence_id": 163,
+      "text": "The postmortem notes are at Exh.92.",
+      "predicted_label": "Facts",
+      "confidence": 0.6187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0227,
+        "Arguments of Respondent": 0.0465,
+        "Decision": 0.0004,
+        "Facts": 0.6187,
+        "Issue": 0.0005,
+        "Reasoning": 0.3112
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 164,
+      "text": "Injury No.17 in Column No.17 was found to be fatal injuries.",
+      "predicted_label": "Facts",
+      "confidence": 0.9092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0016,
+        "Decision": 0.0005,
+        "Facts": 0.9092,
+        "Issue": 0.0044,
+        "Reasoning": 0.0802
+      }
+    },
+    {
+      "sentence_id": 165,
+      "text": "There were no traces of alcohol in the column showing contents of the stomach.",
+      "predicted_label": "Facts",
+      "confidence": 0.5717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0925,
+        "Arguments of Respondent": 0.0461,
+        "Decision": 0.007,
+        "Facts": 0.5717,
+        "Issue": 0.0007,
+        "Reasoning": 0.282
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 166,
+      "text": "It is pertinent to note that initially autopsy was performed on the dead body of unknown person.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4931,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0525,
+        "Decision": 0.001,
+        "Facts": 0.422,
+        "Issue": 0.0017,
+        "Reasoning": 0.4931
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 167,
+      "text": "The name of the deceased was then written in the memorandum of postmortem examination after identity was established and in this backdrop P.W.18 has conceded that making material alteration in carbon copy of a document is serious and illegal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5394,
+      "probabilities": {
+        "Arguments of Petitioner": 0.201,
+        "Arguments of Respondent": 0.2079,
+        "Decision": 0.0003,
+        "Facts": 0.0513,
+        "Issue": 0.0002,
+        "Reasoning": 0.5394
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 168,
+      "text": "On 11th January 2012, the Police had informed P.W.18 about the name of the deceased.",
+      "predicted_label": "Facts",
+      "confidence": 0.8509,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0476,
+        "Arguments of Respondent": 0.0121,
+        "Decision": 0.0004,
+        "Facts": 0.8509,
+        "Issue": 0.0007,
+        "Reasoning": 0.0884
+      }
+    },
+    {
+      "sentence_id": 169,
+      "text": "However, according to P.W.18 he had not committed any illegality.",
+      "predicted_label": "Facts",
+      "confidence": 0.5402,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0372,
+        "Arguments of Respondent": 0.0103,
+        "Decision": 0.0002,
+        "Facts": 0.5402,
+        "Issue": 0.0001,
+        "Reasoning": 0.412
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 170,
+      "text": "On 9th January 2012 he had not given any opinion even about the probable cause of death.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4983,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1651,
+        "Arguments of Respondent": 0.0491,
+        "Decision": 0.0024,
+        "Facts": 0.2838,
+        "Issue": 0.0012,
+        "Reasoning": 0.4983
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 171,
+      "text": "P.W.19 Vitthal Kadam is the panch for the disclosure statement of the site where Vyankatesh had consumed liquor along with the deceased.",
+      "predicted_label": "Facts",
+      "confidence": 0.4546,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1864,
+        "Arguments of Respondent": 0.0559,
+        "Decision": 0.0005,
+        "Facts": 0.4546,
+        "Issue": 0.0002,
+        "Reasoning": 0.3024
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 172,
+      "text": "The said spot was behind quarter Nos.27 and 28 of the Godrej Compound.",
+      "predicted_label": "Facts",
+      "confidence": 0.8907,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0236,
+        "Arguments of Respondent": 0.0361,
+        "Decision": 0.0001,
+        "Facts": 0.8907,
+        "Issue": 0.0001,
+        "Reasoning": 0.0493
+      }
+    },
+    {
+      "sentence_id": 173,
+      "text": "He had also shown the place where Gullu was murdered.",
+      "predicted_label": "Facts",
+      "confidence": 0.5225,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0378,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0002,
+        "Facts": 0.5225,
+        "Issue": 0.0003,
+        "Reasoning": 0.4331
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 174,
+      "text": "The memorandum and the panchanama are marked as Exhs.96, 97, 98 and 99.",
+      "predicted_label": "Facts",
+      "confidence": 0.4872,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0385,
+        "Arguments of Respondent": 0.057,
+        "Decision": 0.0006,
+        "Facts": 0.4872,
+        "Issue": 0.0007,
+        "Reasoning": 0.416
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 175,
+      "text": "There is also recovery of a cell phone at the instance of accused Vyankatesh from his house.",
+      "predicted_label": "Facts",
+      "confidence": 0.5608,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0516,
+        "Arguments of Respondent": 0.0549,
+        "Decision": 0.0017,
+        "Facts": 0.5608,
+        "Issue": 0.0012,
+        "Reasoning": 0.3298
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 176,
+      "text": "According to the prosecution, he had concealed the same in his house on a wooden plank embeded in the wall of that house.",
+      "predicted_label": "Facts",
+      "confidence": 0.727,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.0173,
+        "Decision": 0.0002,
+        "Facts": 0.727,
+        "Issue": 0.0009,
+        "Reasoning": 0.2332
+      }
+    },
+    {
+      "sentence_id": 177,
+      "text": "The said cell phone was seized.",
+      "predicted_label": "Facts",
+      "confidence": 0.5847,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0289,
+        "Arguments of Respondent": 0.0314,
+        "Decision": 0.0018,
+        "Facts": 0.5847,
+        "Issue": 0.0049,
+        "Reasoning": 0.3484
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 178,
+      "text": "Kaniram Pawar P.W.21 was attached to Parksite Police Station in the year 2012.",
+      "predicted_label": "Facts",
+      "confidence": 0.8356,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0181,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0003,
+        "Facts": 0.8356,
+        "Issue": 0.0017,
+        "Reasoning": 0.1392
+      }
+    },
+    {
+      "sentence_id": 179,
+      "text": "He had investigated Crime No.18 of 2012 partly.",
+      "predicted_label": "Facts",
+      "confidence": 0.8781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0004,
+        "Facts": 0.8781,
+        "Issue": 0.0016,
+        "Reasoning": 0.0961
+      }
+    },
+    {
+      "sentence_id": 180,
+      "text": "P.W.21 had arrested accused Vyankatesh and Suresh Gupta under the panchanama at Exh.106.",
+      "predicted_label": "Facts",
+      "confidence": 0.4379,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1085,
+        "Arguments of Respondent": 0.0517,
+        "Decision": 0.0002,
+        "Facts": 0.4379,
+        "Issue": 0.0002,
+        "Reasoning": 0.4015
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 181,
+      "text": "According to P.W.21, in the course of investigation Vyankatesh had admitted to have committed the murder of Gullu and had cooperated with the investigation by showing places where the murder was committed, where liquor was consumed and had also produced the cell phone which was used by him for contacting the other accused before commission of murder of Gullu.",
+      "predicted_label": "Facts",
+      "confidence": 0.8611,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0051,
+        "Arguments of Respondent": 0.0021,
+        "Decision": 0.0001,
+        "Facts": 0.8611,
+        "Issue": 0.0002,
+        "Reasoning": 0.1314
+      }
+    },
+    {
+      "sentence_id": 182,
+      "text": "He has then narrated the steps taken by him in the course of investigation.",
+      "predicted_label": "Facts",
+      "confidence": 0.8278,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0003,
+        "Facts": 0.8278,
+        "Issue": 0.0003,
+        "Reasoning": 0.1574
+      }
+    },
+    {
+      "sentence_id": 183,
+      "text": "On 16th January 2012 he had arrested accused Shrinivas and the arrest panchanama is marked at Exh.111.",
+      "predicted_label": "Facts",
+      "confidence": 0.8665,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0139,
+        "Arguments of Respondent": 0.0076,
+        "Decision": 0.0005,
+        "Facts": 0.8665,
+        "Issue": 0.001,
+        "Reasoning": 0.1105
+      }
+    },
+    {
+      "sentence_id": 184,
+      "text": "There was recovery of articles at the instance of Shrinivas under section 27 of the Indian Evidence Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.3581,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2294,
+        "Arguments of Respondent": 0.0865,
+        "Decision": 0.0012,
+        "Facts": 0.3581,
+        "Issue": 0.0005,
+        "Reasoning": 0.3243
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 185,
+      "text": "Charge sheet was filed by P.W.21.",
+      "predicted_label": "Facts",
+      "confidence": 0.8934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.0065,
+        "Decision": 0.0003,
+        "Facts": 0.8934,
+        "Issue": 0.0004,
+        "Reasoning": 0.0925
+      }
+    },
+    {
+      "sentence_id": 186,
+      "text": "It is admitted that P.W.21 had taken up investigation only on 11th January 2012 and before that the preliminary investigation was carried out by PSI Mr. Joshi P.W.1 but the same was supervised by P.W.21.",
+      "predicted_label": "Facts",
+      "confidence": 0.3887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1446,
+        "Arguments of Respondent": 0.1742,
+        "Decision": 0.0005,
+        "Facts": 0.3887,
+        "Issue": 0.0005,
+        "Reasoning": 0.2915
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 187,
+      "text": "Initially ADR was registered.",
+      "predicted_label": "Facts",
+      "confidence": 0.8593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0146,
+        "Decision": 0.0002,
+        "Facts": 0.8593,
+        "Issue": 0.0034,
+        "Reasoning": 0.1162
+      }
+    },
+    {
+      "sentence_id": 188,
+      "text": "Witness had volunteered that there is no illegality in inquiry in ADR case by the Police Officer who is an informant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1734,
+        "Arguments of Respondent": 0.2383,
+        "Decision": 0.0005,
+        "Facts": 0.1324,
+        "Issue": 0.0002,
+        "Reasoning": 0.4553
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 189,
+      "text": "It is admitted that the postmortem notes and certificate of cause of death were obtained by P.W.21 in the inquiry of A.D.R. The postmortem notes did not indicate any opinion of medical officer indicating the cause of death of Gullu.",
+      "predicted_label": "Facts",
+      "confidence": 0.5589,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0196,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0004,
+        "Facts": 0.5589,
+        "Issue": 0.0003,
+        "Reasoning": 0.4092
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 190,
+      "text": "The said cause of death certificate is at Exh.129.",
+      "predicted_label": "Facts",
+      "confidence": 0.5265,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0344,
+        "Arguments of Respondent": 0.047,
+        "Decision": 0.0017,
+        "Facts": 0.5265,
+        "Issue": 0.0014,
+        "Reasoning": 0.389
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 191,
+      "text": "That on 10th January 2012 the identity of the deceased was established and during the A.D. inquiry, it could not be ascertained as to whether death was homicidal, suicidal, etc.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7387,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7387,
+        "Arguments of Respondent": 0.1063,
+        "Decision": 0.0017,
+        "Facts": 0.1107,
+        "Issue": 0.0005,
+        "Reasoning": 0.0421
+      }
+    },
+    {
+      "sentence_id": 192,
+      "text": "It is conceded that although the family members of the deceased were present at the time of registration of FIR he did not feel it necessary to make any of the family members as first informant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3007,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2604,
+        "Arguments of Respondent": 0.2475,
+        "Decision": 0.0003,
+        "Facts": 0.1899,
+        "Issue": 0.0011,
+        "Reasoning": 0.3007
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 193,
+      "text": "In any case, FIR was registered against unknown persons.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4965,
+        "Arguments of Respondent": 0.2212,
+        "Decision": 0.0013,
+        "Facts": 0.1798,
+        "Issue": 0.0005,
+        "Reasoning": 0.1006
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 194,
+      "text": "It is the contention of P.W.21 that he had met Hasina mother of the deceased on 12th 13th as the statement was recorded by PSI Joshi.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3348,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3348,
+        "Arguments of Respondent": 0.1115,
+        "Decision": 0.0006,
+        "Facts": 0.2312,
+        "Issue": 0.0003,
+        "Reasoning": 0.3216
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 195,
+      "text": "The witness has denied to have obtained the signatures of Suraj Deshmukh P.W.15 on blank papers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2047,
+        "Arguments of Respondent": 0.0566,
+        "Decision": 0.0004,
+        "Facts": 0.0725,
+        "Issue": 0.0001,
+        "Reasoning": 0.6657
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 196,
+      "text": "The admissions of P.W.21 are as follows  (i) Many criminal cases were pending against deceased Gullu (ii) P.W.1 PSI, Joshi had prepared the scene of offence panchanama but the same was not handed over to P.W.21 after taking over the investigation and therefore, he had expressed his inability to state the date on which the panchanama was prepared or was misplaced (iii) He had not made any inquiry in respect of the scene of offence panchanama which was misplaced in the Police Station.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4349,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2158,
+        "Arguments of Respondent": 0.1419,
+        "Decision": 0.0003,
+        "Facts": 0.2068,
+        "Issue": 0.0003,
+        "Reasoning": 0.4349
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 197,
+      "text": "The case diary also does not indicate that the panchanama was missing and that he had not intimated the same either to the Magistrate, the Sessions Court or Public Prosecutor.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0792,
+        "Arguments of Respondent": 0.0805,
+        "Decision": 0.0028,
+        "Facts": 0.0621,
+        "Issue": 0.0002,
+        "Reasoning": 0.7752
+      }
+    },
+    {
+      "sentence_id": 198,
+      "text": "He did not find it necessary to record the statement of nodal officers in respect of CDRs under section 65B of the Evidence Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.6112,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0232,
+        "Arguments of Respondent": 0.0057,
+        "Decision": 0.0006,
+        "Facts": 0.6112,
+        "Issue": 0.0051,
+        "Reasoning": 0.3541
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 199,
+      "text": "He has denied to have detained any of the witnesses without arrest (vii)That the IMEI number of the cell phone produced by accused Vyankatesh is 356255011952421 whereas IMEI number of mobile phone mentioned in the memorandum and seizure panchanama is 355212030346987 and it is agreed that both the numbers are at variance.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3008,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3008,
+        "Arguments of Respondent": 0.2987,
+        "Decision": 0.0001,
+        "Facts": 0.2441,
+        "Issue": 0.0005,
+        "Reasoning": 0.1558
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 200,
+      "text": "The evaluation of evidence would show that on 11th January 2012, the statement of P.W.4 Hasina Shaikh was recorded between 10.30 am to 11.30 am and the FIR was lodged by P.W.1 Joshi at 8.35 pm, wherein he has taken upon himself the onus of being the first informant when more than 3 family members were available.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4649,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2161,
+        "Arguments of Respondent": 0.2905,
+        "Decision": 0.0017,
+        "Facts": 0.0264,
+        "Issue": 0.0003,
+        "Reasoning": 0.4649
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 201,
+      "text": "In fact, P.W.1 had inquired into A.D. No.5 of 2012.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3749,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2031,
+        "Arguments of Respondent": 0.125,
+        "Decision": 0.0021,
+        "Facts": 0.2945,
+        "Issue": 0.0004,
+        "Reasoning": 0.3749
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 202,
+      "text": "It is not known as to when P.W.4 had raised suspicion against the present appellants.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5475,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2458,
+        "Arguments of Respondent": 0.0801,
+        "Decision": 0.0035,
+        "Facts": 0.1191,
+        "Issue": 0.0041,
+        "Reasoning": 0.5475
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 203,
+      "text": "Moreover, she had suspected Shiva, Phulchand and Tevar besides Shrinivas as probable assailants of her son.",
+      "predicted_label": "Facts",
+      "confidence": 0.5392,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1709,
+        "Arguments of Respondent": 0.0753,
+        "Decision": 0.0006,
+        "Facts": 0.5392,
+        "Issue": 0.0003,
+        "Reasoning": 0.2137
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 204,
+      "text": "She had not even suspected Vyankatesh at that stage.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3547,
+        "Arguments of Respondent": 0.3013,
+        "Decision": 0.0017,
+        "Facts": 0.0567,
+        "Issue": 0.0002,
+        "Reasoning": 0.2854
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 205,
+      "text": "P.W.8 Shyam Shinde also claims to have seen Iqbal in the company of Kunal and Vyankatesh at Firoz Shah Nagar Compound at 11.30 pm.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5734,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1921,
+        "Arguments of Respondent": 0.0544,
+        "Decision": 0.0004,
+        "Facts": 0.1794,
+        "Issue": 0.0003,
+        "Reasoning": 0.5734
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 206,
+      "text": "The watchman of Godrej ground had given the cell phone of deceased to P.W.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.5571,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1876,
+        "Arguments of Respondent": 0.0664,
+        "Decision": 0.0003,
+        "Facts": 0.5571,
+        "Issue": 0.0002,
+        "Reasoning": 0.1883
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 207,
+      "text": "The watchman i.e. Mr. Rane was dropped by the prosecution.",
+      "predicted_label": "Facts",
+      "confidence": 0.6247,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1321,
+        "Arguments of Respondent": 0.0299,
+        "Decision": 0.0042,
+        "Facts": 0.6247,
+        "Issue": 0.0068,
+        "Reasoning": 0.2023
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 208,
+      "text": "In fact, Mr. Rane would have been able to clarify as to who accompanied Iqbal after he had handed over the cell phone to him.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.57,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2293,
+        "Arguments of Respondent": 0.1906,
+        "Decision": 0.0003,
+        "Facts": 0.0095,
+        "Issue": 0.0003,
+        "Reasoning": 0.57
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 209,
+      "text": "The cell phone was handed over to the maternal uncle of the deceased on the very next day and it is surprising that the family members who were searching for Iqbal had not inquired with Mr. Rane.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1205,
+        "Arguments of Respondent": 0.7684,
+        "Decision": 0.0014,
+        "Facts": 0.0092,
+        "Issue": 0.0007,
+        "Reasoning": 0.0997
+      }
+    },
+    {
+      "sentence_id": 210,
+      "text": "Handing over of the cell phone by the deceased to Mr. Rane is clothed with suspicion.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3994,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2229,
+        "Arguments of Respondent": 0.3355,
+        "Decision": 0.0015,
+        "Facts": 0.0404,
+        "Issue": 0.0003,
+        "Reasoning": 0.3994
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 211,
+      "text": "This is a case of circumstantial evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8419,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0598,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0005,
+        "Facts": 0.0731,
+        "Issue": 0.0004,
+        "Reasoning": 0.8419
+      }
+    },
+    {
+      "sentence_id": 212,
+      "text": "The learned Sessions Judge has convicted the accused mainly on the basis of the evidence of last seen together and has relied upon the substantive evidence of P.W.10 Kunal Gaikwad.",
+      "predicted_label": "Facts",
+      "confidence": 0.6478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0158,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0004,
+        "Facts": 0.6478,
+        "Issue": 0.0029,
+        "Reasoning": 0.3264
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 213,
+      "text": "The learned Sessions Judge has fallen in error to hold that the accused have not brought on record nor explained when they departed from the company of deceased Iqbal and thereafter, who was in the company of deceased Iqbal Gullu.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6587,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2589,
+        "Arguments of Respondent": 0.015,
+        "Decision": 0.0008,
+        "Facts": 0.0663,
+        "Issue": 0.0004,
+        "Reasoning": 0.6587
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 214,
+      "text": "It is a settled position of law that it is incumbent upon the prosecution to prove its own cause beyond reasonable doubt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9048,
+      "probabilities": {
+        "Arguments of Petitioner": 0.048,
+        "Arguments of Respondent": 0.0195,
+        "Decision": 0.0009,
+        "Facts": 0.0221,
+        "Issue": 0.0047,
+        "Reasoning": 0.9048
+      }
+    },
+    {
+      "sentence_id": 215,
+      "text": "Ordinarily, if the prosecution would succeed in establishing the theory that the accused and the deceased were last seen in the company of each other the failure of the accused to satisfactorily account for the disappearance of the deceased would be an incriminating circumstance but it cannot be a conclusive proof unless there is evidence on record to show that during the intervening time i.e. the time between last seen and the time when dead body is found the deceased had no occasion to meet anyone else.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9044,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0585,
+        "Arguments of Respondent": 0.0218,
+        "Decision": 0.0003,
+        "Facts": 0.0141,
+        "Issue": 0.0009,
+        "Reasoning": 0.9044
+      }
+    },
+    {
+      "sentence_id": 216,
+      "text": "In fact, according to P.W.7, the deceased knew certain people on the way from Kannamvar Nagar to Swaminarayan Nagar.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7429,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0741,
+        "Arguments of Respondent": 0.0323,
+        "Decision": 0.0004,
+        "Facts": 0.1501,
+        "Issue": 0.0001,
+        "Reasoning": 0.7429
+      }
+    },
+    {
+      "sentence_id": 217,
+      "text": "According to P.W.10, deceased had continued to be in his company whereas, Vyankatesh had parted their company at Panther Nagar ground itself.",
+      "predicted_label": "Facts",
+      "confidence": 0.4816,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0305,
+        "Arguments of Respondent": 0.0115,
+        "Decision": 0.0002,
+        "Facts": 0.4816,
+        "Issue": 0.0001,
+        "Reasoning": 0.4762
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 218,
+      "text": "There is also evidence that the deceased was on inimical terms with several people.",
+      "predicted_label": "Facts",
+      "confidence": 0.4995,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0444,
+        "Arguments of Respondent": 0.0508,
+        "Decision": 0.0027,
+        "Facts": 0.4995,
+        "Issue": 0.0013,
+        "Reasoning": 0.4013
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 219,
+      "text": "The distance between the place where the accused and deceased were last seen is about 1012 kilometers from the place where the dead body was found.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.082,
+        "Arguments of Respondent": 0.0625,
+        "Decision": 0.0005,
+        "Facts": 0.3684,
+        "Issue": 0.0008,
+        "Reasoning": 0.4857
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 220,
+      "text": "It is a settled position of law that it is incumbent upon the prosecution to prove its case beyond reasonable doubt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8656,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0637,
+        "Arguments of Respondent": 0.0277,
+        "Decision": 0.0016,
+        "Facts": 0.0364,
+        "Issue": 0.0051,
+        "Reasoning": 0.8656
+      }
+    },
+    {
+      "sentence_id": 221,
+      "text": "Only if the prosecution had discharged this onus of proving that the accused were last seen in the company of the deceased, the onus would shift upon them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8754,
+      "probabilities": {
+        "Arguments of Petitioner": 0.061,
+        "Arguments of Respondent": 0.0384,
+        "Decision": 0.0005,
+        "Facts": 0.0241,
+        "Issue": 0.0007,
+        "Reasoning": 0.8754
+      }
+    },
+    {
+      "sentence_id": 222,
+      "text": "In the case of Mohibir Rahman And Anr vs. State o f Assam reported in AIR 2002 SC 3064 , the Apex court has held as under  The circumstance of last seen together does not by itself and necessarily lead to the inference that it was the accused who committed the crime.",
+      "predicted_label": "Facts",
+      "confidence": 0.952,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0067,
+        "Arguments of Respondent": 0.0067,
+        "Decision": 0.0002,
+        "Facts": 0.952,
+        "Issue": 0.0019,
+        "Reasoning": 0.0326
+      }
+    },
+    {
+      "sentence_id": 223,
+      "text": "There must be something more establishing connectivity between the accused and the crime.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1446,
+        "Arguments of Respondent": 0.1788,
+        "Decision": 0.0029,
+        "Facts": 0.026,
+        "Issue": 0.0013,
+        "Reasoning": 0.6464
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 224,
+      "text": "There may be cases where on account of close proximity of place and time between the event of the accused having been last seen with the deceased and the factum of death a rational mind may be persuaded to reach an irresistible conclusion that either the accused should explain how and in what circumstances the victim suffered the death or should own the liability for the culpable homicide.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0235,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0017,
+        "Facts": 0.005,
+        "Issue": 0.0059,
+        "Reasoning": 0.9566
+      }
+    },
+    {
+      "sentence_id": 225,
+      "text": "In the present case there is no such proximity of time and place.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9132,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0384,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0005,
+        "Facts": 0.0141,
+        "Issue": 0.0001,
+        "Reasoning": 0.9132
+      }
+    },
+    {
+      "sentence_id": 226,
+      "text": "As already noted the dead body has been recovered about 14 days after the date on which the deceased was last seen in the company of accused.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0633,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.002,
+        "Facts": 0.1362,
+        "Issue": 0.0013,
+        "Reasoning": 0.7795
+      }
+    },
+    {
+      "sentence_id": 227,
+      "text": "The distance between the two places is about 3040 Kms.",
+      "predicted_label": "Facts",
+      "confidence": 0.7865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0183,
+        "Arguments of Respondent": 0.0223,
+        "Decision": 0.0003,
+        "Facts": 0.7865,
+        "Issue": 0.0007,
+        "Reasoning": 0.172
+      }
+    },
+    {
+      "sentence_id": 228,
+      "text": "The event of two accused persons having departed with the deceased and thus last seen together (by Lilima Rajbongshi, PW6) does not bear such close proximity with the death of victim by reference to time or place.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8378,
+      "probabilities": {
+        "Arguments of Petitioner": 0.064,
+        "Arguments of Respondent": 0.0456,
+        "Decision": 0.002,
+        "Facts": 0.0505,
+        "Issue": 0.0002,
+        "Reasoning": 0.8378
+      }
+    },
+    {
+      "sentence_id": 229,
+      "text": "None of the witnesses had named the present appellants as suspects from 10.00 pm of 9th January 2012 to 8.30 pm of 11th January 2012 despite their claim to have seen the deceased in the company of accused on 8th January 2012 as late as 11.30 pm.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7367,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7367,
+        "Arguments of Respondent": 0.0546,
+        "Decision": 0.0002,
+        "Facts": 0.0382,
+        "Issue": 0.0003,
+        "Reasoning": 0.1699
+      }
+    },
+    {
+      "sentence_id": 230,
+      "text": "The brother of the deceased P.W.3 also has not suspected the accused and therefore, FIR was lodged against unknown persons by P.W.1.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.417,
+      "probabilities": {
+        "Arguments of Petitioner": 0.417,
+        "Arguments of Respondent": 0.1237,
+        "Decision": 0.0006,
+        "Facts": 0.377,
+        "Issue": 0.0007,
+        "Reasoning": 0.081
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 231,
+      "text": "The learned counsel for the appellants has vehemently argued that there is no iota of evidence to connect the appellants with the homicidal death of deceased Iqbal.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8682,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0007,
+        "Facts": 0.0046,
+        "Issue": 0.0006,
+        "Reasoning": 0.1219
+      }
+    },
+    {
+      "sentence_id": 232,
+      "text": "It is argued that a quarrel had taken place between the accused Shrinivas and deceased sometime in September October and the incident is of January.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5431,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5431,
+        "Arguments of Respondent": 0.3378,
+        "Decision": 0.0003,
+        "Facts": 0.0208,
+        "Issue": 0.0003,
+        "Reasoning": 0.0977
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 233,
+      "text": "The date of death is not proximate to the date of previous quarrel and moreover, no untoward incident had occurred in three months prior to the incident.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5753,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5753,
+        "Arguments of Respondent": 0.1694,
+        "Decision": 0.0194,
+        "Facts": 0.093,
+        "Issue": 0.0013,
+        "Reasoning": 0.1416
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 234,
+      "text": "It is also argued that there is no evidence against Vyankatesh except that the witnesses have stated that the deceased had met Vyankatesh on the ground at Panther Nagar and had departed at Panther Nagar itself.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8684,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8684,
+        "Arguments of Respondent": 0.0987,
+        "Decision": 0.0001,
+        "Facts": 0.0052,
+        "Issue": 0.0001,
+        "Reasoning": 0.0276
+      }
+    },
+    {
+      "sentence_id": 235,
+      "text": "It is also urged that all witnesses are interested witnesses.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3974,
+        "Arguments of Respondent": 0.4849,
+        "Decision": 0.0004,
+        "Facts": 0.0243,
+        "Issue": 0.0009,
+        "Reasoning": 0.0921
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 236,
+      "text": "Per contra, the learned APP supports the case of the prosecution and submits that the accused has failed to furnish any explanation in his statement under section 313 of the Cr.P.C. to discredit the witnesses who have lastly seen the accused in the company of the deceased.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9619,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0301,
+        "Arguments of Respondent": 0.9619,
+        "Decision": 0.0001,
+        "Facts": 0.0025,
+        "Issue": 0.0001,
+        "Reasoning": 0.0053
+      }
+    },
+    {
+      "sentence_id": 237,
+      "text": "The said submission cannot be comprehended in view of the fact that the prosecution itself has not established the theory of last seen together 42.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6936,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1769,
+        "Arguments of Respondent": 0.0995,
+        "Decision": 0.0104,
+        "Facts": 0.0192,
+        "Issue": 0.0003,
+        "Reasoning": 0.6936
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 238,
+      "text": "In the case of State of Karnataka Vs. Chand Basha (2016) 1 SCC 501 , the Apex Court has held as under  The prosecution story relies upon the last seen together theory, which resulted into the death of Ganesh.",
+      "predicted_label": "Facts",
+      "confidence": 0.9595,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.0001,
+        "Facts": 0.9595,
+        "Issue": 0.001,
+        "Reasoning": 0.0323
+      }
+    },
+    {
+      "sentence_id": 239,
+      "text": "This Court has time and again laid down the ingredients to be made out by the prosecution to prove the last seen together theory.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9335,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0451,
+        "Arguments of Respondent": 0.0183,
+        "Decision": 0.0005,
+        "Facts": 0.002,
+        "Issue": 0.0005,
+        "Reasoning": 0.9335
+      }
+    },
+    {
+      "sentence_id": 240,
+      "text": "The Court for the purpose of arriving at a finding as to whether the said offence has been committed or not, may take into consideration the circumstantial evidence.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0155,
+        "Arguments of Respondent": 0.0104,
+        "Decision": 0.0019,
+        "Facts": 0.0153,
+        "Issue": 0.0012,
+        "Reasoning": 0.9557
+      }
+    },
+    {
+      "sentence_id": 241,
+      "text": "However, while doing so, it must be borne in mind that close proximity between the last seen evidence and death should be clearly established.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0368,
+        "Arguments of Respondent": 0.0186,
+        "Decision": 0.0027,
+        "Facts": 0.0105,
+        "Issue": 0.0002,
+        "Reasoning": 0.9313
+      }
+    },
+    {
+      "sentence_id": 242,
+      "text": "Yet, the prosecution has failed to prove the evidence which establishes the last seen together theory beyond reasonable doubt to prove the guilt of the accused.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5455,
+        "Arguments of Respondent": 0.0685,
+        "Decision": 0.0051,
+        "Facts": 0.0233,
+        "Issue": 0.0012,
+        "Reasoning": 0.3564
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 243,
+      "text": "The prosecution merely proved the motive which could have compelled the accused, and that the accused went to the bar with one other person, but the identity of that other person is not clearly established at all.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1413,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.0009,
+        "Facts": 0.0355,
+        "Issue": 0.0006,
+        "Reasoning": 0.7982
+      }
+    },
+    {
+      "sentence_id": 244,
+      "text": "The postmortem report fails to specify any approximate time of death and in light of the recovery of the dead body on 20.01.2001, after 4 days, which is not a small gap since the deceased disappeared on 16.01.2001, it is not appropriate to convict the accused when his role is not firmly established.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8217,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8217,
+        "Arguments of Respondent": 0.0836,
+        "Decision": 0.0013,
+        "Facts": 0.0091,
+        "Issue": 0.001,
+        "Reasoning": 0.0832
+      }
+    },
+    {
+      "sentence_id": 245,
+      "text": "The recovery of rope at the instance of accused Shrinivas is vague and ambiguous since two ropes are placed on record.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3921,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3921,
+        "Arguments of Respondent": 0.3628,
+        "Decision": 0.0003,
+        "Facts": 0.0233,
+        "Issue": 0.0002,
+        "Reasoning": 0.2213
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 246,
+      "text": "The rope was recovered from the place where the dead body was found  in an open place accessible to all.",
+      "predicted_label": "Facts",
+      "confidence": 0.6993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0715,
+        "Arguments of Respondent": 0.0652,
+        "Decision": 0.0008,
+        "Facts": 0.6993,
+        "Issue": 0.001,
+        "Reasoning": 0.1622
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 247,
+      "text": "The recovery of cell phone does not lead to any logical conclusion as IMEI number in the panchanama differs from that of the IMEI number of cell phone.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5096,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2885,
+        "Arguments of Respondent": 0.5096,
+        "Decision": 0.0009,
+        "Facts": 0.0685,
+        "Issue": 0.0008,
+        "Reasoning": 0.1316
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 248,
+      "text": "Moreover, the cell phone of the deceased was handed over by the deceased to Mr. Rane P.W.11 and the same was returned to the maternal uncle of the deceased.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4035,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4035,
+        "Arguments of Respondent": 0.2887,
+        "Decision": 0.0007,
+        "Facts": 0.1128,
+        "Issue": 0.0002,
+        "Reasoning": 0.1941
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 249,
+      "text": "There is no cogent evidence to show that the deceased had any other cell phone which was taken by the accused Shrinivas.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5967,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2042,
+        "Arguments of Respondent": 0.157,
+        "Decision": 0.0006,
+        "Facts": 0.041,
+        "Issue": 0.0004,
+        "Reasoning": 0.5967
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 250,
+      "text": "The nature of evidence adduced by the prosecution leads to an unerring conclusion that the prosecution has failed to prove the guilt of the accused beyond reasonable doubt.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8108,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0391,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.1107,
+        "Facts": 0.0207,
+        "Issue": 0.0012,
+        "Reasoning": 0.8108
+      }
+    },
+    {
+      "sentence_id": 251,
+      "text": "In view of the above discussion, the conviction of the appellants for the offences punishable under section 302 r w 34 of Indian Penal Code would be unsustainable in the eyes of law and hence, the accused deserve to be acquitted of all the charges levelled against them.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0038,
+        "Decision": 0.2796,
+        "Facts": 0.0081,
+        "Issue": 0.0007,
+        "Reasoning": 0.6781
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 252,
+      "text": "Hence, we pass the following order  ORDER (i) Appeal is allowed (ii) Conviction and sentence passed by the Additional Sessions Judge, Greater Bombay dated 20th February 2015 in Sessions Case No.336 of 2012 is hereby quashed and set aside (iii) They be released forthwith if not required in any other case (iv) Fine amount, if paid, be refunded (iv) The appeal is disposed of on above terms.",
+      "predicted_label": "Decision",
+      "confidence": 0.9523,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.9523,
+        "Facts": 0.04,
+        "Issue": 0.0003,
+        "Reasoning": 0.0067
+      }
+    },
+    {
+      "sentence_id": 253,
+      "text": "This order will be digitally signed by the Private Secretary of this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0184,
+        "Arguments of Respondent": 0.0177,
+        "Decision": 0.0818,
+        "Facts": 0.837,
+        "Issue": 0.0016,
+        "Reasoning": 0.0435
+      }
+    },
+    {
+      "sentence_id": 254,
+      "text": "All concerned will act on a digitally signed copy of this order.",
+      "predicted_label": "Facts",
+      "confidence": 0.9174,
+      "probabilities": {
+        "Arguments of Petitioner": 0.016,
+        "Arguments of Respondent": 0.0211,
+        "Decision": 0.0099,
+        "Facts": 0.9174,
+        "Issue": 0.0012,
+        "Reasoning": 0.0344
+      }
+    }
+  ]
+}

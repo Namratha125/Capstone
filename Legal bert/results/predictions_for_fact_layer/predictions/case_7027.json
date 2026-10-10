@@ -1,0 +1,963 @@
+{
+  "case_id": "7027",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": " Both the proceedings are filed for the relief of quashing of FIR No. 176/2018 registered with Kranti Chowk Police Station, Aurangabad for the offences punishable under Sections 464,465, 468, 469, 471, 473, 476 read with Section 34 of the Indian Penal Code and Section 18(c)(vi) and 27(d) read with Rules 65(5) of the Rules Frames under the Drugs and Cosmetic Act 1940.2.",
+      "predicted_label": "Issue",
+      "confidence": 0.6019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0005,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0018,
+        "Facts": 0.3944,
+        "Issue": 0.6019,
+        "Reasoning": 0.0008
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The applicants from the first proceedings are partners of Pharmaceutical Shop and they are in wholesale business of medicines of many Companies.",
+      "predicted_label": "Facts",
+      "confidence": 0.8691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0395,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0005,
+        "Facts": 0.8691,
+        "Issue": 0.0236,
+        "Reasoning": 0.0552
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "They were doing this business in the name and style as Manish Agency at Aurangabad.",
+      "predicted_label": "Facts",
+      "confidence": 0.9917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0007,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0,
+        "Facts": 0.9917,
+        "Issue": 0.003,
+        "Reasoning": 0.0043
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The applicant from second proceeding is a Medical Representative and he was working for manufacturing Company Biocon Limited.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9866,
+      "probabilities": {
+        "Arguments of Petitioner": 0.005,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0003,
+        "Facts": 0.9866,
+        "Issue": 0.0005,
+        "Reasoning": 0.0058
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The crime is registered on the basis of report given by a Drug Inspector Shri.",
+      "predicted_label": "Facts",
+      "confidence": 0.7082,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0196,
+        "Arguments of Respondent": 0.0235,
+        "Decision": 0.0006,
+        "Facts": 0.7082,
+        "Issue": 0.0019,
+        "Reasoning": 0.2462
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "Nimse.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7616,
+      "probabilities": {
+        "Arguments of Petitioner": 0.083,
+        "Arguments of Respondent": 0.1066,
+        "Decision": 0.0073,
+        "Facts": 0.0411,
+        "Issue": 0.0004,
+        "Reasoning": 0.7616
+      }
+    },
+    {
+      "sentence_id": 6,
+      "text": "There was specific information against Manish Agency to the department that it was creating false record of sale in the name of Doctors and Retailers and it was selling medicines to third party.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4507,
+      "probabilities": {
+        "Arguments of Petitioner": 0.091,
+        "Arguments of Respondent": 0.1448,
+        "Decision": 0.0014,
+        "Facts": 0.3118,
+        "Issue": 0.0002,
+        "Reasoning": 0.4507
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "Shri.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.711,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2686,
+        "Arguments of Respondent": 0.711,
+        "Decision": 0.001,
+        "Facts": 0.0059,
+        "Issue": 0.0006,
+        "Reasoning": 0.0129
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "Nimse visited Manish Agency business place with staff on 01.08.2017 and inspected the record.5.",
+      "predicted_label": "Facts",
+      "confidence": 0.9941,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0004,
+        "Facts": 0.9941,
+        "Issue": 0.0003,
+        "Reasoning": 0.0025
+      }
+    },
+    {
+      "sentence_id": 9,
+      "text": "During the inspection the Drug Inspector came across some bills of sale which were suspicious.",
+      "predicted_label": "Facts",
+      "confidence": 0.9341,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0029,
+        "Arguments of Respondent": 0.0048,
+        "Decision": 0.0004,
+        "Facts": 0.9341,
+        "Issue": 0.0013,
+        "Reasoning": 0.0564
+      }
+    },
+    {
+      "sentence_id": 10,
+      "text": "Inquiry was made with the purchasers shown in the bills and inquiry revealed that those persons had not placed any order with Manish Agency and no medicines were supplied to them.",
+      "predicted_label": "Facts",
+      "confidence": 0.9313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0099,
+        "Decision": 0.0002,
+        "Facts": 0.9313,
+        "Issue": 0.0009,
+        "Reasoning": 0.0513
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "After that, inquiry was made with the applicant of first proceeding and then the applicant admitted in the writing that those bills were prepared by them but the medicines were not actually sold to the persons shown on the bill.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4861,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0425,
+        "Arguments of Respondent": 0.0437,
+        "Decision": 0.0035,
+        "Facts": 0.4238,
+        "Issue": 0.0004,
+        "Reasoning": 0.4861
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 12,
+      "text": "These medicines were collected by the Manish Agency from Manufactures like Biocon Limited and Dr. Reddys Lab Limited.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0046,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0002,
+        "Facts": 0.9883,
+        "Issue": 0.0002,
+        "Reasoning": 0.0038
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "On the basis of the record collected from Manish Agency, Drug Inspector made more inquiry and inquiry revealed that the Medical Representative of aforesaid two companies were also involved in creation of false record of sale.",
+      "predicted_label": "Facts",
+      "confidence": 0.7864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.023,
+        "Decision": 0.0029,
+        "Facts": 0.7864,
+        "Issue": 0.0005,
+        "Reasoning": 0.1765
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "They had joined hands with Manish Agency.",
+      "predicted_label": "Facts",
+      "confidence": 0.6051,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0363,
+        "Arguments of Respondent": 0.02,
+        "Decision": 0.0004,
+        "Facts": 0.6051,
+        "Issue": 0.0009,
+        "Reasoning": 0.3373
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 15,
+      "text": "One such representative is the applicant of the second proceeding.7.",
+      "predicted_label": "Facts",
+      "confidence": 0.5514,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2081,
+        "Arguments of Respondent": 0.0791,
+        "Decision": 0.0005,
+        "Facts": 0.5514,
+        "Issue": 0.0062,
+        "Reasoning": 0.1548
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 16,
+      "text": "In the report given by the Drug Inspector many bills prepared in false names are mentioned like four bills in the name of Dr. Shaikh Murtuja of Aurangabad, four bills in the name of Mohan Medico and General Store of Aurangabad, three bills in the name of Rathi Medical, two bills in the name of New Varun Medical, two bills in the name of Vishnu Priya Medical, some bills in the name of Mahavir Medical of village Pimpari Raja, few bills in the name of New Life Medical etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6525,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0498,
+        "Arguments of Respondent": 0.0337,
+        "Decision": 0.0007,
+        "Facts": 0.263,
+        "Issue": 0.0002,
+        "Reasoning": 0.6525
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "Inquiry was made with these persons also and it revealed that they had also not placed the orders and no medicines were supplied to them by the Manish Agency.",
+      "predicted_label": "Facts",
+      "confidence": 0.8351,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.0005,
+        "Facts": 0.8351,
+        "Issue": 0.0003,
+        "Reasoning": 0.1415
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "There were some stamps on the bills of the purchase and the said persons who were shown as purchasers made it clear that those stamps were not belonging to them the stamps were not used by them, the stamps were not used by them.8.",
+      "predicted_label": "Facts",
+      "confidence": 0.9074,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0165,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0002,
+        "Facts": 0.9074,
+        "Issue": 0.0004,
+        "Reasoning": 0.0601
+      }
+    },
+    {
+      "sentence_id": 19,
+      "text": "On further inquiry, applicants of the first proceeding admitted that the medicines were not actually supplied to all those persons and concerns shown in the bills, prepared by the applicants.",
+      "predicted_label": "Facts",
+      "confidence": 0.8627,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0115,
+        "Arguments of Respondent": 0.0201,
+        "Decision": 0.0007,
+        "Facts": 0.8627,
+        "Issue": 0.0005,
+        "Reasoning": 0.1044
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "However, they contended that stamps appearing on some purchase bills were not put by them and they blamed the Medical Representative by contending that they had handed over these bills to the two Medical Representative and they probably used false stamp.9.",
+      "predicted_label": "Facts",
+      "confidence": 0.974,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0002,
+        "Facts": 0.974,
+        "Issue": 0.0001,
+        "Reasoning": 0.0156
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "Inquiry was made with aforesaid two Medical Companies by Drug Inspector.",
+      "predicted_label": "Facts",
+      "confidence": 0.9086,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0122,
+        "Decision": 0.0011,
+        "Facts": 0.9086,
+        "Issue": 0.0007,
+        "Reasoning": 0.0701
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "The company Biocon Ltd supplied information that aforesaid record in the names of the persons mentioned in the bill as purchaser was supplied to it by Manish Agency.",
+      "predicted_label": "Facts",
+      "confidence": 0.9501,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.0087,
+        "Decision": 0.0001,
+        "Facts": 0.9501,
+        "Issue": 0.0008,
+        "Reasoning": 0.0345
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Statements were given by the employees and in the writing also this say of the manufacturing company was obtained.",
+      "predicted_label": "Facts",
+      "confidence": 0.5807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0345,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0006,
+        "Facts": 0.5807,
+        "Issue": 0.0003,
+        "Reasoning": 0.3596
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 24,
+      "text": "Dr. Reddys Company however, did not supply any information and it is also made accused.10.",
+      "predicted_label": "Facts",
+      "confidence": 0.9865,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0014,
+        "Decision": 0.0001,
+        "Facts": 0.9865,
+        "Issue": 0.0004,
+        "Reasoning": 0.0098
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The applicants of the first proceeding, (Manish Agency) have produced some record like photo copies of some bills in the present proceeding and the learned counsel for them submitted that on those photo copies there were no stamps and such bills were handed over by Manish Agency to the Medical Representatives.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1308,
+        "Arguments of Respondent": 0.0566,
+        "Decision": 0.0057,
+        "Facts": 0.2287,
+        "Issue": 0.0003,
+        "Reasoning": 0.5777
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "It is already mentioned that the bills in the names of as many as 21 customers are mentioned in the FIR.",
+      "predicted_label": "Facts",
+      "confidence": 0.6547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0354,
+        "Arguments of Respondent": 0.0181,
+        "Decision": 0.0012,
+        "Facts": 0.6547,
+        "Issue": 0.0023,
+        "Reasoning": 0.2884
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "It was submitted for Manish Agency that though such bills were prepared, they were credit bills and as the purchasers shown on the bills did not make payment, the medicines were not supplied to them.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4651,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1645,
+        "Arguments of Respondent": 0.4651,
+        "Decision": 0.0006,
+        "Facts": 0.1215,
+        "Issue": 0.0003,
+        "Reasoning": 0.2481
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 28,
+      "text": "It was submitted that the medicine shown in those bills were then sold to others.",
+      "predicted_label": "Facts",
+      "confidence": 0.4954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1778,
+        "Arguments of Respondent": 0.1222,
+        "Decision": 0.0007,
+        "Facts": 0.4954,
+        "Issue": 0.0013,
+        "Reasoning": 0.2026
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "This submission cannot be considered at any stage of the matter in view of the specific provisions of the aforesaid special enactment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0536,
+        "Arguments of Respondent": 0.0677,
+        "Decision": 0.0038,
+        "Facts": 0.0933,
+        "Issue": 0.0004,
+        "Reasoning": 0.7811
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "On the bills collected by the Drug Inspector, in writing also the applicants admitted that these bills (Memos) were raised by them.",
+      "predicted_label": "Facts",
+      "confidence": 0.7307,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0666,
+        "Arguments of Respondent": 0.0434,
+        "Decision": 0.0024,
+        "Facts": 0.7307,
+        "Issue": 0.0011,
+        "Reasoning": 0.1558
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "Thus it was sale transaction though on credit and it was completed as the bills were issued by these applicants.",
+      "predicted_label": "Facts",
+      "confidence": 0.6131,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1108,
+        "Arguments of Respondent": 0.0997,
+        "Decision": 0.0024,
+        "Facts": 0.6131,
+        "Issue": 0.0036,
+        "Reasoning": 0.1704
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 32,
+      "text": "There is one more circumstance like information supplied by the Biocon Limited that such record was supplied to it by Manish Agency and record also shows that medicine supplied by it to Manish Agency were sold to the retailers by Manish Agency.11.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8781,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0162,
+        "Arguments of Respondent": 0.0439,
+        "Decision": 0.0015,
+        "Facts": 0.0601,
+        "Issue": 0.0001,
+        "Reasoning": 0.8781
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "If the submission made by the learned counsel for the Manish Agency is considered that creates one more probability.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0082,
+        "Arguments of Respondent": 0.0094,
+        "Decision": 0.0244,
+        "Facts": 0.0667,
+        "Issue": 0.0002,
+        "Reasoning": 0.8913
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "Probability created is that the medicine of the same batch number were sold to the different persons and there is the possibility that more medicines were actually manufactured than the record of batch number created by the manufacturing Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6034,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0557,
+        "Arguments of Respondent": 0.1263,
+        "Decision": 0.0121,
+        "Facts": 0.2021,
+        "Issue": 0.0005,
+        "Reasoning": 0.6034
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 35,
+      "text": "The investigating agency needs to look into such probability also.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6081,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0683,
+        "Arguments of Respondent": 0.0779,
+        "Decision": 0.0105,
+        "Facts": 0.2339,
+        "Issue": 0.0013,
+        "Reasoning": 0.6081
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 36,
+      "text": "In any case the aforesaid record is not consistent and admittedly the bills on which the Drug Inspector is relying were not true and correct bills.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1609,
+        "Arguments of Respondent": 0.0526,
+        "Decision": 0.0127,
+        "Facts": 0.1253,
+        "Issue": 0.0017,
+        "Reasoning": 0.6468
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 37,
+      "text": "That record was created as per the provisions of the Special Enactment Act and Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6276,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0512,
+        "Arguments of Respondent": 0.048,
+        "Decision": 0.0022,
+        "Facts": 0.2706,
+        "Issue": 0.0005,
+        "Reasoning": 0.6276
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "Manish Agency has made specific allegation against the Medical Representatives that the bills were handed over to him and he probably used stamp of the purchaser and so it cannot be said that Medical Representative had not played any role in this matter.",
+      "predicted_label": "Facts",
+      "confidence": 0.459,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0753,
+        "Arguments of Respondent": 0.0894,
+        "Decision": 0.0076,
+        "Facts": 0.459,
+        "Issue": 0.0008,
+        "Reasoning": 0.368
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 39,
+      "text": "Unfortunately specific information regarding purpose for which the medicine mentioned in this record was not produced to the Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8296,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0221,
+        "Arguments of Respondent": 0.0111,
+        "Decision": 0.0011,
+        "Facts": 0.1358,
+        "Issue": 0.0004,
+        "Reasoning": 0.8296
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Thus on merits, it is no possible to quash the FIR in respect of the applicants from both the proceedings.12.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5223,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0775,
+        "Arguments of Respondent": 0.1089,
+        "Decision": 0.0194,
+        "Facts": 0.2716,
+        "Issue": 0.0003,
+        "Reasoning": 0.5223
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 41,
+      "text": "On law point it was submitted that by creation of such record no loss is caused to anybody by Manish Agency and so no offence is committed.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4506,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4506,
+        "Arguments of Respondent": 0.3951,
+        "Decision": 0.0003,
+        "Facts": 0.0535,
+        "Issue": 0.0005,
+        "Reasoning": 0.1001
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "This submissions is not acceptable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.579,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2482,
+        "Arguments of Respondent": 0.1373,
+        "Decision": 0.0008,
+        "Facts": 0.0344,
+        "Issue": 0.0002,
+        "Reasoning": 0.579
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "Firstly when admittedly record is false and it was to be used as per the provision of the Act, there is clear breach of the provision of the Act and Rules 65(5) of the Rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8327,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0364,
+        "Arguments of Respondent": 0.0304,
+        "Decision": 0.0013,
+        "Facts": 0.099,
+        "Issue": 0.0003,
+        "Reasoning": 0.8327
+      }
+    },
+    {
+      "sentence_id": 44,
+      "text": "Thus due to this admission offence under those provisions is made out.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6515,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0638,
+        "Arguments of Respondent": 0.0743,
+        "Decision": 0.0041,
+        "Facts": 0.2055,
+        "Issue": 0.0009,
+        "Reasoning": 0.6515
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "Secondly there is deceiving to State exchequer by such wholesalers by joining hands with the Manufacturing Company.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5151,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1739,
+        "Arguments of Respondent": 0.0448,
+        "Decision": 0.0012,
+        "Facts": 0.2637,
+        "Issue": 0.0012,
+        "Reasoning": 0.5151
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 46,
+      "text": "The department is deceived by creating such false record already.",
+      "predicted_label": "Facts",
+      "confidence": 0.717,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0709,
+        "Arguments of Respondent": 0.0576,
+        "Decision": 0.0024,
+        "Facts": 0.717,
+        "Issue": 0.0006,
+        "Reasoning": 0.1515
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "Thus it cannot be said that there was no intention to make wrongful gain behind the preparation of this record.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.785,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1,
+        "Arguments of Respondent": 0.0581,
+        "Decision": 0.0009,
+        "Facts": 0.0557,
+        "Issue": 0.0003,
+        "Reasoning": 0.785
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "As the record is admittedly false, the provisions made for the offence of forgery can be used.13.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6904,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1052,
+        "Arguments of Respondent": 0.0965,
+        "Decision": 0.0026,
+        "Facts": 0.1027,
+        "Issue": 0.0026,
+        "Reasoning": 0.6904
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "The learned counsel for the applicant submitted that at the most there is only breach of the provision of Section 18(vi) of the Special Enactment and punishment for it is only two years, as provided in Section 27 (d) of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7375,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7375,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0077,
+        "Facts": 0.1702,
+        "Issue": 0.0139,
+        "Reasoning": 0.0523
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "The learned counsel submitted that the provision of Section 36 (a)(c) shows that only offences mentioned in Section 36(a)(c)(a) are cognizable.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.675,
+      "probabilities": {
+        "Arguments of Petitioner": 0.675,
+        "Arguments of Respondent": 0.2952,
+        "Decision": 0.0002,
+        "Facts": 0.0016,
+        "Issue": 0.0002,
+        "Reasoning": 0.0278
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "The learned counsel for the applicants submitted that Section 32 of the Act provides that no prosecution under the provisions of the Act can be instituted otherwise then by filing proceeding as laid down in the Section 32.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9091,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0011,
+        "Facts": 0.0612,
+        "Issue": 0.0074,
+        "Reasoning": 0.0144
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "The plain reading of the aforesaid provision shows that only when offence is committed by breach of the provisions of Chapter IV of the Act the restriction is applicable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9077,
+      "probabilities": {
+        "Arguments of Petitioner": 0.034,
+        "Arguments of Respondent": 0.0196,
+        "Decision": 0.0007,
+        "Facts": 0.0376,
+        "Issue": 0.0002,
+        "Reasoning": 0.9077
+      }
+    },
+    {
+      "sentence_id": 53,
+      "text": "Further, the provision of Section 32(3) shows that prosecution under any other law is possible if the same act amounts to offence under any other law.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4918,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0972,
+        "Arguments of Respondent": 0.4918,
+        "Decision": 0.0005,
+        "Facts": 0.0137,
+        "Issue": 0.0006,
+        "Reasoning": 0.3962
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 54,
+      "text": "This provision also shows that the provisions of other Act remain applicable even if there is breach of the provisions of the Act.16.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8757,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0236,
+        "Arguments of Respondent": 0.0726,
+        "Decision": 0.0014,
+        "Facts": 0.0266,
+        "Issue": 0.0001,
+        "Reasoning": 0.8757
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "The facts of the present matter show that cognizable offence under the provision of Indian Penal Code, Section 420, 467,etc is committed and those provisions can be used against the applicant.",
+      "predicted_label": "Facts",
+      "confidence": 0.9048,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0224,
+        "Arguments of Respondent": 0.0068,
+        "Decision": 0.0019,
+        "Facts": 0.9048,
+        "Issue": 0.0088,
+        "Reasoning": 0.0553
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "Thus, there is no force in the objection raised by the applicants that the crime could not have been registered on the basis of report given by Drug Inspector.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7353,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0145,
+        "Arguments of Respondent": 0.0493,
+        "Decision": 0.0023,
+        "Facts": 0.1983,
+        "Issue": 0.0003,
+        "Reasoning": 0.7353
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "Further, this report will be with charge sheet which is to be filed before the Criminal Court.17.",
+      "predicted_label": "Facts",
+      "confidence": 0.7588,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0371,
+        "Arguments of Respondent": 0.0233,
+        "Decision": 0.0027,
+        "Facts": 0.7588,
+        "Issue": 0.0002,
+        "Reasoning": 0.1779
+      }
+    },
+    {
+      "sentence_id": 58,
+      "text": "The State of Maharashtra and Others decided on 03.10.2016.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3007,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2088,
+        "Arguments of Respondent": 0.2883,
+        "Decision": 0.0065,
+        "Facts": 0.1913,
+        "Issue": 0.0044,
+        "Reasoning": 0.3007
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 59,
+      "text": "On the other hand the learned A.P.P produced copy of order made by this Court in Criminal Application No. 1166 of 2018 Sushilkumar S o Kishanlal Modhok Vs.",
+      "predicted_label": "Facts",
+      "confidence": 0.4688,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0836,
+        "Arguments of Respondent": 0.2672,
+        "Decision": 0.0009,
+        "Facts": 0.4688,
+        "Issue": 0.0008,
+        "Reasoning": 0.1788
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 60,
+      "text": "The State of Maharashtra and others decided on 27.06.2018.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.2825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2695,
+        "Arguments of Respondent": 0.2405,
+        "Decision": 0.0098,
+        "Facts": 0.1912,
+        "Issue": 0.0066,
+        "Reasoning": 0.2825
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 61,
+      "text": "In this case, there was allegations of cheating under Section 420 of the Indian Penal Code along with other provisions of IPC and some provision of Chapter IV and V of the Act were mentioned in the FIR.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6131,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1555,
+        "Arguments of Respondent": 0.0499,
+        "Decision": 0.001,
+        "Facts": 0.18,
+        "Issue": 0.0006,
+        "Reasoning": 0.6131
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "In this case, this Court held that the crime was rightly registered on the basis of report given by the Drug Inspector.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4208,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2422,
+        "Arguments of Respondent": 0.3012,
+        "Decision": 0.0072,
+        "Facts": 0.0277,
+        "Issue": 0.0009,
+        "Reasoning": 0.4208
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 63,
+      "text": "Reliance was also placed on decision given by the Supreme Court in Criminal Appeal No. 1195 of 2018 (State of Maharashtra and Others Vs.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6392,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6392,
+        "Arguments of Respondent": 0.3215,
+        "Decision": 0.0003,
+        "Facts": 0.0239,
+        "Issue": 0.0009,
+        "Reasoning": 0.0142
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "Sayyed Hassan Sayyed Subhan and others).",
+      "predicted_label": "Facts",
+      "confidence": 0.6101,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1084,
+        "Arguments of Respondent": 0.0667,
+        "Decision": 0.0144,
+        "Facts": 0.6101,
+        "Issue": 0.0479,
+        "Reasoning": 0.1524
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 65,
+      "text": "In view of the aforesaid discussion, this Court holds that no relief can be granted in both the proceedings to the applicants.",
+      "predicted_label": "Facts",
+      "confidence": 0.648,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0223,
+        "Facts": 0.648,
+        "Issue": 0.0011,
+        "Reasoning": 0.3204
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    }
+  ]
+}

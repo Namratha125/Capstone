@@ -1,0 +1,3278 @@
+{
+  "case_id": "6778",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The first of these two petitions is filed by a banking company regulated under the Banking Regulation Act, 1949 (hereinafter referred to as the petitionerbank).",
+      "predicted_label": "Issue",
+      "confidence": 0.6724,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0012,
+        "Facts": 0.3196,
+        "Issue": 0.6724,
+        "Reasoning": 0.0026
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 1,
+      "text": "The second of these petitions is filed by an employee of the said bank.",
+      "predicted_label": "Issue",
+      "confidence": 0.6312,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0016,
+        "Facts": 0.3585,
+        "Issue": 0.6312,
+        "Reasoning": 0.0061
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 2,
+      "text": "These two petitions seek to challenge the notification dated 7th January 2006 issued by the Government of India, Ministry of Finance imposing a moratorium in respect of the 1st Petitioner banking company for a period of 3 months from the date of order upto and inclusive 6th April 2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.6033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.001,
+        "Facts": 0.6033,
+        "Issue": 0.3891,
+        "Reasoning": 0.0044
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 3,
+      "text": "The short facts leading to these petitions are this wiseGanesh Bank of Kurundwad Ltd. was founded sometimes in the year 1920 and is having a banking license given by the Reserve Bank of India (RBI).",
+      "predicted_label": "Facts",
+      "confidence": 0.9954,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9954,
+        "Issue": 0.0028,
+        "Reasoning": 0.0011
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "It has some 32 branches situated principally in Districts of Kolhapur and Sangli of Maharashtra and the adjoining Belgaum District of Karnataka.",
+      "predicted_label": "Facts",
+      "confidence": 0.9894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.0,
+        "Facts": 0.9894,
+        "Issue": 0.0016,
+        "Reasoning": 0.0069
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "It has around 1,75,000 depositors in the rural areas of these three districts.",
+      "predicted_label": "Facts",
+      "confidence": 0.4317,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0567,
+        "Arguments of Respondent": 0.1658,
+        "Decision": 0.0003,
+        "Facts": 0.4317,
+        "Issue": 0.0122,
+        "Reasoning": 0.3334
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 6,
+      "text": "(i) that the value of the government securities, wherein it had made deposits, went down, and (ii) the provisioning norms set up by the RBI were made more stringent by it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4005,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1294,
+        "Arguments of Respondent": 0.1887,
+        "Decision": 0.0032,
+        "Facts": 0.277,
+        "Issue": 0.0012,
+        "Reasoning": 0.4005
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 7,
+      "text": "It was on this background that suddenly it was shocked to receive the order of moratorium in the morning of 8th January 2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.8541,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0309,
+        "Arguments of Respondent": 0.04,
+        "Decision": 0.0003,
+        "Facts": 0.8541,
+        "Issue": 0.0032,
+        "Reasoning": 0.0715
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "It led to unnecessary long queue at its branch at Dadar, Mumbai though there was no run on the bank any time in the past or even on that day as such.",
+      "predicted_label": "Facts",
+      "confidence": 0.3313,
+      "probabilities": {
+        "Arguments of Petitioner": 0.068,
+        "Arguments of Respondent": 0.3054,
+        "Decision": 0.001,
+        "Facts": 0.3313,
+        "Issue": 0.0007,
+        "Reasoning": 0.2935
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 9,
+      "text": "Thereafter the issuance of the moratorium and the decision of the RBI to take further steps was duly advertised.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3359,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2013,
+        "Arguments of Respondent": 0.3359,
+        "Decision": 0.0018,
+        "Facts": 0.1587,
+        "Issue": 0.0013,
+        "Reasoning": 0.301
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 10,
+      "text": "The Reserve Bank of India thereafter appointed two directors of its own on the Board of Directors of the Petitionerbank on 7th January 2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.937,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0001,
+        "Facts": 0.937,
+        "Issue": 0.0021,
+        "Reasoning": 0.0269
+      }
+    },
+    {
+      "sentence_id": 11,
+      "text": "The RBI then notified the proposed scheme of amalgamating the Petitioner bank with the Federal Bank on 9th January 2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.9371,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.0053,
+        "Decision": 0.0001,
+        "Facts": 0.9371,
+        "Issue": 0.0018,
+        "Reasoning": 0.0446
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The Petitioner bank objected to it by filing its objections on 23rd January 2006, yet a decision was taken by the RBI and the Central Government on 24th January 2006 sanctioning amalgamation of the Petitioner Bank with the Federal Bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.9374,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0127,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0003,
+        "Facts": 0.9374,
+        "Issue": 0.0101,
+        "Reasoning": 0.036
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "These decisions are challenged in these petitions.4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9732,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0002,
+        "Facts": 0.9732,
+        "Issue": 0.0246,
+        "Reasoning": 0.0006
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "After the two petitions were filed, an interim order came to be passed on 27th January 2006 by this Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.9529,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0007,
+        "Facts": 0.9529,
+        "Issue": 0.0221,
+        "Reasoning": 0.0173
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The counsel for the Petitioners were heard and so also those for the Central Government, the RBI and the Federal Bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.7421,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0527,
+        "Arguments of Respondent": 0.0142,
+        "Decision": 0.001,
+        "Facts": 0.7421,
+        "Issue": 0.0183,
+        "Reasoning": 0.1716
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "This Court noted that whereas the moratorium was declared on 7th January 2006, within two days i.e. on 9th January 2006 the RBI proposed the name of Federal Bank to take over the Ganesh Bank.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5211,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0689,
+        "Arguments of Respondent": 0.0397,
+        "Decision": 0.0012,
+        "Facts": 0.3688,
+        "Issue": 0.0003,
+        "Reasoning": 0.5211
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "It was not known as to how any such scheme was drawn in such a short time.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7953,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0904,
+        "Arguments of Respondent": 0.0587,
+        "Decision": 0.0008,
+        "Facts": 0.0544,
+        "Issue": 0.0004,
+        "Reasoning": 0.7953
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "Similarly, when the Petitioner bank had made a representation on 23rd January 2006, the decision to amalgamate was arrived at on 24th January 2006.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1362,
+        "Arguments of Respondent": 0.1424,
+        "Decision": 0.0005,
+        "Facts": 0.1715,
+        "Issue": 0.0003,
+        "Reasoning": 0.549
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Prima facie, the Court felt that the steps taken were not appropriate and were taken in hurry.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7837,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0353,
+        "Arguments of Respondent": 0.0213,
+        "Decision": 0.004,
+        "Facts": 0.1551,
+        "Issue": 0.0007,
+        "Reasoning": 0.7837
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "The Court therefore granted an interim injunction in terms of prayer (a)(iii) and (b)(ii) of the first petition thereby the operation and implementation of the order dated 24th January 2006 was stayed and the status quo, which existed prior to 24th January 2006, was restored.",
+      "predicted_label": "Facts",
+      "confidence": 0.946,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0009,
+        "Facts": 0.946,
+        "Issue": 0.0047,
+        "Reasoning": 0.0413
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "This Court, however, clarified that the moratorium will continue to operate and the two directors appointed by the RBI were also continued to function as the directors of the Petitioner bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.6362,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1113,
+        "Arguments of Respondent": 0.0395,
+        "Decision": 0.0057,
+        "Facts": 0.6362,
+        "Issue": 0.0026,
+        "Reasoning": 0.2047
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 22,
+      "text": "This order was challenged by the RBI and the Federal Bank in an SLP to the Apex Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.9712,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0027,
+        "Decision": 0.0001,
+        "Facts": 0.9712,
+        "Issue": 0.0054,
+        "Reasoning": 0.0186
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "The Apex Court by its order dated 30th January 2006 directed this Court to hear and decide these petitions on a day to day basis.",
+      "predicted_label": "Facts",
+      "confidence": 0.9788,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0017,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0008,
+        "Facts": 0.9788,
+        "Issue": 0.003,
+        "Reasoning": 0.0131
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The interim order passed by this Court was however left undisturbed.6.",
+      "predicted_label": "Facts",
+      "confidence": 0.9927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0027,
+        "Arguments of Respondent": 0.0013,
+        "Decision": 0.0004,
+        "Facts": 0.9927,
+        "Issue": 0.0008,
+        "Reasoning": 0.0021
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "Accordingly, the Respondents have filed their affidavits in reply and the Petitioners have filed their rejoinders.",
+      "predicted_label": "Facts",
+      "confidence": 0.6019,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0399,
+        "Arguments of Respondent": 0.3084,
+        "Decision": 0.0007,
+        "Facts": 0.6019,
+        "Issue": 0.0035,
+        "Reasoning": 0.0456
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 26,
+      "text": "The Petitioners have amended their petitions also and further affidavits are filed by all the parties.",
+      "predicted_label": "Facts",
+      "confidence": 0.6455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1874,
+        "Arguments of Respondent": 0.0298,
+        "Decision": 0.0203,
+        "Facts": 0.6455,
+        "Issue": 0.0113,
+        "Reasoning": 0.1057
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 27,
+      "text": "The Respondents have relied upon the Reports of various Committees appointed by the Central Government and the RBI concerning the banking sector.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7136,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0045,
+        "Arguments of Respondent": 0.7136,
+        "Decision": 0.0004,
+        "Facts": 0.0095,
+        "Issue": 0.0003,
+        "Reasoning": 0.2718
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "A number of authorities were cited by the counsel appearing for all the parties.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2516,
+        "Arguments of Respondent": 0.5593,
+        "Decision": 0.0023,
+        "Facts": 0.0156,
+        "Issue": 0.0049,
+        "Reasoning": 0.1662
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 29,
+      "text": "Thus, the pleadings were completed and thereafter the matter was heard from day to day from 14th February 2006 to 3rd March 2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.8751,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0208,
+        "Arguments of Respondent": 0.0287,
+        "Decision": 0.0004,
+        "Facts": 0.8751,
+        "Issue": 0.0027,
+        "Reasoning": 0.0724
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "The parties sought time to file their written arguments which were filed by the Petitioners, the RBI and the Federal Bank by 9th March 2006.",
+      "predicted_label": "Facts",
+      "confidence": 0.8806,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0109,
+        "Arguments of Respondent": 0.0176,
+        "Decision": 0.004,
+        "Facts": 0.8806,
+        "Issue": 0.0028,
+        "Reasoning": 0.0841
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The principal submissions of the Petitioners are twofold, namely that the order dated 7th January 2006 imposing moratorium and then the order dated 9th January 2006 appointing two directors are both malafide to suit the convenience of Federal Bank, ultra vires the powers of the RBI and the Central Government and, therefore, bad in law, illegal and void.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9555,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9555,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.0003,
+        "Facts": 0.017,
+        "Issue": 0.0046,
+        "Reasoning": 0.0206
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "Similarly, the other submission of the Petitioners is that the subsequent framing of scheme of amalgamation on 9th January 2006 and the decision to sanction the amalgamation taken on 24th January 2006 are motivated and preplanned decisions for the benefit of the Federal Bank, malafide and ultra vires the powers of the Central Government and the RBI.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8957,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8957,
+        "Arguments of Respondent": 0.0033,
+        "Decision": 0.0003,
+        "Facts": 0.0466,
+        "Issue": 0.001,
+        "Reasoning": 0.0531
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "It is further submitted that both these decisions are not justified on facts and are arrived at without taking into consideration the relevant material.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8911,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8911,
+        "Arguments of Respondent": 0.0655,
+        "Decision": 0.0002,
+        "Facts": 0.02,
+        "Issue": 0.0006,
+        "Reasoning": 0.0226
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "As far as the first decision imposing the moratorium is concerned, it is submitted that there were no good reasons to impose the same and, as far as the decision to amalgamate is concerned, it is submitted that the said decision was without considering the proposals of four other banks which were better placed.8.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7503,
+        "Arguments of Respondent": 0.2089,
+        "Decision": 0.0001,
+        "Facts": 0.0303,
+        "Issue": 0.0007,
+        "Reasoning": 0.0096
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "As against these submissions of the Petitioners, the defence of the RBI and the Central Government is that the Petitioner bank was undoubtedly in serious financial difficulties and it is, therefore, that the moratorium had to be imposed.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9768,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.9768,
+        "Decision": 0.0001,
+        "Facts": 0.0092,
+        "Issue": 0.0002,
+        "Reasoning": 0.0097
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "The moratorium was fully justified on the facts of the case.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1253,
+        "Arguments of Respondent": 0.4566,
+        "Decision": 0.0195,
+        "Facts": 0.0729,
+        "Issue": 0.0005,
+        "Reasoning": 0.3251
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 37,
+      "text": "The decision to amalgamate the Petitioner bank with the Federal Bank was arrived at in full compliance with the statutory requirements and after considering all material on record as well as the suggestions and objections from the Petitioner Bank and all concerned, and after examining the proposals from the other four banks.",
+      "predicted_label": "Facts",
+      "confidence": 0.655,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0288,
+        "Arguments of Respondent": 0.0225,
+        "Decision": 0.0003,
+        "Facts": 0.655,
+        "Issue": 0.0015,
+        "Reasoning": 0.2918
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 38,
+      "text": "It is, therefore, submitted that there is no reason to interfere with the decision arrived at by the RBI and the Central Government which is essentially for the benefit of the depositors.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9676,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0214,
+        "Arguments of Respondent": 0.9676,
+        "Decision": 0.0002,
+        "Facts": 0.0037,
+        "Issue": 0.0003,
+        "Reasoning": 0.0068
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "They are(A) Whether the decision dated 7th January 2006 of the Central Government imposing moratorium and to appoint two directors was malafide, ultra vires the powers of the Central Government and the RBI, bad in law and void and unjustified on facts(B)",
+      "predicted_label": "Issue",
+      "confidence": 0.9752,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0016,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0006,
+        "Facts": 0.0171,
+        "Issue": 0.9752,
+        "Reasoning": 0.0043
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "Whether the notification dated 9th January 2006 containing the proposed scheme of amalgamation and the decision to sanction the amalgamation dated 24th January 2006 were malafide, ultra vires the powers of the Central Government and the RBI and unjustified on facts10.",
+      "predicted_label": "Issue",
+      "confidence": 0.7385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0048,
+        "Arguments of Respondent": 0.0071,
+        "Decision": 0.0009,
+        "Facts": 0.244,
+        "Issue": 0.7385,
+        "Reasoning": 0.0047
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "As against this defence of the RBI, it was pointed out on behalf of the Petitioners that Annexure1 to RBIs application under section 45(1) dated 4th January 2006 contained the key financials of the Petitioner bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.4165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3951,
+        "Arguments of Respondent": 0.0886,
+        "Decision": 0.0003,
+        "Facts": 0.4165,
+        "Issue": 0.0006,
+        "Reasoning": 0.099
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "It was pointed out on behalf of the Petitioners that the net NPAs had gone down from 10.59 to 8.32.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6138,
+        "Arguments of Respondent": 0.0237,
+        "Decision": 0.0009,
+        "Facts": 0.2057,
+        "Issue": 0.0005,
+        "Reasoning": 0.1554
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 43,
+      "text": "It was also pointed out that the Petitioner bank had done good resource mobilisation in the meanwhile and its paidup capital had gone up from Rs.1.52 crore to Rs.1.82 crore.",
+      "predicted_label": "Facts",
+      "confidence": 0.6336,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2027,
+        "Arguments of Respondent": 0.1301,
+        "Decision": 0.0004,
+        "Facts": 0.6336,
+        "Issue": 0.0021,
+        "Reasoning": 0.0312
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "On 12th January 1999, the petitionerbank sent the plan to augment it to Rs.20.08 crores over the period of 5 years.",
+      "predicted_label": "Facts",
+      "confidence": 0.6181,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1452,
+        "Arguments of Respondent": 0.0616,
+        "Decision": 0.0007,
+        "Facts": 0.6181,
+        "Issue": 0.0005,
+        "Reasoning": 0.1738
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 45,
+      "text": "At the end of 31st March 2002, its networth stood at only Rs.6.62 crores and its paidup capital at the end of March 2005 was Rs.1.82 crore.",
+      "predicted_label": "Facts",
+      "confidence": 0.8638,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0114,
+        "Arguments of Respondent": 0.0195,
+        "Decision": 0.0002,
+        "Facts": 0.8638,
+        "Issue": 0.002,
+        "Reasoning": 0.1031
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "It was further stated in para 8(l) of this affidavit that as per the banks balance sheet as on 31st March 2005, it had reported the net loss of Rs.5.97 crores.",
+      "predicted_label": "Facts",
+      "confidence": 0.5498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0818,
+        "Arguments of Respondent": 0.0975,
+        "Decision": 0.0003,
+        "Facts": 0.5498,
+        "Issue": 0.0002,
+        "Reasoning": 0.2705
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 47,
+      "text": "In para 8(m), it was stated that in view of the deteriorating financial position, further meetings were held on 12th August 2005, 26th August 2005 and 12th September 2005 to point out the major concerns of RBI viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.6736,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0136,
+        "Arguments of Respondent": 0.0655,
+        "Decision": 0.0001,
+        "Facts": 0.6736,
+        "Issue": 0.0002,
+        "Reasoning": 0.247
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 48,
+      "text": "low paidup capital of Rs.1.82 crore, high level of gross NPAs (18.04) and net loss of Rs.5.97 crores.",
+      "predicted_label": "Facts",
+      "confidence": 0.4808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2574,
+        "Arguments of Respondent": 0.1683,
+        "Decision": 0.0002,
+        "Facts": 0.4808,
+        "Issue": 0.0012,
+        "Reasoning": 0.0921
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 49,
+      "text": "On 14th October 2005, the bank was asked to submit a detailed plan for capital augmentation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9057,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0129,
+        "Arguments of Respondent": 0.0403,
+        "Decision": 0.0,
+        "Facts": 0.9057,
+        "Issue": 0.0002,
+        "Reasoning": 0.0408
+      }
+    },
+    {
+      "sentence_id": 50,
+      "text": "In reply to para 8(j) of the affidavit in reply, he stated that considering the fact that deposits with the Petitioner bank were Rs.92 crores, it was irrational to insist that it should have capital funds of Rs.50 crores.",
+      "predicted_label": "Facts",
+      "confidence": 0.6158,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1337,
+        "Arguments of Respondent": 0.1715,
+        "Decision": 0.0002,
+        "Facts": 0.6158,
+        "Issue": 0.0003,
+        "Reasoning": 0.0785
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 51,
+      "text": "It was however pointed out that the bank has consistently increased its capital and it stood at Rs.2.95 crores by 5th January 2006 which included Rs.1.13 crore in the form of share application money.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5742,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2249,
+        "Arguments of Respondent": 0.5742,
+        "Decision": 0.0004,
+        "Facts": 0.157,
+        "Issue": 0.0004,
+        "Reasoning": 0.0431
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 52,
+      "text": "According to him, it was the share capital.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4193,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4193,
+        "Arguments of Respondent": 0.2014,
+        "Decision": 0.0005,
+        "Facts": 0.0876,
+        "Issue": 0.0004,
+        "Reasoning": 0.2907
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 53,
+      "text": "Again, as far as NPAs are concerned, he pointed out that they had gone down from 14.10 to 10.9 and, as far as loss of Rs.5.97 crores is concerned, it is because of the change in the provisioning norms.14.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.7922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1664,
+        "Arguments of Respondent": 0.7922,
+        "Decision": 0.0002,
+        "Facts": 0.0092,
+        "Issue": 0.0001,
+        "Reasoning": 0.0319
+      }
+    },
+    {
+      "sentence_id": 54,
+      "text": "Mr.Seervai, learned Counsel appearing for the petitionerbank, criticised the expectation of the RBI that a small bank like the Petitioner ought to have the Capital Adequacy of Rs.50 crores as advised in June 1998 and which was later on revised to Rs.300 crores by circular dated 20th February 2004.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9427,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9427,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0005,
+        "Facts": 0.0242,
+        "Issue": 0.0007,
+        "Reasoning": 0.0304
+      }
+    },
+    {
+      "sentence_id": 55,
+      "text": "He drew our attention to section 11(3)(i) of the Act which provides that if a banking company has places of its business in more than one State, it is required to have the aggregate value of its paidup capital and reserves at not less than Rs.5 lakhs.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4839,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4782,
+        "Arguments of Respondent": 0.4839,
+        "Decision": 0.0002,
+        "Facts": 0.0085,
+        "Issue": 0.0001,
+        "Reasoning": 0.0291
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 56,
+      "text": "If that is the expectation, the RBI cannot insist on the requirement of Rs.50 crores and then go on increasing it further.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8217,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0957,
+        "Arguments of Respondent": 0.0524,
+        "Decision": 0.0004,
+        "Facts": 0.0296,
+        "Issue": 0.0003,
+        "Reasoning": 0.8217
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "He relied upon para 10 of the judgment of the Apex Court in Assam 202 Co. Ltd. v. State of Assam  (2001) 4 SCC 202 , which lays down that a delegate cannot override the Act either by exceeding the authority or by making provision which is inconsistent with the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5277,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5277,
+        "Arguments of Respondent": 0.4358,
+        "Decision": 0.0003,
+        "Facts": 0.0281,
+        "Issue": 0.0008,
+        "Reasoning": 0.0073
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "In his submission, therefore, insistence of Rs.50 crores or a higher amount cannot be said to be erroneous.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2654,
+        "Arguments of Respondent": 0.6613,
+        "Decision": 0.0003,
+        "Facts": 0.0044,
+        "Issue": 0.0001,
+        "Reasoning": 0.0686
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 59,
+      "text": "He submitted that with globalisation, finance and banking in rural areas also have to improve and it is from that point of view that the RBI had expected the above referred enhancement.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2772,
+        "Arguments of Respondent": 0.6747,
+        "Decision": 0.0002,
+        "Facts": 0.0144,
+        "Issue": 0.0001,
+        "Reasoning": 0.0335
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 60,
+      "text": "That was expected from all similarly situated banks and not merely from the Petitioner alone.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6982,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0577,
+        "Arguments of Respondent": 0.1105,
+        "Decision": 0.0008,
+        "Facts": 0.1325,
+        "Issue": 0.0004,
+        "Reasoning": 0.6982
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 61,
+      "text": "He referred to the expectations under the Basle Committee on Banking Supervision, 1988 and the first Narasimham Committee Report on Financial System, 1991 which recommended on the basis of the Basle Committee that India also must conform to the international standards of capital adequacy in a phased manner.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5741,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3925,
+        "Arguments of Respondent": 0.5741,
+        "Decision": 0.0004,
+        "Facts": 0.007,
+        "Issue": 0.0002,
+        "Reasoning": 0.0259
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 62,
+      "text": "We quite see the concern of RBI to improve the banking sector even in rural areas.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9661,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0052,
+        "Arguments of Respondent": 0.0088,
+        "Decision": 0.0008,
+        "Facts": 0.0188,
+        "Issue": 0.0004,
+        "Reasoning": 0.9661
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "The submission of Mr.Salve was that larger the turnover, there are more economies of such large enterprise and there are better services.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3973,
+        "Arguments of Respondent": 0.3819,
+        "Decision": 0.001,
+        "Facts": 0.006,
+        "Issue": 0.0002,
+        "Reasoning": 0.2136
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 64,
+      "text": "The profit margin goes down in terms of percentage, yet it goes up in terms of actual earning, while at the same time giving greater benefits to the customers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8231,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0403,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0003,
+        "Facts": 0.1254,
+        "Issue": 0.0005,
+        "Reasoning": 0.8231
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "Having noted this concern of RBI, we have our doubts as to whether any such enhancement can be expected by an executive order.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0113,
+        "Decision": 0.0009,
+        "Facts": 0.0207,
+        "Issue": 0.0014,
+        "Reasoning": 0.9564
+      }
+    },
+    {
+      "sentence_id": 66,
+      "text": "When the section speaks of not less than Rs.5 lakhs, it is difficult to say that such banks ought to have arranged a capital of Rs.50 crores and now Rs.300 crores.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9468,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0146,
+        "Arguments of Respondent": 0.0106,
+        "Decision": 0.0004,
+        "Facts": 0.0274,
+        "Issue": 0.0002,
+        "Reasoning": 0.9468
+      }
+    },
+    {
+      "sentence_id": 67,
+      "text": "This is a small private commercial bank in rural sector and it is entitled to function in its own way.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5429,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0604,
+        "Arguments of Respondent": 0.1171,
+        "Decision": 0.0017,
+        "Facts": 0.2776,
+        "Issue": 0.0003,
+        "Reasoning": 0.5429
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 68,
+      "text": "Mr.Seervai submits that when one talks about moratorium under section 45(1), the good reasons will have to be related only to a run on the bank or existence of court proceedings and actions because they are sought to be stayed under subsection (2) of section 45 of the Act.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3497,
+        "Arguments of Respondent": 0.6251,
+        "Decision": 0.0003,
+        "Facts": 0.0011,
+        "Issue": 0.0001,
+        "Reasoning": 0.0237
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 69,
+      "text": "The phrase good reasons in subsection (1) is a wider term and it will not be correct to restrict it only to the actions mentioned under subsection (2).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9179,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0391,
+        "Arguments of Respondent": 0.0387,
+        "Decision": 0.0001,
+        "Facts": 0.0038,
+        "Issue": 0.0004,
+        "Reasoning": 0.9179
+      }
+    },
+    {
+      "sentence_id": 70,
+      "text": "Section 45 of the Act is concerned with preparing a scheme of reconstruction or amalgamation which would become necessary where the RBI is satisfied about the existence of either of the four grounds mentioned in section 45(4).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7391,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1694,
+        "Arguments of Respondent": 0.0627,
+        "Decision": 0.0001,
+        "Facts": 0.0282,
+        "Issue": 0.0005,
+        "Reasoning": 0.7391
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "Apart from public interest and the interest of the banking system, which are provided in subclause (a) and (d) thereof, section 45(4) provides for the necessary action in the interest of the depositors or with a view to secure proper management of the bank which are grounds (b) and (c) in that subsection.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8864,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0479,
+        "Arguments of Respondent": 0.0333,
+        "Decision": 0.0003,
+        "Facts": 0.0319,
+        "Issue": 0.0002,
+        "Reasoning": 0.8864
+      }
+    },
+    {
+      "sentence_id": 72,
+      "text": "Existence of court proceedings, mentioned in section 45(2), would certainly be one of the good reasons to impose moratorium, but that certainly cannot be the only one.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8044,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0698,
+        "Arguments of Respondent": 0.1056,
+        "Decision": 0.0007,
+        "Facts": 0.0194,
+        "Issue": 0.0001,
+        "Reasoning": 0.8044
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "Considering that object of the Act is protection of the interest of the depositors, such an interpretation of the concept of good reasons will have to be adopted, and not a narrow one.18.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8884,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0457,
+        "Arguments of Respondent": 0.0589,
+        "Decision": 0.0003,
+        "Facts": 0.0065,
+        "Issue": 0.0002,
+        "Reasoning": 0.8884
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "(i) It was submitted by Mr.Seervai that there was no run on the bank in the instant case.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6262,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6262,
+        "Arguments of Respondent": 0.3335,
+        "Decision": 0.0005,
+        "Facts": 0.0057,
+        "Issue": 0.0003,
+        "Reasoning": 0.0338
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "In our view, this is a situation where two views are possible and if the regulating body arrives at a conclusion on the basis of the facts and figures before it and points out that it has been warning the Petitioner Bank for last over 3 years, it will not be proper for us to substitute our judgment for that of RBI.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9564,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0038,
+        "Arguments of Respondent": 0.0025,
+        "Decision": 0.0041,
+        "Facts": 0.0327,
+        "Issue": 0.0004,
+        "Reasoning": 0.9564
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "In the circumstances, we cannot hold that the decision of RBI to impose the moratorium was unjustified or against the provisions of section 45(1) or such that one can call it a perverse one and interfere with it.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9807,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.0029,
+        "Decision": 0.0018,
+        "Facts": 0.0116,
+        "Issue": 0.0002,
+        "Reasoning": 0.9807
+      }
+    },
+    {
+      "sentence_id": 77,
+      "text": "The RBI is an expert body to regulate the banking activities.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6912,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0697,
+        "Arguments of Respondent": 0.1891,
+        "Decision": 0.0003,
+        "Facts": 0.0495,
+        "Issue": 0.0003,
+        "Reasoning": 0.6912
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 78,
+      "text": "Its judgment based on the facts before it cannot be substituted by us, merely because we may perhaps take another view of the matter.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9163,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0269,
+        "Arguments of Respondent": 0.0254,
+        "Decision": 0.003,
+        "Facts": 0.0265,
+        "Issue": 0.0019,
+        "Reasoning": 0.9163
+      }
+    },
+    {
+      "sentence_id": 79,
+      "text": "The moratorium has been challenged on the ground of malafides also.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6867,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6867,
+        "Arguments of Respondent": 0.0401,
+        "Decision": 0.0018,
+        "Facts": 0.096,
+        "Issue": 0.0386,
+        "Reasoning": 0.1367
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 80,
+      "text": "We will consider this challenge along with the challenge to amalgamation also on the basis of malafides.19.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.208,
+        "Arguments of Respondent": 0.0185,
+        "Decision": 0.0022,
+        "Facts": 0.1324,
+        "Issue": 0.148,
+        "Reasoning": 0.4909
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 81,
+      "text": "As far as the challenge to the appointment of two directors on the Board of Directors of the Petitioner Bank is concerned, the RBI does have the necessary power under section 36AB of the Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.639,
+      "probabilities": {
+        "Arguments of Petitioner": 0.11,
+        "Arguments of Respondent": 0.0523,
+        "Decision": 0.0279,
+        "Facts": 0.1693,
+        "Issue": 0.0015,
+        "Reasoning": 0.639
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "In the circumstances, it cannot be faulted for appointing the two directors.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5107,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0464,
+        "Arguments of Respondent": 0.1378,
+        "Decision": 0.0082,
+        "Facts": 0.2966,
+        "Issue": 0.0003,
+        "Reasoning": 0.5107
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "We cannot therefore interfere into the impugned decision appointing the directors for any such reason.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0183,
+        "Arguments of Respondent": 0.0169,
+        "Decision": 0.0041,
+        "Facts": 0.0318,
+        "Issue": 0.0002,
+        "Reasoning": 0.9287
+      }
+    },
+    {
+      "sentence_id": 84,
+      "text": "We make it clear that we decline to interfere with the decision imposing moratorium principally in view of the facts and circumstances of the case as narrated above and not because of failure of the Petitioner bank to meet the higher norms as set up by the RBI.20.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5749,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0037,
+        "Decision": 0.3826,
+        "Facts": 0.0349,
+        "Issue": 0.0004,
+        "Reasoning": 0.5749
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 85,
+      "text": "Then we come to the second question as to whether the decision of RBI to recommend a scheme for amalgamation on 9th January 2006 and the decision of the Government to sanction the amalgamation on 24th January 2006 could be said to be mala fide, bad in law.",
+      "predicted_label": "Issue",
+      "confidence": 0.8273,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0087,
+        "Arguments of Respondent": 0.0102,
+        "Decision": 0.0008,
+        "Facts": 0.0074,
+        "Issue": 0.8273,
+        "Reasoning": 0.1456
+      }
+    },
+    {
+      "sentence_id": 86,
+      "text": "Mr.Salve, learned Counsel appearing for RBI, pointed out that when a moratorium is imposed, RBI was duty bound to prepare a scheme either of reconstruction or of amalgamation under Section 45(4) with any other banking institution.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6687,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2845,
+        "Arguments of Respondent": 0.6687,
+        "Decision": 0.0002,
+        "Facts": 0.0024,
+        "Issue": 0.0002,
+        "Reasoning": 0.044
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "Thus, RBI had to give a scheme.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.777,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0693,
+        "Arguments of Respondent": 0.0612,
+        "Decision": 0.0003,
+        "Facts": 0.0919,
+        "Issue": 0.0003,
+        "Reasoning": 0.777
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "Federal Bank had responded immediately and unconditionally.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4097,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2216,
+        "Arguments of Respondent": 0.1947,
+        "Decision": 0.0035,
+        "Facts": 0.1679,
+        "Issue": 0.0026,
+        "Reasoning": 0.4097
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 89,
+      "text": "It is at that stage that Federal Bank promptly gave its proposal on 8th January 2006.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6993,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0669,
+        "Arguments of Respondent": 0.0555,
+        "Decision": 0.0008,
+        "Facts": 0.175,
+        "Issue": 0.0024,
+        "Reasoning": 0.6993
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 90,
+      "text": "Our presence in this area is very minimal and adding up of the branches of Ganesh Bank of Kurundwad Ltd. will enable us to have significant presence in the area.ii).",
+      "predicted_label": "Facts",
+      "confidence": 0.9715,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0123,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0004,
+        "Facts": 0.9715,
+        "Issue": 0.0005,
+        "Reasoning": 0.0122
+      }
+    },
+    {
+      "sentence_id": 91,
+      "text": "Ganesh Bank of Kurundwad Ltd. has mot of the branches in the agricultural heartland which would enable us to augment our credit disbursal to agricultural sector.iii).",
+      "predicted_label": "Facts",
+      "confidence": 0.93,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0061,
+        "Arguments of Respondent": 0.0236,
+        "Decision": 0.0002,
+        "Facts": 0.93,
+        "Issue": 0.0015,
+        "Reasoning": 0.0386
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "Small size of Ganesh Bank of Kurundwad Ltd. ensures that there will not be any difficulty in the merger process between our bank and them.",
+      "predicted_label": "Facts",
+      "confidence": 0.9605,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0039,
+        "Arguments of Respondent": 0.0031,
+        "Decision": 0.0004,
+        "Facts": 0.9605,
+        "Issue": 0.0008,
+        "Reasoning": 0.0313
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "Thereafter it stated as follows We also inform our unconditional acceptance to make full payment to depositors and that we will not demand any regulatory forbearance.",
+      "predicted_label": "Facts",
+      "confidence": 0.8405,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0388,
+        "Arguments of Respondent": 0.0687,
+        "Decision": 0.0002,
+        "Facts": 0.8405,
+        "Issue": 0.0011,
+        "Reasoning": 0.0507
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "Thus, the Federal Bank was ready to honour full liabilities of the depositors and did not ask for any concessions.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3873,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0808,
+        "Arguments of Respondent": 0.3873,
+        "Decision": 0.0003,
+        "Facts": 0.2604,
+        "Issue": 0.0003,
+        "Reasoning": 0.2707
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 95,
+      "text": "Therefore, on the basis of a standard scheme, the opinion of the petitionerbank was sought on 9th January 2006 with respect to merger in Federal Bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.5795,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0983,
+        "Arguments of Respondent": 0.0464,
+        "Decision": 0.0008,
+        "Facts": 0.5795,
+        "Issue": 0.0017,
+        "Reasoning": 0.2733
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 96,
+      "text": "Mr.Salve, in fact, referred to the scheme as a cut and paste scheme and defended action of RBI as a regulator in the interest of the depositors.23.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8496,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0905,
+        "Arguments of Respondent": 0.8496,
+        "Decision": 0.0001,
+        "Facts": 0.0057,
+        "Issue": 0.0001,
+        "Reasoning": 0.054
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "Mr.Seervai, learned Counsel appearing for the petitionerbank, on the other hand, submitted that Section 45(4) talks about the RBI preparing a scheme of reconstruction or amalgamation if it was satisfied during the period of moratorium that such a scheme had to be prepared (a) in the public interest or (b) in the interest of depositors or (c) to secure proper management of the bank or (d) in the interest of the banking institution.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.891,
+      "probabilities": {
+        "Arguments of Petitioner": 0.891,
+        "Arguments of Respondent": 0.0936,
+        "Decision": 0.0003,
+        "Facts": 0.0045,
+        "Issue": 0.0004,
+        "Reasoning": 0.0102
+      }
+    },
+    {
+      "sentence_id": 98,
+      "text": "He, therefore, submitted that whereas the moratorium was imposed on 7th January 2006, on 9th January 2006 itself RBI had come out with a proposal on the basis of this letter of Federal Bank of 8th January 2006.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6622,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3193,
+        "Arguments of Respondent": 0.6622,
+        "Decision": 0.0002,
+        "Facts": 0.0053,
+        "Issue": 0.0001,
+        "Reasoning": 0.0128
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 99,
+      "text": "In his submission, it clearly shows a planning amongst all concerned.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5551,
+      "probabilities": {
+        "Arguments of Petitioner": 0.393,
+        "Arguments of Respondent": 0.5551,
+        "Decision": 0.0003,
+        "Facts": 0.0143,
+        "Issue": 0.0004,
+        "Reasoning": 0.0369
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 100,
+      "text": "He submitted that if moratorium was a step towards amalgamation, it may happen in a given case that though moratorium may be imposed, yet no other bank may not come forward to take over.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5842,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3995,
+        "Arguments of Respondent": 0.5842,
+        "Decision": 0.0001,
+        "Facts": 0.0024,
+        "Issue": 0.0001,
+        "Reasoning": 0.0137
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 101,
+      "text": "Accordingly to him, the interpretation which was sought to be placed by RBI clearly indicated that there was a prior understanding with Federal Bank.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5567,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5567,
+        "Arguments of Respondent": 0.412,
+        "Decision": 0.0001,
+        "Facts": 0.0177,
+        "Issue": 0.0002,
+        "Reasoning": 0.0133
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 102,
+      "text": "Besides, the Federal Bank had announced on 8th January 2006 itself on Television that it was intending to take over Ganesh Bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.4009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1344,
+        "Arguments of Respondent": 0.1254,
+        "Decision": 0.0004,
+        "Facts": 0.4009,
+        "Issue": 0.0009,
+        "Reasoning": 0.338
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 103,
+      "text": "He also pointed out the manner in which various actions were taken by officers of RBI including the manner in which the approval of the Governor of RBI was obtained on 9th January 2006 though he was abroad and the statement in para 4(v) in the affidavit dated 14th February 2006 of Ms.Sudha Damodar, General Manager of RBI to the following effectOn 9th January 2006 the respondent No.1 considered the said application and taking into consideration the unconditional offer made by respondent No.4 took its decision to amalgamate the petitionerbank with respondent No.4.Mr.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7275,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7275,
+        "Arguments of Respondent": 0.2582,
+        "Decision": 0.0001,
+        "Facts": 0.01,
+        "Issue": 0.0003,
+        "Reasoning": 0.0039
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "Seervai, therefore, submitted that inviting the objections and suggestions thereafter was nothing but a farce and RBI had made up its mind one way or the other.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.3973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1046,
+        "Arguments of Respondent": 0.3973,
+        "Decision": 0.0002,
+        "Facts": 0.3786,
+        "Issue": 0.0004,
+        "Reasoning": 0.1188
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 105,
+      "text": "If moratorium was merely a step towards amalgamation, it clearly indicates that it was resorted to for the benefit of the Federal Bank.24.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9059,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0306,
+        "Arguments of Respondent": 0.058,
+        "Decision": 0.0002,
+        "Facts": 0.0053,
+        "Issue": 0.0001,
+        "Reasoning": 0.9059
+      }
+    },
+    {
+      "sentence_id": 106,
+      "text": "On the other hand, Mr.Salve submitted that the aforesaid statement in affidavit only means that RBI had decided to consider the application of Federal Bank for amalgamation with the petitionerbank.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6204,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3659,
+        "Arguments of Respondent": 0.6204,
+        "Decision": 0.0002,
+        "Facts": 0.0035,
+        "Issue": 0.0002,
+        "Reasoning": 0.0098
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 107,
+      "text": "It cannot mean anything other than that.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0331,
+        "Arguments of Respondent": 0.032,
+        "Decision": 0.0006,
+        "Facts": 0.033,
+        "Issue": 0.0004,
+        "Reasoning": 0.9009
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "RBI had already stated in its proposal for moratorium that bringing in more capital or reconstruction appeared to be difficult.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4199,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1709,
+        "Arguments of Respondent": 0.2072,
+        "Decision": 0.0013,
+        "Facts": 0.2002,
+        "Issue": 0.0006,
+        "Reasoning": 0.4199
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 109,
+      "text": "That being so, it was left with no option but amalgamation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1358,
+        "Arguments of Respondent": 0.1155,
+        "Decision": 0.0003,
+        "Facts": 0.0635,
+        "Issue": 0.0001,
+        "Reasoning": 0.6849
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 110,
+      "text": "Having faced with these facts, it decided to consider the application of Federal Bank to the scheme of amalgamation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5808,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0252,
+        "Arguments of Respondent": 0.0403,
+        "Decision": 0.0003,
+        "Facts": 0.3519,
+        "Issue": 0.0016,
+        "Reasoning": 0.5808
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 111,
+      "text": "The statement on affidavit will have to be read as such.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6657,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0687,
+        "Arguments of Respondent": 0.0841,
+        "Decision": 0.0017,
+        "Facts": 0.1795,
+        "Issue": 0.0004,
+        "Reasoning": 0.6657
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 112,
+      "text": "Mr.Salve placed all the official notings regarding Governors approval before us and submitted that RBI did not want to hide anything.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5545,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3328,
+        "Arguments of Respondent": 0.5545,
+        "Decision": 0.0065,
+        "Facts": 0.0023,
+        "Issue": 0.0004,
+        "Reasoning": 0.1034
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 113,
+      "text": "Mr.Virag Tulzapurkar appearing for Federal Bank explained as to how it had moved promptly to give its proposal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.401,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1323,
+        "Arguments of Respondent": 0.401,
+        "Decision": 0.0003,
+        "Facts": 0.3454,
+        "Issue": 0.0004,
+        "Reasoning": 0.1206
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 114,
+      "text": "He submitted that Federal Bank was not in a position to influence the decision of RBI or that of the Central Government.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6414,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3387,
+        "Arguments of Respondent": 0.6414,
+        "Decision": 0.0002,
+        "Facts": 0.008,
+        "Issue": 0.0001,
+        "Reasoning": 0.0116
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 115,
+      "text": "It had its own reservations about some of the clauses of the standard scheme and had submitted the same, but they were not accepted.25.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5126,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1079,
+        "Arguments of Respondent": 0.0977,
+        "Decision": 0.0015,
+        "Facts": 0.2801,
+        "Issue": 0.0001,
+        "Reasoning": 0.5126
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 116,
+      "text": "Mr.Seervai referred to the definition of reconstruction in Iyers Advanced Law Lexicon to mean to construct again, to rebuild, to form again or renew.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6949,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2664,
+        "Arguments of Respondent": 0.6949,
+        "Decision": 0.0003,
+        "Facts": 0.0011,
+        "Issue": 0.0001,
+        "Reasoning": 0.0372
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 117,
+      "text": "He submitted that one meaning of reconstruction is reorganising the capital or the rights of the shareholders or creditors etc.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5503,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4381,
+        "Arguments of Respondent": 0.5503,
+        "Decision": 0.0001,
+        "Facts": 0.0022,
+        "Issue": 0.0001,
+        "Reasoning": 0.0092
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 118,
+      "text": "as under section 394 of the Companies Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3616,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3616,
+        "Arguments of Respondent": 0.2197,
+        "Decision": 0.0058,
+        "Facts": 0.1151,
+        "Issue": 0.0014,
+        "Reasoning": 0.2964
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 119,
+      "text": "However, in the instant case, in view of the facts narrated earlier, and failure of the Petitionerbank to augment its financial position, strengthening of the bank appeared to be clearly difficult if not impossible.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6755,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0184,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.0049,
+        "Facts": 0.2937,
+        "Issue": 0.0004,
+        "Reasoning": 0.6755
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "In the circumstances, RBI had formed a value judgment as to what recourse it should take.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5053,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5053,
+        "Arguments of Respondent": 0.2019,
+        "Decision": 0.001,
+        "Facts": 0.122,
+        "Issue": 0.0004,
+        "Reasoning": 0.1694
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 121,
+      "text": "We cannot fault with its decision not to go for reconstruction but to consider a scheme of amalgamation with Federal Bank.26.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0094,
+        "Arguments of Respondent": 0.0052,
+        "Decision": 0.0006,
+        "Facts": 0.0837,
+        "Issue": 0.0002,
+        "Reasoning": 0.9009
+      }
+    },
+    {
+      "sentence_id": 122,
+      "text": "Mr.Seervais third objection was that the claims of other banks were not considered.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3693,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2933,
+        "Arguments of Respondent": 0.2529,
+        "Decision": 0.0004,
+        "Facts": 0.0826,
+        "Issue": 0.0014,
+        "Reasoning": 0.3693
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 123,
+      "text": "It has clearly been placed on record that one of those four banks is Ratnakar Bank which is another commercial bank.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6751,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0799,
+        "Arguments of Respondent": 0.0312,
+        "Decision": 0.0025,
+        "Facts": 0.2075,
+        "Issue": 0.0037,
+        "Reasoning": 0.6751
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 124,
+      "text": "It was already in financial difficulty.",
+      "predicted_label": "Facts",
+      "confidence": 0.739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.044,
+        "Arguments of Respondent": 0.0566,
+        "Decision": 0.0009,
+        "Facts": 0.739,
+        "Issue": 0.0014,
+        "Reasoning": 0.1581
+      }
+    },
+    {
+      "sentence_id": 125,
+      "text": "Two foreign banks had given their proposals viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.7596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0185,
+        "Arguments of Respondent": 0.0401,
+        "Decision": 0.001,
+        "Facts": 0.7596,
+        "Issue": 0.0019,
+        "Reasoning": 0.1789
+      }
+    },
+    {
+      "sentence_id": 126,
+      "text": "the City Bank and Standard Chartered Bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0637,
+        "Arguments of Respondent": 0.0422,
+        "Decision": 0.0076,
+        "Facts": 0.691,
+        "Issue": 0.0621,
+        "Reasoning": 0.1335
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 127,
+      "text": "It is seen from their letters that both of them wanted to have due diligence and wanted to move on the basis of the road map for presence of foreign banks.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4498,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0221,
+        "Arguments of Respondent": 0.0814,
+        "Decision": 0.0009,
+        "Facts": 0.4456,
+        "Issue": 0.0002,
+        "Reasoning": 0.4498
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 128,
+      "text": "As far as this aspect is concerned, the RBI has clearly placed it on record that as per the various Committee reports and the road map, as of now the rural sector is not open to the foreign banks.",
+      "predicted_label": "Facts",
+      "confidence": 0.4583,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0277,
+        "Arguments of Respondent": 0.0746,
+        "Decision": 0.0007,
+        "Facts": 0.4583,
+        "Issue": 0.0008,
+        "Reasoning": 0.438
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 129,
+      "text": "Besides, City Bank had clearly stated in its letter that it wanted relief from the incremental rural branches and the incremental agricultural lending for a period of three years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.511,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1341,
+        "Arguments of Respondent": 0.1575,
+        "Decision": 0.0002,
+        "Facts": 0.197,
+        "Issue": 0.0002,
+        "Reasoning": 0.511
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 130,
+      "text": "Surely, RBI could not accept it since it would have been contrary to the purpose of amalgamation viz.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9003,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0279,
+        "Arguments of Respondent": 0.0194,
+        "Decision": 0.0003,
+        "Facts": 0.0511,
+        "Issue": 0.0009,
+        "Reasoning": 0.9003
+      }
+    },
+    {
+      "sentence_id": 131,
+      "text": "to support the depositors in the rural area.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4857,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0423,
+        "Arguments of Respondent": 0.3144,
+        "Decision": 0.0002,
+        "Facts": 0.1531,
+        "Issue": 0.0043,
+        "Reasoning": 0.4857
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 132,
+      "text": "This was apart from the question of legality of any such merger of a commercial bank in a cooperative bank.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5538,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0752,
+        "Arguments of Respondent": 0.1887,
+        "Decision": 0.0004,
+        "Facts": 0.1815,
+        "Issue": 0.0004,
+        "Reasoning": 0.5538
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 133,
+      "text": "Mr.Salve has submitted that a merger between a banking company and cooperative bank was not possible.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4875,
+        "Arguments of Respondent": 0.4374,
+        "Decision": 0.0015,
+        "Facts": 0.0022,
+        "Issue": 0.0002,
+        "Reasoning": 0.0713
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 134,
+      "text": "Section 56 of the Act has made this Act applicable to cooperative societies subject to the modifications therein.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7845,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0979,
+        "Arguments of Respondent": 0.0632,
+        "Decision": 0.0004,
+        "Facts": 0.0529,
+        "Issue": 0.0011,
+        "Reasoning": 0.7845
+      }
+    },
+    {
+      "sentence_id": 135,
+      "text": "While subclause (a)(i) of this section makes a reference to a banking company to be construed as a reference to a cooperative bank, only those provisions of this Act would apply to a cooperative bank which are made applicable by section 56.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.047,
+        "Arguments of Respondent": 0.0323,
+        "Decision": 0.0007,
+        "Facts": 0.2376,
+        "Issue": 0.0003,
+        "Reasoning": 0.6822
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 136,
+      "text": "In his submission, subsection (zb) of this section is crucial inasmuch as it specifies that subsections 4 to 15 of section 45 do not apply to the cooperative banks whether transferor or transferee.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.4923,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4809,
+        "Arguments of Respondent": 0.4923,
+        "Decision": 0.0001,
+        "Facts": 0.0034,
+        "Issue": 0.0002,
+        "Reasoning": 0.023
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 137,
+      "text": "Therefore, section 45(4), which empowers the RBI to prepare a scheme of amalgamation, does not apply to cooperative societies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6739,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1832,
+        "Arguments of Respondent": 0.1218,
+        "Decision": 0.0004,
+        "Facts": 0.0204,
+        "Issue": 0.0003,
+        "Reasoning": 0.6739
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 138,
+      "text": "Mr.Seervai, on the other hand, submitted that section 56 provides that the Act applies to cooperative societies unless the context otherwise requires.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9573,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0369,
+        "Arguments of Respondent": 0.9573,
+        "Decision": 0.0002,
+        "Facts": 0.0004,
+        "Issue": 0.0002,
+        "Reasoning": 0.005
+      }
+    },
+    {
+      "sentence_id": 139,
+      "text": "It further provides that reference to a banking company will be construed as a reference to a cooperative bank.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6876,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0842,
+        "Arguments of Respondent": 0.0459,
+        "Decision": 0.0006,
+        "Facts": 0.1812,
+        "Issue": 0.0004,
+        "Reasoning": 0.6876
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 140,
+      "text": "Therefore, in his submission, a cooperative bank would be covered under section 45(15) of the Act.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5095,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5095,
+        "Arguments of Respondent": 0.4644,
+        "Decision": 0.0002,
+        "Facts": 0.0102,
+        "Issue": 0.0003,
+        "Reasoning": 0.0155
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 141,
+      "text": "The interpretation placed by Mr.Seervai, however, does not explain the provision of subsection (zb) which specifically omits subsections other than (1), (2) and (3) of section 45 from their application to cooperative societies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9362,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0353,
+        "Arguments of Respondent": 0.0243,
+        "Decision": 0.0002,
+        "Facts": 0.004,
+        "Issue": 0.0001,
+        "Reasoning": 0.9362
+      }
+    },
+    {
+      "sentence_id": 142,
+      "text": "It is therefore difficult to see as to how the Petitioner bank could merge into a cooperative bank.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7165,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0361,
+        "Arguments of Respondent": 0.0234,
+        "Decision": 0.0015,
+        "Facts": 0.2218,
+        "Issue": 0.0006,
+        "Reasoning": 0.7165
+      }
+    },
+    {
+      "sentence_id": 143,
+      "text": "In any case, at the level of the officers of RBI, they had an option, namely the proposal of a banking company to take over the liability of the Petitioner bank.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.449,
+      "probabilities": {
+        "Arguments of Petitioner": 0.449,
+        "Arguments of Respondent": 0.1926,
+        "Decision": 0.0018,
+        "Facts": 0.0558,
+        "Issue": 0.0003,
+        "Reasoning": 0.3005
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 144,
+      "text": "The last submission of Mr.Seervai is with respect to not providing adequate opportunity to the Petitioner bank before the decision of amalgamation was taken.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7647,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7647,
+        "Arguments of Respondent": 0.0313,
+        "Decision": 0.0009,
+        "Facts": 0.0055,
+        "Issue": 0.0008,
+        "Reasoning": 0.1967
+      }
+    },
+    {
+      "sentence_id": 145,
+      "text": "He emphasises the provisions of subsections (6) and (7) of section 45 which provide for considering the suggestions and objections of the concerned bank, the transferee bank and other banking company concerned in the amalgamation and from the members, depositors and creditors of each of those companies and transferee bank being considered.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.655,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3352,
+        "Arguments of Respondent": 0.655,
+        "Decision": 0.0002,
+        "Facts": 0.0015,
+        "Issue": 0.0001,
+        "Reasoning": 0.008
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 146,
+      "text": "He submits that the Petitioner bank had given its objection on 23rd January 2006 and on 24th January 2006, the Central Government has given its sanction.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6528,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3148,
+        "Arguments of Respondent": 0.6528,
+        "Decision": 0.0005,
+        "Facts": 0.0193,
+        "Issue": 0.0002,
+        "Reasoning": 0.0124
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 147,
+      "text": "Apart from being a hasty decision, it cannot be said to be a decision in consonance with the principles of natural justice.30.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9828,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0073,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0013,
+        "Facts": 0.0021,
+        "Issue": 0.0001,
+        "Reasoning": 0.9828
+      }
+    },
+    {
+      "sentence_id": 148,
+      "text": "Mr.Desai, Additional Solicitor General, on the other hand, pointed out that the RBI is an expert body.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0107,
+        "Arguments of Respondent": 0.9767,
+        "Decision": 0.0005,
+        "Facts": 0.0009,
+        "Issue": 0.0001,
+        "Reasoning": 0.0111
+      }
+    },
+    {
+      "sentence_id": 149,
+      "text": "It had forwarded the objections and suggestions and its comments separately under five different annexures, viz.",
+      "predicted_label": "Facts",
+      "confidence": 0.7011,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0394,
+        "Arguments of Respondent": 0.0414,
+        "Decision": 0.0002,
+        "Facts": 0.7011,
+        "Issue": 0.0008,
+        "Reasoning": 0.2172
+      }
+    },
+    {
+      "sentence_id": 150,
+      "text": "The government having accepted this advise, which is an expert advise, has sanctioned the scheme promptly and without any delay, which action was in the interest of the depositors.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.632,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0749,
+        "Arguments of Respondent": 0.632,
+        "Decision": 0.0005,
+        "Facts": 0.0787,
+        "Issue": 0.0002,
+        "Reasoning": 0.2138
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 151,
+      "text": "However, whether in a particular case, there has been haste or speed depends upon the objective situation or on overall appraisement of the situation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9819,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0069,
+        "Arguments of Respondent": 0.006,
+        "Decision": 0.0006,
+        "Facts": 0.0042,
+        "Issue": 0.0004,
+        "Reasoning": 0.9819
+      }
+    },
+    {
+      "sentence_id": 152,
+      "text": "He then relied upon the dicta in the case of Chairman M.D., BPL Ltd. v. S.P. Gururaja  567 (2003) 8 SCC 567 , where in para 34 the Apex Court observed that undue haste also is a matter which by itself would not have been a ground for exercise of powers of judiciary unless it is held to be malafide.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5973,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3855,
+        "Arguments of Respondent": 0.5973,
+        "Decision": 0.0001,
+        "Facts": 0.0086,
+        "Issue": 0.0001,
+        "Reasoning": 0.0084
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 153,
+      "text": "This was in answer to Mr.Seervai referring to the judgment in the case of S.P. Kapoor v. State of H.P.  (1981) 4 SCC 716 to the effect that haste makes a decision suspicious.31.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4894,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2828,
+        "Arguments of Respondent": 0.2177,
+        "Decision": 0.0002,
+        "Facts": 0.0097,
+        "Issue": 0.0001,
+        "Reasoning": 0.4894
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 154,
+      "text": "Mr.Salve submitted that the phrase any other banking company concerned in the amalgamation will have to be restricted to a subsidiary bank and not to any of these banks which had given their proposal.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6708,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6708,
+        "Arguments of Respondent": 0.2919,
+        "Decision": 0.0003,
+        "Facts": 0.0015,
+        "Issue": 0.0002,
+        "Reasoning": 0.0353
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 155,
+      "text": "Even if we accept this interpretation, it would mean quite a large group of affected interests, namely the transferor bank, the transferee bank, such other subsidiary bank and then members, depositors or other creditors of each of these companies and the transferee bank.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.91,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0207,
+        "Arguments of Respondent": 0.0327,
+        "Decision": 0.0019,
+        "Facts": 0.0346,
+        "Issue": 0.0002,
+        "Reasoning": 0.91
+      }
+    },
+    {
+      "sentence_id": 156,
+      "text": "The object of section 45 is to provide a relief to the depositors at the earliest where any such banking company lands into difficulty and is required to be either reconstructed or amalgamataed with other banking institution.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7544,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1016,
+        "Arguments of Respondent": 0.0567,
+        "Decision": 0.0002,
+        "Facts": 0.0869,
+        "Issue": 0.0001,
+        "Reasoning": 0.7544
+      }
+    },
+    {
+      "sentence_id": 157,
+      "text": "Surely, the decision is required to be taken at the earliest.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8455,
+      "probabilities": {
+        "Arguments of Petitioner": 0.026,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.0057,
+        "Facts": 0.1125,
+        "Issue": 0.0017,
+        "Reasoning": 0.8455
+      }
+    },
+    {
+      "sentence_id": 158,
+      "text": "This is because the moratorium will be running in the meanwhile.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4566,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0373,
+        "Arguments of Respondent": 0.0544,
+        "Decision": 0.0785,
+        "Facts": 0.3719,
+        "Issue": 0.0013,
+        "Reasoning": 0.4566
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 159,
+      "text": "Giving of a personal hearing to all such affected interests would delay the decision.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5013,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1664,
+        "Arguments of Respondent": 0.2086,
+        "Decision": 0.0115,
+        "Facts": 0.1113,
+        "Issue": 0.0009,
+        "Reasoning": 0.5013
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 160,
+      "text": "What is contemplated is that their suggestions and objections must be shown due regard.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9157,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0325,
+        "Arguments of Respondent": 0.0309,
+        "Decision": 0.0008,
+        "Facts": 0.0199,
+        "Issue": 0.0001,
+        "Reasoning": 0.9157
+      }
+    },
+    {
+      "sentence_id": 161,
+      "text": "That can be obtained by receiving such suggestions and objections and RBI giving its comments thereon.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8488,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0295,
+        "Arguments of Respondent": 0.0744,
+        "Decision": 0.0011,
+        "Facts": 0.0457,
+        "Issue": 0.0004,
+        "Reasoning": 0.8488
+      }
+    },
+    {
+      "sentence_id": 162,
+      "text": "In our view, that is sufficient by way of compliance with principles of natural justice.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0155,
+        "Arguments of Respondent": 0.0198,
+        "Decision": 0.0002,
+        "Facts": 0.0175,
+        "Issue": 0.0001,
+        "Reasoning": 0.9469
+      }
+    },
+    {
+      "sentence_id": 163,
+      "text": "That is also the view taken by a Full Bench of the Punjab and Haryana High Court in the case of Punjab Cooperative Bank v. Union 1 of India  AIR 2001 Punjab Haryana 1, where in para 42 it is observed as followsThe process as contemplated under section 45 has to be computed within a period of 6 months.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.802,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0826,
+        "Arguments of Respondent": 0.0853,
+        "Decision": 0.0013,
+        "Facts": 0.0288,
+        "Issue": 0.0001,
+        "Reasoning": 0.802
+      }
+    },
+    {
+      "sentence_id": 164,
+      "text": "The grant of a right of oral hearing in every case may enable the concerned party to unduly obstruct and delay the proceedings with the result that the process of law may defeat the very purpose of it.32.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9374,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0376,
+        "Arguments of Respondent": 0.0181,
+        "Decision": 0.0008,
+        "Facts": 0.0059,
+        "Issue": 0.0002,
+        "Reasoning": 0.9374
+      }
+    },
+    {
+      "sentence_id": 165,
+      "text": "Mr.Seervai had sought to make a case of factual malafides on the basis of the manner in which the Federal Bank promptly gave its proposal on 8th January 2006 and next day declared on television its intention to take over the Petitionerbank.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4771,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4771,
+        "Arguments of Respondent": 0.2973,
+        "Decision": 0.0009,
+        "Facts": 0.0111,
+        "Issue": 0.0002,
+        "Reasoning": 0.2133
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 166,
+      "text": "He criticised the manner in which the oral approval of the Governor was taken on 9th January 2006 to propose the scheme when he was abroad.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5187,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5187,
+        "Arguments of Respondent": 0.0844,
+        "Decision": 0.0002,
+        "Facts": 0.1712,
+        "Issue": 0.0003,
+        "Reasoning": 0.2252
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 167,
+      "text": "He criticised the affidavit of Ms. Sudha Damodar where she stated that on 9th January 2006 itself RBI had decided to amalgamate with Federal Bank.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7321,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7321,
+        "Arguments of Respondent": 0.2477,
+        "Decision": 0.0001,
+        "Facts": 0.007,
+        "Issue": 0.0001,
+        "Reasoning": 0.0131
+      }
+    },
+    {
+      "sentence_id": 168,
+      "text": "He has also explained the statement appearing in the affidavit of Ms.Sudha Damodar.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4435,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2553,
+        "Arguments of Respondent": 0.0438,
+        "Decision": 0.0005,
+        "Facts": 0.2566,
+        "Issue": 0.0002,
+        "Reasoning": 0.4435
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 169,
+      "text": "Mr.Seervai as well criticised the fact that whereas the objections were given on 23rd January 2006, on 24th January 2006 itself RBI forwarded its comments to recommend amalgamation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.786,
+      "probabilities": {
+        "Arguments of Petitioner": 0.786,
+        "Arguments of Respondent": 0.1792,
+        "Decision": 0.0001,
+        "Facts": 0.0048,
+        "Issue": 0.0001,
+        "Reasoning": 0.0298
+      }
+    },
+    {
+      "sentence_id": 170,
+      "text": "This has been answered by Mr.Salve by pointing out that the financial position of the Petitionerbank was precarious for quite a few years prior to the impugned decisions.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5092,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3156,
+        "Arguments of Respondent": 0.5092,
+        "Decision": 0.0002,
+        "Facts": 0.0051,
+        "Issue": 0.0001,
+        "Reasoning": 0.1698
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 171,
+      "text": "Reconstruction seemed almost impossible.",
+      "predicted_label": "Facts",
+      "confidence": 0.6934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0297,
+        "Arguments of Respondent": 0.0291,
+        "Decision": 0.0021,
+        "Facts": 0.6934,
+        "Issue": 0.0009,
+        "Reasoning": 0.2449
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 172,
+      "text": "In view of what is stated above, we do not find any substance in the objections either to the moratorium or amalgamation of the Petitioner bank with the Federal Bank on the ground of actual mala fides.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7782,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.0531,
+        "Facts": 0.1621,
+        "Issue": 0.0007,
+        "Reasoning": 0.7782
+      }
+    },
+    {
+      "sentence_id": 173,
+      "text": "A sufficient material has been placed before us to explain as to why moratorium became necessary.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8448,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0366,
+        "Arguments of Respondent": 0.0367,
+        "Decision": 0.0062,
+        "Facts": 0.074,
+        "Issue": 0.0018,
+        "Reasoning": 0.8448
+      }
+    },
+    {
+      "sentence_id": 174,
+      "text": "The Federal Bank has responded promptly thereupon.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6155,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0522,
+        "Arguments of Respondent": 0.0486,
+        "Decision": 0.0057,
+        "Facts": 0.2745,
+        "Issue": 0.0035,
+        "Reasoning": 0.6155
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 175,
+      "text": "However, that itself cannot vitiate the reasons to impose the moratorium and it cannot be said that the moratorium was imposed for favouring the Federal Bank.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8548,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0692,
+        "Arguments of Respondent": 0.0373,
+        "Decision": 0.0004,
+        "Facts": 0.0382,
+        "Issue": 0.0001,
+        "Reasoning": 0.8548
+      }
+    },
+    {
+      "sentence_id": 176,
+      "text": "A sufficient explanation has also been given as to why the other proposals were not accepted.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0502,
+        "Arguments of Respondent": 0.0705,
+        "Decision": 0.0011,
+        "Facts": 0.1032,
+        "Issue": 0.0004,
+        "Reasoning": 0.7747
+      }
+    },
+    {
+      "sentence_id": 177,
+      "text": "The amalgamation cannot be either said to be malafide or in breach of any statutory provisions or arrived at without considering all relevant factors or in breach of principles of natural justice.33.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9659,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0075,
+        "Decision": 0.0025,
+        "Facts": 0.0177,
+        "Issue": 0.0001,
+        "Reasoning": 0.9659
+      }
+    },
+    {
+      "sentence_id": 178,
+      "text": "Mr.Seervai for the Petitioners had referred to a few English and Indian cases on the question of exercise of discretionary powers and legal mala fides.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.7846,
+      "probabilities": {
+        "Arguments of Petitioner": 0.7846,
+        "Arguments of Respondent": 0.0108,
+        "Decision": 0.0033,
+        "Facts": 0.0159,
+        "Issue": 0.0027,
+        "Reasoning": 0.1827
+      }
+    },
+    {
+      "sentence_id": 179,
+      "text": "He had relied upon Wednesbury Principles laid down by Lord Green M R in Associated Picture Houses v. 223 Wednesbury Corporation  1948 (1) KB 223.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4325,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4325,
+        "Arguments of Respondent": 0.2899,
+        "Decision": 0.0003,
+        "Facts": 0.1281,
+        "Issue": 0.0007,
+        "Reasoning": 0.1485
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 180,
+      "text": "He had relied upon the judgment of the Apex Court in Pratap Singh v. State of Punjab  AIR 1964 SC 72 on the doctrine of legal malafide and as to how mere denial of malafides cannot preclude the court from inquiring into the truth of allegation (para 9 of the judgment).",
+      "predicted_label": "Facts",
+      "confidence": 0.7989,
+      "probabilities": {
+        "Arguments of Petitioner": 0.13,
+        "Arguments of Respondent": 0.0469,
+        "Decision": 0.0002,
+        "Facts": 0.7989,
+        "Issue": 0.0017,
+        "Reasoning": 0.0224
+      }
+    },
+    {
+      "sentence_id": 181,
+      "text": "He relied upon the judgment of Lord Denning M R in Patfield v. Minister of Agriculture  1968 Appeal Cases 997 and the observations at page 1007 of the repot to the following effectIf it appears to the court that the ministerhas been or must have been influenced by extraneous considerations which ought not to have influenced him or conversely has failed or must have failed to take into account considerations which ought not to have been influenced him, the court has power to interfere.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5032,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5032,
+        "Arguments of Respondent": 0.4199,
+        "Decision": 0.0001,
+        "Facts": 0.0045,
+        "Issue": 0.0001,
+        "Reasoning": 0.0722
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 182,
+      "text": "Last but not the least, he emphasised the dicta of the Apex Court in para 81 of Tata Cellular v. Union of India  (1994) 6 SCC 651 to the following effectIt is open to the court to review the decision makers evaluation of the facts.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6666,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3217,
+        "Arguments of Respondent": 0.6666,
+        "Decision": 0.0001,
+        "Facts": 0.0033,
+        "Issue": 0.0001,
+        "Reasoning": 0.0082
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 183,
+      "text": "The court will intervene where the facts taken as a whole could not logically warrant the conclusion of the decision made.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8932,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0244,
+        "Arguments of Respondent": 0.069,
+        "Decision": 0.0022,
+        "Facts": 0.0102,
+        "Issue": 0.001,
+        "Reasoning": 0.8932
+      }
+    },
+    {
+      "sentence_id": 184,
+      "text": "If the weight of facts pointing to one course of action is overwhelming than a decision either way cannot be affected.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8909,
+      "probabilities": {
+        "Arguments of Petitioner": 0.017,
+        "Arguments of Respondent": 0.0381,
+        "Decision": 0.0012,
+        "Facts": 0.0509,
+        "Issue": 0.0018,
+        "Reasoning": 0.8909
+      }
+    },
+    {
+      "sentence_id": 185,
+      "text": "In the facts of the present case, however, we are not impressed to accept the submissions either of factual malafide or of legal malafide.35.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9822,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0066,
+        "Arguments of Respondent": 0.0064,
+        "Decision": 0.0022,
+        "Facts": 0.0025,
+        "Issue": 0.0001,
+        "Reasoning": 0.9822
+      }
+    },
+    {
+      "sentence_id": 186,
+      "text": "The second petition has been filed by an employee of Ganesh Bank.",
+      "predicted_label": "Issue",
+      "confidence": 0.7117,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0049,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0021,
+        "Facts": 0.2574,
+        "Issue": 0.7117,
+        "Reasoning": 0.0214
+      }
+    },
+    {
+      "sentence_id": 187,
+      "text": "His grievance is that the service conditions will change.",
+      "predicted_label": "Facts",
+      "confidence": 0.5842,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0611,
+        "Arguments of Respondent": 0.0187,
+        "Decision": 0.0019,
+        "Facts": 0.5842,
+        "Issue": 0.0252,
+        "Reasoning": 0.3089
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 188,
+      "text": "When we peruse the scheme, we find that the service conditions will remain as they are for a period of 3 years.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9354,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0033,
+        "Facts": 0.0526,
+        "Issue": 0.0004,
+        "Reasoning": 0.9354
+      }
+    },
+    {
+      "sentence_id": 189,
+      "text": "Mr.Salve explained that all necessary precautions for protecting the interest of the employees would be taken in view of the expectations of the Apex Court expressed in K.I.431 Shephard v. Union of India  (1987) 4 SCC 431.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5029,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1682,
+        "Arguments of Respondent": 0.5029,
+        "Decision": 0.001,
+        "Facts": 0.2362,
+        "Issue": 0.0002,
+        "Reasoning": 0.0914
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 190,
+      "text": "There are some 250 employees of Ganesh Bank and though this is a petition by an individual employee, it is not filed in a representative capacity.",
+      "predicted_label": "Facts",
+      "confidence": 0.3389,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1766,
+        "Arguments of Respondent": 0.2324,
+        "Decision": 0.0008,
+        "Facts": 0.3389,
+        "Issue": 0.0063,
+        "Reasoning": 0.2449
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 191,
+      "text": "On the other hand, the RBI had received letters from the employees supporting the amalgamation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4104,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1277,
+        "Arguments of Respondent": 0.1922,
+        "Decision": 0.0009,
+        "Facts": 0.2674,
+        "Issue": 0.0014,
+        "Reasoning": 0.4104
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 192,
+      "text": "Mr.Sawant raised two other points concerning day to day work.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6255,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6255,
+        "Arguments of Respondent": 0.1981,
+        "Decision": 0.0039,
+        "Facts": 0.0049,
+        "Issue": 0.0007,
+        "Reasoning": 0.1669
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 193,
+      "text": "First is that the head office of Federal Bank is far away in Kerala and the employees will be required to go over there, may be occasionally.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.084,
+        "Arguments of Respondent": 0.0587,
+        "Decision": 0.0032,
+        "Facts": 0.1907,
+        "Issue": 0.0021,
+        "Reasoning": 0.6613
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 194,
+      "text": "Surely, such an occasion will not arise for each and every employee and the Federal Bank will make provision for conveyance etc.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7776,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0088,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.1315,
+        "Facts": 0.0725,
+        "Issue": 0.001,
+        "Reasoning": 0.7776
+      }
+    },
+    {
+      "sentence_id": 195,
+      "text": "in any such eventuality as per its rules.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6751,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1045,
+        "Arguments of Respondent": 0.1092,
+        "Decision": 0.0102,
+        "Facts": 0.1004,
+        "Issue": 0.0006,
+        "Reasoning": 0.6751
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 196,
+      "text": "Mr.Sawant also expressed apprehension with respect to transfer to far off places.",
+      "predicted_label": "Facts",
+      "confidence": 0.6277,
+      "probabilities": {
+        "Arguments of Petitioner": 0.085,
+        "Arguments of Respondent": 0.072,
+        "Decision": 0.0007,
+        "Facts": 0.6277,
+        "Issue": 0.0005,
+        "Reasoning": 0.2141
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 197,
+      "text": "We are sure that the same will be avoided by the Federal Bank to the extent possible since it would like to have smooth relations with the employees.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6096,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0172,
+        "Arguments of Respondent": 0.0202,
+        "Decision": 0.249,
+        "Facts": 0.1029,
+        "Issue": 0.001,
+        "Reasoning": 0.6096
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 198,
+      "text": "In fact, it should consider treating the registered office of Ganesh Bank as its regional office in the particular area wherefrom it may monitor functioning of the branches of the Petitioner bank.",
+      "predicted_label": "Facts",
+      "confidence": 0.4709,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1254,
+        "Arguments of Respondent": 0.0789,
+        "Decision": 0.0196,
+        "Facts": 0.4709,
+        "Issue": 0.002,
+        "Reasoning": 0.3033
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 199,
+      "text": "Mr.Sawant lastly submitted that most of these rural branches are conducting their affairs through the local language, i.e. in Marathi.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5895,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3409,
+        "Arguments of Respondent": 0.5895,
+        "Decision": 0.001,
+        "Facts": 0.002,
+        "Issue": 0.0002,
+        "Reasoning": 0.0664
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 200,
+      "text": "The employees will find it difficult if there is any switch over.",
+      "predicted_label": "Facts",
+      "confidence": 0.444,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0621,
+        "Arguments of Respondent": 0.0643,
+        "Decision": 0.0211,
+        "Facts": 0.444,
+        "Issue": 0.0005,
+        "Reasoning": 0.408
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 201,
+      "text": "We expect the Federal Bank to take care of their apprehension and to continue the present practice which is in the benefit of the rural customers.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.524,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.0086,
+        "Decision": 0.2442,
+        "Facts": 0.212,
+        "Issue": 0.0012,
+        "Reasoning": 0.524
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 202,
+      "text": "It is a matter to be worked out with due cooperation of all concerned.36.",
+      "predicted_label": "Decision",
+      "confidence": 0.6469,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0023,
+        "Decision": 0.6469,
+        "Facts": 0.017,
+        "Issue": 0.0002,
+        "Reasoning": 0.3322
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 203,
+      "text": "Since the first petition is filed by the bank, it is more concerned with the interest of the shareholders.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5048,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0794,
+        "Arguments of Respondent": 0.1713,
+        "Decision": 0.0053,
+        "Facts": 0.2227,
+        "Issue": 0.0165,
+        "Reasoning": 0.5048
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 204,
+      "text": "Their interest has been taken care of in Chapter IV of the proposed scheme which provides for rights and liabilities of the members of the transferor bank.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.887,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0228,
+        "Arguments of Respondent": 0.0452,
+        "Decision": 0.0033,
+        "Facts": 0.0415,
+        "Issue": 0.0002,
+        "Reasoning": 0.887
+      }
+    },
+    {
+      "sentence_id": 205,
+      "text": "It is no doubt true that there is a deferment of the amounts due to them for a considerable time on their shares, but in the scheme of the things it cannot be helped.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8547,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0063,
+        "Arguments of Respondent": 0.0079,
+        "Decision": 0.0007,
+        "Facts": 0.1296,
+        "Issue": 0.0007,
+        "Reasoning": 0.8547
+      }
+    },
+    {
+      "sentence_id": 206,
+      "text": "The Petitioner bank knew for the last over 3 years that it was in difficulty and nothing prevented it from taking steps for merger on its own terms with a bank of its choice by following the provisions of the Companies Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5767,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1234,
+        "Arguments of Respondent": 0.0447,
+        "Decision": 0.001,
+        "Facts": 0.2536,
+        "Issue": 0.0007,
+        "Reasoning": 0.5767
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 207,
+      "text": "The report of the RBI shows that the directors of the bank are most reluctant to consider any such proposal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5626,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0597,
+        "Arguments of Respondent": 0.3216,
+        "Decision": 0.0011,
+        "Facts": 0.0548,
+        "Issue": 0.0003,
+        "Reasoning": 0.5626
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 208,
+      "text": "Now that all these things have come to a head, and when reconstruction is not feasible, RBI is applying the scheme which is uniform for all such situations.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8493,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0111,
+        "Arguments of Respondent": 0.1149,
+        "Decision": 0.001,
+        "Facts": 0.0234,
+        "Issue": 0.0002,
+        "Reasoning": 0.8493
+      }
+    },
+    {
+      "sentence_id": 209,
+      "text": "In fact, Mr.Salve preferred to it almost as a matter of policy wherein the scope of judicial review is very limited and particularly in economic decisions as held in BALCO Employees Union v. Union of 333 India  (2002) 2 SCC 333.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5345,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5345,
+        "Arguments of Respondent": 0.2823,
+        "Decision": 0.0006,
+        "Facts": 0.0056,
+        "Issue": 0.0002,
+        "Reasoning": 0.1768
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 210,
+      "text": "The scheme having been uniformly applied, the shareholders cannot make a grievance.37.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6747,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0253,
+        "Arguments of Respondent": 0.2616,
+        "Decision": 0.009,
+        "Facts": 0.0294,
+        "Issue": 0.0001,
+        "Reasoning": 0.6747
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 211,
+      "text": "He also explained the circumstances in which the Federal Bank had given its offer.",
+      "predicted_label": "Facts",
+      "confidence": 0.5207,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2488,
+        "Arguments of Respondent": 0.1254,
+        "Decision": 0.0001,
+        "Facts": 0.5207,
+        "Issue": 0.0008,
+        "Reasoning": 0.1041
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 212,
+      "text": "He submitted that the Federal Bank was a strong bank and was interested in functioning in this area of the country and therefore it had given the proposal.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6003,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2986,
+        "Arguments of Respondent": 0.6003,
+        "Decision": 0.0002,
+        "Facts": 0.0407,
+        "Issue": 0.0002,
+        "Reasoning": 0.06
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 213,
+      "text": "He adopted and supported the submissions of Mr.Salve and Mr.Desai.38.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.6254,
+      "probabilities": {
+        "Arguments of Petitioner": 0.361,
+        "Arguments of Respondent": 0.6254,
+        "Decision": 0.0002,
+        "Facts": 0.001,
+        "Issue": 0.0001,
+        "Reasoning": 0.0124
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 214,
+      "text": "On the weight of the facts also, we do not think that the decision of the Respondents will be disturbed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8421,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0023,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.1384,
+        "Facts": 0.0117,
+        "Issue": 0.0003,
+        "Reasoning": 0.8421
+      }
+    },
+    {
+      "sentence_id": 215,
+      "text": "We are however unable to arrive at any such conclusion in the present case.39.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9769,
+      "probabilities": {
+        "Arguments of Petitioner": 0.006,
+        "Arguments of Respondent": 0.0074,
+        "Decision": 0.0071,
+        "Facts": 0.0022,
+        "Issue": 0.0003,
+        "Reasoning": 0.9769
+      }
+    },
+    {
+      "sentence_id": 216,
+      "text": "In the circumstances, we answer both the points framed for determination in the negative.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6186,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.002,
+        "Decision": 0.3351,
+        "Facts": 0.0417,
+        "Issue": 0.0012,
+        "Reasoning": 0.6186
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 217,
+      "text": "The challenge to the impugned orders cannot therefore survive.40.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7264,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0043,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.2588,
+        "Facts": 0.0039,
+        "Issue": 0.0003,
+        "Reasoning": 0.7264
+      }
+    },
+    {
+      "sentence_id": 218,
+      "text": "Both the petitions are therefore dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.8102,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0018,
+        "Decision": 0.8102,
+        "Facts": 0.164,
+        "Issue": 0.0016,
+        "Reasoning": 0.021
+      }
+    },
+    {
+      "sentence_id": 219,
+      "text": "There will not be any order as to costs.",
+      "predicted_label": "Decision",
+      "confidence": 0.9748,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0002,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.9748,
+        "Facts": 0.0134,
+        "Issue": 0.0001,
+        "Reasoning": 0.011
+      }
+    },
+    {
+      "sentence_id": 220,
+      "text": "The interim order passed earlier and operating during the pendency of these petitions will consequently stand vacated.",
+      "predicted_label": "Decision",
+      "confidence": 0.9331,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0008,
+        "Decision": 0.9331,
+        "Facts": 0.0216,
+        "Issue": 0.0002,
+        "Reasoning": 0.0437
+      }
+    },
+    {
+      "sentence_id": 221,
+      "text": "After the judgment was pronounced, Mr.Seervai, learned counsel for the Petitioners in the first petition and Mr.Sawant, learned counsel for the Petitioners in the second petition, apply for continuation of the interim order at least for a period of 4 weeks.",
+      "predicted_label": "Facts",
+      "confidence": 0.7036,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0325,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0414,
+        "Facts": 0.7036,
+        "Issue": 0.1719,
+        "Reasoning": 0.0373
+      }
+    },
+    {
+      "sentence_id": 222,
+      "text": "Mr.Desai, learned Additional Solicitor General, Mr.Virendra Tulzapurkar for the RBI and Mr.Virag Tulzapurkar for the Federal Bank oppose the request.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9127,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0359,
+        "Arguments of Respondent": 0.9127,
+        "Decision": 0.0012,
+        "Facts": 0.0313,
+        "Issue": 0.0032,
+        "Reasoning": 0.0158
+      }
+    },
+    {
+      "sentence_id": 223,
+      "text": "However, considering the fact that the interim order was running through this period of 3 months, we extend it for a further period of 4 weeks with a view not to deny an opportunity to the Petitioners.",
+      "predicted_label": "Decision",
+      "confidence": 0.7191,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.7191,
+        "Facts": 0.1869,
+        "Issue": 0.001,
+        "Reasoning": 0.0854
+      }
+    },
+    {
+      "sentence_id": 224,
+      "text": "Accordingly, the moratorium will stand extended and the two directors of the RBI will continue to function on the Board of Directors of Ganesh Bank and the amalgamation will not come into force.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3779,
+        "Arguments of Respondent": 0.0852,
+        "Decision": 0.0303,
+        "Facts": 0.3029,
+        "Issue": 0.0011,
+        "Reasoning": 0.2026
+      },
+      "quality_flag": "AMBIGUOUS"
+    }
+  ]
+}

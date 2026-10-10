@@ -1,0 +1,1755 @@
+{
+  "case_id": "6714",
+  "model": "legalbert-optimized",
+  "sentences": [
+    {
+      "sentence_id": 0,
+      "text": "The Appellant, Kaynet Finance Limited, is a memberbroker at the National Stock Exchange of India.",
+      "predicted_label": "Facts",
+      "confidence": 0.9825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.0003,
+        "Decision": 0.0001,
+        "Facts": 0.9825,
+        "Issue": 0.0133,
+        "Reasoning": 0.0026
+      }
+    },
+    {
+      "sentence_id": 1,
+      "text": "The Respondent, Verona Capital Limited, was its constituent.",
+      "predicted_label": "Facts",
+      "confidence": 0.7549,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0283,
+        "Arguments of Respondent": 0.0249,
+        "Decision": 0.0005,
+        "Facts": 0.7549,
+        "Issue": 0.0436,
+        "Reasoning": 0.1478
+      }
+    },
+    {
+      "sentence_id": 2,
+      "text": "Disputes arose between the parties over share transactions.",
+      "predicted_label": "Facts",
+      "confidence": 0.7009,
+      "probabilities": {
+        "Arguments of Petitioner": 0.007,
+        "Arguments of Respondent": 0.0138,
+        "Decision": 0.0005,
+        "Facts": 0.7009,
+        "Issue": 0.0219,
+        "Reasoning": 0.2559
+      }
+    },
+    {
+      "sentence_id": 3,
+      "text": "The Respondent moved an arbitration application before the National Stock Exchange.",
+      "predicted_label": "Facts",
+      "confidence": 0.8922,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0085,
+        "Arguments of Respondent": 0.0234,
+        "Decision": 0.0003,
+        "Facts": 0.8922,
+        "Issue": 0.0028,
+        "Reasoning": 0.0728
+      }
+    },
+    {
+      "sentence_id": 4,
+      "text": "The National Stock Exchange constituted an Arbitral Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7318,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1052,
+        "Arguments of Respondent": 0.0897,
+        "Decision": 0.0005,
+        "Facts": 0.0726,
+        "Issue": 0.0003,
+        "Reasoning": 0.7318
+      }
+    },
+    {
+      "sentence_id": 5,
+      "text": "The Tribunal awarded one claim out of four made by the Respondent and directed the Appellant to pay an amount of 17,52,47,517/ with interest.",
+      "predicted_label": "Facts",
+      "confidence": 0.6114,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0007,
+        "Facts": 0.6114,
+        "Issue": 0.3684,
+        "Reasoning": 0.0181
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 6,
+      "text": "The Appellant challenged the Award before the learned Single Judge.",
+      "predicted_label": "Facts",
+      "confidence": 0.9596,
+      "probabilities": {
+        "Arguments of Petitioner": 0.003,
+        "Arguments of Respondent": 0.0015,
+        "Decision": 0.0001,
+        "Facts": 0.9596,
+        "Issue": 0.0211,
+        "Reasoning": 0.0146
+      }
+    },
+    {
+      "sentence_id": 7,
+      "text": "The learned Single Judge rejected the Arbitration Petition, and the Appellant is in appeal.",
+      "predicted_label": "Facts",
+      "confidence": 0.7913,
+      "probabilities": {
+        "Arguments of Petitioner": 0.001,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0004,
+        "Facts": 0.7913,
+        "Issue": 0.1979,
+        "Reasoning": 0.0087
+      }
+    },
+    {
+      "sentence_id": 8,
+      "text": "The award is challenged on two counts.",
+      "predicted_label": "Issue",
+      "confidence": 0.4778,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2145,
+        "Arguments of Respondent": 0.0123,
+        "Decision": 0.001,
+        "Facts": 0.2188,
+        "Issue": 0.4778,
+        "Reasoning": 0.0757
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 9,
+      "text": "First, the claim granted was beyond the period of limitation.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.3843,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3843,
+        "Arguments of Respondent": 0.0664,
+        "Decision": 0.0099,
+        "Facts": 0.2432,
+        "Issue": 0.009,
+        "Reasoning": 0.2872
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 10,
+      "text": "Second, the Arbitration Application was not maintainable because the Directors of Respondent who were disqualified could not have filed the Application.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.4015,
+      "probabilities": {
+        "Arguments of Petitioner": 0.4015,
+        "Arguments of Respondent": 0.0796,
+        "Decision": 0.0034,
+        "Facts": 0.3343,
+        "Issue": 0.0025,
+        "Reasoning": 0.1788
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 11,
+      "text": "We do not find any merit in these challenges.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0037,
+        "Arguments of Respondent": 0.0072,
+        "Decision": 0.161,
+        "Facts": 0.0238,
+        "Issue": 0.001,
+        "Reasoning": 0.8033
+      }
+    },
+    {
+      "sentence_id": 12,
+      "text": "The factual backdrop and reasons for this conclusion are as follows.",
+      "predicted_label": "Facts",
+      "confidence": 0.9543,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0002,
+        "Facts": 0.9543,
+        "Issue": 0.0054,
+        "Reasoning": 0.0379
+      }
+    },
+    {
+      "sentence_id": 13,
+      "text": "The Respondent appointed the Appellant as a stockbroker to effect transactions on the National Stock Exchange of India and Bombay Stock Exchange.",
+      "predicted_label": "Facts",
+      "confidence": 0.9289,
+      "probabilities": {
+        "Arguments of Petitioner": 0.013,
+        "Arguments of Respondent": 0.0028,
+        "Decision": 0.0001,
+        "Facts": 0.9289,
+        "Issue": 0.007,
+        "Reasoning": 0.0482
+      }
+    },
+    {
+      "sentence_id": 14,
+      "text": "The Respondent opened a trading account with the Appellant in January 2009.",
+      "predicted_label": "Facts",
+      "confidence": 0.9917,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0006,
+        "Arguments of Respondent": 0.0005,
+        "Decision": 0.0,
+        "Facts": 0.9917,
+        "Issue": 0.0014,
+        "Reasoning": 0.0056
+      }
+    },
+    {
+      "sentence_id": 15,
+      "text": "The Respondent commenced transactions through the Appellant around February 2009.",
+      "predicted_label": "Facts",
+      "confidence": 0.8572,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0269,
+        "Arguments of Respondent": 0.0216,
+        "Decision": 0.0004,
+        "Facts": 0.8572,
+        "Issue": 0.0102,
+        "Reasoning": 0.0838
+      }
+    },
+    {
+      "sentence_id": 16,
+      "text": "The Respondent had acquired shares of Pipapvav Defence and Offshore Engineering reflected in the client muster on 31 March 2015 and those shares were lying in the Appellants Demat Account.",
+      "predicted_label": "Facts",
+      "confidence": 0.4883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2324,
+        "Arguments of Respondent": 0.1291,
+        "Decision": 0.0016,
+        "Facts": 0.4883,
+        "Issue": 0.0012,
+        "Reasoning": 0.1473
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 17,
+      "text": "It is the case of the Respondent that Reliance Infrastructure had declared intention of acquiring shares of Pipapvav Defence and Offshore Engineering and the Respondent desired to offer the shares in an Open offer.",
+      "predicted_label": "Facts",
+      "confidence": 0.7385,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0209,
+        "Arguments of Respondent": 0.1623,
+        "Decision": 0.0002,
+        "Facts": 0.7385,
+        "Issue": 0.0033,
+        "Reasoning": 0.0747
+      }
+    },
+    {
+      "sentence_id": 18,
+      "text": "According to Respondent, the Appellant showed indifference and declined to transfer the shares in Demat Account.",
+      "predicted_label": "Facts",
+      "confidence": 0.6907,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0028,
+        "Arguments of Respondent": 0.2372,
+        "Decision": 0.0003,
+        "Facts": 0.6907,
+        "Issue": 0.001,
+        "Reasoning": 0.068
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 19,
+      "text": "Concerned by the attitude of the Appellant, the Directors of Respondent made enquiries and discovered that many clients of the Appellant were having disputes with the Appellant over share transactions.",
+      "predicted_label": "Facts",
+      "confidence": 0.94,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0064,
+        "Arguments of Respondent": 0.0131,
+        "Decision": 0.0003,
+        "Facts": 0.94,
+        "Issue": 0.0011,
+        "Reasoning": 0.0391
+      }
+    },
+    {
+      "sentence_id": 20,
+      "text": "Alarmed, the Respondent called for details of transactions carried out by the Appellant from the National Stock Exchange.",
+      "predicted_label": "Facts",
+      "confidence": 0.9848,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0061,
+        "Decision": 0.0001,
+        "Facts": 0.9848,
+        "Issue": 0.0008,
+        "Reasoning": 0.0071
+      }
+    },
+    {
+      "sentence_id": 21,
+      "text": "The Respondent also acquired Trade Loss documents from the National Stock Exchange on 8 May 2017.",
+      "predicted_label": "Facts",
+      "confidence": 0.8779,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0081,
+        "Arguments of Respondent": 0.0184,
+        "Decision": 0.0002,
+        "Facts": 0.8779,
+        "Issue": 0.0022,
+        "Reasoning": 0.0932
+      }
+    },
+    {
+      "sentence_id": 22,
+      "text": "According to the Respondent on verification of the accounts, the Respondent found that various false entries of debits were made.",
+      "predicted_label": "Facts",
+      "confidence": 0.9103,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0019,
+        "Arguments of Respondent": 0.0406,
+        "Decision": 0.0001,
+        "Facts": 0.9103,
+        "Issue": 0.0023,
+        "Reasoning": 0.0448
+      }
+    },
+    {
+      "sentence_id": 23,
+      "text": "Besides this position, a credit balance of 17,52,47,517/ was reflected in the ledger account regarding transaction carried out on the National Stock Exchange.",
+      "predicted_label": "Facts",
+      "confidence": 0.7125,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0134,
+        "Arguments of Respondent": 0.0396,
+        "Decision": 0.0001,
+        "Facts": 0.7125,
+        "Issue": 0.0006,
+        "Reasoning": 0.2338
+      }
+    },
+    {
+      "sentence_id": 24,
+      "text": "The Respondent issued a letter on 23 November 2017 demanding this amount and other losses, but the amount was not paid.",
+      "predicted_label": "Facts",
+      "confidence": 0.8241,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0482,
+        "Arguments of Respondent": 0.016,
+        "Decision": 0.0018,
+        "Facts": 0.8241,
+        "Issue": 0.0032,
+        "Reasoning": 0.1067
+      }
+    },
+    {
+      "sentence_id": 25,
+      "text": "The Respondent filed a complaint against the Appellant with the Economic Offences Wing on 12 March 2018.",
+      "predicted_label": "Facts",
+      "confidence": 0.9855,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0025,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0,
+        "Facts": 0.9855,
+        "Issue": 0.003,
+        "Reasoning": 0.0083
+      }
+    },
+    {
+      "sentence_id": 26,
+      "text": "An F.I.R. was registered by the Economic Offences Wing on 22 June 2018.",
+      "predicted_label": "Facts",
+      "confidence": 0.9397,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0112,
+        "Arguments of Respondent": 0.0069,
+        "Decision": 0.0002,
+        "Facts": 0.9397,
+        "Issue": 0.0024,
+        "Reasoning": 0.0396
+      }
+    },
+    {
+      "sentence_id": 27,
+      "text": "The Respondent also lodged a complaint with the Investor Services Cell of the National Stock Exchange on 26 July 2018.",
+      "predicted_label": "Facts",
+      "confidence": 0.9033,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0151,
+        "Arguments of Respondent": 0.0167,
+        "Decision": 0.0002,
+        "Facts": 0.9033,
+        "Issue": 0.0035,
+        "Reasoning": 0.0612
+      }
+    },
+    {
+      "sentence_id": 28,
+      "text": "On 31 August 2018, the Respondent filed an Arbitration Application with the National Stock Exchange in FromI as per the National Stock Exchange Byelaws.",
+      "predicted_label": "Facts",
+      "confidence": 0.9157,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0186,
+        "Arguments of Respondent": 0.0214,
+        "Decision": 0.0004,
+        "Facts": 0.9157,
+        "Issue": 0.0006,
+        "Reasoning": 0.0433
+      }
+    },
+    {
+      "sentence_id": 29,
+      "text": "The Respondent raised four claims.",
+      "predicted_label": "Facts",
+      "confidence": 0.9128,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0042,
+        "Arguments of Respondent": 0.0026,
+        "Decision": 0.0005,
+        "Facts": 0.9128,
+        "Issue": 0.0679,
+        "Reasoning": 0.012
+      }
+    },
+    {
+      "sentence_id": 30,
+      "text": "First was for the return of the credit balance in the ledger account of the Respondent in the Appellants book as on 31 March 2015 as 17,52,47,517/.",
+      "predicted_label": "Facts",
+      "confidence": 0.8324,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0218,
+        "Arguments of Respondent": 0.0063,
+        "Decision": 0.0005,
+        "Facts": 0.8324,
+        "Issue": 0.0187,
+        "Reasoning": 0.1203
+      }
+    },
+    {
+      "sentence_id": 31,
+      "text": "The second claim was for the value of 29,58,095 shares of Pipapvav Defence and Offshore Engineering, market value of the shares being at 75.31 at the average rate as on 17 December 2015 was 22,27,74,135/.",
+      "predicted_label": "Facts",
+      "confidence": 0.9091,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0197,
+        "Arguments of Respondent": 0.0212,
+        "Decision": 0.0001,
+        "Facts": 0.9091,
+        "Issue": 0.0033,
+        "Reasoning": 0.0467
+      }
+    },
+    {
+      "sentence_id": 32,
+      "text": "The third was for the amounts of losses incorrectly debited in the account of the Respondent with no transaction on the National Stock Exchange, being 47,81,53,245/.",
+      "predicted_label": "Facts",
+      "confidence": 0.9155,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0053,
+        "Arguments of Respondent": 0.0024,
+        "Decision": 0.0007,
+        "Facts": 0.9155,
+        "Issue": 0.0095,
+        "Reasoning": 0.0665
+      }
+    },
+    {
+      "sentence_id": 33,
+      "text": "The fourth was for delayed payment charges debited by the Appellant in the Respondents account of 8,40,02,219/.",
+      "predicted_label": "Facts",
+      "confidence": 0.8707,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0047,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.001,
+        "Facts": 0.8707,
+        "Issue": 0.0782,
+        "Reasoning": 0.0437
+      }
+    },
+    {
+      "sentence_id": 34,
+      "text": "The total of four claims was 96,01,77,116/. 4.",
+      "predicted_label": "Facts",
+      "confidence": 0.9961,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0004,
+        "Arguments of Respondent": 0.0002,
+        "Decision": 0.0001,
+        "Facts": 0.9961,
+        "Issue": 0.0023,
+        "Reasoning": 0.0009
+      }
+    },
+    {
+      "sentence_id": 35,
+      "text": "The arbitration was conducted before the panel of arbitrators, consisting of Presiding Arbitrator and two Arbitrators, under the Byelaws, Rules Regulations of National Stock Exchange of India Ltd.",
+      "predicted_label": "Facts",
+      "confidence": 0.9849,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0011,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.0001,
+        "Facts": 0.9849,
+        "Issue": 0.0008,
+        "Reasoning": 0.0098
+      }
+    },
+    {
+      "sentence_id": 36,
+      "text": "Claim No. 2 for 22,27,74,135/ was rejected on merits by the Arbitral Tribunal.",
+      "predicted_label": "Facts",
+      "confidence": 0.9474,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0009,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0008,
+        "Facts": 0.9474,
+        "Issue": 0.0119,
+        "Reasoning": 0.0378
+      }
+    },
+    {
+      "sentence_id": 37,
+      "text": "The Tribunal rejected claim No. 3 for 47,81,53,245/ since the transaction pertaining for the period from 9 October 2009 to 28 February 2013 and the claim was timebarred.",
+      "predicted_label": "Facts",
+      "confidence": 0.9138,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0089,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0003,
+        "Facts": 0.9138,
+        "Issue": 0.0014,
+        "Reasoning": 0.0697
+      }
+    },
+    {
+      "sentence_id": 38,
+      "text": "The fourth claim of 8,40,02,219/ was also rejected because the claim was beyond the period of six years.",
+      "predicted_label": "Facts",
+      "confidence": 0.9161,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0003,
+        "Facts": 0.9161,
+        "Issue": 0.0227,
+        "Reasoning": 0.0544
+      }
+    },
+    {
+      "sentence_id": 39,
+      "text": "As regards the Claim No.1 of 17,52,47,517/, (which was granted), the Appellant had raised two main defenses.",
+      "predicted_label": "Facts",
+      "confidence": 0.914,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0276,
+        "Arguments of Respondent": 0.0197,
+        "Decision": 0.0004,
+        "Facts": 0.914,
+        "Issue": 0.0018,
+        "Reasoning": 0.0365
+      }
+    },
+    {
+      "sentence_id": 40,
+      "text": "First, this claim was barred by limitation and second, that the claim was not maintainable, having moved by the Company, i.e. Respondent whose name was struck off from the Register of Companies and whose directors stood disqualified.",
+      "predicted_label": "Facts",
+      "confidence": 0.7765,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0739,
+        "Arguments of Respondent": 0.057,
+        "Decision": 0.0031,
+        "Facts": 0.7765,
+        "Issue": 0.0052,
+        "Reasoning": 0.0844
+      }
+    },
+    {
+      "sentence_id": 41,
+      "text": "The Arbitral Tribunal found that the application was maintainable.",
+      "predicted_label": "Facts",
+      "confidence": 0.5287,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0168,
+        "Arguments of Respondent": 0.0239,
+        "Decision": 0.0023,
+        "Facts": 0.5287,
+        "Issue": 0.0103,
+        "Reasoning": 0.418
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 42,
+      "text": "On limitation, the Tribunal held that the Appellant did not dispute the amount of 17,52,47,517/ in their documents and the balance shown in the accounts of the Appellant for the year 31 March 2018 brought the claim within the extended period of limitation.",
+      "predicted_label": "Facts",
+      "confidence": 0.9775,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0013,
+        "Arguments of Respondent": 0.001,
+        "Decision": 0.0001,
+        "Facts": 0.9775,
+        "Issue": 0.0017,
+        "Reasoning": 0.0185
+      }
+    },
+    {
+      "sentence_id": 43,
+      "text": "The Arbitral Tribunal partly granted the claim of the Respondent and directed the Appellant to pay the amount of 17,52,47,517/ with simple interest at 12 till the payment and realization.",
+      "predicted_label": "Facts",
+      "confidence": 0.6188,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.0016,
+        "Facts": 0.6188,
+        "Issue": 0.3218,
+        "Reasoning": 0.0549
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 44,
+      "text": "The Appellant filed an Arbitration Petition No. 716 of 2019 under Section 34 of the Act of 1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.9682,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0018,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.0004,
+        "Facts": 0.9682,
+        "Issue": 0.0218,
+        "Reasoning": 0.0071
+      }
+    },
+    {
+      "sentence_id": 45,
+      "text": "Before the learned Single Judge, the Appellant raised the issue of limitation and the maintainability of the claim.",
+      "predicted_label": "Facts",
+      "confidence": 0.9805,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0012,
+        "Arguments of Respondent": 0.0007,
+        "Decision": 0.0001,
+        "Facts": 0.9805,
+        "Issue": 0.0086,
+        "Reasoning": 0.0088
+      }
+    },
+    {
+      "sentence_id": 46,
+      "text": "The learned Single Judge found no perversity in the award of the Arbitral Tribunal and that no ground was made out to set aside the award as enumerated in Section 34 of the Act of 1996.",
+      "predicted_label": "Facts",
+      "confidence": 0.9297,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0058,
+        "Arguments of Respondent": 0.004,
+        "Decision": 0.0003,
+        "Facts": 0.9297,
+        "Issue": 0.0085,
+        "Reasoning": 0.0517
+      }
+    },
+    {
+      "sentence_id": 47,
+      "text": "The learned Single Judge rejected the petition by order dated 24 June 2019.",
+      "predicted_label": "Facts",
+      "confidence": 0.9485,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0056,
+        "Arguments of Respondent": 0.0035,
+        "Decision": 0.0003,
+        "Facts": 0.9485,
+        "Issue": 0.0227,
+        "Reasoning": 0.0194
+      }
+    },
+    {
+      "sentence_id": 48,
+      "text": "The Appellant has reiterated its two main contentions.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8365,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8365,
+        "Arguments of Respondent": 0.0017,
+        "Decision": 0.0008,
+        "Facts": 0.1304,
+        "Issue": 0.0025,
+        "Reasoning": 0.028
+      }
+    },
+    {
+      "sentence_id": 49,
+      "text": "That is the Claim No. 1 is barred by limitation, and the arbitration application was not maintainable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.4619,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1159,
+        "Arguments of Respondent": 0.0931,
+        "Decision": 0.082,
+        "Facts": 0.2454,
+        "Issue": 0.0017,
+        "Reasoning": 0.4619
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 50,
+      "text": "10. Appellant on the issue of limitation contends as follows The statement of claim filed by the Respondent mentioned the amount claimed was payable as of 31 March 2015 however, the claim was presented on 30 August 2018 clearly beyond the period of limitation of 3 years.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9284,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9284,
+        "Arguments of Respondent": 0.003,
+        "Decision": 0.0002,
+        "Facts": 0.0502,
+        "Issue": 0.0019,
+        "Reasoning": 0.0162
+      }
+    },
+    {
+      "sentence_id": 51,
+      "text": "The statement of claim gives no particulars as to how the period of limitation was computed or which Article of the Limitation Act was invoked and was applicable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7772,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0393,
+        "Arguments of Respondent": 0.017,
+        "Decision": 0.0012,
+        "Facts": 0.1644,
+        "Issue": 0.0009,
+        "Reasoning": 0.7772
+      }
+    },
+    {
+      "sentence_id": 52,
+      "text": "Assuming, Article 1",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6965,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0812,
+        "Arguments of Respondent": 0.1189,
+        "Decision": 0.0013,
+        "Facts": 0.0999,
+        "Issue": 0.0022,
+        "Reasoning": 0.6965
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 53,
+      "text": "Part",
+      "predicted_label": "Facts",
+      "confidence": 0.6231,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0877,
+        "Arguments of Respondent": 0.0296,
+        "Decision": 0.0743,
+        "Facts": 0.6231,
+        "Issue": 0.0375,
+        "Reasoning": 0.1478
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 54,
+      "text": "I of Limitation Act applies, the last trade between the parties was on 18 February 2015 and therefore the period of limitation would expire on 18 February 2018.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3378,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2735,
+        "Arguments of Respondent": 0.1288,
+        "Decision": 0.0133,
+        "Facts": 0.2391,
+        "Issue": 0.0076,
+        "Reasoning": 0.3378
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 55,
+      "text": "If it is the case of the Respondent that period of limitation was extended because of Section 18 of the Limitation Act, view of Order VII Rule 6 of the Code of Civil Procedure (CPC) it had has to be specifically pleaded.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.86,
+      "probabilities": {
+        "Arguments of Petitioner": 0.069,
+        "Arguments of Respondent": 0.0456,
+        "Decision": 0.0027,
+        "Facts": 0.0206,
+        "Issue": 0.0022,
+        "Reasoning": 0.86
+      }
+    },
+    {
+      "sentence_id": 56,
+      "text": "There is no such pleading by the Respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8623,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0492,
+        "Arguments of Respondent": 0.0549,
+        "Decision": 0.0029,
+        "Facts": 0.0302,
+        "Issue": 0.0006,
+        "Reasoning": 0.8623
+      }
+    },
+    {
+      "sentence_id": 57,
+      "text": "The plaint of the Civil Suit filed by the Appellant, which was brought on record by the Appellant, could not have been looked into.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5055,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5055,
+        "Arguments of Respondent": 0.0866,
+        "Decision": 0.005,
+        "Facts": 0.0236,
+        "Issue": 0.0005,
+        "Reasoning": 0.3787
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 58,
+      "text": "Thus, in short, it was submitted that the claim granted was beyond the period of limitation, extension of limitation was not specifically pleaded, and the Arbitral Tribunal could not have referred to the plaint filed by the Appellant, and the learned Single Judge did not consider the case in the context of Order VII Rule 6 of CPC. 11.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.8986,
+      "probabilities": {
+        "Arguments of Petitioner": 0.8986,
+        "Arguments of Respondent": 0.0524,
+        "Decision": 0.0001,
+        "Facts": 0.0432,
+        "Issue": 0.0008,
+        "Reasoning": 0.005
+      }
+    },
+    {
+      "sentence_id": 59,
+      "text": "The first limb of the argument on limitation is that the Arbitral Tribunal could not have looked into the documents annexed to the plaint by the Appellant because of Order VII Rule 6 of the CPC in absence of pleading in the arbitration application.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.5461,
+      "probabilities": {
+        "Arguments of Petitioner": 0.5461,
+        "Arguments of Respondent": 0.122,
+        "Decision": 0.0002,
+        "Facts": 0.0169,
+        "Issue": 0.0065,
+        "Reasoning": 0.3082
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 60,
+      "text": "It is pertinent to note how these documents came on record.",
+      "predicted_label": "Facts",
+      "confidence": 0.9096,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0035,
+        "Arguments of Respondent": 0.0036,
+        "Decision": 0.0001,
+        "Facts": 0.9096,
+        "Issue": 0.0038,
+        "Reasoning": 0.0794
+      }
+    },
+    {
+      "sentence_id": 61,
+      "text": "The Respondent had filed simpliciter claim to recover the amounts from the Appellant.",
+      "predicted_label": "Facts",
+      "confidence": 0.3452,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1179,
+        "Arguments of Respondent": 0.0575,
+        "Decision": 0.0662,
+        "Facts": 0.3452,
+        "Issue": 0.0966,
+        "Reasoning": 0.3167
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 62,
+      "text": "The Appellant had filed a statement of defense, in which the Appellant had annexed a copy of plaint in Suit No. 2466 of 2018 filed on 18 July 2018 by the Appellant in the City Civil Court.",
+      "predicted_label": "Facts",
+      "confidence": 0.8409,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0691,
+        "Arguments of Respondent": 0.0238,
+        "Decision": 0.0009,
+        "Facts": 0.8409,
+        "Issue": 0.0006,
+        "Reasoning": 0.0647
+      }
+    },
+    {
+      "sentence_id": 63,
+      "text": "In the suit, the Appellant had sought the amount of 31,52,370/ from the Respondent along with 18 interest.",
+      "predicted_label": "Facts",
+      "confidence": 0.4945,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0175,
+        "Arguments of Respondent": 0.025,
+        "Decision": 0.164,
+        "Facts": 0.4945,
+        "Issue": 0.0287,
+        "Reasoning": 0.2704
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 64,
+      "text": "The reason the Appellant had annexed the plaint was because of its defense.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8339,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0465,
+        "Arguments of Respondent": 0.0813,
+        "Decision": 0.001,
+        "Facts": 0.0367,
+        "Issue": 0.0006,
+        "Reasoning": 0.8339
+      }
+    },
+    {
+      "sentence_id": 65,
+      "text": "The defense being that no sum is due to the Respondent and in fact Respondent owes certain sum to the appellant which is claimed in the Suit.",
+      "predicted_label": "Facts",
+      "confidence": 0.5705,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0901,
+        "Arguments of Respondent": 0.1087,
+        "Decision": 0.0025,
+        "Facts": 0.5705,
+        "Issue": 0.0144,
+        "Reasoning": 0.2139
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 66,
+      "text": "Also, since the Appellant had filed a suit against the Respondent and its directors, the matter is subjudice in the competent civil court.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.2491,
+        "Arguments of Respondent": 0.464,
+        "Decision": 0.0066,
+        "Facts": 0.0611,
+        "Issue": 0.0004,
+        "Reasoning": 0.2189
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 67,
+      "text": "These documents, thus, formed part of the proceeding before the Arbitral Tribunal.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8593,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0414,
+        "Arguments of Respondent": 0.0554,
+        "Decision": 0.0004,
+        "Facts": 0.0434,
+        "Issue": 0.0003,
+        "Reasoning": 0.8593
+      }
+    },
+    {
+      "sentence_id": 68,
+      "text": "The proviso is enacted to do justice between the parties.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8332,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0395,
+        "Arguments of Respondent": 0.0801,
+        "Decision": 0.0007,
+        "Facts": 0.0462,
+        "Issue": 0.0003,
+        "Reasoning": 0.8332
+      }
+    },
+    {
+      "sentence_id": 69,
+      "text": "It being the power of the court conferred for effective adjudication, it is not prudent whittle it down, more particularly in absence any specific embargo.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5557,
+      "probabilities": {
+        "Arguments of Petitioner": 0.3023,
+        "Arguments of Respondent": 0.5557,
+        "Decision": 0.0015,
+        "Facts": 0.018,
+        "Issue": 0.0002,
+        "Reasoning": 0.1223
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 70,
+      "text": "Further in the preset case, we are concerned with arbitral proceedings.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9196,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0193,
+        "Arguments of Respondent": 0.0343,
+        "Decision": 0.0013,
+        "Facts": 0.0246,
+        "Issue": 0.0008,
+        "Reasoning": 0.9196
+      }
+    },
+    {
+      "sentence_id": 71,
+      "text": "The arbitrators were called upon to decide whether the claim filed by the Respondent was within limitation.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5883,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0268,
+        "Arguments of Respondent": 0.0508,
+        "Decision": 0.001,
+        "Facts": 0.3006,
+        "Issue": 0.0327,
+        "Reasoning": 0.5883
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 72,
+      "text": "The Respondent, who had raised the ground of bar of limitation, had in its admitted documents provided the ingredient of Section 18 of the Limitation Act.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0988,
+        "Arguments of Respondent": 0.1054,
+        "Decision": 0.0008,
+        "Facts": 0.0335,
+        "Issue": 0.0002,
+        "Reasoning": 0.7613
+      }
+    },
+    {
+      "sentence_id": 73,
+      "text": "In this context, if the arbitrators have chosen to rely on the pleading of the Respondent, and we find no perversity in the same.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8955,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0258,
+        "Arguments of Respondent": 0.047,
+        "Decision": 0.0003,
+        "Facts": 0.0311,
+        "Issue": 0.0003,
+        "Reasoning": 0.8955
+      }
+    },
+    {
+      "sentence_id": 74,
+      "text": "The next limb of the argument is whether the document on record showed that the period of limitation stood extended in view of Section 18 of the Limitation Act, 1963.",
+      "predicted_label": "Issue",
+      "confidence": 0.5877,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1717,
+        "Arguments of Respondent": 0.0478,
+        "Decision": 0.0005,
+        "Facts": 0.0228,
+        "Issue": 0.5877,
+        "Reasoning": 0.1695
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 75,
+      "text": "We have perused the plaint filed by the Appellant, which is part of the record.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.892,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0246,
+        "Arguments of Respondent": 0.016,
+        "Decision": 0.0049,
+        "Facts": 0.0388,
+        "Issue": 0.0238,
+        "Reasoning": 0.892
+      }
+    },
+    {
+      "sentence_id": 76,
+      "text": "Annexures to the plaint are Client Financial Accounts.",
+      "predicted_label": "Facts",
+      "confidence": 0.5814,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0521,
+        "Arguments of Respondent": 0.0737,
+        "Decision": 0.0015,
+        "Facts": 0.5814,
+        "Issue": 0.0143,
+        "Reasoning": 0.2769
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 77,
+      "text": "Annexure Exh. B4 onwards to the plaint is the Client Financial Accounts of Verona Capital Limited Respondent herein with Code No. 6737.",
+      "predicted_label": "Facts",
+      "confidence": 0.8881,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0044,
+        "Arguments of Respondent": 0.008,
+        "Decision": 0.0041,
+        "Facts": 0.8881,
+        "Issue": 0.0032,
+        "Reasoning": 0.0922
+      }
+    },
+    {
+      "sentence_id": 78,
+      "text": "These accounts are from 1 April 2008, and they continue onwards to 31 March 2008.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6838,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0415,
+        "Arguments of Respondent": 0.0566,
+        "Decision": 0.0054,
+        "Facts": 0.2122,
+        "Issue": 0.0004,
+        "Reasoning": 0.6838
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 79,
+      "text": "The annexures run into almost 90 pages.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3691,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0739,
+        "Arguments of Respondent": 0.2026,
+        "Decision": 0.0015,
+        "Facts": 0.3511,
+        "Issue": 0.0018,
+        "Reasoning": 0.3691
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 80,
+      "text": "In paragraphs 10 and 11 of the plaint, the Appellant has pleaded that the ledger accounts annexed at B1 to B4 of defendant nos.1 to 4 till the inception would show there has been extensive trade carried out in the consolidated ledger account of the defendant nos.1 to 4 over the years and none has been disputed.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5212,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0206,
+        "Arguments of Respondent": 0.0133,
+        "Decision": 0.0005,
+        "Facts": 0.4441,
+        "Issue": 0.0002,
+        "Reasoning": 0.5212
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 81,
+      "text": "The claim of the Appellant against the Respondent is based on the consolidated ledger accounts of defendant nos.1 to 4, who included Priti Vora, Mansi Vora, Mridula Vora and Respondent Verona Capital Ltd.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6256,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0171,
+        "Arguments of Respondent": 0.0123,
+        "Decision": 0.0007,
+        "Facts": 0.3432,
+        "Issue": 0.0011,
+        "Reasoning": 0.6256
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 82,
+      "text": "In the ledger account regarding the defendant no.4, for the April 2015, the amount of 17,52,47,517/ was reflected.",
+      "predicted_label": "Facts",
+      "confidence": 0.5613,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0305,
+        "Arguments of Respondent": 0.1866,
+        "Decision": 0.0003,
+        "Facts": 0.5613,
+        "Issue": 0.0008,
+        "Reasoning": 0.2205
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 83,
+      "text": "This position was continued throughout the accounts till 31 March 2018.",
+      "predicted_label": "Facts",
+      "confidence": 0.6101,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0199,
+        "Arguments of Respondent": 0.0595,
+        "Decision": 0.0007,
+        "Facts": 0.6101,
+        "Issue": 0.0008,
+        "Reasoning": 0.3091
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 84,
+      "text": "Therefore, it cannot be any dispute that as on 31 March 2018, the Appellant had admitted liability of 17,52,47,517/ in favour of the Respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8387,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0334,
+        "Arguments of Respondent": 0.0273,
+        "Decision": 0.0032,
+        "Facts": 0.0915,
+        "Issue": 0.0059,
+        "Reasoning": 0.8387
+      }
+    },
+    {
+      "sentence_id": 85,
+      "text": "Since there was a clear acknowledgement throughout in the admitted ledger accounts maintained by the Appellant, even as of 31 March 2018, the application filed on 31 August 2018 was within limitation.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.5518,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1995,
+        "Arguments of Respondent": 0.5518,
+        "Decision": 0.0022,
+        "Facts": 0.1123,
+        "Issue": 0.0005,
+        "Reasoning": 0.1336
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 86,
+      "text": "In conclusion, the ground of limitation raised by the Appellant is rejected.",
+      "predicted_label": "Decision",
+      "confidence": 0.6133,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0014,
+        "Arguments of Respondent": 0.0034,
+        "Decision": 0.6133,
+        "Facts": 0.019,
+        "Issue": 0.0003,
+        "Reasoning": 0.3626
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 87,
+      "text": "According to the Appellant, at the time of the Reference, the name of the Respondent was struck off, and the Company was dissolved.",
+      "predicted_label": "Facts",
+      "confidence": 0.9478,
+      "probabilities": {
+        "Arguments of Petitioner": 0.037,
+        "Arguments of Respondent": 0.0004,
+        "Decision": 0.0002,
+        "Facts": 0.9478,
+        "Issue": 0.0035,
+        "Reasoning": 0.011
+      }
+    },
+    {
+      "sentence_id": 88,
+      "text": "The Arbitration Application was filed on behalf of the Respondent by Ms. Mansi Vora, who was disqualified as Director of the Company, the other Directors were also disqualified, and thus the claim made in the Companys name was not maintainable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.2875,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1996,
+        "Arguments of Respondent": 0.224,
+        "Decision": 0.0045,
+        "Facts": 0.2831,
+        "Issue": 0.0013,
+        "Reasoning": 0.2875
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 89,
+      "text": "It was contended that the Arbitral Tribunal failed to consider that even though the Company was restored to Register of Companies, the Directors continued to be disqualified and the learned Single Judge was in error on relying on Section 250 and 252 of the Act of 2013.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.6745,
+      "probabilities": {
+        "Arguments of Petitioner": 0.6745,
+        "Arguments of Respondent": 0.1244,
+        "Decision": 0.0008,
+        "Facts": 0.1541,
+        "Issue": 0.0016,
+        "Reasoning": 0.0447
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 90,
+      "text": "(1) The office of a director shall become vacant in case (a) he incurs any of the disqualifications specified in section 164 Provided that where he incurs disqualification under subsection (2) of section 164, the office of the director shall become vacant in all the companies, other than the company which is in default under that subsection.",
+      "predicted_label": "Facts",
+      "confidence": 0.4601,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1416,
+        "Arguments of Respondent": 0.0778,
+        "Decision": 0.0003,
+        "Facts": 0.4601,
+        "Issue": 0.0018,
+        "Reasoning": 0.3183
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 91,
+      "text": "(b) to (h)(2) (3)(4) Appellant contends that as per Section 167(1), the office of a director shall become vacant if he incurs the disqualifications specified in section 164 and, therefore, such a director ceases to function as a director.",
+      "predicted_label": "Arguments of Petitioner",
+      "confidence": 0.9362,
+      "probabilities": {
+        "Arguments of Petitioner": 0.9362,
+        "Arguments of Respondent": 0.0051,
+        "Decision": 0.0001,
+        "Facts": 0.0349,
+        "Issue": 0.0024,
+        "Reasoning": 0.0213
+      }
+    },
+    {
+      "sentence_id": 92,
+      "text": "The Respondent contends there is no ipso facto vacation of the office of a director disqualified under Section 164(2)(a) nor he stands denuded of all powers to act on behalf of the company in default and the consequence is only of restrictions on reappointment of such director.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9464,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.9464,
+        "Decision": 0.0001,
+        "Facts": 0.0151,
+        "Issue": 0.0006,
+        "Reasoning": 0.0337
+      }
+    },
+    {
+      "sentence_id": 93,
+      "text": "Respondent contends that directors disqualified under Section 164(2)(a), can represent the company, and, for instance, can file arbitration references.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.9135,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0126,
+        "Arguments of Respondent": 0.9135,
+        "Decision": 0.0001,
+        "Facts": 0.0177,
+        "Issue": 0.0004,
+        "Reasoning": 0.0557
+      }
+    },
+    {
+      "sentence_id": 94,
+      "text": "In the case at hand, the disqualification of the Directors is under Section 164(2)(a) of the Act 2013.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7227,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1757,
+        "Arguments of Respondent": 0.0573,
+        "Decision": 0.0014,
+        "Facts": 0.0378,
+        "Issue": 0.0051,
+        "Reasoning": 0.7227
+      }
+    },
+    {
+      "sentence_id": 95,
+      "text": "So the discussion is in the context of this provision.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8553,
+      "probabilities": {
+        "Arguments of Petitioner": 0.051,
+        "Arguments of Respondent": 0.031,
+        "Decision": 0.0005,
+        "Facts": 0.0591,
+        "Issue": 0.003,
+        "Reasoning": 0.8553
+      }
+    },
+    {
+      "sentence_id": 96,
+      "text": "A casual glance at Section 167 does create an impression that the office of the director, who is disqualified under all categories of Section 164 will fall vacant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9277,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0101,
+        "Arguments of Respondent": 0.0059,
+        "Decision": 0.0009,
+        "Facts": 0.0551,
+        "Issue": 0.0004,
+        "Reasoning": 0.9277
+      }
+    },
+    {
+      "sentence_id": 97,
+      "text": "Because it cannot be the position that a disqualification applicable for appointment as a director, such as unsound mind and conviction, cannot disqualify a director who has incurred such a disqualification after he has become a director.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6401,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0876,
+        "Arguments of Respondent": 0.182,
+        "Decision": 0.001,
+        "Facts": 0.0882,
+        "Issue": 0.0011,
+        "Reasoning": 0.6401
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 98,
+      "text": "Therefore, harmoniously read, the interplay between Section 164 and 167 is that the office of a director of a company will not automatically fall vacant if a director of a company incurs any of the disqualifications enumerated in Section 164(2) of the Act of 2013.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7713,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1096,
+        "Arguments of Respondent": 0.0687,
+        "Decision": 0.0023,
+        "Facts": 0.0351,
+        "Issue": 0.013,
+        "Reasoning": 0.7713
+      }
+    },
+    {
+      "sentence_id": 99,
+      "text": "Next debate on this aspect was on the implication of the proviso is inserted in Section 167 of the Act 2013 by Act 1 of 2018 with effect from 7 May 2018.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.854,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0432,
+        "Arguments of Respondent": 0.0576,
+        "Decision": 0.0017,
+        "Facts": 0.0225,
+        "Issue": 0.021,
+        "Reasoning": 0.854
+      }
+    },
+    {
+      "sentence_id": 100,
+      "text": "It states that that where a person incurs disqualification under subsection (2) of section 164, the office of the director shall become vacant in all the companies, other than the company in default.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6897,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0955,
+        "Arguments of Respondent": 0.0574,
+        "Decision": 0.0002,
+        "Facts": 0.1563,
+        "Issue": 0.0009,
+        "Reasoning": 0.6897
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 101,
+      "text": "The legislative intent prior to the incorporation of the proviso, was not to declare that the office of the director covered in contingencies under Section 164(2)(a) to become vacant forthwith and the only embargo was on the eligibility for reappointment.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0808,
+        "Arguments of Respondent": 0.0555,
+        "Decision": 0.0002,
+        "Facts": 0.0318,
+        "Issue": 0.0011,
+        "Reasoning": 0.8305
+      }
+    },
+    {
+      "sentence_id": 102,
+      "text": "The proviso introduces a mandate from 7 May 2018, that a director of a company which has failed to file its financial statements or annual returns for a continuous period of three financial years, cannot continue as a director of the other companies.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7305,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0688,
+        "Arguments of Respondent": 0.0675,
+        "Decision": 0.0012,
+        "Facts": 0.1318,
+        "Issue": 0.0003,
+        "Reasoning": 0.7305
+      }
+    },
+    {
+      "sentence_id": 103,
+      "text": "The contention of the Appellant that the proviso relaxed the position in favour those directors who were disqualified under Section 164(2)(a) and now vacation of office is restricted only to companies other than in default, is incorrect.",
+      "predicted_label": "Arguments of Respondent",
+      "confidence": 0.8606,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.8606,
+        "Decision": 0.0002,
+        "Facts": 0.0114,
+        "Issue": 0.0002,
+        "Reasoning": 0.1199
+      }
+    },
+    {
+      "sentence_id": 104,
+      "text": "The position is other way round.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.927,
+      "probabilities": {
+        "Arguments of Petitioner": 0.01,
+        "Arguments of Respondent": 0.0092,
+        "Decision": 0.0062,
+        "Facts": 0.0467,
+        "Issue": 0.001,
+        "Reasoning": 0.927
+      }
+    },
+    {
+      "sentence_id": 105,
+      "text": "Prior to proviso there was no automatic vacation of office of director falling under Section 164(2)(a).",
+      "predicted_label": "Reasoning",
+      "confidence": 0.5185,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1675,
+        "Arguments of Respondent": 0.1847,
+        "Decision": 0.0004,
+        "Facts": 0.1273,
+        "Issue": 0.0017,
+        "Reasoning": 0.5185
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 106,
+      "text": "By the proviso, a sanction is now imposed that such directors will not only be ineligible for reappointment, but if they are holding office as director in other companies, that office will fall vacant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7811,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1047,
+        "Arguments of Respondent": 0.0564,
+        "Decision": 0.0003,
+        "Facts": 0.057,
+        "Issue": 0.0006,
+        "Reasoning": 0.7811
+      }
+    },
+    {
+      "sentence_id": 107,
+      "text": "Again the legislative intent reiterated, that as far the company in default, the office of its directors will not automatically fall vacant.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9169,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0272,
+        "Arguments of Respondent": 0.0154,
+        "Decision": 0.0002,
+        "Facts": 0.0401,
+        "Issue": 0.0002,
+        "Reasoning": 0.9169
+      }
+    },
+    {
+      "sentence_id": 108,
+      "text": "We, therefore, reject the contention of the Appellant that the Arbitration Application filed on behalf of the Respondent by its Directors who were disqualified was not maintainable.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.9711,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0041,
+        "Arguments of Respondent": 0.0032,
+        "Decision": 0.0078,
+        "Facts": 0.0136,
+        "Issue": 0.0002,
+        "Reasoning": 0.9711
+      }
+    },
+    {
+      "sentence_id": 109,
+      "text": "The office of these Directors had not fallen vacant on their disqualification, and they could represent the Respondent.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.3442,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1312,
+        "Arguments of Respondent": 0.3102,
+        "Decision": 0.0027,
+        "Facts": 0.2092,
+        "Issue": 0.0025,
+        "Reasoning": 0.3442
+      },
+      "quality_flag": "AMBIGUOUS"
+    },
+    {
+      "sentence_id": 110,
+      "text": "We also have to be mindful that we are deciding this question in the proceedings taken out to set aside an arbitral award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.964,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0098,
+        "Arguments of Respondent": 0.0078,
+        "Decision": 0.004,
+        "Facts": 0.0076,
+        "Issue": 0.0068,
+        "Reasoning": 0.964
+      }
+    },
+    {
+      "sentence_id": 111,
+      "text": "We note the conduct of the Appellant, which has been considered by the single judge, that the Appellant has filed a civil suit against the Respondent seeking relief is sought against the Respondentcompany and the directors in its private capacity.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6652,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0327,
+        "Arguments of Respondent": 0.0093,
+        "Decision": 0.0087,
+        "Facts": 0.2838,
+        "Issue": 0.0004,
+        "Reasoning": 0.6652
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 112,
+      "text": "The Respondent (defendant no. 4 in the Suit) as on July 2018 is described as a company registered under the Companies Act.",
+      "predicted_label": "Facts",
+      "confidence": 0.9277,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0164,
+        "Arguments of Respondent": 0.0157,
+        "Decision": 0.0001,
+        "Facts": 0.9277,
+        "Issue": 0.0021,
+        "Reasoning": 0.038
+      }
+    },
+    {
+      "sentence_id": 113,
+      "text": "It is mentioned in the plaint that the name of Respondent is struck off from the Register of Companies and, however, because of Section 250 of the Act of 2013, the suit is maintainable.",
+      "predicted_label": "Facts",
+      "confidence": 0.6251,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0152,
+        "Arguments of Respondent": 0.0073,
+        "Decision": 0.0087,
+        "Facts": 0.6251,
+        "Issue": 0.0017,
+        "Reasoning": 0.342
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 114,
+      "text": "Further, even if the Arbitral Tribunal committed a legal error in entertaining the application, that error cannot straightway lead to setting aside the award.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.6991,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1248,
+        "Arguments of Respondent": 0.1141,
+        "Decision": 0.0028,
+        "Facts": 0.0561,
+        "Issue": 0.0031,
+        "Reasoning": 0.6991
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 115,
+      "text": "The law declared by the Supreme Court is that the phrase Patent illegality appearing on the face of the award, which refers to such illegality as goes to the root of the matter but which does not amount to mere erroneous application of the law.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7381,
+      "probabilities": {
+        "Arguments of Petitioner": 0.146,
+        "Arguments of Respondent": 0.0529,
+        "Decision": 0.0002,
+        "Facts": 0.0576,
+        "Issue": 0.0052,
+        "Reasoning": 0.7381
+      }
+    },
+    {
+      "sentence_id": 116,
+      "text": "In short, what is not subsumed within the fundamental policy of Indian law, namely, the contravention of a statute not linked to public policy or the public interest, cannot be brought in by the backdoor when it comes to setting aside an award on the ground of patent",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.1473,
+        "Arguments of Respondent": 0.041,
+        "Decision": 0.0003,
+        "Facts": 0.0165,
+        "Issue": 0.001,
+        "Reasoning": 0.7938
+      }
+    },
+    {
+      "sentence_id": 117,
+      "text": "illegality.1 We do not find that in the present case, assuming there is a legal error, it falls within the test laid by the Supreme Court.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.8372,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0626,
+        "Arguments of Respondent": 0.045,
+        "Decision": 0.0076,
+        "Facts": 0.0429,
+        "Issue": 0.0046,
+        "Reasoning": 0.8372
+      }
+    },
+    {
+      "sentence_id": 118,
+      "text": "Both the grounds urged before us are devoid of merit.",
+      "predicted_label": "Reasoning",
+      "confidence": 0.7938,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0077,
+        "Arguments of Respondent": 0.0181,
+        "Decision": 0.1618,
+        "Facts": 0.0175,
+        "Issue": 0.0011,
+        "Reasoning": 0.7938
+      }
+    },
+    {
+      "sentence_id": 119,
+      "text": "No other grounds were urged.",
+      "predicted_label": "Facts",
+      "confidence": 0.6221,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0156,
+        "Arguments of Respondent": 0.0323,
+        "Decision": 0.0687,
+        "Facts": 0.6221,
+        "Issue": 0.0029,
+        "Reasoning": 0.2585
+      },
+      "quality_flag": "LOW_CONFIDENCE"
+    },
+    {
+      "sentence_id": 120,
+      "text": "The appeal is dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.9934,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0003,
+        "Arguments of Respondent": 0.0006,
+        "Decision": 0.9934,
+        "Facts": 0.0032,
+        "Issue": 0.0001,
+        "Reasoning": 0.0024
+      }
+    },
+    {
+      "sentence_id": 121,
+      "text": "As a consequence, Notice of Motion (L) No.662 of 2019 stands dismissed.",
+      "predicted_label": "Decision",
+      "confidence": 0.8825,
+      "probabilities": {
+        "Arguments of Petitioner": 0.0015,
+        "Arguments of Respondent": 0.0012,
+        "Decision": 0.8825,
+        "Facts": 0.0621,
+        "Issue": 0.0004,
+        "Reasoning": 0.0523
+      }
+    }
+  ]
+}
